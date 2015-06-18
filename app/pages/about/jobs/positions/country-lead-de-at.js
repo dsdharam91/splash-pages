@@ -34,7 +34,7 @@ export default class CountryLeadGermanyAustria extends React.Component {
           market.
         </p>
          <p className='para'>
-          One part of being an entrepreneur is to be a salesperson. 
+          A critical part of being a successful entrepreneur is to be a salesperson.
           In this role, you will put that into practice. All client-facing activities in the German
           market will be your responsibility: planning and delivering on launch activities to
           build momentum early and accompanying prospective customers from sales to live.
