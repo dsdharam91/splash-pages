@@ -48,7 +48,6 @@ export default class CountryLeadGermanyAustria extends React.Component {
           feed your market's needs into our development roadmap to ensure we're always
           building the product people want.
         </p>
-       
         <p className='para'>
           Launching GoCardless in a new territory will require a depth and breadth of
           skills akin to starting a new company. It's an exciting challenge, and you'll
