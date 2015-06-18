@@ -27,11 +27,19 @@ export default class CountryLeadGermanyAustria extends React.Component {
           The role
         </h4>
         <p className='para'>
-          We've laid foundations in the UK, and these will
+          We've laid strong foundations in the UK, and these will
           guide you as you figure out a strategy that will deliver rapid growth
           in Germany and Austria. Then you'll execute this strategy, driving in-country
           work independently and resourcefully, and swiftly becoming an expert in your
           market.
+        </p>
+         <p className='para'>
+          A critical part of being a successful entrepreneur is to be a salesperson.
+          In this role, you will put that into practice. All client-facing activities in the German
+          market will be your responsibility: planning and delivering on launch activities to
+          build momentum early and accompanying prospective customers from sales to live.
+          You'll handle initial marketing, PR, sales, partnerships and account management,
+          and start to build a team to support &amp; scale growth in your market.
         </p>
         <p className='para'>
           You will work closely with leaders across the company to understand all product,
@@ -41,16 +49,11 @@ export default class CountryLeadGermanyAustria extends React.Component {
           building the product people want.
         </p>
         <p className='para'>
-          All client-facing activities in your market will be your responsibility: planning
-          and delivering on launch activities to build momentum early; accompanying
-          prospective customers from sales to live. You'll handle initial marketing,
-          PR, sales, partnerships and account management, and start to build a team
-          to support &amp; scale growth in your market.
-        </p>
-        <p className='para'>
           Launching GoCardless in a new territory will require a depth and breadth of
           skills akin to starting a new company. It's an exciting challenge, and you'll
           benefit from the support and experience of our existing country leads.
+          You will co-direct the launch with one other Germany and Austria country lead, giving you the
+          opportunity to discuss ideas and strategies, but also to challenge each other.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>
           The ideal candidate
