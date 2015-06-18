@@ -52,7 +52,7 @@ export default class CountryLeadGermanyAustria extends React.Component {
           Launching GoCardless in a new territory will require a depth and breadth of
           skills akin to starting a new company. It's an exciting challenge, and you'll
           benefit from the support and experience of our existing country leads.
-          You will co-direct the launch with one other Germany and Austria country lead, giving you the 
+          You will co-direct the launch with one other Germany and Austria country lead, giving you the
           opportunity to discuss ideas and strategies, but also to challenge each other.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>
