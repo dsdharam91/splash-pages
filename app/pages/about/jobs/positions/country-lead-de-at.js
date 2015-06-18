@@ -34,8 +34,8 @@ export default class CountryLeadGermanyAustria extends React.Component {
           market.
         </p>
          <p className='para'>
-          You have been taught that one part of being an entrepreneur is to be a salesperson?
-          In this role, you will put this into practice. All client-facing activities in your
+          One part of being an entrepreneur is to be a salesperson. 
+          In this role, you will put that into practice. All client-facing activities in the German
           market will be your responsibility: planning and delivering on launch activities to
           build momentum early and accompanying prospective customers from sales to live.
           You'll handle initial marketing, PR, sales, partnerships and account management,
@@ -52,9 +52,8 @@ export default class CountryLeadGermanyAustria extends React.Component {
           Launching GoCardless in a new territory will require a depth and breadth of
           skills akin to starting a new company. It's an exciting challenge, and you'll
           benefit from the support and experience of our existing country leads.
-          In fact, we believe that launching GoCardless in a new territory as important
-          as Germany and Austria requires two of your kind, to keep you on your toes and offer
-          an opportunity to discuss ideas and strategies, but also to challenge each other.
+          You will co-direct the launch with one other Germany and Austria country lead, giving you the 
+          opportunity to discuss ideas and strategies, but also to challenge each other.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>
           The ideal candidate
