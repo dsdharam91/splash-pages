@@ -1,5 +1,7 @@
 import React from 'react';
 import Translation from '../../components/translation/translation';
+import IfLocale from '../../components/if-locale/if-locale';
+import Message from '../../components/message/message';
 import Link from '../../components/link/link';
 
 export default class SecurityFr extends React.Component {
@@ -63,12 +65,20 @@ export default class SecurityFr extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bm'>
-              Prenez contact avec notre équipe
-            </h2>
-            <Link to='contact_sales' query={{ s: 'pro' }} className='btn'>
-              Contactez-nous
-            </Link>
+            <IfLocale hasInstantSignup>
+              <a href='https://manage.gocardless.com/signup' className='btn'>
+                <Message pointer='cta.basic' />
+              </a>
+              <p className='u-color-p u-margin-Ts'>Pas de coûts mis en place , pas de frais cachés , aucun engagement</p>
+            </IfLocale>
+            <IfLocale hasInstantSignup={false}>
+              <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bm'>
+                Prenez contact avec notre équipe
+              </h2>
+              <Link to='contact_sales' query={{ s: 'pro' }} className='btn'>
+                Contactez-nous
+              </Link>
+            </IfLocale>
           </div>
         </div>
       </Translation>

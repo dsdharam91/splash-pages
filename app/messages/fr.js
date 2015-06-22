@@ -3,7 +3,7 @@
 export default {
   header: {
     our_products: 'Nos produits',
-    login_btn: 'Login',
+    login_btn: 'Se connecter',
     more: 'Plus',
   },
   footer: {

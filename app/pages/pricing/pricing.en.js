@@ -51,16 +51,14 @@ export default class PricingEn extends React.Component {
                         <Link to='features'>Find out more about GoCardless</Link>
                       </li>
                     </IfLinkExists>
-                    <IfLocale hasInstantSignup>
-                      <li className='pricing-options__list-button'>
+                    <li className='pricing-options__list-button'>
+                      <IfLocale hasInstantSignup>
                         <a href='/merchants/new' className='btn u-size-full'>Sign up today</a>
-                      </li>
-                    </IfLocale>
-                    <IfLocale hasInstantSignup={false}>
-                      <li className='pricing-options__list-button'>
+                      </IfLocale>
+                      <IfLocale hasInstantSignup={false}>
                         <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contact sales</Link>
-                      </li>
-                    </IfLocale>
+                      </IfLocale>
+                    </li>
                   </ul>
                 </div>
               </IfLocale>

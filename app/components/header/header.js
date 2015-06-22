@@ -4,6 +4,7 @@ import Href from '../href/href';
 import Message from '../message/message';
 import Translation from '../translation/translation';
 import IfLinkExists from '../if-link-exists/if-link-exists';
+import IfLocale from '../if-locale/if-locale';
 import Logo from '../../icons/logo/logo';
 import Popover from '../popover/popover';
 import classNames from 'classnames';
@@ -86,15 +87,15 @@ class Header extends React.Component {
                   </Link>
                 </IfLinkExists>
               </div>
-              <div className='nav__item u-relative'>
-                <IfLinkExists to='stories'>
+              <IfLinkExists to='stories'>
+                <div className='nav__item u-relative'>
                   <Link to='stories' id='track-nav-stories' className={linkClass}>
                     <div className='nav__item-link'>
                       <Message pointer='stories.nav_title' />
                     </div>
                   </Link>
-                </IfLinkExists>
-              </div>
+                </div>
+              </IfLinkExists>
               <div className='nav__item u-relative'>
                 <Popover toggle={
                   (<a href='' id='track-nav-more' className={linkClass}>
@@ -152,20 +153,32 @@ class Header extends React.Component {
                 </Popover>
               </div>
             </nav>
-            <ul className='u-cf u-pull-start'>
-              <Translation locales='en-GB'>
+            <IfLocale hasInstantSignup>
+              <ul className='u-cf u-pull-start'>
                 <li className='u-pull-start'>
-                  <a href='/users/sign_in' id='track-nav-sign-in'
-                  className={classNames('nav-btn btn btn--small u-text-light u-text-xxs u-relative',
-                    'u-text-transform-none u-text-no-smoothing', {
-                    'btn--invert-hollow': isInverted,
-                    'btn--hollow': !isInverted,
-                  })}>
-                    <Message pointer='header.login_btn' />
-                  </a>
+                  <Translation locales='en'>
+                    <a href='/users/sign_in' id='track-nav-sign-in'
+                    className={classNames('nav-btn btn btn--small u-text-light u-text-xxs u-relative',
+                      'u-text-transform-none u-text-no-smoothing', {
+                      'btn--invert-hollow': isInverted,
+                      'btn--hollow': !isInverted,
+                    })}>
+                      <Message pointer='header.login_btn' />
+                    </a>
+                  </Translation>
+                  <Translation locales='fr'>
+                    <a href='https://manage.gocardless.com' id='track-nav-sign-in'
+                    className={classNames('nav-btn btn btn--small u-text-light u-text-xxs u-relative',
+                      'u-text-transform-none u-text-no-smoothing', {
+                      'btn--invert-hollow': isInverted,
+                      'btn--hollow': !isInverted,
+                    })}>
+                      <Message pointer='header.login_btn' />
+                    </a>
+                  </Translation>
                 </li>
-              </Translation>
-            </ul>
+              </ul>
+            </IfLocale>
           </div>
         </div>
       </div>
