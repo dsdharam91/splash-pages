@@ -92,20 +92,11 @@ export default class ProductComparisonDe extends React.Component {
               <td className='comparison-table__cell'><Message pointer='country' /></td>
               <td className='comparison-table__cell'>Worldwide</td>
             </tr>
-            <Translation locales={['en']} exclude={['en-GB']}>
-              <tr className='comparison-table__row'>
-                <td className='comparison-table__cell u-text-end'>Accept payments from...</td>
-                <td className='comparison-table__cell'>22 countries (UK & Eurozone)</td>
-                <td className='comparison-table__cell'>22 countries (UK & Eurozone)</td>
-              </tr>
-            </Translation>
-            <Translation locales={['en-GB']}>
-              <tr className='comparison-table__row'>
-                <td className='comparison-table__cell u-text-end'>Accept payments from...</td>
-                <td className='comparison-table__cell'>UK (& Eurozone on request)</td>
-                <td className='comparison-table__cell'>UK & Eurozone</td>
-              </tr>
-            </Translation>
+            <tr className='comparison-table__row'>
+              <td className='comparison-table__cell u-text-end'>Accept payments from...</td>
+              <td className='comparison-table__cell'>22 countries (UK & Eurozone)</td>
+              <td className='comparison-table__cell'>22 countries (UK & Eurozone)</td>
+            </tr>
             <tr className='comparison-table__row'>
               <td className='comparison-table__cell u-text-end'>Collection methods</td>
               <td className='comparison-table__cell'>Online</td>
