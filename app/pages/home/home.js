@@ -6,6 +6,7 @@ import HomeEn from './home.en';
 import HomeFr from './home.fr';
 import HomeDe from './home.de';
 import IfLocale from '../../components/if-locale/if-locale';
+import Translation from '../../components/translation/translation';
 
 export default class Home extends React.Component {
   displayName = 'Home'
@@ -31,14 +32,23 @@ export default class Home extends React.Component {
                     </a>
                   </IfLocale>
                   <IfLocale hasInstantSignup>
-                    <a href='#learn-more' id='track-hero-learn-more' className='btn btn--invert btn--move u-size-2of12'>
+                    <a href='#learn-more' id='track-hero-learn-more' className='btn btn--invert btn--move u-size-2of9'>
                       <Message pointer='cta.more' />
                     </a>
-                    <a href='/merchants/new'
-                      className='btn btn--invert-hollow btn-move u-size-2of12 u-margin-Lm'
-                      id='track-hero-merchants-new'>
-                      <Message pointer='cta.pro_signup' />
-                    </a>
+                    <Translation locales='en'>
+                      <a href='/merchants/new'
+                        className='btn btn--invert-hollow btn-move u-size-2of9 u-margin-Lm'
+                        id='track-hero-merchants-new'>
+                        <Message pointer='cta.signup' />
+                      </a>
+                    </Translation>
+                    <Translation locales='fr'>
+                      <a href='https://manage.gocardless.com/signup'
+                        className='btn btn--invert-hollow btn-move u-size-2of9 u-margin-Lm'
+                        id='track-hero-merchants-new'>
+                        <Message pointer='cta.signup' />
+                      </a>
+                    </Translation>
                   </IfLocale>
                 </div>
               </div>

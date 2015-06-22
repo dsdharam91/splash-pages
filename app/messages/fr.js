@@ -22,7 +22,7 @@ export default {
   cta: {
     basic: 'Commencez à collecter des paiements',
     pro: 'Contactez-nous',
-    pro_signup: 'Sign Up Now',
+    signup: 'Inscrivez-vous',
     more: 'En apprendre plus',
   },
   signup_cta: {

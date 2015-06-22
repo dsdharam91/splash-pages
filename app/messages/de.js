@@ -15,7 +15,7 @@ export default {
   cta: {
     basic: 'Beginnen Sie Zahlungen zu empfangen',
     pro: 'Kontakt',
-    pro_signup: 'Jetzt anmelden',
+    signup: 'Jetzt anmelden',
     more: 'Erfahren Sie mehr',
   },
   signup_cta: {
