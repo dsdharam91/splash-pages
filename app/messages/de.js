@@ -35,8 +35,8 @@ export default {
     address_country: 'Vereinigtes Königreich',
     address_country_iso: 'GB',
   },
-  phone_full: '+49 30 5683 73022',
-  phone_local: '030 5683 73022',
+  phone_full: '+49 30 568373022',
+  phone_local: '030 568373022',
   email: 'deutschland@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {

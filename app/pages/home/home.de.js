@@ -2,6 +2,7 @@ import React from 'react';
 import Translation from '../../components/translation/translation';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 import MobileIcon from '../../icons/svg/mobile';
 import CheckListIcon from '../../icons/svg/checklist';
 import TickSquareIcon from '../../icons/svg/tick-square';
@@ -62,6 +63,12 @@ export default class HomeDe extends React.Component {
                 </p>
               </div>
             </div>
+            <p className='u-color-p u-margin-Txxl u-padding-Tm'>
+              Want to learn more about SEPA Direct Debit?
+            </p>
+            <Href to='guides.path' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+              Read our guide
+            </Href>
           </div>
         </div>
         <hr className='u-margin-An' />
