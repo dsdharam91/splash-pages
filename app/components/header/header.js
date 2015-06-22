@@ -78,23 +78,19 @@ class Header extends React.Component {
                    {products}
                  </Popover>
               </div>
-              <div className='nav__item u-relative'>
-                <IfLinkExists to='pricing'>
-                  <Link to='pricing' id='track-nav-pricing' className={linkClass}>
-                    <div className='nav__item-link'>
-                      <Message pointer='pricing.nav_title' />
-                    </div>
-                  </Link>
-                </IfLinkExists>
-              </div>
-              <IfLinkExists to='stories'>
-                <div className='nav__item u-relative'>
-                  <Link to='stories' id='track-nav-stories' className={linkClass}>
-                    <div className='nav__item-link'>
-                      <Message pointer='stories.nav_title' />
-                    </div>
-                  </Link>
-                </div>
+              <IfLinkExists to='pricing' className='nav__item u-relative'>
+                <Link to='pricing' id='track-nav-pricing' className={linkClass}>
+                  <div className='nav__item-link'>
+                    <Message pointer='pricing.nav_title' />
+                  </div>
+                </Link>
+              </IfLinkExists>
+              <IfLinkExists to='stories' className='nav__item u-relative'>
+                <Link to='stories' id='track-nav-stories' className={linkClass}>
+                  <div className='nav__item-link'>
+                    <Message pointer='stories.nav_title' />
+                  </div>
+                </Link>
               </IfLinkExists>
               <div className='nav__item u-relative'>
                 <Popover toggle={
@@ -107,54 +103,42 @@ class Header extends React.Component {
                   </a>)
                 }>
                   <ul className='u-text-xxs u-padding-Vxs'>
-                    <li className='u-text-semi'>
-                     <IfLinkExists to='security'>
-                       <Link to='security' id='track-nav-security' className='u-padding-Vxs u-padding-Hm u-block'
-                         pointer='security.nav_title' />
-                     </IfLinkExists>
-                    </li>
+                    <IfLinkExists to='security' tagName='li' className='u-text-semi'>
+                      <Link to='security' id='track-nav-security' className='u-padding-Vxs u-padding-Hm u-block'
+                        pointer='security.nav_title' />
+                    </IfLinkExists>
                     <li className='u-text-semi'>
                       <Href to='guides.path' id='track-nav-guides' className='u-padding-Vxs u-padding-Hm u-block'
                         pointer='guides.nav_title' />
                     </li>
-                    <Translation locales='en-GB'>
-                      <li className='u-text-semi'>
-                        <a href='http://help.gocardless.com' id='track-nav-help' className='u-padding-Vxs u-padding-Hm u-block'>
-                          <Message pointer='help.nav_title' />
-                        </a>
-                      </li>
+                    <Translation locales='en-GB' tagName='li' className='u-text-semi'>
+                      <a href='http://help.gocardless.com' id='track-nav-help' className='u-padding-Vxs u-padding-Hm u-block'>
+                        <Message pointer='help.nav_title' />
+                      </a>
                     </Translation>
-                    <li className='u-text-semi'>
-                      <IfLinkExists to='faq_merchants'>
-                        <Link to='faq_merchants' pointer='faq_merchants.link_title'
-                        id='track-nav-faq' className='u-padding-Vxs u-padding-Hm u-block' />
-                      </IfLinkExists>
-                    </li>
-                    <li className='u-text-semi'>
-                      <IfLinkExists to='faq_pro_dashboard'>
-                        <Link to='faq_pro_dashboard' pointer='faq_pro_dashboard.link_title'
-                        id='track-nav-faq-pro-dashboard' className='u-padding-Vxs u-padding-Hm u-block' />
-                      </IfLinkExists>
-                    </li>
+                    <IfLinkExists to='faq_merchants' tagName='li' className='u-text-semi'>
+                      <Link to='faq_merchants' pointer='faq_merchants.link_title'
+                      id='track-nav-faq' className='u-padding-Vxs u-padding-Hm u-block' />
+                    </IfLinkExists>
+                    <IfLinkExists to='faq_pro_dashboard' tagName='li' className='u-text-semi'>
+                      <Link to='faq_pro_dashboard' pointer='faq_pro_dashboard.link_title'
+                      id='track-nav-faq-pro-dashboard' className='u-padding-Vxs u-padding-Hm u-block' />
+                    </IfLinkExists>
                     <hr className='u-margin-Vs' />
-                    <li>
-                      <IfLinkExists to='about'>
-                        <Link to='about' pointer='about.nav_title'
-                          id='track-nav-about' className='u-padding-Vxs u-padding-Hm u-block' />
-                      </IfLinkExists>
-                    </li>
-                    <li>
-                      <IfLinkExists to='jobs'>
-                        <Link to='jobs' pointer='jobs.nav_title'
-                          id='track-nav-jobs' className='u-padding-Vxs u-padding-Hm u-block' />
-                      </IfLinkExists>
-                    </li>
+                    <IfLinkExists to='about' tagName='li'>
+                      <Link to='about' pointer='about.nav_title'
+                        id='track-nav-about' className='u-padding-Vxs u-padding-Hm u-block' />
+                    </IfLinkExists>
+                    <IfLinkExists to='jobs' tagName='li'>
+                      <Link to='jobs' pointer='jobs.nav_title'
+                        id='track-nav-jobs' className='u-padding-Vxs u-padding-Hm u-block' />
+                    </IfLinkExists>
                   </ul>
                 </Popover>
               </div>
             </nav>
-            <IfLocale hasInstantSignup>
-              <ul className='u-cf u-pull-start'>
+            <IfLocale hasInstantSignup className='u-pull-start'>
+              <ul className='u-cf'>
                 <li className='u-pull-start'>
                   <Translation locales='en'>
                     <a href='/users/sign_in' id='track-nav-sign-in'
