@@ -197,7 +197,7 @@ export default class HomeFr extends React.Component {
                 Des tarifs concurrentiels adaptés aux grandes entreprises comme aux start-ups
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
-                Découvrez nos tarifs
+                En apprendre plus sur notre prix
               </Link>
             </div>
           </div>

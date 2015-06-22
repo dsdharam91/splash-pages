@@ -18,7 +18,7 @@ export default {
   cta: {
     basic: 'Start taking payments',
     pro: 'Contact sales',
-    signup: 'Sign Up today',
+    signup: 'Sign Up Now',
     more: 'Learn More',
   },
   basic_pricing_cta: {

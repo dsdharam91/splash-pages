@@ -72,8 +72,8 @@ export default class FeaturesFr extends React.Component {
                 </IfLocale>
                 <Link to='contact_sales' id='track-sticky-nav-contact-sales'
                   className={
-                    'btn btn--small btn--hollow u-pull-end u-text-transform-none ' +
-                    'u-text-light u-text-xxs u-text-no-smoothing u-margin-Rs'
+                    'btn btn--small btn--hollow u-margin-Rs u-pull-end' +
+                    'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
                   }>
                   Contactez-nous
                 </Link>
