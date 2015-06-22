@@ -2,6 +2,7 @@ import React from 'react';
 import Page from '../../components/page/page';
 import FeaturesEn from './features.en';
 import FeaturesFr from './features.fr';
+import FeaturesDe from './features.de';
 
 export default class Features extends React.Component {
   displayName = 'Features'
@@ -11,6 +12,7 @@ export default class Features extends React.Component {
       <Page>
         <FeaturesEn />
         <FeaturesFr />
+        <FeaturesDe />
       </Page>
     );
   }

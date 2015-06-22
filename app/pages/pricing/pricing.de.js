@@ -1,18 +1,67 @@
 import React from 'react';
+import classNames from 'classnames';
 import Translation from '../../components/translation/translation';
+import IfLocale from '../../components/if-locale/if-locale';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
+import IfLinkExists from '../../components/if-link-exists/if-link-exists';
+import { getMessage } from '../../components/intl/intl';
 
 export default class PricingDe extends React.Component {
   displayName = 'PricingDe'
 
+  static contextTypes = {
+    messages: React.PropTypes.object.isRequired,
+  }
+
   render() {
+    const hasPercentagePricing = getMessage(this.context.messages, 'country_properties.has_percentage_pricing');
     return (
       <Translation locales='de'>
         <div className='page-hero--pricing page-hero'>
           <div className='site-container'>
             <div className='grid pricing-options u-center u-padding-Bxl'>
-              <div className='grid__cell u-padding-Vxl u-padding-Rxs'>
+
+             <IfLocale hasPercentagePricing>
+                <div className={classNames('grid__cell u-padding-Vxl u-padding-Rxs', { 'u-size-1of2': hasPercentagePricing })}>
+                  <h1 className='u-text-heading-light u-text-center u-color-invert u-text-l u-padding-Bs'>GoCardless</h1>
+                  <div className='u-relative u-background-primary u-padding-Vxl'>
+                    <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>
+                      <Message pointer='pricing.per_transaction_amount_normal' />
+                    </h2>
+                    <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
+                      Per transaction, capped at <Message pointer="pricing.cost_cap" />
+                    </p>
+                  </div>
+                  <ul className='pricing-options__list'>
+                    <li className='pricing-options__list-item u-color-heading'>
+                      <b>Perfect for small to medium sized businesses</b>
+                    </li>
+                    <li className='pricing-options__list-item'>
+                      No setup costs, hidden fees, or commitments</li>
+                    <li className='pricing-options__list-item'>
+                      Scale pricing available (<a href='#scale-pricing-container'>?</a>)
+                    </li>
+                    <IfLinkExists to='features'>
+                      <li className='pricing-options__list-item'>
+                        <Link to='features'>Erfahren Sie mehr über GoCardless</Link>
+                      </li>
+                    </IfLinkExists>
+                    <IfLocale hasInstantSignup>
+                      <li className='pricing-options__list-button'>
+                        <a href='/merchants/new' className='btn u-size-full'>Sign up today</a>
+                      </li>
+                    </IfLocale>
+                    <IfLocale hasInstantSignup={false}>
+                      <li className='pricing-options__list-button'>
+                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Kontakt</Link>
+                      </li>
+                    </IfLocale>
+                  </ul>
+                </div>
+              </IfLocale>
+
+              <div className={classNames('grid__cell u-padding-Vxl u-padding-Rxs', { 'u-size-1of2': hasPercentagePricing })}>
                 <h1 className='u-text-heading-light u-text-center u-color-invert u-text-l u-padding-Bs'>GoCardless</h1>
                 <div className='u-background-dark-gray-darken u-padding-Vxl'>
                   <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>

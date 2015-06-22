@@ -3,9 +3,13 @@ import Translation from '../../components/translation/translation';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
+
 import MobileIcon from '../../icons/svg/mobile';
 import CheckListIcon from '../../icons/svg/checklist';
 import TickSquareIcon from '../../icons/svg/tick-square';
+import ProIcon from '../../icons/svg/pro';
+import ShopIcon from '../../icons/svg/shop';
+import IntegrationsIcon from '../../icons/svg/integrations';
 
 
 export default class HomeDe extends React.Component {
@@ -69,6 +73,50 @@ export default class HomeDe extends React.Component {
             <Href to='guides.path' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
               Read our guide
             </Href>
+          </div>
+        </div>
+        <hr className='u-margin-An' />
+        <div className='site-container u-text-center u-padding-Vxxl'>
+          <h2 className='u-text-l u-text-heading u-colo-heading u-text-light u-margin-Tl'>
+            What are you looking for?
+          </h2>
+          <div className='product-grid grid u-margin-Vxxl'>
+            <Link to='features' id='track-cta-features' className='u-link-clean u-text-center grid__cell u-size-1of3'>
+              <div className='product-grid__container u-padding-Vl'>
+                <figure className='svg-icon u-center'>
+                  <ShopIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
+                  <ShopIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Super simple<br />online payments
+                </p>
+              </div>
+              <div className='product-grid__btn btn u-size-full'>Discover GoCardless</div>
+            </Link>
+            <Link to='pro' id='track-cta-pro' className='u-link-clean u-text-center grid__cell u-size-1of3'>
+              <div className='product-grid__container u-padding-Vl'>
+                <figure className='svg-icon u-center'>
+                  <ProIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
+                  <ProIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Complete control<br />over Direct Debit
+                </p>
+              </div>
+              <div className='product-grid__btn btn u-size-full'>Discover GoCardless Pro</div>
+            </Link>
+            <Link to='partners' id='track-cta-partners' className='u-link-clean u-text-center grid__cell u-size-1of3'>
+              <div className='product-grid__container u-padding-Vl'>
+                <figure className='svg-icon u-center'>
+                  <IntegrationsIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
+                  <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Help your customers<br />collect payments
+                </p>
+              </div>
+              <div className='product-grid__btn btn u-size-full'>Discover our partners</div>
+            </Link>
           </div>
         </div>
         <hr className='u-margin-An' />
