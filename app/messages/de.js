@@ -18,7 +18,7 @@ export default {
     signup: 'Jetzt anmelden',
     more: 'Erfahren Sie mehr',
   },
-  signup_cta: {
+  basic_pricing_cta: {
     main: 'Zahlen Sie 1%',
     description: 'Nur 1% pro Transaktion, begrenzt bei €2.',
     learn_more: 'Erfahren Sie mehr über unsere Preise',

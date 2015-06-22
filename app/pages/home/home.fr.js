@@ -1,5 +1,6 @@
 import React from 'react';
 import Translation from '../../components/translation/translation';
+import IfLocale from '../../components/if-locale/if-locale';
 import TickSquareIcon from '../../icons/svg/tick-square';
 import ChecklistIcon from '../../icons/svg/checklist';
 import RealtimeIcon from '../../icons/svg/realtime';
@@ -180,7 +181,7 @@ export default class HomeFr extends React.Component {
             </div>
           </div>
           <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
-                <img src='/images/fr/logos/pro-logos-fr@2x.jpg' />
+            <img src='/images/fr/logos/pro-logos-fr@2x.jpg' />
           </div>
         </div>
 
@@ -196,11 +197,20 @@ export default class HomeFr extends React.Component {
                 Des tarifs concurrentiels adaptés aux grandes entreprises comme aux start-ups
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
-                En apprendre plus sur notre prix
+                Découvrez nos tarifs
               </Link>
             </div>
           </div>
         </div>
+        <IfLocale hasInstantSignup>
+          <hr className='u-margin-An' />
+          <div className='site-container u-text-center u-padding-Vxxl'>
+            <div className='u-padding-Vxl'>
+              <a href='https://manage.gocardless.com/signup' id='track-cta-sign-up' className='btn'>Commencez à prendre des paiements</a>
+              <p className='u-color-p u-margin-Ts'>Pas de coûts mis en place, pas de frais cachés, aucun engagement</p>
+            </div>
+          </div>
+        </IfLocale>
       </Translation>
     );
   }

@@ -21,10 +21,15 @@ export default {
     signup: 'Sign Up today',
     more: 'Learn More',
   },
-  signup_cta: {
+  basic_pricing_cta: {
     main: 'Pay 1%',
     description: 'Just 1% per transaction, capped at €2.',
     learn_more: 'Learn about our pricing',
+  },
+  signup_cta: {
+    main: 'Sign up in minutes, take payments today',
+    button_text: 'Start taking payments',
+    description: 'No set up costs, no hidden charges, no commitments',
   },
   hero: {
     desc: 'GoCardless makes collecting by Direct Debit easy for everyone from individuals to multi-national corporations',

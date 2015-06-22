@@ -25,10 +25,15 @@ export default {
     signup: 'Inscrivez-vous',
     more: 'En apprendre plus',
   },
-  signup_cta: {
+  basic_pricing_cta: {
     main: 'Payez 1%',
     description: 'Seulement 1% par transaction, plafonné à 2€.',
     learn_more: 'Découvrez nos tarifs',
+  },
+  signup_cta: {
+    main: 'Inscrivez-vous en quelques minutes , prendre les paiements aujourd‘hui',
+    button_text: 'Commencez à prendre des paiements',
+    description: 'Pas de coûts mis en place , pas de frais cachés , aucun engagement',
   },
   contact_types: ['sales'],
   postal_address: {

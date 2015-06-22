@@ -12,7 +12,7 @@ export default {
   footer: {
     description: 'GoCardless is a Bacs approved bureau and is regulated by the Financial Conduct Authority as an Authorised Payment Institution.',
   },
-  signup_cta: {
+  basic_pricing_cta: {
     description: 'Just 1% per transaction, capped at £2.',
   },
   home: {
