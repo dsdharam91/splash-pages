@@ -22,7 +22,7 @@ export default class PricingFr extends React.Component {
                   <div className='u-background-primary u-padding-Vxl'>
                     <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>1%</h2>
                     <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
-                      Par transaction, plafonné à 2€
+                      Par transaction réussie, plafonné à 2€
                     </p>
                   </div>
                   <ul className='pricing-options__list'>
@@ -57,7 +57,7 @@ export default class PricingFr extends React.Component {
                   <div className='u-background-dark-gray-darken u-padding-Vxl'>
                     <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>0,01 — 0,60 €</h2>
                     <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
-                      Par transaction
+                      Par transaction réussie
                     </p>
                   </div>
                   <ul className='pricing-options__list'>

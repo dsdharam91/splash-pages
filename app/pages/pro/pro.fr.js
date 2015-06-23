@@ -240,7 +240,7 @@ export default class ProFr extends React.Component {
                 Contactez-nous
               </Link>
               <a href='https://manage-sandbox.gocardless.com/registrations/create'
-              id='track-cta-try-pro-dash' className='btn btn--hollow'>Essayez gratuitement</a>
+              id='track-cta-try-pro-dash' className='btn btn--hollow'>Essayez Pro gratuitement</a>
             </div>
           </div>
         </div>

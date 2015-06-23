@@ -169,8 +169,8 @@ export default {
     description: '',
   },
   faq_pro_dashboard_payout_tracking: {
-    title: 'FAQ - Suivi de vos virements',
-    nav_title: 'Suivi de vos virements',
+    title: 'FAQ - Suivi de vos encaissements',
+    nav_title: 'Suivi de vos encaissements',
     description: '',
   },
   home: {

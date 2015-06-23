@@ -608,7 +608,7 @@ export const config = Immutable.fromJS([
   ],
   [FaqProDashboardPayoutTracking, { name: 'faq_pro_dashboard_payout_tracking', category: 'faq.pro_dashboard' }, {
       fr: {
-        path: '/faq/tableau-de-bord-pro/suivi-virements',
+        path: '/faq/tableau-de-bord-pro/suivi-encaissements',
       },
     },
   ],
