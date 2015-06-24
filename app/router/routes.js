@@ -146,7 +146,7 @@ export const config = Immutable.fromJS([
         path: '/fonctionalites',
       },
       de: {
-        path: '/features',
+        path: '/funktionen',
       },
     },
   ],

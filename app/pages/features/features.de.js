@@ -172,7 +172,7 @@ export default class FeaturesDe extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                     Halten Sie die Kontrolle über Ihren Cashflow
                   </h2>
-                  <h3 className='u-text-s'>Sofortige Status Reports</h3>
+                  <h3 className='u-text-s'>Sehen Sie sofortige Status Reports</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Unser übersichtliches Online Dashboard sowie unsere Email Benachrichtigungen halten Sie jederzeit
                     auf dem Laufenden über Ihre Kunden und deren Zahlungen.
@@ -271,7 +271,7 @@ export default class FeaturesDe extends React.Component {
                     Ihr Online Dashboard
                   </h2>
                   <div className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    Alles, was Sie benötigen, um Zahlungen zu empfangen. Ganz ohne Installierung.
+                    Alles, was Sie benötigen, um Zahlungen zu empfangen. Ganz ohne Installation.
                   </div>
                   <hr className='u-margin-Vxxl' />
                 </div>
