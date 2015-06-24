@@ -137,31 +137,16 @@ class Header extends React.Component {
                 </Popover>
               </div>
             </nav>
-            <IfLocale hasInstantSignup className='u-pull-start'>
-              <ul className='u-cf'>
-                <li className='u-pull-start'>
-                  <Translation locales='en'>
-                    <a href='/users/sign_in' id='track-nav-sign-in'
-                    className={classNames('nav-btn btn btn--small u-text-light u-text-xxs u-relative',
-                      'u-text-transform-none u-text-no-smoothing', {
-                      'btn--invert-hollow': isInverted,
-                      'btn--hollow': !isInverted,
-                    })}>
-                      <Message pointer='header.login_btn' />
-                    </a>
-                  </Translation>
-                  <Translation locales='fr'>
-                    <a href='https://manage.gocardless.com' id='track-nav-sign-in'
-                    className={classNames('nav-btn btn btn--small u-text-light u-text-xxs u-relative',
-                      'u-text-transform-none u-text-no-smoothing', {
-                      'btn--invert-hollow': isInverted,
-                      'btn--hollow': !isInverted,
-                    })}>
-                      <Message pointer='header.login_btn' />
-                    </a>
-                  </Translation>
-                </li>
-              </ul>
+            <IfLocale hasInstantSignup tagName='ul' className='u-pull-start u-cf'>
+              <li className='u-pull-start'>
+                <Href to='signin.path' id='track-nav-sign-in'
+                className={classNames('nav-btn btn btn--small u-text-light u-text-xxs u-relative',
+                  'u-text-transform-none u-text-no-smoothing', {
+                  'btn--invert-hollow': isInverted,
+                  'btn--hollow': !isInverted,
+                })}
+                pointer='header.login_btn' />
+              </li>
             </IfLocale>
           </div>
         </div>

@@ -278,4 +278,10 @@ export default {
     title: 'Soutien',
     nav_title: 'Soutien',
   },
+  signin: {
+    path: 'http://manage.gocardless.com',
+  },
+  signup: {
+    path: 'http://manage.gocardless.com/signup',
+  },
 };

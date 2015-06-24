@@ -412,6 +412,12 @@ export default {
     title: 'Support',
     nav_title: 'Support',
   },
+  signin: {
+    path: '/users/sign_in',
+  },
+  signup: {
+    path: '/merchants/new',
+  },
   stories_has_bean_coffee: {
     title: 'Has Bean Coffee',
     description: 'Has Bean Coffee improved their cashflow by 30% using Direct Debit with GoCardless. See their testimonial of taking subscriptions using GoCardless.',
