@@ -26,11 +26,11 @@ export default class FeaturesDe extends React.Component {
               <div className='page-hero__inner'>
                 <div className='page-hero__text'>
                   <h1 className='u-text-heading u-margin-Tm u-color-invert u-text-center u-text-xl u-text-light'>
-                    Start taking payments today
+                   Ziehen Sie heute die ersten Zahlungen ein
                   </h1>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    GoCardless is the quickest and easiest way to take one-off and <br />recurring payments
-                    online in Germany
+                    GoCardless ist der schnellste und einfachste Weg einmalige sowie <br />wiederkehrende online Zahlungen
+                    in Deutschland einzuziehen
                   </p>
                 </div>
               </div>
@@ -43,12 +43,12 @@ export default class FeaturesDe extends React.Component {
                 <ul className='u-pull-start u-margin-Txxs'>
                   <li className='sticky-nav__item'>
                     <a href='#overview' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-overview' className='sticky-nav__link'>
-                      Overview
+                      Überblick
                     </a>
                   </li>
                   <li className='sticky-nav__item'>
                     <a href='#features' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-features' className='sticky-nav__link'>
-                      Features
+                      Funktionen
                     </a>
                   </li>
                   <li className='sticky-nav__item'>
@@ -58,7 +58,7 @@ export default class FeaturesDe extends React.Component {
                   </li>
                   <li className='sticky-nav__item'>
                     <a href='#pricing' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-pricing' className='sticky-nav__link'>
-                      Pricing
+                      Preise
                     </a>
                   </li>
                 </ul>
@@ -83,11 +83,11 @@ export default class FeaturesDe extends React.Component {
                       <ClockIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Get started in 24 hours
+                      Starten Sie in 24 Stunden
                     </div>
                     <p className='u-color-p u-margin-Txs'>
-                      All you need is a bank account in <Message pointer='country' />. <Link to='contact_sales'>Contact us</Link> in
-                      order to get started.
+                      Sie brauchen nur ein Bankkonto in <Message pointer='country' />. <Link to='contact_sales'>Kontaktieren Sie uns </Link>
+                      um zu beginnen.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
@@ -96,12 +96,12 @@ export default class FeaturesDe extends React.Component {
                       <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      No setup fees
+                      Keine Anschlussgebühr
                     </div>
                     <p className='u-color-p u-margin-Txs'>
-                      GoCardless costs just <Message pointer='pricing.per_transaction_amount_normal' /> per transaction
-                      (capped at <Message pointer="pricing.cost_cap" />) with no monthly or setup fees.
-                      Scale pricing is also available.
+                      GoCardless kostet <Message pointer='pricing.per_transaction_amount_normal' /> pro Zahlung
+                      (gedeckelt bei <Message pointer="pricing.cost_cap" />) ohne monatliche oder Anschlussgebühr.
+                      Mit wachsendem Volumen sinken die Preise.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
@@ -110,10 +110,11 @@ export default class FeaturesDe extends React.Component {
                       <CheckListIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Automate everything
+                      Automatieren Sie alles
                     </div>
                     <p className='u-color-p u-margin-Txs'>
-                      GoCardless automates the taking, tracking and reconciliation of your payments. We do all the hard work for you.
+                      GoCardless automatisiert für Sie das Einziehen, Verfolgen und die Schlichtung von Zahlungen. Wir übernehmen die
+                      anstrengende Arbeit für Sie.
                     </p>
                   </div>
                 </div>
@@ -124,11 +125,11 @@ export default class FeaturesDe extends React.Component {
                       <CustomerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      High customer retention
+                      Starke Verbleibquote
                     </div>
                     <p className='u-color-p u-margin-Txs'>
-                      Because it's built on the Direct Debit system,
-                      GoCardless means not losing customers through card expiry or cancellation.
+                      Da GoCardless auf dem Lastschriftverfahren aufbaut,
+                      verlieren Sie weniger Kunden durch Kreditkartenablauf oder Kündigungen.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
@@ -137,10 +138,10 @@ export default class FeaturesDe extends React.Component {
                       <SecurityIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Military-grade security
+                      Robuste Sicherheit
                     </div>
                     <p className='u-color-p u-margin-Txs'>
-                      We store all bank details with RSA encryption and communicate only over secure channels.
+                      Wir speichern alle Bankdetails mit RSA Verschlüsselung und kommunizieren ausschließlich über sichere Verbindungen.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
@@ -149,11 +150,11 @@ export default class FeaturesDe extends React.Component {
                       <DeveloperIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Modern, RESTful API
+                      Moderne, RESTful API
                     </div>
                     <p className='u-color-p u-margin-Txs'>
-                      Add GoCardless to your site or app in minutes with our easy to use API
-                      libraries. <a href='https://developer.gocardless.com/pro'>Learn more</a>.
+                      Integrieren Sie GoCardless innerhalb von Minuten in Ihre Webseite oder App mit Hilfe
+                      unserer API Leitfäden. <a href='https://developer.gocardless.com/pro'>Mehr hierzu</a>.
                     </p>
                   </div>
                 </div>
@@ -169,20 +170,20 @@ export default class FeaturesDe extends React.Component {
                 </div>
                 <div className='grid__cell u-size-1of2 u-margin-Tl'>
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
-                    Take the guesswork out of cashflow
+                    Halten Sie die Kontrolle über Ihren Cashflow
                   </h2>
-                  <h3 className='u-text-s'>Up to the second status reports</h3>
+                  <h3 className='u-text-s'>Sofortige Status Reports</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    Our simple online dashboard and email notifications keep you updated with comprehensive
-                    information on all of your payments and customers.
+                    Unser übersichtliches Online Dashboard sowie unsere Email Benachrichtigungen halten Sie jederzeit
+                    auf dem Laufenden über Ihre Kunden und deren Zahlungen.
                   </p>
-                  <h3 className='u-text-s'>Export your data</h3>
+                  <h3 className='u-text-s'>Exportieren Sie Ihre Daten</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    View your data the way you want. GoCardless is compatible with the most popular accounting packages.
+                    Sehen Sie Ihre Daten genau so, wie Sie das möchten. GoCardless ist mit den meisten Verwaltungssoftwares kompatibel.
                   </p>
-                  <h3 className='u-text-s'>Submit payments every day</h3>
+                  <h3 className='u-text-s'>Ziehen Sie täglich Zahlungen ein</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    With GoCardless you can submit payments as often as you like without any extra hassle or cost.
+                    Mit GoCardless können Sie so oft Sie möchten Zahlungen kreieren — ohne extra Aufwand oder Kosten.
                   </p>
                 </div>
               </div>
@@ -192,26 +193,26 @@ export default class FeaturesDe extends React.Component {
               <div className='grid u-padding-Vxl'>
                 <div className='grid__cell u-size-1of2'>
                   <h2 className='u-text-l u-text-heading u-color-heading u-text-light u-margin-Bl'>
-                    Your customers will love it
+                    Ihre Kunden werden es lieben
                   </h2>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    GoCardless is a FCA authorised institution which makes
-                    payments quick and simple for you and your customers.
+                    GoCardless ist ein authorisierter Zahlungsdienst, der Zahlungen für Sie
+                    und Ihre Kunden zum Kinderspiel macht.
                   </p>
-                  <h3 className='u-text-s'>Simple online set up</h3>
+                  <h3 className='u-text-s'>Einfache online Einrichtung</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    The whole process happens online. Using our online form, your customers can authorise
-                    payments in minutes — even from their mobile phone.
+                    Der gesamte Prozess findet online statt. Ihre Kunden können Zahlungen innerhalb von Minuten in unserem
+                    online Formular authorisieren — auch mobil.
                   </p>
-                  <h3 className='u-text-s'>Your logo, front and centre</h3>
+                  <h3 className='u-text-s'>Ihr Logo und Ihr Name</h3>
                   <p className='u-color-p u-margin-Bm'>
-                    Provide a great user experience by adding your logo to our<br />payment forms and
-                    automatically sending customers back<br />to your site after paying.
+                    Generieren Sie eine tolle User Experience für Ihre Kunden,<br />indem Sie unsere Zahlungsformulare mit
+                    Ihrem Logo ausstatten, und Ihre Kunden nach der Zahlung automatisch auf Ihre Seite leiten.
                   </p>
-                  <h3 className='u-text-s'>A safe and easy way to pay</h3>
+                  <h3 className='u-text-s'>Ein sicherer und einfacher Weg zu zahlen</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    With Direct Debit, there's no need for customers to worry about missing a payment.
-                    Customers are also protected by SEPA Direct Debit Customer Protection.
+                    Mit Lastschriften gibt es für Ihre Kunden keinen Grund mehr sich über Zahlungsverzögerungen zu sorgen.
+                    Ihre Kunden sind außerdem geschützt durch das SEPA Lastschriftabkommen.
                   </p>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center'>
@@ -232,7 +233,7 @@ export default class FeaturesDe extends React.Component {
                   </h2>
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
-                      Speak with one of our payments experts to learn how GoCardless can help your business.
+                      Sprechen Sie heute mit einem unserer Lastschriftexperten, um zu erfahren, wie GoCardless Ihnen helfen könnte.
                     </p>
                   </div>
                   <Link to='contact_sales' id='track-cta-contact-sales' className='btn btn--hollow u-margin-Tm'>
@@ -252,7 +253,7 @@ export default class FeaturesDe extends React.Component {
                       <td />
                       <td className='u-padding-As u-size-1of3'>
                         <Link to='pro' id='track-comparison-table-pro' className='u-color-primary'>
-                          Learn more about GoCardless Pro
+                          Erfahren Sie mehr über GoCardless Pro
                         </Link>
                       </td>
                     </tr>
@@ -267,10 +268,10 @@ export default class FeaturesDe extends React.Component {
               <div className='u-padding-Vxl'>
                 <div className='u-size-2of3 u-center'>
                   <h2 className='u-text-heading u-color-heading u-text-xl u-text-light u-margin-Bs'>
-                    Your dashboard
+                    Ihr Online Dashboard
                   </h2>
                   <div className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    All online, nothing to install.<br />Everything you need to get paid
+                    Alles, was Sie benötigen, um Zahlungen zu empfangen. Ganz ohne Installierung.
                   </div>
                   <hr className='u-margin-Vxxl' />
                 </div>
@@ -278,17 +279,17 @@ export default class FeaturesDe extends React.Component {
                   <Tabs triggers={[(
                     <a href='#dashboard-home' id='track-dashboard-home'
                       className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                      Dashboard home
+                      Überblick
                     </a>
                   ), (
                     <a href='#add-customers' id='track-dashboard-customers'
                       className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                      Add customers
+                      Neue Kunden
                     </a>
                   ), (
                     <a href='#take-payments' id='track-dashboard-payments'
                       className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                      Take payments
+                      Neue Zahlungen
                     </a>
                   ),]}>
                     <div>

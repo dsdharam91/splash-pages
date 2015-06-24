@@ -68,17 +68,17 @@ export default class HomeDe extends React.Component {
               </div>
             </div>
             <p className='u-color-p u-margin-Txxl u-padding-Tm'>
-              Want to learn more about SEPA Direct Debit?
+              Sie möchten mehr über SEPA erfahren?
             </p>
             <Href to='guides.path' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
-              Read our guide
+              Lesen Sie unser SEPA Handbuch
             </Href>
           </div>
         </div>
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <h2 className='u-text-l u-text-heading u-colo-heading u-text-light u-margin-Tl'>
-            What are you looking for?
+            Wie können wir Ihnen helfen?
           </h2>
           <div className='product-grid grid u-margin-Vxxl'>
             <Link to='features' id='track-cta-features' className='u-link-clean u-text-center grid__cell u-size-1of3'>
@@ -88,10 +88,10 @@ export default class HomeDe extends React.Component {
                   <ShopIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Super simple<br />online payments
+                  Ganz einfache<br />online Zahlungen
                 </p>
               </div>
-              <div className='product-grid__btn btn u-size-full'>Discover GoCardless</div>
+              <div className='product-grid__btn btn u-size-full'>Entdecken Sie GoCardless</div>
             </Link>
             <Link to='pro' id='track-cta-pro' className='u-link-clean u-text-center grid__cell u-size-1of3'>
               <div className='product-grid__container u-padding-Vl'>
@@ -100,10 +100,10 @@ export default class HomeDe extends React.Component {
                   <ProIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Complete control<br />over Direct Debit
+                  Volle Kontrolle<br />über Lastschriften
                 </p>
               </div>
-              <div className='product-grid__btn btn u-size-full'>Discover GoCardless Pro</div>
+              <div className='product-grid__btn btn u-size-full'>Entdecken Sie GoCardless Pro</div>
             </Link>
             <Link to='partners' id='track-cta-partners' className='u-link-clean u-text-center grid__cell u-size-1of3'>
               <div className='product-grid__container u-padding-Vl'>
@@ -112,10 +112,10 @@ export default class HomeDe extends React.Component {
                   <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Help your customers<br />collect payments
+                  Helfen Sie Ihren Kunden<br />Zahlungen einzuzuiehen
                 </p>
               </div>
-              <div className='product-grid__btn btn u-size-full'>Discover our partners</div>
+              <div className='product-grid__btn btn u-size-full'>Entdecken Sie unsere Partner</div>
             </Link>
           </div>
         </div>
