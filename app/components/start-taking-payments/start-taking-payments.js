@@ -1,5 +1,7 @@
 import React from 'react';
 import IfLocale from '../if-locale/if-locale';
+import Message from '../message/message';
+import Href from '../href/href';
 
 export default class StartTakingPaymentsCTA extends React.Component {
   displayName = 'StartTakingPaymentsCTA'
@@ -10,10 +12,13 @@ export default class StartTakingPaymentsCTA extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bm'>
-              Sign up in minutes, take payments today
+              <Message pointer='signup_cta.main' />
             </h2>
-            <a href='/merchants/new' className='btn'>Start taking payments</a>
-            <p className='u-color-p u-margin-Ts'>No set up costs, no hidden charges, no commitments</p>
+            <Href to='signup.path' className='btn'
+            pointer='signup_cta.button_text' />
+            <p className='u-color-p u-margin-Ts'>
+              <Message pointer='signup_cta.description' />
+            </p>
           </div>
         </div>
       </IfLocale>

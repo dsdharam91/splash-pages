@@ -1,5 +1,4 @@
 import React from 'react';
-import Message from '../../components/message/message';
 import ProductComparison from '../../components/product-comparison/product-comparison';
 import Tabs from '../../components/tabs/tabs';
 import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
@@ -13,6 +12,7 @@ import DeveloperIcon from '../../icons/svg/developer';
 import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
 import Translation from '../../components/translation/translation';
+import IfLocale from '../../components/if-locale/if-locale';
 
 export default class FeaturesFr extends React.Component {
   displayName = 'FeaturesFr'
@@ -61,12 +61,21 @@ export default class FeaturesFr extends React.Component {
                     </a>
                   </li>
                 </ul>
+                <IfLocale hasInstantSignup>
+                  <a href='https://manage.gocardless.com/signup' id='track-sticky-nav-merchants-new'
+                    className={
+                      'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
+                      'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
+                    }>
+                    Commencez à collecter des paiements
+                  </a>
+                </IfLocale>
                 <Link to='contact_sales' id='track-sticky-nav-contact-sales'
                   className={
-                    'btn btn--small btn--hollow u-pull-end u-text-transform-none ' +
-                    'u-text-light u-text-xxs u-text-no-smoothing u-margin-Rs'
+                    'btn btn--small btn--hollow u-margin-Rs u-pull-end ' +
+                    'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
                   }>
-                  <Message pointer='cta.pro' />
+                  Contactez-nous
                 </Link>
               </div>
               <hr className='u-margin-An' />

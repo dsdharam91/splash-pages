@@ -4,6 +4,7 @@ import Href from '../href/href';
 import Message from '../message/message';
 import Translation from '../translation/translation';
 import IfLinkExists from '../if-link-exists/if-link-exists';
+import IfLocale from '../if-locale/if-locale';
 import Logo from '../../icons/logo/logo';
 import Popover from '../popover/popover';
 import classNames from 'classnames';
@@ -77,24 +78,20 @@ class Header extends React.Component {
                    {products}
                  </Popover>
               </div>
-              <div className='nav__item u-relative'>
-                <IfLinkExists to='pricing'>
-                  <Link to='pricing' id='track-nav-pricing' className={linkClass}>
-                    <div className='nav__item-link'>
-                      <Message pointer='pricing.nav_title' />
-                    </div>
-                  </Link>
-                </IfLinkExists>
-              </div>
-              <div className='nav__item u-relative'>
-                <IfLinkExists to='stories'>
-                  <Link to='stories' id='track-nav-stories' className={linkClass}>
-                    <div className='nav__item-link'>
-                      <Message pointer='stories.nav_title' />
-                    </div>
-                  </Link>
-                </IfLinkExists>
-              </div>
+              <IfLinkExists to='pricing' tagName='div' className='nav__item u-relative'>
+                <Link to='pricing' id='track-nav-pricing' className={linkClass}>
+                  <div className='nav__item-link'>
+                    <Message pointer='pricing.nav_title' />
+                  </div>
+                </Link>
+              </IfLinkExists>
+              <IfLinkExists to='stories' tagName='div' className='nav__item u-relative'>
+                <Link to='stories' id='track-nav-stories' className={linkClass}>
+                  <div className='nav__item-link'>
+                    <Message pointer='stories.nav_title' />
+                  </div>
+                </Link>
+              </IfLinkExists>
               <div className='nav__item u-relative'>
                 <Popover toggle={
                   (<a href='' id='track-nav-more' className={linkClass}>
@@ -106,66 +103,51 @@ class Header extends React.Component {
                   </a>)
                 }>
                   <ul className='u-text-xxs u-padding-Vxs'>
-                    <li className='u-text-semi'>
-                     <IfLinkExists to='security'>
-                       <Link to='security' id='track-nav-security' className='u-padding-Vxs u-padding-Hm u-block'
-                         pointer='security.nav_title' />
-                     </IfLinkExists>
-                    </li>
+                    <IfLinkExists to='security' tagName='li' className='u-text-semi'>
+                      <Link to='security' id='track-nav-security' className='u-padding-Vxs u-padding-Hm u-block'
+                        pointer='security.nav_title' />
+                    </IfLinkExists>
                     <li className='u-text-semi'>
                       <Href to='guides.path' id='track-nav-guides' className='u-padding-Vxs u-padding-Hm u-block'
                         pointer='guides.nav_title' />
                     </li>
-                    <Translation locales='en-GB'>
-                      <li className='u-text-semi'>
-                        <a href='http://help.gocardless.com' id='track-nav-help' className='u-padding-Vxs u-padding-Hm u-block'>
-                          <Message pointer='help.nav_title' />
-                        </a>
-                      </li>
+                    <Translation locales='en-GB' tagName='li' className='u-text-semi'>
+                      <a href='http://help.gocardless.com' id='track-nav-help' className='u-padding-Vxs u-padding-Hm u-block'>
+                        <Message pointer='help.nav_title' />
+                      </a>
                     </Translation>
-                    <li className='u-text-semi'>
-                      <IfLinkExists to='faq_merchants'>
-                        <Link to='faq_merchants' pointer='faq_merchants.link_title'
-                        id='track-nav-faq' className='u-padding-Vxs u-padding-Hm u-block' />
-                      </IfLinkExists>
-                    </li>
-                    <li className='u-text-semi'>
-                      <IfLinkExists to='faq_pro_dashboard'>
-                        <Link to='faq_pro_dashboard' pointer='faq_pro_dashboard.link_title'
-                        id='track-nav-faq-pro-dashboard' className='u-padding-Vxs u-padding-Hm u-block' />
-                      </IfLinkExists>
-                    </li>
+                    <IfLinkExists to='faq_merchants' tagName='li' className='u-text-semi'>
+                      <Link to='faq_merchants' pointer='faq_merchants.link_title'
+                      id='track-nav-faq' className='u-padding-Vxs u-padding-Hm u-block' />
+                    </IfLinkExists>
+                    <IfLinkExists to='faq_pro_dashboard' tagName='li' className='u-text-semi'>
+                      <Link to='faq_pro_dashboard' pointer='faq_pro_dashboard.link_title'
+                      id='track-nav-faq-pro-dashboard' className='u-padding-Vxs u-padding-Hm u-block' />
+                    </IfLinkExists>
                     <hr className='u-margin-Vs' />
-                    <li>
-                      <IfLinkExists to='about'>
-                        <Link to='about' pointer='about.nav_title'
-                          id='track-nav-about' className='u-padding-Vxs u-padding-Hm u-block' />
-                      </IfLinkExists>
-                    </li>
-                    <li>
-                      <IfLinkExists to='jobs'>
-                        <Link to='jobs' pointer='jobs.nav_title'
-                          id='track-nav-jobs' className='u-padding-Vxs u-padding-Hm u-block' />
-                      </IfLinkExists>
-                    </li>
+                    <IfLinkExists to='about' tagName='li'>
+                      <Link to='about' pointer='about.nav_title'
+                        id='track-nav-about' className='u-padding-Vxs u-padding-Hm u-block' />
+                    </IfLinkExists>
+                    <IfLinkExists to='jobs' tagName='li'>
+                      <Link to='jobs' pointer='jobs.nav_title'
+                        id='track-nav-jobs' className='u-padding-Vxs u-padding-Hm u-block' />
+                    </IfLinkExists>
                   </ul>
                 </Popover>
               </div>
             </nav>
-            <ul className='u-cf u-pull-start'>
-              <Translation locales='en-GB'>
-                <li className='u-pull-start'>
-                  <a href='/users/sign_in' id='track-nav-sign-in'
-                  className={classNames('nav-btn btn btn--small u-text-light u-text-xxs u-relative',
-                    'u-text-transform-none u-text-no-smoothing', {
-                    'btn--invert-hollow': isInverted,
-                    'btn--hollow': !isInverted,
-                  })}>
-                    <Message pointer='header.login_btn' />
-                  </a>
-                </li>
-              </Translation>
-            </ul>
+            <IfLocale hasInstantSignup tagName='ul' className='u-pull-start u-cf'>
+              <li className='u-pull-start'>
+                <Href to='signin.path' id='track-nav-sign-in'
+                className={classNames('nav-btn btn btn--small u-text-light u-text-xxs u-relative',
+                  'u-text-transform-none u-text-no-smoothing', {
+                  'btn--invert-hollow': isInverted,
+                  'btn--hollow': !isInverted,
+                })}
+                pointer='header.login_btn' />
+              </li>
+            </IfLocale>
           </div>
         </div>
       </div>

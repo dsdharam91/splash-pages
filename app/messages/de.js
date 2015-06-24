@@ -15,10 +15,10 @@ export default {
   cta: {
     basic: 'Beginnen Sie Zahlungen zu empfangen',
     pro: 'Kontakt',
-    pro_signup: 'Jetzt anmelden',
+    signup: 'Jetzt anmelden',
     more: 'Erfahren Sie mehr',
   },
-  signup_cta: {
+  basic_pricing_cta: {
     main: 'Zahlen Sie 1%',
     description: 'Nur 1% pro Transaktion, begrenzt bei €2.',
     learn_more: 'Erfahren Sie mehr über unsere Preise',

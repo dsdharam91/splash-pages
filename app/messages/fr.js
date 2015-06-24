@@ -3,7 +3,7 @@
 export default {
   header: {
     our_products: 'Nos produits',
-    login_btn: 'Login',
+    login_btn: 'Se connecter',
     more: 'Plus',
   },
   footer: {
@@ -22,13 +22,18 @@ export default {
   cta: {
     basic: 'Commencez à collecter des paiements',
     pro: 'Contactez-nous',
-    pro_signup: 'Sign Up Now',
+    signup: 'Inscrivez-vous',
     more: 'En apprendre plus',
   },
-  signup_cta: {
+  basic_pricing_cta: {
     main: 'Payez 1%',
     description: 'Seulement 1% par transaction, plafonné à 2€.',
     learn_more: 'Découvrez nos tarifs',
+  },
+  signup_cta: {
+    main: 'Inscrivez-vous en quelques minutes , prendre les paiements aujourd‘hui',
+    button_text: 'Commencez à prendre des paiements',
+    description: 'Pas de coûts mis en place , pas de frais cachés , aucun engagement',
   },
   contact_types: ['sales'],
   postal_address: {
@@ -164,8 +169,8 @@ export default {
     description: '',
   },
   faq_pro_dashboard_payout_tracking: {
-    title: 'FAQ - Suivi de vos virements',
-    nav_title: 'Suivi de vos virements',
+    title: 'FAQ - Suivi de vos encaissements',
+    nav_title: 'Suivi de vos encaissements',
     description: '',
   },
   home: {
@@ -272,5 +277,11 @@ export default {
   help: {
     title: 'Soutien',
     nav_title: 'Soutien',
+  },
+  signin: {
+    path: 'http://manage.gocardless.com',
+  },
+  signup: {
+    path: 'http://manage.gocardless.com/signup',
   },
 };

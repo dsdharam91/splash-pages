@@ -1,5 +1,6 @@
 import React from 'react';
 import Translation from '../../components/translation/translation';
+import IfLocale from '../../components/if-locale/if-locale';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
 
@@ -62,16 +63,7 @@ export default class SecurityEn extends React.Component {
           </div>
         </div>
         <hr className='u-margin-An' />
-        <Translation locales={['en']} exclude={['en-GB']}>
-          <div className='site-container u-text-center u-padding-Tm u-padding-Bxxl'>
-            <div className='u-padding-Vxl'>
-              <h2 className='u-text-heading u-text-l u-color-heading u-text-light'>Got any questions?</h2>
-              <p className='u-color-p u-margin-Ts'>Speak with one of our experts on <Message pointer='phone_local' /></p>
-              <Link to='contact_sales' query={{ s: 'security' }} className='btn btn--hollow u-margin-Tm'>Contact sales</Link>
-            </div>
-          </div>
-        </Translation>
-        <Translation locales='en-GB'>
+        <IfLocale hasInstantSignup>
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <a href='/merchants/new' className='btn'>
@@ -80,7 +72,16 @@ export default class SecurityEn extends React.Component {
               <p className='u-color-p u-margin-Ts'>No set up costs, no hidden charges, no commitments</p>
             </div>
           </div>
-        </Translation>
+        </IfLocale>
+        <IfLocale hasInstantSignup={false}>
+          <div className='site-container u-text-center u-padding-Tm u-padding-Bxxl'>
+            <div className='u-padding-Vxl'>
+              <h2 className='u-text-heading u-text-l u-color-heading u-text-light'>Got any questions?</h2>
+              <p className='u-color-p u-margin-Ts'>Speak with one of our experts on <Message pointer='phone_local' /></p>
+              <Link to='contact_sales' query={{ s: 'security' }} className='btn btn--hollow u-margin-Tm'>Contact sales</Link>
+            </div>
+          </div>
+        </IfLocale>
       </Translation>
     );
   }

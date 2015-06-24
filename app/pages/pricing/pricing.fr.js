@@ -1,5 +1,6 @@
 import React from 'react';
 import Translation from '../../components/translation/translation';
+import IfLocale from '../../components/if-locale/if-locale';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
 import PhoneIcon from '../../icons/svg/phone';
@@ -21,7 +22,7 @@ export default class PricingFr extends React.Component {
                   <div className='u-background-primary u-padding-Vxl'>
                     <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>1%</h2>
                     <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
-                      Par transaction, plafonné à 2€
+                      Par transaction réussie, plafonné à 2€
                     </p>
                   </div>
                   <ul className='pricing-options__list'>
@@ -38,9 +39,12 @@ export default class PricingFr extends React.Component {
                       <Link to='features'>En apprendre plus sur notre produit</Link>
                     </li>
                     <li className='pricing-options__list-button'>
-                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>
-                        Contactez-nous
-                      </Link>
+                      <IfLocale hasInstantSignup>
+                        <a href='https://manage.gocardless.com/signup' className='btn u-size-full'>Inscrivez-vous</a>
+                      </IfLocale>
+                      <IfLocale hasInstantSignup={false}>
+                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contactez-nous</Link>
+                      </IfLocale>
                     </li>
                   </ul>
                 </div>
@@ -53,7 +57,7 @@ export default class PricingFr extends React.Component {
                   <div className='u-background-dark-gray-darken u-padding-Vxl'>
                     <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>0,01 — 0,60 €</h2>
                     <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
-                      Par transaction
+                      Par transaction réussie
                     </p>
                   </div>
                   <ul className='pricing-options__list'>
@@ -138,9 +142,12 @@ export default class PricingFr extends React.Component {
                 <p className='u-color-p u-margin-Ts'>
                   Nous sommes disponible afin de répondre à vos questions au <Message pointer='phone_local' />
                 </p>
-                <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'>
-                  Contactez-nous
-                </Link>
+                <IfLocale hasInstantSignup>
+                  <a href='https://manage.gocardless.com/signup' className='btn btn--hollow u-margin-Tm'>Inscrivez-vous</a>
+                </IfLocale>
+                <IfLocale hasInstantSignup={false}>
+                  <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Contactez-nous</Link>
+                </IfLocale>
               </div>
             </div>
           </div>
