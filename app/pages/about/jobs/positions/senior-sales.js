@@ -27,7 +27,7 @@ export default class SeniorSales extends React.Component {
           complicated deals, working closely with our VP Sales. You'll execute
           and optimise our sales processes, encouraging and coaching those around
           you and making improvements wherever there’s scope to do so. You will
-          take a consultative, SPIN selling approach helping our prospective users
+          take a consultative, SPIN selling approach to help our prospective users
           overcome obstacles, selling to multiple stakeholders and building
           detailed business cases for sign off from C-Level executives at
           multinational companies.
@@ -64,7 +64,7 @@ export default class SeniorSales extends React.Component {
             You learn fast and constantly strive to improve.
           </li>
         </ul>
-        <a href='http://boards.greenhouse.io/gocardless/jobs/37249' className='btn u-margin-Vs'>
+        <a href='http://boards.greenhouse.io/gocardless/jobs/74374' className='btn u-margin-Vs'>
           Apply now
         </a>
       </JobsPage>
