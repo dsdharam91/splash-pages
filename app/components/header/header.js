@@ -78,24 +78,20 @@ class Header extends React.Component {
                    {products}
                  </Popover>
               </div>
-              <div className='nav__item u-relative'>
-                <IfLinkExists to='pricing' className='nav__item u-relative'>
-                  <Link to='pricing' id='track-nav-pricing' className={linkClass}>
-                    <div className='nav__item-link'>
-                      <Message pointer='pricing.nav_title' />
-                    </div>
-                  </Link>
-                </IfLinkExists>
-              </div>
-              <div className='nav__item u-relative'>
-                <IfLinkExists to='stories' className='nav__item u-relative'>
-                  <Link to='stories' id='track-nav-stories' className={linkClass}>
-                    <div className='nav__item-link'>
-                      <Message pointer='stories.nav_title' />
-                    </div>
-                  </Link>
-                </IfLinkExists>
-              </div>
+              <IfLinkExists to='pricing' tagName='div' className='nav__item u-relative'>
+                <Link to='pricing' id='track-nav-pricing' className={linkClass}>
+                  <div className='nav__item-link'>
+                    <Message pointer='pricing.nav_title' />
+                  </div>
+                </Link>
+              </IfLinkExists>
+              <IfLinkExists to='stories' tagName='div' className='nav__item u-relative'>
+                <Link to='stories' id='track-nav-stories' className={linkClass}>
+                  <div className='nav__item-link'>
+                    <Message pointer='stories.nav_title' />
+                  </div>
+                </Link>
+              </IfLinkExists>
               <div className='nav__item u-relative'>
                 <Popover toggle={
                   (<a href='' id='track-nav-more' className={linkClass}>
