@@ -18,6 +18,7 @@ import Team from '../pages/about/team/team';
 
 import Jobs from '../pages/about/jobs/jobs';
 import AccountExecutive from '../pages/about/jobs/positions/account-executive';
+import SeniorSales from '../pages/about/jobs/positions/senior-sales';
 import ProductEngineer from '../pages/about/jobs/positions/product-engineer';
 import DeveloperCommunityManager from '../pages/about/jobs/positions/developer-community-manager';
 import EngineeringInterships from '../pages/about/jobs/positions/engineering-internships';
@@ -291,6 +292,12 @@ export const config = Immutable.fromJS([
   [GlobalExpansionLead, { name: 'jobs_global_expansion_lead', category: 'jobs.business_development' }, {
       en: {
         path: '/about/jobs/global-expansion-lead',
+      },
+    },
+  ],
+  [SeniorSales, { name: 'jobs_senior_sales', category: 'jobs.sales_marketing' }, {
+      en: {
+        path: '/about/jobs/senior-sales',
       },
     },
   ],
