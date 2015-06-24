@@ -374,6 +374,10 @@ export default {
     title: 'Global Expansion Lead',
     description: '',
   },
+  jobs_senior_sales: {
+    title: 'Senior Sales Executive',
+    description: '',
+  },
   jobs_account_executive: {
     title: 'Account Executive',
     description: '',
