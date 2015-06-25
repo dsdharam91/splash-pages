@@ -1,5 +1,6 @@
 import React from 'react';
 import Message from '../../components/message/message';
+import StickyNav from '../../components/sticky-nav/sticky-nav';
 import ProductComparison from '../../components/product-comparison/product-comparison';
 import Tabs from '../../components/tabs/tabs';
 import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
@@ -36,43 +37,39 @@ export default class FeaturesDe extends React.Component {
               </div>
             </div>
           </div>
-          <div className='sticky-nav'>
-            <div ng-gc-sticky-nav
-              className='sticky-nav__inner u-background-light-gray u-text-heading u-text-xxs u-text-light u-text-no-smoothing'>
-              <div className='site-container u-padding-Vm'>
-                <ul className='u-pull-start u-margin-Txxs'>
-                  <li className='sticky-nav__item'>
-                    <a href='#overview' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-overview' className='sticky-nav__link'>
-                      Überblick
-                    </a>
-                  </li>
-                  <li className='sticky-nav__item'>
-                    <a href='#features' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-features' className='sticky-nav__link'>
-                      Funktionen
-                    </a>
-                  </li>
-                  <li className='sticky-nav__item'>
-                    <a href='#dashboard' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-dashboard' className='sticky-nav__link'>
-                      Dashboard
-                    </a>
-                  </li>
-                  <li className='sticky-nav__item'>
-                    <a href='#pricing' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-pricing' className='sticky-nav__link'>
-                      Preise
-                    </a>
-                  </li>
-                </ul>
-                <Link to='contact_sales' id='track-sticky-nav-contact-sales'
-                  className={
-                    'btn btn--small btn--hollow u-pull-end u-text-transform-none ' +
-                    'u-text-light u-text-xxs u-text-no-smoothing u-margin-Rs'
-                  }>
-                  <Message pointer='cta.pro' />
-                </Link>
-              </div>
-              <hr className='u-margin-An' />
+          <StickyNav>
+            <div className='site-container u-padding-Vm'>
+              <ul className='u-pull-start u-margin-Txxs'>
+                <li className='sticky-nav__item'>
+                  <a href='#overview' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-overview' className='sticky-nav__link'>
+                    Überblick
+                  </a>
+                </li>
+                <li className='sticky-nav__item'>
+                  <a href='#features' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-features' className='sticky-nav__link'>
+                    Funktionen
+                  </a>
+                </li>
+                <li className='sticky-nav__item'>
+                  <a href='#dashboard' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-dashboard' className='sticky-nav__link'>
+                    Dashboard
+                  </a>
+                </li>
+                <li className='sticky-nav__item'>
+                  <a href='#pricing' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-pricing' className='sticky-nav__link'>
+                    Preise
+                  </a>
+                </li>
+              </ul>
+              <Link to='contact_sales' id='track-sticky-nav-contact-sales'
+                className={
+                  'btn btn--small btn--hollow u-pull-end u-text-transform-none ' +
+                  'u-text-light u-text-xxs u-text-no-smoothing u-margin-Rs'
+                }>
+                <Message pointer='cta.pro' />
+              </Link>
             </div>
-          </div>
+            </StickyNav>
           <div className='section-scroll-target' id='overview'>
             <div className='site-container u-padding-Vxxl'>
               <div className='u-padding-Vxl'>

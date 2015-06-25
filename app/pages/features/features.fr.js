@@ -1,9 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
-=======
-import Message from '../../components/message/message';
 import StickyNav from '../../components/sticky-nav/sticky-nav';
->>>>>>> Add sticky nav to features
 import ProductComparison from '../../components/product-comparison/product-comparison';
 import Tabs from '../../components/tabs/tabs';
 import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
