@@ -35,8 +35,8 @@ export default {
     address_country: 'Vereinigtes Königreich',
     address_country_iso: 'GB',
   },
-  phone_full: '+49 30 5683 73022',
-  phone_local: '030 5683 73022',
+  phone_full: '+49 30 568373022',
+  phone_local: '030 568373022',
   email: 'deutschland@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
@@ -89,6 +89,12 @@ export default {
     call_us: 'Rufen Sie uns an.',
     information1: 'Ihre Daten sind bei uns sicher.',
     information2: 'Wir geben keine Daten an Dritte weiter.',
+  },
+  features: {
+    title: 'Quick & Simple Online Payments',
+    nav_title: 'GoCardless',
+    description: 'GoCardless is the easiest way to take payments online. Collect payments directly from your customers\' bank accounts. Save time and improve cash flow.',
+    explainer: 'Simple recurring payments',
   },
   pro: {
     title: 'GoCardless Pro: Komplette Kontrolle über Ihre Lastschriften',
