@@ -78,7 +78,6 @@ export default class FeaturesFr extends React.Component {
               </Link>
             </div>
           </StickyNav>
-          <hr className='u-margin-An' />
           <div className='section-scroll-target' id='overview'>
             <div className='site-container u-padding-Vxxl'>
               <div className='u-padding-Vxl'>

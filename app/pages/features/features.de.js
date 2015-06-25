@@ -69,7 +69,7 @@ export default class FeaturesDe extends React.Component {
                 <Message pointer='cta.pro' />
               </Link>
             </div>
-            </StickyNav>
+          </StickyNav>
           <div className='section-scroll-target' id='overview'>
             <div className='site-container u-padding-Vxxl'>
               <div className='u-padding-Vxl'>
