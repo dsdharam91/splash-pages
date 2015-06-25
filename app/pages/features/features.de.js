@@ -86,8 +86,8 @@ export default class FeaturesDe extends React.Component {
                       Starten Sie in 24 Stunden
                     </div>
                     <p className='u-color-p u-margin-Txs'>
-                      Sie brauchen nur ein Bankkonto in <Message pointer='country' />. <Link to='contact_sales'>Kontaktieren Sie uns </Link>
-                      um zu beginnen.
+                      Sie brauchen nur ein Bankkonto in <Message pointer='country' />.&nbsp;
+                      <Link to='contact_sales'>Kontaktieren Sie uns</Link> um zu beginnen.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
