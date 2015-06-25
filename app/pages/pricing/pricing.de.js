@@ -105,8 +105,12 @@ export default class PricingDe extends React.Component {
                 </b>
               </div>
               <p className='u-color-p'>
-                Richtig, wir berechnen Ihnen nur <Message pointer='pricing.pro_monthly_fee' /> pro Monat und eine Gebühr für jede Zahlung.
-                Wir erheben keine Gebühren für Rücklastschriften oder misslungene Zahlungen.
+                Richtig, wir berechnen Ihnen nur die Gebühren, die in der obigen Tabelle aufgelistet sind.
+                Wir berechnen niemals Gebühren für Rückerstattungen oder fehlgeschlagene Zahlungen.
+                Mit GoCardless zahlen Sie jederzeit nur  <Message pointer='pricing.per_transaction_amount_normal' /> des
+                Zahlungsbetrages, gedeckelt bei <Message pointer="pricing.cost_cap" />.
+                Mit GoCardless Pro zahlen Sie <Message pointer='pricing.pro_monthly_fee' /> im Monat sowie
+                eine Gebühr für jede Zahlung.
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Lm'>
