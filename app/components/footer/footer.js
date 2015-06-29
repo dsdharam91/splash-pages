@@ -43,19 +43,12 @@ class Footer extends React.Component {
     const { routeName, currentLocale, config, availableLocales, availableCountryNames } = this.context;
     const availableLocalePages = buildAvailableLocalePages(currentLocale, routeName, availableLocales, availableCountryNames);
     const region = localeToRegion(currentLocale);
-    
-    /* put this into a css style */
-    const listStyle = {
-      columnCount: 3,
-      WebkitColumnCount: 3,
-      MozColumnCount: 3,
-    };
 
     return (
       <div className='page-footer u-color-invert u-padding-Tl'>
         <div className='grid site-container u-padding-Vl u-text-center page-footer__start' id='track-footer-links'>
           <div className='grid__cell u-size-1of2'>
-            <ul className='u-text-heading u-text-semi u-text-xxs' style={listStyle}>
+            <ul className='u-text-heading u-text-semi u-text-xxs footer__links'>
               <IfLinkExists to='features' tagName='li'>
                 <Link to='features' pointer='features.nav_title'
                   id='track-footer-features' className='page-footer__link u-link-invert' />
