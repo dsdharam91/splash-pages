@@ -40,22 +40,22 @@ export default class FeaturesFr extends React.Component {
             <div className='site-container u-padding-Vm'>
               <ul className='u-pull-start u-margin-Txxs'>
                 <li className='sticky-nav__item'>
-                  <a href='#overview' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-overview' className='sticky-nav__link'>
+                  <a href='#overview' id='track-sticky-nav-overview' className='sticky-nav__link'>
                     Aperçu
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#features' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-features' className='sticky-nav__link'>
+                  <a href='#features' id='track-sticky-nav-features' className='sticky-nav__link'>
                     Fonctionalités
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#dashboard' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-dashboard' className='sticky-nav__link'>
+                  <a href='#dashboard' id='track-sticky-nav-dashboard' className='sticky-nav__link'>
                     Tableau de bord
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#pricing' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-pricing' className='sticky-nav__link'>
+                  <a href='#pricing' id='track-sticky-nav-pricing' className='sticky-nav__link'>
                     Tarifs
                   </a>
                 </li>

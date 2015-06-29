@@ -35,12 +35,12 @@ export default class ProFr extends React.Component {
           <div className='site-container u-padding-Vm'>
             <ul className='u-pull-start u-margin-Txxs'>
               <li className='sticky-nav__item'>
-                <a href='#en-bref' du-scrollspy ng-gc-smooth-scroll className='sticky-nav__link'>
+                <a href='#en-bref' className='sticky-nav__link'>
                   En bref
                 </a>
               </li>
               <li className='sticky-nav__item'>
-                <a href='#tarifs' du-scrollspy ng-gc-smooth-scroll className='sticky-nav__link'>
+                <a href='#tarifs' className='sticky-nav__link'>
                   Tarifs
                 </a>
               </li>
