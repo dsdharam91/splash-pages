@@ -1,4 +1,5 @@
 import React from 'react';
+import StickyNav from '../../components/sticky-nav/sticky-nav';
 import ProductComparison from '../../components/product-comparison/product-comparison';
 import Tabs from '../../components/tabs/tabs';
 import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
@@ -35,52 +36,48 @@ export default class FeaturesFr extends React.Component {
               </div>
             </div>
           </div>
-          <div className='sticky-nav'>
-            <div ng-gc-sticky-nav
-              className='sticky-nav__inner u-background-light-gray u-text-heading u-text-xxs u-text-light u-text-no-smoothing'>
-              <div className='site-container u-padding-Vm'>
-                <ul className='u-pull-start u-margin-Txxs'>
-                  <li className='sticky-nav__item'>
-                    <a href='#overview' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-overview' className='sticky-nav__link'>
-                      Aperçu
-                    </a>
-                  </li>
-                  <li className='sticky-nav__item'>
-                    <a href='#features' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-features' className='sticky-nav__link'>
-                      Fonctionalités
-                    </a>
-                  </li>
-                  <li className='sticky-nav__item'>
-                    <a href='#dashboard' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-dashboard' className='sticky-nav__link'>
-                      Tableau de bord
-                    </a>
-                  </li>
-                  <li className='sticky-nav__item'>
-                    <a href='#pricing' du-scrollspy ng-gc-smooth-scroll id='track-sticky-nav-pricing' className='sticky-nav__link'>
-                      Tarifs
-                    </a>
-                  </li>
-                </ul>
-                <IfLocale hasInstantSignup>
-                  <a href='https://manage.gocardless.com/signup' id='track-sticky-nav-merchants-new'
-                    className={
-                      'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
-                      'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
-                    }>
-                    Commencez à collecter des paiements
+          <StickyNav>
+            <div className='site-container u-padding-Vm'>
+              <ul className='u-pull-start u-margin-Txxs'>
+                <li className='sticky-nav__item'>
+                  <a href='#overview' id='track-sticky-nav-overview' className='sticky-nav__link'>
+                    Aperçu
                   </a>
-                </IfLocale>
-                <Link to='contact_sales' id='track-sticky-nav-contact-sales'
+                </li>
+                <li className='sticky-nav__item'>
+                  <a href='#features' id='track-sticky-nav-features' className='sticky-nav__link'>
+                    Fonctionalités
+                  </a>
+                </li>
+                <li className='sticky-nav__item'>
+                  <a href='#dashboard' id='track-sticky-nav-dashboard' className='sticky-nav__link'>
+                    Tableau de bord
+                  </a>
+                </li>
+                <li className='sticky-nav__item'>
+                  <a href='#pricing' id='track-sticky-nav-pricing' className='sticky-nav__link'>
+                    Tarifs
+                  </a>
+                </li>
+              </ul>
+              <IfLocale hasInstantSignup>
+                <a href='https://manage.gocardless.com/signup' id='track-sticky-nav-merchants-new'
                   className={
-                    'btn btn--small btn--hollow u-margin-Rs u-pull-end ' +
+                    'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                     'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
                   }>
-                  Contactez-nous
-                </Link>
-              </div>
-              <hr className='u-margin-An' />
+                  Commencez à collecter des paiements
+                </a>
+              </IfLocale>
+              <Link to='contact_sales' id='track-sticky-nav-contact-sales'
+                className={
+                  'btn btn--small btn--hollow u-margin-Rs u-pull-end ' +
+                  'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
+                }>
+                Contactez-nous
+              </Link>
             </div>
-          </div>
+          </StickyNav>
           <div className='section-scroll-target' id='overview'>
             <div className='site-container u-padding-Vxxl'>
               <div className='u-padding-Vxl'>
