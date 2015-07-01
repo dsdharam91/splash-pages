@@ -394,6 +394,10 @@ export default {
     title: 'Hiring Coordinator',
     description: '',
   },
+  jobs_customer_support: {
+    title: 'Customer Support',
+    description: '',
+  },
   jobs_customer_support_france: {
     title: 'French Customer Support',
     description: '',
