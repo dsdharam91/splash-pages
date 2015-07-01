@@ -336,9 +336,6 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/jobs/customer-support',
       },
-      fr: {
-        path: '/about/jobs/service-client',
-      },
     },
   ],
   [CustomerSupportFrance, { name: 'jobs_customer_support_france', category: 'jobs.operations' }, {
