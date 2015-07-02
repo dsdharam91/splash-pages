@@ -13,3 +13,12 @@
 .page-footer__link.is-active {
   text-decoration: none;
 }
+
+.page-footer__link-list {
+  column-count: 3;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-gap: 20px;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+}

@@ -48,7 +48,7 @@ class Footer extends React.Component {
       <div className='page-footer u-color-invert u-padding-Tl'>
         <div className='grid site-container u-padding-Vl u-text-center page-footer__start' id='track-footer-links'>
           <div className='grid__cell u-size-1of2'>
-            <ul className='u-text-heading u-text-semi u-text-xxs footer__links'>
+            <ul className='u-text-heading u-text-semi u-text-xxs page-footer__link-list'>
               <IfLinkExists to='features' tagName='li'>
                 <Link to='features' pointer='features.nav_title'
                   id='track-footer-features' className='page-footer__link u-link-invert' />
