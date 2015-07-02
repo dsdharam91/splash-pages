@@ -5,6 +5,7 @@ import ClockIcon from '../../icons/svg/clock';
 import ImproveCashflowIcon from '../../icons/svg/improve-cashflow';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 
 export default class PaymentsByDirectDebit extends React.Component {
   displayName = 'PaymentsByDirectDebit'
@@ -102,7 +103,7 @@ export default class PaymentsByDirectDebit extends React.Component {
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
               The best way to learn more is to try it out
             </h2>
-            <a href='/merchants/new' className='btn'>Start taking payments</a>
+            <Href to='signup.path' className='btn'>Start taking payments</Href>
             <p className='u-color-p u-margin-Ts'>No set up costs, no monthly fees, no hidden charges</p>
             <hr className='u-size-1of2 u-center u-margin-Vxxl' />
             <p className='u-color-p'><strong>Want to talk to someone first?</strong><br />

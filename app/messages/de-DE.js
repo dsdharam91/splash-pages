@@ -4,7 +4,7 @@ export default {
   country: 'Deutschland',
   country_properties: {
     local_scheme: 'sepa',
-    has_instant_signup: false,
+    has_instant_signup: true,
     has_percentage_pricing: true,
   },
   hero: {

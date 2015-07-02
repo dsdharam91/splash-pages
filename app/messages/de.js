@@ -23,6 +23,11 @@ export default {
     description: 'Nur 1% pro Transaktion, begrenzt bei €2.',
     learn_more: 'Erfahren Sie mehr über unsere Preise',
   },
+  signup_cta: {
+    main: 'Mit der online Anmeldung können Sie schon heute die ersten Zahlungen akzeptieren.',
+    button_text: 'Jetzt anmelden',
+    description: 'Keine Anschlussgebühr, keine versteckten Gebühren, keine Mindestlaufzeit',
+  },
   hero: {
     header: 'Wiederkehrende Zahlungen einfach gemacht',
     desc: 'GoCardless macht das Einziehen von Lastschriften einfach für jedermann, von Einmannbetrieben bis zu multi-nationalen Unternehmen.',
@@ -91,10 +96,10 @@ export default {
     information2: 'Wir geben keine Daten an Dritte weiter.',
   },
   features: {
-    title: 'Quick & Simple Online Payments',
+    title: 'Einfache online Zahlungen',
     nav_title: 'GoCardless',
-    description: 'GoCardless is the easiest way to take payments online. Collect payments directly from your customers\' bank accounts. Save time and improve cash flow.',
-    explainer: 'Simple recurring payments',
+    description: 'GoCardless ist der einfachste Weg Zahlungen online anzunehmen. Ziehen Sie Zahlungen direkt vom Bankkonto Ihrer Kunden ein. Das spart Zeit und verbessert Ihren Cashflow.',
+    explainer: 'Einfache wiederkehrende Zahlungen',
   },
   pro: {
     title: 'GoCardless Pro: Komplette Kontrolle über Ihre Lastschriften',
@@ -127,6 +132,12 @@ export default {
     title: 'SEPA Handbuch',
     nav_title: 'SEPA Handbuch',
     path: '/de/handbuch/sepa/',
+  },
+  signin: {
+    path: 'https://manage.gocardless.com',
+  },
+  signup: {
+    path: 'https://manage.gocardless.com/signup',
   },
   legal: {
     title: 'Rechtliche Hinweise',

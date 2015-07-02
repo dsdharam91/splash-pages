@@ -3,6 +3,7 @@ import Translation from '../../components/translation/translation';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
+import IfLocale from '../../components/if-locale/if-locale';
 
 import MobileIcon from '../../icons/svg/mobile';
 import CheckListIcon from '../../icons/svg/checklist';
@@ -153,6 +154,15 @@ export default class HomeDe extends React.Component {
             </div>
           </div>
         </div>
+        <IfLocale hasInstantSignup>
+          <hr className='u-margin-An' />
+          <div className='site-container u-text-center u-padding-Vxxl'>
+            <div className='u-padding-Vxl'>
+              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Jetzt anmelden</Href>
+              <p className='u-color-p u-margin-Ts'>Keine Anschlussgebühr, keine versteckten Gebühren, keine Mindestlaufzeit</p>
+            </div>
+          </div>
+        </IfLocale>
       </Translation>
     );
   }
