@@ -48,82 +48,76 @@ class Footer extends React.Component {
       <div className='page-footer u-color-invert u-padding-Tl'>
         <div className='grid site-container u-padding-Vl u-text-center page-footer__start' id='track-footer-links'>
           <div className='grid__cell u-size-1of2'>
-            <ul className='grid u-text-heading u-text-semi'>
-              <div className='grid__cell u-size-1of3 u-text-xxs'>
-                <IfLinkExists to='features' tagName='li'>
-                  <Link to='features' pointer='features.nav_title'
-                    id='track-footer-features' className='page-footer__link u-link-invert' />
-                </IfLinkExists>
-                <IfLinkExists to='pro' tagName='li'>
-                  <Link to='pro' pointer='pro.nav_title'
-                    id='track-footer-pro' className='page-footer__link u-link-invert' />
-                </IfLinkExists>
-                <IfLinkExists to='partners' tagName='li'>
-                  <Link to='partners' pointer='partners.link_title'
-                    id='track-footer-partners' className='page-footer__link u-link-invert' />
-                </IfLinkExists>
-                <IfLinkExists to='pricing' tagName='li'>
-                  <Link to='pricing' pointer='pricing.nav_title'
-                    id='track-footer-pricing' className='page-footer__link u-link-invert' />
-                </IfLinkExists>
-                <IfLinkExists to='stories' tagName='li'>
-                  <Link to='stories' pointer='stories.title'
-                    id='track-footer-stories' className='page-footer__link u-link-invert' />
-                </IfLinkExists>
+            <ul className='u-text-heading u-text-semi u-text-xxs page-footer__link-list'>
+              <IfLinkExists to='features' tagName='li'>
+                <Link to='features' pointer='features.nav_title'
+                  id='track-footer-features' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
+              <IfLinkExists to='pro' tagName='li'>
+                <Link to='pro' pointer='pro.nav_title'
+                  id='track-footer-pro' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
+              <IfLinkExists to='partners' tagName='li'>
+                <Link to='partners' pointer='partners.link_title'
+                  id='track-footer-partners' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
+              <IfLinkExists to='pricing' tagName='li'>
+                <Link to='pricing' pointer='pricing.nav_title'
+                  id='track-footer-pricing' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
+              <IfLinkExists to='stories' tagName='li'>
+                <Link to='stories' pointer='stories.title'
+                  id='track-footer-stories' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
+              <li>
+                <Href to='guides.path' id='track-footer-guides' className='u-link-invert' pointer='guides.nav_title' />
+              </li>
+              <Translation locales='en-GB'>
                 <li>
-                  <Href to='guides.path' id='track-footer-guides' className='u-link-invert' pointer='guides.nav_title' />
-                </li>
-              </div>
-              <div className='grid__cell u-size-1of3 u-text-xxs'>
-                <Translation locales='en-GB'>
-                  <li>
-                    <a href='https://help.gocardless.com' id='track-footer-help' className='u-link-invert'>
-                      <Message pointer='help.nav_title' />
-                    </a>
-                  </li>
-                </Translation>
-                <IfLinkExists to='faq_merchants' tagName='li'>
-                  <Link to='faq_merchants' pointer='faq_merchants.link_title'
-                    id='track-footer-faq' className='u-link-clean u-link-invert' />
-                </IfLinkExists>
-                <IfLinkExists to='features_api' tagName='li'>
-                  <Link to='features_api' pointer='features_api.nav_title'
-                    id='track-footer-api' className='page-footer__link u-link-invert' />
-                </IfLinkExists>
-                <li>
-                  <a href='https://developer.gocardless.com/pro' id='track-footer-pro-api' className='u-link-invert'>
-                    <Message pointer='pro_docs.nav_title' />
+                  <a href='https://help.gocardless.com' id='track-footer-help' className='u-link-invert'>
+                    <Message pointer='help.nav_title' />
                   </a>
                 </li>
-                <IfLinkExists to='security' tagName='li'>
-                  <Link to='security' pointer='security.nav_title'
-                    id='track-footer-security' className='page-footer__link u-link-invert' />
-                </IfLinkExists>
-              </div>
-              <div className='grid__cell u-size-1of3 u-text-xxs'>
-                <IfLinkExists to='europe' tagName='li'>
-                  <Link to='europe' pointer='europe.nav_title'
-                    id='track-footer-europe' className='page-footer__link u-link-invert' />
-                </IfLinkExists>
-                <IfLinkExists to='legal' tagName='li'>
-                  { /** We special case legal's footer link text, since it appears in the legal page's nav with another name  */ }
-                  <Link to='legal' pointer='legal.footer_nav_title'
-                    id='track-footer-legal' className='page-footer__link u-link-invert' />
-                </IfLinkExists>
-                <li>
-                  <a href='https://blog.gocardless.com' id='track-footer-blog' className='u-link-invert'>
-                    <Message pointer='blog.nav_title' />
-                  </a>
-                </li>
-                <IfLinkExists to='about' tagName='li'>
-                  <Link to='about' pointer='about.nav_title'
-                    id='track-footer-about' className='page-footer__link u-link-invert' />
-                </IfLinkExists>
-                <IfLinkExists to='jobs' tagName='li'>
-                  <Link to='jobs' pointer='jobs.nav_title'
-                    id='track-footer-jobs' className='page-footer__link u-link-invert' />
-                </IfLinkExists>
-              </div>
+              </Translation>
+              <IfLinkExists to='faq_merchants' tagName='li'>
+                <Link to='faq_merchants' pointer='faq_merchants.link_title'
+                  id='track-footer-faq' className='u-link-clean u-link-invert' />
+              </IfLinkExists>
+              <IfLinkExists to='features_api' tagName='li'>
+                <Link to='features_api' pointer='features_api.nav_title'
+                  id='track-footer-api' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
+              <li>
+                <a href='https://developer.gocardless.com/pro' id='track-footer-pro-api' className='u-link-invert'>
+                  <Message pointer='pro_docs.nav_title' />
+                </a>
+              </li>
+              <IfLinkExists to='security' tagName='li'>
+                <Link to='security' pointer='security.nav_title'
+                  id='track-footer-security' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
+              <IfLinkExists to='europe' tagName='li'>
+                <Link to='europe' pointer='europe.nav_title'
+                  id='track-footer-europe' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
+              <IfLinkExists to='legal' tagName='li'>
+                { /** We special case legal's footer link text, since it appears in the legal page's nav with another name  */ }
+                <Link to='legal' pointer='legal.footer_nav_title'
+                  id='track-footer-legal' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
+              <li>
+                <a href='https://blog.gocardless.com' id='track-footer-blog' className='u-link-invert'>
+                  <Message pointer='blog.nav_title' />
+                </a>
+              </li>
+              <IfLinkExists to='about' tagName='li'>
+                <Link to='about' pointer='about.nav_title'
+                  id='track-footer-about' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
+              <IfLinkExists to='jobs' tagName='li'>
+                <Link to='jobs' pointer='jobs.nav_title'
+                  id='track-footer-jobs' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
             </ul>
           </div>
           <div className='grid__cell u-size-1of2'>
