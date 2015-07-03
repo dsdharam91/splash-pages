@@ -239,7 +239,7 @@ export default class ProFr extends React.Component {
               <Link to='contact_sales' query={{ s: 'pro' }} className='btn u-margin-Rm'>
                 Contactez-nous
               </Link>
-              <a href='https://manage-sandbox.gocardless.com/registrations/create'
+              <a href='https://manage-sandbox.gocardless.com/signup'
               id='track-cta-try-pro-dash' className='btn btn--hollow'>Essayez Pro gratuitement</a>
             </div>
           </div>

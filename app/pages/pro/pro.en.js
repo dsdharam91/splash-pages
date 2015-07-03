@@ -134,7 +134,7 @@ export default class ProEn extends React.Component {
                 </div>
                 <p className='u-color-p u-margin-Txxl u-padding-Tm'>
                   Want to easily try our API and
-                  dashboard? <a href='https://manage-sandbox.gocardless.com/registrations/create'>
+                  dashboard? <a href='https://manage-sandbox.gocardless.com/signup'>
                     Sign up for a free sandbox account
                   </a>
                 </p>
@@ -311,7 +311,7 @@ export default class ProEn extends React.Component {
                 id='track-cta-contact-sales' className='btn u-margin-Rm'>
                   <Message pointer='cta.pro' />
                 </Link>
-                <a href='https://manage-sandbox.gocardless.com/registrations/create'
+                <a href='https://manage-sandbox.gocardless.com/signup'
                 id='track-cta-try-pro-dash' className='btn btn--hollow'>Try Pro for free</a>
                 <hr className='u-margin-Vxxl' />
                 <p className='u-color-p'>

@@ -91,7 +91,7 @@ export default class FaqMerchantsSecurityEn extends React.Component {
 
         <p className='para'>If you are interested in testing our service for vulnerabilities then we would appreciate
           any reports regarding our new dashboard and API, as the current dashboards will be replaced soon.
-          You can <a href="https://manage-sandbox.gocardless.com/registrations/create" className="u-link-color-p u-text-underline">sign up
+          You can <a href="https://manage-sandbox.gocardless.com/signup" className="u-link-color-p u-text-underline">sign up
           for a sandbox account</a> to get started.
         </p>
 
