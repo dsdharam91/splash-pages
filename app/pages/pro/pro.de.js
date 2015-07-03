@@ -133,7 +133,7 @@ export default class ProDe extends React.Component {
                 </div>
                 <p className='u-color-p u-margin-Txxl u-padding-Tm'>
                   Sie möchten die API und unser Online Dashboard
-                  ausprobieren? <a href='https://manage-sandbox.gocardless.com/registrations/create'>
+                  ausprobieren? <a href='https://manage-sandbox.gocardless.com/signup'>
                   Erstellen Sie hier einen gratis Testaccount.
                   </a>
                 </p>
@@ -284,7 +284,7 @@ export default class ProDe extends React.Component {
                 id='track-cta-contact-sales' className='btn u-margin-Rm'>
                   <Message pointer='cta.pro' />
                 </Link>
-                <a href='https://manage-sandbox.gocardless.com/registrations/create'
+                <a href='https://manage-sandbox.gocardless.com/signup'
                 id='track-cta-try-pro-dash' className='btn btn--hollow'>Testen Sie Pro gratis</a>
                 <hr className='u-margin-Vxxl' />
                 <p className='u-color-p'>

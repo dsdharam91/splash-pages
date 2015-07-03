@@ -279,9 +279,9 @@ export default {
     nav_title: 'Soutien',
   },
   signin: {
-    path: 'http://manage.gocardless.com',
+    path: 'https://manage.gocardless.com',
   },
   signup: {
-    path: 'http://manage.gocardless.com/signup',
+    path: 'https://manage.gocardless.com/signup',
   },
 };

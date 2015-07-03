@@ -78,7 +78,7 @@ export default class ProductComparisonDe extends React.Component {
             </tr>
             <IfLocale hasInstantSignup>
               <tr className='comparison-table__row'>
-                <td className='comparison-table__cell u-text-end'>Instant online set-up and approval</td>
+                <td className='comparison-table__cell u-text-end'>Sofortige online Einrichtung und Genehmigung</td>
                 <td className='comparison-table__cell'>
                   <CheckMarkIcon className='u-fill-dark-gray' alt='✓' />
                 </td>
@@ -89,7 +89,7 @@ export default class ProductComparisonDe extends React.Component {
             </IfLocale>
             <tr className='comparison-table__row'>
               <td className='comparison-table__cell u-text-end'>Unterstützt Unternehmen in...</td>
-              <td className='comparison-table__cell'><Message pointer='country' /></td>
+              <td className='comparison-table__cell'>In der EU</td>
               <td className='comparison-table__cell'>Weltweit</td>
             </tr>
             <tr className='comparison-table__row'>
