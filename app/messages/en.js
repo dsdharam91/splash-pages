@@ -382,16 +382,20 @@ export default {
     title: 'Account Executive',
     description: '',
   },
-  jobs_account_executive_france: {
-    title: 'French Account Executive',
+  jobs_digital_marketer: {
+    title: 'Digital Marketer',
     description: '',
   },
-  jobs_office_manager: {
-    title: 'Office Manager',
+  jobs_customer_relationship_marketer: {
+    title: 'Customer Relationship Marketer',
     description: '',
   },
-  jobs_hiring_coordinator: {
-    title: 'Hiring Coordinator',
+  jobs_content_community_manager: {
+    title: 'Content & Community Manager',
+    description: '',
+  },
+  jobs_in_house_lawyer: {
+    title: 'In-House Lawyer',
     description: '',
   },
   jobs_customer_support: {
@@ -400,6 +404,10 @@ export default {
   },
   jobs_customer_support_france: {
     title: 'French Customer Support',
+    description: '',
+  },
+  jobs_office_manager: {
+    title: 'Office Manager',
     description: '',
   },
   pro_docs: {
