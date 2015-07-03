@@ -37,7 +37,7 @@ export default class DigitalMarketer extends React.Component {
           performance and role in the acquisition cycle. Feedback-driven, you’ll
           run an ongoing test and learn programme, constantly striving to deliver
           efficiencies and optimise display channels to ensure the perfect digital
-          marketing mix. 
+          marketing mix.
         </p>
         <p className='para'>
           With responsibility for our SEM budget, you will plan and manage our PPC
