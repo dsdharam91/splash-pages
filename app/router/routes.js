@@ -22,7 +22,6 @@ import SeniorSales from '../pages/about/jobs/positions/senior-sales';
 import ProductEngineer from '../pages/about/jobs/positions/product-engineer';
 import DeveloperCommunityManager from '../pages/about/jobs/positions/developer-community-manager';
 import EngineeringInterships from '../pages/about/jobs/positions/engineering-internships';
-import AccountExecutiveFrance from '../pages/about/jobs/positions/account-executive-fr';
 import CustomerSupportFrance from '../pages/about/jobs/positions/customer-support-fr';
 import OfficeManager from '../pages/about/jobs/positions/office-manager';
 import BdGeneralist from '../pages/about/jobs/positions/bd-generalist';
@@ -34,8 +33,12 @@ import CountryLeadSweden from '../pages/about/jobs/positions/country-lead-se';
 import Designers from '../pages/about/jobs/positions/designers';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import WebOperationsEngineer from '../pages/about/jobs/positions/web-operations-engineer';
-import HiringCoordinator from '../pages/about/jobs/positions/hiring-coordinator';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support';
+import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer';
+import CustomerRelationshipMarketer from '../pages/about/jobs/positions/customer-relationship-marketer';
+import ContentCommunityManager from '../pages/about/jobs/positions/content-community-manager';
+import InHouseLawyer from '../pages/about/jobs/positions/in-house-lawyer';
+
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -311,24 +314,27 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [AccountExecutiveFrance, { name: 'jobs_account_executive_france', category: 'jobs.sales_marketing' }, {
+  [DigitalMarketer, { name: 'jobs_digital_marketer', category: 'jobs.sales_marketing' }, {
       en: {
-        path: '/about/jobs/account-executive-fr',
-      },
-      fr: {
-        path: '/about/jobs/charge-de-clientele',
+        path: '/about/jobs/digital-marketer',
       },
     },
   ],
-  [OfficeManager, { name: 'jobs_office_manager', category: 'jobs.operations' }, {
+  [CustomerRelationshipMarketer, { name: 'jobs_customer_relationship_marketer', category: 'jobs.sales_marketing' }, {
       en: {
-        path: '/about/jobs/office-manager',
+        path: '/about/jobs/customer-relationship-marketer',
       },
     },
   ],
-  [HiringCoordinator, { name: 'jobs_hiring_coordinator', category: 'jobs.operations' }, {
+  [ContentCommunityManager, { name: 'jobs_content_community_manager', category: 'jobs.sales_marketing' }, {
       en: {
-        path: '/about/jobs/hiring-coordinator',
+        path: '/about/jobs/content-community-manager',
+      },
+    },
+  ],
+  [InHouseLawyer, { name: 'jobs_in_house_lawyer', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/in-house-lawyer',
       },
     },
   ],
@@ -344,6 +350,12 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/about/jobs/service-client',
+      },
+    },
+  ],
+  [OfficeManager, { name: 'jobs_office_manager', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/office-manager',
       },
     },
   ],
