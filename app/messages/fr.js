@@ -224,9 +224,6 @@ export default {
     description: '',
     nav_title: 'Carrières',
     open_positions: 'Nos offres d\'emplois',
-    sales_marketing: {
-      title: 'Ventes',
-    },
     operations: {
       title: 'Support',
     },
@@ -235,10 +232,6 @@ export default {
     title: 'Service client',
     description: '',
   },
-  jobs_account_executive_france: {
-    title: 'Chargé(e) de clientèle',
-    description: '',
- },
   pro: {
     title: 'GoCardless: Le contrôle total de vos prélèvements',
     nav_title: 'GoCardless Pro',
