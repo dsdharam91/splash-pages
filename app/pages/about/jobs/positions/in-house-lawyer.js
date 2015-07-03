@@ -33,7 +33,7 @@ export default class InHouseLawyer extends React.Component {
           ensuring that our contracts are fit for purpose.
         </p>
         <p className='para'>
-          Working alongside our our finance team, you’ll address legal requirements
+          Working alongside our finance team, you’ll address legal requirements
           for financing rounds, and resolve tax issues around our expansion. You’ll
           collaborate with our operations team to develop our regulatory strategy
           in line with our global expansion.
