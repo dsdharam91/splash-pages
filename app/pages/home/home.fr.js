@@ -206,7 +206,7 @@ export default class HomeFr extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <a href='https://manage.gocardless.com/signup' id='track-cta-sign-up' className='btn'>Commencez à prendre des paiements</a>
+              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Commencez à prendre des paiements</Href>
               <p className='u-color-p u-margin-Ts'>Pas de coûts mis en place, pas de frais cachés, aucun engagement</p>
             </div>
           </div>

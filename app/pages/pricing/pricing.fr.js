@@ -3,6 +3,7 @@ import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 import PhoneIcon from '../../icons/svg/phone';
 
 export default class PricingFr extends React.Component {
@@ -40,7 +41,9 @@ export default class PricingFr extends React.Component {
                     </li>
                     <li className='pricing-options__list-button'>
                       <IfLocale hasInstantSignup>
-                        <a href='https://manage.gocardless.com/signup' className='btn u-size-full'>Inscrivez-vous</a>
+                        <Href to='signup.path' className='btn u-size-full'>
+                          Inscrivez-vous
+                        </Href>
                       </IfLocale>
                       <IfLocale hasInstantSignup={false}>
                         <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contactez-nous</Link>
@@ -143,7 +146,9 @@ export default class PricingFr extends React.Component {
                   Nous sommes disponible afin de répondre à vos questions au <Message pointer='phone_local' />
                 </p>
                 <IfLocale hasInstantSignup>
-                  <a href='https://manage.gocardless.com/signup' className='btn btn--hollow u-margin-Tm'>Inscrivez-vous</a>
+                  <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>
+                    Inscrivez-vous
+                  </Href>
                 </IfLocale>
                 <IfLocale hasInstantSignup={false}>
                   <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Contactez-nous</Link>

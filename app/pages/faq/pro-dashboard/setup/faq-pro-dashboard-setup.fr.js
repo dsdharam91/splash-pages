@@ -22,9 +22,10 @@ export default class FaqProDashboardFr extends React.Component {
         </h3>
         <IfLocale hasInstantSignup>
           <p className='para'>
-            Vous pouvez <a href='https://manage.gocardless.com/signup' target="_blank">créer un compte GoCardless
-            </a> et commencer à collecter des prélèvements instantanément. Il vous suffira d'ajouter les documents
-            authentifiant votre identité pour que nous vous reversions les fonds.
+            Vous pouvez <Href to='signup.path' target='_blank'>
+            créer un compte GoCardless
+            </Href> et commencer à collecter des prélèvements instantanément.
+              Il vous suffira d'ajouter les documents authentifiant votre identité pour que nous vous reversions les fonds.
           </p>
         </IfLocale>
         <IfLocale hasInstantSignup={false}>

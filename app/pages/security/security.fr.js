@@ -3,6 +3,7 @@ import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 
 export default class SecurityFr extends React.Component {
   displayName = 'SecurityFr'
@@ -66,9 +67,9 @@ export default class SecurityFr extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <IfLocale hasInstantSignup>
-              <a href='https://manage.gocardless.com/signup' className='btn'>
+              <Href to='signup.path' className='btn'>
                 <Message pointer='cta.basic' />
-              </a>
+              </Href>
               <p className='u-color-p u-margin-Ts'>Pas de coûts mis en place , pas de frais cachés , aucun engagement</p>
             </IfLocale>
             <IfLocale hasInstantSignup={false}>
