@@ -12,6 +12,7 @@ import SecurityIcon from '../../icons/svg/security';
 import DeveloperIcon from '../../icons/svg/developer';
 import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 
@@ -61,13 +62,14 @@ export default class FeaturesFr extends React.Component {
                 </li>
               </ul>
               <IfLocale hasInstantSignup>
-                <a href='https://manage.gocardless.com/signup' id='track-sticky-nav-merchants-new'
-                  className={
-                    'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
-                    'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
-                  }>
+                <Href to='signup.path'
+                id='track-sticky-nav-merchants-new'
+                className={
+                  'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
+                  'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
+                }>
                   Commencez à collecter des paiements
-                </a>
+                </Href>
               </IfLocale>
               <Link to='contact_sales' id='track-sticky-nav-contact-sales'
                 className={
