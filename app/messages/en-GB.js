@@ -16,7 +16,7 @@ export default {
     description: 'Just 1% per transaction, capped at £2.',
   },
   home: {
-    title: 'The UK’s #1 for online Direct Debit',
+    title: 'The easiest way to collect recurring payments',
     trusted_message_scale: 'We’re a Bacs approved bureau that collects millions of pounds for our merchants every day.',
   },
   pricing: {
