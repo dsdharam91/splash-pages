@@ -156,8 +156,7 @@ export default class HomeEn extends React.Component {
               </h2>
               <p className='u-text-s u-color-p u-margin-Txs'>
                 <Message pointer='home.trusted_message_scale' />
-                <br />
-                Whatever your scale, GoCardless works for you.
+                &nbsp;Whatever your scale, GoCardless works for you.
               </p>
             </div>
             <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
