@@ -69,6 +69,10 @@ export default class InHouseLawyer extends React.Component {
             You’re focussed on facilitating action
           </li>
         </ul>
+        <p className="para">
+          This role would ideally suit a lawyer with five years of post-qualification experience
+          in dynamic, high-growth tech companies.
+        </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/77451' className='btn u-margin-Vs'>
           Apply now
         </a>
