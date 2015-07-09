@@ -100,7 +100,7 @@ export default {
     nav_title: 'GoCardless',
     description: 'GoCardless ist der einfachste Weg Zahlungen online anzunehmen. Ziehen Sie Zahlungen direkt vom Bankkonto Ihrer Kunden ein. Das spart Zeit und verbessert Ihren Cashflow.',
     explainer: 'Einfache wiederkehrende Zahlungen',
-  }, 
+  },
   pro: {
     title: 'GoCardless Pro: Komplette Kontrolle über Ihre Lastschriften',
     nav_title: 'GoCardless Pro',
@@ -199,11 +199,6 @@ export default {
     nav_title: 'Partners',
     description: '',
   },
-  faq_merchants_referrals: {
-    title: 'FAQ for merchants - Referral scheme',
-    nav_title: 'Referral scheme',
-    description: '',
-  },
   faq_merchants_security: {
     title: 'FAQ for merchants - Security',
     nav_title: 'Security',
@@ -213,11 +208,6 @@ export default {
     title: 'FAQ for merchants - Signing up',
     nav_title: 'Signing up',
     description: '',
-  },
-  features_api: {
-    title: 'GoCardless API: Integrate Direct Debit into your website & app',
-    nav_title: 'API',
-    description: 'With the GoCardless REST API, you can integrate Direct Debit payments into your website or app. Official libraries for Ruby, PHP, Java & more.',
   },
   legal: {
     title: 'Rechtliche Hinweise',

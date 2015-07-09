@@ -1,6 +1,5 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
-import IfLocale from '../../../../components/if-locale/if-locale';
 import Link from '../../../../components/link/link';
 import IfLinkExists from '../../../../components/if-link-exists/if-link-exists';
 
