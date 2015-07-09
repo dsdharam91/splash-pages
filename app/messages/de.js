@@ -100,7 +100,7 @@ export default {
     nav_title: 'GoCardless',
     description: 'GoCardless ist der einfachste Weg Zahlungen online anzunehmen. Ziehen Sie Zahlungen direkt vom Bankkonto Ihrer Kunden ein. Das spart Zeit und verbessert Ihren Cashflow.',
     explainer: 'Einfache wiederkehrende Zahlungen',
-  },
+  }, 
   pro: {
     title: 'GoCardless Pro: Komplette Kontrolle über Ihre Lastschriften',
     nav_title: 'GoCardless Pro',
@@ -138,6 +138,86 @@ export default {
   },
   signup: {
     path: 'https://manage.gocardless.com/signup',
+  },
+  faq: {
+    title: 'Frequently asked questions',
+    sidebar: 'Got a question? Call our support team on',
+  },
+  faq_customers: {
+    title: 'FAQ for customers',
+    nav_title: 'Overview',
+    description: '',
+  },
+  faq_customers_how_it_works: {
+    title: 'FAQ for customers - How it works',
+    nav_title: 'How it works',
+    description: '',
+  },
+  faq_customers_refunds: {
+    title: 'FAQ for customers - Refunds',
+    nav_title: 'Refunds',
+    description: '',
+  },
+  faq_customers_security: {
+    title: 'FAQ for customers - Security',
+    nav_title: 'Security',
+    description: '',
+  },
+  faq_merchants: {
+    title: 'FAQ for merchants',
+    nav_title: 'Overview',
+    link_title: 'FAQ',
+    description: '',
+  },
+  faq_merchants_customer_experience: {
+    title: 'FAQ for merchants - Customer experience',
+    nav_title: 'Customer experience',
+    description: '',
+  },
+  faq_merchants_developer_api: {
+    title: 'FAQ for merchants - Developer API',
+    nav_title: 'Developer API',
+    description: '',
+  },
+  faq_merchants_direct_debit: {
+    title: 'FAQ for merchants - Direct Debit',
+    nav_title: 'Direct Debit',
+    description: '',
+  },
+  faq_merchants_how_it_works: {
+    title: 'FAQ for merchants - How it works',
+    nav_title: 'How it works',
+    description: '',
+  },
+  faq_merchants_international_payments: {
+    title: 'FAQ for merchants - International payments',
+    nav_title: 'International payments',
+    description: '',
+  },
+  faq_merchants_partners: {
+    title: 'FAQ for merchants - Partners',
+    nav_title: 'Partners',
+    description: '',
+  },
+  faq_merchants_referrals: {
+    title: 'FAQ for merchants - Referral scheme',
+    nav_title: 'Referral scheme',
+    description: '',
+  },
+  faq_merchants_security: {
+    title: 'FAQ for merchants - Security',
+    nav_title: 'Security',
+    description: '',
+  },
+  faq_merchants_signing_up: {
+    title: 'FAQ for merchants - Signing up',
+    nav_title: 'Signing up',
+    description: '',
+  },
+  features_api: {
+    title: 'GoCardless API: Integrate Direct Debit into your website & app',
+    nav_title: 'API',
+    description: 'With the GoCardless REST API, you can integrate Direct Debit payments into your website or app. Official libraries for Ruby, PHP, Java & more.',
   },
   legal: {
     title: 'Rechtliche Hinweise',

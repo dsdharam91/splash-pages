@@ -513,6 +513,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/commercant',
       },
+      de: {
+        path: '/faq/merchants',
+      },
     },
   ],
   [FaqMerchantsHowItWorks, { name: 'faq_merchants_how_it_works', category: 'faq.merchants' }, {
@@ -521,6 +524,9 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/faq/commercant/fonctionnement',
+      },
+      de: {
+        path: '/faq/merchants/how-it-works',
       },
     },
   ],
