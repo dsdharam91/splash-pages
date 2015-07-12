@@ -42,7 +42,7 @@ export default class PricingFr extends React.Component {
                     <li className='pricing-options__list-button'>
                       <IfLocale hasInstantSignup>
                         <Href to='signup.path' className='btn u-size-full'>
-                          Inscrivez-vous
+                          Créez votre compte
                         </Href>
                       </IfLocale>
                       <IfLocale hasInstantSignup={false}>

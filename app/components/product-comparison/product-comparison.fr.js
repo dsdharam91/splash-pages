@@ -75,7 +75,7 @@ export default class ProductComparisonFr extends React.Component {
               </td>
             </tr>
             <tr className='comparison-table__row'>
-              <td className='comparison-table__cell u-text-end'>Accès sous 24h</td>
+              <td className='comparison-table__cell u-text-end'>Accès instantané</td>
               <td className='comparison-table__cell'>
                 <CheckMarkIcon className='u-fill-dark-gray' alt='✓' />
               </td>

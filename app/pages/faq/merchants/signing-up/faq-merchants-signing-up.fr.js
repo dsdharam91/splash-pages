@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from '../../../../components/link/link';
 import Translation from '../../../../components/translation/translation';
+import Href from '../../../../components/href/href';
 
 export default class FaqMerchantsSigningUpFr extends React.Component {
   displayName = 'FaqMerchantsSigningUpFr'
@@ -13,11 +14,13 @@ export default class FaqMerchantsSigningUpFr extends React.Component {
           Comment m’inscrire sur GoCardless?
         </h3>
         <p className='para'>
-          Vous pouvez accéder à notre tableau de bord sandbox et créer votre clé d'accès à notre API
-          directement <a href='https://manage-sandbox.gocardless.com/registrations/new'
-          className='u-link-color-p u-text-underline'>ici</a>. Afin de créer un compte en production
-          et prendre des paiements réels sous 24h, il vous faudra contacter notre <Link to='contact_sales'
-          className='u-link-color-p u-text-underline'>équipe</Link>.
+          Vous pouvez <Href to='signup.path' className='u-link-color-p u-text-underline'>créer un compte
+          GoCardless</Href> et commencer à collecter des paiements en quelques minutes.
+        </p>
+        <p className='para'>
+          Si vous préférez d'abord tester gratuitement notre tableau de bord ou notre API, vous pouvez <a
+          href='https://manage-sandbox.gocardless.com/signup' className='u-link-color-p u-text-underline'>
+          créer un compte sandbox</a>.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>

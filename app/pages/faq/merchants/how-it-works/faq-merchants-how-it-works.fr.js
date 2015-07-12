@@ -34,7 +34,7 @@ export default class FaqMerchantsHowItWorksFr extends React.Component {
             par téléphone ou courrier.
           </li>
           <li>
-            Les informations nécessaires pour créer le prélèvement sont automatiquement alimentés à GoCardless
+            Les informations nécessaires pour créer le prélèvement sont automatiquement collectées par GoCardless
             ou fournies à GoCardless dans le cas du papier et téléphone.
           </li>
           <li>

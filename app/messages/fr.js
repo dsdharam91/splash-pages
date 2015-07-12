@@ -22,7 +22,7 @@ export default {
   cta: {
     basic: 'Commencez à collecter des paiements',
     pro: 'Contactez-nous',
-    signup: 'Inscrivez-vous',
+    signup: 'Créez votre compte',
     more: 'En apprendre plus',
   },
   basic_pricing_cta: {
@@ -31,9 +31,9 @@ export default {
     learn_more: 'Découvrez nos tarifs',
   },
   signup_cta: {
-    main: 'Inscrivez-vous en quelques minutes , prendre les paiements aujourd‘hui',
-    button_text: 'Commencez à prendre des paiements',
-    description: 'Pas de coûts mis en place , pas de frais cachés , aucun engagement',
+    main: 'Inscrivez-vous en 2 minutes et commencez à collecter aujourd‘hui',
+    button_text: 'Commencez à collecter vos paiements',
+    description: 'Pas de coûts mis en place, pas de frais cachés, aucun engagement',
   },
   contact_types: ['sales'],
   postal_address: {
@@ -174,7 +174,7 @@ export default {
     description: '',
   },
   home: {
-    title: 'Le prélèvement high-tech en Europe',
+    title: 'Le prélèvement bancaire simplifié',
     nav_title: 'GoCardless',
     description: 'Accédez au prélèvement SEPA afin d\'améliorer votre rétention clients et réduire vos coûts, sans les complications associées aux opérateurs historiques.',
     link: 'fr home',
@@ -190,7 +190,7 @@ export default {
   pricing: {
     title: 'Tarifs',
     nav_title: 'Tarifs',
-    description: 'Collectez vos prélèvements automatiques SEPA à partir de 0,75€ par transaction, avec tarifs dégressifs pour les grandes entreprises.',
+    description: 'Collectez vos prélèvements automatiques SEPA à partir de 0,60€ par transaction, avec tarifs dégressifs pour les grandes entreprises.',
   },
   legal: {
     title: 'Légal',
