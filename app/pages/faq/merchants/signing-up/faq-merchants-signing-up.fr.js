@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from '../../../../components/link/link';
 import Translation from '../../../../components/translation/translation';
 import Href from '../../../../components/href/href';
 
