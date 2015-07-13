@@ -14,12 +14,12 @@ export default class FaqMerchantsSigningUpFr extends React.Component {
         </h3>
         <p className='para'>
           Vous pouvez <Href to='signup.path' className='u-link-color-p u-text-underline'>créer un compte
-          GoCardless</Href> et commencer à collecter des paiements en quelques minutes.
+          GoCardless</Href> et commencer à prendre des paiements en quelques minutes.
         </p>
         <p className='para'>
-          Si vous préférez d'abord tester gratuitement notre tableau de bord ou notre API, vous pouvez <a
+          Si vous êtes un développeur et souhaitez intégrer notre API, vous pouvez <a
           href='https://manage-sandbox.gocardless.com/signup' className='u-link-color-p u-text-underline'>
-          créer un compte sandbox</a>.
+          créer un compte sandbox</a> pour tester votre intégration.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>

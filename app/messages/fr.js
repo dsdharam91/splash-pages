@@ -27,12 +27,12 @@ export default {
   },
   basic_pricing_cta: {
     main: 'Payez 1%',
-    description: 'Seulement 1% par transaction, plafonné à 2€.',
+    description: 'Seulement 1% par transaction réussie, plafonné à 2€.',
     learn_more: 'Découvrez nos tarifs',
   },
   signup_cta: {
-    main: 'Inscrivez-vous en 2 minutes et commencez à collecter aujourd‘hui',
-    button_text: 'Commencez à collecter vos paiements',
+    main: 'Inscrivez-vous en 2 minutes et commencez à prélever aujourd‘hui',
+    button_text: 'Commencez à prélever',
     description: 'Pas de coûts mis en place, pas de frais cachés, aucun engagement',
   },
   contact_types: ['sales'],
@@ -78,7 +78,7 @@ export default {
   features: {
     title: 'GoCardless: Prélèvement bancaire simplifié',
     nav_title: 'GoCardless',
-    description: 'GoCardless est la manière la plus simple de collecter vos paiements par prélèvement SEPA. Commencez dès aujourd\'hui, économisez du temps et améliorez votre cash flow.',
+    description: 'GoCardless est la manière la plus simple de prendre vos paiements par prélèvement SEPA. Commencez dès aujourd\'hui, économisez du temps et améliorez votre cash flow.',
     explainer: 'Paiements récurrents simplifiés',
   },
   faq: {
@@ -190,7 +190,7 @@ export default {
   pricing: {
     title: 'Tarifs',
     nav_title: 'Tarifs',
-    description: 'Collectez vos prélèvements automatiques SEPA à partir de 0,60€ par transaction, avec tarifs dégressifs pour les grandes entreprises.',
+    description: 'Collectez vos prélèvements automatiques SEPA à partir de 0,60€ par transaction réussie, avec tarifs dégressifs pour les grandes entreprises.',
   },
   legal: {
     title: 'Légal',
@@ -242,7 +242,7 @@ export default {
     title: 'Applications partenaires et intégrations logiciels',
     nav_title: 'Devenez nos partenaires',
     link_title: 'Partenaires',
-    description: 'Devenez partenaires de GoCardless et laisse vos utilisateurs collecter des paiements par prélèvement SEPA dans votre plateforme.',
+    description: 'Devenez partenaires de GoCardless et laissez vos utilisateurs prendre des paiements par prélèvement SEPA dans votre plateforme.',
     explainer: 'Offrez GoCardless à vos clients',
   },
   pro_docs: {

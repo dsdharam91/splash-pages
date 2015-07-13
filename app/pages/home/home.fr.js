@@ -88,7 +88,7 @@ export default class HomeFr extends React.Component {
                   <ShopIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Collecter des paiements<br />en toute simplicité
+                  Prendre des paiements<br />en toute simplicité
                 </p>
               </div>
               <div className='product-grid__btn btn u-size-full'>Découvrez GoCardless</div>
@@ -112,7 +112,7 @@ export default class HomeFr extends React.Component {
                   <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Aider vos clients<br />à collecter des paiements
+                  Aider vos clients<br />à prendre des paiements
                 </p>
               </div>
               <div className='product-grid__btn btn u-size-full'>Découvrez nos partenaires</div>
@@ -206,7 +206,7 @@ export default class HomeFr extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Commencez à collecter des paiements</Href>
+              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Commencez à prendre des paiements</Href>
               <p className='u-color-p u-margin-Ts'>Pas de coûts mis en place, pas de frais cachés, aucun engagement</p>
             </div>
           </div>
