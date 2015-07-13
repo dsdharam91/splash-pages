@@ -81,7 +81,7 @@ class Footer extends React.Component {
               </Translation>
               <IfLinkExists to='faq_merchants' tagName='li'>
                 <Link to='faq_merchants' pointer='faq_merchants.link_title'
-                  id='track-footer-faq' className='u-link-clean u-link-invert' />
+                  id='track-footer-faq' className='u-link-invert' />
               </IfLinkExists>
               <IfLinkExists to='features_api' tagName='li'>
                 <Link to='features_api' pointer='features_api.nav_title'
