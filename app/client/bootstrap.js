@@ -8,6 +8,7 @@ import Router from 'react-router';
 import { getRoutes, getLocalesForRouteName } from '../router/route-helpers';
 import { pushDataLayer } from '../helpers/gtm-tracker/gtm-tracker';
 import { isHostBlacklisted } from '../../config/blacklisted-origins';
+import { localeToLanguage, localeToRegion } from '../helpers/locale-helper/locale-helper';
 
 if (process.env.BROWSER) {
   require('../css/main.scss');
@@ -47,6 +48,9 @@ function renderApp() {
     React.render(<Handler {...stateProps} />, mountNode, () => {
       console.log('App has been mounted. Logging pageview.');
       pushDataLayer({
+        pageType: 'splash-pages',
+        pageLanguage: localeToLanguage(appState.currentLocale),
+        pageRegion: localeToRegion(appState.currentLocale),
         event: 'pageview',
         title: document.title,
         virtualUrl: state.pathname,
