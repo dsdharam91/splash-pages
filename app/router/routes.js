@@ -288,31 +288,31 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [SeniorSales, { name: 'jobs_senior_sales', category: 'jobs.sales_marketing' }, {
+  [SeniorSales, { name: 'jobs_senior_sales', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/senior-sales',
       },
     },
   ],
-  [AccountExecutive, { name: 'jobs_account_executive', category: 'jobs.sales_marketing' }, {
+  [AccountExecutive, { name: 'jobs_account_executive', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/account-executive',
       },
     },
   ],
-  [DigitalMarketer, { name: 'jobs_digital_marketer', category: 'jobs.sales_marketing' }, {
+  [DigitalMarketer, { name: 'jobs_digital_marketer', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/digital-marketer',
       },
     },
   ],
-  [CustomerRelationshipMarketer, { name: 'jobs_customer_relationship_marketer', category: 'jobs.sales_marketing' }, {
+  [CustomerRelationshipMarketer, { name: 'jobs_customer_relationship_marketer', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/customer-relationship-marketer',
       },
     },
   ],
-  [ContentCommunityManager, { name: 'jobs_content_community_manager', category: 'jobs.sales_marketing' }, {
+  [ContentCommunityManager, { name: 'jobs_content_community_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/content-community-manager',
       },
