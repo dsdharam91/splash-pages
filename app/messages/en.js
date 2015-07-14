@@ -313,9 +313,6 @@ export default {
     country_leads: {
       title: 'Country Leads',
     },
-    business_development: {
-      title: 'Business Development',
-    },
     sales_marketing: {
       title: 'Sales & Marketing',
     },
@@ -364,14 +361,6 @@ export default {
   },
   jobs_country_lead_se: {
     title: 'Sweden',
-    description: '',
-  },
-  jobs_bd_generalist: {
-    title: 'Generalist',
-    description: '',
-  },
-  jobs_global_expansion_lead: {
-    title: 'Global Expansion Lead',
     description: '',
   },
   jobs_senior_sales: {
