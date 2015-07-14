@@ -9,79 +9,80 @@ export default class CountryLeadGermanyAustria extends React.Component {
       <JobsPage>
         <h3 className='u-text-heading-light u-text-m u-color-heading'>Country Lead: Germany &amp; Austria</h3>
         <p className='para'>
-          Launch GoCardless in Germany and Austria.
+          Launch and grow GoCardless in Germany and Austria.
         </p>
         <p className='para'>
-          We've built a world-class product that brings cutting-edge recurring payments
-          technology to a wide variety of businesses, from sole traders to multinational
-          corporations like TripAdvisor, The Guardian and Box. We've gained great
-          traction in the UK, and we know we can make recurring payments simpler for
-          everyone in the Eurozone &ndash; and beyond.
+          We've built a world-class product that brings cutting-edge recurring
+          payments technology to a wide variety of businesses, from SMEs to
+          multinational corporations like Tripadvisor, Habitat and Box.
+          We've gained great traction in the UK, launched in France,
+          and we know we can make recurring payments simpler for everyone in the
+          Eurozone – and beyond.
         </p>
         <p className='para'>
-          The opportunity is there: now we
-          need to move fast to become a global success. We're looking for results-oriented,
-          adaptable problem-solvers to lead this expansion into Germany &amp; Austria.
+          The opportunity is there: now we need to move fast to become a global
+          success. We're looking for driven, savvy do-ers to lead GoCardless
+          into Germany &amp; Austria.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>
           The role
         </h4>
         <p className='para'>
-          We've laid strong foundations in the UK, and these will
-          guide you as you figure out a strategy that will deliver rapid growth
-          in Germany and Austria. Then you'll execute this strategy, driving in-country
-          work independently and resourcefully, and swiftly becoming an expert in your
-          market.
+          Launching GoCardless in a new territory will require a depth and
+          breadth of skills akin to starting a new company. You will be
+          responsible for driving in-country work independently and
+          resourcefully, and swiftly becoming the expert in your market.
+          You will need to be commercially savvy and identify how to best grow.
         </p>
-         <p className='para'>
-          A critical part of being a successful entrepreneur is to be a salesperson.
-          In this role, you will put that into practice. All client-facing activities in the German
-          market will be your responsibility: planning and delivering on launch activities to
-          build momentum early and accompanying prospective customers from sales to live.
-          You'll handle initial marketing, PR, sales, partnerships and account management,
-          and start to build a team to support &amp; scale growth in your market.
-        </p>
+        <p className='para'>Your role will consist of four main elements:</p>
+        <ul className='list'>
+          <li>
+            Sales: identifying prospective customers and successfully closing
+            them.
+          </li>
+          <li>
+            Marketing & PR: building the brand in the market.
+          </li>
+          <li>
+            Customer success: helping your customers go live and making sure
+            they remain satisfied.
+          </li>
+          <li>
+            Scaling your team: recruiting and onboarding great talent to support
+            the growth.
+          </li>
+        </ul>
         <p className='para'>
-          You will work closely with leaders across the company to understand all product,
-          engineering and operational requirements, so you'll need to be adept at
-          discussing complex situations with a wide variety of audiences. You'll
-          feed your market's needs into our development roadmap to ensure we're always
-          building the product people want.
-        </p>
-        <p className='para'>
-          Launching GoCardless in a new territory will require a depth and breadth of
-          skills akin to starting a new company. It's an exciting challenge, and you'll
-          benefit from the support and experience of our existing country leads.
-          You will co-direct the launch with one other Germany and Austria country lead, giving you the
-          opportunity to discuss ideas and strategies, but also to challenge each other.
+        You will also work closely with leaders across the company to understand
+        all product, engineering and operational requirements, so you'll need
+        to be adept at discussing complex situations with a wide variety of
+        audiences. You'll feed your market's needs into our development roadmap
+        to ensure we're always building the product people want.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>
           The ideal candidate
         </h4>
-        <p className='para'>
-          You're self-reliant &amp; quick to learn. You will need to be comfortable
-          leading tough meetings and working with large prospective merchants in the
-          market. While we can help you prepare by sharing our knowledge, you'll
-          have to assimilate advice and tailor it to suit the local culture &amp;
-          language.
-        </p>
-        <p className='para'>
-          You're focussed on results. You'll succeed by setting yourself ambitious
-          goals and going all-out to achieve them.
-        </p>
-        <p className='para'>
-          You're versatile and multifaceted. You're comfortable in client-facing
-          situations and work well with technical teams to get the right product
-          to market.
-        </p>
-        <p className='para'>
-          You're adaptable. You can tailor our voice to local conditions and needs,
-          whether you're working with prospective clients or internal teams.
-        </p>
-        <p className='para'>
-          You're a native-level German speaker with experience working in Germany,
-          Austria, or both.
-        </p>
+        <ul className='list u-margin-Tm'>
+          <li>
+            You’re driven and adaptable, able and willing to take on a variety
+            of challenges.
+          </li>
+          <li>
+            You have strong interpersonal skills and love building relationships
+            with clients and partners.
+          </li>
+          <li>
+            You have excellent written and oral communication skills,
+            and can adapt to your audience.
+          </li>
+          <li>
+            You are keen to understand technology at a granular level.
+          </li>
+          <li>
+            You're a native-level German speaker with experience
+            working in Germany or Austria and fluent in English.
+          </li>
+        </ul>
         <a href='http://boards.greenhouse.io/gocardless/jobs/52965' className='btn u-margin-Vs'>
           Apply now
         </a>
