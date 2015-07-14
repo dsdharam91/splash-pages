@@ -19,7 +19,7 @@ export default class FaqMerchantsInternationalPaymentsFr extends React.Component
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Dans quels pays puis-je collecter des fonds?
+          Dans quels pays puis-je prendre des paiements ?
         </h3>
         <p className='para'>
           Avec SEPA, vous pouvez collecter des fonds dans les 21 pays de la zone Euro :  Allemagne, Autriche,

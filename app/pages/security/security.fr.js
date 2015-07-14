@@ -18,7 +18,7 @@ export default class SecurityFr extends React.Component {
                 Agréé par la FCA
               </h2>
               <p className='u-size-2of3 u-center u-color-p u-margin-Txs'>
-                GoCardless est un Etablisement de Paiement Agréé, habilité à collecter des paiements à travers l’Union Européenne.
+                GoCardless est un Etablisement de Paiement Agréé, habilité à prendre des paiements à travers l’Union Européenne.
               </p>
             </div>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>

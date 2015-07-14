@@ -7,7 +7,7 @@ export default {
     more: 'Plus',
   },
   footer: {
-    description: 'GoCardless est un Etablissement de Paiement Agréé, régulé par l’autorité britannique FCA (Financial Conduct Authority) et habilité à collecter des paiements à travers l’Union Européenne.',
+    description: 'GoCardless est un Etablissement de Paiement Agréé, régulé par l’autorité britannique FCA (Financial Conduct Authority) et habilité à prélever des paiements à travers l’Union Européenne.',
     currently_viewing: 'Vous consultez actuellement',
     europe_cta: 'GoCardless s\'étend en Europe',
     europe_link: 'en apprendre plus',
@@ -20,7 +20,7 @@ export default {
     desc: 'GoCardless rend le prélèvement bancaire Européen simple pour tous, des start-ups aux grandes entreprises.',
   },
   cta: {
-    basic: 'Commencez à collecter des paiements',
+    basic: 'Commencez à prendre des paiements',
     pro: 'Contactez-nous',
     signup: 'Créez votre compte',
     more: 'En apprendre plus',
@@ -190,7 +190,7 @@ export default {
   pricing: {
     title: 'Tarifs',
     nav_title: 'Tarifs',
-    description: 'Collectez vos prélèvements automatiques SEPA à partir de 0,60€ par transaction réussie, avec tarifs dégressifs pour les grandes entreprises.',
+    description: 'Prenez vos prélèvements automatiques SEPA à partir de 0,60€ par transaction réussie, avec tarifs dégressifs pour les grandes entreprises.',
   },
   legal: {
     title: 'Légal',

@@ -31,7 +31,7 @@ export default class FeaturesFr extends React.Component {
                     Commencez à prélever aujourd'hui
                   </h1>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    GoCardless est le moyen le plus rapide et facile <br />pour collecter des prélèvements SEPA par internet
+                    GoCardless est le moyen le plus rapide et facile <br />pour prendre des prélèvements SEPA par internet
                   </p>
                 </div>
               </div>
@@ -68,7 +68,7 @@ export default class FeaturesFr extends React.Component {
                   'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                   'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
                 }>
-                  Commencez à collecter des paiements
+                  Commencez à prendre des paiements
                 </Href>
               </IfLocale>
               <Link to='contact_sales' id='track-sticky-nav-contact-sales'
@@ -131,7 +131,7 @@ export default class FeaturesFr extends React.Component {
                       Simplifiez-vous la vie
                     </div>
                     <p className='u-color-p u-margin-Txs'>
-                      GoCardless automatise la collecte, suivi et reconciliation de vos paiements :
+                      GoCardless automatise la prise, suivi et reconciliation de vos paiements :
                       il suffit de définir le montant et la date.
                     </p>
                   </div>
@@ -217,7 +217,7 @@ export default class FeaturesFr extends React.Component {
                     Vos clients vont l'adorer
                   </h2>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    GoCardless est un Etablissement de Paiement Agréé, habilité à collecter des paiements
+                    GoCardless est un Etablissement de Paiement Agréé, habilité à prendre des paiements
                     à travers l’Union Européenne ce qui rend les paiements faciles pour vous et vos clients.
                   </p>
                   <h3 className='u-text-s'>Mandat électronique simple</h3>

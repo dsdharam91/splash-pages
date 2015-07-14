@@ -140,7 +140,7 @@ export default class FaqMerchantsFr extends React.Component {
         </h3>
         <p className='para'>
           GoCardless est un Etablissement de Paiement Agréé, régulé par l’autorité britannique FCA (Financial Conduct Authority) et
-          habilité à collecter des paiements à travers l’Union Européenne.
+          habilité à prendre des paiements à travers l’Union Européenne.
         </p>
       </Translation>
     );

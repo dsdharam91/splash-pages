@@ -14,7 +14,7 @@ export default class FaqMerchantsDirectDebitFr extends React.Component {
         </h3>
         <p className='para'>
           Le prélèvement SEPA est un nouvel instrument de paiement introduit par l’Union Européenne en
-          août 2014, qui remplace le prélèvement national. Il permet de collecter des fonds sur les comptes
+          août 2014, qui remplace le prélèvement national. Il permet de prélever des fonds sur les comptes
           bancaires en Euro dans toute <a href='http://fr.wikipedia.org/wiki/Single_Euro_Payments_Area'
           target='_blank' className='u-link-color-p u-text-underline'>la zone SEPA</a>.
         </p>
@@ -97,7 +97,7 @@ export default class FaqMerchantsDirectDebitFr extends React.Component {
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Puis-je collecter des paiements ponctuels avec le prélèvement bancaire?
+          Puis-je prendre des paiements ponctuels avec le prélèvement bancaire?
         </h3>
         <p className='para'>
           Oui, c’est possible, même si le prélèvement bancaire est surtout avantageux pour les paiements récurrents.

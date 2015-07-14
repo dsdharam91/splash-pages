@@ -34,7 +34,7 @@ export default class HomeFr extends React.Component {
                   <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Collectez dès maintenant
+                  Prélevez dès maintenant
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                   Sans engagement, sans démarche bancaire et sans installation requise

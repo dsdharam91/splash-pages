@@ -89,7 +89,7 @@ export default class ProductComparisonFr extends React.Component {
               <td className='comparison-table__cell'>Dans le monde entier</td>
             </tr>
             <tr className='comparison-table__row'>
-              <td className='comparison-table__cell u-text-end'>Collectez vos paiements...</td>
+              <td className='comparison-table__cell u-text-end'>Prenez vos paiements...</td>
               <td className='comparison-table__cell'>Dans 22 pays (Eurozone et GB)</td>
               <td className='comparison-table__cell'>Dans 22 pays (Eurozone et GB)</td>
             </tr>
@@ -112,6 +112,11 @@ export default class ProductComparisonFr extends React.Component {
               <td className='comparison-table__cell u-text-end'>Frais de transaction</td>
               <td className='comparison-table__cell'>1% plafonné à 2 €</td>
               <td className='comparison-table__cell'>Dégressif à partir de 0,60 €</td>
+            </tr>
+            <tr className='comparison-table__row'>
+              <td className='comparison-table__cell u-text-end'>Frais d'incident de paiement</td>
+              <td className='comparison-table__cell'>Gratuit</td>
+              <td className='comparison-table__cell'>Gratuit</td>
             </tr>
           </tbody>
         </table>

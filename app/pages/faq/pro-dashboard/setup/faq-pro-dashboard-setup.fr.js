@@ -12,7 +12,7 @@ export default class FaqProDashboardFr extends React.Component {
       <Translation locales='fr'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Mise en place</h2>
         <p className='para'>
-          GoCardless vous permet d’obtenir des mandats de prélèvement SEPA et de collecter vos
+          GoCardless vous permet d’obtenir des mandats de prélèvement SEPA et de prendre vos
           paiement récurrents sans la moindre intégration technique, directement à partir
           de notre tableau de bord en ligne.
         </p>
@@ -24,7 +24,7 @@ export default class FaqProDashboardFr extends React.Component {
           <p className='para'>
             Vous pouvez <Href to='signup.path' target='_blank'>
             créer un compte GoCardless
-            </Href> et commencer à collecter des prélèvements instantanément.
+            </Href> et commencer à prendre des prélèvements instantanément.
               Il vous suffira d'ajouter les documents authentifiant votre identité pour que nous vous reversions les fonds.
           </p>
         </IfLocale>

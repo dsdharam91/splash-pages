@@ -20,7 +20,7 @@ export default class FaqMerchantsHowItWorksFr extends React.Component {
           Quels types de paiement sont acceptés?
         </h3>
         <p className='para'>
-          Vous pouvez collecter des paiements par compte bancaire dans la zone Euro ('prélèvement SEPA') et en
+          Vous pouvez prendre des paiements par compte bancaire dans la zone Euro ('prélèvement SEPA') et en
           Grande-Bretagne ('prélèvement BACS' en livre sterling). Ces derniers peuvent être ponctuels,
           récurrents ou variables.
         </p>

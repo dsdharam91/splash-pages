@@ -29,11 +29,11 @@ export default class AboutFr extends React.Component {
                 <br /><br />
                 <span className='u-text-heavy u-color-heading'>Digne de confiance</span><br /><br />
                 GoCardless est un Etablissement de Paiement Agréé, régulé par l’autorité britannique FCA (Financial Conduct Authority)
-                et habilité à collecter des paiements à travers l’Union Européenne.
+                et habilité à prélever des paiements à travers l’Union Européenne.
                 Nous sommes financés par certains des plus importants investisseurs au monde
                 dont Balderton Capital, Accel Partners, Passion Capital et Y-Combinator.
                 Plus de 10.000 entreprises et organisations de toutes tailles utilisent GoCardless pour collecter des
-                millions d'Euros tous les jours. Ils aiment ce qu'ils font et nous aimons leur rendre la vie facile.
+                millions d'Euros tous les jours.
               </p>
             </div>
             <div className='grid__cell u-size-1of3'>

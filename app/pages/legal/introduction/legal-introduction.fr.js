@@ -36,7 +36,7 @@ export default class LegalIntroductionFr extends React.Component {
             Londres E14 5HS Grande-Bretagne, et dont le numéro d’agrément est 597190.
           </p>
           <p className='para'>
-            GoCardless Ltd est habilité à collecter des paiements à travers l’Union Européenne.
+            GoCardless Ltd est habilité à prendre des paiements à travers l’Union Européenne.
           </p>
           <p className='para'>
             Le présent site internet est hébergé par :
