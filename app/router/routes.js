@@ -514,7 +514,7 @@ export const config = Immutable.fromJS([
         path: '/faq/commercant',
       },
       de: {
-        path: '/faq/merchants',
+        path: '/faq/haendler',
       },
     },
   ],
@@ -526,7 +526,7 @@ export const config = Immutable.fromJS([
         path: '/faq/commercant/fonctionnement',
       },
       de: {
-        path: '/faq/merchants/how-it-works',
+        path: '/faq/haendler/wie-es-funktioniert',
       },
     },
   ],
@@ -537,6 +537,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/commercant/inscription',
       },
+      de: {
+        path: '/faq/haendler/anmelden',
+      },
     },
   ],
   [FaqMerchantsDirectDebit, { name: 'faq_merchants_direct_debit', category: 'faq.merchants' }, {
@@ -545,6 +548,9 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/faq/commercant/prelevement-bancaire',
+      },
+      de: {
+        path: '/faq/haendler/lastschriftverfahren',
       },
     },
   ],
@@ -555,6 +561,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/commercant/securite',
       },
+      de: {
+        path: '/faq/haendler/sicherheit',
+      },
     },
   ],
   [FaqMerchantsCustomerExperience, { name: 'faq_merchants_customer_experience', category: 'faq.merchants' }, {
@@ -563,6 +572,9 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/faq/commercant/consommateur',
+      },
+      de: {
+        path: '/faq/haendler/kunden-erlebnis',
       },
     },
   ],
@@ -573,6 +585,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/commercant/international',
       },
+      de: {
+        path: '/faq/haendler/international',
+      },
     },
   ],
   [FaqMerchantsDeveloperApi, { name: 'faq_merchants_developer_api', category: 'faq.merchants' }, {
@@ -582,6 +597,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/commercant/api-developpeurs',
       },
+      de: {
+        path: '/faq/haendler/entwickler-api',
+      },
     },
   ],
   [FaqMerchantsPartners, { name: 'faq_merchants_partners', category: 'faq.merchants' }, {
@@ -590,6 +608,9 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/faq/commercant/partenaires',
+      },
+      de: {
+        path: '/faq/haendler/partner',
       },
     },
   ],

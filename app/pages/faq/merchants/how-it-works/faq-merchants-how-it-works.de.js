@@ -7,102 +7,94 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
   render() {
     return (
       <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>How it works</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-heading'>Wie es funktioniert</h2>
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          When do I receive my payment?
+          Wann erhalte ich meine Zahlungen?
         </h3>
         <p className='para'>
-          We automatically pay out funds to your specified bank account <strong>3 working days</strong> after they're
-          collected from your customer. You can see more details <a href='https://help.gocardless.com/customer/portal/articles/1563666'
-          className='u-link-color-p u-text-underline'>here</a>.
+          Wir zahlen Ihnen automatisch innerhalb von <strong>3 Geschäftstagen</strong> nach dem Erhalt der Zahlungen Ihrer
+          Kunden die Zahlungen auf das von Ihnen angegebene Bankkonto aus.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          What types of payments can I collect?
+          Welche Arten von Zahlungen kann ich von meinen Kunden einziehen?
         </h3>
         <p className='para'>
-          You can collect one-off, regular or variable Direct Debit payments with our simple online tool or the API.
+          Sie können einmalige, wiederkehrende reguläre sowie variable Lastschriften einziehen, sowohl in der freundlichen
+          Online Benutzeroberfläche als auch über die API.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          How does the payment process work?
+          Wie läuft der Zahlungsprozess ab?
         </h3>
         <ul className='list'>
           <li>
-            Using our online tool you can issue a request for authorisation to take Direct Debit payments from a customer in 2 clicks.
+            Mit Ihrem Online Dashboard können Sie ganz einfach innerhalb von zwei Klicks ein Mandat für das Einziehen von
+            Lastschriften von Ihren Kunden erfragen.
           </li>
           <li>
-            We email your customer a link to our payment authorisation page. To authorise
-            they click the link and complete our secure checkout.
+            Wir schicken Ihren Kunden dann einen Link zum Zahlungsformular, wo Ihre Kunden Ihnen ein solches Mandat
+            auf sicherem Weg erteilen.
           </li>
           <li>
-            Once authorised, you can take payments from your customers automatically by adding them to a payment plan.
+            Sobald dieses Mandat von Ihren Kunden erteilt wurde, können Sie automatisch Zahlungen kreieren und
+            einziehen, z.B. indem Sie eine Abonnementzahlung für Ihren Kunden registrieren.
           </li>
           <li>
-            We will notify your customers every time a new payment is taken.
+            Wir schicken Ihrem Kunden vor jeder Zahlung die nötige Vorabankündigung.
           </li>
         </ul>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          How does my customer authorise a payment?
+          Wie können meine Kunden eine Zahlung authorisieren?
         </h3>
         <p className='para'>
-          You can trigger a request for authorisation from GoCardless by adding a customer, or send them a link to a plan yourself.
-        </p>
-        <p className='para'>
-          Your customer just needs to click the link and enter their details on our secure online
-          payment page to set up a Direct Debit and authorise you to take future payments automatically.
+          Ihre Kunden können Sie entweder auf elektronischem Weg oder über ein Papiermandat authorisieren
+          Zahlungen von ihnen einzuziehen, indem Sie Ihnen ein Mandat ausstellen und Ihre Bankdaten darin angeben.
+          Für das elektronische Mandat können Sie entweder die von GoCardless gehosteten Zahlungsseiten verwenden
+          oder im Falle von GoCardless Pro Ihre eigenen benutzen.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Can customers sign up on my website?
+          Kann ich Zahlungen ganz präzise für ein bestimmtes Datum ansetzen?
         </h3>
         <p className='para'>
-          Yes - you can either do this by integrating with our <a href='https://developer.gocardless.com/'
-          className='u-link-color-p u-text-underline'>API</a> or by generating a link for a payment
-          plan and embedding this as a button on your website.
-        </p>
-        <p className='para'>
-          On clicking the button the customer will be sent to our secure online payment page where they can authorise the payment(s).
+          Ja - Sie können sich sehr einfach für einen Tag, ein Datum, die Intervalle und Dauer von (wiederkehrenden)
+          Zahlungen entscheiden.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Can I set payments to start and end on a particular date?
+          Kann ich eine Zahlung oder eine Reihe wiederkehrender Zahlungen ändern, nachdem sie bereits kreiert wurde? 
         </h3>
         <p className='para'>
-          Yes - you can easily customise the day, date, frequency and duration of payments.
+          Ja, solange die Zahlung noch nicht zu den Banken geschickt wurde, können Sie jederzeit eine eingetragene Zahlung
+          abändern oder löschen. Innerhalb Ihres Dashboards können Sie jede Zahlung und deren Status in Echtzeit verfolgen.
+          Hier können Sie auch die Änderungen innerhalb weniger Sekunden vornehmen.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Can I change a payment or payment plan once it has been created?
+          Woher weiß ich, dass ich Zahlungen erhalten habe?
         </h3>
         <p className='para'>
-          Provided your payment hasn't been submitted to the banks yet, you can easily cancel an existing payment
-          or remove your customer from the plan and add them to a new one. All this can be done from within your dashboard in seconds.
+          Das GoCardless Online Dashboard bietet Ihnen alle Informationen zu Ihren Zahlungen und Kunden in Echtzeit.
+          So können Sie zu jeder Zeit den Status Ihrer Zahlungen überprüfen.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          How do I know if I've been paid?
+          Kann GoCardless mein Konto jemals limitieren?
         </h3>
         <p className='para'>
-          Our online dashboard gives you real-time info on all your payments and
-          customers, allowing you to check the status of a payment at any time.
-        </p>
-
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Will you ever place limits on my account?
-        </h3>
-        <p className='para'>
-          There are certain situations where it may be necessary to place restrictions on your account:
+          Es gibt wenige Situationen, in denen wir gezwungen sind, Ihr GoCardless Konto zu restringieren, diese sind: 
         </p>
         <ul className='list'>
-          <li>Where we believe that there may be a breach in the security of your account details;</li>
-          <li>Where we suspect the unauthorised or fraudulent use of your account;</li>
-          <li>Where we are required to by law.</li>
+          <li>Wenn wir glauben, dass Ihre Anmelde-Informationen unsicher geworden sind.</li>
+          <li>Wenn wir glauben, dass Ihr Konto einem Betrug oder einer unautorisierten Verwendung zum Opfer geworden ist.</li>
+          <li>Wenn wir von Gesetzeswegen dazu angehalten sind.</li>
         </ul>
         <p className='para'>
-          If we ever do have to do this, rest assured we will notify you as soon as possible and make sure
-          that there is always someone you can talk to to help resolve the situation as quickly as possible.
+          Falls wir dies jemals tun müssen, werden wir Sie natürlich sofort darüber informieren und vergewissern, dass
+          es immer jemanden in unserem Team geben wird, mit dem Sie über die Situation sprechen können und der Ihnen
+          helfen kann, diese so schnell es geht zu beheben.
         </p>
       </Translation>
     );
