@@ -6,7 +6,7 @@ export default {
   phone_local: '076 680 5320',
   country_properties: {
     local_scheme: 'sepa',
-    has_instant_signup: false,
+    has_instant_signup: true,
     has_percentage_pricing: true,
   },
   hero: {
@@ -21,5 +21,8 @@ export default {
     pro_monthly_fee: '€250',
     normal_capped_at_amount: '€200',
     pro_number_of_monthly_payments: '> 500',
+  },
+  signup: {
+    path: 'https://manage.gocardless.com/signup',
   },
 };
