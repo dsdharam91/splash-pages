@@ -28,10 +28,10 @@ export default class FeaturesFr extends React.Component {
               <div className='page-hero__inner'>
                 <div className='page-hero__text'>
                   <h1 className='u-text-heading u-margin-Tm u-color-invert u-text-center u-text-xl u-text-light'>
-                    Commencez à prélever tout de suite
+                    Commencez à prélever aujourd'hui
                   </h1>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    GoCardless est le moyen le plus rapide et facile <br />pour collecter des prélèvements SEPA par internet
+                    GoCardless est le moyen le plus rapide et facile <br />pour prendre des prélèvements SEPA par internet
                   </p>
                 </div>
               </div>
@@ -68,7 +68,7 @@ export default class FeaturesFr extends React.Component {
                   'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                   'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
                 }>
-                  Commencez à collecter des paiements
+                  Commencez à prendre des paiements
                 </Href>
               </IfLocale>
               <Link to='contact_sales' id='track-sticky-nav-contact-sales'
@@ -89,13 +89,24 @@ export default class FeaturesFr extends React.Component {
                       <ClockIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-green' />
                       <ClockIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Commencez en 24 heures
-                    </div>
-                    <p className='u-color-p u-margin-Txs'>
-                      Pas de long processus bancaire. Vous pouvez commencer à prélever dès demain en
-                      nous <Link to='contact_sales'>contactant maintenant</Link>.
-                    </p>
+                    <IfLocale hasInstantSignup>
+                      <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                        Commencez en 2 minutes
+                      </div>
+                      <p className='u-color-p u-margin-Txs'>
+                        Pas de long processus bancaire. Vous pouvez commencer à prélever tout de suite en <Href to='signup.path'>
+                        créant votre compte</Href>.
+                      </p>
+                    </IfLocale>
+                    <IfLocale hasInstantSignup={false}>
+                      <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                        Commencez en 24 heures
+                      </div>
+                      <p className='u-color-p u-margin-Txs'>
+                        Pas de long processus bancaire. Vous pouvez commencer à prélever dès demain en
+                        nous <Link to='contact_sales'>contactant maintenant</Link>.
+                      </p>
+                    </IfLocale>
                   </div>
                   <div className='grid__cell u-size-1of3'>
                     <figure className='svg-icon svg-icon--small'>
@@ -120,7 +131,7 @@ export default class FeaturesFr extends React.Component {
                       Simplifiez-vous la vie
                     </div>
                     <p className='u-color-p u-margin-Txs'>
-                      GoCardless automatise la collecte, suivi et reconciliation de vos paiements :
+                      GoCardless automatise la prise, suivi et reconciliation de vos paiements :
                       il suffit de définir le montant et la date.
                     </p>
                   </div>
@@ -206,7 +217,7 @@ export default class FeaturesFr extends React.Component {
                     Vos clients vont l'adorer
                   </h2>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    GoCardless est un Etablissement de Paiement Agréé, habilité à collecter des paiements
+                    GoCardless est un Etablissement de Paiement Agréé, habilité à prendre des paiements
                     à travers l’Union Européenne ce qui rend les paiements faciles pour vous et vos clients.
                   </p>
                   <h3 className='u-text-s'>Mandat électronique simple</h3>
