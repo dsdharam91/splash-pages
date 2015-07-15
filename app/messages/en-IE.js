@@ -22,6 +22,9 @@ export default {
     normal_capped_at_amount: '€200',
     pro_number_of_monthly_payments: '> 500',
   },
+  signin: {
+    path: 'https://manage.gocardless.com',
+  },
   signup: {
     path: 'https://manage.gocardless.com/signup',
   },
