@@ -9,6 +9,12 @@ export default {
   },
   phone_local: '020 7183 8674',
   documentation_link: 'https://developer.gocardless.com/',
+  signin: {
+    path: '/users/sign_in',
+  },
+  signup: {
+    path: '/merchants/new',
+  },
   footer: {
     description: 'GoCardless is a Bacs approved bureau and is regulated by the Financial Conduct Authority as an Authorised Payment Institution.',
   },

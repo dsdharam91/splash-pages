@@ -15,6 +15,7 @@ import TickIcon from '../../icons/svg/tick';
 import MembershipIcon from '../../icons/svg/membership';
 import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 import IfLinkExists from '../../components/if-link-exists/if-link-exists';
 import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
@@ -88,13 +89,14 @@ export default class FeaturesEn extends React.Component {
                 </li>
               </ul>
               <IfLocale hasInstantSignup>
-                <a href='/merchants/new' id='track-sticky-nav-merchants-new'
+                <Href to='signup.path'
+                  id='track-sticky-nav-merchants-new'
                   className={
                     'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                     'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
                   }>
                   <Message pointer='cta.basic' />
-                </a>
+                </Href>
               </IfLocale>
               <Link to='contact_sales' id='track-sticky-nav-contact-sales'
                 className={

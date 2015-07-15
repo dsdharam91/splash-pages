@@ -3,6 +3,7 @@ import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 
 export default class SecurityEn extends React.Component {
   displayName = 'SecurityEn'
@@ -66,9 +67,9 @@ export default class SecurityEn extends React.Component {
         <IfLocale hasInstantSignup>
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <a href='/merchants/new' className='btn'>
+              <Href to='signup.path' className='btn'>
                 <Message pointer='cta.basic' />
-              </a>
+              </Href>
               <p className='u-color-p u-margin-Ts'>No set up costs, no hidden charges, no commitments</p>
             </div>
           </div>
