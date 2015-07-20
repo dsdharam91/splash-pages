@@ -71,7 +71,7 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Wie kann ich technische Hilfe bekommen?
+          Ich brauche Unterstützung, wie kann ich technische Hilfe bekommen?
         </h3>
         <p className='para'>
           Sie können uns jederzeit eine Email an <Href to='email' className='u-link-color-p u-text-underline'

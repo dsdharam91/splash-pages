@@ -45,24 +45,6 @@ export default class FaqMerchantsCustomerExperienceDe extends React.Component {
           Kundendaten befüllen. Die einzigen Informationen, die wir nicht automatisch füllen können, sind die Bankdetails
           Ihrer Kunden, wie z.B. die IBAN.
         </p>
-        <p className='para'>
-          With GoCardless Pro, you can host the payment pages on your own site so will not need to redirect customers.
-        </p>
-
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Can payments be made directly via the API?
-        </h3>
-        <p className='para'>
-          Only once authorisation is in place. Customers must be sent to our secure payment pages to give
-          initial authorisation of the Direct Debit.
-        </p>
-        <p className='para'>
-          To make this as easy as possible for your clients, you can pass their personal information to us
-          via the API to prepopulate the form.
-        </p>
-        <p className='para'>
-          Once authorisation is in place payment can be requested via the API.
-        </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Können Kunden auch mobil mit ihrem Handy zahlen?
