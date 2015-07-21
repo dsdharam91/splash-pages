@@ -44,8 +44,7 @@ export default class CountryLeadGermanyAustria extends React.Component {
             Marketing & PR: building the brand in the market.
           </li>
           <li>
-            Customer success: helping your customers go live and making sure
-            they remain satisfied.
+            Customer success: helping your customers go live and scale up
           </li>
           <li>
             Scaling your team: recruiting and onboarding great talent to support
@@ -83,12 +82,17 @@ export default class CountryLeadGermanyAustria extends React.Component {
             working in Germany or Austria and fluent in English.
           </li>
         </ul>
+        <p className='para'>
+          As part of your application, please describe how you would launch
+          GoCardless in the country in three paragraphs.
+        </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/52965' className='btn u-margin-Vs'>
           Apply now
         </a>
         <p className='para'>
-          Industry competitive salary. You will be based in London with travel
-          to the market.
+          Competitive salary. You will be based in London with travel to the
+          market. We will contribute towards international relocation costs
+          for candidates moving to the UK from elsewhere.
         </p>
       </JobsPage>
     );
