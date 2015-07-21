@@ -27,14 +27,17 @@ export default class OfficeManager extends React.Component {
         <p className='para'>
           This is an incredibly varied, busy role for someone who’s keen to support
           our fast-growing team and will happily take on any task, big or small.
-          A problem solver, you'll take ownership of the smooth running of the
-          office, and play a critical role in making GoCardless a great place to work.
+          You'll take ownership of the smooth running of the office, constantly
+          striving to make our working environment better.
         </p>
         <p className='para'>
+          A problem-solver, you'll
+          seek out potential issues and handle them before anyone is affected.
           You'll use your initiative to figure out what needs to be
-          done, when, and how best to do it. You’ll spot problems and fix them
-          before anyone notices or is affected.
-        </p>
+          done, when, and how best to do it. Ultimately you will be responsible
+          for making sure our office is a welcoming, productive environment,
+          whatever that may entail.
+        </p>        
         <p className='para'>
           A typical day might include:
         </p>
@@ -66,12 +69,6 @@ export default class OfficeManager extends React.Component {
           and confident interacting with people across the company to make sure
           that the most impactful things take priority but the details are never
           neglected.
-        </p>
-        <p className='para'>
-          You will take pride in the office and constantly strive to make our working
-          environment even better, balancing practicality and creative problem-solving.
-          Ultimately you will be responsible for making sure our office is a welcoming,
-          productive environment, whatever that may entail.
         </p>
         <p className='para'>
           We've built a friendly, collaborative culture, where we hire and develop
