@@ -9,7 +9,7 @@ export default class Partners extends React.Component {
 
   render() {
     return (
-      <Page isInverted={false}>
+      <Page isInverted={true}>
         <PartnersEn />
         <PartnersFr />
         <PartnersDe />

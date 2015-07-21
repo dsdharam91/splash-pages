@@ -115,6 +115,13 @@
   background-repeat: no-repeat;
 }
 
+.page-hero--partners {
+  background: $primary-color url('/images/hero/hero-partners.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 .page-hero--large {
   height: 585px;
 }
