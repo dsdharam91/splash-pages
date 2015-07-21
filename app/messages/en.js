@@ -313,8 +313,11 @@ export default {
     country_leads: {
       title: 'Country Leads',
     },
-    sales_marketing: {
-      title: 'Sales & Marketing',
+    sales: {
+      title: 'Sales',
+    },
+    marketing: {
+      title: 'Marketing',
     },
     operations: {
       title: 'Operations',
