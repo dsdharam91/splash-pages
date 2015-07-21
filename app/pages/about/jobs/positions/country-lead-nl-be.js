@@ -15,7 +15,7 @@ export default class CountryLeadNetherlandsBelgium extends React.Component {
           We've built a world-class product that brings cutting-edge recurring
           payments technology to a wide variety of businesses, from SMEs to
           multinational corporations like Tripadvisor, Habitat and Box.
-          We've gained great traction in the UK, launched in France and Germany,
+          We've gained great traction in the UK, launched in France,
           and we know we can make recurring payments simpler for everyone in the
           Eurozone – and beyond.
         </p>
@@ -44,8 +44,7 @@ export default class CountryLeadNetherlandsBelgium extends React.Component {
             Marketing & PR: building the brand in the market.
           </li>
           <li>
-            Customer success: helping your customers go live and making sure
-            they remain satisfied.
+            Customer success: helping your customers go live and scale up.
           </li>
           <li>
             Scaling your team: recruiting and onboarding great talent to support
@@ -87,8 +86,9 @@ export default class CountryLeadNetherlandsBelgium extends React.Component {
           Apply now
         </a>
         <p className='para'>
-          Industry competitive salary. You will be based in London with travel
-          to the market.
+            Competitive salary. You will be based in London with travel to the
+            market. We will contribute towards international relocation costs
+            for candidates moving to the UK from elsewhere.
         </p>
       </JobsPage>
     );
