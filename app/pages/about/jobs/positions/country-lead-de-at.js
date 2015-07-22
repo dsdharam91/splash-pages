@@ -14,7 +14,7 @@ export default class CountryLeadGermanyAustria extends React.Component {
         <p className='para'>
           We've built a world-class product that brings cutting-edge recurring
           payments technology to a wide variety of businesses, from SMEs to
-          multinational corporations like Tripadvisor, Habitat and Box.
+          multinational corporations like TripAdvisor, Habitat and Box.
           We've gained great traction in the UK, launched in France,
           and we know we can make recurring payments simpler for everyone in the
           Eurozone – and beyond.
@@ -44,7 +44,7 @@ export default class CountryLeadGermanyAustria extends React.Component {
             Marketing & PR: building the brand in the market.
           </li>
           <li>
-            Customer success: helping your customers go live and scale up
+            Customer success: helping your customers go live and scale up.
           </li>
           <li>
             Scaling your team: recruiting and onboarding great talent to support
@@ -63,7 +63,7 @@ export default class CountryLeadGermanyAustria extends React.Component {
         </h4>
         <ul className='list u-margin-Tm'>
           <li>
-            You’re driven and adaptable, able and willing to take on a variety
+            You're driven and adaptable, able and willing to take on a variety
             of challenges.
           </li>
           <li>
@@ -79,19 +79,19 @@ export default class CountryLeadGermanyAustria extends React.Component {
           </li>
           <li>
             You're a native-level German speaker with experience
-            working in Germany or Austria and fluent in English.
+            working in Germany or Austria and are fluent in English.
           </li>
         </ul>
         <p className='para'>
           As part of your application, please describe how you would launch
-          GoCardless in the country in three paragraphs.
+          GoCardless in Germany in three paragraphs.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/52965' className='btn u-margin-Vs'>
           Apply now
         </a>
         <p className='para'>
-          Competitive salary. You will be based in London with travel to the
-          market. We will contribute towards international relocation costs
+          Competitive salary. You will be based in London with travel to Germany
+          and Austria. We will contribute towards international relocation costs
           for candidates moving to the UK from elsewhere.
         </p>
       </JobsPage>
