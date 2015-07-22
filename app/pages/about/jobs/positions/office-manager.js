@@ -43,6 +43,16 @@ export default class OfficeManager extends React.Component {
         </p>
         <ul className='list'>
           <li>
+            organising a team event, whether it's an in-office lunch, evening outing
+            or an away day
+          </li>
+          <li>
+            building desk drawers and welcoming interview candidates
+          </li>
+          <li>
+            working with the finance team to prepare invoices and pay expenses
+          </li>
+          <li>
             finding an air conditioner repair company that can visit same-day,
             booking them and overseeing their work to ensure we get a long-term
             solution
@@ -50,15 +60,6 @@ export default class OfficeManager extends React.Component {
           <li>
             stocking the kitchen and stationery cupboard, and updating the fixed asset
             register
-          </li>
-          <li>
-            preparing invoices for the finance team and processing expenses
-          </li>
-          <li>
-            organising a dinner for our Board and hosting a client meeting
-          </li>
-          <li>
-            building desk drawers and welcoming interview candidates
           </li>
           <li>
             renegotiating our cleaning contract
