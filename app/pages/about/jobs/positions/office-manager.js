@@ -37,7 +37,7 @@ export default class OfficeManager extends React.Component {
           done, when, and how best to do it. Ultimately you will be responsible
           for making sure our office is a welcoming, productive environment,
           whatever that may entail.
-        </p>        
+        </p>
         <p className='para'>
           A typical day might include:
         </p>
