@@ -132,7 +132,14 @@ export default class FeaturesEn extends React.Component {
                         Get started in minutes
                       </div>
                       <p className='u-color-p u-margin-Txs'>
-                        All you need to get started is a UK bank account. Sign up now and you could be taking payments in minutes.
+                        <Translation locales='en-GB'>
+                          All you need is a UK bank account.
+                        </Translation>
+                        <Translation locales={['en']} exclude={['en-GB']}>
+                          All you need is a bank account in <Message pointer='country' />.
+                        </Translation>
+                        &nbsp;<Href to='signup.path'>Sign up now</Href> and
+                        you could start taking payments in minutes.
                       </p>
                     </IfLocale>
                   </div>
