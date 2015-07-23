@@ -1,5 +1,6 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
+import Href from '../../../../components/href/href';
 
 export default class FaqMerchantsDeveloperApiDe extends React.Component {
   displayName = 'FaqMerchantsDeveloperApiDe'
@@ -12,9 +13,8 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
           Wozu kann ich die API verwenden?
         </h3>
         <p className='para'>
-          Unsere Rest API erlaubt es Entwicklern auf einfachstem Weg mit GoCardless zu integrieren.
-          Lernen Sie dazu mehr in unserer
-          <Href to='documentation_link' className='u-link-color-p u-text-underline'>Dokumentation</Href>.
+          Unsere REST API erlaubt es Entwicklern auf einfachstem Weg mit GoCardless zu integrieren. Lernen Sie dazu
+          mehr in unserer <Href to='documentation_link' className='u-link-color-p u-text-underline'>Dokumentation</Href>.
         </p>
         <p className='para'>
           Sie können GoCardless integrieren, um Lastschriften von Ihren Kunden bequem über Ihr CRM Tool oder
@@ -25,15 +25,14 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
           Welche Programmiersprachen unterstützt GoCardless für die Integration?
         </h3>
         <p className='para'>
-           Wir sind mit allen existierenden Programmiersprachen kompatible, dank der Verwendung der REST Standards.
-           Darüber hinaus bieten wir für die gängingen Programmiersprachen Client Libraries zur Unterstützung Ihrer
+           Wir sind mit allen existierenden Programmiersprachen kompatibel, dank der Verwendung der REST Standards.
+           Darüber hinaus bieten wir für die gängigen Programmiersprachen Client Libraries zur Unterstützung Ihrer
            Integration an, darunter Ruby, PHP und Java. Wir fügen regelmäßig neue Libraries hinzu.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Kann ich die Zahlungsseiten auch auf meiner Webseite hosten?
         </h3>
-        <Translation locales='en-GB'>
           <p className='para'>
             Ja, allerdings nur mit GoCardless Pro. Dann können Sie Ihr eigenes Design anwenden und sie direkt
             auf Ihrer eigenen Webseite hosten. Beachten Sie allerdings, dass es hier gewisse SEPA Regeln gibt, die
@@ -45,14 +44,14 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
           </p>
           <p className='para'>
             In diesem Fall können Sie Ihre Kunden zu der von uns gehosteten Zahlungsseite leiten und nach erfolgreichem
-            Ausfüllen des Formulars leiten wir Ihren Kunden wieder zurück auf Ihre Seite.
+            Ausfüllen des Formulars leiten wir Ihre Kunden wieder zurück auf Ihre Seite.
           </p>
-        
+
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Sind auch iFrames möglich?
         </h3>
         <p className='para'>
-          Nein, wir bieten keine Lösungen für die Zahlungsseiten via iFrames an. Einige unserer Partner allerdings, so
+          Nein, wir bieten keine Lösungen für die Zahlungsseiten via iFrames an. Einige unserer Partner allerdings,
           z.B. Zuora, stellen die Zahlungsseiten als iFrames zur Verfügung. Wenn Sie GoCardless Pro benutzen,
           bieten wir Ihnen einen Javascript Flow, der es Ihnen erlaubt, die Zahlungen zu veranlassen ohne die
           Bankdetails Ihrer Kunden auf Ihrem eigenen Server zu speichern.
@@ -63,10 +62,10 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
         </h3>
         <p className='para'>
           GoCardless bietet Ihnen Webhooks, die Sie über alle Änderungen und Updates in Ihrem GoCardless Account informieren.
-          Z.B. werden Sie in Echtzeit darüber informiert, wenn sich der Status einer Zahlung oder Mandats ändert.
+          Z.B. werden Sie in Echtzeit darüber informiert, wenn sich der Status einer Zahlung oder eines Mandats ändert.
         </p>
         <p className='para'>
-          Sie können in unserer <a href='https://developer.gocardless.com/#webhooks-overview'
+          Sie können in unserer <a href='https://developer.gocardless.com/pro/#webhooks-overview'
           className='u-link-color-p u-text-underline'>Webhook Dokumentation</a> mehr über die Verwendung von Webhooks erfahren.
         </p>
 
@@ -75,10 +74,10 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
         </h3>
         <p className='para'>
           Sie können uns jederzeit eine Email an <Href to='email' className='u-link-color-p u-text-underline'
-          itemProp='email' /> schicken. Wir haben auch einen englischen Live-Chat, den Sie über 
-          <a href='http://webchat.freenode.net/?channels=gocardless&uio=OT10cnVlJjExPTIzNiYxMj10cnVl51' target='_blank'
-          className='u-link-color-p u-text-underline'>#gocardless on irc.freenode.net</a> erreichen können. Unsere Entwickler sind
-          Montag bis Freitag zwischen 10 und 19 Uhr für Sie da.
+          itemProp='email' /> schicken. Wir haben auch einen englischen Live-Chat, den Sie
+          über <a href='http://webchat.freenode.net/?channels=gocardless&uio=OT10cnVlJjExPTIzNiYxMj10cnVl51' target='_blank'
+          className='u-link-color-p u-text-underline'>#gocardless on irc.freenode.net</a> erreichen können.
+          Unsere Entwickler sind Montag bis Freitag zwischen 10 und 19 Uhr für Sie da.
         </p>
 
       </Translation>

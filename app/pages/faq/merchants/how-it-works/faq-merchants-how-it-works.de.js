@@ -12,16 +12,16 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
           Wann erhalte ich meine Zahlungen?
         </h3>
         <p className='para'>
-          Wir zahlen Ihnen automatisch innerhalb von <strong>3 Geschäftstagen</strong> nach dem Erhalt der Zahlungen Ihrer
-          Kunden die Zahlungen auf das von Ihnen angegebene Bankkonto aus.
+          Wir zahlen Ihnen automatisch innerhalb von <strong>3 Geschäftstagen</strong> nach Erhalt der Zahlungen Ihrer
+          Kunden das Geld auf das von Ihnen angegebene Bankkonto aus.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Welche Arten von Zahlungen kann ich von meinen Kunden einziehen?
         </h3>
         <p className='para'>
-          Sie können einmalige, wiederkehrende reguläre sowie variable Lastschriften einziehen, sowohl in der freundlichen
-          Online Benutzeroberfläche als auch über die API.
+          Sie können einmalige und wiederkehrende Lastschriften einziehen, letztere dürfen auch im Betrag variieren. Das funktioniert
+          sowohl in der freundlichen Benutzeroberfläche als auch über die API.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
@@ -46,10 +46,10 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
         </ul>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Wie können meine Kunden eine Zahlung authorisieren?
+          Wie können meine Kunden eine Zahlung autorisieren?
         </h3>
         <p className='para'>
-          Ihre Kunden können Sie entweder auf elektronischem Weg oder über ein Papiermandat authorisieren
+          Ihre Kunden können Sie elektronisch oder über ein Papiermandat autorisieren
           Zahlungen von ihnen einzuziehen, indem Sie Ihnen ein Mandat ausstellen und Ihre Bankdaten darin angeben.
           Für das elektronische Mandat können Sie entweder die von GoCardless gehosteten Zahlungsseiten verwenden
           oder im Falle von GoCardless Pro Ihre eigenen benutzen.
@@ -64,7 +64,7 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Kann ich eine Zahlung oder eine Reihe wiederkehrender Zahlungen ändern, nachdem sie bereits kreiert wurde? 
+          Kann ich eine Zahlung oder eine Reihe wiederkehrender Zahlungen ändern, nachdem sie bereits kreiert wurde?
         </h3>
         <p className='para'>
           Ja, solange die Zahlung noch nicht zu den Banken geschickt wurde, können Sie jederzeit eine eingetragene Zahlung
@@ -81,10 +81,10 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Kann GoCardless mein Konto jemals limitieren?
+          Kann GoCardless mein Konto limitieren?
         </h3>
         <p className='para'>
-          Es gibt wenige Situationen, in denen wir gezwungen sind, Ihr GoCardless Konto zu restringieren, diese sind: 
+          Es gibt wenige Situationen, in denen wir gezwungen sind, Ihr GoCardless Konto zu restringieren, diese sind:
         </p>
         <ul className='list'>
           <li>Wenn wir glauben, dass Ihre Anmelde-Informationen unsicher geworden sind.</li>
@@ -92,8 +92,8 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
           <li>Wenn wir von Gesetzeswegen dazu angehalten sind.</li>
         </ul>
         <p className='para'>
-          Falls wir dies jemals tun müssen, werden wir Sie natürlich sofort darüber informieren und vergewissern, dass
-          es immer jemanden in unserem Team geben wird, mit dem Sie über die Situation sprechen können und der Ihnen
+          Falls wir dies jemals tun müssen, werden wir Sie natürlich sofort darüber informieren. Es wird zudem
+          immer jemanden in unserem Team geben, mit dem Sie über die Situation sprechen können und der Ihnen
           helfen kann, diese so schnell es geht zu beheben.
         </p>
       </Translation>

@@ -17,7 +17,7 @@ export default class FaqMerchantsSecurityEn extends React.Component {
             We are regulated as an <a href='http://www.fsa.gov.uk/register/psdFirmBasicDetails.do?sid=315374'
             title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Authorised Payment Institution</a> by
             the Financial Conduct Authority in the United Kingdom. We are authorised to collect payments
-            throughout the European Union and currently serve more 5,000 businesses.
+            throughout the European Union and currently serve more 10,000 businesses.
           </p>
           <p className='para'>
             All money collected is held in a secure client monies account with one of our partner banks.

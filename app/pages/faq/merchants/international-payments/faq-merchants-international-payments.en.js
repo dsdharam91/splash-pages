@@ -105,7 +105,7 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
           When will GoCardless be available outside Europe?
         </h3>
         <p className='para'>
-          GoCardless will not be available outside Europe in 2014. We are working very hard to expand
+          GoCardless will not be available outside Europe in 2015. We are working very hard to expand
           to more countries soon.
         </p>
       </Translation>

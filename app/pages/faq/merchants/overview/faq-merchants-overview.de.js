@@ -9,125 +9,124 @@ export default class FaqMerchantsDe extends React.Component {
   render() {
     return (
       <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Overview</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-heading'>Übersicht</h2>
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          How can I use GoCardless?
+          Wie kann ich GoCardless benutzen?
         </h3>
         <p className='para'>
-          There are two ways to use GoCardless:
+          Sie können GoCardless auf zweierlei Art und Weise benutzen:
         </p>
         <ul className='list'>
           <li>
-            <strong>Our dashboards</strong> - Set up and manage Direct Debit payments
-            with your customers using our simple online dashboard.
+            <strong>Über die Benutzeroberfläche</strong> - Mit unserem einfachen Dashboard können Sie Lastschriften
+            von Ihren Kunden manuell eintragen und transparent verfolgen.
           </li>
           <li>
-            <strong>Our clean, RESTful API</strong> - Integrate GoCardless into your website using
-            our <a href='https://developer.gocardless.com/pro' className='u-link-color-p u-text-underline'>REST API</a>.
+            <strong>Über unsere REST API</strong> - Integrieren Sie GoCardless nahtlos in Ihre Webseite mit
+            unserer <a href='https://developer.gocardless.com/pro' className='u-link-color-p u-text-underline'>REST API</a>.
           </li>
         </ul>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Who is GoCardless for?
+          Für wen ist GoCardless gemacht?
         </h3>
         <p className='para'>
-          GoCardless is for anyone who wants to take payments directly from the bank account of customers in the UK and the Eurozone.
-          It's particularly suited for B2B (business-to-business) and recurring payments.
+          GoCardless ist für jeden, der Zahlungen gerne direkt vom Bankkonto seiner Kunden in Deutschland, der Eurozone
+          sowie dem Vereinigten Königreich einziehen will.
+          Es ist besonders hilfreich für B2B Unternehmen, also denen die Geld von Firmenkunden einziehen, sowie für
+          Unternehmen, die wiederkehrende Zahlungen einziehen, wie z.B. Abonnements und Mitgliedschaftsbeiträge.
         </p>
         <p className='para'>
-          Our easy-to-use dashboards and powerful API make GoCardless a powerful platform for
-          everyone from innovative start-ups to multi-national corporations.
+          Unsere einfache Benutzeroberfläche und die starke API machen GoCardless zu einer optimalen Lösung—von innovativen Start Ups
+          bis zu internationalen Großunternehmen.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          What can I not use GoCardless for?
+          Wofür kann ich GoCardless verwenden?
         </h3>
         <p className='para'>
-          GoCardless is great for many use cases. However, there are some limitations with our service. We aren't able to:
+          GoCardless hat viele tolle Anwendungsfälle, es gibt aber ein paar Ausnahmen:
         </p>
         <ul className='list'>
           <li>
-            <strong>Let you take credit card payments</strong> - however you <strong>can</strong> use
-            another payment provider alongside GoCardless.
+            <strong>Kreditkartenzahlungen</strong> - GoCardless bietet keine Zahlungen per Kreditkarte an, Sie können aber
+            einen Kreditkartenanbieter parallel zu GoCardless verwenden.
           </li>
           <li>
-            <strong>Let you accept instant payments</strong> - Direct Debit payments take 3-5 working
-            days to clear, so they're not ideal for goods that need to be shipped quickly.
+            <strong>Sofortige Zahlungen</strong> - Zahlungen per Lastschrift brauchen in der Regel 3-5 Arbeitstage, bis Sie beim
+            Empfänger ankommen. Daher ist das Lastschriftverfahren nicht so gut geeignet, wann immer eine sofortige Bestätigung
+            notwendig ist, wie z.B. wenn ein schneller Versand erforderlich ist.
           </li>
         </ul>
         <IfLinkExists to='legal_restrictions'>
           <p className='para'>
-            We're able to accept most kinds of customers but there are some exceptions - for
-            full details, see our <Link to='legal_restrictions' className='u-link-color-p u-text-underline'>restricted
-            activities page</Link>.
+            Wir können die meisten Kunden als Nutzer von GoCardless bedienen, es gibt aber manche Ausnahmen. Für Details,
+            werfen Sie einen Blick auf unsere <Link to='legal_restrictions' className='u-link-color-p u-text-underline'>restricted
+            activities Seite</Link>.
           </p>
         </IfLinkExists>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Are there any limits on the amount I can collect?
+          Gibt es eine Obergrenze für die Höhe der Zahlungen?
         </h3>
         <p className='para'>
-          There are no limits on how many transactions you can make.
+          Die Anzahl Ihrer Transaktionen ist unbegrenzt.
         </p>
         <p className='para'>
-          In the UK, the minimum amount for a single transaction is £1 and the maximum amount is £5,000.
-          We may be able to increase this limit with additional verification checks.
-        </p>
-        <p className='para'>
-          In the Eurozone, the maximum amount for a single transaction is €5,000.
+          In Deutschland und der Eurozone ist die Höhe einer einzelnen Zahlung auf €5.000 beschränkt. Falls Sie GoCardless
+          gerne auch für Zahlungen im Vereinigten Königreich einsetzen möchten, dann muss die Transaktion zwischen £1 und £5.000 liegen.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          How do I receive funds I have collected with GoCardless?
+          Wie erhalte ich das Geld, dass ich mit Hilfe von GoCardless eingezogen habe?
         </h3>
         <p className='para'>
-          The funds collected are paid directly into your bank account.
+          Wir überweisen Ihnen das Geld, das wir von Ihren Kunden empfangen, direkt auf Ihr Bankkonto.
         </p>
         <p className='para'>
-          With GoCardless, our <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>fees</Link> are
-          deducted automatically.
+          Mit GoCardless werden die <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>Gebühren</Link>
+          automatisch einbehalten, wenn wir Ihnen das Geld auszahlen.
         </p>
         <p className='para'>
-          With GoCardless Pro, we'll send you an invoice for
-          your <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>fees</Link>.
+          Mit GoCardless Pro stellen wir Ihnen die
+          <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>Gebühren</Link> in Rechnung.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          When do I receive my payment?
+          Wann erhalte ich die Zahlungen?
         </h3>
         <p className='para'>
-          All payments are paid out 3 working days from when the payment was collected.
-        </p>
-        <p className='para'>
-          We don't hold back any of your funds in reserve.
+          Zahlungen werden 3 Tage nach dem jeweiligen Einzug an Sie ausgezahlt.
+          Wir halten das Geld nicht auf Reserve, sondern zahlen alle verfügbaren Gelder an Sie aus.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Do you take credit or debit cards?
+          Kann ich mit GoCardless auch Kreditkartenzahlungen anbieten?
         </h3>
         <p className='para'>
-          No, GoCardless is a Direct Debit company.
+          Nein, GoCardless ist ein Lastschriftexperte und bietet keine Zahlungen per Kreditkarte an.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          Why is GoCardless better than the other options I'm considering?
+          Warum sollte ich GoCardless anderen Optionen vorziehen?
         </h3>
         <p className='para'>
-          Below are just some of the reasons why people choose us:
+          Hier ist eine Auswahl von Gründen, warum unsere Kunden uns wählen:
         </p>
 
         <ul className='list'>
           <li>
-            <strong>Reduced administration</strong> - Collect recurring and one-off payments automatically,
-            or at the click of a button. We manage everything else for you.
+            <strong>Stark reduzierter Verwaltungsaufwand</strong> - Sie können wiederkehrende sowie einmalige Zahlungen
+            ganz automatisch einziehen. Wir kümmern uns um den Rest.
           </li>
           <li>
-            <strong>Powerful tools that suit you</strong> - Everything you need to set up, collect
-            and manage Direct Debit payments with our simple online tool or <a href='https://developer.gocardless.com/'
+            <strong>Clevere Technik</strong> - Wir bieten Ihnen eine hochklassige Lösung, um Zahlungen zu kreieren, zu bearbeiten
+            und zu verwalten. Das funktioniert über unser einfaches Online Dashboard und die <a href='https://developer.gocardless.com/'
             className='u-link-color-p u-text-underline'>REST API</a>.
           </li>
           <li>
-            <strong>The personal touch</strong> - Our support team prides itself on being there to help whenever you need us.
+            <strong>Der persönliche Bezug</strong> - Unser Team ist immer bemüht Sie bestens zu unterstützen und geht dabei regelmäßig
+            die Extra Meile.
           </li>
         </ul>
       </Translation>

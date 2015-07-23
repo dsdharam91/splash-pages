@@ -1,5 +1,6 @@
 import React from 'react';
-import IfLocale from '../../../../components/if-locale/if-locale';
+import Translation from '../../../../components/translation/translation';
+import Href from '../../../../components/href/href';
 
 export default class FaqMerchantsDirectDebitDe extends React.Component {
   displayName = 'FaqMerchantsDirectDebitDe'
@@ -27,12 +28,12 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           Wie steht es um Kundenschutz?
         </h3>
         <p className='para'>
-          Kunden, die das Lastschriftverfahren als Zahlungsmittel nutzen, haben das Recht, die Zahlung zurückzurufen.
+          Kunden, die das Lastschriftverfahren als Zahlungsmittel nutzen, haben das Recht, ihre Zahlungen zurückzurufen.
           Dazu muss der Kunde bis spätestens acht Wochen nach Zahlung eine Rückerstattung der Zahlung bei seiner Bank
           in Auftrag geben.
         </p>
         <p className='para'>
-            Ebenso können Kunden eine nach einer sofortigen Rückzahlung eines nicht authorisierten oder betrügerischen 
+            Ebenso können Kunden nach einer sofortigen Rückzahlung eines nicht autorisierten oder betrügerischen
             Lastschrifteinzugs fragen. Dies muss so bald wie möglich geschehen und spätestens 13 Monate nach dem Einzug
             der Lastschrift.
           </p>
@@ -53,7 +54,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           Benötige ich eine SEPA Gläubiger ID?
         </h3>
         <p className='para'>
-          Wir können Ihnen eine SEPA Gläubiger ID über unsere Partnerbank zur Verfügung stellen.
+          Nein, wir können Ihnen eine SEPA Gläubiger ID über unsere Partnerbank zur Verfügung stellen.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
@@ -66,7 +67,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
         <ul className='list'>
           <li>Wiederkehrende Zahlungen (z.B. Abonnements oder Mitgliedschaftsbeiträge)</li>
           <li>Kunden mit einer langfristigen Geschäftsbeziehung (z.B. Stammkunden)</li>
-          <li>Dienstleistungen, die in Rechnung gestellt werden (z.B. Rechtsberatung oder Steuerberatung)</li>
+          <li>Dienstleistungen, die in Rechnung gestellt werden (z.B. Rechts- oder Steuerberatung)</li>
         </ul>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
@@ -75,7 +76,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
         <ul className='list'>
           <li>Transaktionen, die sofort durchgeführt werden müssen (oft z.B. in E-Commerce)</li>
           <li>Sehr hohe einmalige Zahlungen für wertvolle Gegenstände (z.B. Goldbarren)</li>
-          <li>Zahlungen, die mit hoher Wahrscheinlichkeit rückgefordert werden (z.B. Glücksspiele)</li>
+          <li>Zahlungen, die mit hoher Wahrscheinlichkeit zurückgefordert werden (z.B. Glücksspiele)</li>
         </ul>
 
 
@@ -83,10 +84,10 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           Wie lange braucht eine Lastschriftzahlung?
         </h3>
         <p className='para'>
-          Alle SEPA Lastschriftzahlungen werden drei Tage nach der Belastung des Kontos Ihres Kunden ausgezahlt.
+          Alle SEPA Lastschriftzahlungen werden drei Tage nach der Belastung des Kontos Ihres Kunden an Sie ausgezahlt.
         </p>
         <p className='para'>
-          Für einen neuen Kunden muss zunächst ein Mandat ausgestellt werden, das mit der ersten Zahlung bei der Bank 
+          Für einen neuen Kunden muss zunächst ein Mandat ausgestellt werden, das mit der ersten Zahlung bei der Bank
           des Kunden eingereicht wird. Im SEPA Basislastschriftverfahren muss dies sechs Tage vor der Belastung
           des Kontos Ihres Kunden passieren.
         </p>
@@ -96,7 +97,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-            Ist es auch möglich einzelne Zahlungen per Lastschrift einzuziehen.
+            Ist es auch möglich einzelne Zahlungen per Lastschrift einzuziehen?
         </h3>
         <p className='para'>
           Ja. Das Lastschriftverfahren ist zwar besonders für wiederkehrende Zahlungen geeignet, aber ebenso können Sie
@@ -112,7 +113,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           Zustimmung von Ihren Kunden.
         </p>
         <p className='para'>
-          GoCardless kümmert sich für Sie um diesen Prozess, vollkommen kostenfrei.
+          GoCardless kümmert sich für Sie kostenfrei um diesen Prozess.
         </p>
 
         </Translation>
