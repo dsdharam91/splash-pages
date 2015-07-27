@@ -2,6 +2,7 @@
 
 const https = require('https');
 const fs = require('fs');
+import path from 'path';
 import { fetchPage, writePage } from '../app/static-build/builder';
 import { SitemapUrlSet } from '../app/static-build/sitemap';
 import availableLocales from '../config/available-locales';
@@ -41,6 +42,7 @@ Promise.all(getAllPaths(availableLocales).map(processPage)).then(function(filena
   console.log('Completed static html dump:');
   console.log(filenames.sort().map((filename) => `  ${filename}`).join('\n'));
 
-  fs.writeFileSync('dist/sitemap.xml', global.newSitemap.toXml());
-  console.log('\nSitemap written to sitemap.xml');
+  const sitemapOutputPath = path.join(outDir, 'sitemap.xml');
+  fs.writeFileSync(sitemapOutputPath, global.newSitemap.toXml());
+  console.log(`\nSitemap written to ${sitemapOutputPath}`);
 }).catch(console.error.bind(console));
