@@ -28,14 +28,13 @@ https.get('https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml', fun
   console.error(`Wasn't able to download the old sitemap: ${e.message}`);
 });
 
-// Is there a better way than using a global variable?
-global.newSitemap = new SitemapUrlSet('https://gocardless.com');
+let newSitemap = new SitemapUrlSet('https://gocardless.com');
 
 const processPage = function(pagePath) {
   // TODO: Return a promise for both of these functions
   var page = fetchPage(serverUrl, pagePath);
   page.then((resolve,reject) => {
-    global.newSitemap.addUrl(resolve[0], resolve[1]);
+    newSitemap.addUrl(resolve[0], resolve[1]);
   });
   return page.then(writePage.bind(null, outDir))
     .catch(console.error.bind(console));
@@ -46,6 +45,6 @@ Promise.all(getAllPaths(availableLocales).map(processPage)).then(function(filena
   console.log(filenames.sort().map((filename) => `  ${filename}`).join('\n'));
 
   const sitemapOutputPath = path.join(outDir, 'sitemap.xml');
-  fs.writeFileSync(sitemapOutputPath, global.newSitemap.toXml());
+  fs.writeFileSync(sitemapOutputPath, newSitemap.toXml());
   console.log(`\nSitemap written to ${sitemapOutputPath}`);
 }).catch(console.error.bind(console));
