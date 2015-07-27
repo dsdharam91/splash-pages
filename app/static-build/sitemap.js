@@ -38,22 +38,22 @@ export class SitemapUrlSet {
    * @returns {SitemapUrlSet} A SitemapUrlSet object representing the sitemap.
    */
   fromXml(xml) {
-    var thisSitemap = this;
     var $ = cheerio.load(xml);
     var sitemapUrls = $('url');
-    sitemapUrls.each(function() {
-      var location = $(this).find('loc').text();
+    sitemapUrls.each((i, element) => {
+      let currentUrlElement = $(element);
+      var location = currentUrlElement.find('loc').text();
       if (location) {
         var pathName = url.parse(location).pathname;
-        var hash = $(this).find('content\\:hash').text();
-        var lastMod = Date.parse($(this).find('lastmod').text());
-        thisSitemap.urlSet[pathName] = {
+        var hash = currentUrlElement.find('content\\:hash').text();
+        var lastMod = Date.parse(currentUrlElement.find('lastmod').text());
+        this.urlSet[pathName] = {
           hash: hash,
           lastMod: lastMod,
         };
       }
     });
-    return thisSitemap;
+    return this;
   }
 
   /**

@@ -20,13 +20,13 @@ if (!serverUrl || !outDir) {
 // TODO: Initalise SitemapUrlSet with domain name from environmental variable
 https.get('https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml', function(res) {
   if (res.statusCode == 200) {
-    res.on('data', function(oldSitemapXml) {
+    res.on('data', (oldSitemapXml) => {
       const oldSitemap = new SitemapUrlSet('https://gocardless.com').fromXml(oldSitemapXml);
     });
   }
-}).on('error', function(e) {
-  console.error("Wasn't able to download the old sitemap.");
-})
+}).on('error', (e) => {
+  console.error(`Wasn't able to download the old sitemap: ${e.message}`);
+});
 
 // Is there a better way than using a global variable?
 global.newSitemap = new SitemapUrlSet('https://gocardless.com');
@@ -34,7 +34,7 @@ global.newSitemap = new SitemapUrlSet('https://gocardless.com');
 const processPage = function(pagePath) {
   // TODO: Return a promise for both of these functions
   var page = fetchPage(serverUrl, pagePath);
-  page.then(function(resolve,reject) {
+  page.then((resolve,reject) => {
     global.newSitemap.addUrl(resolve[0], resolve[1]);
   });
   return page.then(writePage.bind(null, outDir))
