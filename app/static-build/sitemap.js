@@ -3,6 +3,21 @@ const cheerio = require('cheerio');
 const crypto = require('crypto');
 
 /**
+ * Returns a md5 hash representation of the content.
+ * Will remove script tags and other HTML before generating the hash.
+ *
+ * @param {string} content - HTML content of the page.
+ * @returns {string} md5 hash representation of the content of the page
+ */
+function getHashOfContent(content) {
+  content = content.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+  var $ = cheerio.load(content);
+  var bodyText = $('body').text();
+  var cryptoHash = crypto.createHash('md5').update(bodyText).digest('hex');
+  return cryptoHash;
+}
+
+/**
  * Creates a new sitemapUrlSet object.
  * e.g. var sitemap = new sitemapUrlSet('http://example.com')
  *
@@ -23,22 +38,22 @@ export class sitemapUrlSet {
    * @returns {sitemapUrlSet} A sitemapUrlSet object representing the sitemap.
    */
   fromXml(xml) {
-    var sitemapUrlSet = this;
+    var thisSitemap = this;
     var $ = cheerio.load(xml);
     var sitemapUrls = $('url');
-    sitemapUrls.each(function(i, element) {
+    sitemapUrls.each(function() {
       var location = $(this).find('loc').text();
       if (location) {
         var pathName = url.parse(location).pathname;
         var hash = $(this).find('content\\:hash').text();
         var lastMod = Date.parse($(this).find('lastmod').text());
-        sitemapUrlSet.urlSet[pathName] = {
-          'hash': hash,
-          'lastMod': lastMod,
+        thisSitemap.urlSet[pathName] = {
+          hash: hash,
+          lastMod: lastMod,
         };
       }
     });
-    return sitemapUrlSet;
+    return thisSitemap;
   }
 
   /**
@@ -47,22 +62,25 @@ export class sitemapUrlSet {
    * @returns {string} A XML format representation of the sitemapUrlSet object.
    */
   toXml() {
-    var xml = "<?xml version='1.0' encoding='UTF-8'?>\n"
-            + "<urlset xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'\n"
-            + "  xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd'\n"
-            + "  xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'\n"
-            + "  xmlns:xhtml='http://www.w3.org/1999/xhtml'\n"
-            + "  xmlns:content='https://github.com/gocardless/splash-pages#xml-sitemap-hash'>\n";
+    /*eslint-disable max-len*/
+    var xml = '<?xml version="1.0" encoding="UTF-8"?>\n' +
+              '<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n' +
+              '  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"\n' +
+              '  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n' +
+              '  xmlns:xhtml="http://www.w3.org/1999/xhtml"\n' +
+              '  xmlns:content="https://github.com/gocardless/splash-pages#xml-sitemap-hash">\n';
+    /*eslint-enable max-len*/
     for (url in this.urlSet) {
-      var lastMod = new Date(this.urlSet[url]['lastMod']);
-      var lastMod_w3 = lastMod.toISOString().substring(0,10); // Date should be in W3C Datetime (YYYY-MM-DD) format
-      xml += `  <url>\n`
-          +  `    <loc>${this.domain}${url}</loc>\n`
-          +  `    <content:hash>${this.urlSet[url]['hash']}</content:hash>\n`
-          +  `    <lastmod>${lastMod_w3}</lastmod>\n`
-          +  `  </url>\n`;
+      var lastMod = new Date(this.urlSet[url].lastMod);
+      // Date should be in W3C Datetime (YYYY-MM-DD) format
+      var lastModW3 = lastMod.toISOString().substring(0,10);
+      xml += `  <url>\n` +
+             `    <loc>${this.domain}${url}</loc>\n` +
+             `    <content:hash>${this.urlSet[url].hash}</content:hash>\n` +
+             `    <lastmod>${lastModW3}</lastmod>\n` +
+             `  </url>\n`;
     }
-    xml += '</urlset>'
+    xml += '</urlset>';
     return xml;
   }
 
@@ -77,9 +95,9 @@ export class sitemapUrlSet {
     const pathName = url.parse(pageUrl).pathname;
     const pageHash = getHashOfContent(content);
     this.urlSet[pathName] = {
-      'hash': pageHash,
-      'lastMod': Date.now(),
-    }
+      hash: pageHash,
+      lastMod: Date.now(),
+    };
   }
 
   /**
@@ -87,7 +105,7 @@ export class sitemapUrlSet {
    * e.g. var aboutPage = sitemap.getUrl('http://www.example.com/about/')
    *
    * @param {string} pageUrl - URL of the page to add to the sitemap
-   * @return {{Object|boolean}} Returns URL info if exists in the sitemap; otherwise returns false 
+   * @return {{Object|boolean}} Returns URL info if exists in the sitemap; otherwise returns false
    */
   getUrl(pageUrl) {
     const pathName = url.parse(pageUrl).pathname;
@@ -108,7 +126,7 @@ export class sitemapUrlSet {
     const pathName = url.parse(pageUrl).pathname;
     if (pathName in this.urlSet) {
       delete this.urlSet[pathName];
-      return true
+      return true;
     }
     return false;
   }
@@ -125,26 +143,11 @@ export class sitemapUrlSet {
       if (url in oldSitemap.urlSet) {
         var oldUrl = oldSitemap.urlSet[url];
         var newUrl = this.urlSet[url];
-        if (oldUrl['hash'] === newUrl['hash']) {
-          newUrl['lastMod'] = Math.min(newUrl['lastMod'], oldUrl['lastMod']);
+        if (oldUrl.hash === newUrl.hash) {
+          newUrl.lastMod = Math.min(newUrl.lastMod, oldUrl.lastMod);
         }
       }
     }
     return this;
   }
-}
-
-/**
- * Returns a md5 hash representation of the content.
- * Will remove script tags and other HTML before generating the hash.
- *
- * @param {string} content - HTML content of the page.
- * @returns {string} md5 hash representation of the content of the page
- */
-function getHashOfContent(content) {
-  content = content.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
-  var $ = cheerio.load(content);
-  var bodyText = $('body').text();
-  var cryptoHash = crypto.createHash('md5').update(bodyText).digest('hex');
-  return cryptoHash;
 }
