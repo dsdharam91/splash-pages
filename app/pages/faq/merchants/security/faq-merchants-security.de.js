@@ -63,8 +63,8 @@ export default class FaqMerchantsSecurityDe extends React.Component {
         </p>
 
         <p className='para'>Falls Sie Interesse daran haben unsere Systeme auf Sicherheit und Verletzbarkeit zu testen, dann können
-        Sie sich einen <a href="https://manage-sandbox.gocardless.com/signup" className="u-link-color-p u-text-underline">Test Account</a>
-        einrichten.
+        Sie sich einen <a href="https://manage-sandbox.gocardless.com/signup"
+        className="u-link-color-p u-text-underline">Test Account</a> einrichten.
         </p>
 
         <p className='para'>Um Ihre Arbeit zu würdigen sowie als Dankeschön dafür, dass Sie uns helfen GoCardless sicher zu halten,

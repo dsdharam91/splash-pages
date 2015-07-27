@@ -7,6 +7,7 @@ export default {
     has_instant_signup: true,
     has_percentage_pricing: true,
   },
+  phone_local: '030 568373022',
   hero: {
     header: 'Wiederkehrende Zahlungen einfach gemacht',
     desc: 'GoCardless macht das Einziehen von Lastschriften innerhalb ganz Europa zum Kinderspiel, für den Kleinbetrieb sowie für internationale Großunternehmen.',

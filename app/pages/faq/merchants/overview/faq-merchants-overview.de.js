@@ -2,6 +2,7 @@ import React from 'react';
 import Translation from '../../../../components/translation/translation';
 import Link from '../../../../components/link/link';
 import IfLinkExists from '../../../../components/if-link-exists/if-link-exists';
+import Href from '../../../../components/href/href';
 
 export default class FaqMerchantsDe extends React.Component {
   displayName = 'FaqMerchantsDe'
@@ -23,7 +24,7 @@ export default class FaqMerchantsDe extends React.Component {
           </li>
           <li>
             <strong>Über unsere REST API</strong> - Integrieren Sie GoCardless nahtlos in Ihre Webseite mit
-            unserer <a href='https://developer.gocardless.com/pro' className='u-link-color-p u-text-underline'>REST API</a>.
+            unserer <Href to='documentation_link' className='u-link-color-p u-text-underline'>REST API</Href>.
           </li>
         </ul>
 
@@ -84,12 +85,13 @@ export default class FaqMerchantsDe extends React.Component {
           Wir überweisen Ihnen das Geld, das wir von Ihren Kunden empfangen, direkt auf Ihr Bankkonto.
         </p>
         <p className='para'>
-          Mit GoCardless werden die <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>Gebühren</Link>
-          automatisch einbehalten, wenn wir Ihnen das Geld auszahlen.
+          Mit GoCardless werden
+          die <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>Gebühren</Link> automatisch
+          einbehalten, wenn wir Ihnen das Geld auszahlen.
         </p>
         <p className='para'>
-          Mit GoCardless Pro stellen wir Ihnen die
-          <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>Gebühren</Link> in Rechnung.
+          Mit GoCardless Pro stellen wir Ihnen
+          die <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>Gebühren</Link> in Rechnung.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
@@ -121,8 +123,8 @@ export default class FaqMerchantsDe extends React.Component {
           </li>
           <li>
             <strong>Clevere Technik</strong> - Wir bieten Ihnen eine hochklassige Lösung, um Zahlungen zu kreieren, zu bearbeiten
-            und zu verwalten. Das funktioniert über unser einfaches Online Dashboard und die <a href='https://developer.gocardless.com/'
-            className='u-link-color-p u-text-underline'>REST API</a>.
+            und zu verwalten. Das funktioniert über unser einfaches Online Dashboard und
+            die <Href to='documentation_link' className='u-link-color-p u-text-underline'>REST API</Href>.
           </li>
           <li>
             <strong>Der persönliche Bezug</strong> - Unser Team ist immer bemüht Sie bestens zu unterstützen und geht dabei regelmäßig

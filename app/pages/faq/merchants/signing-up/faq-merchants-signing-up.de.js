@@ -1,5 +1,6 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
+import Href from '../../../../components/href/href';
 
 export default class FaqMerchantsSigningUpDe extends React.Component {
   displayName = 'FaqMerchantsSigningUpDe'
@@ -13,12 +14,14 @@ export default class FaqMerchantsSigningUpDe extends React.Component {
           Wie kann ich mich für GoCardless anmelden?
         </h3>
         <p className='para'>
-          Sie können sich innerhalb weniger Minuten für einen <a href="https://manage.gocardless.com/signup">GoCardless</a> Account
+          Sie können sich innerhalb weniger Minuten für
+          einen <Href to='signup.path' className='u-link-color-p u-text-underline'>GoCardless</Href> Account
           registrieren und anfangen die ersten Zahlungen einzuziehen.
         </p>
         <p className='para'>
-          Als Entwickler können Sie sich <a href="https://manage-sandbox.gocardless.com/registrations/new">hier</a> für einen
-          Testaccount anmelden, um unsere API zu integrieren.
+          Als Entwickler können Sie
+          sich <a href='https://manage-sandbox.gocardless.com/registrations/new' className='u-link-color-p u-text-underline'>hier</a> für
+          einen Testaccount anmelden, um unsere API zu integrieren.
         </p>
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Welche Angaben muss ich zur Anmeldung machen?
@@ -43,9 +46,9 @@ export default class FaqMerchantsSigningUpDe extends React.Component {
           Was mache ich als Entwickler?
         </h3>
         <p className='para'>
-          Entwickler sollten sich ganz normal <a href="https://manage.gocardless.com/signup">anmelden</a>. Sobald Sie angemeldet sind,
-          können Sie Ihren Entwickler Account freischalten. Unsere API Dokumentation ist <a href='https://developer.gocardless.com/pro/'
-          className='u-link-color-p u-text-underline'>hier</a> verfügbar.
+          Entwickler sollten sich ganz normal <Href to='signup.path' className='u-link-color-p u-text-underline'>anmelden</Href>. Sobald
+          Sie angemeldet sind, können Sie Ihren Entwickler Account freischalten. Unsere API Dokumentation
+          ist <Href to='documentation_link' className='u-link-color-p u-text-underline'>hier</Href> verfügbar.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>

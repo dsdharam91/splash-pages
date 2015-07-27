@@ -41,7 +41,7 @@ export default {
     address_country_iso: 'GB',
   },
   phone_full: '+49 30 568373022',
-  phone_local: '030 568373022',
+  phone_local: '+49 30 568373022',
   email: 'deutschland@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
@@ -142,26 +142,6 @@ export default {
   faq: {
     title: 'Häufig gestellte Fragen',
     sidebar: 'Ihre Frage wurde noch nicht beantwortet? Kontaktieren Sie uns',
-  },
-  faq_customers: {
-    title: 'FAQ for customers',
-    nav_title: 'Overview',
-    description: '',
-  },
-  faq_customers_how_it_works: {
-    title: 'FAQ for customers - How it works',
-    nav_title: 'How it works',
-    description: '',
-  },
-  faq_customers_refunds: {
-    title: 'FAQ for customers - Refunds',
-    nav_title: 'Refunds',
-    description: '',
-  },
-  faq_customers_security: {
-    title: 'FAQ for customers - Security',
-    nav_title: 'Security',
-    description: '',
   },
   faq_merchants: {
     title: 'FAQ für Händler',
