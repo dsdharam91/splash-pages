@@ -38,7 +38,6 @@ export default class FaqMerchantsPartnersDe extends React.Component {
               teamup
             </a>
           </li>
-
           <li>
             <a href='https://de.zuora.com/' target='_blank' className='u-link-color-p u-text-underline' rel='nofollow'>
               Zuora
