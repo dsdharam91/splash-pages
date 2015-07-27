@@ -580,48 +580,72 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqProDashboard, { name: 'faq_pro_dashboard', category: 'faq.pro_dashboard' }, {
+      en: {
+        path: '/faq/pro-dashboard',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro',
       },
     },
   ],
   [FaqProDashboardMandateCreation, { name: 'faq_pro_dashboard_mandate_creation', category: 'faq.pro_dashboard' }, {
+      en: {
+        path: '/faq/pro-dashboard/mandate-creation',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-mandat',
       },
     },
   ],
   [FaqProDashboardMandateExport, { name: 'faq_pro_dashboard_mandate_export', category: 'faq.pro_dashboard' }, {
+      en: {
+        path: '/faq/pro-dashboard/mandate-export',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/export-mandat',
       },
     },
   ],
   [FaqProDashboardPaymentCreation, { name: 'faq_pro_dashboard_payment_creation', category: 'faq.pro_dashboard' }, {
+      en: {
+        path: '/faq/pro-dashboard/payment-creation',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-paiement',
       },
     },
   ],
   [FaqProDashboardSubscriptionCreation, { name: 'faq_pro_dashboard_subscription_creation', category: 'faq.pro_dashboard' }, {
+      en: {
+        path: '/faq/pro-dashboard/subscription-creation',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-abonnement',
       },
     },
   ],
   [FaqProDashboardPaymentRefund, { name: 'faq_pro_dashboard_payment_refund', category: 'faq.pro_dashboard' }, {
+      en: {
+        path: '/faq/pro-dashboard/payment-refund',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/remboursement-paiement',
       },
     },
   ],
   [FaqProDashboardPaymentTracking, { name: 'faq_pro_dashboard_payment_tracking', category: 'faq.pro_dashboard' }, {
+      en: {
+        path: '/faq/pro-dashboard/payment-tracking',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/suivi-paiements',
       },
     },
   ],
   [FaqProDashboardPayoutTracking, { name: 'faq_pro_dashboard_payout_tracking', category: 'faq.pro_dashboard' }, {
+      en: {
+        path: '/faq/pro-dashboard/payout-tracking',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/suivi-encaissements',
       },

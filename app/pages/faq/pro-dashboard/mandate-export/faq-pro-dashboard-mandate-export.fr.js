@@ -15,19 +15,19 @@ export default class FaqProDashboardMandateExportFr extends React.Component {
           Sélectionnez le client dont vous voulez exporter le mandat, puis cliquez sur son mandat :
         </p>
 
-        <img src='/images/fr/pro/mandate-id.png' />
+        <img src='/images/faq/fr/mandate-id.png' />
 
         <p className='para'>
           Vous pouvez enregistrer le mandat au format PDF en sélectionnant “Export” dans les options en haut à droite :
         </p>
 
-        <img src='/images/fr/pro/mandate-export-buttons.png' />
+        <img src='/images/faq/fr/mandate-export-buttons.png' />
 
         <p className='para'>
           Vous pouvez choisir la langue du mandat, si votre client n’est pas Français par exemple :
         </p>
 
-        <img src='/images/fr/pro/mandate-export.png' />
+        <img src='/images/faq/fr/mandate-export.png' />
 
         <p className='para'>
           <strong>Note</strong> : en cas de difficultés de téléchargement, nous recommendons d’essayer avec le navigateur Chrome.

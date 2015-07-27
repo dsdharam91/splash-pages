@@ -182,6 +182,48 @@ export default {
     nav_title: 'Signing up',
     description: '',
   },
+  faq_pro_dashboard: {
+    faq_title: 'Tutorials',
+    title: 'Using the GoCardless Pro dashboard',
+    nav_title: 'Setup',
+    link_title: 'Tutorial',
+    description: '',
+  },
+  faq_pro_dashboard_mandate_creation: {
+    title: 'FAQ - Mandate creation',
+    nav_title: 'Mandate creation',
+    description: '',
+  },
+  faq_pro_dashboard_mandate_export: {
+    title: 'FAQ - Mandate export',
+    nav_title: 'Mandate export',
+    description: '',
+  },
+  faq_pro_dashboard_payment_creation: {
+    title: 'FAQ - Payment creation',
+    nav_title: 'Payment creation',
+    description: '',
+  },
+  faq_pro_dashboard_subscription_creation: {
+    title: 'FAQ - Subscription creation',
+    nav_title: 'Subscription creation',
+    description: '',
+  },
+  faq_pro_dashboard_payment_refund: {
+    title: 'FAQ - Payment refund',
+    nav_title: 'Payment refund',
+    description: '',
+  },
+  faq_pro_dashboard_payment_tracking: {
+    title: 'FAQ - Payment tracking',
+    nav_title: 'Payment tracking',
+    description: '',
+  },
+  faq_pro_dashboard_payout_tracking: {
+    title: 'FAQ - Payout tracking',
+    nav_title: 'Payout tracking',
+    description: '',
+  },
   features_api: {
     title: 'GoCardless API: Integrate Direct Debit into your website & app',
     nav_title: 'API',

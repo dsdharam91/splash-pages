@@ -18,7 +18,7 @@ export default class FaqProDashboardPaymentCreationFr extends React.Component {
           Sélectionnez un de vos clients, puis cliquez sur Create > Payment.
         </p>
 
-        <img src='/images/fr/pro/payment-create-buttons.png' />
+        <img src='/images/faq/fr/payment-create-buttons.png' />
 
         <p className='para'>
           Vous pouvez personaliser votre prélèvement :
@@ -30,7 +30,7 @@ export default class FaqProDashboardPaymentCreationFr extends React.Component {
           <li>Vous pouvez soit prendre le prélèvement dès que possible, soit indiquer une date spécifique</li>
         </ul>
 
-        <img src='/images/fr/pro/payment-create.png' />
+        <img src='/images/faq/fr/payment-create.png' />
 
       </Translation>
     );

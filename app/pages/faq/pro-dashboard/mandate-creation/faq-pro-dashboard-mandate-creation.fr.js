@@ -15,22 +15,22 @@ export default class FaqProDashboardMandateCreationFr extends React.Component {
         </p>
 
         <p className='para'>
-          Dans notre <a href='https://manage-sandbox.gocardless.com/customers' target='_blank'
+          Dans notre <a href='https://manage.gocardless.com/customers' target='_blank'
           className='u-link-color-p u-text-underline'>section Customers</a>, vous possédez un lien que vous pouvez
           envoyer à tous vos clients (veuillez nous contacter si vous souhaitez utiliser un mandat papier).
         </p>
 
-        <img src='/images/fr/pro/create-customer.png' />
+        <img src='/images/faq/fr/create-customer.png' />
 
         <p className='para'>
           Ce lien permet à vos clients d’indiquer leurs données bancaires de manière sécurisée (dans la langue
           de leur choix). Cela vous donne l’autorisation de commencer à prélever directement de leur compte en banque.
         </p>
 
-        <img src='/images/fr/pro/sepa-mandate-page.png' />
+        <img src='/images/faq/fr/sepa-mandate-page.png' />
 
         <p className='para'>
-          La liste de tous vos clients est visible dans la <a href='https://manage-sandbox.gocardless.com/customers' target='_blank'
+          La liste de tous vos clients est visible dans la <a href='https://manage.gocardless.com/customers' target='_blank'
           className='u-link-color-p u-text-underline'>même section</a>, et vous pouvez l’exporter vers Excel.
         </p>
 

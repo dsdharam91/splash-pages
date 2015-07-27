@@ -16,7 +16,7 @@ export default class FaqProDashboardSubscriptionCreationFr extends React.Compone
           Sélectionnez un de vos clients, puis cliquez sur Create > Subscription.
         </p>
 
-        <img src='/images/fr/pro/subscription-create-buttons.png' />
+        <img src='/images/faq/fr/subscription-create-buttons.png' />
 
         <p className='para'>
           Vous pouvez personaliser votre abonnement :
@@ -31,7 +31,7 @@ export default class FaqProDashboardSubscriptionCreationFr extends React.Compone
           définis (par exemple 12 paiements de 100€)</li>
         </ul>
 
-        <img src='/images/fr/pro/subscription-create.png' />
+        <img src='/images/faq/fr/subscription-create.png' />
 
       </Translation>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import FaqProDashboardPage from '../faq-pro-dashboard-page';
+import FaqProDashboardMandateExportEn from './faq-pro-dashboard-mandate-export.en';
 import FaqProDashboardMandateExportFr from './faq-pro-dashboard-mandate-export.fr';
 
 export default class FaqProDashboardMandateExport extends React.Component {
@@ -8,6 +9,7 @@ export default class FaqProDashboardMandateExport extends React.Component {
   render() {
     return (
       <FaqProDashboardPage>
+        <FaqProDashboardMandateExportEn />
         <FaqProDashboardMandateExportFr />
       </FaqProDashboardPage>
     );

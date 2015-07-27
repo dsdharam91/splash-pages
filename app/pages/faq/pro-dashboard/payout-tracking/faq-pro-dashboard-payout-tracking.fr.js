@@ -13,11 +13,11 @@ export default class FaqProDashboardPayoutTrackingFr extends React.Component {
           Nos frais sont automatiquement déduits de ce reversement.
         </p>
         <p className='para'>
-         Vous pouvez suivre nos versements dans notre <a href='https://manage-sandbox.gocardless.com/payouts'
+         Vous pouvez suivre nos versements dans notre <a href='https://manage.gocardless.com/payouts'
           target='_blank' className='u-link-color-p u-text-underline'>section Payouts</a>.
         </p>
 
-        <img src='/images/fr/pro/payout.png' />
+        <img src='/images/faq/fr/payout.png' />
 
         <p className='para'>
           Nous indiquons la référence qui s’affichera sur votre compte en banque (ici W-ZFQSSPNDR689DW), ainsi que la liste de

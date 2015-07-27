@@ -31,8 +31,7 @@ export default class FaqProDashboardFr extends React.Component {
         <IfLocale hasInstantSignup={false}>
           <p className='para'>
             Vous pouvez <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'
-            className='u-link-color-p u-text-underline'>créer un compte test</a> gratuitement. Afin de faciliter
-            votre usage, tous les liens dans ce document redirigent directement vers votre compte test.
+            className='u-link-color-p u-text-underline'>créer un compte test</a> gratuitement.
           </p>
           <p className='para'>
             Afin de prélever des paiements réels, il suffit d'envoyer à <Href to='email' /> les
@@ -63,8 +62,8 @@ export default class FaqProDashboardFr extends React.Component {
           Préparation du compte
         </h3>
         <p className='para'>
-          Vous pouvez personnaliser votre compte dans <a href='https://manage-sandbox.gocardless.com/organisation/creditors'
-          target='_blank' className='u-link-color-p u-text-underline'>notre section Creditors</a> :
+          Vous pouvez personnaliser votre compte dans la <a href='https://manage.gocardless.com/settings/company'
+          target='_blank' className='u-link-color-p u-text-underline'>section Company Info</a> :
         </p>
         <ul className='list'>
           <li>Ajouter un logo qui sera utilisé sur votre page de mandat</li>
