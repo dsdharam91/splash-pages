@@ -20,7 +20,7 @@ export default class HomeFr extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                La meilleure technologie de prélèvement
+                Accès rapide et facilité au prélèvement bancaire
               </h2>
               <p className='u-text-s u-color-p u-margin-Txs'>
                 GoCardless vous permet de bénéficier de la fiabilité et des tarifs très compétitif
@@ -34,7 +34,7 @@ export default class HomeFr extends React.Component {
                   <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Prenez des paiements en 24h
+                  Prélevez dès maintenant
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                   Sans engagement, sans démarche bancaire et sans installation requise

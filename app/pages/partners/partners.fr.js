@@ -16,7 +16,7 @@ export default class PartnersFr extends React.Component {
             <h1 className='u-text-heading u-color-invert u-text-light u-padding-Tm'>Aidez vos clients à être payés</h1>
             <p className='u-text-heading-light u-text-m u-color-invert u-padding-Vs'>
               Nous gérons les paiements pour les plateformes de facturation, de comptabilité et bien d'autres. <br />
-              Si vos clients ont besoin de collecter des paiements réguliers, devenez notre partenaire.
+              Si vos clients ont besoin de prendre des paiements réguliers, devenez notre partenaire.
             </p>
           </div>
         </div>
@@ -49,7 +49,7 @@ export default class PartnersFr extends React.Component {
                   </h2>
                   <p className='u-size-2of3 u-center u-color-p u-margin-Vxs'>
                     Simplifiez la vie de vos clients et rendez-les plus loyaux en les
-                    laissant collecter leurs paiements via votre plateforme.
+                    laissant prendre leurs paiements via votre plateforme.
                   </p>
                 </div>
                 <div className='grid__cell u-text-center u-size-1of3'>

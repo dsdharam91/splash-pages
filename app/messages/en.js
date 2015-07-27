@@ -313,11 +313,11 @@ export default {
     country_leads: {
       title: 'Country Leads',
     },
-    business_development: {
-      title: 'Business Development',
+    sales: {
+      title: 'Sales',
     },
-    sales_marketing: {
-      title: 'Sales & Marketing',
+    marketing: {
+      title: 'Marketing',
     },
     operations: {
       title: 'Operations',
@@ -364,14 +364,6 @@ export default {
   },
   jobs_country_lead_se: {
     title: 'Sweden',
-    description: '',
-  },
-  jobs_bd_generalist: {
-    title: 'Generalist',
-    description: '',
-  },
-  jobs_global_expansion_lead: {
-    title: 'Global Expansion Lead',
     description: '',
   },
   jobs_senior_sales: {
@@ -427,12 +419,6 @@ export default {
   help: {
     title: 'Support',
     nav_title: 'Support',
-  },
-  signin: {
-    path: '/users/sign_in',
-  },
-  signup: {
-    path: '/merchants/new',
   },
   stories_has_bean_coffee: {
     title: 'Has Bean Coffee',

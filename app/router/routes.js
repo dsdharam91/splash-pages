@@ -24,8 +24,6 @@ import DeveloperCommunityManager from '../pages/about/jobs/positions/developer-c
 import EngineeringInterships from '../pages/about/jobs/positions/engineering-internships';
 import CustomerSupportFrance from '../pages/about/jobs/positions/customer-support-fr';
 import OfficeManager from '../pages/about/jobs/positions/office-manager';
-import BdGeneralist from '../pages/about/jobs/positions/bd-generalist';
-import GlobalExpansionLead from '../pages/about/jobs/positions/global-expansion-lead';
 import CountryLeadGermanyAustria from '../pages/about/jobs/positions/country-lead-de-at';
 import CountryLeadNetherlandsBelgium from '../pages/about/jobs/positions/country-lead-nl-be';
 import CountryLeadSpain from '../pages/about/jobs/positions/country-lead-es';
@@ -290,43 +288,31 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [BdGeneralist, { name: 'jobs_bd_generalist', category: 'jobs.business_development' }, {
-      en: {
-        path: '/about/jobs/bd-generalist',
-      },
-    },
-  ],
-  [GlobalExpansionLead, { name: 'jobs_global_expansion_lead', category: 'jobs.business_development' }, {
-      en: {
-        path: '/about/jobs/global-expansion-lead',
-      },
-    },
-  ],
-  [SeniorSales, { name: 'jobs_senior_sales', category: 'jobs.sales_marketing' }, {
+  [SeniorSales, { name: 'jobs_senior_sales', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/senior-sales',
       },
     },
   ],
-  [AccountExecutive, { name: 'jobs_account_executive', category: 'jobs.sales_marketing' }, {
+  [AccountExecutive, { name: 'jobs_account_executive', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/account-executive',
       },
     },
   ],
-  [DigitalMarketer, { name: 'jobs_digital_marketer', category: 'jobs.sales_marketing' }, {
+  [DigitalMarketer, { name: 'jobs_digital_marketer', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/digital-marketer',
       },
     },
   ],
-  [CustomerRelationshipMarketer, { name: 'jobs_customer_relationship_marketer', category: 'jobs.sales_marketing' }, {
+  [CustomerRelationshipMarketer, { name: 'jobs_customer_relationship_marketer', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/customer-relationship-marketer',
       },
     },
   ],
-  [ContentCommunityManager, { name: 'jobs_content_community_manager', category: 'jobs.sales_marketing' }, {
+  [ContentCommunityManager, { name: 'jobs_content_community_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/content-community-manager',
       },

@@ -27,7 +27,7 @@ export default class FaqProDashboardPaymentCreationFr extends React.Component {
           <li>Choisissez votre montant (max 5.000€)</li>
           <li>La description vous permet d’identifier la raison pour laquelle vous avez collecté ce paiement</li>
           <li>La référence apparaîtra sur le relevé bancaire de votre client (cela dépend de leur banque)</li>
-          <li>Vous pouvez soit collecter le prélèvement dès que possible, soit indiquer une date spécifique</li>
+          <li>Vous pouvez soit prendre le prélèvement dès que possible, soit indiquer une date spécifique</li>
         </ul>
 
         <img src='/images/fr/pro/payment-create.png' />
