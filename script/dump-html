@@ -1,6 +1,9 @@
 #!/usr/bin/env babel-node
 
+const https = require('https');
+const fs = require('fs');
 import { fetchPage, writePage } from '../app/static-build/builder';
+import { sitemapUrlSet } from '../app/static-build/sitemap';
 import availableLocales from '../config/available-locales';
 import { getAllPaths } from '../app/router/route-helpers';
 
@@ -11,13 +14,33 @@ if (!serverUrl || !outDir) {
   process.exit(1);
 }
 
+// Download the old sitemap
+// TODO: Download this from live, change gocardless.com to environmental variable
+https.get('https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml', function(res) {
+  res.on('data', function(oldSitemapXml) {
+    const oldSitemap = new sitemapUrlSet('https://gocardless.com').fromXml(oldSitemapXml);
+  });
+}).on('error', function(e) {
+  console.error("Wasn't able to download the old sitemap.");
+})
+
+// Is there a better way than using a global variable?
+global.newSitemap = new sitemapUrlSet('https://gocardless.com');
+
 const processPage = function(pagePath) {
-  return fetchPage(serverUrl, pagePath)
-    .then(writePage.bind(null, outDir))
+  // TODO: Return a promise for both of these functions
+  var page = fetchPage(serverUrl, pagePath);
+  page.then(function(resolve,reject) {
+    global.newSitemap.addUrl(resolve[0], resolve[1]);
+  });
+  return page.then(writePage.bind(null, outDir))
     .catch(console.error.bind(console));
 };
 
 Promise.all(getAllPaths(availableLocales).map(processPage)).then(function(filenames) {
   console.log('Completed static html dump:');
   console.log(filenames.sort().map((filename) => `  ${filename}`).join('\n'));
+
+  fs.writeFileSync('dist/sitemap.xml', global.newSitemap.toXml());
+  console.log('\nSitemap written to sitemap.xml');
 }).catch(console.error.bind(console));
