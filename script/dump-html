@@ -31,12 +31,11 @@ https.get('https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml', fun
 let newSitemap = new SitemapUrlSet('https://gocardless.com');
 
 const processPage = function(pagePath) {
-  // TODO: Return a promise for both of these functions
-  var page = fetchPage(serverUrl, pagePath);
-  page.then((resolve,reject) => {
-    newSitemap.addUrl(resolve[0], resolve[1]);
-  });
-  return page.then(writePage.bind(null, outDir))
+  return fetchPage(serverUrl, pagePath)
+    .then(([url, contents]) => {
+      newSitemap.addUrl(url, contents);
+      return writePage(outDir, [url, contents]);
+    })
     .catch(console.error.bind(console));
 };
 
