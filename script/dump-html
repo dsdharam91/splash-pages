@@ -3,7 +3,7 @@
 const https = require('https');
 const fs = require('fs');
 import { fetchPage, writePage } from '../app/static-build/builder';
-import { sitemapUrlSet } from '../app/static-build/sitemap';
+import { SitemapUrlSet } from '../app/static-build/sitemap';
 import availableLocales from '../config/available-locales';
 import { getAllPaths } from '../app/router/route-helpers';
 
@@ -18,14 +18,14 @@ if (!serverUrl || !outDir) {
 // TODO: Download this from live, change gocardless.com to environmental variable
 https.get('https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml', function(res) {
   res.on('data', function(oldSitemapXml) {
-    const oldSitemap = new sitemapUrlSet('https://gocardless.com').fromXml(oldSitemapXml);
+    const oldSitemap = new SitemapUrlSet('https://gocardless.com').fromXml(oldSitemapXml);
   });
 }).on('error', function(e) {
   console.error("Wasn't able to download the old sitemap.");
 })
 
 // Is there a better way than using a global variable?
-global.newSitemap = new sitemapUrlSet('https://gocardless.com');
+global.newSitemap = new SitemapUrlSet('https://gocardless.com');
 
 const processPage = function(pagePath) {
   // TODO: Return a promise for both of these functions

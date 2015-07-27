@@ -18,24 +18,24 @@ function getHashOfContent(content) {
 }
 
 /**
- * Creates a new sitemapUrlSet object.
- * e.g. var sitemap = new sitemapUrlSet('http://example.com')
+ * Creates a new SitemapUrlSet object.
+ * e.g. var sitemap = new SitemapUrlSet('http://example.com')
  *
  * @class
  * @param {string} domain - Domain to which the sitemap refers e.g. https://example.com
  */
-export class sitemapUrlSet {
+export class SitemapUrlSet {
   constructor(domain) {
     this.urlSet = {};
     this.domain = domain;
   }
 
   /**
-   * Loads in an existing XML Sitemap and returns a sitemapUrlSet object.
-   * e.g. var currentSitemap = new sitemapUrlSet('http://example.com').fromXml(xmlFileContents)
+   * Loads in an existing XML Sitemap and returns a SitemapUrlSet object.
+   * e.g. var currentSitemap = new SitemapUrlSet('http://example.com').fromXml(xmlFileContents)
    *
    * @param {string} xml - Sitemap in XML format
-   * @returns {sitemapUrlSet} A sitemapUrlSet object representing the sitemap.
+   * @returns {SitemapUrlSet} A SitemapUrlSet object representing the sitemap.
    */
   fromXml(xml) {
     var thisSitemap = this;
@@ -57,9 +57,9 @@ export class sitemapUrlSet {
   }
 
   /**
-   * Returns an XML representation of the current sitemapUrlSet object.
+   * Returns an XML representation of the current SitemapUrlSet object.
    *
-   * @returns {string} A XML format representation of the sitemapUrlSet object.
+   * @returns {string} A XML format representation of the SitemapUrlSet object.
    */
   toXml() {
     /*eslint-disable max-len*/
@@ -70,13 +70,13 @@ export class sitemapUrlSet {
               '  xmlns:xhtml="http://www.w3.org/1999/xhtml"\n' +
               '  xmlns:content="https://github.com/gocardless/splash-pages#xml-sitemap-hash">\n';
     /*eslint-enable max-len*/
-    for (url in this.urlSet) {
-      var lastMod = new Date(this.urlSet[url].lastMod);
+    for (let pageUrl in this.urlSet) {
+      var lastMod = new Date(this.urlSet[pageUrl].lastMod);
       // Date should be in W3C Datetime (YYYY-MM-DD) format
       var lastModW3 = lastMod.toISOString().substring(0,10);
       xml += `  <url>\n` +
-             `    <loc>${this.domain}${url}</loc>\n` +
-             `    <content:hash>${this.urlSet[url].hash}</content:hash>\n` +
+             `    <loc>${this.domain}${pageUrl}</loc>\n` +
+             `    <content:hash>${this.urlSet[pageUrl].hash}</content:hash>\n` +
              `    <lastmod>${lastModW3}</lastmod>\n` +
              `  </url>\n`;
     }
@@ -135,8 +135,8 @@ export class sitemapUrlSet {
    * Imports the timestamps from an old sitemap when the content is unchanged.
    * e.g. newSitemap.importTimestampsFromOldSitemap(oldSitemap)
    *
-   * @param {sitemapUrlSet} oldSitemap - A sitemapUrlSet object for the old sitemap
-   * @returns {sitemapUrlSet} A sitemapUrlSet object with imported timestamps from the old sitemap.
+   * @param {SitemapUrlSet} oldSitemap - A SitemapUrlSet object for the old sitemap
+   * @returns {SitemapUrlSet} A SitemapUrlSet object with imported timestamps from the old sitemap.
    */
   importTimestampsFromOldSitemap(oldSitemap) {
     for (url in this.urlSet) {
