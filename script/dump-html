@@ -16,11 +16,14 @@ if (!serverUrl || !outDir) {
 }
 
 // Download the old sitemap
-// TODO: Download this from live, change gocardless.com to environmental variable
+// TODO: Download this from live (https://gocardless.com/sitemap.xml)
+// TODO: Initalise SitemapUrlSet with domain name from environmental variable
 https.get('https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml', function(res) {
-  res.on('data', function(oldSitemapXml) {
-    const oldSitemap = new SitemapUrlSet('https://gocardless.com').fromXml(oldSitemapXml);
-  });
+  if (res.statusCode == 200) {
+    res.on('data', function(oldSitemapXml) {
+      const oldSitemap = new SitemapUrlSet('https://gocardless.com').fromXml(oldSitemapXml);
+    });
+  }
 }).on('error', function(e) {
   console.error("Wasn't able to download the old sitemap.");
 })
