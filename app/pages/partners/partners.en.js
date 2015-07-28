@@ -30,9 +30,17 @@ export default class PartnersEn extends React.Component {
             <div className='page-hero__inner'>
               <div className='page-hero__text'>
                 <h1 className='u-text-heading u-color-invert u-text-light u-padding-Tm'>Help your customers get paid</h1>
-                <p className='u-text-heading-light u-text-m u-color-invert u-padding-Vs'>
-                  By partnering with GoCardless your customers will be able to accept<br />recurring payments from the UK and abroad
-                </p>
+                <Translation locales={['en-GB']}>
+                  <p className='u-text-heading-light u-text-m u-color-invert u-padding-Vs'>
+                    By partnering with GoCardless your customers will be able to accept<br />recurring payments from the UK and abroad
+                  </p>
+                </Translation>
+                <Translation locales={['en']} exclude={['en-GB']}>
+                  <p className='u-text-heading-light u-text-m u-color-invert u-padding-Vs'>
+                    By partnering with GoCardless your customers will be able to accept<br />recurring payments
+                    from <Message pointer='country' /> and abroad
+                  </p>
+                </Translation>
               </div>
             </div>
           </div>
