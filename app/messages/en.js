@@ -184,7 +184,7 @@ export default {
   },
   faq_pro_dashboard: {
     faq_title: 'Tutorials',
-    title: 'Using the GoCardless Pro dashboard',
+    title: 'A step-by-step guide on using the new GoCardless dashboard.',
     nav_title: 'Setup',
     link_title: 'Tutorials',
     description: '',
