@@ -16,18 +16,18 @@ if (!serverUrl || !outDir) {
   process.exit(1);
 }
 
-function getOldSitemap(host, sitemapUrl) {
+function downloadOldSitemap(host, sitemapUrl) {
   return new Promise(function(resolve, reject) {
     request.get(sitemapUrl).buffer().end(function(err, res) {
       if (err) {
-        console.log(`Error downloading old sitemap: ${err}. Continuing with fresh timestamp for all pages...`);
+        console.log(`Error downloading old sitemap from ${sitemapUrl}: ${err}. Continuing anyway (all pages may have lastMod of today).`);
         return resolve(new SitemapUrlSet(host));
       }
       if (res.ok) {
         console.log(`Downloaded old sitemap from ${sitemapUrl}.`);
         resolve(new SitemapUrlSet(host).fromXml(res.text));
       } else {
-        console.log(`Result of downloading sitemap was not OK. Continuing with fresh timestamp for all pages...`);
+        console.log(`Error downloading old sitemap from ${sitemapUrl}: !res.ok. Continuing anyway (all pages may have lastMod of today).`);
         resolve(new SitemapUrlSet(host));
       }
     });
@@ -51,7 +51,7 @@ Promise.all(getAllPaths(availableLocales).map(processPage)).then(function(filena
   console.log('Completed static html dump:');
   console.log(filenames.sort().map((filename) => `  ${filename}`).join('\n'));
 
-  getOldSitemap('https://gocardless.com', 'https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml').then((oldSitemap) => {
+  downloadOldSitemap('https://gocardless.com', 'https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml').then((oldSitemap) => {
     newSitemap.importTimestampsFromOldSitemap(oldSitemap);
     const sitemapOutputPath = path.join(outDir, 'sitemap.xml');
     fs.writeFileSync(sitemapOutputPath, newSitemap.toXml());
