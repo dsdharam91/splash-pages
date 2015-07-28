@@ -279,4 +279,18 @@ export default {
   signup: {
     path: 'https://manage.gocardless.com/signup',
   },
+  stories: {
+    title: 'Références',
+    nav_title: 'Références',
+    description: 'Références',
+  },
+  stories_1001_menus: {
+    title: '1001 Menus',
+    description: 'x',
+  },
+  stories_the_french_talents: {
+    title: 'The French Talents',
+    description: 'x',
+  },
 };
+
