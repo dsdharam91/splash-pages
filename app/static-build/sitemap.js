@@ -10,8 +10,9 @@ const crypto = require('crypto');
  * @returns {string} md5 hash representation of the content of the page
  */
 function getHashOfContent(content) {
-  content = content.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
   const $ = cheerio.load(content);
+  $('script').remove();
+  $('style').remove();
   const bodyText = $('body').text();
   const cryptoHash = crypto.createHash('md5').update(bodyText).digest('hex');
   return cryptoHash;

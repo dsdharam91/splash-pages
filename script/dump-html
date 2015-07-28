@@ -3,6 +3,7 @@
 const https = require('https');
 const fs = require('fs');
 import path from 'path';
+import request from 'superagent';
 import { fetchPage, writePage } from '../app/static-build/builder';
 import { SitemapUrlSet } from '../app/static-build/sitemap';
 import availableLocales from '../config/available-locales';
@@ -15,19 +16,26 @@ if (!serverUrl || !outDir) {
   process.exit(1);
 }
 
-// Download the old sitemap
-// TODO: Download this from live (https://gocardless.com/sitemap.xml)
-// TODO: Initalise SitemapUrlSet with domain name from environmental variable
-https.get('https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml', function(res) {
-  if (res.statusCode == 200) {
-    res.on('data', (oldSitemapXml) => {
-      const oldSitemap = new SitemapUrlSet('https://gocardless.com').fromXml(oldSitemapXml);
+function getOldSitemap(host, sitemapUrl) {
+  return new Promise(function(resolve, reject) {
+    request.get(sitemapUrl).buffer().end(function(err, res) {
+      if (err) {
+        console.log(`Error downloading old sitemap: ${err}. Continuing with fresh timestamp for all pages...`);
+        return resolve(new SitemapUrlSet(host));
+      }
+      if (res.ok) {
+        console.log(`Downloaded old sitemap from ${sitemapUrl}.`);
+        resolve(new SitemapUrlSet(host).fromXml(res.text));
+      } else {
+        console.log(`Result of downloading sitemap was not OK. Continuing with fresh timestamp for all pages...`);
+        resolve(new SitemapUrlSet(host));
+      }
     });
-  }
-}).on('error', (e) => {
-  console.error(`Wasn't able to download the old sitemap: ${e.message}`);
-});
+  });
+}
 
+// TODO: Download sitemap.xml from live (https://gocardless.com/sitemap.xml)
+// TODO: Initalise SitemapUrlSet with domain name from environmental variable
 let newSitemap = new SitemapUrlSet('https://gocardless.com');
 
 const processPage = function(pagePath) {
@@ -43,7 +51,10 @@ Promise.all(getAllPaths(availableLocales).map(processPage)).then(function(filena
   console.log('Completed static html dump:');
   console.log(filenames.sort().map((filename) => `  ${filename}`).join('\n'));
 
-  const sitemapOutputPath = path.join(outDir, 'sitemap.xml');
-  fs.writeFileSync(sitemapOutputPath, newSitemap.toXml());
-  console.log(`\nSitemap written to ${sitemapOutputPath}`);
+  getOldSitemap('https://gocardless.com', 'https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml').then((oldSitemap) => {
+    newSitemap.importTimestampsFromOldSitemap(oldSitemap);
+    const sitemapOutputPath = path.join(outDir, 'sitemap.xml');
+    fs.writeFileSync(sitemapOutputPath, newSitemap.toXml());
+    console.log(`New sitemap written to ${sitemapOutputPath}`);
+  });
 }).catch(console.error.bind(console));
