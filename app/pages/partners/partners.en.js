@@ -111,7 +111,7 @@ export default class PartnersEn extends React.Component {
                       Develop new revenue streams
                     </h2>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      Refer customers to us and you could earn commision on transaction fees.
+                      Refer customers to us and you could earn commission on transaction fees.
                     </p>
                   </div>
                 </div>
@@ -139,10 +139,10 @@ export default class PartnersEn extends React.Component {
             <div className='u-padding-Vxl'>
               <div className='u-size-2of3 u-center'>
                 <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
-                  Your customers pay just 1%
+                  Your customers pay just <Message pointer='pricing.per_transaction_amount_normal' />
                 </h2>
                 <p className='u-text-s u-color-p u-margin-Vxs'>
-                  No sign-up costs or hidden fees. Just 1% per transaction, capped at £2.
+                  No sign-up costs or hidden fees. Just 1% per transaction, capped at <Message pointer="pricing.cost_cap" />.
                 </p>
                 <Link to='contact_sales'
                 query={{ s: 'partners' }}
