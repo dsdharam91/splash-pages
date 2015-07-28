@@ -84,12 +84,11 @@ export default class FaqMerchantsDe extends React.Component {
           Wir überweisen Ihnen das Geld, das wir von Ihren Kunden empfangen, direkt auf Ihr Bankkonto.
         </p>
         <p className='para'>
-          Mit GoCardless werden die <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>Gebühren</Link>
-          automatisch einbehalten, wenn wir Ihnen das Geld auszahlen.
+          Mit GoCardless werden die <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>Gebühren</Link> automatisch 
+          einbehalten, wenn wir Ihnen das Geld auszahlen.
         </p>
         <p className='para'>
-          Mit GoCardless Pro stellen wir Ihnen die
-          <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>Gebühren</Link> in Rechnung.
+          Mit GoCardless Pro stellen wir Ihnen die <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>Gebühren</Link> in Rechnung.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>

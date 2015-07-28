@@ -89,7 +89,7 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
         <ul className='list'>
           <li>Wenn wir glauben, dass Ihre Anmelde-Informationen unsicher geworden sind.</li>
           <li>Wenn wir glauben, dass Ihr Konto einem Betrug oder einer unautorisierten Verwendung zum Opfer geworden ist.</li>
-          <li>Wenn wir von Gesetzeswegen dazu angehalten sind.</li>
+          <li>Wenn wir von Gesetzes wegen dazu angehalten sind.</li>
         </ul>
         <p className='para'>
           Falls wir dies jemals tun müssen, werden wir Sie natürlich sofort darüber informieren. Es wird zudem

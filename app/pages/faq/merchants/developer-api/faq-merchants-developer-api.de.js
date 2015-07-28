@@ -73,11 +73,8 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
           Ich brauche Unterstützung, wie kann ich technische Hilfe bekommen?
         </h3>
         <p className='para'>
-          Sie können uns jederzeit eine Email an <Href to='email' className='u-link-color-p u-text-underline'
-          itemProp='email' /> schicken. Wir haben auch einen englischen Live-Chat, den Sie
-          über <a href='http://webchat.freenode.net/?channels=gocardless&uio=OT10cnVlJjExPTIzNiYxMj10cnVl51' target='_blank'
-          className='u-link-color-p u-text-underline'>#gocardless on irc.freenode.net</a> erreichen können.
-          Unsere Entwickler sind Montag bis Freitag zwischen 10 und 19 Uhr für Sie da.
+          Sie können uns jederzeit eine E-Mail an <Href to='email' className='u-link-color-p u-text-underline'
+          itemProp='email' /> schicken. 
         </p>
 
       </Translation>

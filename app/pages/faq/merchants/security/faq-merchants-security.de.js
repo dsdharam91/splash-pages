@@ -31,7 +31,7 @@ export default class FaqMerchantsSecurityDe extends React.Component {
 
         <ul className='list'>
           <li>Unser Zugang zum Lastschriftverfahren wird von Europas führenden Banken ermöglicht, die unsere Systeme regelmäßig prüfen.</li>
-          <li>All unsere Servers sind in sicheren Datenzentren in Europa aufbewahrt - Daten werden nie außerhalb der EU übertragen.</li>
+          <li>All unsere Server sind in sicheren Datenzentren in Europa aufbewahrt - Daten werden nie außerhalb der EU übertragen.</li>
           <li>Unser Server für finanzielle Daten ist durch mehrere Firewalls von den Servern für unseren Service getrennt.</li>
           <li>Die Kommunikation mit dem Kundendaten Server ist 256-bit SSL verschlüsselt. Das Minimum für Banken liegt bei 128-bit.</li>
         </ul>
@@ -63,8 +63,7 @@ export default class FaqMerchantsSecurityDe extends React.Component {
         </p>
 
         <p className='para'>Falls Sie Interesse daran haben unsere Systeme auf Sicherheit und Verletzbarkeit zu testen, dann können
-        Sie sich einen <a href="https://manage-sandbox.gocardless.com/signup" className="u-link-color-p u-text-underline">Test Account</a>
-        einrichten.
+        Sie sich einen <a href="https://manage-sandbox.gocardless.com/signup" className="u-link-color-p u-text-underline">Test Account</a> einrichten.
         </p>
 
         <p className='para'>Um Ihre Arbeit zu würdigen sowie als Dankeschön dafür, dass Sie uns helfen GoCardless sicher zu halten,
