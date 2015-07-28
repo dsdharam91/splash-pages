@@ -6,7 +6,7 @@ export default class FaqProDashboardPaymentTrackingEn extends React.Component {
 
   render() {
     return (
-      <Translation locales={['en']} exclude={['en-GB']}>
+      <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Payment tracking</h2>
         <p className='para'>
           You can follow the status of each Direct Debit payment: either by selecting a specific customer,

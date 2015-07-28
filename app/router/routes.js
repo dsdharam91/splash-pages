@@ -580,7 +580,10 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqProDashboard, { name: 'faq_pro_dashboard', category: 'faq.pro_dashboard' }, {
-      en: {
+      'en-IE': {
+        path: '/faq/pro-dashboard',
+      },
+      'en-EU': {
         path: '/faq/pro-dashboard',
       },
       fr: {
@@ -589,7 +592,10 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqProDashboardMandateCreation, { name: 'faq_pro_dashboard_mandate_creation', category: 'faq.pro_dashboard' }, {
-      en: {
+      'en-IE': {
+        path: '/faq/pro-dashboard/mandate-creation',
+      },
+      'en-EU': {
         path: '/faq/pro-dashboard/mandate-creation',
       },
       fr: {
@@ -598,7 +604,10 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqProDashboardMandateExport, { name: 'faq_pro_dashboard_mandate_export', category: 'faq.pro_dashboard' }, {
-      en: {
+      'en-IE': {
+        path: '/faq/pro-dashboard/mandate-export',
+      },
+      'en-EU': {
         path: '/faq/pro-dashboard/mandate-export',
       },
       fr: {
@@ -607,7 +616,10 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqProDashboardPaymentCreation, { name: 'faq_pro_dashboard_payment_creation', category: 'faq.pro_dashboard' }, {
-      en: {
+      'en-IE': {
+        path: '/faq/pro-dashboard/payment-creation',
+      },
+      'en-EU': {
         path: '/faq/pro-dashboard/payment-creation',
       },
       fr: {
@@ -616,7 +628,10 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqProDashboardSubscriptionCreation, { name: 'faq_pro_dashboard_subscription_creation', category: 'faq.pro_dashboard' }, {
-      en: {
+      'en-IE': {
+        path: '/faq/pro-dashboard/subscription-creation',
+      },
+      'en-EU': {
         path: '/faq/pro-dashboard/subscription-creation',
       },
       fr: {
@@ -625,7 +640,10 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqProDashboardPaymentRefund, { name: 'faq_pro_dashboard_payment_refund', category: 'faq.pro_dashboard' }, {
-      en: {
+      'en-IE': {
+        path: '/faq/pro-dashboard/payment-refund',
+      },
+      'en-EU': {
         path: '/faq/pro-dashboard/payment-refund',
       },
       fr: {
@@ -634,7 +652,10 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqProDashboardPaymentTracking, { name: 'faq_pro_dashboard_payment_tracking', category: 'faq.pro_dashboard' }, {
-      en: {
+      'en-IE': {
+        path: '/faq/pro-dashboard/payment-tracking',
+      },
+      'en-EU': {
         path: '/faq/pro-dashboard/payment-tracking',
       },
       fr: {
@@ -643,7 +664,10 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqProDashboardPayoutTracking, { name: 'faq_pro_dashboard_payout_tracking', category: 'faq.pro_dashboard' }, {
-      en: {
+      'en-IE': {
+        path: '/faq/pro-dashboard/payout-tracking',
+      },
+      'en-EU': {
         path: '/faq/pro-dashboard/payout-tracking',
       },
       fr: {

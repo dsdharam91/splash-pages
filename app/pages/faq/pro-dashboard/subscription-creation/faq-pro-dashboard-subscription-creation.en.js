@@ -6,7 +6,7 @@ export default class FaqProDashboardSubscriptionCreationEn extends React.Compone
 
   render() {
     return (
-      <Translation locales={['en']} exclude={['en-GB']}>
+      <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Subscription creation</h2>
         <p className='para'>
           A subscription allows you to create a schedule of regular payments with a fixed amount: no need to

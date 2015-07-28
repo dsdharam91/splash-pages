@@ -6,7 +6,7 @@ export default class FaqProDashboardMandateExportEn extends React.Component {
 
   render() {
     return (
-      <Translation locales={['en']} exclude={['en-GB']}>
+      <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Mandate export</h2>
         <p className='para'>
           You can export your mandates as PDF, for example if you wish to send them to your customers.

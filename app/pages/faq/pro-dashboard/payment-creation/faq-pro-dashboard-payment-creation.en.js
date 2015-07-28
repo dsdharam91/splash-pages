@@ -7,7 +7,7 @@ export default class FaqProDashboardPaymentCreationEn extends React.Component {
 
   render() {
     return (
-      <Translation locales={['en']} exclude={['en-GB']}>
+      <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Payment creation</h2>
         <p className='para'>
           If you wish to take payments with varying amounts or unfrequent frequency, create individual payments.

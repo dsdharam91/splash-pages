@@ -6,7 +6,7 @@ export default class FaqProDashboardPaymentRefundEn extends React.Component {
 
   render() {
     return (
-      <Translation locales={['en']} exclude={['en-GB']}>
+      <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Payment refund</h2>
         <p className='para'>
           You can refund a Direct Debit payment, either fully or partially.

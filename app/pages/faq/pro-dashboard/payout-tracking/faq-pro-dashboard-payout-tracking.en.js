@@ -6,7 +6,7 @@ export default class FaqProDashboardPayoutTrackingEn extends React.Component {
 
   render() {
     return (
-       <Translation locales={['en']} exclude={['en-GB']}>
+       <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Payout tracking</h2>
         <p className='para'>
           We wire your funds to your bank account automatically, every day. There is no minimal threshold nor

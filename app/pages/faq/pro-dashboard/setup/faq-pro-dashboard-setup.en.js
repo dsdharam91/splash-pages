@@ -9,7 +9,7 @@ export default class FaqProDashboardEn extends React.Component {
 
   render() {
     return (
-      <Translation locales={['en']} exclude={['en-GB']}>
+      <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Setup</h2>
         <p className='para'>
           With the GoCardless dashboard you can manage SEPA Direct Debit mandates and take recurring payments without any
