@@ -1,6 +1,32 @@
 import url from 'url';
+import request from 'superagent';
 const cheerio = require('cheerio');
 const crypto = require('crypto');
+
+/**
+ * Downloads an old version of the sitemap using Superagent.
+ * e.g. downloadOldSitemap('https://gocardless.com', 'https://gocardless.com/sitemap.xml').then((oldSitemap) => { console.log(oldSitemap) })
+ *
+ * @param {string} host - Domain name to which the sitemap refers
+ * @param {string} sitemapUrl - URL at which the sitemap can be found
+ */
+export function downloadOldSitemap(host, sitemapUrl) {
+  return new Promise(function(resolve) {
+    request.get(sitemapUrl).buffer().end(function(err, res) {
+      if (err) {
+        console.log(`Error downloading old sitemap from ${sitemapUrl}: ${err}. Continuing anyway (all pages may have lastMod of today).`);
+        return resolve(new SitemapUrlSet(host));
+      }
+      if (res.ok) {
+        console.log(`Downloaded old sitemap from ${sitemapUrl}.`);
+        resolve(new SitemapUrlSet(host).fromXml(res.text));
+      } else {
+        console.log(`Error downloading old sitemap from ${sitemapUrl}: !res.ok. Continuing anyway (all pages may have lastMod of today).`);
+        resolve(new SitemapUrlSet(host));
+      }
+    });
+  });
+}
 
 /**
  * Returns a md5 hash representation of the content.

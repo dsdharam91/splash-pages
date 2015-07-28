@@ -1,42 +1,25 @@
 #!/usr/bin/env babel-node
 
-const https = require('https');
 const fs = require('fs');
 import path from 'path';
-import request from 'superagent';
 import { fetchPage, writePage } from '../app/static-build/builder';
-import { SitemapUrlSet } from '../app/static-build/sitemap';
+import { downloadOldSitemap, SitemapUrlSet } from '../app/static-build/sitemap';
 import availableLocales from '../config/available-locales';
 import { getAllPaths } from '../app/router/route-helpers';
 
 const [bin, script, serverUrl, outDir] = process.argv;
+
+// TODO: Initalise SitemapUrlSet with domain name from environmental variable
+// TODO: Download sitemap.xml from live (https://gocardless.com/sitemap.xml)
+const sitemapDomain = 'https://gocardless.com';
+const oldSitemapUrl = 'https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml';
 
 if (!serverUrl || !outDir) {
   console.error(`Usage: ${bin} ${script} host directory`);
   process.exit(1);
 }
 
-function downloadOldSitemap(host, sitemapUrl) {
-  return new Promise(function(resolve, reject) {
-    request.get(sitemapUrl).buffer().end(function(err, res) {
-      if (err) {
-        console.log(`Error downloading old sitemap from ${sitemapUrl}: ${err}. Continuing anyway (all pages may have lastMod of today).`);
-        return resolve(new SitemapUrlSet(host));
-      }
-      if (res.ok) {
-        console.log(`Downloaded old sitemap from ${sitemapUrl}.`);
-        resolve(new SitemapUrlSet(host).fromXml(res.text));
-      } else {
-        console.log(`Error downloading old sitemap from ${sitemapUrl}: !res.ok. Continuing anyway (all pages may have lastMod of today).`);
-        resolve(new SitemapUrlSet(host));
-      }
-    });
-  });
-}
-
-// TODO: Download sitemap.xml from live (https://gocardless.com/sitemap.xml)
-// TODO: Initalise SitemapUrlSet with domain name from environmental variable
-let newSitemap = new SitemapUrlSet('https://gocardless.com');
+let newSitemap = new SitemapUrlSet(sitemapDomain);
 
 const processPage = function(pagePath) {
   return fetchPage(serverUrl, pagePath)
@@ -51,7 +34,7 @@ Promise.all(getAllPaths(availableLocales).map(processPage)).then(function(filena
   console.log('Completed static html dump:');
   console.log(filenames.sort().map((filename) => `  ${filename}`).join('\n'));
 
-  downloadOldSitemap('https://gocardless.com', 'https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml').then((oldSitemap) => {
+  downloadOldSitemap(sitemapDomain, oldSitemapUrl).then((oldSitemap) => {
     newSitemap.importTimestampsFromOldSitemap(oldSitemap);
     const sitemapOutputPath = path.join(outDir, 'sitemap.xml');
     fs.writeFileSync(sitemapOutputPath, newSitemap.toXml());
