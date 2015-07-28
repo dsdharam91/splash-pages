@@ -41,7 +41,7 @@ export default {
     address_country_iso: 'GB',
   },
   phone_full: '+49 30 568373022',
-  phone_local: '030 568373022',
+  phone_local: '+49 30 568373022',
   email: 'deutschland@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
@@ -138,6 +138,56 @@ export default {
   },
   signup: {
     path: 'https://manage.gocardless.com/signup',
+  },
+  faq: {
+    title: 'Häufig gestellte Fragen',
+    sidebar: 'Ihre Frage wurde noch nicht beantwortet? Kontaktieren Sie uns',
+  },
+  faq_merchants: {
+    title: 'FAQ für Händler',
+    nav_title: 'Übersicht',
+    link_title: 'FAQ',
+    description: '',
+  },
+  faq_merchants_customer_experience: {
+    title: 'FAQ für Händler - Kundenerlebnis',
+    nav_title: 'Kundenerlebnis',
+    description: '',
+  },
+  faq_merchants_developer_api: {
+    title: 'FAQ für Händler - Entwickler API',
+    nav_title: 'Entwickler API',
+    description: '',
+  },
+  faq_merchants_direct_debit: {
+    title: 'FAQ für Händler - Lastschriftverfahren',
+    nav_title: 'Lastschriftverfahren',
+    description: '',
+  },
+  faq_merchants_how_it_works: {
+    title: 'FAQ für Händler - Wie es funktioniert',
+    nav_title: 'Wie es funktioniert',
+    description: '',
+  },
+  faq_merchants_international_payments: {
+    title: 'FAQ für Händler - Internationale Zahlungen',
+    nav_title: 'Internationale Zahlungen',
+    description: '',
+  },
+  faq_merchants_partners: {
+    title: 'FAQ für Händler - Partner',
+    nav_title: 'Partner',
+    description: '',
+  },
+  faq_merchants_security: {
+    title: 'FAQ für Händler - Sicherheit',
+    nav_title: 'Sicherheit',
+    description: '',
+  },
+  faq_merchants_signing_up: {
+    title: 'FAQ für Händler - Anmelden',
+    nav_title: 'Anmelden',
+    description: '',
   },
   legal: {
     title: 'Rechtliche Hinweise',

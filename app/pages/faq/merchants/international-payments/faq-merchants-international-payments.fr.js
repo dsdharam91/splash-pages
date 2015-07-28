@@ -36,7 +36,7 @@ export default class FaqMerchantsInternationalPaymentsFr extends React.Component
         <p className='para'>
           Le prélèvement SEPA est un nouvel instrument de paiement introduit par l’Union Européenne en Août
           2014 qui remplace le prélèvement national. Il permet de collecter des fonds sur les comptes bancaires
-          en Euro dans toute <a href='http://fr.wikipedia.org/wiki/Single_Euro_Payments_Area' target='_blank'
+          en Euro dans toute <a href='https://gocardless.com/fr/guides/sepa/qu-est-ce-le-sepa/' target='_blank'
           className='u-link-color-p u-text-underline'>la zone SEPA</a>.
         </p>
         <p className='para'>

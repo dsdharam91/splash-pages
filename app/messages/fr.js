@@ -43,6 +43,8 @@ export default {
     address_country: 'Royaume-Uni',
     address_country_iso: 'GB',
   },
+  phone_full: '+33 9 75 18 42 95',
+  phone_local: '+33 9 75 18 42 95',
   prospect_form: {
     name_label: 'Votre nom',
     name_placeholder: 'Jean Dubois',
