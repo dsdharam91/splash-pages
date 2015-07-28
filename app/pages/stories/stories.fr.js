@@ -4,7 +4,6 @@ import Tabs from '../../components/tabs/tabs';
 import Page from '../../components/page/page';
 import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
 import Link from '../../components/link/link';
-import StoryLink from './story-link';
 
 export default class Stories extends React.Component {
   displayName = 'StoriesFr'
@@ -49,7 +48,8 @@ export default class Stories extends React.Component {
                     </div>
                     <div className='stories-spotlight__btn btn u-size-full'>Read the case study</div>
                   </Link>
-                  <Link to='stories_the_french_talents' className='grid__cell u-text-center u-size-1of2 u-link-clean u-padding-Lxs u-padding-Rn'>
+                  <Link to='stories_the_french_talents' className='grid__cell u-text-center u-size-1of2
+                  u-link-clean u-padding-Lxs u-padding-Rn'>
                     <div className='stories-spotlight__item stories-spotlight__item--crossfit-hackney u-relative u-padding-Vl'>
                       <div className='stories-spotlight__item-text u-margin-Vl'>
                         <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>

@@ -714,13 +714,13 @@ export const config = Immutable.fromJS([
     },
   ],
   [Stories1001Menus, { name: 'stories_1001_menus', category: 'stories' }, {
-      'fr': {
+      fr: {
         path: '/stories/1001-menus',
       },
     },
   ],
   [StoriesTheFrenchTalents, { name: 'stories_the_french_talents', category: 'stories' }, {
-      'fr': {
+      fr: {
         path: '/stories/the-french-talents',
       },
     },

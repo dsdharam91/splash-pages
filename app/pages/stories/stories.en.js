@@ -34,7 +34,8 @@ export default class Stories extends React.Component {
             <div className='u-padding-Vxxl u-relative u-margin-Bxxl'>
               <div className='u-padding-Bl'>
                 <div className='stories-spotlight grid u-margin-Hn u-size-full'>
-                  <Link to='stories_has_bean_coffee' className='grid__cell u-text-center u-size-1of2 u-link-clean u-padding-Rxs u-padding-Ln'>
+                  <Link to='stories_has_bean_coffee' className='grid__cell u-text-center u-size-1of2
+                  u-link-clean u-padding-Rxs u-padding-Ln'>
                     <div className='stories-spotlight__item stories-spotlight__item--has-bean-coffee
                     u-relative u-padding-Vl'>
                       <div className='stories-spotlight__item-text u-margin-Vl'>
