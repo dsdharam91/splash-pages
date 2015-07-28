@@ -74,7 +74,7 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
         </h3>
         <p className='para'>
           Sie können uns jederzeit eine E-Mail an <Href to='email' className='u-link-color-p u-text-underline'
-          itemProp='email' /> schicken. 
+          itemProp='email' /> schicken.
         </p>
 
       </Translation>

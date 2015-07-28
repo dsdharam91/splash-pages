@@ -58,12 +58,14 @@ export default class FaqMerchantsSecurityDe extends React.Component {
 
         <p className='para'>Es ist uns sehr wichtig, dass unsere Kunden zu jedem Zeitpunkt sicher sind. Falls Sie glauben eine
           Unsicherheit entdeckt zu haben, dann würden wir Sie bitten es auf verantwortungsvolle Art und Weise mit uns zu teilen.
-          Verletzlichkeiten zu veröffentlichen bringt all unsere Nutzer in Gefahr, daher möchten wir Sie bitten, solche Kommunikation immer
-          privat mit uns zu besprechen, bis wir das etwaige Problem beheben konnten.
+          Verletzlichkeiten zu veröffentlichen bringt all unsere Nutzer in Gefahr, daher möchten wir Sie bitten, solche Kommunikation
+          immer privat mit uns zu besprechen, bis wir das etwaige Problem beheben konnten.
         </p>
 
-        <p className='para'>Falls Sie Interesse daran haben unsere Systeme auf Sicherheit und Verletzbarkeit zu testen, dann können
-          Sie sich einen <a href="https://manage-sandbox.gocardless.com/signup" className="u-link-color-p u-text-underline">Test Account</a> einrichten.
+        <p className='para'>
+          Falls Sie Interesse daran haben unsere Systeme auf Sicherheit und Verletzbarkeit zu testen, dann
+          können Sie sich einen <a href="https://manage-sandbox.gocardless.com/signup"
+          className="u-link-color-p u-text-underline">Test Account</a> einrichten.
         </p>
 
         <p className='para'>
