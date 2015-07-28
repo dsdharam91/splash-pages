@@ -4,7 +4,7 @@ import StoriesEn from './stories.en';
 import StoriesFr from './stories.fr';
 
 
-export default class Pro extends React.Component {
+export default class Stories extends React.Component {
   displayName = 'Stories'
 
   render() {
