@@ -7,19 +7,17 @@ import { downloadOldSitemap, SitemapUrlSet } from '../app/static-build/sitemap';
 import availableLocales from '../config/available-locales';
 import { getAllPaths } from '../app/router/route-helpers';
 
-const [bin, script, serverUrl, outDir] = process.argv;
+const [bin, script, serverUrl, outDir, target] = process.argv;
 
-// TODO: Initalise SitemapUrlSet with domain name from environmental variable
-// TODO: Download sitemap.xml from live (https://gocardless.com/sitemap.xml)
-const sitemapDomain = 'https://gocardless.com';
-const oldSitemapUrl = 'https://dl.dropboxusercontent.com/s/otbggbop9dohag0/sitemap.xml';
+const sitemapDomain = target;
+const oldSitemapUrl = `${target}/sitemap.xml`;
 
 if (!serverUrl || !outDir) {
   console.error(`Usage: ${bin} ${script} host directory`);
   process.exit(1);
 }
 
-let newSitemap = new SitemapUrlSet(sitemapDomain);
+const newSitemap = new SitemapUrlSet(sitemapDomain);
 
 const processPage = function(pagePath) {
   return fetchPage(serverUrl, pagePath)

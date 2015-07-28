@@ -7,7 +7,8 @@
   "scripts": {
     "start": "./script/start",
     "run-production": "./script/run-production",
-    "build-production": "./script/build-prod",
+    "build-production": "TARGET=https://gocardless.com ./script/build",
+    "build-staging": "TARGET=https://staging.gocardless.com ./script/build",
     "lint": "./script/lint",
     "deploy-live-staging": "NODE_ENV=production AWS_S3_BUCKET=staging.gocardless.com ./script/deploy",
     "deploy-live-production": "NODE_ENV=production AWS_S3_BUCKET=gocardless.com ./script/deploy",
