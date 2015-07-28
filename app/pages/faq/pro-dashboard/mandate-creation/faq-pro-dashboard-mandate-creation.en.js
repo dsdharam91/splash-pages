@@ -18,7 +18,7 @@ export default class FaqProDashboardMandateCreationEn extends React.Component {
           your customers click the link and fill the mandate form in, they'll appear as a new customer in this section of the dashboard.
         </p>
         <p className='para'>
-          If you already have customers who pay by Direct Debit, please contact us to import them. Please also contact us if you 
+          If you already have customers who pay by Direct Debit, please contact us to import them. Please also contact us if you
           wish to use telephone or paper mandates.
         </p>
 
