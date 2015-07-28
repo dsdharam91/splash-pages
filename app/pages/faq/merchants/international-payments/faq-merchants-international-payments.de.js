@@ -9,14 +9,15 @@ export default class FaqMerchantsInternationalPaymentsDe extends React.Component
     return (
       <Translation locales='de'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Internationale Zahlungen</h2>
-          <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-            In welchen Ländern ist GoCardless verfügbar?
-          </h3>
-          <p className='para'>
-            GoCardless ist in Deutschland, Österreich, Frankreich, Belgien und dem Vereinigten Königreich verfügbar.
-            GoCardless Pro ist in allen Ländern verfügbar, die einem verantwortungsvollen Geldwäschegesetz unterliegen.
-            Sie brauchen außerdem ein Bankkonto in der Eurozone oder im Vereinigten Königreich.
-          </p>
+
+        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+          In welchen Ländern ist GoCardless verfügbar?
+        </h3>
+        <p className='para'>
+          GoCardless ist in Deutschland, Österreich, Frankreich, Belgien und dem Vereinigten Königreich verfügbar.
+          GoCardless Pro ist in allen Ländern verfügbar, die einem verantwortungsvollen Geldwäschegesetz unterliegen.
+          Sie brauchen außerdem ein Bankkonto in der Eurozone oder im Vereinigten Königreich.
+        </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Von wo in Europa kann ich Zahlungen einziehen?

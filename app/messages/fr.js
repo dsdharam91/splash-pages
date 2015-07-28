@@ -7,7 +7,7 @@ export default {
     more: 'Plus',
   },
   footer: {
-    description: 'GoCardless est un Etablissement de Paiement Agréé, régulé par l’autorité britannique FCA (Financial Conduct Authority) et habilité à collecter des paiements à travers l’Union Européenne.',
+    description: 'GoCardless est un Etablissement de Paiement Agréé, régulé par l’autorité britannique FCA (Financial Conduct Authority) et habilité à prélever des paiements à travers l’Union Européenne.',
     currently_viewing: 'Vous consultez actuellement',
     europe_cta: 'GoCardless s\'étend en Europe',
     europe_link: 'en apprendre plus',
@@ -20,20 +20,20 @@ export default {
     desc: 'GoCardless rend le prélèvement bancaire Européen simple pour tous, des start-ups aux grandes entreprises.',
   },
   cta: {
-    basic: 'Commencez à collecter des paiements',
+    basic: 'Commencez à prendre des paiements',
     pro: 'Contactez-nous',
-    signup: 'Inscrivez-vous',
+    signup: 'Créez votre compte',
     more: 'En apprendre plus',
   },
   basic_pricing_cta: {
     main: 'Payez 1%',
-    description: 'Seulement 1% par transaction, plafonné à 2€.',
+    description: 'Seulement 1% par transaction réussie, plafonné à 2€.',
     learn_more: 'Découvrez nos tarifs',
   },
   signup_cta: {
-    main: 'Inscrivez-vous en quelques minutes , prendre les paiements aujourd‘hui',
-    button_text: 'Commencez à prendre des paiements',
-    description: 'Pas de coûts mis en place , pas de frais cachés , aucun engagement',
+    main: 'Inscrivez-vous en 2 minutes et commencez à prélever aujourd‘hui',
+    button_text: 'Commencez à prélever',
+    description: 'Pas de coûts mis en place, pas de frais cachés, aucun engagement',
   },
   contact_types: ['sales'],
   postal_address: {
@@ -43,6 +43,8 @@ export default {
     address_country: 'Royaume-Uni',
     address_country_iso: 'GB',
   },
+  phone_full: '+33 9 75 18 42 95',
+  phone_local: '+33 9 75 18 42 95',
   prospect_form: {
     name_label: 'Votre nom',
     name_placeholder: 'Jean Dubois',
@@ -78,7 +80,7 @@ export default {
   features: {
     title: 'GoCardless: Prélèvement bancaire simplifié',
     nav_title: 'GoCardless',
-    description: 'GoCardless est la manière la plus simple de collecter vos paiements par prélèvement SEPA. Commencez dès aujourd\'hui, économisez du temps et améliorez votre cash flow.',
+    description: 'GoCardless est la manière la plus simple de prendre vos paiements par prélèvement SEPA. Commencez dès aujourd\'hui, économisez du temps et améliorez votre cash flow.',
     explainer: 'Paiements récurrents simplifiés',
   },
   faq: {
@@ -174,7 +176,7 @@ export default {
     description: '',
   },
   home: {
-    title: 'Le prélèvement high-tech en Europe',
+    title: 'Le prélèvement bancaire simplifié',
     nav_title: 'GoCardless',
     description: 'Accédez au prélèvement SEPA afin d\'améliorer votre rétention clients et réduire vos coûts, sans les complications associées aux opérateurs historiques.',
     link: 'fr home',
@@ -190,7 +192,7 @@ export default {
   pricing: {
     title: 'Tarifs',
     nav_title: 'Tarifs',
-    description: 'Collectez vos prélèvements automatiques SEPA à partir de 0,75€ par transaction, avec tarifs dégressifs pour les grandes entreprises.',
+    description: 'Prenez vos prélèvements automatiques SEPA à partir de 0,60€ par transaction réussie, avec tarifs dégressifs pour les grandes entreprises.',
   },
   legal: {
     title: 'Légal',
@@ -242,7 +244,7 @@ export default {
     title: 'Applications partenaires et intégrations logiciels',
     nav_title: 'Devenez nos partenaires',
     link_title: 'Partenaires',
-    description: 'Devenez partenaires de GoCardless et laisse vos utilisateurs collecter des paiements par prélèvement SEPA dans votre plateforme.',
+    description: 'Devenez partenaires de GoCardless et laissez vos utilisateurs prendre des paiements par prélèvement SEPA dans votre plateforme.',
     explainer: 'Offrez GoCardless à vos clients',
   },
   pro_docs: {

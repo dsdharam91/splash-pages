@@ -8,19 +8,20 @@ export default class FaqMerchantsSecurityDe extends React.Component {
     return (
       <Translation locales='de'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Sicherheit</h2>
+
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Woher weiß ich, dass mein Geld sicher ist?
         </h3>
-          <p className='para'>
-            Wir sind als <a href='http://www.fsa.gov.uk/register/psdFirmBasicDetails.do?sid=315374'
-            title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Zahlungsdienst</a> von
-            der Financial Conduct Authority im Vereinigten Königreich autorisiert.
-            Es ist uns erlaubt Zahlungen in der gesamten Europäischen Union
-            einzuziehen und zu verwalten und bedienen mehr als 10.000 Unternehmen in der EU.
-          </p>
-          <p className='para'>
-            Alle Zahlungen, die wir erhalten, werden in einem sicheren Konto unserer Partnerbank für Sie aufbewahrt.
-          </p>
+        <p className='para'>
+          Wir sind als <a href='http://www.fsa.gov.uk/register/psdFirmBasicDetails.do?sid=315374'
+          title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Zahlungsdienst</a> von
+          der Financial Conduct Authority im Vereinigten Königreich autorisiert.
+          Es ist uns erlaubt Zahlungen in der gesamten Europäischen Union
+          einzuziehen und zu verwalten und bedienen mehr als 10.000 Unternehmen in der EU.
+        </p>
+        <p className='para'>
+          Alle Zahlungen, die wir erhalten, werden in einem sicheren Konto unserer Partnerbank für Sie aufbewahrt.
+        </p>
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Wie schützt GoCardless meine Daten?
         </h3>
@@ -28,7 +29,6 @@ export default class FaqMerchantsSecurityDe extends React.Component {
           Sicherheit wird groß geschrieben bei GoCardless. Die folgenden Vorkehrungen sind nur eine Auswahl aus unserer Arbeit, Ihre Daten
           sowie Ihre Zahlungen jederzeit sicher zu verwahren:
         </p>
-
         <ul className='list'>
           <li>Unser Zugang zum Lastschriftverfahren wird von Europas führenden Banken ermöglicht, die unsere Systeme regelmäßig prüfen.</li>
           <li>All unsere Server sind in sicheren Datenzentren in Europa aufbewahrt - Daten werden nie außerhalb der EU übertragen.</li>
@@ -47,10 +47,10 @@ export default class FaqMerchantsSecurityDe extends React.Component {
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Sind meine Kunden abgesichert?
         </h3>
-          <p className='para'>
-            Ja, Ihre Kunden sind durch das <a href='https://gocardless.com/de/handbuch/sepa/kundenschutz/'
-            className='u-link-color-p u-text-underline'>SEPA Lastschriftabkommen</a> abgesichert.
-          </p>
+        <p className='para'>
+          Ja, Ihre Kunden sind durch das <a href='https://gocardless.com/de/handbuch/sepa/kundenschutz/'
+          className='u-link-color-p u-text-underline'>SEPA Lastschriftabkommen</a> abgesichert.
+        </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Aufdecken von Sicherheitslücken
@@ -63,12 +63,13 @@ export default class FaqMerchantsSecurityDe extends React.Component {
         </p>
 
         <p className='para'>Falls Sie Interesse daran haben unsere Systeme auf Sicherheit und Verletzbarkeit zu testen, dann können
-        Sie sich einen <a href="https://manage-sandbox.gocardless.com/signup" className="u-link-color-p u-text-underline">Test Account</a> einrichten.
+          Sie sich einen <a href="https://manage-sandbox.gocardless.com/signup" className="u-link-color-p u-text-underline">Test Account</a> einrichten.
         </p>
 
-        <p className='para'>Um Ihre Arbeit zu würdigen sowie als Dankeschön dafür, dass Sie uns helfen GoCardless sicher zu halten,
-            behält sich GoCardless vor Ihre Arbeit für das verantwortungsvolle Aufdecken von Sicherheitslücken finanziell zu entlohnen.
-            Die Höhe einer solchen Entlohnung hängt von der Bedeutung des aufgedeckten Problems ab.
+        <p className='para'>
+          Um Ihre Arbeit zu würdigen sowie als Dankeschön dafür, dass Sie uns helfen GoCardless sicher zu halten,
+          behält sich GoCardless vor Ihre Arbeit für das verantwortungsvolle Aufdecken von Sicherheitslücken finanziell zu entlohnen.
+          Die Höhe einer solchen Entlohnung hängt von der Bedeutung des aufgedeckten Problems ab.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>

@@ -57,7 +57,7 @@ export default class FaqMerchantsFr extends React.Component {
 
         <ul className='list'>
           <li>
-            <strong>Moins d'administration</strong> - Inscrivez-vous en 24h et commencez à encaisser des paiments
+            <strong>Moins d'administration</strong> - Inscrivez-vous en 2 minutes et commencez à encaisser des paiements
             récurrents ou ponctuels automatiquement en un clic. Le suivi des paiements et la réconciliation bancaire
             se font automatiquement. Fini les démarches et la gestion lourde requises par les banques.
           </li>
@@ -140,7 +140,7 @@ export default class FaqMerchantsFr extends React.Component {
         </h3>
         <p className='para'>
           GoCardless est un Etablissement de Paiement Agréé, régulé par l’autorité britannique FCA (Financial Conduct Authority) et
-          habilité à collecter des paiements à travers l’Union Européenne.
+          habilité à prendre des paiements à travers l’Union Européenne.
         </p>
       </Translation>
     );

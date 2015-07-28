@@ -8,7 +8,7 @@ import websiteSchema from '../layout-static/website-schema';
 import getSiteTitle from '../get-site-title/get-site-title';
 import { getMessage } from '../intl/intl';
 import localeMessages from '../../../config/messages';
-import { defaultLocale, localeToLanguage } from '../../helpers/locale-helper/locale-helper';
+import { defaultLocale, localeToLanguage, localeToRegion } from '../../helpers/locale-helper/locale-helper';
 import { homeRoute } from '../../router/routes';
 import { getLocalesForRouteName } from '../../router/route-helpers';
 import { buildSchemaDotOrgForOrganization } from '../../helpers/schema-dot-org/schema-dot-org';
@@ -92,6 +92,7 @@ class HtmlDocument extends React.Component {
     const pageHref = config.siteRoot + pathname;
     const title = getSiteTitle({ messages, routeName, config });
     const language = localeToLanguage(currentLocale);
+    const region = localeToRegion(currentLocale);
     const description = getMessage(messages, `${routeName}.description`);
 
     return (
@@ -140,7 +141,11 @@ class HtmlDocument extends React.Component {
           }
 
           { config.googleTagManagerId &&
-              <div dangerouslySetInnerHTML={{__html: GTM.replace('{TAG_ID}', config.googleTagManagerId) }} />
+              <div dangerouslySetInnerHTML={{
+                __html: GTM.replace('{TAG_ID}', config.googleTagManagerId)
+                .replace('{PAGE_LANGUAGE}', language)
+                .replace('{PAGE_REGION}', region),
+              }} />
           }
         </body>
       </html>

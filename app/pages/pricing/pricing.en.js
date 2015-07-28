@@ -4,6 +4,7 @@ import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 import IfLinkExists from '../../components/if-link-exists/if-link-exists';
 import { getMessage } from '../../components/intl/intl';
 
@@ -53,7 +54,7 @@ export default class PricingEn extends React.Component {
                     </IfLinkExists>
                     <li className='pricing-options__list-button'>
                       <IfLocale hasInstantSignup>
-                        <a href='/merchants/new' className='btn u-size-full'>Sign up today</a>
+                        <Href to='signup.path' className='btn u-size-full'>Sign up today</Href>
                       </IfLocale>
                       <IfLocale hasInstantSignup={false}>
                         <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contact sales</Link>
@@ -174,7 +175,7 @@ export default class PricingEn extends React.Component {
             <h2 className='u-text-heading u-text-l u-color-heading u-text-light'>Got any questions?</h2>
             <p className='u-color-p u-margin-Ts'>Speak with one of our payments experts on <Message pointer='phone_local' /></p>
             <IfLocale hasInstantSignup>
-              <a href='/merchants/new/' className='btn btn--hollow u-margin-Tm'>Sign up today</a>
+              <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>Sign up today</Href>
             </IfLocale>
             <IfLocale hasInstantSignup={false}>
               <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Contact sales</Link>

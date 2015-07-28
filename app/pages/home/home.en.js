@@ -3,6 +3,7 @@ import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 import HowDdWorks from '../../components/how-dd-works/how-dd-works';
 import Modal from '../../components/modal/modal';
 
@@ -184,7 +185,7 @@ export default class HomeEn extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <a href='/merchants/new' id='track-cta-sign-up' className='btn'>Start taking payments</a>
+              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Start taking payments</Href>
               <p className='u-color-p u-margin-Ts'>No set up costs, no hidden charges, no commitments</p>
             </div>
           </div>
