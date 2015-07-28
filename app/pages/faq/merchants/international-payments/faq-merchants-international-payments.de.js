@@ -36,7 +36,7 @@ export default class FaqMerchantsInternationalPaymentsDe extends React.Component
         </h3>
         <p className='para'>
           SEPA ist ein neues Zahlungsschema, das es erlaubt Lastschriftzahlungen innerhalb
-          der <a href='http://en.wikipedia.org/wiki/Single_Euro_Payments_Area' target='_blank'
+          der <a href='https://gocardless.com/de/handbuch/sepa/was-ist-sepa/' target='_blank'
           className='u-link-color-p u-text-underline'>Single Euro Payments Area (SEPA)</a> zu veranlassen.
         </p>
         <p className='para'>

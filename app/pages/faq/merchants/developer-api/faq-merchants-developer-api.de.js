@@ -9,6 +9,7 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
     return (
       <Translation locales='de'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Entwickler API</h2>
+
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Wozu kann ich die API verwenden?
         </h3>
@@ -25,27 +26,27 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
           Welche Programmiersprachen unterstützt GoCardless für die Integration?
         </h3>
         <p className='para'>
-           Wir sind mit allen existierenden Programmiersprachen kompatibel, dank der Verwendung der REST Standards.
-           Darüber hinaus bieten wir für die gängigen Programmiersprachen Client Libraries zur Unterstützung Ihrer
-           Integration an, darunter Ruby, PHP und Java. Wir fügen regelmäßig neue Libraries hinzu.
+          Wir sind mit allen existierenden Programmiersprachen kompatibel, dank der Verwendung der REST Standards.
+          Darüber hinaus bieten wir für die gängigen Programmiersprachen Client Libraries zur Unterstützung Ihrer
+          Integration an, darunter Ruby, PHP und Java. Wir fügen regelmäßig neue Libraries hinzu.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Kann ich die Zahlungsseiten auch auf meiner Webseite hosten?
         </h3>
-          <p className='para'>
-            Ja, allerdings nur mit GoCardless Pro. Dann können Sie Ihr eigenes Design anwenden und sie direkt
-            auf Ihrer eigenen Webseite hosten. Beachten Sie allerdings, dass es hier gewisse SEPA Regeln gibt, die
-            Sie bei der Erstellung Ihrer eigenen Zahlungsseiten einhalten müssen.
-          </p>
-          <p className='para'>
-            Im Falle unseres Standard GoCardless Produktes, hosten wir Ihre Zahlungsseiten sicher auf unserer
-            Webseite. Natürlich sind diese Seiten konform mit den SEPA Regelwerken.
-          </p>
-          <p className='para'>
-            In diesem Fall können Sie Ihre Kunden zu der von uns gehosteten Zahlungsseite leiten und nach erfolgreichem
-            Ausfüllen des Formulars leiten wir Ihre Kunden wieder zurück auf Ihre Seite.
-          </p>
+        <p className='para'>
+          Ja, allerdings nur mit GoCardless Pro. Dann können Sie Ihr eigenes Design anwenden und sie direkt
+          auf Ihrer eigenen Webseite hosten. Beachten Sie allerdings, dass es hier gewisse SEPA Regeln gibt, die
+          Sie bei der Erstellung Ihrer eigenen Zahlungsseiten einhalten müssen.
+        </p>
+        <p className='para'>
+          Im Falle unseres Standard GoCardless Produktes, hosten wir Ihre Zahlungsseiten sicher auf unserer
+          Webseite. Natürlich sind diese Seiten konform mit den SEPA Regelwerken.
+        </p>
+        <p className='para'>
+          In diesem Fall können Sie Ihre Kunden zu der von uns gehosteten Zahlungsseite leiten und nach erfolgreichem
+          Ausfüllen des Formulars leiten wir Ihre Kunden wieder zurück auf Ihre Seite.
+        </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Sind auch iFrames möglich?

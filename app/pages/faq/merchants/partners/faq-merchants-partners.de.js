@@ -9,6 +9,7 @@ export default class FaqMerchantsPartnersDe extends React.Component {
     return (
       <Translation locales='de'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Partner</h2>
+
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Was ist ein Partner?
         </h3>

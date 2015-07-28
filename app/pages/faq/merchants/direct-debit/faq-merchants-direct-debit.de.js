@@ -9,6 +9,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
     return (
       <Translation locales='de'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Lastschriften</h2>
+
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Was ist das SEPA Lastschriftverfahren?
         </h3>
@@ -33,20 +34,20 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           in Auftrag geben.
         </p>
         <p className='para'>
-            Ebenso können Kunden nach einer sofortigen Rückzahlung eines nicht autorisierten oder betrügerischen
-            Lastschrifteinzugs fragen. Dies muss so bald wie möglich geschehen und spätestens 13 Monate nach dem Einzug
-            der Lastschrift.
-          </p>
-          <p className='para'>
-            Eine von der Bank erstatte Rückzahlung bedeutet nicht, dass die zugrundeliegende Rechnung nicht weiter Bestand hat.
-            Es liegt dann am Händler den Disput oder das Missverständnis mit seinem Kunden zu klären.
-          </p>
+          Ebenso können Kunden nach einer sofortigen Rückzahlung eines nicht autorisierten oder betrügerischen
+          Lastschrifteinzugs fragen. Dies muss so bald wie möglich geschehen und spätestens 13 Monate nach dem Einzug
+          der Lastschrift.
+        </p>
+        <p className='para'>
+          Eine von der Bank erstatte Rückzahlung bedeutet nicht, dass die zugrundeliegende Rechnung nicht weiter Bestand hat.
+          Es liegt dann am Händler den Disput oder das Missverständnis mit seinem Kunden zu klären.
+        </p>
 
-          <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-            Zahlt der Kunde Gebühren?
-          </h3>
-          <p className='para'>
-            Nein, im SEPA Lastschriftverfahren sind Banken gezwungen, keine Gebühren vom Zahlungspflichtigen einzuziehen.
+        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+          Zahlt der Kunde Gebühren?
+        </h3>
+        <p className='para'>
+          Nein, im SEPA Lastschriftverfahren sind Banken gezwungen, keine Gebühren vom Zahlungspflichtigen einzuziehen.
           Es ist daher kostenlos für Ihre Kunden das Lastschriftverfahren zu nutzen.
         </p>
 
@@ -79,7 +80,6 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           <li>Zahlungen, die mit hoher Wahrscheinlichkeit zurückgefordert werden (z.B. Glücksspiele)</li>
         </ul>
 
-
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Wie lange braucht eine Lastschriftzahlung?
         </h3>
@@ -97,7 +97,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-            Ist es auch möglich einzelne Zahlungen per Lastschrift einzuziehen?
+          Ist es auch möglich einzelne Zahlungen per Lastschrift einzuziehen?
         </h3>
         <p className='para'>
           Ja. Das Lastschriftverfahren ist zwar besonders für wiederkehrende Zahlungen geeignet, aber ebenso können Sie
