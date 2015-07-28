@@ -11,7 +11,7 @@ export default class FaqProDashboardSubscriptionCreationEn extends React.Compone
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Subscription creation</h2>
         <p className='para'>
           After setting up your customer, you'll be able to start taking Direct Debit payments from them. On
-          the <a href='https://manage.gocardless.com/customers' 
+          the <a href='https://manage.gocardless.com/customers'
           target='_blank' className='u-link-color-p u-text-underline'>customers section</a> of the dashboard, choose the customer
           from whom you want to take payments.
         </p>
@@ -31,11 +31,11 @@ export default class FaqProDashboardSubscriptionCreationEn extends React.Compone
           Creating a Subscription for your Customer
         </h3>
         <p className='para'>
-          A subscription allows you to collect regular payments of a fixed amount. There's no need to create the same payment 
+          A subscription allows you to collect regular payments of a fixed amount. There's no need to create the same payment
           week-after-week or month-after-month.
         </p>
         <p className='para'>
-          On the <a href='https://manage.gocardless.com/customers' 
+          On the <a href='https://manage.gocardless.com/customers'
           target='_blank' className='u-link-color-p u-text-underline'>customers section</a> of the dashboard, choose your customer
           followed by Create &gt; Subscription.
         </p>

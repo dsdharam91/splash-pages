@@ -11,7 +11,7 @@ export default class FaqProDashboardPaymentCreationEn extends React.Component {
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Payment creation</h2>
         <p className='para'>
           After setting up your customer, you'll be able to start taking Direct Debit payments from them. On
-          the <a href='https://manage.gocardless.com/customers' 
+          the <a href='https://manage.gocardless.com/customers'
           target='_blank' className='u-link-color-p u-text-underline'>customers section</a> of the dashboard, choose the customer
           from whom you want to take payments.
         </p>
@@ -31,7 +31,7 @@ export default class FaqProDashboardPaymentCreationEn extends React.Component {
           Creating a Payment for your Customer
         </h3>
         <p className='para'>
-          On the <a href='https://manage.gocardless.com/customers' 
+          On the <a href='https://manage.gocardless.com/customers'
           target='_blank' className='u-link-color-p u-text-underline'>customers section</a> of the dashboard, choose your customer
           followed by Create &gt; Payment.
         </p>
