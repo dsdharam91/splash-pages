@@ -3,7 +3,7 @@
 const fs = require('fs');
 import path from 'path';
 import { fetchPage, writePage } from '../app/static-build/builder';
-import { downloadOldSitemap, SitemapUrlSet } from '../app/static-build/sitemap';
+import { downloadOldSitemap, Sitemap } from '../app/static-build/sitemap';
 import availableLocales from '../config/available-locales';
 import { getAllPaths } from '../app/router/route-helpers';
 
@@ -17,7 +17,7 @@ if (!serverUrl || !outDir || !target) {
   process.exit(1);
 }
 
-const newSitemap = new SitemapUrlSet(sitemapDomain);
+const newSitemap = new Sitemap(sitemapDomain);
 
 const processPage = function(pagePath) {
   return fetchPage(serverUrl, pagePath)

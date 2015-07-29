@@ -1,4 +1,4 @@
-import { SitemapUrlSet } from './sitemap';
+import { Sitemap } from './sitemap';
 
 const sitemapXmlHeader = '<?xml version="1.0" encoding="UTF-8"?>\n' +
   '<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n' +
@@ -59,34 +59,34 @@ const updatedSitemapAfterChangeJs = {
   },
 };
 
-describe('SitemapUrlSet component', () => {
+describe('Sitemap component', () => {
   describe('constructor', () => {
-    it('returns a SitemapUrlSet with no entries', () => {
-      var blankSitemap = new SitemapUrlSet('http://example.com');
+    it('returns a Sitemap with no entries', () => {
+      var blankSitemap = new Sitemap('http://example.com');
       expect(blankSitemap.urlSet).toEqual(exampleSitemapWithNoPagesJs);
     });
   });
 
   describe('fromXml', () => {
-    it('returns a SitemapUrlSet with the right entries', () => {
-      var sitemapWithNoPages = new SitemapUrlSet('http://example.com').fromXml(exampleSitemapWithNoPagesXml);
+    it('returns a Sitemap with the right entries', () => {
+      var sitemapWithNoPages = new Sitemap('http://example.com').fromXml(exampleSitemapWithNoPagesXml);
       expect(sitemapWithNoPages.urlSet).toEqual(exampleSitemapWithNoPagesJs);
-      var sitemapWithOnePage = new SitemapUrlSet('http://example.com').fromXml(exampleSitemapWithOnePageXml);
+      var sitemapWithOnePage = new Sitemap('http://example.com').fromXml(exampleSitemapWithOnePageXml);
       expect(sitemapWithOnePage.urlSet).toEqual(exampleSitemapWithOnePageJs);
-      var sitemapWithTwoPages = new SitemapUrlSet('http://example.com').fromXml(exampleSitemapWithTwoPagesXml);
+      var sitemapWithTwoPages = new Sitemap('http://example.com').fromXml(exampleSitemapWithTwoPagesXml);
       expect(sitemapWithTwoPages.urlSet).toEqual(exampleSitemapWithTwoPagesJs);
     });
   });
 
   describe('toXml', () => {
-    it('returns the appropiate XML for the SitemapUrlSet', () => {
-      var sitemapWithNoPages = new SitemapUrlSet('http://example.com');
+    it('returns the appropiate XML for the Sitemap', () => {
+      var sitemapWithNoPages = new Sitemap('http://example.com');
       sitemapWithNoPages.urlSet = exampleSitemapWithNoPagesJs;
       expect(sitemapWithNoPages.toXml()).toEqual(exampleSitemapWithNoPagesXml);
-      var sitemapWithOnePage = new SitemapUrlSet('http://example.com');
+      var sitemapWithOnePage = new Sitemap('http://example.com');
       sitemapWithOnePage.urlSet = exampleSitemapWithOnePageJs;
       expect(sitemapWithOnePage.toXml()).toEqual(exampleSitemapWithOnePageXml);
-      var sitemapWithTwoPages = new SitemapUrlSet('http://example.com');
+      var sitemapWithTwoPages = new Sitemap('http://example.com');
       sitemapWithTwoPages.urlSet = exampleSitemapWithTwoPagesJs;
       expect(sitemapWithTwoPages.toXml()).toEqual(exampleSitemapWithTwoPagesXml);
     });
@@ -95,7 +95,7 @@ describe('SitemapUrlSet component', () => {
   describe('addUrl', () => {
     it('adds the URL correctly to the sitemap', () => {
       jasmine.clock().mockDate(new Date(2015, 0, 1));
-      var sitemap = new SitemapUrlSet('http://example.com');
+      var sitemap = new Sitemap('http://example.com');
       sitemap.addUrl('http://example.com/about/', '<html><body>About Page Contents</body></html>');
       expect(sitemap.urlSet).toEqual(exampleSitemapWithOnePageJs);
       jasmine.clock().mockDate(new Date(2015, 1, 1));
@@ -105,8 +105,8 @@ describe('SitemapUrlSet component', () => {
   });
 
   describe('getUrl', () => {
-    it('returns the URL correctly from SitemapUrlSet', () => {
-      var sitemap = new SitemapUrlSet('http://example.com');
+    it('returns the URL correctly from Sitemap', () => {
+      var sitemap = new Sitemap('http://example.com');
       sitemap.urlSet = exampleSitemapWithOnePageJs;
       expect(sitemap.getUrl('http://example.com/about/')).toEqual(exampleSitemapWithOnePageJs['/about/']);
     });
@@ -114,7 +114,7 @@ describe('SitemapUrlSet component', () => {
 
   describe('removeUrl', () => {
     it('removes the URL correctly from the sitemap', () => {
-      var sitemap = new SitemapUrlSet('http://example.com');
+      var sitemap = new Sitemap('http://example.com');
       sitemap.urlSet = exampleSitemapWithTwoPagesJs;
       sitemap.removeUrl('http://example.com/pricing/');
       expect(sitemap.urlSet).toEqual(exampleSitemapWithOnePageJs);
@@ -126,8 +126,8 @@ describe('SitemapUrlSet component', () => {
   describe('importTimestampsFromOldSitemap', () => {
     it('updates the last modified time only for documents which have actually changed', () => {
       jasmine.clock().mockDate(new Date(2015, 2, 1));
-      var oldSitemap = new SitemapUrlSet('http://example.com').fromXml(exampleSitemapWithTwoPagesXml);
-      var newSitemap = new SitemapUrlSet('http://example.com');
+      var oldSitemap = new Sitemap('http://example.com').fromXml(exampleSitemapWithTwoPagesXml);
+      var newSitemap = new Sitemap('http://example.com');
       newSitemap.addUrl('http://example.com/about/', '<html><body>Updated Version of About Page Contents</body></html>');
       newSitemap.addUrl('http://example.com/pricing/', '<html><body>Pricing Page Contents</body></html>');
       newSitemap.importTimestampsFromOldSitemap(oldSitemap);

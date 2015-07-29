@@ -15,14 +15,14 @@ export function downloadOldSitemap(host, sitemapUrl) {
     request.get(sitemapUrl).buffer().end(function(err, res) {
       if (err) {
         console.log(`Error downloading old sitemap from ${sitemapUrl}: ${err}. Continuing anyway (all pages may have lastMod of today).`);
-        return resolve(new SitemapUrlSet(host));
+        return resolve(new Sitemap(host));
       }
       if (res.ok) {
         console.log(`Downloaded old sitemap from ${sitemapUrl}.`);
-        resolve(new SitemapUrlSet(host).fromXml(res.text));
+        resolve(new Sitemap(host).fromXml(res.text));
       } else {
         console.log(`Error downloading old sitemap from ${sitemapUrl}: !res.ok. Continuing anyway (all pages may have lastMod of today).`);
-        resolve(new SitemapUrlSet(host));
+        resolve(new Sitemap(host));
       }
     });
   });
@@ -45,24 +45,24 @@ function getHashOfContent(content) {
 }
 
 /**
- * Creates a new SitemapUrlSet object.
- * e.g. let sitemap = new SitemapUrlSet('http://example.com')
+ * Creates a new Sitemap object.
+ * e.g. const sitemap = new Sitemap('http://example.com')
  *
  * @class
  * @param {string} domain - Domain to which the sitemap refers e.g. https://example.com
  */
-export class SitemapUrlSet {
+export class Sitemap {
   constructor(domain) {
     this.urlSet = {};
     this.domain = domain;
   }
 
   /**
-   * Loads in an existing XML Sitemap and returns a SitemapUrlSet object.
-   * e.g. let currentSitemap = new SitemapUrlSet('http://example.com').fromXml(xmlFileContents)
+   * Loads in an existing XML Sitemap and returns a Sitemap object.
+   * e.g. let currentSitemap = new Sitemap('http://example.com').fromXml(xmlFileContents)
    *
    * @param {string} xml - Sitemap in XML format
-   * @returns {SitemapUrlSet} A SitemapUrlSet object representing the sitemap.
+   * @returns {Sitemap} A Sitemap object representing the sitemap.
    */
   fromXml(xml) {
     const $ = cheerio.load(xml);
@@ -84,9 +84,9 @@ export class SitemapUrlSet {
   }
 
   /**
-   * Returns an XML representation of the current SitemapUrlSet object.
+   * Returns an XML representation of the current Sitemap object.
    *
-   * @returns {string} A XML format representation of the SitemapUrlSet object.
+   * @returns {string} A XML format representation of the Sitemap object.
    */
   toXml() {
     /*eslint-disable max-len*/
@@ -162,8 +162,8 @@ export class SitemapUrlSet {
    * Imports the timestamps from an old sitemap when the content is unchanged.
    * e.g. newSitemap.importTimestampsFromOldSitemap(oldSitemap)
    *
-   * @param {SitemapUrlSet} oldSitemap - A SitemapUrlSet object for the old sitemap
-   * @returns {SitemapUrlSet} A SitemapUrlSet object with imported timestamps from the old sitemap.
+   * @param {Sitemap} oldSitemap - A Sitemap object for the old sitemap
+   * @returns {Sitemap} A Sitemap object with imported timestamps from the old sitemap.
    */
   importTimestampsFromOldSitemap(oldSitemap) {
     for (url in this.urlSet) {
