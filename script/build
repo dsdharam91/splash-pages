@@ -2,6 +2,11 @@
 
 PORT='4413'
 
+if [ -z $TARGET ]; then
+  echo "TARGET is required e.g. https://gocardless.com"
+  exit 1
+fi
+
 # check if something is already on our port
 echo exit | nc localhost $PORT
 if [ $? -eq 0 ]; then
@@ -27,7 +32,7 @@ set +e errexit
 # wait for the server to start up
 while ! echo exit | nc localhost $PORT; do sleep 1; done
 
-./script/dump-html "http://localhost:$PORT" $CWD
+./script/dump-html "http://localhost:$PORT" $CWD $TARGET
 DUMP_EXIT=$?
 
 kill $SERVER_PID

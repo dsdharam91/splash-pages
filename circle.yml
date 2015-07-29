@@ -8,7 +8,7 @@ deployment:
   staging:
     branch: dev
     commands:
-      - npm run build-production
+      - npm run build-staging
       - npm run deploy-live-staging
 
 machine:

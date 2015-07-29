@@ -1,23 +1,41 @@
 #!/usr/bin/env babel-node
 
+const fs = require('fs');
+import path from 'path';
 import { fetchPage, writePage } from '../app/static-build/builder';
+import { downloadOldSitemap, Sitemap } from '../app/static-build/sitemap';
 import availableLocales from '../config/available-locales';
 import { getAllPaths } from '../app/router/route-helpers';
 
-const [bin, script, serverUrl, outDir] = process.argv;
+const [bin, script, serverUrl, outDir, target] = process.argv;
 
-if (!serverUrl || !outDir) {
-  console.error(`Usage: ${bin} ${script} host directory`);
+const sitemapDomain = target;
+const oldSitemapUrl = `${target}/sitemap.xml`;
+
+if (!serverUrl || !outDir || !target) {
+  console.error(`Usage: ${bin} ${script} host directory target`);
   process.exit(1);
 }
 
+const newSitemap = new Sitemap(sitemapDomain);
+
 const processPage = function(pagePath) {
   return fetchPage(serverUrl, pagePath)
-    .then(writePage.bind(null, outDir))
+    .then(([url, contents]) => {
+      newSitemap.addUrl(url, contents);
+      return writePage(outDir, [url, contents]);
+    })
     .catch(console.error.bind(console));
 };
 
 Promise.all(getAllPaths(availableLocales).map(processPage)).then(function(filenames) {
   console.log('Completed static html dump:');
   console.log(filenames.sort().map((filename) => `  ${filename}`).join('\n'));
+
+  downloadOldSitemap(sitemapDomain, oldSitemapUrl).then((oldSitemap) => {
+    newSitemap.importTimestampsFromOldSitemap(oldSitemap);
+    const sitemapOutputPath = path.join(outDir, 'sitemap.xml');
+    fs.writeFileSync(sitemapOutputPath, newSitemap.toXml());
+    console.log(`New sitemap written to ${sitemapOutputPath}`);
+  });
 }).catch(console.error.bind(console));
