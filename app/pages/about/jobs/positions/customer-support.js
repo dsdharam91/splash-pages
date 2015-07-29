@@ -38,7 +38,7 @@ export default class CustomerSupport extends React.Component {
           learn the multiple ways it can be used. You’ll tailor your approach
           and the level of information you give depending on what the individual
           user needs to know. You’ll be empowered to actually address their
-          concerns and be responsible for following through until they are
+          concerns and you’ll be responsible for following through until they are
           satisfied. You will join our friendly, tight-knit team and work together
           to find creative solutions to even the toughest problems. Ultimately,
           we want every customer to hang up happy.
@@ -48,19 +48,19 @@ export default class CustomerSupport extends React.Component {
         </p>
         <ul className='list'>
           <li>answering calls and emails from our customers</li>
-          <li>using our sophisticated in-house fraud detection systems to protect
+          <li>using our sophisticated in-house risk analysis systems to protect
             our users</li>
-          <li>verifying new user accounts</li>
+          <li>running verification checks on new user accounts</li>
           <li>talking to new users to help them get the most from our product</li>
           <li>working with our product team to prioritise feature requests</li>
         </ul>
         <p className='para'>
           You’ll also be involved in improving our internal support tools and
           processes. We believe that technology should make us more effective,
-          so a lot of our tools are build in-house and regularly updated. As
+          so we build a lot of our tools in-house and regularly update them. As
           our product is constantly evolving and new features are built, our
           internal admin dashboard needs regular revisiting. As we learn more
-          about our growing customer base we can optimise our fraud detection
+          about our growing customer base we can optimise our risk analysis
           algorithms. We create new processes to help us get more done, such
           as new email templates for common queries.
         </p>
@@ -68,8 +68,8 @@ export default class CustomerSupport extends React.Component {
           We care deeply about our customers’ experience and act with their best
           interests at heart: we take responsibility for their problems and we
           know that there is always something we can do to help, however long
-          it takes. You’ll know our customers best, and have valuable input for
-          everyone across the company &ndash; from working with the engineering
+          it takes. You’ll know our customers best, and provide valuable input to
+          others across the company &ndash; from working with the engineering
           team to get bugs fixed, to helping our sales team understand what our
           current users love.
         </p>
