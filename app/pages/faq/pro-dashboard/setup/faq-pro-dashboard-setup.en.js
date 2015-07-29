@@ -9,11 +9,11 @@ export default class FaqProDashboardEn extends React.Component {
 
   render() {
     return (
-      <Translation locales={['en']} exclude={['en-GB']}>
+      <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Setup</h2>
         <p className='para'>
-          With the GoCardless dashboard you can manage SEPA Direct Debit mandates and take recurring payments without any
-          technical integration.
+          With the <a href='https://manage.gocardless.com/' className='u-link-color-p u-text-underline'>GoCardless dashboard</a>,
+          you can manage Direct Debit mandates and take recurring payments without any technical integration.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
@@ -21,39 +21,44 @@ export default class FaqProDashboardEn extends React.Component {
         </h3>
         <IfLocale hasInstantSignup>
           <p className='para'>
-            You can <Href to='signup.path' target='_blank'>
-            create your GoCardless account
-            </Href> and start collecting payments instantly.
-            You will just need to add identity verification documents to be able to receive funds.
+            You can <Href to='signup.path' className='u-link-color-p u-text-underline'>sign up to GoCardless today</Href> and
+            start collecting payments instantly. You'll need to verify your identity before you're able to receive any funds.
           </p>
         </IfLocale>
         <IfLocale hasInstantSignup={false}>
           <p className='para'>
-           You can <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'
+            You can <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'
             className='u-link-color-p u-text-underline'>create a test account</a> for free.
           </p>
           <p className='para'>
-            In order to open a real account and start collecting payments, please email <Href to='email' /> the
-            following documents :
+            Before you can open a live account and start collecting payments, please
+            email <Href to='email' className='u-link-color-p u-text-underline' /> with the following documents:
           </p>
           <ul className='list'>
-            <li>Confirm that you read and accepted our
-            <Link to='legal_merchants'> Terms and Conditions</Link></li>
-            <li>Wire €1 to us from your company bank account</li>
-            <li>Send a passport or ID card of your Director and any investor who owns over 25% of your company</li>
+            <li>
+              Confirm that you've read and accepted our <Link to='legal_merchants'
+              className='u-link-color-p u-text-underline'>terms and conditions</Link>.
+            </li>
+            <li>
+              Send us a €1 payment from your company bank account.
+            </li>
+            <li>
+              Send us a scanned copy of the passport or ID card of your company director.
+              You should also provide scanned ID for any investor that owns 25% or more of your company.
+            </li>
           </ul>
           <p className='para'>
-            Once these documents have been verified, we will create an account (typically under 24h) and you will
-            be able to start using GoCardless to collect Direct Debit payments, without having to go through your
-            bank or get a SEPA Creditor ID.
+            Once these documents have been verified, we'll create a live account for your business (typically in less than 24 hours).
+            Once you have the live account, you can use GoCardless to collect Direct Debit payments. There is no need to go via your
+            bank to get a SEPA Creditor ID or Bacs SUN.
           </p>
           <p className='para'>
-            Please note that anything you do in your test account won't be passed to your real account.
+            Please note that anything you do in your test account will not be transferred to your live production account.
           </p>
         </IfLocale>
         <p className='para'>
           If you wish to migrate existing customers where you already have a Direct Debit mandate in place, please
-          email us at <Href to='email' />.
+          email us at <Href to='email' className='u-link-color-p u-text-underline' />.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
@@ -61,11 +66,11 @@ export default class FaqProDashboardEn extends React.Component {
         </h3>
         <p className='para'>
           You can personalise your account in the <a href='https://manage.gocardless.com/settings/company'
-          target='_blank' className='u-link-color-p u-text-underline'>Company Info section</a> :
+          target='_blank' className='u-link-color-p u-text-underline'>Company Info section</a>:
         </p>
         <ul className='list'>
-          <li>Upload a logo which will be used on your mandate page</li>
-          <li>Add the bank account where you want us to wire the funds</li>
+          <li>You can upload a logo to be used on your payment page.</li>
+          <li>You can add the bank account where you want us to send collected funds.</li>
         </ul>
 
       </Translation>
