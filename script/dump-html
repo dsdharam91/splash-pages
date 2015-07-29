@@ -12,8 +12,8 @@ const [bin, script, serverUrl, outDir, target] = process.argv;
 const sitemapDomain = target;
 const oldSitemapUrl = `${target}/sitemap.xml`;
 
-if (!serverUrl || !outDir) {
-  console.error(`Usage: ${bin} ${script} host directory`);
+if (!serverUrl || !outDir || !target) {
+  console.error(`Usage: ${bin} ${script} host directory target`);
   process.exit(1);
 }
 
