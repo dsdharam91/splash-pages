@@ -13,20 +13,22 @@ export default class FaqProDashboardPaymentRetryEn extends React.Component {
         </p>
         <ul className='list'>
           <li>
-            <strong>The payment fails and can be retried</strong>: this is the case mainly for the following causes: insufficient funds and refer to payer
+            <strong>The payment fails and can be retried</strong>: this is the case mainly for the following causes: insufficient funds
+            and refer to payer
           </li>
           <li>
             <strong>The payment fails as well as the mandate</strong>: you should contact your customer to setup a new mandate
           </li>
           <li>
-            <strong>The payment is disputed</strong>: you should contact the customer to understand why they contested and only create a new payment
-            once this is clarified
+            <strong>The payment is disputed</strong>: you should contact the customer to understand why they contested and only create
+            a new payment once this is clarified
           </li>
         </ul>
 
         <p className='para'>
-          When possible, you can <strong>retry the payment</strong> by clicking "Retry". We will resubmit your payment to the banks straight away.
-          You can see the new charge date as well as follow the status of the payment in the same history as your initial payment.
+          When possible, you can <strong>retry the payment</strong> by clicking "Retry". We will resubmit your payment to the banks
+          straight away. You can see the new charge date as well as follow the status of the payment in the same history as your initial
+          payment.
         </p>
 
         <img src='/images/faq/en/payment-retry.png' />
@@ -77,11 +79,13 @@ export default class FaqProDashboardPaymentRetryEn extends React.Component {
             </tr>
             <tr className='comparison-table__row'>
               <td className='comparison-table__cell'>Authorisation disputed</td>
-              <td className='comparison-table__cell'>In SEPA, customers are entitled to a refund of payments they did not authorise within 13 months.</td>
+              <td className='comparison-table__cell'>In SEPA, customers are entitled to a refund of payments they did not authorise
+              within 13 months.</td>
             </tr>
             <tr className='comparison-table__row'>
               <td className='comparison-table__cell'>Refund requested</td>
-              <td className='comparison-table__cell'>In SEPA, customers are entitled to a refund for authorised transactions within 8 weeks.</td>
+              <td className='comparison-table__cell'>In SEPA, customers are entitled to a refund for authorised transactions
+              within 8 weeks.</td>
             </tr>
           </tbody>
         </table>
