@@ -1,5 +1,6 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
+import Link from '../../../../components/link/link';
 
 export default class FaqProDashboardSubscriptionCreationFr extends React.Component {
   displayName = 'FaqProDashboardSubscriptionCreationFr'

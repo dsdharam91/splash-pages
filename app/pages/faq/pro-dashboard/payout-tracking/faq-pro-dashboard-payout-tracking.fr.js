@@ -1,5 +1,6 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
+import Link from '../../../../components/link/link';
 
 export default class FaqProDashboardPayoutTrackingFr extends React.Component {
   displayName = 'FaqProDashboardPayoutTrackingFr'

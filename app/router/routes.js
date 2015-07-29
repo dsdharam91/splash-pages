@@ -665,7 +665,10 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqProDashboardPaymentRetry, { name: 'faq_pro_dashboard_payment_retry', category: 'faq.pro_dashboard' }, {
-      en: {
+      'en-IE': {
+        path: '/faq/pro-dashboard/payment-retry',
+      },
+      'en-EU': {
         path: '/faq/pro-dashboard/payment-retry',
       },
       fr: {
