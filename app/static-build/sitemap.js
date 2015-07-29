@@ -166,15 +166,14 @@ export class Sitemap {
    * @returns {Sitemap} A Sitemap object with imported timestamps from the old sitemap.
    */
   importTimestampsFromOldSitemap(oldSitemap) {
-    for (url in this.urlSet) {
-      if (url in oldSitemap.urlSet) {
-        let oldUrl = oldSitemap.urlSet[url];
-        let newUrl = this.urlSet[url];
-        if (oldUrl.hash === newUrl.hash) {
-          newUrl.lastMod = Math.min(newUrl.lastMod, oldUrl.lastMod);
-        }
-      }
-    }
+    Object.keys(this.urlSet)
+      .filter((pathName) => oldSitemap.urlSet[pathName])
+      .filter((pathName) => oldSitemap.urlSet[pathName].hash === this.urlSet[pathName].hash)
+      .forEach((pathName) => {
+        const oldUrl = oldSitemap.urlSet[pathName];
+        const newUrl = this.urlSet[pathName];
+        newUrl.lastMod = Math.min(newUrl.lastMod, oldUrl.lastMod);
+      });
     return this;
   }
 }
