@@ -9,37 +9,43 @@ export default class StoriesTheFrenchTalents extends React.Component {
   render() {
     return (
       <StoryPage
-        title='Has Bean Coffee'
-        tagline='Has Bean coffee improved cashflow by 30% by moving to Direct Debit with GoCardless'
+        title='The French Talents'
+        tagline='The French Talents a amélioré sa trésorerie de x % grâce à GoCardless'
         tips={[
-            'We helped them reduce average payment period by 34%',
-            'GoCardless helped them identify bad debtors in advance',
-            'GoCardless helped them improve cash flow by 30%',
+            'GoCardless les a aidé à réduire les délais de paiements de y %',
+            'GoCardless les a aidé à identifier les mauvais payeurs immédiatement',
+            'GoCardless leur a permis d\'éviter 15h de relance par semaine',
         ]}>
-        <StoryQuote tag='Customers paying invoices up to 4 months late drove us crazy'>
-          <p className='para u-margin-Tn'><a href='http://hasbean.co.uk' className='u-link-color-p u-text-underline' target='_blank'>
-          Has Bean Coffee</a> is a major supplier of high quality coffee to the retail and wholesale industries.
-          In an industry with lead times of up to a year, it is crucial for Has Bean to maintain strong cash flow.</p>
-          <p className='para'>With cafes often strapped for cash, "customers paying invoices up to four months late drove us crazy.
-          Our business was growing so fast and we were so busy that we would send out coffee to customers even with
-          long overdue invoices." Owner Steve Leighton was left with uncertain cash flow and numerous bad debtors.</p>
+        <StoryQuote tag='Les clients oubliaient de payer leur factures'>
+          <p className='para u-margin-Tn'><a href='http://www.thefrenchtalents.com/'
+          className='u-link-color-p u-text-underline' target='_blank'>
+          The French Talents</a> est un facilitateur e-commerce et permet à des marques clientes
+          de facilement se connecter à des sites ecommerce et développer leur notoriété en ligne.
+          Ces marques, des TPEs et artisans principalement, essaient de se faire découvrir et
+          dans le tumulte oublient souvent de payer leurs factures.</p>
+          <p className='para'>
+          "Nos clients nous envoyait des chèques et virements avec 30, 45, 70 jours en retard.
+          La vaste majorité sont de simples oublis, mais derrière nous avions une personne à mi-temps dédiée
+          aux relances de paiements en retard. De plus, le trou de trésorerie pesait sur notre croissance."
+          explique Martin Gentil, le directeur commercial et co-fondateur de French Talents.</p>
         </StoryQuote>
-        <StoryBigQuote heroClass='story-hero--has-bean-coffee' person='Steve Leighton'
-        position='Has Bean Coffee' img='/images/testimonials/hasbean-coffee__avatar.png'>
-          GoCardless gives us control over when we get paid and takes away the uncomfortable conversations about money.
+        <StoryBigQuote person='Martin Gentil' position='The French Talents'>
+          En finir avec les retards a aidé à beaucoup réduire le stress des équipes commerciales et administratives.
         </StoryBigQuote>
-        <StoryQuote tag='Now we can automatically take payment when issuing invoices'>
-          <p className='para u-margin-Tn'>Has Bean use GoCardless through accounting software, KashFlow. Now,
-          they can send out Direct Debit requests with invoices to all wholesale customers.
-          As soon as an invoice becomes due, they can automatically take payment from the customer.</p>
-          <p className='para'>As a bonus, the GoCardless integration with Kashflow means that these payments are
-          automatically reconciled in their accounts.</p>
+        <StoryQuote tag="Maintenant, nous demandons d'accepter un mandat dès l'inscription">
+          <p className='para u-margin-Tn'>The French Talents a connecté GoCardless à leur CRM et ERP Sellsy.
+          Résultat, un représentant commercial peut désormais ajouter un mandat de prélèvement lors de l'ajout
+          d'un nouveau client, qui sera ensuite automatiquement prélevé lorsqu'une facture arrive à échéance.</p>
+          <p className='para'>De plus, The French Talents reçoit automatiquement le statut des paiements et peut
+          réagir immédiatement en cas de rejet.</p>
         </StoryQuote>
-        <StoryQuote tag='We now have control over when we get paid'>
-          <p className='para u-margin-Tn'>Since making the switch, Has Bean’s average payment period has been reduced from
-          62 days to 41 and cash flow has improved by 30%.</p>
-          <p className='para'>Thanks to GoCardless, Has Bean are now in control of when they get paid.
-          This has vastly improved their cashflow and helped them “keep uncomfortable conversations about money to a minimum”.</p>
+        <StoryQuote tag='Nous pouvons nous concentrer sur les vrais problèmes'>
+          <p className='para u-margin-Tn'>Depuis le passage à GoCardless, The French Talents a pu réduire les
+          délais de paiements de Y1 jours à Y2 jours et notre trésorerie s'est amélioré de X%.</p>
+          <p className='para'>Avec GoCardless, The French Talents a pu reprendre le contrôle de leur trésorerie
+          et se concentrer sur l'essentiel. "Notre personne dédiée à mi-temps aux retards de paiements peut
+          désormais se concentrer sur des activités à plus forte valeur ajoutée. Pour ma part, je ne m'occupe plus
+          que de vrais problèmes, les mauvais payeurs, qui ressortent immédiatement."</p>
         </StoryQuote>
       </StoryPage>
     );

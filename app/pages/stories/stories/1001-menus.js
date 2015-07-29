@@ -12,9 +12,9 @@ export default class Stories1001Menus extends React.Component {
         title='1001 Menus'
         tagline='1001 Menus a augmenté son chiffre d’affaire de  €X en automatisant le prélèvement via GoCardless'
         tips={[
-            'Nous leur avons permis d\'économiser xh de gestion administrative par mois',
-            'Nous les avons aidé à réduire les impayés de x%, augmentant le chiffre d\'affaire de x',
-            'Nous les avons aidé à réaliser de la micro-facturation pour de nouvelles offres',
+            'GoCardless leur a permis d\'éviter xh de gestion administrative par mois',
+            'GoCardless les a aidé à réduire les impayés de x%, augmentant le chiffre d\'affaire de x',
+            'GoCardless les a aidé à réaliser de la micro-facturation pour de nouvelles offres',
         ]}>
         <StoryQuote tag='Le secteur des paiements est dominé par des logiciels complexes et archaïque'>
           <p className='para u-margin-Tn'>
