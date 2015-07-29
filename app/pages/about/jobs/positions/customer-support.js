@@ -12,27 +12,66 @@ export default class CustomerSupport extends React.Component {
           Go the extra mile to delight our customers.
         </p>
         <p className='para'>
-          GoCardless provides simple Direct Debit to thousands of small and
-          medium-sized businesses. We pride ourselves on listening to our users
-          and doing everything we can to solve their problems and to keep
-          them happy. We're looking for enthusiastic, empathic people to join
-          our friendly support team and provide first-rate support and guidance
-          to our users.
+          GoCardless is growing fast. We've built a world-class product that
+          simplifies Direct Debit and opens it up to small and medium-sized
+          businesses across the UK and beyond, and we have recently extended
+          our offering to multinational companies like the Guardian, TripAdvisor
+          and Box. Thousands of businesses in the UK already rely on us to
+          handle their payments, and hundreds more join us every week. About a
+          third of these never previously had access to Direct Debit, so we
+          are transforming the way they do business.
         </p>
         <p className='para'>
-          Every day, you'll be answering calls and emails from our merchants
-          and from customers using GoCardless to pay. You'll listen to our
-          users, help them with problems and go the extra mile to ensure
-          they're happy. You'll make sure our emails are always accurate and
-          helpful, and you'll assist new merchants with verifying their accounts
-          and getting set up with GoCardless. As well as that, you'll
-          represent the customer's voice and help inform our product roadmap.
+          We're looking for a bright, enthusiastic problem-solver to join our
+          team and provide legendary customer service.
+        </p>
+        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>
+          The role
+        </h4>
+        <p className='para'>
+          Every day you’ll be listening to our customers, answering their
+          questions and reassuring them that their payments are in safe hands,
+          so that they can focus on what matters most: their business.
         </p>
         <p className='para'>
-          You'll work as part of a close-knit team who help each other to solve
-          the tough problems and provide legendary service. We run regular
-          internal training sessions to ensure the whole team understand the
-          complexities of the product and the implications of any new features.
+          We’ll help you become an expert in the complexity of our product and
+          learn the multiple ways it can be used. You’ll tailor your approach
+          and the level of information you give depending on what the individual
+          user needs to know. You’ll be empowered to actually address their
+          concerns and you’ll be responsible for following through until they are
+          satisfied. You will join our friendly, tight-knit team and work together
+          to find creative solutions to even the toughest problems. Ultimately,
+          we want every customer to hang up happy.
+        </p>
+        <p className='para'>
+          A typical day will include:
+        </p>
+        <ul className='list'>
+          <li>answering calls and emails from our customers</li>
+          <li>using our sophisticated in-house risk analysis systems to protect
+            our users</li>
+          <li>running verification checks on new user accounts</li>
+          <li>talking to new users to help them get the most from our product</li>
+          <li>working with our product team to prioritise feature requests</li>
+        </ul>
+        <p className='para'>
+          You’ll also be involved in improving our internal support tools and
+          processes. We believe that technology should make us more effective,
+          so we build a lot of our tools in-house and regularly update them. As
+          our product is constantly evolving and new features are built, our
+          internal admin dashboard needs regular revisiting. As we learn more
+          about our growing customer base we can optimise our risk analysis
+          algorithms. We create new processes to help us get more done, such
+          as new email templates for common queries.
+        </p>
+        <p className='para'>
+          We care deeply about our customers’ experience and act with their best
+          interests at heart: we take responsibility for their problems and we
+          know that there is always something we can do to help, however long
+          it takes. You’ll know our customers best, and provide valuable input to
+          others across the company &ndash; from working with the engineering
+          team to get bugs fixed, to helping our sales team understand what our
+          current users love.
         </p>
         <p className='para'>
           We've built a friendly, collaborative culture where we hire and develop
@@ -40,22 +79,23 @@ export default class CustomerSupport extends React.Component {
           of. We value learning and feedback, and are devoted to encouraging and
           supporting each other's professional growth.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>You should apply if:</h4>
+        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
         <ul className='list u-margin-Tm'>
           <li>
-            You love helping people
+            You love helping people and you are interested in technology
           </li>
           <li>
-            You're organised and diligent
+            You're a quick learner, able to digest complex information and distill
+            it into clear answers
           </li>
           <li>
-            You thrive in small teams
+            You're organised, diligent and attentive to detail
           </li>
           <li>
-            You have a flawless command of English and great attention to detail
+            You thrive in small teams and love collaborating
           </li>
           <li>
-            You have a strong work ethic
+            You have a flawless command of English
           </li>
         </ul>
         <a href='http://boards.greenhouse.io/gocardless/jobs/20916' className='btn u-margin-Vs'>
