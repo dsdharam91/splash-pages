@@ -657,7 +657,7 @@ export const config = Immutable.fromJS([
     },
   ],
   [Stories, { name: 'stories' }, {
-      en: {
+      'en-GB': {
         path: '/stories',
       },
       fr: {
@@ -715,13 +715,13 @@ export const config = Immutable.fromJS([
   ],
   [Stories1001Menus, { name: 'stories_1001_menus', category: 'stories' }, {
       fr: {
-        path: '/stories/1001-menus',
+        path: '/references/1001-menus',
       },
     },
   ],
   [StoriesTheFrenchTalents, { name: 'stories_the_french_talents', category: 'stories' }, {
       fr: {
-        path: '/stories/the-french-talents',
+        path: '/references/the-french-talents',
       },
     },
   ],
