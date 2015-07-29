@@ -168,6 +168,11 @@ export default {
     nav_title: 'Suivi de vos paiements',
     description: '',
   },
+  faq_pro_dashboard_payment_retry: {
+    title: 'FAQ - Représentation de paiements',
+    nav_title: 'Représentation de paiements',
+    description: '',
+  },
   faq_pro_dashboard_payout_tracking: {
     title: 'FAQ - Suivi de vos encaissements',
     nav_title: 'Suivi de vos encaissements',

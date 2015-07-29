@@ -77,6 +77,7 @@ import FaqProDashboardPaymentCreation from '../pages/faq/pro-dashboard/payment-c
 import FaqProDashboardSubscriptionCreation from '../pages/faq/pro-dashboard/subscription-creation/faq-pro-dashboard-subscription-creation';
 import FaqProDashboardPaymentRefund from '../pages/faq/pro-dashboard/payment-refund/faq-pro-dashboard-payment-refund';
 import FaqProDashboardPaymentTracking from '../pages/faq/pro-dashboard/payment-tracking/faq-pro-dashboard-payment-tracking';
+import FaqProDashboardPaymentRetry from '../pages/faq/pro-dashboard/payment-retry/faq-pro-dashboard-payment-retry';
 import FaqProDashboardPayoutTracking from '../pages/faq/pro-dashboard/payout-tracking/faq-pro-dashboard-payout-tracking';
 
 import Stories from '../pages/stories/stories';
@@ -639,6 +640,15 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/faq/tableau-de-bord-pro/suivi-paiements',
+      },
+    },
+  ],
+  [FaqProDashboardPaymentRetry, { name: 'faq_pro_dashboard_payment_retry', category: 'faq.pro_dashboard' }, {
+      en: {
+        path: '/faq/pro-dashboard/payment-retry',
+      },
+      fr: {
+        path: '/faq/tableau-de-bord-pro/representation-paiements',
       },
     },
   ],

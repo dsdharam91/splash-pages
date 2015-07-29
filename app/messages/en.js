@@ -219,6 +219,11 @@ export default {
     nav_title: 'Payment tracking',
     description: '',
   },
+  faq_pro_dashboard_payment_retry: {
+    title: 'FAQ - Payment retry',
+    nav_title: 'Payment retry',
+    description: '',
+  },
   faq_pro_dashboard_payout_tracking: {
     title: 'FAQ - Payout tracking',
     nav_title: 'Payout tracking',
