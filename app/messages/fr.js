@@ -133,7 +133,7 @@ export default {
   },
   faq_pro_dashboard: {
     faq_title: 'Tutoriels',
-    title: 'Utiliser le tableau de bord de GoCardless',
+    title: 'Guide étape par étape du tableau de bord de GoCardless',
     nav_title: 'Mise en place',
     link_title: 'Tutoriel',
     description: '',

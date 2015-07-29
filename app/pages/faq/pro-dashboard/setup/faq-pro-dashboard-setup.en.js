@@ -12,8 +12,13 @@ export default class FaqProDashboardEn extends React.Component {
       <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Setup</h2>
         <p className='para'>
-          With the <a href='https://manage.gocardless.com/' className='u-link-color-p u-text-underline'>GoCardless dashboard</a>,
-          you can manage Direct Debit mandates and take recurring payments without any technical integration.
+          <IfLocale hasInstantSignup>
+            With the <a href='https://manage.gocardless.com/' className='u-link-color-p u-text-underline'>GoCardless dashboard</a>,
+            you can manage Direct Debit mandates and take recurring payments without any technical integration.
+          </IfLocale>
+          <IfLocale hasInstantSignup={false}>
+            With the GoCardless dashboard you can manage Direct Debit mandates and take recurring payments without any technical integration.
+          </IfLocale>
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>

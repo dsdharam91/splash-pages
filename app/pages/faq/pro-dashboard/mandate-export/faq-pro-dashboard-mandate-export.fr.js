@@ -9,7 +9,8 @@ export default class FaqProDashboardMandateExportFr extends React.Component {
       <Translation locales='fr'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Exporter un mandat</h2>
         <p className='para'>
-          Vous pouvez exporter vos mandats en format PDF, par exemple pour les envoyer à vos clients.
+          Depuis votre section Customers, vous pouvez exporter vos mandats en format PDF. Ceci peut être utile pour envoyer une
+          copie de leur mandat à vos clients.
         </p>
         <p className='para'>
           Sélectionnez le client dont vous voulez exporter le mandat, puis cliquez sur son mandat :
