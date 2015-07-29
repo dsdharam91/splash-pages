@@ -63,12 +63,13 @@ export default class AccountExecutive extends React.Component {
         </ul>
         <p className='para'>
           Our current team come from a variety of backgrounds: straight out of
-          university, consulting and startups. To find out more about what we
-          look for when hiring, and how we train new hires, visit
-          <a href='https://gocardless.com/blog/how-we-train-salespeople/'> our
-          blog</a>, and don't miss our latest
-          <a href='https://gocardless.com/blog/the-account-executive-interview-process/'> post </a>
-           on what you can expect during the interview process.
+          university, consulting and startups. We welcome a wide diversity of
+          candidates - if you're unsure, please apply. To help you, we've written a
+          <a href='https://gocardless.com/blog/the-account-executive-interview-process/' target='_blank'> blog post </a>
+          which takes you through our interview process and gives you some
+          tips on what to expect, and you can also read about the training
+          you'll be getting in your first month <a href='https://gocardless.com/blog/how-we-train-salespeople/' target='_blank'>
+          here</a>.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/37249' className='btn u-margin-Vs'>
           Apply now
