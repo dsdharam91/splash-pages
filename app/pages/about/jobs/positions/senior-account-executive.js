@@ -1,13 +1,13 @@
 import React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class SeniorSales extends React.Component {
-  displayName = 'SeniorSales'
+export default class SeniorAccountExecutive extends React.Component {
+  displayName = 'SeniorAccountExecutive'
 
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Senior Sales Executive</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-heading'>Senior Account Executive</h3>
         <p className='para'>
           Close our biggest deals and accelerate our growth.
         </p>

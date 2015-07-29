@@ -366,8 +366,8 @@ export default {
     title: 'Sweden',
     description: '',
   },
-  jobs_senior_sales: {
-    title: 'Senior Sales Executive',
+  jobs_senior_account_executive: {
+    title: 'Senior Account Executive',
     description: '',
   },
   jobs_account_executive: {

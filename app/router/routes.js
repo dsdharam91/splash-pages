@@ -18,7 +18,7 @@ import Team from '../pages/about/team/team';
 
 import Jobs from '../pages/about/jobs/jobs';
 import AccountExecutive from '../pages/about/jobs/positions/account-executive';
-import SeniorSales from '../pages/about/jobs/positions/senior-sales';
+import SeniorAccountExecutive from '../pages/about/jobs/positions/senior-account-executive';
 import ProductEngineer from '../pages/about/jobs/positions/product-engineer';
 import DeveloperCommunityManager from '../pages/about/jobs/positions/developer-community-manager';
 import EngineeringInterships from '../pages/about/jobs/positions/engineering-internships';
@@ -288,9 +288,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [SeniorSales, { name: 'jobs_senior_sales', category: 'jobs.sales' }, {
+  [SeniorAccountExecutive, { name: 'jobs_senior_account_executive', category: 'jobs.sales' }, {
       en: {
-        path: '/about/jobs/senior-sales',
+        path: '/about/jobs/senior-account-executive',
       },
     },
   ],
