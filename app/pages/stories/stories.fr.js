@@ -1,7 +1,6 @@
 import React from 'react';
 import Translation from '../../components/translation/translation';
 import Tabs from '../../components/tabs/tabs';
-import Page from '../../components/page/page';
 import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
 import Link from '../../components/link/link';
 
