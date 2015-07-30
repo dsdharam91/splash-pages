@@ -37,7 +37,7 @@ export default class FaqProDashboardPaymentRetryEn extends React.Component {
           Please find below a full list of the payment failure causes and what they mean.
         </p>
 
-        <table className='u-size-full'>
+        <table className='table table--faq u-color-heading'>
           <thead>
             <tr>
               <th className='u-padding-Am'>
@@ -49,42 +49,42 @@ export default class FaqProDashboardPaymentRetryEn extends React.Component {
             </tr>
           </thead>
           <tbody>
-            <tr className='comparison-table__row'>
-              <td className='comparison-table__cell'>Insufficient funds</td>
-              <td className='comparison-table__cell'>The customer did not have funds available to make the payment.</td>
+            <tr>
+              <td>Insufficient funds</td>
+              <td>The customer did not have funds available to make the payment.</td>
             </tr>
-            <tr className='comparison-table__row'>
-              <td className='comparison-table__cell'>Refer to payer</td>
-              <td className='comparison-table__cell'>This is often used by banks to obfuscate the failure cause: quite commonly
+            <tr>
+              <td>Refer to payer</td>
+              <td>This is often used by banks to obfuscate the failure cause: quite commonly
               indicates insufficient funds.</td>
             </tr>
-            <tr className='comparison-table__row'>
-              <td className='comparison-table__cell'>Bank account closed</td>
-              <td className='comparison-table__cell'>The customer's bank account was closed before the payment could be taken.
+            <tr>
+              <td>Bank account closed</td>
+              <td>The customer's bank account was closed before the payment could be taken.
               The mandate will be cancelled.</td>
             </tr>
-            <tr className='comparison-table__row'>
-              <td className='comparison-table__cell'>Direct Debit not enabled</td>
-              <td className='comparison-table__cell'>The customer's bank account does not allows direct debit payments.
+            <tr>
+              <td>Direct Debit not enabled</td>
+              <td>The customer's bank account does not allows direct debit payments.
               The mandate will be cancelled.</td>
             </tr>
-            <tr className='comparison-table__row'>
-              <td className='comparison-table__cell'>Invalid bank details</td>
-              <td className='comparison-table__cell'>The bank account details used to set up the mandate for this payment were incorrect.
+            <tr>
+              <td>Invalid bank details</td>
+              <td>The bank account details used to set up the mandate for this payment were incorrect.
               The mandate will be cancelled.</td>
             </tr>
-            <tr className='comparison-table__row'>
-              <td className='comparison-table__cell'>Mandate cancelled</td>
-              <td className='comparison-table__cell'>Either you cancelled the mandate or the client cancelled it at their bank.</td>
+            <tr>
+              <td>Mandate cancelled</td>
+              <td>Either you cancelled the mandate or the client cancelled it at their bank.</td>
             </tr>
-            <tr className='comparison-table__row'>
-              <td className='comparison-table__cell'>Authorisation disputed</td>
-              <td className='comparison-table__cell'>In SEPA, customers are entitled to a refund of payments they did not authorise
+            <tr>
+              <td>Authorisation disputed</td>
+              <td>In SEPA, customers are entitled to a refund of payments they did not authorise
               within 13 months.</td>
             </tr>
-            <tr className='comparison-table__row'>
-              <td className='comparison-table__cell'>Refund requested</td>
-              <td className='comparison-table__cell'>In SEPA, customers are entitled to a refund for authorised transactions
+            <tr>
+              <td>Refund requested</td>
+              <td>In SEPA, customers are entitled to a refund for authorised transactions
               within 8 weeks.</td>
             </tr>
           </tbody>
