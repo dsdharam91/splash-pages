@@ -41,10 +41,10 @@ export default class FaqProDashboardPaymentRetryFr extends React.Component {
         <table className='table table--faq u-color-heading'>
           <thead>
             <tr>
-              <th className='u-padding-Am'>
+              <th>
                 Echec de paiement
               </th>
-              <th className='u-padding-Am'>
+              <th>
                 Explication
               </th>
             </tr>
