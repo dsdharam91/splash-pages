@@ -13,28 +13,28 @@ export default class FaqProDashboardPaymentRetryEn extends React.Component {
         </p>
         <ul className='list'>
           <li>
-            <strong>The payment fails and can be retried</strong>: this is the case mainly for the following causes: insufficient funds
-            and refer to payer
+            <strong>The payment has failed and can be retried</strong>: this normally happens when there is insufficient funds in your
+            customer's bank account or when a "refer to payer" error was received.
           </li>
           <li>
-            <strong>The payment fails as well as the mandate</strong>: you should contact your customer to setup a new mandate
+            <strong>The payment has failed along with the mandate</strong>: you should contact the customer to set up a new mandate.
           </li>
           <li>
-            <strong>The payment is disputed</strong>: you should contact the customer to understand why they contested and only create
-            a new payment once this is clarified
+            <strong>The payment has been disputed by the customer</strong>: you should contact the customer to understand why they
+            contested. You should only create a new payment once the dispute is resolved.
           </li>
         </ul>
 
         <p className='para'>
-          When possible, you can <strong>retry the payment</strong> by clicking "Retry". We will resubmit your payment to the banks
-          straight away. You can see the new charge date as well as follow the status of the payment in the same history as your initial
-          payment.
+          Where it's possible to retry a payment, you'll see a "Retry" button in the top-right corner of the payment status page. If you
+          click this button, we'll re-submit your payment immediately. You'll see a new charge date and you can follow the status of the
+          retried payment in the payment timeline.
         </p>
 
         <img src='/images/faq/en/payment-retry.png' />
 
         <p className='para'>
-          Please find below a full list of the payment failure causes and what they mean.
+          The following table shows a list of possible payment failure errors and an explanation for what the error message means:
         </p>
 
         <table className='table table--faq u-color-heading'>
@@ -51,22 +51,22 @@ export default class FaqProDashboardPaymentRetryEn extends React.Component {
           <tbody>
             <tr>
               <td>Insufficient funds</td>
-              <td>The customer did not have funds available to make the payment.</td>
+              <td>Your customer's bank account had insufficient funds available on the payment date.</td>
             </tr>
             <tr>
               <td>Refer to payer</td>
-              <td>This is often used by banks to obfuscate the failure cause: quite commonly
-              indicates insufficient funds.</td>
+              <td>The 'refer to payer' error is often used by the banks when no clear reason is given for the failure.
+              Quite commonly, it means insufficient funds.</td>
             </tr>
             <tr>
               <td>Bank account closed</td>
               <td>The customer's bank account was closed before the payment could be taken.
-              The mandate will be cancelled.</td>
+              The mandate and all future payments will be cancelled.</td>
             </tr>
             <tr>
               <td>Direct Debit not enabled</td>
-              <td>The customer's bank account does not allows direct debit payments.
-              The mandate will be cancelled.</td>
+              <td>The customer's bank account does not allows Direct Debit payments to be taken.
+              The mandate and all future payments will be cancelled.</td>
             </tr>
             <tr>
               <td>Invalid bank details</td>
@@ -75,17 +75,17 @@ export default class FaqProDashboardPaymentRetryEn extends React.Component {
             </tr>
             <tr>
               <td>Mandate cancelled</td>
-              <td>Either you cancelled the mandate or the client cancelled it at their bank.</td>
+              <td>Either you or the customer has cancelled the mandate. The customer may have cancelled the mandate at their bank.</td>
             </tr>
             <tr>
               <td>Authorisation disputed</td>
-              <td>In SEPA, customers are entitled to a refund of payments they did not authorise
-              within 13 months.</td>
+              <td>In the SEPA Direct Debit scheme, customers are entitled to a refund for any payments they did not authorise.
+              They have 13 months from the date of the payment to claim a refund.</td>
             </tr>
             <tr>
               <td>Refund requested</td>
-              <td>In SEPA, customers are entitled to a refund for authorised transactions
-              within 8 weeks.</td>
+              <td>In the SEPA Direct Debit scheme, customers have an 8-week window where they're able to get a refund for authorised
+              transactions.</td>
             </tr>
           </tbody>
         </table>

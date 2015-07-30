@@ -17,7 +17,8 @@ export default class FaqProDashboardEn extends React.Component {
             you can manage Direct Debit mandates and take recurring payments without any technical integration.
           </IfLocale>
           <IfLocale hasInstantSignup={false}>
-            With the GoCardless dashboard you can manage Direct Debit mandates and take recurring payments without any technical integration.
+            With the GoCardless dashboard you can manage Direct Debit mandates and take recurring payments without any technical
+            integration.
           </IfLocale>
         </p>
 
