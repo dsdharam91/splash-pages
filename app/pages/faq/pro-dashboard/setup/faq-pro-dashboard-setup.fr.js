@@ -12,9 +12,17 @@ export default class FaqProDashboardFr extends React.Component {
       <Translation locales='fr'>
         <h2 className='u-text-heading-light u-text-m u-color-heading'>Mise en place</h2>
         <p className='para'>
-          GoCardless vous permet d’obtenir des mandats de prélèvement SEPA et de prendre vos
-          paiement récurrents sans la moindre intégration technique, directement à partir
-          de notre tableau de bord en ligne.
+          <IfLocale hasInstantSignup>
+            GoCardless vous permet d’obtenir des mandats de prélèvement SEPA et de prendre vos
+            paiement récurrents sans la moindre intégration technique, directement à partir
+            de notre <a href='https://manage.gocardless.com/'
+            className='u-link-color-p u-text-underline'>tableau de bord en ligne</a>.
+          </IfLocale>
+          <IfLocale hasInstantSignup={false}>
+            GoCardless vous permet d’obtenir des mandats de prélèvement SEPA et de prendre vos
+            paiement récurrents sans la moindre intégration technique, directement à partir
+            de notre tableau de bord en ligne.
+          </IfLocale>
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
@@ -22,25 +30,23 @@ export default class FaqProDashboardFr extends React.Component {
         </h3>
         <IfLocale hasInstantSignup>
           <p className='para'>
-            Vous pouvez <Href to='signup.path' target='_blank'>
-            créer un compte GoCardless
-            </Href> et commencer à prendre des prélèvements instantanément.
-              Il vous suffira d'ajouter les documents authentifiant votre identité pour que nous vous reversions les fonds.
+            Vous pouvez <Href to='signup.path' className='u-link-color-p u-text-underline'>
+            créer un compte GoCardless</Href> et commencer à prendre des prélèvements instantanément.
+            Il vous suffira d'ajouter les documents authentifiant votre identité pour que nous vous reversions les fonds.
           </p>
         </IfLocale>
         <IfLocale hasInstantSignup={false}>
           <p className='para'>
             Vous pouvez <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'
-            className='u-link-color-p u-text-underline'>créer un compte test</a> gratuitement. Afin de faciliter
-            votre usage, tous les liens dans ce document redirigent directement vers votre compte test.
+            className='u-link-color-p u-text-underline'>créer un compte test</a> gratuitement.
           </p>
           <p className='para'>
-            Afin de prélever des paiements réels, il suffit d'envoyer à <Href to='email' /> les
-            documents suivants :
+            Afin de prélever des paiements réels, il suffit d'envoyer à <Href to='email'
+            className='u-link-color-p u-text-underline'/> les documents suivants :
           </p>
           <ul className='list'>
-            <li>Confirmer que vous avez lu et accepté nos
-            <Link to='legal_merchants'> Conditions Générales d'Utilisation</Link></li>
+            <li>Confirmer que vous avez lu et accepté nos <Link to='legal_merchants'
+            className='u-link-color-p u-text-underline'>Conditions Générales d'Utilisation</Link></li>
             <li>Envoyer un RIB au nom de votre société</li>
             <li>Envoyer une copie de la carte d’identité ou du passeport de votre gérant et de chaque individu
             qui détient plus de 25% du capital de votre société</li>
@@ -56,15 +62,15 @@ export default class FaqProDashboardFr extends React.Component {
         </IfLocale>
         <p className='para'>
           Si vous souhaitez migrer des clients avec lesquels vous avez déjà un mandat de prélèvement bancaire,
-          veuillez nous contacter à <Href to='email' />.
+          veuillez nous contacter à <Href to='email' className='u-link-color-p u-text-underline' />.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Préparation du compte
         </h3>
         <p className='para'>
-          Vous pouvez personnaliser votre compte dans <a href='https://manage-sandbox.gocardless.com/organisation/creditors'
-          target='_blank' className='u-link-color-p u-text-underline'>notre section Creditors</a> :
+          Vous pouvez personnaliser votre compte dans la <a href='https://manage.gocardless.com/settings/company'
+          target='_blank' className='u-link-color-p u-text-underline'>section Company Info</a> :
         </p>
         <ul className='list'>
           <li>Ajouter un logo qui sera utilisé sur votre page de mandat</li>

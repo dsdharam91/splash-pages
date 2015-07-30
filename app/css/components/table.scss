@@ -9,3 +9,12 @@
   vertical-align: middle;
   float: none;
 }
+
+.table--faq tr {
+  border-bottom: 1px solid $gray;
+}
+
+.table--faq td,
+.table--faq th {
+  padding: $space-small 0;
+}

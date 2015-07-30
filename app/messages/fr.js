@@ -135,7 +135,7 @@ export default {
   },
   faq_pro_dashboard: {
     faq_title: 'Tutoriels',
-    title: 'Utiliser le tableau de bord de GoCardless',
+    title: 'Guide étape par étape du tableau de bord de GoCardless',
     nav_title: 'Mise en place',
     link_title: 'Tutoriel',
     description: '',
@@ -168,6 +168,11 @@ export default {
   faq_pro_dashboard_payment_tracking: {
     title: 'FAQ - Suivi de vos paiements',
     nav_title: 'Suivi de vos paiements',
+    description: '',
+  },
+  faq_pro_dashboard_payment_retry: {
+    title: 'FAQ - Représentation de paiements',
+    nav_title: 'Représentation de paiements',
     description: '',
   },
   faq_pro_dashboard_payout_tracking: {

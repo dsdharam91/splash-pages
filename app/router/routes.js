@@ -77,6 +77,7 @@ import FaqProDashboardPaymentCreation from '../pages/faq/pro-dashboard/payment-c
 import FaqProDashboardSubscriptionCreation from '../pages/faq/pro-dashboard/subscription-creation/faq-pro-dashboard-subscription-creation';
 import FaqProDashboardPaymentRefund from '../pages/faq/pro-dashboard/payment-refund/faq-pro-dashboard-payment-refund';
 import FaqProDashboardPaymentTracking from '../pages/faq/pro-dashboard/payment-tracking/faq-pro-dashboard-payment-tracking';
+import FaqProDashboardPaymentRetry from '../pages/faq/pro-dashboard/payment-retry/faq-pro-dashboard-payment-retry';
 import FaqProDashboardPayoutTracking from '../pages/faq/pro-dashboard/payout-tracking/faq-pro-dashboard-payout-tracking';
 
 import Stories from '../pages/stories/stories';
@@ -607,48 +608,108 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqProDashboard, { name: 'faq_pro_dashboard', category: 'faq.pro_dashboard' }, {
+      'en-IE': {
+        path: '/faq/pro-dashboard',
+      },
+      'en-EU': {
+        path: '/faq/pro-dashboard',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro',
       },
     },
   ],
   [FaqProDashboardMandateCreation, { name: 'faq_pro_dashboard_mandate_creation', category: 'faq.pro_dashboard' }, {
+      'en-IE': {
+        path: '/faq/pro-dashboard/mandate-creation',
+      },
+      'en-EU': {
+        path: '/faq/pro-dashboard/mandate-creation',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-mandat',
       },
     },
   ],
   [FaqProDashboardMandateExport, { name: 'faq_pro_dashboard_mandate_export', category: 'faq.pro_dashboard' }, {
+      'en-IE': {
+        path: '/faq/pro-dashboard/mandate-export',
+      },
+      'en-EU': {
+        path: '/faq/pro-dashboard/mandate-export',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/export-mandat',
       },
     },
   ],
   [FaqProDashboardPaymentCreation, { name: 'faq_pro_dashboard_payment_creation', category: 'faq.pro_dashboard' }, {
+      'en-IE': {
+        path: '/faq/pro-dashboard/payment-creation',
+      },
+      'en-EU': {
+        path: '/faq/pro-dashboard/payment-creation',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-paiement',
       },
     },
   ],
   [FaqProDashboardSubscriptionCreation, { name: 'faq_pro_dashboard_subscription_creation', category: 'faq.pro_dashboard' }, {
+      'en-IE': {
+        path: '/faq/pro-dashboard/subscription-creation',
+      },
+      'en-EU': {
+        path: '/faq/pro-dashboard/subscription-creation',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-abonnement',
       },
     },
   ],
-  [FaqProDashboardPaymentRefund, { name: 'faq_pro_dashboard_payment_refund', category: 'faq.pro_dashboard' }, {
-      fr: {
-        path: '/faq/tableau-de-bord-pro/remboursement-paiement',
-      },
-    },
-  ],
   [FaqProDashboardPaymentTracking, { name: 'faq_pro_dashboard_payment_tracking', category: 'faq.pro_dashboard' }, {
+      'en-IE': {
+        path: '/faq/pro-dashboard/payment-tracking',
+      },
+      'en-EU': {
+        path: '/faq/pro-dashboard/payment-tracking',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/suivi-paiements',
       },
     },
   ],
+  [FaqProDashboardPaymentRefund, { name: 'faq_pro_dashboard_payment_refund', category: 'faq.pro_dashboard' }, {
+      'en-IE': {
+        path: '/faq/pro-dashboard/payment-refund',
+      },
+      'en-EU': {
+        path: '/faq/pro-dashboard/payment-refund',
+      },
+      fr: {
+        path: '/faq/tableau-de-bord-pro/remboursement-paiement',
+      },
+    },
+  ],
+  [FaqProDashboardPaymentRetry, { name: 'faq_pro_dashboard_payment_retry', category: 'faq.pro_dashboard' }, {
+      'en-IE': {
+        path: '/faq/pro-dashboard/payment-retry',
+      },
+      'en-EU': {
+        path: '/faq/pro-dashboard/payment-retry',
+      },
+      fr: {
+        path: '/faq/tableau-de-bord-pro/representation-paiements',
+      },
+    },
+  ],
   [FaqProDashboardPayoutTracking, { name: 'faq_pro_dashboard_payout_tracking', category: 'faq.pro_dashboard' }, {
+      'en-IE': {
+        path: '/faq/pro-dashboard/payout-tracking',
+      },
+      'en-EU': {
+        path: '/faq/pro-dashboard/payout-tracking',
+      },
       fr: {
         path: '/faq/tableau-de-bord-pro/suivi-encaissements',
       },
