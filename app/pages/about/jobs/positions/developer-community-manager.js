@@ -25,7 +25,7 @@ export default class DeveloperCommunityManager extends React.Component {
           open sourced some of the work we are most proud of, like
           our <a href='https://github.com/gocardless/angularjs-style-guide'>
             AngularJS style guide
-          </a> and <a href='https://github.com/gocardless/http-api-design'>HTTP API Design Guidelines</a>,
+          </a> and <a href='https://gocardless.com/blog/coach'>Coach</a>,
           but there's more we can share. You'll coordinate
           our <a href='https://gocardless.com/blog/tagged/engineering'>
           blog posts</a> and make sure we open-source everything we say we will.
@@ -35,8 +35,8 @@ export default class DeveloperCommunityManager extends React.Component {
           by <a href='https://www.womenwhocode.com/networks/london'>Women Who Code</a>
           , <a href='http://trans-code.org/'>Trans*code</a>,
           and <a href='https://www.youtube.com/watch?v=C7lnm1-ZYk4'>Imperial's Computing Society</a>.
-          In the last few weeks we've hosted meet-ups for LNUG, Docker, OpenTechSchool and
-          Codebar. You'll take over these relationships, make sure we're involved with
+          In the last few weeks we've hosted meet-ups for Codebar, Docker, OpenTechSchool and
+          Code First: Girls. You'll take over these relationships, make sure we're involved with
           relevant groups, and that we're having a positive impact on the tech community.
         </p>
         <p className='para'>
@@ -70,10 +70,10 @@ export default class DeveloperCommunityManager extends React.Component {
         <p className='para'>You enjoy building strong relationships. You're enthusiastic,
           friendly and an excellent communicator.
         </p>
-        <p className='para'>You have some experience writing or tinkering with code,
-          and ideally have worked in an engineering-focussed company.
+        <p className='para'>You have some experience tinkering with code,
+          and want to learn more.
         </p>
-        <p className='para'>You actively participate in the tech community. You're
+        <p className='para'>You participate in the tech community: you're
           familiar with the landscape, you've attended a few meetups or hackdays, and
           you love technology.
         </p>
