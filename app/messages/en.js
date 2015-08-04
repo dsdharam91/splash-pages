@@ -433,10 +433,6 @@ export default {
     title: 'Content & Community Manager',
     description: '',
   },
-  jobs_in_house_lawyer: {
-    title: 'In-House Lawyer',
-    description: '',
-  },
   jobs_customer_support: {
     title: 'Customer Support',
     description: '',

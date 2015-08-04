@@ -35,7 +35,6 @@ import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer';
 import CustomerRelationshipMarketer from '../pages/about/jobs/positions/customer-relationship-marketer';
 import ContentCommunityManager from '../pages/about/jobs/positions/content-community-manager';
-import InHouseLawyer from '../pages/about/jobs/positions/in-house-lawyer';
 
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
@@ -316,12 +315,6 @@ export const config = Immutable.fromJS([
   [ContentCommunityManager, { name: 'jobs_content_community_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/content-community-manager',
-      },
-    },
-  ],
-  [InHouseLawyer, { name: 'jobs_in_house_lawyer', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/in-house-lawyer',
       },
     },
   ],
