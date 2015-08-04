@@ -17,6 +17,7 @@
     "jasmine": true,
     "afterEach": true,
     "spyOn": true,
+    "protractor": true
   },
   "plugins": [
     "react"
