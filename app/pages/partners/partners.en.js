@@ -219,6 +219,24 @@ export default class PartnersEn extends React.Component {
           </div>
         </div>
         <hr className='u-margin-An' />
+        <div className='u-padding-Txxl'>
+          <div className='site-container u-padding-Txl'>
+            <div className='grid__cell u-size-1of2 partners-page__billing-text'>
+              <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bl'>
+                Billing software
+              </h2>
+              <p className='u-text-s u-color-p u-margin-Bl'>
+                Zuora chose GoCardless as their preferred Direct Debit provider, enabling their clients to collect payments globally.
+              </p>
+              <img src='/images/partners/zuora-logo@2x.png' className='partners-page__partner-logo' />
+            </div>
+            <div className='grid__cell u-size-1of2 partners-page__illustration u-text-center'>
+              <img src='/images/partners/pay-via-mobile-illustration@2x.png'
+              className='partners-page__mobile-image'/>
+            </div>
+          </div>
+        </div>
+        <hr className='u-margin-An' />
         <div className='u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
