@@ -10,10 +10,10 @@ export default class Stories1001Menus extends React.Component {
     return (
       <StoryPage
         title='1001 Menus'
-        tagline='1001 Menus a augmenté son chiffre d’affaire de  €X en automatisant le prélèvement via GoCardless'
+        tagline='1001 Menus a augmenté son chiffre d’affaire de 90.000 € en automatisant le prélèvement via GoCardless'
         tips={[
-            'GoCardless leur a permis d\'éviter xh de gestion administrative par mois',
-            'GoCardless les a aidé à réduire les impayés de x%, augmentant le chiffre d\'affaire de x',
+            'GoCardless leur a permis d\'éviter 20 heures de gestion administrative par mois',
+            'GoCardless les a aidé à réduire les impayés de 50 %, augmentant le chiffre d\'affaire de 90.000 €',
             'GoCardless les a aidé à réaliser de la micro-facturation pour de nouvelles offres',
         ]}>
         <StoryQuote tag='Le secteur des paiements est dominé par des logiciels complexes et archaïque'>
@@ -50,14 +50,15 @@ export default class Stories1001Menus extends React.Component {
             1001Menus peut désormais gérer tous les mandats dans Zuora et déclencher les prélèvements
             lorsque les factures viennent à échéance automatiquement. Mieux, le statut des paiements
             avec motifs est automatiquement fourni dans Zuora, ce qui permet à 1001 Menus de relancer un client ou
-            de retenter un échec de paiement automatiquement. Cet automatisation a permis de diminuer
-            le taux d'impayé a diminué de <strong>x%</strong> et de faire gagner <strong>x h</strong> par mois
+            de retenter un échec de paiement automatiquement. Cette automatisation a permis de diminuer
+            le taux d'impayé a diminué de <strong>50%</strong> et de faire gagner <strong>20 heures</strong> par mois
             en temps administratif.
           </p>
           <p className='para'>
             Grâce à GoCardless, 1001 Menus a pu s'attaquer à de nouvelles opportunités de croissance:
             "La facilité d'établir et d'émettre des prélèvements a ouvert de nouvelles
-            opportunités pour nous tel que la micro-facturation de nouveaux services annexes."
+            opportunités pour nous tel que la micro-facturation de nouveaux services annexes et a facilité
+            notre expansion en Angleterre."
           </p>
         </StoryQuote>
       </StoryPage>
