@@ -27,7 +27,7 @@ export default class GlobalExpansionLead extends React.Component {
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
           You will be responsible for helping to prioritise which countries
-          GoCardless enters next. You will plan & execute the setup in each
+          GoCardless enters next. You will plan &amp; execute the setup in each
           country &ndash; juggling a number of geographies at a time. After
           operationally setting this up, you'll hand over to a Country Lead
           who will launch commercially. Recent examples include Sweden, Australia
