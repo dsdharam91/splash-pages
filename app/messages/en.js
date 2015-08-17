@@ -369,6 +369,9 @@ export default {
     operations: {
       title: 'Operations',
     },
+    business_development: {
+      title: 'Business Development',
+    },
     ux_design: {
       title: 'UX & Design',
     },
@@ -443,6 +446,10 @@ export default {
   },
   jobs_office_manager: {
     title: 'Office Manager',
+    description: '',
+  },
+  jobs_global_expansion_lead: {
+    title: 'Global Expansion Lead',
     description: '',
   },
   pro_docs: {
