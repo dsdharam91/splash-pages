@@ -11,7 +11,7 @@ export default class PartnersXero extends React.Component {
       logoClass='xero-header-logo'
       blurb={
         'Especially popular with accountants and bookkeepers, our Xero ' +
-        'integration lets you automatically collect one-off and recurring payments.'
+        'integration lets you automatically collect one-off payments.'
       }
       url='http://xero.com/'
       screenshot='/images/partners/xero-frame@2x.jpg' />
