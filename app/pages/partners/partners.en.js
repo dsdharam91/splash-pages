@@ -181,7 +181,7 @@ export default class PartnersEn extends React.Component {
                   <p className='u-text-s u-text-italic u-margin-Bxs partners-page__quote'>
                     “GoCardless users stick for longer and get more value out of their subscription.”
                   </p>
-                  <p className='u-text-s u-margin-Bs u-color-p'>Duane Jackson, Founder</p>
+                  <p className='u-text-s u-margin-Bm u-color-p'>Duane Jackson, Founder</p>
                   <img src='/images/partners/kashflow-logo@2x.png' className='partners-page__partner-logo' />
                 </div>
               </div>
@@ -212,7 +212,7 @@ export default class PartnersEn extends React.Component {
                   “Our customers appreciate GoCardless's ease of use, and as a partner they've been
                   pivotal in driving our growth in the UK and increasingly in Europe.”
                 </p>
-                <p className='u-text-s u-margin-Bs u-color-p'>Matt Pegler, Co-Founder</p>
+                <p className='u-text-s u-margin-Bm u-color-p'>Matt Pegler, Co-Founder</p>
                 <img src='/images/partners/teamup-logo@2x.png' className='partners-page__partner-logo' />
               </div>
             </div>
@@ -228,6 +228,11 @@ export default class PartnersEn extends React.Component {
               <p className='u-text-s u-color-p u-margin-Bl'>
                 Zuora chose GoCardless as their preferred Direct Debit provider, enabling their clients to collect payments globally.
               </p>
+              <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
+                “Our customers appreciate GoCardless's ease of use, and as a partner they've been
+                pivotal in driving our growth in the UK and increasingly in Europe.”
+              </p>
+              <p className='u-text-s u-margin-Bm u-color-p'>Tamsyn Attiwell, VP Global Services EMEA</p>
               <img src='/images/partners/zuora-logo@2x.png' className='partners-page__partner-logo' />
             </div>
             <div className='grid__cell u-size-1of2 partners-page__illustration u-text-center'>
