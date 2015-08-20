@@ -213,6 +213,30 @@ export default class PartnersFr extends React.Component {
           </div>
         </div>
         <hr className='u-margin-An' />
+        <div className='u-padding-Txxl'>
+          <div className='site-container u-padding-Txl'>
+            <div className='grid__cell u-size-1of2 partners-page__billing-text'>
+              <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bl'>
+                Facturation
+              </h2>
+              <p className='u-text-s u-color-p u-margin-Bl'>
+                Zuora a choisi GoCardless comme prestataire préféré de prélèvements bancaires, permettant à leurs clients de prendre
+                des paiements à travers l'Europe.
+              </p>
+              <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
+                "Noc clients apprécient la facilité d'utilisation de GoCardless. En tant que partenaires ils ont été cruciaux pour
+                notre croissance au Royaume Uni et en Europe."
+              </p>
+              <p className='u-text-s u-margin-Bm u-color-p'>Tamsyn Attiwell, VP Global Services EMEA</p>
+              <img src='/images/partners/zuora-logo@2x.png' className='partners-page__partner-logo' />
+            </div>
+            <div className='grid__cell u-size-1of2 partners-page__illustration u-text-center'>
+              <img src='/images/partners/pay-via-mobile-illustration@2x.png'
+              className='partners-page__mobile-image'/>
+            </div>
+          </div>
+        </div>
+        <hr className='u-margin-An' />
         <div className='u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
