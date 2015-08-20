@@ -90,7 +90,7 @@ export default class ExampleCheckout extends React.Component {
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Optimised for all devices</div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Our payment pages are designed to work beautifully all devices from mobile to desktop
+                  Our payment pages are designed to work beautifully on all devices from mobile to desktop
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
