@@ -78,7 +78,7 @@ export default {
     information2: '',
   },
   features: {
-    title: 'GoCardless: Prélèvement bancaire simplifié',
+    title: 'Prélèvement bancaire simplifié',
     nav_title: 'GoCardless',
     description: 'GoCardless est la manière la plus simple de prendre vos paiements par prélèvement SEPA. Commencez dès aujourd\'hui, économisez du temps et améliorez votre cash flow.',
     explainer: 'Paiements récurrents simplifiés',
@@ -244,7 +244,7 @@ export default {
     description: '',
   },
   pro: {
-    title: 'GoCardless: Le contrôle total de vos prélèvements',
+    title: 'Le contrôle total de vos prélèvements',
     nav_title: 'GoCardless Pro',
     description: 'GoCardless combine simplicité d\'utilisation et contrôle complet du paiement et de l\'expérience client afin de prélever vos clients partout en Europe.',
     explainer: 'Automatisez vos prélèvements',
