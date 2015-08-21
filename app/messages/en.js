@@ -404,10 +404,6 @@ export default {
     title: 'Netherlands & Belgium',
     description: '',
   },
-  jobs_country_lead_de_at: {
-    title: 'Germany & Austria',
-    description: '',
-  },
   jobs_country_lead_es: {
     title: 'Spain',
     description: '',
@@ -422,6 +418,14 @@ export default {
   },
   jobs_account_executive: {
     title: 'Account Executive',
+    description: '',
+  },
+  jobs_account_executive_germany: {
+    title: 'Account Executive: Germany',
+    description: '',
+  },
+  jobs_business_development_germany: {
+    title: 'Business Development: Germany',
     description: '',
   },
   jobs_digital_marketer: {

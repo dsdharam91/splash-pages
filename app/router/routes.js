@@ -18,13 +18,14 @@ import Team from '../pages/about/team/team';
 
 import Jobs from '../pages/about/jobs/jobs';
 import AccountExecutive from '../pages/about/jobs/positions/account-executive';
+import AccountExecutiveGermany from '../pages/about/jobs/positions/account-executive-germany';
+import BusinessDevelopmentGermany from '../pages/about/jobs/positions/business-development-germany';
 import SeniorAccountExecutive from '../pages/about/jobs/positions/senior-account-executive';
 import ProductEngineer from '../pages/about/jobs/positions/product-engineer';
 import DeveloperCommunityManager from '../pages/about/jobs/positions/developer-community-manager';
 import EngineeringInterships from '../pages/about/jobs/positions/engineering-internships';
 import CustomerSupportFrance from '../pages/about/jobs/positions/customer-support-fr';
 import OfficeManager from '../pages/about/jobs/positions/office-manager';
-import CountryLeadGermanyAustria from '../pages/about/jobs/positions/country-lead-de-at';
 import CountryLeadNetherlandsBelgium from '../pages/about/jobs/positions/country-lead-nl-be';
 import CountryLeadSpain from '../pages/about/jobs/positions/country-lead-es';
 import CountryLeadSweden from '../pages/about/jobs/positions/country-lead-se';
@@ -270,12 +271,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [CountryLeadGermanyAustria, { name: 'jobs_country_lead_de_at', category: 'jobs.country_leads' }, {
-      en: {
-        path: '/about/jobs/country-lead-de-at',
-      },
-    },
-  ],
   [CountryLeadSpain, { name: 'jobs_country_lead_es', category: 'jobs.country_leads' }, {
       en: {
         path: '/about/jobs/country-lead-es',
@@ -297,6 +292,12 @@ export const config = Immutable.fromJS([
   [AccountExecutive, { name: 'jobs_account_executive', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/account-executive',
+      },
+    },
+  ],
+  [AccountExecutiveGermany, { name: 'jobs_account_executive_germany', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/account-executive-germany',
       },
     },
   ],
@@ -342,6 +343,12 @@ export const config = Immutable.fromJS([
   [GlobalExpansionLead, { name: 'jobs_global_expansion_lead', category: 'jobs.business_development' }, {
       en: {
         path: '/about/jobs/global-expansion-lead',
+      },
+    },
+  ],
+  [BusinessDevelopmentGermany, { name: 'jobs_business_development_germany', category: 'jobs.business_development' }, {
+      en: {
+        path: '/about/jobs/business-development-germany',
       },
     },
   ],
