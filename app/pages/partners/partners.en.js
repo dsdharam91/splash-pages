@@ -225,8 +225,9 @@ export default class PartnersEn extends React.Component {
                 Zuora chose GoCardless as their preferred Direct Debit provider, enabling their clients to collect payments globally.
               </p>
               <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
-                “Our customers appreciate GoCardless's ease of use, and as a partner they've been
-                pivotal in driving our growth in the UK and increasingly in Europe.”
+                “GoCardless is a key Zuora partner that provides our clients with an unrivalled Direct Debit Experience.
+                The Zuora-GoCardless payment integration is helping subscription businesses across the UK and Europe deliver
+                seamless payment experiences to their customers.”
               </p>
               <p className='u-text-s u-margin-Bm u-color-p'>Tamsyn Attiwell, VP Global Services EMEA</p>
               <img src='/images/partners/zuora-logo@2x.png' className='partners-page__partner-logo' />
