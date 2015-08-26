@@ -416,8 +416,8 @@ export default {
     title: 'Senior Account Executive',
     description: '',
   },
-  jobs_account_executive: {
-    title: 'Account Executive',
+  jobs_sales_development_representative: {
+    title: 'Sales Development Representative',
     description: '',
   },
   jobs_account_executive_germany: {
@@ -448,12 +448,12 @@ export default {
     title: 'French Customer Support',
     description: '',
   },
-  jobs_office_manager: {
-    title: 'Office Manager',
-    description: '',
-  },
   jobs_global_expansion_lead: {
     title: 'Global Expansion Lead',
+    description: '',
+  },
+  jobs_vp_people: {
+    title: 'VP People',
     description: '',
   },
   pro_docs: {
