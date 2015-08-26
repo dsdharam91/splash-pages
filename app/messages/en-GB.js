@@ -16,7 +16,7 @@ export default {
     path: '/merchants/new',
   },
   footer: {
-    description: 'GoCardless is a Bacs approved bureau and is regulated by the Financial Conduct Authority as an Authorised Payment Institution.',
+    description: 'GoCardless is authorised by the Financial Conduct Authority under the Payment Services Regulations 2009, registration number 597190, for the provision of payment services.',
   },
   basic_pricing_cta: {
     description: 'Just 1% per transaction, capped at £2.',
@@ -35,7 +35,7 @@ export default {
     pro_number_of_monthly_payments: '> 500',
   },
   security: {
-    fca_authorised_byline: 'GoCardless is an Authorised Payment Institution regulated by the Financial Conduct Authority.',
+    fca_authorised_byline: 'GoCardless is authorised by the Financial Conduct Authority under the Payment Services Regulations 2009.',
     consumer_protection_title: 'Direct Debit Guarantee',
     trusted_by_thousands_byline: 'GoCardless provides access to the Direct Debit network to thousands of businesses in the United Kingdom.',
   },
