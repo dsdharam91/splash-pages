@@ -6,9 +6,6 @@ import CheckListIcon from '../../icons/svg/checklist';
 import DeveloperIcon from '../../icons/svg/developer';
 import MobileIcon from '../../icons/svg/mobile';
 import WhiteLabelIcon from '../../icons/svg/white-label';
-import ProIcon from '../../icons/svg/pro';
-import ShopIcon from '../../icons/svg/shop';
-import IntegrationsIcon from '../../icons/svg/integrations';
 import Link from '../../components/link/link';
 
 export default class ProFr extends React.Component {
@@ -99,7 +96,6 @@ export default class ProFr extends React.Component {
                     <a href='https://developer.gocardless.com/pro'> documentation</a>.
                   </p>
                 </div>
-
                 <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>
                   <figure className='svg-icon u-center'>
                     <MobileIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
