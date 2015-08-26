@@ -7,7 +7,7 @@ export default {
     more: 'Plus',
   },
   footer: {
-    description: 'GoCardless est un Etablissement de Paiement Agréé, régulé par l’autorité britannique FCA (Financial Conduct Authority) et habilité à prélever des paiements à travers l’Union Européenne.',
+    description: 'GoCardless est un Etablissement de Paiement Agréé, autorisé par l’autorité britannique FCA (Financial Conduct Authority) et habilité à prélever des paiements à travers l’Union Européenne.',
     currently_viewing: 'Vous consultez actuellement',
     europe_cta: 'GoCardless s\'étend en Europe',
     europe_link: 'en apprendre plus',
@@ -263,7 +263,7 @@ export default {
   security: {
     title: 'Sécurité',
     nav_title: 'Sécurité',
-    description: 'GoCardless est construit sur des bases solides et une encryption de calibre militaire pour conserver vos données de façon sécurisée. Nous sommes régulés par l\'autorité britannique FCA (Financial Conduct Authority).',
+    description: 'GoCardless est construit sur des bases solides et une encryption de calibre militaire pour conserver vos données de façon sécurisée. Nous sommes autorisés à fournir des services de paiements par l\'autorité britannique FCA (Financial Conduct Authority).',
     header1: 'Vous êtes protégé',
     header2: 'Vos données sont entièrement chiffrées par un cryptage de calibre militaire, digne de la confiance des plus grands noms du secteur.',
   },

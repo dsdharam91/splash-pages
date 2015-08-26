@@ -15,7 +15,7 @@ export default class FaqMerchantsSecurityFr extends React.Component {
         <p className='para'>
           GoCardless est un <a href='http://www.fsa.gov.uk/register/psdFirmBasicDetails.do?sid=315374'
           title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Etablissement de Paiement
-          Agréé</a>, régulé par l’autorité britannique FCA (Financial Conduct Authority) et habilité à prendre des
+          Agréé</a>, autorisé par l’autorité britannique FCA (Financial Conduct Authority) et habilité à prendre des
           paiements à travers l’Union Européenne. Nous servons plus de 10.000 entreprises en Europe.
         </p>
         <p className='para'>

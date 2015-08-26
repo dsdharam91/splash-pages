@@ -28,7 +28,7 @@ export default class AboutFr extends React.Component {
                 mode de paiement économique avec un taux d'échec extrêmement bas.
                 <br /><br />
                 <span className='u-text-heavy u-color-heading'>Digne de confiance</span><br /><br />
-                GoCardless est un Etablissement de Paiement Agréé, régulé par l’autorité britannique FCA (Financial Conduct Authority)
+                GoCardless est un Etablissement de Paiement Agréé, autorisé par l’autorité britannique FCA (Financial Conduct Authority)
                 et habilité à prélever des paiements à travers l’Union Européenne.
                 Nous sommes financés par certains des plus importants investisseurs au monde
                 dont Balderton Capital, Accel Partners, Passion Capital et Y-Combinator.
