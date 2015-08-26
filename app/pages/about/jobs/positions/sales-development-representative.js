@@ -5,6 +5,7 @@ export default class SalesDevelopmentRepresentative extends React.Component {
   displayName = 'SalesDevelopmentRepresentative'
 
   render() {
+    /*eslint-disable max-len*/
     return (
       <JobsPage>
         <h3 className='u-text-heading-light u-text-m u-color-heading'>Sales Development Representative</h3>
@@ -12,7 +13,8 @@ export default class SalesDevelopmentRepresentative extends React.Component {
           Drive GoCardless’s growth.
         </p>
         <p className='para'>
-          At GoCardless we are looking to <a href='https://gocardless.com/blog/1-billion-dollars/' target='_blank'> scale from processing $1 billion a year to $10 billion</a>.
+          At GoCardless we are looking to
+          <a href='https://gocardless.com/blog/1-billion-dollars/' target='_blank'> scale from processing $1 billion a year to $10 billion</a>.
           Our <a href='https://gocardless.com/blog/a-new-payment-network-for-the-internet/' target='_blank'> vision </a>
           is to create a global payments network, making payments simpler on
           the internet no matter what country you're in. We started out doing
@@ -34,6 +36,7 @@ export default class SalesDevelopmentRepresentative extends React.Component {
           and then trust you to be the first point of contact with all our new
           prospects.
         </p>
+        /*eslint-enable max-len*/
         <p className='para'>
           On a typical day you will be:
         </p>
