@@ -34,7 +34,7 @@ export default class PricingFr extends React.Component {
                       Utilisable sans intégration
                     </li>
                     <li className='pricing-options__list-item'>
-                      Pour les entreprises collectant <b>1 à 500 paiements</b> par mois
+                      Pour les entreprises collectant <b>1 à 500 paiements</b> par mois et les ONGs
                     </li>
                     <li className='pricing-options__list-item'>
                       <Link to='features'>En apprendre plus sur notre produit</Link>
@@ -58,14 +58,14 @@ export default class PricingFr extends React.Component {
                     GoCardless Pro
                   </h1>
                   <div className='u-background-dark-gray-darken u-padding-Vxl'>
-                    <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>0,01 — 0,60 €</h2>
+                    <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>0,01 - 0,60 €</h2>
                     <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
                       Par transaction réussie
                     </p>
                   </div>
                   <ul className='pricing-options__list'>
                     <li className='pricing-options__list-item u-color-heading'>
-                      <b>Pour les entreprises souhaitant une solution intégrée à leurs systèmes</b>
+                      <b>Pour les entreprises souhaitant un contrôle total et personalisé</b>
                     </li>
                     <li className='pricing-options__list-item'>
                       <b>+ 250 € par mois</b>, pas de frais cachés
@@ -103,6 +103,8 @@ export default class PricingFr extends React.Component {
                 Non, il n'y aucun autre frais que ceux indiqués ci-dessus.
                 Nous ne vous facturons jamais la création de mandats, ainsi que
                 les incidents de paiements : échecs, remboursements, annulations...
+                Avec GoCardless Pro, vous êtes facturé un abonnement de 250 € et
+                un coût par transaction réussie (1% ou prix fixe au choix).
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Lm'>
@@ -120,7 +122,7 @@ export default class PricingFr extends React.Component {
                 <b>Y a-t'il des frais d'implémentation ?</b>
               </div>
               <p className='u-color-p'>
-                Non. Vous ne payez pas pour implémenter GoCardless.
+                Non. Vous ne payez pas pour implémenter GoCardless. Avec
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Lm'>

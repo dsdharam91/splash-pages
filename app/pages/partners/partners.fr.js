@@ -224,8 +224,9 @@ export default class PartnersFr extends React.Component {
                 des paiements à travers l'Europe.
               </p>
               <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
-                "Noc clients apprécient la facilité d'utilisation de GoCardless. En tant que partenaires ils ont été cruciaux pour
-                notre croissance au Royaume Uni et en Europe."
+                "GoCardless est un partenaire majeur de Zuora qui permet d'offrir à nos clients une expérience de prélèvement sans précédent.
+                L'intégration Zuora-GoCardless aide les entreprises dans l'univers de l'abonnement en Europe à
+                être payées de façon naturelle et simple."
               </p>
               <p className='u-text-s u-margin-Bm u-color-p'>Tamsyn Attiwell, VP Global Services EMEA</p>
               <img src='/images/partners/zuora-logo@2x.png' className='partners-page__partner-logo' />

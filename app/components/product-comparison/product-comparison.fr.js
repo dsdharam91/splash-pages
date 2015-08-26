@@ -15,11 +15,11 @@ export default class ProductComparisonFr extends React.Component {
               <th />
               <th className='u-background-primary u-text-heading-light u-color-invert u-padding-Am u-border-gray'>
                 <div className='u-text-l u-margin-Bxxs'>GoCardless</div>
-                Prélèvez vos clients rapidement
+                Prélevez facilement et rapidement
               </th>
               <th className='u-background-dark-gray-darken u-text-heading-light u-color-invert u-padding-Am u-border-gray'>
                 <div className='u-text-l u-margin-Bxxs'>GoCardless Pro</div>
-                Automatisez vos prélèvements
+                Prenez le contrôle du prélèvement
               </th>
             </tr>
           </thead>
@@ -27,10 +27,10 @@ export default class ProductComparisonFr extends React.Component {
             <tr className='comparison-table__row'>
               <td className='comparison-table__cell u-text-end'>Pour qui est-ce ?</td>
               <td className='comparison-table__cell'>TPEs et PMEs souhaitant un accès rapide et simplifié</td>
-              <td className='comparison-table__cell'>Entreprises souhaitant une solution intégrée à leurs systèmes</td>
+              <td className='comparison-table__cell'>Pour les entreprises souhaitant un contrôle total et personalisé</td>
             </tr>
             <tr className='comparison-table__row'>
-              <td className='comparison-table__cell u-text-end'>Tableau de bord</td>
+              <td className='comparison-table__cell u-text-end'>Tableau de bord en ligne</td>
               <td className='comparison-table__cell'>
                 <CheckMarkIcon className='u-fill-dark-gray' alt='✓' />
               </td>
@@ -48,7 +48,7 @@ export default class ProductComparisonFr extends React.Component {
               </td>
             </tr>
             <tr className='comparison-table__row'>
-              <td className='comparison-table__cell u-text-end'>Transfert de vos clients</td>
+              <td className='comparison-table__cell u-text-end'>Migration de mandats existants</td>
               <td className='comparison-table__cell'>
                 <CheckMarkIcon className='u-fill-dark-gray' alt='✓' />
               </td>
@@ -57,7 +57,7 @@ export default class ProductComparisonFr extends React.Component {
               </td>
             </tr>
             <tr className='comparison-table__row'>
-              <td className='comparison-table__cell u-text-end'>Vos pages de paiement et notifications clients en marque blanche</td>
+              <td className='comparison-table__cell u-text-end'>Obtenez votre propre ICS</td>
               <td className='comparison-table__cell'>
                 <XIcon className='u-fill-dark-gray' alt='✘' />
               </td>
@@ -66,7 +66,25 @@ export default class ProductComparisonFr extends React.Component {
               </td>
             </tr>
             <tr className='comparison-table__row'>
-              <td className='comparison-table__cell u-text-end'>Chargé de compte et assistance d'implémentation</td>
+              <td className='comparison-table__cell u-text-end'>Créez vos propres pages de paiement</td>
+              <td className='comparison-table__cell'>
+                <XIcon className='u-fill-dark-gray' alt='✘' />
+              </td>
+              <td className='comparison-table__cell'>
+                <CheckMarkIcon className='u-fill-dark-gray' alt='✓' />
+              </td>
+            </tr>
+            <tr className='comparison-table__row'>
+              <td className='comparison-table__cell u-text-end'>Gérez des filiales multiples</td>
+              <td className='comparison-table__cell'>
+                <XIcon className='u-fill-dark-gray' alt='✘' />
+              </td>
+              <td className='comparison-table__cell'>
+                <CheckMarkIcon className='u-fill-dark-gray' alt='✓' />
+              </td>
+            </tr>
+            <tr className='comparison-table__row'>
+              <td className='comparison-table__cell u-text-end'>Chargé de compte</td>
               <td className='comparison-table__cell'>
                 <XIcon className='u-fill-dark-gray' alt='✘' />
               </td>
@@ -109,12 +127,12 @@ export default class ProductComparisonFr extends React.Component {
               <td className='comparison-table__cell'>250€</td>
             </tr>
             <tr className='comparison-table__row'>
-              <td className='comparison-table__cell u-text-end'>Frais de transaction</td>
+              <td className='comparison-table__cell u-text-end'>Frais par transaction</td>
               <td className='comparison-table__cell'>1% plafonné à 2 €</td>
               <td className='comparison-table__cell'>Dégressif à partir de 0,60 €</td>
             </tr>
             <tr className='comparison-table__row'>
-              <td className='comparison-table__cell u-text-end'>Frais d'incident de paiement</td>
+              <td className='comparison-table__cell u-text-end'>Frais de rejet</td>
               <td className='comparison-table__cell'>Gratuit</td>
               <td className='comparison-table__cell'>Gratuit</td>
             </tr>

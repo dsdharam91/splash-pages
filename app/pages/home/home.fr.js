@@ -20,10 +20,10 @@ export default class HomeFr extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                Accès rapide et facilité au prélèvement bancaire
+                Accès rapide et simple au prélèvement bancaire
               </h2>
               <p className='u-text-s u-color-p u-margin-Txs'>
-                GoCardless vous permet de bénéficier de la fiabilité et des tarifs très compétitif
+                GoCardless vous permet de bénéficier de la fiabilité et des tarifs très compétitifs
                 du prélèvement SEPA, sans les complications associées aux opérateurs historiques.
               </p>
             </div>
