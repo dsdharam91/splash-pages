@@ -1,11 +1,13 @@
 import React from 'react';
 import Translation from '../../components/translation/translation';
+import Message from '../../components/message/message';
 import ProductComparison from '../../components/product-comparison/product-comparison';
 import StickyNav from '../../components/sticky-nav/sticky-nav';
 import CheckListIcon from '../../icons/svg/checklist';
 import DeveloperIcon from '../../icons/svg/developer';
 import MobileIcon from '../../icons/svg/mobile';
 import WhiteLabelIcon from '../../icons/svg/white-label';
+import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
 
 export default class ProFr extends React.Component {
@@ -152,7 +154,31 @@ export default class ProFr extends React.Component {
               </div>
             </div>
           </div>
+
           <hr className='u-margin-An' />
+          <div className='site-container u-text-center u-padding-Vxxl'>
+              <div className='u-padding-Vxl'>
+                <div className='u-size-1of3 u-center'>
+                  <figure className='svg-icon u-center'>
+                    <PhoneIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
+                    <PhoneIcon className='svg-icon__image u-fill-dark-gray' />
+                  </figure>
+                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Tm'>
+                    <Message pointer='phone_local' />
+                  </h2>
+                  <div className='u-center'>
+                    <p className='u-text-s u-color-p u-margin-Ts'>
+                      Parlez avec nos experts de vos problématiques paiements.
+                    </p>
+                  </div>
+                  <Link to='contact_sales' query={{ s: 'pro' }} id='track-cta-contact-sales'
+                  className='btn btn--hollow u-margin-Tm'>
+                    <Message pointer='cta.pro' />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <hr className='u-margin-An' />
         </div>
         <div id='forOptimizely-Table'>
           <div className='u-text-center u-padding-Vxxl u-background-light-gray'>

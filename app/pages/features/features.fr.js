@@ -1,4 +1,5 @@
 import React from 'react';
+import Message from '../../components/message/message';
 import StickyNav from '../../components/sticky-nav/sticky-nav';
 import ProductComparison from '../../components/product-comparison/product-comparison';
 import Tabs from '../../components/tabs/tabs';
@@ -253,9 +254,12 @@ export default class FeaturesFr extends React.Component {
                     <PhoneIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                     <PhoneIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
+                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Tm'>
+                    <Message pointer="phone_local" />
+                  </h2>
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
-                      Prenez contact avec notre équipe pour commencer à prélever rapidement
+                      Parlez avec nos experts de vos problématiques paiements.
                     </p>
                   </div>
                   <Link to='contact_sales' id='track-cta-contact-sales' className='btn btn--hollow u-margin-Tm'>Contactez-nous</Link>
