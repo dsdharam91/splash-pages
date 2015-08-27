@@ -122,7 +122,7 @@ export default class PricingFr extends React.Component {
                 <b>Y a-t'il des frais d'implémentation ?</b>
               </div>
               <p className='u-color-p'>
-                Non. Vous ne payez pas pour implémenter GoCardless. Avec
+                Non. Vous ne payez pas pour implémenter GoCardless.
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Lm'>
