@@ -31,10 +31,10 @@ export default class PricingFr extends React.Component {
                       <b>Pour les TPEs et PMEs souhaitant un accès rapide et simplifié</b>
                     </li>
                     <li className='pricing-options__list-item'>
-                      Utilisable sans intégration
+                      Aucun frais cachés, sans engagement
                     </li>
                     <li className='pricing-options__list-item'>
-                      Pour les entreprises collectant <b>1 à 500 paiements</b> par mois et les ONGs
+                      Utilisable sans intégration et sans installation
                     </li>
                     <li className='pricing-options__list-item'>
                       <Link to='features'>En apprendre plus sur notre produit</Link>
@@ -68,10 +68,10 @@ export default class PricingFr extends React.Component {
                       <b>Pour les entreprises souhaitant un contrôle total et personalisé</b>
                     </li>
                     <li className='pricing-options__list-item'>
-                      <b>+ 250 € par mois</b>, pas de frais cachés
+                      <b>+ 250 € par mois</b>, offert pour les ONGs
                     </li>
                     <li className='pricing-options__list-item'>
-                      Pour les entreprises collectant <b>plus de 500 paiements</b> par mois
+                      Entreprises avec <b>> 500 paiements</b> par mois
                     </li>
                     <li className='pricing-options__list-item'>
                       <Link to='pro'>En apprendre plus sur notre produit</Link>

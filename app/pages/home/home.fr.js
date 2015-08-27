@@ -100,7 +100,7 @@ export default class HomeFr extends React.Component {
                   <ProIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Automatiser en profondeur<br />vos paiements
+                  Avoir le contrôle total<br />de vos prélèvements
                 </p>
               </div>
               <div className='product-grid__btn btn u-size-full'>Découvrez GoCardless Pro</div>
