@@ -7,7 +7,7 @@ export default {
     more: 'Mehr',
   },
   footer: {
-    description: 'GoCardless wird von der Financial Conduct Authority im Vereinigten Königreich reguliert und ist authorisiert als Zahlungsdienst, der Zahlungen innerhalb von Europa annehmen kann.',
+    description: 'GoCardless ist von der Financial Conduct Authority (FCA) im Vereinigten Königreich als Zahlungsdienst in der Europäischen Union authorisiert (Registrierungsnummer 597190).',
     currently_viewing: 'Gewähltes Land',
     cookies_message: 'Indem Sie unsere Webseite nutzen und damit agieren, stimmen Sie unseren Cookie Nutzungen zu.',
     cookies_link_text: 'Mehr dazu',
