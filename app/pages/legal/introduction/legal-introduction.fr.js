@@ -31,7 +31,7 @@ export default class LegalIntroductionFr extends React.Component {
             Les directeurs de la publication sont : Matt Robinson et Hiroki Takeuchi.
           </p>
           <p className='para'>
-            GoCardless Ltd est un Etablissement de Paiement Agréé, régulé par l’autorité
+            GoCardless Ltd est un Etablissement de Paiement Agréé, autorisé par l’autorité
             britannique FCA (Financial Conduct Authority), domiciliée au 25 The North Colonnade
             Londres E14 5HS Grande-Bretagne, et dont le numéro d’agrément est 597190.
           </p>
