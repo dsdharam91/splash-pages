@@ -196,6 +196,11 @@ export default {
     description: 'Rechtliche Hinweise',
     sidebar_text: 'Haben Sie Fragen? Rufen Sie uns an unter',
   },
+  legal_merchants: {
+    title: 'Allgemeine Geschäftsbedingungen (AGB)',
+    nav_title: 'AGB',
+    description: 'Legal',
+  },
   legal_privacy: {
     title: 'Datenschutzerklärung',
     nav_title: 'Datenschutzerklärung',
