@@ -1,0 +1,49 @@
+.faq-page h2 {
+  @extend .u-text-heading-light;
+  @extend .u-color-heading;
+  @extend .u-text-m;
+}
+
+.faq-page h3 {
+  @extend .section-heading;
+  @extend .u-text-heading-light;
+  @extend .u-color-heading;
+  @extend .u-margin-Vm;
+  @extend .u-text-s;
+}
+
+.faq-page p {
+  @extend .para;
+}
+
+.faq-page ul {
+  @extend .list;
+}
+
+.faq-page table {
+  @extend .table;
+  @extend .u-color-p;
+  border-bottom: 1px solid $gray-darken;
+}
+
+.faq-page tr {
+  border-top: 1px solid $gray-darken;
+}
+
+.faq-page tr:nth-child(1) {
+  border-top: none;
+}
+
+.faq-page td,
+.faq-page th {
+  width: 33%;
+  padding: $space-small;
+}
+
+.faq-page td {
+  border-right: 1px solid $gray-darken;
+}
+
+.faq-page td:nth-child(1) {
+  font-weight: $font-weight-heavy;
+}

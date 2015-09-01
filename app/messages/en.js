@@ -45,6 +45,7 @@ export default {
   phone_full: '+44 20 7183 8674',
   phone_local: '+44 20 7183 8674',
   email: 'help@gocardless.com',
+  partners_email: 'partnerships@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
     name_label: 'Your name',
@@ -305,6 +306,13 @@ export default {
     link_title: 'Partners',
     description: 'Partner up with GoCardless and let people take payments through your software. We work with FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube and more.',
     explainer: 'Offer GoCardless to your users',
+    sidebar: 'Got a question? Get in touch with our Partnerships team at',
+    overview: {
+      title: 'Overview',
+    },
+    faq: {
+      title: 'FAQ',
+    },
   },
   partners_clearbooks: {
     title: 'Collect Direct Debit Payments With Clear Books',
@@ -333,6 +341,86 @@ export default {
   payments_by_direct_debit: {
     title: 'Payments By Direct Debit',
     description: 'Direct Debit is cheaper & more reliable than the card networks. It\'s also more flexible than a standing order. Find out how you can take payments using Direct Debit.',
+  },
+  partners_guide: {
+    title: 'Partnering with GoCardless',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Introduction',
+  },
+  partners_guide_options: {
+    title: 'Partnering with GoCardless - Options',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Options',
+  },
+  partners_guide_app_integration: {
+    title: 'Partnering with GoCardless - App integration',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'App integration',
+  },
+  partners_guide_white_label_integration: {
+    title: 'Partnering with GoCardless - White label integration',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'White label integration',
+  },
+  partners_guide_getting_started: {
+    title: 'Partnering with GoCardless - Getting started',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Getting started',
+  },
+  partners_guide_testing: {
+    title: 'Partnering with GoCardless - Developing and testing',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Developing and testing',
+  },
+  partners_guide_chargebacks: {
+    title: 'Partnering with GoCardless - Chargebacks',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Chargebacks, refunds and failures',
+  },
+  partners_guide_getting_paid: {
+    title: 'Partnering with GoCardless - Getting paid',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Getting paid',
+  },
+  partners_guide_legal: {
+    title: 'Partnering with GoCardless - Legal',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Commercials and legal',
+  },
+  partners_guide_mandates: {
+    title: 'Partnering with GoCardless - Mandates',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Transferring mandates',
+  },
+  partners_guide_non_uk_payments: {
+    title: 'Partnering with GoCardless - Non-UK payments',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Non-UK payments',
+  },
+  partners_guide_our_pricing: {
+    title: 'Partnering with GoCardless - Our pricing',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Our pricing',
+  },
+  partners_guide_payment_pages: {
+    title: 'Partnering with GoCardless - Payment pages',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Payment pages',
+  },
+  partners_guide_reporting: {
+    title: 'Partnering with GoCardless - Reporting',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Reporting',
+  },
+  partners_guide_restrictions: {
+    title: 'Partnering with GoCardless - Restrictions',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Restrictions',
+  },
+  partners_guide_security: {
+    title: 'Partnering with GoCardless - Security',
+    description: 'Our guide to becoming a GoCardless partner',
+    nav_title: 'Regulation and security',
   },
   europe: {
     title: 'SEPA Direct Debit: Collect Payments Across Europe',
