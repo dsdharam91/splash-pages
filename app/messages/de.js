@@ -13,7 +13,7 @@ export default {
     cookies_link_text: 'Mehr dazu',
   },
   cta: {
-    basic: 'Beginnen Sie Zahlungen zu empfangen',
+    basic: 'Ziehen Sie noch heute Zahlungen ein',
     pro: 'Kontakt',
     signup: 'Jetzt anmelden',
     more: 'Erfahren Sie mehr',
@@ -199,11 +199,28 @@ export default {
   legal_merchants: {
     title: 'Allgemeine Geschäftsbedingungen (AGB)',
     nav_title: 'AGB',
+    footer_nav_title: 'AGB',
     description: 'Legal',
   },
   legal_privacy: {
     title: 'Datenschutzerklärung',
     nav_title: 'Datenschutzerklärung',
+    footer_nav_title: 'Datenschutzerklärung',
     description: 'Datenschutzerklärung',
+  },
+  legal_restrictions: {
+    title: 'Our terms of service - Restrictions',
+    nav_title: 'Verbotene Aktivitäten',
+    description: 'Legal',
+  },
+  security: {
+    title: 'Sicherheit',
+    nav_title: 'Sicherheit',
+    description: 'GoCardless ist vom ersten bis zum letzten Stein sicher gebaut und benutzt Verschlüsselung auf dem gleichen Level wie das Militär, um Ihre Daten stets sicher zu halten. Wir sind authorisiert von der Financial Conduct Authority.',
+    header1: 'Von Anfang an sicher gebaut',
+    header2: 'GoCardless nutzt Verschlüsselung, die dem Level des Militärs entspricht, um Ihre Daten stets sicher zu bewahren. Wir sind authorisiert von den wichtigsten Namen in der Zahlungsbranche.',
+    fca_authorised_byline: 'GoCardless ist von der Financial Conduct Authority im Vereinigten Königreich als Zahlungsdienst authorisiert und kann Zahlungen in ganz Europa einziehen.',
+    consumer_protection_title: 'Kundenschutz wird großgeschrieben',
+    trusted_by_thousands_byline: 'GoCardless bietet tausenden von Unternehmen in ganz Europa Zugang zum Lastschriftverfahren.',
   },
 };

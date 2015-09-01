@@ -416,6 +416,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/legal/activites-restreintes',
       },
+      de: {
+        path: '/legal/verbotene-aktivitaeten',
+      },
     },
   ],
   [LegalPrivacy, { name: 'legal_privacy', category: 'legal' }, {

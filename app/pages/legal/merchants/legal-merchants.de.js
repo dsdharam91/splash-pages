@@ -33,7 +33,7 @@ export default class LegalMerchantsDe extends React.Component {
           GoCardless kann keine Rückerstattungen für Güter oder Services übernehmen,
           die Sie Ihren Kunden liefern müssen. Wir können jedoch Rückzahlungen an
           Ihre Kunden in Ihrem Namen ausführen, wenn Sie uns dazu den Auftrag geben.
-          Falls Ihr Kunde eine Zahlungen rechtsmäßig und im Rahmen der Allgemeinen
+          Falls Ihr Kunde eine Zahlung rechtsmäßig und im Rahmen der Allgemeinen
           Geschäftsbedingungen von GoCardless annulliert, dann liegt es an Ihnen
           die Zahlungsverpflichtung Ihres Kunden für die von Ihnen erbrachten Leistungen
           und Güter direkt mit dem Kunden zu klären.

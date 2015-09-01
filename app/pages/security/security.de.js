@@ -14,7 +14,7 @@ export default class SecurityDe extends React.Component {
           <div className='grid u-center u-padding-Vxm'>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
               <h2 className='u-text-heading-light u-text-m u-color-heading'>
-                Authorised by the FCA
+                Authorisiert von der FCA
               </h2>
               <p className='u-size-2of3 u-center u-color-p u-margin-Txs'>
                 <Message pointer='security.fca_authorised_byline' />
@@ -22,7 +22,7 @@ export default class SecurityDe extends React.Component {
             </div>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
               <h2 className='u-text-heading-light u-text-m u-color-heading'>
-                Trusted by thousands
+                Tausende Kunden vertrauen uns
               </h2>
               <p className='u-size-2of3 u-center u-color-p u-margin-Txs'>
                 <Message pointer='security.trusted_by_thousands_byline' />
@@ -30,10 +30,10 @@ export default class SecurityDe extends React.Component {
             </div>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
               <h2 className='u-text-heading-light u-text-m u-color-heading'>
-                Funded by prestigious investors
+                Von hochrangingen Investoren unterstützt
               </h2>
               <p className='u-size-2of3 u-center u-color-p u-margin-Txs'>
-                Balderton Capital and Accel Partners are among the investors in GoCardless.
+                Balderton Capital und Accel Partners gehören zu den Investoren von GoCardless.
               </p>
             </div>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
@@ -41,23 +41,26 @@ export default class SecurityDe extends React.Component {
                 <Message pointer='security.consumer_protection_title' />
               </h2>
               <p className='u-size-2of3 u-center u-color-p u-margin-Txs'>
-                If anything goes wrong with a transaction, payers are entitled to an instant refund.
+                Falls bei einer Zahlung irgendetwas schief geht, stehen dem Zahlenden sofortige
+                Rückerstattungen zu.
               </p>
             </div>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
               <h2 className='u-text-heading-light u-text-m u-color-heading'>
-                Military grade encryption
+               Verschlüsselung wie beim Militär
               </h2>
               <p className='u-size-2of3 u-center u-color-p u-margin-Txs'>
-                All sensitive details are RSA encrypted, and only communicated over secure channels.
+                Alle vertraulichen Informationen sind RSA verschlüsselt und werden ausschließlich
+                über sichere Kanäle kommuniziert.
               </p>
             </div>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
               <h2 className='u-text-heading-light u-text-m u-color-heading'>
-                Safeguarded bank accounts
+                Geschützte Bankkonten
               </h2>
               <p className='u-size-2of3 u-center u-color-p u-margin-Txs'>
-                Money collected by GoCardless is held in designated client monies accounts.
+                Geld, das von GoCardless eingezogen wird, wird in designierten Konten für
+                unsere Kundengelder aufbewahrt.
               </p>
             </div>
           </div>
@@ -69,16 +72,16 @@ export default class SecurityDe extends React.Component {
               <a href='/merchants/new' className='btn'>
                 <Message pointer='cta.basic' />
               </a>
-              <p className='u-color-p u-margin-Ts'>No set up costs, no hidden charges, no commitments</p>
+              <p className='u-color-p u-margin-Ts'>Keine Anschlussgebühr, keine versteckten Kosten, keine Verpflichtungen.</p>
             </div>
           </div>
         </IfLocale>
         <IfLocale hasInstantSignup={false}>
           <div className='site-container u-text-center u-padding-Tm u-padding-Bxxl'>
             <div className='u-padding-Vxl'>
-              <h2 className='u-text-heading u-text-l u-color-heading u-text-light'>Got any questions?</h2>
-              <p className='u-color-p u-margin-Ts'>Speak with one of our experts on <Message pointer='phone_local' /></p>
-              <Link to='contact_sales' query={{ s: 'security' }} className='btn btn--hollow u-margin-Tm'>Contact sales</Link>
+              <h2 className='u-text-heading u-text-l u-color-heading u-text-light'>Haben Sie Fragen?</h2>
+              <p className='u-color-p u-margin-Ts'>Sprechen Sie mit einem unserer Experten unter <Message pointer='phone_local' /></p>
+              <Link to='contact_sales' query={{ s: 'security' }} className='btn btn--hollow u-margin-Tm'>Fragen Sie uns</Link>
             </div>
           </div>
         </IfLocale>
