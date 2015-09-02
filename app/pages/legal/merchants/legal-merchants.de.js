@@ -64,12 +64,12 @@ export default class LegalMerchantsDe extends React.Component {
         <ul className='list'>
           <li>
             selling, transferring or otherwise allowing third parties to access
-            your GoCardless Account except as set out under 'Permitted third party
-            uses of your account'; and
+            your GoCardless Account except as set out under ‘Permitted third party
+            uses of your account’; and
           </li>
           <li>
-            collecting any customer's personal data that is accessed through
-            your use of GoCardless without that customer's express permission
+            collecting any customer’s personal data that is accessed through
+            your use of GoCardless without that customer’s express permission
           </li>
         </ul>
 
@@ -78,7 +78,7 @@ export default class LegalMerchantsDe extends React.Component {
         </h3>
         <p className='para'>
           You may permit third parties you have contracted to use your account
-          details in relation to that third party's provision of services to you,
+          details in relation to that third party’s provision of services to you,
           but you are responsible for all their actions and any misuse of the
           details as if it was your own.
         </p>
@@ -116,7 +116,7 @@ export default class LegalMerchantsDe extends React.Component {
         <p className='para'>
           You shall be solely responsible for (i) updating your passwords for access to the
           GoCardless payment services periodically, and (ii) creating passwords that are
-          reasonably 'strong' under the circumstances.
+          reasonably ‘strong’ under the circumstances.
         </p>
         <p className='para'>
           The User Details are the property of GoCardless and may be immediately revoked
@@ -129,8 +129,8 @@ export default class LegalMerchantsDe extends React.Component {
         </h3>
         <p className='para'>
           GoCardless may make available to you its application programming interface
-          (<em>'API'</em>), integration and user guides and software development kit
-          (<em>'GoCardless Documentation'</em>). Where it does, you shall comply with
+          (<em>‘API’</em>), integration and user guides and software development kit
+          (<em>‘GoCardless Documentation’</em>). Where it does, you shall comply with
           the GoCardless Documentation in connection with the integration and use of APIs.
         </p>
         <p className='para'>
@@ -151,15 +151,15 @@ export default class LegalMerchantsDe extends React.Component {
         </p>
         <p className='para'>
           We transmit each payment order made through a GoCardless account to the
-          customer's bank to enable the settlement of each direct debit to occur on
+          customer’s bank to enable the settlement of each direct debit to occur on
           the agreed due date as calculated in accordance with these terms. Once a
           customer has a GoCardless account and direct debit mandate set up, it usually
-          takes a maximum of 3 business days for us to receive money from the customer's
+          takes a maximum of 3 business days for us to receive money from the customer’s
           bank account. If they are setting up an account as part of the payment, it
           can take an extra 2-4 business days to set up their direct debit mandate.
         </p>
         <p className='para'>
-          Funds collected from your customer's bank will be received into an account
+          Funds collected from your customer’s bank will be received into an account
           separate from our main operating accounts and allocated to your name within
           the GoCardless payment system.
         </p>
@@ -236,15 +236,15 @@ export default class LegalMerchantsDe extends React.Component {
           </li>
         </ul>
         <p className='para'>
-          If you are using a service or product provided by another party (an <em>'Affiliate'</em>),
+          If you are using a service or product provided by another party (an <em>‘Affiliate’</em>),
           such as a software provider or referral website which facilitates your use of GoCardless,
-          they may be due an additional fee (an <em>'Affiliate Fee'</em>) from you over and above our fee.
-          If there is an Affiliate Fee, before you sign up to use the Affiliate's product or services,
+          they may be due an additional fee (an <em>‘Affiliate Fee’</em>) from you over and above our fee.
+          If there is an Affiliate Fee, before you sign up to use the Affiliate’s product or services,
           the Affiliate will notify you of any applicable Affiliate Fees. We will deduct Affiliate Fees
           from any sums payable to you and pay them to the relevant Affiliates.
         </p>
         <p className='para'>
-          Each time we make a payment to you, an entry for 'GoCardless' will appear on your bank statement
+          Each time we make a payment to you, an entry for ‘GoCardless’ will appear on your bank statement
           along with a reference number that is specific to that individual payment transaction. You can
           log in to your account at any time on the GoCardless website to view a summary of the payments
           we have made to you.
@@ -333,8 +333,8 @@ export default class LegalMerchantsDe extends React.Component {
           delay refund the amount of the incorrectly executed transaction and restore the debited payment account to the
           state in which it would have been had the incorrectly executed payment transactions not taken place, or (ii)
           in the case of direct debit payment re-transmit the direct debit, unless in either case we can prove that the
-          recipient's payment service provider (e.g. the recipient's banks) received the amount of the payment transaction,
-          in which case the recipient's payment service provider is liable to the recipient for the correct execution of
+          recipient’s payment service provider (e.g. the recipient’s banks) received the amount of the payment transaction,
+          in which case the recipient’s payment service provider is liable to the recipient for the correct execution of
           the payment transaction.
         </p>
 
@@ -409,10 +409,10 @@ export default class LegalMerchantsDe extends React.Component {
         </p>
         <ul className='list'>
           <li>
-            you shall have the right to terminate the Contract by giving us one months' notice;
+            you shall have the right to terminate the Contract by giving us one months’ notice;
           </li>
           <li>
-            we shall have a similar right to terminate the Contract by giving you not less than two months' notice;
+            we shall have a similar right to terminate the Contract by giving you not less than two months’ notice;
           </li>
           <li>
             each party may terminate the Contract with immediate effect by giving notice to the other party if the other party
@@ -431,7 +431,7 @@ export default class LegalMerchantsDe extends React.Component {
           </li>
         </ul>
         <p className='para'>
-          For the purpose of this Contract, a party suffers an '<em>Insolvency Event</em>' if:
+          For the purpose of this Contract, a party suffers an <em>‘Insolvency Event’</em> if:
         </p>
         <ol className='list'>
           <li>
@@ -495,7 +495,7 @@ export default class LegalMerchantsDe extends React.Component {
         <ul className='list'>
           <li>
             GoCardless shall be entitled to invoice you for any outstanding amounts that are set out
-            in this Contract under the heading 'Deductions, payments and invoicing' which shall be due
+            in this Contract under the heading ‘Deductions, payments and invoicing’ which shall be due
             and payable upon receipt;
           </li>
           <li>
@@ -578,7 +578,7 @@ export default class LegalMerchantsDe extends React.Component {
           or for your providing outdated, incomplete, or inaccurate information. You are responsible for
           capturing and securing any Personal Data you need prior to submission to us for processing.
           GoCardless will use the Personal Data for processing the payment transactions requested by your
-          customers. For the purposes of the Contract, 'Personal Data' shall have the meaning given to it
+          customers. For the purposes of the Contract, ‘Personal Data’ shall have the meaning given to it
           by the Data Protection Act 1998.
         </p>
 
@@ -586,7 +586,7 @@ export default class LegalMerchantsDe extends React.Component {
           Force majeure
         </h3>
         <p className='para'>
-          For the purposes of this Contract, '<em>Force Majeure Event</em>' means an event beyond the
+          For the purposes of this Contract, <em>‘Force Majeure Event’</em> means an event beyond the
           reasonable control of GoCardless including but not limited to strikes, lock-outs or other
           industrial disputes (whether involving the workforce of GoCardless or any other party),
           failure of a utility service or transport network, act of God, war, riot, civil commotion,

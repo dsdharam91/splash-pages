@@ -193,14 +193,14 @@ export default {
     title: 'Rechtliche Hinweise',
     nav_title: 'Impressum',
     footer_nav_title: 'Impressum',
-    description: 'Rechtliche Hinweise',
+    description: 'Impressum',
     sidebar_text: 'Haben Sie Fragen? Rufen Sie uns an unter',
   },
   legal_merchants: {
     title: 'Allgemeine Geschäftsbedingungen (AGB)',
     nav_title: 'AGB',
     footer_nav_title: 'AGB',
-    description: 'Legal',
+    description: 'AGB',
   },
   legal_privacy: {
     title: 'Datenschutzerklärung',
@@ -209,9 +209,9 @@ export default {
     description: 'Datenschutzerklärung',
   },
   legal_restrictions: {
-    title: 'Our terms of service - Restrictions',
+    title: 'Verbotene Aktivitäten',
     nav_title: 'Verbotene Aktivitäten',
-    description: 'Legal',
+    description: 'Verbotene Aktivitäten',
   },
   security: {
     title: 'Sicherheit',
