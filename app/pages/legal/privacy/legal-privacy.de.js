@@ -95,7 +95,7 @@ export default class LegalPrivacyDe extends React.Component {
           Sie können eine Kopie der personenbezogenen Daten, die wir über Sie speichern und verwenden,
           verlangen und die Herkunft und etwaige Empfänger hiervon sowie den Zweck etwaiger erfolgter Datenbearbeitung von uns erfahren.
           Für weitere Informationen kontaktieren Sie uns bitte per E-Mail unter <Href to='email'
-          className='u-link-color-p u-text-underline' itemProp='email' /> mit Betreff ‚Auskunftsersuchen einer betroffenen Person‘.
+          className='u-link-color-p u-text-underline' itemProp='email' /> mit Betreff ’Auskunftsersuchen einer betroffenen Person’.
           Möglicherweise werden Sie aufgefordert werden, weitere Nachweise bezüglich Ihrer Identität vorzulegen
           (z. B. Kopie des Personalausweises des Nutzers), bevor Sie eine Antwort erhalten, damit Ihre Identität überprüft werden kann.
         </p>

@@ -2,6 +2,7 @@ import React from 'react';
 import Page from '../../components/page/page';
 import SecurityEn from './security.en';
 import SecurityFr from './security.fr';
+import SecurityDe from './security.de';
 import Message from '../../components/message/message';
 import SecurityIcon from '../../icons/svg/security';
 
@@ -27,6 +28,7 @@ export default class Security extends React.Component {
 
         <SecurityEn />
         <SecurityFr />
+        <SecurityDe />
       </Page>
     );
   }

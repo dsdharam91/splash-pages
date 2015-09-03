@@ -137,6 +137,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/securite',
       },
+      de: {
+        path: '/sicherheit',
+      },
     },
   ],
   [Features, { name: 'features' }, {
@@ -360,7 +363,7 @@ export const config = Immutable.fromJS([
         path: '/legal',
       },
       de: {
-        path: '/impressum',
+        path: '/rechtliches',
       },
     },
   ],
@@ -376,6 +379,9 @@ export const config = Immutable.fromJS([
       },
        fr: {
         path: '/legal/marchands',
+      },
+      de: {
+        path: '/rechtliches/agb',
       },
     },
   ],
@@ -410,6 +416,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/legal/activites-restreintes',
       },
+      de: {
+        path: '/rechtliches/verbotene-aktivitaeten',
+      },
     },
   ],
   [LegalPrivacy, { name: 'legal_privacy', category: 'legal' }, {
@@ -420,7 +429,7 @@ export const config = Immutable.fromJS([
         path: '/legal/politique-de-confidentialite',
       },
       de: {
-        path: '/impressum/datenschutz',
+        path: '/rechtliches/datenschutz',
       },
     },
   ],
