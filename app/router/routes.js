@@ -24,10 +24,6 @@ import SeniorAccountExecutive from '../pages/about/jobs/positions/senior-account
 import ProductEngineer from '../pages/about/jobs/positions/product-engineer';
 import DeveloperCommunityManager from '../pages/about/jobs/positions/developer-community-manager';
 import EngineeringInterships from '../pages/about/jobs/positions/engineering-internships';
-import CustomerSupportFrance from '../pages/about/jobs/positions/customer-support-fr';
-import CountryLeadNetherlandsBelgium from '../pages/about/jobs/positions/country-lead-nl-be';
-import CountryLeadSpain from '../pages/about/jobs/positions/country-lead-es';
-import CountryLeadSweden from '../pages/about/jobs/positions/country-lead-se';
 import Designers from '../pages/about/jobs/positions/designers';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import WebOperationsEngineer from '../pages/about/jobs/positions/web-operations-engineer';
@@ -227,9 +223,6 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/jobs',
       },
-      fr: {
-        path: '/a-propos/carrieres',
-      },
     },
   ],
   [ProductEngineer, { name: 'jobs_product_engineer', category: 'jobs.engineering' }, {
@@ -265,24 +258,6 @@ export const config = Immutable.fromJS([
   [Designers, { name: 'jobs_designers', category: 'jobs.ux_design' }, {
       en: {
         path: '/about/jobs/designers',
-      },
-    },
-  ],
-  [CountryLeadNetherlandsBelgium, { name: 'jobs_country_lead_nl_be', category: 'jobs.country_leads' }, {
-      en: {
-        path: '/about/jobs/country-lead-nl-be',
-      },
-    },
-  ],
-  [CountryLeadSpain, { name: 'jobs_country_lead_es', category: 'jobs.country_leads' }, {
-      en: {
-        path: '/about/jobs/country-lead-es',
-      },
-    },
-  ],
-  [CountryLeadSweden, { name: 'jobs_country_lead_se', category: 'jobs.country_leads' }, {
-      en: {
-        path: '/about/jobs/country-lead-se',
       },
     },
   ],
@@ -331,15 +306,6 @@ export const config = Immutable.fromJS([
   [CustomerSupport, { name: 'jobs_customer_support', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support',
-      },
-    },
-  ],
-  [CustomerSupportFrance, { name: 'jobs_customer_support_france', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/customer-support-fr',
-      },
-      fr: {
-        path: '/about/jobs/service-client',
       },
     },
   ],

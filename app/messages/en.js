@@ -357,9 +357,6 @@ export default {
     engineering: {
       title: 'Engineering',
     },
-    country_leads: {
-      title: 'Country Leads',
-    },
     sales: {
       title: 'Sales',
     },
@@ -400,18 +397,6 @@ export default {
     title: 'Designers',
     description: '',
   },
-  jobs_country_lead_nl_be: {
-    title: 'Netherlands & Belgium',
-    description: '',
-  },
-  jobs_country_lead_es: {
-    title: 'Spain',
-    description: '',
-  },
-  jobs_country_lead_se: {
-    title: 'Sweden',
-    description: '',
-  },
   jobs_senior_account_executive: {
     title: 'Senior Account Executive',
     description: '',
@@ -442,10 +427,6 @@ export default {
   },
   jobs_customer_support: {
     title: 'Customer Support',
-    description: '',
-  },
-  jobs_customer_support_france: {
-    title: 'French Customer Support',
     description: '',
   },
   jobs_global_expansion_lead: {
