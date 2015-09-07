@@ -288,9 +288,9 @@ export default class ProDe extends React.Component {
                 id='track-cta-try-pro-dash' className='btn btn--hollow'>Testen Sie Pro gratis</a>
                 <hr className='u-margin-Vxxl' />
                 <p className='u-color-p'>
-                  <strong>Sie möchten mit jemandem sprechen?</strong><br />
-                  Rufen Sie unsere Experten an unter <Message pointer='phone_local' />.<br />
-                  Wir sind zwischen 10.00 und 19.00 Uhr für Sie da, Montag bis Freitag.
+                  <strong>Möchten Sie uns lieber persönlich sprechen?</strong><br />
+                  Dann lassen Sie sich von uns beraten unter <Message pointer='phone_local' />.<br />
+                  Wir sind montags bis freitags von 10 bis 19 Uhr für Sie da.
                 </p>
               </div>
             </div>

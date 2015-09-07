@@ -14,7 +14,7 @@ export default {
   },
   cta: {
     basic: 'Ziehen Sie noch heute Zahlungen ein',
-    pro: 'Kontakt',
+    pro: 'Fragen Sie uns',
     signup: 'Jetzt anmelden',
     more: 'Erfahren Sie mehr',
   },
