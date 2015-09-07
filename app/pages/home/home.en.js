@@ -63,7 +63,7 @@ export default class HomeEn extends React.Component {
                   <SecurityIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Military grade-secuirty
+                  Military-grade secuirty
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                   GoCardless encrypts all sensitive information & is FCA regulated
