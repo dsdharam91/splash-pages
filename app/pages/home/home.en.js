@@ -1,7 +1,6 @@
 import React from 'react';
 import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
-import Message from '../../components/message/message';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
 import HowDdWorks from '../../components/how-dd-works/how-dd-works';
