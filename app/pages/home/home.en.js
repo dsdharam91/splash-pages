@@ -3,19 +3,14 @@ import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
-import HowDdWorks from '../../components/how-dd-works/how-dd-works';
-import Modal from '../../components/modal/modal';
 
-import MobileIcon from '../../icons/svg/mobile';
 import CheckListIcon from '../../icons/svg/checklist';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
 import TickSquareIcon from '../../icons/svg/tick-square';
 import ProIcon from '../../icons/svg/pro';
 import ShopIcon from '../../icons/svg/shop';
 import IntegrationsIcon from '../../icons/svg/integrations';
-import SecurityIcon from '../../icons/svg/security';
 import UsersIcon from '../../icons/svg/users';
-import MoneyHandIcon from '../../icons/svg/money-hand';
 
 export default class HomeEn extends React.Component {
   displayName = 'HomeEn'
@@ -25,9 +20,9 @@ export default class HomeEn extends React.Component {
       <Translation locales='en'>
         <div className='site-container u-text-center u-padding-Vxxl' id='learn-more'>
           <div className='u-padding-Vxl'>
-            <div className='u-size-2of3 u-center'>
+            <div className='u-center'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                Powering thousands, processing billions
+                Our global payments network has processed more than $1bn
               </h2>
             </div>
             <div className='grid u-margin-Tl u-padding-Tm'>
@@ -37,75 +32,13 @@ export default class HomeEn extends React.Component {
                 <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  12,000+ merchants
+                  12k+ merchants
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                   Over 12,000 merchants power their payments with GoCardless
                 </p>
               </div>
 
-              <div className='grid__cell u-size-1of3 u-text-center'>
-                <figure className='svg-icon u-center'>
-                  <MoneyHandIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
-                  <MoneyHandIcon className='svg-icon__image u-fill-dark-gray' />
-                </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Over $1bn transactions
-                </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  We process more than $1 billion every year for our customers
-                </p>
-              </div>
-
-              <div className='grid__cell u-size-1of3 u-text-center'>
-                <figure className='svg-icon u-center'>
-                  <SecurityIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                  <SecurityIcon className='svg-icon__image u-fill-dark-gray' />
-                </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Military-grade secuirty
-                </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  GoCardless encrypts all sensitive information & is FCA regulated
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr className='u-margin-An' />
-        <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
-          <div className='site-container u-padding-Txl'>
-            <div className='u-size-1of2 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
-                Trusted by thousands of businesses
-              </h2>
-            </div>
-            <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
-              <img src='/images/logos/pro-logos@2x.png' />
-            </div>
-          </div>
-        </div>
-        <hr className='u-margin-An' />
-        <div className='site-container u-text-center u-padding-Vxxl' id='learn-more'>
-          <div className='u-padding-Vxl'>
-            <div className='u-size-2of3 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                Bringing Direct Debit into the 21st century
-              </h2>
-            </div>
-            <div className='grid u-margin-Tl u-padding-Tm'>
-              <div className='grid__cell u-size-1of3 u-text-center'>
-                <figure className='svg-icon u-center'>
-                  <MobileIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
-                  <MobileIcon className='svg-icon__image u-fill-dark-gray' />
-                </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Built for online
-                </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Whether it's our simple dashboard or our API, you're in control
-                </p>
-              </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
                   <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
@@ -133,6 +66,7 @@ export default class HomeEn extends React.Component {
                   </p>
                 </div>
               </IfLocale>
+
               <IfLocale domesticScheme='bacs'>
                 <div className='grid__cell u-size-1of3 u-text-center'>
                   <figure className='svg-icon u-center'>
@@ -147,20 +81,7 @@ export default class HomeEn extends React.Component {
                   </p>
                 </div>
               </IfLocale>
-
             </div>
-
-            <IfLocale domesticScheme='bacs'>
-              <p className='u-color-p u-margin-Txxl u-padding-Tm'>
-                Want to learn more about
-                Direct Debit?
-              </p>
-              <Modal toggle={(
-                <a href=''>Find out the basics</a>
-              )}>
-                <HowDdWorks />
-              </Modal>
-            </IfLocale>
           </div>
         </div>
         <Translation locales={['en-GB','en-IE']}>
@@ -209,6 +130,19 @@ export default class HomeEn extends React.Component {
             </div>
           </div>
         </Translation>
+        <hr className='u-margin-An' />
+        <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
+          <div className='site-container u-padding-Txl'>
+            <div className='u-size-1of2 u-center'>
+              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+                Trusted by thousands of businesses
+              </h2>
+            </div>
+            <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
+              <img src='/images/logos/pro-logos@2x.png' />
+            </div>
+          </div>
+        </div>
         <hr className='u-margin-An' />
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Vxl'>
