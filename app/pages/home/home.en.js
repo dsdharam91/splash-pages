@@ -22,7 +22,7 @@ export default class HomeEn extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-center'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                Our global payments network has processed more than $1bn
+                Our global payments network has processed over $1 billion
               </h2>
             </div>
             <div className='grid u-margin-Tl u-padding-Tm'>
@@ -32,10 +32,10 @@ export default class HomeEn extends React.Component {
                 <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  12k+ merchants
+                  12,000+ merchants
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Over 12,000 merchants power their payments with GoCardless
+                  Powering payments for companies across the UK and europe
                 </p>
               </div>
 
@@ -84,10 +84,23 @@ export default class HomeEn extends React.Component {
             </div>
           </div>
         </div>
+        <hr className='u-margin-An' />
+        <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
+          <div className='site-container u-padding-Txl'>
+            <div className='u-size-1of2 u-center'>
+              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+                Used by these great companies
+              </h2>
+            </div>
+            <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
+              <img src='/images/logos/pro-logos@2x.png' />
+            </div>
+          </div>
+        </div>
         <Translation locales={['en-GB','en-IE']}>
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
-            <h2 className='u-text-l u-text-heading u-colo-heading u-text-light u-margin-Tl'>
+            <h2 className='u-text-l u-text-heading u-color-heading u-text-light u-margin-Tl'>
               What are you looking for?
             </h2>
             <div className='product-grid grid u-margin-Vxxl'>
@@ -130,19 +143,6 @@ export default class HomeEn extends React.Component {
             </div>
           </div>
         </Translation>
-        <hr className='u-margin-An' />
-        <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
-          <div className='site-container u-padding-Txl'>
-            <div className='u-size-1of2 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
-                Trusted by thousands of businesses
-              </h2>
-            </div>
-            <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
-              <img src='/images/logos/pro-logos@2x.png' />
-            </div>
-          </div>
-        </div>
         <hr className='u-margin-An' />
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Vxl'>
