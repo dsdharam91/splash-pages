@@ -108,7 +108,7 @@ export default {
     explainer: 'Volle Kontrolle über Lastschriften',
   },
   partners: {
-    title: 'Partner Apps & Software Integration',
+    title: 'Partner werden',
     nav_title: 'Werden Sie Partner',
     link_title: 'Partner',
     description: 'Werden Sie Partner von GoCardless und lassen Sie Händler Zahlungen über Ihre Software einziehen. Wir arbeiten mit FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube und vielen weiteren Partnern.',

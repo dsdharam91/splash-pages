@@ -213,7 +213,7 @@ export default class PartnersDe extends React.Component {
         <hr className='u-margin-An' />
         <div className='u-padding-Txxl'>
           <div className='site-container u-padding-Txl'>
-            <div className='grid__cell u-size-1of2 partners-page__billing-text'>
+            <div className='grid__cell u-size-1of2 partners-page__billing-text u-margin-Txs'>
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bl'>
                 Finanz- und Rechnungswesen
               </h2>
@@ -293,10 +293,10 @@ export default class PartnersDe extends React.Component {
                     <CharityIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
-                    Wohltätigkeitsorganisationen
+                    Wohltätige Organisationen
                   </h2>
                   <p className='u-text-s u-color-p u-margin-Txs'>
-                    Helfen Sie Wohltätigkeitsorganisationen beim Sammeln von Spenden.
+                    Helfen Sie wohltätigen Einrichtungen und Hilfsorganisationen beim Sammeln von Spenden.
                   </p>
                 </div>
               </div>
