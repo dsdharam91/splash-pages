@@ -46,7 +46,7 @@ export default class Stories extends React.Component {
                 </Link>
                 <Link to='stories_the_french_talents' className='grid__cell u-text-center u-size-1of2
                 u-link-clean u-padding-Lxs u-padding-Rn'>
-                  <div className='stories-spotlight__item stories-spotlight__item--crossfit-hackney u-relative u-padding-Vl'>
+                  <div className='stories-spotlight__item stories-spotlight__item--french-talents u-relative u-padding-Vl'>
                     <div className='stories-spotlight__item-text u-margin-Vl'>
                       <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
                         “Réduire de 50% les retards de paiements a aidé à améliorer la trésorerie et
