@@ -18,7 +18,7 @@ export default class Stories extends React.Component {
                 </h1>
                 <div className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
                   Des startups aux multi-nationales, GoCardless<br />
-                  aident des milliers d'entreprises chaque jour.
+                  aide des milliers d'entreprises chaque jour.
                 </div>
               </div>
             </div>
@@ -49,7 +49,7 @@ export default class Stories extends React.Component {
                   <div className='stories-spotlight__item stories-spotlight__item--crossfit-hackney u-relative u-padding-Vl'>
                     <div className='stories-spotlight__item-text u-margin-Vl'>
                       <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
-                        “En finir avec les retards de paiements a aidé à améliorer la trésorerie et
+                        “Réduire de 50% les retards de paiements a aidé à améliorer la trésorerie et
                         a permis à nos équipes de se concenter sur des activités à plus forte valeur ajoutée.”
                       </p>
                       <div className='u-color-invert u-margin-Tm'>
