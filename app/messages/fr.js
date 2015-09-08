@@ -17,7 +17,7 @@ export default {
   },
   hero: {
     header: 'Simplifions les paiements récurrents',
-    desc: 'GoCardless rend le prélèvement bancaire Européen simple pour tous, des start-ups aux grandes entreprises.',
+    desc: 'GoCardless rend le prélèvement bancaire européen simple pour tous, des start-ups aux grandes entreprises.',
   },
   cta: {
     basic: 'Commencez à prendre des paiements',
@@ -33,7 +33,7 @@ export default {
   signup_cta: {
     main: 'Inscrivez-vous en 2 minutes et commencez à prélever aujourd‘hui',
     button_text: 'Commencez à prélever',
-    description: 'Pas de coûts mis en place, pas de frais cachés, aucun engagement',
+    description: 'Pas de coûts de mise en place, pas de frais cachés, aucun engagement',
   },
   contact_types: ['sales'],
   postal_address: {
@@ -275,4 +275,18 @@ export default {
   signup: {
     path: 'https://manage.gocardless.com/signup',
   },
+  stories: {
+    title: 'Références',
+    nav_title: 'Références',
+    description: 'Références',
+  },
+  stories_1001_menus: {
+    title: '1001 Menus',
+    description: 'x',
+  },
+  stories_the_french_talents: {
+    title: 'The French Talents',
+    description: 'x',
+  },
 };
+

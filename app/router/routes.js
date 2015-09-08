@@ -85,6 +85,8 @@ import StoriesRockChoir from '../pages/stories/stories/rock-choir';
 import StoriesSpencerHockey from '../pages/stories/stories/spencer-hockey';
 import StoriesFoundationOfHearts from '../pages/stories/stories/foundation-of-hearts';
 import StoriesGreaterAnglia from '../pages/stories/stories/greater-anglia';
+import Stories1001Menus from '../pages/stories/stories/1001-menus';
+import StoriesTheFrenchTalents from '../pages/stories/stories/the-french-talents';
 
 export var homeRoute = 'home';
 
@@ -700,6 +702,9 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/stories',
       },
+      fr: {
+        path: '/references',
+      },
     },
   ],
   [StoriesHasBeanCoffee, { name: 'stories_has_bean_coffee', category: 'stories' }, {
@@ -747,6 +752,18 @@ export const config = Immutable.fromJS([
   [StoriesGreaterAnglia, { name: 'stories_greater_anglia', category: 'stories' }, {
       'en-GB': {
         path: '/stories/greater-anglia',
+      },
+    },
+  ],
+  [Stories1001Menus, { name: 'stories_1001_menus', category: 'stories' }, {
+      fr: {
+        path: '/references/1001-menus',
+      },
+    },
+  ],
+  [StoriesTheFrenchTalents, { name: 'stories_the_french_talents', category: 'stories' }, {
+      fr: {
+        path: '/references/the-french-talents',
       },
     },
   ],
