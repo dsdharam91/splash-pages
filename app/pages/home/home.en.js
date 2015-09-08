@@ -35,7 +35,7 @@ export default class HomeEn extends React.Component {
                   12,000+ merchants
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Powering payments for companies across the UK and europe
+                  Powering payments for companies across the UK and Europe
                 </p>
               </div>
 
