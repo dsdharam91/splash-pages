@@ -37,10 +37,10 @@ export default class HomeDe extends React.Component {
                   <MobileIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Gemacht für online
+                  Schnelle Einrichtung
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                 Ob durch unsere Online-Übersicht oder mittels unserer API, Sie haben volle Kontrolle
+                 Ziehen Sie bereits in wenigen Minuten die ersten Zahlungen Ihrer Kunden ein
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -52,7 +52,7 @@ export default class HomeDe extends React.Component {
                   Voll automatisiert
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Zeit sparen, menschliche Fehler eliminieren und fehlgeschlagene Zahlungen minimieren
+                  Zeit sparen, menschliche Fehler eliminieren und fehlschlagende Zahlungen vermindern
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -61,10 +61,10 @@ export default class HomeDe extends React.Component {
                   <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Deutschland &amp; Europa
+                  Transparente Gebühren
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Akzeptieren Sie SEPA Lastschriften in Deutschland sowie in der gesamten Eurozone
+                  Sie zahlen die Gebühren nur für erfolgreiche Transaktionen und nicht für Rücklastschriften
                 </p>
               </div>
             </div>

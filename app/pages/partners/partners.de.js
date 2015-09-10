@@ -30,9 +30,9 @@ export default class PartnersDe extends React.Component {
             <div className='page-hero__inner'>
               <div className='page-hero__text'>
                 <h1 className='u-text-heading u-color-invert u-text-light u-padding-Tm'>Helfen Sie Ihren
-                Kunden Zahlungen einzuziehen</h1>
+                Kunden, Zahlungen einzuziehen</h1>
                   <p className='u-text-heading-light u-text-m u-color-invert u-padding-Vs'>
-                    Werden Sie Partner von GoCardless und erleichtern Sie es Ihren Kunden, wiederkehrende Zahlungen in
+                    Werden Sie Partner von GoCardless und erleichtern Sie Ihren Kunden, wiederkehrende Zahlungen in
                     Deutschland und anderen Ländern einzuziehen
                   </p>
                </div>
@@ -102,7 +102,7 @@ export default class PartnersDe extends React.Component {
                       Stärken Sie Ihre Kundenbindung
                     </h2>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      Bauen Sie langfristige Beziehungen zu Ihren Kunden auf, indem Sie sie mit Ihrer Lösung erfreuen.
+                      Bauen Sie langfristige Beziehungen zu Ihren Kunden auf, indem Sie sie mit Ihrer Lösung begeistern.
                     </p>
                   </div>
                   <div className='grid__cell u-text-center u-size-1of3'>
@@ -146,7 +146,7 @@ export default class PartnersDe extends React.Component {
                 </h2>
                 <p className='u-text-s u-color-p u-margin-Vxs'>
                   Keine Gebühren für Einrichtung oder fehlgeschlagene Lastschriften, keine monatlichen Gebühren.
-                  <br/> Nur 1 % pro erfolgreicher Transaktion und höchstens <Message pointer="pricing.cost_cap" />.
+                  <br/> Nur 1  % pro erfolgreicher Transaktion und höchstens <Message pointer="pricing.cost_cap" />.
                 </p>
                 <Link to='contact_sales'
                 query={{ s: 'partners' }}

@@ -2,6 +2,7 @@ import React from 'react';
 import FaqProDashboardPage from '../faq-pro-dashboard-page';
 import FaqProDashboardMandateCreationEn from './faq-pro-dashboard-mandate-creation.en';
 import FaqProDashboardMandateCreationFr from './faq-pro-dashboard-mandate-creation.fr';
+import FaqProDashboardMandateCreationDe from './faq-pro-dashboard-mandate-creation.de';
 
 export default class FaqProDashboardMandateCreation extends React.Component {
   displayName = 'FaqProDashboardMandateCreation'
@@ -11,6 +12,7 @@ export default class FaqProDashboardMandateCreation extends React.Component {
       <FaqProDashboardPage>
         <FaqProDashboardMandateCreationEn />
         <FaqProDashboardMandateCreationFr />
+        <FaqProDashboardMandateCreationDe />
       </FaqProDashboardPage>
     );
   }

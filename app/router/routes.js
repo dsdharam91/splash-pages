@@ -730,6 +730,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/tableau-de-bord-pro',
       },
+      de: {
+        path: '/faq/dashboard',
+      },
     },
   ],
   [FaqProDashboardMandateCreation, { name: 'faq_pro_dashboard_mandate_creation', category: 'faq.pro_dashboard' }, {
@@ -741,6 +744,9 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-mandat',
+      },
+      de: {
+        path: '/faq/dashboard/mandate-erstellen',
       },
     },
   ],
@@ -754,6 +760,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/tableau-de-bord-pro/export-mandat',
       },
+      de: {
+        path: '/faq/dashboard/mandate-exportieren',
+      },
     },
   ],
   [FaqProDashboardPaymentCreation, { name: 'faq_pro_dashboard_payment_creation', category: 'faq.pro_dashboard' }, {
@@ -765,6 +774,9 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-paiement',
+      },
+      de: {
+        path: '/faq/dashboard/zahlungen-erstellen',
       },
     },
   ],
@@ -778,6 +790,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-abonnement',
       },
+     de: {
+        path: '/faq/dashboard/abonnements-erstellen',
+      },
     },
   ],
   [FaqProDashboardPaymentTracking, { name: 'faq_pro_dashboard_payment_tracking', category: 'faq.pro_dashboard' }, {
@@ -789,6 +804,9 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/faq/tableau-de-bord-pro/suivi-paiements',
+      },
+     de: {
+        path: '/faq/dashboard/zahlungen-verfolgen',
       },
     },
   ],
@@ -802,6 +820,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/tableau-de-bord-pro/remboursement-paiement',
       },
+      de: {
+        path: '/faq/dashboard/zahlungen-erstatten',
+      },
     },
   ],
   [FaqProDashboardPaymentRetry, { name: 'faq_pro_dashboard_payment_retry', category: 'faq.pro_dashboard' }, {
@@ -814,6 +835,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/tableau-de-bord-pro/representation-paiements',
       },
+      de: {
+        path: '/faq/dashboard/zahlungen-wiederversuchen',
+      },
     },
   ],
   [FaqProDashboardPayoutTracking, { name: 'faq_pro_dashboard_payout_tracking', category: 'faq.pro_dashboard' }, {
@@ -825,6 +849,9 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/faq/tableau-de-bord-pro/suivi-encaissements',
+      },
+     de: {
+        path: '/faq/dashboard/auszahlungen-verfolgen',
       },
     },
   ],
