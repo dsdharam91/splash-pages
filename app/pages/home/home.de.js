@@ -37,7 +37,7 @@ export default class HomeDe extends React.Component {
                   <MobileIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Schnelle Einrichtung
+                  Schnelles Einrichten
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                  Ziehen Sie bereits in wenigen Minuten die ersten Zahlungen Ihrer Kunden ein
