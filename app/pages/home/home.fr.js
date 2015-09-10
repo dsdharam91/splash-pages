@@ -207,7 +207,7 @@ export default class HomeFr extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <Href to='signup.path' id='track-cta-sign-up' className='btn'>Commencez à prendre des paiements</Href>
-              <p className='u-color-p u-margin-Ts'>Pas de coûts mis en place, pas de frais cachés, aucun engagement</p>
+              <p className='u-color-p u-margin-Ts'>Offre sans engagement, aucun coût d'installation ni de frais caché</p>
             </div>
           </div>
         </IfLocale>
