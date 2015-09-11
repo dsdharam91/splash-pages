@@ -146,7 +146,7 @@ export default class PartnersDe extends React.Component {
                 </h2>
                 <p className='u-text-s u-color-p u-margin-Vxs'>
                   Keine Gebühren für Einrichtung oder fehlgeschlagene Lastschriften, keine monatlichen Gebühren.
-                  <br/> Nur 1  % pro erfolgreicher Transaktion und höchstens <Message pointer="pricing.cost_cap" />.
+                  <br/> Nur 1 % pro erfolgreicher Transaktion und höchstens <Message pointer="pricing.cost_cap" />.
                 </p>
                 <Link to='contact_sales'
                 query={{ s: 'partners' }}

@@ -17,13 +17,13 @@ export default class FaqProDashboardMandateExportDe extends React.Component {
           Wählen Sie den Kunden aus, dessen Mandat Sie speichern möchten, und klicken Sie auf das Mandat:
         </p>
 
-        <img src='/images/faq/de/mandate-id.png' />
+        <img src='/images/faq/en/mandate-id.png' />
 
         <p className='para'>
           Jetzt können Sie das Mandat im PDF-Format speichern, indem Sie “Export” aus den Optionen oben rechts wählen:
         </p>
 
-        <img src='/images/faq/de/mandate-export-buttons.png' />
+        <img src='/images/faq/en/mandate-export-buttons.png' />
 
         <p className='para'>
           Darüber hinaus können Sie die Sprache des Mandats wählen:

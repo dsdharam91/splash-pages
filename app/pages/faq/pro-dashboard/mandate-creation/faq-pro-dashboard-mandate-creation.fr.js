@@ -23,7 +23,7 @@ export default class FaqProDashboardMandateCreationFr extends React.Component {
           importions. Contactez-nous également si vous souhaitez utiliser des mandats papier ou par téléphone.
         </p>
 
-        <img src='/images/faq/fr/create-customer.png' />
+        <img src='/images/faq/en/create-customer.png' />
 
         <p className='para'>
           Ce lien permet à vos clients d’indiquer leurs données bancaires de manière sécurisée (dans la langue

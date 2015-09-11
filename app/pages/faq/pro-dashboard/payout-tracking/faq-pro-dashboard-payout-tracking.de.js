@@ -20,7 +20,7 @@ export default class FaqProDashboardPayoutTrackingDe extends React.Component {
          className='u-link-color-p u-text-underline'>Payouts</a> können Sie Ihre Zahlungseingänge verfolgen.
         </p>
 
-        <img src='/images/faq/de/payout.png' />
+        <img src='/images/faq/en/payout.png' />
 
         <p className='para'>
           Für jede solche Auszahlung geben wir eine Referenz an, die auch auf Ihrem Kontoauszug aufgeführt wird (hier: W-ZFQSSPNDR689DW).

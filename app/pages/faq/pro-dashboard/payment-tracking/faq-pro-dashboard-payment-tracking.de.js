@@ -36,20 +36,20 @@ export default class FaqProDashboardPaymentTrackingDe extends React.Component {
           So sieht die Historie einer erfolgreichen Lastschrift aus:
         </p>
 
-        <img src='/images/faq/de/payment-success.png' />
+        <img src='/images/faq/en/payment-success.png' />
 
         <p className='para'>
          So sieht die Historie einer fehlgeschlagenen Lastschrift aus:
         </p>
 
-        <img src='/images/faq/de/payment-failed.png' />
+        <img src='/images/faq/en/payment-failed.png' />
 
         <p className='para'>
           Sie können fehlgeschlagene Lastschrifteinzüge durch Klicken auf “Retry” kostenlos erneut ausführen.
           Sie zahlen keine Gebühren für fehlgeschlagene Lastschriften.
         </p>
 
-        <img src='/images/faq/de/payment-retry.png' />
+        <img src='/images/faq/en/payment-retry.png' />
 
       </Translation>
     );

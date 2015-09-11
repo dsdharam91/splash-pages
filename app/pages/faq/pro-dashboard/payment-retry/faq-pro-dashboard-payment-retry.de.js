@@ -30,13 +30,13 @@ export default class FaqProDashboardPaymentRetryDe extends React.Component {
         </ul>
 
         <p className='para'>
-          Wenn es möglich ist, eine Lastschrift erneut einzuziehen, erscheint die Schaltfläche “Retry’ oben rechts auf der Seite
+          Wenn es möglich ist, eine Lastschrift erneut einzuziehen, erscheint die Schaltfläche “Retry” oben rechts auf der Seite
           der Zahlungshistorie. Sobald Sie auf diese Schaltfläche klicken, übermitteln wir die Lastschrift sofort erneut an die
           Banken. Anschließend können Sie das neue Buchungsdatum sehen und den Zahlungsstatus in derselben Historie verfolgen
           wie die ursprüngliche Zahlung.
         </p>
 
-        <img src='/images/faq/de/payment-retry.png' />
+        <img src='/images/faq/en/payment-retry.png' />
 
         <p className='para'>
           In dieser Tabelle finden Sie alle Fehlermeldungen für fehlgeschlagene Lastschriften sowie deren Erklärung:

@@ -32,10 +32,10 @@ export default class FaqProDashboardPaymentCreationDe extends React.Component {
         <p className='para'>
          Wählen Sie im Bereich <a href='https://manage.gocardless.com/customers'
           target='_blank' className='u-link-color-p u-text-underline'>Customers</a> einen Kunden aus und klicken Sie auf
-          “Create > Payment”.
+          “Create &gt; Payment”.
         </p>
 
-        <img src='/images/faq/de/payment-create-buttons.png' />
+        <img src='/images/faq/en/payment-create-buttons.png' />
 
         <p className='para'>
           Anschließend können Sie die Details der Lastschrift angeben:

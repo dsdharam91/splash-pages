@@ -16,19 +16,19 @@ export default class FaqProDashboardPaymentRefundFr extends React.Component {
           peuvent être remboursés. Cliquez ensuite sur Refund.
         </p>
 
-        <img src='/images/faq/fr/refund-buttons.png' />
+        <img src='/images/faq/en/refund-buttons.png' />
 
         <p className='para'>
           Vous pouvez choisir le montant que vous souhaitez rembourser :
         </p>
 
-        <img src='/images/faq/fr/refund-amount.png' />
+        <img src='/images/faq/en/refund-amount.png' />
 
         <p className='para'>
           Votre remboursement sera effectué sous 48 heures et apparaîtra dans l'historique de votre paiement :
         </p>
 
-        <img src='/images/faq/fr/refund-tracking.png' />
+        <img src='/images/faq/en/refund-tracking.png' />
 
         <p className='para'>
           Ce remboursement sera déduit du prochain versement de fonds que nous enverrons sur votre compte en banque.

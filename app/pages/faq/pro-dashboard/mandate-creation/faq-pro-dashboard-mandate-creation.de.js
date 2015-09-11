@@ -22,7 +22,7 @@ export default class FaqProDashboardMandateCreationDe extends React.Component {
           Melden Sie sich ebenfalls bei uns, wenn Sie sich Mandate schriftlich oder per Telefon einholen möchten.
         </p>
 
-        <img src='/images/faq/de/create-customer.png' />
+        <img src='/images/faq/en/create-customer.png' />
 
         <p className='para'>
           Über diesen Link können Ihre Kunden ihre Bankdaten sicher übermitteln (in der Sprache ihrer Wahl).

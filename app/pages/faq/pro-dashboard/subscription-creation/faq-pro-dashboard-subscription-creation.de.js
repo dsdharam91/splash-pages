@@ -37,24 +37,24 @@ export default class FaqProDashboardSubscriptionCreationDe extends React.Compone
 
 
         <p className='para'>
-          Wählen Sie einen Kunden aus und klicken Sie auf “Create > Subscription”.
+          Wählen Sie einen Kunden aus und klicken Sie auf “Create &gt; Subscription”.
         </p>
 
-        <img src='/images/faq/de/subscription-create-buttons.png' />
+        <img src='/images/faq/en/subscription-create-buttons.png' />
 
         <p className='para'>
           Anschließend können Sie die Details des Abonnements angeben:
         </p>
         <ul className='list'>
           <li>
-            Im Feld ‘Name’ können Sie das Abonnement benennen, um später die Zahlungen zuordnen zu können
+            Im Feld “Name” können Sie das Abonnement benennen, um später die Zahlungen zuordnen zu können
             (z. B. Bezeichnung eines Plans oder einer Dienstleistung).
           </li>
           <li>
             Geben Sie den Betrag ein (höchstens 5.000 €). Der eingegebene Betrag wird regelmäßig abgebucht.
           </li>
           <li>
-            Im Feld „Reference“ können Sie den Verwendungszweck angeben, der später auf dem Kontoauszug Ihres Kunden zu sehen sein
+            Im Feld “Payment Reference“ können Sie den Verwendungszweck angeben, der später auf dem Kontoauszug Ihres Kunden zu sehen sein
             wird (abhängig von dessen Bank).
           </li>
           <li>

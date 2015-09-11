@@ -16,19 +16,19 @@ export default class FaqProDashboardPaymentRefundDe extends React.Component {
           eingezogen wurden (Status “Confirmed” oder “Paid Out’). Klicken Sie anschließend auf “Refund”.
         </p>
 
-        <img src='/images/faq/de/refund-buttons.png' />
+        <img src='/images/faq/en/refund-buttons.png' />
 
         <p className='para'>
           Geben Sie dann den Betrag ein, den Sie zurückerstatten möchten:
         </p>
 
-        <img src='/images/faq/de/refund-amount.png' />
+        <img src='/images/faq/en/refund-amount.png' />
 
         <p className='para'>
           Ihre Rückerstattung erfolgt innerhalb von 48 Stunden und wird in der Zahlungshistorie aufgeführt:
         </p>
 
-        <img src='/images/faq/de/refund-tracking.png' />
+        <img src='/images/faq/en/refund-tracking.png' />
 
         <p className='para'>
           GoCardless zieht diese Rückerstattung von der nächsten Auszahlung auf Ihr Bankkonto ab.
