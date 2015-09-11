@@ -46,6 +46,40 @@ import LegalRestrictions from '../pages/legal/restrictions/legal-restrictions';
 
 import Partners from '../pages/partners/partners';
 import PartnersClearBooks from '../pages/partners/clearbooks/partners-clearbooks';
+
+import PartnersGuide from
+  '../pages/partners/guide/introduction/partners-guide-introduction';
+import PartnersGuideOptions from
+  '../pages/partners/guide/options/partners-guide-options';
+import PartnersGuideAppIntegration from
+  '../pages/partners/guide/app-integration/partners-guide-app-integration';
+import PartnersGuideWhiteLabelIntegration from
+  '../pages/partners/guide/white-label-integration/partners-guide-white-label-integration';
+import PartnersGuideGettingStarted from
+  '../pages/partners/guide/getting-started/partners-guide-getting-started';
+import PartnersGuideTesting from '../pages/partners/guide/testing/partners-guide-testing';
+import PartnersGuideChargebacks from
+  '../pages/partners/guide/chargebacks/partners-guide-chargebacks';
+import PartnersGuideGettingPaid from
+  '../pages/partners/guide/getting-paid/partners-guide-getting-paid';
+import PartnersGuideLegal from
+  '../pages/partners/guide/legal/partners-guide-legal';
+import PartnersGuideMandates from
+  '../pages/partners/guide/mandates/partners-guide-mandates';
+import PartnersGuideNonUkPayments from
+  '../pages/partners/guide/non-uk-payments/partners-guide-non-uk-payments';
+import PartnersGuideOurPricing from
+  '../pages/partners/guide/our-pricing/partners-guide-our-pricing';
+import PartnersGuidePaymentPages from
+  '../pages/partners/guide/payment-pages/partners-guide-payment-pages';
+import PartnersGuideReporting from
+  '../pages/partners/guide/reporting/partners-guide-reporting';
+import PartnersGuideRestrictions from
+  '../pages/partners/guide/restrictions/partners-guide-restrictions';
+import PartnersGuideSecurity from
+  '../pages/partners/guide/security/partners-guide-security';
+
+
 import PartnersFreeagent from '../pages/partners/freeagent/partners-freeagent';
 import PartnersKashflow from '../pages/partners/kashflow/partners-kashflow';
 import PartnersPitchero from '../pages/partners/pitchero/partners-pitchero';
@@ -449,6 +483,102 @@ export const config = Immutable.fromJS([
   [PartnersXero, { name: 'partners_xero' }, {
       'en-GB': {
         path: '/partners/xero',
+      },
+    },
+  ],
+  [PartnersGuide, { name: 'partners_guide', category: 'partners.overview' }, {
+      'en-GB': {
+        path: '/partners/guide',
+      },
+    },
+  ],
+  [PartnersGuideOptions, { name: 'partners_guide_options', category: 'partners.overview' }, {
+      'en-GB': {
+        path: '/partners/guide/options',
+      },
+    },
+  ],
+  [PartnersGuideAppIntegration, { name: 'partners_guide_app_integration', category: 'partners.overview' }, {
+      'en-GB': {
+        path: '/partners/guide/app-integration',
+      },
+    },
+  ],
+  [PartnersGuideWhiteLabelIntegration, { name: 'partners_guide_white_label_integration', category: 'partners.overview' }, {
+      'en-GB': {
+        path: '/partners/guide/white-label-integration',
+      },
+    },
+  ],
+  [PartnersGuideGettingStarted, { name: 'partners_guide_getting_started', category: 'partners.overview' }, {
+      'en-GB': {
+        path: '/partners/guide/getting-started',
+      },
+    },
+  ],
+  [PartnersGuideTesting, { name: 'partners_guide_testing', category: 'partners.faq' }, {
+      'en-GB': {
+        path: '/partners/guide/testing',
+      },
+    },
+  ],
+  [PartnersGuidePaymentPages, { name: 'partners_guide_payment_pages', category: 'partners.faq' }, {
+      'en-GB': {
+        path: '/partners/guide/payment-pages',
+      },
+    },
+  ],
+  [PartnersGuideNonUkPayments, { name: 'partners_guide_non_uk_payments', category: 'partners.faq' }, {
+      'en-GB': {
+        path: '/partners/guide/non-uk-payments',
+      },
+    },
+  ],
+  [PartnersGuideMandates, { name: 'partners_guide_mandates', category: 'partners.faq' }, {
+      'en-GB': {
+        path: '/partners/guide/mandates',
+      },
+    },
+  ],
+  [PartnersGuideGettingPaid, { name: 'partners_guide_getting_paid', category: 'partners.faq' }, {
+      'en-GB': {
+        path: '/partners/guide/getting-paid',
+      },
+    },
+  ],
+  [PartnersGuideOurPricing, { name: 'partners_guide_our_pricing', category: 'partners.faq' }, {
+      'en-GB': {
+        path: '/partners/guide/our-pricing',
+      },
+    },
+  ],
+  [PartnersGuideChargebacks, { name: 'partners_guide_chargebacks', category: 'partners.faq' }, {
+      'en-GB': {
+        path: '/partners/guide/chargebacks',
+      },
+    },
+  ],
+  [PartnersGuideReporting, { name: 'partners_guide_reporting', category: 'partners.faq' }, {
+      'en-GB': {
+        path: '/partners/guide/reporting',
+      },
+    },
+  ],
+  [PartnersGuideSecurity, { name: 'partners_guide_security', category: 'partners.faq' }, {
+      'en-GB': {
+        path: '/partners/guide/security',
+      },
+    },
+  ],
+  [PartnersGuideRestrictions, { name: 'partners_guide_restrictions', category: 'partners.faq' }, {
+      'en-GB': {
+        path: '/partners/guide/restrictions',
+      },
+    },
+  ],
+  [PartnersGuideLegal, { name: 'partners_guide_legal', category: 'partners.faq' }, {
+      'en-GB': {
+        path: '/partners/guide/legal',
       },
     },
   ],

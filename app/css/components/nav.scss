@@ -27,6 +27,14 @@
   text-decoration: underline;
 }
 
+.nav__heading {
+  margin-top: $space-medium;
+}
+
+.nav__heading:nth-child(1) {
+  margin-top: 0;
+}
+
 @include breakpoint-medium {
   .nav__item.has-breakpoint-md {
     border-bottom: 1px solid #ddd;
