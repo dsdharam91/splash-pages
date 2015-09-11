@@ -37,20 +37,20 @@ export default class FaqProDashboardPaymentTrackingFr extends React.Component {
           Voici à quoi ressemble l'historique d'un paiement réussi :
         </p>
 
-        <img src='/images/faq/fr/payment-success.png' />
+        <img src='/images/faq/en/payment-success.png' />
 
         <p className='para'>
           L'historique d'un paiement échoué ressemble à cela :
         </p>
 
-        <img src='/images/faq/fr/payment-failed.png' />
+        <img src='/images/faq/en/payment-failed.png' />
 
         <p className='para'>
           Il vous est possible de <strong>retenter gratuitement un paiement échoué</strong> directement en cliquant “Retry”.
           Il n'y a pas de frais d'incident de paiement.
         </p>
 
-        <img src='/images/faq/fr/payment-retry.png' />
+        <img src='/images/faq/en/payment-retry.png' />
 
       </Translation>
     );

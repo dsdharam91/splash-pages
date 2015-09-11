@@ -34,7 +34,7 @@ export default class FaqProDashboardPaymentCreationFr extends React.Component {
           target='_blank' className='u-link-color-p u-text-underline'>section Customers</a>, puis cliquez sur Create &gt; Payment.
         </p>
 
-        <img src='/images/faq/fr/payment-create-buttons.png' />
+        <img src='/images/faq/en/payment-create-buttons.png' />
 
         <p className='para'>
           Vous verrez un écran sur lequel vous pouvez personaliser votre prélèvement :

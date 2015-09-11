@@ -2,6 +2,7 @@ import React from 'react';
 import FaqProDashboardPage from '../faq-pro-dashboard-page';
 import FaqProDashboardEn from './faq-pro-dashboard-setup.en';
 import FaqProDashboardFr from './faq-pro-dashboard-setup.fr';
+import FaqProDashboardDe from './faq-pro-dashboard-setup.de';
 
 export default class FaqProDashboard extends React.Component {
   displayName = 'FaqProDashboard'
@@ -11,6 +12,7 @@ export default class FaqProDashboard extends React.Component {
       <FaqProDashboardPage>
         <FaqProDashboardEn />
         <FaqProDashboardFr />
+        <FaqProDashboardDe />
       </FaqProDashboardPage>
     );
   }

@@ -7,9 +7,9 @@ export default {
     more: 'Mehr',
   },
   footer: {
-    description: 'GoCardless ist von der Financial Conduct Authority (FCA) im Vereinigten Königreich als Zahlungsdienst in der Europäischen Union authorisiert (Registrierungsnummer 597190).',
+    description: 'GoCardless ist von der Financial Conduct Authority (FCA) im Vereinigten Königreich als Zahlungsdienst in der Europäischen Union autorisiert (Registrierungsnummer 597190).',
     currently_viewing: 'Gewähltes Land',
-    cookies_message: 'Indem Sie unsere Webseite nutzen und damit agieren, stimmen Sie unseren Cookie Nutzungen zu.',
+    cookies_message: 'Indem Sie den Besuch auf unserer Webseite fortsetzen, stimmen Sie der Verwendung von Cookies zu.',
     cookies_link_text: 'Mehr dazu',
   },
   cta: {
@@ -19,8 +19,8 @@ export default {
     more: 'Erfahren Sie mehr',
   },
   basic_pricing_cta: {
-    main: 'Zahlen Sie 1%',
-    description: 'Nur 1% pro Transaktion, begrenzt bei €2.',
+    main: 'Zahlen Sie 1 %',
+    description: 'Nur 1 % pro Transaktion, begrenzt bei 2 €.',
     learn_more: 'Erfahren Sie mehr über unsere Preise',
   },
   signup_cta: {
@@ -187,6 +187,53 @@ export default {
   faq_merchants_signing_up: {
     title: 'FAQ für Händler - Anmelden',
     nav_title: 'Anmelden',
+    description: '',
+  },
+  faq_pro_dashboard: {
+    faq_title: 'Leitfaden',
+    title: 'Schritt-für-Schritt-Anleitung zur Nutzung des GoCardless-Dashboards',
+    nav_title: 'Account einrichten',
+    link_title: 'Leitfaden',
+    description: '',
+  },
+  faq_pro_dashboard_mandate_creation: {
+    title: 'Leitfaden - Mandate erstellen',
+    nav_title: 'Mandate erstellen',
+    description: '',
+  },
+  faq_pro_dashboard_mandate_export: {
+    title: 'Leitfaden - Mandate exportieren',
+    nav_title: 'Mandate exportieren',
+    description: '',
+  },
+  faq_pro_dashboard_payment_creation: {
+    title: 'Leitfaden - Zahlungen erstellen',
+    nav_title: 'Zahlungen erstellen',
+    description: '',
+  },
+  faq_pro_dashboard_subscription_creation: {
+    title: 'Leitfaden - Abonnements erstellen',
+    nav_title: 'Abonnements erstellen',
+    description: '',
+  },
+  faq_pro_dashboard_payment_refund: {
+    title: 'Leitfaden - Zahlungen zurückerstatten',
+    nav_title: 'Zahlungen zurückerstatten',
+    description: '',
+  },
+  faq_pro_dashboard_payment_tracking: {
+    title: 'Leitfaden - Zahlungen verfolgen',
+    nav_title: 'Zahlungen verfolgen',
+    description: '',
+  },
+  faq_pro_dashboard_payment_retry: {
+    title: 'Leitfaden - Zahlungen wiederholen',
+    nav_title: 'Zahlungen wiederholen',
+    description: '',
+  },
+  faq_pro_dashboard_payout_tracking: {
+    title: 'Leitfaden - Auszahlungen verfolgen',
+    nav_title: 'Auszahlungen verfolgen',
     description: '',
   },
   legal: {

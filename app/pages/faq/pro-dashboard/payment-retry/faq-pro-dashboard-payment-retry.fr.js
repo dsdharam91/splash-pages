@@ -33,7 +33,7 @@ export default class FaqProDashboardPaymentRetryFr extends React.Component {
           nouvelle date de prélèvement ainsi que suivre le statut du paiement dans le même historique que le paiement initial.
         </p>
 
-        <img src='/images/faq/fr/payment-retry.png' />
+        <img src='/images/faq/en/payment-retry.png' />
 
         <p className='para'>
           Ce tableau énumére la liste complète des rejets de paiement possibles ainsi qu'une explication du message de rejet :
