@@ -68,7 +68,7 @@ export default class PricingFr extends React.Component {
                       <b>Pour les entreprises souhaitant un contrôle total et personalisé</b>
                     </li>
                     <li className='pricing-options__list-item'>
-                      <b>+ 250 € par mois</b>, offert pour les ONGs
+                      + <b>250 € par mois</b>, aucun frais caché
                     </li>
                     <li className='pricing-options__list-item'>
                       Entreprises avec <b>> 500 paiements</b> par mois
