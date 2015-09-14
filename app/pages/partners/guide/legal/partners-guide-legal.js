@@ -25,7 +25,7 @@ export default class PartnersGuide extends React.Component {
 
         <p>
           We also offer a flat fee pricing structure for White label partners or individual merchants taking
-          higher volume of payments (typically over 500 transactions per month). These fees range from 60p-1p
+          higher volume of payments (typically over 1000 transactions per month). These fees range from 60p-1p
           per transaction and are on a per merchant basis. Get in touch directly
           at <Href to='partners_email' itemProp='email' /> to find out more.
         </p>

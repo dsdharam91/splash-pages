@@ -53,7 +53,7 @@ export default class PartnersGuideOptions extends React.Component {
         </h3>
 
         <p>If <strong>yes</strong>, please
-        complete <a href='https://www.dropbox.com/s/5icx4erz80zrdp2/Partner%20Info%20Template.xlsx?dl=0' target='_blank'>this
+        complete <a href='/partner-info-template.xlsx' target='_blank'>this
         form</a> and send it to <Href to='partners_email' itemProp='email' />. You will need
         to be sufficiently regulated to handle client monies. You will also need to be approved by our supporting bank to be
         set up as a Master Merchant within the GoCardless system.</p>
@@ -64,19 +64,19 @@ export default class PartnersGuideOptions extends React.Component {
 
         <ul>
           <li>
+            You want to do the extra work to customise the customer experience and add your own branding, such as during
+            merchant on-boarding, on customer payment pages and notifications, or having your own name on the customer’s bank statement.
+          </li>
+
+          <li>
             You already collect information from merchants to perform Anti-Money Laundering (Verification checks)? If you’re
             not sure, read our sections on verifications for <Link to='partners_guide_app_integration'>App
             integrations</Link> or <Link to='partners_guide_white_label_integration'>White label integrations</Link> to find out more.
           </li>
 
           <li>
-            You have a large number of merchants collecting fewer than 500 transactions per month, who need to be charged
+            You have a large number of merchants collecting fewer than 1000 transactions per month, who need to be charged
             below our standard fees (1% per transaction, capped at £2).
-          </li>
-
-          <li>
-            You want to do the extra work to customise the customer experience and add your own branding, such as during
-            merchant on-boarding, on customer payment pages and notifications, or having your own name on the customer’s bank statement.
           </li>
         </ul>
 
@@ -231,7 +231,7 @@ export default class PartnersGuideOptions extends React.Component {
             </td>
 
             <td>
-              1% per transaction, capped at £2 (2€). Volume discounts available for >500 payments per month, on a per merchant basis.
+              1% per transaction, capped at £2 (2€). Volume discounts available for >1000 payments per month, on a per merchant basis.
               <br/><br/>
               Partner can charge additional fees. GoCardless can deduct these or
               invoice the merchant for them.

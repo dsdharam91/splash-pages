@@ -13,7 +13,7 @@ export default class PartnersGuide extends React.Component {
 
         <p>
           We charge 1% per transaction, capped at £2 (or €2). Volume discounts are available for
-          merchants processing in excess of 1,000 payments per month. If you need us to apply for an
+          merchants processing in excess of 1000 payments per month. If you need us to apply for an
           SUN / CID on your behalf, there is a charge of £200 (€250) per month.
         </p>
 

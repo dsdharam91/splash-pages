@@ -33,6 +33,8 @@ export default class PartnersGuide extends React.Component {
           </li>
         </ul>
 
+        <h3>Why use Direct Debit?</h3>
+
         <p>
           Direct Debit is a great way to collect recurring payments. Once a customer has signed
           a Direct Debit mandate, a merchant can collect payment of any amount, on any date,
@@ -76,7 +78,7 @@ export default class PartnersGuide extends React.Component {
           guides <a href='https://gocardless.com/guides' target='_blank'>here</a>.
         </p>
 
-        <h3>Why become a GoCardless Partner?</h3>
+        <h3>Why become a GoCardless partner?</h3>
 
         <p>
           GoCardless is the UK’s leading Direct Debit provider. We’ve built a really simple way to collect payment by
@@ -141,7 +143,7 @@ export default class PartnersGuide extends React.Component {
 
         <ul>
           <li>
-            <a href='https://developer.gocardless.com/#partner-guide' target='_blank'>API docs</a>
+            <a href='https://developer.gocardless.com/pro/#partner-guide' target='_blank'>API docs</a>
           </li>
 
           <li>

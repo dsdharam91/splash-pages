@@ -1,6 +1,7 @@
 import React from 'react';
 import Page from '../../../components/page/page';
 import Message from '../../../components/message/message';
+import Href from '../../../components/href/href';
 import { PropTypes } from '../../../helpers/prop-types/prop-types';
 import rest from 'lodash/array/rest';
 import { filterRouteByCategory } from '../../../router/route-helpers';
@@ -68,7 +69,7 @@ export default class PartnersGuidePage extends React.Component {
                     <hr className='u-size-11of12' />
                     <p className='para u-padding-Txs'>
                       <Message pointer='partners.sidebar' />&nbsp;
-                      <Message pointer='partners_email' />
+                      <Href to='partners_email' />
                     </p>
                   </div>
                 </div>
