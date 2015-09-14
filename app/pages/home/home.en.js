@@ -89,7 +89,7 @@ export default class HomeEn extends React.Component {
           <div className='site-container u-padding-Txl'>
             <div className='u-size-1of2 u-center'>
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
-                Used by these great companies
+                You'll be in great company
               </h2>
             </div>
             <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
