@@ -10,7 +10,7 @@ export default class PartnersGuideGettingStarted extends React.Component {
       <PartnersGuidePage>
         <h2>Getting started</h2>
 
-        <h3>How to integrate with us</h3>
+        <h3>Develop your integration</h3>
 
         <p>
           If you’ve decided on either App integration or White label, you should get familiar with

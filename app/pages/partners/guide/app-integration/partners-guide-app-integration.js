@@ -162,7 +162,7 @@ export default class PartnersGuideAppIntegration extends React.Component {
         <h3>Merchant and partner pricing</h3>
 
         <p>
-          Cardless expects merchants to pay 1% transaction fees (capped at £2/2€). We also provide our
+          GoCardless expects merchants to pay 1% transaction fees (capped at £2/2€). We also provide our
           partners with 10% revenue share of that fee. Partners can also charge additional fees, which
           can vary on a per-payment basis.
         </p>

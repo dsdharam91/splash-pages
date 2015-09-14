@@ -12,7 +12,7 @@ export default class PartnersGuideWhiteLabelIntegration extends React.Component 
         <h3>Merchant onboarding and collecting merchant verification information</h3>
 
         <p>
-          If you choose a White label integration, then the merchant on-boarding can be handled
+          If you choose a White label integration, then the merchant onboarding can be handled
           inside your existing application. This means that you need to collect the following information
           from your merchants:
         </p>
@@ -118,7 +118,7 @@ export default class PartnersGuideWhiteLabelIntegration extends React.Component 
           </li>
 
           <li>
-            <a href='https://shop.tes.co.uk/tesshop/'>Times Educational Supplement</a>
+            <a href='https://shop.tes.co.uk/tesshop/' target='_blank'>Times Educational Supplement</a>
           </li>
 
           <li>
@@ -264,7 +264,7 @@ export default class PartnersGuideWhiteLabelIntegration extends React.Component 
 
         <p>
           To set up paperless mandates over the telephone for SEPA,
-          see <a href='https://gocardless.com/guides/sepa/telephone-mandate/'>here</a> for a full guide.
+          see <a href='https://gocardless.com/guides/sepa/telephone-mandate/' target='_blank'>here</a> for a full guide.
         </p>
 
         <p>
