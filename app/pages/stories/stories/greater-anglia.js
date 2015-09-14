@@ -31,7 +31,7 @@ export default class StoriesGreaterAnglia extends React.Component {
           </p>
         </StoryQuote>
         <StoryBigQuote heroClass='story-hero--greater-anglia' image='/images/testimonials/greater-anglia__avatar.png'
-        person='Graham Beton' position='Greater Anglia Railways'>
+        person='Graeme Beton' position='Greater Anglia Railways'>
           “GoCardless have taken all of the pain out of setting up and managing Direct Debit”
         </StoryBigQuote>
         <StoryQuote tag='Customers can now set up new season tickets entirely online'>
