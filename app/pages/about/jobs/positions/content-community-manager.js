@@ -78,8 +78,11 @@ export default class ContentCommunityManager extends React.Component {
         <p className='para'>
           This role would ideally suit someone with a degree in English or Journalism
           and 1–3 years’ brand and copywriting experience, however we welcome a
-          wide diversity of candidates &ndash; if you're unsure, please apply. Include
-          an example of your written work in your application.
+          wide diversity of candidates &ndash; if you're unsure, apply.
+        </p>
+        <p className='para'>
+          In your application, please submit one relevant example of your
+          written work in addition to your CV and cover letter.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/77453' className='btn u-margin-Vs'>
           Apply now
