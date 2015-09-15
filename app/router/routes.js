@@ -31,7 +31,6 @@ import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer';
 import CustomerRelationshipMarketer from '../pages/about/jobs/positions/customer-relationship-marketer';
 import ContentCommunityManager from '../pages/about/jobs/positions/content-community-manager';
-import GlobalExpansionLead from '../pages/about/jobs/positions/global-expansion-lead';
 import VPPeople from '../pages/about/jobs/positions/vp-people';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
@@ -342,12 +341,6 @@ export const config = Immutable.fromJS([
   [CustomerSupport, { name: 'jobs_customer_support', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support',
-      },
-    },
-  ],
-  [GlobalExpansionLead, { name: 'jobs_global_expansion_lead', category: 'jobs.business_development' }, {
-      en: {
-        path: '/about/jobs/global-expansion-lead',
       },
     },
   ],

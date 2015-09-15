@@ -517,10 +517,6 @@ export default {
     title: 'Customer Support',
     description: '',
   },
-  jobs_global_expansion_lead: {
-    title: 'Global Expansion Lead',
-    description: '',
-  },
   jobs_vp_people: {
     title: 'VP People',
     description: '',
