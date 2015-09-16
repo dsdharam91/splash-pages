@@ -38,7 +38,7 @@ export default class Stories extends React.Component {
                         L'automatisation a réduit le taux d'impayés de 50% et augmenté notre chiffre d'affaires de 90.000 €.”
                       </p>
                       <div className='u-color-invert u-margin-Tm'>
-                        Julien Balmont, 1001 Menus
+                        Julien Balmont, 1001menus
                       </div>
                     </div>
                   </div>
