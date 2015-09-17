@@ -28,8 +28,7 @@ export default class PartnersGuideGettingStarted extends React.Component {
 
         <p>
           If you have any questions, contact our developer support team
-          at <Href to='email' itemProp='email' />. We also have a
-          live chat available in your GoCardless dashboard. Our developers are on hand 9am-6pm,
+          at <Href to='email' itemProp='email' />. Our developers are on hand 9am-6pm,
           Mon-Fri to help with your technical queries.
         </p>
 

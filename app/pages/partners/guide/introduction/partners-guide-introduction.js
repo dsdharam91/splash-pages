@@ -88,7 +88,7 @@ export default class PartnersGuide extends React.Component {
         <ul>
           <li>
             <b>Simplify</b> - we’ve removed the traditional complexity of collecting Direct Debit by providing
-            a simple REST API and online dashboard allowing merchants to sign up and be start collecting payments
+            a simple REST API and online dashboard allowing merchants to sign up and start collecting payments
             in as little as 3 minutes
           </li>
 

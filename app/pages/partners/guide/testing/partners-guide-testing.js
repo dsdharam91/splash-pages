@@ -36,8 +36,7 @@ export default class PartnersGuideTesting extends React.Component {
         <h3>Where can I get technical support?</h3>
 
         <p>
-          You can email us at <Href to='email' itemProp='email' /> or chat
-          directly with the team from inside your GoCardless app. Our developers are on hand
+          You can email us at <Href to='email' itemProp='email' />. Our developers are on hand
           9am-6pm, Mon-Fri to help with your technical queries.
         </p>
 
