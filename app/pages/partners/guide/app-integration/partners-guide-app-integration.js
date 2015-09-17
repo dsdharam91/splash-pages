@@ -204,7 +204,7 @@ export default class PartnersGuideAppIntegration extends React.Component {
         </p>
 
         <ul>
-          <li>Receive the web hooks sent from GoCardless via the API</li>
+          <li>Receive the webhooks sent from GoCardless via the API</li>
           <li>Actively query the elements you want to find out about via the API</li>
           <li>Refer to the GoCardless dashboard</li>
         </ul>

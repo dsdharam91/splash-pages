@@ -34,7 +34,7 @@ export default class PartnersGuideChargebacks extends React.Component {
 
         <p>
           A customer requests a chargeback through their bank, which refunds them. The customer’s
-          bank then claims these funds from the Service User Number. In most instances, this will
+          bank then claims these funds from the Service User. In most instances, this will
           be paid out of the GoCardless client monies account. GoCardless then recuperates this from
           whomever we paid out the funds to by deducting from payouts.
         </p>
@@ -42,7 +42,7 @@ export default class PartnersGuideChargebacks extends React.Component {
         <h3>Who has liability for chargebacks?</h3>
 
         <p>
-          Under the various Direct Debit scheme rules, the Service User Number has liability for chargebacks.
+          Under the various Direct Debit scheme rules, the Service User has liability for chargebacks.
           In most instances, this is GoCardless. We then recuperate the amounts by deducting from subsequent payouts.
         </p>
 

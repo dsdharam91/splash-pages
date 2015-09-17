@@ -280,7 +280,7 @@ export default class PartnersGuideWhiteLabelIntegration extends React.Component 
         </p>
 
         <ul>
-          <li>Receive the web hooks sent from GoCardless via the API</li>
+          <li>Receive the webhooks sent from GoCardless via the API</li>
           <li>Actively query the elements you want to find out about via the API</li>
           <li>Refer to the GoCardless dashboard</li>
         </ul>
@@ -288,7 +288,7 @@ export default class PartnersGuideWhiteLabelIntegration extends React.Component 
         <p>
           In a White label integration, as your clients will not be creating GoCardless accounts, they will
           not have access to a GoCardless dashboard, and so all reporting will need to be provided to them via
-          the API. Details of our web hooks can be
+          the API. Details of our webhooks can be
           found <a href='https://developer.gocardless.com/pro/#webhooks-overview' target='_blank'>here</a>.
         </p>
 

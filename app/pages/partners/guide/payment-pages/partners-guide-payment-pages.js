@@ -62,7 +62,7 @@ export default class PartnersGuide extends React.Component {
           Any customised payment pages will need to be signed off before going live.
         </p>
 
-        <h3>Do you offer iFrames?</h3>
+        <h3>Do you offer iframes?</h3>
 
         <p>
           No - we do not offer iFraming of our payment pages as we are not sufficiently comfortable with

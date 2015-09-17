@@ -13,8 +13,9 @@ export default class PartnersGuide extends React.Component {
         <h3>How are you regulated? Is our money safe?</h3>
 
         <p>
-          We are regulated as an Authorised Payment Institution by the Financial Conduct Authority
-          and serve more businesses than any other Direct Debit provider. All money collected is held
+          GoCardless is authorised by the Financial Conduct Authority under the Payment Services Regulations
+          2009 - registration number 597190 - for the provision of payment services and serve more businesses
+          than any other Direct Debit provider. All money collected is held
           in a secure client monies account, and all clients funds are guaranteed by our supporting banks.
           For more information click <Link to='faq_merchants_security'>here</Link>.
           You can also search for “GoCardless” on the FCA
