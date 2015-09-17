@@ -469,8 +469,8 @@ export default {
     title: 'Backend Software Engineer',
    description: '',
   },
-  jobs_web_operations: {
-    title: 'Web Operations Engineer',
+  jobs_site_reliability_engineer: {
+    title: 'Site Reliability Engineer',
     description: '',
   },
   jobs_engineering_internships: {
