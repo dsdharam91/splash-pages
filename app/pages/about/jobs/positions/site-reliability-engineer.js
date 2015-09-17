@@ -38,7 +38,7 @@ export default class SiteReliabilityEngineer extends React.Component {
           <li><a href='https://gocardless.com/blog/zero-downtime-postgres-migrations-the-hard-parts/'>Dealing
           with the realities of running a relational database at scale.</a></li>
           <li>Building a high-availability PostgreSQL cluster.</li>
-          <li><a href='https://gocardless.com/blog/in-search-of-performance-how-we-shaved-200ms-off-every-post-request/'>improving
+          <li><a href='https://gocardless.com/blog/in-search-of-performance-how-we-shaved-200ms-off-every-post-request/'>Improving
           performance with investigative work.</a></li>
         </ul>
         <p className='para'>
