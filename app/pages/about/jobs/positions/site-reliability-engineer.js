@@ -36,17 +36,16 @@ export default class SiteReliabilityEngineer extends React.Component {
         <p className='para'>Some projects we have recently worked on:</p>
         <ul className='list'>
           <li><a href='https://gocardless.com/blog/zero-downtime-postgres-migrations-the-hard-parts/'>Dealing
-          with the realities of running a relational database at scale</a></li>
-          <li>Building a high-availability PostgreSQL cluster</li>
+          with the realities of running a relational database at scale.</a></li>
+          <li>Building a high-availability PostgreSQL cluster.</li>
           <li><a href='https://gocardless.com/blog/in-search-of-performance-how-we-shaved-200ms-off-every-post-request/'>improving
-          performance with investigative work</a></li>
+          performance with investigative work.</a></li>
         </ul>
         <p className='para'>
-          Over the coming months, as we continue launching our
-          service across new geographies, you’ll help solve problems like how to
-          ensure we can operate effectively across the world, and how we can continue
-          to provide a robust, reliable service as we add hundreds of new users every
-          day.
+          Over the coming months, we will be launching our service across new geographies.
+          You’ll help ensure that we can operate effectively across the world, and that we
+          continue to provide a robust, reliable service as we add hundreds of new users
+          every day.
         </p>
         <p className='para'>What you’ll do here:</p>
         <ul className='list'>
@@ -55,7 +54,7 @@ export default class SiteReliabilityEngineer extends React.Component {
           <li>Improve performance through troubleshooting and investigative work.</li>
           <li>Design and implement deployment management for our systems.</li>
           <li>Manage and monitor our platform as it grows.</li>
-          <li>Tackle every issue that comes your way when you’re on call.</li>
+          <li>Tackle the issues that come your way when you’re on call.</li>
           <li>Create Chef cookbooks to deploy and manage our services.</li>
         </ul>
 
@@ -67,24 +66,24 @@ export default class SiteReliabilityEngineer extends React.Component {
           is always something new to learn and that improvement is an iterative
           process.
         </p>
-        <p className='para'>You should apply if you have:</p>
+        <p className='para'>You should apply if:</p>
         <ul className='list'>
-          <li>experience with systems internals, and knowledge of Unix fundamentals</li>
-          <li>experience designing, analysing, and troubleshooting distributed systems</li>
-          <li>an in-depth understanding of networking theory</li>
-          <li>experience of monitoring and troubleshooting</li>
-          <li>familiarity with cloud computing systems</li>
+          <li>You have experience with systems internals, and knowledge of Unix fundamentals.</li>
+          <li>You have experience designing, analysing, and troubleshooting distributed systems.</li>
+          <li>You have an in-depth understanding of networking theory.</li>
+          <li>You have experience of monitoring and troubleshooting.</li>
+          <li>You are familiar with cloud computing systems.</li>
         </ul>
         <p className='para'>Not essential, but nice to have:</p>
         <ul className='list'>
-          <li>Formal education in Computer Science</li>
-          <li>Strong operational knowledge of PostgreSQL or similar RDBMS</li>
-          <li>Fluency in one or more of C, Python, Go, Ruby</li>
+          <li>Formal education in Computer Science.</li>
+          <li>Strong operational knowledge of PostgreSQL or similar RDBMS.</li>
+          <li>Fluency in one or more of C, Python, Go, Ruby.</li>
         </ul>
         <p className='para'>This role would ideally suit someone with previous
           experience in a similar role, however we welcome a wide diversity of
           candidates from varying backgrounds. If you’re unsure, please apply.
-          We offer competitive salary and options package commensurate with your
+          We offer a competitive salary and options package, commensurate with your
           experience.
         </p>
         <p className='para'>In your application, please include your CV and a
