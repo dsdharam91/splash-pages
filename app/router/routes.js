@@ -23,10 +23,10 @@ import BusinessDevelopmentGermany from '../pages/about/jobs/positions/business-d
 import SeniorAccountExecutive from '../pages/about/jobs/positions/senior-account-executive';
 import ProductEngineer from '../pages/about/jobs/positions/product-engineer';
 import DeveloperCommunityManager from '../pages/about/jobs/positions/developer-community-manager';
-import EngineeringInterships from '../pages/about/jobs/positions/engineering-internships';
+import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships';
 import Designers from '../pages/about/jobs/positions/designers';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
-import WebOperationsEngineer from '../pages/about/jobs/positions/web-operations-engineer';
+import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer';
 import CustomerRelationshipMarketer from '../pages/about/jobs/positions/customer-relationship-marketer';
@@ -272,13 +272,13 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [WebOperationsEngineer, { name: 'jobs_web_operations', category: 'jobs.engineering' }, {
+  [SiteReliabilityEngineer, { name: 'jobs_site_reliability_engineer', category: 'jobs.engineering' }, {
       en: {
-        path: '/about/jobs/web-operations',
+        path: '/about/jobs/site-reliability-engineer',
       },
     },
   ],
-  [EngineeringInterships, { name: 'jobs_engineering_internships', category: 'jobs.engineering' }, {
+  [EngineeringInternships, { name: 'jobs_engineering_internships', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/engineering-internships',
       },
