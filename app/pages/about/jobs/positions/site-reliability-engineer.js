@@ -22,14 +22,14 @@ export default class SiteReliabilityEngineer extends React.Component {
         <p className='para'>
           We are looking for engineers to design new systems and continually improve
           our existing systems to ensure we are resilient to failure, and can tackle
-          any complex cloud infrastructure problems as they emerge.
+          any complex infrastructure problems as they emerge.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
           As one of our Site Reliability Engineers at GoCardless you will be part
           of a small team that sets the direction of our platform and codebase.
           You’ll have ownership over your work and you will make decisions around
-          new infrastructure and which technologies are the best suited to help
+          new infrastructure and which technologies are best suited to help
           our business succeed. You will collaborate with every other team within
           engineering, from product to data, to drive engineering efforts in the company.
         </p>
@@ -84,7 +84,7 @@ export default class SiteReliabilityEngineer extends React.Component {
         <p className='para'>This role would ideally suit someone with previous
           experience in a similar role, however we welcome a wide diversity of
           candidates from varying backgrounds. If you’re unsure, please apply.
-          We offer competitive salary and options package commensurate with you
+          We offer competitive salary and options package commensurate with your
           experience.
         </p>
         <p className='para'>In your application, please include your CV and a
