@@ -155,8 +155,9 @@ export default class ProspectForm extends React.Component {
             </label>
             <select className='input--stacked'
             id='prospect_metadata_number_of_payments'
-            name='prospect[metadata][number_of_payments]'>
-              <option disabled selected>Choisissez le nombre de paiements</option>
+            name='prospect[metadata][number_of_payments]'
+            defaultValue=''>
+              <option value=''>Choisissez le nombre de paiements</option>
               <option value='0-50'>0-50</option>
               <option value='50+'>50+</option>
             </select>
