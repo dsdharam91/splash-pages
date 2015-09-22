@@ -27,6 +27,7 @@ import EngineeringInternships from '../pages/about/jobs/positions/engineering-in
 import Designers from '../pages/about/jobs/positions/designers';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
+import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer';
 import CustomerRelationshipMarketer from '../pages/about/jobs/positions/customer-relationship-marketer';
@@ -269,6 +270,12 @@ export const config = Immutable.fromJS([
   [SoftwareEngineer, { name: 'jobs_software_engineer', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/software-engineer',
+      },
+    },
+  ],
+  [DataEngineer, { name: 'jobs_data_engineer', category: 'jobs.engineering' }, {
+      en: {
+        path: '/about/jobs/data-engineer',
       },
     },
   ],

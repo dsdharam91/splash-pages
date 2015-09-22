@@ -469,6 +469,10 @@ export default {
     title: 'Backend Software Engineer',
    description: '',
   },
+  jobs_data_engineer: {
+    title: 'Data Engineer',
+    description: '',
+  },
   jobs_site_reliability_engineer: {
     title: 'Site Reliability Engineer',
     description: '',
