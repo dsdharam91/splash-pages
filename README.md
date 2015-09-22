@@ -254,13 +254,15 @@ Static app: `app/public/`
 
 ### Troubleshooting
 
-1. `npm start` fails
-    Try running `npm install`. Packages might be out of date.
+#### `npm start` fails
+Try running `npm install`. Packages might be out of date.
 
-2. Changes are not happening
+#### Changes are not happening
+
    There might be an exception in your code, check the running terminal or your chrome inspector console.
 
-3. Prospect forms are broken
+#### Prospect forms are broken
+
    You need to run the gocardless app at: `gocardless.dev:3000`
 
 ## Adding a job ad (same for any page)
@@ -289,7 +291,7 @@ jobs_hiring_assistant: {
 },
 ```
 
-# Troublshooting errors
+# Troubleshooting errors
 
 
 ## Could not find Message pointer:
