@@ -6,6 +6,8 @@ import HomeEn from './home.en';
 import HomeFr from './home.fr';
 import HomeDe from './home.de';
 import HomeSe from './home.se';
+import HomeNo from './home.no';
+import HomeNl from './home.nl';
 import IfLocale from '../../components/if-locale/if-locale';
 import Translation from '../../components/translation/translation';
 import Href from '../../components/href/href';
@@ -16,7 +18,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <div>
-        <Translation locales={['en','fr','de']}>
+        <Translation locales={['en','fr','de']} exclude={['en-AU','en-US']}>
           <Page>
             <div className='page-hero page-hero--home page-hero--large u-relative u-size-full'>
               <div className='site-container page-hero__container'>
@@ -62,9 +64,13 @@ export default class Home extends React.Component {
           </Page>
         </Translation>
 
-        <Translation locales='se'>
-          <HomeSe />
+        <Translation locales={['en-AU','en-US']}>
+          <HomeEn />
         </Translation>
+
+        <HomeSe/>
+        <HomeNo/>
+        <HomeNl/>
       </div>
     );
   }

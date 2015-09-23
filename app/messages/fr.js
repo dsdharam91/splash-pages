@@ -46,18 +46,23 @@ export default {
   phone_full: '+33 9 75 18 42 95',
   phone_local: '+33 9 75 18 42 95',
   prospect_form: {
-    name_label: 'Votre nom',
-    name_placeholder: 'Jean Dubois',
-    email_label: 'Votre email',
-    email_placeholder: 'exemple@votresociete.fr',
-    phone_label: 'Votre téléphone professionnel',
-    phone_placeholder: '0123456789',
-    submit: 'Contactez Nous',
-    success_messages: {
-      '0-100': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
-      '100-500': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
-      '500+': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
-      default: 'Merci, nous vous contacterons sous 24 heures.',
+    sales: {
+      name_label: 'Votre nom',
+      name_placeholder: 'Jean Dubois',
+      email_label: 'Votre email',
+      email_placeholder: 'exemple@votresociete.fr',
+      phone_label: 'Votre téléphone professionnel',
+      phone_placeholder: '0123456789',
+      submit: 'Contactez Nous',
+      success_messages: {
+        '0-100': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
+        '100-500': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
+        '500+': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
+        default: 'Merci, nous vous contacterons sous 24 heures.',
+      },
+    },
+    holding: {
+      submit: '',
     },
   },
   not_found: {
