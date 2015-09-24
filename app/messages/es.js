@@ -14,7 +14,7 @@ export default {
   },
   cta: {
     basic: 'Empieza a realizar Cobros',
-    pro: 'Contacta con el departamento de Ventas',
+    pro: 'Contacta Ventas',
     signup: 'Regístrate ahora',
     more: 'Descubre más',
   },
@@ -102,12 +102,12 @@ export default {
     explainer: 'Control Total sobre tus Domiciliaciones Bancarias',
   },
   partners: {
-    title: 'Partner Apps & Software Integration',
-    nav_title: 'Partner with us',
+    title: 'Asociados e Integraciones',
+    nav_title: 'Asociate con nosotros',
     link_title: 'Partners',
-    description: 'Partner up with GoCardless and let people take payments through your software. We work with FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube and more.',
-    explainer: 'Offer GoCardless to your users',
-    sidebar: 'Got a question? Get in touch with our Partnerships team at',
+    description: 'Asociate con GoCardless y permite que tus clientes puedan realizar cobros a través de tu software. Trabajamos con FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube y otros.',
+    explainer: 'Ofrece GoCardless a tus usuarios',
+    sidebar: '¿Tienes una pregunta? Ponte en contacto con nuestro equpo de Asociados en',
     overview: {
       title: 'Overview',
     },

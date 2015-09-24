@@ -21,9 +21,9 @@ export default class ProEs extends React.Component {
             <div className='site-container page-hero__container'>
               <div className='page-hero__inner'>
                 <div className='page-hero__text'>
-                  <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>Totally control Direct Debit</h1>
+                  <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'> Controla Totalmente tus Domiciliaciones</h1>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    A cutting edge platform for building your<br />recurring payments ecosystem
+                    Una plataforma de última tecnología<br /> para tu sistema de cobros recurrentes
                   </p>
                 </div>
               </div>
@@ -34,17 +34,17 @@ export default class ProEs extends React.Component {
               <ul className='u-pull-start u-margin-Txxs'>
                 <li className='sticky-nav__item'>
                   <a href='#overview' id='track-sticky-nav-overview' className='sticky-nav__link'>
-                    Overview
+                    Descripción
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
                   <a href='#features' id='track-sticky-nav-features' className='sticky-nav__link'>
-                    Features
+                    Funcionalidades
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
                   <a href='#pricing' id='track-sticky-nav-pricing' className='sticky-nav__link'>
-                    Pricing
+                    Tarifas
                   </a>
                 </li>
               </ul>
@@ -58,7 +58,7 @@ export default class ProEs extends React.Component {
               </Link>
               <a href='https://developer.gocardless.com/pro/' id='track-sticky-nav-docs'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
-                API Documentation
+                Documentación API
               </a>
             </div>
           </StickyNav>
@@ -67,13 +67,13 @@ export default class ProEs extends React.Component {
               <div className='u-padding-Vxl'>
                 <div className='u-size-3of4 u-center'>
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    Welcome to GoCardless Pro
+                    Bienvenido a GoCardless Pro
                   </h2>
                   <p className='u-text-s u-color-p u-margin-Txs'>
-                    Designed specifically for larger enterprises,
-                    GoCardless Pro combines the simplicity of our original
-                    GoCardless product with complete control over payments and customer experience.
-                    It also allows you to collect UK and SEPA Direct Debit via one simple integration.
+                    Diseñado específicamente para grandes empresas,
+                    GoCardless Pro combina la simplicidad de nuestro Gocardless original
+                    con un completo control sobre los cobros y de la experiencia de usuario.
+                    Y también te permite realizar cobros en el Reino Unido y en el espacio SEPA con una sola integración.
                   </p>
                 </div>
                 <div className='grid u-margin-Tl u-padding-Tm'>
@@ -83,11 +83,11 @@ export default class ProEs extends React.Component {
                       <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Completely white-labelled
+                      Totalmente Personalizable
                     </div>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      GoCardless Pro puts your brand at the forefront.
-                      Enjoy complete control over payment pages and email notifications to your customers.
+                      GoCardless Pro te permite poner tu logo y tu marca en todas partes. 
+                      Disfruta de un control total sobre tus páginas de pago y sobre las notificaciones por email que envies a tus usuarios.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center'>
@@ -96,12 +96,12 @@ export default class ProEs extends React.Component {
                       <DeveloperIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      A simple, modern API
+                      Una API moderna y simple
                     </div>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      All documentation for our Pro product is freely available in
-                      our <a href='https://developer.gocardless.com/pro' id='track-overview-docs'>API docs</a>.
-                      We’ve worked hard to make integrating your systems as painless as possible.
+                      Toda la documentación de Pro está disponible gratuitamente en
+                      nuestra <a href='https://developer.gocardless.com/pro' id='track-overview-docs'>documentación de la API</a>.
+                      Hemos trabajado muy duro para que la integración de tu empresa sea tan sencilla como sea posible.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>
@@ -110,11 +110,11 @@ export default class ProEs extends React.Component {
                       <MobileIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Works everywhere
+                      Funciona en todas partes
                     </div>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      We’ve made it incredibly simple to develop on top of GoCardless Pro
-                      and create the next generation of your website or mobile apps.
+                      Hemos hecho extremadamente sencillo el desarrollar sobre GoCardless Pro
+                      y crear una nueva generación de websites y de apps móviles.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>
@@ -123,18 +123,18 @@ export default class ProEs extends React.Component {
                       <SecurityIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Military grade security
+                      Cifrado de calidad Militar
                     </div>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      We’ve sweated over security so you don’t have to.
-                      We store all bank details with RSA encryption and communicate only over secure channels.
+                      Nos hemos esforzado mucho en la seguridad para que tu puedas despreocuparte.
+                      Protegemos todos los datos bancarios con encriptación RSA y nos comunicamos con canales seguros.
                     </p>
                   </div>
                 </div>
                 <p className='u-color-p u-margin-Txxl u-padding-Tm'>
-                  Want to easily try our API and
-                  dashboard? <a href='https://manage-sandbox.gocardless.com/signup'>
-                    Sign up for a free sandbox account
+                  ¿Quieres probar nuestra herramienta o API
+                  fácilemente? <a href='https://manage-sandbox.gocardless.com/signup'>
+                    Regístra una cuenta de prueba gratuita
                   </a>
                 </p>
               </div>
@@ -144,11 +144,11 @@ export default class ProEs extends React.Component {
               <div className='u-padding-Txl'>
                 <div className='u-size-1of2 u-center'>
                   <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
-                    You’re in good company
+                    Estás en buena compañía
                   </h2>
                   <p className='u-text-s u-color-p u-margin-Txs'>
-                    Every day, some of the biggest and most respected businesses
-                    trust GoCardless to power their payments
+                    Cada día, algunas de las mayores y más respetables compañías
+                    confían en GoCardless para realizar sus cobros
                   </p>
                 </div>
                 <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
@@ -161,7 +161,7 @@ export default class ProEs extends React.Component {
               <div className='u-text-center u-padding-Vxxl'>
                 <div className='site-container u-padding-Vxl'>
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    Watch a short overview of GoCardless Pro
+                    Ve una corta descripción de GoCardless Pro
                   </h2>
                   <iframe src='https://player.vimeo.com/video/116341918'
                   className='u-text-center videos-container__iframe u-margin-Vl'>
@@ -175,14 +175,14 @@ export default class ProEs extends React.Component {
                 <div className='u-size-1of2 u-center'>
                   <i className='europe-icon u-margin-Bs' />
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    Want to take payments in Europe?
+                    ¿Quieres realizar cobros por toda Europa?
                   </h2>
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
-                      GoCardless Pro is the only product that enables you to collect
-                      Direct Debit payments from the UK and the Eurozone through a single integration.
-                      With our API, your business can take payments from over 500 million people
-                      in 22 European countries.
+                      GoCardless Pro es el único producto del mercado que te permite realizar 
+                      Adeudos Domiciliados desde el Reino Unido y la Eurozona en una sola integración
+                      Con nuestra API, tu empresa podra realizar cobros de más de 500 milllones de personas 
+                      en 22 países de Europa.
                     </p>
                   </div>
                 </div>
@@ -201,7 +201,7 @@ export default class ProEs extends React.Component {
                   </h2>
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
-                      Speak with one of our payments experts to learn how GoCardless can help your business.
+                      Habla con uno de nuestros expertos en Cobros y descubre como GoCardless puede ayudar a tu negocio.
                     </p>
                   </div>
                   <Link to='contact_sales' query={{ s: 'pro' }} id='track-cta-contact-sales'
@@ -218,10 +218,10 @@ export default class ProEs extends React.Component {
               <div className='u-padding-Vxl'>
                 <div className='u-size-1of2 u-center'>
                   <h2 className='u-text-heading u-color-heading u-text-xl u-text-light u-margin-Bs'>
-                    Your dashboard
+                    Tu Panel de control
                   </h2>
                   <div className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    A simple way to manage your payments and customers
+                    La manera sencilla de controlar tus cobros y tus clientes
                   </div>
                   <hr className='u-margin-Vxxl' />
                 </div>
@@ -229,17 +229,17 @@ export default class ProEs extends React.Component {
                   <Tabs triggers={[(
                       <a href='#customer-info' id='track-dashboard-customer'
                       className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                        Customer info
+                        Información de los Clientes
                       </a>
                     ), (
                       <a href='#payment-history' id='track-dashboard-payment'
                       className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                        Payment history
+                        Historial de Cobros
                       </a>
                     ), (
                       <a href='#filtering' id='track-dashboard-admin'
                       className='tab-link u-padding-Vxxs u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                        Filtering
+                        Filtros
                       </a>
                     ),]}>
                     <div>
@@ -265,13 +265,13 @@ export default class ProEs extends React.Component {
               <div className='site-container u-padding-Vxl'>
                 <div className='u-size-2of3 u-center'>
                   <h2 className='u-text-heading u-color-heading u-text-light u-text-xl'>
-                    <Message pointer='pricing.pro_cost_per_transaction' /> per transaction
+                    <Message pointer='pricing.pro_cost_per_transaction' /> por transacción
                   </h2>
                   <p className='u-text-s u-color-p u-margin-Vxs'>
-                    Competitive rates for businesses of any size.<br />
+                    Precios competitivos para empresas de cualquier tamaño.<br />
                   </p>
                   <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
-                    Learn about our pricing
+                    Descubre más sobre nuestras tarifas
                   </Link>
                 </div>
               </div>
@@ -280,19 +280,19 @@ export default class ProEs extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-size-1of2 u-center u-padding-Vxl'>
                 <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bm'>
-                  Get in touch for a free quote
+                  Ponte en contacto para una cotización gratuita
                 </h2>
                 <Link to='contact_sales' query={{ s: 'pro' }}
                 id='track-cta-contact-sales' className='btn u-margin-Rm'>
                   <Message pointer='cta.pro' />
                 </Link>
                 <a href='https://manage-sandbox.gocardless.com/signup'
-                id='track-cta-try-pro-dash' className='btn btn--hollow'>Try Pro for free</a>
+                id='track-cta-try-pro-dash' className='btn btn--hollow'>Prueba Pro gratis</a>
                 <hr className='u-margin-Vxxl' />
                 <p className='u-color-p'>
-                  <strong>Want to talk to someone first?</strong><br />
-                  Call our payments experts on <Message pointer='phone_local' /><br />
-                  We're available 9am - 6pm Monday to Friday
+                  <strong>¿Quieres hablar con alguien primero?</strong><br />
+                  Llama a nuestros expertos en <Message pointer='phone_local' /><br />
+                  Estamos disponibles de 9.00 - 18.00 Lunes a Viernes
                 </p>
               </div>
             </div>

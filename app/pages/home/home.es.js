@@ -41,10 +41,10 @@ export default class HomeEs extends React.Component {
                   <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  UK &amp; Eurozone
+                  Reino Unido &amp; Eurozona
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Accepta cobros con las redes de domiciliación bancaria BACS y SEPA
+                  Acepta cobros con las redes de domiciliación bancaria BACS y SEPA
                 </p>
               </div>
 

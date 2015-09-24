@@ -8,8 +8,8 @@ export default {
     has_percentage_pricing: false,
   },
   hero: {
-    header: 'Cobra domiciliaciones bancarias de toda Europa',
-    desc: 'GoCardless te permite cobrar domiciliaciones bancarias del Reino Unido y Europa desde un solo lugar.',
+    header: 'Cobra Adeudos Domiciliados de toda Europa',
+    desc: 'GoCardless te permite realizar domiciliaciones del Reino Unido y Europa desde un solo lugar.',
   },
   pricing: {
     description: 'Cobra domiciliaciones bancarias por solo un 1% de cada transacción, con un máximo de €1. Para empresas grandes o medianas, hay disponibilidad de precios.',
@@ -18,6 +18,6 @@ export default {
     pro_monthly_fee: '€250',
     pro_number_of_monthly_payments: '> 500',
     per_transaction_amount_normal: '1%',
-    normal_capped_at_amount: '€100',
+    normal_capped_at_amount: '€200',
   },
 };

@@ -29,7 +29,7 @@ export default class AboutEs extends React.Component {
                 y grandes empresas como el Financial Times o el Guardian nos usan para reducir enormemente 
                 sus tasas de abandono.
               </p>
-              <p className='para'>s
+              <p className='para'>
                 Somos un pequeño equipo en Londres y, 'nos apoyan algunos de los inversores más importantes del mundo, 
                 incluyendo Balderton Capital, Accel Partners y Y Combinator.
               </p>
@@ -39,9 +39,9 @@ export default class AboutEs extends React.Component {
                 <img src='/images/press/publications-stacked.jpg' />
                 <p className='u-text-s u-color-p u-margin-Txxl'>
                   Para cualquier información de prensa, por favor contacta con <a href='mailto:press@gocardless.com'>
-                  el equipo de Relaciones Publicas de GoCardless </a>, o mira nuestro completo 
-                  <a href='https://www.dropbox.com/sh/sat8xsjntbf5mnh/AACn116IKyIWrNG7c8FnY0cYa?dl=0'>pack de prensa.
-                  </a>.
+                  el equipo de Relaciones Publicas de GoCardless</a>, o mira nuestro completo 
+                  <a href='https://www.dropbox.com/sh/sat8xsjntbf5mnh/AACn116IKyIWrNG7c8FnY0cYa?dl=0'> pack de prensa.
+                  </a>
                 </p>
               </div>
             </div>

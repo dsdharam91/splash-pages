@@ -30,29 +30,29 @@ export default class PricingEs extends React.Component {
                       <Message pointer='pricing.per_transaction_amount_normal' />
                     </h2>
                     <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
-                      Per transaction, capped at <Message pointer="pricing.cost_cap" />
+                      PPr transacción, máximo de <Message pointer="pricing.cost_cap" />
                     </p>
                   </div>
                   <ul className='pricing-options__list'>
                     <li className='pricing-options__list-item u-color-heading'>
-                      <b>Perfect for small to medium sized businesses</b>
+                      <b>Perfecto para pequeñas y medianas empresas</b>
                     </li>
                     <li className='pricing-options__list-item'>
-                      No setup costs, hidden fees, or commitments</li>
+                      Sin costes por adelantado, sin comisiones encubiertas, sin compromiso</li>
                     <li className='pricing-options__list-item'>
-                      Scale pricing available (<a href='#scale-pricing-container'>?</a>)
+                      Tarifas escalables disponibles (<a href='#scale-pricing-container'>?</a>)
                     </li>
                     <IfLinkExists to='features'>
                       <li className='pricing-options__list-item'>
-                        <Link to='features'>Find out more about GoCardless</Link>
+                        <Link to='features'>Descrubre más sobre GoCardless</Link>
                       </li>
                     </IfLinkExists>
                     <li className='pricing-options__list-button'>
                       <IfLocale hasInstantSignup>
-                        <Href to='signup.path' className='btn u-size-full'>Sign up today</Href>
+                        <Href to='signup.path' className='btn u-size-full'>Regístrate hoy</Href>
                       </IfLocale>
                       <IfLocale hasInstantSignup={false}>
-                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contact sales</Link>
+                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contacta con Ventas</Link>
                       </IfLocale>
                     </li>
                   </ul>
@@ -66,24 +66,24 @@ export default class PricingEs extends React.Component {
                     <Message pointer='pricing.pro_cost_per_transaction' />
                   </h2>
                   <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
-                    Per transaction
+                    Por transacción
                   </p>
                 </div>
                 <ul className='pricing-options__list'>
                   <li className='pricing-options__list-item u-color-heading'>
-                    <b>For organisations that want total control</b>
+                    <b>Para empresas que quieren control total</b>
                   </li>
                   <li className='pricing-options__list-item'>
-                    <b><Message pointer='pricing.pro_monthly_fee' /> monthly fee</b>, no hidden charges
+                    <b><Message pointer='pricing.pro_monthly_fee' /> mensualmente</b>, sin gastos ocultos
                   </li>
                   <li className='pricing-options__list-item'>
-                    For businesses taking <b><Message pointer='pricing.pro_number_of_monthly_payments' /></b> per month
+                    Para negocios con <b><Message pointer='pricing.pro_number_of_monthly_payments' /></b> al mes
                   </li>
                   <li className='pricing-options__list-item'>
-                    <Link to='pro'>Find out more about Pro</Link>
+                    <Link to='pro'>Descubre más sobre Pro </Link>
                   </li>
                   <li className='pricing-options__list-button'>
-                    <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
+                    <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contacta con Ventas</Link>
                   </li>
                 </ul>
               </div>
@@ -93,73 +93,73 @@ export default class PricingEs extends React.Component {
 
         <div className='site-container u-padding-Vm' id='scale-pricing-container'>
           <div className='site-container u-text-center u-padding-Vl'>
-              <h2 className='u-text-heading-light u-color-heading'>About our pricing</h2>
+              <h2 className='u-text-heading-light u-color-heading'>Sobre nuestras tarifas</h2>
           </div>
           <div className='grid u-size-4of5 u-center u-padding-Vm'>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Rm'>
               <div className='u-color-heading'>
                 <b>
-                  Are there any other fees?
+                  ¿Hay algún otro coste?
                 </b>
               </div>
               <p className='u-color-p'>
                 <IfLocale hasPercentagePricing>
-                  No, there are no other fees except from those listed in the table above.
-                  We never charge for chargebacks or payment failures.<br />
-                  With GoCardless, all you ever pay is <Message pointer='pricing.per_transaction_amount_normal' /> of the transaction
-                  amount, up to a maximum of <Message pointer="pricing.cost_cap" />.<br />
-                  With GoCardless Pro, we charge you the <Message pointer='pricing.pro_monthly_fee' /> monthly fee and
-                  a fee for each transaction.
+                  No, no hay ningún otro coste aparte de los descritos en la tabla superior.
+                  Nunca cobramos por Devoluciones de recibos o errores de cobro.<br />
+                  Con Gocardless, todo lo que pagarás es <Message pointer='pricing.per_transaction_amount_normal' /> del total de la 
+                  transacción con un máximo de <Message pointer="pricing.cost_cap" />.<br />
+                  Con GoCardless Pro, pagarás <Message pointer='pricing.pro_monthly_fee' /> de fijo mensual y
+                  una tarifa por cada transacción.
                 </IfLocale>
                 <IfLocale hasPercentagePricing={false}>
-                  No, we only charge you the <Message pointer='pricing.pro_monthly_fee' /> monthly fee and a fee for each transaction.
-                  We never charge for chargebacks or payment failures.
-                </IfLocale>
+                  No, sólo cobramos los <Message pointer='pricing.pro_monthly_fee' /> de fijo mensual y una tarifa por cada transacción.
+                  Nunca cobramos por Devoluciones de recibos o errores de cobro.
+                  </IfLocale>
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Lm'>
               <div className='u-color-heading'>
-                <b>Do you offer discounts for large volume?</b>
+                <b>¿Ofreceis descuentos por grandes volúmenes?</b>
               </div>
               <p className='u-color-p'>
                 <IfLocale hasPercentagePricing>
-                  Yes. Our transaction fees decrease from 1,000 payments per month.
-                  To find out more, please <Link to='contact_sales' className='u-link-color-p u-text-underline'>contact sales</Link>.
+                  Si. Nuestra tarifa por transacción se reduce a partir de 1.000 cobros al mes.
+                  Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta con Ventas</Link>.
                 </IfLocale>
                 <IfLocale hasPercentagePricing={false}>
-                  Yes. Discounts for high volume are built into the pricing of GoCardless Pro,
-                  and scale pricing is available on request for users of regular GoCardless that take over 250 payments per month.
-                  To find out more, please <Link to='contact_sales' className='u-link-color-p u-text-underline'>contact sales</Link>.
+                  Si. Los descuentos por altos vólumenes están incluídos en las tarifas de GoCardless Pro,
+                  y los precios escalables están disponibles si son solicitados por los usuarios de Gocardless que superen los 250 adeudos mensuales.
+                  Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta con Ventas</Link>.
                 </IfLocale>
               </p>
             </div>
             <IfLocale hasPercentagePricing>
               <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Rm'>
                 <div className='u-color-heading'>
-                  <b>What does ‘capped at <Message pointer="pricing.cost_cap" />’ mean?</b>
+                  <b>¿Que significa "máximo de<Message pointer="pricing.cost_cap" />"?</b>
                 </div>
                 <p className='u-color-p'>
-                  You'll never pay more than <Message pointer="pricing.cost_cap" /> per transaction
-                  even if the transaction value is greater than <Message pointer='pricing.normal_capped_at_amount' />.
+                  Nunca pagarás más de <Message pointer="pricing.cost_cap" /> por transacción
+                  incluso si el valor de la transacción es mayor que <Message pointer='pricing.normal_capped_at_amount' />.
                 </p>
               </div>
             </IfLocale>
             <IfLocale hasPercentagePricing={false}>
               <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Rm'>
                 <div className='u-color-heading'>
-                  <b>Are there any implementation costs?</b>
+                  <b>¿Hay algún coste de implementación?</b>
                 </div>
                 <p className='u-color-p'>
-                  No, you won't pay to implement GoCardless and our support is free.
+                  No, no tendrás que pagar nada por implementar GoCardless y nuestro soporte es gratuito.
                 </p>
               </div>
             </IfLocale>
             <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Lm'>
               <div className='u-color-heading'>
-                <b>Will I still be charged if a payment fails?</b>
+                <b>¿Se me cobrará por un cobro fallido?</b>
               </div>
               <p className='u-color-p'>
-                No. We only take fees for successful payments.
+                No. Sólo cobramos nuestra tarifa de los cobros correctos.
               </p>
             </div>
           </div>
@@ -167,13 +167,13 @@ export default class PricingEs extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Tm u-padding-Bxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-text-l u-color-heading u-text-light'>Got any questions?</h2>
-            <p className='u-color-p u-margin-Ts'>Speak with one of our payments experts on <Message pointer='phone_local' /></p>
+            <h2 className='u-text-heading u-text-l u-color-heading u-text-light'>¿Tienes alguna pregunta?</h2>
+            <p className='u-color-p u-margin-Ts'>Habla con uno de nuestros expertos en cobros en <Message pointer='phone_local' /></p>
             <IfLocale hasInstantSignup>
-              <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>Sign up today</Href>
+              <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>Registrate hoy</Href>
             </IfLocale>
             <IfLocale hasInstantSignup={false}>
-              <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Contact sales</Link>
+              <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Contacta con Ventas</Link>
             </IfLocale>
           </div>
         </div>

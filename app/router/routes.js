@@ -462,7 +462,7 @@ export const config = Immutable.fromJS([
         path: '/partner',
       },
       es: {
-        path: '/integraciones',
+        path: '/asociaciados',
       },
     },
   ],
