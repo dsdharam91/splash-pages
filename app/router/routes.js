@@ -150,7 +150,7 @@ export const config = Immutable.fromJS([
         path: '/preise',
       },
       es: {
-        path: '/pricing',
+        path: '/tarifas',
       },
     },
   ],
@@ -179,6 +179,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/sicherheit',
       },
+      //es: {
+      //  path: '/seguridad',
+      //},
     },
   ],
   [Features, { name: 'features' }, {
@@ -213,7 +216,7 @@ export const config = Immutable.fromJS([
         path: '/kontakt',
       },
       es: {
-        path: '/contact-sales',
+        path: '/contacto',
       },
     },
   ],
@@ -252,7 +255,7 @@ export const config = Immutable.fromJS([
         path: '/ueber-uns',
       },
       es: {
-        path: '/about',
+        path: '/sobre-nosotros',
       },
     },
   ],
@@ -267,7 +270,7 @@ export const config = Immutable.fromJS([
         path: '/ueber-uns/team',
       },
       es: {
-        path: '/about/team',
+        path: '/sobre-nosotros/equipo',
       },
     },
   ],
@@ -459,7 +462,7 @@ export const config = Immutable.fromJS([
         path: '/partner',
       },
       es: {
-        path: '/partners',
+        path: '/integraciones',
       },
     },
   ],

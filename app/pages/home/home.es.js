@@ -18,7 +18,7 @@ export default class HomeEs extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-center'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                Our global payments network has processed over $1 billion
+                Nuestra red global de pagos ha procesado más de $1.000 millones
               </h2>
             </div>
             <div className='grid u-margin-Tl u-padding-Tm'>
@@ -28,10 +28,10 @@ export default class HomeEs extends React.Component {
                   <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Fully automated
+                  Completamente Automatizado
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Save time, stop human errors and avoid failed payments
+                  Ahorra tiempo, reduce el error humano y evita cobros fallidos
                 </p>
               </div>
 
@@ -44,7 +44,7 @@ export default class HomeEs extends React.Component {
                   UK &amp; Eurozone
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Accept payments with Bacs Direct Debit and SEPA Direct Debit
+                  Accepta cobros con las redes de domiciliación bancaria BACS y SEPA
                 </p>
               </div>
 
@@ -54,10 +54,10 @@ export default class HomeEs extends React.Component {
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  12,000+ merchants
+                  12,000+ empresas
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Powering payments for companies across the UK and Europe
+                  Facilitando cobros para compañías a lo largo de todo el Reino Unido y Europa
                 </p>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default class HomeEs extends React.Component {
           <div className='site-container u-padding-Txl'>
             <div className='u-size-1of2 u-center'>
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
-                You'll be in great company
+                Estarás en buena compañía
               </h2>
             </div>
             <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
@@ -81,13 +81,13 @@ export default class HomeEs extends React.Component {
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
-                Simple, transparent pricing for everyone
+                Precios simples y transparentes para todo el mundo
               </h2>
               <p className='u-text-s u-color-p u-margin-Vxs'>
-                Competitive rates for everyone from individuals through to large corporations
+                Tarifas competitivas para todos, desde individuos a grandes empresas
               </p>
               <Link to='pricing' className='btn btn--hollow u-margin-Tm'>
-                Learn about our pricing
+                Descubre más sobre nuestras tarifas
               </Link>
             </div>
           </div>
@@ -96,8 +96,8 @@ export default class HomeEs extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <Href to='signup.path' className='btn'>Start taking payments</Href>
-              <p className='u-color-p u-margin-Ts'>No set up costs, no hidden charges, no commitments</p>
+              <Href to='signup.path' className='btn'>Empieza a realizar cobros</Href>
+              <p className='u-color-p u-margin-Ts'>Sin costes por adelantado, sin comisiones encubiertas, sin compromiso</p>
             </div>
           </div>
         </IfLocale>
