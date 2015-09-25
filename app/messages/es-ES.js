@@ -13,7 +13,7 @@ export default {
   },
   pricing: {
     description: 'Cobra domiciliaciones bancarias por solo un 1% de cada transacción, con un máximo de €1. Para empresas grandes o medianas, hay disponibilidad de precios.',
-    cost_cap: '€1',
+    cost_cap: '€2',
     pro_cost_per_transaction: '0,01 — 0,60 €',
     pro_monthly_fee: '€250',
     pro_number_of_monthly_payments: '> 500',

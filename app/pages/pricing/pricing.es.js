@@ -30,7 +30,7 @@ export default class PricingEs extends React.Component {
                       <Message pointer='pricing.per_transaction_amount_normal' />
                     </h2>
                     <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
-                      PPr transacción, máximo de <Message pointer="pricing.cost_cap" />
+                      Por transacción, máximo de <Message pointer="pricing.cost_cap" />
                     </p>
                   </div>
                   <ul className='pricing-options__list'>

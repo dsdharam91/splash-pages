@@ -1,0 +1,667 @@
+Searching 22850 files for "€"
+
+/Users/Alfonso/repos/splash-pages/app/components/product-comparison/product-comparison.fr.js:
+  124              <tr className='comparison-table__row'>
+  125                <td className='comparison-table__cell u-text-end'>Abonnement mensuel</td>
+  126:               <td className='comparison-table__cell'>0€</td>
+  127:               <td className='comparison-table__cell'>250€</td>
+  128              </tr>
+  129              <tr className='comparison-table__row'>
+  130                <td className='comparison-table__cell u-text-end'>Frais par transaction</td>
+  131:               <td className='comparison-table__cell'>1% plafonné à 2 €</td>
+  132:               <td className='comparison-table__cell'>Dégressif à partir de 0,60 €</td>
+  133              </tr>
+  134              <tr className='comparison-table__row'>
+
+/Users/Alfonso/repos/splash-pages/app/messages/de-DE.js:
+   14    },
+   15    pricing: {
+   16:     cost_cap: '2 €',
+   17:     description: 'Ziehen Sie Lastschriften online ein, und zahlen Sie nur 1% Gebühren, gedeckelt bei 2 €. Für große Unternehmen behalten wir es uns vor, Preisnachlässe anzubieten.',
+   18:     pro_cost_per_transaction: '0,01 — 0,60 €',
+   19      per_transaction_amount_normal: '1 %',
+   20:     pro_monthly_fee: '250 €',
+   21:     normal_capped_at_amount: '200 €',
+   22      pro_number_of_monthly_payments: '> 500',
+   23    },
+
+/Users/Alfonso/repos/splash-pages/app/messages/de.js:
+   21    basic_pricing_cta: {
+   22      main: 'Zahlen Sie 1 %',
+   23:     description: 'Nur 1 % pro Transaktion, begrenzt bei 2 €.',
+   24      learn_more: 'Erfahren Sie mehr über unsere Preise',
+   25    },
+
+/Users/Alfonso/repos/splash-pages/app/messages/en-EU.js:
+   13    },
+   14    pricing: {
+   15:     description: 'Collect Direct Debit payments online with fees of just 1%, capped at €2. Scale pricing is available for larger organisations.',
+   16:     pro_cost_per_transaction: '0,01 — 0,60 €',
+   17:     pro_monthly_fee: '€250',
+   18      pro_number_of_monthly_payments: '> 500',
+   19    },
+
+/Users/Alfonso/repos/splash-pages/app/messages/en-IE.js:
+   15    },
+   16    pricing: {
+   17:     cost_cap: '€2',
+   18:     description: 'Collect Direct Debit payments online with fees of just 1%, capped at €2. Scale pricing is available for larger organisations.',
+   19:     pro_cost_per_transaction: '0,01 — 0,60 €',
+   20      per_transaction_amount_normal: '1%',
+   21:     pro_monthly_fee: '€250',
+   22:     normal_capped_at_amount: '€200',
+   23      pro_number_of_monthly_payments: '> 500',
+   24    },
+
+/Users/Alfonso/repos/splash-pages/app/messages/en.js:
+   24    basic_pricing_cta: {
+   25      main: 'Pay 1%',
+   26:     description: 'Just 1% per transaction, capped at €2.',
+   27      learn_more: 'Learn about our pricing',
+   28    },
+
+/Users/Alfonso/repos/splash-pages/app/messages/es-ES.js:
+   13    },
+   14    pricing: {
+   15:     description: 'Cobra domiciliaciones bancarias por solo un 1% de cada transacción, con un máximo de €1. Para empresas grandes o medianas, hay disponibilidad de precios.',
+   16:     cost_cap: '€1',
+   17:     pro_cost_per_transaction: '0,01 — 0,60 €',
+   18:     pro_monthly_fee: '€250',
+   19      pro_number_of_monthly_payments: '> 500',
+   20      per_transaction_amount_normal: '1%',
+   21:     normal_capped_at_amount: '€200',
+   22    },
+   23  };
+
+/Users/Alfonso/repos/splash-pages/app/messages/es.js:
+   21    basic_pricing_cta: {
+   22      main: 'Paga 1%',
+   23:     description: 'Sólo 1% por adeudo, con un máximo de 1€.',
+   24      learn_more: 'Infórmate sobre nuestras tarifas',
+   25    },
+
+/Users/Alfonso/repos/splash-pages/app/messages/fr.js:
+   28    basic_pricing_cta: {
+   29      main: 'Payez 1%',
+   30:     description: 'Seulement 1% par transaction réussie, plafonné à 2€.',
+   31      learn_more: 'Découvrez nos tarifs',
+   32    },
+   ..
+  198      title: 'Tarifs',
+  199      nav_title: 'Tarifs',
+  200:     description: 'Prenez vos prélèvements automatiques SEPA à partir de 0,60€ par transaction réussie, avec tarifs dégressifs pour les grandes entreprises.',
+  201:     cost_cap: '2€',
+  202:     pro_cost_per_transaction: '0,01-0,60€',
+  203      per_transaction_amount_normal: '1%',
+  204:     pro_monthly_fee: '250€',
+  205    },
+  206    legal: {
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/merchants/international-payments/faq-merchants-international-payments.de.js:
+   65          </h3>
+   66          <p className='para'>
+   67:           Wir unterstützen Zahlungen in EUR (€) sowie in Pfund (£).
+   68          </p>
+   69  
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/merchants/international-payments/faq-merchants-international-payments.en.js:
+   90            </h3>
+   91            <p className='para'>
+   92:             In Eurozone countries, we charge 1% per transaction, capped at €2. In the UK, we charge 1% per transaction (capped at £2).
+   93            </p>
+   94          </Translation>
+   ..
+   98            </h3>
+   99            <p className='para'>
+  100:             International payments will cost 1% per transaction (capped at €2).
+  101            </p>
+  102          </Translation>
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/merchants/overview/faq-merchants-overview.de.js:
+   76          </p>
+   77          <p className='para'>
+   78:           In Deutschland und der Eurozone ist die Höhe einer einzelnen Zahlung auf €5.000 beschränkt. Falls Sie GoCardless
+   79            gerne auch für Zahlungen im Vereinigten Königreich einsetzen möchten, dann muss die Transaktion zwischen £1 und £5.000 liegen.
+   80          </p>
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/merchants/overview/faq-merchants-overview.en.js:
+  101          </p>
+  102          <p className='para'>
+  103:           In the Eurozone, the maximum amount for a single transaction is €5,000.
+  104          </p>
+  105  
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/merchants/overview/faq-merchants-overview.fr.js:
+  107          </p>
+  108          <p className='para'>
+  109:           Pour une transaction unitaire, le montant maximum est de 5.000€.
+  110          </p>
+  111  
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/merchants/security/faq-merchants-security.fr.js:
+   75            Pour vous remercier de vos efforts pour que GoCardless reste sûr, nous offrons des récompenses pour votre
+   76            collaboration en cas de découverte de vulnérabilité. Ces récompenses sont déterminées à notre gré, mais sont au
+   77:           minimum de 300€ (et peuvent être bien plus élevées). Le montant final est déterminé selon la sévérité du problème.
+   78          </p>
+   79  
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/pro-dashboard/payment-creation/faq-pro-dashboard-payment-creation.de.js:
+   43          <ul className='list'>
+   44            <li>
+   45:             Geben Sie den Betrag ein (höchstens 5.000 €).
+   46            </li>
+   47            <li>
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/pro-dashboard/payment-creation/faq-pro-dashboard-payment-creation.en.js:
+   44          <ul className='list'>
+   45            <li>
+   46:             Choose your payment amount (maximum of €5,000).
+   47            </li>
+   48            <li>
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/pro-dashboard/payment-creation/faq-pro-dashboard-payment-creation.fr.js:
+   42          <ul className='list'>
+   43            <li>
+   44:             Choisissez votre montant (max 5.000€)
+   45            </li>
+   46            <li>
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/pro-dashboard/setup/faq-pro-dashboard-setup.en.js:
+   47              </li>
+   48              <li>
+   49:               Send us a €1 payment from your company bank account.
+   50              </li>
+   51              <li>
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/pro-dashboard/subscription-creation/faq-pro-dashboard-subscription-creation.de.js:
+   52            </li>
+   53            <li>
+   54:             Geben Sie den Betrag ein (höchstens 5.000 €). Der eingegebene Betrag wird regelmäßig abgebucht.
+   55            </li>
+   56            <li>
+   ..
+   66            <li>
+   67              Bestimmen Sie die Laufzeit des Abonnements: bis zur Kündigung, bis zu einem bestimmten Datum oder bis eine bestimmte
+   68:             Anzahl an Buchungen erfolgt ist (z. B. 12 Buchungen in Höhe von 100 €).
+   69            </li>
+   70          </ul>
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/pro-dashboard/subscription-creation/faq-pro-dashboard-subscription-creation.en.js:
+   51            </li>
+   52            <li>
+   53:             Choose your payment amount (maximum of €5,000). Once the subscription is set up, the same amount will be collected every time.
+   54            </li>
+   55            <li>
+
+/Users/Alfonso/repos/splash-pages/app/pages/faq/pro-dashboard/subscription-creation/faq-pro-dashboard-subscription-creation.fr.js:
+   50            </li>
+   51            <li>
+   52:             Choisissez votre montant (max 5.000€). Ce montant sera collecté à chaque fois.
+   53            </li>
+   54            <li>
+   ..
+   63            <li>
+   64              Choisissez la durée de l’abonnement : jusqu’à annulation, une date spécifique ou un nombre de prélèvements
+   65:             définis (par exemple 12 paiements de 100€)
+   66            </li>
+   67          </ul>
+
+/Users/Alfonso/repos/splash-pages/app/pages/features/features.fr.js:
+  119                      </div>
+  120                      <p className='u-color-p u-margin-Txs'>
+  121:                       Payez 1% par transaction réussie (plafonné à 2€), sans frais d'installation et d'abonnement.
+  122                        Zéro frais sur les incidents.
+  123  
+
+/Users/Alfonso/repos/splash-pages/app/pages/partners/guide/app-integration/partners-guide-app-integration.js:
+  163  
+  164          <p>
+  165:           GoCardless expects merchants to pay 1% transaction fees (capped at £2/2€). We also provide our
+  166            partners with 10% revenue share of that fee. Partners can also charge additional fees, which
+  167            can vary on a per-payment basis.
+
+/Users/Alfonso/repos/splash-pages/app/pages/partners/guide/legal/partners-guide-legal.js:
+   33          <p>
+   34            If you need your own Service User Number (SUN) or Creditor ID (CID), we can help you with this for
+   35:           an additional £200 / €250 per month per SUN / CID.
+   36          </p>
+   37        </PartnersGuidePage>
+
+/Users/Alfonso/repos/splash-pages/app/pages/partners/guide/options/partners-guide-options.js:
+  232  
+  233              <td>
+  234:               1% per transaction, capped at £2 (2€). Volume discounts available for >1000 payments per month, on a per merchant basis.
+  235                <br/><br/>
+  236                Partner can charge additional fees. GoCardless can deduct these or
+  ...
+  263  
+  264              <td>
+  265:               Typically 0.9% capped at £1.80/1.80€. Volume pricing available on a per merchant basis.
+  266              </td>
+  267            </tr>
+
+/Users/Alfonso/repos/splash-pages/app/pages/partners/guide/our-pricing/partners-guide-our-pricing.js:
+   13  
+   14          <p>
+   15:           We charge 1% per transaction, capped at £2 (or €2). Volume discounts are available for
+   16            merchants processing in excess of 1000 payments per month. If you need us to apply for an
+   17:           SUN / CID on your behalf, there is a charge of £200 (€250) per month.
+   18          </p>
+   19  
+
+/Users/Alfonso/repos/splash-pages/app/pages/partners/guide/restrictions/partners-guide-restrictions.js:
+   35  
+   36          <p>
+   37:           In the Eurozone, the maximum amount for a single transaction is €5,000.
+   38          </p>
+   39        </PartnersGuidePage>
+
+/Users/Alfonso/repos/splash-pages/app/pages/partners/guide/white-label-integration/partners-guide-white-label-integration.js:
+  230  
+  231          <p>
+  232:           GoCardless expects merchants to pay 1% transaction fees (capped at £2/2€), although partners are
+  233            free to charge additional fees on top of this.
+  234          </p>
+  235  
+  236          <p>
+  237:           We will charge the partner 0.9% (capped at £1.80/1.80€). Volume discounts
+  238            are also available on a per merchant basis. Get in touch if this is important to you.
+  239          </p>
+
+/Users/Alfonso/repos/splash-pages/app/pages/pricing/pricing.fr.js:
+   24                      <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>1%</h2>
+   25                      <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
+   26:                       Par transaction réussie, plafonné à 2€
+   27                      </p>
+   28                    </div>
+   ..
+   59                    </h1>
+   60                    <div className='u-background-dark-gray-darken u-padding-Vxl'>
+   61:                     <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>0,01 - 0,60 €</h2>
+   62                      <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
+   63                        Par transaction réussie
+   ..
+   69                      </li>
+   70                      <li className='pricing-options__list-item'>
+   71:                       + <b>250 € par mois</b>, aucun frais caché
+   72                      </li>
+   73                      <li className='pricing-options__list-item'>
+   ..
+  104                  Nous ne vous facturons jamais la création de mandats, ainsi que
+  105                  les incidents de paiements : échecs, remboursements, annulations...
+  106:                 Avec GoCardless Pro, vous êtes facturé un abonnement de 250 € et
+  107                  un coût par transaction réussie (1% ou prix fixe au choix).
+  108                </p>
+
+/Users/Alfonso/repos/splash-pages/app/pages/stories/stories.fr.js:
+   36                        <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
+   37                          “GoCardless a complètement fluidifié le prélèvement comparé aux prestataires historiques.
+   38:                         L'automatisation a réduit le taux d'impayés de 50% et augmenté notre chiffre d'affaires de 90.000 €.”
+   39                        </p>
+   40                        <div className='u-color-invert u-margin-Tm'>
+
+/Users/Alfonso/repos/splash-pages/app/pages/stories/stories/1001-menus.js:
+   11        <StoryPage
+   12          title='1001menus'
+   13:         tagline='1001menus a augmenté son chiffre d’affaire de 90.000 € en automatisant le prélèvement via GoCardless'
+   14          tips={[
+   15              'GoCardless leur a permis d\'éviter 20 heures de gestion administrative par mois',
+   16:             'GoCardless les a aidé à réduire les impayés de 50 %, augmentant le chiffre d\'affaire de 90.000 €',
+   17              'GoCardless les a aidé à réaliser de la micro-facturation pour de nouvelles offres',
+   18          ]}>
+
+/Users/Alfonso/repos/splash-pages/node_modules/aws-sdk/node_modules/sax/test/entities.js:
+    5    expect: [
+    6      ['opentag', {'name':'R', attributes:{}, isSelfClosing: false}],
+    7:     ['text', '⌋ ♠ © → & < < <  <   < > ℜ ℘ €'],
+    8      ['closetag', 'R']
+    9    ]
+
+/Users/Alfonso/repos/splash-pages/node_modules/babel-core/node_modules/regenerator/node_modules/commoner/node_modules/iconv-lite/encodings/sbcs-data-generated.js:
+   55    "windows874": {
+   56      "type": "_sbcs",
+   57:     "chars": "€����…�����������‘’“”•–—�������� กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮฯะัาำิีึืฺุู����฿เแโใไๅๆ็่้๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๚๛����"
+   58    },
+   59    "win874": "windows874",
+   ..
+   61    "windows1250": {
+   62      "type": "_sbcs",
+   63:     "chars": "€�‚�„…†‡�‰Š‹ŚŤŽŹ�‘’“”•–—�™š›śťžź ˇ˘Ł¤Ą¦§¨©Ş«¬­®Ż°±˛ł´µ¶·¸ąş»Ľ˝ľżŔÁÂĂÄĹĆÇČÉĘËĚÍÎĎĐŃŇÓÔŐÖ×ŘŮÚŰÜÝŢßŕáâăäĺćçčéęëěíîďđńňóôőö÷řůúűüýţ˙"
+   64    },
+   65    "win1250": "windows1250",
+   ..
+   67    "windows1251": {
+   68      "type": "_sbcs",
+   69:     "chars": "ЂЃ‚ѓ„…†‡€‰Љ‹ЊЌЋЏђ‘’“”•–—�™љ›њќћџ ЎўЈ¤Ґ¦§Ё©Є«¬­®Ї°±Ііґµ¶·ё№є»јЅѕїАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя"
+   70    },
+   71    "win1251": "windows1251",
+   ..
+   73    "windows1252": {
+   74      "type": "_sbcs",
+   75:     "chars": "€�‚ƒ„…†‡ˆ‰Š‹Œ�Ž��‘’“”•–—˜™š›œ�žŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ"
+   76    },
+   77    "win1252": "windows1252",
+   ..
+   79    "windows1253": {
+   80      "type": "_sbcs",
+   81:     "chars": "€�‚ƒ„…†‡�‰�‹�����‘’“”•–—�™�›���� ΅Ά£¤¥¦§¨©�«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡ�ΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ�"
+   82    },
+   83    "win1253": "windows1253",
+   ..
+   85    "windows1254": {
+   86      "type": "_sbcs",
+   87:     "chars": "€�‚ƒ„…†‡ˆ‰Š‹Œ����‘’“”•–—˜™š›œ��Ÿ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğñòóôõö÷øùúûüışÿ"
+   88    },
+   89    "win1254": "windows1254",
+   ..
+   91    "windows1255": {
+   92      "type": "_sbcs",
+   93:     "chars": "€�‚ƒ„…†‡ˆ‰�‹�����‘’“”•–—˜™�›���� ¡¢£₪¥¦§¨©×«¬­®¯°±²³´µ¶·¸¹÷»¼½¾¿ְֱֲֳִֵֶַָֹ�ֻּֽ־ֿ׀ׁׂ׃װױײ׳״�������אבגדהוזחטיךכלםמןנסעףפץצקרשת��‎‏�"
+   94    },
+   95    "win1255": "windows1255",
+   ..
+   97    "windows1256": {
+   98      "type": "_sbcs",
+   99:     "chars": "€پ‚ƒ„…†‡ˆ‰ٹ‹Œچژڈگ‘’“”•–—ک™ڑ›œ‌‍ں ،¢£¤¥¦§¨©ھ«¬­®¯°±²³´µ¶·¸¹؛»¼½¾؟ہءآأؤإئابةتثجحخدذرزسشصض×طظعغـفقكàلâمنهوçèéêëىيîïًٌٍَôُِ÷ّùْûü‎‏ے"
+  100    },
+  101    "win1256": "windows1256",
+  ...
+  103    "windows1257": {
+  104      "type": "_sbcs",
+  105:     "chars": "€�‚�„…†‡�‰�‹�¨ˇ¸�‘’“”•–—�™�›�¯˛� �¢£¤�¦§Ø©Ŗ«¬­®Æ°±²³´µ¶·ø¹ŗ»¼½¾æĄĮĀĆÄÅĘĒČÉŹĖĢĶĪĻŠŃŅÓŌÕÖ×ŲŁŚŪÜŻŽßąįāćäåęēčéźėģķīļšńņóōõö÷ųłśūüżž˙"
+  106    },
+  107    "win1257": "windows1257",
+  ...
+  109    "windows1258": {
+  110      "type": "_sbcs",
+  111:     "chars": "€�‚ƒ„…†‡ˆ‰�‹Œ����‘’“”•–—˜™�›œ��Ÿ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂĂÄÅÆÇÈÉÊË̀ÍÎÏĐÑ̉ÓÔƠÖ×ØÙÚÛÜỮßàáâăäåæçèéêë́íîïđṇ̃óôơö÷øùúûüư₫ÿ"
+  112    },
+  113    "win1258": "windows1258",
+  ...
+  145    "iso88597": {
+  146      "type": "_sbcs",
+  147:     "chars": " ‘’£€₯¦§¨©ͺ«¬­�―°±²³΄΅Ά·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡ�ΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ�"
+  148    },
+  149    "cp28597": "iso88597",
+  ...
+  180    "iso885915": {
+  181      "type": "_sbcs",
+  182:     "chars": " ¡¢£€¥Š§š©ª«¬­®¯°±²³Žµ¶·ž¹º»ŒœŸ¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ"
+  183    },
+  184    "cp28605": "iso885915",
+  185    "iso885916": {
+  186      "type": "_sbcs",
+  187:     "chars": " ĄąŁ€„Š§š©Ș«Ź­źŻ°±ČłŽ”¶·žčș»ŒœŸżÀÁÂĂÄĆÆÇÈÉÊËÌÍÎÏĐŃÒÓÔŐÖŚŰÙÚÛÜĘȚßàáâăäćæçèéêëìíîïđńòóôőöśűùúûüęțÿ"
+  188    },
+  189    "cp28606": "iso885916",
+  ...
+  238    "cp858": {
+  239      "type": "_sbcs",
+  240:     "chars": "ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»░▒▓│┤ÁÂÀ©╣║╗╝¢¥┐└┴┬├─┼ãÃ╚╔╩╦╠═╬¤ðÐÊËÈ€ÍÎÏ┘┌█▄¦Ì▀ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±‗¾¶§÷¸°¨·¹³²■ "
+  241    },
+  242    "ibm858": "cp858",
+  ...
+  328    "cp1161": {
+  329      "type": "_sbcs",
+  330:     "chars": "��������������������������������่กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮฯะัาำิีึืฺุู้๊๋€฿เแโใไๅๆ็่้๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๚๛¢¬¦ "
+  331    },
+  332    "ibm1161": "cp1161",
+  ...
+  334    "cp1162": {
+  335      "type": "_sbcs",
+  336:     "chars": "€…‘’“”•–— กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮฯะัาำิีึืฺุู����฿เแโใไๅๆ็่้๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๚๛����"
+  337    },
+  338    "ibm1162": "cp1162",
+  ...
+  340    "cp1163": {
+  341      "type": "_sbcs",
+  342:     "chars": " ¡¢£€¥¦§œ©ª«¬­®¯°±²³Ÿµ¶·Œ¹º»¼½¾¿ÀÁÂĂÄÅÆÇÈÉÊË̀ÍÎÏĐÑ̉ÓÔƠÖ×ØÙÚÛÜỮßàáâăäåæçèéêë́íîïđṇ̃óôơö÷øùúûüư₫ÿ"
+  343    },
+  344    "ibm1163": "cp1163",
+  ...
+  402    "rk1048": {
+  403      "type": "_sbcs",
+  404:     "chars": "ЂЃ‚ѓ„…†‡€‰Љ‹ЊҚҺЏђ‘’“”•–—�™љ›њқһџ ҰұӘ¤Ө¦§Ё©Ғ«¬­®Ү°±Ііөµ¶·ё№ғ»әҢңүАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя"
+  405    },
+  406    "tcvn": {
+
+/Users/Alfonso/repos/splash-pages/node_modules/babel-core/node_modules/regenerator/node_modules/commoner/node_modules/iconv-lite/encodings/sbcs-data.js:
+   14      "cp808": {
+   15          "type": "_sbcs",
+   16:         "chars": "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмноп░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀рстуфхцчшщъыьэюяЁёЄєЇїЎў°∙·√№€■ "
+   17      },
+   18  
+
+/Users/Alfonso/repos/splash-pages/node_modules/babel-core/node_modules/regenerator/node_modules/commoner/node_modules/iconv-lite/encodings/tables/cp936.json:
+    1  [
+    2: ["0","\u0000",127,"€"],
+    3  ["8140","丂丄丅丆丏丒丗丟丠両丣並丩丮丯丱丳丵丷丼乀乁乂乄乆乊乑乕乗乚乛乢乣乤乥乧乨乪",5,"乲乴",9,"乿",6,"亇亊"],
+    4  ["8180","亐亖亗亙亜亝亞亣亪亯亰亱亴亶亷亸亹亼亽亾仈仌仏仐仒仚仛仜仠仢仦仧仩仭仮仯仱仴仸仹仺仼仾伀伂",6,"伋伌伒",4,"伜伝伡伣伨伩伬伭伮伱伳伵伷伹伻伾",4,"佄佅佇",5,"佒佔佖佡佢佦佨佪佫佭佮佱佲併佷佸佹佺佽侀侁侂侅來侇侊侌侎侐侒侓侕侖侘侙侚侜侞侟価侢"],
+
+/Users/Alfonso/repos/splash-pages/node_modules/babel-core/node_modules/regenerator/node_modules/commoner/node_modules/iconv-lite/encodings/tables/cp949.json:
+  102  ["a241","줐줒",5,"줙",18],
+  103  ["a261","줭",6,"줵",18],
+  104: ["a281","쥈",7,"쥒쥓쥕쥖쥗쥙",6,"쥢쥤",7,"쥭쥮쥯⇒⇔∀∃´～ˇ˘˝˚˙¸˛¡¿ː∮∑∏¤℉‰◁◀▷▶♤♠♡♥♧♣⊙◈▣◐◑▒▤▥▨▧▦▩♨☏☎☜☞¶†‡↕↗↙↖↘♭♩♪♬㉿㈜№㏇™㏂㏘℡€®"],
+  105  ["a341","쥱쥲쥳쥵",6,"쥽",10,"즊즋즍즎즏"],
+  106  ["a361","즑",6,"즚즜즞",16],
+
+/Users/Alfonso/repos/splash-pages/node_modules/babel-core/node_modules/regenerator/node_modules/commoner/node_modules/iconv-lite/encodings/tables/cp950.json:
+    7  ["a340","ｗｘｙｚΑ",16,"Σ",6,"α",16,"σ",6,"ㄅ",10],
+    8  ["a3a1","ㄐ",25,"˙ˉˊˇˋ"],
+    9: ["a3e1","€"],
+   10  ["a440","一乙丁七乃九了二人儿入八几刀刁力匕十卜又三下丈上丫丸凡久么也乞于亡兀刃勺千叉口土士夕大女子孑孓寸小尢尸山川工己已巳巾干廾弋弓才"],
+   11  ["a4a1","丑丐不中丰丹之尹予云井互五亢仁什仃仆仇仍今介仄元允內六兮公冗凶分切刈勻勾勿化匹午升卅卞厄友及反壬天夫太夭孔少尤尺屯巴幻廿弔引心戈戶手扎支文斗斤方日曰月木欠止歹毋比毛氏水火爪父爻片牙牛犬王丙"],
+
+/Users/Alfonso/repos/splash-pages/node_modules/babel-core/node_modules/regenerator/node_modules/commoner/node_modules/iconv-lite/encodings/tables/gbk-added.json:
+    5  ["a280","",32],
+    6  ["a2ab","",5],
+    7: ["a2e3","€"],
+    8  ["a2ef",""],
+    9  ["a2fd",""],
+
+/Users/Alfonso/repos/splash-pages/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-data-generated.js:
+   55    "windows874": {
+   56      "type": "_sbcs",
+   57:     "chars": "€����…�����������‘’“”•–—�������� กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮฯะัาำิีึืฺุู����฿เแโใไๅๆ็่้๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๚๛����"
+   58    },
+   59    "win874": "windows874",
+   ..
+   61    "windows1250": {
+   62      "type": "_sbcs",
+   63:     "chars": "€�‚�„…†‡�‰Š‹ŚŤŽŹ�‘’“”•–—�™š›śťžź ˇ˘Ł¤Ą¦§¨©Ş«¬­®Ż°±˛ł´µ¶·¸ąş»Ľ˝ľżŔÁÂĂÄĹĆÇČÉĘËĚÍÎĎĐŃŇÓÔŐÖ×ŘŮÚŰÜÝŢßŕáâăäĺćçčéęëěíîďđńňóôőö÷řůúűüýţ˙"
+   64    },
+   65    "win1250": "windows1250",
+   ..
+   67    "windows1251": {
+   68      "type": "_sbcs",
+   69:     "chars": "ЂЃ‚ѓ„…†‡€‰Љ‹ЊЌЋЏђ‘’“”•–—�™љ›њќћџ ЎўЈ¤Ґ¦§Ё©Є«¬­®Ї°±Ііґµ¶·ё№є»јЅѕїАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя"
+   70    },
+   71    "win1251": "windows1251",
+   ..
+   73    "windows1252": {
+   74      "type": "_sbcs",
+   75:     "chars": "€�‚ƒ„…†‡ˆ‰Š‹Œ�Ž��‘’“”•–—˜™š›œ�žŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ"
+   76    },
+   77    "win1252": "windows1252",
+   ..
+   79    "windows1253": {
+   80      "type": "_sbcs",
+   81:     "chars": "€�‚ƒ„…†‡�‰�‹�����‘’“”•–—�™�›���� ΅Ά£¤¥¦§¨©�«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡ�ΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ�"
+   82    },
+   83    "win1253": "windows1253",
+   ..
+   85    "windows1254": {
+   86      "type": "_sbcs",
+   87:     "chars": "€�‚ƒ„…†‡ˆ‰Š‹Œ����‘’“”•–—˜™š›œ��Ÿ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğñòóôõö÷øùúûüışÿ"
+   88    },
+   89    "win1254": "windows1254",
+   ..
+   91    "windows1255": {
+   92      "type": "_sbcs",
+   93:     "chars": "€�‚ƒ„…†‡ˆ‰�‹�����‘’“”•–—˜™�›���� ¡¢£₪¥¦§¨©×«¬­®¯°±²³´µ¶·¸¹÷»¼½¾¿ְֱֲֳִֵֶַָֹ�ֻּֽ־ֿ׀ׁׂ׃װױײ׳״�������אבגדהוזחטיךכלםמןנסעףפץצקרשת��‎‏�"
+   94    },
+   95    "win1255": "windows1255",
+   ..
+   97    "windows1256": {
+   98      "type": "_sbcs",
+   99:     "chars": "€پ‚ƒ„…†‡ˆ‰ٹ‹Œچژڈگ‘’“”•–—ک™ڑ›œ‌‍ں ،¢£¤¥¦§¨©ھ«¬­®¯°±²³´µ¶·¸¹؛»¼½¾؟ہءآأؤإئابةتثجحخدذرزسشصض×طظعغـفقكàلâمنهوçèéêëىيîïًٌٍَôُِ÷ّùْûü‎‏ے"
+  100    },
+  101    "win1256": "windows1256",
+  ...
+  103    "windows1257": {
+  104      "type": "_sbcs",
+  105:     "chars": "€�‚�„…†‡�‰�‹�¨ˇ¸�‘’“”•–—�™�›�¯˛� �¢£¤�¦§Ø©Ŗ«¬­®Æ°±²³´µ¶·ø¹ŗ»¼½¾æĄĮĀĆÄÅĘĒČÉŹĖĢĶĪĻŠŃŅÓŌÕÖ×ŲŁŚŪÜŻŽßąįāćäåęēčéźėģķīļšńņóōõö÷ųłśūüżž˙"
+  106    },
+  107    "win1257": "windows1257",
+  ...
+  109    "windows1258": {
+  110      "type": "_sbcs",
+  111:     "chars": "€�‚ƒ„…†‡ˆ‰�‹Œ����‘’“”•–—˜™�›œ��Ÿ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂĂÄÅÆÇÈÉÊË̀ÍÎÏĐÑ̉ÓÔƠÖ×ØÙÚÛÜỮßàáâăäåæçèéêë́íîïđṇ̃óôơö÷øùúûüư₫ÿ"
+  112    },
+  113    "win1258": "windows1258",
+  ...
+  145    "iso88597": {
+  146      "type": "_sbcs",
+  147:     "chars": " ‘’£€₯¦§¨©ͺ«¬­�―°±²³΄΅Ά·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡ�ΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ�"
+  148    },
+  149    "cp28597": "iso88597",
+  ...
+  180    "iso885915": {
+  181      "type": "_sbcs",
+  182:     "chars": " ¡¢£€¥Š§š©ª«¬­®¯°±²³Žµ¶·ž¹º»ŒœŸ¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ"
+  183    },
+  184    "cp28605": "iso885915",
+  185    "iso885916": {
+  186      "type": "_sbcs",
+  187:     "chars": " ĄąŁ€„Š§š©Ș«Ź­źŻ°±ČłŽ”¶·žčș»ŒœŸżÀÁÂĂÄĆÆÇÈÉÊËÌÍÎÏĐŃÒÓÔŐÖŚŰÙÚÛÜĘȚßàáâăäćæçèéêëìíîïđńòóôőöśűùúûüęțÿ"
+  188    },
+  189    "cp28606": "iso885916",
+  ...
+  238    "cp858": {
+  239      "type": "_sbcs",
+  240:     "chars": "ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒáíóúñÑªº¿®¬½¼¡«»░▒▓│┤ÁÂÀ©╣║╗╝¢¥┐└┴┬├─┼ãÃ╚╔╩╦╠═╬¤ðÐÊËÈ€ÍÎÏ┘┌█▄¦Ì▀ÓßÔÒõÕµþÞÚÛÙýÝ¯´­±‗¾¶§÷¸°¨·¹³²■ "
+  241    },
+  242    "ibm858": "cp858",
+  ...
+  328    "cp1161": {
+  329      "type": "_sbcs",
+  330:     "chars": "��������������������������������่กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮฯะัาำิีึืฺุู้๊๋€฿เแโใไๅๆ็่้๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๚๛¢¬¦ "
+  331    },
+  332    "ibm1161": "cp1161",
+  ...
+  334    "cp1162": {
+  335      "type": "_sbcs",
+  336:     "chars": "€…‘’“”•–— กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮฯะัาำิีึืฺุู����฿เแโใไๅๆ็่้๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๚๛����"
+  337    },
+  338    "ibm1162": "cp1162",
+  ...
+  340    "cp1163": {
+  341      "type": "_sbcs",
+  342:     "chars": " ¡¢£€¥¦§œ©ª«¬­®¯°±²³Ÿµ¶·Œ¹º»¼½¾¿ÀÁÂĂÄÅÆÇÈÉÊË̀ÍÎÏĐÑ̉ÓÔƠÖ×ØÙÚÛÜỮßàáâăäåæçèéêë́íîïđṇ̃óôơö÷øùúûüư₫ÿ"
+  343    },
+  344    "ibm1163": "cp1163",
+  ...
+  402    "rk1048": {
+  403      "type": "_sbcs",
+  404:     "chars": "ЂЃ‚ѓ„…†‡€‰Љ‹ЊҚҺЏђ‘’“”•–—�™љ›њқһџ ҰұӘ¤Ө¦§Ё©Ғ«¬­®Ү°±Ііөµ¶·ё№ғ»әҢңүАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя"
+  405    },
+  406    "tcvn": {
+
+/Users/Alfonso/repos/splash-pages/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-data.js:
+   14      "cp808": {
+   15          "type": "_sbcs",
+   16:         "chars": "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмноп░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀рстуфхцчшщъыьэюяЁёЄєЇїЎў°∙·√№€■ "
+   17      },
+   18  
+
+/Users/Alfonso/repos/splash-pages/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp936.json:
+    1  [
+    2: ["0","\u0000",127,"€"],
+    3  ["8140","丂丄丅丆丏丒丗丟丠両丣並丩丮丯丱丳丵丷丼乀乁乂乄乆乊乑乕乗乚乛乢乣乤乥乧乨乪",5,"乲乴",9,"乿",6,"亇亊"],
+    4  ["8180","亐亖亗亙亜亝亞亣亪亯亰亱亴亶亷亸亹亼亽亾仈仌仏仐仒仚仛仜仠仢仦仧仩仭仮仯仱仴仸仹仺仼仾伀伂",6,"伋伌伒",4,"伜伝伡伣伨伩伬伭伮伱伳伵伷伹伻伾",4,"佄佅佇",5,"佒佔佖佡佢佦佨佪佫佭佮佱佲併佷佸佹佺佽侀侁侂侅來侇侊侌侎侐侒侓侕侖侘侙侚侜侞侟価侢"],
+
+/Users/Alfonso/repos/splash-pages/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp949.json:
+  102  ["a241","줐줒",5,"줙",18],
+  103  ["a261","줭",6,"줵",18],
+  104: ["a281","쥈",7,"쥒쥓쥕쥖쥗쥙",6,"쥢쥤",7,"쥭쥮쥯⇒⇔∀∃´～ˇ˘˝˚˙¸˛¡¿ː∮∑∏¤℉‰◁◀▷▶♤♠♡♥♧♣⊙◈▣◐◑▒▤▥▨▧▦▩♨☏☎☜☞¶†‡↕↗↙↖↘♭♩♪♬㉿㈜№㏇™㏂㏘℡€®"],
+  105  ["a341","쥱쥲쥳쥵",6,"쥽",10,"즊즋즍즎즏"],
+  106  ["a361","즑",6,"즚즜즞",16],
+
+/Users/Alfonso/repos/splash-pages/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp950.json:
+    7  ["a340","ｗｘｙｚΑ",16,"Σ",6,"α",16,"σ",6,"ㄅ",10],
+    8  ["a3a1","ㄐ",25,"˙ˉˊˇˋ"],
+    9: ["a3e1","€"],
+   10  ["a440","一乙丁七乃九了二人儿入八几刀刁力匕十卜又三下丈上丫丸凡久么也乞于亡兀刃勺千叉口土士夕大女子孑孓寸小尢尸山川工己已巳巾干廾弋弓才"],
+   11  ["a4a1","丑丐不中丰丹之尹予云井互五亢仁什仃仆仇仍今介仄元允內六兮公冗凶分切刈勻勾勿化匹午升卅卞厄友及反壬天夫太夭孔少尤尺屯巴幻廿弔引心戈戶手扎支文斗斤方日曰月木欠止歹毋比毛氏水火爪父爻片牙牛犬王丙"],
+
+/Users/Alfonso/repos/splash-pages/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/gbk-added.json:
+    5  ["a280","",32],
+    6  ["a2ab","",5],
+    7: ["a2e3","€"],
+    8  ["a2ef",""],
+    9  ["a2fd",""],
+
+/Users/Alfonso/repos/splash-pages/node_modules/express/node_modules/content-disposition/package.json:
+   38      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+   39    },
+   40:   "readme": "# content-disposition\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Node.js Version][node-version-image]][node-version-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n\nCreate and parse HTTP `Content-Disposition` header\n\n## Installation\n\n```sh\n$ npm install content-disposition\n```\n\n## API\n\n```js\nvar contentDisposition = require('content-disposition')\n```\n\n### contentDisposition(filename, options)\n\nCreate an attachment `Content-Disposition` header value using the given file name,\nif supplied. The `filename` is optional and if no file name is desired, but you\nwant to specify `options`, set `filename` to `undefined`.\n\n```js\nres.setHeader('Content-Disposition', contentDisposition('∫ maths.pdf'))\n```\n\n**note** HTTP headers are of the ISO-8859-1 character set. If you are writing this\nheader through a means different from `setHeader` in Node.js, you'll want to specify\nthe `'binary'` encoding in Node.js.\n\n#### Options\n\n`contentDisposition` accepts these properties in the options object.\n\n##### fallback\n\nIf the `filename` option is outside ISO-8859-1, then the file name is actually\nstored in a supplemental field for clients that support Unicode file names and\na ISO-8859-1 version of the file name is automatically generated.\n\nThis specifies the ISO-8859-1 file name to override the automatic generation or\ndisables the generation all together, defaults to `true`.\n\n  - A string will specify the ISO-8859-1 file name to use in place of automatic\n    generation.\n  - `false` will disable including a ISO-8859-1 file name and only include the\n    Unicode version (unless the file name is already ISO-8859-1).\n  - `true` will enable automatic generation if the file name is outside ISO-8859-1.\n\nIf the `filename` option is ISO-8859-1 and this option is specified and has a\ndifferent value, then the `filename` option is encoded in the extended field\nand this set as the fallback field, even though they are both ISO-8859-1.\n\n##### type\n\nSpecifies the disposition type, defaults to `\"attachment\"`. This can also be\n`\"inline\"`, or any other value (all values except inline are treated like\n`attachment`, but can convey additional information if both parties agree to\nit). The type is normalized to lower-case.\n\n### contentDisposition.parse(string)\n\n```js\nvar disposition = contentDisposition.parse('attachment; filename=\"EURO rates.txt\"; filename*=UTF-8\\'\\'%e2%82%ac%20rates.txt\"');\n```\n\nParse a `Content-Disposition` header string. This automatically handles extended\n(\"Unicode\") parameters by decoding them and providing them under the standard\nparameter name. This will return an object with the following properties (examples\nare shown for the string `'attachment; filename=\"EURO rates.txt\"; filename*=UTF-8\\'\\'%e2%82%ac%20rates.txt'`):\n\n - `type`: The disposition type (always lower case). Example: `'attachment'`\n\n - `parameters`: An object of the parameters in the disposition (name of parameter\n   always lower case and extended versions replace non-extended versions). Example:\n   `{filename: \"€ rates.txt\"}`\n\n## Examples\n\n### Send a file for download\n\n```js\nvar contentDisposition = require('content-disposition')\nvar destroy = require('destroy')\nvar http = require('http')\nvar onFinished = require('on-finished')\n\nvar filePath = '/path/to/public/plans.pdf'\n\nhttp.createServer(function onRequest(req, res) {\n  // set headers\n  res.setHeader('Content-Type', 'application/pdf')\n  res.setHeader('Content-Disposition', contentDisposition(filePath))\n\n  // send file\n  var stream = fs.createReadStream(filePath)\n  stream.pipe(res)\n  onFinished(res, function (err) {\n    destroy(stream)\n  })\n})\n```\n\n## Testing\n\n```sh\n$ npm test\n```\n\n## References\n\n- [RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1][rfc-2616]\n- [RFC 5987: Character Set and Language Encoding for Hypertext Transfer Protocol (HTTP) Header Field Parameters][rfc-5987]\n- [RFC 6266: Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)][rfc-6266]\n- [Test Cases for HTTP Content-Disposition header field (RFC 6266) and the Encodings defined in RFCs 2047, 2231 and 5987][tc-2231]\n\n[rfc-2616]: https://tools.ietf.org/html/rfc2616\n[rfc-5987]: https://tools.ietf.org/html/rfc5987\n[rfc-6266]: https://tools.ietf.org/html/rfc6266\n[tc-2231]: http://greenbytes.de/tech/tc2231/\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/content-disposition.svg?style=flat\n[npm-url]: https://npmjs.org/package/content-disposition\n[node-version-image]: https://img.shields.io/node/v/content-disposition.svg?style=flat\n[node-version-url]: http://nodejs.org/download/\n[travis-image]: https://img.shields.io/travis/jshttp/content-disposition.svg?style=flat\n[travis-url]: https://travis-ci.org/jshttp/content-disposition\n[coveralls-image]: https://img.shields.io/coveralls/jshttp/content-disposition.svg?style=flat\n[coveralls-url]: https://coveralls.io/r/jshttp/content-disposition?branch=master\n[downloads-image]: https://img.shields.io/npm/dm/content-disposition.svg?style=flat\n[downloads-url]: https://npmjs.org/package/content-disposition\n",
+   41    "readmeFilename": "README.md",
+   42    "bugs": {
+
+/Users/Alfonso/repos/splash-pages/node_modules/express/node_modules/content-disposition/README.md:
+   80   - `parameters`: An object of the parameters in the disposition (name of parameter
+   81     always lower case and extended versions replace non-extended versions). Example:
+   82:    `{filename: "€ rates.txt"}`
+   83  
+   84  ## Examples
+
+/Users/Alfonso/repos/splash-pages/node_modules/jsdom/node_modules/request/node_modules/qs/test/stringify.js:
+   28          expect(Qs.stringify({ a: 1, b: 2 })).to.equal('a=1&b=2');
+   29          expect(Qs.stringify({ a: 'A_Z' })).to.equal('a=A_Z');
+   30:         expect(Qs.stringify({ a: '€' })).to.equal('a=%E2%82%AC');
+   31          expect(Qs.stringify({ a: '' })).to.equal('a=%EE%80%80');
+   32          expect(Qs.stringify({ a: 'א' })).to.equal('a=%D7%90');
+
+/Users/Alfonso/repos/splash-pages/node_modules/node-sass/node_modules/request/node_modules/qs/test/stringify.js:
+   28          expect(Qs.stringify({ a: 1, b: 2 })).to.equal('a=1&b=2');
+   29          expect(Qs.stringify({ a: 'A_Z' })).to.equal('a=A_Z');
+   30:         expect(Qs.stringify({ a: '€' })).to.equal('a=%E2%82%AC');
+   31          expect(Qs.stringify({ a: '' })).to.equal('a=%EE%80%80');
+   32          expect(Qs.stringify({ a: 'א' })).to.equal('a=%D7%90');
+
+/Users/Alfonso/repos/splash-pages/node_modules/protractor/node_modules/selenium-webdriver/node_modules/xml2js/node_modules/sax/test/entities.js:
+    5    expect: [
+    6      ['opentag', {'name':'R', attributes:{}, isSelfClosing: false}],
+    7:     ['text', '⌋ ♠ © → & < < <  <   < > ℜ ℘ €'],
+    8      ['closetag', 'R']
+    9    ]
+
+/Users/Alfonso/repos/splash-pages/node_modules/serve/node_modules/connect/node_modules/formidable/test/legacy/simple/test-incoming-form.js:
+  570        assert.equal(event, 'field');
+  571        assert.equal(field, 'my_field');
+  572:       assert.equal(value, 'hello world: €');
+  573      });
+  574  
+
+/Users/Alfonso/repos/splash-pages/node_modules/serve/node_modules/stylus/node_modules/sax/test/entities.js:
+    5    expect: [
+    6      ['opentag', {'name':'R', attributes:{}, isSelfClosing: false}],
+    7:     ['text', '⌋ ♠ © → & < < <  <   < > ℜ ℘ €'],
+    8      ['closetag', 'R']
+    9    ]
+
+/Users/Alfonso/repos/splash-pages/node_modules/superagent/node_modules/formidable/test/legacy/simple/test-incoming-form.js:
+  599        assert.equal(event, 'field');
+  600        assert.equal(field, 'my_field');
+  601:       assert.equal(value, 'hello world: €');
+  602      });
+  603  
+
+/Users/Alfonso/repos/splash-pages/node_modules/webpack/node_modules/watchpack/node_modules/chokidar/node_modules/fsevents/node_modules/node-pre-gyp/node_modules/request/node_modules/qs/test/stringify.js:
+   28          expect(Qs.stringify({ a: 1, b: 2 })).to.equal('a=1&b=2');
+   29          expect(Qs.stringify({ a: 'A_Z' })).to.equal('a=A_Z');
+   30:         expect(Qs.stringify({ a: '€' })).to.equal('a=%E2%82%AC');
+   31          expect(Qs.stringify({ a: '' })).to.equal('a=%EE%80%80');
+   32          expect(Qs.stringify({ a: 'א' })).to.equal('a=%D7%90');
+
+119 matches across 54 files
