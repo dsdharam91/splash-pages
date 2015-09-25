@@ -443,22 +443,22 @@ export default {
     nav_title: 'Jobs',
     open_positions: 'Open positions',
     engineering: {
-      title: 'Engineering',
+      title: 'Engineering & Data',
+    },
+    ux_design: {
+      title: 'UX & Design',
     },
     sales: {
       title: 'Sales',
+    },
+    business_development: {
+      title: 'Business Development',
     },
     marketing: {
       title: 'Marketing',
     },
     operations: {
       title: 'Operations',
-    },
-    business_development: {
-      title: 'Business Development',
-    },
-    ux_design: {
-      title: 'UX & Design',
     },
   },
   jobs_product_engineer: {
@@ -468,10 +468,6 @@ export default {
   jobs_software_engineer: {
     title: 'Backend Software Engineer',
    description: '',
-  },
-  jobs_data_engineer: {
-    title: 'Data Engineer',
-    description: '',
   },
   jobs_site_reliability_engineer: {
     title: 'Site Reliability Engineer',
@@ -483,6 +479,14 @@ export default {
   },
   jobs_developer_community_manager: {
     title: 'Developer Community Manager',
+    description: '',
+  },
+  jobs_data_engineer: {
+    title: 'Data Engineer',
+    description: '',
+  },
+  jobs_data_analyst: {
+    title: 'Data Analyst',
     description: '',
   },
   jobs_designers: {
