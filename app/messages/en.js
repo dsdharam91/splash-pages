@@ -477,10 +477,6 @@ export default {
     title: 'Engineering Internships',
     description: '',
   },
-  jobs_developer_community_manager: {
-    title: 'Developer Community Manager',
-    description: '',
-  },
   jobs_data_engineer: {
     title: 'Data Engineer',
     description: '',
