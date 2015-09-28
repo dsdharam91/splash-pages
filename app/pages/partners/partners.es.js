@@ -74,7 +74,8 @@ export default class PartnersEs extends React.Component {
                 ¿Por qué ser nuestro asociado?
               </h2>
               <p className='u-size-2of3 u-center u-color-p u-padding-Ts'>
-                GoCardless permite beneficiarte de nuestras geniales tarifas y nuestra baja tasa de cobros fallidos en Domiciliaciones Bancarias
+                GoCardless permite beneficiarte de nuestras geniales tarifas y nuestra baja tasa de cobros fallidos en
+                Domiciliaciones Bancarias
                 sin las complicaciines asociadas a los bancos.
               </p>
               <div className='site-container u-padding-Txxl'>
@@ -220,7 +221,8 @@ export default class PartnersEs extends React.Component {
                 de todas partes del mundo.
               </p>
               <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
-                “GoCardless es un socio clave para Zuora que proporciona a nuestros clientes una experiencia genial al realizar Domiciliaciones Bancarias. 
+                “GoCardless es un socio clave para Zuora que proporciona a nuestros clientes una experiencia genial al realizar
+                Domiciliaciones Bancarias.
                 La integración Zuora-GoCardless está ayudando a negocios de de suscripción de todo el Reino Unido y Europa
                 ofrecer a sus clientes una experiencia de gran calidad a la hora de pagar.”
               </p>

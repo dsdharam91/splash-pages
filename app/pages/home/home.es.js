@@ -5,7 +5,6 @@ import Link from '../../components/link/link';
 import Href from '../../components/href/href';
 
 import CheckListIcon from '../../icons/svg/checklist';
-import TickSquareIcon from '../../icons/svg/tick-square';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
 import UsersIcon from '../../icons/svg/users';
 

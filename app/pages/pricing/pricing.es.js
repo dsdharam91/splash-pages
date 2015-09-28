@@ -124,12 +124,15 @@ export default class PricingEs extends React.Component {
               <p className='u-color-p'>
                 <IfLocale hasPercentagePricing>
                   Si. Nuestra tarifa por transacción se reduce a partir de 1.000 cobros al mes.
-                  Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta con nosotros</Link>.
+                  Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta
+                  con nosotros</Link>.
                 </IfLocale>
                 <IfLocale hasPercentagePricing={false}>
-                  Si. Los descuentos por altos vólumenes están incluídos en las tarifas de GoCardless Pro, y los precios escalables están
-                  disponibles si son solicitados por los usuarios de Gocardless que superen los 250 adeudos mensuales.
-                  Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta con nosotros</Link>.
+                  Si. Los descuentos por altos vólumenes están incluídos en las tarifas de GoCardless Pro, y los precios
+                  escalables están disponibles si son solicitados por los usuarios de Gocardless que superen los
+                  250 adeudos mensuales.
+                  Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>
+                  contacta con nosotros</Link>.
                 </IfLocale>
               </p>
             </div>
