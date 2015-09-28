@@ -21,7 +21,9 @@ export default class ProEs extends React.Component {
             <div className='site-container page-hero__container'>
               <div className='page-hero__inner'>
                 <div className='page-hero__text'>
-                  <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'> Controla Totalmente tus Domiciliaciones</h1>
+                  <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>
+                    Controla Totalmente tus Domiciliaciones
+                  </h1>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
                     Una plataforma de última tecnología<br /> para tu sistema de cobros recurrentes
                   </p>
@@ -86,7 +88,7 @@ export default class ProEs extends React.Component {
                       Totalmente Personalizable
                     </div>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      GoCardless Pro te permite poner tu logo y tu marca en todas partes. 
+                      GoCardless Pro te permite poner tu logo y tu marca en todas partes.
                       Disfruta de un control total sobre tus páginas de pago y sobre las notificaciones por email que envies a tus usuarios.
                     </p>
                   </div>
@@ -179,9 +181,9 @@ export default class ProEs extends React.Component {
                   </h2>
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
-                      GoCardless Pro es el único producto del mercado que te permite realizar 
+                      GoCardless Pro es el único producto del mercado que te permite realizar
                       Adeudos Domiciliados desde el Reino Unido y la Eurozona en una sola integración
-                      Con nuestra API, tu empresa podra realizar cobros de más de 500 milllones de personas 
+                      Con nuestra API, tu empresa podra realizar cobros de más de 500 milllones de personas
                       en 22 países de Europa.
                     </p>
                   </div>

@@ -106,7 +106,7 @@ export default class PricingEs extends React.Component {
                 <IfLocale hasPercentagePricing>
                   No, no hay ningún otro coste aparte de los descritos en la tabla superior.
                   Nunca cobramos por Devoluciones de recibos o errores de cobro.<br />
-                  Con Gocardless, todo lo que pagarás es <Message pointer='pricing.per_transaction_amount_normal' /> del total de la 
+                  Con Gocardless, todo lo que pagarás es <Message pointer='pricing.per_transaction_amount_normal' /> del total de la
                   transacción con un máximo de <Message pointer="pricing.cost_cap" />.<br />
                   Con GoCardless Pro, pagarás <Message pointer='pricing.pro_monthly_fee' /> de fijo mensual y
                   una tarifa por cada transacción.
@@ -127,8 +127,8 @@ export default class PricingEs extends React.Component {
                   Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta con Ventas</Link>.
                 </IfLocale>
                 <IfLocale hasPercentagePricing={false}>
-                  Si. Los descuentos por altos vólumenes están incluídos en las tarifas de GoCardless Pro,
-                  y los precios escalables están disponibles si son solicitados por los usuarios de Gocardless que superen los 250 adeudos mensuales.
+                  Si. Los descuentos por altos vólumenes están incluídos en las tarifas de GoCardless Pro, y los precios escalables están
+                  disponibles si son solicitados por los usuarios de Gocardless que superen los 250 adeudos mensuales.
                   Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta con Ventas</Link>.
                 </IfLocale>
               </p>

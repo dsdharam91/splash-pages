@@ -127,7 +127,7 @@ export default class PartnersEs extends React.Component {
                   Alcance global
                 </h2>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Vxs'>
-                  Tus clientes podrán realizar cobros de un número cada vez mayor de países, 
+                  Tus clientes podrán realizar cobros de un número cada vez mayor de países,
                   sin tener que hacer nada extra.
                 </p>
               </div>
@@ -143,7 +143,8 @@ export default class PartnersEs extends React.Component {
                   Tus clientes sólamente pagan un <Message pointer='pricing.per_transaction_amount_normal' />
                 </h2>
                 <p className='u-text-s u-color-p u-margin-Vxs'>
-                  El registro es gratuito y no hay comisiones ocultas. Solo un 1% por transacción, con un máximo de <Message pointer="pricing.cost_cap" />.
+                  El registro es gratuito y no hay comisiones ocultas. Solo un 1% por transacción, con un máximo
+                  de <Message pointer="pricing.cost_cap" />.
                 </p>
                 <Link to='contact_sales'
                 query={{ s: 'partners' }}
@@ -199,7 +200,8 @@ export default class PartnersEs extends React.Component {
                 y administrar las suscripciones de sus miembros.
               </p>
               <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
-                “A nuestros clientes les encanta lo fácil que resulta utilizar GoCardless, y su ayuda nos ha ayudado a crecer muchísimo en el Reino Unido y el resto de Europa.”
+                “A nuestros clientes les encanta lo fácil que resulta utilizar GoCardless, y su ayuda nos ha ayudado a crecer
+                muchísimo en el Reino Unido y el resto de Europa.”
               </p>
               <p className='u-text-s u-margin-Bm u-color-p'>Matt Pegler, Co-Fundador</p>
               <img src='/images/partners/teamup-logo@2x.png' className='partners-page__partner-logo' />
@@ -214,12 +216,13 @@ export default class PartnersEs extends React.Component {
                 Software de facturación
               </h2>
               <p className='u-text-s u-color-p u-margin-Bl'>
-                Zuora eligió a GoCardless como su proveedor en Adeudos Domiciliados, permitiendo a sus clientes realizar cobros de todas partes del mundo.
+                Zuora eligió a GoCardless como su proveedor en Adeudos Domiciliados, permitiendo a sus clientes realizar cobros
+                de todas partes del mundo.
               </p>
               <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
-                “GoCardless es un socio clave para Zuora que proporciona a nuestros clientes una experiencia genial al realizar Adeudos Domiciliados.
-                La integración Zuora-GoCardless está ayudando a negocios de de suscripción de todo el Reino Unido y Europa ofrecer a sus clientes una
-                experiencia de gran calidad a la hora de pagar.”
+                “GoCardless es un socio clave para Zuora que proporciona a nuestros clientes una experiencia genial al realizar Adeudos
+                Domiciliados. La integración Zuora-GoCardless está ayudando a negocios de de suscripción de todo el Reino Unido y Europa
+                ofrecer a sus clientes una experiencia de gran calidad a la hora de pagar.”
               </p>
               <p className='u-text-s u-margin-Bm u-color-p'>Tamsyn Attiwell, VP Global Services EMEA</p>
               <img src='/images/partners/zuora-logo@2x.png' className='partners-page__partner-logo' />
