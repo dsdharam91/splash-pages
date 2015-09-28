@@ -39,8 +39,9 @@ export default class AboutEs extends React.Component {
                 <img src='/images/press/publications-stacked.jpg' />
                 <p className='u-text-s u-color-p u-margin-Txxl'>
                   Para cualquier información de prensa, por favor contacta con <a href='mailto:press@gocardless.com'>
-                  el equipo de Relaciones Publicas de GoCardless</a>, o mira nuestro completo
-                  <a href='https://www.dropbox.com/sh/sat8xsjntbf5mnh/AACn116IKyIWrNG7c8FnY0cYa?dl=0'> pack de prensa.
+                  el equipo de Relaciones Publicas de GoCardless</a>, o mira nuestro
+                  completo <a href='https://www.dropbox.com/sh/sat8xsjntbf5mnh/AACn116IKyIWrNG7c8FnY0cYa?dl=0'>
+                    pack de prensa.
                   </a>
                 </p>
               </div>

@@ -130,9 +130,9 @@ export default {
     cta: 'Visit our Blog',
   },
   guides: {
-    title: 'Guías',
-    nav_title: 'Guías',
-    path: '/guides/',
+    title: 'Guías SEPA',
+    nav_title: 'Guías SEPA',
+    path: '/guides/sepa/',
   },
   help: {
     title: 'Support',
