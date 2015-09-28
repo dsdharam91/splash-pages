@@ -104,7 +104,7 @@ export default {
   partners: {
     title: 'Asociados e Integraciones',
     nav_title: 'Asociate con nosotros',
-    link_title: 'Partners',
+    link_title: 'Asociados',
     description: 'Asóciate con GoCardless para que tus clientes realicen Domiciliaciones Bancarias con tu software. Trabajamos con FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube y otros.',
     explainer: 'Ofrece GoCardless a tus usuarios',
     sidebar: '¿Tienes una pregunta? Ponte en contacto con nuestro equpo de Asociados en',
@@ -131,7 +131,7 @@ export default {
   },
   guides: {
     title: 'Guías SEPA',
-    nav_title: 'Guías SEPA',
+    nav_title: 'Guías SEPA (Inglés)',
     path: '/guides/sepa/',
   },
   help: {

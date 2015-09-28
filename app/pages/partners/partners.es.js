@@ -221,10 +221,9 @@ export default class PartnersEs extends React.Component {
                 de todas partes del mundo.
               </p>
               <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
-                “GoCardless es un socio clave para Zuora que proporciona a nuestros clientes una experiencia genial al realizar
-                Domiciliaciones Bancarias.
-                La integración Zuora-GoCardless está ayudando a negocios de de suscripción de todo el Reino Unido y Europa
-                ofrecer a sus clientes una experiencia de gran calidad a la hora de pagar.”
+                “GoCardless es un socio clave que proporciona a nuestros clientes una experiencia genial al cobrar a través de
+                Domiciliación Bancaria. La integración Zuora-GoCardless está ayudando a negocios de suscripción
+                a ofrecer una experiencia de gran calidad al pagar.”
               </p>
               <p className='u-text-s u-margin-Bm u-color-p'>Tamsyn Attiwell, VP Global Services EMEA</p>
               <img src='/images/partners/zuora-logo@2x.png' className='partners-page__partner-logo' />
