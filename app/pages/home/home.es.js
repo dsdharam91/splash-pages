@@ -6,6 +6,7 @@ import Href from '../../components/href/href';
 
 import CheckListIcon from '../../icons/svg/checklist';
 import TickSquareIcon from '../../icons/svg/tick-square';
+import MoneyFlowerIcon from '../../icons/svg/money-flower';
 import UsersIcon from '../../icons/svg/users';
 
 export default class HomeEs extends React.Component {
@@ -18,7 +19,7 @@ export default class HomeEs extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-center'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                Nuestra red global de pagos ha procesado más de $1.000 millones
+                Nuestra red global de pagos ha procesado más de 1.000.000.000€
               </h2>
             </div>
             <div className='grid u-margin-Tl u-padding-Tm'>
@@ -34,30 +35,28 @@ export default class HomeEs extends React.Component {
                   Ahorra tiempo, reduce el error humano y evita cobros fallidos
                 </p>
               </div>
-
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <TickSquareIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                  <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
+                  <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
+                  <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Reino Unido &amp; Eurozona
+                  Comisiones bájísimas
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Acepta cobros con las redes de domiciliación bancaria BACS y SEPA
+                  Menos de la mitad de lo que cuesta Paypal o Paymill, con tarifas fáciles de entender.
                 </p>
               </div>
-
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
                   <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  12,000+ empresas
+                  +12,000 empresas
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Facilitando cobros para compañías a lo largo de todo el Reino Unido y Europa
+                  Facilitando cobros para compañías a lo largo de todo Europa, ya sean grandes o pequeñas.
                 </p>
               </div>
             </div>
@@ -96,7 +95,7 @@ export default class HomeEs extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <Href to='signup.path' className='btn'>Empieza a realizar cobros</Href>
+              <Href to='signup.path' className='btn'>Empieza a cobrar a través de Domiciliación Bancaria</Href>
               <p className='u-color-p u-margin-Ts'>Sin costes por adelantado, sin comisiones encubiertas, sin compromiso</p>
             </div>
           </div>

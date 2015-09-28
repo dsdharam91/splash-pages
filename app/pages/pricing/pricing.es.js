@@ -52,7 +52,7 @@ export default class PricingEs extends React.Component {
                         <Href to='signup.path' className='btn u-size-full'>Regístrate hoy</Href>
                       </IfLocale>
                       <IfLocale hasInstantSignup={false}>
-                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contacta con Ventas</Link>
+                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contacta con nosotros</Link>
                       </IfLocale>
                     </li>
                   </ul>
@@ -83,7 +83,7 @@ export default class PricingEs extends React.Component {
                     <Link to='pro'>Descubre más sobre Pro </Link>
                   </li>
                   <li className='pricing-options__list-button'>
-                    <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contacta con Ventas</Link>
+                    <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contacta con nosotros</Link>
                   </li>
                 </ul>
               </div>
@@ -124,12 +124,12 @@ export default class PricingEs extends React.Component {
               <p className='u-color-p'>
                 <IfLocale hasPercentagePricing>
                   Si. Nuestra tarifa por transacción se reduce a partir de 1.000 cobros al mes.
-                  Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta con Ventas</Link>.
+                  Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta con nosotros</Link>.
                 </IfLocale>
                 <IfLocale hasPercentagePricing={false}>
                   Si. Los descuentos por altos vólumenes están incluídos en las tarifas de GoCardless Pro, y los precios escalables están
                   disponibles si son solicitados por los usuarios de Gocardless que superen los 250 adeudos mensuales.
-                  Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta con Ventas</Link>.
+                  Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta con nosotros</Link>.
                 </IfLocale>
               </p>
             </div>
@@ -173,7 +173,7 @@ export default class PricingEs extends React.Component {
               <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>Registrate hoy</Href>
             </IfLocale>
             <IfLocale hasInstantSignup={false}>
-              <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Contacta con Ventas</Link>
+              <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Contacta con nosotros</Link>
             </IfLocale>
           </div>
         </div>

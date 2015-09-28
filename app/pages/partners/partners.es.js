@@ -74,7 +74,7 @@ export default class PartnersEs extends React.Component {
                 ¿Por qué ser nuestro asociado?
               </h2>
               <p className='u-size-2of3 u-center u-color-p u-padding-Ts'>
-                GoCardless te permite beneficiarte de nuestras geniales tarifas y bajos cobros fallidos en Adeudos Domiciliarios
+                GoCardless permite beneficiarte de nuestras geniales tarifas y nuestra baja tasa de cobros fallidos en Domiciliaciones Bancarias
                 sin las complicaciines asociadas a los bancos.
               </p>
               <div className='site-container u-padding-Txxl'>
@@ -100,7 +100,7 @@ export default class PartnersEs extends React.Component {
                       Reduce el abandono
                     </h2>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      Mantén a más de tus acueles clientes, a base de engancharles más a tu producto.
+                      Mantén a más de tus actuales clientes, enganchandoles más a tu producto.
                     </p>
                   </div>
                   <div className='grid__cell u-text-center u-size-1of3'>
@@ -200,7 +200,7 @@ export default class PartnersEs extends React.Component {
                 y administrar las suscripciones de sus miembros.
               </p>
               <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
-                “A nuestros clientes les encanta lo fácil que resulta utilizar GoCardless, y su ayuda nos ha ayudado a crecer
+                “A nuestros clientes les encanta lo fácil que resulta utilizar GoCardless, y eso nos ha ayudado a crecer
                 muchísimo en el Reino Unido y el resto de Europa.”
               </p>
               <p className='u-text-s u-margin-Bm u-color-p'>Matt Pegler, Co-Fundador</p>
@@ -216,12 +216,12 @@ export default class PartnersEs extends React.Component {
                 Software de facturación
               </h2>
               <p className='u-text-s u-color-p u-margin-Bl'>
-                Zuora eligió a GoCardless como su proveedor en Adeudos Domiciliados, permitiendo a sus clientes realizar cobros
+                Zuora eligió a GoCardless como su proveedor de Domiciliaciones Bancarias, permitiendo a sus clientes realizar cobros
                 de todas partes del mundo.
               </p>
               <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
-                “GoCardless es un socio clave para Zuora que proporciona a nuestros clientes una experiencia genial al realizar Adeudos
-                Domiciliados. La integración Zuora-GoCardless está ayudando a negocios de de suscripción de todo el Reino Unido y Europa
+                “GoCardless es un socio clave para Zuora que proporciona a nuestros clientes una experiencia genial al realizar Domiciliaciones Bancarias. 
+                La integración Zuora-GoCardless está ayudando a negocios de de suscripción de todo el Reino Unido y Europa
                 ofrecer a sus clientes una experiencia de gran calidad a la hora de pagar.”
               </p>
               <p className='u-text-s u-margin-Bm u-color-p'>Tamsyn Attiwell, VP Global Services EMEA</p>
@@ -294,7 +294,7 @@ export default class PartnersEs extends React.Component {
                     Organizaciones Benéficas
                   </h2>
                   <p className='u-text-s u-color-p u-margin-Txs'>
-                    Permite cobrar donaciones con Adeudos Domiciliados.
+                    Permite cobrar donaciones a través de Domiciliación Bancaria.
                   </p>
                 </div>
               </div>
@@ -326,7 +326,7 @@ export default class PartnersEs extends React.Component {
                     Prov. de Servicios de Pago
                   </h2>
                   <p className='u-text-s u-color-p u-margin-Txs'>
-                    Úsanos para ofrecer Adeudos Domiciliados en todo el mundo.
+                    Úsanos para ofrecer Domiciliaciones Bancarias en todo el mundo.
                   </p>
                 </div>
               </div>

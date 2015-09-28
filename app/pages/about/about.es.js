@@ -19,8 +19,7 @@ export default class AboutEs extends React.Component {
                 Y al hacerlo, estamos creando una nueva red de pagos mundial, aparte de Visa y Mastercard.
               </p>
               <p className='para'>
-                Fundada en 2011, hemos crecido muy rápido para convertirnos en uno de las institutiones de Adeudos
-                Domiciliarios más grandes de Europa,
+                Fundada en 2011, hemos crecido muy rápido para convertirnos en una de las institutiones de Domiciliación Bancaria más grandes de Europa,
                 procesando más de mil millones de libras para más de 12.000 empresas.
               </p>
               <p className='para'>

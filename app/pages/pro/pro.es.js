@@ -22,7 +22,7 @@ export default class ProEs extends React.Component {
               <div className='page-hero__inner'>
                 <div className='page-hero__text'>
                   <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>
-                    Controla Totalmente tus Domiciliaciones
+                    Controla Totalmente tus Domiciliaciones Bancarias
                   </h1>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
                     Una plataforma de última tecnología<br /> para tu sistema de cobros recurrentes
@@ -125,7 +125,7 @@ export default class ProEs extends React.Component {
                       <SecurityIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Cifrado de calidad Militar
+                      Cifrado de grado Militar
                     </div>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                       Nos hemos esforzado mucho en la seguridad para que tu puedas despreocuparte.
@@ -150,7 +150,7 @@ export default class ProEs extends React.Component {
                   </h2>
                   <p className='u-text-s u-color-p u-margin-Txs'>
                     Cada día, algunas de las mayores y más respetables compañías
-                    confían en GoCardless para realizar sus cobros
+                    confían en GoCardless para realizar sus cobros recurrentes
                   </p>
                 </div>
                 <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
@@ -182,7 +182,7 @@ export default class ProEs extends React.Component {
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
                       GoCardless Pro es el único producto del mercado que te permite realizar
-                      Adeudos Domiciliados desde el Reino Unido y la Eurozona en una sola integración
+                      Domiciliaciones Bancarias desde el Reino Unido y la Eurozona en una sola integración
                       Con nuestra API, tu empresa podra realizar cobros de más de 500 milllones de personas
                       en 22 países de Europa.
                     </p>
@@ -294,7 +294,7 @@ export default class ProEs extends React.Component {
                 <p className='u-color-p'>
                   <strong>¿Quieres hablar con alguien primero?</strong><br />
                   Llama a nuestros expertos en <Message pointer='phone_local' /><br />
-                  Estamos disponibles de 9.00 - 18.00 Lunes a Viernes
+                  Estamos disponibles de 10.00 - 19.00 Lunes a Viernes
                 </p>
               </div>
             </div>
