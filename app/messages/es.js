@@ -53,16 +53,16 @@ export default {
     phone_placeholder: '650786543',
     submit: 'Contacta',
     success_messages: {
-      '0-100': 'Gracias, un empleado de Gocardless se pondrá en contacto en contigo pronto.',
-      '100-500': 'Gracias, un empleado de Gocardless se pondrá en contacto en contigo pronto.',
-      '500+': 'Gracias, un empleado de Gocardless se pondrá en contacto en contigo pronto.',
+      '0-100': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
+      '100-500': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
+      '500+': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
       default: 'Gracias, alguien se pondrá en contacto contigo en 24 horas.',
     },
   },
   not_found: {
     title: 'No se encuentra',
     description: 'Esta página no se encuentra',
-    header: 'Oops! Este link parece incorrecto.',
+    header: '¡Vaya! Este link parece incorrecto.',
     explainer: 'La página puede haberse movido, o quizás has escrito mal la URL.',
   },
   pricing: {
@@ -72,13 +72,13 @@ export default {
   about: {
     title: 'Información sobre la Compañía & Ofertas de Trabajo',
     nav_title: 'Sobre Nosotros',
-    description: 'Estamos en una misión para crear una nueva red de pagos mundial para Internet. Descubrenos y mira las ofertas de trabajo de nuestra oficina de Londres.',
+    description: 'Tenemos la misión de crear una nueva red de pagos mundial para Internet. Descubrenos y mira las ofertas de trabajo de nuestra oficina de Londres.',
     link: 'about',
     header1: 'Estamos creando una nueva ',
     header2: 'red de pagos para Internet.',
   },
   home: {
-    title: 'La forma sencilla de cobrar recurrentemente a tus clientes',
+    title: 'La manera más sencilla de cobrar recurrentemente a tus clientes',
     nav_title: 'Home',
     description: 'GoCardless simplifica los cobros recurrentes. Ayudamos a más de 12.000 empresas en Europa, tanto en suscripciones como en facturación entre empresas.',
     link: 'home page',
@@ -105,7 +105,7 @@ export default {
     title: 'Asociados e Integraciones',
     nav_title: 'Asociate con nosotros',
     link_title: 'Asociados',
-    description: 'Asóciate con GoCardless para que tus clientes realicen Domiciliaciones Bancarias con tu software. Trabajamos con FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube y otros.',
+    description: 'Asóciate con GoCardless para que tus clientes realicen Domiciliaciones Bancarias con tu software. Trabajamos con Teamup, Sage, Kashflow, ClearBooks y otros.',
     explainer: 'Ofrece GoCardless a tus usuarios',
     sidebar: '¿Tienes una pregunta? Ponte en contacto con nuestro equpo de Asociados en',
     overview: {

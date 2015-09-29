@@ -30,7 +30,7 @@ export default class AboutEs extends React.Component {
                 sus tasas de abandono.
               </p>
               <p className='para'>
-                Somos un pequeño equipo en Londres y, 'nos apoyan algunos de los inversores más importantes del mundo,
+                Somos un pequeño equipo en Londres y nos apoyan algunos de los inversores más importantes del mundo,
                 incluyendo Balderton Capital, Accel Partners y Y Combinator.
               </p>
             </div>

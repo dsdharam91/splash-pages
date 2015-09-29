@@ -101,7 +101,7 @@ export default class PartnersEs extends React.Component {
                       Reduce el abandono
                     </h2>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      Mantén a más de tus actuales clientes, enganchandoles más a tu producto.
+                      Conserva a un mayor número de clientes, haciendoles más dependientes de tu producto.
                     </p>
                   </div>
                   <div className='grid__cell u-text-center u-size-1of3'>
@@ -110,7 +110,7 @@ export default class PartnersEs extends React.Component {
                       <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Tm'>
-                      Gana nuevos ingresos
+                      Consigue nuevos ingresos
                     </h2>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                       Traenos nuevos usuarios y ganarás una comisión de cada transacción realizada.
@@ -218,7 +218,7 @@ export default class PartnersEs extends React.Component {
               </h2>
               <p className='u-text-s u-color-p u-margin-Bl'>
                 Zuora eligió a GoCardless como su proveedor de Domiciliaciones Bancarias, permitiendo a sus clientes realizar cobros
-                de todas partes del mundo.
+                desde cualquier parte del mundo.
               </p>
               <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
                 “GoCardless es un socio clave que proporciona a nuestros clientes una experiencia genial al cobrar a través de
@@ -380,7 +380,7 @@ export default class PartnersEs extends React.Component {
                     Integración de la App
                   </h2>
                   <p className='u-text-s u-color-p u-size4of5 u-margin-Txs'>
-                    Haz sencillo para tus clientes el realizar cobros recurrentes.
+                    Simplifica a tus clientes los cobros recurrentes.
                   </p>
                 </div>
 
