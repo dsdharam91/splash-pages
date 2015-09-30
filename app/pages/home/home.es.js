@@ -43,7 +43,7 @@ export default class HomeEs extends React.Component {
                   Comisiones bájísimas
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Menos de la mitad de lo que cuesta Paypal o Paymill, con tarifas fáciles de entender.
+                  Menos de la mitad de lo que cuesta Paypal, con tarifas fáciles de entender.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -52,7 +52,7 @@ export default class HomeEs extends React.Component {
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  +12,000 empresas
+                  +12.000 empresas
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                   Facilitando cobros para compañías a lo largo de todo Europa, ya sean grandes o pequeñas.

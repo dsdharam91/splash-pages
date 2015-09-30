@@ -116,7 +116,7 @@ export default class ProEs extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                       Hemos hecho extremadamente sencillo el desarrollar sobre GoCardless Pro
-                      y crear una nueva generación de websites y de apps móviles.
+                      y crear una nueva generación de páginas web y de apps móviles.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>
@@ -163,7 +163,7 @@ export default class ProEs extends React.Component {
               <div className='u-text-center u-padding-Vxxl'>
                 <div className='site-container u-padding-Vxl'>
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    Ve una corta descripción de GoCardless Pro
+                    Ve una corta descripción de GoCardless Pro (Inglés)
                   </h2>
                   <iframe src='https://player.vimeo.com/video/116341918'
                   className='u-text-center videos-container__iframe u-margin-Vl'>
