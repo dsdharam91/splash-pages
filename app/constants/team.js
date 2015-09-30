@@ -38,6 +38,7 @@ export const team = [
   'Ross Pert',
   'Tom Petty',
   'Tim Rogers',
+  'Alfonso Sainz de Baranda',
   'Josh Sasto',
   'Isaac Seymour',
   'James Shedden',

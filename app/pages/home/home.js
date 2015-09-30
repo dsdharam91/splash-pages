@@ -5,6 +5,7 @@ import InlineMessage from '../../components/inline-message/inline-message';
 import HomeEn from './home.en';
 import HomeFr from './home.fr';
 import HomeDe from './home.de';
+import HomeEs from './home.es';
 import IfLocale from '../../components/if-locale/if-locale';
 import Href from '../../components/href/href';
 
@@ -45,9 +46,10 @@ export default class Home extends React.Component {
             </div>
           </div>
         </div>
-        <HomeFr />
         <HomeEn />
+        <HomeFr />
         <HomeDe />
+        <HomeEs />
       </Page>
     );
   }

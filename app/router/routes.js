@@ -135,6 +135,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/',
       },
+      es: {
+        path: '/',
+      },
     },
   ],
   [Pricing, { name: 'pricing' }, {
@@ -146,7 +149,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/preise',
-
+      },
+      es: {
+        path: '/tarifas',
       },
     },
   ],
@@ -158,6 +163,9 @@ export const config = Immutable.fromJS([
         path: '/pro',
       },
       de: {
+        path: '/pro',
+      },
+      es: {
         path: '/pro',
       },
     },
@@ -172,6 +180,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/sicherheit',
       },
+      //es: {
+      //  path: '/seguridad',
+      //},
     },
   ],
   [Features, { name: 'features' }, {
@@ -204,6 +215,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/kontakt',
+      },
+      es: {
+        path: '/contacto',
       },
     },
   ],
@@ -241,6 +255,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/ueber-uns',
       },
+      es: {
+        path: '/sobre-nosotros',
+      },
     },
   ],
   [Team, { name: 'team' }, {
@@ -252,6 +269,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/ueber-uns/team',
+      },
+      es: {
+        path: '/sobre-nosotros/equipo',
       },
     },
   ],
@@ -447,6 +467,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/partner',
+      },
+      es: {
+        path: '/asociados',
       },
     },
   ],

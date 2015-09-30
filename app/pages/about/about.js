@@ -3,6 +3,7 @@ import Page from '../../components/page/page';
 import AboutEn from './about.en';
 import AboutFr from './about.fr';
 import AboutDe from './about.de';
+import AboutEs from './about.es';
 import AboutHeader from './about-header';
 
 export default class About extends React.Component {
@@ -16,6 +17,7 @@ export default class About extends React.Component {
         <AboutEn />
         <AboutFr />
         <AboutDe />
+        <AboutEs />
       </Page>
     );
   }

@@ -6,6 +6,7 @@ import GBFlagIcon from '../../icons/svg/GB-flag';
 import FRFlagIcon from '../../icons/svg/FR-flag';
 import BEFlagIcon from '../../icons/svg/BE-flag';
 import EUFlagIcon from '../../icons/svg/EU-flag';
+import ESFlagIcon from '../../icons/svg/ES-flag';
 
 const countryMap = {
   de: DEFlagIcon,
@@ -14,6 +15,7 @@ const countryMap = {
   fr: FRFlagIcon,
   be: BEFlagIcon,
   eu: EUFlagIcon,
+  es: ESFlagIcon,
 };
 
 export default class Flag extends React.Component {
