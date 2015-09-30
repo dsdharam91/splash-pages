@@ -37,7 +37,7 @@ npm test
 
 This will run ESLint, Unit Tests and E2E tests.
 
-__Note__: the first time you run the tests, they will be slow. This is because of the transpilation that Babel has to do. Every subsequent run should be much quicker, as Babel caches aggresively.
+__Note__: the first time you run the tests, they will be slow. This is because of the transpilation that Babel has to do. Every subsequent run should be much quicker, as Babel caches aggressively.
 
 ### What is JSX?
 
