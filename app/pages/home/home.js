@@ -10,7 +10,6 @@ import HomeSe from './home.se';
 import HomeNo from './home.no';
 import HomeNl from './home.nl';
 import IfLocale from '../../components/if-locale/if-locale';
-import Translation from '../../components/translation/translation';
 import Href from '../../components/href/href';
 
 export default class Home extends React.Component {
@@ -59,8 +58,8 @@ export default class Home extends React.Component {
               </div>
             </div>
 
-            <HomeFr />
             <HomeEn />
+            <HomeFr />
             <HomeDe />
             <HomeEs />
           </Page>
