@@ -150,7 +150,7 @@ class Footer extends React.Component {
               className='u-text-light u-text-no-smoothing u-inline-block' />
               <Popover className='popover--country-select' toggle={
                   (<a href='' className='u-text-semi u-link-invert'>
-                    <Flag viewBox="0 0 640 480" width="64" height="48" country={region} className='flag-icon u-margin-Hs' alt={ region } />
+                    <Flag width="60" height="40" country={region} className='flag-icon u-margin-Hs' alt={ region } />
                     <span className='popover-link popover-link--invert'>
                       <Message pointer='country' />
                     </span>
@@ -164,15 +164,15 @@ class Footer extends React.Component {
                           {
                             localePage.isActive && (
                               <span className='u-padding-Vxs u-padding-Hm u-block'>
-                                <Flag viewBox="0 0 640 480" country={localeToRegion(localePage.locale)}
-                                className='flag-icon--popover u-margin-Rs' alt={ localePage.name } />
+                                <Flag country={localeToRegion(localePage.locale)}
+                                className='flag-icon--popover u-margin-Rs u-align-baseline' alt={ localePage.name } />
                                 <span className='country-select-label u-color-p'>{ localePage.name }</span>
                                 <CheckmarkIcon className='u-fill-dark-green u-margin-Ls u-pull-end u-inline checkmark-icon' alt='✓' />
                               </span>
                             ) || (
                               <a className='u-padding-Vxs u-padding-Hm u-block' href={ localePage.path }>
-                                <Flag viewBox="0 0 640 480" country={localeToRegion(localePage.locale)}
-                                className='flag-icon--popover u-margin-Rs' alt={ localePage.name } />
+                                <Flag country={localeToRegion(localePage.locale)}
+                                className='flag-icon--popover u-margin-Rs u-align-baseline' alt={ localePage.name } />
                                 <span className='country-select-label'>{ localePage.name }</span>
                               </a>
                             )

@@ -17,22 +17,22 @@ import About from '../pages/about/about';
 import Team from '../pages/about/team/team';
 
 import Jobs from '../pages/about/jobs/jobs';
+import ProductEngineer from '../pages/about/jobs/positions/product-engineer';
+import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
+import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
+import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships';
+import DataEngineer from '../pages/about/jobs/positions/data-engineer';
+import DataAnalyst from '../pages/about/jobs/positions/data-analyst';
+import Designers from '../pages/about/jobs/positions/designers';
+import SeniorAccountExecutive from '../pages/about/jobs/positions/senior-account-executive';
 import SalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative';
 import AccountExecutiveGermany from '../pages/about/jobs/positions/account-executive-germany';
 import BusinessDevelopmentGermany from '../pages/about/jobs/positions/business-development-germany';
-import SeniorAccountExecutive from '../pages/about/jobs/positions/senior-account-executive';
-import ProductEngineer from '../pages/about/jobs/positions/product-engineer';
-import DeveloperCommunityManager from '../pages/about/jobs/positions/developer-community-manager';
-import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships';
-import Designers from '../pages/about/jobs/positions/designers';
-import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
-import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
-import DataEngineer from '../pages/about/jobs/positions/data-engineer';
-import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer';
 import CustomerRelationshipMarketer from '../pages/about/jobs/positions/customer-relationship-marketer';
 import ContentCommunityManager from '../pages/about/jobs/positions/content-community-manager';
 import VPPeople from '../pages/about/jobs/positions/vp-people';
+import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -135,6 +135,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/',
       },
+      es: {
+        path: '/',
+      },
       se: {
         path: '/',
       },
@@ -156,6 +159,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/preise',
       },
+      es: {
+        path: '/tarifas',
+      },
     },
   ],
   [Pro, { name: 'pro' }, {
@@ -166,6 +172,9 @@ export const config = Immutable.fromJS([
         path: '/pro',
       },
       de: {
+        path: '/pro',
+      },
+      es: {
         path: '/pro',
       },
     },
@@ -180,6 +189,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/sicherheit',
       },
+      //es: {
+      //  path: '/seguridad',
+      //},
     },
   ],
   [Features, { name: 'features' }, {
@@ -212,6 +224,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/kontakt',
+      },
+      es: {
+        path: '/contacto',
       },
     },
   ],
@@ -249,6 +264,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/ueber-uns',
       },
+      es: {
+        path: '/sobre-nosotros',
+      },
     },
   ],
   [Team, { name: 'team' }, {
@@ -260,6 +278,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/ueber-uns/team',
+      },
+      es: {
+        path: '/sobre-nosotros/equipo',
       },
     },
   ],
@@ -281,12 +302,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [DataEngineer, { name: 'jobs_data_engineer', category: 'jobs.engineering' }, {
-      en: {
-        path: '/about/jobs/data-engineer',
-      },
-    },
-  ],
   [SiteReliabilityEngineer, { name: 'jobs_site_reliability_engineer', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/site-reliability-engineer',
@@ -299,9 +314,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [DeveloperCommunityManager, { name: 'jobs_developer_community_manager', category: 'jobs.engineering' }, {
+  [DataEngineer, { name: 'jobs_data_engineer', category: 'jobs.engineering' }, {
       en: {
-        path: '/about/jobs/developer-community-manager',
+        path: '/about/jobs/data-engineer',
+      },
+    },
+  ],
+  [DataAnalyst, { name: 'jobs_data_analyst', category: 'jobs.engineering' }, {
+      en: {
+        path: '/about/jobs/data-analyst',
       },
     },
   ],
@@ -326,6 +347,12 @@ export const config = Immutable.fromJS([
   [AccountExecutiveGermany, { name: 'jobs_account_executive_germany', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/account-executive-germany',
+      },
+    },
+  ],
+  [BusinessDevelopmentGermany, { name: 'jobs_business_development_germany', category: 'jobs.business_development' }, {
+      en: {
+        path: '/about/jobs/business-development-germany',
       },
     },
   ],
@@ -356,12 +383,6 @@ export const config = Immutable.fromJS([
   [CustomerSupport, { name: 'jobs_customer_support', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support',
-      },
-    },
-  ],
-  [BusinessDevelopmentGermany, { name: 'jobs_business_development_germany', category: 'jobs.business_development' }, {
-      en: {
-        path: '/about/jobs/business-development-germany',
       },
     },
   ],
@@ -455,6 +476,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/partner',
+      },
+      es: {
+        path: '/asociados',
       },
     },
   ],
