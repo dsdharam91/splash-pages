@@ -6,6 +6,7 @@ export default {
     local_scheme: 'sepa',
     has_instant_signup: false,
     has_percentage_pricing: false,
+    show_holding_page: false,
   },
   hero: {
     header: 'Simplificamos los cobros recurrentes',

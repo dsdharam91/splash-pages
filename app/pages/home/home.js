@@ -19,7 +19,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <div>
-        <Translation locales={['en','fr','de']} exclude={['en-AU','en-US']}>
+        <IfLocale showHoldingPage={false}>
           <Page>
             <div className='page-hero page-hero--home page-hero--large u-relative u-size-full'>
               <div className='site-container page-hero__container'>
@@ -64,15 +64,14 @@ export default class Home extends React.Component {
             <HomeDe />
             <HomeEs />
           </Page>
-        </Translation>
+        </IfLocale>
 
-        <Translation locales={['en-AU','en-US']}>
+        <IfLocale showHoldingPage>
           <HomeEn />
-        </Translation>
-
-        <HomeSe/>
-        <HomeNo/>
-        <HomeNl/>
+          <HomeSe/>
+          <HomeNo/>
+          <HomeNl/>
+        </IfLocale>
       </div>
     );
   }

@@ -8,6 +8,7 @@ export default {
     local_scheme: 'sepa',
     has_instant_signup: true,
     has_percentage_pricing: true,
+    show_holding_page: false,
   },
   hero: {
     header: 'Accept recurring payments across Europe',
