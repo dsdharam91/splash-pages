@@ -4,6 +4,7 @@ import PricingEn from './pricing.en';
 import PricingFr from './pricing.fr';
 import PricingDe from './pricing.de';
 import PricingEs from './pricing.es';
+import PricingNl from './pricing.nl';
 
 export default class Pricing extends React.Component {
   displayName = 'Pricing'
@@ -15,6 +16,7 @@ export default class Pricing extends React.Component {
         <PricingFr />
         <PricingDe />
         <PricingEs />
+        <PricingNl />
       </Page>
     );
   }
