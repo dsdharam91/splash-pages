@@ -2,7 +2,7 @@
 
 export default {
   header: {
-    our_products: 'Our products',
+    our_products: 'Onze producten',
     login_btn: 'Login',
     more: 'More',
   },
