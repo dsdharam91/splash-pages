@@ -124,6 +124,9 @@ export default {
     title: 'Pro API',
     nav_title: 'Pro API',
   },
+  signup: {
+    path: 'https://manage.gocardless.com/signup?lang=es',
+  },
   blog: {
     title: 'Blog',
     nav_title: 'Blog',
