@@ -273,7 +273,7 @@ export default {
     path: 'https://manage.gocardless.com',
   },
   signup: {
-    path: 'https://manage.gocardless.com/signup',
+    path: 'https://manage.gocardless.com/signup?lang=fr',
   },
   stories: {
     title: 'Références',

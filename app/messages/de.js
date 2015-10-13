@@ -137,7 +137,7 @@ export default {
     path: 'https://manage.gocardless.com',
   },
   signup: {
-    path: 'https://manage.gocardless.com/signup',
+    path: 'https://manage.gocardless.com/signup?lang=de',
   },
   faq: {
     title: 'Häufig gestellte Fragen',
