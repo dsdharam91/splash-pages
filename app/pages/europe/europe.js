@@ -14,7 +14,7 @@ export default class Europe extends React.Component {
               <div className='page-hero__text u-text-center'>
                 <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>Accept Direct Debit across Europe</h1>
                 <p className='u-text-heading-light u-size-4of5 u-center u-color-invert u-text-m u-margin-Txxs'>
-                  GoCardless lets you take payments in the UK and across<br />the entire Eurozone via a single integration
+                  GoCardless lets you take payments in the UK, Sweden and across<br />the entire Eurozone via a single integration
                 </p>
                 <div className='u-text-center u-margin-Tl'>
                   <Link to='contact_sales' className='btn btn--invert btn--move'>
