@@ -24,7 +24,7 @@ export default {
     learn_more: 'Infórmate sobre nuestras tarifas',
   },
   signup_cta: {
-    main: 'Regístrate en minutos, acepta pagos Hoy',
+    main: 'Regístrate en minutos, acepta pagos hoy',
     button_text: 'Empieza a cobrar a través de Domiciliaciones',
     description: 'Sin costes por adelantado, sin comisiones encubiertas, sin compromiso',
   },
@@ -95,6 +95,12 @@ export default {
     information1: 'Tu información está segura con nosotros.',
     information2: 'Nunca la compartiremos ni se la venderemos a nadie.',
   },
+  features: {
+    title: 'Cobros Online Rápidos y Simples',
+    nav_title: 'GoCardless',
+    description: 'GoCardless es la manera más sencilla de pagar online. Realiza tus cobros directamente desde la cuenta bancaria de tus clientes. Ahorra tiempo y mejora tu flujo de caja.',
+    explainer: 'Simplificamos los Cobros recurrentes',
+  },
   pro: {
     title: 'GoCardless Pro: Control Total sobre tus Domiciliaciones Bancarias',
     nav_title: 'GoCardless Pro',
@@ -114,6 +120,16 @@ export default {
     faq: {
       title: 'FAQ',
     },
+  },
+  security: {
+    title: 'Seguridad',
+    nav_title: 'Seguridad',
+    description: 'GoCardless está construido desde su comienzo con encriptación de grado militar para mantener tus detalles seguros. Regulated by the Financial Conduct Authority.',
+    header1: 'Encriptación de grado militar a todos los niveles',
+    header2: 'GoCardless usa encriptación de grado militar para mantenerte seguro, y nos utilizan y apoyan las mayores empresas de pagos del mundo',
+    fca_authorised_byline: 'GoCardless está regulada por la Financial Conduct Authority en el Reino Unido como una Entidad de Pagos Autorizada para realizar cobros por cualquier parte de Europa.',
+    consumer_protection_title: 'Protección del Cliente',
+    trusted_by_thousands_byline: 'GoCardless ofrece acceso a la red SEPA de Domiciliaciones a decenas de miles de empresas por toda Europa.',
   },
   team: {
     title: 'Equipo',
@@ -135,7 +151,7 @@ export default {
     path: '/guides/sepa/',
   },
   help: {
-    title: 'Support',
+    title: 'Soporte',
     nav_title: 'Soporte',
   },
 };

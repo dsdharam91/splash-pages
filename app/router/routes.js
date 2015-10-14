@@ -180,9 +180,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/sicherheit',
       },
-      //es: {
-      //  path: '/seguridad',
-      //},
+      es: {
+        path: '/seguridad',
+      },
     },
   ],
   [Features, { name: 'features' }, {
@@ -197,6 +197,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/funktionen',
+      },
+      es: {
+        path: '/funcionalidades',
       },
     },
   ],

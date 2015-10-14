@@ -38,7 +38,7 @@ export default class PricingEs extends React.Component {
                       <b>Perfecto para pequeñas y medianas empresas</b>
                     </li>
                     <li className='pricing-options__list-item'>
-                      Sin costes por adelantado, sin comisiones encubiertas, sin compromiso</li>
+                      Sin costes por adelantado, sin comisiones ocultas, sin compromiso</li>
                     <li className='pricing-options__list-item'>
                       Tarifas escalables disponibles (<a href='#scale-pricing-container'>?</a>)
                     </li>
