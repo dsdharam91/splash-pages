@@ -78,9 +78,9 @@ export default {
     header2: 'Zahlungsnetzwerk im Internet',
   },
   home: {
-    title: 'Die einfache Art wiederkehrende Zahlungen zu empfangen',
+    title: 'Die einfache Art wiederkehrende Zahlungen zu empfangen', // edit me
     nav_title: 'Start',
-    description: 'GoCardless',
+    description: '', // edit me
     link: 'home page',
     trusted_message_scale: 'Wir übermitteln jeden Tag mehrere Millionen Euro für unsere Kunden.',
   },
@@ -102,7 +102,7 @@ export default {
     explainer: 'Einfache wiederkehrende Zahlungen',
   },
   pro: {
-    title: 'GoCardless Pro: Komplette Kontrolle über Ihre Lastschriften',
+    title: 'GoCardless Pro: Komplette Kontrolle über Ihre Lastschriften', // edit me
     nav_title: 'GoCardless Pro',
     description: 'GoCardless Pro lässt Sie Lastschriften einziehen und ermöglicht Ihnen komplette Kontrolle über den Prozess. 100% werbefrei und mit einer sehr einfach zu integrierenden API.',
     explainer: 'Volle Kontrolle über Lastschriften',
