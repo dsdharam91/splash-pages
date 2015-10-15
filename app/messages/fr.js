@@ -187,7 +187,7 @@ export default {
     link: 'fr home',
   },
   about: {
-    title: 'A propos de GoCardless : informations sur notre entreprise',
+    title: 'A propos de GoCardless',
     nav_title: 'A propos',
     description: 'Nous avons pour mission de bâtir le futur des paiement récurrents. Apprenez-en plus sur notre entreprise.',
     link: 'a-propos',
@@ -213,17 +213,17 @@ export default {
   legal_merchants: {
     title: 'Légal - Nos Conditions Générales d\'Utilisation (CGU)',
     nav_title: 'CGU',
-    description: 'Legal',
+    description: '',
   },
   legal_privacy: {
     title: 'Légal - Politique de confidentialité',
     nav_title: 'Politique de confidentialité',
-    description: 'Legal',
+    description: '',
   },
   legal_restrictions: {
     title: 'Légal - Activités restreintes',
     nav_title: 'Activités restreintes',
-    description: 'Legal',
+    description: '',
   },
   team: {
     title: 'Notre équipe',
@@ -278,15 +278,15 @@ export default {
   stories: {
     title: 'Références',
     nav_title: 'Références',
-    description: 'Références',
+    description: '',
   },
   stories_1001_menus: {
     title: '1001 Menus',
-    description: 'x',
+    description: '',
   },
   stories_the_french_talents: {
     title: 'The French Talents',
-    description: 'x',
+    description: '',
   },
 };
 
