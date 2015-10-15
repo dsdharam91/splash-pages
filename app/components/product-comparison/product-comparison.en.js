@@ -108,8 +108,8 @@ export default class ProductComparisonEn extends React.Component {
             <Translation locales={['en']} exclude={['en-GB']}>
               <tr className='comparison-table__row'>
                 <td className='comparison-table__cell u-text-end'>Accept payments from...</td>
-                <td className='comparison-table__cell'>22 countries (UK, Sweden & Eurozone)</td>
-                <td className='comparison-table__cell'>22 countries (UK, Sweden & Eurozone)</td>
+                <td className='comparison-table__cell'>23 countries (UK, Sweden & Eurozone)</td>
+                <td className='comparison-table__cell'>23 countries (UK, Sweden & Eurozone)</td>
               </tr>
             </Translation>
             <Translation locales={['en-GB']}>
