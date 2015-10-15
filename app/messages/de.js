@@ -72,7 +72,7 @@ export default {
   about: {
     title: 'Über GoCardless',
     nav_title: 'Über uns',
-    description: 'Über uns',
+    description: '',
     link: 'about',
     header1: 'Wir bauen ein neues',
     header2: 'Zahlungsnetzwerk im Internet',
@@ -240,25 +240,25 @@ export default {
     title: 'Rechtliche Hinweise',
     nav_title: 'Impressum',
     footer_nav_title: 'Impressum',
-    description: 'Impressum',
+    description: '',
     sidebar_text: 'Haben Sie Fragen? Rufen Sie uns an unter',
   },
   legal_merchants: {
     title: 'Allgemeine Geschäftsbedingungen (AGB)',
     nav_title: 'AGB',
     footer_nav_title: 'AGB',
-    description: 'AGB',
+    description: '',
   },
   legal_privacy: {
     title: 'Datenschutzerklärung',
     nav_title: 'Datenschutzerklärung',
     footer_nav_title: 'Datenschutzerklärung',
-    description: 'Datenschutzerklärung',
+    description: '',
   },
   legal_restrictions: {
     title: 'Verbotene Aktivitäten',
     nav_title: 'Verbotene Aktivitäten',
-    description: 'Verbotene Aktivitäten',
+    description: '',
   },
   security: {
     title: 'Sicherheit',
