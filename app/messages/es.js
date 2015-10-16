@@ -154,4 +154,36 @@ export default {
     title: 'Soporte',
     nav_title: 'Soporte',
   },
+  legal: {
+    title: 'Nuestros Términos y Condiciones',
+    nav_title: 'Introducción',
+    footer_nav_title: 'Legal',
+    description: '',
+    sidebar_text: '¿Tienes una pregunta? Llamanos',
+  },
+  legal_customers: {
+    title: 'Términos y Condiciones - Usuarios',
+    nav_title: 'Términos para usuarios',
+    description: '',
+  },
+  legal_merchants: {
+    title: 'Tñerminos y Condiciones - Empresas',
+    nav_title: 'Términos para Empresas',
+    description: '',
+  },
+  legal_partners: {
+    title: 'Our terms of service - Partners',
+    nav_title: 'Partner agreement',
+    description: '',
+  },
+  legal_privacy: {
+    title: 'Términos y Condiciones - Privacidad',
+    nav_title: 'Política de Privacidad',
+    description: '',
+  },
+  legal_restrictions: {
+    title: 'Términos y Condiciones - Restricciones',
+    nav_title: 'Actividades Restringidas',
+    description: '',
+  },
 };
