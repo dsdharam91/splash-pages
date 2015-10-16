@@ -68,6 +68,11 @@
   border-top-color: white;
 }
 
+.popover-link--invert span {
+  position: relative;
+  top: 1px;
+}
+
 .popover--country-select {
   bottom: 0;
   margin-bottom: 44px;
