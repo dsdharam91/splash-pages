@@ -179,7 +179,7 @@ export default class FeaturesEs extends React.Component {
                     </div>
                       <p className='u-color-p u-margin-Txs'>
                         Añade GoCardless a tu web o app en minutos con nuestras librerias API.
-                        <a href='https://developer.gocardless.com/pro'>Descubre más</a>.
+                        <a href='https://developer.gocardless.com/pro'> Descubre más</a>.
                       </p>
                   </div>
                 </div>
@@ -196,7 +196,7 @@ export default class FeaturesEs extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                     Asegura tu flujo de caja
                   </h2>
-                  <h3 className='u-text-s'>Up to the second status reports</h3>
+                  <h3 className='u-text-s'>Sigue el estado de tus pagos en todo momento</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Nuestro panel de control y notificaciones por email te mantendran informado totalmente
                      acerca de todos tus cobros y clientes.
@@ -225,8 +225,8 @@ export default class FeaturesEs extends React.Component {
                     </p>
                   <h3 className='u-text-s'>Con un sencillo Setup Online</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    Todo el proceso es online. Utilizando nuestro mandato online, tus clientes podrán 
-                    autorizar cobros en minutos - incluso desde su teléfono móvil.
+                    Todo el proceso es online. Utilizando nuestro mandato online, tus clientes podrán
+                     autorizar cobros en minutos - incluso desde su teléfono móvil.
                   </p>
                   <h3 className='u-text-s'>Tu logo, en todas partes</h3>
                   <p className='u-color-p u-margin-Bm'>
@@ -263,10 +263,10 @@ export default class FeaturesEs extends React.Component {
                       <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Sencillo proceso de cambio masivo
+                      Sencillo proceso de migración
                     </div>
                     <p className='u-size-8of10 u-center u-color-p u-margin-Txs'>
-                      Te ayudaremos a modificar de golpe a todos tus clientes<br /> de tu proveedor anterior.
+                      Te ayudaremos a cambiar de golpe a todos tus clientes<br /> desede tu proveedor anterior.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3 u-text-center'>
