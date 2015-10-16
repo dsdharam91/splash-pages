@@ -1,5 +1,6 @@
 import React from 'react';
 import PartnersGuidePage from '../partners-guide-page';
+import Link from '../../../../components/link/link';
 
 export default class PartnersGuide extends React.Component {
   displayName = 'PartnersGuide'
@@ -44,12 +45,10 @@ export default class PartnersGuide extends React.Component {
         <h3>Can I host the payment pages on my site?</h3>
 
         <p>
-          With the App integration using OAuth you cannot provide your own payment pages as a partner, but we plan
-          to support this soon. Your merchants can build their own payment pages however.
-        </p>
-
-        <p>
-          With the white label integration, both you and your merchants can have their own payment pages.
+          Yes, in both App integration and White label, both you and your merchants can have
+          their own payment pages. For more details read the sections
+          on <Link to='partners_guide_app_integration'>App integration</Link> and&nbsp;
+          <Link to='partners_guide_white_label_integration'>White label</Link>.
         </p>
 
         <p>
