@@ -1,13 +1,9 @@
 deployment:
-  production:
-    branch: master
+  dev:
+    branch: dev
     commands:
       - npm run build-production
       - npm run deploy-live-production
-
-  staging:
-    branch: dev
-    commands:
       - npm run build-staging
       - npm run deploy-live-staging
 
