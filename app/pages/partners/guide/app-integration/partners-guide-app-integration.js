@@ -59,10 +59,52 @@ export default class PartnersGuideAppIntegration extends React.Component {
         </p>
 
         <p>
-          Partner Custom Payment Pages are only available with the White label integration - find out more
-          in our <Link to='partners_guide_white_label_integration'>white label integration
-          section</Link>. However, we plan to support this soon in App integration - get in
-          touch if this is important to you.
+          However, you may want to create customised payment pages that are available to all your
+          merchants, which can create a better customer journey and improve conversion.
+
+          For examples of merchants that have implemented their own payment pages, take a look at:
+        </p>
+
+        <ul>
+          <li>
+            <a href='http://registration.ft.com/registration/subscription-service/signuppsp?segid=70011' target='_blank'>
+              The Financial Times
+            </a>
+          </li>
+
+          <li>
+            <a href='https://shop.tes.co.uk/tesshop/' target='_blank'>
+              Times Educational Supplement
+            </a>
+          </li>
+
+          <li>
+            <a href='https://subscribe.theguardian.com/?INTCMP=NGW_HEADER_UK_GU_SUBSCRIBE' target='_blank'>
+              The Guardian
+            </a>
+          </li>
+        </ul>
+
+        <p>
+          For more details on designing payment pages that comply with the
+          Direct Debit guidelines,
+          click <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements'
+          target='_blank'>here</a>.
+        </p>
+
+        <p>
+          We will need to approve your payment pages before going live.
+        </p>
+
+        <p>
+          Note that if you design your own payment pages in App integration, then you must use the
+          GoCardless Service User Number and so "GoCardless" will appear on the customer's bank
+          statement. If you want your name (as the Partner) to appear on the customer's bank
+          statement, you should choose our White label integration.
+        </p>
+
+        <p>
+          You must also use the GoCardless automated customer notifications.
         </p>
 
         <h3>Merchant hosted customised payment page</h3>

@@ -159,7 +159,7 @@ export default class PartnersGuideOptions extends React.Component {
             <td>Partner customised payment pages</td>
 
             <td>
-              <XIcon className='u-fill-dark-gray' alt='✘' />
+              Yes but will mean 'GoCardless' appears on customer bank statement
             </td>
 
             <td>
