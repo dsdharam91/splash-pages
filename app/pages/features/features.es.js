@@ -35,7 +35,8 @@ export default class FeaturesEs extends React.Component {
                     Empieza a Cobrar hoy mismo
                   </h1>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    GoCardless es la manera más rápida y fácil de realizar cobros <br />online únicos o recurrentes online en <Message pointer='country' />.
+                    GoCardless es la manera más rápida y fácil de realizar cobros <br />online únicos o recurrentes online en
+                     <Message pointer='country' />.
                   </p>
                 </div>
               </div>
@@ -100,7 +101,8 @@ export default class FeaturesEs extends React.Component {
                         Comienza en 24 horas
                       </div>
                       <p className='u-color-p u-margin-Txs'>
-                        Solo necesitas una cuenta bancaria en <Message pointer='country' />. <Link to='contact_sales'>Contáctanos</Link> para comenzar.
+                        Solo necesitas una cuenta bancaria en <Message pointer='country' />. <Link to='contact_sales'>
+                        Contáctanos</Link> para comenzar.
                       </p>
                     </IfLocale>
                     <IfLocale hasInstantSignup>
@@ -151,8 +153,8 @@ export default class FeaturesEs extends React.Component {
                       Alta retención de usuarios
                     </div>
                     <p className='u-color-p u-margin-Txs'>
-                      Como está construido sobre el sistema de Adeudos Directos, con Gocardless 
-                      no perderás clientes debido a la caducidad de las tajertas o cancelaciones.
+                      Como está construido sobre el sistema de Adeudos Directos, con Gocardless
+                       no perderás clientes debido a la caducidad de las tajertas o cancelaciones.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
@@ -176,7 +178,8 @@ export default class FeaturesEs extends React.Component {
                       Una API RESTful moderna
                     </div>
                       <p className='u-color-p u-margin-Txs'>
-                        Añade GoCardless a tu web o app en minutos con nuestras librerias API. <a href='https://developer.gocardless.com/pro'>Descubre más</a>.
+                        Añade GoCardless a tu web o app en minutos con nuestras librerias API.
+                        <a href='https://developer.gocardless.com/pro'>Descubre más</a>.
                       </p>
                   </div>
                 </div>
@@ -195,8 +198,8 @@ export default class FeaturesEs extends React.Component {
                   </h2>
                   <h3 className='u-text-s'>Up to the second status reports</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    Nuestro panel de control y notificaciones por email te mantendran informado totalmente 
-                    acerca de todos tus cobros y clientes.
+                    Nuestro panel de control y notificaciones por email te mantendran informado totalmente
+                     acerca de todos tus cobros y clientes.
                   </p>
                   <h3 className='u-text-s'>Exporta tus datos</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
@@ -217,8 +220,8 @@ export default class FeaturesEs extends React.Component {
                     A tus clientes les encantará
                   </h2>
                     <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                      GoCardless es una institución autorizada por la FCA que facilita y 
-                      agiliza los cobros a ti y a tus clientes.
+                      GoCardless es una institución autorizada por la FCA que facilita y
+                       agiliza los cobros a ti y a tus clientes.
                     </p>
                   <h3 className='u-text-s'>Con un sencillo Setup Online</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
@@ -275,7 +278,8 @@ export default class FeaturesEs extends React.Component {
                       Nunca estarás solo
                     </div>
                     <p className='u-size-8of10 u-center u-color-p u-margin-Txs'>
-                      Hemos ayudado a cientos de empresas y podemos guiarte en los pasos necesarios para <br />conseguir que tus clientes cambien.
+                      Hemos ayudado a cientos de empresas y podemos guiarte en los pasos necesarios para <br />conseguir
+                       que tus clientes cambien.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3 u-text-center'>
