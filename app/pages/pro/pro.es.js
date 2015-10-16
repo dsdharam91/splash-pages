@@ -9,6 +9,7 @@ import WhiteLabelIcon from '../../icons/svg/white-label';
 import MobileIcon from '../../icons/svg/mobile';
 import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
+import ProductComparison from '../../components/product-comparison/product-comparison';
 
 export default class ProEs extends React.Component {
   displayName = 'ProEs'
@@ -172,23 +173,26 @@ export default class ProEs extends React.Component {
               </div>
               <hr className='u-margin-An' />
             </div>
-            <div className='site-container u-text-center u-padding-Vxxl'>
-              <div className='u-padding-Vxl'>
-                <div className='u-size-1of2 u-center'>
-                  <i className='europe-icon u-margin-Bs' />
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    ¿Quieres realizar cobros por toda Europa?
-                  </h2>
-                  <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
-                      GoCardless Pro es el único producto del mercado que te permite realizar
-                      Domiciliaciones Bancarias desde el Reino Unido y la Eurozona en una sola integración
-                      Con nuestra API, tu empresa podra realizar cobros de más de 500 milllones de personas
-                      en 22 países de Europa.
-                    </p>
-                  </div>
+            <div id='forOptimizely-Table'>
+              <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
+                <div className='site-container u-padding-Vxl'>
+                  <ProductComparison />
+                  <table className='u-size-full'><tfoot>
+                      <tr className='comparison-table__row'>
+                        <td />
+                        <td className='u-size-1of3 u-padding-As'>
+                          <Link to='features' id='track-comparison-table-features'
+                          className='u-color-primary'>
+                            Descubre más sobre GoCardless
+                          </Link>
+                        </td>
+                        <td />
+                      </tr>
+                    </tfoot>
+                  </table>
                 </div>
               </div>
+              <hr className='u-margin-An' />
             </div>
             <hr className='u-margin-An' />
             <div className='site-container u-text-center u-padding-Vxxl'>

@@ -4,8 +4,8 @@ export default {
   country: 'España',
   country_properties: {
     local_scheme: 'sepa',
-    has_instant_signup: false,
-    has_percentage_pricing: false,
+    has_instant_signup: true,
+    has_percentage_pricing: true,
   },
   hero: {
     header: 'Simplificamos los cobros recurrentes',
@@ -19,5 +19,11 @@ export default {
     pro_number_of_monthly_payments: '> 500',
     per_transaction_amount_normal: '1%',
     normal_capped_at_amount: '200€',
+  },
+  signin: {
+    path: 'https://manage.gocardless.com',
+  },
+  signup: {
+    path: 'https://manage.gocardless.com/signup',
   },
 };
