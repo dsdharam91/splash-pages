@@ -74,7 +74,7 @@ export default class ProEn extends React.Component {
                     Designed specifically for larger enterprises,
                     GoCardless Pro combines the simplicity of our original
                     GoCardless product with complete control over payments and customer experience.
-                    It also allows you to collect Direct Debits from the UK, Sweden and the Eurozone via one simple integration.
+                    It also allows you to collect Direct Debit payments from the UK, Sweden and the Eurozone via one simple integration.
                   </p>
                 </div>
                 <div className='grid u-margin-Tl u-padding-Tm'>
