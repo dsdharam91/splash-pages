@@ -110,8 +110,8 @@ export default class FeaturesEs extends React.Component {
                         Comienza en minutos
                       </div>
                       <p className='u-color-p u-margin-Txs'>
-                          Sólo necesitas una cuenta bancaria en <Message pointer='country' />.
-                        &nbsp;<Href to='signup.path'>Regístrate ahora</Href> y
+                        Sólo necesitas una cuenta bancaria en <Message pointer='country' />.&nbsp;
+                        <Href to='signup.path'>Regístrate ahora</Href> y
                         podras empezar a cobrar a tus clientes en minutos.
                       </p>
                     </IfLocale>
@@ -126,7 +126,7 @@ export default class FeaturesEs extends React.Component {
                     </div>
                     <p className='u-color-p u-margin-Txs'>
                       GoCardless cuesta sólamente <Message pointer='pricing.per_transaction_amount_normal' /> por transacción
-                      (máximo de <Message pointer="pricing.cost_cap" />) sin mensualidades ni costes por adelantado.
+                      (máximo de <Message pointer='pricing.cost_cap' />) sin mensualidades ni costes por adelantado.
                       Hay tarifas escalables disponibles.
                     </p>
                   </div>
@@ -154,7 +154,7 @@ export default class FeaturesEs extends React.Component {
                     </div>
                     <p className='u-color-p u-margin-Txs'>
                       Como está construido sobre el sistema de Adeudos Directos, con Gocardless
-                       no perderás clientes debido a la caducidad de las tajertas o cancelaciones.
+                      no perderás clientes debido a la caducidad de las tajertas o cancelaciones.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
@@ -178,8 +178,8 @@ export default class FeaturesEs extends React.Component {
                       Una API RESTful moderna
                     </div>
                       <p className='u-color-p u-margin-Txs'>
-                        Añade GoCardless a tu web o app en minutos con nuestras librerias API.
-                        <a href='https://developer.gocardless.com/pro'> Descubre más</a>.
+                        Añade GoCardless a tu web o app en minutos con nuestras librerias API.&nbsp;
+                        <a href='https://developer.gocardless.com/pro'>Descubre más</a>.
                       </p>
                   </div>
                 </div>
@@ -198,8 +198,8 @@ export default class FeaturesEs extends React.Component {
                   </h2>
                   <h3 className='u-text-s'>Sigue el estado de tus pagos en todo momento</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    Nuestro panel de control y notificaciones por email te mantendran informado totalmente
-                     acerca de todos tus cobros y clientes.
+                    Nuestro panel de control y notificaciones por email te mantendran informado
+                    totalmente acerca de todos tus cobros y clientes.
                   </p>
                   <h3 className='u-text-s'>Exporta tus datos</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
@@ -221,17 +221,18 @@ export default class FeaturesEs extends React.Component {
                   </h2>
                     <p className='u-size-5of6 u-color-p u-margin-Bm'>
                       GoCardless es una institución autorizada por la FCA que facilita y
-                       agiliza los cobros a ti y a tus clientes.
+                      agiliza los cobros a ti y a tus clientes.
                     </p>
                   <h3 className='u-text-s'>Con un sencillo Setup Online</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Todo el proceso es online. Utilizando nuestro mandato online, tus clientes podrán
-                     autorizar cobros en minutos - incluso desde su teléfono móvil.
+                    autorizar cobros en minutos - incluso desde su teléfono móvil.
                   </p>
                   <h3 className='u-text-s'>Tu logo, en todas partes</h3>
                   <p className='u-color-p u-margin-Bm'>
-                    Ofrece una gran experiencia de usuarios añadiendo tu logo a nuestros<br />formularios de pago y
-                    enviando automáticamente a tus clientes<br /> de vuelta a tu página después de pagar.
+                    Ofrece una gran experiencia de usuarios añadiendo tu logo a
+                    nuestros<br />formularios de pago y enviando automáticamente a
+                    tus clientes<br /> de vuelta a tu página después de pagar.
                   </p>
                   <h3 className='u-text-s'>Una forma segura y sencilla de pagar</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
@@ -278,8 +279,8 @@ export default class FeaturesEs extends React.Component {
                       Nunca estarás solo
                     </div>
                     <p className='u-size-8of10 u-center u-color-p u-margin-Txs'>
-                      Hemos ayudado a cientos de empresas y podemos guiarte en los pasos necesarios para <br />conseguir
-                       que tus clientes cambien.
+                      Hemos ayudado a cientos de empresas y podemos guiarte en los pasos
+                      necesarios para <br />conseguir que tus clientes cambien.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3 u-text-center'>
@@ -307,7 +308,7 @@ export default class FeaturesEs extends React.Component {
                     <PhoneIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Tm'>
-                    <Message pointer="phone_local" />
+                    <Message pointer='phone_local' />
                   </h2>
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
