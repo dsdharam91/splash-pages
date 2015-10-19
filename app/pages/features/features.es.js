@@ -110,8 +110,9 @@ export default class FeaturesEs extends React.Component {
                         Comienza en minutos
                       </div>
                       <p className='u-color-p u-margin-Txs'>
-                        Sólo necesitas una cuenta bancaria en <Message pointer='country' />. <Href to='signup.path'>Regístrate
-                        ahora</Href> y podras empezar a cobrar a tus clientes en minutos.
+                        Sólo necesitas una cuenta bancaria en <Message pointer='country' />.&nbsp;
+                        <Href to='signup.path'>Regístrate ahora</Href> y
+                        podras empezar a cobrar a tus clientes en minutos.
                       </p>
                     </IfLocale>
                   </div>
@@ -125,7 +126,7 @@ export default class FeaturesEs extends React.Component {
                     </div>
                     <p className='u-color-p u-margin-Txs'>
                       GoCardless cuesta sólamente <Message pointer='pricing.per_transaction_amount_normal' /> por transacción
-                      (máximo de <Message pointer="pricing.cost_cap" />) sin mensualidades ni costes por adelantado.
+                      (máximo de <Message pointer='pricing.cost_cap' />) sin mensualidades ni costes por adelantado.
                       Hay tarifas escalables disponibles.
                     </p>
                   </div>
@@ -177,8 +178,8 @@ export default class FeaturesEs extends React.Component {
                       Una API RESTful moderna
                     </div>
                       <p className='u-color-p u-margin-Txs'>
-                        Añade GoCardless a tu web o app en minutos con nuestras
-                        librerias API. <a href='https://developer.gocardless.com/pro'>Descubre más</a>.
+                        Añade GoCardless a tu web o app en minutos con nuestras librerias API.&nbsp;
+                        <a href='https://developer.gocardless.com/pro'>Descubre más</a>.
                       </p>
                   </div>
                 </div>
@@ -277,8 +278,8 @@ export default class FeaturesEs extends React.Component {
                       Nunca estarás solo
                     </div>
                     <p className='u-size-8of10 u-center u-color-p u-margin-Txs'>
-                      Hemos ayudado a cientos de empresas y podemos guiarte en los pasos necesarios para <br />conseguir
-                      que tus clientes cambien.
+                      Hemos ayudado a cientos de empresas y podemos guiarte en los pasos
+                      necesarios para <br />conseguir que tus clientes cambien.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3 u-text-center'>
