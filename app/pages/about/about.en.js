@@ -19,8 +19,8 @@ export default class AboutEn extends React.Component {
                 By doing so, we are creating an entirely new type of payment network.
               </p>
               <p className='para'>
-                Founded in 2011, we have quickly grown into one of Europe’s leading Direct Debit providers,
-                processing over half a billion pounds a year for over ten thousand businesses.
+                Founded in 2011, we have quickly grown into one of Europe’s leading Direct Debit providers.
+                We've processed more than a billion dollars for over 12,000 businesses across the UK and Europe.
               </p>
               <p className='para'>
                 We work with a huge range of organisations: small gyms and scout groups use us to reduce admin, fast growing companies
