@@ -39,9 +39,6 @@ export default {
     address_country: 'Reino Unido',
     address_country_iso: 'GB',
   },
-  phone_full: '+34 91 198 1220',
-  phone_local: '+34 91 198 1220',
-  email: 'Spain@gocardless.com',
   partners_email: 'partnerships@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
@@ -126,7 +123,7 @@ export default {
     nav_title: 'Seguridad',
     description: 'GoCardless está construido desde su comienzo con encriptación de grado militar para mantener tus detalles seguros. Regulated by the Financial Conduct Authority.',
     header1: 'Encriptación de grado militar a todos los niveles',
-    header2: 'GoCardless usa encriptación de grado militar para mantenerte seguro, y nos utilizan y apoyan las mayores empresas de pagos del mundo',
+    header2: 'GoCardless usa encriptación de grado militar para mantenerte seguro, y nos utilizan y apoyan las mayores empresas de pagos del mundo.',
     fca_authorised_byline: 'GoCardless está regulada por la Financial Conduct Authority en el Reino Unido como una Entidad de Pagos Autorizada para realizar cobros por cualquier parte de Europa.',
     consumer_protection_title: 'Protección del Cliente',
     trusted_by_thousands_byline: 'GoCardless ofrece acceso a la red SEPA de Domiciliaciones a decenas de miles de empresas por toda Europa.',
@@ -139,6 +136,9 @@ export default {
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
+  },
+  signin: {
+    path: 'https://manage.gocardless.com',
   },
   signup: {
     path: 'https://manage.gocardless.com/signup?lang=es',

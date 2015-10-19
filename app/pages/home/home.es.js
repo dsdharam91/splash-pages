@@ -33,7 +33,7 @@ export default class HomeEs extends React.Component {
                   Completamente Automatizado
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Ahorra tiempo, reduce el error humano y evita cobros fallidos
+                  Ahorra tiempo, reduce el error humano y evita cobros fallidos.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>

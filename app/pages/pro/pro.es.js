@@ -177,7 +177,8 @@ export default class ProEs extends React.Component {
               <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
                 <div className='site-container u-padding-Vxl'>
                   <ProductComparison />
-                  <table className='u-size-full'><tfoot>
+                  <table className='u-size-full'>
+                    <tfoot>
                       <tr className='comparison-table__row'>
                         <td />
                         <td className='u-size-1of3 u-padding-As'>
