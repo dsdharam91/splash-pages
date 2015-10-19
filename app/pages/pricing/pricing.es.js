@@ -74,7 +74,7 @@ export default class PricingEs extends React.Component {
                     <b>Para empresas que quieren control total</b>
                   </li>
                   <li className='pricing-options__list-item'>
-                    <b><Message pointer='pricing.pro_monthly_fee' /> mensualmente</b>, sin gastos ocultos
+                    <b><Message pointer='pricing.pro_monthly_fee' /> de gasto fijo mensual</b>, sin gastos ocultos de ningún tipo
                   </li>
                   <li className='pricing-options__list-item'>
                     Para negocios con <b><Message pointer='pricing.pro_number_of_monthly_payments' /></b> al mes

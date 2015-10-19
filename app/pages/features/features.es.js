@@ -266,7 +266,7 @@ export default class FeaturesEs extends React.Component {
                       Sencillo proceso de migración
                     </div>
                     <p className='u-size-8of10 u-center u-color-p u-margin-Txs'>
-                      Te ayudaremos a cambiar de golpe a todos tus clientes desede tu proveedor anterior.
+                      Si ya estás utilizando Domiciliaciones Bancarias, te ayudaremos a migrar a todos en pocas horas.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3 u-text-center'>
@@ -288,11 +288,11 @@ export default class FeaturesEs extends React.Component {
                       <MembershipIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Añade a tus clientes de golpe
+                      Añade a tus clientes en un click
                     </div>
                     <p className='u-size-8of10 u-center u-color-p u-margin-Txs'>
-                      Nuestras simples herramientas te permitirán añadir a miles de clientes en minutos.
-                      Todo lo que tienen que hacer es completar nuestro sencillo formulario de pago.
+                      Nuestra herramienta te permitirá añadir a miles de clientes en minutos; sólo necesitan
+                      completar nuestro sencillo formulario de pago.
                     </p>
                   </div>
                 </div>
