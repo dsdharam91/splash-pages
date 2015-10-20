@@ -28,11 +28,6 @@ export default class FaqMerchantsDeveloperApiFr extends React.Component {
           Nous sommes compatible avec tous les langages existants grâce à l’adoption du standard REST.
           Nous avons également plusieurs librairies comme Ruby, PHP et Java. Nous en développons régulièrement de nouvelles.
         </p>
-        <p className='para'>
-          Si vous avez des questions pour nos développeurs, vous pouvez aller sur
-          notre <a href='http://webchat.freenode.net/?channels=gocardless&uio=OT10cnVlJjExPTIzNiYxMj10cnVl51' target='_blank'
-          className='u-link-color-p u-text-underline'>chat IRC</a> (#gocardless sur irc.freenode.net) en Anglais.
-        </p>
 
         <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
           Puis-je héberger directement les pages de paiements ?
@@ -70,9 +65,7 @@ export default class FaqMerchantsDeveloperApiFr extends React.Component {
           Comment recevoir de l’aide technique ?
         </h3>
         <p className='para'>
-          Vous pouvez nous envoyer un email à <Href to='email' />. Nous avons aussi une salle de chat qui est
-          accessible à <a href='http://webchat.freenode.net/?channels=gocardless&uio=OT10cnVlJjExPTIzNiYxMj10cnVl51' target='_blank'
-          className='u-link-color-p u-text-underline'>#gocardless sur irc.freenode.net</a>. Nos développeurs sont disponible de
+          Vous pouvez nous envoyer un email à <Href to='email' />. Nos développeurs sont disponible de
           10h-19h du Lundi au Vendredi pour vous assister.
         </p>
       </Translation>

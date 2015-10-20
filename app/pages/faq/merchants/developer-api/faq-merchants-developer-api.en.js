@@ -85,9 +85,6 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
             </a> and <a href='https://github.com/gocardless/gocardless-dotnet' target='_blank' className='u-link-color-p u-text-underline'>
               .NET
             </a>.
-            If you need help with any of these libraries, just drop by our&nbsp;
-            <a href='http://webchat.freenode.net/?channels=gocardless&uio=OT10cnVlJjExPTIzNiYxMj10cnVl51'target='_blank'
-            className='u-link-color-p u-text-underline'>IRC chat</a> (#gocardless on irc.freenode.net) for details.
           </p>
         </Translation>
         <Translation locales={['en']} exclude={['en-GB']}>
@@ -102,9 +99,6 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
             <a href='https://github.com/gocardless/gocardless-pro-java' target='_blank' className='u-link-color-p u-text-underline'>
               Java
             </a>.
-            If you need help with any of these libraries, just drop by our&nbsp;
-            <a href='http://webchat.freenode.net/?channels=gocardless&uio=OT10cnVlJjExPTIzNiYxMj10cnVl51'target='_blank'
-            className='u-link-color-p u-text-underline'>IRC chat</a> (#gocardless on irc.freenode.net) for details.
           </p>
         </Translation>
 
@@ -191,10 +185,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
         </h3>
         <p className='para'>
           You can email us at <Href to='email' className='u-link-color-p u-text-underline'
-          itemProp='email' />. We also have a live chat room which can be found
-          in <a href='http://webchat.freenode.net/?channels=gocardless&uio=OT10cnVlJjExPTIzNiYxMj10cnVl51' target='_blank'
-          className='u-link-color-p u-text-underline'>#gocardless on irc.freenode.net</a>. Our developers are on hand 9am-6pm,
-          Mon-Fri to help with your technical queries.
+          itemProp='email' />. Our developers are on hand 9am-6pm, Mon-Fri to help with your technical queries.
         </p>
         <Translation locales='en-GB'>
           <p className='para'>
