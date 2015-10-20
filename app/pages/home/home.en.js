@@ -49,7 +49,7 @@ export default class HomeEn extends React.Component {
                     UK &amp; Eurozone
                   </div>
                   <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                    Accept payments with Bacs Direct Debit and SEPA Direct Debit
+                    Accept payments with Bacs Direct Debit, SEPA Direct Debit and Swedish Autogiro
                   </p>
                 </div>
               </IfLocale>

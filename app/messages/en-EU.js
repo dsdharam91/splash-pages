@@ -9,7 +9,7 @@ export default {
   },
   hero: {
     header: 'Accept recurring payments across Europe',
-    desc: 'GoCardless allows you to collect Direct Debit payments from the UK and the Eurozone in a single integration.',
+    desc: 'GoCardless allows you to collect Direct Debit payments from the UK, the Eurozone and Sweden in a single integration.',
   },
   pricing: {
     description: 'Collect Direct Debit payments online with fees of just 1%, capped at €2. Scale pricing is available for larger organisations.',
