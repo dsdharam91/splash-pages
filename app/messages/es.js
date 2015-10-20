@@ -78,7 +78,7 @@ export default {
     header2: 'red de pagos para Internet.',
   },
   home: {
-    title: 'La manera más sencilla de cobrar recurrentemente a tus clientes',
+    title: 'Domiciliación Bancaria simplicada',
     nav_title: 'Home',
     description: 'GoCardless simplifica los cobros recurrentes. Ayudamos a más de 12.000 empresas en Europa, tanto en suscripciones como en facturación entre empresas.',
     link: 'home page',
@@ -96,13 +96,13 @@ export default {
     information2: 'Nunca la compartiremos ni se la venderemos a nadie.',
   },
   features: {
-    title: 'Cobros Online Rápidos y Simples',
+    title: 'Domiciliación Bancaria Online Rápida y Simple',
     nav_title: 'GoCardless',
     description: 'GoCardless es la manera más sencilla de pagar online. Realiza tus cobros directamente desde la cuenta bancaria de tus clientes. Ahorra tiempo y mejora tu flujo de caja.',
     explainer: 'Simplificamos los Cobros recurrentes',
   },
   pro: {
-    title: 'GoCardless Pro: Control Total sobre tus Domiciliaciones Bancarias',
+    title: 'Control Total de tus Domiciliaciones Bancarias',
     nav_title: 'GoCardless Pro',
     description: 'GoCardless Pro te permite controlar totalmente tus cobros a través de Domiciliación Bancaria. Personalizable a tu empresa y con una sencilla API.',
     explainer: 'Control Total sobre tus Domiciliaciones Bancarias',
