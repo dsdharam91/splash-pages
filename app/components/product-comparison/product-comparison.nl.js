@@ -116,7 +116,8 @@ export default class ProductComparisonNl extends React.Component {
               <td className='comparison-table__cell u-text-end'>Kosten per verrichting</td>
               <td className='comparison-table__cell'><Message pointer='pricing.per_transaction_amount_normal' /> up
               tot maximaal <Message pointer="pricing.cost_cap" /></td>
-              <td className='comparison-table__cell'><Message pointer='pricing.pro_cost_per_transaction' /> afhankelijk van aantal verrichtingen</td>
+              <td className='comparison-table__cell'><Message pointer='pricing.pro_cost_per_transaction' />
+               afhankelijk van aantal verrichtingen</td>
             </tr>
           </tbody>
         </table>

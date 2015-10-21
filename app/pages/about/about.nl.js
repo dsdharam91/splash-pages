@@ -23,7 +23,8 @@ export default class AboutNl extends React.Component {
                 We verwerken jaarlijks meer dan een miljard Euro voor meer dan tienduizend bedrijven en organisaties.
               </p>
               <p className='para'>
-                We werken met een brede waaier van organisaties: kleine fitness zaken en scouts groepen gebruiken ons om hun administratie te minimaliseren,
+                We werken met een brede waaier van organisaties: kleine fitness zaken en scouts groepen gebruiken ons 
+                om hun administratie te minimaliseren,
                 snel groeiende bedrijven zoals Funding Circle werken met ons om hun groei te ondersteunen,
                 en gevestigde merken zoals de Financial Times rekenen op ons om hun mislukte betalingen dramatisch te verlagen.
               </p>

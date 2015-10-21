@@ -5,11 +5,7 @@ import Link from '../../components/link/link';
 import Href from '../../components/href/href';
 
 import CheckListIcon from '../../icons/svg/checklist';
-import MoneyFlowerIcon from '../../icons/svg/money-flower';
 import TickSquareIcon from '../../icons/svg/tick-square';
-import ProIcon from '../../icons/svg/pro';
-import ShopIcon from '../../icons/svg/shop';
-import IntegrationsIcon from '../../icons/svg/integrations';
 import UsersIcon from '../../icons/svg/users';
 
 export default class HomeNl extends React.Component {

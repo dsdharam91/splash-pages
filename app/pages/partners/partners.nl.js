@@ -31,7 +31,8 @@ export default class PartnersNl extends React.Component {
               <div className='page-hero__text'>
                 <h1 className='u-text-heading u-color-invert u-text-light u-padding-Tm'>Help uw klanten online betalingen te incasseren</h1>
                   <p className='u-text-heading-light u-text-m u-color-invert u-padding-Vs'>
-                    Word GoCardless partner en maak het gemakkelijk voor uw klanten om terugkerende betalingen in Nederland en andere landen te incasseren
+                    Word GoCardless partner en maak het gemakkelijk voor uw klanten om terugkerende betalingen in Nederland 
+                    en andere landen te incasseren
                   </p>
                </div>
             </div>
@@ -73,7 +74,8 @@ export default class PartnersNl extends React.Component {
                 Waarom een van onze partners worden?
               </h2>
               <p className='u-size-2of3 u-center u-color-p u-padding-Ts'>
-                GoCardless laat u toe van de lage kosten en het lage percentage mislukte verrichtingen van automatisch incasso te genieten zonder de problemen van traditionele aanbieders.
+                GoCardless laat u toe van de lage kosten en het lage percentage mislukte verrichtingen van automatisch incasso
+                 te genieten zonder de problemen van traditionele aanbieders.
               </p>
               <div className='site-container u-padding-Txxl'>
                 <div className='grid u-padding-Txl'>
@@ -165,7 +167,8 @@ export default class PartnersNl extends React.Component {
                   Boekhouden
                 </h2>
                 <p className='u-text-s u-color-p u-margin-Bm'>
-                  KashFlow heeft GoCardless geïntegreerd om hun klanten toe te laten snel en eenvoudig betalingen te ontvangen vanuit hun KasFlow account.
+                  KashFlow heeft GoCardless geïntegreerd om hun klanten toe te laten snel en eenvoudig betalingen te ontvangen 
+                  vanuit hun KasFlow account.
                 </p>
                 <p className='u-text-s u-text-italic u-margin-Bxs partners-page__quote'>
                   “GoCardless gebruikers zijn loyaler en halen meer voordelen uit hun abonnement.”
@@ -192,10 +195,12 @@ export default class PartnersNl extends React.Component {
                 Clubs &amp; lidmaatschap
               </h2>
               <p className='u-text-s u-color-p u-margin-Bm'>
-                Teamup is GoCardless partner geworden om het gemakkelijker te maken voor fitness zaken en clubs om terugkerende betalingen voor hun leden op te zetten en te ontvangen.
+                Teamup is GoCardless partner geworden om het gemakkelijker te maken voor fitness zaken en clubs om terugkerende betalingen 
+                voor hun leden op te zetten en te ontvangen.
               </p>
               <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
-                “Onze klanten waarderen de gebruiksvriendelijkheid van GoCardless. Als partner waren ze cruciaal om onze groei te versnellen in Verenigd Koninkrijk en Europa.”
+                “Onze klanten waarderen de gebruiksvriendelijkheid van GoCardless. Als partner waren ze cruciaal om onze groei te versnellen 
+                in Verenigd Koninkrijk en Europa.”
               </p>
               <p className='u-text-s u-margin-Bm u-color-p'>Matt Pegler, mede-oprichter</p>
               <img src='/images/partners/teamup-logo@2x.png' className='partners-page__partner-logo' />
@@ -210,10 +215,12 @@ export default class PartnersNl extends React.Component {
                 Financiën en Accounting
               </h2>
               <p className='u-text-s u-color-p u-margin-Bl'>
-                Zuora vertrouwt op de know how van GoCardless voor het aanbieden van automatisch incasso en maakt het zo mogelijk voor hun klanten om wereldwijd betalingen te ontvangen.
+                Zuora vertrouwt op de know how van GoCardless voor het aanbieden van automatisch incasso en maakt het zo mogelijk 
+                voor hun klanten om wereldwijd betalingen te ontvangen.
               </p>
               <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
-                "GoCardless is een belangrijke Zuora partner die onze klanten voorziet van een ongeëvenaarde gebruikerservaring voor automatisch incasso. De Zuora-GoCardless integratie helpt abonnement services in Verenigd Koninkrijk en Europa een naadloze betalings ervaring aan hun klanten aan te bieden.”
+                "GoCardless is een belangrijke Zuora partner die onze klanten voorziet van een ongeëvenaarde gebruikerservaring voor automatisch 
+                incasso. De Zuora-GoCardless integratie helpt abonnement services in Verenigd Koninkrijk en Europa een naadloze betalings ervaring aan hun klanten aan te bieden.”
               </p>
               <p className='u-text-s u-margin-Bm u-color-p'>Tamsyn Attiwell, VP Global Services EMEA</p>
               <img src='/images/partners/zuora-logo@2x.png' className='partners-page__partner-logo' />

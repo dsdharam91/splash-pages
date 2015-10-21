@@ -124,12 +124,15 @@ export default class PricingNl extends React.Component {
               <p className='u-color-p'>
                 <IfLocale hasPercentagePricing>
                   Jazeker. Vanaf 1000 betalingen per maand bieden we lagere kosten aan per verrichting.
-                  Voor verdere informatie, gelieve contact met ons op te nemen <Link to='contact_sales' className='u-link-color-p u-text-underline'>contact</Link>.
+                  Voor verdere informatie, gelieve contact met ons op te nemen 
+                  <Link to='contact_sales' className='u-link-color-p u-text-underline'>contact</Link>.
                 </IfLocale>
                 <IfLocale hasPercentagePricing={false}>
                   Jazeker. Volume kortingen maken deel uit van onze GoCardless Pro prijszetting,
-                  en volume kortingen zijn beschikbaar op aanvraag voor GoCardless gebruikers die meer dan 250 betalingen per maand ontvangen.
-                  Voor verdere informatie, gelieve contact met ons op te nemen <Link to='contact_sales' className='u-link-color-p u-text-underline'>contact</Link>.
+                  en volume kortingen zijn beschikbaar op aanvraag voor GoCardless gebruikers die meer dan 250 betalingen 
+                  per maand ontvangen.
+                  Voor verdere informatie, gelieve contact met ons op te nemen 
+                  <Link to='contact_sales' className='u-link-color-p u-text-underline'>contact</Link>.
                 </IfLocale>
               </p>
             </div>
