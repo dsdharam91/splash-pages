@@ -36,7 +36,6 @@ export default class SalesDevelopmentRepresentative extends React.Component {
           and then trust you to be the first point of contact with all our new
           prospects.
         </p>
-        /*eslint-enable max-len*/
         <p className='para'>
           On a typical day you will be:
         </p>
@@ -98,5 +97,6 @@ export default class SalesDevelopmentRepresentative extends React.Component {
         </a>
       </JobsPage>
     );
+    /*eslint-enable max-len*/
   }
 }
