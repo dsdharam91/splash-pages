@@ -523,11 +523,17 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide',
       },
+      'de': {
+        path: '/partner/leitfaden',
+      },
     },
   ],
   [PartnersGuideOptions, { name: 'partners_guide_options', category: 'partners.overview' }, {
       'en-GB': {
         path: '/partners/guide/options',
+      },
+      'de': {
+        path: '/partner/leitfaden/optionen',
       },
     },
   ],
@@ -535,11 +541,17 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/app-integration',
       },
+      'de': {
+        path: '/partner/leitfaden/app-integration',
+      },
     },
   ],
   [PartnersGuideWhiteLabelIntegration, { name: 'partners_guide_white_label_integration', category: 'partners.overview' }, {
       'en-GB': {
         path: '/partners/guide/white-label-integration',
+      },
+      'de': {
+        path: '/partner/leitfaden/white-label-integration',
       },
     },
   ],
@@ -547,17 +559,26 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/getting-started',
       },
+      'de': {
+        path: '/partner/leitfaden/erste-schritte',
+      },
     },
   ],
   [PartnersGuideTesting, { name: 'partners_guide_testing', category: 'partners.faq' }, {
       'en-GB': {
         path: '/partners/guide/testing',
       },
+      'de': {
+        path: '/partner/leitfaden/testen',
+      },
     },
   ],
   [PartnersGuidePaymentPages, { name: 'partners_guide_payment_pages', category: 'partners.faq' }, {
       'en-GB': {
         path: '/partners/guide/payment-pages',
+      },
+      'de': {
+        path: '/partner/leitfaden/mandatsseiten',
       },
     },
   ],
@@ -571,11 +592,17 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/mandates',
       },
+      'de': {
+        path: '/partner/leitfaden/mandate',
+      },
     },
   ],
   [PartnersGuideGettingPaid, { name: 'partners_guide_getting_paid', category: 'partners.faq' }, {
       'en-GB': {
         path: '/partners/guide/getting-paid',
+      },
+      'de': {
+        path: '/partner/leitfaden/auszahlungen',
       },
     },
   ],
@@ -583,11 +610,17 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/our-pricing',
       },
+      'de': {
+        path: '/partner/leitfaden/preise',
+      },
     },
   ],
   [PartnersGuideChargebacks, { name: 'partners_guide_chargebacks', category: 'partners.faq' }, {
       'en-GB': {
         path: '/partners/guide/chargebacks',
+      },
+      'de': {
+        path: '/partner/leitfaden/rückbuchungen',
       },
     },
   ],
@@ -595,11 +628,17 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/reporting',
       },
+      'de': {
+        path: '/partner/leitfaden/zahlungsverfolgung',
+      },
     },
   ],
   [PartnersGuideSecurity, { name: 'partners_guide_security', category: 'partners.faq' }, {
       'en-GB': {
         path: '/partners/guide/security',
+      },
+      'de': {
+        path: '/partner/leitfaden/sicherheit',
       },
     },
   ],
@@ -607,11 +646,17 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/restrictions',
       },
+      'de': {
+        path: '/partner/leitfaden/einschränkungen',
+      },
     },
   ],
   [PartnersGuideLegal, { name: 'partners_guide_legal', category: 'partners.faq' }, {
       'en-GB': {
         path: '/partners/guide/legal',
+      },
+      'de': {
+        path: '/partner/leitfaden/rechtliches',
       },
     },
   ],
