@@ -13,7 +13,7 @@ export default class TeamNl extends React.Component {
           <div className='grid u-padding-Txl'>
             <div className='grid__cell u-size-1of3'>
               <h2 className='u-text-heading-light u-text-m u-color-meta u-margin-Bm'>
-                We are a small team building a new payment network for the internet.
+                We zijn een klein team dat een nieuw betalingsnetwerk voor het internet bouwt.
               </h2>
             </div>
             <div className='grid__cell u-size-2of3'>

@@ -22,9 +22,9 @@ export default class ProNl extends React.Component {
             <div className='site-container page-hero__container'>
               <div className='page-hero__inner'>
                 <div className='page-hero__text'>
-                  <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>Totally control Direct Debit</h1>
+                  <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>Volledig controle over automatisch incasso</h1>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    A cutting edge platform for building your<br />recurring payments ecosystem
+                    Een innovatief platform om uw netwerk <br />voor terugkerende betalingen te bouwen
                   </p>
                 </div>
               </div>
@@ -35,17 +35,17 @@ export default class ProNl extends React.Component {
               <ul className='u-pull-start u-margin-Txxs'>
                 <li className='sticky-nav__item'>
                   <a href='#overview' id='track-sticky-nav-overview' className='sticky-nav__link'>
-                    Overview
+                    Overzicht
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
                   <a href='#features' id='track-sticky-nav-features' className='sticky-nav__link'>
-                    Features
+                    Kenmerken
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
                   <a href='#pricing' id='track-sticky-nav-pricing' className='sticky-nav__link'>
-                    Pricing
+                    Prijs
                   </a>
                 </li>
               </ul>
@@ -59,7 +59,7 @@ export default class ProNl extends React.Component {
               </Link>
               <a href='https://developer.gocardless.com/pro/' id='track-sticky-nav-docs'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
-                API Documentation
+                API documentatie
               </a>
             </div>
           </StickyNav>
@@ -68,13 +68,13 @@ export default class ProNl extends React.Component {
               <div className='u-padding-Vxl'>
                 <div className='u-size-3of4 u-center'>
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    Welcome to GoCardless Pro
+                    Welkom bij GoCardless Pro
                   </h2>
                   <p className='u-text-s u-color-p u-margin-Txs'>
-                    Designed specifically for larger enterprises,
-                    GoCardless Pro combines the simplicity of our original
-                    GoCardless product with complete control over payments and customer experience.
-                    It also allows you to collect UK and SEPA Direct Debit via one simple integration.
+                    Ontwikkeld voor grotere bedrijven,
+                    GoCardless Pro combineert het gebruiksgemak van ons origineel
+                    GoCardless product met volledige controle over betalingen en de gebruikerservaring.
+                    Het laat u tevens toe zowel betalingen uit Nederland, de Eurozone, en Verenigd Koninkrijk te ontvangen met één eenvoudige integratie.
                   </p>
                 </div>
                 <div className='grid u-margin-Tl u-padding-Tm'>
@@ -84,11 +84,11 @@ export default class ProNl extends React.Component {
                       <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Completely white-labelled
+                      Volledig white-label
                     </div>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      GoCardless Pro puts your brand at the forefront.
-                      Enjoy complete control over payment pages and email notifications to your customers.
+                      GoCardless Pro zet uw merk op de voorgrond.
+                      Geniet van volledig controle over uw betalingspagina's en emailberichten naar uw klanten.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center'>
@@ -97,12 +97,12 @@ export default class ProNl extends React.Component {
                       <DeveloperIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      A simple, modern API
+                      Een eenvoudige, moderne API
                     </div>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      All documentation for our Pro product is freely available in
-                      our <a href='https://developer.gocardless.com/pro' id='track-overview-docs'>API docs</a>.
-                      We’ve worked hard to make integrating your systems as painless as possible.
+                      Alle documentatie voor uw Pro product is gratis beschikbaar in
+                      onze <a href='https://developer.gocardless.com/pro' id='track-overview-docs'>API docs</a>.
+                      We hebben hard gewerkt om de integratie van uw systemen zo eenvoudig mogelijk te maken.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>
@@ -111,11 +111,11 @@ export default class ProNl extends React.Component {
                       <MobileIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Works everywhere
+                      Werkt overal
                     </div>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      We’ve made it incredibly simple to develop on top of GoCardless Pro
-                      and create the next generation of your website or mobile apps.
+                      We maken het ongelooflijk eenvoudig om bovenop GoCardless Pro te ontwikkelen
+                      en de volgende generatie van uw website of toepassingen te creëren.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>
@@ -124,18 +124,18 @@ export default class ProNl extends React.Component {
                       <SecurityIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Military grade security
+                      Wereldklasse veiligheid
                     </div>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      We’ve sweated over security so you don’t have to.
-                      We store all bank details with RSA encryption and communicate only over secure channels.
+                      We hebben alles in functie van veiligheid gesteld.
+                      We slaan alle bank gegevens op met RSA encryptie en communiceren enkel via beveiligde kanalen.
                     </p>
                   </div>
                 </div>
                 <p className='u-color-p u-margin-Txxl u-padding-Tm'>
-                  Want to easily try our API and
-                  dashboard? <a href='https://manage-sandbox.gocardless.com/signup'>
-                    Sign up for a free sandbox account
+                  Wil u onze API en dashboard
+                  proberen? <a href='https://manage-sandbox.gocardless.com/signup'>
+                    Registeer voor een gratis test account
                   </a>
                 </p>
               </div>
@@ -145,11 +145,10 @@ export default class ProNl extends React.Component {
               <div className='u-padding-Txl'>
                 <div className='u-size-1of2 u-center'>
                   <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
-                    You’re in good company
+                    U bent in goed gezelschap
                   </h2>
                   <p className='u-text-s u-color-p u-margin-Txs'>
-                    Every day, some of the biggest and most respected businesses
-                    trust GoCardless to power their payments
+                    Dag na dag vertrouwen vele van de grootste en meest gerespecteerde bedrijven hun betalingen aan GoCardless toe
                   </p>
                 </div>
                 <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
@@ -162,7 +161,7 @@ export default class ProNl extends React.Component {
               <div className='u-text-center u-padding-Vxxl'>
                 <div className='site-container u-padding-Vxl'>
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    Watch a short overview of GoCardless Pro
+                    Bekijk een kort overzicht van GoCardless Pro
                   </h2>
                   <iframe src='https://player.vimeo.com/video/116341918'
                   className='u-text-center videos-container__iframe u-margin-Vl'>
@@ -176,14 +175,13 @@ export default class ProNl extends React.Component {
                 <div className='u-size-1of2 u-center'>
                   <i className='europe-icon u-margin-Bs' />
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    Want to take payments in Europe?
+                    Wil u betalingen in Europa te ontvangen?
                   </h2>
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
-                      GoCardless Pro is the only product that enables you to collect
-                      Direct Debit payments from the UK and the Eurozone through a single integration.
-                      With our API, your business can take payments from over 500 million people
-                      in 22 European countries.
+                      GoCardless Pro is het enige product dat u toelaat
+                      automatisch incasso betalingen te ontvangen uit de Eurozone en Verenigd Koninkrijk met één eenvoudige integratie.
+                      Met onze API kan uw bedrijf betalingen ontvangen van meer dan 500 miljoen mensen in 22 Europese landen.
                     </p>
                   </div>
                 </div>
@@ -202,7 +200,7 @@ export default class ProNl extends React.Component {
                   </h2>
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
-                      Speak with one of our payments experts to learn how GoCardless can help your business.
+                      Spreek met onze betalingsexperts en leer hoe GoCardless uw bedrijf kan helpen.
                     </p>
                   </div>
                   <Link to='contact_sales' query={{ s: 'pro' }} id='track-cta-contact-sales'
@@ -219,10 +217,10 @@ export default class ProNl extends React.Component {
               <div className='u-padding-Vxl'>
                 <div className='u-size-1of2 u-center'>
                   <h2 className='u-text-heading u-color-heading u-text-xl u-text-light u-margin-Bs'>
-                    Your dashboard
+                    Uw dashboard
                   </h2>
                   <div className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    A simple way to manage your payments and customers
+                    Een eenvoudige manier om uw betalingen en klanten te beheren
                   </div>
                   <hr className='u-margin-Vxxl' />
                 </div>
@@ -230,17 +228,17 @@ export default class ProNl extends React.Component {
                   <Tabs triggers={[(
                       <a href='#customer-info' id='track-dashboard-customer'
                       className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                        Customer info
+                        Klanten
                       </a>
                     ), (
                       <a href='#payment-history' id='track-dashboard-payment'
                       className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                        Payment history
+                        Betalingen
                       </a>
                     ), (
                       <a href='#filtering' id='track-dashboard-admin'
                       className='tab-link u-padding-Vxxs u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                        Filtering
+                        Filter
                       </a>
                     ),]}>
                     <div>
@@ -266,13 +264,13 @@ export default class ProNl extends React.Component {
               <div className='site-container u-padding-Vxl'>
                 <div className='u-size-2of3 u-center'>
                   <h2 className='u-text-heading u-color-heading u-text-light u-text-xl'>
-                    <Message pointer='pricing.pro_cost_per_transaction' /> per transaction
+                    <Message pointer='pricing.pro_cost_per_transaction' /> per verrichting
                   </h2>
                   <p className='u-text-s u-color-p u-margin-Vxs'>
-                    Competitive rates for businesses of any size.<br />
+                    Concurrentiële tarieven voor bedrijven van elke omvang.<br />
                   </p>
                   <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
-                    Learn about our pricing
+                    Meer over onze prijzen
                   </Link>
                 </div>
               </div>
@@ -281,19 +279,19 @@ export default class ProNl extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-size-1of2 u-center u-padding-Vxl'>
                 <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bm'>
-                  Get in touch for a free quote
+                  Neem contact op voor een vrijblijvende offerte
                 </h2>
                 <Link to='contact_sales' query={{ s: 'pro' }}
                 id='track-cta-contact-sales' className='btn u-margin-Rm'>
                   <Message pointer='cta.pro' />
                 </Link>
                 <a href='https://manage-sandbox.gocardless.com/signup'
-                id='track-cta-try-pro-dash' className='btn btn--hollow'>Try Pro for free</a>
+                id='track-cta-try-pro-dash' className='btn btn--hollow'>Test Pro gratis en vrijblijvend</a>
                 <hr className='u-margin-Vxxl' />
                 <p className='u-color-p'>
-                  <strong>Want to talk to someone first?</strong><br />
-                  Call our payments experts on <Message pointer='phone_local' /><br />
-                  We're available 9am - 6pm Monday to Friday
+                  <strong>Wil u eerst met iemand spreken?</strong><br />
+                  Contacteer onze betalingsexperts op <Message pointer='phone_local' /><br />
+                  We zijn maandag tot vrijdag tussen 10u en 19u bereikbaar.
                 </p>
               </div>
             </div>

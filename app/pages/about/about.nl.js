@@ -9,36 +9,36 @@ export default class AboutNl extends React.Component {
       <Translation locales='nl'>
         <div className='site-container u-padding-Vxxl'>
           <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-padding-Txl'>
-            About GoCardless
+            Over GoCardless
           </h2>
           <div className='grid'>
             <div className='grid__cell u-size-2of3'>
               <p className='para'>
-                GoCardless makes it easy to accept recurring payments online.
-                We unify the world’s Direct Debit networks, simplify them, and open up access to everyone.
-                By doing so, we are creating an entirely new type of payment network.
+                GoCardless maakt het gemakkelijk om terugkerende betalingen online te incasseren.
+                We verenigen alle incasso netwerken in de wereld, maken toegang gebruiksvriendelijk, en openen dit netwerk voor iedereen.
+                We creëren daarbij een compleet nieuw type betalingsnetwerk.
               </p>
               <p className='para'>
-                Founded in 2011, we have quickly grown into one of Europe’s leading Direct Debit providers,
-                processing over half a billion pounds a year for over ten thousand businesses.
+                We zijn sinds onze oprichting in 2011 snel uitgegroeid tot één van Europa’s leidende incasso aanbieders.
+                We verwerken jaarlijks meer dan een miljard Euro voor meer dan tienduizend bedrijven en organisaties.
               </p>
               <p className='para'>
-                We work with a huge range of organisations: small gyms and scout groups use us to reduce admin, fast growing companies
-                like Funding Circle use us to power their growth,
-                and established institutions like the Financial Times use us to dramatically reduce failure rates.
+                We werken met een brede waaier van organisaties: kleine fitness zaken en scouts groepen gebruiken ons om hun administratie te minimaliseren,
+                snel groeiende bedrijven zoals Funding Circle werken met ons om hun groei te ondersteunen,
+                en gevestigde merken zoals de Financial Times rekenen op ons om hun mislukte betalingen dramatisch te verlagen.
               </p>
               <p className='para'>
-                We are a small London based team, and we're backed by some of the world’s leading
-                investors including Balderton Capital, Accel Partners, and Y&nbsp;Combinator.
+                We zijn een klein team in London dat gefinancierd is door enkele van de beste
+                investeerders in de wereld, onder andere Balderton Capital, Accel Partners, en Y&nbsp;Combinator.
               </p>
             </div>
             <div className='grid__cell u-size-1of3'>
               <div className='u-margin-Txxl'>
                 <img src='/images/press/publications-stacked.jpg' />
                 <p className='u-text-s u-color-p u-margin-Txxl'>
-                  For any press enquiries, please contact <a href='mailto:press@gocardless.com'>the GoCardless PR team</a>,
-                  or view our comprehensive <a href='https://www.dropbox.com/sh/sat8xsjntbf5mnh/AACn116IKyIWrNG7c8FnY0cYa?dl=0'>
-                    press pack
+                  Voor pers vragen, gelieve ons te contacteren <a href='mailto:press@gocardless.com'>het GoCardless PR team</a>,
+                  of bekijk ons uitgebreid <a href='https://www.dropbox.com/sh/sat8xsjntbf5mnh/AACn116IKyIWrNG7c8FnY0cYa?dl=0'>
+                    pers dossier
                   </a>.
                 </p>
               </div>

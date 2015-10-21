@@ -22,7 +22,7 @@ export default class HomeNl extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-center'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                Our global payments network has processed over $1 billion
+                Ons globaal betalingsnetwerk heeft reeds meer dan 1 miljard Eur verwerkt
               </h2>
             </div>
             <div className='grid u-margin-Tl u-padding-Tm'>
@@ -32,10 +32,10 @@ export default class HomeNl extends React.Component {
                   <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Fully automated
+                  Volledig geautomatiseerd
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Save time, stop human errors and avoid failed payments
+                  Bespaar tijd, vermijd menselijke fouten en voorkom mislukte betalingen
                 </p>
               </div>
 
@@ -45,10 +45,10 @@ export default class HomeNl extends React.Component {
                   <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  UK &amp; Eurozone
+                  Eurozone &amp; Verenigd Koninkrijk
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Accept payments with Bacs Direct Debit and SEPA Direct Debit
+                  Accepteer Nederlandse en internationale betalingen met SEPA Direct Debit (Eurozone) en BACS (Verenigd Koninkrijk)
                 </p>
               </div>
 
@@ -58,10 +58,10 @@ export default class HomeNl extends React.Component {
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  12,000+ merchants
+                  12,000+ bedrijven
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Powering payments for companies across the UK and Europe
+                  We verwerken betalingen in het Verenigd Koninkrijk en Europa
                 </p>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default class HomeNl extends React.Component {
           <div className='site-container u-padding-Txl'>
             <div className='u-size-1of2 u-center'>
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
-                You'll be in great company
+                U bent in goed gezelschap
               </h2>
             </div>
             <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
@@ -85,13 +85,13 @@ export default class HomeNl extends React.Component {
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
-                Simple, transparent pricing for everyone
+                Eenvoudige, transparante prijszetting voor iedereen
               </h2>
               <p className='u-text-s u-color-p u-margin-Vxs'>
-                Competitive rates for everyone from individuals through to large corporations
+                Voordelige tarieven voor iedereen, van eenmanszaken tot grote organisaties
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
-                Learn about our pricing
+                Meer over onze tarieven
               </Link>
             </div>
           </div>
@@ -100,8 +100,8 @@ export default class HomeNl extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Start taking payments</Href>
-              <p className='u-color-p u-margin-Ts'>No set up costs, no hidden charges, no commitments</p>
+              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Registreer je nu</Href>
+              <p className='u-color-p u-margin-Ts'>Geen set up kosten, geen verborgen kosten, geen verplichtingen</p>
             </div>
           </div>
         </IfLocale>
