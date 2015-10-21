@@ -133,6 +133,6 @@ export default {
   guides: {
     title: 'Handleidingen',
     nav_title: 'Handleiding',
-    path: '/guides/sepa',
+    path: 'https://gocardless.com/guides/sepa',
   },
 };

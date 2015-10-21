@@ -21,7 +21,7 @@ export default class ProNl extends React.Component {
             <div className='site-container page-hero__container'>
               <div className='page-hero__inner'>
                 <div className='page-hero__text'>
-                  <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>Volledig controle 
+                  <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>Volledig controle
                   over automatisch incasso</h1>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
                     Een innovatief platform om uw netwerk <br />voor terugkerende betalingen te bouwen
@@ -74,7 +74,7 @@ export default class ProNl extends React.Component {
                     Ontwikkeld voor grotere bedrijven,
                     GoCardless Pro combineert het gebruiksgemak van ons origineel
                     GoCardless product met volledige controle over betalingen en de gebruikerservaring.
-                    Het laat u tevens toe zowel betalingen uit Nederland, de Eurozone, en Verenigd Koninkrijk te ontvangen 
+                    Het laat u tevens toe zowel betalingen uit Nederland, de Eurozone, en Verenigd Koninkrijk te ontvangen
                     met één eenvoudige integratie.
                   </p>
                 </div>
