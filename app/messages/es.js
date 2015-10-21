@@ -99,7 +99,7 @@ export default {
     title: 'Domiciliación Bancaria Online Rápida y Simple',
     nav_title: 'GoCardless',
     description: 'GoCardless es la manera más sencilla de pagar online. Realiza tus cobros directamente desde la cuenta bancaria de tus clientes. Ahorra tiempo y mejora tu flujo de caja.',
-    explainer: 'Simplificamos los Cobros recurrentes',
+    explainer: 'Simplificamos las Domiciliaciones Bancarias',
   },
   pro: {
     title: 'Control Total de tus Domiciliaciones Bancarias',
