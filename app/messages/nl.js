@@ -42,8 +42,7 @@ export default {
     address_country_iso: 'GB',
   },
   phone_full: '+31 85 208 0520',
-  phone_local: '085 208 0520',
-  email: 'nederland@gocardless.com',
+  phone_local: '+31 85 208 0520',
   partners_email: 'nederland@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
@@ -134,5 +133,11 @@ export default {
     title: 'Handleidingen',
     nav_title: 'Handleiding',
     path: 'https://gocardless.com/guides/sepa',
+  },
+  signin: {
+    path: 'https://manage.gocardless.com',
+  },
+  signup: {
+    path: 'https://manage.gocardless.com/signup?lang=nl',
   },
 };
