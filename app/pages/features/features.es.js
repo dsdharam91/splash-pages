@@ -246,7 +246,7 @@ export default class FeaturesEs extends React.Component {
                   </IfLinkExists>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center'>
-                  <img src='/images/features/payment-page--gyms.jpg' className='vertical-page__mobile-image' />
+                  <img src='/images/es/basic-payment-page-es@2x.png' className='vertical-page__mobile-image' />
                 </div>
               </div>
             </div>

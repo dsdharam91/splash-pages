@@ -8,7 +8,7 @@ export default {
     has_percentage_pricing: true,
   },
   phone_full: '+34 91 198 1220',
-  phone_local: '091 198 1220',
+  phone_local: '+34 91 198 1220',
   email: 'spain@gocardless.com',
   hero: {
     header: 'Simplificamos los cobros recurrentes',
