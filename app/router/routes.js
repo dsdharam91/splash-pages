@@ -22,16 +22,12 @@ import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
-import DataAnalyst from '../pages/about/jobs/positions/data-analyst';
 import Designers from '../pages/about/jobs/positions/designers';
 import SeniorAccountExecutive from '../pages/about/jobs/positions/senior-account-executive';
 import SalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative';
 import AccountExecutiveGermany from '../pages/about/jobs/positions/account-executive-germany';
 import BusinessDevelopmentGermany from '../pages/about/jobs/positions/business-development-germany';
-import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer';
-import CustomerRelationshipMarketer from '../pages/about/jobs/positions/customer-relationship-marketer';
 import ContentCommunityManager from '../pages/about/jobs/positions/content-community-manager';
-import VPPeople from '../pages/about/jobs/positions/vp-people';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
@@ -335,12 +331,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [DataAnalyst, { name: 'jobs_data_analyst', category: 'jobs.engineering' }, {
-      en: {
-        path: '/about/jobs/data-analyst',
-      },
-    },
-  ],
   [Designers, { name: 'jobs_designers', category: 'jobs.ux_design' }, {
       en: {
         path: '/about/jobs/designers',
@@ -371,27 +361,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [DigitalMarketer, { name: 'jobs_digital_marketer', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/digital-marketer',
-      },
-    },
-  ],
-  [CustomerRelationshipMarketer, { name: 'jobs_customer_relationship_marketer', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/customer-relationship-marketer',
-      },
-    },
-  ],
   [ContentCommunityManager, { name: 'jobs_content_community_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/content-community-manager',
-      },
-    },
-  ],
-  [VPPeople, { name: 'jobs_vp_people', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/vp-people',
       },
     },
   ],
