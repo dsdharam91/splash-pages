@@ -4,6 +4,7 @@ import TeamEn from './team.en';
 import TeamFr from './team.fr';
 import TeamDe from './team.de';
 import TeamEs from './team.es';
+import TeamNl from './team.nl';
 import AboutHeader from '../about-header';
 
 export default class Team extends React.Component {
@@ -18,6 +19,7 @@ export default class Team extends React.Component {
         <TeamEn />
         <TeamDe />
         <TeamEs />
+        <TeamNl />
       </Page>
     );
   }
