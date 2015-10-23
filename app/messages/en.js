@@ -501,8 +501,8 @@ export default {
     title: 'Business Development: Germany',
     description: '',
   },
-  jobs_customer_relationship_marketer: {
-    title: 'Customer Relationship Marketer',
+  jobs_content_community_manager: {
+    title: 'Content & Community Manager',
     description: '',
   },
   jobs_customer_support: {
