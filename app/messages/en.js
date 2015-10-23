@@ -481,10 +481,6 @@ export default {
     title: 'Data Engineer',
     description: '',
   },
-  jobs_data_analyst: {
-    title: 'Data Analyst',
-    description: '',
-  },
   jobs_designers: {
     title: 'Designers',
     description: '',
@@ -505,24 +501,12 @@ export default {
     title: 'Business Development: Germany',
     description: '',
   },
-  jobs_digital_marketer: {
-    title: 'Digital Marketer',
-    description: '',
-  },
-  jobs_customer_relationship_marketer: {
-    title: 'Customer Relationship Marketer',
-    description: '',
-  },
   jobs_content_community_manager: {
     title: 'Content & Community Manager',
     description: '',
   },
   jobs_customer_support: {
     title: 'Customer Support',
-    description: '',
-  },
-  jobs_vp_people: {
-    title: 'VP People',
     description: '',
   },
   pro_docs: {
