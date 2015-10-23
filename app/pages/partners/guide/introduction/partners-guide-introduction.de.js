@@ -1,5 +1,4 @@
 import React from 'react';
-import PartnersGuidePage from '../partners-guide-page';
 import Translation from '../../../../components/translation/translation';
 
 export default class PartnersGuideDe extends React.Component {
@@ -11,7 +10,7 @@ export default class PartnersGuideDe extends React.Component {
           <h2>Einführung</h2>
 
           <p>
-            In diesem Leitfaden erfahren Sie, welche Vorteile eine GoCardless-Partnerschaft Ihrem Unternehmen 
+            In diesem Leitfaden erfahren Sie, welche Vorteile eine GoCardless-Partnerschaft Ihrem Unternehmen
             bringt, welche Partnerschaft sich für Ihr Unternehmen am besten eignet, alles über die ersten Schritte
             sowie Antworten auf häufig gestellte Fragen.
           </p>
@@ -63,8 +62,8 @@ export default class PartnersGuideDe extends React.Component {
           </ul>
 
           <p>
-            Mittels Lastschriftverfahren können Händler zudem im Vergleich zur Kreditkartenzahlung <b>Kosten sparen</b>, wobei im Schnitt Gebühren
-            von 1,8 % des Umsatzes anfallen, die bei PayPal-Zahlungen noch höher ausfallen.
+            Mittels Lastschriftverfahren können Händler zudem im Vergleich zur Kreditkartenzahlung <b>Kosten sparen</b>,
+            wobei im Schnitt Gebühren von 1,8 % des Umsatzes anfallen, die bei PayPal-Zahlungen noch höher ausfallen.
           </p>
 
           <p>
@@ -72,9 +71,10 @@ export default class PartnersGuideDe extends React.Component {
           </p>
 
           <p>
-            Letztendlich bevorzugen Kunden die Zahlung per Lastschrift, daher erzielen Sie mit dem Anbieten dieser Zahlungsmethode eine <b>Steigerung
-            der Konversionsrate</b> und gleichzeitig des Gewinns. Dies gilt insbesondere für Deutschland und die Niederlande,
-            wo Kunden sehr viel seltener mit Kreditkarten zahlen als im Vereinigten Königreich oder den USA.          </p>
+            Letztendlich bevorzugen Kunden die Zahlung per Lastschrift, daher erzielen Sie mit dem Anbieten dieser Zahlungsmethode eine
+            <b>Steigerung der Konversionsrate</b> und gleichzeitig des Gewinns. Dies gilt insbesondere für Deutschland und die Niederlande,
+            wo Kunden sehr viel seltener mit Kreditkarten zahlen als im Vereinigten Königreich oder den USA.
+          </p>
 
           {/*<p>
             Wenn Sie mehr über die Vorteile des Lastschriftverfahrens erfahren möchten, lesen
@@ -84,28 +84,31 @@ export default class PartnersGuideDe extends React.Component {
           <h3>Warum sollten Sie GoCardless-Partner werden?</h3>
 
           <p>
-            GoCardless ist führender Anbieter des Lastschriftverfahrens im Vereinigten Königreich. Wir haben eine extrem benutzerfreundliche Methode
-            zum Einzug von Lastschriften entwickelt. Dazu haben wir das eigentliche Lastschriftverfahren auf 3 Arten verbessert:
+            GoCardless ist führender Anbieter des Lastschriftverfahrens im Vereinigten Königreich. Wir haben eine extrem benutzerfreundliche
+            Methode zum Einzug von Lastschriften entwickelt. Dazu haben wir das eigentliche Lastschriftverfahren auf 3 Arten verbessert:
           </p>
 
           <ul>
             <li>
               <b>Vereinfacht</b> - Wir haben das traditionelle komplexe Lastschriftverfahren vereinfacht, indem wir eine REST API sowie ein
-              Online-Dashboard bereitstellen, das Händlern sofort nach der Registrierung ermöglicht, Zahlungen innerhalb von nur 3 Minuten einzuziehen.
+              Online-Dashboard bereitstellen, das Händlern sofort nach der Registrierung ermöglicht, Zahlungen innerhalb von nur 3 Minuten
+              einzuziehen.
             </li>
 
             <li>
-              <b>Optimiert</b> - Unsere Zahlungen gehen schneller auf Ihrem Konto ein und es kommt seltener zu fehlgeschlagenen Lastschriften.
+              <b>Optimiert</b> - Unsere Zahlungen gehen schneller auf Ihrem Konto ein und es kommt seltener zu fehlgeschlagenen
+              Lastschriften.
             </li>
 
             <li>
-              <b>Globalisiert</b> - Wir vereinen Lastschriftverfahren aus unzähligen Ländern der Welt in einer einzigen benutzerfreundlichen Lösung.
+              <b>Globalisiert</b> - Wir vereinen Lastschriftverfahren aus unzähligen Ländern der Welt in einer einzigen benutzerfreundlichen
+              Lösung.
             </li>
           </ul>
 
           <p>
-            Wir arbeiten bereits mit namhaften Partnern wie Zuora, Xero und Sage zusammen und sind ständig auf der Suche nach neuen Partnerschaften
-            mit führenden Unternehmen aus folgenden Branchen:
+            Wir arbeiten bereits mit namhaften Partnern wie Zuora, Xero und Sage zusammen und sind ständig auf der Suche nach neuen
+            Partnerschaften mit führenden Unternehmen aus folgenden Branchen:
           </p>
 
           <ul>
@@ -128,17 +131,18 @@ export default class PartnersGuideDe extends React.Component {
             </li>
 
             <li>
-              <b>Sie stärken Ihre Kundenbindung</b> - Sie bauen langfristige Beziehungen zu Ihren Kunden auf, indem Sie sie mit Ihrer Lösung begeistern.
+              <b>Sie stärken Ihre Kundenbindung</b> - Sie bauen langfristige Beziehungen zu Ihren Kunden auf,
+              indem Sie sie mit Ihrer Lösung begeistern.
             </li>
 
             <li>
-              <b>Sie schaffen neue Einnahmequellen</b> - Empfehlen Sie uns an Ihre Kunden weiter und erhalten Sie eine Provision von 10 % auf unsere
-              Transaktionsgebühren.
+              <b>Sie schaffen neue Einnahmequellen</b> - Empfehlen Sie uns an Ihre Kunden weiter und erhalten Sie eine
+              Provision von 10 % auf unsere Transaktionsgebühren.
             </li>
 
             <li>
-              <b>Sie vergrößern Ihre Marktanteile</b> - Sie ermöglichen Ihren Kunden, Zahlungen aus immer mehr Ländern einzuziehen, und das völlig ohne
-              Mehraufwand.
+              <b>Sie vergrößern Ihre Marktanteile</b> - Sie ermöglichen Ihren Kunden, Zahlungen aus immer mehr Ländern einzuziehen,
+              und das völlig ohne Mehraufwand.
             </li>
           </ul>
 

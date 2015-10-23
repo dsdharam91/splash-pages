@@ -1,5 +1,4 @@
 import React from 'react';
-import PartnersGuidePage from '../partners-guide-page';
 import Translation from '../../../../components/translation/translation';
 
 export default class PartnersGuideEn extends React.Component {
@@ -152,8 +151,8 @@ export default class PartnersGuideEn extends React.Component {
             </li>
 
             <li>
-              <a href='https://gocardless.com/guides/intro-to-direct-debit/merchants-guide/' target='_blank'>Benefits of using GoCardless for
-              merchants</a>
+              <a href='https://gocardless.com/guides/intro-to-direct-debit/merchants-guide/' target='_blank'>Benefits of using
+              GoCardless for merchants</a>
             </li>
 
             <li>

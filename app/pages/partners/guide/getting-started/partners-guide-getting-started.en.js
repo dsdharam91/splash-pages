@@ -1,6 +1,6 @@
 import React from 'react';
-import PartnersGuidePage from '../partners-guide-page';
 import Translation from '../../../../components/translation/translation';
+import Href from '../../../../components/href/href';
 
 export default class PartnersGuideGettingStartedEn extends React.Component {
   displayName = 'PartnersGuideGettingStartedEn'

@@ -1,6 +1,6 @@
 import React from 'react';
-import PartnersGuidePage from '../partners-guide-page';
 import Translation from '../../../../components/translation/translation';
+import Href from '../../../../components/href/href';
 
 export default class PartnersGuideGettingStartedDe extends React.Component {
   displayName = 'PartnersGuideGettingStartedDe'
@@ -8,59 +8,58 @@ export default class PartnersGuideGettingStartedDe extends React.Component {
   render() {
     return (
         <Translation locales='de'>
-        <h2>Getting started</h2>
+        <h2>Erste Schritte</h2>
 
-        <h3>Develop your integration</h3>
+        <h3>Entwickeln Sie Ihre Integration</h3>
 
         <p>
-          If you’ve decided on either App integration or White label, you should get familiar with
-          our <a href='https://developer.gocardless.com/pro/#overview' target='_blank'>API documentation</a>. Specific
-          sections on App integration (using OAuth) can be
-          found <a href='https://developer.gocardless.com/pro/#guides-oauth' target='_blank'>here</a>. Specific sections on
-          White label integration can be found <a
-          href='https://developer.gocardless.com/pro/#whitelabel-partner-endpoints' target='_blank'>here</a>.
+          Wenn Sie sich für die App-Integration oder die White-Label-Integration entschieden haben, sollten Sie sich
+          unsere <a href='https://developer.gocardless.com/pro/#overview' target='_blank'>API-Dokumentation</a> sorgfältig
+          durchlesen. Darin finden Sie spezielle Abschnitte zur
+          <a href='https://developer.gocardless.com/pro/#guides-oauth' target='_blank'>App-Integration</a> (Nutzung von
+          OAuth) sowie spezielle Abschnitte zur <a
+          href='https://developer.gocardless.com/pro/#whitelabel-partner-endpoints' target='_blank'>White-Label-Integration</a>.
         </p>
 
         <p>
-          You can start developing and testing out our API immediately using a sandbox
-          account <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'>here</a>.
+          <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'>Hier</a> können Sie sofort mit dem Entwickeln
+          und Testen unserer API über einen Sandbox-Account beginnen.
         </p>
 
         <p>
-          If you have any questions, contact our developer support team
-          at <Href to='email' itemProp='email' />. Our developers are on hand 9am-6pm,
-          Mon-Fri to help with your technical queries.
+          Wenn Sie Fragen haben, schreiben Sie unserem Entwickler-Support-Team an <Href to='email' itemProp='email' />.
+          Bei technischen Fragen helfen Ihnen unsere Entwickler montags bis freitags von 10-19 Uhr gerne weiter.
         </p>
 
-        <h3>Demo your integration with us and go live</h3>
+        <h3>Testen Sie Ihre Demo-Version mit uns und gehen Sie in den Echtbetrieb</h3>
 
         <p>
-          Once you have completed your first round of development and testing in our sandbox
-          environment, get in touch with us at <Href to='partners_email' itemProp='email' /> to demo your integration
-          so we can make sure you have the best advice and assistance while building your integration.
-        </p>
-
-        <p>
-          Once both sides are happy we can switch your account to live.
-        </p>
-
-        <h3>Create a guide to help your customers navigate your new integration</h3>
-
-        <p>
-          Your support guide should include an overview of the integration, setup details, general usage instructions
-          and FAQs. This information should be easily accessible by customers and for GoCardless to point customers at.
-          If there are any changes to the integration, be sure to keep this documentation up to date!
+          Sobald Sie die erste Entwicklungs- und Testrunde in unserer Sandbox-Umgebung abgeschlossen haben, schreiben Sie uns an
+          <Href to='partners_email' itemProp='email' />, um uns Ihre Integration zu demonstrieren, so dass wir eine optimale Beratung
+          und Unterstützung während Ihrer Entwicklung sicherstellen können.
         </p>
 
         <p>
-          If there are several setup steps, we recommend a few short (1-3 mins) screencasts.
+          Sobald beide Seiten einverstanden sind, schalten wir Ihren Account frei und Sie können in den Echtbetrieb gehen.
         </p>
 
-        <h3>Promote the partnership!</h3>
+        <h3>Erstellen Sie ein Handbuch, das Ihren Kunden bei der Nutzung Ihrer neuen Integration hilft</h3>
 
         <p>
-          We recommend that our partners promote their new payments functionality to existing and new
-          customers using your website, email, social, blogs and events.
+          Ihr Support-Handbuch sollte eine Übersicht über die Integration, Einrichtungsdetails, eine allgemeine Benutzeranleitung sowie
+          FAQs enthalten. Diese Informationen sollten leicht für Kunden zugänglich sein und auch für GoCardless, um Kunden darauf verweisen
+          zu können. Sollten Sie Änderungen an der Integration vornehmen, stellen Sie sicher, dass Ihr Handbuch aktualisiert wurde!
+        </p>
+
+        <p>
+          Wenn die Einrichtung aus mehreren Schritten besteht, empfehlen wir, einige kurze Screencasts von 1-3 Min. bereitzustellen.
+        </p>
+
+        <h3>Werben Sie für die Partnerschaft!</h3>
+
+        <p>
+          Wir raten Ihnen, bei vorhandenen und potenziellen Kunden für Ihre neue Zahlungsfunktion über Ihre Website, per E-Mail,
+          soziale Netzwerke, Blogs und bei Veranstaltungen zu werben.
         </p>
         </Translation>
     );
