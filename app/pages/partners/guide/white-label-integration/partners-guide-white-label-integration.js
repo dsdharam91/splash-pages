@@ -207,7 +207,7 @@ export default class PartnersGuideWhiteLabelIntegration extends React.Component 
         <h3>Merchant bank statement</h3>
 
         <p>
-          With an App integration, merchants will see GC C1 on their bank statement.
+          With a White label integration, merchants will see GC C1 on their bank statement.
         </p>
 
 
