@@ -28,7 +28,6 @@ import SalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-
 import AccountExecutiveGermany from '../pages/about/jobs/positions/account-executive-germany';
 import BusinessDevelopmentGermany from '../pages/about/jobs/positions/business-development-germany';
 import ContentCommunityManager from '../pages/about/jobs/positions/content-community-manager';
-import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -364,12 +363,6 @@ export const config = Immutable.fromJS([
   [ContentCommunityManager, { name: 'jobs_content_community_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/content-community-manager',
-      },
-    },
-  ],
-  [CustomerSupport, { name: 'jobs_customer_support', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/customer-support',
       },
     },
   ],
