@@ -457,9 +457,6 @@ export default {
     marketing: {
       title: 'Marketing',
     },
-    operations: {
-      title: 'Operations',
-    },
   },
   jobs_product_engineer: {
     title: 'Product Engineer',
@@ -503,10 +500,6 @@ export default {
   },
   jobs_content_community_manager: {
     title: 'Content & Community Manager',
-    description: '',
-  },
-  jobs_customer_support: {
-    title: 'Customer Support',
     description: '',
   },
   pro_docs: {
