@@ -5,6 +5,7 @@ export default class AboutEn extends React.Component {
   displayName = 'AboutEn'
 
   render() {
+    /*eslint-disable max-len*/
     return (
       <Translation locales='en'>
         <div className='site-container u-padding-Vxxl'>
@@ -66,5 +67,6 @@ export default class AboutEn extends React.Component {
         </div>
      </Translation>
     );
+    /*eslint-enable max-len*/
   }
 }
