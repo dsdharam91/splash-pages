@@ -23,7 +23,7 @@ import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliabil
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import Designers from '../pages/about/jobs/positions/designers';
-import SeniorAccountExecutive from '../pages/about/jobs/positions/senior-account-executive';
+import EnterpriseAccountManager from '../pages/about/jobs/positions/enterprise-account-manager';
 import SalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative';
 import AccountExecutiveGermany from '../pages/about/jobs/positions/account-executive-germany';
 import BusinessDevelopmentGermany from '../pages/about/jobs/positions/business-development-germany';
@@ -336,9 +336,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [SeniorAccountExecutive, { name: 'jobs_senior_account_executive', category: 'jobs.sales' }, {
+  [EnterpriseAccountManager, { name: 'jobs_enterprise_account_manager', category: 'jobs.sales' }, {
       en: {
-        path: '/about/jobs/senior-account-executive',
+        path: '/about/jobs/enterprise-account-manager',
       },
     },
   ],

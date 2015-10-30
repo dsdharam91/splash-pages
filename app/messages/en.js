@@ -482,8 +482,8 @@ export default {
     title: 'Designers',
     description: '',
   },
-  jobs_senior_account_executive: {
-    title: 'Senior Account Executive',
+  jobs_enterprise_account_manager: {
+    title: 'Enterprise Account Manager',
     description: '',
   },
   jobs_sales_development_representative: {
