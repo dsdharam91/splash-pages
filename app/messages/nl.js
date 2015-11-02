@@ -23,7 +23,7 @@ export default {
   basic_pricing_cta: {
     main: 'Betaal slechts 1%',
     description: 'Slechts 1% per verrichting, met een maximum van €2.',
-    learn_more: 'Meer informatie over onze prijzen',
+    learn_more: 'Meer informatie over onze tarieven',
   },
   signup_cta: {
     main: 'Registreer je in enkele minuten, ontvang vandaag nog betalingen',
@@ -31,7 +31,7 @@ export default {
     description: 'Geen registratie kosten, geen verborgen kosten, geen minimale termijn',
   },
   hero: {
-    desc: 'GoCardless maakt het ontvangen van geld via automatisch incasso gemakkelijk voor iedereen, van individuen tot multi-nationale ondernemingen',
+    desc: 'GoCardless maakt het ontvangen van geld via SEPA incasso gemakkelijk voor iedereen, van individuen tot multi-nationale ondernemingen',
   },
   contact_types: ['customer support', 'sales'],
   postal_address: {
@@ -67,8 +67,8 @@ export default {
     explainer: 'Deze pagina bevindt zich op een andere locatie, of misschien heb u het adres verkeerd getypt.',
   },
   pricing: {
-    title: 'Prijzen',
-    nav_title: 'Prijzen',
+    title: 'Tarieven',
+    nav_title: 'Tarieven',
   },
   about: {
     title: 'Over GoCardless',
@@ -81,14 +81,14 @@ export default {
   home: {
     title: 'De eenvoudige manier om terugkerende betalingen te incasseren',
     nav_title: 'Start',
-    description: 'GoCardless is de eenvoudigste manier om automatisch incasso te ontvangen.',
+    description: 'GoCardless is de eenvoudigste manier om SEPA incasso te ontvangen.',
     link: 'home page',
     trusted_message_scale: 'We verwerken dagelijks miljoenen Euro voor onze klanten.',
   },
   contact_sales: {
     title: 'Ontvang een offerte',
     nav_title: 'Contacteer ons',
-    description: 'Ontdek hoeveel u kan uitsparen met GoCardless om uw automatisch incasso betalingen online te ontvangen. Vul uw gegevens in en we sturen u een offerte in 24 uur.',
+    description: 'Ontdek hoeveel u kan uitsparen met GoCardless om uw SEPA incasso betalingen online te ontvangen. Vul uw gegevens in en we sturen u een offerte in 24 uur.',
     page_title: 'Contacteer ons',
     page_description: 'Om te bespreken hoe GoCardless u kan helpen, gelieve uw gegevens hieronder in te vullen. Iemand van ons team neemt spoedig contact op.',
     talk_to_us: 'Wil u nu met een expert spreken?',
@@ -103,10 +103,10 @@ export default {
     explainer: 'Eenvoudige terugkerende betalingen',
   },
   pro: {
-    title: 'GoCardless Pro: Volledige Controle Over Automatisch Incasso',
+    title: 'GoCardless Pro: Volledige Controle Over SEPA Incasso',
     nav_title: 'GoCardless Pro',
-    description: 'GoCardless Pro laat je toe Automatisch Incasso betalingen te incasseren met volledige controle over de gebruikservaring. Voilledig white label en met een gemakkelijk te integreren API.',
-    explainer: 'Volledige controle over Automatisch Incasso',
+    description: 'GoCardless Pro laat je toe SEPA Incasso betalingen te incasseren met volledige controle over de gebruikservaring. Voilledig white label en met een gemakkelijk te integreren API.',
+    explainer: 'Volledige controle over SEPA Incasso',
   },
   partners: {
     title: 'Partner worden',

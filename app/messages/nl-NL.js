@@ -4,18 +4,18 @@ export default {
   country: 'Nederland',
   country_properties: {
     local_scheme: 'sepa',
-    has_instant_signup: false,
-    has_percentage_pricing: false,
+    has_instant_signup: true,
+    has_percentage_pricing: true,
   },
   phone_local: '085 208 0520',
   email: 'nederland@gocardless.com',
   hero: {
-    header: 'Terugkerende betalingen en automatisch incasso eenvoudig gemaakt',
-    desc: 'GoCardless maakt het gemakkelijk voor MKB en grote ondernemingen om automatische incasso\'s uit heel Europa te incasseren.',
+    header: 'Terugkerende betalingen en SEPA incasso eenvoudig gemaakt',
+    desc: 'GoCardless maakt het gemakkelijk voor MKB en grote ondernemingen om SEPA incasso betalingen uit heel Europa te ontvangen.',
   },
   pricing: {
     cost_cap: '€2',
-    description: 'Ontvang incasso betalingen online voor slechts 1% kosten, met een maximum van €2. Aangepaste tarieven zijn beschikbaar voor grote organisaties.',
+    description: 'Ontvang incasso online voor slechts 1%, met een maximum van €2. Aangepaste tarieven zijn beschikbaar voor grote organisaties.',
     pro_cost_per_transaction: '0,01 — 0,60 €',
     per_transaction_amount_normal: '1%',
     pro_monthly_fee: '€250',
