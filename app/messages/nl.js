@@ -11,7 +11,7 @@ export default {
     currently_viewing: 'Land',
     europe_cta: 'GoCardless groeit',
     europe_link: 'meer',
-    cookies_message: 'Door verder te gaan aanvaard je het gebruik van cookies.',
+    cookies_message: 'Door verder te gaan aanvaardt u het gebruik van cookies.',
     cookies_link_text: 'Meer',
   },
   cta: {
@@ -26,12 +26,12 @@ export default {
     learn_more: 'Meer informatie over onze tarieven',
   },
   signup_cta: {
-    main: 'Registreer je in enkele minuten, ontvang vandaag nog betalingen',
+    main: 'Registreer u in enkele minuten, ontvang vandaag nog betalingen',
     button_text: 'Nu registreren',
     description: 'Geen registratie kosten, geen verborgen kosten, geen minimale termijn',
   },
   hero: {
-    desc: 'GoCardless maakt het ontvangen van geld via SEPA incasso gemakkelijk voor iedereen, van individuen tot multi-nationale ondernemingen',
+    desc: 'GoCardless maakt het ontvangen van betalingen via SEPA incasso gemakkelijk voor iedereen, van individuen tot multi-nationale ondernemingen',
   },
   contact_types: ['customer support', 'sales'],
   postal_address: {
@@ -99,13 +99,13 @@ export default {
   features: {
     title: 'Eenvoudige online betalingen',
     nav_title: 'GoCardless',
-    description: 'GoCardless is de eenvoudigste manier om online betalingen te ontvangen. In betalingen direct van de bankrekening van je klanten. Bespaar tijd en verbeter je cash flow.',
+    description: 'GoCardless is de eenvoudigste manier om online betalingen te ontvangen. In betalingen direct van de bankrekening van uw klanten. Bespaar tijd en verbeter uw cash flow.',
     explainer: 'Eenvoudige terugkerende betalingen',
   },
   pro: {
     title: 'GoCardless Pro: Volledige Controle Over SEPA Incasso',
     nav_title: 'GoCardless Pro',
-    description: 'GoCardless Pro laat je toe SEPA Incasso betalingen te incasseren met volledige controle over de gebruikservaring. Voilledig white label en met een gemakkelijk te integreren API.',
+    description: 'GoCardless Pro laat u toe SEPA Incasso betalingen te incasseren met volledige controle over de gebruikservaring. Volledig white label en met een gemakkelijk te integreren API.',
     explainer: 'Volledige controle over SEPA Incasso',
   },
   partners: {

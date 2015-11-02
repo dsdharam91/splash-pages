@@ -22,7 +22,7 @@ export default class ProNl extends React.Component {
               <div className='page-hero__inner'>
                 <div className='page-hero__text'>
                   <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>Volledig controle
-                  over automatisch incasso</h1>
+                  over SEPA incasso</h1>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
                     Een innovatief platform om uw netwerk <br />voor terugkerende betalingen te bouwen
                   </p>
@@ -45,7 +45,7 @@ export default class ProNl extends React.Component {
                 </li>
                 <li className='sticky-nav__item'>
                   <a href='#pricing' id='track-sticky-nav-pricing' className='sticky-nav__link'>
-                    Prijs
+                    Tarieven
                   </a>
                 </li>
               </ul>
@@ -115,7 +115,7 @@ export default class ProNl extends React.Component {
                       Werkt overal
                     </div>
                     <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                      We maken het ongelooflijk eenvoudig om bovenop GoCardless Pro te ontwikkelen
+                      We maken het ongelooflijk eenvoudig om met GoCardless Pro te ontwikkelen
                       en de volgende generatie van uw website of toepassingen te creëren.
                     </p>
                   </div>
@@ -181,7 +181,7 @@ export default class ProNl extends React.Component {
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
                       GoCardless Pro is het enige product dat u toelaat
-                      automatisch incasso betalingen te ontvangen uit de Eurozone en Verenigd Koninkrijk met één eenvoudige integratie.
+                      SEPA incasso betalingen uit de Eurozone en Verenigd Koninkrijk te ontvangen met één eenvoudige integratie.
                       Met onze API kan uw bedrijf betalingen ontvangen van meer dan 500 miljoen mensen in 22 Europese landen.
                     </p>
                   </div>
@@ -271,7 +271,7 @@ export default class ProNl extends React.Component {
                     Concurrentiële tarieven voor bedrijven van elke omvang.<br />
                   </p>
                   <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
-                    Meer over onze prijzen
+                    Meer over onze tarieven
                   </Link>
                 </div>
               </div>

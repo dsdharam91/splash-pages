@@ -18,7 +18,7 @@ export default class HomeNl extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-center'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                Ons globaal betalingsnetwerk heeft reeds meer dan 1 miljard Eur verwerkt
+                Ons globaal betalingsnetwerk heeft reeds meer dan 1 miljard Euro verwerkt
               </h2>
             </div>
             <div className='grid u-margin-Tl u-padding-Tm'>
@@ -31,7 +31,7 @@ export default class HomeNl extends React.Component {
                   Volledig geautomatiseerd
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Bespaar tijd, vermijd menselijke fouten en voorkom mislukte betalingen
+                  Bespaar tijd, vermijd menselijke fouten en voorkom niet-succesvolle betalingen
                 </p>
               </div>
 
@@ -44,7 +44,7 @@ export default class HomeNl extends React.Component {
                   Eurozone &amp; Verenigd Koninkrijk
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Accepteer Nederlandse en internationale betalingen met SEPA Direct Debit (Eurozone) en BACS (Verenigd Koninkrijk)
+                  Accepteer Nederlandse en internationale betalingen met SEPA incasso (Eurozone) en BACS (Verenigd Koninkrijk)
                 </p>
               </div>
 
@@ -81,10 +81,10 @@ export default class HomeNl extends React.Component {
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
-                Eenvoudige, transparante prijszetting voor iedereen
+                Eenvoudige, transparante tarieven voor iedereen
               </h2>
               <p className='u-text-s u-color-p u-margin-Vxs'>
-                Voordelige tarieven voor iedereen, van eenmanszaken tot grote organisaties
+                Voordelige tarieven voor iedereen, van éénmanszaken tot grote organisaties
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
                 Meer over onze tarieven
@@ -96,7 +96,7 @@ export default class HomeNl extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Registreer je nu</Href>
+              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Nu registreren</Href>
               <p className='u-color-p u-margin-Ts'>Geen set up kosten, geen verborgen kosten, geen verplichtingen</p>
             </div>
           </div>

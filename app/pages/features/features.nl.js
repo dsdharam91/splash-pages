@@ -48,7 +48,7 @@ export default class FeaturesNl extends React.Component {
                 </li>
                 <li className='sticky-nav__item'>
                   <a href='#features' id='track-sticky-nav-features' className='sticky-nav__link'>
-                    Functies
+                    Kenmerken
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
@@ -58,7 +58,7 @@ export default class FeaturesNl extends React.Component {
                 </li>
                 <li className='sticky-nav__item'>
                   <a href='#pricing' id='track-sticky-nav-pricing' className='sticky-nav__link'>
-                    Prijzen
+                    Tarieven
                   </a>
                 </li>
               </ul>
@@ -69,7 +69,7 @@ export default class FeaturesNl extends React.Component {
                   'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                   'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
                 }>
-                  Registreer nu
+                  Nu registreren
                 </Href>
               </IfLocale>
               <Link to='contact_sales' id='track-sticky-nav-contact-sales'
@@ -104,11 +104,11 @@ export default class FeaturesNl extends React.Component {
                       <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Geen setup- of aansluitingskosten
+                      Geen set up of aansluitingskosten
                     </div>
                     <p className='u-color-p u-margin-Txs'>
                       GoCardless kost slechts <Message pointer='pricing.per_transaction_amount_normal' /> per betaling
-                      (met een maximum van <Message pointer="pricing.cost_cap" />) zonder maandelijkse of setup kosten.
+                      (met een maximum van <Message pointer="pricing.cost_cap" />) zonder maandelijkse of set up kosten.
                       Volume kortingen zijn tevens mogelijk.
                     </p>
                   </div>
@@ -204,12 +204,12 @@ export default class FeaturesNl extends React.Component {
                   </h2>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     GoCardless is een erkende betalingsdienst, die betalingen
-                    snel eenvoudig maakt voor u en uw klanten.
+                    snel en eenvoudig maakt voor u en uw klanten.
                   </p>
                   <h3 className='u-text-s'>Eenvoudige online setup</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    Het volledige proces is online. Uw klanten kunnen betalingen in enkele minuten in ons
-                    online formulier machtigen — ook mobiel.
+                    Het volledige proces is online. Uw klanten kunnen betalingen machtigen in enkele minuten
+                    via ons online formulier — ook mobiel.
                   </p>
                   <h3 className='u-text-s'>Uw logo en uw naam</h3>
                   <p className='u-color-p u-margin-Bm'>
@@ -218,7 +218,7 @@ export default class FeaturesNl extends React.Component {
                   </p>
                   <h3 className='u-text-s'>Een veilige en eenvoudige manier om te betalenn</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    Met incasso Direct Debit hoeven uw klanten zich geen zorgen meer maken een betaling te missen.
+                    Met SEPA incasso hoeven uw klanten zich geen zorgen meer te maken een betaling te missen.
                     Uw klanten zijn daarenboven beschermd door SEPA Direct Debit klantenbescherming.
                   </p>
                 </div>
@@ -240,7 +240,7 @@ export default class FeaturesNl extends React.Component {
                   </h2>
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
-                      Spreek vandaag met één van onze incasso experts om te bespreken hoe we u kunnen helpen.
+                      Contacteer één van onze incasso experts om te bespreken hoe we u kunnen helpen.
                     </p>
                   </div>
                   <Link to='contact_sales' id='track-cta-contact-sales' className='btn btn--hollow u-margin-Tm'>
