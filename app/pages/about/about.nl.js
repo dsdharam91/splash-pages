@@ -16,7 +16,7 @@ export default class AboutNl extends React.Component {
               <p className='para'>
                 GoCardless maakt het gemakkelijk om terugkerende betalingen online te incasseren.
                 We verenigen alle incasso netwerken in de wereld, maken toegang gebruiksvriendelijk, en openen dit netwerk voor iedereen.
-                We creëren daarbij een compleet nieuw type betalingsnetwerk.
+                We creëren daarbij een nieuw type betalingsnetwerk.
               </p>
               <p className='para'>
                 We zijn sinds onze oprichting in 2011 snel uitgegroeid tot één van Europa’s leidende incasso aanbieders.
@@ -26,7 +26,7 @@ export default class AboutNl extends React.Component {
                 We werken met een brede waaier van organisaties: kleine fitness zaken en scouts groepen gebruiken ons
                 om hun administratie te minimaliseren,
                 snel groeiende bedrijven zoals Funding Circle werken met ons om hun groei te ondersteunen,
-                en gevestigde merken zoals de Financial Times rekenen op ons om hun mislukte betalingen dramatisch te verlagen.
+                en gevestigde merken zoals de Financial Times rekenen op ons om hun niet-succesvolle betalingen dramatisch te verlagen.
               </p>
               <p className='para'>
                 We zijn een klein team in London dat gefinancierd is door enkele van de beste

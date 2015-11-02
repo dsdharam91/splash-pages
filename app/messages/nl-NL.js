@@ -10,8 +10,8 @@ export default {
   phone_local: '085 208 0520',
   email: 'nederland@gocardless.com',
   hero: {
-    header: 'Terugkerende betalingen en SEPA incasso eenvoudig gemaakt',
-    desc: 'GoCardless maakt het gemakkelijk voor MKB en grote ondernemingen om SEPA incasso betalingen uit heel Europa te ontvangen.',
+    header: 'Terugkerende betalingen eenvoudig gemaakt',
+    desc: 'GoCardless maakt het ontvangen van SEPA incasso betalingen uit heel Europa gemakkelijk voor MKB en grote ondernemingen.',
   },
   pricing: {
     cost_cap: '€2',
