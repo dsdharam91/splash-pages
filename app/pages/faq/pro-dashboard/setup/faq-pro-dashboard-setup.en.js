@@ -113,7 +113,6 @@ export default class FaqProDashboardEn extends React.Component {
         </ul>
 
       </Translation>
-
     );
   }
 }
