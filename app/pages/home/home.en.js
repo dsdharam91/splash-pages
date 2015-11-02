@@ -84,6 +84,21 @@ export default class HomeEn extends React.Component {
                 </div>
               </IfLocale>
 
+              <Translation locales={['en']} exclude={['en-GB']}>
+              <div className='grid__cell u-size-1of3 u-text-center'>
+                <figure className='svg-icon u-center'>
+                  <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
+                  <UsersIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  12,000+ merchants
+                </div>
+                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  Powering payments for companies across Europe
+                </p>
+              </div>
+              </Translation>
+              <Translation locales='en-GB'>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
                   <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
@@ -96,6 +111,7 @@ export default class HomeEn extends React.Component {
                   Powering payments for companies across the UK and Europe
                 </p>
               </div>
+              </Translation>
             </div>
           </div>
         </div>
