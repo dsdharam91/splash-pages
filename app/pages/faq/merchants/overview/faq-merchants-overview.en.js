@@ -53,7 +53,7 @@ export default class FaqMerchantsEn extends React.Component {
           Who is GoCardless for?
         </h3>
         <p className='para'>
-          GoCardless is for anyone who wants to take payments directly from the bank account of customers in the UK and the Eurozone.
+          GoCardless is for anyone who wants to take payments directly from the bank account of customers in the UK, the Eurozone and Sweden.
           It's particularly suited for B2B (business-to-business) and recurring payments.
         </p>
         <p className='para'>

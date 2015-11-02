@@ -651,7 +651,13 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqMerchants, { name: 'faq_merchants', category: 'faq.merchants' }, {
-      en: {
+      'en-GB': {
+        path: '/faq/merchants',
+      },
+      'en-IE': {
+        path: '/faq/merchants',
+      },
+      'en-EU': {
         path: '/faq/merchants',
       },
       fr: {
