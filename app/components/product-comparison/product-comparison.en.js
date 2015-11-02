@@ -10,7 +10,7 @@ export default class ProductComparisonEn extends React.Component {
 
   render() {
     return (
-      <Translation locales={['en-GB','en-IE']}>
+      <Translation locales={['en-GB','en-IE','en-SE']}>
         <table className='u-size-full'>
           <thead>
             <tr>

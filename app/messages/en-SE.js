@@ -17,11 +17,16 @@ export default {
   pricing: {
     cost_cap: '20 kr',
     description: 'Collect Direct Debit payments online with fees of just 1%, capped at 20 kr. Scale pricing is available for larger organisations.',
-    pro_cost_per_transaction: '0.65 — 5.50 kr',
+    pro_cost_per_transaction: '0,65 - 5,50 kr',
     per_transaction_amount_normal: '1%',
-    pro_monthly_fee: '2,250 kr',
+    pro_monthly_fee: '2 250 kr',
     normal_capped_at_amount: '2000 kr',
-    pro_number_of_monthly_payments: '> 500',
+    pro_number_of_monthly_payments: '>500 payments',
+  },
+  basic_pricing_cta: {
+    main: 'Pay 1%',
+    description: 'Just 1% per transaction, capped at 20 kr.',
+    learn_more: 'Learn about our pricing',
   },
   signin: {
     path: 'https://manage.gocardless.com',
@@ -34,15 +39,15 @@ export default {
     nav_title: 'Bg Autogiro guide',
     path: '/guides/bg-autogiro/',
   },
-    contact_sales: {
-    title: 'Get a Quote',
+  contact_sales: {
+    title: 'Register',
     nav_title: 'Contact Sales',
-    description: 'Find out how much you can save using GC to collect Direct Debit payments online. Enter your details and we\'ll e-mail you a quote within 24 hours.',
+    description: 'To find out more about how GoCardless can help you, please enter your details below. A member of our team will call you back as soon as possible.',
     page_title: 'Contact Sales',
-    page_description: 'To find out more about how GC can help you, please enter your details below. A member of our team will call you back as soon as possible.',
+    page_description: 'To find out more about how GoCardless can help you, please enter your details below. A member of our team will call you back as soon as possible.',
     talk_to_us: 'Want to talk to an expert now?',
     call_us: 'Call us on',
-    information1: 'Your information is safe with us.',
-    information2: 'We won\'t ever share it or sell it to anyone.',
+    information1: 'We are currently operating a trial of our Autogiro service.',
+    information2: 'Trial customers will receive free payments within Sweden as well as access to our full service across the Eurozone and the UK.',
   },
 };

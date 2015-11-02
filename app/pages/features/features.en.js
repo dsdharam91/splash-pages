@@ -269,6 +269,7 @@ export default class FeaturesEn extends React.Component {
                 </div>
               </div>
             </div>
+
             <hr className='u-margin-An' />
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='grid u-padding-Vxl'>
