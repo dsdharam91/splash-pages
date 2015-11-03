@@ -66,7 +66,8 @@ export default class FaqProDashboardEn extends React.Component {
           <IfLocale domesticScheme='bg-autogiro'>
                     <p className='para'>
             You can <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'
-            className='u-link-color-p u-text-underline'>create a test account</a> for free. Our Autogiro service is currently in beta so please contact <Href to='email' className='u-link-color-p u-text-underline' /> to activate this service in your account.
+            className='u-link-color-p u-text-underline'>create a test account</a> for free. Our Autogiro service is currently in beta
+             so please contact <Href to='email' className='u-link-color-p u-text-underline' /> to activate this service in your account.
           </p>
           <p className='para'>
             Before you can open a live account and start collecting payments, please

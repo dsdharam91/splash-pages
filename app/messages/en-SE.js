@@ -48,6 +48,6 @@ export default {
     talk_to_us: 'Want to talk to an expert now?',
     call_us: 'Call us on',
     information1: 'Your information is safe with us.',
-    information2: 'We won\'t ever share it or sell it to anyone.',    
+    information2: 'We won\'t ever share it or sell it to anyone.',
   },
 };
