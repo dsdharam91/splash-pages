@@ -25,7 +25,7 @@ import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import Designers from '../pages/about/jobs/positions/designers';
 import EnterpriseAccountManager from '../pages/about/jobs/positions/enterprise-account-manager';
 import SalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative';
-import AccountExecutiveGermany from '../pages/about/jobs/positions/account-executive-germany';
+import AccountManagerGermany from '../pages/about/jobs/positions/account-manager-germany';
 import BusinessDevelopmentGermany from '../pages/about/jobs/positions/business-development-germany';
 import ContentCommunityManager from '../pages/about/jobs/positions/content-community-manager';
 
@@ -348,9 +348,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [AccountExecutiveGermany, { name: 'jobs_account_executive_germany', category: 'jobs.sales' }, {
+  [AccountManagerGermany, { name: 'jobs_account_manager_germany', category: 'jobs.sales' }, {
       en: {
-        path: '/about/jobs/account-executive-germany',
+        path: '/about/jobs/account-manager-germany',
       },
     },
   ],

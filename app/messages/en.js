@@ -490,8 +490,8 @@ export default {
     title: 'Sales Development Representative',
     description: '',
   },
-  jobs_account_executive_germany: {
-    title: 'Account Executive: Germany',
+  jobs_account_manager_germany: {
+    title: 'Account Manager: Germany',
     description: '',
   },
   jobs_business_development_germany: {
