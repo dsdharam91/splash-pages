@@ -2,6 +2,7 @@ export const team = [
   'Octave Auger',
   'Grey Baker',
   'Baris Balic',
+  'Duncan Barrigan',
   'Angus Bayley',
   'James Berry',
   'Lewis Blackwood',
