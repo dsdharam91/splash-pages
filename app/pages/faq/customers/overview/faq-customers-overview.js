@@ -47,18 +47,6 @@ export default class FaqCustomers extends React.Component {
         </p>
         <p className='para'>
           Don't worry - if you have set-up a one-off payment, we will only take the funds once.
-          You can check payments made with GoCardless anytime by&nbsp;
-          <a href='/users/sign_in' className='u-link-color-p u-text-underline'>
-            logging in
-          </a>.
-        </p>
-
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-          How do I check transactions made with GoCardless?
-        </h3>
-        <p className='para'>
-          You can check your GoCardless payments anytime by&nbsp;
-          <a href='/users/sign_in' className='u-link-color-p u-text-underline'>logging in</a>.
         </p>
         <p className='para'>
           For further assistance you can also email us at&nbsp;
