@@ -9,6 +9,7 @@ import HomeEs from './home.es';
 import HomeNl from './home.nl';
 import IfLocale from '../../components/if-locale/if-locale';
 import Href from '../../components/href/href';
+import Link from '../../components/link/link';
 
 export default class Home extends React.Component {
   displayName = 'Home'
@@ -32,6 +33,9 @@ export default class Home extends React.Component {
                     <a href='#learn-more' id='track-hero-learn-more' className='btn btn--invert btn--move u-size-3of12'>
                       <Message pointer='cta.more' />
                     </a>
+                    <Link to='contact_sales' className='btn btn--invert-hollow btn-move u-size-2of9 u-margin-Lm'>
+                      <Message pointer='cta.pro' />
+                    </Link>
                   </IfLocale>
                   <IfLocale hasInstantSignup>
                     <a href='#learn-more' id='track-hero-learn-more' className='btn btn--invert btn--move u-size-2of9'>

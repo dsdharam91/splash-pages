@@ -10,6 +10,7 @@ import WhiteLabelIcon from '../../icons/svg/white-label';
 import MobileIcon from '../../icons/svg/mobile';
 import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
+import IfLinkExists from '../../components/if-link-exists/if-link-exists';
 
 export default class ProEn extends React.Component {
   displayName = 'ProEn'
@@ -260,7 +261,7 @@ export default class ProEn extends React.Component {
               </div>
             </div>
             <hr className='u-margin-An' />
-            <Translation locales={['en-GB','en-IE']}>
+            <IfLinkExists to='features'>
               <div id='forOptimizely-Table'>
                 <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
                   <div className='site-container u-padding-Vxl'>
@@ -283,7 +284,7 @@ export default class ProEn extends React.Component {
                 </div>
                 <hr className='u-margin-An' />
               </div>
-            </Translation>
+            </IfLinkExists>
           </div>
           <div className='section-scroll-target' id='pricing'>
             <div className='u-text-center u-padding-Vxxl'>
