@@ -18,16 +18,19 @@ export default class ContactSales extends React.Component {
             <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
               <Message pointer='contact_sales.page_description' />
             </p>
-            <Translation locales='en-SE'>
-              <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                <Message pointer='contact_sales.page_description2' />
-              </p>
-            </Translation>
           </div>
         </div>
 
         <div className='site-container grid grid--center u-margin-Vxl u-padding-Vxl'>
           <div className='grid__cell u-size-1of2'>
+            <Translation locales='en-SE'>
+              <p className='u-color-meta u-margin-Bs'>
+                <Message pointer='prospect_form.intro_message' />
+              </p>
+              <p className='u-color-meta u-margin-Bs'>
+                Enter your contact details to learn more:
+              </p>
+            </Translation>
             <ProspectForm prospectType='sales' />
             <hr />
             <p className='u-text-center u-color-meta u-margin-Bs'>

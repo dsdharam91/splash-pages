@@ -11,6 +11,7 @@ export default {
     has_percentage_pricing: true,
   },
   prospect_form: {
+    intro_message: 'We are currently beta testing our Autogiro service. Participants can collect Autogiro payments for free during the trial.',
     name_placeholder: 'William Johansson',
     email_placeholder: 'example@companyname.se',
     phone_placeholder: '0844 680 379',
@@ -43,9 +44,5 @@ export default {
     title: 'Bg Autogiro guide',
     nav_title: 'Bg Autogiro guide',
     path: '/guides/bg-autogiro/',
-  },
-  contact_sales: {
-    page_description: 'We are currently beta testing our Autogiro service. Participants can collect Autogiro payments for free and access our standard Eurozone and UK services.',
-    page_description2: 'To find out more about how GoCardless can help you, please enter your details below. A member of our team will call you back as soon as possible.',
   },
 };
