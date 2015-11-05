@@ -325,7 +325,12 @@ export default class FeaturesEn extends React.Component {
                   </IfLinkExists>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center'>
-                  <img src='/images/features/payment-page--gyms.jpg' className='vertical-page__mobile-image' />
+                  <Translation locales={['en-SE']}>
+                    <img src='/images/sv/basic-payment-page-sv@2x.png' className='vertical-page__mobile-image' />
+                  </Translation>
+                  <Translation locales={['en']} exclude={['en-SE']}>
+                    <img src='/images/features/payment-page--gyms.jpg' className='vertical-page__mobile-image' />
+                  </Translation>
                 </div>
               </div>
             </div>
