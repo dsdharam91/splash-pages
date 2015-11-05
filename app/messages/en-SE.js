@@ -10,6 +10,11 @@ export default {
     has_instant_signup: false,
     has_percentage_pricing: true,
   },
+  prospect_form: {
+    name_placeholder: 'William Johansson',
+    email_placeholder: 'example@companyname.se',
+    phone_placeholder: '0844 680 379',
+  },
   hero: {
     header: 'Accept recurring payments across Europe',
     desc: 'GoCardless allows you to collect Direct Debit (Autogiro) payments from Sweden, the Eurozone and the UK in a single integration.',
@@ -40,14 +45,7 @@ export default {
     path: '/guides/bg-autogiro/',
   },
   contact_sales: {
-    title: 'Register',
-    nav_title: 'Contact Sales',
-    description: 'To find out more about how GoCardless can help you, please enter your details below. A member of our team will call you back as soon as possible.',
-    page_title: 'Contact Sales',
-    page_description: 'To find out more about how GoCardless can help you, please enter your details below. A member of our team will call you back as soon as possible. We are currently beta testing our Autogiro service. Participants can collect Autogiro payments for free and access our standard Eurozone and UK services.',
-    talk_to_us: 'Want to talk to an expert now?',
-    call_us: 'Call us on',
-    information1: 'Your information is safe with us.',
-    information2: 'We won\'t ever share it or sell it to anyone.',
+    page_description: 'We are currently beta testing our Autogiro service. Participants can collect Autogiro payments for free and access our standard Eurozone and UK services.',
+    page_description2: 'To find out more about how GoCardless can help you, please enter your details below. A member of our team will call you back as soon as possible.',
   },
 };

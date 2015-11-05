@@ -18,6 +18,11 @@ export default class ContactSales extends React.Component {
             <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
               <Message pointer='contact_sales.page_description' />
             </p>
+            <Translation locales='en-SE'>
+              <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
+                <Message pointer='contact_sales.page_description2' />
+              </p>
+            </Translation>
           </div>
         </div>
 
