@@ -1,0 +1,143 @@
+/*eslint-disable max-len*/
+
+export default {
+  header: {
+    our_products: 'Onze producten',
+    login_btn: 'Login',
+    more: 'Meer',
+  },
+  footer: {
+    description: 'GoCardless is als Europese Betaalinstelling gereguleerd door de Financial Conduct Authority (FCA) in het Verenigd Koninkrijk.',
+    currently_viewing: 'Land',
+    europe_cta: 'GoCardless groeit',
+    europe_link: 'meer',
+    cookies_message: 'Door verder te gaan aanvaardt u het gebruik van cookies.',
+    cookies_link_text: 'Meer',
+  },
+  cta: {
+    basic: 'Ontvang vandaag nog betalingen',
+    pro: 'Contacteer ons',
+    signup: 'Nu registreren',
+    more: 'Meer informatie',
+  },
+  basic_pricing_cta: {
+    main: 'Betaal slechts 1%',
+    description: 'Slechts 1% per verrichting, met een maximum van €2.',
+    learn_more: 'Meer informatie over onze tarieven',
+  },
+  signup_cta: {
+    main: 'Registreer u in enkele minuten, ontvang vandaag nog betalingen',
+    button_text: 'Nu registreren',
+    description: 'Geen registratie kosten, geen verborgen kosten, geen minimale termijn',
+  },
+  hero: {
+    desc: 'GoCardless maakt het ontvangen van betalingen via SEPA incasso gemakkelijk voor iedereen, van individuen tot multi-nationale ondernemingen',
+  },
+  contact_types: ['customer support', 'sales'],
+  postal_address: {
+    street_address: '338-346 Goswell Road',
+    address_locality: 'London',
+    postal_code: 'EC1V 7LQ',
+    address_country: 'Verenigd Koninkrijk',
+    address_country_iso: 'GB',
+  },
+  phone_full: '+31 85 208 0520',
+  phone_local: '+31 85 208 0520',
+  partners_email: 'nederland@gocardless.com',
+  documentation_link: 'https://developer.gocardless.com/pro',
+  prospect_form: {
+    name_label: 'Naam',
+    name_placeholder: 'Jan Jansen',
+    email_label: 'Werk email',
+    email_placeholder: 'voorbeeld@bedrijfsnaam.com',
+    phone_label: 'Werk telefoon',
+    phone_placeholder: '020 123 4567',
+    submit: 'Verstuur',
+    success_messages: {
+      '0-100': 'Bedankt, iemand van het GoCardless team zal u spoedig contacteren.',
+      '100-500': 'Bedankt, iemand van het GoCardless team zal u spoedig contacteren.',
+      '500+': 'Bedankt, iemand van het GoCardless team zal u spoedig contacteren.',
+      default: 'Bedankt, iemand van het GoCardless team zal u in de komende 24 uur contacteren.',
+    },
+  },
+  not_found: {
+    title: 'Niet gevonden',
+    description: 'Pagina niet gevonden',
+    header: 'Oeps! Deze link werkt niet.',
+    explainer: 'Deze pagina bevindt zich op een andere locatie, of misschien heb u het adres verkeerd getypt.',
+  },
+  pricing: {
+    title: 'Tarieven',
+    nav_title: 'Tarieven',
+  },
+  about: {
+    title: 'Over GoCardless',
+    nav_title: 'Over ons',
+    description: 'We bouwen een nieuw betalingsnetwerk voor het internet. Leer meer over onze organisatie.',
+    link: 'about',
+    header1: 'We bouwen een nieuw',
+    header2: 'betalingsnetwerk voor het internet',
+  },
+  home: {
+    title: 'De eenvoudige manier om terugkerende betalingen te incasseren',
+    nav_title: 'Start',
+    description: 'GoCardless is de eenvoudigste manier om SEPA incasso te ontvangen.',
+    link: 'home page',
+    trusted_message_scale: 'We verwerken dagelijks miljoenen Euro voor onze klanten.',
+  },
+  contact_sales: {
+    title: 'Ontvang een offerte',
+    nav_title: 'Contacteer ons',
+    description: 'Ontdek hoeveel u kan uitsparen met GoCardless om uw SEPA incasso betalingen online te ontvangen. Vul uw gegevens in en we sturen u een offerte in 24 uur.',
+    page_title: 'Contacteer ons',
+    page_description: 'Om te bespreken hoe GoCardless u kan helpen, gelieve uw gegevens hieronder in te vullen. Iemand van ons team neemt spoedig contact op.',
+    talk_to_us: 'Wil u nu met een expert spreken?',
+    call_us: 'Bel ons',
+    information1: 'Uw informatie is in veilige handen.',
+    information2: 'We geven of verkopen nooit informatie.',
+  },
+  features: {
+    title: 'Eenvoudige online betalingen',
+    nav_title: 'GoCardless',
+    description: 'GoCardless is de eenvoudigste manier om online betalingen te ontvangen. In betalingen direct van de bankrekening van uw klanten. Bespaar tijd en verbeter uw cash flow.',
+    explainer: 'Eenvoudige terugkerende betalingen',
+  },
+  pro: {
+    title: 'GoCardless Pro: Volledige Controle Over SEPA Incasso',
+    nav_title: 'GoCardless Pro',
+    description: 'GoCardless Pro laat u toe SEPA Incasso betalingen te incasseren met volledige controle over de gebruikservaring. Volledig white label en met een gemakkelijk te integreren API.',
+    explainer: 'Volledige controle over SEPA Incasso',
+  },
+  partners: {
+    title: 'Partner worden',
+    nav_title: 'Word Partner',
+    link_title: 'Partner',
+    description: 'Word GoCardless partner en laat uw klanten betalingen ontvangen via uw Software. We werken reeds met FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube en vele andere partners.',
+    explainer: 'GoCardless voor uw klanten',
+  },
+  team: {
+    title: 'Team',
+    description: '',
+    nav_title: 'Team',
+  },
+  pro_docs: {
+    title: 'Pro API',
+    nav_title: 'Pro API',
+  },
+  blog: {
+    title: 'Blog',
+    nav_title: 'Blog',
+    cta: 'Bezoek onze Blog',
+  },
+  guides: {
+    title: 'Handleidingen',
+    nav_title: 'Handleiding',
+    path: 'https://gocardless.com/guides/sepa',
+  },
+  signin: {
+    path: 'https://manage.gocardless.com',
+  },
+  signup: {
+    path: 'https://manage.gocardless.com/signup?lang=nl',
+  },
+};

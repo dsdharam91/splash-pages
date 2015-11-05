@@ -8,8 +8,8 @@ import Href from '../../components/href/href';
 import IfLinkExists from '../../components/if-link-exists/if-link-exists';
 import { getMessage } from '../../components/intl/intl';
 
-export default class PricingEs extends React.Component {
-  displayName = 'PricingEs'
+export default class PricingNl extends React.Component {
+  displayName = 'PricingNl'
 
   static contextTypes = {
     messages: React.PropTypes.object.isRequired,
@@ -18,7 +18,7 @@ export default class PricingEs extends React.Component {
   render() {
     const hasPercentagePricing = getMessage(this.context.messages, 'country_properties.has_percentage_pricing');
     return (
-      <Translation locales='es'>
+      <Translation locales='nl'>
         <div className='page-hero--pricing page-hero'>
           <div className='site-container'>
             <div className='grid pricing-options u-center u-padding-Bxl'>
@@ -30,29 +30,29 @@ export default class PricingEs extends React.Component {
                       <Message pointer='pricing.per_transaction_amount_normal' />
                     </h2>
                     <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
-                      Por transacción, máximo de <Message pointer="pricing.cost_cap" />
+                      Per verrichting, met een maximum van <Message pointer="pricing.cost_cap" />
                     </p>
                   </div>
                   <ul className='pricing-options__list'>
                     <li className='pricing-options__list-item u-color-heading'>
-                      <b>Perfecto para pequeñas y medianas empresas</b>
+                      <b>Perfect voor kleine en middelgrote bedrijven</b>
                     </li>
                     <li className='pricing-options__list-item'>
-                      Sin costes por adelantado, sin comisiones ocultas, sin compromiso</li>
+                      Geen bijkomende kosten, geen verplichtingen</li>
                     <li className='pricing-options__list-item'>
-                      Tarifas escalables disponibles (<a href='#scale-pricing-container'>?</a>)
+                      Volume kortingen beschikbaar (<a href='#scale-pricing-container'>?</a>)
                     </li>
                     <IfLinkExists to='features'>
                       <li className='pricing-options__list-item'>
-                        <Link to='features'>Descrubre más sobre GoCardless</Link>
+                        <Link to='features'>Meer over GoCardless</Link>
                       </li>
                     </IfLinkExists>
                     <li className='pricing-options__list-button'>
                       <IfLocale hasInstantSignup>
-                        <Href to='signup.path' className='btn u-size-full'>Regístrate hoy</Href>
+                        <Href to='signup.path' className='btn u-size-full'>Registreer nu</Href>
                       </IfLocale>
                       <IfLocale hasInstantSignup={false}>
-                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contacta con nosotros</Link>
+                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contact</Link>
                       </IfLocale>
                     </li>
                   </ul>
@@ -66,24 +66,24 @@ export default class PricingEs extends React.Component {
                     <Message pointer='pricing.pro_cost_per_transaction' />
                   </h2>
                   <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
-                    Por transacción
+                    Per verrichting
                   </p>
                 </div>
                 <ul className='pricing-options__list'>
                   <li className='pricing-options__list-item u-color-heading'>
-                    <b>Para empresas que quieren control total</b>
+                    <b>Voor bedrijven die volledige controle willen</b>
                   </li>
                   <li className='pricing-options__list-item'>
-                    <b><Message pointer='pricing.pro_monthly_fee' /> de gasto fijo mensual</b>, sin gastos ocultos de ningún tipo
+                    <b><Message pointer='pricing.pro_monthly_fee' /> maandelijks</b>, geen verborgen kosten
                   </li>
                   <li className='pricing-options__list-item'>
-                    Para negocios con <b><Message pointer='pricing.pro_number_of_monthly_payments' /></b> al mes
+                    Voor bedrijven met <b><Message pointer='pricing.pro_number_of_monthly_payments' /></b> betalingen per maand
                   </li>
                   <li className='pricing-options__list-item'>
-                    <Link to='pro'>Descubre más sobre Pro </Link>
+                    <Link to='pro'>Meer over GoCardless Pro</Link>
                   </li>
                   <li className='pricing-options__list-button'>
-                    <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contacta con nosotros</Link>
+                    <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -93,76 +93,76 @@ export default class PricingEs extends React.Component {
 
         <div className='site-container u-padding-Vm' id='scale-pricing-container'>
           <div className='site-container u-text-center u-padding-Vl'>
-              <h2 className='u-text-heading-light u-color-heading'>Sobre nuestras tarifas</h2>
+              <h2 className='u-text-heading-light u-color-heading'>Over onze tarieven</h2>
           </div>
           <div className='grid u-size-4of5 u-center u-padding-Vm'>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Rm'>
               <div className='u-color-heading'>
                 <b>
-                  ¿Hay algún otro coste?
+                  Zijn er echt geen verdere kosten?
                 </b>
               </div>
               <p className='u-color-p'>
                 <IfLocale hasPercentagePricing>
-                  No, no hay ningún otro coste aparte de los descritos en la tabla superior.
-                  Nunca cobramos por Devoluciones de recibos o errores de cobro.<br />
-                  Con Gocardless, todo lo que pagarás es <Message pointer='pricing.per_transaction_amount_normal' /> del total de la
-                  transacción con un máximo de <Message pointer="pricing.cost_cap" />.<br />
-                  Con GoCardless Pro, pagarás <Message pointer='pricing.pro_monthly_fee' /> de fijo mensual y
-                  una tarifa por cada transacción.
+                  Dat klopt, we rekenen enkel de kosten aan in de tabel hierboven en niets meer.
+                  We rekenen nooit kosten aan voor terugboekingen of niet-succesvolle betalingen.<br />
+                  Bij GoCardless betaalt u enkel <Message pointer='pricing.per_transaction_amount_normal' /> per verrichting,
+                  met een maximum van <Message pointer="pricing.cost_cap" />.<br />
+                  Met GoCardless Pro, betaalt u <Message pointer='pricing.pro_monthly_fee' /> per maand en
+                  een kost per verrichting.
                 </IfLocale>
                 <IfLocale hasPercentagePricing={false}>
-                  No, sólo cobramos los <Message pointer='pricing.pro_monthly_fee' /> de fijo mensual y una tarifa por cada transacción.
-                  Nunca cobramos por Devoluciones de recibos o errores de cobro.
-                  </IfLocale>
+                  Dat klopt, we rekenen enkel <Message pointer='pricing.pro_monthly_fee' /> per maand en een kost per verrichting.
+                  We rekenen nooit kosten aan voor terugboekingen of niet-succesvolle betalingen.
+                </IfLocale>
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Lm'>
               <div className='u-color-heading'>
-                <b>¿Ofreceis descuentos por grandes volúmenes?</b>
+                <b>Biedt GoCardless volume kortingen aan?</b>
               </div>
               <p className='u-color-p'>
                 <IfLocale hasPercentagePricing>
-                  Si. Nuestra tarifa por transacción se reduce a partir de 1.000 cobros al mes.
-                  Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta
-                  con nosotros</Link>.
+                  Jazeker. Vanaf 1000 betalingen per maand bieden we lagere kosten aan per verrichting.
+                  Voor verdere informatie, gelieve contact op te nemen
+                  <Link to='contact_sales' className='u-link-color-p u-text-underline'>contact</Link>.
                 </IfLocale>
                 <IfLocale hasPercentagePricing={false}>
-                  Si. Los descuentos por altos vólumenes están incluídos en las tarifas de GoCardless Pro, y los precios
-                  escalables están disponibles si son solicitados por los usuarios de Gocardless que superen los
-                  250 adeudos mensuales.
-                  Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>
-                  contacta con nosotros</Link>.
+                  Jazeker. Volume kortingen maken deel uit van onze GoCardless Pro tarieven,
+                  en volume kortingen zijn beschikbaar op aanvraag voor GoCardless gebruikers die meer dan 250 betalingen
+                  per maand ontvangen.
+                  Voor verdere informatie, gelieve contact op te nemen
+                  <Link to='contact_sales' className='u-link-color-p u-text-underline'>contact</Link>.
                 </IfLocale>
               </p>
             </div>
             <IfLocale hasPercentagePricing>
               <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Rm'>
                 <div className='u-color-heading'>
-                  <b>¿Que significa "máximo de<Message pointer="pricing.cost_cap" />"?</b>
+                  <b>Wat betekent ‘met een maximum van <Message pointer="pricing.cost_cap" />’?</b>
                 </div>
                 <p className='u-color-p'>
-                  Nunca pagarás más de <Message pointer="pricing.cost_cap" /> por transacción
-                  incluso si el valor de la transacción es mayor que <Message pointer='pricing.normal_capped_at_amount' />.
+                  U betaalt nooit meer dan <Message pointer="pricing.cost_cap" /> per verrichting
+                  zelfs als de waarde van de verrichting hoger is dan <Message pointer='pricing.normal_capped_at_amount' />.
                 </p>
               </div>
             </IfLocale>
             <IfLocale hasPercentagePricing={false}>
               <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Rm'>
                 <div className='u-color-heading'>
-                  <b>¿Hay algún coste de implementación?</b>
+                  <b>Zijn er set up kosten?</b>
                 </div>
                 <p className='u-color-p'>
-                  No, no tendrás que pagar nada por implementar GoCardless y nuestro soporte es gratuito.
+                  Neen, u betaalt niets om te integreren met GoCardless en onze klanten ondersteuning is volledig gratis.
                 </p>
               </div>
             </IfLocale>
             <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Lm'>
               <div className='u-color-heading'>
-                <b>¿Se me cobrará por un cobro fallido?</b>
+                <b>Zijn er kosten voor niet-succesvolle betalingen?</b>
               </div>
               <p className='u-color-p'>
-                No. Sólo cobramos nuestra tarifa de los cobros correctos.
+                Neen. We rekenen enkel kosten aan voor betalingen die succesvol verwerkt zijn.
               </p>
             </div>
           </div>
@@ -170,13 +170,13 @@ export default class PricingEs extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Tm u-padding-Bxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-text-l u-color-heading u-text-light'>¿Tienes alguna pregunta?</h2>
-            <p className='u-color-p u-margin-Ts'>Habla con uno de nuestros expertos en cobros en <Message pointer='phone_local' /></p>
+            <h2 className='u-text-heading u-text-l u-color-heading u-text-light'>Heeft u vragen?</h2>
+            <p className='u-color-p u-margin-Ts'>Spreek met onze betalingsexperts op <Message pointer='phone_local' /></p>
             <IfLocale hasInstantSignup>
-              <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>Registrate hoy</Href>
+              <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>Nu registreren</Href>
             </IfLocale>
             <IfLocale hasInstantSignup={false}>
-              <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Contacta con nosotros</Link>
+              <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Contact</Link>
             </IfLocale>
           </div>
         </div>

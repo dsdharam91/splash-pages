@@ -22,17 +22,12 @@ import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
-import DataAnalyst from '../pages/about/jobs/positions/data-analyst';
 import Designers from '../pages/about/jobs/positions/designers';
-import SeniorAccountExecutive from '../pages/about/jobs/positions/senior-account-executive';
+import EnterpriseAccountManager from '../pages/about/jobs/positions/enterprise-account-manager';
 import SalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative';
-import AccountExecutiveGermany from '../pages/about/jobs/positions/account-executive-germany';
+import AccountManagerGermany from '../pages/about/jobs/positions/account-manager-germany';
 import BusinessDevelopmentGermany from '../pages/about/jobs/positions/business-development-germany';
-import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer';
-import CustomerRelationshipMarketer from '../pages/about/jobs/positions/customer-relationship-marketer';
 import ContentCommunityManager from '../pages/about/jobs/positions/content-community-manager';
-import VPPeople from '../pages/about/jobs/positions/vp-people';
-import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -138,6 +133,9 @@ export const config = Immutable.fromJS([
       es: {
         path: '/',
       },
+      nl: {
+        path: '/',
+      },
     },
   ],
   [Pricing, { name: 'pricing' }, {
@@ -153,6 +151,9 @@ export const config = Immutable.fromJS([
       es: {
         path: '/tarifas',
       },
+      nl: {
+        path: '/tarieven',
+      },
     },
   ],
   [Pro, { name: 'pro' }, {
@@ -166,6 +167,9 @@ export const config = Immutable.fromJS([
         path: '/pro',
       },
       es: {
+        path: '/pro',
+      },
+      nl: {
         path: '/pro',
       },
     },
@@ -204,6 +208,9 @@ export const config = Immutable.fromJS([
       es: {
         path: '/funcionalidades',
       },
+      nl: {
+        path: '/kenmerken',
+      },
     },
   ],
   [FeaturesApi, { name: 'features_api' }, {
@@ -224,6 +231,9 @@ export const config = Immutable.fromJS([
       },
       es: {
         path: '/contacto',
+      },
+      nl: {
+        path: '/contact',
       },
     },
   ],
@@ -264,6 +274,9 @@ export const config = Immutable.fromJS([
       es: {
         path: '/sobre-nosotros',
       },
+      nl: {
+        path: '/over-ons',
+      },
     },
   ],
   [Team, { name: 'team' }, {
@@ -278,6 +291,9 @@ export const config = Immutable.fromJS([
       },
       es: {
         path: '/sobre-nosotros/equipo',
+      },
+      nl: {
+        path: '/over-ons/team',
       },
     },
   ],
@@ -317,21 +333,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [DataAnalyst, { name: 'jobs_data_analyst', category: 'jobs.engineering' }, {
-      en: {
-        path: '/about/jobs/data-analyst',
-      },
-    },
-  ],
   [Designers, { name: 'jobs_designers', category: 'jobs.ux_design' }, {
       en: {
         path: '/about/jobs/designers',
       },
     },
   ],
-  [SeniorAccountExecutive, { name: 'jobs_senior_account_executive', category: 'jobs.sales' }, {
+  [EnterpriseAccountManager, { name: 'jobs_enterprise_account_manager', category: 'jobs.sales' }, {
       en: {
-        path: '/about/jobs/senior-account-executive',
+        path: '/about/jobs/enterprise-account-manager',
       },
     },
   ],
@@ -341,9 +351,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [AccountExecutiveGermany, { name: 'jobs_account_executive_germany', category: 'jobs.sales' }, {
+  [AccountManagerGermany, { name: 'jobs_account_manager_germany', category: 'jobs.sales' }, {
       en: {
-        path: '/about/jobs/account-executive-germany',
+        path: '/about/jobs/account-manager-germany',
       },
     },
   ],
@@ -353,33 +363,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [DigitalMarketer, { name: 'jobs_digital_marketer', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/digital-marketer',
-      },
-    },
-  ],
-  [CustomerRelationshipMarketer, { name: 'jobs_customer_relationship_marketer', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/customer-relationship-marketer',
-      },
-    },
-  ],
   [ContentCommunityManager, { name: 'jobs_content_community_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/content-community-manager',
-      },
-    },
-  ],
-  [VPPeople, { name: 'jobs_vp_people', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/vp-people',
-      },
-    },
-  ],
-  [CustomerSupport, { name: 'jobs_customer_support', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/customer-support',
       },
     },
   ],
@@ -491,6 +477,9 @@ export const config = Immutable.fromJS([
       },
       es: {
         path: '/asociados',
+      },
+      nl: {
+        path: '/partners',
       },
     },
   ],

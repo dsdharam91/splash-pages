@@ -54,6 +54,7 @@ export const team = [
   'Corinne Thompson',
   'Matt Thomson',
   'Côme Trémeau',
+  'Joeri Vankeirsbilck',
   'James Walker',
   'Sam Willis',
 ];

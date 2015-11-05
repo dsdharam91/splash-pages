@@ -457,9 +457,6 @@ export default {
     marketing: {
       title: 'Marketing',
     },
-    operations: {
-      title: 'Operations',
-    },
   },
   jobs_product_engineer: {
     title: 'Product Engineer',
@@ -481,48 +478,28 @@ export default {
     title: 'Data Engineer',
     description: '',
   },
-  jobs_data_analyst: {
-    title: 'Data Analyst',
-    description: '',
-  },
   jobs_designers: {
     title: 'Designers',
     description: '',
   },
-  jobs_senior_account_executive: {
-    title: 'Senior Account Executive',
+  jobs_enterprise_account_manager: {
+    title: 'Enterprise Account Manager',
     description: '',
   },
   jobs_sales_development_representative: {
     title: 'Sales Development Representative',
     description: '',
   },
-  jobs_account_executive_germany: {
-    title: 'Account Executive: Germany',
+  jobs_account_manager_germany: {
+    title: 'Account Manager: Germany',
     description: '',
   },
   jobs_business_development_germany: {
     title: 'Business Development: Germany',
     description: '',
   },
-  jobs_digital_marketer: {
-    title: 'Digital Marketer',
-    description: '',
-  },
-  jobs_customer_relationship_marketer: {
-    title: 'Customer Relationship Marketer',
-    description: '',
-  },
   jobs_content_community_manager: {
     title: 'Content & Community Manager',
-    description: '',
-  },
-  jobs_customer_support: {
-    title: 'Customer Support',
-    description: '',
-  },
-  jobs_vp_people: {
-    title: 'VP People',
     description: '',
   },
   pro_docs: {
