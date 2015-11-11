@@ -114,7 +114,7 @@ import StoriesRockChoir from '../pages/stories/stories/rock-choir';
 import StoriesSpencerHockey from '../pages/stories/stories/spencer-hockey';
 import StoriesFoundationOfHearts from '../pages/stories/stories/foundation-of-hearts';
 import StoriesGreaterAnglia from '../pages/stories/stories/greater-anglia';
-import Stories1001Menus from '../pages/stories/stories/1001-menus';
+import StoriesZenchef from '../pages/stories/stories/zenchef';
 import StoriesTheFrenchTalents from '../pages/stories/stories/the-french-talents';
 
 export var homeRoute = 'home';
@@ -978,9 +978,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [Stories1001Menus, { name: 'stories_1001_menus', category: 'stories' }, {
+  [StoriesZenchef, { name: 'stories_zenchef', category: 'stories' }, {
       fr: {
-        path: '/references/1001-menus',
+        path: '/references/zenchef',
       },
     },
   ],
