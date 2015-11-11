@@ -280,9 +280,9 @@ export default {
     nav_title: 'Références',
     description: '',
   },
-  stories_1001_menus: {
-    title: '1001 Menus',
-    description: '',
+  stories_zenchef: {
+    title: 'Zenchef',
+    description: 'x',
   },
   stories_the_french_talents: {
     title: 'The French Talents',
