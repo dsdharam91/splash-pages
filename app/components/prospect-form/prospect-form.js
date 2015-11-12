@@ -149,6 +149,21 @@ export default class ProspectForm extends React.Component {
           <input className='input input--stacked' id='prospect_phone_number' name='prospect[phone_number]'
             placeholder={getMessage(messages, 'prospect_form.phone_placeholder')} required type='text' />
 
+          <Translation locales={['en-GB']}>
+            <label className='label label--stacked' htmlFor='prospect_metadata_number_of_payments'>
+              How many payments could we have helped you collect last month?
+            </label>
+            <select className='input--stacked'
+            id='prospect_metadata_number_of_payments'
+            name='prospect[metadata][number_of_payments]'
+            defaultValue=''>
+              <option value=''>Select number of payments taken last month</option>
+              <option value='0-100'>0-100</option>
+              <option value='100-500'>100-500</option>
+              <option value='500+'>500+</option>
+            </select>
+          </Translation>
+
           <Translation locales='fr'>
             <label className='label label--stacked' htmlFor='prospect_metadata_number_of_payments'>
               Combien de paiements souhaitez-vous prélever chaque mois?
