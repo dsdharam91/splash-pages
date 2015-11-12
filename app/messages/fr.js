@@ -282,7 +282,7 @@ export default {
   },
   stories_zenchef: {
     title: 'Zenchef',
-    description: 'x',
+    description: '',
   },
   stories_the_french_talents: {
     title: 'The French Talents',
