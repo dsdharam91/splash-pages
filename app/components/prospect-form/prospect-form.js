@@ -158,8 +158,9 @@ export default class ProspectForm extends React.Component {
             name='prospect[metadata][number_of_payments]'
             defaultValue=''>
               <option value=''>Select number of payments taken last month</option>
-              <option value='0-50'>0-50</option>
-              <option value='50+'>50+</option>
+              <option value='0-100'>0-100</option>
+              <option value='100-500'>100-500</option>
+              <option value='500+'>500+</option>
             </select>
           </Translation>
 
