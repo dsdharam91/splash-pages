@@ -59,7 +59,7 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
                   1% fees, capped at £2
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Cheaper than taking credit cards and with no hidden fees.
+                  Cheaper than taking credit cards and no hidden fees. Just 1%, capped at £2 per transaction.
                 </p>
               </div>
             </div>
@@ -69,7 +69,7 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
         <div className='site-container u-padding-Txxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
-              GoCardless powers online Direct Debit for 13,000 merchants
+              GoCardless makes getting paid easier than ever
             </h2>
             <div className='grid u-center u-text-center u-padding-Tl u-margin-Bl u-margin-Ts'>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -85,7 +85,7 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Join 13,000+ businesses</h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  We've collected more than $1 billion for our 13,000 merchants.</p>
+                  We've collected more than $1 billion for over 13,000 merchants.</p>
               </div>
             </div>
             <div className='u-padding-Vm u-margin-Vm u-text-center'>
@@ -97,7 +97,10 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Txxl u-padding-Bl'>
           <div className='u-padding-Vxl'>
-            <div className='grid u-margin-Hn u-size-full'>
+            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+              GoCardless powers online Direct Debit for 13,000 merchants
+            </h2>
+            <div className='grid u-margin-Hn u-size-full u-padding-Txl'>
               <Link to='stories_has_bean_coffee' className='grid__cell u-text-center u-size-1of2
               u-link-clean u-padding-Rxs u-padding-Ln'>
                 <div className='stories-spotlight__item stories-spotlight__item--has-bean-coffee
