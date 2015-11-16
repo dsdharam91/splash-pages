@@ -31,7 +31,8 @@ export default class StoriesHabitat extends React.Component {
           moyen de paiement. “Le prélèvement, nous pensions que ce serait un cauchemar pour le
           département comptabilité.”</p>
         </StoryQuote>
-        <StoryBigQuote person='Remy Poirson' position='Habitat'>
+        <StoryBigQuote heroClass='story-hero--has-bean-coffee' person='Remy Poirson'
+        position='Habitat' img='/images/testimonials/hasbean-coffee__avatar.png'>
           GoCardless nous a permis d’avancer très vite et d’éviter de devoir parler à de multiples banques.
           Ainsi, nous pouvions nous concentrer sur notre lancement.
         </StoryBigQuote>
