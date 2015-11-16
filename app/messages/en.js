@@ -342,6 +342,10 @@ export default {
     title: 'Payments By Direct Debit',
     description: 'Direct Debit is cheaper & more reliable than the card networks. It\'s also more flexible than a standing order. Find out how you can take payments using Direct Debit.',
   },
+  payments_by_direct_debit_variation_b: {
+    title: 'Payments By Direct Debit',
+    description: 'Direct Debit is cheaper & more reliable than the card networks. It\'s also more flexible than a standing order. Find out how you can take payments using Direct Debit.',
+  },
   partners_guide: {
     title: 'Partnering with GoCardless',
     description: '',
