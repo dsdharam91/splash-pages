@@ -288,5 +288,9 @@ export default {
     title: 'The French Talents',
     description: '',
   },
+  stories_habitat: {
+    title: 'Habitat',
+    description: '',
+  },
 };
 

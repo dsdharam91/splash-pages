@@ -1,7 +1,9 @@
 import React from 'react';
 import Translation from '../../components/translation/translation';
+import Tabs from '../../components/tabs/tabs';
 import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
 import Link from '../../components/link/link';
+import StoryLink from './story-link';
 
 export default class Stories extends React.Component {
   displayName = 'StoriesFr'
@@ -24,6 +26,7 @@ export default class Stories extends React.Component {
             </div>
           </div>
         </div>
+
 
         <div className='site-container u-padding-Vxxl u-margin-Bxxl'>
           <div className='u-padding-Vxxl u-relative u-margin-Bxxl'>
@@ -61,6 +64,15 @@ export default class Stories extends React.Component {
                 </Link>
               </div>
             </div>
+          </div>
+        </div>
+
+        <hr className='u-margin-An' />
+        <div className='site-container u-padding-Vxxl'>
+          <div className='grid u-padding-Vxl'>
+            <StoryLink imgClass='habitat-logo stories-item__logo--habitat' to='stories_habitat'>
+            Habitat, la chaîne de design et d’ameublement, a pu lancer une offre innovante d’abonnement en moins de deux mois.
+            </StoryLink>
           </div>
         </div>
 
