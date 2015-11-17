@@ -23,7 +23,7 @@ export default class PartnersGuideOptionsDe extends React.Component {
           </li>
 
           <li>
-            <b>App Integration</b> -  Verbinden Sie die Accounts Ihrer Kunden mit GoCardless und erleichtern Sie ihnen,
+            <b>App-Integration</b> -  Verbinden Sie die Accounts Ihrer Kunden mit GoCardless und erleichtern Sie ihnen,
             wiederkehrende Zahlungen auf Ihrer Plattform einzuziehen.
           </li>
 
@@ -39,25 +39,25 @@ export default class PartnersGuideOptionsDe extends React.Component {
         <h3>Möchten Sie Zahlungen per Lastschrift über GoCardless in Ihr Produkt integrieren?</h3>
 
         <p>
-          <strong>Ja</strong> - Dann ist entweder unsere Anwendungs- oder White-Label-Integration am besten für
+          <strong>Ja</strong> - Dann ist entweder unsere App- oder White-Label-Integration am besten für
           Sie geeignet - lesen Sie weiter und erfahren Sie mehr.
         </p>
 
         <p>
-          <strong>Nein</strong> - Dann ist unser Affiliate-Programm am besten für Sie geeignet - schreiben Sie uns an
-          <Href to='partners_email' itemProp='email' /> und erfahren Sie mehr.
+          <strong>Nein</strong> - Dann ist unser Affiliate-Programm am besten für Sie geeignet - schreiben Sie uns
+          an <Href to='partners_email' itemProp='email' /> und erfahren Sie mehr.
         </p>
 
         <h3>
           Haben Sie vor, Zahlungen selbst einzuziehen und diese dann an Ihre Händler auszuzahlen? (üblich bei Zahlungsdienstleistern)
         </h3>
 
-        <p><strong>Ja</strong>, Dann füllen Sie bitte <a href='/partner-info-template.xlsx' target='_blank'>dieses Formular</a>
-        aus und senden es an <Href to='partners_email' itemProp='email' />. Sie müssen zur Verwaltung von Kundengeldern zugelassen
+        <p><strong>Ja</strong> - Dann füllen Sie bitte <a href='/partner-info-template.xlsx' target='_blank'>dieses Formular</a> aus
+        und senden es an <Href to='partners_email' itemProp='email' />. Sie müssen zur Verwaltung von Kundengeldern zugelassen
         sein. Zudem müssen Sie von unserem Kreditinstitut als Master-Händler innerhalb des GoCardless-Systems zugelassen werden.
         </p>
 
-        <p><strong>Nein</strong>- Dann ist entweder unsere App- oder White-Label-Lösung am besten für Sie
+        <p><strong>Nein</strong> - Dann ist entweder unsere App- oder White-Label-Lösung am besten für Sie
         geeignet - lesen Sie weiter und erfahren Sie mehr.</p>
 
         <h3>Welche der folgenden Aussagen treffen auf Sie zu?</h3>
@@ -70,9 +70,10 @@ export default class PartnersGuideOptionsDe extends React.Component {
           </li>
 
           <li>
-            Sie erfassen bereits Händlerinformationen, um Geldwäsche zu bekämpfen (Verifizierungsprüfungen)? Wenn Sie sich nicht
-            sicher sind, lesen Sie die Abschnitte zu Verifizierungen im Rahmen der <Link to='partners_guide_app_integration'>App-</Link>
-            oder <Link to='partners_guide_white_label_integration'>White-Label-Integration</Link> und erfahren Sie mehr.
+            Sie erfassen bereits Händlerinformationen, um Geldwäsche zu bekämpfen (Verifizierungsprüfungen)? Wenn Sie sich nicht sicher
+            sind, lesen Sie die Abschnitte zu Verifizierungen im Rahmen
+            der <Link to='partners_guide_app_integration'>App-</Link> oder <Link to='partners_guide_white_label_integration'>White-Label-Integration</Link> und
+            erfahren Sie mehr.
           </li>
 
           <li>
@@ -83,8 +84,7 @@ export default class PartnersGuideOptionsDe extends React.Component {
 
         <p>
           Falls Sie mindestens eine dieser Aussagen mit <strong>„Ja“</strong> beantwortet haben, eignet sich unsere White-Label-Lösung
-          optimal für Sie - erfahren Sie mehr darüber im Abschnitt
-          <Link to='partners_guide_white_label_integration'>White-Label-Integration.</Link>
+          optimal für Sie - erfahren Sie mehr darüber im Abschnitt <Link to='partners_guide_white_label_integration'>White-Label-Integration.</Link>
         </p>
 
         <p>
@@ -102,8 +102,8 @@ export default class PartnersGuideOptionsDe extends React.Component {
         </p>
 
         <p>
-          <strong>Nein</strong> - Dann eignet sich unsere App-Integration am besten für Sie - erfahren Sie mehr darüber im Abschnitt
-          <Link to='partners_guide_app_integration'>App-Integration</Link>.
+          <strong>Nein</strong> - Dann eignet sich unsere App-Integration am besten für Sie - erfahren Sie mehr darüber im
+          Abschnitt <Link to='partners_guide_app_integration'>App-Integration</Link>.
         </p>
 
         <h3>Vergleichen Sie Ihre Optionen</h3>
@@ -163,7 +163,7 @@ export default class PartnersGuideOptionsDe extends React.Component {
             <td>Auf Partner zugeschnittene Mandatsseiten</td>
 
             <td>
-              Yes but will mean 'GoCardless' appears on customer bank statement
+              Ja, allerdings taucht dann 'GoCardless' auf dem Kontoauszug auf
             </td>
 
             <td>
@@ -196,7 +196,7 @@ export default class PartnersGuideOptionsDe extends React.Component {
           </tr>
 
           <tr>
-            <td>Kundenbenachrichtigungen</td>
+            <td>Kunden-Benachrichtigungen</td>
             <td>GoCardless oder Händler</td>
             <td>GoCardless oder Partner</td>
           </tr>
@@ -206,14 +206,14 @@ export default class PartnersGuideOptionsDe extends React.Component {
 
             <td>
               „GoCardless re: [Mandatsreferenz] [Zahlungsreferenz]”
-              <br/>OR
-              <br/>„[Händlername] re [Mandatsreferenz] [Zahlungsreferenz]”
+              <br/>oder
+              <br/>„[Händlername] re: [Mandatsreferenz] [Zahlungsreferenz]”
             </td>
 
             <td>
               „GoCardless re: [Mandatsreferenz] [Zahlungsreferenz]”
-              <br/>OR
-              <br/>„[Händlername] re [Mandatsreferenz] [Zahlungsreferenz]”
+              <br/>oder
+              <br/>„[Händlername] re: [Mandatsreferenz] [Zahlungsreferenz]”
             </td>
           </tr>
 

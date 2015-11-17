@@ -15,8 +15,8 @@ export default class PartnersGuideGettingStartedDe extends React.Component {
         <p>
           Wenn Sie sich für die App-Integration oder die White-Label-Integration entschieden haben, sollten Sie sich
           unsere <a href='https://developer.gocardless.com/pro/#overview' target='_blank'>API-Dokumentation</a> sorgfältig
-          durchlesen. Darin finden Sie spezielle Abschnitte zur
-          <a href='https://developer.gocardless.com/pro/#guides-oauth' target='_blank'>App-Integration</a> (Nutzung von
+          durchlesen. Darin finden Sie spezielle Abschnitte
+          zur <a href='https://developer.gocardless.com/pro/#guides-oauth' target='_blank'>App-Integration</a> (Nutzung von
           OAuth) sowie spezielle Abschnitte zur <a
           href='https://developer.gocardless.com/pro/#whitelabel-partner-endpoints' target='_blank'>White-Label-Integration</a>.
         </p>
@@ -34,9 +34,9 @@ export default class PartnersGuideGettingStartedDe extends React.Component {
         <h3>Testen Sie Ihre Demo-Version mit uns und gehen Sie in den Echtbetrieb</h3>
 
         <p>
-          Sobald Sie die erste Entwicklungs- und Testrunde in unserer Sandbox-Umgebung abgeschlossen haben, schreiben Sie uns an
-          <Href to='partners_email' itemProp='email' />, um uns Ihre Integration zu demonstrieren, so dass wir eine optimale Beratung
-          und Unterstützung während Ihrer Entwicklung sicherstellen können.
+          Sobald Sie die erste Entwicklungs- und Testrunde in unserer Sandbox-Umgebung abgeschlossen haben, schreiben Sie uns
+          an <Href to='partners_email' itemProp='email' />, um uns Ihre Integration zu demonstrieren, so dass wir eine optimale
+          Beratung und Unterstützung während Ihrer Entwicklung sicherstellen können.
         </p>
 
         <p>
@@ -58,7 +58,7 @@ export default class PartnersGuideGettingStartedDe extends React.Component {
         <h3>Werben Sie für die Partnerschaft!</h3>
 
         <p>
-          Wir raten Ihnen, bei vorhandenen und potenziellen Kunden für Ihre neue Zahlungsfunktion über Ihre Website, per E-Mail,
+          Wir raten Ihnen, bei vorhandenen und potenziellen Kunden für Ihre neue Zahlungsfunktion über Ihre Webseite, per E-Mail,
           soziale Netzwerke, Blogs und bei Veranstaltungen zu werben.
         </p>
         </Translation>

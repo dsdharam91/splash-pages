@@ -69,8 +69,8 @@ export default class PartnersGuideWhiteLabelDe extends React.Component {
         <h3>GoCardless-Mandatsseiten</h3>
 
         <p>
-          Hier finden Sie ein Beispiel einer von GoCardless gehosteten
-          <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>Mandatsseite</a>.
+          Hier finden Sie ein Beispiel einer von GoCardless
+          gehosteten <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>Mandatsseite</a>.
         </p>
 
         <p>
@@ -124,8 +124,8 @@ export default class PartnersGuideWhiteLabelDe extends React.Component {
         </ul>
 
         <p>
-          Mehr Informationen zur Gestaltung von Mandatsseiten, die mit den Lastschriftrichtlinien konform sind, finden Sie
-          <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>hier</a>.
+          Mehr Informationen zur Gestaltung von Mandatsseiten, die mit den Lastschriftrichtlinien konform sind, finden
+          Sie <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>hier</a>.
         </p>
 
         <h3>Von Händlern gehostete individuelle Mandatsseiten</h3>
@@ -153,10 +153,10 @@ export default class PartnersGuideWhiteLabelDe extends React.Component {
         </p>
 
         <p>
-          Beispiele zu GoCardless-Kundenbenachrichtigungen finden Sie
-          <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>hier</a>.
-          Um eine Testzahlung abzuschließen und Testbenachrichtigungen einzufügen, klicken Sie
-          <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>hier</a>.
+          Beispiele zu GoCardless-Kundenbenachrichtigungen finden
+          Sie <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>hier</a>.
+          Um eine Testzahlung abzuschließen und Testbenachrichtigungen einzufügen, klicken
+          Sie <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>hier</a>.
           Verwenden Sie dabei die Kontonummer 55779911 und die Bankleitzahl 200000.
         </p>
 
@@ -258,14 +258,14 @@ export default class PartnersGuideWhiteLabelDe extends React.Component {
         </p>
 
         <p>
-          Um sich mündliche Mandate telefonisch gemäß SEPA einzuholen, lesen Sie unseren Leitfaden dazu
-          <a href='https://gocardless.com/guides/sepa/telephone-mandate/' target='_blank'>hier</a> (Englisch).
+          Um sich mündliche Mandate telefonisch gemäß SEPA einzuholen, lesen Sie unseren englischen Leitfaden
+          dazu <a href='https://gocardless.com/guides/sepa/telephone-mandate/' target='_blank'>hier</a>.
         </p>
 
         <p>
-          Zur Erstellung schriftlicher Mandate gemäß BACS finden Sie den Leitfaden dazu
-          <a href='https://gocardless.com/direct-debit/mandates/' target='_blank'>hier</a> und eine Vorlage
-          <a href='https://gocardless.com/guides/examples/direct-debit-mandate-template.docx' target='_blank'>hier</a>.
+          Zur Erstellung schriftlicher Mandate gemäß BACS finden Sie den Leitfaden
+          dazu <a href='https://gocardless.com/direct-debit/mandates/' target='_blank'>hier</a> und eine
+          Vorlage <a href='https://gocardless.com/guides/examples/direct-debit-mandate-template.docx' target='_blank'>hier</a>.
           Setzen Sie sich mit uns in Verbindung, wenn Sie sich im Vereinigten Königreich Mandate mündlich per Telefon einholen möchten.
         </p>
 
@@ -278,7 +278,7 @@ export default class PartnersGuideWhiteLabelDe extends React.Component {
         <ul>
           <li>Über Webhooks, die GoCardless Ihnen über die API zusendet.</li>
           <li>Durch eine aktive Suche über die API nach den Elementen, die Sie finden möchten.</li>
-          <li>Über das GoCardless-Dashboard</li>
+          <li>Über das GoCardless-Dashboard.</li>
         </ul>
 
         <p>
@@ -290,7 +290,7 @@ export default class PartnersGuideWhiteLabelDe extends React.Component {
         <h3>Erforderliche Mitarbeiter für die Entwicklung</h3>
 
         <p>
-          Die White-Label-Integration erfordert aus folgenden Gründen einen größeren Entwicklungsaufwand als die Anwendungsintegration:
+          Die White-Label-Integration erfordert aus folgenden Gründen einen größeren Entwicklungsaufwand als die App-Integration:
         </p>
 
         <ul>

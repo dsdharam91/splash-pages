@@ -71,9 +71,9 @@ export default class PartnersGuideDe extends React.Component {
           </p>
 
           <p>
-            Letztendlich bevorzugen Kunden die Zahlung per Lastschrift, daher erzielen Sie mit dem Anbieten dieser Zahlungsmethode eine
-            <b>Steigerung der Konversionsrate</b> und gleichzeitig des Gewinns. Dies gilt insbesondere für Deutschland und die Niederlande,
-            wo Kunden sehr viel seltener mit Kreditkarten zahlen als im Vereinigten Königreich oder den USA.
+            Letztendlich bevorzugen Kunden die Zahlung per Lastschrift, daher erzielen Sie mit dem Anbieten dieser Zahlungsmethode
+            eine <b>Steigerung der Konversionsrate</b> und gleichzeitig des Gewinns. Dies gilt insbesondere für Deutschland und die
+            Niederlande, wo Kunden sehr viel seltener mit Kreditkarten zahlen als im Vereinigten Königreich oder den USA.
           </p>
 
           {/*<p>

@@ -153,7 +153,7 @@ export default class PartnersGuideAppIntegrationEn extends React.Component {
           <li>German</li>
           <li>Dutch</li>
           <li>Spanish</li>
-          <li>Portugeuese</li>
+          <li>Portuguese</li>
           <li>Italian</li>
         </ul>
 

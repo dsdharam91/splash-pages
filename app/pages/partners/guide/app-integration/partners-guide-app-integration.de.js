@@ -13,7 +13,7 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
         <h3>Händler-Onboarding und Erfassen von Verifizierungsdaten von Händlern</h3>
 
         <p>
-          Wenn Sie die Anwendungsintegration wählen, werden Händler zu GoCardless weitergeleitet, um ihren GoCardless-Account einzurichten.
+          Wenn Sie die App-Integration wählen, werden Händler zu GoCardless weitergeleitet, um ihren GoCardless-Account einzurichten.
           Eine Demonstration dazu finden Sie <a href='https://oauth-demo.gocardless.com/' target='_blank'>hier</a>. Das bedeutet, dass Sie
           als Partner keine Verifizierungsdaten erfassen müssen.
         </p>
@@ -27,8 +27,8 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
         <h3>GoCardless-Mandatsseiten</h3>
 
         <p>
-          Hier finden Sie ein Beispiel einer von GoCardless gehosteten
-          <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>Mandatsseite.</a>
+          Hier finden Sie ein Beispiel einer von GoCardless
+          gehosteten <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>Mandatsseite.</a>
         </p>
 
         <p>Derzeit werden diese Seiten automatisch je nach Standort der Kunden in folgende Sprachen übersetzt:
@@ -84,8 +84,8 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
         </ul>
 
         <p>
-                    Mehr Informationen zur Gestaltung von Mandatsseiten, die mit den Lastschriftrichtlinien konform sind, finden Sie
-          <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>hier</a>.
+          Mehr Informationen zur Gestaltung von Mandatsseiten, die mit den Lastschriftrichtlinien konform sind, finden
+          Sie <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>hier</a>.
         </p>
 
         <p>
@@ -93,20 +93,20 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
         </p>
 
         <p>
-          Note that if you design your own payment pages in App integration, then you must use the
-          GoCardless Service User Number and so "GoCardless" will appear on the customer's bank
-          statement. If you want your name (as the Partner) to appear on the customer's bank
-          statement, you should choose our White label integration.
+          Hinweis: wenn Sie Ihre eigenen Zahlungsseiten in der App-Integration kreieren, dann müssen Sie die
+          GoCardless Gläubiger-ID verwenden und somit wird "GoCardless" auf dem Bankkonto Ihrer Kunden auftauchen.
+          Wenn Sie Ihren Namen auf dem Bankkonto Ihrer Kunden anzeigen lassen möchten, dann sollten Sie die White-Label-Integration
+          wählen.
         </p>
 
         <p>
-          You must also use the GoCardless automated customer notifications.
+          Sie müssen außerdem die von GoCardless zur Verfügung gestellten Kundenbenachrichtigungen verwenden.
         </p>
 
         <h3>Von Händlern gehostete individuelle Mandatsseiten</h3>
 
         <p>
-          Mit dieser Funktion können Händler ihre eigenen Mandatsseiten kreieren.
+          Mit dieser Funktion können einzelne Händler ihre eigenen Mandatsseiten kreieren.
         </p>
 
         <p>
@@ -133,10 +133,10 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
         </p>
 
         <p>
-          Beispiele zu GoCardless-Kundenbenachrichtigungen finden Sie
-          <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>hier</a>.
-          Um eine Testzahlung abzuschließen und Testbenachrichtigungen einzufügen, klicken Sie
-          <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>hier</a>.
+          Beispiele zu GoCardless-Kundenbenachrichtigungen finden
+          Sie <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>hier</a>.
+          Um eine Testzahlung abzuschließen und Testbenachrichtigungen einzufügen, klicken
+          Sie <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>hier</a>.
           Verwenden Sie dabei die Kontonummer 55779911 und die Bankleitzahl 200000.
         </p>
 
@@ -193,8 +193,8 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
         </p>
 
         <p>
-          GEntweder zieht GoCardless die Gebühren von den Auszahlungen ab oder stellt sie in Rechnung. Diese beiden Optionen sind
-          sowohl in der Anwendungs- als auch in der White-Label-Integration verfügbar.
+          Entweder zieht GoCardless die Gebühren von den Auszahlungen ab oder stellt sie in Rechnung. Diese beiden Optionen sind
+          sowohl in der App- als auch in der White-Label-Integration verfügbar.
         </p>
 
         <h3>Händler- und Partnerpreise</h3>
@@ -211,8 +211,8 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
         </p>
 
         <p>
-          Wenn Sie die Anwendungsintegration nutzen, senden Sie Ihre Rechnungen an
-          <a href='mailto:accounts@gocardless.com'>accounts@gocardless.com</a>., um Ihre Gebühren von uns einzuziehen.
+          Wenn Sie die Anwendungsintegration nutzen, senden Sie Ihre Rechnungen bitte
+          an <a href='mailto:accounts@gocardless.com'>accounts@gocardless.com</a>., um Ihre Gebühren von uns einzuziehen.
           Wir begleichen diese Rechnungen innerhalb von 30 Tagen und akzeptieren Lastschriftmandate für wiederkehrende Zahlungen.
           Ab Ende 2015 überweist GoCardless Ihnen Ihre Gewinnbeteiligung automatisch auf Ihr Bankkonto.
         </p>
@@ -248,7 +248,7 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
         </ul>
 
         <p>
-          Innerhalb einer Anwendungsintegration werden Ihre Kunden zu GoCardless-Händlern und erhalten so Zugang zum GoCardless-Dashboard.
+          Innerhalb einer App-Integration werden Ihre Kunden zu GoCardless-Händlern und erhalten so Zugang zum GoCardless-Dashboard.
           Auf diese Weise müssen Sie keine komplette Reporting-Suite für Ihre Kunden einrichten. Wir empfehlen dennoch,
           grundlegende Reporting-Funktionen wie Zahlungsstatus (erfolgreich, fehlgeschlagen usw.) bereitzustellen.
         </p>
@@ -256,7 +256,7 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
         <h3>Erforderliche Mitarbeiter für die Entwicklung</h3>
 
         <p>
-          Bei einer Anwendungsintegration wird weniger Entwicklungspersonal benötigt als bei einer White-Label-Integration.
+          Bei einer App-Integration wird weniger Entwicklungspersonal benötigt als bei einer White-Label-Integration.
         </p>
         </Translation>
     );

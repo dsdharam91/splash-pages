@@ -1,5 +1,6 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
+import Href from '../../../../components/href/href';
 
 export default class PartnersGuideTestingDe extends React.Component {
   displayName = 'PartnersGuideTestingDe'
@@ -7,44 +8,41 @@ export default class PartnersGuideTestingDe extends React.Component {
   render() {
     return (
         <Translation locales='de'>
-        <h2>Developing and testing</h2>
+        <h2>Entwickeln und Testen</h2>
 
-        <h3>Where can I find your API documentation?</h3>
+        <h3>Wo finde ich die API-Dokumentation?</h3>
 
         <p>
-          Our API documentation can be found <a href='https://developer.gocardless.com/pro/' target='_blank'>here</a>. You
-          can find specific guides to our App integration using
-          OAuth <a href='https://developer.gocardless.com/pro/#guides-oauth' target='_blank'>here</a>.
+          Unsere API-Dokumentation finden Sie  <a href='https://developer.gocardless.com/pro/' target='_blank'>hier</a>.
+          Spezielle Anleitungen für unsere Anwendungsintegration unter Verwendung von OAuth finden Sie
+          <a href='https://developer.gocardless.com/pro/#guides-oauth' target='_blank'>hier</a>.
         </p>
 
-        <h3>Do you have a sandbox account so that I can test my integration?</h3>
+        <h3>Bieten Sie einen Sandbox-Account zum Testen meiner Integration?</h3>
 
         <p>
-          Yes - you can sign up instantly for a sandbox
-          account <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'>here</a>.
+          Ja - <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'>Hier</a> können Sie Ihren Sandbox-Account sofort einrichten.
         </p>
 
-        <h3>What programming languages can I use?</h3>
+        <h3>Welche Programmiersprachen kann ich verwenden?</h3>
 
         <p>
-          Our API is adherent to the RESTful style and published in the JSON schema. We also publish
-          client libraries to help our integrators - those are
-          published <a href='https://developer.gocardless.com/pro/#overview-client-libraries' target='_blank'>here</a>.
+          Unsere API liegt im RESTful-Stil vor und ist im JSON-Schema veröffentlicht. Wir veröffentlichen ebenso Kundenbibliotheken,
+          um unseren Entwicklern zu helfen - diese finden Sie <a href='https://developer.gocardless.com/pro/#overview-client-libraries' target='_blank'>hier</a>.
         </p>
 
-        <h3>Where can I get technical support?</h3>
+        <h3>Wie erreichen ich den technischen Support?</h3>
 
         <p>
-          You can email us at <Href to='email' itemProp='email' />. Our developers are on hand
-          9am-6pm, Mon-Fri to help with your technical queries.
+          Schreiben Sie uns Ihr Anliegen per E-Mail an <Href to='email' itemProp='email' />. Bei technischen Fragen helfen Ihnen unsere Entwickler montags bis
+          freitags von 10-19 Uhr gerne weiter.
         </p>
 
-        <h3>How do I migrate from test to live?</h3>
+        <h3>Wie stelle ich von der Test-Version auf den Echtbetrieb um?</h3>
 
         <p>
-          Once you have completed testing in our sandbox environment, get in touch with
-          us at <Href to='partners_email' itemProp='email' /> to demo your
-          integration. If there are no problems then we will switch your account to live.
+          Sobald Sie Ihre Integration in unserer Sandbox-Umgebung getestet haben, schreiben Sie uns an <Href to='partners_email' itemProp='email' /> und
+          demonstrieren Sie uns Ihre Integration. Wenn alles problemlos läuft, schalten wir Ihren Account frei. 
         </p>
         </Translation>
     );
