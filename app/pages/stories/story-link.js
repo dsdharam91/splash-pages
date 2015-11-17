@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from '../../components/link/link';
+import Message from '../../components/message/message';
 
 export default class StoryLink extends React.Component {
   displayName = 'StoryLink'
@@ -19,7 +20,7 @@ export default class StoryLink extends React.Component {
              {this.props.children}
           </p>
         </div>
-        <div className='stories-item__btn btn u-size-full'>Read the case study</div>
+        <div className='stories-item__btn btn u-size-full'><Message pointer='stories.link' /></div>
       </Link>
     );
   }

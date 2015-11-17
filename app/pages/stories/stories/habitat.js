@@ -13,8 +13,8 @@ export default class StoriesHabitat extends React.Component {
         tagline='Habitat lance de nouvelles offres d’abonnement grâce à GoCardless'
         tips={[
             'GoCardless les a aidés à lancer une nouvelle offre en moins de deux mois',
-            'GoCardless leur permet de fidéliser leurs clients sur le long-terme',
-            'GoCardless leur a permis d’étendre le prélèvement à d’autres services et à ses filiales Européennes',
+            'GoCardless leur a permis de fidéliser leurs clients sur le long-terme',
+            'GoCardless leur a permis d’étendre le prélèvement à d’autres services et à ses filiales européennes',
         ]}>
         <StoryQuote tag='Vendre des abonnements permet d’assurer à une entreprise un socle solide de revenus récurrents'>
           <p className='para u-margin-Tn'><a href='http://www.habitat-cafe.com/'
@@ -37,7 +37,7 @@ export default class StoriesHabitat extends React.Component {
           Ainsi, nous pouvions nous concentrer sur notre lancement.
         </StoryBigQuote>
         <StoryQuote tag="Le prélèvement s’est inséré naturellement dans nos processus">
-          <p className='para u-margin-Tn'>En Juin, Habitat lance Lui l’espresso, seulement deux mois après les premières
+          <p className='para u-margin-Tn'>En juin, Habitat lance Lui l’espresso, seulement deux mois après les premières
           discussions avec GoCardless. Lors de l’abonnement, le client signe un mandat
           papier en magasin ou un mandat électronique sur le site <a href='http://www.habitat-cafe.com/'
           className='u-link-color-p u-text-underline' target='_blank'>
@@ -46,8 +46,8 @@ export default class StoriesHabitat extends React.Component {
           prélèvement réussi en amont de la livraison.</p>
           <p className='para u-margin-Tn'>Au niveau comptable, Habitat reçoit en temps réel les statuts des paiements.
           En cas d’échec ou de rejet, Habitat annule automatiquement toutes futures livraisons, ajuste la balance de
-          paiement et peut éventuellement retenter le prélèvement. Egalement, les reversements de fonds sont
-          automatiquement attribués aux bonnes filiales d’un groupe implanté dans de multiples pays et DOM-TOM.</p>
+          paiement et peut éventuellement retenter le prélèvement. Les reversements de fonds sont également
+          attribués automatiquement aux bonnes filiales d’un groupe implanté dans de multiples pays et aux DOM-TOM.</p>
         </StoryQuote>
         <StoryQuote tag='Nous allons multiplier ce type d’offre'>
           <p className='para u-margin-Tn'>Depuis le passage à GoCardless, Habitat a pu étendre le prélèvement à d’autres
