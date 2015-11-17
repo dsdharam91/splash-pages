@@ -1,6 +1,5 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
-import Href from '../../../../components/href/href';
 
 export default class PartnersGuideGettingPaidDe extends React.Component {
   displayName = 'PartnersGuideGettingPaidDe'
@@ -10,14 +9,14 @@ export default class PartnersGuideGettingPaidDe extends React.Component {
         <Translation locales='de'>
         <h2>Zahlungsverfolgung</h2>
 
-        <h3>Kann ich Zahlungsinformationen in meiner Anwendung anzeigen?</h3>
+        <h3>Kann ich Zahlungsinformationen in meiner App anzeigen?</h3>
 
         <p>
           Ja - GoCardless bietet Webhooks, die über jegliche Änderung von Mandat- und Zahlungsstatus informieren,
-          z. B. darüber, wann eine Zahlung eingezogen wurde. Unsere API bietet eine nützliche
-          <a href='https://developer.gocardless.com/pro/#events-reconciling-payouts-with-events' target='_blank'>Anleitung</a>
-          zum Abgleich von Zahlungen mit Ereignissen. In unserem 
-          <a href='https://developer.gocardless.com/pro/#webhooks-overview' target='_blank'>Webhook-Handbuch</a>
+          z. B. darüber, wann eine Zahlung eingezogen wurde. Unsere API bietet einenützliche
+          <a href='https://developer.gocardless.com/pro/#events-reconciling-payouts-with-events' target='_blank'> Anleitung </a>
+          zum Abgleich von Zahlungen mit Ereignissen. In unserem
+          <a href='https://developer.gocardless.com/pro/#webhooks-overview' target='_blank'> Webhook-Handbuch </a>
           finden Sie weitere Informationen zu verfügbaren  Webhooks und deren Nutzung.
         </p>
 
@@ -32,7 +31,7 @@ export default class PartnersGuideGettingPaidDe extends React.Component {
         </p>
 
         <p>
-          NHinweis: Jede Mandatsreferenz muss für eine erteilte Gläubiger-ID (CID) einmalig sein. Aus diesem Grund füllen
+          Hinweis: Jede Mandatsreferenz muss für eine erteilte Gläubiger-ID (CID) einmalig sein. Aus diesem Grund füllen
           wir die Mandatsreferenz automatisch aus, wenn Sie eine GoCardless-CID verwenden.
         </p>
         </Translation>

@@ -72,7 +72,8 @@ export default class PartnersGuideOptionsDe extends React.Component {
           <li>
             Sie erfassen bereits Händlerinformationen, um Geldwäsche zu bekämpfen (Verifizierungsprüfungen)? Wenn Sie sich nicht sicher
             sind, lesen Sie die Abschnitte zu Verifizierungen im Rahmen
-            der <Link to='partners_guide_app_integration'>App-</Link> oder <Link to='partners_guide_white_label_integration'>White-Label-Integration</Link> und
+            der <Link to='partners_guide_app_integration'>App-</Link> oder
+            <Link to='partners_guide_white_label_integration'> White-Label-Integration</Link> und
             erfahren Sie mehr.
           </li>
 
@@ -84,7 +85,8 @@ export default class PartnersGuideOptionsDe extends React.Component {
 
         <p>
           Falls Sie mindestens eine dieser Aussagen mit <strong>„Ja“</strong> beantwortet haben, eignet sich unsere White-Label-Lösung
-          optimal für Sie - erfahren Sie mehr darüber im Abschnitt <Link to='partners_guide_white_label_integration'>White-Label-Integration.</Link>
+          optimal für Sie - erfahren Sie mehr darüber im
+          Abschnitt <Link to='partners_guide_white_label_integration'>White-Label-Integration.</Link>
         </p>
 
         <p>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
 import Link from '../../../../components/link/link';
-import Href from '../../../../components/href/href';
 
 export default class PartnersGuideSecurityDe extends React.Component {
   displayName = 'PartnersGuideSecurityDe'
@@ -14,13 +13,13 @@ export default class PartnersGuideSecurityDe extends React.Component {
         <h3>Welche Zulassung hat GoCardless? Ist mein Geld sicher bei Ihnen?</h3>
 
         <p>
-          GGoCardless ist von der Financial Conduct Authority (FCA) im Rahmen der Payment Services Regulations 2009 des Vereinigten
+          GoCardless ist von der Financial Conduct Authority (FCA) im Rahmen der Payment Services Regulations 2009 des Vereinigten
           Königreichs unter der Registrierungsnummer 597190 als Zahlungsdienstleister zugelassen und stellt seinen Service mehr
           Kunden bereit als jeder andere Lastschriftanbieter. Alle eingezogenen Geldbeträge werden sicher auf einem Kundengeldkonto
           verwahrt und alle Kundengelder sind durch unsere Kreditinstitute abgesichert. Mehr Informationen dazu finden Sie
-          <Link to='faq_merchants_security'>hier</Link>.
-          <a href='http://www.fsa.gov.uk/register/psdFirmMainSearch.do' target='_blank'>Hier</a> können Sie nach „GoCardless“ im
-          Verzeichnis der FCA suchen. 
+          <Link to='faq_merchants_security'> hier </Link>.
+          <a href='http://www.fsa.gov.uk/register/psdFirmMainSearch.do' target='_blank'> Hier </a> können Sie nach „GoCardless“ im
+          Verzeichnis der FCA suchen.
         </p>
 
         <h3>Wie schützt GoCardless meine Daten?</h3>
@@ -64,7 +63,7 @@ export default class PartnersGuideSecurityDe extends React.Component {
         </p>
 
         <p>
-          Hinweis: Im Vereinigten Königreich sind Lastschriftmandate 13 Monate lang ab Autorisierung oder dem letzten
+          Hinweis: Innerhalb des SEPA-Raums sind Lastschriftmandate 36 Monate lang ab Autorisierung oder dem letzten
           Lastschrifteinzug gültig. Sie oder Ihre Händler können während seiner Gültigkeit Lastschriften darüber einziehen.
         </p>
         </Translation>

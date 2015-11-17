@@ -1,6 +1,5 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
-import Href from '../../../../components/href/href';
 
 export default class PartnersGuideChargebacksEn extends React.Component {
   displayName = 'PartnersGuideChargebacksEn'

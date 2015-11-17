@@ -523,7 +523,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden',
       },
     },
@@ -532,7 +532,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/options',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/optionen',
       },
     },
@@ -541,7 +541,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/app-integration',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/app-integration',
       },
     },
@@ -550,7 +550,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/white-label-integration',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/white-label-integration',
       },
     },
@@ -559,7 +559,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/getting-started',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/erste-schritte',
       },
     },
@@ -568,7 +568,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/testing',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/testen',
       },
     },
@@ -577,7 +577,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/payment-pages',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/mandatsseiten',
       },
     },
@@ -592,7 +592,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/mandates',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/mandate',
       },
     },
@@ -601,7 +601,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/getting-paid',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/auszahlungen',
       },
     },
@@ -610,7 +610,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/our-pricing',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/preise',
       },
     },
@@ -619,7 +619,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/chargebacks',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/rückbuchungen',
       },
     },
@@ -628,7 +628,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/reporting',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/zahlungsverfolgung',
       },
     },
@@ -637,7 +637,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/security',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/sicherheit',
       },
     },
@@ -646,7 +646,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/restrictions',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/einschränkungen',
       },
     },
@@ -655,7 +655,7 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/partners/guide/legal',
       },
-      'de': {
+      de: {
         path: '/partner/leitfaden/rechtliches',
       },
     },

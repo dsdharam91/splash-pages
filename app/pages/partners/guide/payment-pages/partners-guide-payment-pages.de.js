@@ -30,15 +30,16 @@ export default class PartnersGuidePaymentPagesDe extends React.Component {
 
         <p>
           Unsere Plattform basiert auf den existierenden Lastschriftsystemen von Bank zu Bank (SEPA in der Eurozone, BACS im Vereinigten
-            Königreich). Kunden müssen lediglich ihren Account-Namen, Kontonummer und Bankleitzahl zum Erstellen eines Mandats eingeben. 
-          <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>Hier</a> können Sie sich eine Beispiel-Mandatsseite ansehen.
+          Königreich). Kunden müssen lediglich ihren Account-Namen, Kontonummer und Bankleitzahl zum Erstellen eines Mandats
+          eingeben. <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>Hier</a> können
+          Sie sich eine Beispiel-Mandatsseite ansehen.
         </p>
 
         <p>
           Gleichermaßen müssen Händler (beim Einziehen von Lastschriften) nur ihre Kontonummer und Bankleitzahl eingeben und können
           sofort mit dem Einziehen von Lastschriften beginnen (automatisierte Verifizierung/Kundenidentitätsprüfungen erfolgen,
-          bevor wir Beträge auszahlen). <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'>Hier</a>
-          können Sie sehen, wie das Einrichten eines Accounts aussieht.
+          bevor wir Beträge auszahlen). <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'>Hier</a> können
+          Sie sehen, wie das Einrichten eines Accounts aussieht.
         </p>
 
         <h3>Kann ich die Mandatsseiten auf meiner Website hosten?</h3>
@@ -46,13 +47,13 @@ export default class PartnersGuidePaymentPagesDe extends React.Component {
         <p>
           Ja, sowohl bei Nutzung der White-Label-Integration als auch der OAuth-Integration können Sie und Ihre Händler
           Ihre eigenen Mandatsseiten entwerfen. Für weitere Details, werfen Sie einen Blick auf die Kapitel
-          on <Link to='partners_guide_app_integration'>App-Integration</Link> und&nbsp;
+          zu <Link to='partners_guide_app_integration'>App-Integration</Link> und&nbsp;
           <Link to='partners_guide_white_label_integration'>White-Label-Integration</Link>.
         </p>
 
         <p>
-          Beachten Sie jedoch, dass diese die BACS- und SEPA-Vorgaben erfüllen.
-          <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>Hier</a>
+          Beachten Sie jedoch, dass diese die BACS- und SEPA-Vorgaben
+          erfüllen. <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>Hier </a>
           finden Sie nähere Informationen zur Erfüllung der Vorgaben.
         </p>
 

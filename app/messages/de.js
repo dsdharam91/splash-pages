@@ -173,7 +173,7 @@ export default {
     nav_title: 'Übertragen von Mandaten',
   },
   partners_guide_non_uk_payments: {
-    title: 'Partnering with GoCardless - Non-UK payments',
+    title: 'Werden Sie Partner von GoCardless',
     description: '',
     nav_title: 'Non-UK payments',
   },

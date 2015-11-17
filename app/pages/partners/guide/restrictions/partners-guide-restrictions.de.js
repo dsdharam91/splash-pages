@@ -15,9 +15,8 @@ export default class PartnersGuideRestrictionsDe extends React.Component {
         <p>
           Auch wenn wir Ausnahmen akzeptieren, falls eine niedrige Rückbuchungsquote oder eine hohe Anzahl an
           Zahlungen zu erwarten ist, neigen wir dennoch dazu, für unsere Tätigkeit keine Risiken einzugehen und es wird
-          uns von unseren Kreditinstituten untersagt, unseren Service zu den <Link to='legal_restrictions'>hier</Link>
+          uns von unseren Kreditinstituten untersagt, unseren Service zu den <Link to='legal_restrictions'>hier </Link>
           aufgelisteten Zwecken bereitzustellen.
-          
         </p>
 
         <p>
@@ -31,8 +30,7 @@ export default class PartnersGuideRestrictionsDe extends React.Component {
 
         <p>
           In der Eurozone beläuft sich der Höchstbetrag für einzelne Transaktionen auf 5.000 €. Im Vereinigten Königreich
-          beläuft sich der Mindestbetrag für einzelne Transaktionen auf £ 1 und der Höchstbetrag auf £ 5.000. 
-
+          beläuft sich der Mindestbetrag für einzelne Transaktionen auf £ 1 und der Höchstbetrag auf £ 5.000.
         </p>
 
         <p>
