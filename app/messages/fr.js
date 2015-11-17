@@ -279,7 +279,7 @@ export default {
     title: 'Références',
     nav_title: 'Références',
     description: '',
-    link: 'Voir la référence'
+    link: 'Voir la référence',
   },
   stories_zenchef: {
     title: 'Zenchef',

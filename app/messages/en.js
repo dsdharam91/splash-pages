@@ -249,7 +249,7 @@ export default {
     title: 'Stories',
     nav_title: 'Stories',
     description: '',
-    link: 'Read the case study'
+    link: 'Read the case study',
   },
   legal: {
     title: 'Our terms of service',
