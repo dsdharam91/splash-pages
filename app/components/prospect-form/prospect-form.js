@@ -162,6 +162,12 @@ export default class ProspectForm extends React.Component {
               <option value='100-500'>100-500</option>
               <option value='500+'>500+</option>
             </select>
+
+            <label className='label label--stacked' htmlFor='prospect_metadata_message'>
+              What are your business&apos;s specific needs?
+            </label>
+            <textarea className='input input--stacked input--textarea'
+            id='prospect_metadata_message' name='prospect[metadata][message]' rows='3' />
           </Translation>
 
           <Translation locales='fr'>
