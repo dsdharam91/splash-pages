@@ -7,8 +7,8 @@ export default class PartnersGuideAppIntegrationEn extends React.Component {
 
   render() {
     return (
-        <Translation locales='en'>
-         <h2>App integration</h2>
+      <Translation locales='en'>
+        <h2>App integration</h2>
 
         <h3>Merchant onboarding and collecting merchant verification information</h3>
 
@@ -262,7 +262,7 @@ export default class PartnersGuideAppIntegrationEn extends React.Component {
         <p>
           An app integration requires less development resource than a white label integration.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

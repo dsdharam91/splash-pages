@@ -7,7 +7,7 @@ export default class PartnersGuideRestrictionsDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
+      <Translation locales='de'>
         <h2>Einschränkungen</h2>
 
         <h3>Gibt es bestimmte Kunden, denen Sie Ihren Service nicht zur Verfügung stellen?</h3>
@@ -36,7 +36,7 @@ export default class PartnersGuideRestrictionsDe extends React.Component {
         <p>
           GoCardless kann den Höchstbetrag bei zusätzlichen Verifizierungsprüfungen erhöhen.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

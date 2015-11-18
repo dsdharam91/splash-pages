@@ -6,8 +6,8 @@ export default class PartnersGuideWhiteLabelEn extends React.Component {
 
   render() {
     return (
-        <Translation locales='en'>
-         <h2>White label integration</h2>
+      <Translation locales='en'>
+        <h2>White label integration</h2>
 
         <h3>Merchant onboarding and collecting merchant verification information</h3>
 
@@ -314,7 +314,7 @@ export default class PartnersGuideWhiteLabelEn extends React.Component {
             they will need to comply with each set of scheme rules.
           </li>
         </ul>
-        </Translation>
+      </Translation>
     );
   }
 }

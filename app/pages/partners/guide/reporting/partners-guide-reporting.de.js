@@ -6,7 +6,7 @@ export default class PartnersGuideGettingPaidDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
+      <Translation locales='de'>
         <h2>Zahlungsverfolgung</h2>
 
         <h3>Kann ich Zahlungsinformationen in meiner App anzeigen?</h3>
@@ -34,7 +34,7 @@ export default class PartnersGuideGettingPaidDe extends React.Component {
           Hinweis: Jede Mandatsreferenz muss für eine erteilte Gläubiger-ID (CID) einmalig sein. Aus diesem Grund füllen
           wir die Mandatsreferenz automatisch aus, wenn Sie eine GoCardless-CID verwenden.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

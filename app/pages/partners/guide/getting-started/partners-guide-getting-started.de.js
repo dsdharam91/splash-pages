@@ -7,7 +7,7 @@ export default class PartnersGuideGettingStartedDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
+      <Translation locales='de'>
         <h2>Erste Schritte</h2>
 
         <h3>Entwickeln Sie Ihre Integration</h3>
@@ -61,7 +61,7 @@ export default class PartnersGuideGettingStartedDe extends React.Component {
           Wir raten Ihnen, bei vorhandenen und potenziellen Kunden für Ihre neue Zahlungsfunktion über Ihre Webseite, per E-Mail,
           soziale Netzwerke, Blogs und bei Veranstaltungen zu werben.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

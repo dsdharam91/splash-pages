@@ -10,7 +10,7 @@ export default class PartnersGuideOptionsDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
+      <Translation locales='de'>
         <h2>Optionen</h2>
 
         <p>
@@ -341,7 +341,7 @@ export default class PartnersGuideOptionsDe extends React.Component {
           Wir arbeiten kontinuierlich an der Verbesserung unserer Produkte - wenn Sie Fragen haben,
           die hier nicht beantwortet werden, schreiben Sie uns an <Href to='partners_email' itemProp='email' />.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

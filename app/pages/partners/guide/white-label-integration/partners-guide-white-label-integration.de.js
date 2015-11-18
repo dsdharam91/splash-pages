@@ -6,7 +6,7 @@ export default class PartnersGuideWhiteLabelDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
+      <Translation locales='de'>
         <h2>White-Label-Integration</h2>
 
         <h3>Händler-Onboarding und Erfassen von Verifizierungsdaten von Händlern</h3>

@@ -6,7 +6,7 @@ export default class PartnersGuideChargebacksDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
+      <Translation locales='de'>
         <h2>Rückbuchungen, Rückerstattungen und fehlgeschlagene Lastschriften</h2>
 
         <h3>Wie funktionieren Rückbuchungen?</h3>
@@ -70,7 +70,7 @@ export default class PartnersGuideChargebacksDe extends React.Component {
           fehlgeschlagene Lastschrift zurück. Nähere Informationen dazu finden
           Sie <a href='https://developer.gocardless.com/pro/#webhooks-examples' target='_blank'>hier</a>.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

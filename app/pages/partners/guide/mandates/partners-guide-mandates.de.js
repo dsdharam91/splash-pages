@@ -7,8 +7,8 @@ export default class PartnersGuideMandatesDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
-          <h2>Übertragen von Mandaten</h2>
+      <Translation locales='de'>
+        <h2>Übertragen von Mandaten</h2>
 
         <h3>Kann ich bereits vorhandene Lastschriftmandate in den GoCardless-Service übertragen?</h3>
 
@@ -44,7 +44,7 @@ export default class PartnersGuideMandatesDe extends React.Component {
         <p>
           Für nähere Informationen zur Übertragung von Mandaten schreiben Sie uns direkt an <Href to='partners_email' itemProp='email' />.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

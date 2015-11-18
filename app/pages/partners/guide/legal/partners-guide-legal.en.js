@@ -8,7 +8,7 @@ export default class PartnersGuideLegalEn extends React.Component {
 
   render() {
     return (
-        <Translation locales='en'>
+      <Translation locales='en'>
         <h2>Commercials and legal</h2>
 
         <p>
@@ -34,7 +34,7 @@ export default class PartnersGuideLegalEn extends React.Component {
           If you need your own Service User Number (SUN) or Creditor ID (CID), we can help you with this for
           an additional £200 / €250 per month per SUN / CID.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

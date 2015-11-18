@@ -7,7 +7,7 @@ export default class PartnersGuideMandatesEn extends React.Component {
 
   render() {
     return (
-        <Translation locales='en'>
+      <Translation locales='en'>
         <h2>Transferring mandates</h2>
 
         <h3>Can I migrate existing Direct Debit mandates across to GoCardless?</h3>
@@ -44,7 +44,7 @@ export default class PartnersGuideMandatesEn extends React.Component {
           then you don’t need to notify your customers. Get in touch directly
           at <Href to='partners_email' itemProp='email' /> for more details on this process.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

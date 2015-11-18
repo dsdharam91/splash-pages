@@ -7,8 +7,8 @@ export default class PartnersGuideSecurityDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
-         <h2>Vorschriften und Sicherheit</h2>
+      <Translation locales='de'>
+        <h2>Vorschriften und Sicherheit</h2>
 
         <h3>Welche Zulassung hat GoCardless? Ist mein Geld sicher bei Ihnen?</h3>
 
@@ -66,7 +66,7 @@ export default class PartnersGuideSecurityDe extends React.Component {
           Hinweis: Innerhalb des SEPA-Raums sind Lastschriftmandate 36 Monate lang ab Autorisierung oder dem letzten
           Lastschrifteinzug gültig. Sie oder Ihre Händler können während seiner Gültigkeit Lastschriften darüber einziehen.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

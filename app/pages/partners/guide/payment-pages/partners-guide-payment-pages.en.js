@@ -7,7 +7,7 @@ export default class PartnersGuidePaymentPagesEn extends React.Component {
 
   render() {
     return (
-        <Translation locales='en'>
+      <Translation locales='en'>
         <h2>Payment pages</h2>
 
         <h3>What do your hosted payment pages look like?</h3>
@@ -74,7 +74,7 @@ export default class PartnersGuidePaymentPagesEn extends React.Component {
           No - we do not offer two-step security verification as, from our experience, the negative impact
           on conversion usually outweighs any small benefit in reducing chargebacks.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

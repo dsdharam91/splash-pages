@@ -7,8 +7,8 @@ export default class PartnersGuideSecurityEn extends React.Component {
 
   render() {
     return (
-        <Translation locales='en'>
-         <h2>Regulation and security</h2>
+      <Translation locales='en'>
+        <h2>Regulation and security</h2>
 
         <h3>How are you regulated? Is our money safe?</h3>
 
@@ -64,7 +64,7 @@ export default class PartnersGuideSecurityEn extends React.Component {
           collection. You/your merchants can then collect payments from this mandate so long as
           it remains valid.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

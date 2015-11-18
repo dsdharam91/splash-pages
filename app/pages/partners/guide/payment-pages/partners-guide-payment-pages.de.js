@@ -7,7 +7,7 @@ export default class PartnersGuidePaymentPagesDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
+      <Translation locales='de'>
         <h2>Mandatsseiten</h2>
 
         <h3>Wie sehen die von Ihnen gehosteten Mandatsseiten aus?</h3>

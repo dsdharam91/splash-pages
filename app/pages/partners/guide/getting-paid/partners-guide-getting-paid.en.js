@@ -7,7 +7,7 @@ export default class PartnersGuideGettingPaidEn extends React.Component {
 
   render() {
     return (
-        <Translation locales='en'>
+      <Translation locales='en'>
         <h2>Getting paid</h2>
 
         <p>
@@ -17,7 +17,7 @@ export default class PartnersGuideGettingPaidEn extends React.Component {
           a daily basis. For more information,
           click <Link to='faq_merchants_how_it_works'>here</Link>.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

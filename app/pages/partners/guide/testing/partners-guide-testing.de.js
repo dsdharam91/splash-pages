@@ -7,7 +7,7 @@ export default class PartnersGuideTestingDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
+      <Translation locales='de'>
         <h2>Entwickeln und Testen</h2>
 
         <h3>Wo finde ich die API-Dokumentation?</h3>
@@ -47,7 +47,7 @@ export default class PartnersGuideTestingDe extends React.Component {
           an <Href to='partners_email' itemProp='email' /> und demonstrieren Sie uns Ihre Integration.
           Wenn alles problemlos läuft, schalten wir Ihren Account frei.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

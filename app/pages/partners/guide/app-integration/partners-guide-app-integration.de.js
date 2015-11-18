@@ -7,8 +7,8 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
-         <h2>App-Integration</h2>
+      <Translation locales='de'>
+        <h2>App-Integration</h2>
 
         <h3>Händler-Onboarding und Erfassen von Verifizierungsdaten von Händlern</h3>
 
@@ -258,7 +258,7 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
         <p>
           Bei einer App-Integration wird weniger Entwicklungspersonal benötigt als bei einer White-Label-Integration.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

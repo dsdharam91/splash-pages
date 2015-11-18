@@ -7,8 +7,8 @@ export default class PartnersGuideRestrictionsEn extends React.Component {
 
   render() {
     return (
-        <Translation locales='en'>
-       <h2>Restrictions</h2>
+      <Translation locales='en'>
+        <h2>Restrictions</h2>
 
         <h3>Are there any types of customers that you don’t serve?</h3>
 
@@ -36,7 +36,7 @@ export default class PartnersGuideRestrictionsEn extends React.Component {
         <p>
           In the Eurozone, the maximum amount for a single transaction is €5,000.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

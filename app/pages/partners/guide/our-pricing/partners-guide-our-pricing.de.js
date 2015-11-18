@@ -6,8 +6,8 @@ export default class PartnersGuideOurPricingDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
-         <h2>Unsere Preise</h2>
+      <Translation locales='de'>
+        <h2>Unsere Preise</h2>
 
         <h3>Was sind GoCardless-Gebühren?</h3>
 
@@ -31,7 +31,7 @@ export default class PartnersGuideOurPricingDe extends React.Component {
           Ja - Sie können neben den GoCardless-Transaktionsgebühren einen zusätzlichen Prozentsatz
           und/oder eine Pauschalgebühr pro Transaktion erheben.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

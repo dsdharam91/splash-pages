@@ -6,7 +6,7 @@ export default class PartnersGuideOurPricingEn extends React.Component {
 
   render() {
     return (
-        <Translation locales='en'>
+      <Translation locales='en'>
         <h2>Our pricing</h2>
 
         <h3>What are GoCardless fees?</h3>
@@ -29,7 +29,7 @@ export default class PartnersGuideOurPricingEn extends React.Component {
           Yes - you can take either/both an additional percentage or a flat fee per
           transaction, on top of the GoCardless transaction charge.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

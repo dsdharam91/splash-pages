@@ -6,7 +6,7 @@ export default class PartnersGuideChargebacksEn extends React.Component {
 
   render() {
     return (
-        <Translation locales='en'>
+      <Translation locales='en'>
         <h2>Chargebacks, refunds and failures</h2>
 
         <h3>How do chargebacks work?</h3>
@@ -67,7 +67,7 @@ export default class PartnersGuideChargebacksEn extends React.Component {
           their reason for the failure details. See <a href='https://developer.gocardless.com/pro/#webhooks-examples' target='_blank'>
           here</a> for more details.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

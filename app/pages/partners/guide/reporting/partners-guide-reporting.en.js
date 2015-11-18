@@ -6,7 +6,7 @@ export default class PartnersGuideGettingPaidEn extends React.Component {
 
   render() {
     return (
-        <Translation locales='en'>
+      <Translation locales='en'>
         <h2>Reporting</h2>
 
         <h3>Can I display payment information in my application?</h3>
@@ -32,7 +32,7 @@ export default class PartnersGuideGettingPaidEn extends React.Component {
           Note that the mandate reference must be unique for a given Service User Number.
           Given this, if you are using the GoCardless SUN, we will auto-populate the mandate reference.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

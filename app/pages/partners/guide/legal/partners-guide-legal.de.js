@@ -7,7 +7,7 @@ export default class PartnersGuideLegalDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
+      <Translation locales='de'>
         <h2>Rechtliche Hinweise</h2>
 
         <p>
@@ -33,7 +33,7 @@ export default class PartnersGuideLegalDe extends React.Component {
           Beantragung für einen Aufpreis von 250 € pro Monat pro CID/SUN helfen. Damit erhalten Sie auch Zugang
           zu allen GoCardless Pro Funktionen.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }

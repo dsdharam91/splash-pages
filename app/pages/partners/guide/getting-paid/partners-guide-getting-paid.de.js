@@ -7,7 +7,7 @@ export default class PartnersGuideGettingPaidDe extends React.Component {
 
   render() {
     return (
-        <Translation locales='de'>
+      <Translation locales='de'>
         <h2>Auszahlungen</h2>
 
         <p>
@@ -16,7 +16,7 @@ export default class PartnersGuideGettingPaidDe extends React.Component {
           jedem beliebigen Tag von Ihren Kunden einziehen (wir geben Ihnen bzgl. der Tage keine Beschränkungen vor). Wir
           zahlen Beträge täglich aus. Mehr Informationen dazu finden Sie <Link to='faq_merchants_how_it_works'>hier</Link>.
         </p>
-        </Translation>
+      </Translation>
     );
   }
 }
