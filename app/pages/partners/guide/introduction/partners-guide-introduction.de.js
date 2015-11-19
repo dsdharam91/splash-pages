@@ -62,8 +62,8 @@ export default class PartnersGuideDe extends React.Component {
         </ul>
 
         <p>
-          Mittels Lastschriftverfahren können Händler zudem im Vergleich zur Kreditkartenzahlung <b>Kosten sparen</b>,
-          wobei im Schnitt Gebühren von 1,8 % des Umsatzes anfallen, die bei PayPal-Zahlungen noch höher ausfallen.
+          Mittels Lastschriftverfahren können Händler zudem im Vergleich zur Kreditkartenzahlung <b>Kosten sparen</b>.
+          Im Schnitt fallen bei Kreditkartenzahlung Gebühren von 1,8 % des Umsatzes an, die bei PayPal-Zahlungen noch höher ausfallen.
         </p>
 
         <p>

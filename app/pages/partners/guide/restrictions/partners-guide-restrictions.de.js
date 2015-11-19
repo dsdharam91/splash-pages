@@ -34,7 +34,7 @@ export default class PartnersGuideRestrictionsDe extends React.Component {
         </p>
 
         <p>
-          GoCardless kann den Höchstbetrag bei zusätzlichen Verifizierungsprüfungen erhöhen.
+          GoCardless kann den Höchstbetrag nach zusätzlichen Verifizierungsprüfungen erhöhen.
         </p>
       </Translation>
     );

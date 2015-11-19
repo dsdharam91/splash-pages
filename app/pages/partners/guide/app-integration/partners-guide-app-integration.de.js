@@ -212,7 +212,7 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
 
         <p>
           Wenn Sie die Anwendungsintegration nutzen, senden Sie Ihre Rechnungen bitte
-          an <a href='mailto:accounts@gocardless.com'>accounts@gocardless.com</a>., um Ihre Gebühren von uns einzuziehen.
+          an <a href='mailto:accounts@gocardless.com'>accounts@gocardless.com</a>, um Ihre Gebühren von uns einzuziehen.
           Wir begleichen diese Rechnungen innerhalb von 30 Tagen und akzeptieren Lastschriftmandate für wiederkehrende Zahlungen.
           Ab Ende 2015 überweist GoCardless Ihnen Ihre Gewinnbeteiligung automatisch auf Ihr Bankkonto.
         </p>

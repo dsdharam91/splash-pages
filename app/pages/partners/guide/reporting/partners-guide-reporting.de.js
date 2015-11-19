@@ -13,7 +13,7 @@ export default class PartnersGuideGettingPaidDe extends React.Component {
 
         <p>
           Ja - GoCardless bietet Webhooks, die über jegliche Änderung von Mandat- und Zahlungsstatus informieren,
-          z. B. darüber, wann eine Zahlung eingezogen wurde. Unsere API bietet einenützliche
+          z. B. darüber, wann eine Zahlung eingezogen wurde. Unsere API bietet eine nützliche
           <a href='https://developer.gocardless.com/pro/#events-reconciling-payouts-with-events' target='_blank'> Anleitung </a>
           zum Abgleich von Zahlungen mit Ereignissen. In unserem
           <a href='https://developer.gocardless.com/pro/#webhooks-overview' target='_blank'> Webhook-Handbuch </a>
