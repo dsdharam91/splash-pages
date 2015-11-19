@@ -12,7 +12,7 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
 
   render() {
     return (
-      <Page isInverted={false}>
+      <Page>
         <div className='page-hero u-padding-Vxxl'>
           <div className='site-container u-padding-Vxm u-text-center'>
             <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
@@ -63,43 +63,22 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-        <hr className='u-margin-An' />
-        <div className='site-container u-padding-Txxl'>
-          <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
-              GoCardless makes getting paid easier than ever
-            </h2>
-            <div className='grid u-center u-text-center u-padding-Tl u-margin-Bl u-margin-Ts'>
-              <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Really simple setup</h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  Create an account and start taking payments in only five minutes.</p>
-              </div>
-              <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Integrates with your software</h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  GoCardless integrates with leading accountancy software packages.</p>
-              </div>
-              <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Join 13,000+ businesses</h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  We've collected more than $1 billion for over 13,000 merchants.</p>
-              </div>
-            </div>
-            <div className='u-padding-Vm u-margin-Vm u-text-center'>
+            <div className='u-padding-Vm u-margin-Tm u-text-center'>
               <Href to='signup.path' className='btn u-padding-Hl'>Sign up now</Href>
               <Link to='features' className='btn u-padding-Hl btn--hollow u-margin-Lm'>Find out more</Link>
             </div>
           </div>
         </div>
         <hr className='u-margin-An' />
+
         <div className='site-container u-padding-Txxl u-padding-Bl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
               GoCardless powers online Direct Debit for 13,000 merchants
             </h2>
+            <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
+              <img src='/images/logos/pro-logos@2x.png' />
+            </div>
             <div className='grid u-margin-Hn u-size-full u-padding-Txl'>
               <Link to='stories_has_bean_coffee' className='grid__cell u-text-center u-size-1of2
               u-link-clean u-padding-Rxs u-padding-Ln'>
@@ -133,8 +112,31 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
               </Link>
             </div>
           </div>
-          <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
-            <img src='/images/logos/pro-logos@2x.png' />
+        </div>
+
+        <hr className='u-margin-An' />
+        <div className='site-container u-padding-Txxl'>
+          <div className='u-padding-Vxl'>
+            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+              GoCardless makes getting paid easier than ever
+            </h2>
+            <div className='grid u-center u-text-center u-padding-Tl u-margin-Bl u-margin-Ts'>
+              <div className='grid__cell u-size-1of3 u-text-center'>
+                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Really simple setup</h3>
+                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                  Create an account and start taking payments in only five minutes.</p>
+              </div>
+              <div className='grid__cell u-size-1of3 u-text-center'>
+                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Integrates with your software</h3>
+                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                  GoCardless integrates with leading accountancy software packages.</p>
+              </div>
+              <div className='grid__cell u-size-1of3 u-text-center'>
+                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Join 13,000+ businesses</h3>
+                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                  We've collected more than $1 billion for over 13,000 merchants.</p>
+              </div>
+            </div>
           </div>
         </div>
 
