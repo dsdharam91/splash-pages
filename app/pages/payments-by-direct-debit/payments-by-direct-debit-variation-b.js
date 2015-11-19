@@ -13,8 +13,8 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
   render() {
     return (
       <Page>
-        <div className='page-hero u-padding-Vxxl'>
-          <div className='site-container u-padding-Vxm u-text-center'>
+        <div className='page-hero u-padding-Bxxl'>
+          <div className='site-container u-padding-Vxxl u-text-center'>
             <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
               Take recurring payments online with Direct Debit
             </h1>
@@ -63,7 +63,7 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
                 </p>
               </div>
             </div>
-            <div className='u-padding-Vm u-margin-Tm u-text-center'>
+            <div className='u-padding-Tm u-margin-Tm u-text-center'>
               <Href to='signup.path' className='btn u-padding-Hl'>Sign up now</Href>
               <Link to='features' className='btn u-padding-Hl btn--hollow u-margin-Lm'>Find out more</Link>
             </div>
@@ -71,12 +71,12 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
         </div>
         <hr className='u-margin-An' />
 
-        <div className='site-container u-padding-Txxl u-padding-Bl'>
+        <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
               GoCardless powers online Direct Debit for 13,000 merchants
             </h2>
-            <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
+            <div className='u-text-center u-margin-Tl u-padding-Vs u-center'>
               <img src='/images/logos/pro-logos@2x.png' />
             </div>
             <div className='grid u-margin-Hn u-size-full u-padding-Txl'>
