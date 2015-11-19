@@ -36,9 +36,9 @@ export default class DataEngineer extends React.Component {
         </p>
         <ul className='list'>
           <li>Designing, building and launching new data ETL processes in production</li>
-          <li>Moving data models into production</li>
-          <li>Working closely with engineering and data peers to understand their data needs</li>
           <li>Supporting and optimising existing processes in production</li>
+          <li>Improving performance through troubleshooting and investigative work</li>
+          <li>Working closely with engineering and data peers to understand their data needs</li>
         </ul>
         <p className='para'>
           You’ll have ownership over your work and you will play a major role
@@ -55,26 +55,26 @@ export default class DataEngineer extends React.Component {
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
         <ul className='list u-margin-Tm'>
           <li>
-            1+ years’ experience in the data warehouse space
+            You have experience with systems internals, and knowledge of Unix fundamentals
           </li>
           <li>
-            1+ years’ experience in custom ETL design, implementation and maintenance
+            You have experience analysing and troubleshooting distributed systems
           </li>
           <li>
-            1+ years’ experience with programming languages, preferably Python
+            You have strong operational knowledge of PostgreSQL or similar RDBMS
           </li>
           <li>
-            Familiarity with cloud computing platforms, especially AWS
+            You are experienced in custom ETL design, implementation and maintenance
           </li>
           <li>
-            Experience with schema design
+            You are familiar with cloud computing platforms, especially AWS
           </li>
         </ul>
         <p className='para'>Bonus points for:</p>
         <ul className='list'>
-          <li>Experience with machine learning</li>
           <li>Computer Science or Engineering degree</li>
-          <li>Familiarity with Ruby</li>
+          <li>Experience in the data warehouse space</li>
+          <li>Fluency in one or more of C, Python, Go, Ruby</li>
         </ul>
 
         <p className='para'>
@@ -83,7 +83,7 @@ export default class DataEngineer extends React.Component {
           problem that you’ve recently worked on.
         </p>
         <p className='para'>
-          This role would ideally suit someone with 1-2 years’ related experience.
+          This role would ideally suit someone with previous experience in a similar role.
           If you’re unsure, please apply &ndash; we’d love to hear from you.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/101665' className='btn u-margin-Vs'>
