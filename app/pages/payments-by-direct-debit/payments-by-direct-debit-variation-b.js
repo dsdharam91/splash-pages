@@ -44,7 +44,7 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
                   <ClockIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Reduce time on admin
+                  Reduce admin time
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                   Manage your account online and always know the status of your payments.
@@ -74,7 +74,7 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
-              GoCardless powers online Direct Debit for 13,000 merchants
+              GoCardless powers online Direct Debit for over 13,000 merchants
             </h2>
             <div className='u-text-center u-margin-Tl u-padding-Vs u-center'>
               <img src='/images/logos/pro-logos@2x.png' />
