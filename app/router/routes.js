@@ -9,6 +9,7 @@ import Security from '../pages/security/security';
 import ContactSales from '../pages/contact-sales/contact-sales';
 
 import PaymentsByDirectDebit from '../pages/payments-by-direct-debit/payments-by-direct-debit';
+import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/payments-by-direct-debit-variation-b';
 import Europe from '../pages/europe/europe';
 import Refer from '../pages/refer/refer';
 import ExampleCheckout from '../pages/example-checkout/example-checkout';
@@ -240,6 +241,12 @@ export const config = Immutable.fromJS([
   [PaymentsByDirectDebit, { name: 'payments_by_direct_debit' }, {
       'en-GB': {
         path: '/payments-by-direct-debit',
+      },
+    },
+  ],
+  [PaymentsByDirectDebitVariationB, { name: 'payments_by_direct_debit_variation_b' }, {
+      'en-GB': {
+        path: '/payments-by-direct-debit-b',
       },
     },
   ],
