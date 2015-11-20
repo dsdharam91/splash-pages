@@ -115,12 +115,12 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
         </div>
 
         <hr className='u-margin-An' />
-        <div className='site-container u-padding-Txxl'>
+        <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
               GoCardless makes getting paid easier than ever
             </h2>
-            <div className='grid u-center u-text-center u-padding-Tl u-margin-Bl u-margin-Ts'>
+            <div className='grid u-center u-text-center u-padding-Tl u-margin-Ts'>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Really simple setup</h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
