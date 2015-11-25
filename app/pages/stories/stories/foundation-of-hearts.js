@@ -1,5 +1,4 @@
 import React from 'react';
-import Page from '../../../components/page/page';
 import StoriesFoundationOfHeartsEn from './foundation-of-hearts.en';
 import StoriesFoundationOfHeartsFr from './foundation-of-hearts.fr';
 
