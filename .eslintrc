@@ -20,7 +20,8 @@
     "protractor": true
   },
   "plugins": [
-    "react"
+    "react",
+    "babel"
   ],
   "ecmaFeatures": {
     "arrowFunctions": true,
@@ -43,9 +44,7 @@
     "comma-spacing": 0,
     "comma-style": [2, "last"],
     "consistent-return": 2,
-    "max-len": [2, 140, 4],
     "consistent-this": [0, "self"],
-    "indent": [2, 2],
     "key-spacing": [2, {
       "beforeColon": false,
       "afterColon": true
@@ -68,7 +67,7 @@
     "no-extra-boolean-cast": 2,
     "no-extra-semi": 2,
     "no-func-assign": 2,
-    "no-inline-comments": 2,
+    "no-inline-comments": 0,
     "no-inner-declarations": 2,
     "no-invalid-regexp": 2,
     "no-irregular-whitespace": 2,
@@ -90,24 +89,24 @@
     "no-unreachable": 2,
     "no-unused-vars": 2,
     "no-with": 2,
-    "no-wrap-func": 2,
+    "no-extra-parens": 0,
     "one-var": [2, "never"],
     "operator-assignment": [2, "always"],
     "operator-linebreak": [2, "after"],
     "padded-blocks": [0, "never"],
     "quote-props": [2, "as-needed"],
     "quotes": [2, "single"],
-    "react/display-name": 2,
+    "jsx-quotes": 0,
+    "react/display-name": 1,
     "react/jsx-boolean-value": 2,
     "react/jsx-no-undef": 2,
-    "react/jsx-quotes": 2,
     "react/jsx-sort-prop-types": 0,
     "react/jsx-sort-props": 0,
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
     "react/no-did-mount-set-state": 2,
     "react/no-did-update-set-state": 2,
-    "react/no-multi-comp": 2,
+    "react/no-multi-comp": 0,
     "react/no-unknown-property": 2,
     "react/prop-types": 2,
     "react/react-in-jsx-scope": 2,

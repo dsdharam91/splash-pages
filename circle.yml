@@ -9,7 +9,7 @@ deployment:
 
 machine:
   node:
-    version: 0.12.0
+    version: 4.1.0
 
 dependencies:
   pre:

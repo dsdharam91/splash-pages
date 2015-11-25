@@ -172,7 +172,7 @@ export function expandConfig(givenConfig, availableLocales) {
                     .map(setLocalePaths);
 }
 
-export function getLocalesForRouteName(routeName, availableLocales, givenConfig=config) {
+export function getLocalesForRouteName(routeName, availableLocales, givenConfig = config) {
   const expanded = expandConfig(givenConfig, availableLocales);
   const foundPage = expanded.find((page) => page.getIn(['routeConfig', 'name']) === routeName);
 
@@ -181,7 +181,7 @@ export function getLocalesForRouteName(routeName, availableLocales, givenConfig=
   }
 }
 
-export function filterRouteByCategory(routeCategory, locale, availableLocales, givenConfig=config) {
+export function filterRouteByCategory(routeCategory, locale, availableLocales, givenConfig = config) {
   const expanded = expandConfig(givenConfig, availableLocales);
   const foundPages = expanded.filter((page) => {
     const category = page.getIn(['routeConfig', 'category']);
@@ -200,7 +200,7 @@ export function filterRouteByCategory(routeCategory, locale, availableLocales, g
     .toJS();
 }
 
-export function getRoutes(locale, availableLocales, givenConfig=config) {
+export function getRoutes(locale, availableLocales, givenConfig = config) {
   const expandedPages = givenConfig.map((page) => transformConfigItems(page, availableLocales));
   const flattenedRoutes = flattenPagesForLocale(expandedPages, locale, availableLocales);
   const homePage = flattenedRoutes.first();
@@ -215,7 +215,7 @@ export function getRoutes(locale, availableLocales, givenConfig=config) {
   );
 }
 
-export function getAllPaths(availableLocales, givenConfig=config) {
+export function getAllPaths(availableLocales, givenConfig = config) {
   const expanded = expandConfig(givenConfig, availableLocales);
 
   return expanded.flatMap((page) => page.get('localeConfig').valueSeq())
