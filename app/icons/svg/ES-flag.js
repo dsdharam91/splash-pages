@@ -9,7 +9,6 @@ export default class ESFlagIcon extends React.Component {
     className: React.PropTypes.string,
   };
 
-  /*eslint-disable max-len*/
   render() {
     return (
       <svg {...this.props} xmlns="http://www.w3.org/2000/svg" height={500} width={750}>

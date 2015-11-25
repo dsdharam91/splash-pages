@@ -9,7 +9,6 @@ export default class DeveloperIcon extends React.Component {
     className: React.PropTypes.string,
   };
 
-  /*eslint-disable max-len*/
   render() {
     return (
       <svg {...this.props} width={76} height={59} viewBox="0 0 76 59" xmlns="http://www.w3.org/2000/svg">

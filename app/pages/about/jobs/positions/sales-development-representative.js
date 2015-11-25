@@ -5,7 +5,7 @@ export default class SalesDevelopmentRepresentative extends React.Component {
   displayName = 'SalesDevelopmentRepresentative'
 
   render() {
-    /*eslint-disable max-len*/
+
     return (
       <JobsPage>
         <h3 className='u-text-heading-light u-text-m u-color-heading'>Sales Development Representative</h3>
@@ -97,6 +97,5 @@ export default class SalesDevelopmentRepresentative extends React.Component {
         </a>
       </JobsPage>
     );
-    /*eslint-enable max-len*/
   }
 }

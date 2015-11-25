@@ -24,7 +24,6 @@ function renderIcon(className, svgIcon) {
       className: React.PropTypes.string,
     };
 
-    /*eslint-disable max-len*/
     render() {
       return (
         ${output}
