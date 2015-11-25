@@ -971,6 +971,9 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/stories/foundation-of-hearts',
       },
+      fr: {
+        path: '/references/foundation-of-hearts',
+      },
     },
   ],
   [StoriesGreaterAnglia, { name: 'stories_greater_anglia', category: 'stories' }, {

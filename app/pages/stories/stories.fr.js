@@ -4,7 +4,7 @@ import StartTakingPaymentsCTA from '../../components/start-taking-payments/start
 import Link from '../../components/link/link';
 import StoryLink from './story-link';
 
-export default class Stories extends React.Component {
+export default class StoriesFr extends React.Component {
   displayName = 'StoriesFr'
 
   render() {
@@ -71,6 +71,10 @@ export default class Stories extends React.Component {
           <div className='grid u-padding-Vxl'>
             <StoryLink imgClass='habitat-logo stories-item__logo--habitat' to='stories_habitat'>
             Habitat, la chaîne de design et d’ameublement, a pu lancer une offre innovante d’abonnement en moins de deux mois.
+            </StoryLink>
+            <StoryLink imgClass='foundation-of-hearts-logo stories-item__logo--foundation-of-hearts' to='stories_foundation_of_hearts'>
+              La Foundation of Hearts, une ONG des supporteurs du Hearts FC,
+              peut facilement prendre plus de 8000 donations par mois.
             </StoryLink>
           </div>
         </div>

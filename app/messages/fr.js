@@ -293,5 +293,9 @@ export default {
     title: 'Habitat',
     description: '',
   },
+  stories_foundation_of_hearts: {
+    title: 'Foundation of Hearts',
+    description: '',
+  },
 };
 
