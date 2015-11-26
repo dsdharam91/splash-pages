@@ -79,7 +79,7 @@ export default class EnterpriseAccountManager extends React.Component {
         </p>
         <ul className='list u-margin-Tm'>
           <li>
-            5–7 years of senior sales experience.
+            Strong senior sales experience.
           </li>
           <li>
             Evidence of repeated success within complex solutions and exceeding

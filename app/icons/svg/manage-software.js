@@ -9,11 +9,10 @@ export default class ManageSoftwareIcon extends React.Component {
     className: React.PropTypes.string,
   };
 
-  /*eslint-disable max-len*/
   render() {
     return (
       <svg {...this.props} width={76} height={76} viewBox='0 0 76 76' xmlns='http://www.w3.org/2000/svg'>
-        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
             <g transform="translate(-924.000000, -320.000000)" fill="#000000">
                 <g transform="translate(924.000000, 320.000000)">
                     <path d="M41.8,35.4666667 L74.7333333,35.4666667 C75.4325333,35.4666667 76,34.8992 76,34.2 C76,15.3418667 60.6581333,0 41.8,0 C41.0995333,0 40.5333333,0.567466667 40.5333333,1.26666667 L40.5333333,34.2 C40.5333333,34.8992 41.0995333,35.4666667 41.8,35.4666667 L41.8,35.4666667 Z M43.0666667,2.5574 C59.5219333,3.20846667 72.7902667,16.4768 73.4413333,32.9333333 L43.0666667,32.9333333 L43.0666667,2.5574 L43.0666667,2.5574 Z"></path>

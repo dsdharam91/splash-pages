@@ -7,7 +7,6 @@ export default class Logo extends React.Component {
     className: React.PropTypes.string.isRequired,
   };
 
-  /*eslint-disable max-len*/
   render() {
     return (
       <svg className={this.props.className} role="link" aria-label="GoCardless" width="157" height="16" viewBox="0 0 157 16">

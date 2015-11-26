@@ -10,6 +10,7 @@ export default class IfLocale extends React.Component {
     hasInstantSignup: React.PropTypes.bool,
     hasPercentagePricing: React.PropTypes.bool,
     children: React.PropTypes.node.isRequired,
+    tagName: React.PropTypes.string,
   }
 
   static defaultProps = {

@@ -9,7 +9,7 @@ export default class Stories extends React.Component {
 
   render() {
     return (
-      <Page isInverted={true}>
+      <Page isInverted>
         <StoriesEn />
         <StoriesFr />
       </Page>

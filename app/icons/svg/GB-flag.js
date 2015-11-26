@@ -9,7 +9,6 @@ export default class GBFlagIcon extends React.Component {
     className: React.PropTypes.string,
   };
 
-  /*eslint-disable max-len*/
   render() {
     return (
       <svg {...this.props} height={480} width={640}>
