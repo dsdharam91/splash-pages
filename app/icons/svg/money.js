@@ -9,7 +9,6 @@ export default class MoneyIcon extends React.Component {
     className: React.PropTypes.string,
   };
 
-  /*eslint-disable max-len*/
   render() {
     return (
       <svg {...this.props} width={76} height={76} viewBox="0 0 76 76" xmlns="http://www.w3.org/2000/svg">

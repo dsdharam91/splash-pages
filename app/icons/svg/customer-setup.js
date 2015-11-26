@@ -9,7 +9,6 @@ export default class CustomerSetupIcon extends React.Component {
     className: React.PropTypes.string,
   };
 
-  /*eslint-disable max-len*/
   render() {
     return (
       <svg {...this.props} width={74} height={76} viewBox="0 0 74 76" xmlns="http://www.w3.org/2000/svg">

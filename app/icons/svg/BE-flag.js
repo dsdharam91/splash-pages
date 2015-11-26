@@ -9,7 +9,6 @@ export default class BEFlagIcon extends React.Component {
     className: React.PropTypes.string,
   };
 
-  /*eslint-disable max-len*/
   render() {
     return (
       <svg {...this.props} id="svg554" height={480} width={640} author="Daniel McRae">
