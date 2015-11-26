@@ -10,18 +10,13 @@ export default class SalesDevelopmentRepresentative extends React.Component {
       <JobsPage>
         <h3 className='u-text-heading-light u-text-m u-color-heading'>Sales Development Representative</h3>
         <p className='para'>
-          Drive GoCardless’s growth.
+          Drive GoCardless’s global growth.
         </p>
         <p className='para'>
-          At GoCardless we are looking to
-          <a href='https://gocardless.com/blog/1-billion-dollars/' target='_blank'> scale from processing $1 billion a year to $10 billion</a>.
+          At GoCardless we are looking to scale from processing $1 billion a year to over $10 billion.
           Our <a href='https://gocardless.com/blog/a-new-payment-network-for-the-internet/' target='_blank'> vision </a>
           is to create a global payments network, making payments simpler on
-          the internet no matter what country you're in. We started out doing
-          this for SMEs in the UK, but we’ve recently started serving large
-          organisations like The Guardian, TripAdvisor and the UK Government
-          as well as expanding into Europe and beyond. We believe that this is
-          only the start of our journey.
+          the internet no matter what country you're in.
         </p>
         <p className='para'>
           We're looking for bright, ambitious people to join our talented sales
@@ -29,68 +24,64 @@ export default class SalesDevelopmentRepresentative extends React.Component {
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
-          At GoCardless, <a href='https://medium.com/@benm401/how-our-inbound-sales-team-does-more-than-just-qualify-opportunities-bab8867c18ce' target='_blank'> we do inbound sales a little differently</a>.
-          You will be speaking to prospective customers from your first week -
-          this could be anyone from a local piano teacher to the CFO of a large
-          multinational company. We will give you <a href='https://gocardless.com/blog/how-we-train-salespeople/' target='_blank'> extensive training </a>
-          and then trust you to be the first point of contact with all our new
-          prospects.
-        </p>
-        <p className='para'>
-          On a typical day you will be:
-        </p>
-        <ul className='list u-margin-Tm'>
-          <li>
-            Speaking to potential customers and advising them on how to use our product.
-          </li>
-          <li>
-            Giving product demonstrations.
-          </li>
-          <li>
-            Finding improvements in our current sales processes and putting them into practice.
-          </li>
-        </ul>
-        <p className='para'>
-          After 3-6 months, you will start closing deals. You will also become
-          a mentor for new members of the team, coaching them on how we do sales.
+          The sales team at GoCardless combines deep product expertise with a
+          commitment to helping new and existing businesses succeed across a
+          range of industries. As a sales development rep, you'll work to
+          uncover and define our best growth opportunities, including new
+          customers, verticals and sales strategies. You'll manage inbound
+          leads as the first point of contact for many new and growing
+          businesses interested in us, and you’ll run outbound campaigns to
+          reach new merchants. Along the way, you'll work closely with
+          business and product leaders across the company to help accelerate
+          our growth.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
-        <p className='para'>
-          We’ve identified the following 5 characteristics as being most important
-          for successful sales people here:
-        </p>
         <ul className='list u-margin-Tm'>
           <li>
-            Smart. Our product is technical. To succeed here you need to be
-            able to understand how complex systems work.
+            Experience within a sales environment or a top consultancy, or
+            recent graduates with commercial or technical backgrounds.
           </li>
           <li>
-            Driven to learn and improve. We believe how good you’ll be a year
-            from now is more dependent on attitude than current ability. How
-            driven you are and how motivated you are to improve are the two
-            most important drivers of success.
+            An ability to understand our API and build great relationships
+            with highly technical customers.
           </li>
           <li>
-            Coachable. Giving and taking feedback is one of the most important
-            aspects of our company culture. The quicker you are able to act on
-            feedback, the faster you learn.
+            A passion for technology, the startup community, and supporting
+            other businesses as they grow.
           </li>
           <li>
-            Likeable. People don’t like to buy from people they don’t like. It
-            is essential that anyone we employ is easy to get along with.
+            The motivation and flexibility to work well in a rapidly changing
+            high-growth environment.
           </li>
           <li>
-            An excellent communicator. The ability to explain complex ideas
-            simply is absolutely crucial for our salespeople.
+            Superb verbal and written communication skills.
           </li>
         </ul>
         <p className='para'>
           This role particularly suits either exceptional graduates or people
-          with 1–2 years' experience at a top consultancy.  To help you, we've
+          with 1–2 years' experience at a top consultancy. To help you, we've
           written a <a href='https://gocardless.com/blog/the-account-executive-interview-process/' target='_blank'> blog post </a>
           which takes you through our interview process and gives you some tips
-          on what to expect. If you’re unsure, please apply - we’d love to hear
-          from you.
+          on what to expect. We've also identified <a href='https://gocardless.com/blog/how-we-train-salespeople/' target='_blank'> five characteristics </a>
+          that are vital to be a successful member of our sales team.
+        </p>
+        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The perks</h4>
+        <ul className='list u-margin-Tm'>
+          <li>
+            Competitive salary, commission and options package.
+          </li>
+          <li>
+            Macbook Air and 27" Thunderbolt display.
+          </li>
+          <li>
+            Bi-weekly and monthly all team lunches and evenings out.
+          </li>
+          <li>
+            Stocked kitchen and unlimited (great) coffee!
+          </li>
+        </ul>
+        <p className='para'>
+          If you’re unsure, please apply &ndash; we’d love to hear from you.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/37249' className='btn u-margin-Vs'>
           Apply now
