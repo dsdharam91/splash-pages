@@ -297,5 +297,9 @@ export default {
     title: 'Foundation of Hearts',
     description: '',
   },
+  stories_mutinerie: {
+    title: 'Mutinerie',
+    description: '',
+  },
 };
 
