@@ -12,11 +12,11 @@ export default class StoriesFoundationOfHeartsFr extends React.Component {
       <Translation locales='fr'>
         <StoryPage
           title='Foundation of Hearts'
-          tagline='La Foundation of Hearts attire 7500 donations en moins de 2 mois grâce à GoCardless et sa solution simple et efficace'
+          tagline='La Foundation of Hearts attire 7.500 donations en moins de 2 mois grâce à GoCardless et sa solution simple et efficace'
           tips={[
-            'Nous les avons aidé à mettre en place 7500 supporteurs en moins de 2 mois',
+            'Nous les avons aidé à mettre en place 7.500 supporteurs en moins de 2 mois',
             'Nous les avons aidé à intégrer le prélèvement directement sur leur site en d\'une heure',
-            'Nous les avons aidé à gérer leurs paiements en ligne sans expertise technique ou de paiements',
+            'Nous les avons aidé à gérer leurs paiements en ligne sans expertise technique ou de paiement',
           ]}>
           <StoryQuote tag='Nous avions besoin d’un établissement de paiement qui était facile à utiliser pour nous et nos supporteurs'>
             <p className='para u-margin-Tn'>
@@ -38,7 +38,7 @@ export default class StoriesFoundationOfHeartsFr extends React.Component {
           </StoryBigQuote>
           <StoryQuote tag='GoCardless était la solution simple'>
             <p className='para u-margin-Tn'>Après avoir discuté avec PayPal et étudié les
-            méthodes de paiement proposés par leur banque, l'ONG décide que GoCardless était “l'option simple”.</p>
+            méthodes de paiement proposées par leur banque, l'ONG décide que GoCardless était “l'option simple”.</p>
             <p className='para'>La Foundation of Hearts a intégré l’API de GoCardless afin de permettre aux fans
             de réaliser des donations via leur site. Le reporting financier se fait via l’API et le tableau de bord
             en ligne GoCardless.</p>
