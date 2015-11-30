@@ -5,8 +5,6 @@ import Message from '../../components/message/message';
 import ClockIcon from '../../icons/svg/clock';
 import ImproveCashflowIcon from '../../icons/svg/improve-cashflow';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
-import Link from '../../components/link/link';
-import Href from '../../components/href/href';
 
 export default class EasierDirectDebit extends React.Component {
   displayName = 'EasierDirectDebit'
