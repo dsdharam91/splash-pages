@@ -66,7 +66,7 @@ export default class CustomerSupport extends React.Component {
         <p className='para'>
           You’ll also be involved in improving our internal support tools and
           processes. We believe that technology should make us more effective,
-          so a lot of our tools are build in-house and regularly updated. As
+          so a lot of our tools are built in-house and regularly updated. As
           our product is constantly evolving and new features are built, our
           internal admin dashboard needs regular revisiting. As we learn more
           about our growing customer base we can optimise our fraud detection
