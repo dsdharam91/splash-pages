@@ -4,7 +4,9 @@ import ProspectForm from '../../components/prospect-form/prospect-form';
 import Message from '../../components/message/message';
 import ClockIcon from '../../icons/svg/clock';
 import ImproveCashflowIcon from '../../icons/svg/improve-cashflow';
+import CheckListIcon from '../../icons/svg/checklist';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
+import UsersIcon from '../../icons/svg/users';
 
 export default class EasierDirectDebit extends React.Component {
   displayName = 'EasierDirectDebit'
@@ -106,17 +108,35 @@ export default class EasierDirectDebit extends React.Component {
             </h2>
             <div className='grid u-center u-text-center u-padding-Tl u-margin-Ts'>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Automatic notifications</h3>
+                <figure className='svg-icon u-center'>
+                  <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
+                  <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Automatic notifications
+                </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
                   Get real-time alerts on failed or cancelled payments.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Collect in £ and €</h3>
+                <figure className='svg-icon u-center'>
+                  <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
+                  <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Collect in £ and €
+                </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
                   Take payments through Bacs Direct Debit &amp; SEPA Direct Debit.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Join 13,000+ businesses</h3>
+                <figure className='svg-icon u-center'>
+                  <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
+                  <UsersIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Join 13,000+ businesses
+                </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
                   We've collected more than $1 billion for over 13,000 businesses.</p>
               </div>
