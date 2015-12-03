@@ -72,7 +72,7 @@ export default class EasierDirectDebit extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
-              GoCardless powers online Direct Debit for over 13,000 merchants
+              GoCardless powers online Direct Debit for over 13,000 businesses
             </h2>
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
               <div className='product-grid__container u-text-center u-padding-Vl'>
