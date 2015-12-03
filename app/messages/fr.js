@@ -243,6 +243,10 @@ export default {
     description: 'Devenez partenaires de GoCardless et laissez vos utilisateurs prendre des paiements par prélèvement SEPA dans votre plateforme.',
     explainer: 'Offrez GoCardless à vos clients',
   },
+  payments_by_direct_debit: {
+    title: 'Payments By Direct Debit',
+    description: 'Direct Debit is cheaper & more reliable than the card networks. It\'s also more flexible than a standing order. Find out how you can take payments using Direct Debit.',
+  },
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
