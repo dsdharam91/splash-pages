@@ -244,8 +244,8 @@ export default {
     explainer: 'Offrez GoCardless à vos clients',
   },
   payments_by_direct_debit: {
-    title: 'Payments By Direct Debit',
-    description: 'Direct Debit is cheaper & more reliable than the card networks. It\'s also more flexible than a standing order. Find out how you can take payments using Direct Debit.',
+    title: 'Paiements par prélèvement SEPA',
+    description: "Le prélèvement SEPA est plus fiable et économique que les cartes. C'est également plus efficace que les virements et chèques. Apprenez-en plus sur les paiements par prélèvement.",
   },
   pro_docs: {
     title: 'Pro API',
