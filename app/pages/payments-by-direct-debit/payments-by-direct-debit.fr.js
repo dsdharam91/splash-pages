@@ -21,7 +21,7 @@ export default class PaymentsByDirectDebitFr extends React.Component {
                 Prenez des paiements récurrents sur Internet avec le prélèvement SEPA
               </h1>
               <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
-                Plus besoin de relancer les paiements en retard. Des paiement en ligne flexibles et automatisés avec des frais de 1% seulement.
+                Finies les relances d'impayés. Recevez des paiements en ligne de façon flexible et automatisée.
               </p>
             </div>
           </div>
@@ -34,10 +34,10 @@ export default class PaymentsByDirectDebitFr extends React.Component {
                     <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
                   <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                    Soyez en contrôle
+                    Maîtrisez vos finances
                   </h3>
                   <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                    Plus de problèmes de trésorerie. Avec le prélèvement, vous serez payé à temps, tout le temps.
+                    Oubliez les problèmes de trésorerie. Le prélèvement vous permet d'être payé à temps, tout le temps.
                   </p>
                 </div>
                 <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -46,10 +46,10 @@ export default class PaymentsByDirectDebitFr extends React.Component {
                     <ClockIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
                   <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                    Réduisez le travail manuel
+                    Automatisez de A à Z
                   </h3>
                   <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                    Gérez votre compte en ligne et soyez toujours au courant du statut de vos paiements.
+                    Gérez vos paiements en ligne ou via notre API et soyez toujours au courant du statut de vos paiements.
                   </p>
                 </div>
                 <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -58,7 +58,7 @@ export default class PaymentsByDirectDebitFr extends React.Component {
                     <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
                   <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                    Frais de 1%, plafonnés à 2€
+                    Des tarifs concurrentiels
                   </h3>
                   <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                     Plus économique que la carte et sans frais cachés : nous ne facturons que les transactions réussies.
@@ -126,7 +126,7 @@ export default class PaymentsByDirectDebitFr extends React.Component {
                 <div className='grid__cell u-size-1of3 u-text-center'>
                   <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Démarrage très simple</h3>
                   <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                    Créez un compte en ligne et commencer à prendre des paiements en 5 minutes.</p>
+                    Créez un compte en ligne et commencez à prendre des paiements en 5 minutes.</p>
                 </div>
                 <div className='grid__cell u-size-1of3 u-text-center'>
                   <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Migration de mandats facile</h3>
@@ -149,7 +149,7 @@ export default class PaymentsByDirectDebitFr extends React.Component {
                 Ouvrir un compte prend 2 minutes
               </h2>
               <Href to='signup.path' className='btn'>Prenez des paiements aujourd'hui</Href>
-              <p className='u-color-p u-margin-Ts'>Pas de frais de mise en place, de frais mensuels ou de frais cachés</p>
+              <p className='u-color-p u-margin-Ts'>Pas de frais de mise en place, de frais mensuels ou de frais d'impayés</p>
               <hr className='u-size-1of2 u-center u-margin-Vxxl' />
               <p className='u-color-p'><strong>Souhaitez-vous d'abord en discuter ?</strong><br />
                 Appelez nos experts de paiement au <Message pointer='phone_local' /><br />
