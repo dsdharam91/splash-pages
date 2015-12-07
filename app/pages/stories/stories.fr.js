@@ -69,10 +69,12 @@ export default class StoriesFr extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
-            <StoryLink imgClass='habitat-logo stories-item__logo--habitat' to='stories_habitat'>
-            Habitat, la chaîne de design et d’ameublement, a pu lancer une offre innovante d’abonnement en moins de deux mois.
+            <StoryLink cssSizeClass='u-size-1of2'
+              imgClass='habitat-logo stories-item__logo--habitat' to='stories_habitat' cssSize='u-size-1of2'>
+              Habitat, la chaîne de design et d’ameublement, a pu lancer une offre innovante d’abonnement en moins de deux mois.
             </StoryLink>
-            <StoryLink imgClass='foundation-of-hearts-logo stories-item__logo--foundation-of-hearts' to='stories_foundation_of_hearts'>
+            <StoryLink cssSizeClass='u-size-1of2'
+              imgClass='foundation-of-hearts-logo stories-item__logo--foundation-of-hearts' to='stories_foundation_of_hearts'>
               La Foundation of Hearts, une ONG des supporteurs du Hearts FC,
               peut prendre plus de 8.000 donations par mois facilement.
             </StoryLink>
