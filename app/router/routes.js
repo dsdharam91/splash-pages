@@ -120,6 +120,7 @@ import StoriesFoundationOfHearts from '../pages/stories/stories/foundation-of-he
 import StoriesGreaterAnglia from '../pages/stories/stories/greater-anglia';
 import StoriesZenchef from '../pages/stories/stories/zenchef';
 import StoriesTheFrenchTalents from '../pages/stories/stories/the-french-talents';
+import StoriesHabitat from '../pages/stories/stories/habitat';
 
 export var homeRoute = 'home';
 
@@ -1040,6 +1041,9 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/stories/foundation-of-hearts',
       },
+      fr: {
+        path: '/references/foundation-of-hearts',
+      },
     },
   ],
   [StoriesGreaterAnglia, { name: 'stories_greater_anglia', category: 'stories' }, {
@@ -1057,6 +1061,12 @@ export const config = Immutable.fromJS([
   [StoriesTheFrenchTalents, { name: 'stories_the_french_talents', category: 'stories' }, {
       fr: {
         path: '/references/the-french-talents',
+      },
+    },
+  ],
+  [StoriesHabitat, { name: 'stories_habitat', category: 'stories' }, {
+      fr: {
+        path: '/references/habitat',
       },
     },
   ],

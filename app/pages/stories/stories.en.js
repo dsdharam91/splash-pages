@@ -5,7 +5,7 @@ import StartTakingPaymentsCTA from '../../components/start-taking-payments/start
 import Link from '../../components/link/link';
 import StoryLink from './story-link';
 
-export default class Stories extends React.Component {
+export default class StoriesEn extends React.Component {
   displayName = 'StoriesEn'
 
   render() {

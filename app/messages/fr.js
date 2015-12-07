@@ -283,6 +283,7 @@ export default {
     title: 'Références',
     nav_title: 'Références',
     description: '',
+    link: 'Voir la référence',
   },
   stories_zenchef: {
     title: 'Zenchef',
@@ -290,6 +291,14 @@ export default {
   },
   stories_the_french_talents: {
     title: 'The French Talents',
+    description: '',
+  },
+  stories_habitat: {
+    title: 'Habitat',
+    description: '',
+  },
+  stories_foundation_of_hearts: {
+    title: 'Foundation of Hearts',
     description: '',
   },
 };
