@@ -70,7 +70,7 @@ export default class StoriesFr extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
             <StoryLink cssSizeClass='u-size-1of2'
-              imgClass='habitat-logo stories-item__logo--habitat' to='stories_habitat' cssSize='u-size-1of2'>
+              imgClass='habitat-logo stories-item__logo--habitat' to='stories_habitat'>
               Habitat, la chaîne de design et d’ameublement, a pu lancer une offre innovante d’abonnement en moins de deux mois.
             </StoryLink>
             <StoryLink cssSizeClass='u-size-1of2'
