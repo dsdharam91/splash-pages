@@ -60,7 +60,7 @@ export default class EasierDirectDebit extends React.Component {
                   Transparent pricing
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Just 1%, capped at £2. No set up costs, hidden charges or minimum commitments.
+                  Fees from 1p-60p per transaction. No set up costs, hidden charges or minimum commitments.
                 </p>
               </div>
             </div>
@@ -80,8 +80,8 @@ export default class EasierDirectDebit extends React.Component {
               <div className='product-grid__container u-text-center u-padding-Vl'>
                 <i role='img' className='greater-anglia-logo stories-item__logo--greater-anglia'></i>
                 <p className='u-size-3of4 u-center u-color-p u-margin-Txxs'>
-                  "GoCardless have taken all of the pain out of setting up and managing Direct Debit. Switching to GoCardless has saved
-                  us time and money. Their system is incredibly simple and their expertise is second to none."
+                  "Switching to GoCardless has saved us time and money. GoCardless have taken all of the pain out of setting up and
+                  managing Direct Debit. Their system is incredibly simple and their expertise is second to none."
                 </p>
               </div>
             </div>
