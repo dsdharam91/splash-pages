@@ -243,6 +243,10 @@ export default {
     description: 'Devenez partenaires de GoCardless et laissez vos utilisateurs prendre des paiements par prélèvement SEPA dans votre plateforme.',
     explainer: 'Offrez GoCardless à vos clients',
   },
+  payments_by_direct_debit: {
+    title: 'Paiements par prélèvement SEPA',
+    description: 'Le prélèvement SEPA est plus fiable et économique que les cartes. C\'est également plus efficace que les virements et chèques. Apprenez-en plus sur les paiements par prélèvement.',
+  },
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
