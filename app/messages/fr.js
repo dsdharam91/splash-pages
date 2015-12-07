@@ -245,7 +245,7 @@ export default {
   },
   payments_by_direct_debit: {
     title: 'Paiements par prélèvement SEPA',
-    description: "Le prélèvement SEPA est plus fiable et économique que les cartes. C'est également plus efficace que les virements et chèques. Apprenez-en plus sur les paiements par prélèvement.",
+    description: 'Le prélèvement SEPA est plus fiable et économique que les cartes. C\'est également plus efficace que les virements et chèques. Apprenez-en plus sur les paiements par prélèvement.',
   },
   pro_docs: {
     title: 'Pro API',

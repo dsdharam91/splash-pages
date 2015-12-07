@@ -146,7 +146,7 @@ export default class PaymentsByDirectDebitFr extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl u-text-center u-center'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
-                Ouvrir un compte prend 5 minutes
+                Ouvrir un compte prend 2 minutes
               </h2>
               <Href to='signup.path' className='btn'>Prenez des paiements aujourd'hui</Href>
               <p className='u-color-p u-margin-Ts'>Pas de frais de mise en place, de frais mensuels ou de frais cachés</p>
