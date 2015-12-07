@@ -76,9 +76,6 @@ export default class StoriesFr extends React.Component {
               La Foundation of Hearts, une ONG des supporteurs du Hearts FC,
               peut prendre plus de 8.000 donations par mois facilement.
             </StoryLink>
-            <StoryLink imgClass='mutinerie-logo stories-item__logo--mutinerie' to='stories_mutinerie'>
-              L'espace de co-working Mutinerie a réduit de 10 heures par mois la gestion administrative des paiements.
-            </StoryLink>
           </div>
         </div>
 

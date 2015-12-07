@@ -119,7 +119,6 @@ import StoriesGreaterAnglia from '../pages/stories/stories/greater-anglia';
 import StoriesZenchef from '../pages/stories/stories/zenchef';
 import StoriesTheFrenchTalents from '../pages/stories/stories/the-french-talents';
 import StoriesHabitat from '../pages/stories/stories/habitat';
-import StoriesMutinerie from '../pages/stories/stories/mutinerie';
 
 export var homeRoute = 'home';
 
@@ -1057,12 +1056,6 @@ export const config = Immutable.fromJS([
   [StoriesHabitat, { name: 'stories_habitat', category: 'stories' }, {
       fr: {
         path: '/references/habitat',
-      },
-    },
-  ],
-  [StoriesMutinerie, { name: 'stories_mutinerie', category: 'stories' }, {
-      fr: {
-        path: '/references/mutinerie',
       },
     },
   ],
