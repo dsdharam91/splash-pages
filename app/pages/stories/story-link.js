@@ -15,7 +15,7 @@ export default class StoryLink extends React.Component {
 
   render() {
     const cssSizeClass = this.props.cssSizeClass || 'u-size-1of3';
-    const storyLinkClass = classNames('grid__cell u-link-clean u-padding-Rxs u-padding-Bm', cssSizeClass)
+    const storyLinkClass = classNames('grid__cell u-link-clean u-padding-Rxs u-padding-Bm', cssSizeClass);
     return (
       <Link to={this.props.to} className={storyLinkClass}>
         <div className='product-grid__container u-text-center u-padding-Vl'>
