@@ -44,7 +44,12 @@ export default class HomeNl extends React.Component {
                   Eurozone &amp; Verenigd Koninkrijk
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Accepteer Nederlandse en internationale betalingen met SEPA incasso (Eurozone) en BACS (Verenigd Koninkrijk)
+                  <Translation locales='nl-NL'>
+                  Accepteer Nederlandse en internationale incasso. We ondersteunen reeds SEPA (Eurozone), BACS (Verenigd Koninkrijk) en Autogiro (Zweden)
+                  </Translation>
+                  <Translation locales='nl-BE'>
+                  Accepteer Belgische en internationale domiciliëringen. We ondersteunen reeds SEPA (Eurozone), BACS (Verenigd Koninkrijk) en Autogiro (Zweden)
+                  </Translation>
                 </p>
               </div>
 

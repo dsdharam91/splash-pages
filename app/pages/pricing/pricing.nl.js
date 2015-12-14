@@ -105,7 +105,7 @@ export default class PricingNl extends React.Component {
               <p className='u-color-p'>
                 <IfLocale hasPercentagePricing>
                   Dat klopt, we rekenen enkel de kosten aan in de tabel hierboven en niets meer.
-                  We rekenen nooit kosten aan voor terugboekingen of niet-succesvolle betalingen.<br />
+                  We rekenen nooit kosten aan voor storneringen of niet-succesvolle betalingen.<br />
                   Bij GoCardless betaalt u enkel <Message pointer='pricing.per_transaction_amount_normal' /> per verrichting,
                   met een maximum van <Message pointer="pricing.cost_cap" />.<br />
                   Met GoCardless Pro, betaalt u <Message pointer='pricing.pro_monthly_fee' /> per maand en
@@ -113,7 +113,7 @@ export default class PricingNl extends React.Component {
                 </IfLocale>
                 <IfLocale hasPercentagePricing={false}>
                   Dat klopt, we rekenen enkel <Message pointer='pricing.pro_monthly_fee' /> per maand en een kost per verrichting.
-                  We rekenen nooit kosten aan voor terugboekingen of niet-succesvolle betalingen.
+                  We rekenen nooit kosten aan voor storneringen of niet-succesvolle betalingen.
                 </IfLocale>
               </p>
             </div>
