@@ -29,10 +29,10 @@ export default class FeaturesNl extends React.Component {
               <div className='page-hero__inner'>
                 <div className='page-hero__text'>
                   <h1 className='u-text-heading u-margin-Tm u-color-invert u-text-center u-text-xl u-text-light'>
-                   Ontvang vandaag nog uw eerste betalingen
+                   Accepteer vandaag nog uw eerste betalingen
                   </h1>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    GoCardless is de snelste en eenvoudigste manier om eenmalige en <br />terugkerende online betalingen te incasseren
+                    GoCardless is de snelste en eenvoudigste manier om eenmalige en <br />terugkerende online betalingen te accepteren
                   </p>
                 </div>
               </div>
@@ -121,7 +121,7 @@ export default class FeaturesNl extends React.Component {
                       Automatiseer alles
                     </div>
                     <p className='u-color-p u-margin-Txs'>
-                      GoCardless automatiseert het incasseren, opvolgen en reconciliëren van betalingen. Wij doen het harde werk voor u.
+                      GoCardless automatiseert het ontvangen, opvolgen en reconciliëren van betalingen. Wij doen het harde werk voor u.
                     </p>
                   </div>
                 </div>
@@ -135,8 +135,14 @@ export default class FeaturesNl extends React.Component {
                       Betere klantenbinding
                     </div>
                     <p className='u-color-p u-margin-Txs'>
+                    <Translation locales='nl-NL'>
                       Aangezien GoCardless rond machtigingen en incasso gebouwd is,
                       verliest u geen klanten door annulering of vervallen van krediet kaarten.
+                    </Translation>
+                    <Translation locales='nl-BE'>
+                      Aangezien GoCardless rond mandaten en domiciliëringen gebouwd is,
+                      verliest u geen klanten door annulering of vervallen van krediet kaarten.
+                    </Translation>
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
@@ -188,9 +194,9 @@ export default class FeaturesNl extends React.Component {
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Bekijk uw data op elk ogenblik zoals u dat wil. GoCardless is compatibel met de meeste boekhoudpakketten.
                   </p>
-                  <h3 className='u-text-s'>Incasseer dagelijks betalingen</h3>
+                  <h3 className='u-text-s'>Ontvang dagelijks betalingen</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    Met GoCardless kan u zo vaak als u wil betalingen incasseren — zonder bijkomend werk of kosten.
+                    Met GoCardless kan u zo vaak als u wil betalingen accepteren — zonder bijkomend werk of kosten.
                   </p>
                 </div>
               </div>
@@ -203,23 +209,29 @@ export default class FeaturesNl extends React.Component {
                     Uw klanten zullen het geweldig vinden
                   </h2>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    GoCardless is een erkende betalingsdienst, die betalingen
+                    GoCardless is een erkende betalingsdienst die betalingen
                     snel en eenvoudig maakt voor u en uw klanten.
                   </p>
                   <h3 className='u-text-s'>Eenvoudige online setup</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    Het volledige proces is online. Uw klanten kunnen betalingen machtigen in enkele minuten
+                    Het volledige proces is online. Uw klanten kunnen in enkele minuten betalingen machtigen
                     via ons online formulier — ook mobiel.
                   </p>
                   <h3 className='u-text-s'>Uw logo en uw naam</h3>
                   <p className='u-color-p u-margin-Bm'>
-                    Creëer een goede gebruikerservaring door uw logo,<br />
+                    Creëer een goede gebruikerservaring door uw logo<br />
                     aan ons betalingsformulier toe te voegen, en uw klanten na de betaling automatisch naar uw website verder te leiden.
                   </p>
                   <h3 className='u-text-s'>Een veilige en eenvoudige manier om te betalenn</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                  <Translation locales='nl-NL'>
                     Met SEPA incasso hoeven uw klanten zich geen zorgen meer te maken een betaling te missen.
                     Uw klanten zijn daarenboven beschermd door SEPA Direct Debit klantenbescherming.
+                  </Translation>
+                  <Translation locales='nl-BE'>
+                    Met SEPA domiciliëringen hoeven uw klanten zich geen zorgen meer te maken een betaling te missen.
+                    Uw klanten zijn daarenboven beschermd door SEPA Direct Debit klantenbescherming.
+                  </Translation>
                   </p>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center'>
@@ -278,7 +290,7 @@ export default class FeaturesNl extends React.Component {
                     Uw online dashboard
                   </h2>
                   <div className='u-text-heading u-color-heading u-text-l u-text-light'>
-                    Alles wat u nodig heeft om online betalingen te ontvangen, zonder enige software installatie.
+                    Alles wat u nodig heeft om online betalingen te accepteren, zonder enige software installatie.
                   </div>
                   <hr className='u-margin-Vxxl' />
                 </div>
