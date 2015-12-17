@@ -54,7 +54,14 @@ export default class PricingEn extends React.Component {
                     </IfLinkExists>
                     <li className='pricing-options__list-button'>
                       <IfLocale hasInstantSignup>
-                        <Href to='signup.path' className='btn u-size-full'>Sign up today</Href>
+                        <Href to='signup.path' className='btn u-size-full'>
+                          <Translation locales={['en']} exclude={['en-SE']}>
+                            Sign up today
+                          </Translation>
+                          <Translation locales='en-SE'>
+                            Join the beta
+                          </Translation>
+                        </Href>
                       </IfLocale>
                       <IfLocale hasInstantSignup={false}>
                         <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contact sales</Link>

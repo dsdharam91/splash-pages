@@ -19,6 +19,13 @@ export default {
     header: 'Accept recurring payments across Europe',
     desc: 'GoCardless allows you to collect Direct Debit (Autogiro) payments from Sweden, the Eurozone and the UK in a single integration.',
   },
+  cta: {
+    basic: 'Join the beta',
+    signup: 'Join The Beta',
+  },
+  signup_cta: {
+    button_text: 'Join The Beta',
+  },
   pricing: {
     cost_cap: '20 kr',
     description: 'Collect Direct Debit payments online with fees of just 1%, capped at 20 kr. Scale pricing is available for larger organisations.',
