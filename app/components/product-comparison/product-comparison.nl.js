@@ -25,10 +25,10 @@ export default class ProductComparisonNl extends React.Component {
                   <th className='u-background-dark-gray-darken u-text-heading-light u-color-invert u-padding-Am u-border-gray'>
                     <div className='u-text-l u-margin-Bxxs'>GoCardless Pro</div>
                     <Translation locales='nl-NL'>
-                    Volledige controle over SEPA Incasso
+                      Volledige controle over SEPA Incasso
                     </Translation>
                     <Translation locales='nl-BE'>
-                    Volledige controle over domiciliëringen
+                      Volledige controle over domiciliëringen
                     </Translation>
                   </th>
                 </tr>
@@ -37,10 +37,10 @@ export default class ProductComparisonNl extends React.Component {
                 <tr className='comparison-table__row'>
                   <td className='comparison-table__cell u-text-end'>Voor wie?</td>
                   <Translation locales='nl-NL'>
-                  <td className='comparison-table__cell'>Midden- en kleinbedrijf</td>
+                    <td className='comparison-table__cell'>Midden- en kleinbedrijf</td>
                   </Translation>
                   <Translation locales='nl-BE'>
-                  <td className='comparison-table__cell'>Kleine- en middelgrote ondernemingen</td>
+                    <td className='comparison-table__cell'>Kleine- en middelgrote ondernemingen</td>
                   </Translation>
                   <td className='comparison-table__cell'>Bedrijven die volledige controle willen</td>
                 </tr>
