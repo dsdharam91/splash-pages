@@ -7,7 +7,7 @@ export default {
   email: 'sweden@gocardless.com',
   country_properties: {
     local_scheme: 'bg-autogiro',
-    has_instant_signup: false,
+    has_instant_signup: true,
     has_percentage_pricing: true,
   },
   prospect_form: {
