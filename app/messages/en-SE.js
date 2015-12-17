@@ -11,7 +11,6 @@ export default {
     has_percentage_pricing: true,
   },
   prospect_form: {
-    intro_message: 'We are currently beta testing our Autogiro service. Participants can collect Autogiro payments for free during the trial.',
     name_placeholder: 'William Johansson',
     email_placeholder: 'example@companyname.se',
     phone_placeholder: '0844 680 379',
