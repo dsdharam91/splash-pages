@@ -45,10 +45,10 @@ export default class HomeNl extends React.Component {
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                   <Translation locales='nl-NL'>
-                  Accepteer Nederlandse en internationale incasso. We ondersteunen reeds SEPA (Eurozone), BACS (Verenigd Koninkrijk) en Autogiro (Zweden)
+                    Accepteer Nederlandse en internationale incasso. We ondersteunen reeds SEPA (Eurozone), BACS (Verenigd Koninkrijk) en Autogiro (Zweden)
                   </Translation>
                   <Translation locales='nl-BE'>
-                  Accepteer Belgische en internationale domiciliëringen. We ondersteunen reeds SEPA (Eurozone), BACS (Verenigd Koninkrijk) en Autogiro (Zweden)
+                    Accepteer Belgische en internationale domiciliëringen. We ondersteunen reeds SEPA (Eurozone), BACS (Verenigd Koninkrijk) en Autogiro (Zweden)
                   </Translation>
                 </p>
               </div>

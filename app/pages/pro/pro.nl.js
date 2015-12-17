@@ -22,12 +22,14 @@ export default class ProNl extends React.Component {
               <div className='page-hero__inner'>
                 <div className='page-hero__text'>
                   <Translation locales='nl-NL'>
-                  <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>Volledig controle
-                  over SEPA incasso</h1>
+                    <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>
+                      Volledig controle over SEPA incasso
+                    </h1>
                   </Translation>
                   <Translation locales='nl-BE'>
-                  <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>Volledig controle
-                  over SEPA domiciliëringen</h1>
+                    <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>
+                      Volledig controle over SEPA domiciliëringen
+                    </h1>
                   </Translation>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
                     Een innovatief platform om uw netwerk <br />voor terugkerende betalingen te bouwen
@@ -78,18 +80,18 @@ export default class ProNl extends React.Component {
                   </h2>
                   <p className='u-text-s u-color-p u-margin-Txs'>
                     <Translation locales='nl-NL'>
-                    Ontwikkeld voor grotere bedrijven,
-                    GoCardless Pro combineert het gebruiksgemak van ons origineel
-                    GoCardless product met volledige controle over betalingen en de gebruikerservaring.
-                    Het laat u tevens toe zowel betalingen uit Nederland, de Eurozone en Verenigd Koninkrijk te ontvangen
-                    met één eenvoudige integratie.
+                      Ontwikkeld voor grotere bedrijven,
+                      GoCardless Pro combineert het gebruiksgemak van ons origineel
+                      GoCardless product met volledige controle over betalingen en de gebruikerservaring.
+                      Het laat u tevens toe zowel betalingen uit Nederland, de Eurozone en Verenigd Koninkrijk te ontvangen
+                      met één eenvoudige integratie.
                     </Translation>
                     <Translation locales='nl-BE'>
-                    Ontwikkeld voor grotere bedrijven,
-                    GoCardless Pro combineert het gebruiksgemak van ons origineel
-                    GoCardless product met volledige controle over betalingen en de gebruikerservaring.
-                    Het laat u tevens toe zowel betalingen uit België, de Eurozone, en Verenigd Koninkrijk te ontvangen
-                    met één eenvoudige integratie.
+                      Ontwikkeld voor grotere bedrijven,
+                      GoCardless Pro combineert het gebruiksgemak van ons origineel
+                      GoCardless product met volledige controle over betalingen en de gebruikerservaring.
+                      Het laat u tevens toe zowel betalingen uit België, de Eurozone, en Verenigd Koninkrijk te ontvangen
+                      met één eenvoudige integratie.
                     </Translation>
                   </p>
                 </div>
@@ -196,14 +198,14 @@ export default class ProNl extends React.Component {
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
                       <Translation locales='nl-NL'>
-                      GoCardless Pro is het enige product dat u toelaat
-                      SEPA incasso betalingen uit de Eurozone en Verenigd Koninkrijk te ontvangen met één eenvoudige integratie.
-                      Met onze API kan uw bedrijf betalingen ontvangen van meer dan 500 miljoen mensen in 22 Europese landen.
+                        GoCardless Pro is het enige product dat u toelaat
+                        SEPA incasso betalingen uit de Eurozone en Verenigd Koninkrijk te ontvangen met één eenvoudige integratie.
+                        Met onze API kan uw bedrijf betalingen ontvangen van meer dan 500 miljoen mensen in 22 Europese landen.
                       </Translation>
                       <Translation locales='nl-BE'>
-                      GoCardless Pro is het enige product dat u toelaat
-                      SEPA domiciliëringen uit de Eurozone en Verenigd Koninkrijk te ontvangen met één eenvoudige integratie.
-                      Met onze API kan uw bedrijf betalingen ontvangen van meer dan 500 miljoen mensen in 22 Europese landen.
+                        GoCardless Pro is het enige product dat u toelaat
+                        SEPA domiciliëringen uit de Eurozone en Verenigd Koninkrijk te ontvangen met één eenvoudige integratie.
+                        Met onze API kan uw bedrijf betalingen ontvangen van meer dan 500 miljoen mensen in 22 Europese landen.
                       </Translation>
                     </p>
                   </div>

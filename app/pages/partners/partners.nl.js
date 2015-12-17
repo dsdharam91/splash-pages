@@ -31,14 +31,8 @@ export default class PartnersNl extends React.Component {
               <div className='page-hero__text'>
                 <h1 className='u-text-heading u-color-invert u-text-light u-padding-Tm'>Help uw klanten online betalingen te accepteren</h1>
                   <p className='u-text-heading-light u-text-m u-color-invert u-padding-Vs'>
-                    <Translation locales='nl-NL'>
-                    Word GoCardless partner en maak het gemakkelijk voor uw klanten om terugkerende betalingen in Nederland
-                    en andere landen te accepteren
-                    </Translation>
-                    <Translation locales='nl-BE'>
-                    Word GoCardless partner en maak het gemakkelijk voor uw klanten om terugkerende betalingen in België
-                    en andere landen te accepteren
-                    </Translation>
+                    Word GoCardless partner en maak het gemakkelijk voor uw klanten om terugkerende betalingen
+                    in <Message pointer='country' /> en andere landen te accepteren
                   </p>
                </div>
             </div>
@@ -81,12 +75,12 @@ export default class PartnersNl extends React.Component {
               </h2>
               <p className='u-size-2of3 u-center u-color-p u-padding-Ts'>
                 <Translation locales='nl-NL'>
-                GoCardless laat u toe van de lage kosten en het lage percentage niet-succesvolle verrichtingen van automatisch incasso
-                 te genieten zonder de problemen van traditionele aanbieders.
+                  GoCardless laat u toe van de lage kosten en het lage percentage niet-succesvolle verrichtingen van automatisch incasso
+                  te genieten zonder de problemen van traditionele aanbieders.
                 </Translation>
                 <Translation locales='nl-BE'>
-                GoCardless laat u toe van de lage kosten en het lage percentage niet-succesvolle verrichtingen van domiciliëringen
-                 te genieten zonder de problemen van traditionele aanbieders.
+                  GoCardless laat u toe van de lage kosten en het lage percentage niet-succesvolle verrichtingen van domiciliëringen
+                  te genieten zonder de problemen van traditionele aanbieders.
                 </Translation>
               </p>
               <div className='site-container u-padding-Txxl'>
