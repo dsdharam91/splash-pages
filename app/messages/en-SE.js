@@ -1,5 +1,3 @@
-
-
 export default {
   country: 'Sweden',
   phone_full: '+46 844 680 379',

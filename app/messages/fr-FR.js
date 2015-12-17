@@ -1,5 +1,3 @@
-
-
 export default {
   country: 'France',
   country_properties: {

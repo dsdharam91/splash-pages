@@ -76,7 +76,7 @@ export default class PaymentsByDirectDebitFr extends React.Component {
           <div className='site-container u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
-                13.000 entreprises font confiance à GoCardless pour leurs prélèvements
+                <Message pointer='number_of_merchants' /> entreprises font confiance à GoCardless pour leurs prélèvements
               </h2>
               <div className='u-text-center u-margin-Tl u-padding-Vs u-center'>
                 <img src='/images/fr/logos/pro-logos-fr@2x.jpg' />
@@ -134,9 +134,12 @@ export default class PaymentsByDirectDebitFr extends React.Component {
                     Si vous avez déjà des mandats SEPA, GoCardless assurera leur migration gratuitement.</p>
                 </div>
                 <div className='grid__cell u-size-1of3 u-text-center'>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Rejoignez 13.000 clients</h3>
+                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>
+                    Rejoignez <Message pointer='number_of_merchants' /> clients
+                  </h3>
                   <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                    Nous avons prélevé plus de 1 milliard d'Euros pour le compte de plus de 13.000 clients.</p>
+                    Nous avons prélevé plus de 1 milliard d'Euros pour le compte de plus
+                    de <Message pointer='number_of_merchants' /> clients.</p>
                 </div>
               </div>
             </div>

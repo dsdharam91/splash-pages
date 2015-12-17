@@ -1,4 +1,5 @@
 import React from 'react';
+import Message from '../../components/message/message';
 import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import TickSquareIcon from '../../icons/svg/tick-square';
@@ -174,7 +175,7 @@ export default class HomeFr extends React.Component {
                 Entre de bonnes mains
               </h2>
               <p className='u-text-s u-color-p u-margin-Txs'>
-                Nous collectons des millions pour plus de 10.000 clients chaque jour,
+                Nous collectons des millions pour plus de <Message pointer='number_of_merchants' /> clients chaque jour,
                 en conformité avec les règles SEPA et sous la supervision de la FCA.
                 Nous aidons les start-ups comme les plus grandes entreprises.
               </p>

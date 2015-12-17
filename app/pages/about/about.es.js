@@ -1,4 +1,5 @@
 import React from 'react';
+import Message from '../../components/message/message';
 import Translation from '../../components/translation/translation';
 
 export default class AboutEs extends React.Component {
@@ -21,7 +22,7 @@ export default class AboutEs extends React.Component {
               <p className='para'>
                 Fundada en 2011, hemos crecido muy rápido para convertirnos en una de las institutiones de Domiciliación
                 Bancaria más grandes de Europa,
-                procesando más de mil millones de Euros para más de 12.000 empresas.
+                procesando más de mil millones de Euros para más de <Message pointer='number_of_merchants' /> empresas.
               </p>
               <p className='para'>
                 Trabajamos con todo tipo de organizaciones: pequeños gimnasios y clubes nos utilizan para reducir el
