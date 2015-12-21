@@ -1,6 +1,5 @@
 import React from 'react';
 import Translation from '../../../components/translation/translation';
-import Link from '../../../components/link/link';
 
 export default class TeamDe extends React.Component {
   displayName = 'TeamDe'
@@ -15,10 +14,10 @@ export default class TeamDe extends React.Component {
                 Wir sind ein junges Team mit der Mission ein neues Zahlungsnetzwerk für das Internet zu bauen.
               </h2>
               <p className='u-text-heading-light u-text-xs u-color-meta'>
-                Sie möchten Teil von GoCardless zu werden?<br />
-                Werfen Sie einen Blick auf unsere <Link to='jobs' className='u-link-clean ku-link-color-meta u-text-underline'>
-                Ausschreibungen
-                </Link>
+                Sie möchten Teil von GoCardless werden?<br />
+                Werfen Sie einen Blick auf
+                unsere <a href='https://gocardless.com/about/jobs/' className='u-link-clean ku-link-color-meta u-text-underline'>
+                Ausschreibungen (auf Englisch)</a>
               </p>
             </div>
             <div className='grid__cell u-size-2of3'>
