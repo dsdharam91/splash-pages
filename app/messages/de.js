@@ -59,9 +59,6 @@ export default {
         default: 'Vielen Dank, ein GoCardless Mitarbeiter wird sich in den nächsten 24 Stunden mit Ihnen in Verbindung setzen.',
       },
     },
-    holding: {
-      submit: '',
-    },
   },
   not_found: {
     title: 'Nicht verfügbar',

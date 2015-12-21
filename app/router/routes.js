@@ -138,12 +138,6 @@ export const config = Immutable.fromJS([
       es: {
         path: '/',
       },
-      se: {
-        path: '/',
-      },
-      no: {
-        path: '/',
-      },
       nl: {
         path: '/',
       },

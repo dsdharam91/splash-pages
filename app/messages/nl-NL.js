@@ -25,18 +25,20 @@ export default {
   partners_email: 'netherlands@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
-    name_label: 'Naam',
-    name_placeholder: 'Jan Jansen',
-    email_label: 'Werk email',
-    email_placeholder: 'voorbeeld@bedrijfsnaam.com',
-    phone_label: 'Werk telefoon',
-    phone_placeholder: '020 123 4567',
-    submit: 'Verstuur',
-    success_messages: {
-      '0-100': 'Bedankt, iemand van het GoCardless team zal u spoedig contacteren.',
-      '100-500': 'Bedankt, iemand van het GoCardless team zal u spoedig contacteren.',
-      '500+': 'Bedankt, iemand van het GoCardless team zal u spoedig contacteren.',
-      default: 'Bedankt, iemand van het GoCardless team zal u in de komende 24 uur contacteren.',
+    sales: {
+      name_label: 'Naam',
+      name_placeholder: 'Jan Jansen',
+      email_label: 'Werk email',
+      email_placeholder: 'voorbeeld@bedrijfsnaam.com',
+      phone_label: 'Werk telefoon',
+      phone_placeholder: '020 123 4567',
+      submit: 'Verstuur',
+      success_messages: {
+        '0-100': 'Bedankt, iemand van het GoCardless team zal u spoedig contacteren.',
+        '100-500': 'Bedankt, iemand van het GoCardless team zal u spoedig contacteren.',
+        '500+': 'Bedankt, iemand van het GoCardless team zal u spoedig contacteren.',
+        default: 'Bedankt, iemand van het GoCardless team zal u in de komende 24 uur contacteren.',
+      },
     },
   },
   home: {
