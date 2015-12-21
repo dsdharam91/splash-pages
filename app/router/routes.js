@@ -141,6 +141,9 @@ export const config = Immutable.fromJS([
       nl: {
         path: '/',
       },
+      pt: {
+        path: '/',
+      },
     },
   ],
   [Pricing, { name: 'pricing' }, {
