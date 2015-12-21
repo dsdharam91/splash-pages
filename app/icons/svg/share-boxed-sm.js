@@ -9,7 +9,6 @@ export default class ShareBoxedSmIcon extends React.Component {
     className: React.PropTypes.string,
   };
 
-  /*eslint-disable max-len*/
   render() {
     return (
       <svg {...this.props} xmlns="http://www.w3.org/2000/svg" version="1.1" width={16} height={16} data-icon="share-boxed" data-container-transform="translate(0 1)" viewBox="0 0 16 16">

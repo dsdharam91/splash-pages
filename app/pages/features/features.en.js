@@ -305,6 +305,12 @@ export default class FeaturesEn extends React.Component {
                       Customers are also protected by SEPA Direct Debit Customer Protection.
                     </p>
                   </IfLocale>
+                  <IfLocale domesticScheme='bg-autogiro'>
+                    <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                      With Autogiro, there's no need for customers to worry about missing a payment.
+                      Customers are also protected by the Autogiro Scheme Rules and the Payment Services Act (2010:751).
+                    </p>
+                  </IfLocale>
                   <IfLocale domesticScheme='bacs'>
                     <p className='u-size-5of6 u-color-p u-margin-Bm'>
                       With Direct Debit, there's no need for customers to worry about missing a payment and
@@ -319,7 +325,12 @@ export default class FeaturesEn extends React.Component {
                   </IfLinkExists>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center'>
-                  <img src='/images/features/payment-page--gyms.jpg' className='vertical-page__mobile-image' />
+                  <Translation locales={['en-SE']}>
+                    <img src='/images/sv/basic-payment-page-sv@2x.png' className='vertical-page__mobile-image' />
+                  </Translation>
+                  <Translation locales={['en']} exclude={['en-SE']}>
+                    <img src='/images/features/payment-page--gyms.jpg' className='vertical-page__mobile-image' />
+                  </Translation>
                 </div>
               </div>
             </div>

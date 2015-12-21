@@ -5,6 +5,8 @@ import { PropTypes } from '../../helpers/prop-types/prop-types';
 
 function inlineMessageWithContext(context) {
   return class extends React.Component {
+    displayName = 'inlineMessageWithContext'
+
     static childContextTypes = {
       messages: PropTypes.object.isRequired,
       currentLocale: PropTypes.locale,

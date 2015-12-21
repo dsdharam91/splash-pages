@@ -1,6 +1,5 @@
-/*eslint-disable max-len*/
-
 export default {
+  number_of_merchants: '13.000',
   header: {
     our_products: 'Nuestros Productos',
     login_btn: 'Login',
@@ -24,7 +23,7 @@ export default {
     learn_more: 'Infórmate sobre nuestras tarifas',
   },
   signup_cta: {
-    main: 'Regístrate en minutos, acepta pagos Hoy',
+    main: 'Regístrate en minutos, acepta pagos hoy',
     button_text: 'Empieza a cobrar a través de Domiciliaciones',
     description: 'Sin costes por adelantado, sin comisiones encubiertas, sin compromiso',
   },
@@ -39,9 +38,6 @@ export default {
     address_country: 'Reino Unido',
     address_country_iso: 'GB',
   },
-  phone_full: '+34 91 198 1220',
-  phone_local: '+34 91 198 1220',
-  email: 'Spain@gocardless.com',
   partners_email: 'partnerships@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
@@ -78,7 +74,7 @@ export default {
     header2: 'red de pagos para Internet.',
   },
   home: {
-    title: 'La manera más sencilla de cobrar recurrentemente a tus clientes',
+    title: 'Domiciliación Bancaria simplicada',
     nav_title: 'Home',
     description: 'GoCardless simplifica los cobros recurrentes. Ayudamos a más de 12.000 empresas en Europa, tanto en suscripciones como en facturación entre empresas.',
     link: 'home page',
@@ -95,8 +91,14 @@ export default {
     information1: 'Tu información está segura con nosotros.',
     information2: 'Nunca la compartiremos ni se la venderemos a nadie.',
   },
+  features: {
+    title: 'Domiciliación Bancaria Online Rápida y Simple',
+    nav_title: 'GoCardless',
+    description: 'GoCardless es la manera más sencilla de pagar online. Realiza tus cobros directamente desde la cuenta bancaria de tus clientes. Ahorra tiempo y mejora tu flujo de caja.',
+    explainer: 'Simplificamos las Domiciliaciones Bancarias',
+  },
   pro: {
-    title: 'GoCardless Pro: Control Total sobre tus Domiciliaciones Bancarias',
+    title: 'Control Total de tus Domiciliaciones Bancarias',
     nav_title: 'GoCardless Pro',
     description: 'GoCardless Pro te permite controlar totalmente tus cobros a través de Domiciliación Bancaria. Personalizable a tu empresa y con una sencilla API.',
     explainer: 'Control Total sobre tus Domiciliaciones Bancarias',
@@ -115,6 +117,16 @@ export default {
       title: 'FAQ',
     },
   },
+  security: {
+    title: 'Seguridad',
+    nav_title: 'Seguridad',
+    description: 'GoCardless está construido desde su comienzo con encriptación de grado militar para mantener tus detalles seguros. Regulated by the Financial Conduct Authority.',
+    header1: 'Encriptación de grado militar a todos los niveles',
+    header2: 'GoCardless usa encriptación de grado militar para mantenerte seguro, y nos utilizan y apoyan las mayores empresas de pagos del mundo.',
+    fca_authorised_byline: 'GoCardless está regulada por la Financial Conduct Authority en el Reino Unido como una Entidad de Pagos Autorizada para realizar cobros por cualquier parte de Europa.',
+    consumer_protection_title: 'Protección del Cliente',
+    trusted_by_thousands_byline: 'GoCardless ofrece acceso a la red SEPA de Domiciliaciones a decenas de miles de empresas por toda Europa.',
+  },
   team: {
     title: 'Equipo',
     description: '',
@@ -123,6 +135,12 @@ export default {
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
+  },
+  signin: {
+    path: 'https://manage.gocardless.com',
+  },
+  signup: {
+    path: 'https://manage.gocardless.com/signup?lang=es',
   },
   blog: {
     title: 'Blog',
@@ -135,7 +153,39 @@ export default {
     path: '/guides/sepa/',
   },
   help: {
-    title: 'Support',
+    title: 'Soporte',
     nav_title: 'Soporte',
+  },
+  legal: {
+    title: 'Nuestros Términos y Condiciones',
+    nav_title: 'Introducción',
+    footer_nav_title: 'Legal',
+    description: '',
+    sidebar_text: '¿Tienes una pregunta? Llamanos',
+  },
+  legal_customers: {
+    title: 'Términos y Condiciones - Usuarios',
+    nav_title: 'Términos para usuarios',
+    description: '',
+  },
+  legal_merchants: {
+    title: 'Tñerminos y Condiciones - Empresas',
+    nav_title: 'Términos para Empresas',
+    description: '',
+  },
+  legal_partners: {
+    title: 'Our terms of service - Partners',
+    nav_title: 'Partner agreement',
+    description: '',
+  },
+  legal_privacy: {
+    title: 'Términos y Condiciones - Privacidad',
+    nav_title: 'Política de Privacidad',
+    description: '',
+  },
+  legal_restrictions: {
+    title: 'Términos y Condiciones - Restricciones',
+    nav_title: 'Actividades Restringidas',
+    description: '',
   },
 };

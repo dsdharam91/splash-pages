@@ -38,7 +38,7 @@ export default class PricingEs extends React.Component {
                       <b>Perfecto para pequeñas y medianas empresas</b>
                     </li>
                     <li className='pricing-options__list-item'>
-                      Sin costes por adelantado, sin comisiones encubiertas, sin compromiso</li>
+                      Sin costes por adelantado, sin comisiones ocultas, sin compromiso</li>
                     <li className='pricing-options__list-item'>
                       Tarifas escalables disponibles (<a href='#scale-pricing-container'>?</a>)
                     </li>
@@ -74,7 +74,7 @@ export default class PricingEs extends React.Component {
                     <b>Para empresas que quieren control total</b>
                   </li>
                   <li className='pricing-options__list-item'>
-                    <b><Message pointer='pricing.pro_monthly_fee' /> mensualmente</b>, sin gastos ocultos
+                    <b><Message pointer='pricing.pro_monthly_fee' /> de gasto fijo mensual</b>, sin gastos ocultos de ningún tipo
                   </li>
                   <li className='pricing-options__list-item'>
                     Para negocios con <b><Message pointer='pricing.pro_number_of_monthly_payments' /></b> al mes

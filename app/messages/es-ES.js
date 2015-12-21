@@ -1,13 +1,14 @@
-/*eslint-disable max-len*/
-
 export default {
   country: 'España',
   country_properties: {
     local_scheme: 'sepa',
-    has_instant_signup: false,
-    has_percentage_pricing: false,
+    has_instant_signup: true,
+    has_percentage_pricing: true,
     show_holding_page: false,
   },
+  phone_full: '+34 91 198 1220',
+  phone_local: '+34 91 198 1220',
+  email: 'spain@gocardless.com',
   hero: {
     header: 'Simplificamos los cobros recurrentes',
     desc: 'GoCardless te permite realizar Domiciliaciones Bancarias Online de forma sencilla y automática',

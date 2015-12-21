@@ -1,36 +1,25 @@
-import React from 'react';
+qqqimport React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class AccountExecutiveGermany extends React.Component {
-  displayName = 'AccountExecutiveGermany'
+export default class AccountManagerGermany extends React.Component {
+  displayName = 'AccountManagerGermany'
 
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Account Executive: Germany </h3>
+        <h3 className='u-text-heading-light u-text-m u-color-heading'>Account Manager: Germany </h3>
         <p className='para'>
-          Kick-start our growth in Germany.
+         Find and close new business across Germany and help our customers make recurring payments simple.
         </p>
         <p className='para'>
-          GoCardless is growing fast. We've recently started serving large
-          organisations like Box and TripAdvisor, as well as exciting startups
-          like Funding Circle. Thousands of businesses already trust us with
-          their payments, and hundreds more join us every week. We've gained
-          great traction in the UK, and we know we can make recurring payments
-          simpler for everyone in the Eurozone – and beyond.
+          Thousands of businesses in the UK already trust us with their payments, and hundreds more are joining us every week. We are moving into our next phase of expansion and we are looking to add new talent to the team to continue our momentum in the German market.
         </p>
         <p className='para'>
-          We're looking for bright, ambitious people to join our talented sales
-          team and accelerate our growth in the German enterprise market.
+         The need to take recurring payments is increasing: it is becoming strategically important, not only for established users of direct debit such as utilities, telecoms, and media companies, but also for the latest wave of Software as a Service and Internet of Things providers.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
-          You'll be the first point of contact for new customers who get in
-          touch to find out more about us. By becoming an expert on our product
-          and the wide variety of ways it can be used, you'll advise people on
-          their best option for taking payments. You'll listen to our customers,
-          spot opportunities where we can add value for them, and do everything
-          you can to give them the best possible chance of success.
+          GoCardless is innovating on top of the BACS network in the UK,  the SEPA network across Europe, and equivalents around the world. By making these networks easier to integrate into modern internet services and adding intelligent, powerful and flexible capabilities we are adding value in completely new ways. The ability to work with all of these together through a single integration is a real game changer. GoCardless will continue to disrupt these systems as payment mechanisms continue to evolve.
         </p>
         <p className='para'>
           You'll learn and execute our sales processes, making improvements

@@ -17,7 +17,7 @@ export default class HomeHoldingPage extends React.Component {
 
   render() {
     return (
-      <Translation locales={['se','nl','no','en-AU','en-US']}>
+      <div>
         <div className='site-header-wrapper'>
           <div className='site-header u-relative u-text-center'>
             <Link to='home' id='track-nav-home' className='header-logo u-relative u-block u-padding-Vl'>
@@ -129,14 +129,14 @@ export default class HomeHoldingPage extends React.Component {
                   Want to learn more about GoCardless?
                 </h2>
 
-                <a href='https://gocardless.com/en-GB' id='track-cta-pricing' className='btn u-margin-Tm'>
+                <a href='https://gocardless.com/' className='btn u-margin-Tm'>
                   Visit our UK site
                 </a>
               </div>
             </div>
           </div>
         </div>
-      </Translation>
+      </div>
     );
   }
 }

@@ -89,14 +89,13 @@ export class Sitemap {
    * @returns {string} A XML format representation of the Sitemap object.
    */
   toXml() {
-    /*eslint-disable max-len*/
+
     let xml = '<?xml version="1.0" encoding="UTF-8"?>\n' +
               '<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n' +
               '  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"\n' +
               '  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n' +
               '  xmlns:xhtml="http://www.w3.org/1999/xhtml"\n' +
               '  xmlns:content="https://github.com/gocardless/splash-pages#xml-sitemap-hash">\n';
-    /*eslint-enable max-len*/
     for (let pageUrl in this.urlSet) {
       let lastMod = new Date(this.urlSet[pageUrl].lastMod);
       // Date should be in W3C Datetime (YYYY-MM-DD) format

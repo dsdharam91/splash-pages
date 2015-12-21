@@ -1,12 +1,15 @@
 import React from 'react';
+import Message from '../../components/message/message';
 import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
-
 import CheckListIcon from '../../icons/svg/checklist';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
 import UsersIcon from '../../icons/svg/users';
+import IntegrationsIcon from '../../icons/svg/integrations';
+import ShopIcon from '../../icons/svg/shop';
+import ProIcon from '../../icons/svg/pro';
 
 export default class HomeEs extends React.Component {
   displayName = 'HomeEs'
@@ -31,7 +34,7 @@ export default class HomeEs extends React.Component {
                   Completamente Automatizado
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Ahorra tiempo, reduce el error humano y evita cobros fallidos
+                  Ahorra tiempo, reduce el error humano y evita cobros fallidos.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -52,7 +55,7 @@ export default class HomeEs extends React.Component {
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  +12.000 empresas
+                  +<Message pointer='number_of_merchants' /> empresas
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                   Facilitando cobros para compañías a lo largo de todo Europa, ya sean grandes o pequeñas.
@@ -61,6 +64,53 @@ export default class HomeEs extends React.Component {
             </div>
           </div>
         </div>
+
+
+        <hr className='u-margin-An' />
+        <div className='site-container u-text-center u-padding-Vxxl'>
+          <h2 className='u-text-l u-text-heading u-colo-heading u-text-light u-margin-Tl'>
+            ¿Qué deseas hacer?
+          </h2>
+          <div className='product-grid grid u-margin-Vxxl'>
+            <Link to='features' id='track-cta-features' className='u-link-clean u-text-center grid__cell u-size-1of3'>
+              <div className='product-grid__container u-padding-Vl'>
+                <figure className='svg-icon u-center'>
+                  <ShopIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
+                  <ShopIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Realizar cobros<br />con total sencillez
+                </p>
+              </div>
+              <div className='product-grid__btn btn u-size-full'>Descubre GoCardless</div>
+            </Link>
+            <Link to='pro' id='track-cta-pro' className='u-link-clean u-text-center grid__cell u-size-1of3'>
+              <div className='product-grid__container u-padding-Vl'>
+                <figure className='svg-icon u-center'>
+                  <ProIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
+                  <ProIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Tener el control total de tus<br />Domiciliaciones Bancarias
+                </p>
+              </div>
+              <div className='product-grid__btn btn u-size-full'>Descubre GoCardless Pro</div>
+            </Link>
+            <Link to='partners' id='track-cta-partners' className='u-link-clean u-text-center grid__cell u-size-1of3'>
+              <div className='product-grid__container u-padding-Vl'>
+                <figure className='svg-icon u-center'>
+                  <IntegrationsIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
+                  <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Ayudar a tus clientes<br />a realizar sus cobros
+                </p>
+              </div>
+              <div className='product-grid__btn btn u-size-full'>Descubre a nuestros Asociados</div>
+            </Link>
+          </div>
+        </div>
+
         <hr className='u-margin-An' />
         <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
           <div className='site-container u-padding-Txl'>

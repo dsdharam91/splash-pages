@@ -5,6 +5,8 @@ import { PropTypes } from '../../helpers/prop-types/prop-types';
 
 function ifLocaleWithContext(context) {
   return class extends React.Component {
+    displayName = 'ifLocaleWithContext'
+
     static childContextTypes = {
       messages: PropTypes.object.isRequired,
     }

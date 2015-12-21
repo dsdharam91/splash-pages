@@ -11,6 +11,7 @@ export default class IfLocale extends React.Component {
     hasPercentagePricing: React.PropTypes.bool,
     showHoldingPage: React.PropTypes.bool,
     children: React.PropTypes.node.isRequired,
+    tagName: React.PropTypes.string,
   }
 
   static defaultProps = {

@@ -10,6 +10,7 @@ import WhiteLabelIcon from '../../icons/svg/white-label';
 import MobileIcon from '../../icons/svg/mobile';
 import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
+import IfLinkExists from '../../components/if-link-exists/if-link-exists';
 
 export default class ProEn extends React.Component {
   displayName = 'ProEn'
@@ -74,7 +75,7 @@ export default class ProEn extends React.Component {
                     Designed specifically for larger enterprises,
                     GoCardless Pro combines the simplicity of our original
                     GoCardless product with complete control over payments and customer experience.
-                    It also allows you to collect UK and SEPA Direct Debit via one simple integration.
+                    It also allows you to collect Direct Debit payments from the UK, Sweden and the Eurozone via one simple integration.
                   </p>
                 </div>
                 <div className='grid u-margin-Tl u-padding-Tm'>
@@ -181,9 +182,9 @@ export default class ProEn extends React.Component {
                   <div className='u-center'>
                     <p className='u-text-s u-color-p u-margin-Ts'>
                       GoCardless Pro is the only product that enables you to collect
-                      Direct Debit payments from the UK and the Eurozone through a single integration.
+                      Direct Debit payments from the UK, Sweden and the Eurozone through a single integration.
                       With our API, your business can take payments from over 500 million people
-                      in 22 European countries.
+                      in 23 European countries.
                     </p>
                   </div>
                 </div>
@@ -260,7 +261,7 @@ export default class ProEn extends React.Component {
               </div>
             </div>
             <hr className='u-margin-An' />
-            <Translation locales={['en-GB','en-IE']}>
+            <IfLinkExists to='features'>
               <div id='forOptimizely-Table'>
                 <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
                   <div className='site-container u-padding-Vxl'>
@@ -283,7 +284,7 @@ export default class ProEn extends React.Component {
                 </div>
                 <hr className='u-margin-An' />
               </div>
-            </Translation>
+            </IfLinkExists>
           </div>
           <div className='section-scroll-target' id='pricing'>
             <div className='u-text-center u-padding-Vxxl'>

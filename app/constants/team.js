@@ -2,6 +2,7 @@ export const team = [
   'Octave Auger',
   'Grey Baker',
   'Baris Balic',
+  'Duncan Barrigan',
   'Angus Bayley',
   'James Berry',
   'Lewis Blackwood',
@@ -53,6 +54,7 @@ export const team = [
   'Corinne Thompson',
   'Matt Thomson',
   'Côme Trémeau',
+  'Joeri Vankeirsbilck',
   'James Walker',
   'Sam Willis',
 ];

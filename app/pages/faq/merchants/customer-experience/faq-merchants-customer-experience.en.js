@@ -94,18 +94,6 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
         <p className='para'>
           Yes - GoCardless is compatible with mobiles and tablets. Our payment pages will work in any Internet browser.
         </p>
-
-        <Translation locales='en-GB'>
-          <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
-            How can customers keep track of their payment history?
-          </h3>
-          <p className='para'>
-            As part of setting up a payment, your customer will create a
-            GoCardless account. From then on, they can <a href='/users/sign_in'
-            className='u-link-color-p u-text-underline'>log in</a> to view their dashboard, including details
-            of all their transactions.
-          </p>
-        </Translation>
       </Translation>
     );
   }

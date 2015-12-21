@@ -1,5 +1,3 @@
-/*eslint-disable max-len*/
-
 export default {
   country: 'United Kingdom',
   country_properties: {

@@ -1,5 +1,3 @@
-/*eslint-disable max-len*/
-
 export default {
   header: {
     our_products: 'Our products',
@@ -254,6 +252,7 @@ export default {
     title: 'Stories',
     nav_title: 'Stories',
     description: '',
+    link: 'Read the case study',
   },
   legal: {
     title: 'Our terms of service',
@@ -346,6 +345,14 @@ export default {
   payments_by_direct_debit: {
     title: 'Payments By Direct Debit',
     description: 'Direct Debit is cheaper & more reliable than the card networks. It\'s also more flexible than a standing order. Find out how you can take payments using Direct Debit.',
+  },
+  payments_by_direct_debit_variation_b: {
+    title: 'Payments By Direct Debit',
+    description: 'Direct Debit is cheaper & more reliable than the card networks. It\'s also more flexible than a standing order. Find out how you can take payments using Direct Debit.',
+  },
+  easier_direct_debit: {
+    title: 'An easier way to take Direct Debit',
+    description: '',
   },
   partners_guide: {
     title: 'Partnering with GoCardless',
@@ -486,36 +493,24 @@ export default {
     title: 'Data Engineer',
     description: '',
   },
-  jobs_data_analyst: {
-    title: 'Data Analyst',
-    description: '',
-  },
   jobs_designers: {
     title: 'Designers',
     description: '',
   },
-  jobs_senior_account_executive: {
-    title: 'Senior Account Executive',
+  jobs_enterprise_account_manager: {
+    title: 'Enterprise Account Manager',
     description: '',
   },
   jobs_sales_development_representative: {
     title: 'Sales Development Representative',
     description: '',
   },
-  jobs_account_executive_germany: {
-    title: 'Account Executive: Germany',
+  jobs_account_manager_germany: {
+    title: 'Account Manager: Germany',
     description: '',
   },
   jobs_business_development_germany: {
     title: 'Business Development: Germany',
-    description: '',
-  },
-  jobs_digital_marketer: {
-    title: 'Digital Marketer',
-    description: '',
-  },
-  jobs_customer_relationship_marketer: {
-    title: 'Customer Relationship Marketer',
     description: '',
   },
   jobs_content_community_manager: {
@@ -524,10 +519,6 @@ export default {
   },
   jobs_customer_support: {
     title: 'Customer Support',
-    description: '',
-  },
-  jobs_vp_people: {
-    title: 'VP People',
     description: '',
   },
   pro_docs: {

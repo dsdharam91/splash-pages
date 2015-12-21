@@ -1,4 +1,5 @@
 import React from 'react';
+import Message from '../../components/message/message';
 import Translation from '../../components/translation/translation';
 
 export default class AboutFr extends React.Component {
@@ -15,7 +16,8 @@ export default class AboutFr extends React.Component {
             <div className='grid__cell u-size-2of3'>
               <p className='u-text-s u-color-p u-margin-Txxl u-size-5of6'>
                 GoCardless est un des leaders européens du prélèvement bancaire.
-                Nous collectons plus d'un milliard d'Euros chaque année pour plus de 10.000 entreprises et organisations dont le
+                Nous collectons plus d'un milliard d'Euros chaque année pour plus
+                de <Message pointer='number_of_merchants' /> entreprises et organisations dont le
                 Guardian, Omni Capital, Funding Circle et Pieminister, avec une croissance annuelle de 600%.<br /><br />
                 Nous nous sommes lancés en 2011 avec un seul objectif : rendre les prélèvements bancaires simples et accessibles à tous,
                 instantanément et à bas coût.
@@ -32,8 +34,8 @@ export default class AboutFr extends React.Component {
                 et habilité à prélever des paiements à travers l’Union Européenne.
                 Nous sommes financés par certains des plus importants investisseurs au monde
                 dont Balderton Capital, Accel Partners, Passion Capital et Y-Combinator.
-                Plus de 10.000 entreprises et organisations de toutes tailles utilisent GoCardless pour collecter des
-                millions d'Euros tous les jours.
+                Plus de <Message pointer='number_of_merchants' /> entreprises et organisations de toutes tailles utilisent GoCardless
+                pour collecter des millions d'Euros tous les jours.
               </p>
             </div>
             <div className='grid__cell u-size-1of3'>
