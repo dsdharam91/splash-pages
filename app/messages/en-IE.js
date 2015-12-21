@@ -1,5 +1,3 @@
-
-
 export default {
   country: 'Ireland',
   phone_full: '+353 76 680 5320',

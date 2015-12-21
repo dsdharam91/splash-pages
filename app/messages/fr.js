@@ -1,6 +1,5 @@
-
-
 export default {
+  number_of_merchants: '13.000',
   header: {
     our_products: 'Nos produits',
     login_btn: 'Se connecter',

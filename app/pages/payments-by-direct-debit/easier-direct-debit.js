@@ -74,7 +74,7 @@ export default class EasierDirectDebit extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
-              GoCardless powers online Direct Debit for over 13,000 businesses
+              GoCardless powers online Direct Debit for over <Message pointer='number_of_merchants' /> businesses
             </h2>
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
               <div className='product-grid__container u-text-center u-padding-Vl'>
@@ -135,10 +135,10 @@ export default class EasierDirectDebit extends React.Component {
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Join 13,000+ businesses
+                  Join <Message pointer='number_of_merchants' />+ businesses
                 </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  We've collected more than $1 billion for over 13,000 businesses.</p>
+                  We've collected more than $1 billion for over <Message pointer='number_of_merchants' /> businesses.</p>
               </div>
             </div>
           </div>

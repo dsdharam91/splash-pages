@@ -74,7 +74,7 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
-              GoCardless powers online Direct Debit for over 13,000 merchants
+              GoCardless powers online Direct Debit for over <Message pointer='number_of_merchants' /> merchants
             </h2>
             <div className='u-text-center u-margin-Tl u-padding-Vs u-center'>
               <img src='/images/logos/pro-logos@2x.png' />
@@ -132,9 +132,11 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
                   GoCardless integrates with leading accountancy software packages.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Join 13,000+ businesses</h3>
+                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>
+                  Join <Message pointer='number_of_merchants' />+ businesses
+                </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  We've collected more than $1 billion for over 13,000 merchants.</p>
+                  We've collected more than $1 billion for over <Message pointer='number_of_merchants' /> merchants.</p>
               </div>
             </div>
           </div>

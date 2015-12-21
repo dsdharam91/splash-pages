@@ -1,4 +1,5 @@
 import React from 'react';
+import Message from '../../components/message/message';
 import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import Link from '../../components/link/link';
@@ -54,7 +55,7 @@ export default class HomeEs extends React.Component {
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  +12.000 empresas
+                  +<Message pointer='number_of_merchants' /> empresas
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                   Facilitando cobros para compañías a lo largo de todo Europa, ya sean grandes o pequeñas.

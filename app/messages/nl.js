@@ -1,5 +1,3 @@
-
-
 export default {
   header: {
     our_products: 'Onze producten',
