@@ -80,7 +80,7 @@ export default class HomeEn extends React.Component {
                     Ultra-low fees
                   </div>
                   <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                    Less than half the cost of Paypal, with easy-to-understand pricing
+                    Less than half the cost of PayPal, with easy-to-understand pricing
                   </p>
                 </div>
               </IfLocale>

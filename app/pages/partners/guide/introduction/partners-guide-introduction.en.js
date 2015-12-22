@@ -61,7 +61,7 @@ export default class PartnersGuideEn extends React.Component {
 
         <p>
           Direct Debit can also <b>save merchants money</b> compared to card payment, which typically costs 2.4% plus
-          20p per transaction or more with Paypal.
+          20p per transaction or more with PayPal.
         </p>
 
         <p>

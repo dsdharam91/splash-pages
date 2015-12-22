@@ -82,7 +82,7 @@ export default class PaymentsByDirectDebitEn extends React.Component {
                 <div className='grid__cell u-size-1of3 u-text-center'>
                   <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Ultra-low fees</h3>
                   <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                    Less than half the cost of Paypal. Competitive rates for everyone from individuals through to large corporations.</p>
+                    Less than half the cost of PayPal. Competitive rates for everyone from individuals through to large corporations.</p>
                 </div>
                 <div className='grid__cell u-size-1of3 u-text-center'>
                   <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Integrates seamlessly</h3>
