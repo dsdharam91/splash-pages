@@ -46,7 +46,7 @@ export default class HomeEs extends React.Component {
                   Comisiones bájísimas
                 </div>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Menos de la mitad de lo que cuesta Paypal, con tarifas fáciles de entender.
+                  Menos de la mitad de lo que cuesta PayPal, con tarifas fáciles de entender.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
