@@ -63,6 +63,7 @@ export default {
     },
     holding: {
       submit: 'Notify me',
+      success_message: 'Thank you for your interest. We\'ll let you know as soon as we\'ve launched. In the mean time, please visit our UK site to learn more about GoCardless.',
     },
   },
   not_found: {
@@ -89,6 +90,22 @@ export default {
     description: 'GoCardless is the easy way to collect Direct Debit. Already serving more than 12,000 businesses, perfect for recurring billing and B2B invoicing.',
     link: 'home page',
     trusted_message_scale: 'We collects millions of pounds for our merchants every day.',
+  },
+  holding_page: {
+    headline: 'Recurring payments made simple',
+    tagline: 'GoCardless makes collecting by Direct Debit easy for everyone from individuals to multi-national corporations',
+    prospect_form_message: 'To be notified when we launch in your country, enter your email address below',
+    benefits_headline: 'Bringing Direct Debit into the 21st century',
+    benefit1_headline: 'Built for online',
+    benefit1_description: 'Whether it\'s our simple dashboard or our API, you\'re in control',
+    benefit2_headline: 'Fully automated',
+    benefit2_description: 'Save time, stop human errors and avoid failed payments',
+    benefit3_headline: 'Ultra-low fees',
+    benefit3_description: 'Less than half the cost of Paypal, with easy-to-understand pricing',
+    trusted_headline: 'Trusted by thousands of businesses',
+    trusted_description: 'We collects millions of pounds for our merchants every day. Whatever your scale, GoCardless works for you.',
+    learn_more_headline: 'Want to learn more about GoCardless?',
+    learn_more_link: 'Visit our UK site',
   },
   contact_sales: {
     title: 'Get a Quote',
