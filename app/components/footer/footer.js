@@ -181,15 +181,6 @@ class Footer extends React.Component {
                       );
                     })
                   }
-
-                  <IfLinkExists to='europe'>
-                    <hr className='u-margin-Vs' />
-                    <div className='u-padding-Vxs u-padding-Hm'>
-                      <p className='u-color-p'><Message pointer='footer.europe_cta' />,&nbsp;</p>
-                      <p className='u-color-p'><Link to='europe'><Message pointer='footer.europe_link' /></Link>&nbsp;
-                        <Message pointer='footer.europe_description' /></p>
-                    </div>
-                  </IfLinkExists>
                 </ul>
               </Popover>
             </span>

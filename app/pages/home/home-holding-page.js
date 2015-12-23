@@ -4,10 +4,8 @@ import CheckListIcon from '../../icons/svg/checklist';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
-import Translation from '../../components/translation/translation';
 import Logo from '../../icons/logo/logo';
 import ProspectForm from '../../components/prospect-form/prospect-form';
-import { PropTypes } from '../../helpers/prop-types/prop-types';
 
 export default class HomeHoldingPage extends React.Component {
   displayName = 'HomeHoldingPage';

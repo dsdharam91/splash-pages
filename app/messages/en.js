@@ -7,9 +7,6 @@ export default {
   footer: {
     description: 'GoCardless is regulated by the Financial Conduct Authority in the United Kingdom as an Authorised Payment Institution to collect payments across Europe.',
     currently_viewing: 'Currently viewing',
-    europe_cta: 'GoCardless is expanding',
-    europe_link: 'learn more',
-    europe_description: 'about upcoming countries',
     cookies_message: 'By continuing your visit to this site, you agree to the use of cookies.',
     cookies_link_text: 'Learn more',
   },
