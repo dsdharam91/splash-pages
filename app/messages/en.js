@@ -484,8 +484,8 @@ export default {
     title: 'Engineering Internships',
     description: '',
   },
-  jobs_data_engineer: {
-    title: 'Data Engineer',
+  jobs_data_infrastructure_engineer: {
+    title: 'Data Infrastructure Engineer',
     description: '',
   },
   jobs_designers: {
