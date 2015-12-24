@@ -6,6 +6,12 @@ export default {
     has_percentage_pricing: false,
     show_holding_page: true,
   },
+  prospect_form: {
+    holding: {
+      email_placeholder: 'example@companyname.com',
+      success_message: 'Thank you for your interest.  We\'ll let you know as soon as we launch in the USA. To find out more about GoCardless, please visit our European website.',
+    },
+  },
   home: {
     title: 'Online ACH Direct Debit: Coming Soon',
   },

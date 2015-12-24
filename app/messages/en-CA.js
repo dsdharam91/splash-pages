@@ -7,8 +7,9 @@ export default {
     show_holding_page: true,
   },
    prospect_form: {
-    sales: {
+    holding: {
       email_placeholder: 'example@companyname.ca',
+      success_message: 'Thank you for your interest.  We\'ll let you know as soon as we launch in Canada. To find out more about GoCardless, please visit our European website.',
     },
   },
   home: {

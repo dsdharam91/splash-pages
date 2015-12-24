@@ -211,12 +211,15 @@ export default class ProspectForm extends React.Component {
             'u-is-hidden notice notice--success u-margin-Bm': true,
             'u-is-visible': this.state.isSuccess,
           })}>
-            <Message pointer={`prospect_form.sales.success_messages.${size}`} />
+            <Message pointer={`prospect_form.holding.success_message`} />
           </div>
+
+          <input className='u-is-hidden' id='prospect_country_interest' name='prospect[metadata][country_interest]'
+          value={getMessage(messages, 'country')} />
 
           <input className='input email-capture__input'
           id='prospect_email' name='prospect[email]'
-          placeholder={getMessage(messages, 'prospect_form.sales.email_placeholder')}
+          placeholder={getMessage(messages, 'prospect_form.holding.email_placeholder')}
           required type='email' />
 
           <button type='submit' className='btn email-capture__btn'>
