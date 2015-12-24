@@ -13,6 +13,7 @@ var blacklistedPages = [
   '/direct-debit',
   '/fr/guides',
   '/de/handbuch',
+  '/es/guias',
   '/blog',
 ];
 blacklistedPages.forEach(function(pagePath) {
