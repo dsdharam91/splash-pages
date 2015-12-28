@@ -148,9 +148,9 @@ export default {
     cta: 'Visita nuestro Blog',
   },
   guides: {
-    title: 'Guías SEPA',
-    nav_title: 'Guías SEPA (Inglés)',
-    path: '/guides/sepa/',
+    title: 'Guía SEPA',
+    nav_title: 'Guía SEPA',
+    path: '/es/guias/sepa/',
   },
   help: {
     title: 'Soporte',
