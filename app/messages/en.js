@@ -60,7 +60,8 @@ export default {
     },
     holding: {
       submit: 'Notify me',
-      success_message: 'Thank you for your interest. We\'ll let you know as soon as we\'ve launched. In the mean time, please visit our UK site to learn more about GoCardless.',
+      email_placeholder: 'example@companyname.com',
+      success_message: 'Thank you for your interest. We\'ll let you know as soon as we\'ve launched. In the mean time, please visit our European website to learn more about GoCardless.',
     },
   },
   not_found: {

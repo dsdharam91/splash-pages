@@ -73,13 +73,20 @@ export default class ProspectForm extends React.Component {
 
   onSubmit(event) {
     const { prospectType } = this.props;
-    const { currentLocale, pathname } = this.context;
+    const { currentLocale, pathname, messages } = this.context;
     const { trackingLabel } = prospectTypes[prospectType];
+
+    let additionalMetaData = {};
+    if (prospectType == 'holding') {
+      additionalMetaData = { 
+        'prospect[metadata][sepa_country_interest]': getMessage(messages, 'country'),
+      };
+    }
 
     const formData = assign({}, this.state.formData, {
       'prospect[metadata][locale]': currentLocale,
       'prospect[metadata][path]': pathname,
-    });
+    }, additionalMetaData);
 
     const oldTitle = window.document.title;
     document.title = 'Saving...';
@@ -213,9 +220,6 @@ export default class ProspectForm extends React.Component {
           })}>
             <Message pointer={`prospect_form.holding.success_message`} />
           </div>
-
-          <input className='u-is-hidden' id='prospect_country_interest' name='prospect[metadata][country_interest]'
-          value={getMessage(messages, 'country')} />
 
           <input className='input email-capture__input'
           id='prospect_email' name='prospect[email]'
