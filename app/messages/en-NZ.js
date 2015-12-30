@@ -9,7 +9,7 @@ export default {
   prospect_form: {
     holding: {
       email_placeholder: 'example@companyname.co.nz',
-      success_message: 'Thank you for your interest.  We\'ll let you know as soon as we launch in New Zealand. To find out more about GoCardless, please visit our European website.',
+      success_message: 'Thank you for your interest. We\'ll let you know as soon as we launch in New Zealand. To find out more about GoCardless, please visit our European website.',
     },
   },
   home: {

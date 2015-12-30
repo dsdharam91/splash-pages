@@ -50,7 +50,7 @@ export default class HomeHoldingPage extends React.Component {
 
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <div className='u-size-2of3 u-center'>
+              <div className='u-center'>
                 <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
                   <Message pointer='holding_page.benefits_headline' />
                 </h2>
