@@ -78,7 +78,7 @@ export default class ProspectForm extends React.Component {
 
     let additionalMetaData = {};
     if (prospectType == 'holding') {
-      additionalMetaData = { 
+      additionalMetaData = {
         'prospect[metadata][sepa_country_interest]': getMessage(messages, 'country'),
       };
     }
