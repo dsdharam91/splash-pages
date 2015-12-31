@@ -2,6 +2,7 @@ import React from 'react';
 import MobileIcon from '../../icons/svg/mobile';
 import CheckListIcon from '../../icons/svg/checklist';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
+import Footer from '../../components/footer/footer';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
 import Logo from '../../icons/logo/logo';
@@ -146,6 +147,8 @@ export default class HomeHoldingPage extends React.Component {
               </div>
             </div>
           </div>
+          
+          <Footer />
         </div>
       </div>
     );

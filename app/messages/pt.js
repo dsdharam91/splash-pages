@@ -1,4 +1,10 @@
 export default {
+  footer: {
+    description: 'GoCardless is regulated by the Financial Conduct Authority in the United Kingdom as an Authorised Payment Institution to collect payments across Europe.',
+    currently_viewing: 'Currently viewing',
+    cookies_message: 'By continuing your visit to this site, you agree to the use of cookies.',
+    cookies_link_text: 'Learn more',
+  },
   contact_types: ['customer support', 'sales'],
   postal_address: {
     street_address: '338-346 Goswell Road',
@@ -52,5 +58,19 @@ export default {
     trusted_headline: 'You\'ll be in great company: 13,000+ businesses already use GoCardless',
     learn_more_headline: 'Want to learn more about GoCardless?',
     learn_more_link: 'Visit our European web site',
+  },
+  pro_docs: {
+    title: 'Pro API',
+    nav_title: 'Pro API',
+  },
+  blog: {
+    title: 'Blog',
+    nav_title: 'Blog',
+    cta: 'Visit our Blog',
+  },
+  guides: {
+    title: 'Guides',
+    nav_title: 'Guides',
+    path: '/guides',
   },
 };
