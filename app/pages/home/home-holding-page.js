@@ -147,7 +147,7 @@ export default class HomeHoldingPage extends React.Component {
               </div>
             </div>
           </div>
-          
+
           <Footer />
         </div>
       </div>
