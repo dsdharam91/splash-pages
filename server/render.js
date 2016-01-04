@@ -48,10 +48,10 @@ export function render(req, res, next) {
     return assign({
       currentLocale: reqLocale.normalized,
       language: reqLocale.language,
-      messages: messages,
-      config: config,
-      availableLocales: availableLocales,
-      availableCountryNames: availableCountryNames,
+      messages,
+      config,
+      availableLocales,
+      availableCountryNames,
     }, props);
   }
 
