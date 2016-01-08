@@ -26,8 +26,8 @@ export default class BusinessDevelopmentGermany extends React.Component {
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
           Growing GoCardless in a new territory will require a depth and breadth
-          of skills. You will be responsible for driving in-country sales
-          independently and resourcefully, and swiftly becoming the expert in
+          of skills. You will be responsible for driving in-country sales strategy
+          independently and resourcefully, swiftly becoming the expert in
           your market. You will need to be commercially savvy and identify how
           to best grow across multiple verticals. You need to be comfortable
           with ambiguity and a fast-changing environment, because no two weeks
@@ -36,8 +36,8 @@ export default class BusinessDevelopmentGermany extends React.Component {
         <p className='para'>Your role will consist of three main elements:</p>
         <ul className='list'>
           <li>
-            Sales: identifying prospective customers and successfully closing
-            them.
+            Sales: identifying prospective customers and partnerships and
+ successfully closing them.
           </li>
           <li>
             Customer success: helping your customers go live and scale up.
@@ -47,12 +47,10 @@ export default class BusinessDevelopmentGermany extends React.Component {
           </li>
         </ul>
         <p className='para'>
-          You will also work closely with leaders across the company to
-          understand all product, engineering and operational requirements, so
-          you'll need to be adept at discussing complex situations with a wide
-          variety of audiences. You'll feed your market's needs into our
-          development roadmap to ensure we're always building the product people
-          want.
+          You will also work closely with leaders across the company to understand our
+product fully, our business value and the technical fit with customers’ existing systems.
+You'll feed your market's needs into our development roadmap to ensure we're always building
+        the product people want.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
         <ul className='list u-margin-Tm'>
@@ -65,11 +63,19 @@ export default class BusinessDevelopmentGermany extends React.Component {
             with clients and partners.
           </li>
           <li>
-            You have excellent written and oral communication skills, and can
-            adapt to your audience.
+            You are keen to understand technology at a granular level.
           </li>
           <li>
-            You are keen to understand technology at a granular level.
+            You have experience selling complex SaaS products.
+          </li>
+          <li>
+            You have experience selling complex SaaS products.
+          </li>
+          <li>
+            You have experience selling and closing complex deals in a B2B or B2B2C environment.
+          </li>
+          <li>
+            You are able to cover a large territory effectively and build a dynamic pipeline.
           </li>
           <li>
             You're a native-level German speaker with experience working in
