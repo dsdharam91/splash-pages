@@ -508,8 +508,8 @@ export default {
     title: 'Business Development: Germany',
     description: '',
   },
-  jobs_content_community_manager: {
-    title: 'Content & Community Manager',
+  jobs_content_manager: {
+    title: 'Content Manager',
     description: '',
   },
   jobs_customer_support: {

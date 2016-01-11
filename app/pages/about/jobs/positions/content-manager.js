@@ -1,13 +1,13 @@
 import React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class ContentCommunityManager extends React.Component {
-  displayName = 'ContentCommunityManager'
+export default class ContentManager extends React.Component {
+  displayName = 'ContentManager'
 
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Content &amp; Community Manager</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-heading'>Content Manager</h3>
         <p className='para'>
           Build our community and tell our story to drive our growth.
         </p>
@@ -35,7 +35,7 @@ export default class ContentCommunityManager extends React.Component {
         </p>
         <p className='para'>
           You’ll work with our VP Marketing to plan and execute our global content
-          strategy. You will design and produce our content and community calendar,
+          strategy. You will design and produce our content calendar,
           combining product, customer and industry insights to support our business
           needs and grow our community of users. You’ll be responsible for producing
           copy and content for all platforms, ensuring integrity, quality and
