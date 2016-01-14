@@ -36,7 +36,7 @@ export default class Accountants extends React.Component {
                   Your invoices, paid automatically
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  GoCardless puts you in control and helps to improve the cashflow of your business. Take payments automatically on invoices when they’re due.
+                  GoCardless puts you in control and helps you to improve business cash flow. Take payments automatically on invoices when they’re due.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -48,7 +48,7 @@ export default class Accountants extends React.Component {
                   Reduced admin time
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Spend less time chasing late invoices and more time advising your clients. Your invoices can be reconciled automatically against Direct Debit payments.
+                  Spend less time chasing late invoices and more time advising your clients. Automatically reconcile your invoices with Direct Debit payments.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
