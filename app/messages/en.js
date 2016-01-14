@@ -364,6 +364,10 @@ export default {
     title: 'An easier way to take Direct Debit',
     description: '',
   },
+  accountants: {
+    title: 'GoCardless transforms cashflow for accountants',
+    description: '',
+  },
   partners_guide: {
     title: 'Partnering with GoCardless',
     description: '',
