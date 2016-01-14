@@ -17,7 +17,7 @@ export default {
   },
   holding_page: {
     headline: 'GoCardless is coming soon to Canada',
-    tagline: 'An easier way to take Pre-Authorized Debit payments in Canada. Fully automated, with international Direct Debit and ultra-low fees.',
+    tagline: 'An easier way to take Pre-Authorized Debit payments in Canada. Fully automated, with international PAD and ultra-low fees.',
     prospect_form_message: 'To be notified when we launch in Canada, please enter your email address below:',
     benefits_headline: 'Bringing Pre-Authorized Debit into the 21st century',
     benefit1_headline: 'Fully automated',
