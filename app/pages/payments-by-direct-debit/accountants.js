@@ -93,18 +93,6 @@ export default class Accountants extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
-              Integrated with top accountancy software
-            </h2>
-            <div className='u-margin-Tm u-padding-Tl u-size-5of6 u-center'>
-              <img src='/images/accountants/accounting-group@2x.jpg' alt='Xero, Directli, Sage, Kashflow, IRIS and FreeAgent' />
-            </div>
-          </div>
-        </div>
-
-        <hr className='u-margin-An' />
-        <div className='site-container u-padding-Vxxl'>
-          <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
               GoCardless makes getting paid easier than ever
             </h2>
             <div className='grid u-center u-text-center u-padding-Tl u-margin-Ts'>
@@ -125,6 +113,18 @@ export default class Accountants extends React.Component {
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
                   We've collected more than $1 billion for over <Message pointer='number_of_merchants' /> merchants.</p>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <hr className='u-margin-An' />
+        <div className='site-container u-padding-Vxxl'>
+          <div className='u-padding-Vxl'>
+            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+              Our accountancy software integrations include
+            </h2>
+            <div className='u-margin-Tm u-padding-Tl u-size-5of6 u-center'>
+              <img src='/images/accountants/accounting-group@2x.png' alt='Xero, Directli, Sage, Kashflow, IRIS and FreeAgent' />
             </div>
           </div>
         </div>
