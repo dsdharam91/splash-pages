@@ -34,7 +34,7 @@ export default {
     },
     holding: {
       submit: 'Avise-me',
-      email_placeholder: 'exemple@minhacompanhia.com.br',
+      email_placeholder: 'exemplo@minhacompanhia.com.br',
       success_message: 'Obrigado pelo seu interesse. Nós entraremos em contato assim que lançamos no Brasil. Para mais informação sobre GoCardless, visite nosso site Europeu.',
     },
   },
