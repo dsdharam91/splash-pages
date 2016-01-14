@@ -17,9 +17,9 @@ export default {
   },
   holding_page: {
     headline: 'GoCardless is coming soon to the USA',
-    tagline: 'An easier way to take payments from bank accounts in the US. Fully online, with international Direct Debit and ultra-low fees.',
+    tagline: 'An easier way to take payments from checking accounts in the US. Fully online, with international payments and ultra-low fees.',
     prospect_form_message: 'To be notified when we launch in the USA, please enter your email address below:',
-    benefits_headline: 'A better way to collect payments from bank accounts in the US',
+    benefits_headline: 'A better way to collect payments from checking accounts in the US',
     benefit1_headline: 'Built for online',
     benefit1_description: 'Create your account online - there\'s no paperwork required.',
     benefit2_headline: 'International payments',
