@@ -141,10 +141,22 @@ export const config = Immutable.fromJS([
       nl: {
         path: '/',
       },
+      pt: {
+        path: '/',
+      },
     },
   ],
   [Pricing, { name: 'pricing' }, {
-      en: {
+      'en-GB': {
+        path: '/pricing',
+      },
+      'en-EU': {
+        path: '/pricing',
+      },
+      'en-IE': {
+        path: '/pricing',
+      },
+      'en-SE': {
         path: '/pricing',
       },
       fr: {
@@ -162,7 +174,16 @@ export const config = Immutable.fromJS([
     },
   ],
   [Pro, { name: 'pro' }, {
-      en: {
+      'en-GB': {
+        path: '/pro',
+      },
+      'en-EU': {
+        path: '/pro',
+      },
+      'en-IE': {
+        path: '/pro',
+      },
+      'en-SE': {
         path: '/pro',
       },
       fr: {
@@ -180,7 +201,16 @@ export const config = Immutable.fromJS([
     },
   ],
   [Security, { name: 'security' }, {
-      en: {
+      'en-GB': {
+        path: '/security',
+      },
+      'en-EU': {
+        path: '/security',
+      },
+      'en-IE': {
+        path: '/security',
+      },
+      'en-SE': {
         path: '/security',
       },
       fr: {
@@ -396,7 +426,16 @@ export const config = Immutable.fromJS([
     },
   ],
   [LegalIntroduction, { name: 'legal', category: 'legal' }, {
-      en: {
+      'en-GB': {
+        path: '/legal',
+      },
+      'en-EU': {
+        path: '/legal',
+      },
+      'en-IE': {
+        path: '/legal',
+      },
+      'en-SE': {
         path: '/legal',
       },
       fr: {
@@ -411,16 +450,34 @@ export const config = Immutable.fromJS([
     },
   ],
   [LegalCustomers, { name: 'legal_customers', category: 'legal' }, {
-      en: {
+      'en-GB': {
+        path: '/legal/customers',
+      },
+      'en-EU': {
+        path: '/legal/customers',
+      },
+      'en-IE': {
+        path: '/legal/customers',
+      },
+      'en-SE': {
         path: '/legal/customers',
       },
     },
   ],
   [LegalMerchants, { name: 'legal_merchants', category: 'legal' }, {
-      en: {
+      'en-GB': {
         path: '/legal/merchants',
       },
-       fr: {
+      'en-EU': {
+        path: '/legal/merchants',
+      },
+      'en-IE': {
+        path: '/legal/merchants',
+      },
+      'en-SE': {
+        path: '/legal/merchants',
+      },
+      fr: {
         path: '/legal/marchands',
       },
       de: {
@@ -432,31 +489,76 @@ export const config = Immutable.fromJS([
     },
   ],
   [LegalOldRestrictionsIndex, { name: 'legal_old_restrictions' }, {
-      en: {
+      'en-GB': {
+        path: '/legal/old-restrictions',
+      },
+      'en-EU': {
+        path: '/legal/old-restrictions',
+      },
+      'en-IE': {
+        path: '/legal/old-restrictions',
+      },
+      'en-SE': {
         path: '/legal/old-restrictions',
       },
     },
   ],
   [LegalOldRestrictions20140731, { name: 'legal_old_restrictions_2014_07_31' }, {
-      en: {
+      'en-GB': {
+        path: '/legal/old-restrictions/2014-07-31',
+      },
+      'en-EU': {
+        path: '/legal/old-restrictions/2014-07-31',
+      },
+      'en-IE': {
+        path: '/legal/old-restrictions/2014-07-31',
+      },
+      'en-SE': {
         path: '/legal/old-restrictions/2014-07-31',
       },
     },
   ],
   [LegalOldRestrictions20140919, { name: 'legal_old_restrictions_2014_09_19' }, {
-      en: {
+      'en-GB': {
+        path: '/legal/old-restrictions/2014-09-19',
+      },
+      'en-EU': {
+        path: '/legal/old-restrictions/2014-09-19',
+      },
+      'en-IE': {
+        path: '/legal/old-restrictions/2014-09-19',
+      },
+      'en-SE': {
         path: '/legal/old-restrictions/2014-09-19',
       },
     },
   ],
   [LegalPartners, { name: 'legal_partners', category: 'legal' }, {
-      en: {
+      'en-GB': {
+        path: '/legal/partners',
+      },
+      'en-EU': {
+        path: '/legal/partners',
+      },
+      'en-IE': {
+        path: '/legal/partners',
+      },
+      'en-SE': {
         path: '/legal/partners',
       },
     },
   ],
   [LegalRestrictions, { name: 'legal_restrictions', category: 'legal' }, {
-      en: {
+      'en-GB': {
+        path: '/legal/restrictions',
+      },
+      'en-EU': {
+        path: '/legal/restrictions',
+      },
+      'en-IE': {
+        path: '/legal/restrictions',
+      },
+      'en-SE': {
         path: '/legal/restrictions',
       },
       fr: {
@@ -720,6 +822,9 @@ export const config = Immutable.fromJS([
       'en-EU': {
         path: '/faq/merchants',
       },
+      'en-SE': {
+        path: '/faq/merchants',
+      },
       fr: {
         path: '/faq/commercant',
       },
@@ -729,7 +834,16 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqMerchantsHowItWorks, { name: 'faq_merchants_how_it_works', category: 'faq.merchants' }, {
-      en: {
+      'en-GB': {
+        path: '/faq/merchants/how-it-works',
+      },
+      'en-IE': {
+        path: '/faq/merchants/how-it-works',
+      },
+      'en-EU': {
+        path: '/faq/merchants/how-it-works',
+      },
+      'en-SE': {
         path: '/faq/merchants/how-it-works',
       },
       fr: {
@@ -741,7 +855,16 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqMerchantsSigningUp, { name: 'faq_merchants_signing_up', category: 'faq.merchants' }, {
-      en: {
+      'en-GB': {
+        path: '/faq/merchants/signing-up',
+      },
+      'en-IE': {
+        path: '/faq/merchants/signing-up',
+      },
+      'en-EU': {
+        path: '/faq/merchants/signing-up',
+      },
+      'en-SE': {
         path: '/faq/merchants/signing-up',
       },
       fr: {
@@ -753,7 +876,16 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqMerchantsDirectDebit, { name: 'faq_merchants_direct_debit', category: 'faq.merchants' }, {
-      en: {
+      'en-GB': {
+        path: '/faq/merchants/direct-debit',
+      },
+      'en-IE': {
+        path: '/faq/merchants/direct-debit',
+      },
+      'en-EU': {
+        path: '/faq/merchants/direct-debit',
+      },
+      'en-SE': {
         path: '/faq/merchants/direct-debit',
       },
       fr: {
@@ -765,7 +897,16 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqMerchantsSecurity, { name: 'faq_merchants_security', category: 'faq.merchants' }, {
-      en: {
+      'en-GB': {
+        path: '/faq/merchants/security',
+      },
+      'en-IE': {
+        path: '/faq/merchants/security',
+      },
+      'en-EU': {
+        path: '/faq/merchants/security',
+      },
+      'en-SE': {
         path: '/faq/merchants/security',
       },
       fr: {
@@ -777,7 +918,16 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqMerchantsCustomerExperience, { name: 'faq_merchants_customer_experience', category: 'faq.merchants' }, {
-      en: {
+      'en-GB': {
+        path: '/faq/merchants/customer-experience',
+      },
+      'en-IE': {
+        path: '/faq/merchants/customer-experience',
+      },
+      'en-EU': {
+        path: '/faq/merchants/customer-experience',
+      },
+      'en-SE': {
         path: '/faq/merchants/customer-experience',
       },
       fr: {
@@ -789,7 +939,16 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqMerchantsInternationalPayments, { name: 'faq_merchants_international_payments', category: 'faq.merchants' }, {
-      en: {
+      'en-GB': {
+        path: '/faq/merchants/international-payments',
+      },
+      'en-IE': {
+        path: '/faq/merchants/international-payments',
+      },
+      'en-EU': {
+        path: '/faq/merchants/international-payments',
+      },
+      'en-SE': {
         path: '/faq/merchants/international-payments',
       },
       fr: {
@@ -801,7 +960,16 @@ export const config = Immutable.fromJS([
     },
   ],
   [FaqMerchantsDeveloperApi, { name: 'faq_merchants_developer_api', category: 'faq.merchants' }, {
-      en: {
+      'en-GB': {
+        path: '/faq/merchants/developer-api',
+      },
+      'en-IE': {
+        path: '/faq/merchants/developer-api',
+      },
+      'en-EU': {
+        path: '/faq/merchants/developer-api',
+      },
+      'en-SE': {
         path: '/faq/merchants/developer-api',
       },
       fr: {

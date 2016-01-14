@@ -44,18 +44,20 @@ export default {
   partners_email: 'partnerships@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
-    name_label: 'Ihr Name',
-    name_placeholder: 'Paul Müller',
-    email_label: 'Geschäftliche E-Mail',
-    email_placeholder: 'beispiel@firmenname.de',
-    phone_label: 'Geschäftliche Telefonnummer',
-    phone_placeholder: '030 12345678',
-    submit: 'Senden',
-    success_messages: {
-      '0-100': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
-      '100-500': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
-      '500+': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
-      default: 'Vielen Dank, ein GoCardless Mitarbeiter wird sich in den nächsten 24 Stunden mit Ihnen in Verbindung setzen.',
+    sales: {
+      name_label: 'Ihr Name',
+      name_placeholder: 'Paul Müller',
+      email_label: 'Geschäftliche E-Mail',
+      email_placeholder: 'beispiel@firmenname.de',
+      phone_label: 'Geschäftliche Telefonnummer',
+      phone_placeholder: '030 12345678',
+      submit: 'Senden',
+      success_messages: {
+        '0-100': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
+        '100-500': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
+        '500+': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
+        default: 'Vielen Dank, ein GoCardless Mitarbeiter wird sich in den nächsten 24 Stunden mit Ihnen in Verbindung setzen.',
+      },
     },
   },
   not_found: {

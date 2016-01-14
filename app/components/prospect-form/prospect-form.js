@@ -14,6 +14,10 @@ const prospectTypes = {
     endpoint: '/api/v1/prospects/sales',
     trackingLabel: 'ContactSales',
   },
+  holding: {
+    endpoint: '/api/v1/prospects/sales',
+    trackingLabel: 'ContactSales',
+  },
 };
 
 const ProspectFormPropTypes = {
@@ -69,13 +73,20 @@ export default class ProspectForm extends React.Component {
 
   onSubmit(event) {
     const { prospectType } = this.props;
-    const { currentLocale, pathname } = this.context;
+    const { currentLocale, pathname, messages } = this.context;
     const { trackingLabel } = prospectTypes[prospectType];
+
+    let additionalMetaData = {};
+    if (prospectType == 'holding') {
+      additionalMetaData = {
+        'prospect[metadata][sepa_country_interest]': getMessage(messages, 'country'),
+      };
+    }
 
     const formData = assign({}, this.state.formData, {
       'prospect[metadata][locale]': currentLocale,
       'prospect[metadata][path]': pathname,
-    });
+    }, additionalMetaData);
 
     const oldTitle = window.document.title;
     document.title = 'Saving...';
@@ -113,7 +124,7 @@ export default class ProspectForm extends React.Component {
     const { endpoint } = prospectTypes[prospectType];
     const size = this.state.responseData && this.state.responseData.size || 'default';
 
-    return (
+    let salesForm = (
       <div>
         <form acceptCharset='UTF-8' action={endpoint} method='post' onChange={this.handleChange} onSubmit={this.onSubmit}>
           <input className='u-is-hidden' id='prospect_nofill' name='prospect[nofill]' placeholder='Do not fill me in' type='email' />
@@ -128,26 +139,26 @@ export default class ProspectForm extends React.Component {
             'u-is-hidden notice notice--success u-margin-Bm': true,
             'u-is-visible': this.state.isSuccess,
           })}>
-            <Message pointer={`prospect_form.success_messages.${size}`} />
+            <Message pointer={`prospect_form.sales.success_messages.${size}`} />
           </div>
 
           <label className='label label--stacked' htmlFor='prospect_name'>
-            <Message pointer='prospect_form.name_label' />
+            <Message pointer='prospect_form.sales.name_label' />
           </label>
           <input className='input input--stacked' id='prospect_name' name='prospect[name]'
-            placeholder={getMessage(messages, 'prospect_form.name_placeholder')} required type='text' />
+            placeholder={getMessage(messages, 'prospect_form.sales.name_placeholder')} required type='text' />
 
           <label className='label label--stacked' htmlFor='prospect_email'>
-            <Message pointer='prospect_form.email_label' />
+            <Message pointer='prospect_form.sales.email_label' />
           </label>
           <input className='input input--stacked' id='prospect_email' name='prospect[email]'
-            placeholder={getMessage(messages, 'prospect_form.email_placeholder')} required type='email' />
+            placeholder={getMessage(messages, 'prospect_form.sales.email_placeholder')} required type='email' />
 
           <label className='label label--stacked' htmlFor='prospect_phone_number'>
-            <Message pointer='prospect_form.phone_label' />
+            <Message pointer='prospect_form.sales.phone_label' />
           </label>
           <input className='input input--stacked' id='prospect_phone_number' name='prospect[phone_number]'
-            placeholder={getMessage(messages, 'prospect_form.phone_placeholder')} required type='text' />
+            placeholder={getMessage(messages, 'prospect_form.sales.phone_placeholder')} required type='text' />
 
           <Translation locales={['en-GB']}>
             <label className='label label--stacked' htmlFor='prospect_metadata_number_of_payments'>
@@ -185,10 +196,51 @@ export default class ProspectForm extends React.Component {
           </Translation>
 
           <button className='btn btn--block u-margin-Tl' type='submit'>
-            <Message pointer='prospect_form.submit' />
+            <Message pointer='prospect_form.sales.submit' />
           </button>
         </form>
       </div>
     );
+
+    let holdingForm = (
+      <div>
+        <form acceptCharset='UTF-8' action={endpoint} method='post' onChange={this.handleChange} onSubmit={this.onSubmit}>
+          <input className='u-is-hidden' id='prospect_nofill' name='prospect[nofill]' placeholder='Do not fill me in' type='email' />
+
+          <div className={classNames({
+            'u-is-hidden notice notice--error u-margin-Bm': true,
+            'u-is-visible': !this.state.isSuccess,
+          })}>
+            { this.state.errorMessage }
+          </div>
+
+          <div className={classNames({
+            'u-is-hidden notice notice--success u-margin-Bm': true,
+            'u-is-visible': this.state.isSuccess,
+          })}>
+            <Message pointer={`prospect_form.holding.success_message`} />
+          </div>
+
+          <input className='input email-capture__input'
+          id='prospect_email' name='prospect[email]'
+          placeholder={getMessage(messages, 'prospect_form.holding.email_placeholder')}
+          required type='email' />
+
+          <button type='submit' className='btn email-capture__btn'>
+            <Message pointer='prospect_form.holding.submit'/>
+          </button>
+        </form>
+      </div>
+    );
+
+    let form;
+
+    if (prospectType === 'sales') {
+      form = salesForm;
+    } else if (prospectType === 'holding') {
+      form = holdingForm;
+    }
+
+    return form;
   }
 }

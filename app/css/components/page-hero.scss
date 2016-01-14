@@ -34,6 +34,13 @@
   background-repeat: no-repeat;
 }
 
+.page-hero--holding-page {
+  background: $primary-color url('/images/hero/hero-icons.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 .page-hero--creative-industries {
   background: $primary-color url('/images/hero/hero-creative-industries.jpg');
   background-size: cover;

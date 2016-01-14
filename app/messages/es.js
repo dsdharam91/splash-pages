@@ -41,18 +41,20 @@ export default {
   partners_email: 'partnerships@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
-    name_label: 'Nombre',
-    name_placeholder: 'Juan Pérez',
-    email_label: 'Email',
-    email_placeholder: 'ejemplo@nombrecompañia.es',
-    phone_label: 'Teléfono del trabajo',
-    phone_placeholder: '650786543',
-    submit: 'Contacta',
-    success_messages: {
-      '0-100': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
-      '100-500': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
-      '500+': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
-      default: 'Gracias, alguien se pondrá en contacto contigo en 24 horas.',
+    sales: {
+      name_label: 'Nombre',
+      name_placeholder: 'Juan Pérez',
+      email_label: 'Email',
+      email_placeholder: 'ejemplo@nombrecompañia.es',
+      phone_label: 'Teléfono del trabajo',
+      phone_placeholder: '650786543',
+      submit: 'Contacta',
+      success_messages: {
+        '0-100': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
+        '100-500': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
+        '500+': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
+        default: 'Gracias, alguien se pondrá en contacto contigo en 24 horas.',
+      },
     },
   },
   not_found: {

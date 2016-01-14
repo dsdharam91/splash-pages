@@ -7,6 +7,7 @@ export default {
     local_scheme: 'bg-autogiro',
     has_instant_signup: true,
     has_percentage_pricing: true,
+    show_holding_page: false,
   },
   prospect_form: {
     name_placeholder: 'William Johansson',

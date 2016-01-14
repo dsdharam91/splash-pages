@@ -1,0 +1,20 @@
+.email-capture {
+  background: white;
+  border-radius: $border-radius-double;
+  box-shadow: 0 8px 8px rgba(0,0,0,0.2);
+  min-width: 470px;
+}
+
+.email-capture__input {
+  height: 47px !important;
+  display: inline-block !important;
+  width: 288px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.email-capture__btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  vertical-align: baseline;
+}

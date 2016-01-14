@@ -1,4 +1,5 @@
 import merge from 'lodash/object/merge';
+import uniq from 'lodash/array/uniq';
 import fs from 'fs';
 import path from 'path';
 
@@ -12,26 +13,32 @@ function langFromLocale(locale) {
 
 var availableLanguages = availableLocales.map(langFromLocale);
 
-availableLocales.concat(availableLanguages).map(function(locale) {
-  var filePath = path.join(__dirname, '..', 'app', 'messages', locale + '.js');
-  var exists;
-  try {
-    var stat = fs.statSync(filePath);
-    exists = stat.isFile();
-  } catch (e) {
-    exists = false;
-  }
-  return [locale, filePath, exists];
-}).filter(function(locale) {
-  return locale[2];
-}).forEach(function(locale) {
-  langLocales[locale[0]] = require(locale[1]);
-});
+uniq(availableLocales.concat(availableLanguages))
+  .map(function(locale) {
+    var filePath = path.join(__dirname, '..', 'app', 'messages', locale + '.js');
+    var exists;
+    try {
+      var stat = fs.statSync(filePath);
+      exists = stat.isFile();
+    } catch (e) {
+      exists = false;
+    }
+    return [locale, filePath, exists];
+  })
+  .filter(function(locale) {
+    return locale[2];
+  })
+  .forEach(function(locale) {
+    langLocales[locale[0]] = require(locale[1]);
+  });
 
 var sharedMessages = require(path.join(__dirname, '..', 'app', 'messages', 'shared.js'));
 
-export default availableLocales.reduce(function(locales, locale) {
-  var lang = langFromLocale(locale);
-  locales[locale] = merge({}, sharedMessages, langLocales[lang], langLocales[locale]);
-  return locales;
-}, {});
+let dict = availableLocales
+  .reduce(function(locales, locale) {
+    var lang = langFromLocale(locale);
+    locales[locale] = merge({}, sharedMessages, langLocales[lang], langLocales[locale]);
+    return locales;
+  }, {});
+
+export default dict;
