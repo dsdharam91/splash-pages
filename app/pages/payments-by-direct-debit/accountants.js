@@ -24,7 +24,7 @@ export default class Accountants extends React.Component {
             </p>
           </div>
         </div>
-        <div className='site-container u-text-center u-padding-Vxxl'>
+        <div className='site-container u-text-center u-padding-Txxl'>
           <div className='u-padding-Vxl'>
             <div className='grid u-center u-text-center'>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -71,25 +71,15 @@ export default class Accountants extends React.Component {
           </div>
         </div>
 
-        <hr className='u-margin-An' />
-
-        <div className='u-padding-Vxxl'>
-          <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
-              GoCardless powers online Direct Debit for over 1,000 accountants
-            </h2>
-          </div>
-          <div className='u-padding-Bxl'>
-            <StoryBigQuote heroClass='story-hero--bluesky' image='/images/testimonials/bluesky__avatar.png'
-              person='Emma Mills' position='Bluesky Business' readfullStoryLink='stories_bluesky_business'>
-              Our cashflow and business have been transformed since we started using GoCardless.
-              Within a month our average debtor days had halved and 70% of our customers were paying on time.
-              We’re wasting less time chasing payments, and can really focus on growing our business
-            </StoryBigQuote>
-          </div>
+        <div className='u-padding-Txxl'>
+          <StoryBigQuote heroClass='story-hero--bluesky' image='/images/testimonials/bluesky__avatar.png'
+            person='Emma Mills' position='Bluesky Business' readfullStoryLink='stories_bluesky_business'>
+            Our cashflow and business have been transformed since we started using GoCardless.
+            Within a month our average debtor days had halved and 70% of our customers were paying on time.
+            We’re wasting less time chasing payments, and can really focus on growing our business
+          </StoryBigQuote>
         </div>
 
-        <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
