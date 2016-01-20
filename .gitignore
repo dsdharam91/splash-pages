@@ -13,3 +13,6 @@ public/bundle/
 *.swp
 .tmp
 .e2e_server_log
+
+# Don't track the revision file we generate with the docker container.
+REVISION
