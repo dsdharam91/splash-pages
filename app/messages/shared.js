@@ -1,5 +1,6 @@
 export default {
   number_of_merchants: '13,000',
+  payments_processed_volume: '£1 billion',
   prospect_form: {
     holding: {
       submit: 'Notify me',

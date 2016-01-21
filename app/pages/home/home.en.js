@@ -23,7 +23,7 @@ export default class HomeEn extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-center'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
-                Our global payments network has processed over $1 billion
+                Our global payments network has processed over <Message pointer='payments_processed_volume' />
               </h2>
             </div>
             <div className='grid u-margin-Tl u-padding-Tm'>
