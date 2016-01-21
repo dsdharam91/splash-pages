@@ -138,7 +138,8 @@ export default class EasierDirectDebit extends React.Component {
                   Join <Message pointer='number_of_merchants' />+ businesses
                 </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  We've collected more than $1 billion for over <Message pointer='number_of_merchants' /> businesses.</p>
+                  We've collected more than <Message pointer='payments_processed_volume' /> for
+                  over <Message pointer='number_of_merchants' /> businesses.</p>
               </div>
             </div>
           </div>
