@@ -358,6 +358,9 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/jobs',
       },
+      de: {
+        path: '/ueber-uns/jobs',
+      },
     },
   ],
   [ProductEngineer, { name: 'jobs_product_engineer', category: 'jobs.engineering' }, {
@@ -411,6 +414,9 @@ export const config = Immutable.fromJS([
   [AccountManagerGermany, { name: 'jobs_account_manager_germany', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/account-manager-germany',
+      },
+      de: {
+        path: '/ueber-uns/jobs/account-manager-deutschland',
       },
     },
   ],
