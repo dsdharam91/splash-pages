@@ -420,15 +420,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [BusinessDevelopmentGermany, { name: 'jobs_business_development_germany', category: 'jobs.business_development' }, {
-      en: {
-        path: '/about/jobs/business-development-germany',
-      },
-      de: {
-        path: '/ueber-uns/jobs/business-development-germany',
-      },
-    },
-  ],
   [ContentManager, { name: 'jobs_content_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/content-manager',

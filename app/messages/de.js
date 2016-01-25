@@ -211,15 +211,15 @@ export default {
     title: 'Jobs',
     description: '',
     nav_title: 'Jobs',
-    open_positions: 'Open positions',
+    open_positions: 'Offene Stellen',
     engineering: {
-      title: 'Engineering & Data',
+      title: 'Software Engineering & Data Science',
     },
     ux_design: {
       title: 'UX & Design',
     },
     sales: {
-      title: 'Sales',
+      title: 'Vertrieb',
     },
     business_development: {
       title: 'Business Development',
@@ -264,7 +264,7 @@ export default {
     description: '',
   },
   jobs_account_manager_germany: {
-    title: 'Account Manager: Germany',
+    title: 'Account Manager Deutschland',
     description: '',
   },
   jobs_business_development_germany: {
