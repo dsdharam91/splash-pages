@@ -30,10 +30,10 @@ export default class StoriesFoundationOfHeartsEn extends React.Component {
               As the Foundation is run by volunteers they “needed a payments provider which was easy for us, and the fans, to use”.
             </p>
           </StoryQuote>
-          <StoryBigQuote heroClass='story-hero--foundation-of-hearts' person='Calum Robertson' position='Foundation of Hearts'>
-            “We chose GoCardless for three reasons: it's easy for our team to use, easy for our supporters
+          <StoryBigQuote heroClass='story-hero--foundation-of-hearts' person='Brian Cormack' position='Foundation of Hearts'>
+            We chose GoCardless for three reasons: it's easy for our team to use, easy for our supporters
             to use, and the fees are brilliantly low. What's more, the quality of service we've received
-            from the GoCardless team has been fantastic.”
+            from the GoCardless team has been fantastic.
           </StoryBigQuote>
           <StoryQuote tag='GoCardless was the simple option'>
             <p className='para u-margin-Tn'>Having spoken to PayPal and their bank about other payment methods the Foundation decided on
