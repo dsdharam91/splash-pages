@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 import path from 'path';
+import Immutable from 'immutable';
 import { fetchPage, writePage } from '../app/static-build/builder';
 import { downloadOldSitemap, Sitemap } from '../app/static-build/sitemap';
 import availableLocales from '../config/available-locales';
@@ -13,8 +14,7 @@ const sitemapDomain = target;
 const oldSitemapUrl = `${target}/sitemap.xml`;
 
 if (!serverUrl || !outDir || !target) {
-  console.error(`Usage: ${bin} ${script} host directory target`);
-  process.exit(1);
+  throw new Error(`Usage: ${bin} ${script} host directory target`);
 }
 
 const newSitemap = new Sitemap(sitemapDomain);
@@ -24,11 +24,29 @@ const processPage = function(pagePath) {
     .then(([url, contents]) => {
       newSitemap.addUrl(url, contents);
       return writePage(outDir, [url, contents]);
-    })
-    .catch(console.error.bind(console));
+    });
 };
 
-Promise.all(getAllPaths(availableLocales).map(processPage)).then(function(filenames) {
+// Batch processPage/fetchPage so we don't overwhelm the server and fail
+// to process some pages
+// getAllPaths (pagesLeft) returns an Immutable.List
+function batchProcessPage(pagesLeft, filenames) {
+  var size = 10;
+  var pagesToProcess = pagesLeft.take(size);
+  pagesLeft = pagesLeft.slice(size);
+  filenames = filenames || Immutable.List([]);
+
+  return Promise.all(pagesToProcess.map(processPage)).then((files) => {
+    filenames = filenames.concat(files);
+    if (pagesLeft.size) {
+      return batchProcessPage(pagesLeft, filenames);
+    } else {
+      return filenames;
+    }
+  });
+}
+
+batchProcessPage(getAllPaths(availableLocales)).then(function(filenames) {
   console.log('Completed static html dump:');
   console.log(filenames.sort().map((filename) => `  ${filename}`).join('\n'));
 
@@ -38,4 +56,4 @@ Promise.all(getAllPaths(availableLocales).map(processPage)).then(function(filena
     fs.writeFileSync(sitemapOutputPath, newSitemap.toXml());
     console.log(`New sitemap written to ${sitemapOutputPath}`);
   });
-}).catch(console.error.bind(console));
+}).catch((error) => console.error(error));
