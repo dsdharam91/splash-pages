@@ -424,6 +424,9 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/jobs/business-development-germany',
       },
+      de: {
+        path: '/ueber-uns/jobs/business-development-germany',
+      },
     },
   ],
   [ContentManager, { name: 'jobs_content_manager', category: 'jobs.marketing' }, {
