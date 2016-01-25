@@ -31,7 +31,7 @@ export default class StoriesFoundationOfHeartsFr extends React.Component {
               d'utilisation pour la gestion et pour les supporteurs"
             </p>
           </StoryQuote>
-          <StoryBigQuote heroClass='story-hero--foundation-of-hearts' person='Calum Robertson' position='Foundation of Hearts'>
+          <StoryBigQuote heroClass='story-hero--foundation-of-hearts' person='Brian Cormack' position='Foundation of Hearts'>
             Nous avons choisi GoCardless pour trois raisons: facile d'utilisation pour nos équipes, simple
             pour nos supporteurs de payer, et un prix concurrentiel. De plus, la qualité du service que
             nous avons reçu de l'équipe de GoCardless a été fantastique.
