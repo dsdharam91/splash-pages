@@ -207,6 +207,78 @@ export default {
     description: '',
     nav_title: 'Team',
   },
+  jobs: {
+    title: 'Jobs',
+    description: '',
+    nav_title: 'Jobs',
+    open_positions: 'Offene Stellen',
+    engineering: {
+      title: 'Software Engineering & Data Science',
+    },
+    ux_design: {
+      title: 'UX & Design',
+    },
+    sales: {
+      title: 'Vertrieb',
+    },
+    business_development: {
+      title: 'Business Development',
+    },
+    marketing: {
+      title: 'Marketing',
+    },
+    operations: {
+      title: 'Operations',
+    },
+  },
+  jobs_product_engineer: {
+    title: 'Product Engineer',
+    description: '',
+  },
+  jobs_software_engineer: {
+    title: 'Backend Software Engineer',
+   description: '',
+  },
+  jobs_site_reliability_engineer: {
+    title: 'Site Reliability Engineer',
+    description: '',
+  },
+  jobs_engineering_internships: {
+    title: 'Engineering Internships',
+    description: '',
+  },
+  jobs_data_infrastructure_engineer: {
+    title: 'Data Infrastructure Engineer',
+    description: '',
+  },
+  jobs_designers: {
+    title: 'Designers',
+    description: '',
+  },
+  jobs_enterprise_account_manager: {
+    title: 'Enterprise Account Manager',
+    description: '',
+  },
+  jobs_sales_development_representative: {
+    title: 'Sales Development Representative',
+    description: '',
+  },
+  jobs_account_manager_germany: {
+    title: 'Account Manager Deutschland',
+    description: '',
+  },
+  jobs_business_development_germany: {
+    title: 'Business Development: Germany',
+    description: '',
+  },
+  jobs_content_manager: {
+    title: 'Content Manager',
+    description: '',
+  },
+  jobs_customer_support: {
+    title: 'Customer Support',
+    description: '',
+  },
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
