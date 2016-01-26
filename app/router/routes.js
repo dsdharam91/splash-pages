@@ -30,7 +30,6 @@ import Designers from '../pages/about/jobs/positions/designers';
 import EnterpriseAccountManager from '../pages/about/jobs/positions/enterprise-account-manager';
 import SalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative';
 import AccountManagerGermany from '../pages/about/jobs/positions/account-manager-germany';
-import BusinessDevelopmentGermany from '../pages/about/jobs/positions/business-development-germany';
 import ContentManager from '../pages/about/jobs/positions/content-manager';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 

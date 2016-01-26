@@ -18,12 +18,12 @@ export default class AccountManagerGermany extends React.Component {
             Tausende von Unternehmen in Großbritannien vertrauen uns bereits die Abwicklung ihrer Zahlungen an
             und Woche für Woche entscheiden sich hunderte weitere Unternehmen für uns. Wir gehen in unsere
             nächste Expansionsphase über und planen die Erweiterung unseres Teams um neue Talente, um unsere
-            Dynamik auf den deutschen Markt auszuweiten. 
+            Dynamik auf den deutschen Markt auszuweiten.
           </p>
           <p className='para'>
             Die Nachfrage, wiederkehrende Zahlungen einzuziehen, steigt: Dies wird nicht nur für etablierte
             Nutzer des Lastschriftverfahrens wie Energieversorger, Telekommunikationsanbieter und
-            Medienunternehmen strategisch immer wichtiger, sondern auch für die neuesten SaaS- und IoT-Anbieter. 
+            Medienunternehmen strategisch immer wichtiger, sondern auch für die neuesten SaaS- und IoT-Anbieter.
           </p>
 
           <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Was dich erwartet</h4>
