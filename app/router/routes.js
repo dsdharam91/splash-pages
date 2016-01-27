@@ -32,6 +32,7 @@ import SalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-
 import AccountManagerGermany from '../pages/about/jobs/positions/account-manager-germany';
 import ContentManager from '../pages/about/jobs/positions/content-manager';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support';
+import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -428,6 +429,12 @@ export const config = Immutable.fromJS([
   [CustomerSupport, { name: 'jobs_customer_support', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support',
+      },
+    },
+  ],
+    [InsideAccountExecutive, { name: 'jobs_inside_account_executive_uk', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/inside-account-executive-uk',
       },
     },
   ],
