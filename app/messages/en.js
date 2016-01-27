@@ -539,6 +539,10 @@ export default {
     title: 'Inside Account Executive',
     description: '',
   },
+  jobs_payments_processing_specialist: {
+    title: 'Payments Processing Specialist',
+    description: '',
+  },
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',

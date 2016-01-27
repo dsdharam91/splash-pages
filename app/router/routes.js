@@ -33,6 +33,7 @@ import AccountManagerGermany from '../pages/about/jobs/positions/account-manager
 import ContentManager from '../pages/about/jobs/positions/content-manager';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
+import PaymentsProcessingSpecialist from '../pages/about/jobs/positions/payments-processing-specialist.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -432,9 +433,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-    [InsideAccountExecutive, { name: 'jobs_inside_account_executive_uk', category: 'jobs.sales' }, {
+  [InsideAccountExecutive, { name: 'jobs_inside_account_executive_uk', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/inside-account-executive-uk',
+      },
+    },
+  ],
+  [PaymentsProcessingSpecialist, { name: 'jobs_payments_processing_specialist', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/payments-processing-specialist',
       },
     },
   ],
