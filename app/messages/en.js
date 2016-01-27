@@ -535,6 +535,10 @@ export default {
     title: 'Customer Support',
     description: '',
   },
+  jobs_inside_account_executive_uk: {
+    title: 'Inside Account Executive',
+    description: '',
+  },
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
