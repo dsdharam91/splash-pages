@@ -47,7 +47,7 @@ export default class StoriesFoundationOfHeartsFr extends React.Component {
             <p className='para u-margin-Tn'>
               L’utilisation de GoCardless a simplifié grandement la gestion. “Je ne suis pas un spécialiste en technologie,
               et j'ai trouvé GoCardless facile à utiliser. De plus, la qualité du service que nous avons reçu de GoCardless
-              a été fantastique” dit Calum, le directeur de Foundation of Hearts.
+              a été fantastique” dit Brian, le directeur de Foundation of Hearts.
             </p>
             <p className='para'>Deux mois après le lancement avec GoCardless, 7.500 fans avaient réalisé
             un don. Ce chiffre a continué de grossir depuis. “Nous allons continuer de grandir,
