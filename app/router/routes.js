@@ -29,9 +29,11 @@ import DataInfrastructureEngineer from '../pages/about/jobs/positions/data-infra
 import Designers from '../pages/about/jobs/positions/designers';
 import EnterpriseAccountManager from '../pages/about/jobs/positions/enterprise-account-manager';
 import SalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative';
+import SalesDevelopmentRepresentativeFrench from '../pages/about/jobs/positions/sales-development-representative-french';
 import AccountManagerGermany from '../pages/about/jobs/positions/account-manager-germany';
 import ContentManager from '../pages/about/jobs/positions/content-manager';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support';
+import CustomerSupportFrench from '../pages/about/jobs/positions/customer-support-french';
 import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
 import PaymentsProcessingSpecialist from '../pages/about/jobs/positions/payments-processing-specialist.js';
 
@@ -362,6 +364,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/ueber-uns/jobs',
       },
+      fr: {
+        path: '/a-propos/offres',
+      },
     },
   ],
   [ProductEngineer, { name: 'jobs_product_engineer', category: 'jobs.engineering' }, {
@@ -412,6 +417,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [SalesDevelopmentRepresentativeFrench, { name: 'jobs_sales_development_representative_french', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/french-sales-development-representative',
+      },
+      fr: {
+        path: '/a-propos/offres/charge-de-compte',
+      },
+    },
+  ],
   [AccountManagerGermany, { name: 'jobs_account_manager_germany', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/account-manager-germany',
@@ -430,6 +444,15 @@ export const config = Immutable.fromJS([
   [CustomerSupport, { name: 'jobs_customer_support', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support',
+      },
+    },
+  ],
+  [CustomerSupportFrench, { name: 'jobs_customer_support_french', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/french-customer-support',
+      },
+      fr: {
+        path: '/a-propos/offres/support-client',
       },
     },
   ],
