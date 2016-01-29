@@ -519,6 +519,10 @@ export default {
     title: 'Sales Development Representative',
     description: '',
   },
+  jobs_sales_development_representative_french: {
+    title: 'French Sales Development Representative',
+    description: '',
+  },
   jobs_account_manager_germany: {
     title: 'Account Manager: Germany',
     description: '',
@@ -533,6 +537,10 @@ export default {
   },
   jobs_customer_support: {
     title: 'Customer Support',
+    description: '',
+  },
+  jobs_customer_support_french: {
+    title: 'French Customer Support',
     description: '',
   },
   jobs_inside_account_executive_uk: {

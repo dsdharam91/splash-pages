@@ -234,6 +234,26 @@ export default {
     description: '',
     nav_title: 'Notre équipe',
   },
+  jobs: {
+    title: 'Recrutement',
+    description: '',
+    nav_title: 'Recrutement',
+    open_positions: 'Offres',
+    sales: {
+      title: 'Ventes',
+    },
+    operations: {
+      title: 'Opérations',
+    },
+  },
+  jobs_sales_development_representative_french: {
+    title: 'Chargé de compte',
+    description: '',
+  },
+  jobs_customer_support_french: {
+    title: 'Customer Support',
+    description: '',
+  },
   pro: {
     title: 'Le contrôle total de vos prélèvements',
     nav_title: 'GoCardless Pro',
