@@ -10,7 +10,7 @@ export default class InsideAccountExecutive extends React.Component {
       <JobsPage>
         <h3 className='u-text-heading-light u-text-m u-color-heading'>Inside Account Executive </h3>
         <p className='para'>
-        Close new business in an exciting, fast paced environment.
+        Close new business in an exciting, fast-paced environment.
         </p>
         <p className='para'>
         GoCardless is having fun and growing fast. Thousands of businesses in the UK already trust us with
@@ -24,7 +24,7 @@ export default class InsideAccountExecutive extends React.Component {
         but also for the latest wave of tech startups.
         </p>
         <p className='para'>
-        GoCardless is innovating on top of the BACS network in the UK and equivalents around the world
+        GoCardless is innovating on top of the BACS network in the UK and equivalents around the world.
         By making these networks easier to integrate into modern internet services and adding intelligent,
         powerful and flexible capabilities we are adding value in completely new ways. The ability to
         work with all of these together through a single integration is a real game changer. GoCardless
@@ -91,7 +91,7 @@ export default class InsideAccountExecutive extends React.Component {
           </li>
         </ul>
         <p className='para'>
-        If you're unsure, please apply - we'd love to hear from you!
+        If you're unsure, please apply &ndash; we'd love to hear from you!
         </p>
         <a href='https://boards.greenhouse.io/gocardless/jobs/145799' className='btn u-margin-Vs'>
         Apply now
