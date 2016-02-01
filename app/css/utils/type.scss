@@ -51,6 +51,11 @@
 
 // Text sizes
 
+.u-text-xxl, .u-text-xl, .u-text-l,
+h1, h2, h3 {
+  line-height: $line-height-heading;
+}
+
 .u-text-xxl {
   font-size: $font-size-xxlarge;
 }
@@ -68,7 +73,7 @@ h3, .u-text-m {
 }
 
 h4, .u-text-s {
-  font-size: $font-size-small;
+  font-size: $font-size-xsmall;
 }
 
 h5, .u-text-xs {

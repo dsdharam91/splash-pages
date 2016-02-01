@@ -1,16 +1,17 @@
-$font-family-base:      Arial, sans-serif;
+$font-family-base:      "Gotham SSm A", "Gotham SSm B", Arial, sans-serif;
 $font-family-heading:   "Gotham SSm A", "Gotham SSm B", $font-family-base;
 $font-family-label:     "Gotham SSm A", "Gotham SSm B", $font-family-base;
 $font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
 
-$line-height-base: 1.466666667;
+$line-height-base: 1.618;
+$line-height-heading: 1.4666667;
 
 $font-size-xxlarge: 42px; //old
 $font-size-xlarge: 36px;
 $font-size-large: 24px;
 $font-size-medium: 18px;
 $font-size-small: 15px;
-$font-size-xsmall: 14px;
+$font-size-xsmall: 13px;
 $font-size-xxsmall: 12px;
 $font-size-xxxsmall: 11px; //old
 
@@ -55,18 +56,14 @@ $font-weight-light: 200;
 
 $site-background-color: #FFF;
 
-$primary-color: #498EE0;
+$primary-color: #5092DA;
 $primary-hover-color: #376BA9;
 
 $light-gray: #F8F8F8;
-
-$gray: #EBEBEB;
-
-$medium-gray: #7D8B9B;
-$medium-gray-lighten: lighten($medium-gray, 5%);
-
-$dark-gray: #5E6E81;
-$dark-gray-darken: #526377;
+$gray: #DDDDDD;
+$medium-gray: #767676;
+$dark-gray: #767676;
+$xdark-gray: #222222;
 
 $highlight-yellow: #FEFF87;
 $highlight-green: #C9FF8E;
