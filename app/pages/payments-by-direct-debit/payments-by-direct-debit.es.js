@@ -109,7 +109,7 @@ export default class PaymentsByDirectDebitEs extends React.Component {
                     Únete a <Message pointer='number_of_merchants' />+ empresas
                   </h3>
                   <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                    Hemos movido más de <Message pointer='payments_processed_volume' /> para 
+                    Hemos movido más de <Message pointer='payments_processed_volume' /> para
                     más de <Message pointer='number_of_merchants' /> empresas.</p>
                 </div>
               </div>
