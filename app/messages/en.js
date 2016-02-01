@@ -368,6 +368,10 @@ export default {
     title: 'GoCardless transforms cashflow for accountants',
     description: '',
   },
+  energy: {
+    title: 'Direct Debit for Energy Companies',
+    description: '',
+  },
   partners_guide: {
     title: 'Partnering with GoCardless',
     description: '',
