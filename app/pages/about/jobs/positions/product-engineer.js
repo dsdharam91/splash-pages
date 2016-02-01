@@ -23,7 +23,7 @@ export default class ProductEngineer extends React.Component {
           do this, we're looking for engineers that are strongly user-focussed and care
           as much about figuring out which features to build as the technical implementation.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
           You'll build the products and features that our users see and interact with.
           By continually improving the experience of existing products, you'll strengthen
@@ -40,7 +40,7 @@ export default class ProductEngineer extends React.Component {
           back-end engineers, as well as other internal teams like sales and customer
           support.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Our work</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Our work</h4>
         <p className='para'>
           We build simple, reliable products on top of technologies we understand and
           trust. We're upgrading to Angular 2.0 for our dashboards, and we're open to using
@@ -77,7 +77,7 @@ export default class ProductEngineer extends React.Component {
           <li>Statically generating our marketing splash pages in different languages using React.</li>
           <li>Building internal admin and fraud tooling to augment our user dashboards.</li>
         </ul>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Our culture</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Our culture</h4>
         <p className='para'>
           We've built a friendly, collaborative culture, where we hire and develop
           ambitious people that share our desire to do work we can be proud of. We value
@@ -95,7 +95,7 @@ export default class ProductEngineer extends React.Component {
           and we pay for courses and books. We have a conference budget for everyone
           on the team and can help with speaker coaching if you're interested.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
         <ul className='list u-margin-Tm'>
           <li>
             You take pride in building products that are valuable to users.

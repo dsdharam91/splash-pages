@@ -63,7 +63,7 @@ export default class ProFr extends React.Component {
                 <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
                   Découvrez GoCardless Pro
                 </h2>
-                <p className='u-text-s u-color-p u-margin-Txs'>
+                <p className='u-text-xs u-color-p u-margin-Txs'>
                   Adapté aux grandes entreprises et startups en forte croissance, GoCardless Pro combine simplicité
                   d'utilisation de notre produit original GoCardless et contrôle complet du paiement
                   et de l'expérience client. Il permet également d'encaisser des prélèvements partout en Europe et
@@ -144,7 +144,7 @@ export default class ProFr extends React.Component {
                 <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                   Vous êtes en bonne compagnie
                 </h2>
-                <p className='u-text-s u-color-p u-margin-Txs'>
+                <p className='u-text-xs u-color-p u-margin-Txs'>
                   Chaque jour les plus grandes entreprises et start-ups innovantes font confiance à
                   la technologie de GoCardless pour gérer leurs paiements
                 </p>
@@ -167,7 +167,7 @@ export default class ProFr extends React.Component {
                     <Message pointer='phone_local' />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-p u-margin-Ts'>
                       Parlez avec nos experts de vos problématiques paiements.
                     </p>
                   </div>
@@ -208,7 +208,7 @@ export default class ProFr extends React.Component {
                 <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                   Un prix adapté à votre échelle
                 </h2>
-                <p className='u-text-s u-color-p u-margin-Vxs'>
+                <p className='u-text-xs u-color-p u-margin-Vxs'>
                   Conçu pour les grandes entreprises et les start-ups en forte croissance
                 </p>
                 <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>

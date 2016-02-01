@@ -71,7 +71,7 @@ export default class ProEn extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
                     Welcome to GoCardless Pro
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     Designed specifically for larger enterprises,
                     GoCardless Pro combines the simplicity of our original
                     GoCardless product with complete control over payments and customer experience.
@@ -148,7 +148,7 @@ export default class ProEn extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                     You’re in good company
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     Every day, some of the biggest and most respected businesses
                     trust GoCardless to power their payments
                   </p>
@@ -180,7 +180,7 @@ export default class ProEn extends React.Component {
                     Want to take payments in Europe?
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-p u-margin-Ts'>
                       GoCardless Pro is the only product that enables you to collect
                       Direct Debit payments from the UK, Sweden and the Eurozone through a single integration.
                       With our API, your business can take payments from over 500 million people
@@ -202,7 +202,7 @@ export default class ProEn extends React.Component {
                     <Message pointer='phone_local' />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-p u-margin-Ts'>
                       Speak with one of our payments experts to learn how GoCardless can help your business.
                     </p>
                   </div>
@@ -293,7 +293,7 @@ export default class ProEn extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-light u-text-xl'>
                     <Message pointer='pricing.pro_cost_per_transaction' /> per transaction
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Vxs'>
+                  <p className='u-text-xs u-color-p u-margin-Vxs'>
                     Competitive rates for businesses of any size.<br />
                   </p>
                   <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>

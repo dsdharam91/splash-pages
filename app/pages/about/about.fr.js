@@ -59,7 +59,7 @@ Accel Partners, Passion Capital et Y Combinator.
             <div className='grid__cell u-size-1of3'>
               <div className='u-margin-Txxl'>
                 <img src='/images/press/publications-stacked.jpg' />
-                <p className='u-text-s u-color-p u-margin-Txxl'>
+                <p className='u-text-xs u-color-p u-margin-Txxl'>
                   GoCardless est apparu à la télévision, sur des blogs
                   et site dans le monde entier.<br /><br />
                   Pour tout contact presse, merci de contacter <a href='mailto:press@gocardless.com'>notre équipe de relations presse</a>,

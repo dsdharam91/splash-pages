@@ -60,7 +60,7 @@ export default class PartnersSage extends React.Component {
                   <CalendarIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-green' />
                   <CalendarIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                 </figure>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
                   Always get paid on time
                 </h2>
                 <p className='u-color-p u-margin-Txs'>
@@ -72,7 +72,7 @@ export default class PartnersSage extends React.Component {
                   <TickSquareIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-yellow' />
                   <TickSquareIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                 </figure>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
                   Collect with two clicks
                 </h2>
                 <p className='u-color-p u-margin-Txs'>
@@ -84,7 +84,7 @@ export default class PartnersSage extends React.Component {
                   <RealtimeIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-blue' />
                   <RealtimeIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                 </figure>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
                   Automatic reconciliation
                 </h2>
                 <p className='u-color-p u-margin-Txs'>
@@ -98,7 +98,7 @@ export default class PartnersSage extends React.Component {
                   <CustomerSetupIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-blue' />
                   <CustomerSetupIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                 </figure>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
                   Simple customer setup
                 </h2>
                 <p className='u-color-p u-margin-Txs'>
@@ -110,7 +110,7 @@ export default class PartnersSage extends React.Component {
                   <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-green' />
                   <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                 </figure>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
                   Unbelievably low pricing
                 </h2>
                 <p className='u-color-p u-margin-Txs'>
@@ -123,7 +123,7 @@ export default class PartnersSage extends React.Component {
                   <ClockIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-yellow' />
                   <ClockIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                 </figure>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
                   Get started immediately
                 </h2>
                 <p className='u-color-p u-margin-Txs'>

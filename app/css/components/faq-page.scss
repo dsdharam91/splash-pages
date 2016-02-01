@@ -23,11 +23,11 @@
 .faq-page table {
   @extend .table;
   @extend .u-color-p;
-  border-bottom: 1px solid $gray-darken;
+  border-bottom: 1px solid $gray;
 }
 
 .faq-page tr {
-  border-top: 1px solid $gray-darken;
+  border-top: 1px solid $gray;
 }
 
 .faq-page tr:nth-child(1) {
@@ -41,7 +41,7 @@
 }
 
 .faq-page td {
-  border-right: 1px solid $gray-darken;
+  border-right: 1px solid $gray;
 }
 
 .faq-page td:nth-child(1) {

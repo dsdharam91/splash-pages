@@ -30,7 +30,7 @@ export default class PricingDe extends React.Component {
                     <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>
                       <Message pointer='pricing.per_transaction_amount_normal' />
                     </h2>
-                    <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
+                    <p className='u-text-heading-light u-text-center u-color-invert u-text-xs u-margin-Txxs'>
                       Pro Zahlung, gedeckelt bei <Message pointer="pricing.cost_cap" />
                     </p>
                   </div>
@@ -64,11 +64,11 @@ export default class PricingDe extends React.Component {
 
               <div className={classNames('grid__cell u-padding-Vxl u-padding-Rxs', { 'u-size-1of2': hasPercentagePricing })}>
                 <h1 className='u-text-heading-light u-text-center u-color-invert u-text-l u-padding-Bs'>GoCardless Pro</h1>
-                <div className='u-background-dark-gray-darken u-padding-Vxl'>
+                <div className='u-background-xdark-gray u-padding-Vxl'>
                   <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>
                     <Message pointer='pricing.pro_cost_per_transaction' />
                   </h2>
-                  <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
+                  <p className='u-text-heading-light u-text-center u-color-invert u-text-xs u-margin-Txxs'>
                     Pro Zahlung
                   </p>
                 </div>

@@ -22,7 +22,7 @@ export default class PricingFr extends React.Component {
                   </h1>
                   <div className='u-background-primary u-padding-Vxl'>
                     <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>1%</h2>
-                    <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
+                    <p className='u-text-heading-light u-text-center u-color-invert u-text-xs u-margin-Txxs'>
                       Par transaction réussie, plafonné à 2€
                     </p>
                   </div>
@@ -57,9 +57,9 @@ export default class PricingFr extends React.Component {
                   <h1 className='u-text-heading-light u-text-center u-color-invert u-text-l u-padding-Bs'>
                     GoCardless Pro
                   </h1>
-                  <div className='u-background-dark-gray-darken u-padding-Vxl'>
+                  <div className='u-background-xdark-gray u-padding-Vxl'>
                     <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>0,01 - 0,60 €</h2>
-                    <p className='u-text-heading-light u-text-center u-color-invert u-text-s u-margin-Txxs'>
+                    <p className='u-text-heading-light u-text-center u-color-invert u-text-xs u-margin-Txxs'>
                       Par transaction réussie
                     </p>
                   </div>

@@ -33,11 +33,11 @@ export default class Europe extends React.Component {
                 Get paid at home and abroad
               </h2>
               <div className='u-size-11of12 u-center'>
-                <p className='u-text-s u-color-p u-margin-Ts'>
+                <p className='u-text-xs u-color-p u-margin-Ts'>
                   To help businesses like yours get the benefits of Direct Debit internationally,
                   the European Union has created the Single European Payments Area, known as SEPA.
                 </p>
-                <p className='u-text-s u-color-p u-margin-Tm'>
+                <p className='u-text-xs u-color-p u-margin-Tm'>
                   SEPA makes transferring money between Eurozone countries quick and easy,
                   and GoCardless is one of the first companies to offer access to the
                   system. <Link to='contact_sales' className='u-link-color-p u-text-underline'>

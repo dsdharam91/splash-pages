@@ -78,7 +78,7 @@ export default class ProNl extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
                     Welkom bij GoCardless Pro
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     <Translation locales='nl-NL'>
                       Ontwikkeld voor grotere bedrijven,
                       GoCardless Pro combineert het gebruiksgemak van ons origineel
@@ -165,7 +165,7 @@ export default class ProNl extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                     U bent in goed gezelschap
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     Dag na dag vertrouwen vele van de grootste en meest gerespecteerde bedrijven hun betalingen aan GoCardless toe
                   </p>
                 </div>
@@ -196,7 +196,7 @@ export default class ProNl extends React.Component {
                     Wil u betalingen in Europa te ontvangen?
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-p u-margin-Ts'>
                       <Translation locales='nl-NL'>
                         GoCardless Pro is het enige product dat u toelaat
                         SEPA incasso betalingen uit de Eurozone en Verenigd Koninkrijk te ontvangen met één eenvoudige integratie.
@@ -224,7 +224,7 @@ export default class ProNl extends React.Component {
                     <Message pointer='phone_local' />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-p u-margin-Ts'>
                       Spreek met onze betalingsexperts en leer hoe GoCardless uw bedrijf kan helpen.
                     </p>
                   </div>
@@ -291,7 +291,7 @@ export default class ProNl extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-light u-text-xl'>
                     <Message pointer='pricing.pro_cost_per_transaction' /> per verrichting
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Vxs'>
+                  <p className='u-text-xs u-color-p u-margin-Vxs'>
                     Concurrentiële tarieven voor bedrijven van elke omvang.<br />
                   </p>
                   <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>

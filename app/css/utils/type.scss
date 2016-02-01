@@ -24,8 +24,8 @@
 }
 
 .u-text-heading {
-  font-family: $font-family-heading;
-  color: $header-color;
+  font-family: $font-family-base;
+  color: $xdark-gray;
 }
 
 .u-text-heading-light {
@@ -36,12 +36,12 @@
 }
 
 .u-text-subheading {
-  font-family: $font-family-heading;
-  color: $subheader-color;
+  font-family: $font-family-base;
+  color: $dark-gray;
 }
 
 .u-text-label {
-  font-family: $font-family-label;
+  font-family: $font-family-base;
 }
 
 .u-text-no-smoothing {
@@ -73,7 +73,7 @@ h3, .u-text-m {
 }
 
 h4, .u-text-s {
-  font-size: $font-size-xsmall;
+  font-size: $font-size-small;
 }
 
 h5, .u-text-xs {

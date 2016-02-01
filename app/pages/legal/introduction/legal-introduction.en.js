@@ -25,7 +25,7 @@ export default class LegalIntroductionEn extends React.Component {
         </p>
 
         <Link to='legal_customers' className='legal-contents__link u-link-clean'>
-          <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s legal-contents__link-heading'>
+          <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-xs legal-contents__link-heading'>
             Customer agreement
           </h3>
           <p className='para'>
@@ -34,7 +34,7 @@ export default class LegalIntroductionEn extends React.Component {
         </Link>
 
         <Link to='legal_merchants' className='legal-contents__link u-link-clean'>
-          <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s legal-contents__link-heading'>
+          <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-xs legal-contents__link-heading'>
             Merchant agreement
           </h3>
           <p className='para'>
@@ -43,7 +43,7 @@ export default class LegalIntroductionEn extends React.Component {
         </Link>
 
         <Link to='legal_partners' className='legal-contents__link u-link-clean'>
-          <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s legal-contents__link-heading'>
+          <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-xs legal-contents__link-heading'>
             Partner agreement
           </h3>
           <p className='para'>
@@ -52,7 +52,7 @@ export default class LegalIntroductionEn extends React.Component {
         </Link>
 
         <Link to='legal_restrictions' className='legal-contents__link u-link-clean'>
-          <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s legal-contents__link-heading'>
+          <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-xs legal-contents__link-heading'>
             Restricted activities
           </h3>
           <p className='para'>
@@ -61,7 +61,7 @@ export default class LegalIntroductionEn extends React.Component {
         </Link>
 
         <Link to='legal_privacy' className='legal-contents__link u-link-clean'>
-          <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s legal-contents__link-heading'>
+          <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-xs legal-contents__link-heading'>
             Privacy Policy
           </h3>
           <p className='para'>

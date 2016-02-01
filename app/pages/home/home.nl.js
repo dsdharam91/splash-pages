@@ -88,7 +88,7 @@ export default class HomeNl extends React.Component {
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                 Eenvoudige, transparante tarieven voor iedereen
               </h2>
-              <p className='u-text-s u-color-p u-margin-Vxs'>
+              <p className='u-text-xs u-color-p u-margin-Vxs'>
                 Voordelige tarieven voor iedereen, van éénmanszaken tot grote organisaties
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>

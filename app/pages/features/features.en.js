@@ -253,16 +253,16 @@ export default class FeaturesEn extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                     Take the guesswork out of cashflow
                   </h2>
-                  <h3 className='u-text-s'>Up to the second status reports</h3>
+                  <h3 className='u-text-xs'>Up to the second status reports</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Our simple online dashboard and email notifications keep you updated with comprehensive
                     information on all of your payments and customers.
                   </p>
-                  <h3 className='u-text-s'>Export your data</h3>
+                  <h3 className='u-text-xs'>Export your data</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     View your data the way you want. GoCardless is compatible with the most popular accounting packages.
                   </p>
-                  <h3 className='u-text-s'>Submit payments every day</h3>
+                  <h3 className='u-text-xs'>Submit payments every day</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     With GoCardless you can submit payments as often as you like without any extra hassle or cost.
                   </p>
@@ -288,17 +288,17 @@ export default class FeaturesEn extends React.Component {
                       payments quick and simple for you and your customers.
                     </p>
                   </Translation>
-                  <h3 className='u-text-s'>Simple online set up</h3>
+                  <h3 className='u-text-xs'>Simple online set up</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     The whole process happens online. Using our online form, your customers can authorise
                     payments in minutes — even from their mobile phone.
                   </p>
-                  <h3 className='u-text-s'>Your logo, front and centre</h3>
+                  <h3 className='u-text-xs'>Your logo, front and centre</h3>
                   <p className='u-color-p u-margin-Bm'>
                     Provide a great user experience by adding your logo to our<br />payment forms and
                     automatically sending customers back<br />to your site after paying.
                   </p>
-                  <h3 className='u-text-s'>A safe and easy way to pay</h3>
+                  <h3 className='u-text-xs'>A safe and easy way to pay</h3>
                   <IfLocale domesticScheme='sepa'>
                     <p className='u-size-5of6 u-color-p u-margin-Bm'>
                       With Direct Debit, there's no need for customers to worry about missing a payment.
@@ -350,7 +350,7 @@ export default class FeaturesEn extends React.Component {
                       Simple bulk change process
                     </div>
                     <p className='u-size-8of10 u-center u-color-p u-margin-Txs'>
-                      You may be eligible to use our bulk change process to automatically move customers from your<br />existing provider.
+                      You may be eligible to use our bulk change process to automatically move customers from your existing provider.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3 u-text-center'>
@@ -362,7 +362,7 @@ export default class FeaturesEn extends React.Component {
                       Help is at hand
                     </div>
                     <p className='u-size-8of10 u-center u-color-p u-margin-Txs'>
-                      We’ve done this hundreds of times and can walk you through the steps needed to get your customers<br />to switch.
+                      We’ve done this hundreds of times and can walk you through the steps needed to get your customers to switch.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3 u-text-center'>
@@ -375,7 +375,7 @@ export default class FeaturesEn extends React.Component {
                     </div>
                     <p className='u-size-8of10 u-center u-color-p u-margin-Txs'>
                       Our easy-to-use tools let you add thousands of customers in minutes.
-                      All they have to do is complete our simple payment page.
+                      All they have to do is fill out our simple payment page.
                     </p>
                   </div>
                 </div>
@@ -393,7 +393,7 @@ export default class FeaturesEn extends React.Component {
                     <Message pointer="phone_local" />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-p u-margin-Ts'>
                       Speak with one of our payments experts to learn how GoCardless can help your business.
                     </p>
                   </div>

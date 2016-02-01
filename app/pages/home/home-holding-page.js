@@ -110,7 +110,7 @@ export default class HomeHoldingPage extends React.Component {
               <div className='u-text-center u-margin-Vl u-padding-Vs u-center u-size-1of2'>
                 <img src='/images/partners/partners-map@2x.jpg' />
               </div>
-              <p className='u-text-s u-color-p u-margin-Txs'>
+              <p className='u-text-xs u-color-p u-margin-Txs'>
                 <Message pointer='holding_page.global_description' /><br />
                 <Message pointer='holding_page.global_description2' />
               </p>

@@ -149,7 +149,7 @@ export default class PartnersEn extends React.Component {
                 <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                   Your customers pay just <Message pointer='pricing.per_transaction_amount_normal' />
                 </h2>
-                <p className='u-text-s u-color-p u-margin-Vxs'>
+                <p className='u-text-xs u-color-p u-margin-Vxs'>
                   No sign-up costs or hidden fees. Just 1% per transaction, capped at <Message pointer="pricing.cost_cap" />.
                 </p>
                 <Link to='contact_sales'
@@ -173,14 +173,14 @@ export default class PartnersEn extends React.Component {
                 <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bl'>
                   Accountancy
                 </h2>
-                <p className='u-text-s u-color-p u-margin-Bm'>
+                <p className='u-text-xs u-color-p u-margin-Bm'>
                   KashFlow integrated with GoCardless to empower their users to take payments
                   quickly and easily from within their KashFlow account.
                 </p>
-                <p className='u-text-s u-text-italic u-margin-Bxs partners-page__quote'>
+                <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
                   “GoCardless users stick for longer and get more value out of their subscription.”
                 </p>
-                <p className='u-text-s u-margin-Bm u-color-p'>Duane Jackson, Founder</p>
+                <p className='u-text-xs u-margin-Bm u-color-p'>Duane Jackson, Founder</p>
                 <img src='/images/partners/kashflow-logo@2x.png' className='partners-page__partner-logo' />
               </div>
               <div className='grid__cell u-size-1of2 partners-page__illustration'>
@@ -201,15 +201,15 @@ export default class PartnersEn extends React.Component {
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bl'>
                 Clubs &amp; membership
               </h2>
-              <p className='u-text-s u-color-p u-margin-Bm'>
+              <p className='u-text-xs u-color-p u-margin-Bm'>
                 TeamUp partnered with GoCardless to help gyms and clubs across the country set-up
                 and manage recurring payments from their members.
               </p>
-              <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
+              <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
                 “Our customers appreciate GoCardless's ease of use, and as a partner they've been
                 pivotal in driving our growth in the UK and increasingly in Europe.”
               </p>
-              <p className='u-text-s u-margin-Bm u-color-p'>Matt Pegler, Co-Founder</p>
+              <p className='u-text-xs u-margin-Bm u-color-p'>Matt Pegler, Co-Founder</p>
               <img src='/images/partners/teamup-logo@2x.png' className='partners-page__partner-logo' />
             </div>
           </div>
@@ -221,15 +221,15 @@ export default class PartnersEn extends React.Component {
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bl'>
                 Billing software
               </h2>
-              <p className='u-text-s u-color-p u-margin-Bl'>
+              <p className='u-text-xs u-color-p u-margin-Bl'>
                 Zuora chose GoCardless as their preferred Direct Debit provider, enabling their clients to collect payments globally.
               </p>
-              <p className='u-text-s u-text-light u-text-italic u-margin-Bxs partners-page__quote'>
+              <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
                 “GoCardless is a key Zuora partner that provides our clients with an unrivalled Direct Debit Experience.
                 The Zuora-GoCardless payment integration is helping subscription businesses across the UK and Europe deliver
                 seamless payment experiences to their customers.”
               </p>
-              <p className='u-text-s u-margin-Bm u-color-p'>Tamsyn Attiwell, VP Global Services EMEA</p>
+              <p className='u-text-xs u-margin-Bm u-color-p'>Tamsyn Attiwell, VP Global Services EMEA</p>
               <img src='/images/partners/zuora-logo@2x.png' className='partners-page__partner-logo' />
             </div>
             <div className='grid__cell u-size-1of2 partners-page__illustration u-text-center'>
@@ -266,7 +266,7 @@ export default class PartnersEn extends React.Component {
                   <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
                     Property &amp; shared spaces
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     Enable your agents, landlords and workspace providers to collect rent.
                   </p>
                 </div>
@@ -282,8 +282,8 @@ export default class PartnersEn extends React.Component {
                   <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
                     Business Management
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
-                    Help your customers grow by offering payments within your product.
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
+                    Help customers grow by offering payments within your product.
                   </p>
                 </div>
               </div>
@@ -298,7 +298,7 @@ export default class PartnersEn extends React.Component {
                   <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
                     Charities
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     Enable charities to collect donations by Direct Debit.
                   </p>
                 </div>
@@ -314,7 +314,7 @@ export default class PartnersEn extends React.Component {
                   <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
                     Banks &amp; building societies
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     Refer your customers to us or use our white label service.
                   </p>
                 </div>
@@ -330,7 +330,7 @@ export default class PartnersEn extends React.Component {
                   <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
                     Payment service providers
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     Use us to offer Direct Debit in the UK, Europe and beyond.
                   </p>
                 </div>
@@ -346,7 +346,7 @@ export default class PartnersEn extends React.Component {
                   <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
                     And lots more&hellip;
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     GoCardless can help a wide range of industries across the world.
                   </p>
                 </div>
@@ -370,7 +370,7 @@ export default class PartnersEn extends React.Component {
                   <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Tm'>
                     Affiliate programme
                   </h2>
-                  <p className='u-text-s u-color-p u-size4of5 u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-size4of5 u-margin-Txs'>
                     Earn commission when you refer new customers to GoCardless.
                   </p>
                 </div>
@@ -383,7 +383,7 @@ export default class PartnersEn extends React.Component {
                   <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Tm'>
                     App integration
                   </h2>
-                  <p className='u-text-s u-color-p u-size4of5 u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-size4of5 u-margin-Txs'>
                     Make it easy for your customers to collect recurring payments.
                   </p>
                 </div>
@@ -396,7 +396,7 @@ export default class PartnersEn extends React.Component {
                   <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Tm'>
                     White label partnerships
                   </h2>
-                  <p className='u-text-s u-color-p u-size4of5 u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-size4of5 u-margin-Txs'>
                     Take full control of payments using our white label integration.
                   </p>
                 </div>
@@ -411,7 +411,7 @@ export default class PartnersEn extends React.Component {
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                 Start your partnership today
               </h2>
-              <p className='u-text-s u-color-p u-margin-Vxs'>
+              <p className='u-text-xs u-color-p u-margin-Vxs'>
                 If you think that your business can benefit from partnering with GoCardless,
                 <br />please get in touch – we’ll be happy to help.
               </p>

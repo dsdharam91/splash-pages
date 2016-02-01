@@ -23,7 +23,7 @@ export default class HomeFr extends React.Component {
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
                 Accès rapide et simple au prélèvement bancaire
               </h2>
-              <p className='u-text-s u-color-p u-margin-Txs'>
+              <p className='u-text-xs u-color-p u-margin-Txs'>
                 GoCardless vous permet de bénéficier de la fiabilité et des tarifs très compétitifs
                 du prélèvement SEPA, sans les complications associées aux opérateurs historiques.
               </p>
@@ -174,7 +174,7 @@ export default class HomeFr extends React.Component {
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                 Entre de bonnes mains
               </h2>
-              <p className='u-text-s u-color-p u-margin-Txs'>
+              <p className='u-text-xs u-color-p u-margin-Txs'>
                 Nous collectons des millions pour plus de <Message pointer='number_of_merchants' /> clients chaque jour,
                 en conformité avec les règles SEPA et sous la supervision de la FCA.
                 Nous aidons les start-ups comme les plus grandes entreprises.
@@ -194,7 +194,7 @@ export default class HomeFr extends React.Component {
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                 Un prix simple, transparent pour tous
               </h2>
-              <p className='u-text-s u-color-p u-margin-Vxs'>
+              <p className='u-text-xs u-color-p u-margin-Vxs'>
                 Des tarifs concurrentiels adaptés aux grandes entreprises comme aux start-ups
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>

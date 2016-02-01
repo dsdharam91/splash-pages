@@ -24,7 +24,7 @@ export default class ContentManager extends React.Component {
           that speaks to small and medium sized businesses to cement our position
           as the best recurring payments provider.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
           Think newsroom: you’ll be quickly turning your hand to different topics
           and industries, getting in the mindset of different audiences and creating
@@ -58,7 +58,7 @@ export default class ContentManager extends React.Component {
           We value learning and feedback, and will support you to develop and
           expand your role as our team continues its rapid growth.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
         <ul className='list u-margin-Tm'>
           <li>
             You’re a writer at heart, with a passion for storytelling and a strong

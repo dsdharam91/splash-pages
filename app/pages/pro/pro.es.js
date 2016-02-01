@@ -72,7 +72,7 @@ export default class ProEs extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
                     Bienvenido a GoCardless Pro
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     Diseñado específicamente para grandes empresas,
                     GoCardless Pro combina la simplicidad de nuestro Gocardless original
                     con un completo control sobre los cobros y de la experiencia de usuario.
@@ -149,7 +149,7 @@ export default class ProEs extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                     Estás en buena compañía
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     Cada día, algunas de las mayores y más respetables compañías
                     confían en GoCardless para realizar sus cobros recurrentes
                   </p>
@@ -207,7 +207,7 @@ export default class ProEs extends React.Component {
                     <Message pointer='phone_local' />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-p u-margin-Ts'>
                       Habla con uno de nuestros expertos en Cobros y descubre como GoCardless puede ayudar a tu negocio.
                     </p>
                   </div>
@@ -274,7 +274,7 @@ export default class ProEs extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-light u-text-xl'>
                     <Message pointer='pricing.pro_cost_per_transaction' /> por transacción
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Vxs'>
+                  <p className='u-text-xs u-color-p u-margin-Vxs'>
                     Precios competitivos para empresas de cualquier tamaño.<br />
                   </p>
                   <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
