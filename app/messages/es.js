@@ -120,8 +120,8 @@ export default {
     },
   },
   payments_by_direct_debit: {
-    title: 'Paiements par prélèvement SEPA',
-    description: 'Le prélèvement SEPA est plus fiable et économique que les cartes. C\'est également plus efficace que les virements et chèques. Apprenez-en plus sur les paiements par prélèvement.',
+    title: 'Cobros online con Domiciliación Bancaria SEPA',
+    description: 'La Domiciliación Bancaria SEPA es más fiable y barata que las tarjetas de crédito. Y ahora con GoCardless es Online y más fácil de utilizar que nunca.',
   },
   security: {
     title: 'Seguridad',

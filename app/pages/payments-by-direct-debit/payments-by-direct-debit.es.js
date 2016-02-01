@@ -16,10 +16,10 @@ export default class PaymentsByDirectDebitEs extends React.Component {
         <div className='page-hero u-padding-Bxxl'>
           <div className='site-container u-padding-Vxxl u-text-center'>
             <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
-              Take recurring payments online with Direct Debit
+              Haz tus cobros recurrentes por Internet a través de la Domiciliación Bancaria de GoCardless
             </h1>
             <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
-              No more chasing late payments. Flexible, automated online payments with just a 1% fee.
+              No vuelvas a tener retrasos en los pagos. Empieza a cobrar de forma automática en menos de 5 minutos.
             </p>
           </div>
         </div>
@@ -32,10 +32,11 @@ export default class PaymentsByDirectDebitEs extends React.Component {
                   <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Take control of your payments
+                  Gestiona tus cobros automáticamente
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  No more cashflow issues. With Direct Debit, you'll get paid on time every time.
+                  Sigue cada cobro desde tu panel de control y consulta si ya han pagado, reintenta pagos fallidos o
+                  devuelve el dinero a tus clientes en un solo click
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -44,10 +45,11 @@ export default class PaymentsByDirectDebitEs extends React.Component {
                   <ClockIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Reduce admin time
+                  Reduce el tiempo de administración
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Manage your account online and always know the status of your payments.
+                  Olvídate de entrar en tu banca online cada día para enviar Remesas o saber el estado de tus cobros.
+                  Administra tu cuenta online y recibe emails sobre impagos o el resumen de cada mes.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -56,16 +58,16 @@ export default class PaymentsByDirectDebitEs extends React.Component {
                   <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  1% fees, capped at £2
+                  Crea tu propia página de cobro online al instante
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Cheaper than taking credit cards and no hidden fees. Just 1%, capped at £2 per transaction.
+                  En menos de 5 minutos, podrás empezar a cobrar tus suscripciones o planes en tu web, personalizadas a tus tarifas y con tu logo.
                 </p>
               </div>
             </div>
             <div className='u-padding-Tm u-margin-Tm u-text-center'>
-              <Href to='signup.path' className='btn u-padding-Hl'>Sign up now</Href>
-              <Link to='features' className='btn u-padding-Hl btn--hollow u-margin-Lm'>Find out more</Link>
+              <Href to='signup.path' className='btn u-padding-Hl'>Regístrate ahora</Href>
+              <Link to='features' className='btn u-padding-Hl btn--hollow u-margin-Lm'>Descubre más</Link>
             </div>
           </div>
         </div>
@@ -74,7 +76,7 @@ export default class PaymentsByDirectDebitEs extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
-              GoCardless powers online Direct Debit for over <Message pointer='number_of_merchants' /> merchants
+              GoCardless ayuda a más de <Message pointer='number_of_merchants' /> empresas con sus Domiciliaciones Bancarias Online.
             </h2>
             <div className='u-text-center u-margin-Tl u-padding-Vs u-center'>
               <img src='/images/logos/pro-logos@2x.png' />
@@ -86,26 +88,26 @@ export default class PaymentsByDirectDebitEs extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
-              GoCardless makes getting paid easier than ever
+              GoCardless hace el cobrar más fácil que nunca
             </h2>
             <div className='grid u-center u-text-center u-padding-Tl u-margin-Ts'>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Really simple setup</h3>
+                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Abre una cuenta al momento</h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  Create an account and start taking payments in only five minutes.</p>
+                  Crea una cuenta y empieza a realizar cobros en solo 5 minutos.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Integrates with your software</h3>
+                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Se integra con tu software</h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  GoCardless integrates with leading accountancy software packages.</p>
+                  GoCardless se integra con los principales softwares de contabilidad y con nuestra API, también en tu software.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>
-                  Join <Message pointer='number_of_merchants' />+ businesses
+                  Únete a <Message pointer='number_of_merchants' />+ empresas
                 </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  We've collected more than <Message pointer='payments_processed_volume' /> for
-                  over <Message pointer='number_of_merchants' /> merchants.</p>
+                  Hemos movido más de <Message pointer='payments_processed_volume' /> para 
+                  más de <Message pointer='number_of_merchants' /> empresas.</p>
               </div>
             </div>
           </div>
@@ -115,15 +117,15 @@ export default class PaymentsByDirectDebitEs extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl u-text-center u-center'>
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
-              It takes just 5 minutes to set up an account
+              Sólo se tarda 5 minutos en abrir una cuenta
             </h2>
-            <Href to='signup.path' className='btn'>Start taking payments</Href>
-            <p className='u-color-p u-margin-Ts'>There are no set up costs, no monthly fees and no hidden charges</p>
+            <Href to='signup.path' className='btn'>Empieza a cobrar</Href>
+            <p className='u-color-p u-margin-Ts'>No hay costes de Setup, ni mensualidades ni costes ocultos</p>
             <hr className='u-size-1of2 u-center u-margin-Vxxl' />
-            <p className='u-color-p'><strong>Want to talk to someone first?</strong><br />
-              Call our payments experts on <Message pointer='phone_local' /><br />
-              We're available 9am - 6pm Monday to Friday<br />
-              You can also <Link to='contact_sales' className='u-link-color-p u-text-underline'>request a call back from our team</Link>.
+            <p className='u-color-p'><strong>¿Quieres hablar con alguien primero?</strong><br />
+              Llama a nuestros expertos al <Message pointer='phone_local' /><br />
+              Estamos disponibles de 10.00 a 19.00 de Lunes a Viernes<br />
+              También puedes <Link to='contact_sales' className='u-link-color-p u-text-underline'>pedir que alguien de nuestro equipo te llame</Link>.
             </p>
           </div>
         </div>
