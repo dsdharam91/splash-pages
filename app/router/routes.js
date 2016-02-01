@@ -283,6 +283,9 @@ export const config = Immutable.fromJS([
       'fr-FR': {
         path: '/prelevement-sepa',
       },
+      'es-ES': {
+        path: '/domiciliacion-bancaria-sepa',
+      },
     },
   ],
   [PaymentsByDirectDebitVariationB, { name: 'payments_by_direct_debit_variation_b' }, {

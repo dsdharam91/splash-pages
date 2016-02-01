@@ -1,5 +1,6 @@
 export default {
   number_of_merchants: '13.000',
+  payments_processed_volume: '€1.000 millones',
   header: {
     our_products: 'Nuestros Productos',
     login_btn: 'Login',
@@ -118,6 +119,10 @@ export default {
     faq: {
       title: 'FAQ',
     },
+  },
+  payments_by_direct_debit: {
+    title: 'Cobros online con Domiciliación Bancaria SEPA',
+    description: 'La Domiciliación Bancaria SEPA es más fiable y barata que las tarjetas de crédito. Y ahora con GoCardless es Online y más fácil de utilizar que nunca.',
   },
   security: {
     title: 'Seguridad',
