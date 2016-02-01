@@ -2,11 +2,7 @@ import React from 'react';
 import Page from '../../components/page/page';
 import Message from '../../components/message/message';
 import ProspectForm from '../../components/prospect-form/prospect-form';
-import Link from '../../components/link/link';
-import Href from '../../components/href/href';
-import StoryBigQuote from '../stories/story-big-quote';
 import CheckListIcon from '../../icons/svg/checklist';
-import ClockIcon from '../../icons/svg/clock';
 import ImproveCashflowIcon from '../../icons/svg/improve-cashflow';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
 import UsersIcon from '../../icons/svg/users';
@@ -176,7 +172,7 @@ export default class Energy extends React.Component {
               <h3 className='u-text-s'>Customer service</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
                 GoCardless integrates with CRM systems to provide actionable account information, enabling faster resolution to
-                customer contacts. 
+                customer contacts.
               </p>
               <h3 className='u-text-s'>Marketing</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
