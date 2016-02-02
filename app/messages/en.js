@@ -551,6 +551,10 @@ export default {
     title: 'Payments Processing Specialist',
     description: '',
   },
+  jobs_internal_recruiter: {
+    title: 'Internal Recruiter',
+    description: '',
+  },
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
