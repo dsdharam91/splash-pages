@@ -8,7 +8,7 @@ export default class FaqProDashboardSubscriptionCreationFr extends React.Compone
   render() {
     return (
       <Translation locales='fr'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Création d'abonnement</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Création d'abonnement</h2>
         <p className='para'>
           Un abonnement vous permet de créer une suite de paiements réguliers d’un montant fixe : cela vous
           évite de devoir créer le même paiement tous les mois.
@@ -30,7 +30,7 @@ export default class FaqProDashboardSubscriptionCreationFr extends React.Compone
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Créer un abonnement avec votre client
         </h3>
 

@@ -32,10 +32,10 @@ export default class Accountants extends React.Component {
                   <ImproveCashflowIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Your invoices, paid automatically
                 </h3>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   GoCardless puts you in control and helps you to improve business cash flow. Take payments automatically on invoices when they’re due.
                 </p>
               </div>
@@ -44,10 +44,10 @@ export default class Accountants extends React.Component {
                   <ClockIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <ClockIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Reduced admin time
                 </h3>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Spend less time chasing late invoices and more time advising your clients. Automatically reconcile your invoices with Direct Debit payments.
                 </p>
               </div>
@@ -56,10 +56,10 @@ export default class Accountants extends React.Component {
                   <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   1% fees, capped at £2
                 </h3>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Pay just 1%, capped at £2 per transaction. It’s cheaper than taking credit card and much easier than cheque and standing order.
                 </p>
               </div>
@@ -82,25 +82,25 @@ export default class Accountants extends React.Component {
 
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
               GoCardless makes getting paid easier than ever
             </h2>
             <div className='grid u-center u-text-center u-padding-Tl u-margin-Ts'>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Really simple setup</h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>Really simple setup</h3>
+                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                   Create an account and start taking payments in only five minutes.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Integrates with your software</h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>Integrates with your software</h3>
+                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                   GoCardless integrates with leading accountancy software packages.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>
                   Join <Message pointer='number_of_merchants' />+ businesses
                 </h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                   We've collected more than <Message pointer='payments_processed_volume' /> for
                   over <Message pointer='number_of_merchants' /> merchants.</p>
               </div>
@@ -111,7 +111,7 @@ export default class Accountants extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
               Our accountancy software integrations include
             </h2>
             <div className='u-margin-Tm u-padding-Tl u-size-5of6 u-center'>
@@ -123,13 +123,13 @@ export default class Accountants extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl u-text-center u-center'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>
               It takes just 5 minutes to set up an account
             </h2>
             <Href to='signup.path' className='btn'>Start taking payments</Href>
-            <p className='u-color-p u-margin-Ts'>There are no set up costs, no monthly fees and no hidden charges</p>
+            <p className='u-color-dark-gray u-margin-Ts'>There are no set up costs, no monthly fees and no hidden charges</p>
             <hr className='u-size-1of2 u-center u-margin-Vxxl' />
-            <p className='u-color-p'><strong>Want to talk to someone first?</strong><br />
+            <p className='u-color-dark-gray'><strong>Want to talk to someone first?</strong><br />
               Call our payments experts on <Message pointer='phone_local' /><br />
               We're available 9am - 6pm Monday to Friday<br />
               You can also <Link to='contact_sales' className='u-link-color-p u-text-underline'>request a call back from our team</Link>.

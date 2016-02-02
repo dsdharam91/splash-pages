@@ -29,15 +29,15 @@ export default class Europe extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-size-7of12 u-center'>
               <i className='europe-icon u-margin-Bs' />
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                 Get paid at home and abroad
               </h2>
               <div className='u-size-11of12 u-center'>
-                <p className='u-text-xs u-color-p u-margin-Ts'>
+                <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                   To help businesses like yours get the benefits of Direct Debit internationally,
                   the European Union has created the Single European Payments Area, known as SEPA.
                 </p>
-                <p className='u-text-xs u-color-p u-margin-Tm'>
+                <p className='u-text-xs u-color-dark-gray u-margin-Tm'>
                   SEPA makes transferring money between Eurozone countries quick and easy,
                   and GoCardless is one of the first companies to offer access to the
                   system. <Link to='contact_sales' className='u-link-color-p u-text-underline'>
@@ -47,7 +47,7 @@ export default class Europe extends React.Component {
             </div>
             <hr className='u-margin-Txxl u-size-2of3 u-center' />
             <div className='grid u-padding-Txl u-margin-Txm'>
-              <h3 className='u-text-heading-light u-color-heading u-text-m u-text-center u-margin-Bm'>
+              <h3 className='u-text-heading-light u-color-dark-gray u-text-m u-text-center u-margin-Bm'>
                 Here's some recommended reading, including our industry leading SEPA user guide:
               </h3>
               <div className='grid__cell u-size-1of3 u-text-center'>

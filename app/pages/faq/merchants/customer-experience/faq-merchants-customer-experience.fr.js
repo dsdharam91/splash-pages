@@ -7,8 +7,8 @@ export default class FaqMerchantsCustomerExperienceFr extends React.Component {
   render() {
     return (
       <Translation locales='fr'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Expérience du consommateur</h2>
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Expérience du consommateur</h2>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Comment est ce que mon client peut me payer?
         </h3>
         <p className='para'>
@@ -16,7 +16,7 @@ export default class FaqMerchantsCustomerExperienceFr extends React.Component {
           et additionnellement par téléphone ou par courrier via GoCardless Pro.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Est ce que mes clients restent sur mon site?
         </h3>
         <p className='para'>
@@ -26,7 +26,7 @@ export default class FaqMerchantsCustomerExperienceFr extends React.Component {
           contrôle du design de vos pages de paiements.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Autorisez-vous les iFrames?
         </h3>
         <p className='para'>
@@ -37,14 +37,14 @@ export default class FaqMerchantsCustomerExperienceFr extends React.Component {
           Nous offrons également un flow JS qui vous permet de n’avoir aucune donnée bancaire transitant sur vos serveurs.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Est-il possible de pré-remplir les champs de paiements?
         </h3>
         <p className='para'>
           Vous pouvez pré-remplir tous les champs de paiements via l'API, excepté l’IBAN qui doit être fourni par l’utilisateur.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Mes clients peuvent-ils payer par mobile?
         </h3>
         <p className='para'>

@@ -9,8 +9,8 @@ export default class FaqMerchantsPartnersFr extends React.Component {
   render() {
     return (
       <Translation locales='fr'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Partenaires</h2>
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Partenaires</h2>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Qu’est ce qu’un partenaire?
         </h3>
         <p className='para'>
@@ -23,14 +23,14 @@ export default class FaqMerchantsPartnersFr extends React.Component {
           className='u-link-color-p u-text-underline'>Contactez-nous</Link> pour en apprendre plus.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Quel est le modèle économique ?
         </h3>
         <p className='para'>
           Vous êtes libre d'ajouter une commission en plus de celle de GoCardless.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Comment devenir un partenaire ?
         </h3>
         <p className='para'>
@@ -39,7 +39,7 @@ export default class FaqMerchantsPartnersFr extends React.Component {
           de votre service, et nous vous répondrons au plus tôt.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Comment montrer les données de paiements dans mon application ?
         </h3>
         <p className='para'>
@@ -52,7 +52,7 @@ export default class FaqMerchantsPartnersFr extends React.Component {
           className='u-link-color-p u-text-underline'>ici</a>.
         </p>
 
-       <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+       <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Puis-je héberger directement les pages de paiements ?
         </h3>
         <p className='para'>
@@ -61,7 +61,7 @@ export default class FaqMerchantsPartnersFr extends React.Component {
           via notre guide des règles SEPA.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Autorisez-vous les iFrames ?
         </h3>
         <p className='para'>

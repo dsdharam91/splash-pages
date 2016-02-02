@@ -7,7 +7,7 @@ export default class Designers extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Designers</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Designers</h3>
         <p className='para'>
           We're looking for amazing designers to help us shape the way businesses get paid.
         </p>

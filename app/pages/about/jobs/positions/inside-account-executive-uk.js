@@ -8,7 +8,7 @@ export default class InsideAccountExecutive extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Inside Account Executive </h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Inside Account Executive </h3>
         <p className='para'>
         Close new business in an exciting, fast-paced environment.
         </p>

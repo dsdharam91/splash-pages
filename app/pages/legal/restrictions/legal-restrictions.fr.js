@@ -7,7 +7,7 @@ export default class LegalRestrictionsFr extends React.Component {
   render() {
     return (
       <Translation locales='fr'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Activités restreintes</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Activités restreintes</h2>
         <p className='para'>
           Cette liste contient les activités restreintes mentionnées dans notre contrat
           de ventes. Cette liste a été mise à jour pour la dernière fois le 19 septembre 2014.

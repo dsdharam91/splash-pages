@@ -32,10 +32,10 @@ export default class EasierDirectDebit extends React.Component {
                   <ClockIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <ClockIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Simple migration
                 </h3>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   It's quick and easy to move all of your existing customers over to GoCardless.
                 </p>
               </div>
@@ -44,10 +44,10 @@ export default class EasierDirectDebit extends React.Component {
                   <ImproveCashflowIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Online management
                 </h3>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Manage your customers and payments online. Get real-time updates on your payments status.
                 </p>
               </div>
@@ -56,10 +56,10 @@ export default class EasierDirectDebit extends React.Component {
                   <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Transparent pricing
                 </h3>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Fees from 1p-60p per transaction. No set up costs, hidden charges or minimum commitments.
                 </p>
               </div>
@@ -73,13 +73,13 @@ export default class EasierDirectDebit extends React.Component {
 
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
               GoCardless powers online Direct Debit for over <Message pointer='number_of_merchants' /> businesses
             </h2>
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
               <div className='product-grid__container u-text-center u-padding-Vl'>
                 <i role='img' className='greater-anglia-logo stories-item__logo--greater-anglia'></i>
-                <p className='u-size-3of4 u-center u-color-p u-margin-Txxs'>
+                <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
                   "Switching to GoCardless has saved us time and money. GoCardless have taken all of the pain out of setting up and
                   managing Direct Debit. Their system is incredibly simple and their expertise is second to none."
                 </p>
@@ -88,7 +88,7 @@ export default class EasierDirectDebit extends React.Component {
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
               <div className='product-grid__container u-text-center u-padding-Vl'>
                 <i role='img' className='funding-circle-logo stories-item__logo--funding-circle'></i>
-                <p className='u-size-3of4 u-center u-color-p u-margin-Txxs'>
+                <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
                   "GoCardless is one of the best payments companies we've worked with. I'd highly recommend them to any company
                   that cares about a providing good user experience and using the best available technology."
                 </p>
@@ -103,7 +103,7 @@ export default class EasierDirectDebit extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
               A smarter and easier way to take Direct Debit payments
             </h2>
             <div className='grid u-center u-text-center u-padding-Tl u-margin-Ts'>
@@ -112,10 +112,10 @@ export default class EasierDirectDebit extends React.Component {
                   <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Automatic notifications
                 </h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                   Get real-time alerts on failed or cancelled payments.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -123,10 +123,10 @@ export default class EasierDirectDebit extends React.Component {
                   <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Collect in £ and €
                 </h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                   Take payments through Bacs Direct Debit &amp; SEPA Direct Debit.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -134,10 +134,10 @@ export default class EasierDirectDebit extends React.Component {
                   <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Join <Message pointer='number_of_merchants' />+ businesses
                 </h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                   We've collected more than <Message pointer='payments_processed_volume' /> for
                   over <Message pointer='number_of_merchants' /> businesses.</p>
               </div>
@@ -148,18 +148,18 @@ export default class EasierDirectDebit extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl u-text-center u-center' id='contact-us'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>
               Want to learn more? Speak with our Direct Debit experts
             </h2>
             <div className='grid__cell u-size-1of2'>
               <ProspectForm prospectType='sales' />
               <hr />
-              <p className='u-text-center u-color-meta u-margin-Bs'>
+              <p className='u-text-center u-color-dark-gray u-margin-Bs'>
                 <b><Message pointer='contact_sales.talk_to_us' /></b><br />
                 <Message pointer='contact_sales.call_us' /> <Message pointer='phone_local' />
               </p>
               <hr />
-              <p className='u-text-center u-color-meta u-margin-Bs'>
+              <p className='u-text-center u-color-dark-gray u-margin-Bs'>
                 <b><Message pointer='contact_sales.information1' /></b><br />
                 <Message pointer='contact_sales.information2' />
               </p>

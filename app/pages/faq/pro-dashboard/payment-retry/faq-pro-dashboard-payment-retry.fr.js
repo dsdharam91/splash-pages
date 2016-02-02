@@ -7,7 +7,7 @@ export default class FaqProDashboardPaymentRetryFr extends React.Component {
   render() {
     return (
       <Translation locales='fr'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Représentation de paiement</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Représentation de paiement</h2>
         <p className='para'>
           Quand un paiement échoue, nous vous indiquerons lemotif ainsi qu'une brève description. Il y a 3 types principaux de rejets :
         </p>
@@ -39,7 +39,7 @@ export default class FaqProDashboardPaymentRetryFr extends React.Component {
           Ce tableau énumére la liste complète des rejets de paiement possibles ainsi qu'une explication du message de rejet :
         </p>
 
-        <table className='table table--faq u-color-heading'>
+        <table className='table table--faq u-color-dark-gray'>
           <thead>
             <tr>
               <th>

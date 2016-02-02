@@ -8,8 +8,8 @@ export default class FaqMerchantsInternationalPaymentsFr extends React.Component
   render() {
     return (
       <Translation locales='fr'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Paiements à l'étranger</h2>
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Paiements à l'étranger</h2>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Dans quels pays GoCardless est-il disponible ?
         </h3>
         <p className='para'>
@@ -18,7 +18,7 @@ export default class FaqMerchantsInternationalPaymentsFr extends React.Component
           Vous aurez besoin d’avoir un compte en banque dans la zone Euro ou en Grande-Bretagne.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Dans quels pays puis-je prendre des paiements ?
         </h3>
         <p className='para'>
@@ -30,7 +30,7 @@ export default class FaqMerchantsInternationalPaymentsFr extends React.Component
           Vous pouvez également collecter des fonds en Grande-Bretagne en Livres Sterling.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Qu'est ce que le prélèvement SEPA?
         </h3>
         <p className='para'>
@@ -44,7 +44,7 @@ export default class FaqMerchantsInternationalPaymentsFr extends React.Component
           className='u-link-color-p u-text-underline'>notre guide SEPA</Href>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Qu’est ce que le prélèvement BACS?
         </h3>
         <p className='para'>
@@ -57,21 +57,21 @@ export default class FaqMerchantsInternationalPaymentsFr extends React.Component
           className='u-link-color-p u-text-underline'>notre guide BACS (en Anglais)</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Quelles devises sont supportées par GoCardless?
         </h3>
         <p className='para'>
           Nous acceptons les paiements en EUR (Euro) et GBP (Livres Sterling).
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Les coûts à l’étranger sont-ils les mêmes?
         </h3>
         <p className='para'>
           Oui, vous bénéficiez d’un tarif unique dans la devise de votre choix (EUR ou GBP).
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Quand est-ce que GoCardless sera disponible hors d’Europe?
         </h3>
         <p className='para'>

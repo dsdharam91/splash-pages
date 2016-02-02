@@ -10,9 +10,9 @@ export default class FaqMerchantsDe extends React.Component {
   render() {
     return (
       <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Übersicht</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Übersicht</h2>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Wie kann ich GoCardless benutzen?
         </h3>
         <p className='para'>
@@ -29,7 +29,7 @@ export default class FaqMerchantsDe extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Für wen ist GoCardless gemacht?
         </h3>
         <p className='para'>
@@ -43,7 +43,7 @@ export default class FaqMerchantsDe extends React.Component {
           bis zu internationalen Großunternehmen.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Wofür kann ich GoCardless verwenden?
         </h3>
         <p className='para'>
@@ -68,7 +68,7 @@ export default class FaqMerchantsDe extends React.Component {
           </p>
         </IfLinkExists>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Gibt es eine Obergrenze für die Höhe der Zahlungen?
         </h3>
         <p className='para'>
@@ -79,7 +79,7 @@ export default class FaqMerchantsDe extends React.Component {
           gerne auch für Zahlungen im Vereinigten Königreich einsetzen möchten, dann muss die Transaktion zwischen £1 und £5.000 liegen.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Wie erhalte ich das Geld, dass ich mit Hilfe von GoCardless eingezogen habe?
         </h3>
         <p className='para'>
@@ -95,7 +95,7 @@ export default class FaqMerchantsDe extends React.Component {
           die <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>Gebühren</Link> in Rechnung.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Wann erhalte ich die Zahlungen?
         </h3>
         <p className='para'>
@@ -103,14 +103,14 @@ export default class FaqMerchantsDe extends React.Component {
           Wir halten das Geld nicht auf Reserve, sondern zahlen alle verfügbaren Gelder an Sie aus.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Kann ich mit GoCardless auch Kreditkartenzahlungen anbieten?
         </h3>
         <p className='para'>
           Nein, GoCardless ist ein Lastschriftexperte und bietet keine Zahlungen per Kreditkarte an.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Warum sollte ich GoCardless anderen Optionen vorziehen?
         </h3>
         <p className='para'>

@@ -32,10 +32,10 @@ export default class FeaturesAPI extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl' id='learn-more'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
               Integrating with GoCardless is easy and secure
             </h2>
-            <p className='u-text-xs u-color-p u-margin-Txs'>
+            <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
               We maintain official libraries for&nbsp;
               <a href='https://github.com/gocardless/gocardless-ruby'>Ruby</a>,&nbsp;
               <a href='https://github.com/gocardless/gocardless-php'>PHP</a>,&nbsp;
@@ -48,10 +48,10 @@ export default class FeaturesAPI extends React.Component {
                   <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Automate your payments
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Customers set up Direct Debit through our secure online payment pages.
                 </p>
               </div>
@@ -61,12 +61,12 @@ export default class FeaturesAPI extends React.Component {
                   <SecurityIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className={
-                  'u-text-heading u-color-heading u-text-light ' +
+                  'u-text-heading u-color-dark-gray u-text-light ' +
                   'u-text-no-smoothing u-text-m u-margin-Tm'
                 }>
                   Military grade security
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   RSA encryption and secure communication channels to keep your customers' data safe.
                 </p>
               </div>
@@ -76,12 +76,12 @@ export default class FeaturesAPI extends React.Component {
                   <AddPartnerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className={
-                  'u-text-heading u-color-heading u-text-light ' +
+                  'u-text-heading u-color-dark-gray u-text-light ' +
                   'u-text-no-smoothing u-text-m u-margin-Tm'
                 }>
                   Simple to integrate
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Add GoCardless to your site in minutes with our easy to use API libraries.
                 </p>
               </div>
@@ -99,7 +99,7 @@ export default class FeaturesAPI extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-xl u-text-light u-margin-Bs'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-xl u-text-light u-margin-Bs'>
                 How it works
               </h2>
             </div>
@@ -183,8 +183,8 @@ export default class FeaturesAPI extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='grid'>
               <div className='grid__cell u-size-1of2'>
-                <h2 className='u-text-l u-text-heading u-color-heading u-text-light u-margin-Bl'>Simple hosted payment pages</h2>
-                <p className='u-color-p u-margin-Bm'>
+                <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bl'>Simple hosted payment pages</h2>
+                <p className='u-color-dark-gray u-margin-Bm'>
                   GoCardless handles all the Direct Debit compliance requirements so you can get started instantly. Our secure,
                   online payment pages are optimised based on experience with millions of customers.
                   <br />
@@ -192,7 +192,7 @@ export default class FeaturesAPI extends React.Component {
                     View an example
                   </Link>
                 </p>
-                <p className='u-color-p'>
+                <p className='u-color-dark-gray'>
                   Looking for complete control over the payment experience?
                   <br />
                   <Link to='pro' className='u-link-color-p u-text-underline'>Learn about GoCardless Pro</Link>.
@@ -212,8 +212,8 @@ export default class FeaturesAPI extends React.Component {
                 <img alt='Api step 2' className='u-size-11of12' src='/images/features/api-step-2@2x.png' />
               </div>
               <div className='grid__cell u-size-1of2'>
-                <h2 className='u-text-l u-text-heading u-color-heading u-text-light u-margin-Bl'>Payments in just two lines of code</h2>
-                <p className='u-color-p'>
+                <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bl'>Payments in just two lines of code</h2>
+                <p className='u-color-dark-gray'>
                   Trigger one-off, variable or recurring payments in just a few lines of code. GoCardless
                   will handle all the Direct Debit notification requirements for you.
                 </p>
@@ -226,8 +226,8 @@ export default class FeaturesAPI extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='grid'>
               <div className='grid__cell u-size-1of2'>
-                <h2 className='u-text-l u-text-heading u-color-heading u-text-light u-margin-Bl'>Realtime reporting</h2>
-                <p className='u-color-p'>
+                <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bl'>Realtime reporting</h2>
+                <p className='u-color-dark-gray'>
                   View all your payments in our ready-made online dashboard, including export functionality. We'll
                   also notify you programmatically whenever the status of a payment or mandate changes.
                   <br />
@@ -246,14 +246,14 @@ export default class FeaturesAPI extends React.Component {
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-1of2 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                 Get started today
               </h2>
               <a href='https://developer.gocardless.com' target='_blank' className='btn btn--hollow u-margin-Tm'>
                 Read our API documentation
               </a>
               <hr className='u-margin-Vxl horizontal-rule u-size-3of4 u-center' />
-              <p className='u-color-heading u-margin-Bxxs'>
+              <p className='u-color-dark-gray u-margin-Bxxs'>
                 <strong>Looking complete control, like custom payment pages?</strong>
               </p>
               <Link to='pro' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>

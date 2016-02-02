@@ -32,21 +32,21 @@ class Header extends React.Component {
         <IfLinkExists to='features' tagName='li'>
           <Link to='features' id='track-nav-features' className='site-header__product-link u-link-clean'>
             <span className='site-header__product-link-title u-text-semi'><Message pointer='features.nav_title' /></span>
-            <p className='u-color-p'><Message pointer='features.explainer' /></p>
+            <p className='u-color-dark-gray'><Message pointer='features.explainer' /></p>
           </Link>
           <hr className='u-margin-Vxs' />
         </IfLinkExists>
         <IfLinkExists to='pro' tagName='li'>
           <Link to='pro' id='track-nav-pro' className='site-header__product-link u-link-clean'>
             <span className='site-header__product-link-title u-text-semi'><Message pointer='pro.nav_title' /></span>
-            <p className='u-color-p'><Message pointer='pro.explainer' /></p>
+            <p className='u-color-dark-gray'><Message pointer='pro.explainer' /></p>
           </Link>
         </IfLinkExists>
         <IfLinkExists to='partners' tagName='li'>
           <hr className='u-margin-Vxs' />
           <Link to='partners' id='track-nav-partners' className='site-header__product-link u-link-clean'>
             <span className='site-header__product-link-title u-text-semi'><Message pointer='partners.nav_title' /></span>
-            <p className='u-color-p'><Message pointer='partners.explainer' /></p>
+            <p className='u-color-dark-gray'><Message pointer='partners.explainer' /></p>
           </Link>
         </IfLinkExists>
       </ul>

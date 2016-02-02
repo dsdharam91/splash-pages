@@ -8,8 +8,8 @@ export default class FaqMerchantsSecurityFr extends React.Component {
   render() {
     return (
       <Translation locales='fr'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Securité</h2>
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Securité</h2>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Comment savoir si mon argent est en sécurité?
         </h3>
         <p className='para'>
@@ -22,7 +22,7 @@ export default class FaqMerchantsSecurityFr extends React.Component {
           Votre argent transite dans un compte séquestre sécurisé, dans l’une de nos banques partenaires.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Comment est-ce que GoCardless protège mes données?
         </h3>
         <p className='para'>
@@ -46,7 +46,7 @@ export default class FaqMerchantsSecurityFr extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Que faisons-nous de votre argent avant qu’il ne vous soit versé ?
         </h3>
         <p className='para'>
@@ -54,7 +54,7 @@ export default class FaqMerchantsSecurityFr extends React.Component {
           les règles financières.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Mes clients sont-ils protégés ?
         </h3>
         <p className='para'>
@@ -62,7 +62,7 @@ export default class FaqMerchantsSecurityFr extends React.Component {
           className='u-link-color-p u-text-underline'>Prélèvement bancaire</Link>).
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Découverte de vulnérabilité
         </h3>
 
@@ -77,7 +77,7 @@ export default class FaqMerchantsSecurityFr extends React.Component {
           minimum de 300€ (et peuvent être bien plus élevées). Le montant final est déterminé selon la sévérité du problème.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Rapport du problème
         </h3>
 
@@ -99,7 +99,7 @@ export default class FaqMerchantsSecurityFr extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Eligibilité pour une récompense
         </h3>
 

@@ -8,7 +8,7 @@ export default class AboutFr extends React.Component {
     return (
       <Translation locales='fr'>
         <div className='site-container u-padding-Vxxl'>
-          <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-padding-Txl'>
+          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-padding-Txl'>
             A propos de GoCardless
           </h2>
 
@@ -59,7 +59,7 @@ Accel Partners, Passion Capital et Y Combinator.
             <div className='grid__cell u-size-1of3'>
               <div className='u-margin-Txxl'>
                 <img src='/images/press/publications-stacked.jpg' />
-                <p className='u-text-xs u-color-p u-margin-Txxl'>
+                <p className='u-text-xs u-color-dark-gray u-margin-Txxl'>
                   GoCardless est apparu à la télévision, sur des blogs
                   et site dans le monde entier.<br /><br />
                   Pour tout contact presse, merci de contacter <a href='mailto:press@gocardless.com'>notre équipe de relations presse</a>,

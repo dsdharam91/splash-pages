@@ -7,7 +7,7 @@ export default class ProductEngineer extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Product Engineer</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Product Engineer</h3>
         <p className='para'>
           Build and design high-quality products you can take pride in.
         </p>

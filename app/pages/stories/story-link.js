@@ -20,7 +20,7 @@ export default class StoryLink extends React.Component {
       <Link to={this.props.to} className={storyLinkClass}>
         <div className='product-grid__container u-text-center u-padding-Vl'>
           <i role='img' aria-label={this.props.to} className={this.props.imgClass}></i>
-          <p className='u-size-3of4 u-center u-color-p u-margin-Txxs'>
+          <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
              {this.props.children}
           </p>
         </div>

@@ -22,10 +22,10 @@ export default class PartnersSage extends React.Component {
 
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl u-text-center'>
-            <h2 className='u-text-heading u-color-heading u-text-light'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-light'>
               Improve cash flow with GoCardless for Sage
             </h2>
-            <p className='u-color-heading u-margin-Txxs u-padding-Bxxl'>
+            <p className='u-color-dark-gray u-margin-Txxs u-padding-Bxxl'>
               Collect one-off or recurring invoices via Direct Debit from directly within Sage 50 using our GoCardless for Sage add-on.
             </p>
             <iframe
@@ -39,10 +39,10 @@ export default class PartnersSage extends React.Component {
 
         <div className='site-container u-padding-Vxxl'>
           <div className='u-text-center u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-xl u-text-light'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-xl u-text-light'>
               Free, for a limited time only
             </h2>
-            <p className='u-color-p u-margin-Txxs u-size-1of2 u-center'>
+            <p className='u-color-dark-gray u-margin-Txxs u-size-1of2 u-center'>
               For a limited time only, the GoCardless Sage 50 add-on is completely
               free. Get in touch now to be sure not to miss out.
             </p>
@@ -60,10 +60,10 @@ export default class PartnersSage extends React.Component {
                   <CalendarIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-green' />
                   <CalendarIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                 </figure>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
                   Always get paid on time
                 </h2>
-                <p className='u-color-p u-margin-Txs'>
+                <p className='u-color-dark-gray u-margin-Txs'>
                   Direct Debit lets you take control of when you’re paid – improving your cash-flow, and reducing bad debt.
                 </p>
               </div>
@@ -72,10 +72,10 @@ export default class PartnersSage extends React.Component {
                   <TickSquareIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-yellow' />
                   <TickSquareIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                 </figure>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
                   Collect with two clicks
                 </h2>
-                <p className='u-color-p u-margin-Txs'>
+                <p className='u-color-dark-gray u-margin-Txs'>
                   It's unbelievably simple: just select the invoices you want to collect, and click a button to collect. Done.
                 </p>
               </div>
@@ -84,10 +84,10 @@ export default class PartnersSage extends React.Component {
                   <RealtimeIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-blue' />
                   <RealtimeIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                 </figure>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
                   Automatic reconciliation
                 </h2>
-                <p className='u-color-p u-margin-Txs'>
+                <p className='u-color-dark-gray u-margin-Txs'>
                   See the status of your payments within Sage. Best of all, reconcile your payments with a single click.
                 </p>
               </div>
@@ -98,10 +98,10 @@ export default class PartnersSage extends React.Component {
                   <CustomerSetupIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-blue' />
                   <CustomerSetupIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                 </figure>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
                   Simple customer setup
                 </h2>
-                <p className='u-color-p u-margin-Txs'>
+                <p className='u-color-dark-gray u-margin-Txs'>
                   Ask your customers for a Direct Debit in two clicks, or integrate with your website.
                 </p>
               </div>
@@ -110,10 +110,10 @@ export default class PartnersSage extends React.Component {
                   <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-green' />
                   <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                 </figure>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
                   Unbelievably low pricing
                 </h2>
-                <p className='u-color-p u-margin-Txs'>
+                <p className='u-color-dark-gray u-margin-Txs'>
                   No signup fee, no monthly fees, no hidden extras. Just 1%, capped at £2.&nbsp;
                   <Link to='pricing' className='u-text-underline u-link-color-p'>Find out more</Link>
                 </p>
@@ -123,10 +123,10 @@ export default class PartnersSage extends React.Component {
                   <ClockIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-yellow' />
                   <ClockIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                 </figure>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-xs u-margin-Tm'>
                   Get started immediately
                 </h2>
-                <p className='u-color-p u-margin-Txs'>
+                <p className='u-color-dark-gray u-margin-Txs'>
                   Signup and start collecting payment in 60 seconds. No SUN required.
                 </p>
               </div>
@@ -140,13 +140,13 @@ export default class PartnersSage extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='grid'>
               <div className='grid__cell u-size-1of2'>
-                <h2 className='u-text-l u-text-heading u-color-heading u-text-light u-margin-Bl'>
+                <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bl'>
                   Request Direct Debits from your customers via email
                 </h2>
-                <p className='u-color-p u-margin-Bm'>
+                <p className='u-color-dark-gray u-margin-Bm'>
                   Use the add-on to send your customers email requests to set up a Direct Debit with you.
                 </p>
-                <p className='u-color-p'>
+                <p className='u-color-dark-gray'>
                   Choose whether to send branded email requests from our servers or customised requests from your own email address.
                 </p>
               </div>
@@ -167,13 +167,13 @@ export default class PartnersSage extends React.Component {
                 src='/images/products/sage-payment-page-example.png' />
               </div>
               <div className='grid__cell u-size-1of2'>
-                <h2 className='u-text-l u-text-heading u-color-heading u-text-light u-margin-Bl'>
+                <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bl'>
                   Your customers authorise Direct Debits on our secure online form
                 </h2>
-                <p className='u-color-p u-margin-Bm'>
+                <p className='u-color-dark-gray u-margin-Bm'>
                   Your customers follow a link in your email request to authorise a Direct Debit on our brandable online payment pages.
                 </p>
-                <p className='u-color-p'>
+                <p className='u-color-dark-gray'>
                   We use military grade encryption to keep all our communications secure, so your customers can pay with peace of mind.
                 </p>
               </div>
@@ -187,13 +187,13 @@ export default class PartnersSage extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='grid'>
               <div className='grid__cell u-size-1of2'>
-                <h2 className='u-text-l u-text-heading u-color-heading u-text-light u-margin-Bl'>
+                <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bl'>
                   Collect invoice payments in just a couple of clicks
                 </h2>
-                <p className='u-color-p u-margin-Bm'>
+                <p className='u-color-dark-gray u-margin-Bm'>
                   It's unbelievably simple: just select the invoices you want to collect, and click a button to collect. Done.
                 </p>
-                <p className='u-color-p'>
+                <p className='u-color-dark-gray'>
                   Choose to collect the entire amount of an invoice, or schedule payments to collect an invoice in installments.
                 </p>
               </div>
@@ -213,13 +213,13 @@ export default class PartnersSage extends React.Component {
                 <img alt='Sage reconcile' className='sage-screenshot u-size-5of6' src='/images/products/sage-reconcile.png' />
               </div>
               <div className='grid__cell u-size-1of2'>
-                <h2 className='u-text-l u-text-heading u-color-heading u-text-light u-margin-Bl'>
+                <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bl'>
                   Automatically reconcile payments with your accounts
                 </h2>
-                <p className='u-color-p u-margin-Bm'>
+                <p className='u-color-dark-gray u-margin-Bm'>
                   The add-on automatically creates sales receipts for each payment and allocates it to the right invoice in Sage.
                 </p>
-                <p className='u-color-p'>
+                <p className='u-color-dark-gray'>
                   The add-on also handles reconciliation against your bank statements. It even accounts for our fees.
                 </p>
               </div>
@@ -233,7 +233,7 @@ export default class PartnersSage extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-size-8of12 u-center u-text-center u-margin-Tl u-margin-Bl'>
               <img alt='Sage and Windows logos' className='u-size-5of12 u-margin-Bm' src='/images/products/sage-logos@2x.png' />
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 Compatible with:<br/> Windows XP, Windows Vista, Windows 7, Windows 8.<br/>
                 Sage 50 Accounts 2010 onwards. Multi-user licence required.
                 <a href='https://s3.amazonaws.com/gc-misc/sage/GoCardless_Sage_User_Guide.pdf'
@@ -249,7 +249,7 @@ export default class PartnersSage extends React.Component {
 
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-light'>Want to learn more? Get started now</h2>
+            <h2 className='u-text-heading u-color-dark-gray u-text-light'>Want to learn more? Get started now</h2>
             <Link to='contact_sales' className='btn u-margin-Tm'>Contact sales</Link>
           </div>
         </div>

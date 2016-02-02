@@ -17,7 +17,7 @@ export default class HomeNl extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl' id='learn-more'>
           <div className='u-padding-Vxl'>
             <div className='u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                 Ons globaal betalingsnetwerk heeft reeds meer dan 1 miljard Euro verwerkt
               </h2>
             </div>
@@ -27,10 +27,10 @@ export default class HomeNl extends React.Component {
                   <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Volledig geautomatiseerd
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Bespaar tijd, vermijd menselijke fouten en voorkom niet-succesvolle betalingen
                 </p>
               </div>
@@ -40,10 +40,10 @@ export default class HomeNl extends React.Component {
                   <TickSquareIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Eurozone &amp; Verenigd Koninkrijk
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   <Translation locales='nl-NL'>
                     Accepteer Nederlandse en internationale incasso. We ondersteunen reeds SEPA (Eurozone), BACS (Verenigd Koninkrijk) en Autogiro (Zweden)
                   </Translation>
@@ -58,10 +58,10 @@ export default class HomeNl extends React.Component {
                   <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   12,000+ bedrijven
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   We verwerken betalingen in het Verenigd Koninkrijk en Europa
                 </p>
               </div>
@@ -72,7 +72,7 @@ export default class HomeNl extends React.Component {
         <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
           <div className='site-container u-padding-Txl'>
             <div className='u-size-1of2 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 U bent in goed gezelschap
               </h2>
             </div>
@@ -85,10 +85,10 @@ export default class HomeNl extends React.Component {
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 Eenvoudige, transparante tarieven voor iedereen
               </h2>
-              <p className='u-text-xs u-color-p u-margin-Vxs'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 Voordelige tarieven voor iedereen, van éénmanszaken tot grote organisaties
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
@@ -102,7 +102,7 @@ export default class HomeNl extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <Href to='signup.path' id='track-cta-sign-up' className='btn'>Nu registreren</Href>
-              <p className='u-color-p u-margin-Ts'>Geen set up kosten, geen verborgen kosten, geen verplichtingen</p>
+              <p className='u-color-dark-gray u-margin-Ts'>Geen set up kosten, geen verborgen kosten, geen verplichtingen</p>
             </div>
           </div>
         </IfLocale>

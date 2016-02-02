@@ -166,7 +166,7 @@ class Footer extends React.Component {
                               <span className='u-padding-Vxs u-padding-Hm u-block'>
                                 <Flag country={localeToRegion(localePage.locale)}
                                 className='flag-icon--popover u-margin-Rs u-align-baseline' alt={ localePage.name } />
-                                <span className='country-select-label u-color-p'>{ localePage.name }</span>
+                                <span className='country-select-label u-color-dark-gray'>{ localePage.name }</span>
                                 <CheckmarkIcon className='u-fill-dark-green u-margin-Ls u-pull-end u-inline checkmark-icon' alt='✓' />
                               </span>
                             ) || (

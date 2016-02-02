@@ -7,7 +7,7 @@ export default class FaqProDashboardMandateCreationEn extends React.Component {
   render() {
     return (
       <Translation locales='en'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Mandate creation</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Mandate creation</h2>
         <p className='para'>
           In the <a href='https://manage.gocardless.com/customers'
           target='_blank' className='u-link-color-p u-text-underline'>Customers section</a> of the dashboard, you can add new

@@ -8,7 +8,7 @@ export default class LegalOldRestrictionsIndex extends React.Component {
   render() {
     return (
       <LegalPage>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Old restricted activity lists</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Old restricted activity lists</h2>
         <p className='para'>
           These are outdated lists of restricted activities for which you may not use the
           services GoCardless offers. You can read an up-to-date list of our Restricted

@@ -22,7 +22,7 @@ export default class HomeEn extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl' id='learn-more'>
           <div className='u-padding-Vxl'>
             <div className='u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                 Our global payments network has processed over <Message pointer='payments_processed_volume' />
               </h2>
             </div>
@@ -32,10 +32,10 @@ export default class HomeEn extends React.Component {
                   <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Fully automated
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Save time, stop human errors and avoid failed payments
                 </p>
               </div>
@@ -46,10 +46,10 @@ export default class HomeEn extends React.Component {
                     <TickSquareIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                     <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     UK &amp; Eurozone
                   </div>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Accept payments with Bacs Direct Debit, SEPA Direct Debit and Swedish Autogiro
                   </p>
                 </div>
@@ -61,10 +61,10 @@ export default class HomeEn extends React.Component {
                     <TickSquareIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                     <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Sweden, Eurozone &amp; UK
                   </div>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Accept payments with Swedish Autogiro, SEPA Direct Debit and Bacs Direct Debit
                   </p>
                 </div>
@@ -76,10 +76,10 @@ export default class HomeEn extends React.Component {
                     <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                     <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Ultra-low fees
                   </div>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Less than half the cost of PayPal, with easy-to-understand pricing
                   </p>
                 </div>
@@ -90,10 +90,10 @@ export default class HomeEn extends React.Component {
                   <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   <Message pointer='number_of_merchants' />+ merchants
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   <Translation locales={['en']} exclude={['en-GB']}>
                     Powering payments for companies across Europe
                   </Translation>
@@ -109,7 +109,7 @@ export default class HomeEn extends React.Component {
         <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
           <div className='site-container u-padding-Txl'>
             <div className='u-size-1of2 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 You'll be in great company
               </h2>
             </div>
@@ -121,7 +121,7 @@ export default class HomeEn extends React.Component {
         <Translation locales={['en-GB','en-IE']}>
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
-            <h2 className='u-text-l u-text-heading u-color-heading u-text-light u-margin-Tl'>
+            <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Tl'>
               What are you looking for?
             </h2>
             <div className='product-grid grid u-margin-Vxxl'>
@@ -131,7 +131,7 @@ export default class HomeEn extends React.Component {
                     <ShopIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                     <ShopIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Super simple<br />online payments
                   </p>
                 </div>
@@ -143,7 +143,7 @@ export default class HomeEn extends React.Component {
                     <ProIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                     <ProIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Complete control<br />over Direct Debit
                   </p>
                 </div>
@@ -155,7 +155,7 @@ export default class HomeEn extends React.Component {
                     <IntegrationsIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                     <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Help your customers<br />collect payments
                   </p>
                 </div>
@@ -168,10 +168,10 @@ export default class HomeEn extends React.Component {
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 Simple, transparent pricing for everyone
               </h2>
-              <p className='u-text-xs u-color-p u-margin-Vxs'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 Competitive rates for everyone from individuals through to large corporations
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
@@ -185,7 +185,7 @@ export default class HomeEn extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <Href to='signup.path' id='track-cta-sign-up' className='btn'>Start taking payments</Href>
-              <p className='u-color-p u-margin-Ts'>No set up costs, no hidden charges, no commitments</p>
+              <p className='u-color-dark-gray u-margin-Ts'>No set up costs, no hidden charges, no commitments</p>
             </div>
           </div>
         </IfLocale>

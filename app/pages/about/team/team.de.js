@@ -10,10 +10,10 @@ export default class TeamDe extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='grid u-padding-Txl'>
             <div className='grid__cell u-size-1of3'>
-              <h2 className='u-text-heading-light u-text-m u-color-meta u-margin-Bm'>
+              <h2 className='u-text-heading-light u-text-m u-color-dark-gray u-margin-Bm'>
                 Wir sind ein junges Team mit der Mission ein neues Zahlungsnetzwerk für das Internet zu bauen.
               </h2>
-              <p className='u-text-heading-light u-text-xs u-color-meta'>
+              <p className='u-text-heading-light u-text-xs u-color-dark-gray'>
                 Sie möchten Teil von GoCardless werden?<br />
                 Werfen Sie einen Blick auf
                 unsere <a href='https://gocardless.com/about/jobs/' className='u-link-clean ku-link-color-meta u-text-underline'>
@@ -21,9 +21,9 @@ export default class TeamDe extends React.Component {
               </p>
             </div>
             <div className='grid__cell u-size-2of3'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>Karriere bei GoCardless</h2>
-              <span className='u-text-heavy u-color-heading'></span>
-              <span className='u-color-p'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>Karriere bei GoCardless</h2>
+              <span className='u-text-heavy u-color-dark-gray'></span>
+              <span className='u-color-dark-gray'>
                <p className='para'>
                 Ein großartiges Team zu bilden, ist für uns genauso wichtig wie ein großartiges Unternehmen
                 zu schaffen: Wir haben eine starke Unternehmenskultur und arbeiten kontinuierlich daran,

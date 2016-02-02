@@ -8,7 +8,7 @@ export default class FaqProDashboardPaymentCreationDe extends React.Component {
   render() {
     return (
       <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>So erstellen Sie Zahlungen</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>So erstellen Sie Zahlungen</h2>
         <p className='para'>
          Nachdem Sie einen Kunden erstellt haben, können Sie beginnen, Lastschriften automatisch von dessen
          Bankkonto einzuziehen. Dazu wählen Sie im Bereich <a href='https://manage.gocardless.com/customers'
@@ -26,7 +26,7 @@ export default class FaqProDashboardPaymentCreationDe extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
          So ziehen Sie Zahlungen von Kunden ein
         </h3>
         <p className='para'>

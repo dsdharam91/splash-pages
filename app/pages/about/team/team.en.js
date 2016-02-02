@@ -11,10 +11,10 @@ export default class TeamEn extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='grid u-padding-Txl'>
             <div className='grid__cell u-size-1of3'>
-              <h2 className='u-text-heading-light u-text-m u-color-meta u-margin-Bm'>
+              <h2 className='u-text-heading-light u-text-m u-color-dark-gray u-margin-Bm'>
                 We are a small team building a new payment network for the internet.
               </h2>
-              <p className='u-text-heading-light u-text-xs u-color-meta'>
+              <p className='u-text-heading-light u-text-xs u-color-dark-gray'>
                 Interested in joining the team?<br />
                 Take a look at our <Link to='jobs' className='u-link-clean ku-link-color-meta u-text-underline'>
                   available positions
@@ -22,9 +22,9 @@ export default class TeamEn extends React.Component {
               </p>
             </div>
             <div className='grid__cell u-size-2of3'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>Working here </h2>
-              <span className='u-text-heavy u-color-heading'></span>
-              <span className='u-color-p'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>Working here </h2>
+              <span className='u-text-heavy u-color-dark-gray'></span>
+              <span className='u-color-dark-gray'>
                <p className='para'>
                 Building a great company is as important to us as building a
                 great business: we have a strong culture and we are constantly

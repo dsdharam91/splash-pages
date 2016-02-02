@@ -9,7 +9,7 @@ export default class CustomerSupportFrench extends React.Component {
     return (
       <JobsPage>
         <Translation locales='fr'>
-          <h3 className='u-text-heading-light u-text-m u-color-heading'>Support client</h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Support client</h3>
           <p className='para'>
             Tout faire pour ravir nos clients.
           </p>
@@ -137,7 +137,7 @@ export default class CustomerSupportFrench extends React.Component {
         </Translation>
 
         <Translation locales='en'>
-          <h3 className='u-text-heading-light u-text-m u-color-heading'>French Customer Support</h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>French Customer Support</h3>
           <p className='para'>
             Go the extra mile to delight our customers.
           </p>

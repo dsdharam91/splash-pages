@@ -10,14 +10,14 @@ export default class TeamEs extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='grid u-padding-Txl'>
             <div className='grid__cell u-size-1of3'>
-              <h2 className='u-text-heading-light u-text-m u-color-meta u-margin-Bm'>
+              <h2 className='u-text-heading-light u-text-m u-color-dark-gray u-margin-Bm'>
                 Somos un pequeño equipo construyendo la nueva red de pagos para Internet.
               </h2>
             </div>
           <div className='grid__cell u-size-2of3'>
-             <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>Trabajar aquí</h2>
-             <span className='u-text-heavy u-color-heading'></span>
-             <span className='u-color-p'>
+             <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>Trabajar aquí</h2>
+             <span className='u-text-heavy u-color-dark-gray'></span>
+             <span className='u-color-dark-gray'>
               <p className='para'>
             Crear una gran compañía es tan importante para nosotros como construir
         un gran negocio; tenemos una fuerte cultura y estamos siempre trabajando para

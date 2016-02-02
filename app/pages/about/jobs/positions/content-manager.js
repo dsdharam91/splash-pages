@@ -7,7 +7,7 @@ export default class ContentManager extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Content Manager</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Content Manager</h3>
         <p className='para'>
           Build our community and tell our story to drive our growth.
         </p>
