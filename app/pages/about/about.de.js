@@ -54,7 +54,7 @@ export default class AboutDe extends React.Component {
             <div className='grid__cell u-size-1of3'>
               <div className='u-margin-Txxl'>
                 <img src='/images/press/publications-stacked.jpg' />
-                <p className='u-text-s u-color-p u-margin-Txxl'>
+                <p className='u-text-xs u-color-p u-margin-Txxl'>
                   Für Presseanfragen kontaktieren Sie bitte
                   das <a href='mailto:press@gocardless.com'>GoCardless PR Team</a> oder werfen Sie einen Blick auf unser
                   umfangreiches <a href='https://www.dropbox.com/sh/sat8xsjntbf5mnh/AACn116IKyIWrNG7c8FnY0cYa?dl=0'>Presse Paket.</a>

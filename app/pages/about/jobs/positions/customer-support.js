@@ -25,7 +25,7 @@ export default class CustomerSupport extends React.Component {
           We’re looking for a bright, enthusiastic problem-solver to join our
           team and provide legendary customer service.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
           Every day you’ll be listening to our customers, answering their
           questions and reassuring them that their payments are in safe hands,
@@ -88,7 +88,7 @@ export default class CustomerSupport extends React.Component {
           proud of. We value learning and feedback, and are devoted to encouraging
           and supporting each other's continual professional growth.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
         <ul className='list u-margin-Tm'>
           <li>
             You love helping people, and you are interested in technology.

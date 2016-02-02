@@ -22,7 +22,7 @@ export default class ProductComparisonNl extends React.Component {
                     <div className='u-text-l u-margin-Bxxs'>GoCardless</div>
                     Heel eenvoudige online betalingen
                   </th>
-                  <th className='u-background-dark-gray-darken u-text-heading-light u-color-invert u-padding-Am u-border-gray'>
+                  <th className='u-background-xdark-gray u-text-heading-light u-color-invert u-padding-Am u-border-gray'>
                     <div className='u-text-l u-margin-Bxxs'>GoCardless Pro</div>
                     <Translation locales='nl-NL'>
                       Volledige controle over SEPA Incasso

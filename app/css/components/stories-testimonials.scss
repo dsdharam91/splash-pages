@@ -40,7 +40,7 @@
 }
 
 .stories-testimonials__quote {
-  border: 2px solid $medium-gray;
+  border: 2px solid $gray;
   box-shadow: 2px 2px 0 $highlight-green;
   border-radius: 5px;
 }
@@ -61,7 +61,7 @@
 }
 
 .stories-testimonials__quote:before {
-  border-bottom-color: $medium-gray;
+  border-bottom-color: $gray;
   border-width: 14px;
   z-index: 1;
   top: -29px;

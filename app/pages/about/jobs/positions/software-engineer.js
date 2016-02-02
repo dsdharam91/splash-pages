@@ -11,7 +11,7 @@ export default class SoftwareEngineer extends React.Component {
         <p className='para'>
           We're looking for backend software engineers to join our growing team.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Our work</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Our work</h4>
         <p className='para'>We're building a simple, intuitive system on top of Europe's
           broken payments infrastructure. Thousands of merchants already rely on us
           to collect millions of pounds every day.</p>
@@ -37,7 +37,7 @@ export default class SoftwareEngineer extends React.Component {
             with the banks.
           </li>
         </ul>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Our culture</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Our culture</h4>
         <p className='para'>Payments is a scale business with huge returns to great
           engineering. We have a culture where you can do work that you're proud
           of every day.</p>
@@ -58,7 +58,7 @@ export default class SoftwareEngineer extends React.Component {
           className='u-link-color-p u-text-underline' href='https://github.com/gocardless/statesman'>Statesman</a>, and we regularly
           host events and meetups in our offices. We have a conference budget for everyone
           on the team and can help with speaker coaching if you're interested.</p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Our stack</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Our stack</h4>
         <p className='para'>We have to stay nimble while delivering mission-critical code.
           To do so we constantly prioritise keeping both our stack and our codebase
           lean.</p>
@@ -68,7 +68,7 @@ export default class SoftwareEngineer extends React.Component {
           Chef.</p>
         <p className='para'>We deploy many times a day, supported by a test suite we trust
           and a culture of code review.</p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <p className='para'>We're looking for backend software engineers to join
           our growing team. We'd particularly love you to apply if:</p>
         <ul className='list'>

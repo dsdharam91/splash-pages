@@ -35,7 +35,7 @@ export default class EnterpriseAccountManager extends React.Component {
           single integration is a real game changer. GoCardless will continue
           to disrupt these systems as payment mechanisms continue to evolve.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
           You will be responsible for finding and closing new business in the
           UK market. This will be done via your own efforts and in conjunction
@@ -65,7 +65,7 @@ export default class EnterpriseAccountManager extends React.Component {
           on to raise the bar of success. You’ll be responsible for helping
           the team around you improve and develop.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
         <p className='para'>
           We’re looking for people who want to have an impact and are always
           trying to learn and improve themselves and the operations around them.

@@ -21,7 +21,7 @@ export default class ProductComparisonFr extends React.Component {
                     <div className='u-text-l u-margin-Bxxs'>GoCardless</div>
                     Prélevez facilement et rapidement
                   </th>
-                  <th className='u-background-dark-gray-darken u-text-heading-light u-color-invert u-padding-Am u-border-gray'>
+                  <th className='u-background-xdark-gray u-text-heading-light u-color-invert u-padding-Am u-border-gray'>
                     <div className='u-text-l u-margin-Bxxs'>GoCardless Pro</div>
                     Prenez le contrôle du prélèvement
                   </th>

@@ -35,7 +35,7 @@ export default class FeaturesAPI extends React.Component {
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
               Integrating with GoCardless is easy and secure
             </h2>
-            <p className='u-text-s u-color-p u-margin-Txs'>
+            <p className='u-text-xs u-color-p u-margin-Txs'>
               We maintain official libraries for&nbsp;
               <a href='https://github.com/gocardless/gocardless-ruby'>Ruby</a>,&nbsp;
               <a href='https://github.com/gocardless/gocardless-php'>PHP</a>,&nbsp;

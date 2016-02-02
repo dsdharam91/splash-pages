@@ -185,16 +185,16 @@ export default class FeaturesNl extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                     Behoud controle over uw cashflow
                   </h2>
-                  <h3 className='u-text-s'>Actuele Status Rapporten</h3>
+                  <h3 className='u-text-xs'>Actuele Status Rapporten</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Ons overzichtelijk online dashboard evenals onze email berichten houden u op elk moment
                     op de hoogte van gedetailleerde informatie over uw klanten en hun betalingen.
                   </p>
-                  <h3 className='u-text-s'>Exporteer uw data</h3>
+                  <h3 className='u-text-xs'>Exporteer uw data</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Bekijk uw data op elk ogenblik zoals u dat wil. GoCardless is compatibel met de meeste boekhoudpakketten.
                   </p>
-                  <h3 className='u-text-s'>Ontvang dagelijks betalingen</h3>
+                  <h3 className='u-text-xs'>Ontvang dagelijks betalingen</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Met GoCardless kan u zo vaak als u wil betalingen accepteren — zonder bijkomend werk of kosten.
                   </p>
@@ -212,17 +212,17 @@ export default class FeaturesNl extends React.Component {
                     GoCardless is een erkende betalingsdienst die betalingen
                     snel en eenvoudig maakt voor u en uw klanten.
                   </p>
-                  <h3 className='u-text-s'>Eenvoudige online setup</h3>
+                  <h3 className='u-text-xs'>Eenvoudige online setup</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Het volledige proces is online. Uw klanten kunnen in enkele minuten betalingen machtigen
                     via ons online formulier — ook mobiel.
                   </p>
-                  <h3 className='u-text-s'>Uw logo en uw naam</h3>
+                  <h3 className='u-text-xs'>Uw logo en uw naam</h3>
                   <p className='u-color-p u-margin-Bm'>
                     Creëer een goede gebruikerservaring door uw logo<br />
                     aan ons betalingsformulier toe te voegen, en uw klanten na de betaling automatisch naar uw website verder te leiden.
                   </p>
-                  <h3 className='u-text-s'>Een veilige en eenvoudige manier om te betalenn</h3>
+                  <h3 className='u-text-xs'>Een veilige en eenvoudige manier om te betalenn</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                   <Translation locales='nl-NL'>
                     Met SEPA incasso hoeven uw klanten zich geen zorgen meer te maken een betaling te missen.
@@ -251,7 +251,7 @@ export default class FeaturesNl extends React.Component {
                     <Message pointer="phone_local" />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-p u-margin-Ts'>
                       Contacteer één van onze incasso experts om te bespreken hoe we u kunnen helpen.
                     </p>
                   </div>

@@ -196,16 +196,16 @@ export default class FeaturesEs extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                     Asegura tu flujo de caja
                   </h2>
-                  <h3 className='u-text-s'>Sigue el estado de tus pagos en todo momento</h3>
+                  <h3 className='u-text-xs'>Sigue el estado de tus pagos en todo momento</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Nuestro panel de control y notificaciones por email te mantendran informado totalmente
                     acerca de todos tus cobros y clientes.
                   </p>
-                  <h3 className='u-text-s'>Exporta tus datos</h3>
+                  <h3 className='u-text-xs'>Exporta tus datos</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Analiza tus datos como quieras. GoCardless es compatible con los programas de contabilidad más populares.
                   </p>
-                  <h3 className='u-text-s'>Realiza tus cobros todos los días</h3>
+                  <h3 className='u-text-xs'>Realiza tus cobros todos los días</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Con GoCardless puedes realizar cobros tan a menudo como quieras sin mayores costes ni molestias.
                   </p>
@@ -223,17 +223,17 @@ export default class FeaturesEs extends React.Component {
                       GoCardless es una institución autorizada por la FCA que facilita y
                       agiliza los cobros a ti y a tus clientes.
                     </p>
-                  <h3 className='u-text-s'>Con un sencillo Setup Online</h3>
+                  <h3 className='u-text-xs'>Con un sencillo Setup Online</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Todo el proceso es online. Utilizando nuestro mandato online, tus clientes podrán
                     autorizar cobros en minutos - incluso desde su teléfono móvil.
                   </p>
-                  <h3 className='u-text-s'>Tu logo, en todas partes</h3>
+                  <h3 className='u-text-xs'>Tu logo, en todas partes</h3>
                   <p className='u-color-p u-margin-Bm'>
                     Ofrece una gran experiencia de usuarios añadiendo tu logo a nuestros formularios de pago y
                     enviando automáticamente a tus clientes de vuelta a tu página después de pagar.
                   </p>
-                  <h3 className='u-text-s'>Una forma segura y sencilla de pagar</h3>
+                  <h3 className='u-text-xs'>Una forma segura y sencilla de pagar</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Con Domiciliación Bancaria, tus clientes no tienen que preocuparse de olvidar un pago.
                     Los clientes también están protegidos por las leyes de Protección al Consumidor de SEPA.
@@ -310,7 +310,7 @@ export default class FeaturesEs extends React.Component {
                     <Message pointer='phone_local' />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-p u-margin-Ts'>
                       Habla con uno de nuestros expertos en Pagos para descubrir como GoCardless puede ayudar a tu negocio.
                     </p>
                   </div>

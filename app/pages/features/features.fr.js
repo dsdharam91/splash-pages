@@ -192,17 +192,17 @@ export default class FeaturesFr extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                     Ne laissez rien au hasard
                   </h2>
-                  <h3 className='u-text-s'>Statuts de paiement instantanés</h3>
+                  <h3 className='u-text-xs'>Statuts de paiement instantanés</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Notre tableau de bord vous permet de voir rapidement où en sont vos
                     clients et vos paiements en temps réel.
                   </p>
-                  <h3 className='u-text-s'>Exportez vos données</h3>
+                  <h3 className='u-text-xs'>Exportez vos données</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Gérez vos données de la manière que vous préfèrez - par exemple pour l'utiliser
                     dans votre comptabilité.
                   </p>
-                  <h3 className='u-text-s'>Encaissez des paiements tous les jours</h3>
+                  <h3 className='u-text-xs'>Encaissez des paiements tous les jours</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Avec GoCardless vous pouvez encaisser des paiements aussi souvent que vous le
                     souhaitez, sans le moindre coût ou difficulté supplémentaire.
@@ -221,17 +221,17 @@ export default class FeaturesFr extends React.Component {
                     GoCardless est un Etablissement de Paiement Agréé, habilité à prendre des paiements
                     à travers l’Union Européenne ce qui rend les paiements faciles pour vous et vos clients.
                   </p>
-                  <h3 className='u-text-s'>Mandat électronique simple</h3>
+                  <h3 className='u-text-xs'>Mandat électronique simple</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Tout se passe en ligne. En utilisant notre mandat sécurisé, vos clients peuvent
                     autoriser les prélèvements en 2 minutes - même depuis leur téléphone.
                   </p>
-                  <h3 className='u-text-s'>Votre logo sur le devant de la scène</h3>
+                  <h3 className='u-text-xs'>Votre logo sur le devant de la scène</h3>
                   <p className='u-color-p u-margin-Bm'>
                     Garantissez la meilleure expérience client en ajoutant votre logo à nos pages
                     de paiement, ce qui rassure vos utilisateurs.
                   </p>
-                  <h3 className='u-text-s'>Une façon simple et sécurisée de payer</h3>
+                  <h3 className='u-text-xs'>Une façon simple et sécurisée de payer</h3>
                   <p className='u-size-5of6 u-color-p u-margin-Bm'>
                     Avec le prélèvement bancaire, vos clients n'ont pas besoin de s'inquiéter de manquer
                     un paiement et sont protégés par les règles SEPA.
@@ -258,7 +258,7 @@ export default class FeaturesFr extends React.Component {
                     <Message pointer="phone_local" />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-p u-margin-Ts'>
                       Parlez avec nos experts de vos problématiques paiements.
                     </p>
                   </div>

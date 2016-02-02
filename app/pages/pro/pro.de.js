@@ -70,7 +70,7 @@ export default class ProDe extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
                     Willkommen zu GoCardless Pro
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     GoCardless Pro wurde speziell für große Unternehmen entwickelt, und kombiniert die
                     Einfachheit unseres Produktes mit voller Kontrolle über Zahlungen und Kundenerlebnis.
                     Es lässt Sie Zahlungen sowohl in Deutschland als auch in Europa annehmen, alles mittels einer einfachen Integration.
@@ -146,7 +146,7 @@ export default class ProDe extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                     Sie sind in guter Gesellschaft
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-p u-margin-Txs'>
                     Jeden Tag vertrauen zahlreiche der größten und respektiertesten Unternehmen der Welt GoCardless mit ihren Zahlungen.
                   </p>
                 </div>
@@ -177,7 +177,7 @@ export default class ProDe extends React.Component {
                     Sie möchten Zahlungen innerhalb Europas empfangen?
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-p u-margin-Ts'>
                       GoCardless Pro ist der einzige Service, der es Ihnen ermöglicht Lastschrift
                       Zahlungen in Deutschland und innerhalb der Eurozone mit nur einer einzigen Integration zu empfangen.
                       Mit unserer API können Sie Zahlungen von über 500 Millionen Menschen in 22 europäischen Ländern annehmen.
@@ -198,7 +198,7 @@ export default class ProDe extends React.Component {
                     <Message pointer='phone_local' />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-p u-margin-Ts'>
                       Sprechen Sie mit einem unserer Zahlungsexperten, um herauszufinden, wie GoCardless Ihnen helfen kann.
                     </p>
                   </div>
@@ -265,7 +265,7 @@ export default class ProDe extends React.Component {
                   <h2 className='u-text-heading u-color-heading u-text-light u-text-xl'>
                     <Message pointer='pricing.pro_cost_per_transaction' /> pro Zahlung
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Vxs'>
+                  <p className='u-text-xs u-color-p u-margin-Vxs'>
                     Wettbewerbsfähige Preise für Unternehmen aller Größen.<br />
                   </p>
                   <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>

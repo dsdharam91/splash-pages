@@ -171,7 +171,7 @@ export default class HomeEn extends React.Component {
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                 Simple, transparent pricing for everyone
               </h2>
-              <p className='u-text-s u-color-p u-margin-Vxs'>
+              <p className='u-text-xs u-color-p u-margin-Vxs'>
                 Competitive rates for everyone from individuals through to large corporations
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>

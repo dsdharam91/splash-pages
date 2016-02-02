@@ -131,7 +131,7 @@ export default class HomeEs extends React.Component {
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                 Precios simples y transparentes para todo el mundo
               </h2>
-              <p className='u-text-s u-color-p u-margin-Vxs'>
+              <p className='u-text-xs u-color-p u-margin-Vxs'>
                 Tarifas competitivas para todos, desde individuos a grandes empresas
               </p>
               <Link to='pricing' className='btn btn--hollow u-margin-Tm'>

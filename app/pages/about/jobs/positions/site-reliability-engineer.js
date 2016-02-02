@@ -24,7 +24,7 @@ export default class SiteReliabilityEngineer extends React.Component {
           our existing systems to ensure we are resilient to failure, and can tackle
           any complex infrastructure problems as they emerge.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
           As one of our Site Reliability Engineers at GoCardless you will be part
           of a small team that sets the direction of our platform and codebase.
@@ -58,7 +58,7 @@ export default class SiteReliabilityEngineer extends React.Component {
           <li>Create Chef cookbooks to deploy and manage our services.</li>
         </ul>
 
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
         <p className='para'>
           We want to work with people who are always trying to improve and automate
           processes, who enjoy finding elegant solutions for complex problems,

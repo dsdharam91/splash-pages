@@ -25,7 +25,7 @@ export default class HomeDe extends React.Component {
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
                 Die neue bessere Art des Lastschriftverfahrens
               </h2>
-              <p className='u-text-s u-color-p u-margin-Txs'>
+              <p className='u-text-xs u-color-p u-margin-Txs'>
                 GoCardless macht es möglich, von den günstigen Gebühren und kleinen Fehlerraten des Lastschriftverfahrens zu profitieren,
                 ganz ohne den konventionellen operativen Mehraufwand.
               </p>
@@ -127,7 +127,7 @@ export default class HomeDe extends React.Component {
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                 Tausende Händler vertrauen uns
               </h2>
-              <p className='u-text-s u-color-p u-margin-Txs'>
+              <p className='u-text-xs u-color-p u-margin-Txs'>
                 <Message pointer="home.trusted_message_scale" />
                 <br />
                 Egal, wie groß Ihr Unternehmen ist, GoCardless funktioniert für Sie.
@@ -145,7 +145,7 @@ export default class HomeDe extends React.Component {
               <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
                 Einfache transparente Preise für alle
               </h2>
-              <p className='u-text-s u-color-p u-margin-Vxs'>
+              <p className='u-text-xs u-color-p u-margin-Vxs'>
                 Wettbewerbsfähige Preise für jeden: von Einzelpersonen bis zu Großunternehmen.
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
