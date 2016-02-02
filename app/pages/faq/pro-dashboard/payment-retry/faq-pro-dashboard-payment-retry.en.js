@@ -7,7 +7,7 @@ export default class FaqProDashboardPaymentRetryEn extends React.Component {
   render() {
     return (
       <Translation locales={['en']} exclude={['en-GB']}>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Payment retry</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Payment retry</h2>
         <p className='para'>
           When a payment fails, we will indicate the reason as well as a short description of its cause. There are 3 main types of failures:
         </p>
@@ -37,7 +37,7 @@ export default class FaqProDashboardPaymentRetryEn extends React.Component {
           The following table shows a list of possible payment failure errors and an explanation for what the error message means:
         </p>
 
-        <table className='table table--faq u-color-heading'>
+        <table className='table table--faq u-color-dark-gray'>
           <thead>
             <tr>
               <th>

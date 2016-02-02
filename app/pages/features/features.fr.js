@@ -91,19 +91,19 @@ export default class FeaturesFr extends React.Component {
                       <ClockIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
                     <IfLocale hasInstantSignup>
-                      <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                      <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                         Commencez en 2 minutes
                       </div>
-                      <p className='u-color-p u-margin-Txs'>
+                      <p className='u-color-dark-gray u-margin-Txs'>
                         Pas de long processus bancaire. Vous pouvez commencer à prélever tout de suite en <Href to='signup.path'>
                         créant votre compte</Href>.
                       </p>
                     </IfLocale>
                     <IfLocale hasInstantSignup={false}>
-                      <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                      <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                         Commencez en 24 heures
                       </div>
-                      <p className='u-color-p u-margin-Txs'>
+                      <p className='u-color-dark-gray u-margin-Txs'>
                         Pas de long processus bancaire. Vous pouvez commencer à prélever dès demain en
                         nous <Link to='contact_sales'>contactant maintenant</Link>.
                       </p>
@@ -114,10 +114,10 @@ export default class FeaturesFr extends React.Component {
                       <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-yellow' />
                       <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                       Pas de frais d'intégration
                     </div>
-                    <p className='u-color-p u-margin-Txs'>
+                    <p className='u-color-dark-gray u-margin-Txs'>
                       Payez 1% par transaction réussie (plafonné à 2€), sans frais d'installation et d'abonnement.
                       Zéro frais sur les incidents.
 
@@ -128,10 +128,10 @@ export default class FeaturesFr extends React.Component {
                       <CheckListIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-blue' />
                       <CheckListIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                       Simplifiez-vous la vie
                     </div>
-                    <p className='u-color-p u-margin-Txs'>
+                    <p className='u-color-dark-gray u-margin-Txs'>
                       GoCardless automatise la prise, suivi et reconciliation de vos paiements :
                       il suffit de définir le montant et la date.
                     </p>
@@ -143,10 +143,10 @@ export default class FeaturesFr extends React.Component {
                       <CustomerIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-green' />
                       <CustomerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                       Fidélisez vos client
                     </div>
-                    <p className='u-color-p u-margin-Txs'>
+                    <p className='u-color-dark-gray u-margin-Txs'>
                       Grâce au prélèvement SEPA, GoCardless vous évite de perdre vos clients à cause de
                       l'expiration ou d'un échec de carte.
                     </p>
@@ -156,10 +156,10 @@ export default class FeaturesFr extends React.Component {
                       <SecurityIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-blue' />
                       <SecurityIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                       Sécurité de calibre militaire
                     </div>
-                    <p className='u-color-p u-margin-Txs'>
+                    <p className='u-color-dark-gray u-margin-Txs'>
                       Toutes les données bancaires sont chiffrées avec RSA et ne sont transmises que par
                       le biais de serveurs Européens sécurisés.
                     </p>
@@ -169,10 +169,10 @@ export default class FeaturesFr extends React.Component {
                       <DeveloperIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-yellow' />
                       <DeveloperIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                       Évoluez facilement
                     </div>
-                    <p className='u-color-p u-margin-Txs'>
+                    <p className='u-color-dark-gray u-margin-Txs'>
                       Automatisez plus en profondeur grâce à l'API. Tout ce qu'il y a à savoir est
                       dans <Link to='pro'>GoCardless Pro</Link>.
                     </p>
@@ -189,21 +189,21 @@ export default class FeaturesFr extends React.Component {
                   <img src='/images/fr/basic-payment-timeline-fr@2x.jpg' className='basic-page__real-time-reports-image' />
                 </div>
                 <div className='grid__cell u-size-1of2 u-margin-Tl'>
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                     Ne laissez rien au hasard
                   </h2>
                   <h3 className='u-text-xs'>Statuts de paiement instantanés</h3>
-                  <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                     Notre tableau de bord vous permet de voir rapidement où en sont vos
                     clients et vos paiements en temps réel.
                   </p>
                   <h3 className='u-text-xs'>Exportez vos données</h3>
-                  <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                     Gérez vos données de la manière que vous préfèrez - par exemple pour l'utiliser
                     dans votre comptabilité.
                   </p>
                   <h3 className='u-text-xs'>Encaissez des paiements tous les jours</h3>
-                  <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                     Avec GoCardless vous pouvez encaisser des paiements aussi souvent que vous le
                     souhaitez, sans le moindre coût ou difficulté supplémentaire.
                   </p>
@@ -214,25 +214,25 @@ export default class FeaturesFr extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='grid u-padding-Vxl'>
                 <div className='grid__cell u-size-1of2'>
-                  <h2 className='u-text-l u-text-heading u-color-heading u-text-light u-margin-Bl'>
+                  <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bl'>
                     Vos clients vont l'adorer
                   </h2>
-                  <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                     GoCardless est un Etablissement de Paiement Agréé, habilité à prendre des paiements
                     à travers l’Union Européenne ce qui rend les paiements faciles pour vous et vos clients.
                   </p>
                   <h3 className='u-text-xs'>Mandat électronique simple</h3>
-                  <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                     Tout se passe en ligne. En utilisant notre mandat sécurisé, vos clients peuvent
                     autoriser les prélèvements en 2 minutes - même depuis leur téléphone.
                   </p>
                   <h3 className='u-text-xs'>Votre logo sur le devant de la scène</h3>
-                  <p className='u-color-p u-margin-Bm'>
+                  <p className='u-color-dark-gray u-margin-Bm'>
                     Garantissez la meilleure expérience client en ajoutant votre logo à nos pages
                     de paiement, ce qui rassure vos utilisateurs.
                   </p>
                   <h3 className='u-text-xs'>Une façon simple et sécurisée de payer</h3>
-                  <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                     Avec le prélèvement bancaire, vos clients n'ont pas besoin de s'inquiéter de manquer
                     un paiement et sont protégés par les règles SEPA.
                   </p>
@@ -254,11 +254,11 @@ export default class FeaturesFr extends React.Component {
                     <PhoneIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                     <PhoneIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Tm'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tm'>
                     <Message pointer="phone_local" />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-xs u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                       Parlez avec nos experts de vos problématiques paiements.
                     </p>
                   </div>
@@ -290,10 +290,10 @@ export default class FeaturesFr extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-padding-Vxl'>
                 <div className='u-size-2of3 u-center'>
-                  <h2 className='u-text-heading u-color-heading u-text-xl u-text-light u-margin-Bs'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-xl u-text-light u-margin-Bs'>
                     Votre tableau de bord
                   </h2>
-                  <div className='u-text-heading u-color-heading u-text-l u-text-light'>
+                  <div className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                     Entièrement en ligne, sans installation.<br />Tout ce dont vous avez besoin pour être payé.
                   </div>
                   <hr className='u-margin-Vxxl' />

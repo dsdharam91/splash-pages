@@ -10,10 +10,10 @@ export default class PayOnePercentCTA extends React.Component {
       <div className='site-container u-padding-Vxxl'>
         <div className='u-text-center u-padding-Vxl'>
           <div className='u-size-1of2 u-center'>
-            <h2 className='u-text-heading u-color-heading u-text-xl u-text-light'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-xl u-text-light'>
               <Message pointer='basic_pricing_cta.main' />
             </h2>
-            <p className='u-color-p u-margin-Txxs'>
+            <p className='u-color-dark-gray u-margin-Txxs'>
               <Message pointer='basic_pricing_cta.description' />
             </p>
             <Link to='pricing' id="track-cta-pricing"

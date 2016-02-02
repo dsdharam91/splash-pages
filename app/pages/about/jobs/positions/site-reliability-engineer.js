@@ -7,7 +7,7 @@ export default class SiteReliabilityEngineer extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Site Reliability Engineer</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Site Reliability Engineer</h3>
         <p className='para'>
           Scale our infrastructure to help thousands of businesses take payments.
         </p>

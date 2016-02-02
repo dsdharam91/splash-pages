@@ -9,7 +9,7 @@ export default class AboutEn extends React.Component {
     return (
       <Translation locales='en'>
         <div className='site-container u-padding-Vxxl'>
-          <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-padding-Txl'>
+          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-padding-Txl'>
             About GoCardless
           </h2>
           <div className='grid'>
@@ -55,7 +55,7 @@ export default class AboutEn extends React.Component {
             <div className='grid__cell u-size-1of3'>
               <div className='u-margin-Txxl'>
                 <img src='/images/press/publications-stacked.jpg' />
-                <p className='u-text-xs u-color-p u-margin-Txxl'>
+                <p className='u-text-xs u-color-dark-gray u-margin-Txxl'>
                   For any press enquiries, please contact <a href='mailto:press@gocardless.com'>the GoCardless PR team</a>,
                   or view our comprehensive <a href='https://www.dropbox.com/sh/sat8xsjntbf5mnh/AACn116IKyIWrNG7c8FnY0cYa?dl=0'>
                     press pack

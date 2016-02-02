@@ -33,10 +33,10 @@ export default class PaymentsByDirectDebitEn extends React.Component {
                     <ImproveCashflowIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                     <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     No more cashflow issues
                   </h3>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Make late payments a thing of the past. With Direct Debit, you control when you get paid.
                   </p>
                 </div>
@@ -45,10 +45,10 @@ export default class PaymentsByDirectDebitEn extends React.Component {
                     <ClockIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                     <ClockIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Lower failure rates
                   </h3>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Monthly failure rates of less than 1% - that’s 3x lower than cards. Any failed payments can be retried quickly and easily.
                   </p>
                 </div>
@@ -57,10 +57,10 @@ export default class PaymentsByDirectDebitEn extends React.Component {
                     <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                     <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Low cost, low admin
                   </h3>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Cheaper than card networks. With GoCardless, accepting Direct Debit is easy and effortless.
                   </p>
                 </div>
@@ -70,23 +70,23 @@ export default class PaymentsByDirectDebitEn extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-padding-Txxl'>
             <div className='u-padding-Txl'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
                 GoCardless makes getting paid easier than ever
               </h2>
               <div className='grid u-center u-text-center u-padding-Tl u-margin-Bl u-margin-Ts'>
                 <div className='grid__cell u-size-1of3 u-text-center'>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Really simple setup</h3>
-                  <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>Really simple setup</h3>
+                  <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                     Automate repeat payments and collect from account customers at the click of a button.</p>
                 </div>
                 <div className='grid__cell u-size-1of3 u-text-center'>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Ultra-low fees</h3>
-                  <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>Ultra-low fees</h3>
+                  <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                     Less than half the cost of PayPal. Competitive rates for everyone from individuals through to large corporations.</p>
                 </div>
                 <div className='grid__cell u-size-1of3 u-text-center'>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Integrates seamlessly</h3>
-                  <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>Integrates seamlessly</h3>
+                  <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                     Through our RESTful API, GoCardless integrates perfectly with your website.</p>
                 </div>
               </div>
@@ -102,13 +102,13 @@ export default class PaymentsByDirectDebitEn extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl u-text-center u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>
                 The best way to learn more is to try it out
               </h2>
               <Href to='signup.path' className='btn'>Start taking payments</Href>
-              <p className='u-color-p u-margin-Ts'>No set up costs, no monthly fees, no hidden charges</p>
+              <p className='u-color-dark-gray u-margin-Ts'>No set up costs, no monthly fees, no hidden charges</p>
               <hr className='u-size-1of2 u-center u-margin-Vxxl' />
-              <p className='u-color-p'><strong>Want to talk to someone first?</strong><br />
+              <p className='u-color-dark-gray'><strong>Want to talk to someone first?</strong><br />
                 Call our payments experts on <Message pointer='phone_local' /><br />
                 We're available 9am - 6pm Monday to Friday
               </p>

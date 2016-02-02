@@ -8,7 +8,7 @@ export default class PaymentsProcessingSpecialist extends React.Component {
   render() {
     return (
       <JobsPage>
-      <h3 className='u-text-heading-light u-text-m u-color-heading'>Payments Processing Specialist </h3>
+      <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Payments Processing Specialist </h3>
       <p className='para'>
       Manage and execute our banking flows.
       </p>

@@ -34,7 +34,7 @@ export default class PricingNl extends React.Component {
                     </p>
                   </div>
                   <ul className='pricing-options__list'>
-                    <li className='pricing-options__list-item u-color-heading'>
+                    <li className='pricing-options__list-item u-color-dark-gray'>
                       <b>Perfect voor kleine en middelgrote bedrijven</b>
                     </li>
                     <li className='pricing-options__list-item'>
@@ -70,7 +70,7 @@ export default class PricingNl extends React.Component {
                   </p>
                 </div>
                 <ul className='pricing-options__list'>
-                  <li className='pricing-options__list-item u-color-heading'>
+                  <li className='pricing-options__list-item u-color-dark-gray'>
                     <b>Voor bedrijven die volledige controle willen</b>
                   </li>
                   <li className='pricing-options__list-item'>
@@ -93,16 +93,16 @@ export default class PricingNl extends React.Component {
 
         <div className='site-container u-padding-Vm' id='scale-pricing-container'>
           <div className='site-container u-text-center u-padding-Vl'>
-              <h2 className='u-text-heading-light u-color-heading'>Over onze tarieven</h2>
+              <h2 className='u-text-heading-light u-color-dark-gray'>Over onze tarieven</h2>
           </div>
           <div className='grid u-size-4of5 u-center u-padding-Vm'>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Rm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>
                   Zijn er echt geen verdere kosten?
                 </b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 <IfLocale hasPercentagePricing>
                   Dat klopt, we rekenen enkel de kosten aan in de tabel hierboven en niets meer.
                   We rekenen nooit kosten aan voor storneringen of niet-succesvolle betalingen.<br />
@@ -118,10 +118,10 @@ export default class PricingNl extends React.Component {
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Lm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>Biedt GoCardless volume kortingen aan?</b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 <IfLocale hasPercentagePricing>
                   Jazeker. Vanaf 1000 betalingen per maand bieden we lagere kosten aan per verrichting.
                   Voor verdere informatie, gelieve contact op te nemen
@@ -138,10 +138,10 @@ export default class PricingNl extends React.Component {
             </div>
             <IfLocale hasPercentagePricing>
               <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Rm'>
-                <div className='u-color-heading'>
+                <div className='u-color-dark-gray'>
                   <b>Wat betekent ‘met een maximum van <Message pointer="pricing.cost_cap" />’?</b>
                 </div>
-                <p className='u-color-p'>
+                <p className='u-color-dark-gray'>
                   U betaalt nooit meer dan <Message pointer="pricing.cost_cap" /> per verrichting
                   zelfs als de waarde van de verrichting hoger is dan <Message pointer='pricing.normal_capped_at_amount' />.
                 </p>
@@ -149,19 +149,19 @@ export default class PricingNl extends React.Component {
             </IfLocale>
             <IfLocale hasPercentagePricing={false}>
               <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Rm'>
-                <div className='u-color-heading'>
+                <div className='u-color-dark-gray'>
                   <b>Zijn er set up kosten?</b>
                 </div>
-                <p className='u-color-p'>
+                <p className='u-color-dark-gray'>
                   Neen, u betaalt niets om te integreren met GoCardless en onze klanten ondersteuning is volledig gratis.
                 </p>
               </div>
             </IfLocale>
             <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Lm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>Zijn er kosten voor niet-succesvolle betalingen?</b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 Neen. We rekenen enkel kosten aan voor betalingen die succesvol verwerkt zijn.
               </p>
             </div>
@@ -170,8 +170,8 @@ export default class PricingNl extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Tm u-padding-Bxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-text-l u-color-heading u-text-light'>Heeft u vragen?</h2>
-            <p className='u-color-p u-margin-Ts'>Spreek met onze betalingsexperts op <Message pointer='phone_local' /></p>
+            <h2 className='u-text-heading u-text-l u-color-dark-gray u-text-light'>Heeft u vragen?</h2>
+            <p className='u-color-dark-gray u-margin-Ts'>Spreek met onze betalingsexperts op <Message pointer='phone_local' /></p>
             <IfLocale hasInstantSignup>
               <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>Nu registreren</Href>
             </IfLocale>

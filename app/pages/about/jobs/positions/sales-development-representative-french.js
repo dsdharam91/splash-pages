@@ -10,7 +10,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
     return (
       <JobsPage>
         <Translation locales='fr'>
-          <h3 className='u-text-heading-light u-text-m u-color-heading'>Chargé de compte</h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Chargé de compte</h3>
           <p className='para'>
             Contribuez à la croissance globale de GoCardless.
           </p>
@@ -104,7 +104,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
         </Translation>
 
         <Translation locales='en'>
-          <h3 className='u-text-heading-light u-text-m u-color-heading'>French Sales Development Representative</h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>French Sales Development Representative</h3>
           <p className='para'>
             Drive GoCardless’s global growth.
           </p>

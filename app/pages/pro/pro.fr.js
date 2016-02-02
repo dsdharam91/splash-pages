@@ -60,10 +60,10 @@ export default class ProFr extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <div className='u-size-3of4 u-center'>
-                <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                   Découvrez GoCardless Pro
                 </h2>
-                <p className='u-text-xs u-color-p u-margin-Txs'>
+                <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                   Adapté aux grandes entreprises et startups en forte croissance, GoCardless Pro combine simplicité
                   d'utilisation de notre produit original GoCardless et contrôle complet du paiement
                   et de l'expérience client. Il permet également d'encaisser des prélèvements partout en Europe et
@@ -76,10 +76,10 @@ export default class ProFr extends React.Component {
                     <WhiteLabelIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                     <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     En marque blanche
                   </div>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     GoCardless Pro donne la priorité à votre marque. Bénéficiez de votre propre ICS
                     et du contrôle total de vos pages de paiements et pré-notifications.
                   </p>
@@ -89,10 +89,10 @@ export default class ProFr extends React.Component {
                     <DeveloperIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                     <DeveloperIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Une API simple et moderne
                   </div>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Intégrez l'API REST de GoCardless rapidement dans votre site web et vos systèmes
                     d'information. Découvrez notre
                     <a href='https://developer.gocardless.com/pro'> documentation</a>.
@@ -103,10 +103,10 @@ export default class ProFr extends React.Component {
                     <MobileIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                     <MobileIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Le prélèvement omni-canal
                   </div>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Acceptez le mandat électronique, papier et téléphone. Les informations collectées sont automatiquement
                     passées à GoCardless et dans vos systèmes.
                   </p>
@@ -116,16 +116,16 @@ export default class ProFr extends React.Component {
                     <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                     <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Fini le casse-tête des rejets
                   </div>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Recevez directement dans vos systèmes le statut de vos prélèvements
                     et retentez automatiquement et gratuitement les rejets.
                   </p>
                 </div>
               </div>
-              <p className='u-color-p u-margin-Txxl u-padding-Tm'>
+              <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
                 Vous désirez facilement tester notre API et
                 notre tableau de bord?
               </p>
@@ -141,10 +141,10 @@ export default class ProFr extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Txl'>
               <div className='u-size-1of2 u-center'>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                   Vous êtes en bonne compagnie
                 </h2>
-                <p className='u-text-xs u-color-p u-margin-Txs'>
+                <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                   Chaque jour les plus grandes entreprises et start-ups innovantes font confiance à
                   la technologie de GoCardless pour gérer leurs paiements
                 </p>
@@ -163,11 +163,11 @@ export default class ProFr extends React.Component {
                     <PhoneIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                     <PhoneIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Tm'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tm'>
                     <Message pointer='phone_local' />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-xs u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                       Parlez avec nos experts de vos problématiques paiements.
                     </p>
                   </div>
@@ -205,10 +205,10 @@ export default class ProFr extends React.Component {
           <div className='u-text-center u-padding-Vxxl'>
             <div className='site-container u-padding-Vxl'>
               <div className='u-size-2of3 u-center'>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                   Un prix adapté à votre échelle
                 </h2>
-                <p className='u-text-xs u-color-p u-margin-Vxs'>
+                <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                   Conçu pour les grandes entreprises et les start-ups en forte croissance
                 </p>
                 <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
@@ -220,7 +220,7 @@ export default class ProFr extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bm'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bm'>
                 Prenez contact avec notre équipe
               </h2>
               <Link to='contact_sales' query={{ s: 'pro' }} className='btn u-margin-Rm'>

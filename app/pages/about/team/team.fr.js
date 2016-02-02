@@ -10,15 +10,15 @@ export default class TeamFr extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='grid u-padding-Txl'>
             <div className='grid__cell u-size-1of3'>
-              <h2 className='u-text-heading-light u-text-m u-color-meta u-margin-Bm'>
+              <h2 className='u-text-heading-light u-text-m u-color-dark-gray u-margin-Bm'>
                 Nous sommes une petite équipe formée d'individus talentueux travaillant ensemble pour construire l'avenir des paiements.
               </h2>
             </div>
             <div className='grid__cell u-size-2of3'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>Travailler chez GoCardless
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>Travailler chez GoCardless
  </h2>
-              <span className='u-text-heavy u-color-heading'></span>
-              <span className='u-color-p'>
+              <span className='u-text-heavy u-color-dark-gray'></span>
+              <span className='u-color-dark-gray'>
                <p className='para'>
             Bâtir une entreprise modèle est aussi important pour nous qu’améliorer
         notre modèle économique: nous avons une culture distincte et nous cherchons constamment

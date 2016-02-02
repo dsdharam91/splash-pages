@@ -1,13 +1,13 @@
 .faq-page h2 {
   @extend .u-text-heading-light;
-  @extend .u-color-heading;
+  @extend .u-color-dark-gray;
   @extend .u-text-m;
 }
 
 .faq-page h3 {
   @extend .section-heading;
   @extend .u-text-heading-light;
-  @extend .u-color-heading;
+  @extend .u-color-dark-gray;
   @extend .u-margin-Vm;
   @extend .u-text-s;
 }
@@ -22,7 +22,7 @@
 
 .faq-page table {
   @extend .table;
-  @extend .u-color-p;
+  @extend .u-color-dark-gray;
   border-bottom: 1px solid $gray;
 }
 

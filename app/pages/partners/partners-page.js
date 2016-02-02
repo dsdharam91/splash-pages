@@ -27,7 +27,7 @@ export default class PartnersPage extends React.Component {
         </div>
         <div className='site-container u-padding-Txxl u-text-center'>
           <div className='u-padding-Txl'>
-            <h2 className='u-text-heading u-color-heading u-text-light u-size-7of8 u-center u-margin-Bm'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-light u-size-7of8 u-center u-margin-Bm'>
               {this.props.blurb}
             </h2>
             <a href={this.props.url}
@@ -43,10 +43,10 @@ export default class PartnersPage extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl u-text-center'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-center u-text-light'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-center u-text-light'>
               We play well with others
             </h2>
-            <p className='u-color-heading u-margin-Ts u-size-7of12 u-center'>GoCardless works with all of your favourite software</p>
+            <p className='u-color-dark-gray u-margin-Ts u-size-7of12 u-center'>GoCardless works with all of your favourite software</p>
             <div className='u-margin-Vm u-padding-Vl u-size-5of6 u-center'>
               <img src='/images/partners/software-logo-group@2x.jpg' alt='FreeAgent, Xero, Sage, KashFlow, Pitchero and ClearBooks' />
             </div>

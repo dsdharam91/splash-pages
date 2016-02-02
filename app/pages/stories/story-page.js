@@ -25,7 +25,7 @@ export default class StoryPage extends React.Component {
         </div>
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-size-4of6 u-center u-text-center'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-size-4of6 u-center u-text-center'>
               {this.props.tagline}
             </h2>
             <div className='grid u-margin-Txxl u-padding-Txm'>
@@ -36,7 +36,7 @@ export default class StoryPage extends React.Component {
                       <TickXsmall className='svg-icon__image svg-icon__image--xsmall svg-icon__image--small-shadow u-fill-green' />
                       <TickXsmall className='svg-icon__image svg-icon__image--xsmall u-fill-dark-gray' />
                     </figure>
-                    <p className='u-color-heading u-margin-Txs u-size-5of6 u-center'>
+                    <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                       {tip}
                     </p>
                   </div>

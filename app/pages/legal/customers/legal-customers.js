@@ -9,7 +9,7 @@ export default class LegalCustomers extends React.Component {
   render() {
     return (
       <LegalPage>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Customer agreement</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Customer agreement</h2>
         <p className='para'>
           GoCardless enables suppliers to let their customers pay securely by direct debit over the
           internet. We also allow customers to monitor the payments they make through GoCardless. This
@@ -29,7 +29,7 @@ export default class LegalCustomers extends React.Component {
           to ensure the supplier is paid for any goods or services that have been provided to you.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Opening a GoCardless Account
         </h3>
         <p className='para'>
@@ -49,7 +49,7 @@ export default class LegalCustomers extends React.Component {
           Credit, or any other form of overdraft or loan, will also not be available on your GoCardless account.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Processing payments through GoCardless
         </h3>
         <p className='para'>
@@ -81,7 +81,7 @@ export default class LegalCustomers extends React.Component {
           account at any time on the GoCardless website to view a summary of the payments you have instructed us to make.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Security of your GoCardless Account
         </h3>
         <p className='para'>
@@ -107,7 +107,7 @@ export default class LegalCustomers extends React.Component {
           your access to your GoCardless account or issue you with new account details as soon as practicable.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s' id='cancellation'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s' id='cancellation'>
           Cancellation of a payment transaction
         </h3>
         <p className='para'>
@@ -122,7 +122,7 @@ export default class LegalCustomers extends React.Component {
           GoCardless system.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Cancelling the direct debit mandate within the GoCardless Account
         </h3>
         <p className='para'>
@@ -153,7 +153,7 @@ export default class LegalCustomers extends React.Component {
           </li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Cancelling your order with the supplier
         </h3>
         <p className='para'>
@@ -167,7 +167,7 @@ export default class LegalCustomers extends React.Component {
           has cancelled your payments.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Unauthorised payment transactions
         </h3>
         <p className='para'>
@@ -233,7 +233,7 @@ export default class LegalCustomers extends React.Component {
           the payment transaction.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Restricted Activities
         </h3>
         <p className='para u-text-heavy'>
@@ -242,7 +242,7 @@ export default class LegalCustomers extends React.Component {
           to engage in those activities using GoCardless, we reserve the right to suspend or withdraw all or some of our services to you.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Termination
         </h3>
         <p className='para'>
@@ -253,7 +253,7 @@ export default class LegalCustomers extends React.Component {
           before and after termination of your account.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Data Protection
         </h3>
         <p className='para'>
@@ -261,7 +261,7 @@ export default class LegalCustomers extends React.Component {
           have to perform some identity checks on you before we can initiate a direct debit with you.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Resolving disputes
         </h3>
         <p className='para'>
@@ -278,7 +278,7 @@ export default class LegalCustomers extends React.Component {
           className='u-link-color-p u-text-underline'>http://www.financial-ombudsman.org.uk/</a>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Law
         </h3>
         <p className='para'>
@@ -286,7 +286,7 @@ export default class LegalCustomers extends React.Component {
           able to bring a claim in the English courts or any other court in the country in which you are resident.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           General provisions
         </h3>
         <p className='para'>
@@ -300,7 +300,7 @@ export default class LegalCustomers extends React.Component {
             other penalties).
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Contact
         </h3>
         <p className='para'>

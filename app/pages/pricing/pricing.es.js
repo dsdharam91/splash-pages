@@ -34,7 +34,7 @@ export default class PricingEs extends React.Component {
                     </p>
                   </div>
                   <ul className='pricing-options__list'>
-                    <li className='pricing-options__list-item u-color-heading'>
+                    <li className='pricing-options__list-item u-color-dark-gray'>
                       <b>Perfecto para pequeñas y medianas empresas</b>
                     </li>
                     <li className='pricing-options__list-item'>
@@ -70,7 +70,7 @@ export default class PricingEs extends React.Component {
                   </p>
                 </div>
                 <ul className='pricing-options__list'>
-                  <li className='pricing-options__list-item u-color-heading'>
+                  <li className='pricing-options__list-item u-color-dark-gray'>
                     <b>Para empresas que quieren control total</b>
                   </li>
                   <li className='pricing-options__list-item'>
@@ -93,16 +93,16 @@ export default class PricingEs extends React.Component {
 
         <div className='site-container u-padding-Vm' id='scale-pricing-container'>
           <div className='site-container u-text-center u-padding-Vl'>
-              <h2 className='u-text-heading-light u-color-heading'>Sobre nuestras tarifas</h2>
+              <h2 className='u-text-heading-light u-color-dark-gray'>Sobre nuestras tarifas</h2>
           </div>
           <div className='grid u-size-4of5 u-center u-padding-Vm'>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Rm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>
                   ¿Hay algún otro coste?
                 </b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 <IfLocale hasPercentagePricing>
                   No, no hay ningún otro coste aparte de los descritos en la tabla superior.
                   Nunca cobramos por Devoluciones de recibos o errores de cobro.<br />
@@ -118,10 +118,10 @@ export default class PricingEs extends React.Component {
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Lm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>¿Ofreceis descuentos por grandes volúmenes?</b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 <IfLocale hasPercentagePricing>
                   Si. Nuestra tarifa por transacción se reduce a partir de 1.000 cobros al mes.
                   Para saber más, por favor <Link to='contact_sales' className='u-link-color-p u-text-underline'>contacta
@@ -138,10 +138,10 @@ export default class PricingEs extends React.Component {
             </div>
             <IfLocale hasPercentagePricing>
               <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Rm'>
-                <div className='u-color-heading'>
+                <div className='u-color-dark-gray'>
                   <b>¿Que significa "máximo de<Message pointer="pricing.cost_cap" />"?</b>
                 </div>
-                <p className='u-color-p'>
+                <p className='u-color-dark-gray'>
                   Nunca pagarás más de <Message pointer="pricing.cost_cap" /> por transacción
                   incluso si el valor de la transacción es mayor que <Message pointer='pricing.normal_capped_at_amount' />.
                 </p>
@@ -149,19 +149,19 @@ export default class PricingEs extends React.Component {
             </IfLocale>
             <IfLocale hasPercentagePricing={false}>
               <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Rm'>
-                <div className='u-color-heading'>
+                <div className='u-color-dark-gray'>
                   <b>¿Hay algún coste de implementación?</b>
                 </div>
-                <p className='u-color-p'>
+                <p className='u-color-dark-gray'>
                   No, no tendrás que pagar nada por implementar GoCardless y nuestro soporte es gratuito.
                 </p>
               </div>
             </IfLocale>
             <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Lm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>¿Se me cobrará por un cobro fallido?</b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 No. Sólo cobramos nuestra tarifa de los cobros correctos.
               </p>
             </div>
@@ -170,8 +170,8 @@ export default class PricingEs extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Tm u-padding-Bxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-text-l u-color-heading u-text-light'>¿Tienes alguna pregunta?</h2>
-            <p className='u-color-p u-margin-Ts'>Habla con uno de nuestros expertos en cobros en <Message pointer='phone_local' /></p>
+            <h2 className='u-text-heading u-text-l u-color-dark-gray u-text-light'>¿Tienes alguna pregunta?</h2>
+            <p className='u-color-dark-gray u-margin-Ts'>Habla con uno de nuestros expertos en cobros en <Message pointer='phone_local' /></p>
             <IfLocale hasInstantSignup>
               <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>Registrate hoy</Href>
             </IfLocale>

@@ -27,7 +27,7 @@ export default class PricingFr extends React.Component {
                     </p>
                   </div>
                   <ul className='pricing-options__list'>
-                    <li className='pricing-options__list-item u-color-heading'>
+                    <li className='pricing-options__list-item u-color-dark-gray'>
                       <b>Pour les TPEs et PMEs souhaitant un accès rapide et simplifié</b>
                     </li>
                     <li className='pricing-options__list-item'>
@@ -64,7 +64,7 @@ export default class PricingFr extends React.Component {
                     </p>
                   </div>
                   <ul className='pricing-options__list'>
-                    <li className='pricing-options__list-item u-color-heading'>
+                    <li className='pricing-options__list-item u-color-dark-gray'>
                       <b>Pour les entreprises souhaitant un contrôle total et personalisé</b>
                     </li>
                     <li className='pricing-options__list-item'>
@@ -90,16 +90,16 @@ export default class PricingFr extends React.Component {
 
         <div className='site-container u-padding-Vm' id='scale-pricing-container'>
           <div className='site-container u-text-center u-padding-Vl'>
-              <h2 className='u-text-heading-light u-color-heading'>Nos tarifs</h2>
+              <h2 className='u-text-heading-light u-color-dark-gray'>Nos tarifs</h2>
           </div>
           <div className='grid u-size-4of5 u-center u-padding-Vm'>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Rm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>
                   Y a-t'il d'autres frais ?
                 </b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 Non, il n'y aucun autre frais que ceux indiqués ci-dessus.
                 Nous ne vous facturons jamais la création de mandats, ainsi que
                 les incidents de paiements : échecs, remboursements, annulations...
@@ -108,28 +108,28 @@ export default class PricingFr extends React.Component {
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Lm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>Offrez-vous des réductions ?</b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 Oui. Nos frais par transaction sont dégressifs à partir de 1.000 paiements par mois.
                 Pour en savoir plus,
                 &nbsp;<Link to='contact_sales' className='u-link-color-p u-text-underline'>contactez-nous</Link>
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Rm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>Y a-t'il des frais d'implémentation ?</b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 Non. Vous ne payez pas pour implémenter GoCardless.
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Lm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>Serai-je facturé si un paiement échoue ?</b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 Non. Nous ne facturons que les paiements réussis quel que soit le produit.
               </p>
             </div>
@@ -144,7 +144,7 @@ export default class PricingFr extends React.Component {
                 <PhoneIcon className='svg-icon__image u-fill-dark-gray' />
               </figure>
               <div className='u-center'>
-                <p className='u-color-p u-margin-Ts'>
+                <p className='u-color-dark-gray u-margin-Ts'>
                   Nous sommes disponible afin de répondre à vos questions au <Message pointer='phone_local' />
                 </p>
                 <IfLocale hasInstantSignup>

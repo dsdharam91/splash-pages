@@ -7,7 +7,7 @@ export default class FaqProDashboardMandateCreationFr extends React.Component {
   render() {
     return (
       <Translation locales='fr'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Création de mandat</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Création de mandat</h2>
         <p className='para'>
           Vous n'avez pas besoin d'ajouter vos clients vous-mêmes dans le tableau de bord. Ils apparaîtront
           automatiquement une fois qu'ils auront rempli notre page de mandat.

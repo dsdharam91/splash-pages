@@ -7,7 +7,7 @@ export default class FaqProDashboardPaymentRefundEn extends React.Component {
   render() {
     return (
       <Translation locales='en'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Payment refund</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Payment refund</h2>
         <p className='para'>
           From the <a href='https://manage.gocardless.com/payments'
           target='_blank' className='u-link-color-p u-text-underline'>payments section</a> of the dashboard, you can see a list of

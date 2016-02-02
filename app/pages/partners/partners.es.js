@@ -70,10 +70,10 @@ export default class PartnersEs extends React.Component {
         <div className='section-scroll-target' id='features'>
           <div className='site-container u-padding-Vxxl u-text-center'>
             <div className='u-padding-Vxl'>
-              <h2 className='u-text-heading u-color-heading u-text-light'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light'>
                 ¿Por qué ser nuestro asociado?
               </h2>
-              <p className='u-size-2of3 u-center u-color-p u-padding-Ts'>
+              <p className='u-size-2of3 u-center u-color-dark-gray u-padding-Ts'>
                 GoCardless permite beneficiarte de nuestras geniales tarifas y nuestra baja tasa de cobros fallidos en
                 Domiciliaciones Bancarias
                 sin las complicaciines asociadas a los bancos.
@@ -85,10 +85,10 @@ export default class PartnersEs extends React.Component {
                       <MembershipIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                       <MembershipIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Tm'>
+                    <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
                       Obten más usuarios
                     </h2>
-                    <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                    <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Atrae nuevos usuarios y convierte más pruebas gratuitas en clientes de pago.
                     </p>
                   </div>
@@ -97,10 +97,10 @@ export default class PartnersEs extends React.Component {
                       <TickIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                       <TickIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Tm'>
+                    <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
                       Reduce el abandono
                     </h2>
-                    <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                    <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Conserva a un mayor número de clientes, haciendoles más dependientes de tu producto.
                     </p>
                   </div>
@@ -109,10 +109,10 @@ export default class PartnersEs extends React.Component {
                       <ImproveCashflowIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                       <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Tm'>
+                    <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
                       Consigue nuevos ingresos
                     </h2>
-                    <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                    <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Traenos nuevos usuarios y ganarás una comisión de cada transacción realizada.
                     </p>
                   </div>
@@ -124,10 +124,10 @@ export default class PartnersEs extends React.Component {
                 <img src='/images/partners/partners-map@2x.jpg' />
               </div>
               <div className='grid__cell u-size-1of3 u-text-center partners-page__global-text'>
-                <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing'>
+                <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing'>
                   Alcance global
                 </h2>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Vxs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Vxs'>
                   Tus clientes podrán realizar cobros de un número cada vez mayor de países,
                   sin tener que hacer nada extra.
                 </p>
@@ -140,10 +140,10 @@ export default class PartnersEs extends React.Component {
           <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
             <div className='u-padding-Vxl'>
               <div className='u-size-2of3 u-center'>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                   Tus clientes sólamente pagan un <Message pointer='pricing.per_transaction_amount_normal' />
                 </h2>
-                <p className='u-text-xs u-color-p u-margin-Vxs'>
+                <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                   El registro es gratuito y no hay comisiones ocultas. Solo un 1% por transacción, con un máximo
                   de <Message pointer="pricing.cost_cap" />.
                 </p>
@@ -161,21 +161,21 @@ export default class PartnersEs extends React.Component {
         <div className='section-scroll-target' id='examples'>
           <div className='u-padding-Vxxl'>
             <div className='site-container u-padding-Vxl'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-center u-padding-Bxxl u-margin-Bxl'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-center u-padding-Bxxl u-margin-Bxl'>
                 Sectores que ya utilizan GoCardless
               </h2>
               <div className='grid__cell u-size-1of2 partners-page__accountancy-text'>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bl'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bl'>
                   Contabilidad
                 </h2>
-                <p className='u-text-xs u-color-p u-margin-Bm'>
+                <p className='u-text-xs u-color-dark-gray u-margin-Bm'>
                   KashFlow se integró con GoCardless para permitir a sus usuarios realizar cobros
                   rápida y fácilmente desde su propia cuenta de KashFlow.
                 </p>
                 <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
                   “Los usuarios de GoCardless se quedan más tiempo y obtenemos más ingresos de sus cuentas.”
                 </p>
-                <p className='u-text-xs u-margin-Bm u-color-p'>Duane Jackson, Fundador</p>
+                <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Duane Jackson, Fundador</p>
                 <img src='/images/partners/kashflow-logo@2x.png' className='partners-page__partner-logo' />
               </div>
               <div className='grid__cell u-size-1of2 partners-page__illustration'>
@@ -193,10 +193,10 @@ export default class PartnersEs extends React.Component {
               className='partners-page__browser-image'/>
             </div>
             <div className='grid__cell u-size-1of2 partners-page__clubs-text'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bl'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bl'>
                 Clubs &amp; Asociaciones
               </h2>
-              <p className='u-text-xs u-color-p u-margin-Bm'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Bm'>
                 TeamUp se asoció con GoCardless para ayudar a los gimnasios y clubs de todo el mundo a realizar
                 y administrar las suscripciones de sus miembros.
               </p>
@@ -204,7 +204,7 @@ export default class PartnersEs extends React.Component {
                 “A nuestros clientes les encanta lo fácil que resulta utilizar GoCardless, y eso nos ha ayudado a crecer
                 muchísimo en el Reino Unido y el resto de Europa.”
               </p>
-              <p className='u-text-xs u-margin-Bm u-color-p'>Matt Pegler, Co-Fundador</p>
+              <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Matt Pegler, Co-Fundador</p>
               <img src='/images/partners/teamup-logo@2x.png' className='partners-page__partner-logo' />
             </div>
           </div>
@@ -213,10 +213,10 @@ export default class PartnersEs extends React.Component {
         <div className='u-padding-Txxl'>
           <div className='site-container u-padding-Txl'>
             <div className='grid__cell u-size-1of2 partners-page__billing-text'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bl'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bl'>
                 Software de facturación
               </h2>
-              <p className='u-text-xs u-color-p u-margin-Bl'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Bl'>
                 Zuora eligió a GoCardless como su proveedor de Domiciliaciones Bancarias, permitiendo a sus clientes realizar cobros
                 desde cualquier parte del mundo.
               </p>
@@ -225,7 +225,7 @@ export default class PartnersEs extends React.Component {
                 Domiciliación Bancaria. La integración Zuora-GoCardless está ayudando a negocios de suscripción
                 a ofrecer una experiencia de gran calidad al pagar.”
               </p>
-              <p className='u-text-xs u-margin-Bm u-color-p'>Tamsyn Attiwell, VP Global Services EMEA</p>
+              <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Tamsyn Attiwell, VP Global Services EMEA</p>
               <img src='/images/partners/zuora-logo@2x.png' className='partners-page__partner-logo' />
             </div>
             <div className='grid__cell u-size-1of2 partners-page__illustration u-text-center'>
@@ -238,7 +238,7 @@ export default class PartnersEs extends React.Component {
         <div className='u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l  u-padding-Bxl'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l  u-padding-Bxl'>
                 Estarás en buena compañía
               </h2>
               <img src='/images/partners/partner-logos@2x.png' className='partners-page__partner-logo-group' />
@@ -248,7 +248,7 @@ export default class PartnersEs extends React.Component {
         <hr className='u-margin-An' />
         <div className='u-padding-Vxxl u-text-center u-background-light-gray'>
           <div className='site-container u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-light u-padding-Bxl'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-light u-padding-Bxl'>
               Más sectores que se pueden asociar con GoCardless
             </h2>
             <div className='grid integrations-grid'>
@@ -259,10 +259,10 @@ export default class PartnersEs extends React.Component {
                     <PropertyIcon className='svg-icon__image svg-icon__image--small svg-icon__image--shadow u-fill-green' />
                     <PropertyIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
+                  <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Ts'>
                     Administradores de Fincas
                   </h2>
-                  <p className='u-text-xs u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     Permite a tus administradores cobrar la cuota de la comunidad.
                   </p>
                 </div>
@@ -275,10 +275,10 @@ export default class PartnersEs extends React.Component {
                     <ManageSoftwareIcon className='svg-icon__image svg-icon__image--small svg-icon__image--shadow u-fill-blue' />
                     <ManageSoftwareIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
+                  <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Ts'>
                     Business Management
                   </h2>
-                  <p className='u-text-xs u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     Ayuda a tus clientes a crecer ofreciendoles pagos en tu producto.
                   </p>
                 </div>
@@ -291,10 +291,10 @@ export default class PartnersEs extends React.Component {
                     <CharityIcon className='svg-icon__image svg-icon__image--small svg-icon__image--shadow u-fill-yellow' />
                     <CharityIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
+                  <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Ts'>
                     Organizaciones Benéficas
                   </h2>
-                  <p className='u-text-xs u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     Permite cobrar donaciones a través de Domiciliación Bancaria.
                   </p>
                 </div>
@@ -307,10 +307,10 @@ export default class PartnersEs extends React.Component {
                     <BanksIcon className='svg-icon__image svg-icon__image--small svg-icon__image--shadow u-fill-yellow' />
                     <BanksIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
+                  <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Ts'>
                     Bancos &amp; Gestores
                   </h2>
-                  <p className='u-text-xs u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     Remitenos a tus clientes o usa nuestro servicio de marca blanca.
                   </p>
                 </div>
@@ -323,10 +323,10 @@ export default class PartnersEs extends React.Component {
                     <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small svg-icon__image--shadow u-fill-green' />
                     <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
+                  <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Ts'>
                     Prov. de Servicios de Pago
                   </h2>
-                  <p className='u-text-xs u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     Úsanos para ofrecer Domiciliaciones Bancarias en todo el mundo.
                   </p>
                 </div>
@@ -339,10 +339,10 @@ export default class PartnersEs extends React.Component {
                     <NewIndustryIcon className='svg-icon__image svg-icon__image--small svg-icon__image--shadow u-fill-blue' />
                     <NewIndustryIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Ts'>
+                  <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Ts'>
                     Y muchos más&hellip;
                   </h2>
-                  <p className='u-text-xs u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     GoCardless puede ayudar a muchos sectores en todo el mundo.
                   </p>
                 </div>
@@ -354,7 +354,7 @@ export default class PartnersEs extends React.Component {
         <div className='section-scroll-target' id='options'>
           <div className='u-padding-Vxxl u-text-center'>
             <div className='site-container u-padding-Vxl'>
-              <h2 className='u-text-heading u-color-heading u-text-light'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light'>
                 ¿Qué tipo de Asociado eres tu?
               </h2>
               <div className='grid integrations-grid u-padding-Txl'>
@@ -363,10 +363,10 @@ export default class PartnersEs extends React.Component {
                     <CustomerIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                     <CustomerIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Tm'>
+                  <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
                     Programa de afiliados
                   </h2>
-                  <p className='u-text-xs u-color-p u-size4of5 u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-size4of5 u-margin-Txs'>
                     Gana una comisión cuando nos remitas nuevos usuarios a Gocardless.
                   </p>
                 </div>
@@ -376,10 +376,10 @@ export default class PartnersEs extends React.Component {
                     <AddPartnerIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                     <AddPartnerIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Tm'>
+                  <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
                     Integración de la App
                   </h2>
-                  <p className='u-text-xs u-color-p u-size4of5 u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-size4of5 u-margin-Txs'>
                     Simplifica a tus clientes los cobros recurrentes.
                   </p>
                 </div>
@@ -389,10 +389,10 @@ export default class PartnersEs extends React.Component {
                     <WhiteLabelIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                     <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-text-m u-color-heading u-text-light u-text-no-smoothing u-margin-Tm'>
+                  <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
                     Asociado de Marca Blanca
                   </h2>
-                  <p className='u-text-xs u-color-p u-size4of5 u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-size4of5 u-margin-Txs'>
                     Toma control total de los cobros usando nuestra integración de marca blanca.
                   </p>
                 </div>
@@ -404,10 +404,10 @@ export default class PartnersEs extends React.Component {
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 Conviertete en nuestro asociado hoy
               </h2>
-              <p className='u-text-xs u-color-p u-margin-Vxs'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 Si crees que tu negocio puede beneficiarse de asociarse con GoCardless,
                 <br />por favor ponte en contacto con nosotros – estaremos encantados de ayudar.
               </p>
@@ -419,7 +419,7 @@ export default class PartnersEs extends React.Component {
               </Link>
             </div>
             <hr className='u-size-1of2 u-center u-margin-Vxxl' />
-            <p className='u-color-p'><strong>¿Quieres hablar con alguien primero?</strong><br />
+            <p className='u-color-dark-gray'><strong>¿Quieres hablar con alguien primero?</strong><br />
               Llama a nuestros expertos en cobros a &thinsp;
               <Message pointer='phone_local' /><br />
               Estamos disponibles de 9.00 - 18.00 Lunes a Viernes

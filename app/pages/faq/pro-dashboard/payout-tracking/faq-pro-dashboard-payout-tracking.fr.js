@@ -8,7 +8,7 @@ export default class FaqProDashboardPayoutTrackingFr extends React.Component {
   render() {
     return (
        <Translation locales='fr'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Suivi de vos encaissements</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Suivi de vos encaissements</h2>
         <p className='para'>
           GoCardless versera les fonds collectés automatiquement chaque jour ouvré. Il n’y a pas de palier minimal ni de réserve.
           Nos <Link to='pricing' className='u-link-color-p u-text-underline'>frais</Link> sont automatiquement déduits de ce reversement.

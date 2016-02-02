@@ -8,7 +8,7 @@ export default class LegalPrivacyEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Política de Privacidad</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Política de Privacidad</h2>
         <div className='well u-margin-Tm'>
           <p className='para'>
             <strong>Last Updated:</strong> 30th November 2012
@@ -39,7 +39,7 @@ export default class LegalPrivacyEs extends React.Component {
           are parties to agreements with us which may change some of their rights.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What this privacy policy covers
         </h3>
         <p className='para'>
@@ -47,7 +47,7 @@ export default class LegalPrivacyEs extends React.Component {
           our website visitors and customers.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What is personal information?
         </h3>
         <p className='para'>
@@ -55,7 +55,7 @@ export default class LegalPrivacyEs extends React.Component {
           individual, such as their title, name, address, email address and phone number.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Information collection and use
         </h3>
         <p className='para'>
@@ -123,7 +123,7 @@ export default class LegalPrivacyEs extends React.Component {
           express permission.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Information collection and use
         </h3>
         <p className='para'>
@@ -141,7 +141,7 @@ export default class LegalPrivacyEs extends React.Component {
           to ask any questions or request the correction, restriction or deletion of your personal information.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Cookies
         </h3>
         <p className='para'>

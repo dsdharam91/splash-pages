@@ -7,7 +7,7 @@ export default class CustomerSupport extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Customer Support</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Customer Support</h3>
         <p className='para'>
           Go the extra mile to delight our customers.
         </p>

@@ -7,9 +7,9 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
   render() {
     return (
       <Translation locales='en'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Customer Experience</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Customer Experience</h2>
         <Translation locales='en-GB'>
-          <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Can I fill in the payment pages on my customer's behalf?
           </h3>
           <p className='para'>
@@ -19,7 +19,7 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
             pages be pre-populated?* below for further details.
           </p>
 
-          <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Will my name appear on my customer's bank statement?
           </h3>
           <p className='para'>
@@ -33,7 +33,7 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
           </p>
         </Translation>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How can my customer pay me?
         </h3>
         <p className='para'>
@@ -41,7 +41,7 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
           do so by phone or paper.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can I host the payment pages on my site?
         </h3>
         <p className='para'>
@@ -54,7 +54,7 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
           With GoCardless Pro, you can host the payment pages on your own site so will not need to redirect customers.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Do you offer iFrames?
         </h3>
         <p className='para'>
@@ -62,7 +62,7 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
           lets you avoid having any bank data on your server.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can payments be made directly via the API?
         </h3>
         <p className='para'>
@@ -77,7 +77,7 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
           Once authorisation is in place payment can be requested via the API.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can information on the sign-up and payment pages be pre-populated?
         </h3>
         <p className='para'>
@@ -88,7 +88,7 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
           The only information we cannot pre-populate are their bank details.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can customers pay from their mobile?
         </h3>
         <p className='para'>

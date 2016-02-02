@@ -7,7 +7,7 @@ export default class SoftwareEngineer extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Backend Software Engineer</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Backend Software Engineer</h3>
         <p className='para'>
           We're looking for backend software engineers to join our growing team.
         </p>

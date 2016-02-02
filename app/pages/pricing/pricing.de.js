@@ -35,7 +35,7 @@ export default class PricingDe extends React.Component {
                     </p>
                   </div>
                   <ul className='pricing-options__list'>
-                    <li className='pricing-options__list-item u-color-heading'>
+                    <li className='pricing-options__list-item u-color-dark-gray'>
                       <b>Für kleine und mittelständische Unternehmen</b>
                     </li>
                     <li className='pricing-options__list-item'>
@@ -73,7 +73,7 @@ export default class PricingDe extends React.Component {
                   </p>
                 </div>
                 <ul className='pricing-options__list'>
-                  <li className='pricing-options__list-item u-color-heading'>
+                  <li className='pricing-options__list-item u-color-dark-gray'>
                     <b>Für Unternehmen, die volle Kontrolle suchen</b>
                   </li>
                   <li className='pricing-options__list-item'>
@@ -96,16 +96,16 @@ export default class PricingDe extends React.Component {
 
         <div className='site-container u-padding-Vm' id='scale-pricing-container'>
           <div className='site-container u-text-center u-padding-Vl'>
-              <h2 className='u-text-heading-light u-color-heading'>Über unsere Preise</h2>
+              <h2 className='u-text-heading-light u-color-dark-gray'>Über unsere Preise</h2>
           </div>
           <div className='grid u-size-4of5 u-center u-padding-Vm'>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Rm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>
                   Gibt es wirklich keine weiteren Gebühren?
                 </b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 Richtig, wir berechnen Ihnen nur die Gebühren, die in der obigen Tabelle aufgelistet sind.
                 Wir berechnen niemals Gebühren für Rückerstattungen oder fehlgeschlagene Zahlungen.
                 Mit GoCardless zahlen Sie jederzeit nur <Message pointer='pricing.per_transaction_amount_normal' /> des
@@ -115,27 +115,27 @@ export default class PricingDe extends React.Component {
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Lm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>Bieten Sie Preisnachlässe für große Volumen?</b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 Ja, die Gebühr pro Zahlung verringert sich ab 1000 Zahlungen im Monat.
                 Um mehr darüber zu erfahren, kontaktieren Sie uns
                 bitte <Link to='contact_sales' className='u-link-color-p u-text-underline'>hier</Link>.
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Rm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>Muss ich für die Implementierung zahlen?</b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 Nein, die Nutzung unserer API für eine Implementierung mit Ihren Systemen ist kostenfrei.</p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Lm'>
-              <div className='u-color-heading'>
+              <div className='u-color-dark-gray'>
                 <b>Fallen Gebühren für gescheiterte Zahlungen an?</b>
               </div>
-              <p className='u-color-p'>
+              <p className='u-color-dark-gray'>
                 Nein, wir erheben Gebühren ausschließlich für erfolgreiche Zahlungen.
               </p>
             </div>
@@ -144,8 +144,8 @@ export default class PricingDe extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Tm u-padding-Bxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-text-l u-color-heading u-text-light'>Haben Sie Fragen?</h2>
-            <p className='u-color-p u-margin-Ts'>Sprechen Sie mit einem unserer Zahlungsexperten: <Message pointer='phone_local' /></p>
+            <h2 className='u-text-heading u-text-l u-color-dark-gray u-text-light'>Haben Sie Fragen?</h2>
+            <p className='u-color-dark-gray u-margin-Ts'>Sprechen Sie mit einem unserer Zahlungsexperten: <Message pointer='phone_local' /></p>
             <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Kontakt</Link>
           </div>
         </div>

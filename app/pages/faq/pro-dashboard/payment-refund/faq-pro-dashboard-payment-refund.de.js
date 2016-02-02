@@ -7,7 +7,7 @@ export default class FaqProDashboardPaymentRefundDe extends React.Component {
   render() {
     return (
       <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>So erstatten Sie Zahlungen zurück</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>So erstatten Sie Zahlungen zurück</h2>
         <p className='para'>
           Sie haben die Möglichkeit, Zahlungen vollständig oder teilweise zurückzuerstatten.
         </p>

@@ -7,7 +7,7 @@ export default class LegalRestrictionsDe extends React.Component {
   render() {
     return (
       <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Verbotene Aktivitäten</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Verbotene Aktivitäten</h2>
         <p className='para'>
           Dies ist die aktuelle Liste verbotener Aktivitäten, für die Sie den
           GoCardless-Dienst nicht benutzen dürfen. Diese Liste wurde zuletzt im Mai 2015 aktualisiert.

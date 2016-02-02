@@ -9,7 +9,7 @@ export default class AccountManagerGermany extends React.Component {
     return (
       <JobsPage>
         <Translation locales='de'>
-          <h3 className='u-text-heading-light u-text-m u-color-heading'>Account Manager Deutschland </h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Account Manager Deutschland </h3>
           <p className='para'>
             Ausfindigmachen und Aufbauen neuer Geschäftsbeziehungen innerhalb Deutschlands sowie Unterstützen
             unserer Kunden beim Vereinfachen des Zahlungseinzugs.
@@ -97,7 +97,7 @@ export default class AccountManagerGermany extends React.Component {
         </Translation>
 
         <Translation locales='en'>
-          <h3 className='u-text-heading-light u-text-m u-color-heading'>Account Manager: Germany </h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Account Manager: Germany </h3>
           <p className='para'>
             Find and close new business across Germany and help our customers make recurring payments simple.
           </p>

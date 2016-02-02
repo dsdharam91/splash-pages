@@ -8,7 +8,7 @@ export default class AboutNl extends React.Component {
     return (
       <Translation locales='nl'>
         <div className='site-container u-padding-Vxxl'>
-          <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-padding-Txl'>
+          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-padding-Txl'>
             Over GoCardless
           </h2>
           <div className='grid'>
@@ -42,7 +42,7 @@ export default class AboutNl extends React.Component {
             <div className='grid__cell u-size-1of3'>
               <div className='u-margin-Txxl'>
                 <img src='/images/press/publications-stacked.jpg' />
-                <p className='u-text-xs u-color-p u-margin-Txxl'>
+                <p className='u-text-xs u-color-dark-gray u-margin-Txxl'>
                   Voor pers vragen, gelieve <a href='mailto:press@gocardless.com'>het GoCardless PR team</a> te contacteren,
                   of bekijk ons uitgebreid <a href='https://www.dropbox.com/sh/sat8xsjntbf5mnh/AACn116IKyIWrNG7c8FnY0cYa?dl=0'>
                     pers dossier

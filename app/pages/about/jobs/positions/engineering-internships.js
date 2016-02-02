@@ -7,7 +7,7 @@ export default class EngineeringInterships extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Engineering Internships</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Engineering Internships</h3>
         <p className='para'>
           We’re looking for talented, motivated undergrads who want to work on real
           problems with a world-class team.

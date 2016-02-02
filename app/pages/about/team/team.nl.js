@@ -11,12 +11,12 @@ export default class TeamNl extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='grid u-padding-Txl'>
             <div className='grid__cell u-size-1of3'>
-              <h2 className='u-text-heading-light u-text-m u-color-meta u-margin-Bm'>
+              <h2 className='u-text-heading-light u-text-m u-color-dark-gray u-margin-Bm'>
                 We zijn een klein team dat een nieuw betalingsnetwerk voor het internet bouwt.
               </h2>
             </div>
             <div className='grid__cell u-size-2of3'>
-              <span className='u-text-heavy u-color-heading'>GoCardless is: </span><span className='u-color-p'>
+              <span className='u-text-heavy u-color-dark-gray'>GoCardless is: </span><span className='u-color-dark-gray'>
                 {team.join(', ')}
               .</span>
             </div>
