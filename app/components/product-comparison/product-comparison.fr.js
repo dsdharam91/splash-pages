@@ -1,6 +1,7 @@
 import React from 'react';
 import XIcon from '../../icons/svg/x';
 import CheckMarkIcon from '../../icons/svg/checkmark';
+import Message from '../../components/message/message';
 import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import IfLinkExists from '../../components/if-link-exists/if-link-exists';
@@ -130,7 +131,7 @@ export default class ProductComparisonFr extends React.Component {
                 <tr className='comparison-table__row'>
                   <td className='comparison-table__cell u-text-end'>Abonnement mensuel</td>
                   <td className='comparison-table__cell'>0€</td>
-                  <td className='comparison-table__cell'>250€</td>
+                  <td className='comparison-table__cell'><Message pointer='pricing.pro_monthly_fee' /></td>
                 </tr>
                 <tr className='comparison-table__row'>
                   <td className='comparison-table__cell u-text-end'>Frais par transaction</td>
