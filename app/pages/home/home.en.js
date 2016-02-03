@@ -28,7 +28,7 @@ export default class HomeEn extends React.Component {
             <div className='grid u-margin-Tl u-padding-Tm'>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <AutomatedyellowIcon className='svg-icon__image' />
+                  <AutomatedYellowIcon className='svg-icon__image' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Fully automated
