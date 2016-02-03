@@ -71,9 +71,9 @@ export default class HomeEs extends React.Component {
           <h2 className='u-text-l u-text-heading u-colo-heading u-text-light u-margin-Tl'>
             ¿Qué deseas hacer?
           </h2>
-          <div className='product-grid grid u-margin-Vxxl'>
+          <div className='spotlight-grid grid u-margin-Vxxl'>
             <Link to='features' id='track-cta-features' className='u-link-clean u-text-center grid__cell u-size-1of3'>
-              <div className='product-grid__container u-padding-Vl'>
+              <div className='spotlight-grid__container u-padding-Vl'>
                 <figure className='svg-icon u-center'>
                   <ShopIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <ShopIcon className='svg-icon__image u-fill-dark-gray' />
@@ -82,10 +82,10 @@ export default class HomeEs extends React.Component {
                   Realizar cobros<br />con total sencillez
                 </p>
               </div>
-              <div className='product-grid__btn btn u-size-full'>Descubre GoCardless</div>
+              <div className='spotlight-grid__btn btn u-size-full'>Descubre GoCardless</div>
             </Link>
             <Link to='pro' id='track-cta-pro' className='u-link-clean u-text-center grid__cell u-size-1of3'>
-              <div className='product-grid__container u-padding-Vl'>
+              <div className='spotlight-grid__container u-padding-Vl'>
                 <figure className='svg-icon u-center'>
                   <ProIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <ProIcon className='svg-icon__image u-fill-dark-gray' />
@@ -94,10 +94,10 @@ export default class HomeEs extends React.Component {
                   Tener el control total de tus<br />Domiciliaciones Bancarias
                 </p>
               </div>
-              <div className='product-grid__btn btn u-size-full'>Descubre GoCardless Pro</div>
+              <div className='spotlight-grid__btn btn u-size-full'>Descubre GoCardless Pro</div>
             </Link>
             <Link to='partners' id='track-cta-partners' className='u-link-clean u-text-center grid__cell u-size-1of3'>
-              <div className='product-grid__container u-padding-Vl'>
+              <div className='spotlight-grid__container u-padding-Vl'>
                 <figure className='svg-icon u-center'>
                   <IntegrationsIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
@@ -106,7 +106,7 @@ export default class HomeEs extends React.Component {
                   Ayudar a tus clientes<br />a realizar sus cobros
                 </p>
               </div>
-              <div className='product-grid__btn btn u-size-full'>Descubre a nuestros Asociados</div>
+              <div className='spotlight-grid__btn btn u-size-full'>Descubre a nuestros Asociados</div>
             </Link>
           </div>
         </div>

@@ -77,7 +77,7 @@ export default class EasierDirectDebit extends React.Component {
               GoCardless powers online Direct Debit for over <Message pointer='number_of_merchants' /> businesses
             </h2>
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
-              <div className='product-grid__container u-text-center u-padding-Vl'>
+              <div className='spotlight-grid__container u-text-center u-padding-Vl'>
                 <i role='img' className='greater-anglia-logo stories-item__logo--greater-anglia'></i>
                 <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
                   "Switching to GoCardless has saved us time and money. GoCardless have taken all of the pain out of setting up and
@@ -86,7 +86,7 @@ export default class EasierDirectDebit extends React.Component {
               </div>
             </div>
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
-              <div className='product-grid__container u-text-center u-padding-Vl'>
+              <div className='spotlight-grid__container u-text-center u-padding-Vl'>
                 <i role='img' className='funding-circle-logo stories-item__logo--funding-circle'></i>
                 <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
                   "GoCardless is one of the best payments companies we've worked with. I'd highly recommend them to any company

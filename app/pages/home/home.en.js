@@ -5,19 +5,12 @@ import Link from '../../components/link/link';
 import Href from '../../components/href/href';
 import Message from '../../components/message/message';
 
-import AutomatedyellowIcon from '../../icons/svg/automated-yellow';
+import AutomatedYellowIcon from '../../icons/svg/automated-yellow';
 import SaveMoneyGreenIcon from '../../icons/svg/save-money-green';
 import LocationGreenIcon from '../../icons/svg/location-green';
 import CustomersRedIcon from '../../icons/svg/customers-red';
 import SmallBusinessYellowIcon from '../../icons/svg/small-business-yellow';
 import EnterpriseGreenIcon from '../../icons/svg/enterprise-green';
-import CheckListIcon from '../../icons/svg/checklist';
-import MoneyFlowerIcon from '../../icons/svg/money-flower';
-import TickSquareIcon from '../../icons/svg/tick-square';
-import ProIcon from '../../icons/svg/pro';
-import ShopIcon from '../../icons/svg/shop';
-import IntegrationsIcon from '../../icons/svg/integrations';
-import UsersIcon from '../../icons/svg/users';
 
 export default class HomeEn extends React.Component {
   displayName = 'HomeEn'
@@ -35,7 +28,7 @@ export default class HomeEn extends React.Component {
             <div className='grid u-margin-Tl u-padding-Tm'>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <AutomatedyellowIcon className='svg-icon__image' />
+                  <AutomatedYellowIcon className='svg-icon__image' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Fully automated
@@ -123,13 +116,15 @@ export default class HomeEn extends React.Component {
           </div>
         </div>
 
-        <div className='site-container quote u-text-center'>
-          <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm'>
-            "GoCardless is one of the best payments companies we've worked with.
-            I'd highly recommend them to any company that cares about a providing good user experience
-            and using the best technology for their Direct Debit."
-          </p>
-          <img src='images/logos/funding-circle-logo-white.png' className='u-block u-center u-size-1of4' />
+        <div className='site-container'>
+          <div className='quote u-text-center'>
+            <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm'>
+              "GoCardless is one of the best payments companies we've worked with.
+              I'd highly recommend them to any company that cares about a providing good user experience
+              and using the best technology for their Direct Debit."
+            </p>
+            <img src='images/logos/funding-circle-logo-white.png' className='u-block u-center u-size-1of4' />
+          </div>
         </div>
 
         <Translation locales={['en-GB','en-IE']}>
@@ -202,7 +197,7 @@ export default class HomeEn extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                Simple, transparent pricing for everyone
+                Sign up in minutes, take payments today
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 No set up costs, no hidden charges, no commitments

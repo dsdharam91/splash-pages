@@ -81,9 +81,9 @@ export default class HomeFr extends React.Component {
           <h2 className='u-text-l u-text-heading u-colo-heading u-text-light u-margin-Tl'>
             Que désirez-vous faire?
           </h2>
-          <div className='product-grid grid u-margin-Vxxl'>
+          <div className='spotlight-grid grid u-margin-Vxxl'>
             <Link to='features' id='track-cta-features' className='u-link-clean u-text-center grid__cell u-size-1of3'>
-              <div className='product-grid__container u-padding-Vl'>
+              <div className='spotlight-grid__container u-padding-Vl'>
                 <figure className='svg-icon u-center'>
                   <ShopIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <ShopIcon className='svg-icon__image u-fill-dark-gray' />
@@ -92,10 +92,10 @@ export default class HomeFr extends React.Component {
                   Prendre des paiements<br />en toute simplicité
                 </p>
               </div>
-              <div className='product-grid__btn btn u-size-full'>Découvrez GoCardless</div>
+              <div className='spotlight-grid__btn btn u-size-full'>Découvrez GoCardless</div>
             </Link>
             <Link to='pro' id='track-cta-pro' className='u-link-clean u-text-center grid__cell u-size-1of3'>
-              <div className='product-grid__container u-padding-Vl'>
+              <div className='spotlight-grid__container u-padding-Vl'>
                 <figure className='svg-icon u-center'>
                   <ProIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <ProIcon className='svg-icon__image u-fill-dark-gray' />
@@ -104,10 +104,10 @@ export default class HomeFr extends React.Component {
                   Avoir le contrôle total<br />de vos prélèvements
                 </p>
               </div>
-              <div className='product-grid__btn btn u-size-full'>Découvrez GoCardless Pro</div>
+              <div className='spotlight-grid__btn btn u-size-full'>Découvrez GoCardless Pro</div>
             </Link>
             <Link to='partners' id='track-cta-partners' className='u-link-clean u-text-center grid__cell u-size-1of3'>
-              <div className='product-grid__container u-padding-Vl'>
+              <div className='spotlight-grid__container u-padding-Vl'>
                 <figure className='svg-icon u-center'>
                   <IntegrationsIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
@@ -116,7 +116,7 @@ export default class HomeFr extends React.Component {
                   Aider vos clients<br />à prendre des paiements
                 </p>
               </div>
-              <div className='product-grid__btn btn u-size-full'>Découvrez nos partenaires</div>
+              <div className='spotlight-grid__btn btn u-size-full'>Découvrez nos partenaires</div>
             </Link>
           </div>
         </div>
@@ -130,7 +130,7 @@ export default class HomeFr extends React.Component {
             <a href={'http://www.lefigaro.fr/societes/2015/04/12/20005-20150412ARTFIG00171' +
               '-gocardless-pret-a-bousculer-les-banques-francaises.php'}
               target='_blank' className='grid__cell u-size-1of3 u-link-clean u-padding-Rxs u-padding-Bm'>
-              <div className='product-grid__container u-text-center u-padding-Vl'>
+              <div className='spotlight-grid__container u-text-center u-padding-Vl'>
                 <i role='img' aria-label='Le Figaro' className='lefigaro-logo stories-item__logo--lefigaro' />
                 <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
                   'Avec le prélèvement, GoCardless contourne les aléas liés au paiement par carte bancaire,
@@ -142,7 +142,7 @@ export default class HomeFr extends React.Component {
             <a href={'http://www.lesechos.fr/finance-marches/banque-assurances/0213743712' +
               '-le-prelevement-bancaire-seduit-de-nouveaux-acteurs-1110875.php'}
               target='_blank' className='grid__cell u-size-1of3 u-link-clean u-padding-Bm'>
-              <div className='product-grid__container u-text-center u-padding-Vl'>
+              <div className='spotlight-grid__container u-text-center u-padding-Vl'>
                 <i role='img' aria-label='Les Echos' className='lesechos-logo stories-item__logo--lesechos' />
                 <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
                   'Mettre en place un prélèvement était jusqu’ici complexe car cela imposait des processus
@@ -154,7 +154,7 @@ export default class HomeFr extends React.Component {
             <a href={'http://www.latribune.fr/entreprises-finance/banques-finance/' +
               'gocardless-ou-quand-la-fintech-londonienne-debarque-en-france-469023.html'}
               target='_blank' className='grid__cell u-size-1of3 u-link-clean u-padding-Rxs'>
-              <div className='product-grid__container u-text-center u-padding-Vl'>
+              <div className='spotlight-grid__container u-text-center u-padding-Vl'>
                 <i role='img' aria-label='La Tribune' className='latribune-logo stories-item__logo--latribune' />
                 <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
                   'Les grandes entreprises n'ont pas plus envie que les startups de devenir des spécialistes des paiements,
