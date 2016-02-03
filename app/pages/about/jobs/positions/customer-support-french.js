@@ -9,48 +9,48 @@ export default class CustomerSupportFrench extends React.Component {
     return (
       <JobsPage>
         <Translation locales='fr'>
-          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Support client</h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Support client - France</h3>
           <p className='para'>
-            Tout faire pour ravir nos clients.
+            Tout faire pour que nos clients soient ravis.
           </p>
           <p className='para'>
-            GoCardless est en croissance rapide. Nous avons bâti un produit
-            qui permet aux petites et moyennes entreprises de prendre des paiements
-            récurrents facilement, et aux startups et grands groupes d'automatiser
-            leurs paiements d'une manière qui ne leur avait jamais été possible
-            jusqu'ici.
+            GoCardless est en croissance rapide. Nous avons construit un produit qui permet
+            aux TPE et PME de prendre des paiements récurrents facilement, et aux startups
+            et grands groupes d'automatiser leurs paiements d'une manière qui ne leur avait
+            jamais été possible jusqu'ici.
           </p>
           <p className='para'>
-            A la suite de notre création en Grande Bretagne puis notre lancement en France
-            début 2015 - couvert par <a href='http://www.lefigaro.fr/societes/2015/04/12/20005-20150412ARTFIG00171-gocardless-pret-a-bousculer-les-banques-francaises.php' target='_blank'>
+            Suite à notre lancement en France début 2015 - couvert
+            par <a href='http://www.lefigaro.fr/societes/2015/04/12/20005-20150412ARTFIG00171-gocardless-pret-a-bousculer-les-banques-francaises.php' target='_blank'>
             Le Figaro</a> et <a href='http://www.lesechos.fr/13/04/2015/lesechos.fr/0213743712_le-prelevement-bancaire-seduit-de-nouveaux-acteurs.htm' target='_blank'>
-            Les Echos</a> - nous grandissons rapidement en France, où nous
-            servons des centaines d'entreprises comme Habitat, Mangopay et Zenchef.
+            Les Echos</a> - notre croissance s’accélère en France, où nous avons pour clients
+            des centaines d'entreprises comme Habitat, Mangopay et Zenchef.
           </p>
           <p className='para'>
-            Nous recherchons une personne enthousiaste, aimant résoudre des
-            problèmes élégamment pour rejoindre notre équipe, proposer un
-            service client exceptionnel et contribuer à notre croissance française.
+            Nous recherchons une personne enthousiaste et ingénieuse afin de rejoindre
+            notre équipe, offrir un service client exceptionnel et contribuer à notre
+            croissance française.
           </p>
           <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Le rôle</h4>
           <p className='para'>
             Chaque jour vous serez à l'écoute de nos clients, répondant à leurs
-            questions et les rassurant que leurs paiements sont entre de bonnes mains,
-            pour qu'ils puissent se concentrer sur le plus important : leur entreprise.
+            questions et les rassurant que leurs paiements sont entre de bonnes
+            mains, pour qu'ils puissent se concentrer sur le plus important : leur
+            entreprise.
+
           </p>
           <p className='para'>
-            Nous vous aiderons à devenir un expert dans la complexité de notre produit
-            et à apprendre les multiples façons de l'utiliser. Vous adapterez
-            votre approche et le degré d'information que vous donnez à ce que
-            votre interlocuteur a vraiment besoin de savoir. Vous serez responsabilisés
-            pour véritablement répondre à leurs demandes jusqu'à leur entière
-            satisfaction. Vous rejoindrez l'ambiance très amicale de notre équipe
-            et travaillerez ensemble pour trouver des solutions créatives aux
-            problèmes les plus complexes. Nous souhaitons que chaque client
-            reparte entièrement satisfait.
+            Nous vous aiderons à devenir un expert de notre produit et à apprendre
+            les multiples façons de l'utiliser. Vous adapterez votre approche et le
+            degré d'information que vous donnez à ce que votre interlocuteur a
+            vraiment besoin de savoir. Vous serez tenu de répondre à leurs demandes
+            jusqu'à ce que le client soit ravi. Vous rejoindrez une équipe à
+            l'ambiance conviviale et vous vous entraiderez afin de trouver des
+            solutions créatives aux problèmes les plus complexes. Nous souhaitons
+            que chaque client vous quitte en étant pleinement satisfait.
           </p>
           <p className='para'>
-            Une journée typique inclue :
+            Une journée type est composée des activités suivantes :
           </p>
           <ul className='list u-margin-Tm'>
             <li>
@@ -64,7 +64,7 @@ export default class CustomerSupportFrench extends React.Component {
               Vérifier les nouveaux comptes utilisateurs.
             </li>
             <li>
-              Parler aux nouveaux clients pour les aider à tirer le plus de
+              Parler aux nouveaux clients pour les aider à accomplir le plus avec
               notre produit.
             </li>
             <li>
@@ -74,48 +74,47 @@ export default class CustomerSupportFrench extends React.Component {
           </ul>
           <p className='para'>
             Vous serez également impliqués dans l'amélioration de nos processus et
-            nos outils internes de support. Nous croyons que la technologie doit
-            nous rendre plus efficaces, c'est pourquoi un grand nombre de nos outils
-            sont développés en interne et régulièrement mis à jour. Comme notre
-            produit évolue rapidement et que de nouvelles fonctionnalités sont
-            régulièrement ajoutées, notre interface d'administration est aussi
-            mise à jour en permanence. Nous optimisons nos algorithmes de détection
-            de fraude au fur et à mesure de notre croissance. Nous créons
-            de nouveaux processus pour nous aider à en faire plus, comme par
-            exemple de nouveaux emails pour les demandes les plus fréquentes.
+            nos outils internes de support. Nous pensons que la technologie doit
+            nous rendre plus efficaces, c'est pourquoi un grand nombre de nos
+            outils sont développés en interne et régulièrement mis à jour. Comme
+            notre produit évolue rapidement et que de nouvelles fonctionnalités sont
+            régulièrement ajoutées, notre interface d'administration est aussi mise
+            à jour en permanence. Nous optimisons nos algorithmes de détection de
+            fraude au fur et à mesure de notre croissance. Nous créons de nouveaux
+            processus pour nous aider à en faire plus, comme par exemple de nouveaux
+            emails pour les demandes les plus fréquentes.
           </p>
           <p className='para'>
-            Nous prenons l'expérience de nos clients particulièrement à coeur et
-            nous agissons toujours avec leurs intérêts en tête : nous assumons
-            la responsabilité de leurs problèmes et nous savons que nous pourrons
-            toujours faire quelque chose, quel que soit le temps requis. Vous
-            serez la personne qui connaît le mieux nos clients, et pourrez
-            apporter cette connaissance au reste de l'entreprise - que ce soit en
-            travaillant avec l'équipe ingénieurs pour régler un bug, ou assister
-            notre équipe commerciale à comprendre ce que nos clients adorent.
+            Nous prenons l'expérience de nos clients particulièrement à coeur et nous
+            agissons toujours avec leurs intérêts en tête : nous assumons la
+            responsabilité de leurs problèmes et nous savons que nous pourrons
+            toujours faire quelque chose, quel que soit le temps requis. Vous serez
+            la personne qui connaît le mieux nos clients, et pourrez apporter cette
+            connaissance au reste de l'entreprise - que ce soit en travaillant avec
+            l'équipe ingénieurs pour régler un bug, ou assister notre équipe commerciale
+            à comprendre ce que nos clients adorent.
           </p>
           <p className='para'>
-            Nous avons bâti une culture amicale et de collaboration, où nous
-            embauchons et développons les compétences de personnes motivées qui
-            partagent notre désir de produire quelque chose dont nous puissions
-            être fiers. Nous valorisons l'apprentissage et le feedback, et nous
-            encourageons et supportons les uns les autres au cours de notre
-            développement professionnel.
+            Nous avons bâti une culture amicale et de collaboration, où nous embauchons
+            et développons les compétences de personnes motivées qui partagent notre
+            désir de produire quelque chose dont nous puissions être fiers. Nous
+            valorisons l'apprentissage et le feedback, et nous encourageons et supportons
+            les uns les autres au cours de notre développement professionnel.
           </p>
           <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Le/la candidat(e) idéal(e)</h4>
           <ul className='list u-margin-Tm'>
             <li>
-              Vous adorez aider les gens, et êtes intéressés par la technologie.
+              Vous adorez aider les gens, et êtes passionné(e) par la technologie.
             </li>
             <li>
               Vous apprenez rapidement, êtes capable de digérer des informations
               complexes et de les distiller en des réponses claires.
             </li>
             <li>
-              Vous êtes organisés, efficaces et attentifs aux détails.
+              Vous êtes organisé(e)s, efficaces et attentifs aux détails.
             </li>
             <li>
-              Vous vous épanouissez dans de petites équipes et aimez collaborer.
+              Vous vous épanouissez dans de petites équipes et aimez aider les autres.
             </li>
             <li>
               Le français est votre langue natale et vous maîtrisez parfaitement le
@@ -123,10 +122,10 @@ export default class CustomerSupportFrench extends React.Component {
             </li>
           </ul>
           <p className='para'>
-           Ce rôle conviendrait idéalement à un/une jeune diplômé(e) avec une
-           expérience de contact client dans un environment qui change rapidement.
-           Notre équipe vient toutefois d'une grande variété de parcours et nous
-           favorisons la diversité &ndash; si vous n'êtes pas sûr(e), postulez.
+            Ce rôle conviendrait idéalement à un/une jeune diplômé(e) avec une expérience
+            de contact client dans un environnement qui change rapidement. Notre équipe
+            vient toutefois d'une grande variété de parcours et nous favorisons la
+            diversité &ndash; si vous n'êtes pas sûr(e), postulez.
           </p>
           <p className='para'>
             Le rôle sera basé à Londres.
