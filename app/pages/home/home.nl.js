@@ -18,7 +18,7 @@ export default class HomeNl extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
-                Ons globaal betalingsnetwerk heeft reeds meer dan 1 miljard Euro verwerkt
+                Ons wereldwijde betalingsnetwerk heeft meer dan 1 miljard euro verwerkt
               </h2>
             </div>
             <div className='grid u-margin-Tl u-padding-Tm'>
@@ -31,7 +31,7 @@ export default class HomeNl extends React.Component {
                   Volledig geautomatiseerd
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Bespaar tijd, vermijd menselijke fouten en voorkom niet-succesvolle betalingen
+                  Tijd is kostbaar. Maak je niet meer druk over betalingen. Met GoCardless gaat alles volledig automatisch.
                 </p>
               </div>
 
@@ -41,14 +41,14 @@ export default class HomeNl extends React.Component {
                   <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Eurozone &amp; Verenigd Koninkrijk
+                  Eurozone, UK &amp; Zweden
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   <Translation locales='nl-NL'>
-                    Accepteer Nederlandse en internationale incasso. We ondersteunen reeds SEPA (Eurozone), BACS (Verenigd Koninkrijk) en Autogiro (Zweden)
+                    Incasseer betalingen uit Nederland en de rest van Europa. GoCardless ondersteunt SEPA (Eurozone), BACS (Verenigd Koninkrijk) en Autogiro (Zweden)
                   </Translation>
                   <Translation locales='nl-BE'>
-                    Accepteer Belgische en internationale domiciliëringen. We ondersteunen reeds SEPA (Eurozone), BACS (Verenigd Koninkrijk) en Autogiro (Zweden)
+                    Incasseer betalingen uit België en de rest van Europa. GoCardless ondersteunt SEPA (Eurozone), BACS (Verenigd Koninkrijk) en Autogiro (Zweden)
                   </Translation>
                 </p>
               </div>
@@ -59,10 +59,10 @@ export default class HomeNl extends React.Component {
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  12,000+ bedrijven
+                  13.000 bedrijven
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  We verwerken betalingen in het Verenigd Koninkrijk en Europa
+                  Van sportschool tot uitgeverij: dankzij GoCardless ontvangen meer dan 13.000 bedrijven hun geld snel en op tijd via automatische incasso
                 </p>
               </div>
             </div>
@@ -73,7 +73,7 @@ export default class HomeNl extends React.Component {
           <div className='site-container u-padding-Txl'>
             <div className='u-size-1of2 u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                U bent in goed gezelschap
+                Je bent in goed gezelschap
               </h2>
             </div>
             <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
@@ -86,10 +86,10 @@ export default class HomeNl extends React.Component {
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                Eenvoudige, transparante tarieven voor iedereen
+                Transparante tarieven voor iedereen
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-                Voordelige tarieven voor iedereen, van éénmanszaken tot grote organisaties
+                Scherpe tarieven voor iedereen: van eenmanszaak tot multinational
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
                 Meer over onze tarieven
@@ -101,8 +101,8 @@ export default class HomeNl extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Nu registreren</Href>
-              <p className='u-color-dark-gray u-margin-Ts'>Geen set up kosten, geen verborgen kosten, geen verplichtingen</p>
+              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Registreer nu</Href>
+              <p className='u-color-dark-gray u-margin-Ts'>Geen opstartkosten, verborgen kosten of verplichtingen</p>
             </div>
           </div>
         </IfLocale>

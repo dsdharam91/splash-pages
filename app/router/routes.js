@@ -227,6 +227,9 @@ export const config = Immutable.fromJS([
       es: {
         path: '/seguridad',
       },
+      nl: {
+        path: '/veiligheid',
+      },
     },
   ],
   [Features, { name: 'features' }, {
