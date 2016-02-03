@@ -23,16 +23,16 @@ export default class ProNl extends React.Component {
                 <div className='page-hero__text'>
                   <Translation locales='nl-NL'>
                     <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>
-                      Volledig controle over SEPA incasso
+                      Volledige controle over automatische incasso (SEPA, BACS en Autogiro)
                     </h1>
                   </Translation>
                   <Translation locales='nl-BE'>
                     <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>
-                      Volledig controle over SEPA domiciliëringen
+                      Volledige controle over domiciliëringen (SEPA, BACS en Autogiro)
                     </h1>
                   </Translation>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    Een innovatief platform om uw netwerk <br />voor terugkerende betalingen te bouwen
+                    Bouw je eigen systeem voor terugkerende betalingen <br />met ons grensverleggende platform
                   </p>
                 </div>
               </div>
@@ -76,22 +76,20 @@ export default class ProNl extends React.Component {
               <div className='u-padding-Vxl'>
                 <div className='u-size-3of4 u-center'>
                   <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
-                    Welkom bij GoCardless Pro
+                    Maak kennis met GoCardless Pro
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     <Translation locales='nl-NL'>
-                      Ontwikkeld voor grotere bedrijven,
-                      GoCardless Pro combineert het gebruiksgemak van ons origineel
-                      GoCardless product met volledige controle over betalingen en de gebruikerservaring.
-                      Het laat u tevens toe zowel betalingen uit Nederland, de Eurozone en Verenigd Koninkrijk te ontvangen
-                      met één eenvoudige integratie.
+                      GoCardless Pro is ontwikkeld voor grotere bedrijven.
+                      Combineer het gebruiksgemak van het originele GoCardless product met volledige controle over betalingen
+                      en gebruikerservaring. Incasseer doorlopende betalingen uit Nederland, de rest van de Eurozone,
+                      het Verenigd Koninkrijk en Zweden met één eenvoudige integratie.
                     </Translation>
                     <Translation locales='nl-BE'>
-                      Ontwikkeld voor grotere bedrijven,
-                      GoCardless Pro combineert het gebruiksgemak van ons origineel
-                      GoCardless product met volledige controle over betalingen en de gebruikerservaring.
-                      Het laat u tevens toe zowel betalingen uit België, de Eurozone, en Verenigd Koninkrijk te ontvangen
-                      met één eenvoudige integratie.
+                      GoCardless Pro is ontwikkeld voor grotere bedrijven.
+                      Combineer het gebruiksgemak van het originele GoCardless product met volledige controle over betalingen
+                      en gebruikerservaring. Incasseer doorlopende betalingen uit België, de rest van de Eurozone,
+                      het Verenigd Koninkrijk en Zweden met één eenvoudige integratie.
                     </Translation>
                   </p>
                 </div>
@@ -102,11 +100,10 @@ export default class ProNl extends React.Component {
                       <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Volledig white-label
+                      Volledig whitelabel
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                      GoCardless Pro zet uw merk op de voorgrond.
-                      Geniet van volledig controle over uw betalingspagina's en emailberichten naar uw klanten.
+                      Het draait om jouw merk. Profiteer van volledig controle over betalingspagina's en emailberichten naar klanten.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center'>
@@ -115,12 +112,12 @@ export default class ProNl extends React.Component {
                       <DeveloperIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Een eenvoudige, moderne API
+                      Eenvoudige, gebruiksvriendelijke API
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                      Alle documentatie voor uw Pro product is gratis beschikbaar in
-                      onze <a href='https://developer.gocardless.com/pro' id='track-overview-docs'>API docs</a>.
-                      We hebben hard gewerkt om de integratie van uw systemen zo eenvoudig mogelijk te maken.
+                      Alle documentatie voor GoCardless Pro is gratis beschikbaar in onze
+                      <a href='https://developer.gocardless.com/pro' id='track-overview-docs'> API docs</a>.
+                      We hebben ons best gedaan om de integratie met jouw systemen zo eenvoudig mogelijk te maken.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>
@@ -132,8 +129,8 @@ export default class ProNl extends React.Component {
                       Werkt overal
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                      We maken het ongelooflijk eenvoudig om met GoCardless Pro te ontwikkelen
-                      en de volgende generatie van uw website of toepassingen te creëren.
+                      Het is buitengewoon eenvoudig om voort te bouwen op GoCardless Pro
+                      en de volgende generatie van je website of mobiele app te creëren.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>
@@ -142,16 +139,16 @@ export default class ProNl extends React.Component {
                       <SecurityIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Wereldklasse veiligheid
+                      Veiligheid voorop
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                      We hebben alles in functie van veiligheid gesteld.
-                      We slaan alle bank gegevens op met RSA encryptie en communiceren enkel via beveiligde kanalen.
+                      Maak je geen zorgen over veiligheid, dat hebben wij al gedaan.
+                      We slaan alle bankgegevens op met RSA encryptie en communiceren uitsluitend via beveiligde kanalen.
                     </p>
                   </div>
                 </div>
                 <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
-                  Wil u onze API en dashboard
+                  Wil je onze API en dashboard
                   proberen? <a href='https://manage-sandbox.gocardless.com/signup'>
                     Registeer voor een gratis test account
                   </a>
@@ -163,10 +160,10 @@ export default class ProNl extends React.Component {
               <div className='u-padding-Txl'>
                 <div className='u-size-1of2 u-center'>
                   <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                    U bent in goed gezelschap
+                    Je bent in goed gezelschap
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
-                    Dag na dag vertrouwen vele van de grootste en meest gerespecteerde bedrijven hun betalingen aan GoCardless toe
+                    Elke dag vertrouwen de grootste en meest gerespecteerde bedrijven hun betalingen toe aan GoCardless
                   </p>
                 </div>
                 <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
@@ -193,19 +190,17 @@ export default class ProNl extends React.Component {
                 <div className='u-size-1of2 u-center'>
                   <i className='europe-icon u-margin-Bs' />
                   <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
-                    Wil u betalingen in Europa te ontvangen?
+                    Betalingen uit heel Europa ontvangen?
                   </h2>
                   <div className='u-center'>
                     <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                       <Translation locales='nl-NL'>
-                        GoCardless Pro is het enige product dat u toelaat
-                        SEPA incasso betalingen uit de Eurozone en Verenigd Koninkrijk te ontvangen met één eenvoudige integratie.
-                        Met onze API kan uw bedrijf betalingen ontvangen van meer dan 500 miljoen mensen in 22 Europese landen.
+                        GoCardless Pro integreert als enige alle incassosystemen uit Europa in één eenvoudige integratie.
+                        Dankzij onze API kan jouw bedrijf betalingen incasseren van meer dan 500 miljoen mensen in 23 Europese landen.
                       </Translation>
                       <Translation locales='nl-BE'>
-                        GoCardless Pro is het enige product dat u toelaat
-                        SEPA domiciliëringen uit de Eurozone en Verenigd Koninkrijk te ontvangen met één eenvoudige integratie.
-                        Met onze API kan uw bedrijf betalingen ontvangen van meer dan 500 miljoen mensen in 22 Europese landen.
+                        GoCardless Pro integreert als enige alle domiciliëringssystemen uit Europa in één eenvoudige integratie.
+                        Dankzij onze API kan jouw bedrijf betalingen incasseren van meer dan 500 miljoen mensen in 23 Europese landen.
                       </Translation>
                     </p>
                   </div>
@@ -225,7 +220,7 @@ export default class ProNl extends React.Component {
                   </h2>
                   <div className='u-center'>
                     <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
-                      Spreek met onze betalingsexperts en leer hoe GoCardless uw bedrijf kan helpen.
+                      Neem contact met ons op en ontdek hoe GoCardless jouw bedrijf kan helpen.
                     </p>
                   </div>
                   <Link to='contact_sales' query={{ s: 'pro' }} id='track-cta-contact-sales'
@@ -242,10 +237,10 @@ export default class ProNl extends React.Component {
               <div className='u-padding-Vxl'>
                 <div className='u-size-1of2 u-center'>
                   <h2 className='u-text-heading u-color-dark-gray u-text-xl u-text-light u-margin-Bs'>
-                    Uw dashboard
+                    Jouw dashboard
                   </h2>
                   <div className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
-                    Een eenvoudige manier om uw betalingen en klanten te beheren
+                    Een eenvoudige manier om betalingen en klanten te beheren
                   </div>
                   <hr className='u-margin-Vxxl' />
                 </div>
@@ -289,10 +284,10 @@ export default class ProNl extends React.Component {
               <div className='site-container u-padding-Vxl'>
                 <div className='u-size-2of3 u-center'>
                   <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-xl'>
-                    <Message pointer='pricing.pro_cost_per_transaction' /> per verrichting
+                    <Message pointer='pricing.pro_cost_per_transaction' /> per transactie
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-                    Concurrentiële tarieven voor bedrijven van elke omvang.<br />
+                    Scherpe tarieven voor alle bedrijven: van 10 tot 10.000.000 klanten.<br />
                   </p>
                   <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
                     Meer over onze tarieven
@@ -304,7 +299,7 @@ export default class ProNl extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-size-1of2 u-center u-padding-Vxl'>
                 <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bm'>
-                  Neem contact op voor een vrijblijvende offerte
+                  Neem contact met ons op voor een vrijblijvende offerte
                 </h2>
                 <Link to='contact_sales' query={{ s: 'pro' }}
                 id='track-cta-contact-sales' className='btn u-margin-Rm'>
@@ -314,9 +309,9 @@ export default class ProNl extends React.Component {
                 id='track-cta-try-pro-dash' className='btn btn--hollow'>Test Pro gratis en vrijblijvend</a>
                 <hr className='u-margin-Vxxl' />
                 <p className='u-color-dark-gray'>
-                  <strong>Wil u eerst met iemand spreken?</strong><br />
-                  Contacteer onze betalingsexperts op <Message pointer='phone_local' /><br />
-                  We zijn maandag tot vrijdag tussen 10u en 19u bereikbaar.
+                  <strong>De mogelijkheden bespreken?</strong><br />
+                  Neem contact met ons op via <Message pointer='phone_local' />.<br />
+                  We zijn van maandag tot vrijdag tussen 9 en 19 uur bereikbaar.
                 </p>
               </div>
             </div>
