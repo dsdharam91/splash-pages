@@ -487,12 +487,8 @@ export default {
       title: 'Operations',
     },
   },
-  jobs_product_engineer: {
-    title: 'Product Engineer',
-    description: '',
-  },
   jobs_software_engineer: {
-    title: 'Backend Software Engineer',
+    title: 'Software Engineer',
    description: '',
   },
   jobs_site_reliability_engineer: {

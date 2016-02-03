@@ -21,7 +21,6 @@ import About from '../pages/about/about';
 import Team from '../pages/about/team/team';
 
 import Jobs from '../pages/about/jobs/jobs';
-import ProductEngineer from '../pages/about/jobs/positions/product-engineer';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships';
@@ -373,12 +372,6 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/a-propos/offres',
-      },
-    },
-  ],
-  [ProductEngineer, { name: 'jobs_product_engineer', category: 'jobs.engineering' }, {
-      en: {
-        path: '/about/jobs/product-engineer',
       },
     },
   ],
