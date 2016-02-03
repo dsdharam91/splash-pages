@@ -5,6 +5,12 @@ import Link from '../../components/link/link';
 import Href from '../../components/href/href';
 import Message from '../../components/message/message';
 
+import AutomatedyellowIcon from '../../icons/svg/automated-yellow';
+import SaveMoneyGreenIcon from '../../icons/svg/save-money-green';
+import LocationGreenIcon from '../../icons/svg/location-green';
+import CustomersRedIcon from '../../icons/svg/customers-red';
+import SmallBusinessYellowIcon from '../../icons/svg/small-business-yellow';
+import EnterpriseGreenIcon from '../../icons/svg/enterprise-green';
 import CheckListIcon from '../../icons/svg/checklist';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
 import TickSquareIcon from '../../icons/svg/tick-square';
@@ -29,8 +35,7 @@ export default class HomeEn extends React.Component {
             <div className='grid u-margin-Tl u-padding-Tm'>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
-                  <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
+                  <AutomatedyellowIcon className='svg-icon__image' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Fully automated
@@ -43,8 +48,7 @@ export default class HomeEn extends React.Component {
               <IfLocale domesticScheme='sepa'>
                 <div className='grid__cell u-size-1of3 u-text-center'>
                   <figure className='svg-icon u-center'>
-                    <TickSquareIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                    <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
+                    <LocationGreenIcon className='svg-icon__image' />
                   </figure>
                   <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     UK &amp; Eurozone
@@ -58,8 +62,7 @@ export default class HomeEn extends React.Component {
                <IfLocale domesticScheme='bg-autogiro'>
                 <div className='grid__cell u-size-1of3 u-text-center'>
                   <figure className='svg-icon u-center'>
-                    <TickSquareIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                    <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
+                    <LocationGreenIcon className='svg-icon__image' />
                   </figure>
                   <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Sweden, Eurozone &amp; UK
@@ -73,8 +76,7 @@ export default class HomeEn extends React.Component {
               <IfLocale domesticScheme='bacs'>
                 <div className='grid__cell u-size-1of3 u-text-center'>
                   <figure className='svg-icon u-center'>
-                    <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                    <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
+                    <SaveMoneyGreenIcon className='svg-icon__image' />
                   </figure>
                   <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Ultra-low fees
@@ -87,8 +89,7 @@ export default class HomeEn extends React.Component {
 
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
-                  <UsersIcon className='svg-icon__image u-fill-dark-gray' />
+                  <CustomersRedIcon className='svg-icon__image' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   <Message pointer='number_of_merchants' />+ merchants
@@ -102,69 +103,84 @@ export default class HomeEn extends React.Component {
                   </Translation>
                 </p>
               </div>
+
             </div>
           </div>
         </div>
-        <hr className='u-margin-An' />
-        <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
+
+        <hr className='section-divider' />
+
+        <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Txl'>
             <div className='u-size-1of2 u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 You'll be in great company
               </h2>
             </div>
-            <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
+            <div className='u-text-center u-margin-Vl u-padding-Vs u-padding-Hxxl u-center'>
               <img src='/images/logos/pro-logos@2x.png' />
             </div>
           </div>
         </div>
+
+        <div className='site-container quote u-text-center'>
+          <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm'>
+            "GoCardless is one of the best payments companies we've worked with.
+            I'd highly recommend them to any company that cares about a providing good user experience
+            and using the best technology for their Direct Debit."
+          </p>
+          <img src='images/logos/funding-circle-logo-white.png' className='u-block u-center u-size-1of4' />
+        </div>
+
         <Translation locales={['en-GB','en-IE']}>
-          <hr className='u-margin-An' />
+          <hr className='section-divider' />
           <div className='site-container u-text-center u-padding-Vxxl'>
-            <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Tl'>
-              What are you looking for?
-            </h2>
-            <div className='product-grid grid u-margin-Vxxl'>
-              <Link to='features' id='track-cta-features' className='u-link-clean u-text-center grid__cell u-size-1of3'>
-                <div className='product-grid__container u-padding-Vl'>
+            <div className='product-grid__container'>
+
+                <div className='product-grid__section product-grid__section--first u-padding-Vl'>
                   <figure className='svg-icon u-center'>
-                    <ShopIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
-                    <ShopIcon className='svg-icon__image u-fill-dark-gray' />
+                    <SmallBusinessYellowIcon className='svg-icon__image' />
                   </figure>
-                  <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                    Super simple<br />online payments
+                  <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-l u-margin-Tm'>
+                    Small businesses
                   </p>
+                  <p className='u-color-dark-gray u-padding-Vm'>
+                    Stop wasting valuable time trying to set up customers, or chasing clients for payment.
+                    Instead, get back to doing what you do best, and let GoCardless take care of the rest.
+                  </p>
+                  <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
+                    1% per transaction
+                  </p>
+                  <Link to='features' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                    Learn more
+                  </Link>
                 </div>
-                <div className='product-grid__btn btn u-size-full'>Discover GoCardless</div>
-              </Link>
-              <Link to='pro' id='track-cta-pro' className='u-link-clean u-text-center grid__cell u-size-1of3'>
-                <div className='product-grid__container u-padding-Vl'>
+
+                <div className='product-grid__section u-padding-Vl'>
                   <figure className='svg-icon u-center'>
-                    <ProIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                    <ProIcon className='svg-icon__image u-fill-dark-gray' />
+                    <EnterpriseGreenIcon className='svg-icon__image' />
                   </figure>
-                  <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                    Complete control<br />over Direct Debit
+                  <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-l u-margin-Tm'>
+                    Enterprises
                   </p>
-                </div>
-                <div className='product-grid__btn btn u-size-full'>Discover GoCardless Pro</div>
-              </Link>
-              <Link to='partners' id='track-cta-partners' className='u-link-clean u-text-center grid__cell u-size-1of3'>
-                <div className='product-grid__container u-padding-Vl'>
-                  <figure className='svg-icon u-center'>
-                    <IntegrationsIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
-                    <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
-                  </figure>
-                  <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                    Help your customers<br />collect payments
+                  <p className='u-color-dark-gray u-padding-Vm'>
+                    Stop wasting valuable time trying to set up customers, or chasing clients for payment.
+                    Instead, get back to doing what you do best, and let GoCardless take care of the rest.
                   </p>
+                  <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
+                    From 0.1p per transaction
+                  </p>
+                  <Link to='pro' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                    Learn more
+                  </Link>
                 </div>
-                <div className='product-grid__btn btn u-size-full'>Discover our partners</div>
-              </Link>
+
             </div>
           </div>
         </Translation>
-        <hr className='u-margin-An' />
+
+        <hr className='section-divider' />
+
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
@@ -180,12 +196,18 @@ export default class HomeEn extends React.Component {
             </div>
           </div>
         </div>
+
         <IfLocale hasInstantSignup>
-          <hr className='u-margin-An' />
+          <hr className='section-divider' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Start taking payments</Href>
-              <p className='u-color-dark-gray u-margin-Ts'>No set up costs, no hidden charges, no commitments</p>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
+                Simple, transparent pricing for everyone
+              </h2>
+              <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
+                No set up costs, no hidden charges, no commitments
+              </p>
+              <Href to='signup.path' id='track-cta-sign-up' className='btn u-margin-Tm'>Start taking payments</Href>
             </div>
           </div>
         </IfLocale>
