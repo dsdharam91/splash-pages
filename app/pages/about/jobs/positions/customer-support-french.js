@@ -29,7 +29,7 @@ export default class CustomerSupportFrench extends React.Component {
           <p className='para'>
             Nous recherchons une personne enthousiaste et ingénieuse afin de rejoindre
             notre équipe, offrir un service client exceptionnel et contribuer à notre
-            croissance française.
+            croissance en France.
           </p>
           <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Le rôle</h4>
           <p className='para'>
@@ -108,7 +108,7 @@ export default class CustomerSupportFrench extends React.Component {
             </li>
             <li>
               Vous apprenez rapidement, êtes capable de digérer des informations
-              complexes et de les distiller en des réponses claires.
+              complexes et de communiquer avec des réponses claires.
             </li>
             <li>
               Vous êtes organisé(e)s, efficaces et attentifs aux détails.
@@ -117,7 +117,7 @@ export default class CustomerSupportFrench extends React.Component {
               Vous vous épanouissez dans de petites équipes et aimez aider les autres.
             </li>
             <li>
-              Le français est votre langue natale et vous maîtrisez parfaitement le
+              Le français est votre langue maternelle et vous maîtrisez parfaitement le
               français et l'anglais.
             </li>
           </ul>

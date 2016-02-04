@@ -63,7 +63,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
               mobile et en croissance très rapide.
             </li>
             <li>
-              Le français est votre langue natale et vous maîtrisez parfaitement le
+              Le français est votre langue maternelle et vous maîtrisez parfaitement le
               français et l'anglais.
             </li>
           </ul>
