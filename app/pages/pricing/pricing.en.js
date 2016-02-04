@@ -5,7 +5,6 @@ import IfLocale from '../../components/if-locale/if-locale';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
-import IfLinkExists from '../../components/if-link-exists/if-link-exists';
 import { getMessage } from '../../components/intl/intl';
 
 export default class PricingEn extends React.Component {
@@ -19,79 +18,100 @@ export default class PricingEn extends React.Component {
     const hasPercentagePricing = getMessage(this.context.messages, 'country_properties.has_percentage_pricing');
     return (
       <Translation locales='en'>
-        <div className='page-hero--pricing page-hero'>
+        <div className='page-hero u-background-light-gray'>
           <div className='site-container'>
-            <div className='grid pricing-options u-center u-padding-Bxl'>
+            <div className='grid pricing-options--new u-center u-padding-Bxl'>
+
+              <h1 className='u-text-heading u-text-light u-text-center u-color-dark-gray u-margin-Vl'>
+                The perfect plan for you
+              </h1>
+
               <IfLocale hasPercentagePricing>
                 <div className={classNames('grid__cell u-padding-Vxl u-padding-Rxs', { 'u-size-1of2': hasPercentagePricing })}>
-                  <h1 className='u-text-heading-light u-text-center u-color-invert u-text-l u-padding-Bs'>GoCardless</h1>
-                  <div className='u-relative u-background-primary u-padding-Vxl'>
-                    <Translation locales='en-GB'>
-                      <div className='pricing-options__badge'>
-                        <img src='/images/pricing/most-popular-badge@2x.png' alt='most popular' />
+                  <div className='u-shadow-large'>
+                    <div className='u-relative u-background-primary u-padding-Vxl'>
+                      <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Standard</h2>
+                      <p className='u-color-invert u-text-xs u-text-center'>Perfect for small to medium sized businesses</p>
+                    </div>
+                    <div className='u-padding-Am u-text-center u-background-white'>
+                      <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Instant online set-up and approval
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Online dashboard
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Multiple users per account
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> REST API
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Migrate existing Direct Debit customers
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Secure payment pages with your logo
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Collect details online
+                        </li>
+                      </ul>
+                      <hr />
+                      <div className='u-padding-Vs'>
+                        <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
+                          <Message pointer='pricing.per_transaction_amount_normal' />
+                        </h2>
+                        <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
+                          Per transaction, capped at <Message pointer="pricing.cost_cap" />
+                        </p>
                       </div>
-                    </Translation>
-                    <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>
-                      <Message pointer='pricing.per_transaction_amount_normal' />
-                    </h2>
-                    <p className='u-text-heading-light u-text-center u-color-invert u-text-xs u-margin-Txxs'>
-                      Per transaction, capped at <Message pointer="pricing.cost_cap" />
-                    </p>
-                  </div>
-                  <ul className='pricing-options__list'>
-                    <li className='pricing-options__list-item u-color-dark-gray'>
-                      <b>Perfect for small to medium sized businesses</b>
-                    </li>
-                    <li className='pricing-options__list-item'>
-                      No setup costs, hidden fees, or commitments</li>
-                    <li className='pricing-options__list-item'>
-                      Scale pricing available (<a href='#scale-pricing-container'>?</a>)
-                    </li>
-                    <IfLinkExists to='features'>
-                      <li className='pricing-options__list-item'>
-                        <Link to='features'>Find out more about GoCardless</Link>
-                      </li>
-                    </IfLinkExists>
-                    <li className='pricing-options__list-button'>
                       <IfLocale hasInstantSignup>
                         <Href to='signup.path' className='btn u-size-full'>Sign up today</Href>
                       </IfLocale>
                       <IfLocale hasInstantSignup={false}>
                         <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contact sales</Link>
                       </IfLocale>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
               </IfLocale>
 
               <div className={classNames('grid__cell u-padding-Vxl u-padding-Rxs', { 'u-size-1of2': hasPercentagePricing })}>
-                <h1 className='u-text-heading-light u-text-center u-color-invert u-text-l u-padding-Bs'>GoCardless Pro</h1>
-                <div className='u-background-xdark-gray u-padding-Vxl'>
-                  <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>
-                    <Message pointer='pricing.pro_cost_per_transaction' />
-                  </h2>
-                  <p className='u-text-heading-light u-text-center u-color-invert u-text-xs u-margin-Txxs'>
-                    Per transaction
-                  </p>
-                </div>
-                <ul className='pricing-options__list'>
-                  <li className='pricing-options__list-item u-color-dark-gray'>
-                    <b>For organisations that want total control</b>
-                  </li>
-                  <li className='pricing-options__list-item'>
-                    <b><Message pointer='pricing.pro_monthly_fee' /> monthly fee</b>, no hidden charges
-                  </li>
-                  <li className='pricing-options__list-item'>
-                    For businesses taking <b><Message pointer='pricing.pro_number_of_monthly_payments' /></b> per month
-                  </li>
-                  <li className='pricing-options__list-item'>
-                    <Link to='pro'>Find out more about Pro</Link>
-                  </li>
-                  <li className='pricing-options__list-button'>
+                <div className='u-shadow-large'>
+                  <div className='u-relative u-background-dark-gray u-padding-Vxl'>
+                    <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Pro</h2>
+                    <p className='u-color-invert u-text-xs u-text-center'>For organisations that want total control</p>
+                  </div>
+                  <div className='u-padding-Am u-text-center u-background-white'>
+                    <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
+                      Everything on the left, plus:
+                    </p>
+                    <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
+                      <li className='u-margin-Bxs'>
+                        <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                      </li>
+                      <li className='u-margin-Bxs'>
+                        <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
+                      </li>
+                      <li className='u-margin-Bxs'>
+                        <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
+                      </li>
+                    </ul>
+                    <hr />
+                    <div className='u-padding-Vs'>
+                      <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
+                        <Message pointer='pricing.pro_cost_per_transaction' />
+                      </h2>
+                      <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
+                        Per transaction, plus <Message pointer='pricing.pro_monthly_fee' /> a month
+                      </p>
+                    </div>
                     <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
-                  </li>
-                </ul>
+                  </div>
+                </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -100,7 +120,7 @@ export default class PricingEn extends React.Component {
           <div className='site-container u-text-center u-padding-Vl'>
               <h2 className='u-text-heading-light u-color-dark-gray'>About our pricing</h2>
           </div>
-          <div className='grid u-size-4of5 u-center u-padding-Vm'>
+          <div className='grid pricing-options--new u-center u-padding-Vm'>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Rm'>
               <div className='u-color-dark-gray'>
                 <b>
@@ -175,7 +195,7 @@ export default class PricingEn extends React.Component {
             <h2 className='u-text-heading u-text-l u-color-dark-gray u-text-light'>Got any questions?</h2>
             <p className='u-color-dark-gray u-margin-Ts'>Speak with one of our payments experts on <Message pointer='phone_local' /></p>
             <IfLocale hasInstantSignup>
-              <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>Sign up today</Href>
+              <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>Start taking payments</Href>
             </IfLocale>
             <IfLocale hasInstantSignup={false}>
               <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Contact sales</Link>
