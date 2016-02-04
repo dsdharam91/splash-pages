@@ -4,9 +4,9 @@ import Message from '../../components/message/message';
 import ProspectForm from '../../components/prospect-form/prospect-form';
 import CheckListIcon from '../../icons/svg/checklist';
 import ImproveCashflowIcon from '../../icons/svg/improve-cashflow';
-import MoneyFlowerIcon from '../../icons/svg/money-flower';
 import UsersIcon from '../../icons/svg/users';
 import AddPartnerIcon from '../../icons/svg/add-partner';
+import WhiteLabelIcon from '../../icons/svg/white-label';
 import CustomerIcon from '../../icons/svg/customer';
 
 export default class Energy extends React.Component {
@@ -122,7 +122,7 @@ export default class Energy extends React.Component {
               </p>
               <h3 className='u-text-s'>Customer service</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Give call centre agents real-time information about payment status to ensure they can resolve calls as quickly as possible.
+                Provides real-time information on payment status to ensure support can resolve calls as quickly as possible.
               </p>
               <h3 className='u-text-s'>Flexible payments</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
@@ -207,8 +207,8 @@ export default class Energy extends React.Component {
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                  <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
+                  <WhiteLabelIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
+                  <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Completely white-labelled
@@ -238,7 +238,7 @@ export default class Energy extends React.Component {
               Want to learn more? Speak with our Direct Debit experts
             </h2>
             <div className='grid__cell u-size-1of2'>
-              <ProspectForm prospectType='sales' />
+              <ProspectForm prospectType='sales' showNumberOfPayments={false} />
               <hr />
               <p className='u-text-center u-color-meta u-margin-Bs'>
                 <b><Message pointer='contact_sales.talk_to_us' /></b><br />

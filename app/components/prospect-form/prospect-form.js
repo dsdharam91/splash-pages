@@ -35,6 +35,11 @@ export default class ProspectForm extends React.Component {
 
   static propTypes = {
     prospectType: ProspectFormPropTypes.prospectType,
+    showNumberOfPayments: React.PropTypes.bool,
+  }
+
+  static defaultProps = {
+    showNumberOfPayments: true,
   }
 
   static contextTypes = {
@@ -161,18 +166,22 @@ export default class ProspectForm extends React.Component {
             placeholder={getMessage(messages, 'prospect_form.sales.phone_placeholder')} required type='text' />
 
           <Translation locales={['en-GB']}>
-            <label className='label label--stacked' htmlFor='prospect_metadata_number_of_payments'>
-              How many payments could we have helped you collect last month?
-            </label>
-            <select className='input--stacked'
-            id='prospect_metadata_number_of_payments'
-            name='prospect[metadata][number_of_payments]'
-            defaultValue=''>
-              <option value=''>Select number of payments taken last month</option>
-              <option value='0-100'>0-100</option>
-              <option value='100-500'>100-500</option>
-              <option value='500+'>500+</option>
-            </select>
+            { this.props.showNumberOfPayments &&
+              <div>
+                <label className='label label--stacked' htmlFor='prospect_metadata_number_of_payments'>
+                  How many payments could we have helped you collect last month?
+                </label>
+                <select className='input--stacked'
+                id='prospect_metadata_number_of_payments'
+                name='prospect[metadata][number_of_payments]'
+                defaultValue=''>
+                  <option value=''>Select number of payments taken last month</option>
+                  <option value='0-100'>0-100</option>
+                  <option value='100-500'>100-500</option>
+                  <option value='500+'>500+</option>
+                </select>
+              </div>
+            }
 
             <label className='label label--stacked' htmlFor='prospect_metadata_message'>
               What are your business&apos;s specific needs?
