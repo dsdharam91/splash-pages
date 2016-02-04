@@ -6,8 +6,6 @@ import CheckListIcon from '../../icons/svg/checklist';
 import ImproveCashflowIcon from '../../icons/svg/improve-cashflow';
 import UsersIcon from '../../icons/svg/users';
 import AddPartnerIcon from '../../icons/svg/add-partner';
-import WhiteLabelIcon from '../../icons/svg/white-label';
-import CustomerIcon from '../../icons/svg/customer';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
 import ClockIcon from '../../icons/svg/clock';
 
@@ -165,7 +163,7 @@ export default class Telcos extends React.Component {
               <h3 className='u-text-s'>Reduce billing errors</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
                 Integrate into your billing system to reduce manual admin, payment errors and failures with automatic
-                reconciliation of payments against bills. 
+                reconciliation of payments against bills.
               </p>
               <h3 className='u-text-s'>Improved cashflow</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
