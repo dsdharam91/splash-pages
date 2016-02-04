@@ -10,7 +10,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
     return (
       <JobsPage>
         <Translation locales='fr'>
-          <h3 className='u-text-heading-light u-text-m u-color-heading'>Chargé de compte</h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Chargé de compte</h3>
           <p className='para'>
             Contribuez à la croissance globale de GoCardless.
           </p>
@@ -31,7 +31,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
             Nous recherchons une personne enthousiaste et ambitieuse pour rejoindre
             notre équipe commerciale et accélérer notre croissance en France.
           </p>
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Le rôle</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Le rôle</h4>
           <p className='para'>
             L'équipe de vente de GoCardless combine une expertise sur nos produits
             et une ambition d'aider nos clients actuels et futurs à réussir, dans
@@ -44,7 +44,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
             les leaders produit à travers GoCardless pour aider à accélérer notre
             croissance.
           </p>
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Le/la candidat(e) idéal(e)</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Le/la candidat(e) idéal(e)</h4>
           <ul className='list u-margin-Tm'>
             <li>
               Expérience au sein d'un environment de ventes ou un cabinet de conseil,
@@ -77,7 +77,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
             identifié <a href='https://gocardless.com/blog/how-we-train-salespeople/' target='_blank'> cinq traits </a>
             vitaux pour réussir dans notre équipe.
           </p>
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Les bénéfices</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Les bénéfices</h4>
           <ul className='list u-margin-Tm'>
             <li>
               Salaire concurrentiel, commission et options.
@@ -104,7 +104,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
         </Translation>
 
         <Translation locales='en'>
-          <h3 className='u-text-heading-light u-text-m u-color-heading'>French Sales Development Representative</h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>French Sales Development Representative</h3>
           <p className='para'>
             Drive GoCardless’s global growth.
           </p>
@@ -125,7 +125,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
             We're looking for bright, ambitious people to join our talented sales
             team and accelerate our growth in the French market.
           </p>
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
           <p className='para'>
             The sales team at GoCardless combines deep product expertise with a
             commitment to helping new and existing businesses succeed across a
@@ -138,7 +138,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
             business and product leaders across the company to help accelerate
             our growth.
           </p>
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
           <ul className='list u-margin-Tm'>
             <li>
               Experience within a sales environment or a top consultancy, or
@@ -169,7 +169,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
             on what to expect. We've also identified <a href='https://gocardless.com/blog/how-we-train-salespeople/' target='_blank'> five characteristics </a>
             that are vital to be a successful member of our sales team.
           </p>
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The perks</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The perks</h4>
           <ul className='list u-margin-Tm'>
             <li>
               Competitive salary, commission and options package.

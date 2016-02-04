@@ -20,10 +20,10 @@ export default class HomeFr extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl' id='learn-more'>
           <div className='u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                 Accès rapide et simple au prélèvement bancaire
               </h2>
-              <p className='u-text-s u-color-p u-margin-Txs'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                 GoCardless vous permet de bénéficier de la fiabilité et des tarifs très compétitifs
                 du prélèvement SEPA, sans les complications associées aux opérateurs historiques.
               </p>
@@ -34,10 +34,10 @@ export default class HomeFr extends React.Component {
                   <TickSquareIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Prélevez dès maintenant
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Sans engagement, sans démarche bancaire et sans installation requise
                 </p>
               </div>
@@ -46,10 +46,10 @@ export default class HomeFr extends React.Component {
                   <ChecklistIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <ChecklistIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Automatisé de A à Z
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Gagnez du temps et ne manquez plus jamais un paiement
                 </p>
               </div>
@@ -58,15 +58,15 @@ export default class HomeFr extends React.Component {
                   <RealtimeIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <RealtimeIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Fait pour le récurrent
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Oubliez les cartes qui expirent et les virements qui tardent
                 </p>
               </div>
             </div>
-            <p className='u-color-p u-margin-Txxl u-padding-Tm'>
+            <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
                 Vous voulez en apprendre plus sur le prélèvement SEPA ?
             </p>
             <Href to='guides.path'
@@ -88,7 +88,7 @@ export default class HomeFr extends React.Component {
                   <ShopIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <ShopIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Prendre des paiements<br />en toute simplicité
                 </p>
               </div>
@@ -100,7 +100,7 @@ export default class HomeFr extends React.Component {
                   <ProIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <ProIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Avoir le contrôle total<br />de vos prélèvements
                 </p>
               </div>
@@ -112,7 +112,7 @@ export default class HomeFr extends React.Component {
                   <IntegrationsIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Aider vos clients<br />à prendre des paiements
                 </p>
               </div>
@@ -123,7 +123,7 @@ export default class HomeFr extends React.Component {
 
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
-          <h2 className='u-text-l u-text-heading u-color-heading u-text-light'>
+          <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light'>
             Ils parlent de GoCardless
           </h2>
           <div className='grid u-padding-Vxl'>
@@ -132,7 +132,7 @@ export default class HomeFr extends React.Component {
               target='_blank' className='grid__cell u-size-1of3 u-link-clean u-padding-Rxs u-padding-Bm'>
               <div className='product-grid__container u-text-center u-padding-Vl'>
                 <i role='img' aria-label='Le Figaro' className='lefigaro-logo stories-item__logo--lefigaro' />
-                <p className='u-size-3of4 u-center u-color-p u-margin-Txxs'>
+                <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
                   'Avec le prélèvement, GoCardless contourne les aléas liés au paiement par carte bancaire,
                   notamment le risque de perdre des clients à l'expiration de leur carte'
                 </p>
@@ -144,7 +144,7 @@ export default class HomeFr extends React.Component {
               target='_blank' className='grid__cell u-size-1of3 u-link-clean u-padding-Bm'>
               <div className='product-grid__container u-text-center u-padding-Vl'>
                 <i role='img' aria-label='Les Echos' className='lesechos-logo stories-item__logo--lesechos' />
-                <p className='u-size-3of4 u-center u-color-p u-margin-Txxs'>
+                <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
                   'Mettre en place un prélèvement était jusqu’ici complexe car cela imposait des processus
                   d’agrément bancaire, beaucoup de paperasse mais aussi ensuite des semaines de configuration'
                 </p>
@@ -156,7 +156,7 @@ export default class HomeFr extends React.Component {
               target='_blank' className='grid__cell u-size-1of3 u-link-clean u-padding-Rxs'>
               <div className='product-grid__container u-text-center u-padding-Vl'>
                 <i role='img' aria-label='La Tribune' className='latribune-logo stories-item__logo--latribune' />
-                <p className='u-size-3of4 u-center u-color-p u-margin-Txxs'>
+                <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
                   'Les grandes entreprises n'ont pas plus envie que les startups de devenir des spécialistes des paiements,
                    elles veulent juste une solution de paiement qui fonctionne'
                 </p>
@@ -171,10 +171,10 @@ export default class HomeFr extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Txl'>
             <div className='u-size-1of2 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 Entre de bonnes mains
               </h2>
-              <p className='u-text-s u-color-p u-margin-Txs'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                 Nous collectons des millions pour plus de <Message pointer='number_of_merchants' /> clients chaque jour,
                 en conformité avec les règles SEPA et sous la supervision de la FCA.
                 Nous aidons les start-ups comme les plus grandes entreprises.
@@ -191,10 +191,10 @@ export default class HomeFr extends React.Component {
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 Un prix simple, transparent pour tous
               </h2>
-              <p className='u-text-s u-color-p u-margin-Vxs'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 Des tarifs concurrentiels adaptés aux grandes entreprises comme aux start-ups
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
@@ -208,7 +208,7 @@ export default class HomeFr extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <Href to='signup.path' id='track-cta-sign-up' className='btn'>Commencez à prendre des paiements</Href>
-              <p className='u-color-p u-margin-Ts'>Offre sans engagement, aucun coût d'installation ni de frais caché</p>
+              <p className='u-color-dark-gray u-margin-Ts'>Offre sans engagement, aucun coût d'installation ni de frais caché</p>
             </div>
           </div>
         </IfLocale>

@@ -1,6 +1,7 @@
 import React from 'react';
 import XIcon from '../../icons/svg/x';
 import CheckMarkIcon from '../../icons/svg/checkmark';
+import Message from '../../components/message/message';
 import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import IfLinkExists from '../../components/if-link-exists/if-link-exists';
@@ -21,7 +22,7 @@ export default class ProductComparisonFr extends React.Component {
                     <div className='u-text-l u-margin-Bxxs'>GoCardless</div>
                     Prélevez facilement et rapidement
                   </th>
-                  <th className='u-background-dark-gray-darken u-text-heading-light u-color-invert u-padding-Am u-border-gray'>
+                  <th className='u-background-xdark-gray u-text-heading-light u-color-invert u-padding-Am u-border-gray'>
                     <div className='u-text-l u-margin-Bxxs'>GoCardless Pro</div>
                     Prenez le contrôle du prélèvement
                   </th>
@@ -130,7 +131,7 @@ export default class ProductComparisonFr extends React.Component {
                 <tr className='comparison-table__row'>
                   <td className='comparison-table__cell u-text-end'>Abonnement mensuel</td>
                   <td className='comparison-table__cell'>0€</td>
-                  <td className='comparison-table__cell'>250€</td>
+                  <td className='comparison-table__cell'><Message pointer='pricing.pro_monthly_fee' /></td>
                 </tr>
                 <tr className='comparison-table__row'>
                   <td className='comparison-table__cell u-text-end'>Frais par transaction</td>

@@ -7,7 +7,7 @@ export default class FaqProDashboardMandateExportEn extends React.Component {
   render() {
     return (
       <Translation locales='en'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Mandate export</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Mandate export</h2>
         <p className='para'>
           From the customers screen, you can also export Direct Debit mandates in PDF format. This could come in useful if you wanted
           to send a copy of the mandate to your customers.

@@ -5,28 +5,28 @@ export default {
     more: 'Meer',
   },
   footer: {
-    description: 'GoCardless is als Europese Betaalinstelling gereguleerd door de Financial Conduct Authority (FCA) in het Verenigd Koninkrijk.',
+    description: 'GoCardless heeft als Europese betaaldienst een PSD (Payment Service Directive) vergunning van de Financial Conduct Authority (FCA) in het Verenigd Koninkrijk.',
     currently_viewing: 'Land',
     europe_cta: 'GoCardless groeit',
     europe_link: 'meer',
-    cookies_message: 'Door verder te gaan aanvaardt u het gebruik van cookies.',
+    cookies_message: 'Door verder te gaan accepteer je het gebruik van cookies.',
     cookies_link_text: 'Meer',
   },
   cta: {
-    basic: 'Accepteer vandaag nog betalingen',
-    pro: 'Contacteer ons',
-    signup: 'Nu registreren',
+    basic: 'Krijg vandaag nog betaald',
+    pro: 'Neem contact op',
+    signup: 'Registreer nu',
     more: 'Meer informatie',
   },
   basic_pricing_cta: {
     main: 'Betaal slechts 1%',
-    description: 'Slechts 1% per verrichting, met een maximum van €2.',
+    description: 'Slechts 1% per transactie, met een maximum van €2.',
     learn_more: 'Meer informatie over onze tarieven',
   },
   signup_cta: {
-    main: 'Registreer u in enkele minuten, accepteer vandaag nog betalingen',
-    button_text: 'Nu registreren',
-    description: 'Geen registratie kosten, geen verborgen kosten, geen minimale termijn',
+    main: 'Ontvang vandaag nog je eerste betalingen. Registeren kost slechts een paar minuten.',
+    button_text: 'Registreer nu',
+    description: 'Geen opstartkosten, verborgen kosten of verplichtingen',
   },
   contact_types: ['customer support', 'sales'],
   postal_address: {
@@ -40,7 +40,7 @@ export default {
     title: 'Niet gevonden',
     description: 'Pagina niet gevonden',
     header: 'Oeps! Deze link werkt niet.',
-    explainer: 'Deze pagina bevindt zich op een andere locatie, of misschien heb u het adres verkeerd getypt.',
+    explainer: 'Deze pagina kan verhuisd zijn. Of misschien heb je het adres verkeerd ingevuld?',
   },
   pricing: {
     title: 'Tarieven',
@@ -49,23 +49,23 @@ export default {
   about: {
     title: 'Over GoCardless',
     nav_title: 'Over ons',
-    description: 'We bouwen een nieuw betalingsnetwerk voor het internet. Leer meer over onze organisatie.',
-    link: 'about',
+    description: 'We bouwen een nieuw betalingsnetwerk voor het internet. Kom meer te weten over onze organisatie.',
+    link: 'Over',
     header1: 'We bouwen een nieuw',
     header2: 'betalingsnetwerk voor het internet',
   },
   features: {
-    title: 'Eenvoudige online betalingen',
+    title: 'Betaald krijgen was nog nooit zo eenvoudig',
     nav_title: 'GoCardless',
-    description: 'GoCardless is de eenvoudigste manier om online betalingen te ontvangen. Accepteer betalingen direct van de bankrekening van uw klanten. Bespaar tijd en verbeter uw cash flow.',
+    description: 'GoCardless is de eenvoudigste manier om online betalingen te ontvangen. Incasseer betalingen direct van de bankrekening van je klanten. Bespaar tijd en verbeter je cashflow.',
     explainer: 'Eenvoudige terugkerende betalingen',
   },
   partners: {
     title: 'Partner worden',
     nav_title: 'Word Partner',
     link_title: 'Partner',
-    description: 'Word GoCardless partner en laat uw klanten betalingen ontvangen via uw Software. We werken reeds met FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube en vele andere partners.',
-    explainer: 'GoCardless voor uw klanten',
+    description: 'Word GoCardless partner en laat je klanten betalingen incasseren via jouw software. We werken al met FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube en nog vele anderen.',
+    explainer: 'GoCardless voor jouw klanten',
   },
   team: {
     title: 'Team',
@@ -79,7 +79,7 @@ export default {
   blog: {
     title: 'Blog',
     nav_title: 'Blog',
-    cta: 'Bezoek onze Blog',
+    cta: 'Ga naar onze Blog',
   },
   guides: {
     title: 'Handleidingen',
@@ -91,5 +91,15 @@ export default {
   },
   signup: {
     path: 'https://manage.gocardless.com/signup?lang=nl',
+  },
+security: {
+    title: 'Veiligheid',
+    nav_title: 'Veiligheid',
+    description: 'GoCardless is beveiligd op het hoogste niveau. We slaan alle gegevens op met RSA encryptie en communiceren uitsluitend via veilige kanalen. Als Europese betalingsaanbieder hebben we een vergunning van de Financial Conduct Authority (FCA) in het Verenigd Koninkrijk.',
+    header1: 'Beveiligd op het hoogste niveau',
+    header2: 'GoCardless slaat alle gegevens op met RSA encryptie en wordt gesteund door de grootste namen in de financiële wereld',
+    fca_authorised_byline: 'GoCardless heeft een vergunning van de Financial Conduct Authority (FCA) in het Verenigd Koninkrijk, is geregistreerd bij De Nederlandsche Bank, en kan in heel Europa betalingen incasseren.',
+    consumer_protection_title: 'Automatische incasso garantie',
+    trusted_by_thousands_byline: 'GoCardless biedt duizenden organisaties toegang tot het automatische incasso netwerk.',
   },
 };

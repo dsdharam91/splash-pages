@@ -8,14 +8,14 @@ export default class FaqProDashboardDe extends React.Component {
   render() {
     return (
       <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>So richten Sie Ihren Account ein</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>So richten Sie Ihren Account ein</h2>
         <p className='para'>
             Mit dem <a href='https://manage.gocardless.com/'
             className='u-link-color-p u-text-underline'>GoCardless-Dashboard</a> können Sie sich SEPA-Lastschriftmandate
             einholen, diese managen und wiederkehrende Zahlungen einziehen – ganz ohne technische Integration.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Erste Schritte
         </h3>
         <p className='para'>
@@ -29,7 +29,7 @@ export default class FaqProDashboardDe extends React.Component {
           schreiben Sie uns an <Href to='email' className='u-link-color-p u-text-underline' />.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           So personalisieren Sie Ihren Account
         </h3>
         <p className='para'>

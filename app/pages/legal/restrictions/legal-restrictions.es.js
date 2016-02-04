@@ -7,7 +7,7 @@ export default class LegalRestrictionsEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Actividades Restringidas</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Actividades Restringidas</h2>
         <p className='para'>
           This is the list of restricted activities referred to in Merchant Agreement and
           Customer Agreement.  This list was last updated on 19th September 2014.

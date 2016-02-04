@@ -116,7 +116,7 @@ export default class StoriesEn extends React.Component {
               </a>),
             ]}>
               <div className='stories-testimonials__quote stories-testimonials__quote--guardian u-relative u-margin-Txxl u-padding-Al'>
-                <p className="u-text-heading u-color-heading u-text-light u-text-m">
+                <p className="u-text-heading u-color-dark-gray u-text-light u-text-m">
                   "The Guardian is always looking to give the best customer experience and has chosen
                   GoCardless to make its recurring payment experience
                   as seamless as possible."
@@ -124,7 +124,7 @@ export default class StoriesEn extends React.Component {
               </div>
               <div className={'stories-testimonials__quote stories-testimonials__quote--funding-circle' +
                 ' u-relative u-margin-Txxl u-padding-Al'}>
-                <p className="u-text-heading u-color-heading u-text-light u-text-m">
+                <p className="u-text-heading u-color-dark-gray u-text-light u-text-m">
                   "GoCardless is one of the best payments companies we've worked with.
                   Their API was simple to integrate and allows us to use Direct Debit in a fully automated way.
                   I'd highly recommend them to any company that cares about a providing good user experience and using the
@@ -132,7 +132,7 @@ export default class StoriesEn extends React.Component {
                 </p>
               </div>
               <div className='stories-testimonials__quote stories-testimonials__quote--lendable u-relative u-margin-Txxl u-padding-Al'>
-                <p className="u-text-heading u-color-heading u-text-light u-text-m">
+                <p className="u-text-heading u-color-dark-gray u-text-light u-text-m">
                   "We moved to GoCardless as collections can be managed by one person instead of a whole department.
                   It's great to work with another financial technology company who are committed to helping businesses."
                 </p>

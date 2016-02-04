@@ -52,7 +52,7 @@ export default class HomeHoldingPage extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <div className='u-center'>
-                <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                   <Message pointer='holding_page.benefits_headline' />
                 </h2>
               </div>
@@ -62,10 +62,10 @@ export default class HomeHoldingPage extends React.Component {
                     <MobileIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                     <MobileIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     <Message pointer='holding_page.benefit1_headline' />
                   </div>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     <Message pointer='holding_page.benefit1_description' />
                   </p>
                 </div>
@@ -74,10 +74,10 @@ export default class HomeHoldingPage extends React.Component {
                     <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                     <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     <Message pointer='holding_page.benefit2_headline' />
                   </div>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     <Message pointer='holding_page.benefit2_description' />
                   </p>
                 </div>
@@ -87,10 +87,10 @@ export default class HomeHoldingPage extends React.Component {
                     <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                     <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     <Message pointer='holding_page.benefit3_headline' />
                   </div>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     <Message pointer='holding_page.benefit3_description' />
                   </p>
                 </div>
@@ -103,14 +103,14 @@ export default class HomeHoldingPage extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Txl'>
               <div className='u-center'>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                   <Message pointer='holding_page.global_headline' />
                 </h2>
               </div>
               <div className='u-text-center u-margin-Vl u-padding-Vs u-center u-size-1of2'>
                 <img src='/images/partners/partners-map@2x.jpg' />
               </div>
-              <p className='u-text-s u-color-p u-margin-Txs'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                 <Message pointer='holding_page.global_description' /><br />
                 <Message pointer='holding_page.global_description2' />
               </p>
@@ -122,7 +122,7 @@ export default class HomeHoldingPage extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Txl'>
               <div className='u-center'>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                   <Message pointer='holding_page.trusted_headline' />
                 </h2>
               </div>
@@ -137,7 +137,7 @@ export default class HomeHoldingPage extends React.Component {
           <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
             <div className='site-container u-padding-Vxl'>
               <div className='u-size-2of3 u-center'>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                   <Message pointer='holding_page.learn_more_headline' />
                 </h2>
 

@@ -9,7 +9,7 @@ export default class AccountManagerGermany extends React.Component {
     return (
       <JobsPage>
         <Translation locales='de'>
-          <h3 className='u-text-heading-light u-text-m u-color-heading'>Account Manager Deutschland </h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Account Manager Deutschland </h3>
           <p className='para'>
             Ausfindigmachen und Aufbauen neuer Geschäftsbeziehungen innerhalb Deutschlands sowie Unterstützen
             unserer Kunden beim Vereinfachen des Zahlungseinzugs.
@@ -26,7 +26,7 @@ export default class AccountManagerGermany extends React.Component {
             Medienunternehmen strategisch immer wichtiger, sondern auch für die neuesten SaaS- und IoT-Anbieter.
           </p>
 
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Was dich erwartet</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Was dich erwartet</h4>
           <p className='para'>
             Du wirst für die Akquise von Neukunden und Partnern auf dem deutschen Markt zuständig sein. Dabei wirst
             du mit verschiedenen Abteilungen zusammenarbeiten – vom Finanzwesen und Engineering bis hin zu Marketing
@@ -47,7 +47,7 @@ export default class AccountManagerGermany extends React.Component {
             voranzukommen und sich weiterzuentwickeln.
           </p>
 
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Was wir von dir erwarten</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Was wir von dir erwarten</h4>
           <p className='para'>
             Wir suchen einen deutschen Muttersprachler/eine deutsche Muttersprachlerin mit der Ambition, Großes erreichen
             zu wollen, stets dazuzulernen und sich sowie alle Tätigkeiten und Abläufe zu verbessern. Als idealer
@@ -97,7 +97,7 @@ export default class AccountManagerGermany extends React.Component {
         </Translation>
 
         <Translation locales='en'>
-          <h3 className='u-text-heading-light u-text-m u-color-heading'>Account Manager: Germany </h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Account Manager: Germany </h3>
           <p className='para'>
             Find and close new business across Germany and help our customers make recurring payments simple.
           </p>
@@ -113,7 +113,7 @@ export default class AccountManagerGermany extends React.Component {
             but also for the latest wave of Software as a Service and Internet of Things providers.
           </p>
 
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
           <p className='para'>
             You will be responsible for finding and closing new business in the German market.
             This will involve working with various departments, from finance and engineering to marketing and procurement;
@@ -130,7 +130,7 @@ export default class AccountManagerGermany extends React.Component {
             You’ll be responsible for helping the team around you improve and develop.
           </p>
 
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
           <p className='para'>
             We’re looking for a German native who wants to have an impact and is always trying to learn and improve themselves
             and the operations around them. The ideal candidate wants to lead and is ready to deal with the ambiguity present in small,

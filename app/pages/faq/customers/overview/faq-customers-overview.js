@@ -9,8 +9,8 @@ export default class FaqCustomers extends React.Component {
   render() {
     return (
       <FaqCustomersPage>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Overview</h2>
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Overview</h2>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Why is GoCardless on my bank statement?
         </h3>
         <p className='para'>
@@ -27,7 +27,7 @@ export default class FaqCustomers extends React.Component {
           &nbsp;or call us on <Message pointer='phone_local' /> and we will help you identify the transaction.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How do payments through GoCardless work?
         </h3>
         <p className='para'>
@@ -38,7 +38,7 @@ export default class FaqCustomers extends React.Component {
           our own. These funds are then remitted on to the merchant you are paying.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Why do I have a Direct Debit with you when this was a one-off payment?
         </h3>
         <p className='para'>

@@ -8,7 +8,7 @@ export default class FaqProDashboardPayoutTrackingEn extends React.Component {
   render() {
     return (
        <Translation locales='en'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Payout tracking</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Payout tracking</h2>
         <p className='para'>
           Each working day, GoCardless will automatically transfer collected funds to your bank account. There's no minimum
           threshold required for a payout and we don't hold back any rolling reserve. <Link to='pricing'

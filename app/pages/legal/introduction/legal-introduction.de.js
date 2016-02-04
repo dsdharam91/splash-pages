@@ -10,7 +10,7 @@ export default class LegalIntroductionDe extends React.Component {
   render() {
     return (
       <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Impressum</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Impressum</h2>
           <p className='para'>
             Betreiber der Webseite gocardless.com:
           </p>

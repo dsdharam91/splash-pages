@@ -8,7 +8,7 @@ export default class FaqProDashboardPaymentCreationEn extends React.Component {
   render() {
     return (
       <Translation locales='en'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Payment creation</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Payment creation</h2>
         <p className='para'>
           After setting up your customer, you'll be able to start taking Direct Debit payments from them. On
           the <a href='https://manage.gocardless.com/customers'
@@ -27,7 +27,7 @@ export default class FaqProDashboardPaymentCreationEn extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Creating a Payment for your Customer
         </h3>
         <p className='para'>

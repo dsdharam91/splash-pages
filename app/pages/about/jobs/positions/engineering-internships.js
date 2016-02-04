@@ -7,7 +7,7 @@ export default class EngineeringInterships extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Engineering Internships</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Engineering Internships</h3>
         <p className='para'>
           We’re looking for talented, motivated undergrads who want to work on real
           problems with a world-class team.
@@ -17,7 +17,7 @@ export default class EngineeringInterships extends React.Component {
           learning and finding elegant solutions, and want to work with like-minded
           engineers, we want to hear from you.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Our team</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Our team</h4>
         <p className='para'>GoCardless is an ambitious, fast-growing tech startup disrupting
           the payments industry. We build simple, reliable systems on top of technologies
           we understand and trust. We're primarily built in Ruby and JavaScript using
@@ -39,7 +39,7 @@ export default class EngineeringInterships extends React.Component {
           regularly hosting meetups and hackdays, and speaking at external events to
           share our knowledge, skills and passion.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Your internship</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Your internship</h4>
         <p className='para'>You’ll be treated as a fully fledged member of the team from
           day one, working on interesting, challenging projects that are integral to
           our product and to the company’s success. You’ll work closely with experienced
@@ -60,7 +60,7 @@ export default class EngineeringInterships extends React.Component {
           &ndash; but we don’t expect you to have the experience.
         </p>
 
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>You should apply if:</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>You should apply if:</h4>
         <ul className='list u-margin-Tm'>
           <li>You’re passionate about technology</li>
           <li>You care deeply about doing work you can be proud of</li>
@@ -77,7 +77,7 @@ export default class EngineeringInterships extends React.Component {
           professional experience, we’d love to hear details of the projects you
           were involved in and what you built.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Our interview process</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Our interview process</h4>
         <p className='para'>We’re looking to assess your understanding of the principles of
           programming; the way you think, learn and respond to feedback; your actual
           coding skills and whether you’ll flourish here. There are three stages to

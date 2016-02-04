@@ -5,83 +5,84 @@ import Message from '../../components/message/message';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
 
-export default class SecurityFr extends React.Component {
-  displayName = 'SecurityFr'
+export default class SecurityNl extends React.Component {
+  displayName = 'SecurityNl'
 
   render() {
     return (
-      <Translation locales='fr'>
+      <Translation locales='nl'>
         <div className='site-container u-padding-Vxxl'>
           <div className='grid u-center u-padding-Vxm'>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
               <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>
-                Agréé par la FCA
+                FCA vergunning
               </h2>
               <p className='u-size-2of3 u-center u-color-dark-gray u-margin-Txs'>
-                GoCardless est un Etablisement de Paiement Agréé, habilité à prendre des paiements à travers l’Union Européenne.
+                <Message pointer='security.fca_authorised_byline' />
               </p>
             </div>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
               <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>
-                Des milliers nous font déjà confiance
+                Duizenden organisaties vertrouwen op ons
               </h2>
               <p className='u-size-2of3 u-center u-color-dark-gray u-margin-Txs'>
-                GoCardless donne accès au prélèvement bancaire à des milliers d'entreprises en Europe.
+                <Message pointer='security.trusted_by_thousands_byline' />
               </p>
             </div>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
               <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>
-                Solidité financière
+                Vooraanstaande investeerders
               </h2>
               <p className='u-size-2of3 u-center u-color-dark-gray u-margin-Txs'>
-                Nous sommes financés par des investisseurs prestigieux, tel que Balderton Capital and Accel Partners.
+                Onder andere Balderton Capital en Accel Partners hebben in GoCardless geïnvesteerd.
               </p>
             </div>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
               <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>
-                Protection du consommateur
+                <Message pointer='security.consumer_protection_title' />
               </h2>
               <p className='u-size-2of3 u-center u-color-dark-gray u-margin-Txs'>
-                En cas de fraude sur un paiement, le consommateur a droit à un remboursement immédiat.
+                Gaat er iets mis met een transactie? Betalers mogen het bedrag direct terugboeken.
               </p>
             </div>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
               <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>
-                Sécurité de calibre militaire
+                Beveiligd op het hoogste niveau
               </h2>
               <p className='u-size-2of3 u-center u-color-dark-gray u-margin-Txs'>
-                Toutes les données confidentielles sont chiffrées avec RSA et stockées sur nos serveurs sécurisés Européens.
+                We slaan alle gevoelige gegevens op met RSA encryptie en communiceren uitsluitend via veilige kanalen.
               </p>
             </div>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
               <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>
-                Compte bancaire séquestre
+                Gewaarborgde bankrekeningen
               </h2>
               <p className='u-size-2of3 u-center u-color-dark-gray u-margin-Txs'>
-                Les paiements collectés par GoCardless sont conservés sur un compte séquestre réservés aux clients.
+                Geld geïncasseerd door GoCardless wordt bewaard in een gewaarborgde derdengeldenrekening.
               </p>
             </div>
           </div>
         </div>
         <hr className='u-margin-An' />
-        <div className='site-container u-text-center u-padding-Vxxl'>
-          <div className='u-padding-Vxl'>
-            <IfLocale hasInstantSignup>
+        <IfLocale hasInstantSignup>
+          <div className='site-container u-text-center u-padding-Vxxl'>
+            <div className='u-padding-Vxl'>
               <Href to='signup.path' className='btn'>
                 <Message pointer='cta.basic' />
               </Href>
-              <p className='u-color-dark-gray u-margin-Ts'>Pas de coûts mis en place , pas de frais cachés , aucun engagement</p>
-            </IfLocale>
-            <IfLocale hasInstantSignup={false}>
-              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bm'>
-                Prenez contact avec notre équipe
-              </h2>
-              <Link to='contact_sales' query={{ s: 'pro' }} className='btn'>
-                Contactez-nous
-              </Link>
-            </IfLocale>
+              <p className='u-color-dark-gray u-margin-Ts'>Geen opstartkosten, verborgen kosten of verplichtingen</p>
+            </div>
           </div>
-        </div>
+        </IfLocale>
+        <IfLocale hasInstantSignup={false}>
+          <div className='site-container u-text-center u-padding-Tm u-padding-Bxxl'>
+            <div className='u-padding-Vxl'>
+              <h2 className='u-text-heading u-text-l u-color-dark-gray u-text-light'>Vragen?</h2>
+              <p className='u-color-dark-gray u-margin-Ts'>Neem contact met ons op via <Message pointer='phone_local' /></p>
+              <Link to='contact_sales' query={{ s: 'security' }} className='btn btn--hollow u-margin-Tm'>Neem contact op</Link>
+            </div>
+          </div>
+        </IfLocale>
       </Translation>
     );
   }

@@ -7,7 +7,7 @@ export default class FaqProDashboardPaymentRefundFr extends React.Component {
   render() {
     return (
       <Translation locales='fr'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Remboursement de paiement</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Remboursement de paiement</h2>
         <p className='para'>
           Il vous est possible de rembourser un prélèvement, en entier ou partiellement.
         </p>

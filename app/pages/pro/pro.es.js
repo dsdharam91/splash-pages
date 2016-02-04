@@ -69,10 +69,10 @@ export default class ProEs extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-padding-Vxl'>
                 <div className='u-size-3of4 u-center'>
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                     Bienvenido a GoCardless Pro
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     Diseñado específicamente para grandes empresas,
                     GoCardless Pro combina la simplicidad de nuestro Gocardless original
                     con un completo control sobre los cobros y de la experiencia de usuario.
@@ -85,10 +85,10 @@ export default class ProEs extends React.Component {
                       <WhiteLabelIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                       <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Totalmente Personalizable
                     </div>
-                    <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                    <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       GoCardless Pro te permite poner tu logo y tu marca en todas partes.
                       Disfruta de un control total sobre tus páginas de pago y sobre las notificaciones por email que envies a tus usuarios.
                     </p>
@@ -98,10 +98,10 @@ export default class ProEs extends React.Component {
                       <DeveloperIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                       <DeveloperIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Una API moderna y simple
                     </div>
-                    <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                    <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Toda la documentación de Pro está disponible gratuitamente en
                       nuestra <a href='https://developer.gocardless.com/pro' id='track-overview-docs'>documentación de la API</a>.
                       Hemos trabajado muy duro para que la integración de tu empresa sea tan sencilla como sea posible.
@@ -112,10 +112,10 @@ export default class ProEs extends React.Component {
                       <MobileIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                       <MobileIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Funciona en todas partes
                     </div>
-                    <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                    <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Hemos hecho extremadamente sencillo el desarrollar sobre GoCardless Pro
                       y crear una nueva generación de páginas web y de apps móviles.
                     </p>
@@ -125,16 +125,16 @@ export default class ProEs extends React.Component {
                       <SecurityIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                       <SecurityIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Cifrado de grado Militar
                     </div>
-                    <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                    <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Nos hemos esforzado mucho en la seguridad para que tu puedas despreocuparte.
                       Protegemos todos los datos bancarios con encriptación RSA y nos comunicamos con canales seguros.
                     </p>
                   </div>
                 </div>
-                <p className='u-color-p u-margin-Txxl u-padding-Tm'>
+                <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
                   ¿Quieres probar nuestra herramienta o API
                   fácilemente? <a href='https://manage-sandbox.gocardless.com/signup'>
                     Regístra una cuenta de prueba gratuita
@@ -146,10 +146,10 @@ export default class ProEs extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-padding-Txl'>
                 <div className='u-size-1of2 u-center'>
-                  <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                     Estás en buena compañía
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     Cada día, algunas de las mayores y más respetables compañías
                     confían en GoCardless para realizar sus cobros recurrentes
                   </p>
@@ -163,7 +163,7 @@ export default class ProEs extends React.Component {
             <div id='optimizely-pro-video' className='u-hidden'>
               <div className='u-text-center u-padding-Vxxl'>
                 <div className='site-container u-padding-Vxl'>
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                     Ve una corta descripción de GoCardless Pro (Inglés)
                   </h2>
                   <iframe src='https://player.vimeo.com/video/116341918'
@@ -203,11 +203,11 @@ export default class ProEs extends React.Component {
                     <PhoneIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                     <PhoneIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Tm'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tm'>
                     <Message pointer='phone_local' />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                       Habla con uno de nuestros expertos en Cobros y descubre como GoCardless puede ayudar a tu negocio.
                     </p>
                   </div>
@@ -224,10 +224,10 @@ export default class ProEs extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-padding-Vxl'>
                 <div className='u-size-1of2 u-center'>
-                  <h2 className='u-text-heading u-color-heading u-text-xl u-text-light u-margin-Bs'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-xl u-text-light u-margin-Bs'>
                     Tu Panel de control
                   </h2>
-                  <div className='u-text-heading u-color-heading u-text-l u-text-light'>
+                  <div className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                     La manera sencilla de controlar tus cobros y tus clientes
                   </div>
                   <hr className='u-margin-Vxxl' />
@@ -271,10 +271,10 @@ export default class ProEs extends React.Component {
             <div className='u-text-center u-padding-Vxxl'>
               <div className='site-container u-padding-Vxl'>
                 <div className='u-size-2of3 u-center'>
-                  <h2 className='u-text-heading u-color-heading u-text-light u-text-xl'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-xl'>
                     <Message pointer='pricing.pro_cost_per_transaction' /> por transacción
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Vxs'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                     Precios competitivos para empresas de cualquier tamaño.<br />
                   </p>
                   <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
@@ -286,7 +286,7 @@ export default class ProEs extends React.Component {
             <hr className='u-margin-An' />
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-size-1of2 u-center u-padding-Vxl'>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bm'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bm'>
                   Ponte en contacto para una cotización gratuita
                 </h2>
                 <Link to='contact_sales' query={{ s: 'pro' }}
@@ -296,7 +296,7 @@ export default class ProEs extends React.Component {
                 <a href='https://manage-sandbox.gocardless.com/signup'
                 id='track-cta-try-pro-dash' className='btn btn--hollow'>Prueba Pro gratis</a>
                 <hr className='u-margin-Vxxl' />
-                <p className='u-color-p'>
+                <p className='u-color-dark-gray'>
                   <strong>¿Quieres hablar con alguien primero?</strong><br />
                   Llama a nuestros expertos en <Message pointer='phone_local' /><br />
                   Estamos disponibles de 10.00 - 19.00 Lunes a Viernes

@@ -7,7 +7,7 @@ export default class Designers extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Designers</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Designers</h3>
         <p className='para'>
           We're looking for amazing designers to help us shape the way businesses get paid.
         </p>
@@ -17,7 +17,7 @@ export default class Designers extends React.Component {
           get in touch by
           emailing <a href='mailto:tom@gocardless.com'>tom@gocardless.com</a>.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Our work</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Our work</h4>
         <p className='para'>
           Over the past few years, GoCardless' products have allowed small companies
           to take subscriptions for the first time &ndash; fundamentally changing the way
@@ -30,7 +30,7 @@ export default class Designers extends React.Component {
           for controlling recurring payments like never before. This includes reimagining
             how enterprise software should work and be experienced by both employees and customers.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Our culture</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Our culture</h4>
         <p className='para'>
           With a small, talented team and an amazing new office in central London, we
           feel like we're in a great position to tackle these challenges. New designers
@@ -48,7 +48,7 @@ export default class Designers extends React.Component {
           We’re creating a strong design culture at GoCardless, and we'll support you by paying
           for training, events, and sending you to conferences around the world (if that's what you're into).
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <p className='para'>
           We're looking for designers with real experience designing digital products. People
           who think about systems, not just screens. People who really care about creating great experiences.
@@ -73,7 +73,7 @@ export default class Designers extends React.Component {
             simplicity
           </li>
         </ul>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we offer</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we offer</h4>
         <p className='para'>
           We're a successful, well-funded company and believe that treating people
           well is the absolute key to our future success. As such, we work hard to

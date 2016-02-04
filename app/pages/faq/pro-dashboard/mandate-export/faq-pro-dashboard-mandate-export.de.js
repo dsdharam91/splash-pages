@@ -7,7 +7,7 @@ export default class FaqProDashboardMandateExportDe extends React.Component {
   render() {
     return (
       <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>So exportieren Sie Lastschriftmandate</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>So exportieren Sie Lastschriftmandate</h2>
         <p className='para'>
           Im Bereich <a href='https://manage.gocardless.com/customers' target='_blank'
           className='u-link-color-p u-text-underline'>Customers</a> Ihres Dashboards können Sie Mandate im

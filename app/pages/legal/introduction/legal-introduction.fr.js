@@ -9,7 +9,7 @@ export default class LegalIntroductionFr extends React.Component {
   render() {
     return (
       <Translation locales='fr'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Mentions Légales</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Mentions Légales</h2>
           <p className='para'>
             Le présent site internet est édité par :
           </p>
@@ -42,7 +42,7 @@ export default class LegalIntroductionFr extends React.Component {
             Le présent site internet est hébergé par :
           </p>
           <p className='para'>
-            <ul className='u-color-p'>
+            <ul className='u-color-dark-gray'>
               <li>SoftLayer</li>
               <li>Siège social : 4849 Alpha Road, Dallas, TX 75244, Etats-Unis</li>
               <li>Téléphone : 00 1 214 442 0600</li>

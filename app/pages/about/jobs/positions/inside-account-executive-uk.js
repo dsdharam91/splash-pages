@@ -8,9 +8,9 @@ export default class InsideAccountExecutive extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Inside Account Executive </h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Inside Account Executive </h3>
         <p className='para'>
-        Close new business in an exciting, fast paced environment.
+        Close new business in an exciting, fast-paced environment.
         </p>
         <p className='para'>
         GoCardless is having fun and growing fast. Thousands of businesses in the UK already trust us with
@@ -24,13 +24,13 @@ export default class InsideAccountExecutive extends React.Component {
         but also for the latest wave of tech startups.
         </p>
         <p className='para'>
-        GoCardless is innovating on top of the BACS network in the UK and equivalents around the world
+        GoCardless is innovating on top of the BACS network in the UK and equivalents around the world.
         By making these networks easier to integrate into modern internet services and adding intelligent,
         powerful and flexible capabilities we are adding value in completely new ways. The ability to
         work with all of these together through a single integration is a real game changer. GoCardless
         will continue to disrupt these systems as payment mechanisms continue to evolve.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
         You will be responsible for closing new business in the UK market. This will be done via your own
         efforts and in conjunction with your business partners in marketing, sales development and partnerships.
@@ -53,7 +53,7 @@ export default class InsideAccountExecutive extends React.Component {
         and we spur each other on to raise the bar of success. You’ll be responsible for helping the
         team around you improve and develop.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'> The ideal candidate </h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'> The ideal candidate </h4>
         <p className='para'>
         We’re looking for people who want to have an impact and are always trying to learn and
         improve themselves and the operations around them. The ideal candidate wants to lead
@@ -91,7 +91,7 @@ export default class InsideAccountExecutive extends React.Component {
           </li>
         </ul>
         <p className='para'>
-        If you're unsure, please apply - we'd love to hear from you!
+        If you're unsure, please apply &ndash; we'd love to hear from you!
         </p>
         <a href='https://boards.greenhouse.io/gocardless/jobs/145799' className='btn u-margin-Vs'>
         Apply now

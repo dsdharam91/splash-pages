@@ -7,7 +7,7 @@ export default class DataInfrastructureEngineer extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Data Infrastructure Engineer</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Data Infrastructure Engineer</h3>
         <p className='para'>
           Help us scale our data projects.
         </p>
@@ -24,7 +24,7 @@ export default class DataInfrastructureEngineer extends React.Component {
           We’re looking for a data engineer to support our data team and
           continually improve our existing systems.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
           You will develop, implement, maintain and monitor our data pipelines,
           working closely with the web operations team to build out our existing
@@ -52,7 +52,7 @@ export default class DataInfrastructureEngineer extends React.Component {
           We value learning and feedback, and are committed to encouraging and
           supporting each other’s continual professional growth.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
         <ul className='list u-margin-Tm'>
           <li>
             You have experience with systems internals, and knowledge of Unix fundamentals

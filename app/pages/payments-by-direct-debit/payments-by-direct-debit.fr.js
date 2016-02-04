@@ -33,10 +33,10 @@ export default class PaymentsByDirectDebitFr extends React.Component {
                     <ImproveCashflowIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                     <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Maîtrisez vos finances
                   </h3>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Oubliez les problèmes de trésorerie. Le prélèvement vous permet d'être payé à temps, tout le temps.
                   </p>
                 </div>
@@ -45,10 +45,10 @@ export default class PaymentsByDirectDebitFr extends React.Component {
                     <ClockIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                     <ClockIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Automatisez de A à Z
                   </h3>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Gérez vos paiements en ligne ou via notre API et soyez toujours au courant du statut de vos paiements.
                   </p>
                 </div>
@@ -57,10 +57,10 @@ export default class PaymentsByDirectDebitFr extends React.Component {
                     <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                     <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                     Des tarifs concurrentiels
                   </h3>
-                  <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Plus économique que la carte et sans frais cachés : nous ne facturons que les transactions réussies.
                   </p>
                 </div>
@@ -75,7 +75,7 @@ export default class PaymentsByDirectDebitFr extends React.Component {
 
           <div className='site-container u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
                 <Message pointer='number_of_merchants' /> entreprises font confiance à GoCardless pour leurs prélèvements
               </h2>
               <div className='u-text-center u-margin-Tl u-padding-Vs u-center'>
@@ -119,25 +119,25 @@ export default class PaymentsByDirectDebitFr extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
                 Il n'a jamais été aussi facile d'être payé grâce à GoCardless
               </h2>
               <div className='grid u-center u-text-center u-padding-Tl u-margin-Ts'>
                 <div className='grid__cell u-size-1of3 u-text-center'>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Démarrage très simple</h3>
-                  <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>Démarrage très simple</h3>
+                  <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                     Créez un compte en ligne et commencez à prendre des paiements en 5 minutes.</p>
                 </div>
                 <div className='grid__cell u-size-1of3 u-text-center'>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Migration de mandats facile</h3>
-                  <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>Migration de mandats facile</h3>
+                  <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                     Si vous avez déjà des mandats SEPA, GoCardless assurera leur migration gratuitement.</p>
                 </div>
                 <div className='grid__cell u-size-1of3 u-text-center'>
-                  <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>
                     Rejoignez <Message pointer='number_of_merchants' /> clients
                   </h3>
-                  <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                  <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                     Nous avons prélevé plus de 1 milliard d'Euros pour le compte de plus
                     de <Message pointer='number_of_merchants' /> clients.</p>
                 </div>
@@ -148,13 +148,13 @@ export default class PaymentsByDirectDebitFr extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl u-text-center u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>
                 Ouvrir un compte prend 2 minutes
               </h2>
               <Href to='signup.path' className='btn'>Prenez des paiements aujourd'hui</Href>
-              <p className='u-color-p u-margin-Ts'>Pas de frais de mise en place, de frais mensuels ou de frais d'impayés</p>
+              <p className='u-color-dark-gray u-margin-Ts'>Pas de frais de mise en place, de frais mensuels ou de frais d'impayés</p>
               <hr className='u-size-1of2 u-center u-margin-Vxxl' />
-              <p className='u-color-p'><strong>Souhaitez-vous d'abord en discuter ?</strong><br />
+              <p className='u-color-dark-gray'><strong>Souhaitez-vous d'abord en discuter ?</strong><br />
                 Appelez nos experts de paiement au <Message pointer='phone_local' /><br />
                 Vous pouvez également <Link to='contact_sales' className='u-link-color-p u-text-underline'>demander que notre équipe vous rappelle</Link>.
               </p>

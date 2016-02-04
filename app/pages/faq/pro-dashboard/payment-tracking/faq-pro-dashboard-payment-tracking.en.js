@@ -7,7 +7,7 @@ export default class FaqProDashboardPaymentTrackingEn extends React.Component {
   render() {
     return (
       <Translation locales='en'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Payment tracking</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Payment tracking</h2>
 
         <p className='para'>
           There are two ways to track the status of payments you've taken:

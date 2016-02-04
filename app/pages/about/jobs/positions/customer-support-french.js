@@ -9,7 +9,7 @@ export default class CustomerSupportFrench extends React.Component {
     return (
       <JobsPage>
         <Translation locales='fr'>
-          <h3 className='u-text-heading-light u-text-m u-color-heading'>Support client</h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Support client</h3>
           <p className='para'>
             Tout faire pour ravir nos clients.
           </p>
@@ -32,7 +32,7 @@ export default class CustomerSupportFrench extends React.Component {
             problèmes élégamment pour rejoindre notre équipe, proposer un
             service client exceptionnel et contribuer à notre croissance française.
           </p>
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Le rôle</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Le rôle</h4>
           <p className='para'>
             Chaque jour vous serez à l'écoute de nos clients, répondant à leurs
             questions et les rassurant que leurs paiements sont entre de bonnes mains,
@@ -102,7 +102,7 @@ export default class CustomerSupportFrench extends React.Component {
             encourageons et supportons les uns les autres au cours de notre
             développement professionnel.
           </p>
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Le/la candidat(e) idéal(e)</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Le/la candidat(e) idéal(e)</h4>
           <ul className='list u-margin-Tm'>
             <li>
               Vous adorez aider les gens, et êtes intéressés par la technologie.
@@ -137,7 +137,7 @@ export default class CustomerSupportFrench extends React.Component {
         </Translation>
 
         <Translation locales='en'>
-          <h3 className='u-text-heading-light u-text-m u-color-heading'>French Customer Support</h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>French Customer Support</h3>
           <p className='para'>
             Go the extra mile to delight our customers.
           </p>
@@ -158,7 +158,7 @@ export default class CustomerSupportFrench extends React.Component {
             We’re looking for a bright, enthusiastic problem-solver to join our
             team, provide legendary customer service and support our growth in France.
           </p>
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
           <p className='para'>
             Every day you’ll be listening to our customers, answering their
             questions and reassuring them that their payments are in safe hands,
@@ -221,7 +221,7 @@ export default class CustomerSupportFrench extends React.Component {
             proud of. We value learning and feedback, and are devoted to encouraging
             and supporting each other's continual professional growth.
           </p>
-          <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
           <ul className='list u-margin-Tm'>
             <li>
               You love helping people, and you are interested in technology.

@@ -32,7 +32,7 @@ export default class JobsPage extends React.Component {
 
     const jobsNav = Object.keys(categories).map(function(category) {
       return [
-        (<li key={category} className='u-text-heading u-text-xs u-text-upcase u-color-p u-padding-Tm u-padding-Bs'>
+        (<li key={category} className='u-text-heading u-text-xs u-text-upcase u-color-dark-gray u-padding-Tm u-padding-Bs'>
           <Message pointer={`jobs.${category}`} />
         </li>),
         categories[category].map(function(job) {
@@ -51,7 +51,7 @@ export default class JobsPage extends React.Component {
 
         <div className='site-container u-padding-Vxxl u-relative'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
               <Message pointer='jobs.open_positions' />
             </h2>
             <div className='grid'>

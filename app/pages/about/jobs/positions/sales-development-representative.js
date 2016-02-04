@@ -8,7 +8,7 @@ export default class SalesDevelopmentRepresentative extends React.Component {
 
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Sales Development Representative</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Sales Development Representative</h3>
         <p className='para'>
           Drive GoCardless’s global growth.
         </p>
@@ -22,7 +22,7 @@ export default class SalesDevelopmentRepresentative extends React.Component {
           We're looking for bright, ambitious people to join our talented sales
           team and accelerate our growth in the UK market.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
           The sales team at GoCardless combines deep product expertise with a
           commitment to helping new and existing businesses succeed across a
@@ -35,7 +35,7 @@ export default class SalesDevelopmentRepresentative extends React.Component {
           business and product leaders across the company to help accelerate
           our growth.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
         <ul className='list u-margin-Tm'>
           <li>
             Experience within a sales environment or a top consultancy, or
@@ -65,7 +65,7 @@ export default class SalesDevelopmentRepresentative extends React.Component {
           on what to expect. We've also identified <a href='https://gocardless.com/blog/how-we-train-salespeople/' target='_blank'> five characteristics </a>
           that are vital to be a successful member of our sales team.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The perks</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The perks</h4>
         <ul className='list u-margin-Tm'>
           <li>
             Competitive salary, commission and options package.

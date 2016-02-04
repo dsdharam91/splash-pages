@@ -7,8 +7,8 @@ export default class FaqCustomersHowItWorks extends React.Component {
   render() {
     return (
       <FaqCustomersPage>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>How it works</h2>
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>How it works</h2>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How does the GoCardless transaction model work?
         </h3>
         <p className='para'>
@@ -19,7 +19,7 @@ export default class FaqCustomersHowItWorks extends React.Component {
           These funds are then remitted on to the merchant you are paying.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How does GoCardless collect payment from my account?
         </h3>
         <p className='para'>
@@ -36,7 +36,7 @@ export default class FaqCustomersHowItWorks extends React.Component {
           className='u-link-color-p u-text-underline'>logging in</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How long does it take to process my payment?
         </h3>
         <p className='para'>
@@ -45,7 +45,7 @@ export default class FaqCustomersHowItWorks extends React.Component {
           className='u-link-color-p u-text-underline'>here</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What if my funds don't reach the merchant?
         </h3>
         <p className='para'>

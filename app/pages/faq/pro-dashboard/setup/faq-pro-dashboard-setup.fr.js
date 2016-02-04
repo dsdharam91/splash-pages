@@ -10,7 +10,7 @@ export default class FaqProDashboardFr extends React.Component {
   render() {
     return (
       <Translation locales='fr'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Mise en place</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Mise en place</h2>
         <p className='para'>
           <IfLocale hasInstantSignup>
             GoCardless vous permet d’obtenir des mandats de prélèvement SEPA et de prendre vos
@@ -25,7 +25,7 @@ export default class FaqProDashboardFr extends React.Component {
           </IfLocale>
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Démarrage
         </h3>
         <IfLocale hasInstantSignup>
@@ -65,7 +65,7 @@ export default class FaqProDashboardFr extends React.Component {
           veuillez nous contacter à <Href to='email' className='u-link-color-p u-text-underline' />.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Préparation du compte
         </h3>
         <p className='para'>

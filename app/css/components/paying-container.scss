@@ -62,7 +62,7 @@
 }
 
 .paying-container__tweet {
-  border: 1px solid $border-gray;
+  border: 1px solid $gray;
   border-radius: 3px;
   box-shadow: 0 2px 5px -3px $gray;
 }
@@ -73,7 +73,7 @@
 }
 
 .paying-container__secure {
-  background: linear-gradient(135deg, white 0%, $light-gray-lighten 100%);
+  background: linear-gradient(135deg, white 0%, $light-gray 100%);
 }
 
 .paying-container__call {

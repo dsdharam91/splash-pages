@@ -8,7 +8,7 @@ export default class PaymentsProcessingSpecialist extends React.Component {
   render() {
     return (
       <JobsPage>
-      <h3 className='u-text-heading-light u-text-m u-color-heading'>Payments Processing Specialist </h3>
+      <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Payments Processing Specialist </h3>
       <p className='para'>
       Manage and execute our banking flows.
       </p>
@@ -20,7 +20,7 @@ export default class PaymentsProcessingSpecialist extends React.Component {
       every week. About a third of these never previously had access to Direct Debit, so we are
       transforming the way they do business.
       </p>
-      <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
+      <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
       <p className='para'>
       You’ll act as a point of contact between GoCardless and our partner banks, and you’ll
       manage our operational relationships with banking systems across the world through all
@@ -62,7 +62,7 @@ export default class PaymentsProcessingSpecialist extends React.Component {
       are built in-house and regularly updated. You’ll need to try and identify potential
       improvements to banking schemes as a whole and aim to bring them forward for discussion.
       </p>
-      <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+      <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
       <ul className='list u-margin-Tm'>
         <li>
             You have great analytical skills &ndash; you’re an expert in Excel and curious about data.

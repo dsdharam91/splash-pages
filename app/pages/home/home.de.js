@@ -22,10 +22,10 @@ export default class HomeDe extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl' id='learn-more'>
           <div className='u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                 Die neue bessere Art des Lastschriftverfahrens
               </h2>
-              <p className='u-text-s u-color-p u-margin-Txs'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                 GoCardless macht es möglich, von den günstigen Gebühren und kleinen Fehlerraten des Lastschriftverfahrens zu profitieren,
                 ganz ohne den konventionellen operativen Mehraufwand.
               </p>
@@ -36,10 +36,10 @@ export default class HomeDe extends React.Component {
                   <MobileIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <MobileIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Schnelles Einrichten
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                  Ziehen Sie bereits in wenigen Minuten die ersten Zahlungen Ihrer Kunden ein
                 </p>
               </div>
@@ -48,10 +48,10 @@ export default class HomeDe extends React.Component {
                   <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Voll automatisiert
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Zeit sparen, menschliche Fehler eliminieren und fehlschlagende Zahlungen vermindern
                 </p>
               </div>
@@ -60,15 +60,15 @@ export default class HomeDe extends React.Component {
                   <TickSquareIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <TickSquareIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Transparente Gebühren
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Sie zahlen die Gebühren nur für erfolgreiche Transaktionen und nicht für Rücklastschriften
                 </p>
               </div>
             </div>
-            <p className='u-color-p u-margin-Txxl u-padding-Tm'>
+            <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
               Sie möchten mehr über SEPA erfahren?
             </p>
             <Href to='guides.path' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
@@ -88,7 +88,7 @@ export default class HomeDe extends React.Component {
                   <ShopIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <ShopIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Ganz einfache<br />online Zahlungen
                 </p>
               </div>
@@ -100,7 +100,7 @@ export default class HomeDe extends React.Component {
                   <ProIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <ProIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Volle Kontrolle<br />über Lastschriften
                 </p>
               </div>
@@ -112,7 +112,7 @@ export default class HomeDe extends React.Component {
                   <IntegrationsIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Helfen Sie Ihren Kunden<br />Zahlungen einzuzuiehen
                 </p>
               </div>
@@ -124,10 +124,10 @@ export default class HomeDe extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Txl'>
             <div className='u-size-1of2 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 Tausende Händler vertrauen uns
               </h2>
-              <p className='u-text-s u-color-p u-margin-Txs'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                 <Message pointer="home.trusted_message_scale" />
                 <br />
                 Egal, wie groß Ihr Unternehmen ist, GoCardless funktioniert für Sie.
@@ -142,10 +142,10 @@ export default class HomeDe extends React.Component {
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 Einfache transparente Preise für alle
               </h2>
-              <p className='u-text-s u-color-p u-margin-Vxs'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 Wettbewerbsfähige Preise für jeden: von Einzelpersonen bis zu Großunternehmen.
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
@@ -159,7 +159,7 @@ export default class HomeDe extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <Href to='signup.path' id='track-cta-sign-up' className='btn'>Jetzt anmelden</Href>
-              <p className='u-color-p u-margin-Ts'>Keine Anschlussgebühr, keine versteckten Gebühren, keine Mindestlaufzeit</p>
+              <p className='u-color-dark-gray u-margin-Ts'>Keine Anschlussgebühr, keine versteckten Gebühren, keine Mindestlaufzeit</p>
             </div>
           </div>
         </IfLocale>

@@ -20,15 +20,16 @@ export default class ProductComparisonNl extends React.Component {
                   <th />
                   <th className='u-background-primary u-text-heading-light u-color-invert u-padding-Am u-border-gray'>
                     <div className='u-text-l u-margin-Bxxs'>GoCardless</div>
-                    Heel eenvoudige online betalingen
+                    Super simpele online betalingen
+                    <br />&nbsp;
                   </th>
-                  <th className='u-background-dark-gray-darken u-text-heading-light u-color-invert u-padding-Am u-border-gray'>
+                  <th className='u-background-xdark-gray u-text-heading-light u-color-invert u-padding-Am u-border-gray'>
                     <div className='u-text-l u-margin-Bxxs'>GoCardless Pro</div>
                     <Translation locales='nl-NL'>
-                      Volledige controle over SEPA Incasso
+                      Volledige controle over automatische incasso
                     </Translation>
                     <Translation locales='nl-BE'>
-                      Volledige controle over domiciliëringen
+                      Volledige controle over je domiciliëringen
                     </Translation>
                   </th>
                 </tr>
@@ -37,10 +38,10 @@ export default class ProductComparisonNl extends React.Component {
                 <tr className='comparison-table__row'>
                   <td className='comparison-table__cell u-text-end'>Voor wie?</td>
                   <Translation locales='nl-NL'>
-                    <td className='comparison-table__cell'>Midden- en kleinbedrijf</td>
+                    <td className='comparison-table__cell'>MKB</td>
                   </Translation>
                   <Translation locales='nl-BE'>
-                    <td className='comparison-table__cell'>Kleine- en middelgrote ondernemingen</td>
+                    <td className='comparison-table__cell'>KMO</td>
                   </Translation>
                   <td className='comparison-table__cell'>Bedrijven die volledige controle willen</td>
                 </tr>
@@ -63,7 +64,12 @@ export default class ProductComparisonNl extends React.Component {
                   </td>
                 </tr>
                 <tr className='comparison-table__row'>
-                  <td className='comparison-table__cell u-text-end'>Automatische overzetting huidige mandaten</td>
+                  <Translation locales='nl-NL'>
+                  <td className='comparison-table__cell u-text-end'>Automatisch overzetten huidige machtigingen</td>
+                  </Translation>
+                  <Translation locales='nl-BE'>
+                  <td className='comparison-table__cell u-text-end'>Automatisch overzetten huidige mandaten</td>
+                  </Translation>
                   <td className='comparison-table__cell'>
                     <CheckMarkIcon className='u-fill-dark-gray' alt='✓' />
                   </td>
@@ -73,10 +79,10 @@ export default class ProductComparisonNl extends React.Component {
                 </tr>
                 <tr className='comparison-table__row'>
                   <Translation locales='nl-NL'>
-                  <td className='comparison-table__cell u-text-end'>Uw eigen incassanten-ID</td>
+                  <td className='comparison-table__cell u-text-end'>Eigen incassant-ID</td>
                   </Translation>
                   <Translation locales='nl-BE'>
-                  <td className='comparison-table__cell u-text-end'>Uw eigen schuldeisersnummer</td>
+                  <td className='comparison-table__cell u-text-end'>Eigen schuldeisersnummer</td>
                   </Translation>
                   <td className='comparison-table__cell'>
                     <XIcon className='u-fill-dark-gray' alt='✘' />
@@ -86,7 +92,7 @@ export default class ProductComparisonNl extends React.Component {
                   </td>
                 </tr>
                 <tr className='comparison-table__row'>
-                  <td className='comparison-table__cell u-text-end'>Uw eigen betalingspagina's</td>
+                  <td className='comparison-table__cell u-text-end'>Creëer je eigen betalingspagina's</td>
                   <td className='comparison-table__cell'>
                     <XIcon className='u-fill-dark-gray' alt='✘' />
                   </td>
@@ -96,7 +102,7 @@ export default class ProductComparisonNl extends React.Component {
                 </tr>
                 <IfLocale hasInstantSignup>
                   <tr className='comparison-table__row'>
-                    <td className='comparison-table__cell u-text-end'>Onmiddellijke toegang</td>
+                    <td className='comparison-table__cell u-text-end'>Direct starten</td>
                     <td className='comparison-table__cell'>
                       <CheckMarkIcon className='u-fill-dark-gray' alt='✓' />
                     </td>
@@ -112,31 +118,31 @@ export default class ProductComparisonNl extends React.Component {
                 </tr>
                 <tr className='comparison-table__row'>
                   <td className='comparison-table__cell u-text-end'>Accepteer betalingen uit...</td>
-                  <td className='comparison-table__cell'>22 landen (Eurozone & UK)</td>
-                  <td className='comparison-table__cell'>22 landen (Eurozone & UK)</td>
+                  <td className='comparison-table__cell'>23 landen (Eurozone, UK, Zweden)</td>
+                  <td className='comparison-table__cell'>23 landen (Eurozone, UK, Zweden)</td>
                 </tr>
                 <tr className='comparison-table__row'>
-                  <td className='comparison-table__cell u-text-end'>Hoe machtigen</td>
+                  <td className='comparison-table__cell u-text-end'>Manier van machtigen</td>
                   <td className='comparison-table__cell'>Online</td>
                   <td className='comparison-table__cell'>Online, papier, telefoon</td>
                 </tr>
                 <tr className='comparison-table__row'>
-                  <td className='comparison-table__cell u-text-end'>Aantal verrichtingen per maand</td>
+                  <td className='comparison-table__cell u-text-end'>Aantal transacties per maand</td>
                   <td className='comparison-table__cell'>>0</td>
                   <td className='comparison-table__cell'>>500</td>
                 </tr>
                 <tr className='comparison-table__row'>
-                  <td className='comparison-table__cell u-text-end'>Maandelijkse kost</td>
+                  <td className='comparison-table__cell u-text-end'>Maandelijkse kosten</td>
                   <td className='comparison-table__cell'>€ 0</td>
                   <td className='comparison-table__cell'><Message pointer='pricing.pro_monthly_fee' /></td>
                 </tr>
                 <tr className='comparison-table__row'>
-                  <td className='comparison-table__cell u-text-end'>Kosten per verrichting</td>
+                  <td className='comparison-table__cell u-text-end'>Kosten per transactie</td>
                   <td className='comparison-table__cell'>
                     <Message pointer='pricing.per_transaction_amount_normal'/> tot maximaal <Message
                     pointer="pricing.cost_cap" />
                     </td>
-                  <td className='comparison-table__cell'><Message pointer='pricing.pro_cost_per_transaction'/> afhankelijk van het aantal verrichtingen</td>
+                  <td className='comparison-table__cell'><Message pointer='pricing.pro_cost_per_transaction'/> afhankelijk van het aantal transacties</td>
                 </tr>
               </tbody>
             </table>

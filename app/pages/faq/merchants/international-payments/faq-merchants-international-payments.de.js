@@ -8,9 +8,9 @@ export default class FaqMerchantsInternationalPaymentsDe extends React.Component
   render() {
     return (
       <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Internationale Zahlungen</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Internationale Zahlungen</h2>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           In welchen Ländern ist GoCardless verfügbar?
         </h3>
         <p className='para'>
@@ -19,7 +19,7 @@ export default class FaqMerchantsInternationalPaymentsDe extends React.Component
           Sie brauchen außerdem ein Bankkonto in der Eurozone oder im Vereinigten Königreich.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Von wo in Europa kann ich Zahlungen einziehen?
         </h3>
         <p className='para'>
@@ -31,7 +31,7 @@ export default class FaqMerchantsInternationalPaymentsDe extends React.Component
           Sie können außerdem Zahlungen in Pfund im Vereinigten Königreich einziehen.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Was ist das SEPA Lastschriftverfahren?
         </h3>
         <p className='para'>
@@ -46,7 +46,7 @@ export default class FaqMerchantsInternationalPaymentsDe extends React.Component
 
         { /* Bacs is only an international scheme for SEPA countries */ }
         <IfLocale domesticScheme='sepa'>
-          <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Was ist Bacs Direct Debit?
           </h3>
           <p className='para'>
@@ -60,14 +60,14 @@ export default class FaqMerchantsInternationalPaymentsDe extends React.Component
           </p>
         </IfLocale>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Welche Währungen unterstützt GoCardless?
         </h3>
         <p className='para'>
           Wir unterstützen Zahlungen in EUR (€) sowie in Pfund (£).
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Wann wird GoCardless auch außerhalb Europas verfügbar sein?
         </h3>
         <p className='para'>

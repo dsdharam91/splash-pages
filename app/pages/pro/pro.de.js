@@ -67,10 +67,10 @@ export default class ProDe extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-padding-Vxl'>
                 <div className='u-size-3of4 u-center'>
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                     Willkommen zu GoCardless Pro
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     GoCardless Pro wurde speziell für große Unternehmen entwickelt, und kombiniert die
                     Einfachheit unseres Produktes mit voller Kontrolle über Zahlungen und Kundenerlebnis.
                     Es lässt Sie Zahlungen sowohl in Deutschland als auch in Europa annehmen, alles mittels einer einfachen Integration.
@@ -82,10 +82,10 @@ export default class ProDe extends React.Component {
                       <WhiteLabelIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                       <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Nahtlos und unsichtbar
                     </div>
-                    <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                    <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       GoCardless Pro stellt Ihren Namen in den Vordergrund.
                       Sie haben volle Kontrolle über Zahlungsseiten und Email-Benachrichtungen an Ihre Kunden.
                     </p>
@@ -95,10 +95,10 @@ export default class ProDe extends React.Component {
                       <DeveloperIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                       <DeveloperIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Eine einfache, moderne API
                     </div>
-                    <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                    <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Die komplette Dokumentation zu GoCardless Pro ist kostenlos in
                       unseren <a href='https://developer.gocardless.com/pro' id='track-overview-docs'>API docs</a> verfügbar.
                       Wir haben hart daran gearbeitet, die Integration für Sie so einfach wie möglich zu gestalten.
@@ -109,10 +109,10 @@ export default class ProDe extends React.Component {
                       <MobileIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                       <MobileIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Funktioniert überall
                     </div>
-                    <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                    <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Wir machen es unglaublich einfach auf der Basis von GoCardless Pro zu entwickeln,
                       sodass Sie die nächste Generation Ihrer Webseite oder App kreieren können.
                     </p>
@@ -122,16 +122,16 @@ export default class ProDe extends React.Component {
                       <SecurityIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                       <SecurityIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Unumstößliche Sicherheit
                     </div>
-                    <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                    <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Wir haben alles für Sicherheit gegeben.
                       Wir speichern alle Bankverbindungen mittels RSA Verschlüsselung und kommunizieren ausschließlich über sichere Kanäle.
                     </p>
                   </div>
                 </div>
-                <p className='u-color-p u-margin-Txxl u-padding-Tm'>
+                <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
                   Sie möchten die API und unser Online Dashboard
                   ausprobieren? <a href='https://manage-sandbox.gocardless.com/signup'>
                   Erstellen Sie hier einen gratis Testaccount.
@@ -143,10 +143,10 @@ export default class ProDe extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-padding-Txl'>
                 <div className='u-size-1of2 u-center'>
-                  <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                     Sie sind in guter Gesellschaft
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Txs'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     Jeden Tag vertrauen zahlreiche der größten und respektiertesten Unternehmen der Welt GoCardless mit ihren Zahlungen.
                   </p>
                 </div>
@@ -159,7 +159,7 @@ export default class ProDe extends React.Component {
             <div id='optimizely-pro-video' className='u-hidden'>
               <div className='u-text-center u-padding-Vxxl'>
                 <div className='site-container u-padding-Vxl'>
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                     Schauen Sie sich eine kurze Einführung zu GoCardless Pro an
                   </h2>
                   <iframe src='https://player.vimeo.com/video/116341918'
@@ -173,11 +173,11 @@ export default class ProDe extends React.Component {
               <div className='u-padding-Vxl'>
                 <div className='u-size-1of2 u-center'>
                   <i className='europe-icon u-margin-Bs' />
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                     Sie möchten Zahlungen innerhalb Europas empfangen?
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                       GoCardless Pro ist der einzige Service, der es Ihnen ermöglicht Lastschrift
                       Zahlungen in Deutschland und innerhalb der Eurozone mit nur einer einzigen Integration zu empfangen.
                       Mit unserer API können Sie Zahlungen von über 500 Millionen Menschen in 22 europäischen Ländern annehmen.
@@ -194,11 +194,11 @@ export default class ProDe extends React.Component {
                     <PhoneIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                     <PhoneIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Tm'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tm'>
                     <Message pointer='phone_local' />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                       Sprechen Sie mit einem unserer Zahlungsexperten, um herauszufinden, wie GoCardless Ihnen helfen kann.
                     </p>
                   </div>
@@ -215,10 +215,10 @@ export default class ProDe extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-padding-Vxl'>
                 <div className='u-size-1of2 u-center'>
-                  <h2 className='u-text-heading u-color-heading u-text-xl u-text-light u-margin-Bs'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-xl u-text-light u-margin-Bs'>
                     Ihr Dashboard
                   </h2>
-                  <div className='u-text-heading u-color-heading u-text-l u-text-light'>
+                  <div className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                     Managen Sie Ihre Zahlungen und Kunden einfach online
                   </div>
                   <hr className='u-margin-Vxxl' />
@@ -262,10 +262,10 @@ export default class ProDe extends React.Component {
             <div className='u-text-center u-padding-Vxxl'>
               <div className='site-container u-padding-Vxl'>
                 <div className='u-size-2of3 u-center'>
-                  <h2 className='u-text-heading u-color-heading u-text-light u-text-xl'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-xl'>
                     <Message pointer='pricing.pro_cost_per_transaction' /> pro Zahlung
                   </h2>
-                  <p className='u-text-s u-color-p u-margin-Vxs'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                     Wettbewerbsfähige Preise für Unternehmen aller Größen.<br />
                   </p>
                   <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
@@ -277,7 +277,7 @@ export default class ProDe extends React.Component {
             <hr className='u-margin-An' />
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-size-1of2 u-center u-padding-Vxl'>
-                <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bm'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bm'>
                   Kontaktieren Sie uns für ein kostenloses Angebot
                 </h2>
                 <Link to='contact_sales' query={{ s: 'pro' }}
@@ -287,7 +287,7 @@ export default class ProDe extends React.Component {
                 <a href='https://manage-sandbox.gocardless.com/signup'
                 id='track-cta-try-pro-dash' className='btn btn--hollow'>Testen Sie Pro gratis</a>
                 <hr className='u-margin-Vxxl' />
-                <p className='u-color-p'>
+                <p className='u-color-dark-gray'>
                   <strong>Möchten Sie uns lieber persönlich sprechen?</strong><br />
                   Dann lassen Sie sich von uns beraten unter <Message pointer='phone_local' />.<br />
                   Wir sind montags bis freitags von 10 bis 19 Uhr für Sie da.
