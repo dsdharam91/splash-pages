@@ -117,7 +117,7 @@ export default class HomeEn extends React.Component {
         </div>
 
         <div className='site-container'>
-          <div className='quote u-text-center'>
+          <div className='quote page-hero--features u-text-center'>
             <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm'>
               "GoCardless is one of the best payments companies we've worked with.
               I'd highly recommend them to any company that cares about a providing good user experience
