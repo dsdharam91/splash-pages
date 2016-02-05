@@ -36,6 +36,7 @@ import CustomerSupportFrench from '../pages/about/jobs/positions/customer-suppor
 import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
 import PaymentsProcessingSpecialist from '../pages/about/jobs/positions/payments-processing-specialist.js';
 import InternalRecruiter from '../pages/about/jobs/positions/internal-recruiter.js';
+import SalesDevelopmentRepresentativeOutbound from '../pages/about/jobs/positions/sales-development-representative-outbound.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -423,6 +424,12 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/a-propos/offres/charge-de-compte',
+      },
+    },
+  ],
+  [SalesDevelopmentRepresentativeOutbound, { name: 'jobs_sales_development_representative_outbound', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/sales-development-representative-outbound',
       },
     },
   ],
