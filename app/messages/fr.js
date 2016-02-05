@@ -247,7 +247,7 @@ export default {
     },
   },
   jobs_sales_development_representative_french: {
-    title: 'Chargé de compte',
+    title: 'Chargé de développement commercial',
     description: '',
   },
   jobs_customer_support_french: {
