@@ -519,6 +519,10 @@ export default {
     title: 'French Sales Development Representative',
     description: '',
   },
+  jobs_sales_development_representative_outbound: {
+    title: 'Sales Development Representative: Outbound',
+    description: '',
+  },
   jobs_account_manager_germany: {
     title: 'Account Manager: Germany',
     description: '',
