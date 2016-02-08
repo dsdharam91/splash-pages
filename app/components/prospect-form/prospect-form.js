@@ -165,17 +165,17 @@ export default class ProspectForm extends React.Component {
           <input className='input input--stacked' id='prospect_phone_number' name='prospect[phone_number]'
             placeholder={getMessage(messages, 'prospect_form.sales.phone_placeholder')} required type='text' />
 
-          <Translation locales={['en-GB']}>
+          <Translation locales={['en-GB', 'fr-FR']}>
             { this.props.showNumberOfPayments &&
               <div>
                 <label className='label label--stacked' htmlFor='prospect_metadata_number_of_payments'>
-                  How many payments could we have helped you collect last month?
+                  <Message pointer='prospect_form.sales.number_of_payments_label' />
                 </label>
                 <select className='input--stacked'
                 id='prospect_metadata_number_of_payments'
                 name='prospect[metadata][number_of_payments]'
                 defaultValue=''>
-                  <option value=''>Select number of payments taken last month</option>
+                  <option value=''><Message pointer='prospect_form.sales.number_of_payments_placeholder' /></option>
                   <option value='0-100'>0-100</option>
                   <option value='100-500'>100-500</option>
                   <option value='500+'>500+</option>
@@ -184,24 +184,10 @@ export default class ProspectForm extends React.Component {
             }
 
             <label className='label label--stacked' htmlFor='prospect_metadata_message'>
-              What are your business&apos;s specific needs?
+              <Message pointer='prospect_form.sales.specific_needs_label' />
             </label>
             <textarea className='input input--stacked input--textarea'
             id='prospect_metadata_message' name='prospect[metadata][message]' rows='3' />
-          </Translation>
-
-          <Translation locales='fr'>
-            <label className='label label--stacked' htmlFor='prospect_metadata_number_of_payments'>
-              Combien de paiements souhaitez-vous prélever chaque mois?
-            </label>
-            <select className='input--stacked'
-            id='prospect_metadata_number_of_payments'
-            name='prospect[metadata][number_of_payments]'
-            defaultValue=''>
-              <option value=''>Choisissez le nombre de paiements</option>
-              <option value='0-50'>0-50</option>
-              <option value='50+'>50+</option>
-            </select>
           </Translation>
 
           <button className='btn btn--block u-margin-Tl' type='submit'>
