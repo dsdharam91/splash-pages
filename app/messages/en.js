@@ -373,6 +373,10 @@ export default {
     title: 'GoCardless transforms cashflow for accountants',
     description: '',
   },
+  telcos: {
+    title: 'Direct Debit for Telecommunication Companies',
+    description: '',
+  },
   energy: {
     title: 'Direct Debit for Energy Companies',
     description: '',
