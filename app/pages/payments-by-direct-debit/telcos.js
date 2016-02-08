@@ -71,22 +71,22 @@ export default class Telcos extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl u-text-center'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-padding-Bl'>
               GoCardless powers Direct Debit payments for over <Message pointer='number_of_merchants' /> merchants
             </h2>
             <div className='grid__cell u-size-2of3 u-link-clean u-padding-Vm u-padding-Hn'>
-              <div className='product-grid__container u-text-center u-padding-Vl'>
+              <div className='product-grid__container u-text-center u-padding-Tl u-padding-Bxxl'>
                 <i role='img' className='connexin-logo stories-item__logo--connexin'></i>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txxs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txxs'>
                   "GoCardless helped us improve both the speed and accuracy of our bill run without any of the complexity of traditional
                   providers. We can easily see who’s paid, and it automatically notifies us when payments fail."
                 </p>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txxs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txxs'>
                   Alex Yeung, Co-Founder of Connexin
                 </p>
               </div>
             </div>
-            <div className='u-text-center u-padding-Vs u-center'>
+            <div className='u-text-center u-padding-Vs u-center u-margin-Tl'>
               <img src='/images/logos/pro-logos@2x.png' className='u-size-2of3' />
             </div>
           </div>
@@ -148,8 +148,8 @@ export default class Telcos extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
-            <div className='grid__cell u-size-1of2 u-text-center'>
-              <img src='/images/pro/payment.jpg' className='u-padding-Rl' />
+            <div className='grid__cell u-size-1of2 u-text-center u-padding-Rl'>
+              <img src='/images/pro/payment.jpg' className='pro-page__dashboard-image u-shadow-medium' />
             </div>
             <div className='grid__cell u-size-1of2 u-margin-Tl'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
