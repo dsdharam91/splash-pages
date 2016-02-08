@@ -52,6 +52,9 @@ export default {
       email_placeholder: 'exemple@votresociete.fr',
       phone_label: 'Votre téléphone professionnel',
       phone_placeholder: '0123456789',
+      number_of_payments_label: 'Combien de paiements souhaitez-vous prélever chaque mois?',
+      number_of_payments_placeholder: 'Choisissez le nombre de paiements',
+      specific_needs_label: 'What are your business\'s specific needs?',
       submit: 'Contactez Nous',
       success_messages: {
         '0-100': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
