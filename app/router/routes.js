@@ -47,6 +47,7 @@ import LegalOldRestrictions20140919 from '../pages/legal/old-restrictions/2014-0
 import LegalPartners from '../pages/legal/partners/legal-partners';
 import LegalPrivacy from '../pages/legal/privacy/legal-privacy';
 import LegalRestrictions from '../pages/legal/restrictions/legal-restrictions';
+import LegalPaymentTimings from '../pages/legal/payment-timings/legal-payment-timings';
 
 import Partners from '../pages/partners/partners';
 import PartnersClearBooks from '../pages/partners/clearbooks/partners-clearbooks';
@@ -640,6 +641,23 @@ export const config = Immutable.fromJS([
       },
       es: {
         path: '/legal/privacidad',
+      },
+    },
+  ],
+  // Payment timings route doesn't have category because it shouldn't
+  // appear in sidebar for the time being
+  [LegalPaymentTimings, { name: 'legal_payment_timings' }, {
+      'en-GB': {
+        path: '/legal/payment-timings',
+      },
+      'en-EU': {
+        path: '/legal/payment-timings',
+      },
+      'en-IE': {
+        path: '/legal/payment-timings',
+      },
+      'en-SE': {
+        path: '/legal/payment-timings',
       },
     },
   ],

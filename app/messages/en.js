@@ -276,6 +276,11 @@ export default {
     nav_title: 'Customer agreement',
     description: '',
   },
+  legal_payment_timings: {
+    title: 'Our terms of service - Payment timings',
+    nav_title: 'Payment timings',
+    description: '',
+  },
   legal_merchants: {
     title: 'Our terms of service - Merchants',
     nav_title: 'Merchant agreement',
