@@ -71,36 +71,36 @@ export default class Energy extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
               GoCardless powers Direct Debit payments for over <Message pointer='number_of_merchants' /> merchants
             </h2>
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
-              <div className='product-grid__container u-text-center u-padding-Vl'>
+              <div className='product-grid__container u-text-center u-padding-Tl u-padding-Bxxl'>
                 <i role='img' className='so-energy-logo stories-item__logo--so-energy'></i>
-                <p className='u-size-9of10 u-center u-color-p u-margin-Txxs'>
+                <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
                   "GoCardless allows us to automate our entire customer Direct Debit collection, meaning we only deal with the
                   exceptions. What's more, the integration between Junifer and GoCardless ensures customer records are
                   updated automatically, so we know why a payment has failed and can communicate this back to our customers."
                 </p>
-                <p className='u-size-9of10 u-center u-color-p u-margin-Txxs'>
+                <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
                   Simon Oscroft, So Energy
                 </p>
               </div>
             </div>
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
-              <div className='product-grid__container u-text-center u-padding-Vl'>
+              <div className='product-grid__container u-text-center u-padding-Tl u-padding-Bxxl'>
                 <i role='img' className='tempus-energy-logo stories-item__logo--tempus-energy'></i>
-                <p className='u-size-9of10 u-center u-color-p u-margin-Txxs'>
+                <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
                   "GoCardless has made our payment process much simpler to manage. It allows us to seamlessly set up and bill our
                   customers by Direct Debit on a recurring basis. Their system is incredibly easy to use meaning our customers are
                   happy and our team spend less time on administration and more time on growing the business."
                 </p>
-                <p className='u-size-9of10 u-center u-color-p u-margin-Txxs'>
+                <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
                   Loic Hares, Tempus Energy
                 </p>
               </div>
             </div>
-            <div className='u-text-center u-padding-Vs u-center'>
+            <div className='u-text-center u-padding-Vs u-center u-margin-Tl'>
               <img src='/images/logos/pro-logos@2x.png' className='u-size-2of3' />
             </div>
           </div>
@@ -162,8 +162,8 @@ export default class Energy extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
-            <div className='grid__cell u-size-1of2 u-text-center'>
-              <img src='/images/pro/payment.jpg' className='u-padding-Rl' />
+            <div className='grid__cell u-size-1of2 u-text-center u-padding-Rl'>
+              <img src='/images/pro/payment.jpg' className='pro-page__dashboard-image u-shadow-medium' />
             </div>
             <div className='grid__cell u-size-1of2 u-margin-Tl'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
