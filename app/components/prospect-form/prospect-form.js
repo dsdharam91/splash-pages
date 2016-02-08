@@ -64,6 +64,7 @@ export default class ProspectForm extends React.Component {
 
   handleChange(event) {
     const input = event.target;
+
     var formData = assign({}, this.state.formData, {
       [input.name]: input.value,
     });
@@ -108,8 +109,6 @@ export default class ProspectForm extends React.Component {
         this.setState({ isSubmitting: false });
 
         if (response.ok) {
-          // Scroll to top showing notification
-          window.scrollTo(0, 0);
           this.setState({ isSuccess: true });
           this.setState({ responseData: response && response.data });
         } else {
@@ -131,69 +130,81 @@ export default class ProspectForm extends React.Component {
 
     let salesForm = (
       <div>
-        <form acceptCharset='UTF-8' action={endpoint} method='post' onChange={this.handleChange} onSubmit={this.onSubmit}>
-          <input className='u-is-hidden' id='prospect_nofill' name='prospect[nofill]' placeholder='Do not fill me in' type='email' />
+        <div className={classNames({ 'u-is-hidden': this.state.isSuccess })}>
 
-          <div className={classNames({
+          <form acceptCharset='UTF-8' action={endpoint} method='post' onChange={this.handleChange} onSubmit={this.onSubmit}>
+            <input className='u-is-hidden' id='prospect_nofill' name='prospect[nofill]' placeholder='Do not fill me in' type='email' />
+
+            <div className={classNames({
             'u-is-hidden notice notice--error u-margin-Bm': true,
-            'u-is-visible': !this.state.isSuccess,
-          })}>
-            { this.state.errorMessage }
-          </div>
-          <div className={classNames({
-            'u-is-hidden notice notice--success u-margin-Bm': true,
-            'u-is-visible': this.state.isSuccess,
-          })}>
-            <Message pointer={`prospect_form.sales.success_messages.${size}`} />
-          </div>
+            'u-is-visible': this.state.errorMessage})}>
+              { this.state.errorMessage }
+            </div>
 
-          <label className='label label--stacked' htmlFor='prospect_name'>
-            <Message pointer='prospect_form.sales.name_label' />
-          </label>
-          <input className='input input--stacked' id='prospect_name' name='prospect[name]'
-            placeholder={getMessage(messages, 'prospect_form.sales.name_placeholder')} required type='text' />
-
-          <label className='label label--stacked' htmlFor='prospect_email'>
-            <Message pointer='prospect_form.sales.email_label' />
-          </label>
-          <input className='input input--stacked' id='prospect_email' name='prospect[email]'
-            placeholder={getMessage(messages, 'prospect_form.sales.email_placeholder')} required type='email' />
-
-          <label className='label label--stacked' htmlFor='prospect_phone_number'>
-            <Message pointer='prospect_form.sales.phone_label' />
-          </label>
-          <input className='input input--stacked' id='prospect_phone_number' name='prospect[phone_number]'
-            placeholder={getMessage(messages, 'prospect_form.sales.phone_placeholder')} required type='text' />
-
-          <Translation locales={['en-GB', 'fr-FR']}>
-            { this.props.showNumberOfPayments &&
-              <div>
-                <label className='label label--stacked' htmlFor='prospect_metadata_number_of_payments'>
-                  <Message pointer='prospect_form.sales.number_of_payments_label' />
-                </label>
-                <select className='input--stacked'
-                id='prospect_metadata_number_of_payments'
-                name='prospect[metadata][number_of_payments]'
-                defaultValue=''>
-                  <option value=''><Message pointer='prospect_form.sales.number_of_payments_placeholder' /></option>
-                  <option value='0-100'>0-100</option>
-                  <option value='100-500'>100-500</option>
-                  <option value='500+'>500+</option>
-                </select>
-              </div>
-            }
-
-            <label className='label label--stacked' htmlFor='prospect_metadata_message'>
-              <Message pointer='prospect_form.sales.specific_needs_label' />
+            <label className='label label--stacked' htmlFor='prospect_name'>
+              <Message pointer='prospect_form.sales.name_label' />
             </label>
-            <textarea className='input input--stacked input--textarea'
-            id='prospect_metadata_message' name='prospect[metadata][message]' rows='3' />
-          </Translation>
+            <input className='input input--stacked' id='prospect_name' name='prospect[name]'
+              placeholder={getMessage(messages, 'prospect_form.sales.name_placeholder')} required type='text' />
 
-          <button className='btn btn--block u-margin-Tl' type='submit'>
-            <Message pointer='prospect_form.sales.submit' />
-          </button>
-        </form>
+            <label className='label label--stacked' htmlFor='prospect_email'>
+              <Message pointer='prospect_form.sales.email_label' />
+            </label>
+            <input className='input input--stacked' id='prospect_email' name='prospect[email]'
+              placeholder={getMessage(messages, 'prospect_form.sales.email_placeholder')} required type='email' />
+
+            <label className='label label--stacked' htmlFor='prospect_phone_number'>
+              <Message pointer='prospect_form.sales.phone_label' />
+            </label>
+            <input className='input input--stacked' id='prospect_phone_number' name='prospect[phone_number]'
+              placeholder={getMessage(messages, 'prospect_form.sales.phone_placeholder')} required type='text' />
+
+            <Translation locales={['en-GB']}>
+              <label className='label label--stacked' htmlFor='prospect_metadata_number_of_payments'>
+                How many payments could we have helped you collect last month?
+              </label>
+              <select className='input--stacked'
+              id='prospect_metadata_number_of_payments'
+              name='prospect[metadata][number_of_payments]'
+              defaultValue=''>
+                <option value=''>Select number of payments taken last month</option>
+                <option value='0-100'>0-100</option>
+                <option value='100-500'>100-500</option>
+                <option value='500+'>500+</option>
+              </select>
+
+              <label className='label label--stacked' htmlFor='prospect_metadata_message'>
+                What are your business&apos;s specific needs?
+              </label>
+              <textarea className='input input--stacked input--textarea'
+              id='prospect_metadata_message' name='prospect[metadata][message]' rows='3' />
+            </Translation>
+
+            <Translation locales='fr'>
+              <label className='label label--stacked' htmlFor='prospect_metadata_number_of_payments'>
+                Combien de paiements souhaitez-vous prélever chaque mois?
+              </label>
+              <select className='input--stacked'
+              id='prospect_metadata_number_of_payments'
+              name='prospect[metadata][number_of_payments]'
+              defaultValue=''>
+                <option value=''>Choisissez le nombre de paiements</option>
+                <option value='0-50'>0-50</option>
+                <option value='50+'>50+</option>
+              </select>
+            </Translation>
+
+            <button type='submit' className='btn btn--block u-margin-Tl contact-sales'>
+              <Message pointer='prospect_form.sales.submit' />
+            </button>
+          </form>
+        </div>
+
+        <div className={classNames({
+        'u-is-hidden notice notice--success u-margin-Bm': true,
+        'u-is-visible': this.state.isSuccess})}>
+          <Message pointer={`prospect_form.sales.success_messages.${size}`} />
+        </div>
       </div>
     );
 
