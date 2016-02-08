@@ -524,24 +524,20 @@ export default {
     title: 'Enterprise Account Manager',
     description: '',
   },
-  jobs_sales_development_representative: {
-    title: 'Sales Development Representative',
-    description: '',
-  },
-  jobs_sales_development_representative_french: {
-    title: 'French Sales Development Representative',
+  jobs_sales_development_representative_inbound: {
+    title: 'SDR: Inbound',
     description: '',
   },
   jobs_sales_development_representative_outbound: {
-    title: 'Sales Development Representative: Outbound',
+    title: 'SDR: Outbound',
+    description: '',
+  },
+  jobs_sales_development_representative_french: {
+    title: 'SDR: France',
     description: '',
   },
   jobs_account_manager_germany: {
     title: 'Account Manager: Germany',
-    description: '',
-  },
-  jobs_business_development_germany: {
-    title: 'Business Development: Germany',
     description: '',
   },
   jobs_content_manager: {
