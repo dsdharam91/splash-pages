@@ -10,22 +10,22 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
     return (
       <JobsPage>
         <Translation locales='fr'>
-          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Chargé de compte</h3>
+          <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Chargé de développement commercial - France</h3>
           <p className='para'>
-            Contribuez à la croissance globale de GoCardless.
+            Contribuez à la croissance mondiale de GoCardless.
           </p>
           <p className='para'>
-            Nous voulons passer d'un volume de 1 milliard d'Euros par an à 10 millards.
+            Notre ambition est de passer d'un volume de 1 milliard d'Euros par an à 10 milliards.
             Notre <a href='https://gocardless.com/blog/a-new-payment-network-for-the-internet/' target='_blank'> vision </a>
-            est de créer un réseau global de paiements, rendant les paiements sur internet
-            plus simples quel que soit le pays où vous habitiez.
+            est de créer un réseau mondial de paiements, afin de rendre les paiements sur
+            internet plus simples partout dans le monde.
           </p>
           <p className='para'>
-            Après notre lancement en France début 2015 - couvert
+            Suite à notre lancement en France début 2015 - couvert
             par <a href='http://www.lefigaro.fr/societes/2015/04/12/20005-20150412ARTFIG00171-gocardless-pret-a-bousculer-les-banques-francaises.php' target='_blank'>
             Le Figaro</a> et <a href='http://www.lesechos.fr/13/04/2015/lesechos.fr/0213743712_le-prelevement-bancaire-seduit-de-nouveaux-acteurs.htm' target='_blank'>
-            Les Echos</a> - nous grandissons rapidement en France, où nous
-            servons des centaines d'entreprises comme Habitat, Mangopay et Zenchef.
+            Les Echos</a> - notre croissance s’accélère en France, où nous avons
+            pour clients des centaines d'entreprises comme Habitat, Mangopay et Zenchef.
           </p>
           <p className='para'>
             Nous recherchons une personne enthousiaste et ambitieuse pour rejoindre
@@ -33,16 +33,16 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
           </p>
           <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Le rôle</h4>
           <p className='para'>
-            L'équipe de vente de GoCardless combine une expertise sur nos produits
-            et une ambition d'aider nos clients actuels et futurs à réussir, dans
-            une vaste gamme de secteurs. En tant que chargé de compte, vous
-            découvrirez et définirez nos meilleures opportunités de croissance,
-            y compris les nouveaux clients, secteurs et stratégies commerciales.
-            Vous serez le premier point de contact pour nos prospects et vous
-            conduirez des campagnes commerciales pour toucher de nouveaux marchands.
-            Vous travaillerez de manière rapprochée avec le reste de l'entreprise et
-            les leaders produit à travers GoCardless pour aider à accélérer notre
-            croissance.
+            L'équipe de vente de GoCardless combine l’expertise de nos produits avec
+            l’ambition d'accompagner nos clients actuels et futurs vers la réussite dans
+            de multiples secteurs. En tant que chargé de développement commercial, vous
+            découvrirez et formaliserez les plus grosses opportunités de croissance en
+            terme de nouveaux clients, nouvelles industries et d’améliorations de nos
+            stratégies commerciales. Vous serez le premier point de contact pour nos
+            prospects rentrants et vous conduirez des campagnes de démarchage commercial
+            pour atteindre de nouveaux clients. Vous travaillerez de manière rapprochée
+            avec le reste de l'entreprise et les directeurs produit de GoCardless afin
+            d’aider à accélérer notre croissance.
           </p>
           <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Le/la candidat(e) idéal(e)</h4>
           <ul className='list u-margin-Tm'>
@@ -51,7 +51,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
               ou jeune diplômé d'école de commerce ou d'ingénieur.
             </li>
             <li>
-              La capacité de comprendre notre API et de bâtir de bonnes relations
+              La capacité de comprendre notre API et de bâtir de solides relations
               avec des clients très techniques.
             </li>
             <li>
@@ -59,11 +59,11 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
               d'autres entreprises à grandir.
             </li>
             <li>
-              La motivation et flexibilité de bien travailler dans un environnement
-              changeant, en croissance très rapide.
+              La motivation et flexibilité de travailler efficacement dans un environnement
+              mobile et en croissance très rapide.
             </li>
             <li>
-              Le français est votre langue natale et vous maîtrisez parfaitement le
+              Le français est votre langue maternelle et vous maîtrisez parfaitement le
               français et l'anglais.
             </li>
           </ul>
@@ -74,13 +74,13 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
             écrit <a href='https://gocardless.com/blog/the-account-executive-interview-process/' target='_blank'> un article </a>
             qui détaille notre processus d'entretiens et vous donne quelques conseils pour
             bien les préparer. Nous avons également
-            identifié <a href='https://gocardless.com/blog/how-we-train-salespeople/' target='_blank'> cinq traits </a>
-            vitaux pour réussir dans notre équipe.
+            identifié <a href='https://gocardless.com/blog/how-we-train-salespeople/' target='_blank'> cinq traits vitaux </a>
+            pour réussir dans notre équipe.
           </p>
           <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Les bénéfices</h4>
           <ul className='list u-margin-Tm'>
             <li>
-              Salaire concurrentiel, commission et options.
+              Salaire concurrentiel, commission et stock options.
             </li>
             <li>
               Macbook Air et écran Thunderbolt 27 pouces.
@@ -93,7 +93,7 @@ export default class SalesDevelopmentRepresentativeFrench extends React.Componen
             </li>
           </ul>
           <p className='para'>
-            Si vous hésitez, postulez &ndash; nous aimerions vous rencontrer.
+            Si vous hésitez, postulez – nous aimerions apprendre à vous connaître.
           </p>
           <p className='para'>
            Le rôle sera basé à Londres.

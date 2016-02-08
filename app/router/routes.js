@@ -13,6 +13,7 @@ import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/p
 import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-debit';
 import Accountants from '../pages/payments-by-direct-debit/accountants';
 import Telcos from '../pages/payments-by-direct-debit/telcos';
+import Energy from '../pages/payments-by-direct-debit/energy';
 
 import Europe from '../pages/europe/europe';
 import Refer from '../pages/refer/refer';
@@ -22,7 +23,6 @@ import About from '../pages/about/about';
 import Team from '../pages/about/team/team';
 
 import Jobs from '../pages/about/jobs/jobs';
-import ProductEngineer from '../pages/about/jobs/positions/product-engineer';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships';
@@ -38,6 +38,7 @@ import CustomerSupportFrench from '../pages/about/jobs/positions/customer-suppor
 import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
 import PaymentsProcessingSpecialist from '../pages/about/jobs/positions/payments-processing-specialist.js';
 import InternalRecruiter from '../pages/about/jobs/positions/internal-recruiter.js';
+import SalesDevelopmentRepresentativeOutbound from '../pages/about/jobs/positions/sales-development-representative-outbound.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -48,6 +49,7 @@ import LegalOldRestrictions20140919 from '../pages/legal/old-restrictions/2014-0
 import LegalPartners from '../pages/legal/partners/legal-partners';
 import LegalPrivacy from '../pages/legal/privacy/legal-privacy';
 import LegalRestrictions from '../pages/legal/restrictions/legal-restrictions';
+import LegalPaymentTimings from '../pages/legal/payment-timings/legal-payment-timings';
 
 import Partners from '../pages/partners/partners';
 import PartnersClearBooks from '../pages/partners/clearbooks/partners-clearbooks';
@@ -317,6 +319,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [Energy, { name: 'energy' }, {
+      'en-GB': {
+        path: '/energy',
+      },
+    },
+  ],
   [Europe, { name: 'europe' }, {
       'en-GB': {
         path: '/europe',
@@ -383,12 +391,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [ProductEngineer, { name: 'jobs_product_engineer', category: 'jobs.engineering' }, {
-      en: {
-        path: '/about/jobs/product-engineer',
-      },
-    },
-  ],
   [SoftwareEngineer, { name: 'jobs_software_engineer', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/software-engineer',
@@ -437,6 +439,12 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/a-propos/offres/charge-de-compte',
+      },
+    },
+  ],
+  [SalesDevelopmentRepresentativeOutbound, { name: 'jobs_sales_development_representative_outbound', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/sales-development-representative-outbound',
       },
     },
   ],
@@ -647,6 +655,23 @@ export const config = Immutable.fromJS([
       },
       es: {
         path: '/legal/privacidad',
+      },
+    },
+  ],
+  // Payment timings route doesn't have category because it shouldn't
+  // appear in sidebar for the time being
+  [LegalPaymentTimings, { name: 'legal_payment_timings' }, {
+      'en-GB': {
+        path: '/legal/payment-timings',
+      },
+      'en-EU': {
+        path: '/legal/payment-timings',
+      },
+      'en-IE': {
+        path: '/legal/payment-timings',
+      },
+      'en-SE': {
+        path: '/legal/payment-timings',
       },
     },
   ],

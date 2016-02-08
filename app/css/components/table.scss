@@ -18,3 +18,28 @@
 .table--faq th {
   padding: $space-small 0;
 }
+
+.table--payment-timings {
+  @extend .table;
+  @extend .u-color-dark-gray;
+  border-bottom: 1px solid $gray;
+}
+
+.table--payment-timings tr {
+  border-top: 1px solid $gray;
+}
+
+.table--payment-timings tr:nth-child(1) {
+  border-top: none;
+}
+
+.table--payment-timings td,
+.table--payment-timings th {
+  width: 33%;
+  padding: $space-small;
+}
+
+.table--payment-timings td {
+  border-right: 1px solid $gray;
+  border-left: 1px solid $gray;
+}

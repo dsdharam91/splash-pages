@@ -276,6 +276,11 @@ export default {
     nav_title: 'Customer agreement',
     description: '',
   },
+  legal_payment_timings: {
+    title: 'Our terms of service - Payment timings',
+    nav_title: 'Payment timings',
+    description: '',
+  },
   legal_merchants: {
     title: 'Our terms of service - Merchants',
     nav_title: 'Merchant agreement',
@@ -370,6 +375,10 @@ export default {
   },
   telcos: {
     title: 'Direct Debit for Telecommunication Companies',
+    description: '',
+  },
+  energy: {
+    title: 'Direct Debit for Energy Companies',
     description: '',
   },
   partners_guide: {
@@ -491,12 +500,8 @@ export default {
       title: 'Operations',
     },
   },
-  jobs_product_engineer: {
-    title: 'Product Engineer',
-    description: '',
-  },
   jobs_software_engineer: {
-    title: 'Backend Software Engineer',
+    title: 'Software Engineer',
    description: '',
   },
   jobs_site_reliability_engineer: {
@@ -525,6 +530,10 @@ export default {
   },
   jobs_sales_development_representative_french: {
     title: 'French Sales Development Representative',
+    description: '',
+  },
+  jobs_sales_development_representative_outbound: {
+    title: 'Sales Development Representative: Outbound',
     description: '',
   },
   jobs_account_manager_germany: {
