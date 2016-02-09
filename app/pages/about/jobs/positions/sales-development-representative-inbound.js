@@ -1,14 +1,14 @@
 import React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class SalesDevelopmentRepresentative extends React.Component {
-  displayName = 'SalesDevelopmentRepresentative'
+export default class SalesDevelopmentRepresentativeInbound extends React.Component {
+  displayName = 'SalesDevelopmentRepresentativeInbound'
 
   render() {
 
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Sales Development Representative</h3>
+            <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Sales Development Representative: Inbound</h3>
         <p className='para'>
           Drive GoCardless’s global growth.
         </p>

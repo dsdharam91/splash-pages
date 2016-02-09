@@ -29,7 +29,7 @@ import EngineeringInternships from '../pages/about/jobs/positions/engineering-in
 import DataInfrastructureEngineer from '../pages/about/jobs/positions/data-infrastructure-engineer';
 import Designers from '../pages/about/jobs/positions/designers';
 import EnterpriseAccountManager from '../pages/about/jobs/positions/enterprise-account-manager';
-import SalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative';
+import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
 import SalesDevelopmentRepresentativeFrench from '../pages/about/jobs/positions/sales-development-representative-french';
 import AccountManagerGermany from '../pages/about/jobs/positions/account-manager-germany';
 import ContentManager from '../pages/about/jobs/positions/content-manager';
@@ -427,9 +427,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [SalesDevelopmentRepresentative, { name: 'jobs_sales_development_representative', category: 'jobs.sales' }, {
+  [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
       en: {
-        path: '/about/jobs/sales-development-representative',
+        path: '/about/jobs/sales-development-representative-inbound',
       },
     },
   ],
