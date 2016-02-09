@@ -29,20 +29,20 @@ input, textarea {
 
   // FF < 19
   &:-moz-placeholder {
-    color: $dark-gray;
+    color: $medium-gray;
   }
 
   // FF >= 19
   &::-moz-placeholder {
-    color: $dark-gray;
+    color: $medium-gray;
   }
 
   // IE 10
   &:-ms-input-placeholder {
-    color: $dark-gray;
+    color: $medium-gray;
   }
 
   &::-webkit-input-placeholder {
-    color: $dark-gray;
+    color: $medium-gray;
   }
 }
