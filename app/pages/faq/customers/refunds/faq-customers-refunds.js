@@ -50,6 +50,9 @@ export default class FaqCustomersRefunds extends React.Component {
           <a href='/direct-debit/guarantee/' className='u-link-color-p u-text-underline'>Direct Debit Guarantee</a>.
         </p>
 
+        <Translation locales='en-SE'>
+        </Translation>
+
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How can I cancel my Direct Debit?
         </h3>
