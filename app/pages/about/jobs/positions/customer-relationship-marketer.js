@@ -69,8 +69,8 @@ export default class CustomerRelationshipMarketer extends React.Component {
           </li>
         </ul>
         <p className='para'>
-          In your application, please include your CV and a cover letter
-          explaining why you are a great candidate for this position.
+          This role would ideally suit someone with 2–4 years’ experience in B2B email marketing,
+          however we welcome a wide diversity of candidates &ndash; if you're unsure, please apply.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/77454' className='btn u-margin-Vs'>
           Apply now
