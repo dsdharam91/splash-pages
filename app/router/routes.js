@@ -36,7 +36,7 @@ import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 import CustomerSupportFrench from '../pages/about/jobs/positions/customer-support-french';
 import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
 import PaymentsProcessingSpecialist from '../pages/about/jobs/positions/payments-processing-specialist.js';
-import InternalRecruiter from '../pages/about/jobs/positions/internal-recruiter.js';
+import Recruiter from '../pages/about/jobs/positions/recruiter.js';
 import SalesDevelopmentRepresentativeOutbound from '../pages/about/jobs/positions/sales-development-representative-outbound.js';
 import CustomerRelationshipMarketer from '../pages/about/jobs/positions/customer-relationship-marketer.js';
 
@@ -484,9 +484,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [InternalRecruiter, { name: 'jobs_internal_recruiter', category: 'jobs.operations' }, {
+  [Recruiter, { name: 'jobs_recruiter', category: 'jobs.operations' }, {
       en: {
-        path: '/about/jobs/internal-recruiter',
+        path: '/about/jobs/recruiter',
       },
     },
   ],

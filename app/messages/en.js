@@ -559,8 +559,8 @@ export default {
     title: 'Payments Processing Specialist',
     description: '',
   },
-  jobs_internal_recruiter: {
-    title: 'Internal Recruiter',
+  jobs_recruiter: {
+    title: 'Recruiter',
     description: '',
   },
   jobs_customer_relationship_marketer: {
