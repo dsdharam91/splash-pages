@@ -1,6 +1,8 @@
 import React from 'react';
 import FaqCustomersPage from '../faq-customers-page';
 import Message from '../../../../components/message/message';
+import Translation from '../../../../components/translation/translation';
+import IfLocale from '../../../../components/if-locale/if-locale';
 import Href from '../../../../components/href/href';
 
 export default class FaqCustomersRefunds extends React.Component {
@@ -21,12 +23,19 @@ export default class FaqCustomersRefunds extends React.Component {
           If you are struggling to make contact with the merchant, or the merchant
           refuses to offer you a refund, please contact us so we can assist you.
         </p>
+        <Translation locales={['en']} exclude={['en-SE']}>
         <p className='para'>
           Your payments are protected by the the&nbsp;
           <a href='/direct-debit/guarantee/' className='u-link-color-p u-text-underline'>
             Direct Debit Guarantee
           </a> at all times.
         </p>
+        </Translation>
+        <Translation locales='en-SE'>
+         <p className='para'>
+          Your payments are protected by the Autogiro scheme rules and the Swedish Payment Services Act (2010:751) at all times.
+        </p>
+        </Translation>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What do I do if I believe I have been a victim of fraud?

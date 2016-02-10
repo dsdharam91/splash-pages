@@ -1,6 +1,8 @@
 import React from 'react';
 import FaqCustomersPage from '../faq-customers-page';
 import Message from '../../../../components/message/message';
+import Translation from '../../../../components/translation/translation';
+import IfLocale from '../../../../components/if-locale/if-locale';
 import Href from '../../../../components/href/href';
 
 export default class FaqCustomers extends React.Component {

@@ -1,4 +1,6 @@
 import React from 'react';
+import IfLocale from '../../../../components/if-locale/if-locale';
+import Translation from '../../../../components/translation/translation';
 import FaqCustomersPage from '../faq-customers-page';
 
 export default class FaqCustomersHowItWorks extends React.Component {
@@ -31,19 +33,35 @@ export default class FaqCustomersHowItWorks extends React.Component {
           account. This mandate is then used to collect the payment you have specified.
         </p>
         <p className='para'>
-          Don't worry - if you have set-up a one-off payment, we will only take the funds once.
-          You can check payments made with GoCardless anytime by <a href='/users/sign_in'
-          className='u-link-color-p u-text-underline'>logging in</a>.
+          Don't worry - if you have set-up a one-off payment, we will only take the funds once. If there are
+          any problems you can also contact our support team.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How long does it take to process my payment?
         </h3>
-        <p className='para'>
-          GoCardless automatically pays out funds <strong>3 working days</strong> after they're collected.
-          You can see more details <a href='https://help.gocardless.com/customer/portal/articles/1563666'
-          className='u-link-color-p u-text-underline'>here</a>.
-        </p>
+        <Translation locales={['en']} exclude={['en-SE']}>
+          <p className='para'>
+            GoCardless automatically pays out funds <strong>3 working days</strong> after they're collected.
+            You can see more details <a href='https://help.gocardless.com/customer/portal/articles/1563666'
+            className='u-link-color-p u-text-underline'>here</a>.
+          </p>
+          <Translation locales={['en']} exclude={['en-SE']}>
+           <p className='para'>
+             GoCardless automatically pays out funds <strong>4 working days</strong> after they're collected.
+           </p>
+          </Translation>
+          <Translation locales='en-SE'>
+            <p className='para'>
+              GoCardless automatically pays out funds the day after they are collected.
+            </p>
+          </Translation>
+        </Translation>
+        <Translation locales='en-SE'>
+          <p className='para'>
+            GoCardless automatically pays out funds one working day after they are collected.
+          </p>
+        </Translation>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What if my funds don't reach the merchant?
