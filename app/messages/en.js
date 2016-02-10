@@ -563,6 +563,10 @@ export default {
     title: 'Internal Recruiter',
     description: '',
   },
+  jobs_customer_relationship_marketer: {
+    title: 'Customer Relationship Marketer',
+    description: '',
+  },
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
