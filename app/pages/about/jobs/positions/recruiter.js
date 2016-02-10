@@ -1,14 +1,13 @@
-
 import React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class InternalRecruiter extends React.Component {
-  displayName = 'InternalRecruiter'
+export default class Recruiter extends React.Component {
+  displayName = 'Recruiter'
 
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Internal Recruiter</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-heading'>Recruiter</h3>
         <p className='para'>
           GoCardless is growing fast. We’ve built a world-class product that opens up Direct Debit
           to small and medium-sized businesses across the UK and beyond, and we have recently extended
