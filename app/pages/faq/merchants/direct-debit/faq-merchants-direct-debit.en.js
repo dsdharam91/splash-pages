@@ -132,6 +132,24 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
           collect one-off payments.
         </p>
 
+        <IfLocale domesticScheme='bg-autogiro'>
+          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+            What is the Customer Protection?
+          </h3>
+          <p className='para'>
+            Customers have the right to be refunded for an authorised Autogiro payment. Any refund request must be
+            presented to their bank within 8 weeks of their account being debited.
+          </p>
+          <p className='para'>
+            Consumers can also ask for the immediate refund of an unauthorised or fraudulent SEPA Direct Debit payment. They must
+            do so as soon as possible and at the latest 13 months after the date their account was debited.
+          </p>
+          <p className='para'>
+            A refund by the bank does not mean that the claim against the underlying bill is justified. It is up to the merchant to
+            settle the commercial dispute between the customer and themselves.
+          </p>
+        </IfLocale>
+
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can I easily change Direct Debit provider?
         </h3>

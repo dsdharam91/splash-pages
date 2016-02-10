@@ -45,7 +45,7 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
         <p className='para'>
           You can collect from the following countries: Austria, Belgium, Cyprus, Estonia, Finland, France, Germany,
           Greece, Ireland, Italy, Latvia, Luxembourg, Malta, Monaco, the Netherlands, Portugal, San Marino, Slovakia,
-          Slovenia and Spain.
+          Slovenia, Spain and Sweden.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -61,8 +61,20 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
           className='u-link-color-p u-text-underline'>the SEPA Direct Debit scheme</a>.
         </p>
 
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          What is Autogiro?
+        </h3>
+        <p className='para'>
+          Autogiro is the Direct Debit scheme operating in Sweden. You can read more about it in our
+          <a href='/guides/bg-autogiro/' className='u-link-color-p u-text-underline'>guide</a>.
+        </p>
+        <p className='para'>
+          Read more about it in our guide to <a href='/guides/sepa/introduction/'
+          className='u-link-color-p u-text-underline'>the SEPA Direct Debit scheme</a>.
+        </p>
+
         { /* Bacs is only an international scheme for SEPA countries */ }
-        <IfLocale domesticScheme='sepa'>
+        <IfLocale domesticScheme={'sepa','bg-autogiro'}>
           <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             What is Bacs Direct Debit?
           </h3>
@@ -81,7 +93,7 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
           Which currencies does GoCardless support?
         </h3>
         <p className='para'>
-          We support payments in GBP and EUR.
+          We support payments in GBP, EUR and SEK.
         </p>
 
         <Translation locales='en-IE'>

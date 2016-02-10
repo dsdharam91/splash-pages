@@ -78,6 +78,13 @@ export default class FaqMerchantsSecurityEn extends React.Component {
             This entitles them to a full and immediate refund of any payments taken from their account in error.
           </p>
         </IfLocale>
+        <IfLocale domesticScheme='bg-autogiro'>
+          <p className='para'>
+            Yes. Your customers are protected by <a href='/guides/bg-autogiro/customer-protection/'
+            className='u-link-color-p u-text-underline'>Autogiro Customer Protection</a> in Sweden. Similar protection
+            operates for SEPA Direct Debit in the Eurozone and Bacs Direct Debit in the UK.
+          </p>
+        </IfLocale>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Vulnerability Disclosure

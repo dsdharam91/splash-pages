@@ -36,11 +36,10 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How can my customer pay me?
         </h3>
-        <p className='para'>
-          Your customer can enter their bank details online via GoCardless; if you use GoCardless Pro they can also
-          do so by phone or paper.
-        </p>
-
+          <p className='para'>
+            Your customer can enter their bank details online via GoCardless; if you use GoCardless Pro they can also
+            do so by phone or paper.
+          </p>
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can I host the payment pages on my site?
         </h3>
