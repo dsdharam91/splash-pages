@@ -71,12 +71,22 @@ export default class ProEn extends React.Component {
                   <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                     Welcome to GoCardless Pro
                   </h2>
-                  <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
+                  <Translation locales={['en']} exclude={['en-SE']}>
+                    <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     Designed specifically for larger enterprises,
                     GoCardless Pro combines the simplicity of our original
                     GoCardless product with complete control over payments and customer experience.
                     It also allows you to collect Direct Debit payments from the UK, Sweden and the Eurozone via one simple integration.
-                  </p>
+                    </p>
+                  </Translation>
+                  <Translation locales='en-SE'>
+                    <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
+                    Designed specifically for larger enterprises,
+                    GoCardless Pro combines the simplicity of our original
+                    GoCardless product with complete control over payments and customer experience.
+                    It also allows you to collect Direct Debit payments from Sweden, the Eurozone and the UK via one simple integration.
+                    </p>
+                  </Translation>
                 </div>
                 <div className='grid u-margin-Tl u-padding-Tm'>
                   <div className='grid__cell u-size-1of2 u-text-center'>
@@ -180,12 +190,22 @@ export default class ProEn extends React.Component {
                     Want to take payments in Europe?
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
+                    <Translation locales={['en']} exclude={['en-SE']}>
+                      <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                       GoCardless Pro is the only product that enables you to collect
                       Direct Debit payments from the UK, Sweden and the Eurozone through a single integration.
                       With our API, your business can take payments from over 500 million people
                       in 23 European countries.
-                    </p>
+                      </p>
+                    </Translation>
+                    <Translation locales='en-SE'>
+                      <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
+                      GoCardless Pro is the only product that enables you to collect
+                      Direct Debit payments from Sweden, the Eurozone and the UK through a single integration.
+                      With our API, your business can take payments from over 500 million people
+                      in 23 European countries.
+                      </p>
+                    </Translation>
                   </div>
                 </div>
               </div>
