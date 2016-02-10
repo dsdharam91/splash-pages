@@ -156,6 +156,12 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
             GoCardless manages this change for you entirely. You have nothing to do and this service is free.
           </p>
         </IfLocale>
+        <IfLocale domesticScheme='bg-autogiro'>
+          <p className='para'>
+            Yes - there is an established mandate transfer process that allows you to
+            move Autogiro mandates between providers easily.
+          </p>
+        </IfLocale>
       </Translation>
     );
   }

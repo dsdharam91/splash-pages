@@ -11,11 +11,19 @@ export default class FaqMerchantsHowItWorksEn extends React.Component {
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           When do I receive my payment?
         </h3>
-        <p className='para'>
-          We automatically pay out funds to your specified bank account <strong>3 working days</strong> after they're
-          collected from your customer. You can see more details <a href='https://help.gocardless.com/customer/portal/articles/1563666'
-          className='u-link-color-p u-text-underline'>here</a>.
-        </p>
+        <Translation locales={['en']} exclude={['en-SE']}>
+          <p className='para'>
+           We automatically pay out funds to your specified bank account <strong>3 working days</strong> after they're
+           collected from your customer. You can see more details <a href='https://help.gocardless.com/customer/portal/articles/1563666'
+            className='u-link-color-p u-text-underline'>here</a>.
+         </p>
+        </Translation>
+        <Translation locales='en-SE'>
+          <p className='para'>
+           We automatically pay out funds to your specified bank account one working day after they are collected from the customer.
+           They should arrive in your account the following day.
+         </p>
+        </Translation>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What types of payments can I collect?

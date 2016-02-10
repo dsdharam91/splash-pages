@@ -10,16 +10,6 @@ export default class FaqMerchantsSigningUpEn extends React.Component {
       <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Signing up</h2>
 
-        <Translation locales={['en']} exclude={['en-GB']}>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-            How can I register for GoCardless?
-          </h3>
-          <p className='para'>
-            You can access our sandbox and create an API key <a href="https://manage-sandbox.gocardless.com/registrations/new">here</a>.
-            To create a production account and to take actual payments, you'll need to <Link to='contact_sales'>contact our team</Link>.
-          </p>
-        </Translation>
-        <Translation locales='en-GB'>
           <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             What do I need to sign up?
           </h3>
@@ -55,7 +45,6 @@ export default class FaqMerchantsSigningUpEn extends React.Component {
             Our API documentation can be viewed <a href='https://developer.gocardless.com/'
             className='u-link-color-p u-text-underline'>here</a>.
           </p>
-        </Translation>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Are there any commitments?

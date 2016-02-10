@@ -124,9 +124,16 @@ export default class FaqMerchantsEn extends React.Component {
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           When do I receive my payment?
         </h3>
-        <p className='para'>
+        <Translation locales={['en']} exclude={['en-SE']}>
+          <p className='para'>
           All payments are paid out 3 working days from when the payment was collected.
-        </p>
+          </p>
+        </Translation>
+        <Translation locales='en-SE'>
+          <p className='para'>
+          All payments are paid out the working day after the payment is collected.
+          </p>
+        </Translation>
         <p className='para'>
           We don't hold back any of your funds in reserve.
         </p>
