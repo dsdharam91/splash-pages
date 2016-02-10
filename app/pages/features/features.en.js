@@ -276,7 +276,7 @@ export default class FeaturesEn extends React.Component {
                   <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bl'>
                     Your customers will love it
                   </h2>
-                  <Translation locales={['en']} exclude={['en-GB']}>
+                  <Translation locales={['en']} exclude={['en-GB','en-SE']}>
                     <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                       GoCardless is a FCA authorised institution which makes
                       payments quick and simple for you and your customers.
@@ -285,6 +285,12 @@ export default class FeaturesEn extends React.Component {
                   <Translation locales='en-GB'>
                     <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                       GoCardless is a Bacs approved bureau and an FCA authorised institution which makes
+                      payments quick and simple for you and your customers.
+                    </p>
+                  </Translation>
+                  <Translation locales='en-SE'>
+                    <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
+                      GoCardless is an authorised payments institution which makes
                       payments quick and simple for you and your customers.
                     </p>
                   </Translation>
