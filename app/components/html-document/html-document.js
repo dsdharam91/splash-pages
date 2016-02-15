@@ -118,8 +118,13 @@ class HtmlDocument extends React.Component {
         </head>
 
         <body>
-          { config.optimizelyId &&
-            <script src={`//cdn.optimizely.com/js/${config.optimizelyId}.js`}></script>
+
+          { config.googleTagManagerId &&
+              <div dangerouslySetInnerHTML={{
+                __html: GTM.replace('{TAG_ID}', config.googleTagManagerId)
+                .replace('{PAGE_LANGUAGE}', language)
+                .replace('{PAGE_REGION}', region),
+              }} />
           }
 
           <div dangerouslySetInnerHTML={{ __html: browseHappy }} />
@@ -138,14 +143,6 @@ class HtmlDocument extends React.Component {
           { isHome &&
               <script type='application/ld+json'
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaDotOrgOrganisation) }} />
-          }
-
-          { config.googleTagManagerId &&
-              <div dangerouslySetInnerHTML={{
-                __html: GTM.replace('{TAG_ID}', config.googleTagManagerId)
-                .replace('{PAGE_LANGUAGE}', language)
-                .replace('{PAGE_REGION}', region),
-              }} />
           }
         </body>
       </html>
