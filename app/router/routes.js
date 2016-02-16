@@ -39,6 +39,7 @@ import PaymentsProcessingSpecialist from '../pages/about/jobs/positions/payments
 import Recruiter from '../pages/about/jobs/positions/recruiter.js';
 import SalesDevelopmentRepresentativeOutbound from '../pages/about/jobs/positions/sales-development-representative-outbound.js';
 import CustomerRelationshipMarketer from '../pages/about/jobs/positions/customer-relationship-marketer.js';
+import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -490,9 +491,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-    [CustomerRelationshipMarketer, { name: 'jobs_customer_relationship_marketer', category: 'jobs.marketing' }, {
+  [CustomerRelationshipMarketer, { name: 'jobs_customer_relationship_marketer', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/customer-relationship-marketer',
+      },
+    },
+  ],
+  [SalesOperationsManager, { name: 'jobs_sales_operations_manager', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/sales-operations-manager',
       },
     },
   ],

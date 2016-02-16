@@ -567,6 +567,10 @@ export default {
     title: 'Customer Relationship Marketer',
     description: '',
   },
+  jobs_sales_operations_manager: {
+    title: 'Sales Operations Manager',
+    description: '',
+  },
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
