@@ -515,8 +515,8 @@ export default {
     title: 'Engineering Internships',
     description: '',
   },
-  jobs_designers: {
-    title: 'Designers',
+  jobs_product_designer: {
+    title: 'Product Designer',
     description: '',
   },
   jobs_enterprise_account_manager: {
@@ -569,6 +569,10 @@ export default {
   },
   jobs_sales_operations_manager: {
     title: 'Sales Operations Manager',
+    description: '',
+  },
+  jobs_communications_designer: {
+    title: 'Communications Designer',
     description: '',
   },
   pro_docs: {
