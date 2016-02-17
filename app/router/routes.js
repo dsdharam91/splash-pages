@@ -26,7 +26,7 @@ import Jobs from '../pages/about/jobs/jobs';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships';
-import Designers from '../pages/about/jobs/positions/designers';
+import ProductDesigner from '../pages/about/jobs/positions/product-designer.js';
 import EnterpriseAccountManager from '../pages/about/jobs/positions/enterprise-account-manager';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
 import SalesDevelopmentRepresentativeFrench from '../pages/about/jobs/positions/sales-development-representative-french';
@@ -40,6 +40,7 @@ import Recruiter from '../pages/about/jobs/positions/recruiter.js';
 import SalesDevelopmentRepresentativeOutbound from '../pages/about/jobs/positions/sales-development-representative-outbound.js';
 import CustomerRelationshipMarketer from '../pages/about/jobs/positions/customer-relationship-marketer.js';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
+import CommunicationsDesigner from '../pages/about/jobs/positions/communications-designer.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -410,9 +411,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [Designers, { name: 'jobs_designers', category: 'jobs.ux_design' }, {
+  [ProductDesigner, { name: 'jobs_product_designer', category: 'jobs.ux_design' }, {
       en: {
-        path: '/about/jobs/designers',
+        path: '/about/jobs/product-designer',
       },
     },
   ],
@@ -500,6 +501,12 @@ export const config = Immutable.fromJS([
   [SalesOperationsManager, { name: 'jobs_sales_operations_manager', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/sales-operations-manager',
+      },
+    },
+  ],
+  [CommunicationsDesigner, { name: 'jobs_communications_designer', category: 'jobs.ux_design' }, {
+      en: {
+        path: '/about/jobs/communications-designer',
       },
     },
   ],

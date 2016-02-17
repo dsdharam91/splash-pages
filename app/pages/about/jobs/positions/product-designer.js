@@ -1,21 +1,15 @@
 import React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class Designers extends React.Component {
-  displayName = 'Designers'
+export default class ProductDesigner extends React.Component {
+  displayName = 'Product Designer'
 
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Designers</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Product Designer</h3>
         <p className='para'>
-          We're looking for amazing designers to help us shape the way businesses get paid.
-        </p>
-        <p className='para'>
-          We're also always looking for talented freelancers to come and work with us,
-          so if this sounds interesting but you're not looking for a full-time gig,
-          get in touch by
-          emailing <a href='mailto:tom@gocardless.com'>tom@gocardless.com</a>.
+          We're looking for an amazing product designer to help us shape the way businesses get paid.
         </p>
         <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Our work</h4>
         <p className='para'>
@@ -28,20 +22,20 @@ export default class Designers extends React.Component {
         <p className='para'>
           We have a roadmap packed full of projects that will help us create a platform
           for controlling recurring payments like never before. This includes reimagining
-            how enterprise software should work and be experienced by both employees and customers.
+          how enterprise software should work and be experienced by both employees and customers.
         </p>
         <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Our culture</h4>
         <p className='para'>
           With a small, talented team and an amazing new office in central London, we
-          feel like we're in a great position to tackle these challenges. New designers
+          feel like we're in a great position to tackle these challenges. You
           will play a key role in shaping our team and culture, as well as the direction
           of our product. You'll work with a tight, talented group of designers and engineers,
-          as well as the founders of GoCardless.
+          as well as the founders of the business.
         </p>
         <p className='para'>
           Despite the scale of our work, we're small and friendly, with strong shared values.
           We get on well and enjoy spending time together, whether working in the office,
-          chatting over lunch or out for drinks after work. We're passionate about learning,
+          chatting over lunch, or out for drinks after work. We're passionate about learning,
           and we all care deeply about the quality of what we make.
         </p>
         <p className='para'>
@@ -60,17 +54,17 @@ export default class Designers extends React.Component {
         <p className='para'>Main responsibilities:</p>
         <ul className='list'>
           <li>
-            Contributing to the design of our products (both current and future)
+            Contributing to the design of our products (both current and future).
           </li>
           <li>
-            Producing great work for our website and our marketing materials
+            Speaking to users to identify the problems and opportunities that lie ahead.
           </li>
           <li>
-            Speaking to users to identify the problems and opportunities that lie ahead
+            Iterating on your designs within a small, cross-functional team of designers and developers.
           </li>
           <li>
             Pushing the team to consistently raise the bar for visual design and
-            simplicity
+            simplicity.
           </li>
         </ul>
         <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we offer</h4>
@@ -81,28 +75,21 @@ export default class Designers extends React.Component {
         </p>
         <ul className='list u-margin-Tm'>
           <li>
-            Competitive salary and options package
+            Competitive salary and options package.
           </li>
           <li>
-            Spec your own Macbook Pro, and plug it into a 27' Thunderbolt display
+            Spec your own Macbook Pro, and plug it into a 27" Thunderbolt display.
           </li>
           <li>
-            £1500 conference budget, plus 5 days (on top of holidays) to attend them
+            £1500 conference budget, plus 5 days (on top of holidays) to attend them.
           </li>
           <li>
-            Work from home when you need to
+            Flexible working hours.
           </li>
         </ul>
-        <a href='https://boards.greenhouse.io/gocardless/jobs/42134' className='btn u-margin-Vs'>
+        <a href='https://boards.greenhouse.io/gocardless/jobs/170040' className='btn u-margin-Vs'>
           Apply now
         </a>
-        <p className='para'>
-          If you have any questions before applying, please
-          contact <a href='mailto:tom@gocardless.com'>tom@gocardless.com</a>
-        </p>
-        <p className='para'>
-          No recruiters please.
-        </p>
       </JobsPage>
     );
   }
