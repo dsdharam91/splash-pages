@@ -22,7 +22,7 @@ export default class HomeEn extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
-                Our global payments network has processed over <Message pointer='payments_processed_volume' />
+                Our global payments network processes over <Message pointer='payments_processed_volume' /> per year.
               </h2>
             </div>
             <div className='grid u-margin-Tl u-padding-Tm'>
@@ -120,7 +120,7 @@ export default class HomeEn extends React.Component {
           <div className='quote page-hero--icon-background u-text-center'>
             <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm'>
               "GoCardless is one of the best payments companies we've worked with.
-              I'd highly recommend them to any company that cares about a providing good user experience
+              I'd highly recommend them to any company that cares about providing a good user experience
               and using the best technology for their Direct Debit."
             </p>
             <img src='images/logos/funding-circle-logo-white.png' className='u-block u-center u-size-1of4' />
@@ -140,11 +140,10 @@ export default class HomeEn extends React.Component {
                     Small businesses
                   </p>
                   <p className='u-color-dark-gray u-padding-Vm'>
-                    Stop wasting valuable time trying to set up customers, or chasing clients for payment.
-                    Instead, get back to doing what you do best, and let GoCardless take care of the rest.
+                    Take control of your payments and make sure you get paid on time every time. Improved cashflow, reduced admin and ultra-low fees.
                   </p>
                   <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
-                    1% per transaction
+                    1% capped at £2
                   </p>
                   <Link to='features' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                     Learn more
@@ -159,11 +158,10 @@ export default class HomeEn extends React.Component {
                     Enterprises
                   </p>
                   <p className='u-color-dark-gray u-padding-Vm'>
-                    Stop wasting valuable time trying to set up customers, or chasing clients for payment.
-                    Instead, get back to doing what you do best, and let GoCardless take care of the rest.
+                    Direct Debit for the digital age. Connected to your business with real-time alerts, increased customer insight and reduced churn.
                   </p>
                   <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
-                    From 0.1p per transaction
+                    From 1p to 60p
                   </p>
                   <Link to='pro' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                     Learn more
@@ -202,7 +200,7 @@ export default class HomeEn extends React.Component {
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 No set up costs, no hidden charges, no commitments
               </p>
-              <Href to='signup.path' id='track-cta-sign-up' className='btn u-margin-Tm'>Start taking payments</Href>
+              <Href to='signup.path' id='track-cta-sign-up' className='btn u-margin-Tm'>Sign up now</Href>
             </div>
           </div>
         </IfLocale>

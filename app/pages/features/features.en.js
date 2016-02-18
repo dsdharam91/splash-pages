@@ -8,7 +8,7 @@ import IfLocale from '../../components/if-locale/if-locale';
 
 import OnlineManagementYellowIcon from '../../icons/svg/online-management-yellow';
 import SaveMoneyGreenIcon from '../../icons/svg/save-money-green';
-import CloudRedIcon from '../../icons/svg/cloud-red';
+import ImproveCashflowRedIcon from '../../icons/svg/improve-cashflow-red';
 import OwnExperienceYellowIcon from '../../icons/svg/own-experience-yellow';
 import IntegrateGreenIcon from '../../icons/svg/integrate-green';
 
@@ -114,7 +114,7 @@ export default class FeaturesEn extends React.Component {
                     Save time
                   </div>
                   <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                    Easy set up and management saves time, and prevents errors & failures
+                    Automated payment collection means less time on admin, more time on your business
                   </p>
                 </div>
 
@@ -126,19 +126,19 @@ export default class FeaturesEn extends React.Component {
                     Save money
                   </div>
                   <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                    Less than half the cost of Paypal, with fair, easy-to-understand pricing
+                    Less than half the cost of PayPal with easy to understand pricing. 1% capped at £2
                   </p>
                 </div>
 
                 <div className='grid__cell u-size-1of3 u-text-center'>
                   <figure className='svg-icon u-center'>
-                    <CloudRedIcon className='svg-icon__image' />
+                    <ImproveCashflowRedIcon className='svg-icon__image' />
                   </figure>
                   <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                    Use with your software
+                    Improve cashflow
                   </div>
                   <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                    GoCardless can be used within over 1,000 leading software providers
+                    Take control of your payments and make sure you get paid on time every time
                   </p>
                 </div>
 
@@ -150,29 +150,25 @@ export default class FeaturesEn extends React.Component {
 
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='grid u-padding-Vxl'>
-              <div className='grid__cell u-size-1of2'>
+              <div className='grid__cell u-size-1of2 u-padding-Rm'>
                 <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bm'>
                   Easy online management
                 </h2>
-                <h3 className='u-text-xs u-color-dark-gray'>Get started right away</h3>
-                <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                  The whole process happens online. Using our online form, your customers can authorise
-                  payments in minutes — even from their mobile phone.
+                <h3 className='u-text-xs u-color-dark-gray'>Simple online set up</h3>
+                <p className='u-color-dark-gray u-margin-Bm u-size-5of6'>
+                  Using our online form, customer can authorise payments securely in minutes.
                 </p>
-                <h3 className='u-text-xs u-color-dark-gray'>Powerful yet simple online dashboard</h3>
+                <h3 className='u-text-xs u-color-dark-gray'>Automate your payments</h3>
                 <p className='u-color-dark-gray u-margin-Bm'>
-                  Provide a great user experience by adding your logo to our<br />payment forms and
-                  automatically sending customers back<br />to your site after paying.
+                  Customers can sign up to a plan or subscription to make recurring payments to your business.
+                </p>
+                <h3 className='u-text-xs u-color-dark-gray'>Powerful online dashboard</h3>
+                <p className='u-color-dark-gray u-margin-Bm'>
+                  Keep up-to-date on the status of all your payments with our online dashboard and email notifications.
                 </p>
                 <h3 className='u-text-xs u-color-dark-gray'>Multiple users per account</h3>
-                <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                  With Direct Debit, there's no need for customers to worry about missing a payment.
-                  Customers are also protected by SEPA Direct Debit Customer Protection.
-                </p>
-                <h3 className='u-text-xs u-color-dark-gray'>Automatically transfer existing Direct Debits</h3>
                 <p className='u-color-dark-gray u-margin-Bm'>
-                  Provide a great user experience by adding your logo to our<br />payment forms and
-                  automatically sending customers back<br />to your site after paying.
+                  Securely share access with your colleagues. Control over permissions and a full audit trail.
                 </p>
               </div>
               <div className='grid__cell u-size-1of2 u-text-center'>
@@ -189,29 +185,25 @@ export default class FeaturesEn extends React.Component {
                 <div className='grid__cell u-size-1of2 u-text-center'>
                   <img src='/images/features/pro-dashboard-timeline.png' />
                 </div>
-                <div className='grid__cell u-size-1of2'>
+                <div className='grid__cell u-size-1of2 u-padding-Rm'>
                   <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bm'>
                     Stay on top of your business
                   </h2>
-                  <h3 className='u-text-xs u-color-dark-gray'>Balance gives you visibility</h3>
-                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    The whole process happens online. Using our online form, your customers can authorise
-                    payments in minutes — even from their mobile phone.
-                  </p>
-                  <h3 className='u-text-xs u-color-dark-gray'>Get notified when something happens</h3>
+                  <h3 className='u-text-xs u-color-dark-gray'>Connected to your software</h3>
                   <p className='u-color-dark-gray u-margin-Bm'>
-                    Provide a great user experience by adding your logo to our<br />payment forms and
-                    automatically sending customers back<br />to your site after paying.
+                    Integrated with accounting software packages allowing automatic reconciliation against your invoices.
                   </p>
-                  <h3 className='u-text-xs u-color-dark-gray'>Search for your custom data</h3>
-                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    With Direct Debit, there's no need for customers to worry about missing a payment.
-                    Customers are also protected by SEPA Direct Debit Customer Protection.
-                  </p>
-                  <h3 className='u-text-xs u-color-dark-gray'>Fully or partially refund any payment</h3>
+                  <h3 className='u-text-xs u-color-dark-gray'>Real-time alerts</h3>
                   <p className='u-color-dark-gray u-margin-Bm'>
-                    Provide a great user experience by adding your logo to our<br />payment forms and
-                    automatically sending customers back<br />to your site after paying.
+                    Receive immediate notifications about failed or cancelled payments via email and through your online dashboard.
+                  </p>
+                  <h3 className='u-text-xs u-color-dark-gray'>Track payment status</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    View a timeline for each of your payments. Easily retry failed payments or issue partial or full refunds.
+                  </p>
+                  <h3 className='u-text-xs u-color-dark-gray'>Search for your payments and customers</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    Our powerful search tool and filters allow you to quickly and easily find specific customers or payment types.
                   </p>
                 </div>
               </div>
@@ -221,24 +213,25 @@ export default class FeaturesEn extends React.Component {
 
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='grid u-padding-Vxl'>
-                <div className='grid__cell u-size-1of2'>
+                <div className='grid__cell u-size-1of2 u-padding-Rm'>
                   <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bm'>
-                    Flexible payments
+                    Take control of your payments
                   </h2>
-                  <h3 className='u-text-xs u-color-dark-gray'>Set up subscriptions, plans, and one-off payments</h3>
-                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    The whole process happens online. Using our online form, your customers can authorise
-                    payments in minutes — even from their mobile phone.
-                  </p>
-                  <h3 className='u-text-xs u-color-dark-gray'>Your customers use fully responsive payment pages</h3>
+                  <h3 className='u-text-xs u-color-dark-gray'>Set up subscriptions, plans and one-off payments</h3>
                   <p className='u-color-dark-gray u-margin-Bm'>
-                    Provide a great user experience by adding your logo to our<br />payment forms and
-                    automatically sending customers back<br />to your site after paying.
+                    Complete flexibility on how much and how often you charge your customers. Set up either one-off or recurring payments.
                   </p>
-                  <h3 className='u-text-xs u-color-dark-gray'>Collect from the UK, Eurozone, and Sweden</h3>
-                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    With Direct Debit, there's no need for customers to worry about missing a payment.
-                    Customers are also protected by SEPA Direct Debit Customer Protection.
+                  <h3 className='u-text-xs u-color-dark-gray'>Flexible payments</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    Choose the date, frequency and amount of your payments based on customer and business requirements.
+                  </p>
+                  <h3 className='u-text-xs u-color-dark-gray'>Secure online payments</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    GoCardless processes over £1bn per year for 14,000 merchants. Authorised by the FCA and Bacs approved.
+                  </p>
+                  <h3 className='u-text-xs u-color-dark-gray'>Collect from the UK, Eurozone and Sweden</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    Accept payments from over 22 countries with Bacs Direct Debit, SEPA Direct Debit and Swedish Autogiro.
                   </p>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center'>
@@ -257,7 +250,7 @@ export default class FeaturesEn extends React.Component {
                   Already using accounting software? We’ve partnered with the best in the business so you can
                   use GoCardless directly from their apps.
                 </p>
-                <img src='/images/features/accounting-partner-logos.png' className='u-padding-Hxl' />
+                <img src='/images/logos/accounting-partners@2x.jpg' className='u-padding-Hxxl' />
               </div>
             </div>
           </div>
@@ -273,8 +266,7 @@ export default class FeaturesEn extends React.Component {
                     Integrate with your site
                   </p>
                   <p className='u-color-dark-gray u-padding-Vm'>
-                    Stop wasting valuable time trying to set up customers, or chasing clients for payment.
-                    Instead, get back to doing what you do best, and let GoCardless take care of the rest.
+                    Want to use GoCardless to power payments on your site? Take a look at our REST API in the comprehensive docs.
                   </p>
                   <a href='https://developer.gocardless.com/pro' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                     Learn more
@@ -289,8 +281,7 @@ export default class FeaturesEn extends React.Component {
                     Own the experience
                   </p>
                   <p className='u-color-dark-gray u-padding-Vm'>
-                    Stop wasting valuable time trying to set up customers, or chasing clients for payment.
-                    Instead, get back to doing what you do best, and let GoCardless take care of the rest.
+                    Direct Debit for the digital age. Connected to your business with real-time alerts, increased customer insight and reduced churn.
                   </p>
                   <Link to='pro' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                     Learn more
