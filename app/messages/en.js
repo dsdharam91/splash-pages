@@ -551,8 +551,8 @@ export default {
     title: 'French Customer Support',
     description: '',
   },
-  jobs_inside_account_executive_uk: {
-    title: 'Inside Account Executive',
+  jobs_account_executive_uk: {
+    title: 'Account Executive',
     description: '',
   },
   jobs_payments_processing_specialist: {
