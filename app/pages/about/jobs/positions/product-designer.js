@@ -78,7 +78,7 @@ export default class ProductDesigner extends React.Component {
             Competitive salary and options package.
           </li>
           <li>
-            Spec your own Macbook Pro, and plug it into a 27" Thunderbolt display.s
+            Spec your own Macbook Pro, and plug it into a 27" Thunderbolt display.
           </li>
           <li>
             £1500 conference budget, plus 5 days (on top of holidays) to attend them.
