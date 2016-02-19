@@ -511,10 +511,6 @@ export default {
     title: 'Site Reliability Engineer',
     description: '',
   },
-  jobs_engineering_internships: {
-    title: 'Engineering Internships',
-    description: '',
-  },
   jobs_product_designer: {
     title: 'Product Designer',
     description: '',
