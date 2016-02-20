@@ -12,42 +12,42 @@ export default class LegalIntroductionEs extends React.Component {
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Introducción</h2>
         <p className='para'>
-          The following documents outline the terms of service for using GoCardless.
-          You should read through these terms before using GoCardless.
+          Los siguientes documentos resumen los términos y condiciones de uso de GoCardless.
+          Deberías leer estos términos antes de usar GoCardless.
         </p>
         <p className='para'>
-          If you have any questions about our terms of service, then please get in
-          touch by emailing <Href to='email' className='u-link-color-p u-text-underline'
-          itemProp='email' /> or calling <Message pointer='phone_local' />.
+          Si tienes cualquier pregunta sobre estos términos de servicio, por favor
+          contáctanos por email al <Href to='email' className='u-link-color-p u-text-underline'
+          itemProp='email' /> o llamando al <Message pointer='phone_local' />.
           { /* FCA requirement. Do not remove. */ }
-          &nbsp;Customers can also find more details about our transaction structure
-           in our FAQ.
+          &nbsp;Los clientes también pueden encontrar más detalles sobre nuestra estructura de 
+          clientes en nuestro FAQ.
         </p>
 
         <Link to='legal_merchants' className='legal-contents__link u-link-clean'>
           <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-xs legal-contents__link-heading'>
-            Merchant agreement
+            Acuerdo para Empresas
           </h3>
           <p className='para'>
-            The terms of use for collecting payments via GoCardless
+            Los términos de uso para cobrar a través de GoCardless
           </p>
         </Link>
 
         <Link to='legal_restrictions' className='legal-contents__link u-link-clean'>
           <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-xs legal-contents__link-heading'>
-            Restricted activities
+            Actividades Restringidas
           </h3>
           <p className='para'>
-            Activities you can't collect payments via GoCardless for
+            Actividades en las que no puedes cobrar a través de GoCardless
           </p>
         </Link>
 
         <Link to='legal_privacy' className='legal-contents__link u-link-clean'>
           <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-xs legal-contents__link-heading'>
-            Privacy Policy
+            Política de Privacidad
           </h3>
           <p className='para'>
-            Our practices towards handling your personal information
+            Nuestras prácticas a la hora de administrar tus datos personales
           </p>
         </Link>
       </Translation>
