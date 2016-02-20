@@ -103,7 +103,7 @@ export default class LegalRestrictionsEs extends React.Component {
                 apartamentos de tiempo compartido; o
               </li>
               <li>
-                actividades de marketing como la compra de seguidores en twitter, 
+                actividades de marketing como la compra de seguidores en twitter,
                 Me gustas en Facebook o vistas en Youtube.
               </li>
             </ul>
@@ -117,7 +117,7 @@ export default class LegalRestrictionsEs extends React.Component {
           <li>
             Con conocimiento o negligencia transmitir cualquier dato o material que contenga
             virus, caballos de troya, adware, spyware, gusanos, o cualquier otro tipo de
-            software malicioso o programa diseñado para afectar negativamente la 
+            software malicioso o programa diseñado para afectar negativamente la
             operación de software o hardware.
           </li>
           <li>
@@ -159,7 +159,7 @@ export default class LegalRestrictionsEs extends React.Component {
           </li>
           <li>
             Usar el servicio de GoCardless para cobrar pagos que soporten esquemas ponzi
-            o piramidales, esquemas de matriz, otros esquemas de "hazte rico rápido" o 
+            o piramidales, esquemas de matriz, otros esquemas de "hazte rico rápido" o
             ciertos programas de marketing multi-nivel.
           </li>
           <li>

@@ -11,29 +11,29 @@ export default class LegalMerchantsEs extends React.Component {
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Términos para Empresas</h2>
         <p className='para'>
-          GoCardless permite a las empresas que sus clients que paguen de forma 
-          segura con           Domiciliación Bancaria por Internet. También permitimos
-          a las empresas controlar los cobros que reciben a través de GoCardless. 
-          Este document describe los términos del contrato('<em>Contrato</em>') 
-          entre tu, la empresa, y GoCardless para el servicio de cobro que provee 
+          GoCardless permite a las empresas que sus clients que paguen de forma
+          segura con Domiciliación Bancaria por Internet. También permitimos
+          a las empresas controlar los cobros que reciben a través de GoCardless.
+          Este document describe los términos del contrato('<em>Contrato</em>')
+          entre tu, la empresa, y GoCardless para el servicio de cobro que provee
           GoCardless. Estos términos y condiciones están disponibles en nuestra web
-          y puedes solicitar una copia de los mismos en cualquier momento mientras 
+          y puedes solicitar una copia de los mismos en cualquier momento mientras
           tengas una cuenta con nosotros.
         </p>
         <p className='para'>
           Cualquier contrato para el suministro de bienes y servicios entre tú
-          y tu cliente no se ve afectado por este Contrato. GoCrdless no se 
+          y tu cliente no se ve afectado por este Contrato. GoCrdless no se
           inculucra en el suministro de ningún tipo de bien o servicio a tus
           clientes ni en ninguna disputa que tenga que ser resuelta directamente
-          con tu cliente. Si hay alguna dificutad con los bienes o servicios 
+          con tu cliente. Si hay alguna dificutad con los bienes o servicios
           que suministras, tu eres la persona o empresa responsable directamente
           con tu cliente.
         </p>
         <p className='para u-text-heavy'>
           GoCardless no puede iniciar ninguna devolución al respecto de los bienes
-          o servicios que provees. Podemos, sin embargo, procesarlos cuando nos 
+          o servicios que provees. Podemos, sin embargo, procesarlos cuando nos
           pidas que lo hagamos. Si tu cliente cancela legalmente un cobro de acuerdo
-          con los términos y condiciones de los clientes de GoCardless, deberás ir 
+          con los términos y condiciones de los clientes de GoCardless, deberás ir
           directamente a tu cliente para solicitar el cobro de los bienes o servicios
           que les hayas proporcionado.
         </p>
