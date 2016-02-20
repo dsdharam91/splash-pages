@@ -20,7 +20,7 @@ export default class LegalIntroductionEs extends React.Component {
           contáctanos por email al <Href to='email' className='u-link-color-p u-text-underline'
           itemProp='email' /> o llamando al <Message pointer='phone_local' />.
           { /* FCA requirement. Do not remove. */ }
-          &nbsp;Los clientes también pueden encontrar más detalles sobre nuestra estructura de 
+          &nbsp;Los clientes también pueden encontrar más detalles sobre nuestra estructura de
           clientes en nuestro FAQ.
         </p>
 
