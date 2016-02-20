@@ -7,8 +7,8 @@ export default class FaqMerchantsHowItWorksEn extends React.Component {
   render() {
     return (
       <Translation locales='en'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>How it works</h2>
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>How it works</h2>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           When do I receive my payment?
         </h3>
         <p className='para'>
@@ -17,14 +17,14 @@ export default class FaqMerchantsHowItWorksEn extends React.Component {
           className='u-link-color-p u-text-underline'>here</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What types of payments can I collect?
         </h3>
         <p className='para'>
           You can collect one-off, regular or variable Direct Debit payments with our simple online tool or the API.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How does the payment process work?
         </h3>
         <ul className='list'>
@@ -43,7 +43,7 @@ export default class FaqMerchantsHowItWorksEn extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How does my customer authorise a payment?
         </h3>
         <p className='para'>
@@ -54,7 +54,7 @@ export default class FaqMerchantsHowItWorksEn extends React.Component {
           payment page to set up a Direct Debit and authorise you to take future payments automatically.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can customers sign up on my website?
         </h3>
         <p className='para'>
@@ -66,14 +66,14 @@ export default class FaqMerchantsHowItWorksEn extends React.Component {
           On clicking the button the customer will be sent to our secure online payment page where they can authorise the payment(s).
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can I set payments to start and end on a particular date?
         </h3>
         <p className='para'>
           Yes - you can easily customise the day, date, frequency and duration of payments.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can I change a payment or payment plan once it has been created?
         </h3>
         <p className='para'>
@@ -81,7 +81,7 @@ export default class FaqMerchantsHowItWorksEn extends React.Component {
           or remove your customer from the plan and add them to a new one. All this can be done from within your dashboard in seconds.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How do I know if I've been paid?
         </h3>
         <p className='para'>
@@ -89,7 +89,7 @@ export default class FaqMerchantsHowItWorksEn extends React.Component {
           customers, allowing you to check the status of a payment at any time.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Will you ever place limits on my account?
         </h3>
         <p className='para'>

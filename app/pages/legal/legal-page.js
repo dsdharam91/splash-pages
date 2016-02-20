@@ -21,7 +21,6 @@ export default class LegalPage extends React.Component {
     const { currentLocale, availableLocales } = this.context;
     const pages = filterRouteByCategory('legal', currentLocale, availableLocales);
 
-
     const legalNav = pages.map(function(page) {
       return (<li key={page.routeConfig.name}>
         <Link to={page.localeConfig.path} className='nav-tabs__link u-text-no-smoothing'>

@@ -1,6 +1,5 @@
-/*eslint-disable max-len*/
-
 export default {
+  number_of_merchants: '14.000',
   header: {
     our_products: 'Nos produits',
     login_btn: 'Se connecter',
@@ -46,18 +45,26 @@ export default {
   phone_full: '+33 9 75 18 42 95',
   phone_local: '+33 9 75 18 42 95',
   prospect_form: {
-    name_label: 'Votre nom',
-    name_placeholder: 'Jean Dubois',
-    email_label: 'Votre email',
-    email_placeholder: 'exemple@votresociete.fr',
-    phone_label: 'Votre téléphone professionnel',
-    phone_placeholder: '0123456789',
-    submit: 'Contactez Nous',
-    success_messages: {
-      '0-100': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
-      '100-500': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
-      '500+': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
-      default: 'Merci, nous vous contacterons sous 24 heures.',
+    sales: {
+      name_label: 'Votre nom',
+      name_placeholder: 'Jean Dubois',
+      email_label: 'Votre email',
+      email_placeholder: 'exemple@votresociete.fr',
+      phone_label: 'Votre téléphone professionnel',
+      phone_placeholder: '0123456789',
+      number_of_payments_label: 'Combien de paiements réalisez-vous chaque mois?',
+      number_of_payments_placeholder: 'Choisissez un nombre de paiements',
+      specific_needs_label: 'Quels sont les besoins de votre entreprise?',
+      submit: 'Contactez Nous',
+      success_messages: {
+        '0-100': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
+        '100-500': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
+        '500+': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
+        default: 'Merci, nous vous contacterons sous 24 heures.',
+      },
+    },
+    holding: {
+      submit: '',
     },
   },
   not_found: {
@@ -230,6 +237,26 @@ export default {
     description: '',
     nav_title: 'Notre équipe',
   },
+  jobs: {
+    title: 'Recrutement',
+    description: '',
+    nav_title: 'Recrutement',
+    open_positions: 'Offres',
+    sales: {
+      title: 'Ventes',
+    },
+    operations: {
+      title: 'Opérations',
+    },
+  },
+  jobs_sales_development_representative_french: {
+    title: 'Chargé de développement commercial',
+    description: '',
+  },
+  jobs_customer_support_french: {
+    title: 'Customer Support',
+    description: '',
+  },
   pro: {
     title: 'Le contrôle total de vos prélèvements',
     nav_title: 'GoCardless Pro',
@@ -242,6 +269,10 @@ export default {
     link_title: 'Partenaires',
     description: 'Devenez partenaires de GoCardless et laissez vos utilisateurs prendre des paiements par prélèvement SEPA dans votre plateforme.',
     explainer: 'Offrez GoCardless à vos clients',
+  },
+  payments_by_direct_debit: {
+    title: 'Paiements par prélèvement SEPA',
+    description: 'Le prélèvement SEPA est plus fiable et économique que les cartes. C\'est également plus efficace que les virements et chèques. Apprenez-en plus sur les paiements par prélèvement.',
   },
   pro_docs: {
     title: 'Pro API',
@@ -279,13 +310,22 @@ export default {
     title: 'Références',
     nav_title: 'Références',
     description: '',
+    link: 'Voir la référence',
   },
-  stories_1001_menus: {
-    title: '1001 Menus',
+  stories_zenchef: {
+    title: 'Zenchef',
     description: '',
   },
   stories_the_french_talents: {
     title: 'The French Talents',
+    description: '',
+  },
+  stories_habitat: {
+    title: 'Habitat',
+    description: '',
+  },
+  stories_foundation_of_hearts: {
+    title: 'Foundation of Hearts',
     description: '',
   },
 };

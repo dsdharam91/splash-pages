@@ -7,7 +7,7 @@ export default class FaqProDashboardPaymentRetryDe extends React.Component {
   render() {
     return (
       <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Wiederholen von Lastschrifteinzügen</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Wiederholen von Lastschrifteinzügen</h2>
         <p className='para'>
           Wenn eine Lastschrift fehlschlägt, liefern wir Ihnen den Grund sowie eine kurze Beschreibung.
           Es gibt drei Haupttypen fehlgeschlagener Lastschriften:
@@ -42,7 +42,7 @@ export default class FaqProDashboardPaymentRetryDe extends React.Component {
           In dieser Tabelle finden Sie alle Fehlermeldungen für fehlgeschlagene Lastschriften sowie deren Erklärung:
         </p>
 
-        <table className='table table--faq u-color-heading'>
+        <table className='table table--faq u-color-dark-gray'>
           <thead>
             <tr>
               <th>

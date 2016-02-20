@@ -11,12 +11,12 @@ export default class StartTakingPaymentsCTA extends React.Component {
       <IfLocale hasInstantSignup>
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-light u-text-l u-margin-Bm'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bm'>
               <Message pointer='signup_cta.main' />
             </h2>
             <Href to='signup.path' className='btn'
             pointer='signup_cta.button_text' />
-            <p className='u-color-p u-margin-Ts'>
+            <p className='u-color-dark-gray u-margin-Ts'>
               <Message pointer='signup_cta.description' />
             </p>
           </div>

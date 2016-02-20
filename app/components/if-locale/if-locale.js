@@ -9,7 +9,9 @@ export default class IfLocale extends React.Component {
     domesticScheme: React.PropTypes.string,
     hasInstantSignup: React.PropTypes.bool,
     hasPercentagePricing: React.PropTypes.bool,
+    showHoldingPage: React.PropTypes.bool,
     children: React.PropTypes.node.isRequired,
+    tagName: React.PropTypes.string,
   }
 
   static defaultProps = {
@@ -25,6 +27,7 @@ export default class IfLocale extends React.Component {
       domesticScheme: 'local_scheme',
       hasInstantSignup: 'has_instant_signup',
       hasPercentagePricing: 'has_percentage_pricing',
+      showHoldingPage: 'show_holding_page',
     };
 
     const isVisible = every(propertiesList, function(messageName, propName) {

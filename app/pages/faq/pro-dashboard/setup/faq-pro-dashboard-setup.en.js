@@ -10,7 +10,7 @@ export default class FaqProDashboardEn extends React.Component {
   render() {
     return (
       <Translation locales='en'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Setup</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Setup</h2>
         <p className='para'>
           <IfLocale hasInstantSignup>
             With the <a href='https://manage.gocardless.com/' className='u-link-color-p u-text-underline'>GoCardless dashboard</a>,
@@ -22,7 +22,7 @@ export default class FaqProDashboardEn extends React.Component {
           </IfLocale>
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Getting started
         </h3>
         <IfLocale hasInstantSignup>
@@ -32,6 +32,7 @@ export default class FaqProDashboardEn extends React.Component {
           </p>
         </IfLocale>
         <IfLocale hasInstantSignup={false}>
+          <IfLocale domesticScheme='sepa'>
           <p className='para'>
             You can <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'
             className='u-link-color-p u-text-underline'>create a test account</a> for free.
@@ -61,13 +62,46 @@ export default class FaqProDashboardEn extends React.Component {
           <p className='para'>
             Please note that anything you do in your test account will not be transferred to your live production account.
           </p>
+          </IfLocale>
+          <IfLocale domesticScheme='bg-autogiro'>
+                    <p className='para'>
+            You can <a href='https://manage-sandbox.gocardless.com/signup' target='_blank'
+            className='u-link-color-p u-text-underline'>create a test account</a> for free. Our Autogiro service is currently in beta
+             so please contact <Href to='email' className='u-link-color-p u-text-underline' /> to activate this service in your account.
+          </p>
+          <p className='para'>
+            Before you can open a live account and start collecting payments, please
+            email <Href to='email' className='u-link-color-p u-text-underline' /> with the following documents:
+          </p>
+          <ul className='list'>
+            <li>
+              Confirm that you've read and accepted our <Link to='legal_merchants'
+              className='u-link-color-p u-text-underline'>terms and conditions</Link>.
+            </li>
+            <li>
+              Send us a 10 kr payment from your company bank account.
+            </li>
+            <li>
+              Send us a scanned copy of the passport or ID card of your company director.
+              You should also provide scanned ID for any investor that owns 25% or more of your company.
+            </li>
+          </ul>
+          <p className='para'>
+            Once these documents have been verified, we'll create a live account for your business (typically in less than 24 hours).
+            Once you have the live account, you can use GoCardless to collect Autogiro payments. There is no need to go via your
+            bank to get a Bankgiro number.
+          </p>
+          <p className='para'>
+            Please note that anything you do in your test account will not be transferred to your live production account.
+          </p>
+          </IfLocale>
         </IfLocale>
         <p className='para'>
           If you wish to migrate existing customers where you already have a Direct Debit mandate in place, please
           email us at <Href to='email' className='u-link-color-p u-text-underline' />.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Account preparation
         </h3>
         <p className='para'>

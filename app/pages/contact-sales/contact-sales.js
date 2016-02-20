@@ -25,7 +25,7 @@ export default class ContactSales extends React.Component {
           <div className='grid__cell u-size-1of2'>
             <ProspectForm prospectType='sales' />
             <hr />
-            <p className='u-text-center u-color-meta u-margin-Bs'>
+            <p className='u-text-center u-color-dark-gray u-margin-Bs'>
               <b><Message pointer='contact_sales.talk_to_us' /></b><br />
               <Message pointer='contact_sales.call_us' /> <Message pointer='phone_local' />
               <Translation locales='en-GB'>
@@ -33,7 +33,7 @@ export default class ContactSales extends React.Component {
               </Translation>
             </p>
             <hr />
-            <p className='u-text-center u-color-meta u-margin-Bs'>
+            <p className='u-text-center u-color-dark-gray u-margin-Bs'>
               <b><Message pointer='contact_sales.information1' /></b><br />
               <Message pointer='contact_sales.information2' />
             </p>

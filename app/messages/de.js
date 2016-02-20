@@ -1,5 +1,3 @@
-/*eslint-disable max-len*/
-
 export default {
   header: {
     our_products: 'Produkte',
@@ -43,20 +41,23 @@ export default {
   phone_full: '+49 30 568373022',
   phone_local: '+49 30 568373022',
   email: 'deutschland@gocardless.com',
+  partners_email: 'partnerships@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
-    name_label: 'Ihr Name',
-    name_placeholder: 'Paul Müller',
-    email_label: 'Geschäftliche E-Mail',
-    email_placeholder: 'beispiel@firmenname.de',
-    phone_label: 'Geschäftliche Telefonnummer',
-    phone_placeholder: '030 12345678',
-    submit: 'Senden',
-    success_messages: {
-      '0-100': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
-      '100-500': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
-      '500+': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
-      default: 'Vielen Dank, ein GoCardless Mitarbeiter wird sich in den nächsten 24 Stunden mit Ihnen in Verbindung setzen.',
+    sales: {
+      name_label: 'Ihr Name',
+      name_placeholder: 'Paul Müller',
+      email_label: 'Geschäftliche E-Mail',
+      email_placeholder: 'beispiel@firmenname.de',
+      phone_label: 'Geschäftliche Telefonnummer',
+      phone_placeholder: '030 12345678',
+      submit: 'Senden',
+      success_messages: {
+        '0-100': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
+        '100-500': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
+        '500+': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
+        default: 'Vielen Dank, ein GoCardless Mitarbeiter wird sich in den nächsten 24 Stunden mit Ihnen in Verbindung setzen.',
+      },
     },
   },
   not_found: {
@@ -80,7 +81,7 @@ export default {
   home: {
     title: 'Online Lastschrift leicht gemacht',
     nav_title: 'Start',
-    description: 'GoCardless ist die einfache Art Zahlungen online zu empfangen. Mehr als 12.000 Kunden vertrauen bereits auf unseren Service mit transparenten Gebühren.',
+    description: 'GoCardless ist die einfache Art Zahlungen online zu empfangen. Mehr als 14.000 Kunden vertrauen bereits auf unseren Service mit transparenten Gebühren.',
     link: 'home page',
     trusted_message_scale: 'Wir übermitteln jeden Tag mehrere Millionen Euro für unsere Kunden.',
   },
@@ -113,11 +114,170 @@ export default {
     link_title: 'Partner',
     description: 'Werden Sie Partner von GoCardless und lassen Sie Händler Zahlungen über Ihre Software einziehen. Wir arbeiten mit FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube und vielen weiteren Partnern.',
     explainer: 'GoCardless für Ihre Kunden',
+    sidebar: 'Noch Fragen? Schreiben Sie unserem Partner-Team an',
+    overview: {
+      title: 'übersicht',
+    },
+    faq: {
+      title: 'FAQ',
+    },
+  },
+  partners_guide: {
+    title: 'Werden Sie Partner von GoCardless',
+    description: '',
+    nav_title: 'Einführung',
+  },
+  partners_guide_options: {
+    title: 'Werden Sie Partner von GoCardless - Optionen',
+    description: '',
+    nav_title: 'Optionen',
+  },
+  partners_guide_getting_started: {
+    title: 'Werden Sie Partner von GoCardless - Erste Schritte',
+    description: '',
+    nav_title: 'Erste Schritte',
+  },
+  partners_guide_app_integration: {
+    title: 'Werden Sie Partner von GoCardless - App-Integration',
+    description: '',
+    nav_title: 'App-Integration',
+  },
+  partners_guide_white_label_integration: {
+    title: 'Werden Sie Partner von GoCardless - White-Label-Integration',
+    description: '',
+    nav_title: 'White-Label-Integration',
+  },
+  partners_guide_testing: {
+    title: 'Werden Sie Partner von GoCardless - Entwickeln und Testen',
+    description: '',
+    nav_title: 'Entwickeln und Testen',
+  },
+  partners_guide_chargebacks: {
+    title: 'Werden Sie Partner von GoCardless - Rücklastschriften',
+    description: '',
+    nav_title: 'Rückbuchungen und fehlgeschlagene Lastschriften',
+  },
+  partners_guide_getting_paid: {
+    title: 'Werden Sie Partner von GoCardless - Auszahlungen',
+    description: '',
+    nav_title: 'Auszahlungen',
+  },
+  partners_guide_legal: {
+    title: 'Werden Sie Partner von GoCardless - Rechtliches',
+    description: '',
+    nav_title: 'Rechtliche Hinweise',
+  },
+  partners_guide_mandates: {
+    title: 'Werden Sie Partner von GoCardless - Mandate',
+    description: '',
+    nav_title: 'Übertragen von Mandaten',
+  },
+  partners_guide_non_uk_payments: {
+    title: 'Werden Sie Partner von GoCardless',
+    description: '',
+    nav_title: 'Non-UK payments',
+  },
+  partners_guide_our_pricing: {
+    title: 'Werden Sie Partner von GoCardless - Unsere Preise',
+    description: '',
+    nav_title: 'Unsere Preise',
+  },
+  partners_guide_payment_pages: {
+    title: 'Werden Sie Partner von GoCardless - Mandatsseiten',
+    description: '',
+    nav_title: 'Mandatsseiten',
+  },
+  partners_guide_reporting: {
+    title: 'Werden Sie Partner von GoCardless - Zahlungsverfolgung',
+    description: '',
+    nav_title: 'Zahlungsverfolgung',
+  },
+  partners_guide_restrictions: {
+    title: 'Werden Sie Partner von GoCardless - Einschränkungen',
+    description: '',
+    nav_title: 'Einschränkungen',
+  },
+  partners_guide_security: {
+    title: 'Werden Sie Partner von GoCardless - Sicherheit',
+    description: '',
+    nav_title: 'Vorschriften und Sicherheit',
   },
   team: {
     title: 'Team',
     description: '',
     nav_title: 'Team',
+  },
+  jobs: {
+    title: 'Jobs',
+    description: '',
+    nav_title: 'Jobs',
+    open_positions: 'Offene Stellen',
+    engineering: {
+      title: 'Software Engineering & Data Science',
+    },
+    ux_design: {
+      title: 'UX & Design',
+    },
+    sales: {
+      title: 'Vertrieb',
+    },
+    business_development: {
+      title: 'Business Development',
+    },
+    marketing: {
+      title: 'Marketing',
+    },
+    operations: {
+      title: 'Operations',
+    },
+  },
+  jobs_product_engineer: {
+    title: 'Product Engineer',
+    description: '',
+  },
+  jobs_software_engineer: {
+    title: 'Backend Software Engineer',
+   description: '',
+  },
+  jobs_site_reliability_engineer: {
+    title: 'Site Reliability Engineer',
+    description: '',
+  },
+  jobs_engineering_internships: {
+    title: 'Engineering Internships',
+    description: '',
+  },
+  jobs_data_infrastructure_engineer: {
+    title: 'Data Infrastructure Engineer',
+    description: '',
+  },
+  jobs_designers: {
+    title: 'Designers',
+    description: '',
+  },
+  jobs_enterprise_account_manager: {
+    title: 'Enterprise Account Manager',
+    description: '',
+  },
+  jobs_sales_development_representative: {
+    title: 'Sales Development Representative',
+    description: '',
+  },
+  jobs_account_manager_germany: {
+    title: 'Account Manager Deutschland',
+    description: '',
+  },
+  jobs_business_development_germany: {
+    title: 'Business Development: Germany',
+    description: '',
+  },
+  jobs_content_manager: {
+    title: 'Content Manager',
+    description: '',
+  },
+  jobs_customer_support: {
+    title: 'Customer Support',
+    description: '',
   },
   pro_docs: {
     title: 'Pro API',

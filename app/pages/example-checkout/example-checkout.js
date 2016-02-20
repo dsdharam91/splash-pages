@@ -25,10 +25,10 @@ export default class ExampleCheckout extends React.Component {
         </div>
         <div className='site-container u-padding-Vxxl'>
           <div className='u-text-center u-padding-Vxl'>
-            <div className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bxxs'>
+            <div className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bxxs'>
               See what it's like to pay using GoCardless
             </div>
-            <p className='u-text-center u-color-p u-margin-Bxl'>
+            <p className='u-text-center u-color-dark-gray u-margin-Bxl'>
               Watch a short video to see the whole journey from the perspective of your customers
             </p>
             <iframe src='https://player.vimeo.com/video/114865766'
@@ -39,14 +39,14 @@ export default class ExampleCheckout extends React.Component {
         <hr className='u-padding-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
-            <div className='u-text-heading u-text-center u-color-heading u-text-l u-text-light u-margin-Bxxl'>
+            <div className='u-text-heading u-text-center u-color-dark-gray u-text-l u-text-light u-margin-Bxxl'>
               View an example checkout
             </div>
             <div className='grid__cell u-size-1of3 u-text-center'>
-              <div className='u-text-heading u-color-heading u-text-center u-text-m u-text-light u-text-no-smoothing'>
+              <div className='u-text-heading u-color-dark-gray u-text-center u-text-m u-text-light u-text-no-smoothing'>
                 One off example
               </div>
-              <p className='u-text-center u-color-p u-margin-Txxs u-size-3of5 u-center'>
+              <p className='u-text-center u-color-dark-gray u-margin-Txxs u-size-3of5 u-center'>
                 Demo of a single, one-off payment of £2.99
               </p>
               <form acceptCharset='UTF-8' action='/api/v1/example_checkout/one_off' method='post' className='ng-pristine ng-valid'>
@@ -54,10 +54,10 @@ export default class ExampleCheckout extends React.Component {
               </form>
             </div>
             <div className='grid__cell u-size-1of3 u-text-center'>
-              <div className='u-text-heading u-color-heading u-text-center u-text-m u-text-light u-text-no-smoothing'>
+              <div className='u-text-heading u-color-dark-gray u-text-center u-text-m u-text-light u-text-no-smoothing'>
                 Recurring example
               </div>
-              <p className='u-text-center u-color-p u-margin-Txxs u-size-3of5 u-center'>
+              <p className='u-text-center u-color-dark-gray u-margin-Txxs u-size-3of5 u-center'>
                 Demo of £99 each month, with no end date
               </p>
               <form acceptCharset='UTF-8' action='/api/v1/example_checkout/subscription' method='post' className='ng-pristine ng-valid'>
@@ -65,10 +65,10 @@ export default class ExampleCheckout extends React.Component {
               </form>
             </div>
             <div className='grid__cell u-size-1of3 u-text-center'>
-              <div className='u-text-heading u-color-heading u-text-center u-text-m u-text-light u-text-no-smoothing'>
+              <div className='u-text-heading u-color-dark-gray u-text-center u-text-m u-text-light u-text-no-smoothing'>
                 Variable example
               </div>
-              <p className='u-text-center u-color-p u-margin-Txxs u-size-3of5 u-center'>
+              <p className='u-text-center u-color-dark-gray u-margin-Txxs u-size-3of5 u-center'>
                 Pre-authorise future payments of any amount
               </p>
               <form acceptCharset='UTF-8' action='/api/v1/example_checkout/pre_auth' method='post' className='ng-pristine ng-valid'>
@@ -82,20 +82,20 @@ export default class ExampleCheckout extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='grid'>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Your brand</div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>Your brand</div>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Customise our hosted payment pages with your company's logo
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Optimised for all devices</div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>Optimised for all devices</div>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Our payment pages are designed to work beautifully on all devices from mobile to desktop
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m'>Super secure</div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>Super secure</div>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   We use military grade security to protect bank account details transmitted online
                 </p>
               </div>

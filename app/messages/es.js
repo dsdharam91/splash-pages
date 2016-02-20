@@ -1,6 +1,6 @@
-/*eslint-disable max-len*/
-
 export default {
+  number_of_merchants: '14.000',
+  payments_processed_volume: '€1.000 millones',
   header: {
     our_products: 'Nuestros Productos',
     login_btn: 'Login',
@@ -39,24 +39,23 @@ export default {
     address_country: 'Reino Unido',
     address_country_iso: 'GB',
   },
-  phone_full: '+34 91 198 1220',
-  phone_local: '+34 91 198 1220',
-  email: 'Spain@gocardless.com',
   partners_email: 'partnerships@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
-    name_label: 'Nombre',
-    name_placeholder: 'Juan Pérez',
-    email_label: 'Email',
-    email_placeholder: 'ejemplo@nombrecompañia.es',
-    phone_label: 'Teléfono del trabajo',
-    phone_placeholder: '650786543',
-    submit: 'Contacta',
-    success_messages: {
-      '0-100': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
-      '100-500': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
-      '500+': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
-      default: 'Gracias, alguien se pondrá en contacto contigo en 24 horas.',
+    sales: {
+      name_label: 'Nombre',
+      name_placeholder: 'Juan Pérez',
+      email_label: 'Email',
+      email_placeholder: 'ejemplo@nombrecompañia.es',
+      phone_label: 'Teléfono del trabajo',
+      phone_placeholder: '650786543',
+      submit: 'Contacta',
+      success_messages: {
+        '0-100': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
+        '100-500': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
+        '500+': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
+        default: 'Gracias, alguien se pondrá en contacto contigo en 24 horas.',
+      },
     },
   },
   not_found: {
@@ -78,9 +77,9 @@ export default {
     header2: 'red de pagos para Internet.',
   },
   home: {
-    title: 'La manera más sencilla de cobrar recurrentemente a tus clientes',
+    title: 'Domiciliación Bancaria simplicada',
     nav_title: 'Home',
-    description: 'GoCardless simplifica los cobros recurrentes. Ayudamos a más de 12.000 empresas en Europa, tanto en suscripciones como en facturación entre empresas.',
+    description: 'GoCardless simplifica los cobros recurrentes. Ayudamos a más de 14.000 empresas en Europa, tanto en suscripciones como en facturación entre empresas.',
     link: 'home page',
     trusted_message_scale: 'Movemos millones de Euros en cobros cada día.',
   },
@@ -96,13 +95,13 @@ export default {
     information2: 'Nunca la compartiremos ni se la venderemos a nadie.',
   },
   features: {
-    title: 'Cobros Online Rápidos y Simples',
+    title: 'Domiciliación Bancaria Online Rápida y Simple',
     nav_title: 'GoCardless',
     description: 'GoCardless es la manera más sencilla de pagar online. Realiza tus cobros directamente desde la cuenta bancaria de tus clientes. Ahorra tiempo y mejora tu flujo de caja.',
-    explainer: 'Simplificamos los Cobros recurrentes',
+    explainer: 'Simplificamos las Domiciliaciones Bancarias',
   },
   pro: {
-    title: 'GoCardless Pro: Control Total sobre tus Domiciliaciones Bancarias',
+    title: 'Control Total de tus Domiciliaciones Bancarias',
     nav_title: 'GoCardless Pro',
     description: 'GoCardless Pro te permite controlar totalmente tus cobros a través de Domiciliación Bancaria. Personalizable a tu empresa y con una sencilla API.',
     explainer: 'Control Total sobre tus Domiciliaciones Bancarias',
@@ -121,12 +120,16 @@ export default {
       title: 'FAQ',
     },
   },
+  payments_by_direct_debit: {
+    title: 'Cobros online con Domiciliación Bancaria SEPA',
+    description: 'La Domiciliación Bancaria SEPA es más fiable y barata que las tarjetas de crédito. Y ahora con GoCardless es Online y más fácil de utilizar que nunca.',
+  },
   security: {
     title: 'Seguridad',
     nav_title: 'Seguridad',
     description: 'GoCardless está construido desde su comienzo con encriptación de grado militar para mantener tus detalles seguros. Regulated by the Financial Conduct Authority.',
     header1: 'Encriptación de grado militar a todos los niveles',
-    header2: 'GoCardless usa encriptación de grado militar para mantenerte seguro, y nos utilizan y apoyan las mayores empresas de pagos del mundo',
+    header2: 'GoCardless usa encriptación de grado militar para mantenerte seguro, y nos utilizan y apoyan las mayores empresas de pagos del mundo.',
     fca_authorised_byline: 'GoCardless está regulada por la Financial Conduct Authority en el Reino Unido como una Entidad de Pagos Autorizada para realizar cobros por cualquier parte de Europa.',
     consumer_protection_title: 'Protección del Cliente',
     trusted_by_thousands_byline: 'GoCardless ofrece acceso a la red SEPA de Domiciliaciones a decenas de miles de empresas por toda Europa.',
@@ -140,6 +143,9 @@ export default {
     title: 'Pro API',
     nav_title: 'Pro API',
   },
+  signin: {
+    path: 'https://manage.gocardless.com',
+  },
   signup: {
     path: 'https://manage.gocardless.com/signup?lang=es',
   },
@@ -149,9 +155,9 @@ export default {
     cta: 'Visita nuestro Blog',
   },
   guides: {
-    title: 'Guías SEPA',
-    nav_title: 'Guías SEPA (Inglés)',
-    path: '/guides/sepa/',
+    title: 'Guía SEPA',
+    nav_title: 'Guía SEPA',
+    path: '/es/guias/sepa/',
   },
   help: {
     title: 'Soporte',

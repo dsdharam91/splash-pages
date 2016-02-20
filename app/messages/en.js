@@ -1,5 +1,3 @@
-/*eslint-disable max-len*/
-
 export default {
   header: {
     our_products: 'Our products',
@@ -9,9 +7,6 @@ export default {
   footer: {
     description: 'GoCardless is regulated by the Financial Conduct Authority in the United Kingdom as an Authorised Payment Institution to collect payments across Europe.',
     currently_viewing: 'Currently viewing',
-    europe_cta: 'GoCardless is expanding',
-    europe_link: 'learn more',
-    europe_description: 'about upcoming countries',
     cookies_message: 'By continuing your visit to this site, you agree to the use of cookies.',
     cookies_link_text: 'Learn more',
   },
@@ -48,18 +43,23 @@ export default {
   partners_email: 'partnerships@gocardless.com',
   documentation_link: 'https://developer.gocardless.com/pro',
   prospect_form: {
-    name_label: 'Your name',
-    name_placeholder: 'John Smith',
-    email_label: 'Work email',
-    email_placeholder: 'example@companyname.com',
-    phone_label: 'Work phone',
-    phone_placeholder: '02071838674',
-    submit: 'Contact',
-    success_messages: {
-      '0-100': 'Thank you, a member of the GoCardless team will be in touch soon.',
-      '100-500': 'Thank you, a member of the GoCardless team will be in touch soon.',
-      '500+': 'Thank you, a member of the GoCardless team will be in touch soon.',
-      default: 'Thank you, someone will be in touch within 24 hours.',
+    sales: {
+      name_label: 'Your name',
+      name_placeholder: 'John Smith',
+      email_label: 'Work email',
+      email_placeholder: 'example@companyname.com',
+      phone_label: 'Work phone',
+      phone_placeholder: '02071838674',
+      number_of_payments_label: 'How many payments could we have helped you collect last month?',
+      number_of_payments_placeholder: 'Select number of payments taken last month',
+      specific_needs_label: 'What are your business\'s specific needs?',
+      submit: 'Contact',
+      success_messages: {
+        '0-100': 'Thank you, a member of the GoCardless team will be in touch soon.',
+        '100-500': 'Thank you, a member of the GoCardless team will be in touch soon.',
+        '500+': 'Thank you, a member of the GoCardless team will be in touch soon.',
+        default: 'Thank you, someone will be in touch within 24 hours.',
+      },
     },
   },
   not_found: {
@@ -83,9 +83,25 @@ export default {
   home: {
     title: 'The easy way to collect recurring payments',
     nav_title: 'Home',
-    description: 'GoCardless is the easy way to collect Direct Debit. Already serving more than 12,000 businesses, perfect for recurring billing and B2B invoicing.',
+    description: 'GoCardless is the easy way to collect Direct Debit. Already serving more than 14,000 businesses, perfect for recurring billing and B2B invoicing.',
     link: 'home page',
     trusted_message_scale: 'We collects millions of pounds for our merchants every day.',
+  },
+  holding_page: {
+    headline: 'Recurring payments made simple',
+    tagline: 'GoCardless makes collecting by Direct Debit easy for everyone from individuals to multi-national corporations',
+    prospect_form_message: 'To be notified when we launch in your country, enter your email address below',
+    benefits_headline: 'Bringing Direct Debit into the 21st century',
+    benefit1_headline: 'Built for online',
+    benefit1_description: 'Whether it\'s our simple dashboard or our API, you\'re in control',
+    benefit2_headline: 'Fully automated',
+    benefit2_description: 'Save time, stop human errors and avoid failed payments',
+    benefit3_headline: 'Ultra-low fees',
+    benefit3_description: 'Less than half the cost of Paypal, with easy-to-understand pricing',
+    trusted_headline: 'Trusted by thousands of businesses',
+    trusted_description: 'We collects millions of pounds for our merchants every day. Whatever your scale, GoCardless works for you.',
+    learn_more_headline: 'Want to learn more about GoCardless?',
+    learn_more_link: 'Visit our UK site',
   },
   contact_sales: {
     title: 'Get a Quote',
@@ -249,6 +265,7 @@ export default {
     title: 'Stories',
     nav_title: 'Stories',
     description: '',
+    link: 'Read the case study',
   },
   legal: {
     title: 'Our terms of service',
@@ -260,6 +277,11 @@ export default {
   legal_customers: {
     title: 'Our terms of service - Customers',
     nav_title: 'Customer agreement',
+    description: '',
+  },
+  legal_payment_timings: {
+    title: 'Our terms of service - Payment timings',
+    nav_title: 'Payment timings',
     description: '',
   },
   legal_merchants: {
@@ -341,6 +363,26 @@ export default {
   payments_by_direct_debit: {
     title: 'Payments By Direct Debit',
     description: 'Direct Debit is cheaper & more reliable than the card networks. It\'s also more flexible than a standing order. Find out how you can take payments using Direct Debit.',
+  },
+  payments_by_direct_debit_variation_b: {
+    title: 'Payments By Direct Debit',
+    description: 'Direct Debit is cheaper & more reliable than the card networks. It\'s also more flexible than a standing order. Find out how you can take payments using Direct Debit.',
+  },
+  easier_direct_debit: {
+    title: 'An easier way to take Direct Debit',
+    description: '',
+  },
+  accountants: {
+    title: 'GoCardless transforms cashflow for accountants',
+    description: '',
+  },
+  telcos: {
+    title: 'Direct Debit for Telecommunication Companies',
+    description: '',
+  },
+  energy: {
+    title: 'Direct Debit for Energy Companies',
+    description: '',
   },
   partners_guide: {
     title: 'Partnering with GoCardless',
@@ -461,68 +503,72 @@ export default {
       title: 'Operations',
     },
   },
-  jobs_product_engineer: {
-    title: 'Product Engineer',
-    description: '',
-  },
   jobs_software_engineer: {
-    title: 'Backend Software Engineer',
+    title: 'Software Engineer',
    description: '',
   },
   jobs_site_reliability_engineer: {
     title: 'Site Reliability Engineer',
     description: '',
   },
-  jobs_engineering_internships: {
-    title: 'Engineering Internships',
+  jobs_product_designer: {
+    title: 'Product Designer',
     description: '',
   },
-  jobs_data_engineer: {
-    title: 'Data Engineer',
+  jobs_enterprise_account_manager: {
+    title: 'Enterprise Account Manager',
     description: '',
   },
-  jobs_data_analyst: {
-    title: 'Data Analyst',
+  jobs_sales_development_representative_inbound: {
+    title: 'SDR: Inbound',
     description: '',
   },
-  jobs_designers: {
-    title: 'Designers',
+  jobs_sales_development_representative_outbound: {
+    title: 'SDR: Outbound',
     description: '',
   },
-  jobs_senior_account_executive: {
-    title: 'Senior Account Executive',
+  jobs_sales_development_representative_french: {
+    title: 'SDR: France',
     description: '',
   },
-  jobs_sales_development_representative: {
-    title: 'Sales Development Representative',
+  jobs_account_manager_germany: {
+    title: 'Account Manager: Germany',
     description: '',
   },
-  jobs_account_executive_germany: {
-    title: 'Account Executive: Germany',
-    description: '',
-  },
-  jobs_business_development_germany: {
-    title: 'Business Development: Germany',
-    description: '',
-  },
-  jobs_digital_marketer: {
-    title: 'Digital Marketer',
-    description: '',
-  },
-  jobs_customer_relationship_marketer: {
-    title: 'Customer Relationship Marketer',
-    description: '',
-  },
-  jobs_content_community_manager: {
-    title: 'Content & Community Manager',
+  jobs_content_manager: {
+    title: 'Content Manager',
     description: '',
   },
   jobs_customer_support: {
     title: 'Customer Support',
     description: '',
   },
-  jobs_vp_people: {
-    title: 'VP People',
+  jobs_customer_support_french: {
+    title: 'French Customer Support',
+    description: '',
+  },
+  jobs_account_executive_uk: {
+    title: 'Account Executive',
+    description: '',
+  },
+  jobs_payments_processing_specialist: {
+    title: 'Payments Processing Specialist',
+    description: '',
+  },
+  jobs_recruiter: {
+    title: 'Recruiter',
+    description: '',
+  },
+  jobs_customer_relationship_marketer: {
+    title: 'Customer Relationship Marketer',
+    description: '',
+  },
+  jobs_sales_operations_manager: {
+    title: 'Sales Operations Manager',
+    description: '',
+  },
+  jobs_communications_designer: {
+    title: 'Communications Designer',
     description: '',
   },
   pro_docs: {

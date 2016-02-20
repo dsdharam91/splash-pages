@@ -24,8 +24,8 @@
 }
 
 .u-text-heading {
-  font-family: $font-family-heading;
-  color: $header-color;
+  font-family: $font-family-base;
+  color: $xdark-gray;
 }
 
 .u-text-heading-light {
@@ -36,12 +36,12 @@
 }
 
 .u-text-subheading {
-  font-family: $font-family-heading;
-  color: $subheader-color;
+  font-family: $font-family-base;
+  color: $dark-gray;
 }
 
 .u-text-label {
-  font-family: $font-family-label;
+  font-family: $font-family-base;
 }
 
 .u-text-no-smoothing {
@@ -50,6 +50,11 @@
 }
 
 // Text sizes
+
+.u-text-xxl, .u-text-xl, .u-text-l,
+h1, h2, h3 {
+  line-height: $line-height-heading;
+}
 
 .u-text-xxl {
   font-size: $font-size-xxlarge;

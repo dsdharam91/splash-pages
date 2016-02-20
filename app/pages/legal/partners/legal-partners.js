@@ -9,7 +9,7 @@ export default class LegalPartners extends React.Component {
   render() {
     return (
       <LegalPage>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Partner agreement</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Partner agreement</h2>
         <p className='para'>
           GoCardless enables its partners to offer its payment collection services through their
           own system. This document sets out the terms of the contract ('<em>Contract</em>') between
@@ -23,7 +23,7 @@ export default class LegalPartners extends React.Component {
           the goods or services you provide to the Merchants, you remain liable to them directly.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           The GoCardless API and Partner API
         </h3>
         <p className='para'>
@@ -43,7 +43,7 @@ export default class LegalPartners extends React.Component {
           details related to any Merchant's GoCardless account. Your role is only as a facilitator.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Your GoCardless partner account
         </h3>
         <p className='para'>
@@ -70,7 +70,7 @@ export default class LegalPartners extends React.Component {
           </li>
         </ol>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           <span id='charging_fees'></span>
           Charging fees to Merchants
         </h3>
@@ -105,7 +105,7 @@ export default class LegalPartners extends React.Component {
           repay them to us.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           The GoCardless brand
         </h3>
         <p className='para'>
@@ -114,7 +114,7 @@ export default class LegalPartners extends React.Component {
           these restrictions.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Restricted Activities
         </h3>
         <p className='para'>
@@ -132,7 +132,7 @@ export default class LegalPartners extends React.Component {
           liability to you for the performance of payment services.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Suspected Fraud/Illegal Activity by Merchants using your services or their customers
         </h3>
         <p className='para'>
@@ -152,7 +152,7 @@ export default class LegalPartners extends React.Component {
           cease using your services.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Termination
         </h3>
         <p className='para'>
@@ -165,7 +165,7 @@ export default class LegalPartners extends React.Component {
           className='u-link-color-p u-text-underline'>Merchant Terms</Link>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Consequences of termination
         </h3>
         <p className='para'>
@@ -180,7 +180,7 @@ export default class LegalPartners extends React.Component {
           calendar month after termination of this agreement.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           <span id='data_protection'></span>
           Data Protection
         </h3>
@@ -216,7 +216,7 @@ export default class LegalPartners extends React.Component {
           'Personal Data' shall have the meaning given to it by the Data Protection Act 1998.
         </p>
 
-        <h3 className='u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           General
         </h3>
 

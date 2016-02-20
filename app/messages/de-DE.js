@@ -1,11 +1,10 @@
-/*eslint-disable max-len*/
-
 export default {
   country: 'Deutschland',
   country_properties: {
     local_scheme: 'sepa',
     has_instant_signup: true,
     has_percentage_pricing: true,
+    show_holding_page: false,
   },
   phone_local: '030 568373022',
   hero: {

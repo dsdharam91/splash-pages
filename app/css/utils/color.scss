@@ -1,19 +1,15 @@
 // Colours
 //
-.u-color-meta {
+.u-color-dark-gray {
   color: $dark-gray;
 }
 
 .u-color-invert {
-  color: $black-blue-invert;
+  color: white;
 }
 
 .u-color-invert-secondary {
-  color: $black-blue-invert-secondary;
-}
-
-.u-color-base {
-  color: $black-blue;
+  color: $gray;
 }
 
 .u-color-primary {
@@ -26,12 +22,4 @@
 
 .u-color-accent {
   color: $accent-color;
-}
-
-.u-color-heading {
-  color: $dark-gray;
-}
-
-.u-color-p {
-  color: $medium-gray;
 }

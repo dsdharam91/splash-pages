@@ -1,7 +1,6 @@
 import React from 'react';
 import { PropTypes } from '../../helpers/prop-types/prop-types';
 
-
 export default class Flag extends React.Component {
   displayName = 'Flag'
 

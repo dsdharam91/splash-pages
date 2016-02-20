@@ -32,7 +32,7 @@ export default class PartnersGuidePage extends React.Component {
 
     const partnersGuideNav = Object.keys(categories).map(function(category) {
       return [
-        (<li key={category} className='nav__heading u-text-heading u-text-xs u-text-upcase u-color-p u-padding-Bs'>
+        (<li key={category} className='nav__heading u-text-heading u-text-xs u-text-upcase u-color-dark-gray u-padding-Bs'>
           <Message pointer={`partners.${category}`} />
         </li>),
         categories[category].map(function(job) {
@@ -52,7 +52,7 @@ export default class PartnersGuidePage extends React.Component {
             <div className='page-hero u-padding-Vxxl'>
               <div className='u-margin-Vxm u-text-center'>
                 <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
-                  Partnering with GoCardless
+                  <Message pointer='partners_guide.title' />
                 </h1>
               </div>
             </div>

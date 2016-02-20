@@ -14,23 +14,6 @@ import { getLocalesForRouteName } from '../../router/route-helpers';
 import { buildSchemaDotOrgForOrganization } from '../../helpers/schema-dot-org/schema-dot-org';
 import { PropTypes } from '../../helpers/prop-types/prop-types';
 
-function relAlternateLinks(root, locales) {
-  var defaultPath = locales[defaultLocale];
-
-  var alternates = Object.keys(locales).map(function(locale) {
-    var localePath = locales[locale].path;
-    return <link rel='alternate' hrefLang={locale} href={ root + localePath } key={locale} />;
-  });
-
-  if (defaultPath && defaultPath.path) {
-    alternates.unshift(
-      <link rel='alternate' href={root + defaultPath.path} hrefLang='x-default' key='x-default' />
-    );
-  }
-
-  return alternates;
-}
-
 class HtmlDocument extends React.Component {
   displayName = 'HtmlDocument'
 
@@ -95,6 +78,23 @@ class HtmlDocument extends React.Component {
     const region = localeToRegion(currentLocale);
     const description = getMessage(messages, `${routeName}.description`);
 
+    function relAlternateLinks(root, locales) {
+      var defaultPath = locales[defaultLocale];
+
+      var alternates = Object.keys(locales).map(function(locale) {
+        var localePath = locales[locale].path;
+        return <link rel='alternate' hrefLang={locale} href={ root + localePath } key={locale} />;
+      });
+
+      if (defaultPath && defaultPath.path) {
+        alternates.unshift(
+          <link rel='alternate' href={root + defaultPath.path} hrefLang='x-default' key='x-default' />
+        );
+      }
+
+      return alternates;
+    }
+
     return (
       <html className='no-js' lang={language}>
         <head>
@@ -118,8 +118,13 @@ class HtmlDocument extends React.Component {
         </head>
 
         <body>
-          { config.optimizelyId &&
-            <script src={`//cdn.optimizely.com/js/${config.optimizelyId}.js`}></script>
+
+          { config.googleTagManagerId &&
+              <div dangerouslySetInnerHTML={{
+                __html: GTM.replace('{TAG_ID}', config.googleTagManagerId)
+                .replace('{PAGE_LANGUAGE}', language)
+                .replace('{PAGE_REGION}', region),
+              }} />
           }
 
           <div dangerouslySetInnerHTML={{ __html: browseHappy }} />
@@ -138,14 +143,6 @@ class HtmlDocument extends React.Component {
           { isHome &&
               <script type='application/ld+json'
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaDotOrgOrganisation) }} />
-          }
-
-          { config.googleTagManagerId &&
-              <div dangerouslySetInnerHTML={{
-                __html: GTM.replace('{TAG_ID}', config.googleTagManagerId)
-                .replace('{PAGE_LANGUAGE}', language)
-                .replace('{PAGE_REGION}', region),
-              }} />
           }
         </body>
       </html>

@@ -1,5 +1,3 @@
-/*eslint-disable max-len*/
-
 export default {
   country: 'Ireland',
   phone_full: '+353 76 680 5320',
@@ -8,6 +6,7 @@ export default {
     local_scheme: 'sepa',
     has_instant_signup: true,
     has_percentage_pricing: true,
+    show_holding_page: false,
   },
   hero: {
     header: 'Accept recurring payments across Europe',

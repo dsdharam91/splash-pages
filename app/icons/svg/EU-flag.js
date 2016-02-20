@@ -9,7 +9,6 @@ export default class EUFlagIcon extends React.Component {
     className: React.PropTypes.string,
   };
 
-  /*eslint-disable max-len*/
   render() {
     return (
       <svg {...this.props} version="1.1" x="0px" y="0px" viewBox="0 0 283.6 189.1" style={{enableBackground: 'new 0 0 283.6 189.1'}}>

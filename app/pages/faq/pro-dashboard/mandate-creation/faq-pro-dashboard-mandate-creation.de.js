@@ -7,7 +7,7 @@ export default class FaqProDashboardMandateCreationDe extends React.Component {
   render() {
     return (
       <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>So werden Lastschriftmandate erstellt</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>So werden Lastschriftmandate erstellt</h2>
         <p className='para'>
           Sie müssen Ihre Kunden nicht selbst in Ihr Dashboard übertragen, denn sobald diese unser
           Online-Mandat ausgefüllt haben, werden sie automatisch angezeigt.

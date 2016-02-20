@@ -2,8 +2,9 @@ import React from 'react';
 import Translation from '../../components/translation/translation';
 import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
 import Link from '../../components/link/link';
+import StoryLink from './story-link';
 
-export default class Stories extends React.Component {
+export default class StoriesFr extends React.Component {
   displayName = 'StoriesFr'
 
   render() {
@@ -25,12 +26,13 @@ export default class Stories extends React.Component {
           </div>
         </div>
 
+
         <div className='site-container u-padding-Vxxl u-margin-Bxxl'>
           <div className='u-padding-Vxxl u-relative u-margin-Bxxl'>
             <div className='u-padding-Bl'>
               <div className='stories-spotlight grid u-margin-Hn u-size-full'>
-                <Link to='stories_1001_menus' className='grid__cell u-text-center u-size-1of2 u-link-clean u-padding-Rxs u-padding-Ln'>
-                  <div className='stories-spotlight__item stories-spotlight__item--1001-menus
+                <Link to='stories_zenchef' className='grid__cell u-text-center u-size-1of2 u-link-clean u-padding-Rxs u-padding-Ln'>
+                  <div className='stories-spotlight__item stories-spotlight__item--zenchef
                   u-relative u-padding-Vl'>
                     <div className='stories-spotlight__item-text u-margin-Vl'>
                       <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
@@ -38,7 +40,7 @@ export default class Stories extends React.Component {
                         L'automatisation a réduit le taux d'impayés de 50% et augmenté notre chiffre d'affaires de 90.000 €.”
                       </p>
                       <div className='u-color-invert u-margin-Tm'>
-                        Julien Balmont, 1001menus
+                        Julien Balmont, Zenchef
                       </div>
                     </div>
                   </div>
@@ -61,6 +63,21 @@ export default class Stories extends React.Component {
                 </Link>
               </div>
             </div>
+          </div>
+        </div>
+
+        <hr className='u-margin-An' />
+        <div className='site-container u-padding-Vxxl'>
+          <div className='grid u-padding-Vxl'>
+            <StoryLink cssSizeClass='u-size-1of2'
+              imgClass='habitat-logo stories-item__logo--habitat' to='stories_habitat'>
+              Habitat, la chaîne de design et d’ameublement, a pu lancer une offre innovante d’abonnement en moins de deux mois.
+            </StoryLink>
+            <StoryLink cssSizeClass='u-size-1of2'
+              imgClass='foundation-of-hearts-logo stories-item__logo--foundation-of-hearts' to='stories_foundation_of_hearts'>
+              La Foundation of Hearts, une ONG des supporteurs du Hearts FC,
+              peut prendre plus de 8.000 donations par mois facilement.
+            </StoryLink>
           </div>
         </div>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Message from '../../components/message/message';
 import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import Link from '../../components/link/link';
@@ -19,7 +20,7 @@ export default class HomeEs extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl' id='learn-more'>
           <div className='u-padding-Vxl'>
             <div className='u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                 Nuestra red global de pagos ha procesado más de 1.000.000.000€
               </h2>
             </div>
@@ -29,11 +30,11 @@ export default class HomeEs extends React.Component {
                   <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Completamente Automatizado
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Ahorra tiempo, reduce el error humano y evita cobros fallidos
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
+                  Ahorra tiempo, reduce el error humano y evita cobros fallidos.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -41,11 +42,11 @@ export default class HomeEs extends React.Component {
                   <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Comisiones bájísimas
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Menos de la mitad de lo que cuesta Paypal, con tarifas fáciles de entender.
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
+                  Menos de la mitad de lo que cuesta PayPal, con tarifas fáciles de entender.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -53,10 +54,10 @@ export default class HomeEs extends React.Component {
                   <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  +12.000 empresas
+                <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  +<Message pointer='number_of_merchants' /> empresas
                 </div>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Facilitando cobros para compañías a lo largo de todo Europa, ya sean grandes o pequeñas.
                 </p>
               </div>
@@ -77,7 +78,7 @@ export default class HomeEs extends React.Component {
                   <ShopIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <ShopIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Realizar cobros<br />con total sencillez
                 </p>
               </div>
@@ -89,7 +90,7 @@ export default class HomeEs extends React.Component {
                   <ProIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <ProIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Tener el control total de tus<br />Domiciliaciones Bancarias
                 </p>
               </div>
@@ -101,7 +102,7 @@ export default class HomeEs extends React.Component {
                   <IntegrationsIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <p className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Ayudar a tus clientes<br />a realizar sus cobros
                 </p>
               </div>
@@ -114,7 +115,7 @@ export default class HomeEs extends React.Component {
         <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
           <div className='site-container u-padding-Txl'>
             <div className='u-size-1of2 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 Estarás en buena compañía
               </h2>
             </div>
@@ -127,10 +128,10 @@ export default class HomeEs extends React.Component {
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
-              <h2 className='u-text-heading u-color-heading u-text-light u-text-l'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 Precios simples y transparentes para todo el mundo
               </h2>
-              <p className='u-text-s u-color-p u-margin-Vxs'>
+              <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 Tarifas competitivas para todos, desde individuos a grandes empresas
               </p>
               <Link to='pricing' className='btn btn--hollow u-margin-Tm'>
@@ -144,7 +145,7 @@ export default class HomeEs extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <Href to='signup.path' className='btn'>Empieza a cobrar a través de Domiciliación Bancaria</Href>
-              <p className='u-color-p u-margin-Ts'>Sin costes por adelantado, sin comisiones encubiertas, sin compromiso</p>
+              <p className='u-color-dark-gray u-margin-Ts'>Sin costes por adelantado, sin comisiones encubiertas, sin compromiso</p>
             </div>
           </div>
         </IfLocale>

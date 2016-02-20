@@ -1,0 +1,18 @@
+.notice {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: $space-small;
+  padding-top: $space-xsmall;
+  padding-bottom: $space-xsmall;
+  display: inline-block;
+  background-color: $amber-color-light;
+  border: 1px solid $amber-color;
+  border-radius: 2px;
+}
+
+.notice--error {
+  border: 1px solid $secondary-color;
+}

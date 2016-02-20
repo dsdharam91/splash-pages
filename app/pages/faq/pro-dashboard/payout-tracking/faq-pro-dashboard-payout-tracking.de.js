@@ -8,7 +8,7 @@ export default class FaqProDashboardPayoutTrackingDe extends React.Component {
   render() {
     return (
        <Translation locales='de'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Überblick über Ihre Zahlungseingänge</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Überblick über Ihre Zahlungseingänge</h2>
         <p className='para'>
           GoCardless zahlt eingezogene Lastschriften an jedem Werktag automatisch auf Ihr Bankkonto ein.
           Es gibt weder einen Mindestbetrag für diese Auszahlungen noch behalten wir Beträge ein.

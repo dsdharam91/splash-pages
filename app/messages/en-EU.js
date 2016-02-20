@@ -1,11 +1,10 @@
-/*eslint-disable max-len*/
-
 export default {
   country: 'Europe',
   country_properties: {
     local_scheme: 'sepa',
     has_instant_signup: false,
     has_percentage_pricing: false,
+    show_holding_page: false,
   },
   hero: {
     header: 'Accept recurring payments across Europe',

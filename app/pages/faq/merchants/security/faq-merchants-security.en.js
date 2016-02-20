@@ -8,8 +8,8 @@ export default class FaqMerchantsSecurityEn extends React.Component {
   render() {
     return (
       <Translation locales='en'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Security</h2>
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Security</h2>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How do I know my money is safe?
         </h3>
         <Translation locales={['en']} exclude={['en-GB']}>
@@ -34,7 +34,7 @@ export default class FaqMerchantsSecurityEn extends React.Component {
           </p>
         </Translation>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How does GoCardless protect my data?
         </h3>
         <p className='para'>
@@ -49,7 +49,7 @@ export default class FaqMerchantsSecurityEn extends React.Component {
           <li>All client-server communication is 256-bit SSL encrypted. The banking system requires just 128-bit.</li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What do you do with my money before it is paid out?
         </h3>
         <p className='para'>
@@ -59,7 +59,7 @@ export default class FaqMerchantsSecurityEn extends React.Component {
           Funds are held fully in accordance with safeguarding provisions.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Is it safe for my customers?
         </h3>
         <IfLocale domesticScheme='sepa'>
@@ -79,7 +79,7 @@ export default class FaqMerchantsSecurityEn extends React.Component {
           </p>
         </IfLocale>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Vulnerability Disclosure
         </h3>
 
@@ -100,7 +100,7 @@ export default class FaqMerchantsSecurityEn extends React.Component {
             determined by the severity of the issue.
           </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Reporting issues
         </h3>
 
@@ -122,7 +122,7 @@ export default class FaqMerchantsSecurityEn extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Reward eligibility
         </h3>
 

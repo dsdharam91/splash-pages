@@ -9,8 +9,8 @@ export default class FaqMerchantsEn extends React.Component {
   render() {
     return (
       <Translation locales='en'>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Overview</h2>
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Overview</h2>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How can I use GoCardless?
         </h3>
         <Translation locales={['en']} exclude={['en-GB']}>
@@ -49,11 +49,12 @@ export default class FaqMerchantsEn extends React.Component {
           </ul>
         </Translation>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Who is GoCardless for?
         </h3>
         <p className='para'>
-          GoCardless is for anyone who wants to take payments directly from the bank account of customers in the UK and the Eurozone.
+          GoCardless is for anyone who wants to take payments directly from the bank account of customers in the UK, the
+           Eurozone and Sweden.
           It's particularly suited for B2B (business-to-business) and recurring payments.
         </p>
         <p className='para'>
@@ -67,7 +68,7 @@ export default class FaqMerchantsEn extends React.Component {
           </p>
         </Translation>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What can I not use GoCardless for?
         </h3>
         <p className='para'>
@@ -89,7 +90,7 @@ export default class FaqMerchantsEn extends React.Component {
           activities page</Link>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Are there any limits on the amount I can collect?
         </h3>
         <p className='para'>
@@ -103,7 +104,7 @@ export default class FaqMerchantsEn extends React.Component {
           In the Eurozone, the maximum amount for a single transaction is €5,000.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How do I receive funds I have collected with GoCardless?
         </h3>
         <p className='para'>
@@ -120,7 +121,7 @@ export default class FaqMerchantsEn extends React.Component {
           your <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>fees</Link>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           When do I receive my payment?
         </h3>
         <p className='para'>
@@ -130,14 +131,14 @@ export default class FaqMerchantsEn extends React.Component {
           We don't hold back any of your funds in reserve.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Do you take credit or debit cards?
         </h3>
         <p className='para'>
           No, GoCardless is a Direct Debit company.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Why is GoCardless better than the other options I'm considering?
         </h3>
         <p className='para'>
@@ -167,7 +168,7 @@ export default class FaqMerchantsEn extends React.Component {
         </ul>
 
         <IfLocale domesticScheme='bacs'>
-          <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Is GoCardless a Bacs-approved bureau?
           </h3>
           <p className='para'>

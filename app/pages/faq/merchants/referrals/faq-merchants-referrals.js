@@ -8,8 +8,8 @@ export default class FaqMerchantsReferrals extends React.Component {
   render() {
     return (
       <FaqMerchantsPage>
-        <h2 className='u-text-heading-light u-text-m u-color-heading'>Referral scheme</h2>
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Referral scheme</h2>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What is the GoCardless Referral scheme?
         </h3>
         <p className='para'>
@@ -20,7 +20,7 @@ export default class FaqMerchantsReferrals extends React.Component {
           Find out more <Link to='refer' className='u-link-color-p u-text-underline'>here</Link>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Who is eligible to make a referral?
         </h3>
         <p className='para'>
@@ -31,7 +31,7 @@ export default class FaqMerchantsReferrals extends React.Component {
           className='u-link-color-p u-text-underline'>here</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What qualifies as a successful referral?
         </h3>
         <p className='para'>
@@ -39,7 +39,7 @@ export default class FaqMerchantsReferrals extends React.Component {
           you £50 of GoCardless fee credits.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How will I know how many referrals I have made?
         </h3>
         <p className='para'>
@@ -48,7 +48,7 @@ export default class FaqMerchantsReferrals extends React.Component {
           you the moment someone signs up.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Is there a limit to the number of referrals I can make?
         </h3>
         <p className='para'>
@@ -59,7 +59,7 @@ export default class FaqMerchantsReferrals extends React.Component {
           className='u-link-color-p u-text-underline'>Direct Debit use cases</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How do I share my referral link?
         </h3>
         <p className='para'>
@@ -71,7 +71,7 @@ export default class FaqMerchantsReferrals extends React.Component {
           className='u-link-color-p u-text-underline'>Terms of Service</Link>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Where can I find my referral link?
         </h3>
         <p className='para'>
@@ -80,7 +80,7 @@ export default class FaqMerchantsReferrals extends React.Component {
           from your dashboard settings and does not expire.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How do I get my credit?
         </h3>
         <p className='para'>
@@ -89,7 +89,7 @@ export default class FaqMerchantsReferrals extends React.Component {
           your <a href='https://dashboard.gocardless.com/referrals' className='u-link-color-p u-text-underline'>account settings</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can I send the referral to a different page on the site?
         </h3>
         <p className='para'>
@@ -101,14 +101,14 @@ export default class FaqMerchantsReferrals extends React.Component {
           page you would change the URL to: https://gocardless.com/merchants/new?r=1ABC23DE45.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Does my link expire?
         </h3>
         <p className='para'>
           No - your link will not expire.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-heading u-margin-Vm u-text-s'>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What if someone I refer forgets to use my link?
         </h3>
         <p className='para'>

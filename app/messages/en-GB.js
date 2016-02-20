@@ -1,11 +1,10 @@
-/*eslint-disable max-len*/
-
 export default {
   country: 'United Kingdom',
   country_properties: {
     local_scheme: 'bacs',
     has_instant_signup: true,
     has_percentage_pricing: true,
+    show_holding_page: false,
   },
   phone_local: '020 7183 8674',
   documentation_link: 'https://developer.gocardless.com/',

@@ -9,11 +9,10 @@ export default class BanksIcon extends React.Component {
     className: React.PropTypes.string,
   };
 
-  /*eslint-disable max-len*/
   render() {
     return (
       <svg {...this.props} width={76} height={76} viewBox='0 0 76 76' xmlns='http://www.w3.org/2000/svg'>
-        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
             <g transform="translate(-585.000000, -472.000000)" fill="#000000">
                 <g transform="translate(585.000000, 472.000000)">
                     <path d="M36.651,12.6948462 C35.9518,12.7405385 35.4236,13.3446923 35.4692,14.0453077 C35.5148,14.7446538 36.1329333,15.2713846 36.8169333,15.2282308 C42.1344,14.8753846 47.9585333,16.6815 52.44,20.0525769 C52.6667333,20.2239231 52.934,20.3076923 53.1987333,20.3076923 C53.5838,20.3076923 53.9650667,20.1325385 54.2133333,19.8 C54.6326,19.2402692 54.5198667,18.4444615 53.9612667,18.0230769 C49.0098667,14.2966154 42.5308667,12.3039231 36.651,12.6948462"></path>

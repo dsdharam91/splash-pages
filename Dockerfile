@@ -8,5 +8,8 @@ RUN npm install --production
 
 COPY . /srv/app
 
+ARG git_revision=unset
+RUN echo $git_revision > /srv/app/REVISION
+
 EXPOSE 3000
 CMD ["npm", "run-script", "run-production"]

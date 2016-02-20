@@ -97,19 +97,19 @@ export default class FeaturesEs extends React.Component {
                     </figure>
 
                     <IfLocale hasInstantSignup={false}>
-                      <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                      <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                         Comienza en 24 horas
                       </div>
-                      <p className='u-color-p u-margin-Txs'>
+                      <p className='u-color-dark-gray u-margin-Txs'>
                         Solo necesitas una cuenta bancaria en <Message pointer='country' />. <Link to='contact_sales'>
                         Contáctanos</Link> para comenzar.
                       </p>
                     </IfLocale>
                     <IfLocale hasInstantSignup>
-                      <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                      <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                         Comienza en minutos
                       </div>
-                      <p className='u-color-p u-margin-Txs'>
+                      <p className='u-color-dark-gray u-margin-Txs'>
                         Sólo necesitas una cuenta bancaria en <Message pointer='country' />.&nbsp;
                         <Href to='signup.path'>Regístrate ahora</Href> y
                         podras empezar a cobrar a tus clientes en minutos.
@@ -121,10 +121,10 @@ export default class FeaturesEs extends React.Component {
                       <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-yellow' />
                       <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                       Sin Costes
                     </div>
-                    <p className='u-color-p u-margin-Txs'>
+                    <p className='u-color-dark-gray u-margin-Txs'>
                       GoCardless cuesta sólamente <Message pointer='pricing.per_transaction_amount_normal' /> por transacción
                       (máximo de <Message pointer='pricing.cost_cap' />) sin mensualidades ni costes por adelantado.
                       Hay tarifas escalables disponibles.
@@ -135,10 +135,10 @@ export default class FeaturesEs extends React.Component {
                       <CheckListIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-blue' />
                       <CheckListIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                       Automatiza Todo
                     </div>
-                    <p className='u-color-p u-margin-Txs'>
+                    <p className='u-color-dark-gray u-margin-Txs'>
                       GoCardless automatiza el cobro, el seguimiento y la reconciliación de tus cobros. Hacemos todo el trabajo duro por tí.
                     </p>
                   </div>
@@ -149,10 +149,10 @@ export default class FeaturesEs extends React.Component {
                       <CustomerIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-green' />
                       <CustomerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                       Alta retención de usuarios
                     </div>
-                    <p className='u-color-p u-margin-Txs'>
+                    <p className='u-color-dark-gray u-margin-Txs'>
                       Como está construido sobre el sistema de Adeudos Directos, con Gocardless
                       no perderás clientes debido a la caducidad de las tajertas o cancelaciones.
                     </p>
@@ -162,10 +162,10 @@ export default class FeaturesEs extends React.Component {
                       <SecurityIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-blue' />
                       <SecurityIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                       Seguridad de grado Militar
                     </div>
-                    <p className='u-color-p u-margin-Txs'>
+                    <p className='u-color-dark-gray u-margin-Txs'>
                       Guardamos todos los datos bancarios con encriptación RSA y nos comunicamente únicamente a través de canales seguros.
                     </p>
                   </div>
@@ -174,10 +174,10 @@ export default class FeaturesEs extends React.Component {
                       <DeveloperIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-yellow' />
                       <DeveloperIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
                       Una API RESTful moderna
                     </div>
-                      <p className='u-color-p u-margin-Txs'>
+                      <p className='u-color-dark-gray u-margin-Txs'>
                         Añade GoCardless a tu web o app en minutos con nuestras librerias API.&nbsp;
                         <a href='https://developer.gocardless.com/pro'>Descubre más</a>.
                       </p>
@@ -193,20 +193,20 @@ export default class FeaturesEs extends React.Component {
                   <img src='/images/products/real-time-reports.jpg' className='basic-page__real-time-reports-image' />
                 </div>
                 <div className='grid__cell u-size-1of2 u-margin-Tl'>
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                     Asegura tu flujo de caja
                   </h2>
-                  <h3 className='u-text-s'>Sigue el estado de tus pagos en todo momento</h3>
-                  <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                    Nuestro panel de control y notificaciones por email te mantendran informado
-                    totalmente acerca de todos tus cobros y clientes.
+                  <h3 className='u-text-xs'>Sigue el estado de tus pagos en todo momento</h3>
+                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
+                    Nuestro panel de control y notificaciones por email te mantendran informado totalmente
+                    acerca de todos tus cobros y clientes.
                   </p>
-                  <h3 className='u-text-s'>Exporta tus datos</h3>
-                  <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                  <h3 className='u-text-xs'>Exporta tus datos</h3>
+                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                     Analiza tus datos como quieras. GoCardless es compatible con los programas de contabilidad más populares.
                   </p>
-                  <h3 className='u-text-s'>Realiza tus cobros todos los días</h3>
-                  <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                  <h3 className='u-text-xs'>Realiza tus cobros todos los días</h3>
+                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                     Con GoCardless puedes realizar cobros tan a menudo como quieras sin mayores costes ni molestias.
                   </p>
                 </div>
@@ -216,26 +216,25 @@ export default class FeaturesEs extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='grid u-padding-Vxl'>
                 <div className='grid__cell u-size-1of2'>
-                  <h2 className='u-text-l u-text-heading u-color-heading u-text-light u-margin-Bl'>
+                  <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bl'>
                     A tus clientes les encantará
                   </h2>
-                    <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                    <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                       GoCardless es una institución autorizada por la FCA que facilita y
                       agiliza los cobros a ti y a tus clientes.
                     </p>
-                  <h3 className='u-text-s'>Con un sencillo Setup Online</h3>
-                  <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                  <h3 className='u-text-xs'>Con un sencillo Setup Online</h3>
+                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                     Todo el proceso es online. Utilizando nuestro mandato online, tus clientes podrán
                     autorizar cobros en minutos - incluso desde su teléfono móvil.
                   </p>
-                  <h3 className='u-text-s'>Tu logo, en todas partes</h3>
-                  <p className='u-color-p u-margin-Bm'>
-                    Ofrece una gran experiencia de usuarios añadiendo tu logo a
-                    nuestros<br />formularios de pago y enviando automáticamente a
-                    tus clientes<br /> de vuelta a tu página después de pagar.
+                  <h3 className='u-text-xs'>Tu logo, en todas partes</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    Ofrece una gran experiencia de usuarios añadiendo tu logo a nuestros formularios de pago y
+                    enviando automáticamente a tus clientes de vuelta a tu página después de pagar.
                   </p>
-                  <h3 className='u-text-s'>Una forma segura y sencilla de pagar</h3>
-                  <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                  <h3 className='u-text-xs'>Una forma segura y sencilla de pagar</h3>
+                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                     Con Domiciliación Bancaria, tus clientes no tienen que preocuparse de olvidar un pago.
                     Los clientes también están protegidos por las leyes de Protección al Consumidor de SEPA.
                   </p>
@@ -247,14 +246,14 @@ export default class FeaturesEs extends React.Component {
                   </IfLinkExists>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center'>
-                  <img src='/images/features/payment-page--gyms.jpg' className='vertical-page__mobile-image' />
+                  <img src='/images/es/basic-payment-page-es@2x.png' className='vertical-page__mobile-image' />
                 </div>
               </div>
             </div>
             <hr className='u-margin-An' />
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-padding-Vxl'>
-                <h2 className='u-text-heading u-color-heading u-text-l u-text-light'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                   Es fácil cambiar a GoCardless
                 </h2>
                 <div className='grid u-margin-Tl u-margin-Bxl u-padding-Vm'>
@@ -263,11 +262,11 @@ export default class FeaturesEs extends React.Component {
                       <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                       <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Sencillo proceso de migración
                     </div>
-                    <p className='u-size-8of10 u-center u-color-p u-margin-Txs'>
-                      Te ayudaremos a cambiar de golpe a todos tus clientes<br /> desede tu proveedor anterior.
+                    <p className='u-size-8of10 u-center u-color-dark-gray u-margin-Txs'>
+                      Si ya estás utilizando Domiciliaciones Bancarias, te ayudaremos a migrar a todos en pocas horas.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3 u-text-center'>
@@ -275,10 +274,10 @@ export default class FeaturesEs extends React.Component {
                       <TickIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                       <TickIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Nunca estarás solo
                     </div>
-                    <p className='u-size-8of10 u-center u-color-p u-margin-Txs'>
+                    <p className='u-size-8of10 u-center u-color-dark-gray u-margin-Txs'>
                       Hemos ayudado a cientos de empresas y podemos guiarte en los pasos
                       necesarios para <br />conseguir que tus clientes cambien.
                     </p>
@@ -288,12 +287,12 @@ export default class FeaturesEs extends React.Component {
                       <MembershipIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                       <MembershipIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
-                    <div className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Añade a tus clientes de golpe
+                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                      Añade a tus clientes en un click
                     </div>
-                    <p className='u-size-8of10 u-center u-color-p u-margin-Txs'>
-                      Nuestras simples herramientas te permitirán añadir a miles de clientes en minutos.
-                      Todo lo que tienen que hacer es completar nuestro sencillo formulario de pago.
+                    <p className='u-size-8of10 u-center u-color-dark-gray u-margin-Txs'>
+                      Nuestra herramienta te permitirá añadir a miles de clientes en minutos; sólo necesitan
+                      completar nuestro sencillo formulario de pago.
                     </p>
                   </div>
                 </div>
@@ -307,11 +306,11 @@ export default class FeaturesEs extends React.Component {
                     <PhoneIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                     <PhoneIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
-                  <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Tm'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tm'>
                     <Message pointer='phone_local' />
                   </h2>
                   <div className='u-center'>
-                    <p className='u-text-s u-color-p u-margin-Ts'>
+                    <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                       Habla con uno de nuestros expertos en Pagos para descubrir como GoCardless puede ayudar a tu negocio.
                     </p>
                   </div>
@@ -346,10 +345,10 @@ export default class FeaturesEs extends React.Component {
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-padding-Vxl'>
                 <div className='u-size-2of3 u-center'>
-                  <h2 className='u-text-heading u-color-heading u-text-xl u-text-light u-margin-Bs'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-xl u-text-light u-margin-Bs'>
                     Tu Panel de Control
                   </h2>
-                  <div className='u-text-heading u-color-heading u-text-l u-text-light'>
+                  <div className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                     Todo en la nube, nada que instalar.<br />Todo lo que necesitas para cobrar
                   </div>
                   <hr className='u-margin-Vxxl' />

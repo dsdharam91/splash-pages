@@ -9,11 +9,10 @@ export default class CharityIcon extends React.Component {
     className: React.PropTypes.string,
   };
 
-  /*eslint-disable max-len*/
   render() {
     return (
       <svg {...this.props} width={76} height={76} viewBox='0 0 76 76' xmlns='http://www.w3.org/2000/svg'>
-        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
             <g transform="translate(-721.000000, -466.000000)" fill="#231F1F">
                 <g transform="translate(721.000000, 466.000000)">
                     <path d="M38,0 C17.0468,0 0,17.0468 0,38 C0,58.9532 17.0468,76 38,76 C58.9532,76 76,58.9532 76,38 C76,17.0468 58.9532,0 38,0 L38,0 Z M38,73.4666667 C18.4439333,73.4666667 2.53333333,57.5573333 2.53333333,38 C2.53333333,18.4439333 18.4439333,2.53333333 38,2.53333333 C57.5560667,2.53333333 73.4666667,18.4439333 73.4666667,38 C73.4666667,57.5573333 57.5560667,73.4666667 38,73.4666667 L38,73.4666667 Z"></path>

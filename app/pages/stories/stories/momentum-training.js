@@ -31,13 +31,13 @@ export default class StoriesMomentumTraining extends React.Component {
           </p>
         </StoryQuote>
         <StoryBigQuote heroClass='story-hero--momentum' person='Geoff Stewart' position='Momentum Training'>
-          Taking payments with GoCardless costs us less than half the price of using Paypal and the
+          Taking payments with GoCardless costs us less than half the price of using PayPal and the
           integration with TeamUp has reduced our admin
         </StoryBigQuote>
         <StoryQuote tag='GoCardless was super easy to integrate'>
           <p className='para u-margin-Tn'>Looking for a solution they came across TeamUp, a specialist management platform for fitness
           businesses who recommended using GoCardless to collect their payments. It took minutes to get started;
-          “GoCardless was super easy to integrate. With Paypal we needed a developer to get us set up but we were
+          “GoCardless was super easy to integrate. With PayPal we needed a developer to get us set up but we were
           able to get set up with GoCardless ourselves.”</p>
           <p className='para'>Momentum Training and CrossFit Hackney now collect their recurring membership fees using GoCardless
           and use GoCardless and Stripe for their one-off payments.</p>
@@ -52,7 +52,7 @@ export default class StoriesMomentumTraining extends React.Component {
             savings which can go towards further growth and improving their business.
           </p>
           <p className='para'>
-            Geoff explains: “Taking payments with GoCardless costs us less than half the price of using Paypal and
+            Geoff explains: “Taking payments with GoCardless costs us less than half the price of using PayPal and
             the integration with TeamUp has definitely reduced our admin – particularly for dealing with failed payments.
             It used to be a complicated process to work out which payments had failed and to retry them.”
           </p>
