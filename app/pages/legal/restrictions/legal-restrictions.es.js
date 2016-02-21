@@ -118,7 +118,6 @@ export default class LegalRestrictionsEs extends React.Component {
               </li>
             </ul>
           </li>
-          <li>
         </ul>
         <p className='para'>
           Además, las actividades restringidas que afectan a los usuarios del servicios
