@@ -21,7 +21,8 @@ export default class LegalRestrictionsEs extends React.Component {
           el servicio de GoCardless si tienes menos de 18 años.
         </p>
         <p className='para'>Las actividades restringidas que afectan a todos los usuarios de
-        GoCardless - tanto clientes, Empresas o Asociados son:</p>
+        GoCardless - tanto clientes, Empresas o Asociados son:
+        </p>
         <ul className='list'>
           <li>
             Usar o intentar usar (o si eres un asociado, permitir que cualquier persona use)
@@ -118,6 +119,7 @@ export default class LegalRestrictionsEs extends React.Component {
             </ul>
           </li>
           <li>
+        </ul>
         <p className='para'>
           Además, las actividades restringidas que afectan a los usuarios del servicios
           de GoCardless que determinan sobre lo que se puede realizar cobros (para Empresas)
