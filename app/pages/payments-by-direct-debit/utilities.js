@@ -9,8 +9,8 @@ import AddPartnerIcon from '../../icons/svg/add-partner';
 import WhiteLabelIcon from '../../icons/svg/white-label';
 import CustomerIcon from '../../icons/svg/customer';
 
-export default class Energy extends React.Component {
-  displayName = 'Energy'
+export default class Utilities extends React.Component {
+  displayName = 'Utilities'
 
   render() {
     return (
