@@ -559,8 +559,8 @@ export default {
     title: 'Recruiter',
     description: '',
   },
-  jobs_customer_relationship_marketer: {
-    title: 'Customer Relationship Marketer',
+  jobs_digital_marketer: {
+    title: 'Digital Marketer',
     description: '',
   },
   jobs_sales_operations_manager: {
