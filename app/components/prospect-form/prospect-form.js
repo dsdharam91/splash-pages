@@ -208,7 +208,7 @@ export default class ProspectForm extends React.Component {
 
           <div className={classNames({
             'u-is-hidden notice notice--error u-margin-Bm': true,
-            'u-is-visible': !this.state.isSuccess,
+            'u-is-visible': this.state.errorMessage,
           })}>
             { this.state.errorMessage }
           </div>
