@@ -380,8 +380,8 @@ export default {
     title: 'Direct Debit for Telecommunication Companies',
     description: '',
   },
-  energy: {
-    title: 'Direct Debit for Energy Companies',
+  utilities: {
+    title: 'Direct Debit for Utility Companies',
     description: '',
   },
   partners_guide: {

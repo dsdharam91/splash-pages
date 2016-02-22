@@ -13,7 +13,7 @@ import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/p
 import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-debit';
 import Accountants from '../pages/payments-by-direct-debit/accountants';
 import Telcos from '../pages/payments-by-direct-debit/telcos';
-import Energy from '../pages/payments-by-direct-debit/energy';
+import Utilities from '../pages/payments-by-direct-debit/utilities';
 
 import Europe from '../pages/europe/europe';
 import Refer from '../pages/refer/refer';
@@ -320,9 +320,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [Energy, { name: 'energy' }, {
+  [Utilities, { name: 'utilities' }, {
       'en-GB': {
-        path: '/energy',
+        path: '/utilities',
       },
     },
   ],
