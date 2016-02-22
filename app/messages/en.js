@@ -571,6 +571,10 @@ export default {
     title: 'Communications Designer',
     description: '',
   },
+  jobs_accounts_assistant: {
+    title: 'Accounts Assistant',
+    description: '',
+  },
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
