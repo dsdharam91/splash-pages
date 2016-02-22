@@ -37,7 +37,7 @@ import AccountExecutive from '../pages/about/jobs/positions/account-executive-uk
 import PaymentsProcessingSpecialist from '../pages/about/jobs/positions/payments-processing-specialist.js';
 import Recruiter from '../pages/about/jobs/positions/recruiter.js';
 import SalesDevelopmentRepresentativeOutbound from '../pages/about/jobs/positions/sales-development-representative-outbound.js';
-import CustomerRelationshipMarketer from '../pages/about/jobs/positions/customer-relationship-marketer.js';
+import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 import CommunicationsDesigner from '../pages/about/jobs/positions/communications-designer.js';
 
@@ -485,12 +485,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [CustomerRelationshipMarketer, { name: 'jobs_customer_relationship_marketer', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/customer-relationship-marketer',
-      },
-    },
-  ],
   [SalesOperationsManager, { name: 'jobs_sales_operations_manager', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/sales-operations-manager',
@@ -500,6 +494,12 @@ export const config = Immutable.fromJS([
   [CommunicationsDesigner, { name: 'jobs_communications_designer', category: 'jobs.ux_design' }, {
       en: {
         path: '/about/jobs/communications-designer',
+      },
+    },
+  ],
+  [DigitalMarketer, { name: 'jobs_digital_marketer', category: 'jobs.marketing' }, {
+      en: {
+        path: '/about/jobs/digital-marketer',
       },
     },
   ],
