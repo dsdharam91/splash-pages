@@ -176,7 +176,7 @@ export default {
     description: '',
   },
   legal_merchants: {
-    title: 'Tñerminos y Condiciones - Empresas',
+    title: 'Términos y Condiciones - Empresas',
     nav_title: 'Términos para Empresas',
     description: '',
   },

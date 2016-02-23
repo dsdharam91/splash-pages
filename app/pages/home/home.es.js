@@ -21,7 +21,7 @@ export default class HomeEs extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
-                Nuestra red global de pagos ha procesado más de 1.000.000.000€
+                Nuestra red global de pagos ha procesado más de 1.400.000.000€
               </h2>
             </div>
             <div className='grid u-margin-Tl u-padding-Tm'>

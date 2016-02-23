@@ -135,7 +135,7 @@ export default class ProductComparisonEs extends React.Component {
                 </tr>
                 <tr className='comparison-table__row'>
                   <td className='comparison-table__cell u-text-end'>Precio por transacción</td>
-                  <td className='comparison-table__cell'>1% máxinmo de 2 €</td>
+                  <td className='comparison-table__cell'>1% máximo de 2 €</td>
                   <td className='comparison-table__cell'>Decreciente a partir de 0,60 €</td>
                 </tr>
                 <tr className='comparison-table__row'>
