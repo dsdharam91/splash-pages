@@ -575,6 +575,10 @@ export default {
     title: 'Accounts Assistant',
     description: '',
   },
+  jobs_customer_success_manager: {
+    title: 'Customer Success Manager',
+    description: '',
+  },
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
