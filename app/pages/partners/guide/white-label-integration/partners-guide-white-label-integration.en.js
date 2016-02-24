@@ -12,6 +12,15 @@ export default class PartnersGuideWhiteLabelEn extends React.Component {
         <h3>Merchant onboarding and collecting merchant verification information</h3>
 
         <p>
+          <strong>Our white label partner program is currently a work in progress.</strong>
+        </p>
+
+        <p>
+          <strong>Please <a href="mailto:help@gocardless.com?subject=Whitelabel%20API%20Endpoints">contact support</a> if
+          you would like to use these endpoints in your integration in future.</strong>
+        </p>
+
+        <p>
           If you choose a White label integration, then the merchant onboarding can be handled
           inside your existing application. This means that you need to collect the following information
           from your merchants:

@@ -12,6 +12,15 @@ export default class PartnersGuideWhiteLabelDe extends React.Component {
         <h3>Händler-Onboarding und Erfassen von Verifizierungsdaten von Händlern</h3>
 
         <p>
+          <strong>Unsere White-Label-Integration ist derzeit noch in Bearbeitung.</strong>
+        </p>
+
+        <p>
+          <strong>Bitte <a href="mailto:deutschland@gocardless.com?subject=White-label%20API%20Endpunkte">kontaktieren Sie unser Team</a> falls
+          Sie die API Endpunkte in Zukunft nutzen möchten.</strong>
+        </p>
+
+        <p>
           Wenn Sie sich für die White-Label-Integration entscheiden, können Sie das Händler-Onboarding innerhalb
           Ihrer vorhandenen Anwendung managen. Dazu müssen Sie folgende Daten von Ihren Händlern erfassen:
         </p>
