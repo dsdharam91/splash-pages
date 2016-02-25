@@ -9,27 +9,30 @@ export default class CustomerSuccessManager extends React.Component {
       <JobsPage>
         <h3 className='u-text-heading-light u-text-m u-color-heading'>Customer Success Manager </h3>
         <p className='para'>
-          Help our customers make recurring payments simple.
+          Help our larger customers make recurring payments simple.
         </p>
         <p className='para'>
           GoCardless is growing fast. We’ve built a world-class product that opens up Direct Debit to
           small and medium-sized businesses across the UK and beyond, and we have recently extended
-          our offering to multinational companies like the Guardian, TripAdvisor and Box.
-          Thousands of business in the UK already rely on us to handle their payments, and hundreds more join us every week.
+          our offering to larger companies like the Guardian, TripAdvisor and Box.
+          Thousands of business already rely on us to handle their payments, and hundreds more join us every week.
         </p>
         <p className='para'>
-          We’re looking for a conscientious, inquisitive and organised problem-solver to
+          We’re looking for a conscientious, creative and organised problem-solver to
           join our growing Customer Success team.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
-          As a Customer Success Manager, you will be responsible for the long term success of our merchants with GoCardless.
+          As a Customer Success Manager, you will be responsible for the long term success of our larger merchants with GoCardless.
         </p>
         <p className='para'>Day to day, you will:</p>
         <ul className='list'>
           <li>
             Proactively organise operational and strategic conduct reviews with our merchants to optimise
-            their usage and discover opportunities to add more value.
+            their usage of GoCardless.
+          </li>
+          <li>
+            Be creative in discovering opportunities to add use cases, creating value for customers and GoCardless.
           </li>
           <li>
             Work closely with the Head of Customer Success to refine and improve processes.
@@ -38,7 +41,7 @@ export default class CustomerSuccessManager extends React.Component {
             Manage and co-ordinate escalations by working with our Operations and Engineering teams.
           </li>
           <li>
-            Create plans for each account, for example, forecasting.
+            Create and update account plans for each account, for example, forecasting.
           </li>
           <li>
             Advocate for our merchants internally by delivering informed, quantified feedback.
@@ -47,7 +50,7 @@ export default class CustomerSuccessManager extends React.Component {
             Help the Sales team successfully onboard new merchants.
           </li>
           <li>
-            Support the Marketing by delighting customers, leading to referrals, testimonials and case studies.
+            Support the Marketing team by delighting customers, leading to referrals, testimonials and case studies.
           </li>
         </ul>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
@@ -81,7 +84,7 @@ export default class CustomerSuccessManager extends React.Component {
             You are passionate about technology.
           </li>
           <li>
-            You believe in making sure your clients are at the forefront of our efforts.
+            You believe in making sure our customers are at the forefront of our efforts.
           </li>
         </ul>
         <p className='para'>
@@ -90,8 +93,8 @@ export default class CustomerSuccessManager extends React.Component {
           if you’re unsure, please apply.
         </p>
         <p className='para'>
-            In your application, please include your CV and a cover letter
-            explaining why you are a great candidate for this position.
+          In your application, please include your CV and a cover letter
+          explaining why you are a great candidate for this position.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/175808' className='btn u-margin-Vs'>
           Apply now
