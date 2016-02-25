@@ -13,7 +13,7 @@ export default class HomeHoldingPage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='site-wrapper'>
         <div className='site-header-wrapper'>
           <div className='site-header u-relative u-text-center'>
             <Link to='home' id='track-nav-home' className='header-logo u-relative u-block u-padding-Vl'>
