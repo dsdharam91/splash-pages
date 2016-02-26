@@ -15,7 +15,7 @@ export default class CustomerSuccessManager extends React.Component {
           GoCardless is growing fast. We’ve built a world-class product that opens up Direct Debit to
           small and medium-sized businesses across the UK and beyond, and we have recently extended
           our offering to larger companies like the Guardian, TripAdvisor and Box.
-          Thousands of business already rely on us to handle their payments, and hundreds more join us every week.
+          Thousands of businesses already rely on us to handle their payments, and hundreds more join us every week.
         </p>
         <p className='para'>
           We’re looking for a conscientious, creative and organised problem-solver to
@@ -28,8 +28,7 @@ export default class CustomerSuccessManager extends React.Component {
         <p className='para'>Day to day, you will:</p>
         <ul className='list'>
           <li>
-            Proactively organise operational and strategic conduct reviews with our merchants to optimise
-            their usage of GoCardless.
+            Proactively organise and conduct operational and strategic reviews with our merchants to optimise their usage of GoCardless.
           </li>
           <li>
             Be creative in discovering opportunities to add use cases, creating value for customers and GoCardless.
@@ -88,7 +87,7 @@ export default class CustomerSuccessManager extends React.Component {
           </li>
         </ul>
         <p className='para'>
-          This role particularly suits people with previous Customer Success experience for a B2B SaaS
+          This role particularly suits people with previous Customer Success experience on a B2B SaaS
           company. However our team come from a variety of backgrounds and we welcome diversity &ndash;
           if you’re unsure, please apply.
         </p>
