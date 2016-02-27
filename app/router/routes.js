@@ -110,6 +110,7 @@ import FaqMerchantsPartners from '../pages/faq/merchants/partners/faq-merchants-
 import FaqMerchantsReferrals from '../pages/faq/merchants/referrals/faq-merchants-referrals';
 import FaqMerchantsSecurity from '../pages/faq/merchants/security/faq-merchants-security';
 import FaqMerchantsSigningUp from '../pages/faq/merchants/signing-up/faq-merchants-signing-up';
+import FaqMerchantsVerification from '../pages/faq/merchants/verification/faq-merchants-verification';
 import FaqProDashboard from '../pages/faq/pro-dashboard/setup/faq-pro-dashboard-setup';
 import FaqProDashboardMandateCreation from '../pages/faq/pro-dashboard/mandate-creation/faq-pro-dashboard-mandate-creation';
 import FaqProDashboardMandateExport from '../pages/faq/pro-dashboard/mandate-export/faq-pro-dashboard-mandate-export';
@@ -1098,6 +1099,12 @@ export const config = Immutable.fromJS([
   [FaqMerchantsReferrals, { name: 'faq_merchants_referrals', category: 'faq.merchants' }, {
       'en-GB': {
         path: '/faq/merchants/referrals',
+      },
+    },
+  ],
+  [FaqMerchantsVerification, { name: 'faq_merchants_verification', category: 'faq.merchants' }, {
+      es: {
+        path: '/faq/empresas/verificacion',
       },
     },
   ],

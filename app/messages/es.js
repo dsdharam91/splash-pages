@@ -116,9 +116,15 @@ export default {
     overview: {
       title: 'Overview',
     },
-    faq: {
-      title: 'FAQ',
-    },
+  },
+  faq: {
+    title: 'FAQ - Preguntas más comunes',
+    sidebar: '¿No encuentras respuesta? Llama a nuestro equipo de soporte al',
+  },
+  faq_merchants_verification: {
+    title: 'FAQ para empresas - Verificación',
+    nav_title: 'Verifica tu cuenta',
+    description: 'Proceso de blanqueo de capitales para poder operar con tu cuenta GoCardless sin restricciones.',
   },
   payments_by_direct_debit: {
     title: 'Cobros online con Domiciliación Bancaria SEPA',
