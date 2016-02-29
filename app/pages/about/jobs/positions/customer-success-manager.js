@@ -9,7 +9,7 @@ export default class CustomerSuccessManager extends React.Component {
       <JobsPage>
         <h3 className='u-text-heading-light u-text-m u-color-heading'>Customer Success Manager </h3>
         <p className='para'>
-          Help our larger customers make recurring payments simple.
+          Help our customers make recurring payments simple.
         </p>
         <p className='para'>
           GoCardless is growing fast. We’ve built a world-class product that opens up Direct Debit to
@@ -23,12 +23,12 @@ export default class CustomerSuccessManager extends React.Component {
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
-          As a Customer Success Manager, you will be responsible for the long term success of our larger merchants with GoCardless.
+          As a Customer Success Manager, you will be responsible for the long term success of our larger customers with GoCardless.
         </p>
         <p className='para'>Day to day, you will:</p>
         <ul className='list'>
           <li>
-            Proactively organise and conduct operational and strategic reviews with our merchants to optimise their usage of GoCardless.
+            Proactively organise and conduct operational and strategic reviews with our customers to optimise their usage of GoCardless.
           </li>
           <li>
             Be creative in discovering opportunities to add use cases, creating value for customers and GoCardless.
@@ -40,13 +40,13 @@ export default class CustomerSuccessManager extends React.Component {
             Manage and co-ordinate escalations by working with our Operations and Engineering teams.
           </li>
           <li>
-            Create and update account plans for each account, for example, forecasting.
+            Create and update account plans for each account.
           </li>
           <li>
-            Advocate for our merchants internally by delivering informed, quantified feedback.
+            Advocate for our customers internally by delivering informed, quantified feedback.
           </li>
           <li>
-            Help the Sales team successfully onboard new merchants.
+            Help the Sales team successfully onboard new customers.
           </li>
           <li>
             Support the Marketing team by delighting customers, leading to referrals, testimonials and case studies.
@@ -54,7 +54,7 @@ export default class CustomerSuccessManager extends React.Component {
         </ul>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <p className='para'>
-          We’re looking for someone who relishes the challenge of understanding each merchant and their industry.
+          We’re looking for someone who relishes the challenge of understanding each customer and their industry.
         </p>
         <p className='para'>You should apply if:</p>
         <ul className='list u-margin-Tm'>
