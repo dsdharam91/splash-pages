@@ -9,18 +9,18 @@ describe('Swapping languages', function() {
   it('lets you navigate to a page and then swap languages', function() {
     browser.get(BASE_URL);
 
-    element(by.id('track-nav-products')).click();
-    element(by.id('track-nav-pro')).click();
+    element(by.id('track-nav-more')).click();
+    element(by.id('track-nav-security')).click();
 
     var popoverLink = element(by.cssContainingText('.popover-link', 'United Kingdom'));
-    var frenchLink = element(by.css('a[href="/fr-fr/pro/"]'));
+    var frenchLink = element(by.css('a[href="/fr-fr/securite/"]'));
 
-    expect(browser.getCurrentUrl()).toEqual(BASE_URL + '/pro/');
+    expect(browser.getCurrentUrl()).toEqual(BASE_URL + '/security/');
 
     ec.waitForClickableThenClick(popoverLink).
       then(ec.waitForClickableThenClick.bind(null, frenchLink)).
       then(function() {
-        expect(element(by.cssContainingText('body', 'Découvrez GoCardless')).isPresent()).toBe(true);
+        expect(element(by.cssContainingText('body', 'Vous êtes protégé')).isPresent()).toBe(true);
       });
   });
 });

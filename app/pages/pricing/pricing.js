@@ -11,7 +11,7 @@ export default class Pricing extends React.Component {
 
   render() {
     return (
-      <Page>
+      <Page isInverted={false}>
         <PricingEn />
         <PricingFr />
         <PricingDe />

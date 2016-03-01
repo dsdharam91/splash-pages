@@ -27,31 +27,6 @@ class Header extends React.Component {
       'u-link-default': !isInverted,
     });
 
-    const products = (
-      <ul className='u-text-xxs u-padding-Vxs'>
-        <IfLinkExists to='features' tagName='li'>
-          <Link to='features' id='track-nav-features' className='site-header__product-link u-link-clean'>
-            <span className='site-header__product-link-title u-text-semi'><Message pointer='features.nav_title' /></span>
-            <p className='u-color-dark-gray'><Message pointer='features.explainer' /></p>
-          </Link>
-          <hr className='u-margin-Vxs' />
-        </IfLinkExists>
-        <IfLinkExists to='pro' tagName='li'>
-          <Link to='pro' id='track-nav-pro' className='site-header__product-link u-link-clean'>
-            <span className='site-header__product-link-title u-text-semi'><Message pointer='pro.nav_title' /></span>
-            <p className='u-color-dark-gray'><Message pointer='pro.explainer' /></p>
-          </Link>
-        </IfLinkExists>
-        <IfLinkExists to='partners' tagName='li'>
-          <hr className='u-margin-Vxs' />
-          <Link to='partners' id='track-nav-partners' className='site-header__product-link u-link-clean'>
-            <span className='site-header__product-link-title u-text-semi'><Message pointer='partners.nav_title' /></span>
-            <p className='u-color-dark-gray'><Message pointer='partners.explainer' /></p>
-          </Link>
-        </IfLinkExists>
-      </ul>
-    );
-
     return (
       <div className={classNames({'site-header-wrapper': isInverted})}>
         <div className='site-header u-relative u-cf'>
@@ -65,30 +40,17 @@ class Header extends React.Component {
           </div>
           <div className='u-pull-end align-btn-small'>
             <nav className='nav u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
-              <div className='nav__item u-relative'>
-                <Popover className='popover--large' toggle={
-                   (<a href='' id='track-nav-products' className={linkClass}>
-                      <div className={classNames('nav__item-link popover-link', {
-                        'popover-link--invert': isInverted,
-                      })}>
-                        <Message pointer='header.our_products' />
-                      </div>
-                    </a>)
-                 }>
-                   {products}
-                 </Popover>
-              </div>
+              <IfLinkExists to='features' tagName='div' className='nav__item u-relative'>
+                <Link to='features' id='track-nav-features' className={linkClass}>
+                  <div className='nav__item-link'>
+                    <Message pointer='features.nav_title' />
+                  </div>
+                </Link>
+              </IfLinkExists>
               <IfLinkExists to='pricing' tagName='div' className='nav__item u-relative'>
                 <Link to='pricing' id='track-nav-pricing' className={linkClass}>
                   <div className='nav__item-link'>
                     <Message pointer='pricing.nav_title' />
-                  </div>
-                </Link>
-              </IfLinkExists>
-              <IfLinkExists to='stories' tagName='div' className='nav__item u-relative'>
-                <Link to='stories' id='track-nav-stories' className={linkClass}>
-                  <div className='nav__item-link'>
-                    <Message pointer='stories.nav_title' />
                   </div>
                 </Link>
               </IfLinkExists>
