@@ -469,11 +469,6 @@ export default {
     nav_title: 'Europe',
     description: 'GoCardless makes it easy to accept SEPA Direct Debit payments from across Europe. Take recurring and one-off payments. Find out more and register your interest.',
   },
-  refer: {
-    title: 'Referral Scheme: Get £50 off your fees',
-    nav_title: 'Refer',
-    description: 'Earn money by recommending GoCardless. Refer someone else and you\'ll both get £50 credit towards GoCardless fees.',
-  },
   team: {
     title: 'Team',
     description: '',

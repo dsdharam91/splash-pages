@@ -16,7 +16,6 @@ import Telcos from '../pages/payments-by-direct-debit/telcos';
 import Utilities from '../pages/payments-by-direct-debit/utilities';
 
 import Europe from '../pages/europe/europe';
-import Refer from '../pages/refer/refer';
 import ExampleCheckout from '../pages/example-checkout/example-checkout';
 
 import About from '../pages/about/about';
@@ -332,12 +331,6 @@ export const config = Immutable.fromJS([
   [Europe, { name: 'europe' }, {
       'en-GB': {
         path: '/europe',
-      },
-    },
-  ],
-  [Refer, { name: 'refer' }, {
-      'en-GB': {
-        path: '/refer',
       },
     },
   ],
