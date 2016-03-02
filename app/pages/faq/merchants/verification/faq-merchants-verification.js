@@ -30,15 +30,20 @@ export default class FaqMerchantsVerification extends React.Component {
           tu cuenta esté totalmente verificada. Afortunadamente, si rellenas los datos correctamente
           y <strong>sigues los siguientes pasos,</strong> tu verificación estará lista en 2-3 días.
         </p>
+        <p className='para'>&nbsp;</p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Paso 1: Rellene los datos solicitados
+          Proceso de verificación
         </h3>
+
+        <h4 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <strong>Paso 1: </strong>Rellene los datos solicitados
+        </h4>
         <p className='para'>
           Los datos son los siguientes:
         </p>
         <p className='para'>
-          <strong>Información de la compañía:</strong>
+          <u> > Información de la compañía:</u>
         </p>
         <ul className='list'>
           <li>Country (País): España</li>
@@ -48,7 +53,7 @@ export default class FaqMerchantsVerification extends React.Component {
         </ul>
 
         <p className='para'>
-          <strong>Director/Individual details (Detalles del Administrador de la empresa o, si eres autónomo, tu nombre):</strong>
+          <u> > Director/Individual details (Detalles del Administrador de la empresa o, si eres autónomo, tu nombre):</u>
         </p>
         <ul className='list'>
           <li>Given Name (Nombre)</li>
@@ -60,7 +65,7 @@ export default class FaqMerchantsVerification extends React.Component {
         </ul>
 
         <p className='para'>
-          <strong>Shareholders info (Información de los accionistas que tengan más de un 25% de la empresa):</strong>
+          <u> > Shareholders info (Información de los accionistas que tengan más de un 25% de la empresa):</u>
         </p>
         <ul className='list'>
           <li>Given and Family Name (Nombre y apellidos)</li>
@@ -68,49 +73,46 @@ export default class FaqMerchantsVerification extends React.Component {
         </ul>
 
         <p className='para'>
-          <strong>Bank Account details (Cuenta Bancaria donde quieres recibir el dinero de tus clientes)</strong>
+          <u> > Bank Account details (Cuenta Bancaria donde quieres recibir el dinero de tus clientes)</u>
         </p>
         <ul className='list'>
           <li>Account holder name (Titular de la cuenta bancaria)</li>
           <li>Country (País)</li>
           <li>Account Number (Número de cuenta)</li>
         </ul>
+        <p className='para'>&nbsp;</p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Paso 2: Verifica tu cuenta Bancaria
-        </h3>
+        <h4 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <strong>Paso 2:</strong> Verifica tu cuenta Bancaria
+        </h4>
         <p className='para'>
-          Para poder verificar tu cuenta, la mejor manera es que envíes una transferencia de 0.01€ a la cuenta
-          de GoCardless desde la cuenta a la que quieres que te enviemos los cobros.
-          Los datos de nuestra cuenta son:
+          Para poder verificar tu cuenta, habrás de hacer una <strong>transferencia de 0.01€ a la cuenta
+          de GoCardless</strong> desde la cuenta a la que quieres que te enviemos los cobros.
+          Los <strong>datos de nuestra cuenta</strong> los recibirás en tu email directamente.
         </p>
-        <ul className='list'>
-          <li>Nombre: GoCardless Ltd</li>
-          <li>BIC BARCGB22</li>
-          <li>IBAN: GB48 BARC 2017 2242 909977</li>
-        </ul>
         <p className='para'>
           En la Referencia de la transferencia, pon el usuario de GoCardless con el que te registraste (normalmente tu email)
         </p>
+        <p className='para'>&nbsp;</p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Paso 3: Envío de documentos de acreditación
-        </h3>
+        <h4 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <strong>Paso 3: </strong>Envío de documentos de acreditación
+        </h4>
         <p className='para'>
           Si alguno de los checks automáticos que hacemos falla por cualquier razón, entonces te pediremos que nos envíes
           algunos documentos para identificarte:
-
-          - DNI: Es importante que nos envíes, en un solo archivo, un escaneado de las dos caras. Si no lo tienes ya,
+        </p>
+          <ul className='list'>
+            <li>DNI: Es importante que nos envíes, en un solo archivo, un escaneado de las dos caras. Si no lo tienes ya,
           puedes crearlo en un momento con tu Smartphone preferido con la App Camscanner, gratuita y disponible en
           todas las plataformas, <a href='https://itunes.apple.com/es/app/camscanner-free/id388627783?mt=8'
           className='u-link-color-p u-text-underline'> Iphone</a>,
           <a href='https://play.google.com/store/apps/details?id=com.intsig.camscanner&feature=search_result'
           className='u-link-color-p u-text-underline'> Android</a> o
           <a href='https://www.microsoft.com/es-es/store/apps/camscanner/9wzdncrfhv2s'
-          className='u-link-color-p u-text-underline'> Windows Phone</a>
-
-          - Factura donde venga tu nombre y tu domicilio
-        </p>
+          className='u-link-color-p u-text-underline'> Windows Phone</a></li>
+            <li>Factura donde venga tu nombre y tu domicilio</li>
+          </ul>
       </FaqMerchantsPage>
     );
   }
