@@ -91,7 +91,7 @@ export default class FaqMerchantsVerification extends React.Component {
           Los <strong>datos de nuestra cuenta</strong> los recibirás en tu email directamente.
         </p>
         <p className='para'>
-          En la Referencia de la transferencia, pon el usuario de GoCardless con el que te registraste (normalmente tu email)
+          En la Referencia de la transferencia, pon el nombre de tu empresa.
         </p>
         <p className='para'>&nbsp;</p>
 
