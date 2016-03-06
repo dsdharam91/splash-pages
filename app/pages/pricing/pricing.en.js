@@ -130,11 +130,10 @@ export default class PricingEn extends React.Component {
               <p className='u-color-dark-gray'>
                 <IfLocale hasPercentagePricing>
                   No, there are no other fees except from those listed in the table above.
-                  We never charge for chargebacks or payment failures.<br />
+                  We never charge for set up, implementation, chargebacks or payment failures.<br />
                   With GoCardless, all you ever pay is <Message pointer='pricing.per_transaction_amount_normal' /> of the transaction
                   amount, up to a maximum of <Message pointer="pricing.cost_cap" />.<br />
-                  With GoCardless Pro, we charge you the <Message pointer='pricing.pro_monthly_fee' /> monthly fee and
-                  a fee for each transaction.
+                  With GoCardless Pro, we charge you the <Message pointer='pricing.pro_monthly_fee' /> monthly fee and a fee per transaction based on your monthly volumes.
                 </IfLocale>
                 <IfLocale hasPercentagePricing={false}>
                   No, we only charge you the <Message pointer='pricing.pro_monthly_fee' /> monthly fee and a fee for each transaction.
@@ -148,7 +147,7 @@ export default class PricingEn extends React.Component {
               </div>
               <p className='u-color-dark-gray'>
                 <IfLocale hasPercentagePricing>
-                  Yes. Our transaction fees decrease from 1,000 payments per month.
+                  Yes. Our transaction fees are based on your volume of payments per month.
                   To find out more, please <Link to='contact_sales' className='u-link-color-p u-text-underline'>contact sales</Link>.
                 </IfLocale>
                 <IfLocale hasPercentagePricing={false}>

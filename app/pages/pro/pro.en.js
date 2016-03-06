@@ -134,8 +134,8 @@ export default class ProEn extends React.Component {
                   </div>
                 </div>
                 <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
-                  Want to easily try our API and
-                  dashboard? <a href='https://manage-sandbox.gocardless.com/signup'>
+                  It's easy to try our API and dashboard.
+                  <a href='https://manage-sandbox.gocardless.com/signup'>
                     Sign up for a free sandbox account
                   </a>
                 </p>
@@ -183,8 +183,7 @@ export default class ProEn extends React.Component {
                     <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                       GoCardless Pro is the only product that enables you to collect
                       Direct Debit payments from the UK, Sweden and the Eurozone through a single integration.
-                      With our API, your business can take payments from over 500 million people
-                      in 23 European countries.
+                      With our API, your business can take payments from over 500 million people in over 22 European countries.
                     </p>
                   </div>
                 </div>

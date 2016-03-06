@@ -168,7 +168,7 @@ export default class FeaturesEn extends React.Component {
                 </p>
                 <h3 className='u-text-xs u-color-dark-gray'>Multiple users per account</h3>
                 <p className='u-color-dark-gray u-margin-Bm'>
-                  Securely share access with your colleagues. Control over permissions and a full audit trail.
+                  Securely share access with your colleagues.  Control their access rights and permissions.
                 </p>
               </div>
               <div className='grid__cell u-size-1of2 u-text-center'>
