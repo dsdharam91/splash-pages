@@ -244,15 +244,15 @@ export default class ProEn extends React.Component {
                       </a>
                     ),]}>
                     <div>
-                      <img src='/images/pro/customer.jpg'
+                      <img src='/images/pro/customer.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                     <div>
-                      <img src='/images/pro/payment.jpg'
+                      <img src='/images/pro/payment.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                     <div>
-                      <img src='/images/pro/payments-list.jpg'
+                      <img src='/images/pro/payments-list.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                   </Tabs>
