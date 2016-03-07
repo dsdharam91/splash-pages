@@ -11,7 +11,7 @@ export default class LocationGreenIcon extends React.Component {
 
   render() {
     return (
-      <svg {...this.props} width="46px" height="60px" viewBox="0 0 46 60" version="1.1" :xmlns="http://www.w3.org/2000/svg">
+      <svg {...this.props} width="46px" height="60px" viewBox="0 0 46 60" version="1.1" xmlns="http://www.w3.org/2000/svg">
       <defs />
       <g id="Page-1" stroke="none" strokeWidth={1} fill="none" fill-rule="evenodd">
         <g id="Desktop-Copy-2" transform="translate(-756.000000, -738.000000)">

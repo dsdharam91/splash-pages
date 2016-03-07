@@ -11,12 +11,7 @@ export default class TabletFillIcon extends React.Component {
 
   render() {
     return (
-      {/*?xml version="1.0" encoding="UTF-8" standalone="no"?*/}
-    <svg {...this.props} width="46px" height="60px" viewBox="0 0 46 60" version="1.1" :xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      {/* Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch */}
-      <title>tablet-fill-icon</title>
-      <desc>Created with Sketch.</desc>
-      <defs />
+    <svg {...this.props} width="46px" height="60px" viewBox="0 0 46 60" version="1.1" xmlns="http://www.w3.org/2000/svg">
       <g id="Page-1" stroke="none" strokeWidth={1} fill="none" fill-rule="evenodd">
         <g id="Desktop" transform="translate(-795.000000, -322.000000)">
           <g id="tablet-fill-icon" transform="translate(795.000000, 322.000000)">
@@ -30,4 +25,3 @@ export default class TabletFillIcon extends React.Component {
     );
   }
 }
-

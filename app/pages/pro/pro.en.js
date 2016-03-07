@@ -4,10 +4,12 @@ import Message from '../../components/message/message';
 import ProductComparison from '../../components/product-comparison/product-comparison';
 import StickyNav from '../../components/sticky-nav/sticky-nav';
 import Tabs from '../../components/tabs/tabs';
-import SecurityIcon from '../../icons/svg/security';
-import DeveloperIcon from '../../icons/svg/developer';
-import WhiteLabelIcon from '../../icons/svg/white-label';
-import MobileIcon from '../../icons/svg/mobile';
+
+import WhitelabelFillIcon from '../../icons/svg/whitelabel-fill';
+import DeveloperFillIcon from '../../icons/svg/developer-fill';
+import TabletFillIcon from '../../icons/svg/tablet-fill';
+import SecurityFillIcon from '../../icons/svg/security-fill';
+
 import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
 import IfLinkExists from '../../components/if-link-exists/if-link-exists';
@@ -81,8 +83,7 @@ export default class ProEn extends React.Component {
                 <div className='grid u-margin-Tl u-padding-Tm'>
                   <div className='grid__cell u-size-1of2 u-text-center'>
                     <figure className='svg-icon u-center'>
-                      <WhiteLabelIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
-                      <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
+                      <WhitelabelFillIcon className='svg-icon__image' />
                     </figure>
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Completely white-labelled
@@ -94,8 +95,7 @@ export default class ProEn extends React.Component {
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center'>
                     <figure className='svg-icon u-center'>
-                      <DeveloperIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                      <DeveloperIcon className='svg-icon__image u-fill-dark-gray' />
+                      <DeveloperFillIcon className='svg-icon__image' />
                     </figure>
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       A simple, modern API
@@ -108,8 +108,7 @@ export default class ProEn extends React.Component {
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>
                     <figure className='svg-icon u-center'>
-                      <MobileIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
-                      <MobileIcon className='svg-icon__image u-fill-dark-gray' />
+                      <TabletFillIcon className='svg-icon__image' />
                     </figure>
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Works everywhere
@@ -121,8 +120,7 @@ export default class ProEn extends React.Component {
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>
                     <figure className='svg-icon u-center'>
-                      <SecurityIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
-                      <SecurityIcon className='svg-icon__image u-fill-dark-gray' />
+                      <SecurityFillIcon className='svg-icon__image' />
                     </figure>
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Military grade security
