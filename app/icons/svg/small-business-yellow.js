@@ -11,7 +11,7 @@ export default class SmallBusinessYellowIcon extends React.Component {
 
   render() {
     return (
-      <svg {...this.props} width="60px" height="52px" viewBox="0 0 60 52" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <svg {...this.props} width="60px" height="52px" viewBox="0 0 60 52" version="1.1" :xmlns="http://www.w3.org/2000/svg">
       <defs />
       <g id="Page-1" stroke="none" strokeWidth={1} fill="none" fill-rule="evenodd">
         <g id="Desktop-Copy-2" transform="translate(-370.000000, -1779.000000)">

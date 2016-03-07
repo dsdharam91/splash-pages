@@ -11,7 +11,7 @@ export default class CloudRedIcon extends React.Component {
 
   render() {
     return (
-      <svg {...this.props} width="58px" height="47px" viewBox="0 0 58 47" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <svg {...this.props} width="58px" height="47px" viewBox="0 0 58 47" version="1.1" :xmlns="http://www.w3.org/2000/svg">
       <defs />
       <g id="Page-1" stroke="none" strokeWidth={1} fill="none" fill-rule="evenodd">
         <g id="Desktop-Copy-5" transform="translate(-931.000000, -745.000000)">
