@@ -500,10 +500,14 @@ export default {
   },
   jobs_software_engineer: {
     title: 'Software Engineer',
-   description: '',
+    description: '',
   },
   jobs_site_reliability_engineer: {
     title: 'Site Reliability Engineer',
+    description: '',
+  },
+  jobs_data_engineer: {
+    title: 'Data Engineer',
     description: '',
   },
   jobs_product_designer: {
