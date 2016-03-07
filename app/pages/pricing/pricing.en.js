@@ -85,7 +85,7 @@ export default class PricingEn extends React.Component {
                   </div>
                   <div className='u-padding-Am u-text-center u-background-white'>
                     <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
-                      Everything in GoCardless Standard, plus:
+                      Everything in Standard, plus:
                     </p>
                     <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
                       <li className='u-margin-Bxs'>
