@@ -1,7 +1,7 @@
 export default {
   header: {
     our_products: 'Our products',
-    login_btn: 'Login',
+    login_btn: 'Sign in',
     more: 'More',
   },
   footer: {
@@ -120,7 +120,7 @@ export default {
   },
   features: {
     title: 'Quick & Simple Online Payments',
-    nav_title: 'GoCardless',
+    nav_title: 'Features',
     description: 'GoCardless is the easiest way to take payments online. Collect payments directly from your customers\' bank accounts. Save time and improve cash flow.',
     explainer: 'Simple recurring payments',
   },
@@ -318,7 +318,7 @@ export default {
   },
   pro: {
     title: 'GoCardless Pro: Complete Control Over Direct Debit',
-    nav_title: 'GoCardless Pro',
+    nav_title: 'Pro Features',
     description: 'GoCardless Pro allows you to collect Direct Debit payments with full control over the experience. Completely white-labelled and with an easy-to-use API.',
     explainer: 'Total control over Direct Debit',
   },
