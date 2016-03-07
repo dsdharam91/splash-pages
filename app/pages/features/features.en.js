@@ -23,7 +23,7 @@ export default class FeaturesEn extends React.Component {
             <div className='page-hero page-hero--medium page-hero--icon-background u-relative u-size-full'>
               <div className='site-container page-hero__container'>
                 <div className='grid u-margin-Vxxl'>
-                  <div className='grid__cell u-size-1of2 u-margin-Tm'>
+                  <div className='grid__cell u-size-1of2 u-margin-Txxl'>
                     <h1 className='u-text-heading u-color-invert u-text-xl u-text-light u-margin-Bm'>
                       Start taking <br />payments today
                     </h1>
@@ -33,7 +33,9 @@ export default class FeaturesEn extends React.Component {
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center'>
-                    <img src='/images/features/overview-video-cover.jpg' className='u-shadow-large'/>
+                    <div className="videos-container--features">
+                      <iframe src="//player.vimeo.com/video/158055034?api=1&player_id=welcome-video" id="welcome-video" width="100%" height="310" frameBorder={0} />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -43,7 +45,7 @@ export default class FeaturesEn extends React.Component {
             <div className='page-hero page-hero--medium page-hero--icon-background u-relative u-size-full'>
               <div className='site-container page-hero__container'>
                 <div className='grid u-margin-Vxxl'>
-                  <div className='grid__cell u-size-1of2 u-margin-Tm'>
+                  <div className='grid__cell u-size-1of2 u-margin-Txxl'>
                     <h1 className='u-text-heading u-color-invert u-text-xl u-text-light u-margin-Bm'>
                       Start taking <br />payments today
                     </h1>
@@ -52,7 +54,9 @@ export default class FeaturesEn extends React.Component {
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center'>
-                    <img src='/images/features/overview-video-cover.jpg' className='u-shadow-large'/>
+                    <div className="videos-container--features">
+                      <iframe src="//player.vimeo.com/video/158055034?api=1&player_id=welcome-video" id="welcome-video" width="100%" height="310" frameBorder={0} webkitallowfullscreen mozallowfullscreen allowFullScreen />
+                    </div>
                   </div>
                 </div>
               </div>
