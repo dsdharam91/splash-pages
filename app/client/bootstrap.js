@@ -23,6 +23,17 @@ function renderApp() {
     location: Router.HistoryLocation,
   });
 
+  Router.HistoryLocation.addChangeListener((page) => {
+    pushDataLayer({
+      pageType: 'splash-pages',
+      pageLanguage: localeToLanguage(appState.currentLocale),
+      pageRegion: localeToRegion(appState.currentLocale),
+      event: 'pageview',
+      title: document.title,
+      virtualUrl: page.path,
+    });
+  });
+
   // TODO: Remove this after some time, fix all incoming links
   const redirects = {
     '/about#jobs': '/about/jobs',
@@ -46,15 +57,7 @@ function renderApp() {
     });
 
     React.render(<Handler {...stateProps} />, mountNode, () => {
-      console.log('App has been mounted. Logging pageview.');
-      pushDataLayer({
-        pageType: 'splash-pages',
-        pageLanguage: localeToLanguage(appState.currentLocale),
-        pageRegion: localeToRegion(appState.currentLocale),
-        event: 'pageview',
-        title: document.title,
-        virtualUrl: state.pathname,
-      });
+      console.log('App has been mounted.');
     });
   });
 }
