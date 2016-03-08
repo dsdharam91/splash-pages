@@ -8,6 +8,7 @@ import IfLocale from '../if-locale/if-locale';
 import Logo from '../../icons/logo/logo';
 import Popover from '../popover/popover';
 import classNames from 'classnames';
+import { PropTypes } from '../../helpers/prop-types/prop-types';
 
 class Header extends React.Component {
   displayName = 'Header'
@@ -20,7 +21,13 @@ class Header extends React.Component {
     isInverted: React.PropTypes.bool,
   };
 
+  static contextTypes = {
+    availableLocales: PropTypes.array.isRequired,
+  };
+
   render() {
+    const { availableLocales } = this.context;
+
     const isInverted = this.props.isInverted;
     const linkClass = classNames('u-padding-Vl u-block', {
       'u-link-invert': isInverted,
@@ -34,16 +41,20 @@ class Header extends React.Component {
             <span className='site-header__product-link-title u-text-semi'><Message pointer='features.nav_title' /></span>
             <p className='u-color-dark-gray'><Message pointer='features.explainer' /></p>
           </Link>
+
           <hr className='u-margin-Vxs' />
         </IfLinkExists>
+
         <IfLinkExists to='pro' tagName='li'>
           <Link to='pro' id='track-nav-pro' className='site-header__product-link u-link-clean'>
             <span className='site-header__product-link-title u-text-semi'><Message pointer='pro.nav_title' /></span>
             <p className='u-color-dark-gray'><Message pointer='pro.explainer' /></p>
           </Link>
         </IfLinkExists>
+
         <IfLinkExists to='partners' tagName='li'>
           <hr className='u-margin-Vxs' />
+
           <Link to='partners' id='track-nav-partners' className='site-header__product-link u-link-clean'>
             <span className='site-header__product-link-title u-text-semi'><Message pointer='partners.nav_title' /></span>
             <p className='u-color-dark-gray'><Message pointer='partners.explainer' /></p>
@@ -65,7 +76,8 @@ class Header extends React.Component {
           </div>
           <div className='u-pull-end align-btn-small'>
             <nav className='nav u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
-              <div className='nav__item u-relative'>
+
+              <Translation locales={availableLocales} exclude={['en-GB']} tagName='div' className='nav__item u-relative'>
                 <Popover className='popover--large' toggle={
                    (<a href='' id='track-nav-products' className={linkClass}>
                       <div className={classNames('nav__item-link popover-link', {
@@ -74,10 +86,21 @@ class Header extends React.Component {
                         <Message pointer='header.our_products' />
                       </div>
                     </a>)
-                 }>
-                   {products}
-                 </Popover>
-              </div>
+                  }>
+                  {products}
+                </Popover>
+              </Translation>
+
+              <Translation locales='en-GB' tagName='div' className='nav__item u-relative'>
+                <IfLinkExists to='features'>
+                  <Link to='features' id='track-nav-features' className={linkClass}>
+                    <div className='nav__item-link'>
+                      <Message pointer='features.nav_title' />
+                    </div>
+                  </Link>
+                </IfLinkExists>
+              </Translation>
+
               <IfLinkExists to='pricing' tagName='div' className='nav__item u-relative'>
                 <Link to='pricing' id='track-nav-pricing' className={linkClass}>
                   <div className='nav__item-link'>
@@ -85,13 +108,7 @@ class Header extends React.Component {
                   </div>
                 </Link>
               </IfLinkExists>
-              <IfLinkExists to='stories' tagName='div' className='nav__item u-relative'>
-                <Link to='stories' id='track-nav-stories' className={linkClass}>
-                  <div className='nav__item-link'>
-                    <Message pointer='stories.nav_title' />
-                  </div>
-                </Link>
-              </IfLinkExists>
+
               <div className='nav__item u-relative'>
                 <Popover toggle={
                   (<a href='' id='track-nav-more' className={linkClass}>

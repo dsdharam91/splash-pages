@@ -21,4 +21,3 @@ export default class MoneyIcon extends React.Component {
     );
   }
 }
-

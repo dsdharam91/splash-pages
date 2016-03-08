@@ -34,7 +34,7 @@
   background-repeat: no-repeat;
 }
 
-.page-hero--holding-page {
+.page-hero--icon-background {
   background: $primary-color url('/images/hero/hero-icons.jpg');
   background-size: cover;
   background-position: 50% 50%;
@@ -98,7 +98,7 @@
 }
 
 .page-hero--pricing {
-  background: $dark-gray;
+  margin-top: -78px;
 }
 
 .page-hero--pro {

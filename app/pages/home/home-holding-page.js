@@ -22,7 +22,7 @@ export default class HomeHoldingPage extends React.Component {
           </div>
         </div>
 
-        <div className='page-hero page-hero--holding-page page-hero--large u-relative u-size-full'>
+        <div className='page-hero page-hero--icon-background page-hero--large u-relative u-size-full'>
           <div className='site-container page-hero__container'>
             <div className='page-hero__inner'>
               <div className='page-hero__text'>

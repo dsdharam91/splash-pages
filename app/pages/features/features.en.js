@@ -1,24 +1,16 @@
 import React from 'react';
 import Message from '../../components/message/message';
 import StickyNav from '../../components/sticky-nav/sticky-nav';
-import ProductComparison from '../../components/product-comparison/product-comparison';
-import Tabs from '../../components/tabs/tabs';
-import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
-import PayOnePercentCTA from '../../components/pay-one-percent/pay-one-percent';
-import ClockIcon from '../../icons/svg/clock';
-import MoneyFlowerIcon from '../../icons/svg/money-flower';
-import CheckListIcon from '../../icons/svg/checklist';
-import CustomerIcon from '../../icons/svg/customer';
-import SecurityIcon from '../../icons/svg/security';
-import DeveloperIcon from '../../icons/svg/developer';
-import TickIcon from '../../icons/svg/tick';
-import MembershipIcon from '../../icons/svg/membership';
-import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
-import IfLinkExists from '../../components/if-link-exists/if-link-exists';
 import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
+
+import OnlineManagementYellowIcon from '../../icons/svg/online-management-yellow';
+import SaveMoneyGreenIcon from '../../icons/svg/save-money-green';
+import ImproveCashflowRedIcon from '../../icons/svg/improve-cashflow-red';
+import OwnExperienceYellowIcon from '../../icons/svg/own-experience-yellow';
+import IntegrateGreenIcon from '../../icons/svg/integrate-green';
 
 export default class FeaturesEn extends React.Component {
   displayName = 'FeaturesEn'
@@ -28,37 +20,43 @@ export default class FeaturesEn extends React.Component {
       <Translation locales='en'>
         <div>
           <Translation locales={['en']} exclude={['en-GB']}>
-            <div className='page-hero page-hero--medium u-relative u-size-full'>
+            <div className='page-hero page-hero--medium page-hero--icon-background u-relative u-size-full'>
               <div className='site-container page-hero__container'>
-                <div className='page-hero__inner'>
-                  <div className='page-hero__text'>
-                    <h1 className='u-text-heading u-margin-Tm u-color-invert u-text-center u-text-xl u-text-light'>
-                      Start taking payments today
+                <div className='grid u-margin-Vxxl'>
+                  <div className='grid__cell u-size-1of2 u-margin-Txxl'>
+                    <h1 className='u-text-heading u-color-invert u-text-xl u-text-light u-margin-Bm'>
+                      Start taking <br />payments today
                     </h1>
-                    <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                      GoCardless is the quickest and easiest way to take one-off and <br />recurring payments
-                      online in <Message pointer='country' />.
+                    <p className='u-text-heading u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
+                      GoCardless is the quickest and <br />easiest way to take one-off and <br />
+                      recurring payments online in <Message pointer='country' />.
                     </p>
+                  </div>
+                  <div className='grid__cell u-size-1of2 u-text-center'>
+                    <div className="videos-container--features">
+                      <iframe src="//player.vimeo.com/video/158055034?api=1&player_id=welcome-video" id="welcome-video" width="100%" height="310" frameBorder={0} />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </Translation>
           <Translation locales='en-GB'>
-            <div className='page-hero u-relative u-size-full'>
+            <div className='page-hero page-hero--medium page-hero--icon-background u-relative u-size-full'>
               <div className='site-container page-hero__container'>
-                <div className='page-hero__text u-center u-padding-Bm'>
-                  <h1 className='u-text-heading u-margin-Tm u-color-invert u-text-center u-text-xl u-text-light'>
-                    Start taking payments today
-                  </h1>
-                  <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    GoCardless is the quickest and easiest way to take one-off and <br />recurring payments online.
-                  </p>
-                </div>
-                <div className='u-text-center'>
-                  <div className='site-container u-padding-Bl'>
-                    <iframe src='https://player.vimeo.com/video/110889197'
-                      className='u-text-center videos-container__iframe u-margin-Vl' />
+                <div className='grid u-margin-Vxxl'>
+                  <div className='grid__cell u-size-1of2 u-margin-Txxl'>
+                    <h1 className='u-text-heading u-color-invert u-text-xl u-text-light u-margin-Bm'>
+                      Start taking <br />payments today
+                    </h1>
+                    <p className='u-text-heading u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
+                      GoCardless is the quickest and <br />easiest way to take one-off and <br />recurring payments online.
+                    </p>
+                  </div>
+                  <div className='grid__cell u-size-1of2 u-text-center'>
+                    <div className="videos-container--features">
+                      <iframe src="//player.vimeo.com/video/158055034?api=1&player_id=welcome-video" id="welcome-video" width="100%" height="310" frameBorder={0} webkitallowfullscreen mozallowfullscreen allowFullScreen />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -78,8 +76,8 @@ export default class FeaturesEn extends React.Component {
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#dashboard' id='track-sticky-nav-dashboard' className='sticky-nav__link'>
-                    Dashboard
+                  <a href='#partners' id='track-sticky-nav-partners' className='sticky-nav__link'>
+                    Partners
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
@@ -107,408 +105,214 @@ export default class FeaturesEn extends React.Component {
               </Link>
             </div>
           </StickyNav>
-          <hr className='u-margin-An' />
+
           <div className='section-scroll-target' id='overview'>
             <div className='site-container u-padding-Vxxl'>
-              <div className='u-padding-Vxl'>
-                <div className='grid'>
-                  <div className='grid__cell u-size-1of3'>
-                    <figure className='svg-icon svg-icon--small'>
-                      <ClockIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-green' />
-                      <ClockIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
-                    </figure>
+              <div className='grid u-margin-Vl'>
 
-                    <IfLocale hasInstantSignup={false}>
-                      <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                        Get started in 24 hours
-                      </div>
-                      <p className='u-color-dark-gray u-margin-Txs'>
-                        All you need is a bank account in <Message pointer='country' />. <Link to='contact_sales'>Contact us</Link> in
-                        order to get started.
-                      </p>
-                    </IfLocale>
-                    <IfLocale hasInstantSignup>
-                      <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                        Get started in minutes
-                      </div>
-                      <p className='u-color-dark-gray u-margin-Txs'>
-                        <Translation locales='en-GB'>
-                          All you need is a UK bank account.
-                        </Translation>
-                        <Translation locales={['en']} exclude={['en-GB']}>
-                          All you need is a bank account in <Message pointer='country' />.
-                        </Translation>
-                        &nbsp;<Href to='signup.path'>Sign up now</Href> and
-                        you could start taking payments in minutes.
-                      </p>
-                    </IfLocale>
+                <div className='grid__cell u-size-1of3 u-text-center'>
+                  <figure className='svg-icon u-center'>
+                    <OnlineManagementYellowIcon className='svg-icon__image' />
+                  </figure>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    Save time
                   </div>
-                  <div className='grid__cell u-size-1of3'>
-                    <figure className='svg-icon svg-icon--small'>
-                      <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-yellow' />
-                      <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
-                    </figure>
-                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      No setup fees
-                    </div>
-                    <p className='u-color-dark-gray u-margin-Txs'>
-                      GoCardless costs just <Message pointer='pricing.per_transaction_amount_normal' /> per transaction
-                      (capped at <Message pointer="pricing.cost_cap" />) with no monthly or setup fees.
-                      Scale pricing is also available.
-                    </p>
-                  </div>
-                  <div className='grid__cell u-size-1of3'>
-                    <figure className='svg-icon svg-icon--small'>
-                      <CheckListIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-blue' />
-                      <CheckListIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
-                    </figure>
-                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Automate everything
-                    </div>
-                    <p className='u-color-dark-gray u-margin-Txs'>
-                      GoCardless automates the taking, tracking and reconciliation of your payments. We do all the hard work for you.
-                    </p>
-                  </div>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
+                    Automated payment collection means less time on admin, more time on your business
+                  </p>
                 </div>
-                <div className='grid u-margin-Txl u-padding-Tl'>
-                  <div className='grid__cell u-size-1of3'>
-                    <figure className='svg-icon svg-icon--small'>
-                      <CustomerIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-green' />
-                      <CustomerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
-                    </figure>
-                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      High customer retention
-                    </div>
-                    <p className='u-color-dark-gray u-margin-Txs'>
-                      Because it's built on the Direct Debit system,
-                      GoCardless means not losing customers through card expiry or cancellation.
-                    </p>
+
+                <div className='grid__cell u-size-1of3 u-text-center'>
+                  <figure className='svg-icon u-center'>
+                    <SaveMoneyGreenIcon className='svg-icon__image' />
+                  </figure>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    Save money
                   </div>
-                  <div className='grid__cell u-size-1of3'>
-                    <figure className='svg-icon svg-icon--small'>
-                      <SecurityIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-blue' />
-                      <SecurityIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
-                    </figure>
-                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Military-grade security
-                    </div>
-                    <p className='u-color-dark-gray u-margin-Txs'>
-                      We store all bank details with RSA encryption and communicate only over secure channels.
-                    </p>
-                  </div>
-                  <div className='grid__cell u-size-1of3'>
-                    <figure className='svg-icon svg-icon--small'>
-                      <DeveloperIcon className='svg-icon__image svg-icon__image--small svg-icon__image--small-shadow u-fill-yellow' />
-                      <DeveloperIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
-                    </figure>
-                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Modern, RESTful API
-                    </div>
-                    <Translation locales={['en']} exclude={['en-GB']}>
-                      <p className='u-color-dark-gray u-margin-Txs'>
-                        Add GoCardless to your site or app in minutes with our easy to use API
-                        libraries. <a href='https://developer.gocardless.com/pro'>Learn more</a>.
-                      </p>
-                    </Translation>
-                    <Translation locales='en-GB'>
-                      <p className='u-color-dark-gray u-margin-Txs'>
-                        Add GoCardless to your site or app in minutes with our easy to use API
-                        libraries. <Link to='features_api' id='track-overview-api'>Learn more</Link>.
-                      </p>
-                    </Translation>
-                  </div>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
+                    Less than half the cost of PayPal with easy to understand pricing. 1% capped at £2
+                  </p>
                 </div>
+
+                <div className='grid__cell u-size-1of3 u-text-center'>
+                  <figure className='svg-icon u-center'>
+                    <ImproveCashflowRedIcon className='svg-icon__image' />
+                  </figure>
+                  <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                    Improve cashflow
+                  </div>
+                  <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
+                    Take control of your payments and make sure you get paid on time every time
+                  </p>
+                </div>
+
               </div>
             </div>
-            <Translation locales='en-GB'>
-              <hr className='u-margin-An' />
-              <div className='story-hero--greater-anglia'>
-                <div className='site-container u-text-center u-padding-Vxxl'>
-                  <div className='u-padding-Vxl'>
-                    <div className='u-padding-Bxxl u-size-2of3 u-center'>
-                      <p className='u-text-heading u-color-invert u-text-l u-text-light'>
-                        “GoCardless have taken all of the pain out of setting up and managing Direct Debit”
-                      </p>
-                    </div>
-                    <img src='/images/testimonials/greater-anglia__avatar.png' className='u-size-1of12 u-text-center u-margin-Bxs' />
-                    <div className='u-color-invert u-text-heading u-text-m u-text-semi'>Graeme Beton</div>
-                    <div className='u-color-invert u-text-heading u-text-xs u-margin-Bs'>Greater Anglia Railways</div>
-                    <Link to='stories_greater_anglia'
-                    className='u-link-invert u-text-heading u-color-invert u-text-semi u-text-upcase u-text-xxs'>
-                      Read the full story
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </Translation>
           </div>
-          <hr className='u-margin-An' />
+
+          <hr className='section-divider' />
+
+          <div className='site-container u-text-center u-padding-Vxxl'>
+            <div className='grid u-padding-Vxl'>
+              <div className='grid__cell u-size-1of2 u-padding-Rm'>
+                <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bm'>
+                  Easy online management
+                </h2>
+                <h3 className='u-text-xs u-color-dark-gray'>Simple online set up</h3>
+                <p className='u-color-dark-gray u-margin-Bm u-size-5of6'>
+                  Using our online form, customer can authorise payments securely in minutes.
+                </p>
+                <h3 className='u-text-xs u-color-dark-gray'>Automate your payments</h3>
+                <p className='u-color-dark-gray u-margin-Bm'>
+                  Customers can sign up to a plan or subscription to make recurring payments to your business.
+                </p>
+                <h3 className='u-text-xs u-color-dark-gray'>Powerful online dashboard</h3>
+                <p className='u-color-dark-gray u-margin-Bm'>
+                  Keep up-to-date on the status of all your payments with our online dashboard and email notifications.
+                </p>
+                <h3 className='u-text-xs u-color-dark-gray'>Multiple users per account</h3>
+                <p className='u-color-dark-gray u-margin-Bm'>
+                  Securely share access with your colleagues.  Control their access rights and permissions.
+                </p>
+              </div>
+              <div className='grid__cell u-size-1of2 u-text-center'>
+                <img src='/images/features/pro-dashboard-overview.png' />
+              </div>
+            </div>
+          </div>
+
+          <hr className='section-divider' />
+
           <div className='section-scroll-target' id='features'>
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='grid u-padding-Vxl'>
                 <div className='grid__cell u-size-1of2 u-text-center'>
-                  <img src='/images/products/real-time-reports.jpg' className='basic-page__real-time-reports-image' />
+                  <img src='/images/features/pro-dashboard-timeline.png' />
                 </div>
-                <div className='grid__cell u-size-1of2 u-margin-Tl'>
-                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl u-margin-Ts'>
-                    Take the guesswork out of cashflow
+                <div className='grid__cell u-size-1of2 u-padding-Rm'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bm'>
+                    Stay on top of your business
                   </h2>
-                  <h3 className='u-text-xs'>Up to the second status reports</h3>
-                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    Our simple online dashboard and email notifications keep you updated with comprehensive
-                    information on all of your payments and customers.
+                  <h3 className='u-text-xs u-color-dark-gray'>Connected to your software</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    Integrated with accounting software packages allowing automatic reconciliation against your invoices.
                   </p>
-                  <h3 className='u-text-xs'>Export your data</h3>
-                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    View your data the way you want. GoCardless is compatible with the most popular accounting packages.
+                  <h3 className='u-text-xs u-color-dark-gray'>Real-time alerts</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    Receive immediate notifications about failed or cancelled payments via email and through your online dashboard.
                   </p>
-                  <h3 className='u-text-xs'>Submit payments every day</h3>
-                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    With GoCardless you can submit payments as often as you like without any extra hassle or cost.
+                  <h3 className='u-text-xs u-color-dark-gray'>Track payment status</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    View a timeline for each of your payments. Easily retry failed payments or issue partial or full refunds.
+                  </p>
+                  <h3 className='u-text-xs u-color-dark-gray'>Search for your payments and customers</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    Our powerful search tool and filters allow you to quickly and easily find specific customers or payment types.
                   </p>
                 </div>
               </div>
             </div>
-            <hr className='u-margin-An' />
+
+            <hr className='section-divider' />
+
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='grid u-padding-Vxl'>
-                <div className='grid__cell u-size-1of2'>
-                  <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bl'>
-                    Your customers will love it
+                <div className='grid__cell u-size-1of2 u-padding-Rm'>
+                  <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bm'>
+                    Take control of your payments
                   </h2>
-                  <Translation locales={['en']} exclude={['en-GB']}>
-                    <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                      GoCardless is a FCA authorised institution which makes
-                      payments quick and simple for you and your customers.
-                    </p>
-                  </Translation>
-                  <Translation locales='en-GB'>
-                    <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                      GoCardless is a Bacs approved bureau and an FCA authorised institution which makes
-                      payments quick and simple for you and your customers.
-                    </p>
-                  </Translation>
-                  <h3 className='u-text-xs'>Simple online set up</h3>
-                  <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    The whole process happens online. Using our online form, your customers can authorise
-                    payments in minutes — even from their mobile phone.
-                  </p>
-                  <h3 className='u-text-xs'>Your logo, front and centre</h3>
+                  <h3 className='u-text-xs u-color-dark-gray'>Set up subscriptions, plans and one-off payments</h3>
                   <p className='u-color-dark-gray u-margin-Bm'>
-                    Provide a great user experience by adding your logo to our<br />payment forms and
-                    automatically sending customers back<br />to your site after paying.
+                    Complete flexibility on how much and how often you charge your customers. Set up either one-off or recurring payments.
                   </p>
-                  <h3 className='u-text-xs'>A safe and easy way to pay</h3>
-                  <IfLocale domesticScheme='sepa'>
-                    <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                      With Direct Debit, there's no need for customers to worry about missing a payment.
-                      Customers are also protected by SEPA Direct Debit Customer Protection.
-                    </p>
-                  </IfLocale>
-                  <IfLocale domesticScheme='bg-autogiro'>
-                    <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                      With Autogiro, there's no need for customers to worry about missing a payment.
-                      Customers are also protected by the Autogiro Scheme Rules and the Payment Services Act (2010:751).
-                    </p>
-                  </IfLocale>
-                  <IfLocale domesticScheme='bacs'>
-                    <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                      With Direct Debit, there's no need for customers to worry about missing a payment and
-                      they're always protected by the Direct Debit Guarantee.
-                    </p>
-                  </IfLocale>
-                  <IfLinkExists to='example_checkout'>
-                    <Link to='example_checkout'
-                    className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi u-block u-margin-Txl'>
-                      See an example payment page
-                    </Link>
-                  </IfLinkExists>
+                  <h3 className='u-text-xs u-color-dark-gray'>Flexible payments</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    Choose the date, frequency and amount of your payments based on customer and business requirements.
+                  </p>
+                  <h3 className='u-text-xs u-color-dark-gray'>Secure online payments</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    GoCardless processes over £1bn per year for 14,000 merchants. Authorised by the FCA and Bacs approved.
+                  </p>
+                  <h3 className='u-text-xs u-color-dark-gray'>Collect from the UK, Eurozone and Sweden</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    Accept payments from over 22 countries with Bacs Direct Debit, SEPA Direct Debit and Swedish Autogiro.
+                  </p>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center'>
-                  <Translation locales={['en-SE']}>
-                    <img src='/images/sv/basic-payment-page-sv@2x.png' className='vertical-page__mobile-image' />
-                  </Translation>
-                  <Translation locales={['en']} exclude={['en-SE']}>
-                    <img src='/images/features/payment-page--gyms.jpg' className='vertical-page__mobile-image' />
-                  </Translation>
+                  <img src='/images/features/pro-dashboard-overview.png' />
                 </div>
               </div>
             </div>
-            <hr className='u-margin-An' />
-            <div className='site-container u-text-center u-padding-Vxxl'>
-              <div className='u-padding-Vxl'>
-                <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
-                  It's easy to switch to GoCardless
-                </h2>
-                <div className='grid u-margin-Tl u-margin-Bxl u-padding-Vm'>
-                  <div className='grid__cell u-size-1of3 u-text-center'>
-                    <figure className='svg-icon u-center'>
-                      <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
-                      <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
-                    </figure>
-                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Simple bulk change process
-                    </div>
-                    <p className='u-size-8of10 u-center u-color-dark-gray u-margin-Txs'>
-                      You may be eligible to use our bulk change process to automatically move customers from your existing provider.
-                    </p>
-                  </div>
-                  <div className='grid__cell u-size-1of3 u-text-center'>
-                    <figure className='svg-icon u-center'>
-                      <TickIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
-                      <TickIcon className='svg-icon__image u-fill-dark-gray' />
-                    </figure>
-                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Help is at hand
-                    </div>
-                    <p className='u-size-8of10 u-center u-color-dark-gray u-margin-Txs'>
-                      We’ve done this hundreds of times and can walk you through the steps needed to get your customers to switch.
-                    </p>
-                  </div>
-                  <div className='grid__cell u-size-1of3 u-text-center'>
-                    <figure className='svg-icon u-center'>
-                      <MembershipIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                      <MembershipIcon className='svg-icon__image u-fill-dark-gray' />
-                    </figure>
-                    <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                      Add customers in bulk
-                    </div>
-                    <p className='u-size-8of10 u-center u-color-dark-gray u-margin-Txs'>
-                      Our easy-to-use tools let you add thousands of customers in minutes.
-                      All they have to do is fill out our simple payment page.
-                    </p>
-                  </div>
-                </div>
+
+          </div>
+
+          <div className='section-scroll-target' id='partners'>
+            <div className='site-container'>
+              <div className='quote u-text-center u-background-light-gray'>
+                <h2 className='u-text-xl u-text-heading u-text-light u-color-primary u-margin-Bm'>Partner up</h2>
+                <p className='u-text-heading u-color-dark-gray u-text-light u-text-m u-size-4of5 u-center u-margin-Bxl'>
+                  Already using accounting software? We’ve partnered with the best in the business so you can
+                  use GoCardless directly from their apps.
+                </p>
+                <img src='/images/logos/accounting-partners@2x.jpg' className='u-padding-Hxxl' />
               </div>
             </div>
-            <hr className='u-margin-An' />
-            <div className='site-container u-text-center u-padding-Vxxl'>
-              <div className='u-padding-Vxl'>
-                <div className='u-size-1of3 u-center'>
+          </div>
+
+          <div className='site-container u-text-center u-padding-Vxxl'>
+            <div className='product-grid__container'>
+
+                <div className='product-grid__section product-grid__section--first u-padding-Vl'>
                   <figure className='svg-icon u-center'>
-                    <PhoneIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
-                    <PhoneIcon className='svg-icon__image u-fill-dark-gray' />
+                    <IntegrateGreenIcon className='svg-icon__image' />
                   </figure>
-                  <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tm'>
-                    <Message pointer="phone_local" />
-                  </h2>
-                  <div className='u-center'>
-                    <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
-                      Speak with one of our payments experts to learn how GoCardless can help your business.
-                    </p>
-                  </div>
-                  <Link to='contact_sales' id='track-cta-contact-sales' className='btn btn--hollow u-margin-Tm'>
-                    <Message pointer='cta.pro' />
+                  <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-l u-margin-Tm'>
+                    Integrate with your site
+                  </p>
+                  <p className='u-color-dark-gray u-padding-Vm'>
+                    Want to use GoCardless to power payments on your site? Take a look at our REST API in the comprehensive docs.
+                  </p>
+                  <a href='https://developer.gocardless.com/pro' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                    Learn more
+                  </a>
+                </div>
+
+                <div className='product-grid__section u-padding-Vl'>
+                  <figure className='svg-icon u-center'>
+                    <OwnExperienceYellowIcon className='svg-icon__image' />
+                  </figure>
+                  <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-l u-margin-Tm'>
+                    Own the experience
+                  </p>
+                  <p className='u-color-dark-gray u-padding-Vm'>
+                    Direct Debit for the digital age. Connected to your business with real-time alerts, increased customer insight and reduced churn.
+                  </p>
+                  <Link to='pro' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                    Learn more
                   </Link>
                 </div>
+
+            </div>
+          </div>
+
+          <hr className='section-divider' />
+
+          <div className='u-text-center u-padding-Vxxl'>
+            <div className='site-container u-padding-Vxl'>
+              <div className='u-size-2of3 u-center'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
+                  Simple, transparent pricing for everyone
+                </h2>
+                <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
+                  Competitive rates for everyone from individuals through to large corporations
+                </p>
+                <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
+                  Learn about our pricing
+                </Link>
               </div>
             </div>
-            <hr className='u-margin-An' />
-            <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
-              <div className='site-container u-padding-Vxl'>
-                <ProductComparison />
-                <table className='u-size-full'>
-                  <tfoot>
-                    <tr className='comparison-table__row'>
-                      <td />
-                      <td />
-                      <td className='u-padding-As u-size-1of3'>
-                        <Link to='pro' id='track-comparison-table-pro' className='u-color-primary'>
-                          Learn more about GoCardless Pro
-                        </Link>
-                      </td>
-                    </tr>
-                  </tfoot>
-                </table>
-              </div>
-            </div>
-            <hr className='u-margin-An' />
           </div>
-          <div className='section-scroll-target' id='dashboard'>
-            <div className='site-container u-text-center u-padding-Vxxl'>
-              <div className='u-padding-Vxl'>
-                <div className='u-size-2of3 u-center'>
-                  <h2 className='u-text-heading u-color-dark-gray u-text-xl u-text-light u-margin-Bs'>
-                    Your dashboard
-                  </h2>
-                  <div className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
-                    All online, nothing to install.<br />Everything you need to get paid
-                  </div>
-                  <hr className='u-margin-Vxxl' />
-                </div>
-                <div className='u-text-center u-text-heading u-text-upcase u-text-xxs u-text-semi'>
-                  <Translation locales={['en']} exclude={['en-GB']}>
-                    <Tabs triggers={[(
-                      <a href='#dashboard-home' id='track-dashboard-home'
-                        className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                        Dashboard home
-                      </a>
-                    ), (
-                      <a href='#add-customers' id='track-dashboard-customers'
-                        className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                        Add customers
-                      </a>
-                    ), (
-                      <a href='#take-payments' id='track-dashboard-payments'
-                        className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                        Take payments
-                      </a>
-                    ),]}>
-                      <div>
-                        <img src='/images/basic/fr/basic-dashboard-home.png'
-                          className='basic-page__dashboard-image' alt='GoCardless Dashboard interface' />
-                      </div>
-                      <div>
-                        <img src='/images/basic/fr/basic-add-customer.png'
-                          className='basic-page__dashboard-image' alt='add customers form' />
-                      </div>
-                      <div>
-                        <img src='/images/basic/fr/basic-take-payment.png'
-                          className='basic-page__dashboard-image' alt='payment status timeline' />
-                      </div>
-                    </Tabs>
-                  </Translation>
-                  <Translation locales='en-GB'>
-                    <Tabs triggers={[(
-                      <a href='#dashboard-home' id='track-dashboard-home'
-                        className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                        Dashboard home
-                      </a>
-                    ), (
-                      <a href='#add-customers' id='track-dashboard-customers'
-                        className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                        Add customers
-                      </a>
-                    ), (
-                      <a href='#take-payments' id='track-dashboard-payments'
-                        className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
-                        Take payments
-                      </a>
-                    ),]}>
-                      <div>
-                        <img src='/images/basic/basic-dashboard-home.png'
-                          className='basic-page__dashboard-image' alt='GoCardless Dashboard interface' />
-                      </div>
-                      <div>
-                        <img src='/images/basic/basic-add-customer.png'
-                          className='basic-page__dashboard-image' alt='add customers form' />
-                      </div>
-                      <div>
-                        <img src='/images/basic/basic-take-payment.png'
-                          className='basic-page__dashboard-image' alt='payment status timeline' />
-                      </div>
-                    </Tabs>
-                  </Translation>
-                </div>
-              </div>
-            </div>
-            <hr className='u-margin-An' />
-          </div>
-          <div className='section-scroll-target' id='pricing'>
-            <PayOnePercentCTA />
-            <hr className='u-margin-An' />
-            <StartTakingPaymentsCTA />
-          </div>
+
         </div>
       </Translation>
     );

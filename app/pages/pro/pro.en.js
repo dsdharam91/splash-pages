@@ -1,16 +1,9 @@
 import React from 'react';
 import Translation from '../../components/translation/translation';
 import Message from '../../components/message/message';
-import ProductComparison from '../../components/product-comparison/product-comparison';
 import StickyNav from '../../components/sticky-nav/sticky-nav';
 import Tabs from '../../components/tabs/tabs';
-import SecurityIcon from '../../icons/svg/security';
-import DeveloperIcon from '../../icons/svg/developer';
-import WhiteLabelIcon from '../../icons/svg/white-label';
-import MobileIcon from '../../icons/svg/mobile';
-import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
-import IfLinkExists from '../../components/if-link-exists/if-link-exists';
 
 export default class ProEn extends React.Component {
   displayName = 'ProEn'
@@ -80,10 +73,7 @@ export default class ProEn extends React.Component {
                 </div>
                 <div className='grid u-margin-Tl u-padding-Tm'>
                   <div className='grid__cell u-size-1of2 u-text-center'>
-                    <figure className='svg-icon u-center'>
-                      <WhiteLabelIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
-                      <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
-                    </figure>
+                    <img src="/images/pro/whitelabel-fill-icon.png" className="pro-page__feature-image" />
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Completely white-labelled
                     </div>
@@ -93,10 +83,7 @@ export default class ProEn extends React.Component {
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center'>
-                    <figure className='svg-icon u-center'>
-                      <DeveloperIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                      <DeveloperIcon className='svg-icon__image u-fill-dark-gray' />
-                    </figure>
+                    <img src="/images/pro/developer-fill-icon.png" className="pro-page__feature-image" />
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       A simple, modern API
                     </div>
@@ -107,10 +94,7 @@ export default class ProEn extends React.Component {
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>
-                    <figure className='svg-icon u-center'>
-                      <MobileIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
-                      <MobileIcon className='svg-icon__image u-fill-dark-gray' />
-                    </figure>
+                    <img src="/images/pro/tablet-fill-icon.png" className="pro-page__feature-image" />
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Works everywhere
                     </div>
@@ -120,10 +104,7 @@ export default class ProEn extends React.Component {
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>
-                    <figure className='svg-icon u-center'>
-                      <SecurityIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
-                      <SecurityIcon className='svg-icon__image u-fill-dark-gray' />
-                    </figure>
+                    <img src="/images/pro/security-fill-icon.png" className="pro-page__feature-image" />
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                       Military grade security
                     </div>
@@ -134,8 +115,8 @@ export default class ProEn extends React.Component {
                   </div>
                 </div>
                 <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
-                  Want to easily try our API and
-                  dashboard? <a href='https://manage-sandbox.gocardless.com/signup'>
+                  It's easy to try our API and dashboard.
+                  <a href='https://manage-sandbox.gocardless.com/signup'>
                     Sign up for a free sandbox account
                   </a>
                 </p>
@@ -183,8 +164,7 @@ export default class ProEn extends React.Component {
                     <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                       GoCardless Pro is the only product that enables you to collect
                       Direct Debit payments from the UK, Sweden and the Eurozone through a single integration.
-                      With our API, your business can take payments from over 500 million people
-                      in 23 European countries.
+                      With our API, your business can take payments from over 500 million people in over 22 European countries.
                     </p>
                   </div>
                 </div>
@@ -195,8 +175,7 @@ export default class ProEn extends React.Component {
               <div className='u-padding-Vxl'>
                 <div className='u-size-1of3 u-center'>
                   <figure className='svg-icon u-center'>
-                    <PhoneIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
-                    <PhoneIcon className='svg-icon__image u-fill-dark-gray' />
+                    <img src="/images/pro/phone-fill-icon.png" className="pro-page__feature-image" />
                   </figure>
                   <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tm'>
                     <Message pointer='phone_local' />
@@ -245,15 +224,15 @@ export default class ProEn extends React.Component {
                       </a>
                     ),]}>
                     <div>
-                      <img src='/images/pro/customer.jpg'
+                      <img src='/images/pro/customer.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                     <div>
-                      <img src='/images/pro/payment.jpg'
+                      <img src='/images/pro/payment.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                     <div>
-                      <img src='/images/pro/payments-list.jpg'
+                      <img src='/images/pro/payments-list.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                   </Tabs>
@@ -261,30 +240,7 @@ export default class ProEn extends React.Component {
               </div>
             </div>
             <hr className='u-margin-An' />
-            <IfLinkExists to='features'>
-              <div id='forOptimizely-Table'>
-                <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
-                  <div className='site-container u-padding-Vxl'>
-                    <ProductComparison />
-                    <table className='u-size-full'>
-                      <tfoot>
-                        <tr className='comparison-table__row'>
-                          <td />
-                          <td className='u-size-1of3 u-padding-As'>
-                            <Link to='features' id='track-comparison-table-features'
-                            className='u-color-primary'>
-                              Learn more about GoCardless
-                            </Link>
-                          </td>
-                          <td />
-                        </tr>
-                      </tfoot>
-                    </table>
-                  </div>
-                </div>
-                <hr className='u-margin-An' />
-              </div>
-            </IfLinkExists>
+
           </div>
           <div className='section-scroll-target' id='pricing'>
             <div className='u-text-center u-padding-Vxxl'>
