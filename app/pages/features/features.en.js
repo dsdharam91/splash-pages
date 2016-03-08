@@ -239,7 +239,7 @@ export default class FeaturesEn extends React.Component {
                   </p>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center'>
-                  <img src='/images/features/pro-dashboard-overview.png' />
+                  <img src='/images/features/pro-dashboard-payment-plans.png' />
                 </div>
               </div>
             </div>
