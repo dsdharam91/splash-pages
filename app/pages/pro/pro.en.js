@@ -117,8 +117,8 @@ export default class ProEn extends React.Component {
                 <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
                   It's easy to try our API and dashboard.&nbsp;
                   <a href='https://manage-sandbox.gocardless.com/signup'>
-                    Sign up for a free sandbox account
-                  </a>.
+                    Sign up for a free sandbox account.
+                  </a>
                 </p>
               </div>
             </div>
