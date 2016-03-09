@@ -160,7 +160,7 @@ export default class FeaturesEn extends React.Component {
                 </h2>
                 <h3 className='u-text-xs u-color-dark-gray'>Simple online set up</h3>
                 <p className='u-color-dark-gray u-margin-Bm u-size-5of6'>
-                  Using our online form, customer can authorise payments securely in minutes.
+                  Using our online form, customers can authorise payments securely in minutes.
                 </p>
                 <h3 className='u-text-xs u-color-dark-gray'>Automate your payments</h3>
                 <p className='u-color-dark-gray u-margin-Bm'>
