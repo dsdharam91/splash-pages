@@ -152,6 +152,11 @@ export default class PartnersEn extends React.Component {
                 <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                   No sign-up costs or hidden fees. Just 1% per transaction, capped at <Message pointer="pricing.cost_cap" />.
                 </p>
+                <Translation locales='en-SE'>
+                  <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
+                    Your larger customers may be able to benefit from our scale pricing.
+                  </p>
+                </Translation>
                 <Link to='contact_sales'
                 query={{ s: 'partners' }}
                 id='track-partners-find-out-more'
@@ -331,7 +336,7 @@ export default class PartnersEn extends React.Component {
                     Payment service providers
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
-                    Use us to offer Direct Debit in the UK, Europe and beyond.
+                    Use us to offer Direct Debit in the UK, Europe, Sweden and beyond.
                   </p>
                 </div>
               </div>

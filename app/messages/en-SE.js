@@ -19,17 +19,17 @@ export default {
     desc: 'GoCardless allows you to collect Direct Debit (Autogiro) payments from Sweden, the Eurozone and the UK in a single integration.',
   },
   pricing: {
-    cost_cap: '20 kr',
-    description: 'Collect Direct Debit payments online with fees of just 1%, capped at 20 kr. Scale pricing is available for larger organisations.',
+    cost_cap: '20kr',
+    description: 'Collect Direct Debit payments online with fees of just 1%, capped at 20kr. Scale pricing is available for larger organisations.',
     pro_cost_per_transaction: '0,50 - 6 kr',
     per_transaction_amount_normal: '1%',
-    pro_monthly_fee: '2 500 kr',
-    normal_capped_at_amount: '2000 kr',
-    pro_number_of_monthly_payments: '>500 payments',
+    pro_monthly_fee: '2500kr',
+    normal_capped_at_amount: '2000kr',
+    pro_number_of_monthly_payments: '> 500',
   },
   basic_pricing_cta: {
     main: 'Pay 1%',
-    description: 'Just 1% per transaction, capped at 20 kr.',
+    description: 'Just 1% per transaction, capped at 20kr.',
     learn_more: 'Learn about our pricing',
   },
   signin: {

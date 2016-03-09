@@ -161,11 +161,20 @@ export default class ProEn extends React.Component {
                     Want to take payments in Europe?
                   </h2>
                   <div className='u-center'>
+                  <Translation locales={['en']} exclude={['en-SE']}>
                     <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                       GoCardless Pro is the only product that enables you to collect
                       Direct Debit payments from the UK, Sweden and the Eurozone through a single integration.
                       With our API, your business can take payments from over 500 million people in over 22 European countries.
                     </p>
+                  </Translation>
+                  <Translation locales='en-SE'>
+                    <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
+                      GoCardless Pro is the only product that enables you to collect
+                      Direct Debit payments from Sweden, the Eurozone and the UK through a single integration.
+                      With our API, your business can take payments from over 500 million people in over 22 European countries.
+                    </p>
+                  </Translation>
                   </div>
                 </div>
               </div>
