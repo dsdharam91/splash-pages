@@ -229,21 +229,24 @@ export default class FeaturesEn extends React.Component {
                   <p className='u-color-dark-gray u-margin-Bm'>
                     Choose the date, frequency and amount of your payments based on customer and business requirements.
                   </p>
+                  <h3 className='u-text-xs u-color-dark-gray'>Secure online payments</h3>
+                  <p className='u-color-dark-gray u-margin-Bm'>
+                    GoCardless processes over <Message pointer='payments_processed_volume' /> per year
+                    for <Message pointer='number_of_merchants' /> merchants.&nbsp;
+                    <Translation locales={['en']} exclude={['en-SE']}>
+                      Authorised by the FCA and Bacs approved.
+                    </Translation>
+                    <Translation locales='en-SE'>
+                      Authorised by Bankgirot.
+                    </Translation>
+                  </p>
                   <Translation locales={['en']} exclude={['en-SE']}>
-                    <h3 className='u-text-xs u-color-dark-gray'>Secure online payments</h3>
-                    <p className='u-color-dark-gray u-margin-Bm'>
-                      GoCardless processes over £1bn per year for 14,000 merchants. Authorised by the FCA and Bacs approved.
-                    </p>
                     <h3 className='u-text-xs u-color-dark-gray'>Collect from the UK, Eurozone and Sweden</h3>
                     <p className='u-color-dark-gray u-margin-Bm'>
                       Accept payments from over 22 countries with Bacs Direct Debit, SEPA Direct Debit and Swedish Autogiro.
                     </p>
                   </Translation>
                   <Translation locales='en-SE'>
-                    <h3 className='u-text-xs u-color-dark-gray'>Secure online payments</h3>
-                    <p className='u-color-dark-gray u-margin-Bm'>
-                      GoCardless processes over €1bn per year for 14,000 merchants. Bankgirot approved.
-                    </p>
                     <h3 className='u-text-xs u-color-dark-gray'>Collect from Sweden, the UK and the Eurozone</h3>
                     <p className='u-color-dark-gray u-margin-Bm'>
                       Accept payments from over 22 countries with Swedish Autogiro, SEPA Direct Debit and Bacs Direct Debit.

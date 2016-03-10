@@ -68,7 +68,7 @@ export default class ProEn extends React.Component {
                     Designed specifically for larger enterprises,
                     GoCardless Pro combines the simplicity of our original
                     GoCardless product with complete control over payments and customer experience.
-                    It also allows you to collect Direct Debit payments from the UK, Sweden and the Eurozone via one simple integration.
+                    It also allows you to collect Direct Debit payments from the UK, the Eurozone and Sweden via one simple integration.
                   </p>
                 </div>
                 <div className='grid u-margin-Tl u-padding-Tm'>
@@ -115,10 +115,10 @@ export default class ProEn extends React.Component {
                   </div>
                 </div>
                 <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
-                  It's easy to try our API and dashboard.
+                  It's easy to try our API and dashboard.&nbsp;
                   <a href='https://manage-sandbox.gocardless.com/signup'>
                     Sign up for a free sandbox account
-                  </a>
+                  </a>.
                 </p>
               </div>
             </div>
@@ -131,7 +131,7 @@ export default class ProEn extends React.Component {
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
                     Every day, some of the biggest and most respected businesses
-                    trust GoCardless to power their payments
+                    trust GoCardless to power their payments.
                   </p>
                 </div>
                 <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
@@ -164,7 +164,7 @@ export default class ProEn extends React.Component {
                   <Translation locales={['en']} exclude={['en-SE']}>
                     <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
                       GoCardless Pro is the only product that enables you to collect
-                      Direct Debit payments from the UK, Sweden and the Eurozone through a single integration.
+                      Direct Debit payments from the UK, the Eurozone and Sweden through a single integration.
                       With our API, your business can take payments from over 500 million people in over 22 European countries.
                     </p>
                   </Translation>

@@ -100,6 +100,7 @@ export default class PricingEn extends React.Component {
                         </li>
                       </IfLocale>
                       <IfLocale domesticScheme='bg-autogiro'>
+                        {/* Unlike Bacs and SEPA Direct Debit, Autogiro doesn't have phone Direct Debit */}
                         <li className='u-margin-Bxs'>
                           <span className='u-color-accent'>&#10004;</span> Collect details with paper forms
                         </li>

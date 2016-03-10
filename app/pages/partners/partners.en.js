@@ -150,7 +150,8 @@ export default class PartnersEn extends React.Component {
                   Your customers pay just <Message pointer='pricing.per_transaction_amount_normal' />
                 </h2>
                 <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-                  No sign-up costs or hidden fees. Just 1% per transaction, capped at <Message pointer="pricing.cost_cap" />.
+                  No sign-up costs or hidden fees. Just <Message pointer='pricing.per_transaction_amount_normal' /> per transaction,
+                  capped at <Message pointer="pricing.cost_cap" />.
                 </p>
                 <Translation locales='en-SE'>
                   <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
