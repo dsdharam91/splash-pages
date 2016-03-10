@@ -38,8 +38,8 @@ export default class IfLocale extends React.Component {
     const isVisible = every(propertiesList, function(messageName, propName) {
       return this.props[propName] === undefined ||
         this.props[propName] === getMessage(this.context.messages, 'country_properties.' + messageName) ||
-        (isArray(this.props[propName])
-          && includes(this.props[propName], getMessage(this.context.messages, 'country_properties.' + messageName)));
+        (isArray(this.props[propName]) &&
+          includes(this.props[propName], getMessage(this.context.messages, 'country_properties.' + messageName)));
     }, this);
 
     if (!isVisible) { return null; }
