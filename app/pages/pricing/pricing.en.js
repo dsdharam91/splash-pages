@@ -94,7 +94,7 @@ export default class PricingEn extends React.Component {
                       <li className='u-margin-Bxs'>
                         <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
                       </li>
-                      <IfLocale domesticScheme={ 'bacs','sepa' }>
+                      <IfLocale domesticScheme={['bacs','sepa']}>
                         <li className='u-margin-Bxs'>
                           <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
                         </li>
