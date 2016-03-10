@@ -94,9 +94,17 @@ export default class PricingEn extends React.Component {
                       <li className='u-margin-Bxs'>
                         <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
                       </li>
-                      <li className='u-margin-Bxs'>
-                        <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
-                      </li>
+                      <IfLocale domesticScheme={['bacs','sepa']}>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
+                        </li>
+                      </IfLocale>
+                      <IfLocale domesticScheme='bg-autogiro'>
+                        {/* Unlike Bacs and SEPA Direct Debit, Autogiro doesn't have phone Direct Debit */}
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Collect details with paper forms
+                        </li>
+                      </IfLocale>
                     </ul>
                     <hr />
                     <div className='u-padding-Vs'>
