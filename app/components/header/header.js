@@ -120,6 +120,10 @@ class Header extends React.Component {
                   </a>)
                 }>
                   <ul className='u-text-xxs u-padding-Vxs'>
+                    <IfLinkExists to='stories' tagName='li' className='u-text-semi'>
+                      <Link to='stories' pointer='stories.nav_title'
+                      id='track-nav-stories' className='u-padding-Vxs u-padding-Hm u-block' />
+                    </IfLinkExists>
                     <IfLinkExists to='security' tagName='li' className='u-text-semi'>
                       <Link to='security' id='track-nav-security' className='u-padding-Vxs u-padding-Hm u-block'
                         pointer='security.nav_title' />
