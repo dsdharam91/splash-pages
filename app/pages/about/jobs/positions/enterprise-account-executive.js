@@ -1,13 +1,13 @@
 import React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class EnterpriseAccountManager extends React.Component {
-  displayName = 'EnterpriseAccountManager'
+export default class EnterpriseAccountExecutive extends React.Component {
+  displayName = 'EnterpriseAccountExecutive'
 
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Enterprise Account Manager</h3>
+            <h3 className='u-text-heading-light u-text-m u-color-dark-gray'> Account Executive, Enterprise Sales</h3>
         <p className='para'>
           Find and close new business with our biggest customers and help them
           make recurring payments simple.
@@ -65,7 +65,7 @@ export default class EnterpriseAccountManager extends React.Component {
           on to raise the bar of success. You’ll be responsible for helping
           the team around you improve and develop.
         </p>
-        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <p className='para'>
           We’re looking for people who want to have an impact and are always
           trying to learn and improve themselves and the operations around them.

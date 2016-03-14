@@ -8,7 +8,7 @@ export default class AccountExecutive extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Account Executive </h3>
+            <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Account Executive, Inside Sales </h3>
         <p className='para'>
           Close new business in an exciting, fast-paced environment.
         </p>
@@ -37,7 +37,7 @@ export default class AccountExecutive extends React.Component {
           In order to navigate a path to mutual success you will need to develop a good understanding of
           our solution, the business value, and technical fit and its relationship to our customers’ existing systems.
         </p>
-        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'> The ideal candidate </h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'> What we're looking for </h4>
         <p className='para'>
           We’re looking for people who want to have an impact and are always trying to learn and
           improve themselves and the operations around them. The ideal candidate wants to lead
@@ -46,9 +46,6 @@ export default class AccountExecutive extends React.Component {
         </p>
         <p className='para'> You should apply if you have: </p>
         <ul className='list'>
-          <li>
-            Tech sales experience and are now looking to focus on closing business.
-          </li>
           <li>
             A consultative style and the ability to become a trusted advisor and secure the sale.
           </li>

@@ -514,8 +514,8 @@ export default {
     title: 'Product Designer',
     description: '',
   },
-  jobs_enterprise_account_manager: {
-    title: 'Enterprise Account Manager',
+  jobs_enterprise_account_executive: {
+    title: 'Account Executive, Enterprise Sales',
     description: '',
   },
   jobs_sales_development_representative_inbound: {
@@ -547,7 +547,7 @@ export default {
     description: '',
   },
   jobs_account_executive_uk: {
-    title: 'Account Executive',
+    title: 'Account Executive, Inside Sales',
     description: '',
   },
   jobs_payments_processing_specialist: {
