@@ -1,5 +1,6 @@
 import React from 'react';
 import Page from '../../components/page/page';
+import Translation from '../../components/translation/translation';
 import PricingEn from './pricing.en';
 import PricingFr from './pricing.fr';
 import PricingDe from './pricing.de';
@@ -11,13 +12,22 @@ export default class Pricing extends React.Component {
 
   render() {
     return (
-      <Page isInverted={false}>
-        <PricingEn />
-        <PricingFr />
-        <PricingDe />
-        <PricingEs />
-        <PricingNl />
-      </Page>
+      <div>
+        <Translation locales='en'>
+          <Page isInverted={false}>
+            <PricingEn />
+          </Page>
+        </Translation>
+
+        <Translation locales={['fr', 'de', 'es', 'nl']}>
+          <Page>
+            <PricingFr />
+            <PricingDe />
+            <PricingEs />
+            <PricingNl />
+          </Page>
+        </Translation>
+      </div>
     );
   }
 }

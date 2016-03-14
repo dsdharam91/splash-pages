@@ -18,7 +18,7 @@ export default class PricingEn extends React.Component {
     const hasPercentagePricing = getMessage(this.context.messages, 'country_properties.has_percentage_pricing');
     return (
       <Translation locales='en'>
-        <div className='page-hero page-hero--pricing u-background-light-gray'>
+        <div className='page-hero page-hero--pricing page-hero--one-product-pricing'>
           <div className='site-container'>
             <div className='grid pricing-options--new u-center u-padding-Bxl'>
 
