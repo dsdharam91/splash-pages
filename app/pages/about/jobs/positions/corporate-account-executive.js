@@ -1,37 +1,38 @@
-
 import React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class AccountExecutive extends React.Component {
-  displayName = 'AccountExecutive'
+export default class CorporateAccountExecutive extends React.Component {
+  displayName = 'CorporateAccountExecutive'
 
   render() {
     return (
       <JobsPage>
-            <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Account Executive, Inside Sales </h3>
+            <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Account Executive, Corporate Sales: UK </h3>
         <p className='para'>
-          Close new business in an exciting, fast-paced environment.
+          Find and close new business with some of the UK’s most exciting, high growth
+          companies and help them simplify the way they take recurring payments.
         </p>
         <p className='para'>
           GoCardless is having fun and growing fast. Thousands of businesses in the UK already trust us with
           their payments, and hundreds more are joining us every week.
        </p>
         <p className='para'>
-          We are moving into our next phase of expansion and are looking for talented professionals to
+          We are moving into our next phase of expansion and are looking for talented professionals
           to continue our momentum amongst our growth customers.
         </p>
         <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
-          You will be responsible for closing new business in the UK market. This will be done via your own
-          efforts and in conjunction with your business partners in marketing, sales development and partnerships.
+          You will be responsible for independently closing new business in the UK market.
+          This will be done in conjunction with your business partners in marketing, sales
+          development, and partnerships.
         </p>
         <p className='para'>
-          You will take a consultative approach, engaging with stakeholders within medium sized businesses
-          and exciting startups to identify and secure a position for GoCardless as their primary payment provider.
-          This will involve working with various departments, from finance and engineering to marketing and
-          procurement; building a business case; securing a commercial arrangement; and ensuring a successful
-          delivery. Our business model is aligned with the success of our customers: their success in getting
-          paid links to our rewards.
+          You will take a consultative approach, engaging with stakeholders within established
+          corporate businesses and exciting startups to identify and secure a position for
+          GoCardless as a key payment partner. This will involve working with various
+          departments &ndash; from finance and engineering to marketing and procurement;
+          building a business case; securing a commercial arrangement; and ensuring a successful
+          delivery.
         </p>
         <p className='para'>
           In order to navigate a path to mutual success you will need to develop a good understanding of
@@ -47,6 +48,12 @@ export default class AccountExecutive extends React.Component {
         <p className='para'> You should apply if you have: </p>
         <ul className='list'>
           <li>
+            Experience in B2B technology sales.
+          </li>
+          <li>
+            A track record of repeatedly exceeding quota.
+          </li>
+          <li>
             A consultative style and the ability to become a trusted advisor and secure the sale.
           </li>
           <li>
@@ -56,10 +63,11 @@ export default class AccountExecutive extends React.Component {
             High activity: you are able to cover a large number of customers effectively and build a dynamic pipeline.
           </li>
           <li>
-            Attention to detail, are extremely organised and work well with others.
+            Attention to detail, you are extremely organised and work well with others.
           </li>
           <li>
-            An ability to understand our API and build great relationships with highly technical customers.
+            An ability to understand our API and build great relationships with highly
+            technical customers and partners.
           </li>
           <li>
             A passion for technology, the startup community, and supporting other businesses as they grow.
@@ -74,7 +82,7 @@ export default class AccountExecutive extends React.Component {
         <p className='para'>
         If you're unsure, please apply &ndash; we'd love to hear from you!
         </p>
-        <a href='https://boards.greenhouse.io/gocardless/jobs/159278' className='btn u-margin-Vs'>
+        <a href='https://boards.greenhouse.io/gocardless/jobs/185127' className='btn u-margin-Vs'>
         Apply now
         </a>
       </JobsPage>

@@ -515,15 +515,15 @@ export default {
     description: '',
   },
   jobs_enterprise_account_executive: {
-    title: 'Account Executive, Enterprise Sales',
+    title: 'Account Executive, Enterprise Sales: UK',
     description: '',
   },
   jobs_sales_development_representative_inbound: {
-    title: 'SDR: Inbound',
+    title: 'SDR Inbound: UK',
     description: '',
   },
   jobs_sales_development_representative_outbound: {
-    title: 'SDR: Outbound',
+    title: 'SDR Outbound: UK',
     description: '',
   },
   jobs_sales_development_representative_french: {
@@ -546,8 +546,8 @@ export default {
     title: 'French Customer Support',
     description: '',
   },
-  jobs_account_executive_uk: {
-    title: 'Account Executive, Inside Sales',
+  jobs_inside_account_executive_uk: {
+    title: 'Account Executive, Inside Sales: UK',
     description: '',
   },
   jobs_payments_processing_specialist: {
@@ -578,6 +578,15 @@ export default {
     title: 'Customer Success Manager',
     description: '',
   },
+  jobs_corporate_account_executive: {
+  title: 'Account Executive, Corporate Sales: UK',
+  description: '',
+  },
+  jobs_spanish_sales_development_representative: {
+  title: 'SDR: Spain',
+  description: '',
+  },
+
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
