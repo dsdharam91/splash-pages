@@ -1,91 +1,156 @@
 import React from 'react';
-import classNames from 'classnames';
 import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import Message from '../../components/message/message';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
-import IfLinkExists from '../../components/if-link-exists/if-link-exists';
-import { getMessage } from '../../components/intl/intl';
 
 export default class PricingNl extends React.Component {
   displayName = 'PricingNl'
 
-  static contextTypes = {
-    messages: React.PropTypes.object.isRequired,
-  }
-
   render() {
-    const hasPercentagePricing = getMessage(this.context.messages, 'country_properties.has_percentage_pricing');
     return (
       <Translation locales='nl'>
-        <div className='page-hero--pricing page-hero'>
+        <div className='page-hero page-hero--pricing page-hero--one-product-pricing'>
           <div className='site-container'>
-            <div className='grid pricing-options u-center u-padding-Bxl'>
-              <IfLocale hasPercentagePricing>
-                <div className={classNames('grid__cell u-padding-Vxl u-padding-Rxs', { 'u-size-1of2': hasPercentagePricing })}>
-                  <h1 className='u-text-heading-light u-text-center u-color-invert u-text-l u-padding-Bs'>GoCardless</h1>
-                  <div className='u-relative u-background-primary u-padding-Vxl'>
-                    <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>
-                      <Message pointer='pricing.per_transaction_amount_normal' />
-                    </h2>
-                    <p className='u-text-heading-light u-text-center u-color-invert u-text-xs u-margin-Txxs'>
-                      Per transactie, met een maximum van <Message pointer="pricing.cost_cap" />
-                    </p>
-                  </div>
-                  <ul className='pricing-options__list'>
-                    <li className='pricing-options__list-item u-color-dark-gray'>
-                      <b>Ideaal voor midden- en kleinbedrijf</b>
-                    </li>
-                    <li className='pricing-options__list-item'>
-                      Geen extra kosten, geen verplichtingen</li>
-                    <li className='pricing-options__list-item'>
-                      Volumekorting mogelijk (<a href='#scale-pricing-container'>?</a>)
-                    </li>
-                    <IfLinkExists to='features'>
-                      <li className='pricing-options__list-item'>
-                        <Link to='features'>Meer over GoCardless</Link>
-                      </li>
-                    </IfLinkExists>
-                    <li className='pricing-options__list-button'>
-                      <IfLocale hasInstantSignup>
-                        <Href to='signup.path' className='btn u-size-full'>Registreer nu</Href>
-                      </IfLocale>
-                      <IfLocale hasInstantSignup={false}>
-                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Neem contact op</Link>
-                      </IfLocale>
-                    </li>
-                  </ul>
-                </div>
-              </IfLocale>
+            <div className='grid pricing-options pricing-options--three-tiers u-center u-padding-Bxl'>
+              <h1 className='u-text-heading u-text-light u-text-center u-color-dark-gray u-margin-Vl'>
+                The perfect plan for you
+              </h1>
 
-              <div className={classNames('grid__cell u-padding-Vxl u-padding-Rxs', { 'u-size-1of2': hasPercentagePricing })}>
-                <h1 className='u-text-heading-light u-text-center u-color-invert u-text-l u-padding-Bs'>GoCardless Pro</h1>
-                <div className='u-background-xdark-gray u-padding-Vxl'>
-                  <h2 className='u-text-heading-light u-text-center u-color-invert u-text-xl'>
-                    <Message pointer='pricing.pro_cost_per_transaction' />
-                  </h2>
-                  <p className='u-text-heading-light u-text-center u-color-invert u-text-xs u-margin-Txxs'>
-                    Per transactie
-                  </p>
-                </div>
-                <ul className='pricing-options__list'>
-                  <li className='pricing-options__list-item u-color-dark-gray'>
-                    <b>Voor bedrijven die volledige controle willen</b>
-                  </li>
-                  <li className='pricing-options__list-item'>
-                    <b><Message pointer='pricing.pro_monthly_fee' /> per maand</b>, geen verborgen kosten
-                  </li>
-                  <li className='pricing-options__list-item'>
-                    Voor bedrijven met <b><Message pointer='pricing.pro_number_of_monthly_payments' /></b> betalingen per maand
-                  </li>
-                  <li className='pricing-options__list-item'>
-                    <Link to='pro'>Meer over GoCardless Pro</Link>
-                  </li>
-                  <li className='pricing-options__list-button'>
-                    <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Neem contact op</Link>
-                  </li>
-                </ul>
+              <div className='grid__cell u-size-1of3 u-padding-Vxl u-padding-Rxs'>
+                  <div className='u-shadow-large'>
+                    <div className='u-relative u-background-primary u-padding-Vxl'>
+                      <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless</h2>
+                      <p className='u-color-invert u-text-xs u-text-center'>Ideaal voor midden- en kleinbedrijf</p>
+                    </div>
+
+                    <div className='u-padding-Am u-text-center u-background-white'>
+                      <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Instant online set-up and approval
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Online dashboard
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Multiple users per account
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> REST API
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Migrate existing Direct Debit customers
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Secure payment pages with your logo
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Collect details online
+                        </li>
+                      </ul>
+
+                      <hr />
+
+                      <div className='u-padding-Vs'>
+                        <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
+                          <Message pointer='pricing.per_transaction_amount_normal' />
+                        </h2>
+                        <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
+                          Per transactie, met een maximum van € 2
+                        </p>
+                      </div>
+                      <IfLocale hasInstantSignup>
+                        <Href to='signup.path' className='btn u-size-full'>
+                          Registreer nu
+                        </Href>
+                      </IfLocale>
+
+                      <IfLocale hasInstantSignup={false}>
+                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Neem contact op</Link>
+                      </IfLocale>
+                    </div>
+                  </div>
+              </div>
+
+              <div className='grid__cell u-size-1of3 u-padding-Vxl u-padding-Hxs'>
+                  <div className='u-shadow-large'>
+                    <div className='u-relative u-background-dark-gray u-padding-Vxl'>
+                      <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Pro</h2>
+                      <p className='u-color-invert u-text-xs u-text-center'>Voor bedrijven die volledige controle willen</p>
+                    </div>
+
+                    <div className='u-padding-Am u-text-center u-background-white'>
+                      <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
+                        Everything in Standard, plus:
+                      </p>
+
+                      <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
+                        </li>
+                      </ul>
+
+                      <hr />
+
+                      <div className='u-padding-Vs'>
+                        <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
+                          € 0,01 - 0,60
+                        </h2>
+                        <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
+                          Par transaction réussie,<br/>plus €100 par mois
+                        </p>
+                      </div>
+
+                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Neem contact op</Link>
+                    </div>
+                  </div>
+              </div>
+
+              <div className='grid__cell u-size-1of3 u-padding-Vxl u-padding-Hxs'>
+                  <div className='u-shadow-large'>
+                    <div className='u-relative u-background-xdark-gray u-padding-Vxl'>
+                      <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Enterprise</h2>
+                      <p className='u-color-invert u-text-xs u-text-center'>Voor bedrijven die volledige controle willen</p>
+                    </div>
+
+                    <div className='u-padding-Am u-text-center u-background-white'>
+                      <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
+                        Everything in Pro, plus:
+                      </p>
+
+                      <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
+                        </li>
+                      </ul>
+
+                      <hr />
+
+                      <div className='u-padding-Vs'>
+                        <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
+                          € 0,01 - 0,60
+                        </h2>
+                        <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
+                          Par transaction réussie,<br/>plus €250 par mois
+                        </p>
+                      </div>
+
+                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Neem contact op</Link>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
