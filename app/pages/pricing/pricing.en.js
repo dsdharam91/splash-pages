@@ -16,23 +16,128 @@ export default class PricingEn extends React.Component {
 
   render() {
     const hasPercentagePricing = getMessage(this.context.messages, 'country_properties.has_percentage_pricing');
+
+    const localScheme = getMessage(this.context.messages, 'country_properties.local_scheme');
+
+    console.log(111, localScheme);
     return (
       <Translation locales='en'>
         <div className='page-hero page-hero--pricing page-hero--one-product-pricing'>
           <div className='site-container'>
-            <div className='grid pricing-options--new u-center u-padding-Bxl'>
+            <div className={classNames('grid pricing-options pricing-options--new u-center u-padding-Bxl', {
+              'pricing-options--three-tiers': localScheme === 'sepa' && hasPercentagePricing,
+            })}>
 
               <h1 className='u-text-heading u-text-light u-text-center u-color-dark-gray u-margin-Vl'>
                 The perfect plan for you
               </h1>
 
-              <IfLocale hasPercentagePricing>
+              <Translation locales='en' exclude={['en-IE']}>
+                <IfLocale hasPercentagePricing>
+                  <div className={classNames('grid__cell u-padding-Vxl u-padding-Rxs', { 'u-size-1of2': hasPercentagePricing })}>
+                    <div className='u-shadow-large'>
+                      <div className='u-relative u-background-primary u-padding-Vxl'>
+                        <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Standard</h2>
+                        <p className='u-color-invert u-text-xs u-text-center'>Perfect for small to medium sized businesses</p>
+                      </div>
+
+                      <div className='u-padding-Am u-text-center u-background-white'>
+                        <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
+                          <li className='u-margin-Bxs'>
+                            <span className='u-color-accent'>&#10004;</span> Instant online set-up and approval
+                          </li>
+                          <li className='u-margin-Bxs'>
+                            <span className='u-color-accent'>&#10004;</span> Online dashboard
+                          </li>
+                          <li className='u-margin-Bxs'>
+                            <span className='u-color-accent'>&#10004;</span> Multiple users per account
+                          </li>
+                          <li className='u-margin-Bxs'>
+                            <span className='u-color-accent'>&#10004;</span> REST API
+                          </li>
+                          <li className='u-margin-Bxs'>
+                            <span className='u-color-accent'>&#10004;</span> Migrate existing Direct Debit customers
+                          </li>
+                          <li className='u-margin-Bxs'>
+                            <span className='u-color-accent'>&#10004;</span> Secure payment pages with your logo
+                          </li>
+                          <li className='u-margin-Bxs'>
+                            <span className='u-color-accent'>&#10004;</span> Collect details online
+                          </li>
+                        </ul>
+                        <hr />
+                        <div className='u-padding-Vs'>
+                          <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
+                            <Message pointer='pricing.per_transaction_amount_normal' />
+                          </h2>
+                          <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
+                            Per transaction, capped at <Message pointer="pricing.cost_cap" />
+                          </p>
+                        </div>
+                        <IfLocale hasInstantSignup>
+                          <Href to='signup.path' className='btn u-size-full'>Sign up today</Href>
+                        </IfLocale>
+                        <IfLocale hasInstantSignup={false}>
+                          <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contact sales</Link>
+                        </IfLocale>
+                      </div>
+                    </div>
+                  </div>
+                </IfLocale>
+
                 <div className={classNames('grid__cell u-padding-Vxl u-padding-Rxs', { 'u-size-1of2': hasPercentagePricing })}>
+                  <div className='u-shadow-large'>
+                    <div className='u-relative u-background-dark-gray u-padding-Vxl'>
+                      <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Pro</h2>
+                      <p className='u-color-invert u-text-xs u-text-center'>For organisations that want total control</p>
+                    </div>
+                    <div className='u-padding-Am u-text-center u-background-white'>
+                      <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
+                        Everything in Standard, plus:
+                      </p>
+                      <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
+                        </li>
+                        <IfLocale domesticScheme={['bacs','sepa']}>
+                          <li className='u-margin-Bxs'>
+                            <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
+                          </li>
+                        </IfLocale>
+                        <IfLocale domesticScheme='bg-autogiro'>
+                          {/* Unlike Bacs and SEPA Direct Debit, Autogiro doesn't have phone Direct Debit */}
+                          <li className='u-margin-Bxs'>
+                            <span className='u-color-accent'>&#10004;</span> Collect details with paper forms
+                          </li>
+                        </IfLocale>
+                      </ul>
+                      <hr />
+                      <div className='u-padding-Vs'>
+                        <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
+                          <Message pointer='pricing.pro_cost_per_transaction' />
+                        </h2>
+                        <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
+                          Per transaction, plus <Message pointer='pricing.pro_monthly_fee' /> a month
+                        </p>
+                      </div>
+                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
+                    </div>
+                  </div>
+                </div>
+              </Translation>
+
+              {/* PRICING TIERS FOR IRELAND */ }
+              <Translation locales='en-IE'>
+                <div className='grid__cell u-size-1of3 u-padding-Vxl u-padding-Rxs'>
                   <div className='u-shadow-large'>
                     <div className='u-relative u-background-primary u-padding-Vxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Standard</h2>
                       <p className='u-color-invert u-text-xs u-text-center'>Perfect for small to medium sized businesses</p>
                     </div>
+
                     <div className='u-padding-Am u-text-center u-background-white'>
                       <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
                         <li className='u-margin-Bxs'>
@@ -75,51 +180,77 @@ export default class PricingEn extends React.Component {
                     </div>
                   </div>
                 </div>
-              </IfLocale>
 
-              <div className={classNames('grid__cell u-padding-Vxl u-padding-Rxs', { 'u-size-1of2': hasPercentagePricing })}>
-                <div className='u-shadow-large'>
-                  <div className='u-relative u-background-dark-gray u-padding-Vxl'>
-                    <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Pro</h2>
-                    <p className='u-color-invert u-text-xs u-text-center'>For organisations that want total control</p>
-                  </div>
-                  <div className='u-padding-Am u-text-center u-background-white'>
-                    <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
-                      Everything in Standard, plus:
-                    </p>
-                    <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
-                      <li className='u-margin-Bxs'>
-                        <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
-                      </li>
-                      <li className='u-margin-Bxs'>
-                        <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
-                      </li>
-                      <IfLocale domesticScheme={['bacs','sepa']}>
+                <div className='grid__cell u-size-1of3 u-padding-Vxl u-padding-Hxs'>
+                  <div className='u-shadow-large'>
+                    <div className='u-relative u-background-dark-gray u-padding-Vxl'>
+                      <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Pro</h2>
+                      <p className='u-color-invert u-text-xs u-text-center'>For organisations that want total control</p>
+                    </div>
+                    <div className='u-padding-Am u-text-center u-background-white'>
+                      <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
+                        Everything in Standard, plus:
+                      </p>
+                      <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
+                        </li>
                         <li className='u-margin-Bxs'>
                           <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
                         </li>
-                      </IfLocale>
-                      <IfLocale domesticScheme='bg-autogiro'>
-                        {/* Unlike Bacs and SEPA Direct Debit, Autogiro doesn't have phone Direct Debit */}
-                        <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Collect details with paper forms
-                        </li>
-                      </IfLocale>
-                    </ul>
-                    <hr />
-                    <div className='u-padding-Vs'>
-                      <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
-                        <Message pointer='pricing.pro_cost_per_transaction' />
-                      </h2>
-                      <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                        Per transaction, plus <Message pointer='pricing.pro_monthly_fee' /> a month
-                      </p>
+                      </ul>
+                      <hr />
+                      <div className='u-padding-Vs'>
+                        <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
+                          0,01 - 0,60 €
+                        </h2>
+                        <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
+                          Per transaction, plus <Message pointer='pricing.pro_monthly_fee' /> a month
+                        </p>
+                      </div>
+                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
                     </div>
-                    <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
                   </div>
                 </div>
-              </div>
 
+                <div className='grid__cell u-size-1of3 u-padding-Vxl u-padding-Hxs'>
+                  <div className='u-shadow-large'>
+                    <div className='u-relative u-background-xdark-gray u-padding-Vxl'>
+                      <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Enterprise</h2>
+                      <p className='u-color-invert u-text-xs u-text-center'>For organisations that want total control</p>
+                    </div>
+                    <div className='u-padding-Am u-text-center u-background-white'>
+                      <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
+                        Everything in Standard, plus:
+                      </p>
+                      <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
+                        </li>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
+                        </li>
+                      </ul>
+                      <hr />
+                      <div className='u-padding-Vs'>
+                        <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
+                          0,01 - 0,60 €
+                        </h2>
+                        <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
+                          Per transaction, plus <Message pointer='pricing.pro_monthly_fee' /> a month
+                        </p>
+                      </div>
+                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
+                    </div>
+                  </div>
+                </div>
+              </Translation>
             </div>
           </div>
         </div>
