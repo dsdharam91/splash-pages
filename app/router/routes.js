@@ -33,7 +33,7 @@ import AccountManagerGermany from '../pages/about/jobs/positions/account-manager
 import ContentManager from '../pages/about/jobs/positions/content-manager';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support';
 import CustomerSupportFrench from '../pages/about/jobs/positions/customer-support-french';
-import AccountExecutive from '../pages/about/jobs/positions/account-executive-uk.js';
+import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
 import PaymentsProcessingSpecialist from '../pages/about/jobs/positions/payments-processing-specialist.js';
 import Recruiter from '../pages/about/jobs/positions/recruiter.js';
 import SalesDevelopmentRepresentativeOutbound from '../pages/about/jobs/positions/sales-development-representative-outbound.js';
@@ -42,7 +42,8 @@ import SalesOperationsManager from '../pages/about/jobs/positions/sales-operatio
 import CommunicationsDesigner from '../pages/about/jobs/positions/communications-designer.js';
 import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
 import CustomerSuccessManager from '../pages/about/jobs/positions/customer-success-manager.js';
-
+import CorporateAccountExecutive from '../pages/about/jobs/positions/corporate-account-executive.js';
+import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -390,9 +391,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [SoftwareEngineer, { name: 'jobs_software_engineer', category: 'jobs.engineering' }, {
+  [DataEngineer, { name: 'jobs_data_engineer', category: 'jobs.engineering' }, {
       en: {
-        path: '/about/jobs/software-engineer',
+        path: '/about/jobs/data-engineer',
       },
     },
   ],
@@ -402,9 +403,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [DataEngineer, { name: 'jobs_data_engineer', category: 'jobs.engineering' }, {
+  [SoftwareEngineer, { name: 'jobs_software_engineer', category: 'jobs.engineering' }, {
       en: {
-        path: '/about/jobs/data-engineer',
+        path: '/about/jobs/software-engineer',
+      },
+    },
+  ],
+  [CommunicationsDesigner, { name: 'jobs_communications_designer', category: 'jobs.ux_design' }, {
+      en: {
+        path: '/about/jobs/communications-designer',
       },
     },
   ],
@@ -414,30 +421,21 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [InsideAccountExecutive, { name: 'jobs_inside_account_executive_uk', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/inside-account-executive-uk',
+      },
+    },
+  ],
+  [CorporateAccountExecutive, { name: 'jobs_corporate_account_executive', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/corporate-account-executive',
+      },
+    },
+  ],
   [EnterpriseAccountExecutive, { name: 'jobs_enterprise_account_executive', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/enterprise-account-executive',
-      },
-    },
-  ],
-  [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/sales-development-representative-inbound',
-      },
-    },
-  ],
-  [SalesDevelopmentRepresentativeFrench, { name: 'jobs_sales_development_representative_french', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/french-sales-development-representative',
-      },
-      fr: {
-        path: '/a-propos/offres/charge-de-compte',
-      },
-    },
-  ],
-  [SalesDevelopmentRepresentativeOutbound, { name: 'jobs_sales_development_representative_outbound', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/sales-development-representative-outbound',
       },
     },
   ],
@@ -450,9 +448,60 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [CustomerSuccessManager, { name: 'jobs_customer_success_manager', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/customer-success-manager',
+      },
+    },
+  ],
+  [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/sales-development-representative-inbound',
+      },
+    },
+  ],
+  [SalesDevelopmentRepresentativeOutbound, { name: 'jobs_sales_development_representative_outbound', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/sales-development-representative-outbound',
+      },
+    },
+  ],
+  [SalesDevelopmentRepresentativeFrench, { name: 'jobs_sales_development_representative_french', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/french-sales-development-representative',
+      },
+      fr: {
+        path: '/a-propos/offres/charge-de-compte',
+      },
+    },
+  ],
+  [SpanishSalesDevelopmentRepresentative, { name: 'jobs_spanish_sales_development_representative', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/spanish-sales-development-representative',
+      },
+    },
+  ],
+  [SalesOperationsManager, { name: 'jobs_sales_operations_manager', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/sales-operations-manager',
+      },
+    },
+  ],
   [ContentManager, { name: 'jobs_content_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/content-manager',
+      },
+    },
+  ],
+  [DigitalMarketer, { name: 'jobs_digital_marketer', category: 'jobs.marketing' }, {
+      en: {
+        path: '/about/jobs/digital-marketer',
+      },
+    },
+  ],
+  [AccountsAssistant, { name: 'jobs_accounts_assistant', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/accounts-assistant',
       },
     },
   ],
@@ -471,12 +520,7 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [AccountExecutive, { name: 'jobs_account_executive_uk', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/account-executive-uk',
-      },
-    },
-  ],
+
   [PaymentsProcessingSpecialist, { name: 'jobs_payments_processing_specialist', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/payments-processing-specialist',
@@ -489,36 +533,7 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [SalesOperationsManager, { name: 'jobs_sales_operations_manager', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/sales-operations-manager',
-      },
-    },
-  ],
-  [CommunicationsDesigner, { name: 'jobs_communications_designer', category: 'jobs.ux_design' }, {
-      en: {
-        path: '/about/jobs/communications-designer',
-      },
-    },
-  ],
-  [DigitalMarketer, { name: 'jobs_digital_marketer', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/digital-marketer',
-      },
-    },
-  ],
-  [AccountsAssistant, { name: 'jobs_accounts_assistant', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/accounts-assistant',
-      },
-    },
-  ],
-  [CustomerSuccessManager, { name: 'jobs_customer_success_manager', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/customer-success-manager',
-      },
-    },
-  ],
+
   [LegalIntroduction, { name: 'legal', category: 'legal' }, {
       'en-GB': {
         path: '/legal',
