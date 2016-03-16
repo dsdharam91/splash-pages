@@ -97,7 +97,7 @@ export default class PricingEn extends React.Component {
                       </p>
                       <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                          <span className='u-color-accent'>&#10004;</span> White-label payment pages
                         </li>
                         <li className='u-margin-Bxs'>
                           <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
@@ -185,7 +185,7 @@ export default class PricingEn extends React.Component {
                   <div className='u-shadow-large'>
                     <div className='u-relative u-background-dark-gray u-padding-Vxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Pro</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>For organisations that want total control</p>
+                      <p className='u-color-invert u-text-xs u-text-center'>For fast-growing organisations needing more control</p>
                     </div>
                     <div className='u-padding-Am u-text-center u-background-white'>
                       <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
@@ -193,7 +193,7 @@ export default class PricingEn extends React.Component {
                       </p>
                       <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                          <span className='u-color-accent'>&#10004;</span> White-label payment pages
                         </li>
                         <li className='u-margin-Bxs'>
                           <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
@@ -205,10 +205,10 @@ export default class PricingEn extends React.Component {
                       <hr />
                       <div className='u-padding-Vs'>
                         <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
-                          0,01 - 0,60 €
+                          0,20 - 0,60 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Per transaction, plus <Message pointer='pricing.pro_monthly_fee' /> a month
+                          Per transaction, plus 100 € a month
                         </p>
                       </div>
                       <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
@@ -220,21 +220,21 @@ export default class PricingEn extends React.Component {
                   <div className='u-shadow-large'>
                     <div className='u-relative u-background-xdark-gray u-padding-Vxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Enterprise</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>For organisations that want total control</p>
+                      <p className='u-color-invert u-text-xs u-text-center'>For international companies with large teams</p>
                     </div>
                     <div className='u-padding-Am u-text-center u-background-white'>
                       <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
-                        Everything in Standard, plus:
+                        Everything in Pro, plus:
                       </p>
                       <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                          <span className='u-color-accent'>&#10004;</span> White-label payment emails
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
+                          <span className='u-color-accent'>&#10004;</span> Add and manage multiples entities and regions
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
+                          <span className='u-color-accent'>&#10004;</span> Dedicated training and customer success
                         </li>
                       </ul>
                       <hr />
@@ -243,7 +243,7 @@ export default class PricingEn extends React.Component {
                           0,01 - 0,60 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Per transaction, plus <Message pointer='pricing.pro_monthly_fee' /> a month
+                          Per transaction, plus 250 € a month
                         </p>
                       </div>
                       <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
@@ -272,10 +272,10 @@ export default class PricingEn extends React.Component {
                   We never charge for set up, implementation, chargebacks or payment failures.<br />
                   With GoCardless, all you ever pay is <Message pointer='pricing.per_transaction_amount_normal' /> of the transaction
                   amount, up to a maximum of <Message pointer="pricing.cost_cap" />.<br />
-                  With GoCardless Pro, we charge you the <Message pointer='pricing.pro_monthly_fee' /> monthly fee and a fee per transaction based on your monthly volumes.
+                  With GoCardless Pro and Enterprise, we charge you a monthly fee and a fee per successful transaction based on your monthly volumes.
                 </IfLocale>
                 <IfLocale hasPercentagePricing={false}>
-                  No, we only charge you the <Message pointer='pricing.pro_monthly_fee' /> monthly fee and a fee for each transaction.
+                  No, we only charge you a monthly fee and a fee for each successful transaction.
                   We never charge for chargebacks or payment failures.
                 </IfLocale>
               </p>
