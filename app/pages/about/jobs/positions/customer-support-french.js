@@ -214,13 +214,7 @@ export default class CustomerSupportFrench extends React.Component {
               team to get bugs fixed, to helping our sales team understand what
             our current users love.
           </p>
-          < p className='para'>
-            We've built a friendly, collaborative culture, where we hire and
-            develop motivated people that share our desire to do work we can be
-            proud of. We value learning and feedback, and are devoted to encouraging
-            and supporting each other's continual professional growth.
-          </p>
-          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
           <ul className='list u-margin-Tm'>
             <li>
               You love helping people, and you are interested in technology.

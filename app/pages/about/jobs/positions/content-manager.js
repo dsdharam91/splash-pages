@@ -12,12 +12,11 @@ export default class ContentManager extends React.Component {
           Build our community and tell our story to drive our growth.
         </p>
         <p className='para'>
-          GoCardless is growing fast. We’ve recently started serving larger
-          organisations like Box, TripAdvisor, and the UK Government, and we're
-          launching across Europe. Thousands of businesses in the UK already trust
-          us with their payments, and hundreds more join us every week. We pride
-          ourselves on our intuitive, powerful product and our transparent, fair
-          fee structure.
+          Over the past few years, GoCardless' products have allowed small companies
+          to take subscriptions for the first time – fundamentally changing the way
+          they do business. But we're not done yet. We've just scratched the surface
+          for small companies, and we want to do the same thing for the biggest organisations
+          on the planet.
         </p>
         <p className='para'>
           We’re looking for a creative copywriter to craft clear, engaging content
@@ -52,13 +51,7 @@ export default class ContentManager extends React.Component {
           the company on their content needs, from country managers to sales,
           customer support and design.
         </p>
-        <p className='para'>
-          We’ve built a friendly, collaborative culture where we hire and develop
-          ambitious people that share our desire to do work we can be proud of.
-          We value learning and feedback, and will support you to develop and
-          expand your role as our team continues its rapid growth.
-        </p>
-        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <ul className='list u-margin-Tm'>
           <li>
             You’re a writer at heart, with a passion for storytelling and a strong

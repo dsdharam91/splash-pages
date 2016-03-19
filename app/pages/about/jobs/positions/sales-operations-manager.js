@@ -54,7 +54,7 @@ export default class SalesOperationsManager extends React.Component {
             Representing sales in cross-functional meetings.
           </li>
         </ul>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <ul className='list u-margin-Tm'>
           <li>
             You’re committed to implementing innovative approaches to sales analytics and planning.

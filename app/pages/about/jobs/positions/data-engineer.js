@@ -47,7 +47,7 @@ export default class DataEngineer extends React.Component {
           Our backend technology is built in Ruby, but we use Python for our
           data projects, and a fair amount of Go in our infrastructure team.
         </p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Ideal candidate</h4>
+        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <p className='para'>
           We want to work with people who are passionate about making data
           accessible to help people make better decisions. Given the versatile
