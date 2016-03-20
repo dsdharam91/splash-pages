@@ -118,7 +118,7 @@ export default class PricingEs extends React.Component {
                     <div className='u-relative u-background-xdark-gray u-padding-Vxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Enterprise</h2>
                       <p className='u-color-invert u-text-xs u-text-center'>Para compañías internacionales con grandes equipos
-                      </p> 
+                      </p>
                     </div>
 
                     <div className='u-padding-Am u-text-center u-background-white'>
