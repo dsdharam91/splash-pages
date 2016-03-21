@@ -3,7 +3,6 @@ import Page from '../../components/page/page';
 import ProspectForm from '../../components/prospect-form/prospect-form';
 import Message from '../../components/message/message';
 import ClockIcon from '../../icons/svg/clock';
-import ImproveCashflowIcon from '../../icons/svg/improve-cashflow';
 import CheckListIcon from '../../icons/svg/checklist';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
 import CustomerIcon from '../../icons/svg/customer';
