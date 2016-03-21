@@ -124,13 +124,7 @@ export default class AccountManagerGermany extends React.Component {
             a path to mutual success you will need to develop a good understanding of our solution, the business value, and technical
             fit and its relationship to our customers’ existing systems.
           </p>
-          <p className='para'>
-            We've built a dynamic, collaborative culture in which we hire and develop smart, driven people that share our
-            desire to do work we can be proud of. We value learning and feedback, and we spur each other on to raise the bar of success.
-            You’ll be responsible for helping the team around you improve and develop.
-          </p>
-
-          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+          <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
           <p className='para'>
             We’re looking for a German native who wants to have an impact and is always trying to learn and improve themselves
             and the operations around them. The ideal candidate wants to lead and is ready to deal with the ambiguity present in small,

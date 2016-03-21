@@ -538,10 +538,6 @@ export default {
     title: 'Content Manager',
     description: '',
   },
-  jobs_customer_support: {
-    title: 'Customer Support',
-    description: '',
-  },
   jobs_customer_support_french: {
     title: 'French Customer Support',
     description: '',

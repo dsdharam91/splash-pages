@@ -60,7 +60,7 @@ export default class SoftwareEngineer extends React.Component {
             machine library designed to provide a robust audit trail and data integrity.
           </li>
         </ul>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Ideal candidate</h4>
+        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <p className='para'>
           You should apply if:
         </p>

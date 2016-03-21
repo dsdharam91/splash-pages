@@ -62,7 +62,7 @@ export default class Recruiter extends React.Component {
             The main driver in accelerating our hiring process.
           </li>
         </ul>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <p className='para'>
           You should apply if:
         </p>

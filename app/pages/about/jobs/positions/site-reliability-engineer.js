@@ -42,7 +42,6 @@ export default class SiteReliabilityEngineer extends React.Component {
           performance with investigative work.</a></li>
         </ul>
         <p className='para'>
-          Over the coming months, we will be launching our service across new geographies.
           You’ll help ensure that we can operate effectively across the world, and that we
           continue to provide a robust, reliable service as we add hundreds of new users
           every day.
@@ -58,7 +57,7 @@ export default class SiteReliabilityEngineer extends React.Component {
           <li>Create Chef cookbooks to deploy and manage our services.</li>
         </ul>
 
-        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <p className='para'>
           We want to work with people who are always trying to improve and automate
           processes, who enjoy finding elegant solutions for complex problems,
@@ -83,8 +82,6 @@ export default class SiteReliabilityEngineer extends React.Component {
         <p className='para'>This role would ideally suit someone with previous
           experience in a similar role, however we welcome a wide diversity of
           candidates from varying backgrounds. If you’re unsure, please apply.
-          We offer a competitive salary and options package, commensurate with your
-          experience.
         </p>
         <p className='para'>In your application, please include your CV and a
           link to your GitHub, as well as telling us about an interesting technical

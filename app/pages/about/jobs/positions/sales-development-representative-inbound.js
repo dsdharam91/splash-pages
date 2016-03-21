@@ -35,7 +35,7 @@ export default class SalesDevelopmentRepresentativeInbound extends React.Compone
           business and product leaders across the company to help accelerate
           our growth.
         </p>
-        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <ul className='list u-margin-Tm'>
           <li>
             Experience within a sales environment or a top consultancy, or
