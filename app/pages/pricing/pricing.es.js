@@ -77,7 +77,7 @@ export default class PricingEs extends React.Component {
                   <div className='u-shadow-large'>
                     <div className='u-relative u-background-dark-gray u-padding-Vxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Pro</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>Para empresas de mucho crecimiento que<br/>quieren control total</p>
+                      <p className='u-color-invert u-text-xs u-text-center'>Para empresas de mucho crecimiento <br/>que quieren control total</p>
                     </div>
 
                     <div className='u-padding-Am u-text-center u-background-white'>
@@ -104,7 +104,7 @@ export default class PricingEs extends React.Component {
                           0,20 - 0,60 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Por transacción,<br/>más 100€ al mes
+                          Por transacción,<br/>más <strong>100€</strong> al mes
                         </p>
                       </div>
 
@@ -117,7 +117,7 @@ export default class PricingEs extends React.Component {
                   <div className='u-shadow-large'>
                     <div className='u-relative u-background-xdark-gray u-padding-Vxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Enterprise</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>Para compañías internacionales con grandes equipos
+                      <p className='u-color-invert u-text-xs u-text-center'>Para compañías internacionales <br/>con grandes equipos
                       </p>
                     </div>
 
@@ -145,7 +145,7 @@ export default class PricingEs extends React.Component {
                           0,01 - 0,60 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Por transacción,<br/>más €250 al mes
+                          Por transacción,<br/>más <strong>250€</strong> al mes
                         </p>
                       </div>
 
@@ -190,7 +190,7 @@ export default class PricingEs extends React.Component {
             <IfLocale hasPercentagePricing>
               <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Rm'>
                 <div className='u-color-dark-gray'>
-                  <b>¿Que significa "máximo de<Message pointer="pricing.cost_cap" />"?</b>
+                  <b>¿Que significa "máximo de <Message pointer="pricing.cost_cap" />"?</b>
                 </div>
                 <p className='u-color-dark-gray'>
                   Nunca pagarás más de <Message pointer="pricing.cost_cap" /> por transacción
