@@ -79,7 +79,7 @@ export default {
   home: {
     title: 'Domiciliación Bancaria simplicada',
     nav_title: 'Home',
-    description: 'GoCardless simplifica los cobros recurrentes. Ayudamos a más de 14.000 empresas en Europa, tanto en suscripciones como en facturación entre empresas.',
+    description: 'GoCardless simplifica los cobros recurrentes. Ayudamos a más de 16.000 empresas en Europa, tanto en suscripciones como en facturación entre empresas.',
     link: 'home page',
     trusted_message_scale: 'Movemos millones de Euros en cobros cada día.',
   },
