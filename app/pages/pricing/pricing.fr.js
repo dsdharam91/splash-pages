@@ -28,25 +28,25 @@ export default class PricingFr extends React.Component {
                     <div className='u-padding-Am u-text-center u-background-white'>
                       <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Instant online set-up and approval
+                          <span className='u-color-accent'>&#10004;</span> Inscription et validation de compte en ligne
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Online dashboard
+                          <span className='u-color-accent'>&#10004;</span> Tableau de bord en ligne
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Multiple users per account
+                          <span className='u-color-accent'>&#10004;</span> Compte multi-utilisateurs
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> REST API
+                          <span className='u-color-accent'>&#10004;</span> API REST
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Migrate existing Direct Debit customers
+                          <span className='u-color-accent'>&#10004;</span> Mandat électronique sécurisé, multilingue et personalisable
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Secure payment pages with your logo
+                          <span className='u-color-accent'>&#10004;</span> Transférez vos mandats existants
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Collect details online
+                          <span className='u-color-accent'>&#10004;</span> Créez des formules d'abonnement
                         </li>
                       </ul>
 
@@ -57,7 +57,7 @@ export default class PricingFr extends React.Component {
                           <Message pointer='pricing.per_transaction_amount_normal' />
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Par transaction réussie, plafonné à 2€
+                          Par transaction réussie,<br/>plafonné à 2€
                         </p>
                       </div>
                       <IfLocale hasInstantSignup>
@@ -77,23 +77,23 @@ export default class PricingFr extends React.Component {
                   <div className='u-shadow-large'>
                     <div className='u-relative u-background-dark-gray u-padding-Vxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Pro</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>Pour les entreprises souhaitant un contrôle total et personalisé</p>
+                      <p className='u-color-invert u-text-xs u-text-center'>Pour les entreprises en croissance souhaitant plus de contrôle</p>
                     </div>
 
                     <div className='u-padding-Am u-text-center u-background-white'>
                       <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
-                        Everything in Standard, plus:
+                        Inclut l'offre Standard, plus:
                       </p>
 
                       <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                          <span className='u-color-accent'>&#10004;</span> Pages de paiements et emails en marque blanche
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
+                          <span className='u-color-accent'>&#10004;</span> Identifiant Créancier SEPA en votre nom
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
+                          <span className='u-color-accent'>&#10004;</span> Mandats papier ou téléphonique
                         </li>
                       </ul>
 
@@ -101,7 +101,7 @@ export default class PricingFr extends React.Component {
 
                       <div className='u-padding-Vs'>
                         <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
-                          0,01 - 0,60 €
+                          0,60 - 0,10 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
                           Par transaction réussie,<br/>plus €100 par mois
@@ -117,23 +117,23 @@ export default class PricingFr extends React.Component {
                   <div className='u-shadow-large'>
                     <div className='u-relative u-background-xdark-gray u-padding-Vxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Enterprise</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>Pour les entreprises souhaitant un contrôle total et personalisé</p>
+                      <p className='u-color-invert u-text-xs u-text-center'>Pour les entreprises internationales<br/>avec de multiples équipes</p>
                     </div>
 
                     <div className='u-padding-Am u-text-center u-background-white'>
                       <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
-                        Everything in Pro, plus:
+                        Inclut l'offre Pro, plus:
                       </p>
 
                       <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                          <span className='u-color-accent'>&#10004;</span> Gérez de multiples entités et géographies
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
+                          <span className='u-color-accent'>&#10004;</span> Formation et support technique dediés
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
+                          <span className='u-color-accent'>&#10004;</span> Chargé de compte Customer Success dédié
                         </li>
                       </ul>
 
@@ -141,7 +141,7 @@ export default class PricingFr extends React.Component {
 
                       <div className='u-padding-Vs'>
                         <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
-                          0,01 - 0,60 €
+                          0,60 - 0,01 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
                           Par transaction réussie,<br/>plus €250 par mois
@@ -171,8 +171,8 @@ export default class PricingFr extends React.Component {
                 Non, il n'y aucun autre frais que ceux indiqués ci-dessus.
                 Nous ne vous facturons jamais la création de mandats, ainsi que
                 les incidents de paiements : échecs, remboursements, annulations...
-                Avec GoCardless Pro, vous êtes facturé un abonnement de 250 € et
-                un coût par transaction réussie (1% ou prix fixe au choix).
+                Avec GoCardless Pro et Enterprise, vous êtes facturé un abonnement et
+                un coût par transaction réussie.
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bxxl u-padding-Lm'>
@@ -190,7 +190,8 @@ export default class PricingFr extends React.Component {
                 <b>Y a-t'il des frais d'implémentation ?</b>
               </div>
               <p className='u-color-dark-gray'>
-                Non. Vous ne payez pas pour implémenter GoCardless.
+                Non. Vous ne payez pas pour implémenter GoCardless. GoCardless Enterprise
+                vous permet de recevoir une aide dédiée à l'implémentation.
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-padding-Bm u-padding-Lm'>
