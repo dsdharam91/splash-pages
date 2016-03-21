@@ -85,12 +85,10 @@ export default class HeadofSalesGermany extends React.Component {
            <p className='para'>
            Du wirst in unserem Büro in London arbeiten und regelmäßig nach Deutschland reisen.
           </p>
-          
           <p className='para'>
             Als Teil deiner Bewerbung, schicke uns bitte deinen Lebenslauf sowie ein Anschreiben, in dem du erklärst, warum du
             der passende Kanditat/die passende Kandidatin für diese Rolle bist.
           </p>
-          
           <a href='https://boards.greenhouse.io/gocardless/jobs/187107' className='btn u-margin-Vs'>
             Jetzt bewerben
           </a>
@@ -137,7 +135,7 @@ export default class HeadofSalesGermany extends React.Component {
           <p className='para'>
             We’re looking for a German native-speaker with extensive sales experience, who has previously launched
             a new product and who is able to easily adapt to changes in the market. You are organised,
-            results-driven, and able to deal with the ambiguity present in small, fast-growing environments. 
+            results-driven, and able to deal with the ambiguity present in small, fast-growing environments.
           </p>
           <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>
             You should apply if you have:
@@ -168,15 +166,12 @@ export default class HeadofSalesGermany extends React.Component {
            who is looking for a new challenge growing a business in a new market. However, our team comes from a variety of
            backgrounds and we welcome diversity – if you are unsure, please apply.
           </p>
-
           <p className='para'>
            This role will be based in London with regular travel to Germany.
           </p>
-          
           <p className='para'>
           In your application, please include your CV and a cover letter explaining why you are a great candidate for this position.
           </p>
-
           <a href='https://boards.greenhouse.io/gocardless/jobs/187107' className='btn u-margin-Vs'>
             Apply now
           </a>
