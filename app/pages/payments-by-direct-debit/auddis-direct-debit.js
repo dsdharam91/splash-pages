@@ -10,6 +10,7 @@ import CustomerIcon from '../../icons/svg/customer';
 import SecurityIcon from '../../icons/svg/security';
 import DeveloperIcon from '../../icons/svg/developer';
 import TickIcon from '../../icons/svg/tick';
+import AddPartnerIcon from '../../icons/svg/add-partner';
 
 export default class AuddisDirectDebit extends React.Component {
   displayName = 'AuddisDirectDebit'
@@ -45,8 +46,8 @@ export default class AuddisDirectDebit extends React.Component {
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <ImproveCashflowIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
-                  <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
+                  <AddPartnerIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
+                  <AddPartnerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   No more software upgrades
@@ -58,8 +59,8 @@ export default class AuddisDirectDebit extends React.Component {
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
-                  <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
+                  <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
+                  <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Fewer compliance requirements
