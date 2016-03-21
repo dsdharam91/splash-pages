@@ -263,8 +263,8 @@ export default {
     title: 'Sales Development Representative',
     description: '',
   },
-  jobs_account_manager_germany: {
-    title: 'Account Manager Deutschland',
+  jobs_head_of_sales_germany: {
+    title: 'Head of Sales Deutschland',
     description: '',
   },
   jobs_business_development_germany: {

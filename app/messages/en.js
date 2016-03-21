@@ -530,8 +530,8 @@ export default {
     title: 'SDR: France',
     description: '',
   },
-  jobs_account_manager_germany: {
-    title: 'Account Manager: Germany',
+  jobs_head_of_sales_germany: {
+    title: 'Head of Sales Germany',
     description: '',
   },
   jobs_content_manager: {

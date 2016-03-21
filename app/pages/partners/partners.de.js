@@ -167,20 +167,22 @@ export default class PartnersDe extends React.Component {
               </h2>
               <div className='grid__cell u-size-1of2 partners-page__accountancy-text'>
                 <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bl'>
-                  Buchführung
+                  Rechnungsstellung und Buchhaltung
                 </h2>
                 <p className='u-text-xs u-color-dark-gray u-margin-Bm'>
-                  KashFlow hat GoCardless integriert, um seinen Kunden schnelle und einfache
-                  Lastschrifteinzüge über deren KashFlow-Account zu ermöglichen.
+                  Mit der Integration von Debitoor und GoCardless können Debitoor Nutzer ihre Kunden per
+                  Lastschrifteinzug sicher und einfach bezahlen lassen. Gleichzeitig sind alle relevanten
+                  Daten bereits in der Buchhaltung hinterlegt.
                 </p>
                 <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
-                  “GoCardless-Nutzer sind uns länger treu und profitieren stärker von ihrem Abonnement.”
+                  “Mit GoCardless lösen wir gleich zwei Probleme unserer Nutzer – schnell und sicher
+                  bezahlt werden und die Transaktionen direkt in der Buchhaltung abbilden zu können.”
                 </p>
-                <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Duane Jackson, Gründer</p>
-                <img src='/images/partners/kashflow-logo@2x.png' className='partners-page__partner-logo' />
+                <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Hannah Lindstedt, Regional Manager DACH</p>
+                <img src='/images/partners/debitoor-logo@2x.png' className='partners-page__partner-logo' />
               </div>
               <div className='grid__cell u-size-1of2 partners-page__illustration'>
-                <img src='/images/partners/oauth-illustration@2x.png'
+                <img src='/images/partners/debitoor-screenshot@2x.png'
                 className='partners-page__browser-image'/>
               </div>
             </div>
