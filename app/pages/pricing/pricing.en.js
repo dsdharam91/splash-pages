@@ -19,7 +19,6 @@ export default class PricingEn extends React.Component {
 
     const localScheme = getMessage(this.context.messages, 'country_properties.local_scheme');
 
-    console.log(111, localScheme);
     return (
       <Translation locales='en'>
         <div className='page-hero page-hero--pricing page-hero--one-product-pricing'>
@@ -188,7 +187,7 @@ export default class PricingEn extends React.Component {
                   <div className='u-shadow-large'>
                     <div className='u-relative u-background-dark-gray u-padding-Vxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Pro</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>For fast-growing organisations wanting more control</p>
+                      <p className='u-color-invert u-text-xs u-text-center'>For fast-growing organisations<br/>wanting more control</p>
                     </div>
                     <div className='u-padding-Am u-text-center u-background-white'>
                       <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
@@ -211,7 +210,7 @@ export default class PricingEn extends React.Component {
                           0,10 - 0,60 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Per transaction, plus 100 € a month
+                          Per transaction, plus <strong>100 €</strong> a month
                         </p>
                       </div>
                       <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
@@ -223,7 +222,7 @@ export default class PricingEn extends React.Component {
                   <div className='u-shadow-large'>
                     <div className='u-relative u-background-xdark-gray u-padding-Vxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Enterprise</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>For international companies with large teams</p>
+                      <p className='u-color-invert u-text-xs u-text-center'>For international companies<br/>with large teams</p>
                     </div>
                     <div className='u-padding-Am u-text-center u-background-white'>
                       <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
@@ -231,7 +230,7 @@ export default class PricingEn extends React.Component {
                       </p>
                       <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Add and manage multiples entities and regions
+                          <span className='u-color-accent'>&#10004;</span> Add and manage multiple entities and regions
                         </li>
                         <li className='u-margin-Bxs'>
                           <span className='u-color-accent'>&#10004;</span> Dedicated training and integration support
@@ -246,7 +245,7 @@ export default class PricingEn extends React.Component {
                           0,01 - 0,60 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Per transaction, plus 250 € a month
+                          Per transaction, plus <strong>250 €</strong> a month
                         </p>
                       </div>
                       <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
