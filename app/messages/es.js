@@ -1,5 +1,5 @@
 export default {
-  number_of_merchants: '14.000',
+  number_of_merchants: '16.000',
   payments_processed_volume: '€1.000 millones',
   header: {
     our_products: 'Nuestros Productos',
