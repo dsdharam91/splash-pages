@@ -13,18 +13,18 @@ export default class Pricing extends React.Component {
   render() {
     return (
       <div>
-        <Translation locales='en'>
+        <Translation locales={['en', 'es']}>
           <Page isInverted={false}>
             <PricingEn />
+            <PricingEs />
           </Page>
         </Translation>
 
-        <Translation locales={['fr', 'de', 'es', 'nl']}>
+        <Translation locales={['fr', 'de', 'nl']}>
           <Page>
             <PricingFr />
-            <PricingDe />
-            <PricingEs />
             <PricingNl />
+            <PricingDe />
           </Page>
         </Translation>
       </div>
