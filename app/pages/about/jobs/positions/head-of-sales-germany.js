@@ -17,7 +17,7 @@ export default class HeadofSalesGermany extends React.Component {
             GoCardless betreibt Innovation auf dem bestehenden europäischen SEPA Zahlungsnetzwerk sowie vergleichbarer
             Netzwerke auf der ganzen Welt. Wir machen diese Netzwerke einfacher zugänglich für digitale online Services,
             fügen intelligente, flexible und verlässliche Funktionen hinzu, und schaffen somit Mehrwert für
-            unsere Kunden in einer ganz neuen Dimension. Tausende von Unternehmen in Großbritannien vertrauen uns bereits
+            unsere Kunden in einer ganz neuen Dimension. Tausende britische Unternehmen vertrauen uns bereits
             die Abwicklung ihrer Zahlungen an und jede Woche entscheiden sich hunderte weitere für uns.
           </p>
           <p className='para'>
@@ -106,7 +106,7 @@ export default class HeadofSalesGermany extends React.Component {
           to disrupt these systems as payment mechanisms continue to evolve.
           </p>
           <p className='para'>
-            We're looking for a Head of Sales to help us grow our presence in the Germany market.
+            We're looking for a Head of Sales to help us grow our presence in the German market.
           </p>
 
           <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
