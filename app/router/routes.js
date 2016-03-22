@@ -29,7 +29,7 @@ import ProductDesigner from '../pages/about/jobs/positions/product-designer.js';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
 import SalesDevelopmentRepresentativeFrench from '../pages/about/jobs/positions/sales-development-representative-french';
-import AccountManagerGermany from '../pages/about/jobs/positions/account-manager-germany';
+import HeadofSalesGermany from '../pages/about/jobs/positions/head-of-sales-germany';
 import ContentManager from '../pages/about/jobs/positions/content-manager';
 import CustomerSupportFrench from '../pages/about/jobs/positions/customer-support-french';
 import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
@@ -438,12 +438,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [AccountManagerGermany, { name: 'jobs_account_manager_germany', category: 'jobs.sales' }, {
+  [HeadofSalesGermany, { name: 'jobs_head_of_sales_germany', category: 'jobs.sales' }, {
       en: {
-        path: '/about/jobs/account-manager-germany',
+        path: '/about/jobs/head-of-sales-germany',
       },
       de: {
-        path: '/ueber-uns/jobs/account-manager-deutschland',
+        path: '/ueber-uns/jobs/head-of-sales-deutschland',
       },
     },
   ],
@@ -513,7 +513,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-
   [PaymentsProcessingSpecialist, { name: 'jobs_payments_processing_specialist', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/payments-processing-specialist',
