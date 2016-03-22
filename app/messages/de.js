@@ -81,7 +81,7 @@ export default {
   home: {
     title: 'Online Lastschrift leicht gemacht',
     nav_title: 'Start',
-    description: 'GoCardless ist die einfache Art Zahlungen online zu empfangen. Mehr als 14.000 Kunden vertrauen bereits auf unseren Service mit transparenten Gebühren.',
+    description: 'GoCardless ist die einfache Art Zahlungen online zu empfangen. Mehr als 16.000 Kunden vertrauen bereits auf unseren Service mit transparenten Gebühren.',
     link: 'home page',
     trusted_message_scale: 'Wir übermitteln jeden Tag mehrere Millionen Euro für unsere Kunden.',
   },

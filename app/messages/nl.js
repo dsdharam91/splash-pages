@@ -92,7 +92,7 @@ export default {
   signup: {
     path: 'https://manage.gocardless.com/signup?lang=nl',
   },
-security: {
+  security: {
     title: 'Veiligheid',
     nav_title: 'Veiligheid',
     description: 'GoCardless is beveiligd op het hoogste niveau. We slaan alle gegevens op met RSA encryptie en communiceren uitsluitend via veilige kanalen. Als Europese betalingsaanbieder hebben we een vergunning van de Financial Conduct Authority (FCA) in het Verenigd Koninkrijk.',

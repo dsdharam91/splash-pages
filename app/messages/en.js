@@ -83,7 +83,7 @@ export default {
   home: {
     title: 'The easy way to collect recurring payments',
     nav_title: 'Home',
-    description: 'GoCardless is the easy way to collect Direct Debit. Already serving more than 14,000 businesses, perfect for recurring billing and B2B invoicing.',
+    description: 'GoCardless is the easy way to collect Direct Debit. Already serving more than 16,000 businesses, perfect for recurring billing and B2B invoicing.',
     link: 'home page',
     trusted_message_scale: 'We collects millions of pounds for our merchants every day.',
   },
