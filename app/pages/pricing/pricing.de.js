@@ -15,38 +15,38 @@ export default class PricingDe extends React.Component {
           <div className='site-container'>
             <div className='grid pricing-options pricing-options--three-tiers u-center u-padding-Bxl'>
               <h1 className='u-text-heading u-text-light u-text-center u-color-dark-gray u-margin-Vl'>
-                The perfect plan for you
+                Die optimale Lösung für Ihr Unternehmen
               </h1>
 
               <div className='grid__cell u-size-1of3 u-padding-Vxl u-padding-Rxs'>
                   <div className='u-shadow-large'>
                     <div className='u-relative u-background-primary u-padding-Vxl'>
-                      <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>Für kleine und mittelständische Unternehmen</p>
+                      <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Standard</h2>
+                      <p className='u-color-invert u-text-xs u-text-center'>Für kleine und mittlere Unternehmen,<br/>die einen schnellen Zugang wünschen</p>
                     </div>
 
                     <div className='u-padding-Am u-text-center u-background-white'>
                       <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Instant online set-up and approval
+                          <span className='u-color-accent'>&#10004;</span> Sofortige Online-Einrichtung und -Validierung
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Online dashboard
+                          <span className='u-color-accent'>&#10004;</span> Online-Dashboard
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Multiple users per account
+                          <span className='u-color-accent'>&#10004;</span> Mehrbenutzer-Account
                         </li>
                         <li className='u-margin-Bxs'>
                           <span className='u-color-accent'>&#10004;</span> REST API
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Migrate existing Direct Debit customers
+                          <span className='u-color-accent'>&#10004;</span> Übertragen vorhandener Lastschriftkunden
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Secure payment pages with your logo
+                          <span className='u-color-accent'>&#10004;</span> Sichere Online-Mandats-Seiten mit Ihrem Logo
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Collect details online
+                          <span className='u-color-accent'>&#10004;</span> Erstellen von Abonnements
                         </li>
                       </ul>
 
@@ -57,17 +57,17 @@ export default class PricingDe extends React.Component {
                           <Message pointer='pricing.per_transaction_amount_normal' />
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Pro Zahlung, gedeckelt bei 2 €
+                          pro erfolgreicher Transaktion<br/>und höchstens 2 €
                         </p>
                       </div>
                       <IfLocale hasInstantSignup>
                         <Href to='signup.path' className='btn u-size-full'>
-                          Jetzt anmelden
+                          JETZT ANMELDEN
                         </Href>
                       </IfLocale>
 
                       <IfLocale hasInstantSignup={false}>
-                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Kontakt</Link>
+                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Fragen Sie uns</Link>
                       </IfLocale>
                     </div>
                   </div>
@@ -77,23 +77,23 @@ export default class PricingDe extends React.Component {
                   <div className='u-shadow-large'>
                     <div className='u-relative u-background-dark-gray u-padding-Vxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Pro</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>Für Unternehmen, die volle Kontrolle suchen</p>
+                      <p className='u-color-invert u-text-xs u-text-center'>Für schnell wachsende Unternehmen,<br/>die mehr Kontrolle wünschen</p>
                     </div>
 
                     <div className='u-padding-Am u-text-center u-background-white'>
                       <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
-                        Everything in Standard, plus:
+                        Alle Vorteile der Standard-Lösung, inklusive:
                       </p>
 
                       <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                          <span className='u-color-accent'>&#10004;</span> White-Label-Mandatsseiten und -E-Mails
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
+                          <span className='u-color-accent'>&#10004;</span> White-Label-Kundenkontoauszüge
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
+                          <span className='u-color-accent'>&#10004;</span> Telefonische oder schriftliche Mandatserteilung
                         </li>
                       </ul>
 
@@ -101,14 +101,14 @@ export default class PricingDe extends React.Component {
 
                       <div className='u-padding-Vs'>
                         <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
-                          0,01 - 0,60 €
+                          0,10 - 0,60 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Par transaction réussie,<br/>plus €100 par mois
+                          pro erfolgreicher Transaktion,<br/>plus 100 € im Monat
                         </p>
                       </div>
 
-                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Kontakt</Link>
+                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Fragen Sie uns</Link>
                     </div>
                   </div>
               </div>
@@ -117,23 +117,23 @@ export default class PricingDe extends React.Component {
                   <div className='u-shadow-large'>
                     <div className='u-relative u-background-xdark-gray u-padding-Vxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Enterprise</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>Für Unternehmen, die volle Kontrolle suchen</p>
+                      <p className='u-color-invert u-text-xs u-text-center'>Für internationale Unternehmen mit großen Teams</p>
                     </div>
 
                     <div className='u-padding-Am u-text-center u-background-white'>
                       <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
-                        Everything in Pro, plus:
+                        Alle Vorteile der Pro-Lösung, inklusive:
                       </p>
 
                       <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> White-label payment pages &amp; emails
+                          <span className='u-color-accent'>&#10004;</span> Hinzufügen und Verwalten mehrerer Einheiten und Gebiete
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> White-label customer bank statements
+                          <span className='u-color-accent'>&#10004;</span> Auf Ihr Unternehmen zugeschnittene Schulungen und technischer Support
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Collect details by phone and paper
+                          <span className='u-color-accent'>&#10004;</span> Persönlicher Ansprechpartner speziell für Ihr Unternehmen
                         </li>
                       </ul>
 
@@ -144,11 +144,11 @@ export default class PricingDe extends React.Component {
                           0,01 - 0,60 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Par transaction réussie,<br/>plus €250 par mois
+                          pro erfolgreicher Transaktion,<br/>plus 250 € im Monat
                         </p>
                       </div>
 
-                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Kontakt</Link>
+                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Fragen Sie uns</Link>
                     </div>
                   </div>
               </div>
@@ -170,9 +170,9 @@ export default class PricingDe extends React.Component {
               <p className='u-color-dark-gray'>
                 Richtig, wir berechnen Ihnen nur die Gebühren, die in der obigen Tabelle aufgelistet sind.
                 Wir berechnen niemals Gebühren für Rückerstattungen oder fehlgeschlagene Zahlungen.
-                Mit GoCardless zahlen Sie jederzeit nur <Message pointer='pricing.per_transaction_amount_normal' /> des
+                Mit GoCardless Standard zahlen Sie jederzeit nur <Message pointer='pricing.per_transaction_amount_normal' /> des
                 Zahlungsbetrages, gedeckelt bei <Message pointer="pricing.cost_cap" />.
-                Mit GoCardless Pro zahlen Sie <Message pointer='pricing.pro_monthly_fee' /> im Monat sowie
+                Mit GoCardless Pro sowie Enterprise zahlen Sie eine Grundgebühr im Monat sowie
                 eine Gebühr für jede Zahlung.
               </p>
             </div>
