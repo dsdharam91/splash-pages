@@ -53,7 +53,7 @@ export default class AboutEs extends React.Component {
                 <p className='u-text-xs u-color-dark-gray u-margin-Txxl'>
                   Para cualquier información de prensa, por favor contacta con <a href='mailto:press@gocardless.com'>
                   el equipo de Relaciones Publicas de GoCardless</a>, o mira nuestro
-                  completo <a href='https://www.dropbox.com/sh/sat8xsjntbf5mnh/AACn116IKyIWrNG7c8FnY0cYa?dl=0'>
+                  completo <a href='https://www.dropbox.com/sh/4i9h27y8oaa3hcq/AABWlVX0T44UBFb4bh78Y5HVa?dl=0'>
                   pack de prensa.
                   </a>
                 </p>

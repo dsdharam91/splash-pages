@@ -57,7 +57,7 @@ export default class AboutDe extends React.Component {
                 <p className='u-text-xs u-color-dark-gray u-margin-Txxl'>
                   Für Presseanfragen kontaktieren Sie bitte
                   das <a href='mailto:press@gocardless.com'>GoCardless PR Team</a> oder werfen Sie einen Blick auf unser
-                  umfangreiches <a href='https://www.dropbox.com/sh/sat8xsjntbf5mnh/AACn116IKyIWrNG7c8FnY0cYa?dl=0'>Presse Paket.</a>
+                  umfangreiches <a href='https://www.dropbox.com/sh/4i9h27y8oaa3hcq/AABWlVX0T44UBFb4bh78Y5HVa?dl=0'>Presse Paket.</a>
                 </p>
               </div>
             </div>

@@ -67,7 +67,7 @@ export default class AboutNl extends React.Component {
                 <img src='/images/press/publications-stacked.jpg' />
                 <p className='u-text-xs u-color-dark-gray u-margin-Txxl'>
                   Persvragen? Neem contact op met <a href='mailto:press@gocardless.com'>het GoCardless PR team</a> of bekijk onze
-                  <a href='https://www.dropbox.com/sh/sat8xsjntbf5mnh/AACn116IKyIWrNG7c8FnY0cYa?dl=0'> uitgebreide press kit</a>.
+                  <a href='https://www.dropbox.com/sh/4i9h27y8oaa3hcq/AABWlVX0T44UBFb4bh78Y5HVa?dl=0'> uitgebreide press kit</a>.
                 </p>
               </div>
             </div>

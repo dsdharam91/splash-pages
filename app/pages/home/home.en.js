@@ -123,7 +123,7 @@ export default class HomeEn extends React.Component {
               I'd highly recommend them to any company that cares about providing a good user experience
               and using the best technology for their Direct Debit."
             </p>
-            <img src='images/logos/funding-circle-logo-white.png' className='u-block u-center u-size-1of4' />
+            <img src='/images/logos/funding-circle-logo-white.png' className='u-block u-center u-size-1of4' />
           </div>
         </div>
 
