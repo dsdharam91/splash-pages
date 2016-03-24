@@ -2,6 +2,7 @@ import React from 'react';
 import Translation from '../../../../components/translation/translation';
 import IfLocale from '../../../../components/if-locale/if-locale';
 import Link from '../../../../components/link/link';
+import Message from '../../../../components/message/message';
 
 export default class FaqMerchantsEn extends React.Component {
   displayName = 'FaqMerchantsEn'
@@ -150,13 +151,13 @@ export default class FaqMerchantsEn extends React.Component {
             <strong>Reduced administration</strong> - Collect recurring and one-off payments automatically,
             or at the click of a button. We manage everything else for you.
           </li>
-          <Translation locales='en-GB'>
+          <IfLocale hasPercentagePricing>
             <li>
                <strong>Simple, low pricing</strong> - We charge <Link to='pricing'
-               className='u-link-color-p u-text-underline'>1% per transaction</Link>, and never more
-               than £2. Scale pricing is available.
+               className='u-link-color-p u-text-underline'><Message pointer='pricing.per_transaction_amount_normal' /> per
+               transaction</Link>, and never more than <Message pointer='pricing.cost_cap' />. Scale pricing is available.
             </li>
-          </Translation>
+          </IfLocale>
           <li>
             <strong>Powerful tools that suit you</strong> - Everything you need to set up, collect
             and manage Direct Debit payments with our simple online tool or <a href='https://developer.gocardless.com/'

@@ -130,7 +130,8 @@ export default class FeaturesEn extends React.Component {
                     Save money
                   </div>
                   <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                    Less than half the cost of PayPal with easy to understand pricing. 1% capped at £2
+                    Less than half the cost of PayPal with easy to understand
+                    pricing. <Message pointer='pricing.per_transaction_amount_normal' /> capped at <Message pointer='pricing.cost_cap' />
                   </p>
                 </div>
 
