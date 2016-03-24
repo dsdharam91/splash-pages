@@ -546,10 +546,6 @@ export default {
     title: 'Account Executive, Inside Sales: UK',
     description: '',
   },
-  jobs_payments_processing_specialist: {
-    title: 'Payments Processing Specialist',
-    description: '',
-  },
   jobs_recruiter: {
     title: 'Recruiter',
     description: '',
