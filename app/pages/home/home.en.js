@@ -127,7 +127,7 @@ export default class HomeEn extends React.Component {
           </div>
         </div>
 
-        <Translation locales={['en-GB','en-IE']}>
+        <IfLocale hasInstantSignup>
           <hr className='section-divider' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='product-grid__container'>
@@ -143,7 +143,7 @@ export default class HomeEn extends React.Component {
                     Take control of your payments and make sure you get paid on time every time. Improved cashflow, reduced admin and ultra-low fees.
                   </p>
                   <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
-                    1% capped at £2
+                    <Message pointer='pricing.per_transaction_amount_normal' /> capped at <Message pointer='pricing.cost_cap' />
                   </p>
                   <Link to='features' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                     Learn more
@@ -161,7 +161,7 @@ export default class HomeEn extends React.Component {
                     Direct Debit for the digital age. Connected to your business with real-time alerts, increased customer insight and reduced churn.
                   </p>
                   <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
-                    From 1p to 60p
+                    From <Message pointer='pricing.pro_cost_per_transaction' />
                   </p>
                   <Link to='pro' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                     Learn more
@@ -170,7 +170,7 @@ export default class HomeEn extends React.Component {
 
             </div>
           </div>
-        </Translation>
+        </IfLocale>
 
         <hr className='section-divider' />
 
