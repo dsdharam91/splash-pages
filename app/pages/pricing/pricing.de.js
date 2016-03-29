@@ -104,7 +104,7 @@ export default class PricingDe extends React.Component {
                           0,10 - 0,60 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          pro erfolgreicher Transaktion,<br/>plus 100 € im Monat
+                          pro erfolgreicher Transaktion,<br/>plus <strong>100 €</strong> im Monat
                         </p>
                       </div>
 
@@ -144,7 +144,7 @@ export default class PricingDe extends React.Component {
                           0,01 - 0,60 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          pro erfolgreicher Transaktion,<br/>plus 250 € im Monat
+                          pro erfolgreicher Transaktion,<br/>plus <strong>250 €</strong> im Monat
                         </p>
                       </div>
 
