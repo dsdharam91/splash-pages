@@ -165,18 +165,20 @@ export default class PartnersFr extends React.Component {
               </h2>
               <div className='grid__cell u-size-1of2 partners-page__accountancy-text'>
                 <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bl'>
-                  Comptabilité
+                  Facturation et Comptabilité
                 </h2>
                 <p className='u-text-xs u-color-dark-gray u-margin-Bm'>
-                  KashFlow a intégré GoCardless pour permettre à leurs clients de prendre des paiements
-                  rapidement et facilement depuis leur compte Kashflow.
+                  Avec l’intégration de GoCardless et Debitoor, les clients de Debitoor peuvent être payés facilement et
+                  en toute sécurité par prélèvement SEPA. Toutes les informations importantes sont disponibles en temps
+                  réel dans leur tableau de bord Debitoor.
                 </p>
                 <div className="">
                   <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
-                    “Les utilisateurs de GoCardless restent plus longtemps et tirent davantage profit de leur abonnement.”
+                    "Avec GoCardless, nous résolvons deux problèmes pour nos utilisateurs - être payé rapidement de
+                    façon sécurisé, et pouvoir réconcilier ces transactions dans leur système comptable.“
                   </p>
-                  <p className='u-text-xs u-margin-Bs u-color-dark-gray'>Duane Jackson, fondateur</p>
-                  <img src='/images/partners/kashflow-logo@2x.png' className='partners-page__partner-logo' />
+                  <p className='u-text-xs u-margin-Bs u-color-dark-gray'>Pilar Martin, Directeur France</p>
+                  <img src='/images/partners/debitoor-logo@2x.png' className='partners-page__partner-logo' />
                 </div>
               </div>
               <div className='grid__cell u-size-1of2 partners-page__illustration'>

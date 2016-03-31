@@ -214,19 +214,19 @@ export default class PartnersEs extends React.Component {
           <div className='site-container u-padding-Txl'>
             <div className='grid__cell u-size-1of2 partners-page__billing-text'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bl'>
-                Software de facturación
+                Facturación y Contabilidad
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Bl'>
-                Zuora eligió a GoCardless como su proveedor de Domiciliaciones Bancarias, permitiendo a sus clientes realizar cobros
-                desde cualquier parte del mundo.
+                Con la integración de GoCardless y Debitoor, los clientes de Debitoor podrán cobrar de forma segura
+                y sencilla por Domiciliación Bancaria. Toda la información relevante estará disponible en el panel de
+                control de Debitoor en tiempo real.
               </p>
               <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
-                “GoCardless es un socio clave que proporciona a nuestros clientes una experiencia genial al cobrar a través de
-                Domiciliación Bancaria. La integración Zuora-GoCardless está ayudando a negocios de suscripción
-                a ofrecer una experiencia de gran calidad al pagar.”
+                "Con GoCardless, solucionamos dos problemas de nuestros clientes - poder cobrar rápidamente y de forma
+                segura y ser capaz de ver y reconciliar estas transacciones en su contabilidad."
               </p>
-              <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Tamsyn Attiwell, VP Global Services EMEA</p>
-              <img src='/images/partners/zuora-logo@2x.png' className='partners-page__partner-logo' />
+              <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Pilar Martin, Director de España</p>
+              <img src='/images/partners/debitoor-logo@2x.png' className='partners-page__partner-logo' />
             </div>
             <div className='grid__cell u-size-1of2 partners-page__illustration u-text-center'>
               <img src='/images/partners/pay-via-mobile-illustration@2x.png'

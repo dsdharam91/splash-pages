@@ -174,6 +174,7 @@ export default class PartnersDe extends React.Component {
                   Lastschrifteinzug sicher und einfach bezahlen lassen. Gleichzeitig sind alle relevanten
                   Daten bereits in der Buchhaltung hinterlegt.
                 </p>
+                <div className="">
                 <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
                   “Mit GoCardless lösen wir gleich zwei Probleme unserer Nutzer – schnell und sicher
                   bezahlt werden und die Transaktionen direkt in der Buchhaltung abbilden zu können.”
