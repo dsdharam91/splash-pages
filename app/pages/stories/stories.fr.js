@@ -55,7 +55,7 @@ export default class StoriesFr extends React.Component {
                         a permis à nos équipes de se concenter sur des activités à plus forte valeur ajoutée.”
                       </p>
                       <div className='u-color-invert u-margin-Tm'>
-                        Martin Gentil, Directeur commercial
+                        Martin Gentil, The French Talents
                       </div>
                     </div>
                   </div>
