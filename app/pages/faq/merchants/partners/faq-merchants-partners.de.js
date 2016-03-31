@@ -18,7 +18,7 @@ export default class FaqMerchantsPartnersDe extends React.Component {
           Eine Partnerschaft mit GoCardless erlaubt es Ihren Kunden, Lastschriftzahlungen innerhalb Ihrer Systeme zu kreieren.
         </p>
         <p className='para'>
-          Für weitere Informationen, werfen Sie einen Blick auf unseren <a href='https://developer.gocardless.com/pro/#partner-guide'
+          Für weitere Informationen, werfen Sie einen Blick auf unseren <a href='https://developer.gocardless.com/pro/#guides-oauth'
           className='u-link-color-p u-text-underline'>Partner API Leitfaden</a>.
         </p>
 

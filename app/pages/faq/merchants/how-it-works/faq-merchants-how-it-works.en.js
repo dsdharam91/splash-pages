@@ -58,7 +58,7 @@ export default class FaqMerchantsHowItWorksEn extends React.Component {
           Can customers sign up on my website?
         </h3>
         <p className='para'>
-          Yes - you can either do this by integrating with our <a href='https://developer.gocardless.com/'
+          Yes - you can either do this by integrating with our <a href='https://developer.gocardless.com/pro'
           className='u-link-color-p u-text-underline'>API</a> or by generating a link for a payment
           plan and embedding this as a button on your website.
         </p>

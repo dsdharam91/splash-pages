@@ -51,9 +51,8 @@ export default class FaqMerchantsSigningUpEn extends React.Component {
             What do I do if I'm a developer?
           </h3>
           <p className='para'>
-            Developers should sign up as normal. Once logged in, you can activate your developer account.
-            Our API documentation can be viewed <a href='https://developer.gocardless.com/'
-            className='u-link-color-p u-text-underline'>here</a>.
+            Developers should sign up as normal. Our API documentation can be viewed
+            <a href='https://developer.gocardless.com/pro' className='u-link-color-p u-text-underline'>here</a>.
           </p>
         </Translation>
 

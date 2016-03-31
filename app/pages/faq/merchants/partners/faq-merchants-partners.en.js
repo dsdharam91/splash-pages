@@ -17,8 +17,8 @@ export default class FaqMerchantsPartnersEn extends React.Component {
           with GoCardless allows your customers to take payment from within your application.
         </p>
         <p className='para'>
-          For further information check out our <a href='https://developer.gocardless.com/#partner-guide'
-          className='u-link-color-p u-text-underline'>partner API guide</a>.
+          For further information check out our <a href='https://developer.gocardless.com/pro/#guides-oauth'
+          className='u-link-color-p u-text-underline'>partner API docs</a>.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -241,7 +241,7 @@ export default class FaqMerchantsPartnersEn extends React.Component {
           One extremely useful example is determining when a bill has been paid.
         </p>
         <p className='para'>
-          You can find out more about available webhooks and how to use them in our <a href='https://developer.gocardless.com/#webhooks'
+          You can find out more about available webhooks and how to use them in our <a href='https://developer.gocardless.com/pro/#webhooks-overview'
           className='u-link-color-p u-text-underline'>webhook guide</a>.
         </p>
 
