@@ -510,10 +510,6 @@ export default {
     title: 'Data Engineer',
     description: '',
   },
-  jobs_product_designer: {
-    title: 'Product Designer',
-    description: '',
-  },
   jobs_enterprise_account_executive: {
     title: 'Account Executive, Enterprise Sales: UK',
     description: '',
