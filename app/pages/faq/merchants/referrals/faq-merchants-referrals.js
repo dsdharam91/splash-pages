@@ -33,8 +33,8 @@ export default class FaqMerchantsReferrals extends React.Component {
           I’ve referred a friend to GoCardless. What happens to my GoCardless credit?
         </h3>
         <p className='para'>
-          If you referred a friend and they signed up before February 29th 2016, you will receive your payout for February and March 2016.
-          We will be emailing you directly with information on receiving any outstanding rebates post March 2016.
+          If you referred a friend and they signed up before February 29th 2016, you will receive your payout for February, March and April 2016.
+          We will be emailing you directly with information on receiving any outstanding rebates post April 2016.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
