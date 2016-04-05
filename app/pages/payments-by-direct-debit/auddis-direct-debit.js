@@ -19,11 +19,11 @@ export default class AuddisDirectDebit extends React.Component {
       <Page>
         <div className='page-hero u-padding-Bxxl'>
           <div className='site-container u-padding-Vxxl u-text-center'>
-            <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
+            <h1 className='u-text-heading u-color-invert u-text-xl u-text-light u-margin-Bs'>
               The Easiest Way To Be An AUDDIS<br />Direct Debit Originator
             </h1>
             <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
-              Discover an easier &amp; smarter way to collect Direct Debit payments and to be AUDDIS-compliant
+              Discover an easier &amp; smarter way to collect Direct Debit payments and be AUDDIS-compliant
             </p>
           </div>
         </div>
@@ -78,8 +78,8 @@ export default class AuddisDirectDebit extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
-            <div className='grid__cell u-size-1of2 u-text-center'>
-              <img src='/images/why-dd/slide-1.png' className='u-padding-Rxxl'/>
+            <div className='grid__cell u-size-1of2'>
+              <img src='/images/why-dd/slide-1.png' className='auddis-page-illustration u-margin-Ts u-padding-Txxl'/>
             </div>
             <div className='grid__cell u-size-1of2'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
@@ -129,7 +129,7 @@ export default class AuddisDirectDebit extends React.Component {
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-text-center'>
-              <img src='/images/why-dd/slide-3.png' className='u-padding-Lxxl' />
+              <img src='/images/why-dd/slide-3.png' className='auddis-page-illustration u-margin-Txxl u-padding-Txxl' />
             </div>
           </div>
         </div>
@@ -137,8 +137,8 @@ export default class AuddisDirectDebit extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
-            <div className='grid__cell u-size-1of2 u-text-center u-padding-Rl'>
-              <img src='/images/features/pro-dashboard-timeline.png' />
+            <div className='grid__cell u-size-1of2 u-text-center u-padding-Rxxl'>
+              <img src='/images/features/pro-dashboard-timeline.png' className="u-padding-Txxl"/>
             </div>
             <div className='grid__cell u-size-1of2'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
@@ -169,7 +169,7 @@ export default class AuddisDirectDebit extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
+            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bxs'>
               GoCardless powers online Direct Debit for over <Message pointer='number_of_merchants' /> businesses
             </h2>
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
@@ -281,7 +281,7 @@ export default class AuddisDirectDebit extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl u-text-center u-center' id='contact-us'>
-            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>
+            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
               Want to learn more? Speak with our Direct Debit experts
             </h2>
             <div className='grid__cell u-size-1of2'>
