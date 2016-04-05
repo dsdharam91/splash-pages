@@ -376,6 +376,10 @@ export default {
     title: 'GoCardless transforms cashflow for accountants',
     description: '',
   },
+  government: {
+    title: 'Direct Debit for Government and Local Authorities',
+    description: '',
+  },
   telcos: {
     title: 'Direct Debit for Telecommunication Companies',
     description: '',
@@ -567,14 +571,13 @@ export default {
     description: '',
   },
   jobs_corporate_account_executive: {
-  title: 'Account Executive, Corporate Sales: UK',
-  description: '',
+    title: 'Account Executive, Corporate Sales: UK',
+    description: '',
   },
   jobs_spanish_sales_development_representative: {
-  title: 'SDR: Spain',
-  description: '',
+    title: 'SDR: Spain',
+    description: '',
   },
-
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
