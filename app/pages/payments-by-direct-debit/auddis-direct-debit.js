@@ -153,20 +153,16 @@ export default class AuddisDirectDebit extends React.Component {
                 AUDDIS report</a>. We'll automatically handle your Bacs reports for you (including AUDDIS, ADDACS, ARUDD and DDICA
                 messages) to give you actionable information in our dashboard and API.
               </p>
-              <h3 className='u-text-s'>Customer service</h3>
+              <h3 className='u-text-s'>Improve customer service</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                GoCardless integrates with CRM systems to provide actionable account information, enabling faster resolution to
-                customer contacts.
-              </p>
-              <h3 className='u-text-s'>Reduce billing errors</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Integrate into your billing system to reduce manual admin, payment errors and failures with automatic
-                reconciliation of payments against bills.
+                GoCardless integrates with billing &amp; CRM systems to provide actionable account information, enabling faster resolution
+                to customer contacts. Reduced manual admin and payment failures with automatic reconciliation of payments against bills.
               </p>
               <h3 className='u-text-s'>Modulus checking</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
                 GoCardless provides <a href='https://gocardless.com/guides/posts/modulus-checking/'
-                className='u-link-color-p u-text-underline'>modulus checking</a> at no extra charge.
+                className='u-link-color-p u-text-underline'>modulus checking</a> at no extra charge. This reduces payment failures and
+                keeps your customers happy.
               </p>
             </div>
           </div>
@@ -227,7 +223,7 @@ export default class AuddisDirectDebit extends React.Component {
                   Automatic notifications
                 </div>
                 <p className='u-color-p u-margin-Txs'>
-                  Get real-time alerts on failed or cancelled payments.
+                  Get real-time alerts about failed or cancelled payments.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3'>
@@ -253,7 +249,7 @@ export default class AuddisDirectDebit extends React.Component {
                   Connected to your business
                 </div>
                 <p className='u-color-p u-margin-Txs'>
-                  Integrates with your CRM and billing system.
+                  Integrate with your CRM and billing system. Our modern API makes this as easy and painless as possible.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3'>
@@ -277,7 +273,7 @@ export default class AuddisDirectDebit extends React.Component {
                   Collect in £ and €
                 </div>
                 <p className='u-color-p u-margin-Txs'>
-                  Take payments through Bacs and SEPA Direct Debit in a single integration.
+                  Take payments from over 22 countries in a single integration. Take Bacs Direct Debit and SEPA Direct Debit.
                 </p>
               </div>
             </div>
