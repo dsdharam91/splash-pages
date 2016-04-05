@@ -20,7 +20,7 @@ export default class AuddisDirectDebit extends React.Component {
         <div className='page-hero u-padding-Bxxl'>
           <div className='site-container u-padding-Vxxl u-text-center'>
             <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
-              The Easiest Way To Be An AUDDIS Direct Debit Originator
+              The Easiest Way To Be An AUDDIS<br />Direct Debit Originator
             </h1>
             <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
               Discover an easier &amp; smarter way to collect Direct Debit payments and to be AUDDIS-compliant
@@ -81,10 +81,10 @@ export default class AuddisDirectDebit extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
             <div className='grid__cell u-size-1of2 u-text-center'>
-              <img src='/images/partners/pay-via-mobile-illustration@2x.png' className='partners-page__mobile-image'/>
+              <img src='/images/why-dd/slide-1.png' className='u-padding-Rxxl'/>
             </div>
-            <div className='grid__cell u-size-1of2 u-margin-Tl'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
+            <div className='grid__cell u-size-1of2'>
+              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
                 Get started in only 2 weeks
               </h2>
               <h3 className='u-text-s'>The easy way to access Direct Debit</h3>
@@ -109,8 +109,8 @@ export default class AuddisDirectDebit extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
-            <div className='grid__cell u-size-1of2 u-margin-Tl'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
+            <div className='grid__cell u-size-1of2'>
+              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
                 No more software upgrades
               </h2>
               <h3 className='u-text-s'>Direct Debit for the Digital Age</h3>
@@ -131,7 +131,7 @@ export default class AuddisDirectDebit extends React.Component {
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-text-center'>
-              <img src='/images/products/real-time-reports.jpg' className='basic-page__real-time-reports-image' />
+              <img src='/images/why-dd/slide-3.png' className='u-padding-Lxxl' />
             </div>
           </div>
         </div>
@@ -142,8 +142,8 @@ export default class AuddisDirectDebit extends React.Component {
             <div className='grid__cell u-size-1of2 u-text-center u-padding-Rl'>
               <img src='/images/features/pro-dashboard-timeline.png' />
             </div>
-            <div className='grid__cell u-size-1of2 u-margin-Tl'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
+            <div className='grid__cell u-size-1of2'>
+              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
                 Fewer compliance requirements
               </h2>
               <h3 className='u-text-s'>AUDDIS made easy</h3>
