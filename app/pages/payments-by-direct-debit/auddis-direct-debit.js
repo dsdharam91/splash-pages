@@ -63,7 +63,7 @@ export default class AuddisDirectDebit extends React.Component {
                   Fewer compliance requirements
                 </h3>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  There’s no need to hire a consultant to stay on top of your AUDDIS requirements. 
+                  There’s no need to hire a consultant to stay on top of your AUDDIS requirements.
                   Our modern API does all of the hard work for you.
                 </p>
               </div>
