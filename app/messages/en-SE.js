@@ -43,4 +43,11 @@ export default {
     nav_title: 'Bg Autogiro guide',
     path: '/guides/bg-autogiro/',
   },
+  features: {
+    nav_title: 'GoCardless',
+  },
+  pro: {
+    nav_title: 'GoCardless Pro',
+    explainer: 'Total control over Autogiro',
+  },
 };
