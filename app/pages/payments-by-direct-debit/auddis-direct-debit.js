@@ -39,7 +39,7 @@ export default class AuddisDirectDebit extends React.Component {
                   Get started in only 2 weeks
                 </h3>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  With GoCardless, there’s no need to go through the extensive approval process or to lodge a bond at your sponsor bank.
+                  There’s no need to go through an extensive approval process or to lodge a bond at your sponsor bank for AUDDIS Direct Debit.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
