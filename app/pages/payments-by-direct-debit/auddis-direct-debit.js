@@ -39,8 +39,7 @@ export default class AuddisDirectDebit extends React.Component {
                   Get started in only 2 weeks
                 </h3>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  With GoCardless, there’s no need to go through the extensive approval process or lodge a bond at your sponsor bank.
-                  Be AUDDIS-compliant in as little as two weeks.
+                  With GoCardless, there’s no need to go through the extensive approval process or to lodge a bond at your sponsor bank.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -52,8 +51,7 @@ export default class AuddisDirectDebit extends React.Component {
                   No more software upgrades
                 </h3>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  GoCardless works in the cloud, and automatically stays on top of all the AUDDIS requirements. Say goodbye to expensive
-                  software upgrades and maintenance contracts.
+                  GoCardless automatically stays on top of all AUDDIS requirements. Say goodbye to expensive software maintenance contracts.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -65,8 +63,8 @@ export default class AuddisDirectDebit extends React.Component {
                   Fewer compliance requirements
                 </h3>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  With GoCardless, there’s no need to hire a consultant to stay on top of your AUDDIS requirements. Integrate with
-                  our modern API and we’ll do all of the hard work for you.
+                  There’s no need to hire a consultant to stay on top of your AUDDIS requirements. 
+                  Our modern API does all of the hard work for you.
                 </p>
               </div>
             </div>
