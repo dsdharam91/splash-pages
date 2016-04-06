@@ -368,9 +368,13 @@ export default {
     title: 'Payments By Direct Debit',
     description: 'Direct Debit is cheaper & more reliable than the card networks. It\'s also more flexible than a standing order. Find out how you can take payments using Direct Debit.',
   },
+  auddis_direct_debit: {
+    title: 'The easy way to be an AUDDIS Direct Debit Originator',
+    description: '',
+  },
   easier_direct_debit: {
     title: 'An easier way to take Direct Debit',
-    description: '',
+    description: 'GoCardless is an easier and smarter way to collect Direct Debit payments and to be AUDDIS-compliant.',
   },
   accountants: {
     title: 'GoCardless transforms cashflow for accountants',
