@@ -132,7 +132,7 @@ export default class LocalAuthorities extends React.Component {
               <h3 className='u-text-s'>Automatic billing</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
                 Automatic validation of bank details and submission of mandates and payments, with clear reporting for simple
-                reconciliation. 
+                reconciliation.
               </p>
               <h3 className='u-text-s'>Consolidate your payment processing</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
