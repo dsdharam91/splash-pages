@@ -13,6 +13,7 @@ import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/p
 import AuddisDirectDebit from '../pages/payments-by-direct-debit/auddis-direct-debit';
 import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-debit';
 import Accountants from '../pages/payments-by-direct-debit/accountants';
+import Agencies from '../pages/payments-by-direct-debit/agencies';
 import Telcos from '../pages/payments-by-direct-debit/telcos';
 import Utilities from '../pages/payments-by-direct-debit/utilities';
 
@@ -320,6 +321,12 @@ export const config = Immutable.fromJS([
   [Accountants, { name: 'accountants' }, {
       'en-GB': {
         path: '/accountants',
+      },
+    },
+  ],
+  [Agencies, { name: 'agencies' }, {
+      'en-GB': {
+        path: '/agencies',
       },
     },
   ],

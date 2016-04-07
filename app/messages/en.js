@@ -380,6 +380,10 @@ export default {
     title: 'GoCardless transforms cashflow for accountants',
     description: '',
   },
+  agencies: {
+    title: 'Direct Debit for Digital Agencies',
+    description: '',
+  },
   telcos: {
     title: 'Direct Debit for Telecommunication Companies',
     description: '',
