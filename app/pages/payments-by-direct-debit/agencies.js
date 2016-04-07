@@ -75,11 +75,10 @@ export default class Agencies extends React.Component {
         </div>
 
         <div className='u-padding-Txxl'>
-          <StoryBigQuote heroClass='story-hero--bluesky' image='/images/testimonials/bluesky__avatar.png'
-            person='Claire Love' position='LWS Marketing'>
+          <StoryBigQuote heroClass='story-hero--bluesky' person='Claire Love' position='LWS Marketing'>
             In just 4 months we moved 50% of our recurring payments to Direct Debit after we discovered GoCardless. This has had the
             biggest impact on the company I’ve seen in 8 years – boosting cash flow, morale and ease of admin. Average debtor days
-            have reduced from 122 days to just 7 days. 
+            have reduced from 122 days to just 7 days.
           </StoryBigQuote>
         </div>
 
