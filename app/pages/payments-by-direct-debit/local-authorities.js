@@ -9,8 +9,8 @@ import AddPartnerIcon from '../../icons/svg/add-partner';
 import WhiteLabelIcon from '../../icons/svg/white-label';
 import CustomerIcon from '../../icons/svg/customer';
 
-export default class Government extends React.Component {
-  displayName = 'Government'
+export default class LocalAuthorities extends React.Component {
+  displayName = 'LocalAuthorities'
 
   render() {
     return (
@@ -93,7 +93,7 @@ export default class Government extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
             <div className='grid__cell u-size-1of2 u-text-center'>
-              <img src='/images/partners/pay-via-mobile-illustration@2x.png' className='partners-page__mobile-image'/>
+              <img src='/images/local-authorities/pay-via-mobile-illustration@2x.png' className='partners-page__mobile-image'/>
             </div>
             <div className='grid__cell u-size-1of2'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
@@ -101,7 +101,7 @@ export default class Government extends React.Component {
               </h2>
               <h3 className='u-text-s'>Improve Direct Debit usage</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Increase customers using Direct Debit for council tax and business rates with an online and mobile-friendly
+                Increase the number of customers using Direct Debit for council tax and business rates with an online and mobile-friendly
                 payment experience.
               </p>
               <h3 className='u-text-s'>Increase renewal rates</h3>
@@ -110,7 +110,8 @@ export default class Government extends React.Component {
               </p>
               <h3 className='u-text-s'>Offer flexible payments</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Support vulnerable customers allowing them to pay on the date, frequency and number of instalments that suits them.
+                Support the most vulnerable users of council services by allowing them to pay on the date, frequency and number of
+                instalments that suits them.
               </p>
             </div>
           </div>
@@ -125,15 +126,18 @@ export default class Government extends React.Component {
               </h2>
               <h3 className='u-text-s'>Online self-service</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Transform your self-serve options with a simple online set up - no paperwork required.
+                Transform your self-serve options by offering customers a simple way to set-up Direct Debit online, with no
+                paperwork required.
               </p>
               <h3 className='u-text-s'>Automatic billing</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Automatic validation and submission of mandates and payments with clear reporting for simple reconciliation. 
+                Automatic validation of bank details and submission of mandates and payments, with clear reporting for simple
+                reconciliation. 
               </p>
               <h3 className='u-text-s'>Consolidate your payment processing</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Enable your customers to pay for multiple services using one mandate with a single Service User Number.
+                Allow customers to pay for multiple council services by signing just one Direct Debit mandate. Your payments are processed
+                through a single dedicated SUN (Bacs Service User Number).
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-text-center'>
@@ -146,7 +150,7 @@ export default class Government extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
             <div className='grid__cell u-size-1of2 u-text-center u-padding-Rl'>
-              <img src='/images/features/pro-dashboard-timeline.png' />
+              <img src='/images/features/pro-dashboard-overview.png' />
             </div>
             <div className='grid__cell u-size-1of2'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
@@ -184,7 +188,7 @@ export default class Government extends React.Component {
                   Automatic notifications
                 </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  Get real-time alerts on failed or cancelled payments.
+                  Receive real-time alerts on failed payments and cancelled mandates so you can take action immediately.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -196,7 +200,7 @@ export default class Government extends React.Component {
                   Completely white-labelled
                 </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  You'll have complete control over your payment pages and email notifications.</p>
+                  You'll have complete control over your payment pages and your email notifications.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>

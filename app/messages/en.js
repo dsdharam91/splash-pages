@@ -376,8 +376,8 @@ export default {
     title: 'GoCardless transforms cashflow for accountants',
     description: '',
   },
-  government: {
-    title: 'Direct Debit for Government and Local Authorities',
+  local_authorities: {
+    title: 'Direct Debit for Local Government and Local Authorities',
     description: '',
   },
   telcos: {

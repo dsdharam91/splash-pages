@@ -12,7 +12,7 @@ import PaymentsByDirectDebit from '../pages/payments-by-direct-debit/payments-by
 import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/payments-by-direct-debit-variation-b';
 import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-debit';
 import Accountants from '../pages/payments-by-direct-debit/accountants';
-import Government from '../pages/payments-by-direct-debit/government';
+import LocalAuthorities from '../pages/payments-by-direct-debit/local-authorities';
 import Telcos from '../pages/payments-by-direct-debit/telcos';
 import Utilities from '../pages/payments-by-direct-debit/utilities';
 
@@ -317,9 +317,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [Government, { name: 'government' }, {
+  [LocalAuthorities, { name: 'local_authorities' }, {
       'en-GB': {
-        path: '/government',
+        path: '/local-authorities',
       },
     },
   ],
