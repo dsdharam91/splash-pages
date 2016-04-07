@@ -8,8 +8,8 @@ import Link from '../../components/link/link';
 import Href from '../../components/href/href';
 import StoryBigQuote from '../stories/story-big-quote';
 
-export default class Accountants extends React.Component {
-  displayName = 'Accountants'
+export default class Agencies extends React.Component {
+  displayName = 'Agencies'
 
   render() {
     return (
@@ -17,10 +17,10 @@ export default class Accountants extends React.Component {
         <div className='page-hero u-padding-Bxxl'>
           <div className='site-container u-padding-Vxxl u-text-center'>
             <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
-              GoCardless transforms cashflow for accountants
+              GoCardless transforms cashflow for agencies
             </h1>
             <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
-              Over a thousand accountants use GoCardless to reduce late payments and admin overhead.
+              Over a thousand agencies use GoCardless to reduce late payments and admin overhead.
             </p>
           </div>
         </div>
@@ -36,8 +36,8 @@ export default class Accountants extends React.Component {
                   Your invoices, paid automatically
                 </h3>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  GoCardless puts you in control and helps you to improve business cash flow. Take payments automatically on invoices
-                  when they’re due.
+                  GoCardless puts you in control and helps you to improve business cash flow. Take payments automatically on invoices when
+                  they’re due.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -49,8 +49,8 @@ export default class Accountants extends React.Component {
                   Reduced admin time
                 </h3>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Spend less time chasing late invoices and more time advising your clients. Automatically reconcile invoices with
-                  Direct Debit payments.
+                  Spend less time chasing late invoices and more time working with clients. Automatically reconcile invoices
+                  with Direct Debit payments.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -75,11 +75,10 @@ export default class Accountants extends React.Component {
         </div>
 
         <div className='u-padding-Txxl'>
-          <StoryBigQuote heroClass='story-hero--bluesky' image='/images/testimonials/bluesky__avatar.png'
-            person='Emma Mills' position='Bluesky Business' readfullStoryLink='stories_bluesky_business'>
-            Our cashflow and business have been transformed since we started using GoCardless.
-            Within a month our average debtor days had halved and 70% of our customers were paying on time.
-            We’re wasting less time chasing payments, and can really focus on growing our business
+          <StoryBigQuote heroClass='story-hero--bluesky' person='Claire Love' position='LWS Marketing'>
+            In just 4 months we moved 50% of our recurring payments to Direct Debit after we discovered GoCardless. This has had the
+            biggest impact on the company I’ve seen in 8 years – boosting cash flow, morale and ease of admin. Average debtor days
+            have reduced from 122 days to just 7 days.
           </StoryBigQuote>
         </div>
 
@@ -115,7 +114,7 @@ export default class Accountants extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
-              Our accountancy software integrations include
+              GoCardless is already integrated with your accounting software
             </h2>
             <div className='u-margin-Tm u-padding-Tl u-size-5of6 u-center'>
               <img src='/images/accountants/accounting-group@2x.png' alt='Xero, Directli, Sage, Kashflow, IRIS and FreeAgent' />
