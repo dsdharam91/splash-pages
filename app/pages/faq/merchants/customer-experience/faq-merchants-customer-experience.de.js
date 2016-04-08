@@ -38,16 +38,6 @@ export default class FaqMerchantsCustomerExperienceDe extends React.Component {
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Können Informationen auf den Zahlungsseiten automatisch ausgefüllt werden?
-        </h3>
-        <p className='para'>
-          Ja, am allereinfachsten geht das, indem Sie uns die Informationen Ihrer Kunden, wie z.B. Name oder Email,
-          über die API zur Verfügung stellen. So können wir das Formular schon beim Laden mit den relevanten
-          Kundendaten befüllen. Die einzigen Informationen, die wir nicht automatisch ausfüllen können, sind die Bankdetails
-          Ihrer Kunden, wie z.B. die IBAN.
-        </p>
-
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Können Kunden auch mobil mit ihrem Handy zahlen?
         </h3>
         <p className='para'>
