@@ -38,13 +38,6 @@ export default class FaqMerchantsCustomerExperienceFr extends React.Component {
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Est-il possible de pré-remplir les champs de paiements?
-        </h3>
-        <p className='para'>
-          Vous pouvez pré-remplir tous les champs de paiements via l'API, excepté l’IBAN qui doit être fourni par l’utilisateur.
-        </p>
-
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Mes clients peuvent-ils payer par mobile?
         </h3>
         <p className='para'>
