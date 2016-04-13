@@ -219,7 +219,7 @@ export default class PartnersFr extends React.Component {
           <div className='site-container u-padding-Txl'>
             <div className='grid__cell u-size-1of2 partners-page__billing-text'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bl'>
-                Facturation
+                Economie de l'abonnement
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Bl'>
                 Zuora a choisi GoCardless comme prestataire préféré de prélèvements bancaires, permettant à leurs clients de prendre

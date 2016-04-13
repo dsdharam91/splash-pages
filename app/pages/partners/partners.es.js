@@ -214,7 +214,7 @@ export default class PartnersEs extends React.Component {
           <div className='site-container u-padding-Txl'>
             <div className='grid__cell u-size-1of2 partners-page__billing-text'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bl'>
-                Facturación y Contabilidad
+                Contabilidad
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Bl'>
                 Con la integración de GoCardless y Debitoor, los clientes de Debitoor podrán cobrar de forma segura
