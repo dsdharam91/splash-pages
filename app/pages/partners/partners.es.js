@@ -217,13 +217,12 @@ export default class PartnersEs extends React.Component {
                 Contabilidad
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Bl'>
-                Con la integración de GoCardless y Debitoor, los clientes de Debitoor podrán cobrar de forma segura
-                y sencilla por Domiciliación Bancaria. Toda la información relevante estará disponible en el panel de
+                Con GoCardless y Debitoor, los usuarios podrán cobrar de forma segura
+                y sencilla por Domiciliación Bancaria y verán toda la información en el panel de
                 control de Debitoor en tiempo real.
               </p>
               <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
-                "Con GoCardless, solucionamos dos problemas de nuestros clientes - poder cobrar rápidamente y de forma
-                segura y ser capaz de ver y reconciliar estas transacciones en su contabilidad."
+                "Con GoCardless, solucionamos dos problemas de nuestros clientes - poder cobrar rápidamente y ser capaz de ver y reconciliar estas transacciones en su contabilidad."
               </p>
               <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Pilar Martin, Director de España</p>
               <img src='/images/partners/debitoor-logo@2x.png' className='partners-page__partner-logo' />
