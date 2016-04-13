@@ -406,6 +406,10 @@ export default {
     title: 'PicDrop',
     description: '',
   },
+  stories_crossfit_oldenburg: {
+    title: 'CrossFit Oldenburg',
+    description: '',
+  },
   legal: {
     title: 'Rechtliche Hinweise',
     nav_title: 'Impressum',

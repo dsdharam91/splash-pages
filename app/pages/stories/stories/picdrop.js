@@ -17,14 +17,14 @@ export default class StoriesPicDrop extends React.Component {
             'Dank der Transparenz durch GoCardless kann PicDrop einen viel besseren Kundenservice anbieten',
         ]}
         bgimg='crowdcube-logo stories-item__logo--crowdcube'>
-        <StoryQuote tag='Vorher gab es viele Rückläufer, und immer mehr Kosten als gedacht.'>
+        <StoryQuote tag='Vorher gab es viele Rückläufer, und dadurch unerwartete zusätzliche Kosten im dreistelligen Bereich.'>
           <p className='para u-margin-Tn'><a href='https://www.picdrop.de/' className='u-link-color-p u-text-underline' target='_blank'>
           PicDrop</a> ist eines der führenden Tools zur Bildübertragung. Gegründet in 2012 in Berlin, wird es heute von mehr als 12,000
           Fotografen genutzt, um einfach und sicher Bilder mit Kunden zu teilen.</p>
-          <p className='para'>PicDrops Gründer, Andreas Chudowski und Tobias Friese, arbeiten täglich daran, ihr Produkt weiter zu verbessern.
+          <p className='para'>PicDrops Gründer, Andreas Chudowski und Tobias Friese, arbeiten stets daran, ihr Produkt weiter zu verbessern.
           Dabei war der tägliche Kampf mit ihren Lastschriften vor der Einbindung von GoCardless eine unwillkommene Ablenkung. Andreas musste
           die Zahlungen jeden Tag bei ihrer Bank bestätigen, und Tobias hatte regelmäßig mit dem Aufspüren geplatzter Lastschriften
-          zu kämfen.</p>
+          zu kämpfen.</p>
           <p className='para'>Insbesondere die hohen Gebühren bei Rücklastschriften haben sie und ihre Kunden verzweifeln lassen,
           und regelmäßig zu vollständigen Zahlungsausfällen geführt.</p>
         </StoryQuote>
