@@ -384,6 +384,10 @@ export default {
     title: 'Direct Debit for Digital Agencies',
     description: '',
   },
+  local_authorities: {
+    title: 'Direct Debit for Local Government and Local Authorities',
+    description: '',
+  },
   telcos: {
     title: 'Direct Debit for Telecommunication Companies',
     description: '',
@@ -579,14 +583,13 @@ export default {
     description: '',
   },
   jobs_corporate_account_executive: {
-  title: 'Account Executive, Corporate Sales: UK',
-  description: '',
+    title: 'Account Executive, Corporate Sales: UK',
+    description: '',
   },
   jobs_spanish_sales_development_representative: {
-  title: 'SDR: Spain',
-  description: '',
+    title: 'SDR: Spain',
+    description: '',
   },
-
   pro_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
