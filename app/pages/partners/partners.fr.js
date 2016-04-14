@@ -177,7 +177,7 @@ export default class PartnersFr extends React.Component {
                     "Avec GoCardless, nous résolvons deux problèmes pour nos utilisateurs - être payé rapidement de
                     façon sécurisé, et pouvoir réconcilier ces transactions dans leur système comptable.“
                   </p>
-                  <p className='u-text-xs u-margin-Bs u-color-dark-gray'>Pilar Martin, Directeur France</p>
+                  <p className='u-text-xs u-margin-Bs u-color-dark-gray'>Pilar Martín, directrice regionale de Debitoor France</p>
                   <img src='/images/partners/debitoor-logo@2x.png' className='partners-page__partner-logo' />
                 </div>
               </div>
