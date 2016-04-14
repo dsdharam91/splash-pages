@@ -84,7 +84,7 @@ export default class LocalAuthorities extends React.Component {
               </div>
             </div>
             <div className='u-text-center u-padding-Vs u-center u-margin-Tl'>
-              <img src='/images/logos/pro-logos@2x.png' className='u-size-2of3' />
+              <img src='/images/local-authorities/local-authority-logos@2x.png' className='u-size-2of3' />
             </div>
           </div>
         </div>
