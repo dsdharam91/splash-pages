@@ -175,7 +175,7 @@ export default class PartnersEs extends React.Component {
 
                 </p>
                 <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
-                  “GoCardless es un servicio importante para nuestros usuarios ya que les 
+                  “GoCardless es un servicio importante para nuestros usuarios ya que les
                   permite total control en el cobro de las facturas. Además es un integrando
                   GoCardless automatizamos y aumentamos la eficiencia de nuestro servicio
                   sobre la gestión integral de todo el proceso de la facturación, desde su
