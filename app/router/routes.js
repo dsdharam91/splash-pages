@@ -14,6 +14,7 @@ import AuddisDirectDebit from '../pages/payments-by-direct-debit/auddis-direct-d
 import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-debit';
 import Accountants from '../pages/payments-by-direct-debit/accountants';
 import Agencies from '../pages/payments-by-direct-debit/agencies';
+import LocalAuthorities from '../pages/payments-by-direct-debit/local-authorities';
 import Telcos from '../pages/payments-by-direct-debit/telcos';
 import Utilities from '../pages/payments-by-direct-debit/utilities';
 
@@ -328,6 +329,12 @@ export const config = Immutable.fromJS([
   [Agencies, { name: 'agencies' }, {
       'en-GB': {
         path: '/agencies',
+      },
+    },
+  ],
+  [LocalAuthorities, { name: 'local_authorities' }, {
+      'en-GB': {
+        path: '/local-authorities',
       },
     },
   ],
