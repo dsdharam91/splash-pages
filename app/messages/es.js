@@ -49,9 +49,9 @@ export default {
       email_placeholder: 'ejemplo@nombrecompañia.es',
       phone_label: 'Teléfono del trabajo',
       phone_placeholder: '650786543',
-      number_of_payments_label: 'How many payments could we have helped you collect last month?',
-      number_of_payments_placeholder: 'Select number of payments taken last month',
-      specific_needs_label: 'What are your business\'s specific needs?',
+      number_of_payments_label: '¿Cuántas transacciones podrías haber hecho a través de nosotros el mes pasado?',
+      number_of_payments_placeholder: 'Selecciona el número de cobros que hiciste el mes pasado',
+      specific_needs_label: '¿Hay alguna necesidad concreta en la que quieres que te ayudemos?',
       submit: 'Contacta',
       success_messages: {
         '0-100': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
