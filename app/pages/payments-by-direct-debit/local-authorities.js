@@ -58,7 +58,7 @@ export default class LocalAuthorities extends React.Component {
                   <AddPartnerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Simple set-up
+                  Simple set up
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
                   Our modern API makes it quick and simple to set up and transfer your existing mandates.
@@ -96,7 +96,7 @@ export default class LocalAuthorities extends React.Component {
               <img src='/images/local-authorities/pay-via-mobile-illustration@2x.png' className='partners-page__mobile-image'/>
             </div>
             <div className='grid__cell u-size-1of2'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
+              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Txl'>
                 Increase revenue
               </h2>
               <h3 className='u-text-s'>Improve Direct Debit usage</h3>
@@ -126,7 +126,7 @@ export default class LocalAuthorities extends React.Component {
               </h2>
               <h3 className='u-text-s'>Online self-service</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Transform your self-serve options by offering customers a simple way to set-up Direct Debit online, with no
+                Transform your self-serve options by offering customers a simple way to set up Direct Debit online, with no
                 paperwork required.
               </p>
               <h3 className='u-text-s'>Automatic billing</h3>
