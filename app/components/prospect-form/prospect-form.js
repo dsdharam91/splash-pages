@@ -159,7 +159,7 @@ export default class ProspectForm extends React.Component {
             <input className='input input--stacked' id='prospect_phone_number' name='prospect[phone_number]'
               placeholder={getMessage(messages, 'prospect_form.sales.phone_placeholder')} required type='text' />
 
-            <Translation locales={['en-GB', 'fr-FR']}>
+            <Translation locales={['en', 'fr', 'es']}>
               {
                 this.props.showNumberOfPayments &&
                   <div>
@@ -180,11 +180,11 @@ export default class ProspectForm extends React.Component {
                   </div>
               }
 
-                  <label className='label label--stacked' htmlFor='prospect_metadata_message'>
-                    <Message pointer='prospect_form.sales.specific_needs_label' />
-                  </label>
-                  <textarea className='input input--stacked input--textarea'
-                            id='prospect_metadata_message' name='prospect[metadata][message]' rows='3' />
+              <label className='label label--stacked' htmlFor='prospect_metadata_message'>
+                <Message pointer='prospect_form.sales.specific_needs_label' />
+              </label>
+              <textarea className='input input--stacked input--textarea'
+                id='prospect_metadata_message' name='prospect[metadata][message]' rows='3' />
             </Translation>
 
             <button type='submit' className='btn btn--block u-margin-Tl contact-sales'>
