@@ -79,7 +79,7 @@ export default class LocalAuthorities extends React.Component {
                 <i role='img' className='funding-circle-logo stories-item__logo--funding-circle'></i>
                 <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
                   "GoCardless is one of the best payments companies we've worked with. I'd highly recommend them to any company
-                  that cares about a providing good user experience and using the best available technology."
+                  that cares about providing a good user experience and using the best available technology."
                 </p>
               </div>
             </div>
