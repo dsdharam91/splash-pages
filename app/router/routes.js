@@ -13,6 +13,7 @@ import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/p
 import AuddisDirectDebit from '../pages/payments-by-direct-debit/auddis-direct-debit';
 import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-debit';
 import Accountants from '../pages/payments-by-direct-debit/accountants';
+import Agencies from '../pages/payments-by-direct-debit/agencies';
 import LocalAuthorities from '../pages/payments-by-direct-debit/local-authorities';
 import Telcos from '../pages/payments-by-direct-debit/telcos';
 import Utilities from '../pages/payments-by-direct-debit/utilities';
@@ -40,6 +41,7 @@ import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 import CommunicationsDesigner from '../pages/about/jobs/positions/communications-designer.js';
 import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
+import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import CustomerSuccessManager from '../pages/about/jobs/positions/customer-success-manager.js';
 import CorporateAccountExecutive from '../pages/about/jobs/positions/corporate-account-executive.js';
 import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
@@ -324,10 +326,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [Agencies, { name: 'agencies' }, {
+      'en-GB': {
+        path: '/agencies',
+      },
+    },
+  ],
   [LocalAuthorities, { name: 'local_authorities' }, {
       'en-GB': {
         path: '/local-authorities',
-      },
     },
   ],
   [Telcos, { name: 'telcos' }, {
@@ -507,6 +514,12 @@ export const config = Immutable.fromJS([
   [AccountsAssistant, { name: 'jobs_accounts_assistant', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/accounts-assistant',
+      },
+    },
+  ],
+  [CustomerSupport, { name: 'jobs_customer_support', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/customer-support',
       },
     },
   ],

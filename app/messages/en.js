@@ -380,6 +380,10 @@ export default {
     title: 'GoCardless transforms cashflow for accountants',
     description: '',
   },
+  agencies: {
+    title: 'Direct Debit for Digital Agencies',
+    description: '',
+  },
   local_authorities: {
     title: 'Direct Debit for Local Government and Local Authorities',
     description: '',
@@ -568,6 +572,10 @@ export default {
   },
   jobs_accounts_assistant: {
     title: 'Accounts Assistant',
+    description: '',
+  },
+  jobs_customer_support: {
+    title: 'Customer Support',
     description: '',
   },
   jobs_customer_success_manager: {

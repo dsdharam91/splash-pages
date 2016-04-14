@@ -14,9 +14,7 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
           </h3>
           <p className='para'>
             No - due to strict rules around Direct Debit, customers must fill in their payment details
-            and go through the signup process themselves. However, we can prepopulate some of their details
-            for them to make signup as easy as possible. See *Can information on the sign-up and payment
-            pages be pre-populated?* below for further details.
+            and go through the signup process themselves.
           </p>
 
           <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -70,22 +68,7 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
           initial authorisation of the Direct Debit.
         </p>
         <p className='para'>
-          To make this as easy as possible for your clients, you can pass their personal information to us
-          via the API to prepopulate the form.
-        </p>
-        <p className='para'>
           Once authorisation is in place payment can be requested via the API.
-        </p>
-
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Can information on the sign-up and payment pages be pre-populated?
-        </h3>
-        <p className='para'>
-          Yes - to make this as easy as possible for your clients, you can pass their personal information to
-          us via the API to prepopulate the forms.
-        </p>
-        <p className='para'>
-          The only information we cannot pre-populate are their bank details.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>

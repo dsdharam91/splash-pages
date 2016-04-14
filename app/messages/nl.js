@@ -84,7 +84,7 @@ export default {
   guides: {
     title: 'Handleidingen',
     nav_title: 'Handleiding',
-    path: 'https://gocardless.com/guides/sepa',
+    path: 'https://gocardless.com/nl/handleidingen/sepa/',
   },
   signin: {
     path: 'https://manage.gocardless.com',
