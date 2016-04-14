@@ -335,6 +335,7 @@ export const config = Immutable.fromJS([
   [LocalAuthorities, { name: 'local_authorities' }, {
       'en-GB': {
         path: '/local-authorities',
+      },
     },
   ],
   [Telcos, { name: 'telcos' }, {
