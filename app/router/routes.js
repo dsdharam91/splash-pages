@@ -42,6 +42,7 @@ import SalesOperationsManager from '../pages/about/jobs/positions/sales-operatio
 import CommunicationsDesigner from '../pages/about/jobs/positions/communications-designer.js';
 import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
+import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
 import CustomerSuccessManager from '../pages/about/jobs/positions/customer-success-manager.js';
 import CorporateAccountExecutive from '../pages/about/jobs/positions/corporate-account-executive.js';
 import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
@@ -530,6 +531,12 @@ export const config = Immutable.fromJS([
       },
       fr: {
         path: '/a-propos/offres/support-client',
+      },
+    },
+  ],
+  [DeveloperSupport, { name: 'jobs_developer_support', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/developer-support',
       },
     },
   ],
