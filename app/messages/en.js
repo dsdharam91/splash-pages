@@ -246,11 +246,6 @@ export default {
     nav_title: 'Payout tracking',
     description: '',
   },
-  features_api: {
-    title: 'GoCardless API: Integrate Direct Debit into your website & app',
-    nav_title: 'API',
-    description: 'With the GoCardless REST API, you can integrate Direct Debit payments into your website or app. Official libraries for Ruby, PHP, Java & more.',
-  },
   security: {
     title: 'Security',
     nav_title: 'Security',
