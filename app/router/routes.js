@@ -100,6 +100,7 @@ import PartnersKashflow from '../pages/partners/kashflow/partners-kashflow';
 import PartnersPitchero from '../pages/partners/pitchero/partners-pitchero';
 import PartnersSage from '../pages/partners/sage/partners-sage';
 import PartnersXero from '../pages/partners/xero/partners-xero';
+import PartnersQuickbooks from '../pages/partners/quickbooks/partners-quickbooks';
 
 import FaqCustomersHowItWorks from '../pages/faq/customers/how-it-works/faq-customers-how-it-works';
 import FaqCustomers from '../pages/faq/customers/overview/faq-customers-overview';
@@ -784,6 +785,12 @@ export const config = Immutable.fromJS([
   [PartnersXero, { name: 'partners_xero' }, {
       'en-GB': {
         path: '/partners/xero',
+      },
+    },
+  ],
+  [PartnersQuickbooks, { name: 'partners_quickbooks' }, {
+      'en-GB': {
+        path: '/partners/quickbooks',
       },
     },
   ],
