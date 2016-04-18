@@ -113,7 +113,8 @@ export default class PartnersQuickbooks extends React.Component {
             </div>
 
             <div className='grid__cell u-size-1of2 u-text-center'>
-              <img src='/images/partners/quickbooks-instruction-1.jpg' />
+              <img className='partners-page__quickbooks-instruction-screenshot'
+              src='/images/partners/quickbooks-instruction-1.jpg' />
             </div>
           </div>
         </div>
@@ -135,7 +136,8 @@ export default class PartnersQuickbooks extends React.Component {
             </div>
 
             <div className='grid__cell u-size-1of2 u-text-center'>
-              <img src='/images/partners/quickbooks-instruction-2.jpg' />
+              <img className='partners-page__quickbooks-instruction-screenshot'
+              src='/images/partners/quickbooks-instruction-2.jpg' />
             </div>
           </div>
         </div>
@@ -157,7 +159,8 @@ export default class PartnersQuickbooks extends React.Component {
             </div>
 
             <div className='grid__cell u-size-1of2 u-text-center'>
-              <img src='/images/partners/quickbooks-instruction-3.jpg' />
+              <img className='partners-page__quickbooks-instruction-screenshot'
+              src='/images/partners/quickbooks-instruction-3.jpg' />
             </div>
           </div>
         </div>
@@ -179,7 +182,8 @@ export default class PartnersQuickbooks extends React.Component {
             </div>
 
             <div className='grid__cell u-size-1of2 u-text-center'>
-              <img src='/images/partners/quickbooks-instruction-4.jpg' />
+              <img className='partners-page__quickbooks-instruction-screenshot'
+              src='/images/partners/quickbooks-instruction-4.jpg' />
             </div>
           </div>
         </div>
