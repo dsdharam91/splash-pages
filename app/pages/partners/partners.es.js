@@ -166,17 +166,23 @@ export default class PartnersEs extends React.Component {
               </h2>
               <div className='grid__cell u-size-1of2 partners-page__accountancy-text'>
                 <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bl'>
-                  Contabilidad
+                  Facturación
                 </h2>
                 <p className='u-text-xs u-color-dark-gray u-margin-Bm'>
-                  KashFlow se integró con GoCardless para permitir a sus usuarios realizar cobros
-                  rápida y fácilmente desde su propia cuenta de KashFlow.
+                  Billin eligió a GoCardless como proveedor de domiciliación bancaria para ofrecer
+                  a sus PYMES y Autónomos mayor control en el cobro de sus facturas y
+                  así poder cobrarlas sin retrasos.
+
                 </p>
                 <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
-                  “Los usuarios de GoCardless se quedan más tiempo y obtenemos más ingresos de sus cuentas.”
+                  “GoCardless es un servicio importante para nuestros usuarios ya que les
+                  permite total control en el cobro de las facturas. Además es un integrando
+                  GoCardless automatizamos y aumentamos la eficiencia de nuestro servicio
+                  sobre la gestión integral de todo el proceso de la facturación, desde su
+                  creación, el envío, el control del estado de la factura y sobre todo el cobro.”
                 </p>
-                <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Duane Jackson, Fundador</p>
-                <img src='/images/partners/kashflow-logo@2x.png' className='partners-page__partner-logo' />
+                <p className='u-text-xs u-margin-Bm u-color-dark-gray'> Diego Goya, CEO y Co-fundador de Billin.net</p>
+                <img src='/images/partners/billin-logo@2x.png' className='partners-page__partner-logo' />
               </div>
               <div className='grid__cell u-size-1of2 partners-page__illustration'>
                 <img src='/images/partners/oauth-illustration@2x.png'
