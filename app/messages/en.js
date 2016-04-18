@@ -578,6 +578,10 @@ export default {
     title: 'Customer Support',
     description: '',
   },
+  jobs_developer_support: {
+    title: 'Developer Support',
+    description: '',
+  },
   jobs_customer_success_manager: {
     title: 'Customer Success Manager',
     description: '',

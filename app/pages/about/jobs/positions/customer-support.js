@@ -60,7 +60,7 @@ export default class CustomerSupport extends React.Component {
             Talking to new users to help them get the most from our product.
           </li>
           <li>
-           Working with our product team to prioritise feature requests.
+            Working with our product team to prioritise feature requests.
           </li>
         </ul>
         <p className='para'>
@@ -79,7 +79,7 @@ export default class CustomerSupport extends React.Component {
           and we know that there is always something we can do to help, however
           long it takes. You’ll know our customers best, and have valuable input
           for everyone across the company - from working with the engineering
-            team to get bugs fixed, to helping our sales team understand what
+          team to get bugs fixed, to helping our sales team understand what
           our current users love.
         </p>
         < p className='para'>
@@ -88,7 +88,7 @@ export default class CustomerSupport extends React.Component {
           proud of. We value learning and feedback, and are devoted to encouraging
           and supporting each other's continual professional growth.
         </p>
-        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The ideal candidate</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <ul className='list u-margin-Tm'>
           <li>
             You love helping people, and you are interested in technology.
@@ -104,7 +104,7 @@ export default class CustomerSupport extends React.Component {
             You thrive in small teams and love collaborating.
           </li>
           <li>
-           You have a flawless command of English.
+            You have a flawless command of English.
           </li>
         </ul>
         <p className='para'>
