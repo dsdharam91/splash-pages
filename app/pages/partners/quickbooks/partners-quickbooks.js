@@ -12,34 +12,37 @@ export default class PartnersQuickbooks extends React.Component {
   render() {
     return (
       <Page isInverted={false}>
-        <div className='page-hero page-hero--pricing page-hero--one-product-pricing u-relative u-size-full'>
-          <div className='site-container page-hero__container'>
-            <div className='grid u-margin-Vxxl u-padding-Vxl'>
-              <div className='grid__cell u-size-1of2 u-margin-Bl'>
-                <h1 className='u-text-heading u-color-primary u-text-xl u-text-light u-margin-Bm'>
-                  GoCardless<br/>
-                  for QuickBooks
-                </h1>
+        <div className='page-hero page-hero--pricing page-hero--one-product-pricing u-size-full'>
+          <div className='u-overflow-hidden u-relative u-size-full'>
+            <div className='site-container page-hero__container'>
+              <div className='grid u-margin-Vxxl u-padding-Vxl'>
+                <div className='grid__cell u-size-1of2 u-margin-Bl'>
+                  <h1 className='u-text-heading u-color-primary u-text-xl u-text-light u-margin-Bm'>
+                    GoCardless<br/>
+                    for QuickBooks
+                  </h1>
 
-                <p className='u-text-heading u-color-dark-gray u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                  Get paid on time and<br/>
-                  reconcile invoices automatically<br/>
-                  with GoCardless for QuickBooks
-                </p>
+                  <p className='u-text-heading u-color-dark-gray u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
+                    Get paid on time and<br/>
+                    reconcile invoices automatically<br/>
+                    with GoCardless for QuickBooks
+                  </p>
 
-                <div className='u-margin-Tl'>
-                  <a href='https://appcenter.intuit.com/gocardless?locale=en-GB'
-                  id='track-cta-pricing' className='btn u-pull-start'>
-                    Get started
-                  </a>
+                  <div className='u-margin-Tl'>
+                    <a href='https://appcenter.intuit.com/gocardless?locale=en-GB'
+                    id='track-cta-pricing' className='btn u-pull-start'>
+                      Get started
+                    </a>
 
-                  <div className='partners-page__button-divider u-pull-start'></div>
-                  <figure className='quickbooks-logo-gray partners-page__quickbooks-logo u-pull-start'/>
+                    <div className='partners-page__button-divider u-pull-start'></div>
+                    <figure className='quickbooks-logo-gray partners-page__quickbooks-logo u-pull-start'/>
+                  </div>
                 </div>
-              </div>
-              <div className='grid__cell u-size-1of2 u-text-center u-relative'>
-                <img className='partners-page__quickbooks-screenshot'
-                src='/images/partners/quickbooks-screenshot@2x.png'/>
+
+                <div className='grid__cell u-size-1of2 u-text-center u-relative'>
+                  <img className='partners-page__quickbooks-screenshot'
+                  src='/images/partners/quickbooks-screenshot@2x.png'/>
+                </div>
               </div>
             </div>
           </div>
