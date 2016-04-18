@@ -15,6 +15,7 @@ var blacklistedPages = [
   '/de/handbuch',
   '/es/guias',
   '/nl/handleidingen',
+  '/sv/guider',
   '/blog',
 ];
 blacklistedPages.forEach(function(pagePath) {
