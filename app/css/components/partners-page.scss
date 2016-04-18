@@ -35,3 +35,22 @@
 .partners-page__quote {
   color: #B1B1B1;
 }
+
+.partners-page__button-divider {
+  width: 0;
+  height: 47px;
+  border-left: 1px solid $gray;
+  margin: 0 $space-large;
+}
+
+.partners-page__quickbooks-logo {
+  margin-top: 5px;
+  margin-left: -5px;
+}
+
+.partners-page__quickbooks-screenshot {
+  position: absolute;
+  left: 0;
+  max-width: 2000px;
+  height: 385px;
+}
