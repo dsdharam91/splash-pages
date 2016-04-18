@@ -40,12 +40,12 @@ export default {
   },
   guides: {
     title: 'Bg Autogiro guide',
-    nav_title: 'Autogiro guide (English)',
+    nav_title: 'Autogiro Guide: English',
     path: '/guides/bg-autogiro/',
   },
   guides_sv: {
     title: 'Bg Autogiro guide (Svenska)',
-    nav_title: 'Autogiro guide (Svenska)',
+    nav_title: 'Autogiro Guide: Svenska',
     path: '/sv/guider/bg-autogiro/',
   },
   features: {
