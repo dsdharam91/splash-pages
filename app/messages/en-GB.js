@@ -7,7 +7,7 @@ export default {
     show_holding_page: false,
   },
   phone_local: '020 7183 8674',
-  documentation_link: 'https://developer.gocardless.com/pro',
+  documentation_link: 'https://developer.gocardless.com/',
   signin: {
     path: '/users/sign_in',
   },

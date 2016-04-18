@@ -14,7 +14,7 @@ export default class FaqMerchantsDeveloperApiFr extends React.Component {
         </h3>
         <p className='para'>
           Notre API REST donne la possibilité aux développeurs de facilement intégrer GoCardless. Apprenez en
-          plus sur notre <a href='https://developer.gocardless.com/pro' className='u-link-color-p u-text-underline'>documentation</a>.
+          plus sur notre <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>documentation</a>.
         </p>
         <p className='para'>
           Vous pouvez intégrer GoCardless pour prendre des paiements via prélèvement bancaire

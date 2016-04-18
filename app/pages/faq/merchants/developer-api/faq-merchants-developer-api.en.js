@@ -175,7 +175,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
         <Translation locales={['en']} exclude={['en-GB']}>
           <p className='para'>
             You can find out more about available webhooks and how to use them in
-            our <a href='https://developer.gocardless.com/pro#webhooks-overview'
+            our <a href='https://developer.gocardless.com/#webhooks-overview'
             className='u-link-color-p u-text-underline'>webhook guide</a>.
           </p>
         </Translation>

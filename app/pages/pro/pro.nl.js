@@ -116,7 +116,7 @@ export default class ProNl extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Alle documentatie voor GoCardless Pro is gratis beschikbaar in onze
-                      <a href='https://developer.gocardless.com/pro' id='track-overview-docs'> API docs</a>.
+                      <a href='https://developer.gocardless.com/' id='track-overview-docs'> API docs</a>.
                       We hebben ons best gedaan om de integratie met jouw systemen zo eenvoudig mogelijk te maken.
                     </p>
                   </div>

@@ -41,7 +41,7 @@ export default {
   phone_local: '+44 20 7183 8674',
   email: 'help@gocardless.com',
   partners_email: 'partnerships@gocardless.com',
-  documentation_link: 'https://developer.gocardless.com/pro',
+  documentation_link: 'https://developer.gocardless.com/',
   prospect_form: {
     sales: {
       name_label: 'Your name',
@@ -599,8 +599,8 @@ export default {
     description: '',
   },
   api_docs: {
-    title: 'Pro API',
-    nav_title: 'Pro API',
+    title: 'API Documentation',
+    nav_title: 'API Documentation',
   },
   blog: {
     title: 'Blog',

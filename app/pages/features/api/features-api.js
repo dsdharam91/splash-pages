@@ -86,7 +86,7 @@ export default class FeaturesAPI extends React.Component {
                 </p>
               </div>
             </div>
-            <a href='https://developer.gocardless.com/pro'
+            <a href='https://developer.gocardless.com/'
             className={
               'u-color-primary u-text-upcase u-text-xxs ' +
               'u-text-heading u-text-semi u-block u-margin-Tm'
@@ -249,7 +249,7 @@ export default class FeaturesAPI extends React.Component {
               <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                 Get started today
               </h2>
-              <a href='https://developer.gocardless.com/pro' target='_blank' className='btn btn--hollow u-margin-Tm'>
+              <a href='https://developer.gocardless.com/' target='_blank' className='btn btn--hollow u-margin-Tm'>
                 Read our API documentation
               </a>
               <hr className='u-margin-Vxl horizontal-rule u-size-3of4 u-center' />

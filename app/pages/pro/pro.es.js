@@ -103,7 +103,7 @@ export default class ProEs extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Toda la documentación de Pro está disponible gratuitamente en
-                      nuestra <a href='https://developer.gocardless.com/pro' id='track-overview-docs'>documentación de la API</a>.
+                      nuestra <a href='https://developer.gocardless.com/' id='track-overview-docs'>documentación de la API</a>.
                       Hemos trabajado muy duro para que la integración de tu empresa sea tan sencilla como sea posible.
                     </p>
                   </div>

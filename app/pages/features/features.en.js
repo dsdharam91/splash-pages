@@ -288,7 +288,7 @@ export default class FeaturesEn extends React.Component {
                   <p className='u-color-dark-gray u-padding-Vm'>
                     Want to use GoCardless to power payments on your site? Take a look at our REST API in the comprehensive docs.
                   </p>
-                  <a href='https://developer.gocardless.com/pro' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                  <a href='https://developer.gocardless.com/' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                     Learn more
                   </a>
                 </div>

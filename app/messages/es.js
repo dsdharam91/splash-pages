@@ -40,7 +40,7 @@ export default {
     address_country_iso: 'GB',
   },
   partners_email: 'partnerships@gocardless.com',
-  documentation_link: 'https://developer.gocardless.com/pro',
+  documentation_link: 'https://developer.gocardless.com/',
   prospect_form: {
     sales: {
       name_label: 'Nombre',
