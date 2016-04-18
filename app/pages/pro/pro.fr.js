@@ -51,7 +51,7 @@ export default class ProFr extends React.Component {
               }>
               Contactez-nous
             </Link>
-            <a href='https://developer.gocardless.com/pro/' className='u-pull-end u-margin-Txxs u-margin-Rm'>
+            <a href='https://developer.gocardless.com/' className='u-pull-end u-margin-Txxs u-margin-Rm'>
               Documentation API
             </a>
           </div>

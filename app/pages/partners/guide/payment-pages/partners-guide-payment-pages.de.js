@@ -53,7 +53,7 @@ export default class PartnersGuidePaymentPagesDe extends React.Component {
 
         <p>
           Beachten Sie jedoch, dass diese die BACS- und SEPA-Vorgaben
-          erfüllen. <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>Hier </a>
+          erfüllen. <a href='https://developer.gocardless.com/#appendix-compliance-requirements' target='_blank'>Hier </a>
           finden Sie nähere Informationen zur Erfüllung der Vorgaben.
         </p>
 

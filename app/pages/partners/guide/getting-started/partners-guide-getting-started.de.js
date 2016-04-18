@@ -14,11 +14,11 @@ export default class PartnersGuideGettingStartedDe extends React.Component {
 
         <p>
           Wenn Sie sich für die App-Integration oder die White-Label-Integration entschieden haben, sollten Sie sich
-          unsere <a href='https://developer.gocardless.com/pro/#overview' target='_blank'>API-Dokumentation</a> sorgfältig
+          unsere <a href='https://developer.gocardless.com/#overview' target='_blank'>API-Dokumentation</a> sorgfältig
           durchlesen. Darin finden Sie spezielle Abschnitte
-          zur <a href='https://developer.gocardless.com/pro/#guides-oauth' target='_blank'>App-Integration</a> (Nutzung von
+          zur <a href='https://developer.gocardless.com/#guides-oauth' target='_blank'>App-Integration</a> (Nutzung von
           OAuth) sowie spezielle Abschnitte zur <a
-          href='https://developer.gocardless.com/pro/#whitelabel-partner-endpoints' target='_blank'>White-Label-Integration</a>.
+          href='https://developer.gocardless.com/#whitelabel-partner-endpoints' target='_blank'>White-Label-Integration</a>.
         </p>
 
         <p>

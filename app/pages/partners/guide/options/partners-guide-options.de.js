@@ -321,11 +321,11 @@ export default class PartnersGuideOptionsDe extends React.Component {
             </td>
 
             <td>
-              <a href='https://developer.gocardless.com/pro/#guides-oauth' target='_blank'>Ansehen</a>
+              <a href='https://developer.gocardless.com/#guides-oauth' target='_blank'>Ansehen</a>
             </td>
 
             <td>
-              <a href='https://developer.gocardless.com/pro/#whitelabel-partner-endpoints' target='_blank'>Ansehen</a>
+              <a href='https://developer.gocardless.com/#whitelabel-partner-endpoints' target='_blank'>Ansehen</a>
             </td>
           </tr>
 

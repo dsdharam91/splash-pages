@@ -60,7 +60,7 @@ export default class PartnersGuideChargebacksDe extends React.Component {
           Ja - Händler können entweder volle oder Teilbeträge über GoCardless zurückerstatten. Wir erstatten die entsprechenden Beträge
           sofort per Banküberweisung an Kunden zurück und ziehen diese von den nächsten Auszahlungen ab. Wir erheben keine Gebühren
           auf Rückerstattungen. Sehen Sie sich unsere
-          API-Dokumentationen dazu <a href='https://developer.gocardless.com/pro/#core-endpoints-refunds' target='_blank'>hier</a> an.
+          API-Dokumentationen dazu <a href='https://developer.gocardless.com/#core-endpoints-refunds' target='_blank'>hier</a> an.
         </p>
 
         <h3>Was passiert, wenn das Kundenkonto zum Zeitpunkt des Lastschrifteinzugs nicht ausreichend gedeckt ist?</h3>
@@ -68,7 +68,7 @@ export default class PartnersGuideChargebacksDe extends React.Component {
         <p>
           In fast allen Fällen schlägt die Lastschrift fehl und GoCardless sendet einen Webhook mit der Beschreibung des Grunds für die
           fehlgeschlagene Lastschrift zurück. Nähere Informationen dazu finden
-          Sie <a href='https://developer.gocardless.com/pro/#webhooks-examples' target='_blank'>hier</a>.
+          Sie <a href='https://developer.gocardless.com/#webhooks-examples' target='_blank'>hier</a>.
         </p>
       </Translation>
     );

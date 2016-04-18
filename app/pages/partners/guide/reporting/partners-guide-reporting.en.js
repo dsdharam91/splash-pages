@@ -15,9 +15,9 @@ export default class PartnersGuideGettingPaidEn extends React.Component {
           Yes - GoCardless provides webhooks to notify of any changes in the status of mandates and payments.
           One extremely useful example is determining when a bill has been paid. Our API has a useful
           guide for reconciling payments with
-          events <a href='https://developer.gocardless.com/pro/#events-reconciling-payouts-with-events' target='_blank'> here</a>.
+          events <a href='https://developer.gocardless.com/#events-reconciling-payouts-with-events' target='_blank'> here</a>.
           You can find out more about available webhooks and how to use them in
-          our <a href='https://developer.gocardless.com/pro/#webhooks-overview' target='_blank'>webhook guide</a>.
+          our <a href='https://developer.gocardless.com/#webhooks-overview' target='_blank'>webhook guide</a>.
         </p>
 
         <h3>Can we pass you a reference to appear on the bank statement or for our reconciliation purposes?</h3>

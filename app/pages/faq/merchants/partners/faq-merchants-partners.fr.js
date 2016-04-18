@@ -48,7 +48,7 @@ export default class FaqMerchantsPartnersFr extends React.Component {
           vos paiements et mandats.
         </p>
         <p className='para'>
-          Vous pouvez en apprendre plus sur nos webhooks dans notre API <a href='https://developer.gocardless.com/pro/#webhooks-overview'
+          Vous pouvez en apprendre plus sur nos webhooks dans notre API <a href='https://developer.gocardless.com/#webhooks-overview'
           className='u-link-color-p u-text-underline'>ici</a>.
         </p>
 

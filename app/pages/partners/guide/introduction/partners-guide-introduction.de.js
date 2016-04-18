@@ -150,7 +150,7 @@ export default class PartnersGuideDe extends React.Component {
 
         <ul>
           <li>
-            <a href='https://developer.gocardless.com/pro/#partner-guide' target='_blank'>API Dokumentation</a>
+            <a href='https://developer.gocardless.com/#partner-guide' target='_blank'>API Dokumentation</a>
           </li>
 
           <li>

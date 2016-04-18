@@ -65,7 +65,7 @@ export default class ProNl extends React.Component {
               }>
                 <Message pointer='cta.pro' />
               </Link>
-              <a href='https://developer.gocardless.com/pro/' id='track-sticky-nav-docs'
+              <a href='https://developer.gocardless.com/' id='track-sticky-nav-docs'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
                 API documentatie
               </a>
