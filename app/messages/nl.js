@@ -72,7 +72,7 @@ export default {
     description: '',
     nav_title: 'Team',
   },
-  pro_docs: {
+  api_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
   },

@@ -279,7 +279,7 @@ export default {
     title: 'Customer Support',
     description: '',
   },
-  pro_docs: {
+  api_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
   },

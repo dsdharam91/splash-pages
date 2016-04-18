@@ -598,7 +598,7 @@ export default {
     title: 'SDR: Spain',
     description: '',
   },
-  pro_docs: {
+  api_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
   },

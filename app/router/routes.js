@@ -4,7 +4,6 @@ import Home from '../pages/home/home';
 import Pricing from '../pages/pricing/pricing';
 import Pro from '../pages/pro/pro';
 import Features from '../pages/features/features';
-import FeaturesApi from '../pages/features/api/features-api';
 import Security from '../pages/security/security';
 import ContactSales from '../pages/contact-sales/contact-sales';
 
@@ -265,12 +264,6 @@ export const config = Immutable.fromJS([
       },
       nl: {
         path: '/kenmerken',
-      },
-    },
-  ],
-  [FeaturesApi, { name: 'features_api' }, {
-      'en-GB': {
-        path: '/features/api',
       },
     },
   ],

@@ -60,7 +60,7 @@ export default {
     learn_more_headline: 'Saiba mais sobre GoCardless',
     learn_more_link: 'Visite o nosso site Europeu',
   },
-  pro_docs: {
+  api_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
   },

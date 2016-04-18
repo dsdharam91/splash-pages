@@ -151,7 +151,7 @@ export default {
     description: '',
     nav_title: 'Equipo',
   },
-  pro_docs: {
+  api_docs: {
     title: 'Pro API',
     nav_title: 'Pro API',
   },

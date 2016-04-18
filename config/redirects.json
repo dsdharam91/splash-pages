@@ -89,6 +89,7 @@
   "/es/guias/index.html": "/es/guias/sepa/",
   "/es/index.html": "/es-es/",
   "/faq/index.html": "/faq/merchants",
+  "/features/api/index.html": "https://developer.gocardless.com/",
   "/features/dashboard/index.html": "/features",
   "/features/integrations/index.html": "/partners",
   "/fr-be/faq/index.html": "/fr-be/faq/commercant",
