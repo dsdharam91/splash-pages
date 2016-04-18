@@ -12,11 +12,12 @@ import PaymentsByDirectDebit from '../pages/payments-by-direct-debit/payments-by
 import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/payments-by-direct-debit-variation-b';
 import AuddisDirectDebit from '../pages/payments-by-direct-debit/auddis-direct-debit';
 import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-debit';
-import Accountants from '../pages/payments-by-direct-debit/accountants';
-import Agencies from '../pages/payments-by-direct-debit/agencies';
-import LocalAuthorities from '../pages/payments-by-direct-debit/local-authorities';
-import Telcos from '../pages/payments-by-direct-debit/telcos';
-import Utilities from '../pages/payments-by-direct-debit/utilities';
+
+import Accountants from '../pages/verticals/accountants';
+import Agencies from '../pages/verticals/agencies';
+import LocalAuthorities from '../pages/verticals/local-authorities';
+import Telcos from '../pages/verticals/telcos';
+import Utilities from '../pages/verticals/utilities';
 
 import Europe from '../pages/europe/europe';
 import ExampleCheckout from '../pages/example-checkout/example-checkout';
