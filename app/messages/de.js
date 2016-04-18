@@ -280,8 +280,8 @@ export default {
     description: '',
   },
   api_docs: {
-    title: 'Pro API',
-    nav_title: 'Pro API',
+    title: 'API-Dokumentation',
+    nav_title: 'API-Dokumentation',
   },
   blog: {
     title: 'Blog',

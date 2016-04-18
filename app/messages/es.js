@@ -152,8 +152,8 @@ export default {
     nav_title: 'Equipo',
   },
   api_docs: {
-    title: 'Pro API',
-    nav_title: 'Pro API',
+    title: 'API',
+    nav_title: 'API',
   },
   signin: {
     path: 'https://manage.gocardless.com',

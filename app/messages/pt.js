@@ -61,8 +61,8 @@ export default {
     learn_more_link: 'Visite o nosso site Europeu',
   },
   api_docs: {
-    title: 'Pro API',
-    nav_title: 'Pro API',
+    title: 'Documentação da API',
+    nav_title: 'API',
   },
   blog: {
     title: 'Blog',
