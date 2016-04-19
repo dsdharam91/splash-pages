@@ -574,20 +574,12 @@ export default {
     title: 'Communications Designer',
     description: '',
   },
-  jobs_accounts_assistant: {
-    title: 'Accounts Assistant',
-    description: '',
-  },
   jobs_customer_support: {
     title: 'Customer Support',
     description: '',
   },
   jobs_developer_support: {
     title: 'Developer Support',
-    description: '',
-  },
-  jobs_customer_success_manager: {
-    title: 'Customer Success Manager',
     description: '',
   },
   jobs_corporate_account_executive: {
