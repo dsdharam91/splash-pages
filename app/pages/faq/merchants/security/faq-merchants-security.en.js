@@ -16,7 +16,7 @@ export default class FaqMerchantsSecurityEn extends React.Component {
         <Translation locales={['en']} exclude={['en-GB']}>
           <p className='para'>
             We are authorised by the Financial Conduct Authority in the United Kingdom to provide payment services as
-            an <a href='http://www.fsa.gov.uk/register/psdFirmBasicDetails.do?sid=315374'
+            an <a href='https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000000NMgMPAA1'
             title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Authorised Payment Institution</a> and
             currently serve more <Message pointer='number_of_merchants' /> businesses.
           </p>
@@ -27,7 +27,7 @@ export default class FaqMerchantsSecurityEn extends React.Component {
         <Translation locales='en-GB'>
           <p className='para'>
             We are authorised by the Financial Conduct Authority to provide payment services as
-            an <a href='http://www.fsa.gov.uk/register/psdFirmBasicDetails.do?sid=315374'
+            an <a href='https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000000NMgMPAA1'
             title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Authorised Payment Institution</a>.
             We serve more businesses than any other Direct Debit provider.
           </p>
