@@ -14,7 +14,7 @@ export default class FaqMerchantsSecurityDe extends React.Component {
           Woher weiß ich, dass mein Geld sicher ist?
         </h3>
         <p className='para'>
-          Wir sind als <a href='http://www.fsa.gov.uk/register/psdFirmBasicDetails.do?sid=315374'
+          Wir sind als <a href='https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000000NMgMPAA1'
           title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Zahlungsdienst</a> von
           der Financial Conduct Authority im Vereinigten Königreich autorisiert.
           Es ist uns erlaubt Zahlungen in der gesamten Europäischen Union

@@ -16,10 +16,9 @@ export default class PartnersGuideSecurityDe extends React.Component {
           GoCardless ist von der Financial Conduct Authority (FCA) im Rahmen der Payment Services Regulations 2009 des Vereinigten
           Königreichs unter der Registrierungsnummer 597190 als Zahlungsdienstleister zugelassen und stellt seinen Service mehr
           Kunden bereit als jeder andere Lastschriftanbieter. Alle eingezogenen Geldbeträge werden sicher auf einem Kundengeldkonto
-          verwahrt und alle Kundengelder sind durch unsere Kreditinstitute abgesichert. Mehr Informationen dazu finden Sie
-          <Link to='faq_merchants_security'> hier</Link>.
-          Sie können <a href='http://www.fsa.gov.uk/register/psdFirmMainSearch.do' target='_blank'>hier</a> nach „GoCardless“ im
-          Verzeichnis der FCA suchen.
+          verwahrt und alle Kundengelder sind durch unsere Kreditinstitute abgesichert. Mehr Informationen dazu
+          finden Sie <Link to='faq_merchants_security'>hier</Link>. Sie
+          können <a href='https://register.fca.org.uk/' target='_blank'>hier</a> nach „GoCardless“ im Verzeichnis der FCA suchen.
         </p>
 
         <h3>Wie schützt GoCardless meine Daten?</h3>

@@ -19,7 +19,7 @@ export default class PartnersGuideSecurityEn extends React.Component {
           in a secure client monies account, and all clients funds are guaranteed by our supporting banks.
           For more information click <Link to='faq_merchants_security'>here</Link>.
           You can also search for “GoCardless” on the FCA
-          registry <a href='http://www.fsa.gov.uk/register/psdFirmMainSearch.do' target='_blank'>here</a>.
+          registry <a href='https://register.fca.org.uk/' target='_blank'>here</a>.
         </p>
 
         <h3>How does GoCardless protect our data?</h3>
