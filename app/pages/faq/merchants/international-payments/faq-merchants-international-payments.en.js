@@ -23,19 +23,10 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
           </h3>
           <p className='para'>
             With GoCardless, any merchant registered in the U.K. or Ireland can collect from the Single Europe Payments
-            Area. You will need to have a Euro account open in the UK or a Eurozone country.
+            Area. You will need to have a Euro-denominated bank account open in the UK or a Eurozone country.
           </p>
           <p className='para'>
             If you take more than 500 payments a month and want to use our Pro solution, you can be registered anywhere in the world.
-          </p>
-        </IfLocale>
-        <IfLocale domesticScheme='sepa'>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-            In which countries is GoCardless available?
-          </h3>
-          <p className='para'>
-            GoCardless is available in the UK, Ireland, France and Belgium. GoCardless Pro is available in all countries respecting
-            anti-money laundering regulations. You need a bank account in the Eurozone or the UK.
           </p>
         </IfLocale>
 
@@ -43,46 +34,51 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
           Where in Europe can I collect from?
         </h3>
         <p className='para'>
-          You can collect from the following countries: Austria, Belgium, Cyprus, Estonia, Finland, France, Germany,
-          Greece, Ireland, Italy, Latvia, Luxembourg, Malta, Monaco, the Netherlands, Portugal, San Marino, Slovakia,
-          Slovenia and Spain.
+          You can collect Direct Debit payments from the following countries: Austria, Belgium, Cyprus, Estonia, Finland, France,
+          Germany, Greece, Ireland, Italy, Latvia, Luxembourg, Malta, Monaco, the Netherlands, Portugal, San Marino, Slovakia,
+          Slovenia, Spain, Sweden and the United Kingdom.
+        </p>
+
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          Which currencies does GoCardless support?
+        </h3>
+        <p className='para'>
+          We support payments in GBP, EUR and SEK.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What is SEPA Direct Debit?
         </h3>
         <p className='para'>
-          SEPA Direct Debit is a new payments scheme which allows you to collect from any bank account in
+          SEPA Direct Debit allows you to collect Euro-denominated payments from a bank account in
           the <a href='https://gocardless.com/guides/sepa/what-is-sepa/' target='_blank'
           className='u-link-color-p u-text-underline'>Single Euro Payments Area (SEPA)</a>.
-        </p>
-        <p className='para'>
-          Read more about it in our guide to <a href='/guides/sepa/introduction/'
-          className='u-link-color-p u-text-underline'>the SEPA Direct Debit scheme</a>.
+          You can read more about it in <a href='/guides/sepa/introduction/'
+          className='u-link-color-p u-text-underline'>our guide to SEPA Direct Debit</a>.
         </p>
 
         { /* Bacs is only an international scheme for SEPA countries */ }
-        <IfLocale domesticScheme='sepa'>
+        <IfLocale domesticScheme={['sepa','bg-autogiro']}>
           <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             What is Bacs Direct Debit?
           </h3>
           <p className='para'>
-            Bacs Direct Debit is the equivalent of SEPA in the United Kingdom and is managed by&nbsp;
-            <a href='http://www.bacs.co.uk/Bacs/Businesses/DirectDebit/Pages/DirectDebit.aspx' target='_blank'
-            className='u-link-color-p u-text-underline'>Bacs</a>.
-          </p>
-          <p className='para'>
-            Read more about it in our guide to <a href='/direct-debit/'
-            className='u-link-color-p u-text-underline'>the Bacs Direct Debit scheme</a>.
+            Bacs Direct Debit is the UK equivalent of SEPA Direct Debit. It allows you to collect GBP-denominated payments from bank
+            accounts in the United Kingdom. You can read more about it in <a href='/direct-debit/'
+            className='u-link-color-p u-text-underline'>our guide to Bacs Direct Debit</a>.
           </p>
         </IfLocale>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Which currencies does GoCardless support?
-        </h3>
-        <p className='para'>
-          We support payments in GBP and EUR.
-        </p>
+        <IfLocale domesticScheme={['bacs','sepa']}>
+          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+            What is Bg Autogiro?
+          </h3>
+          <p className='para'>
+            Bg Autogiro allows you to collect kronor-denominated payments from a bank account in Sweden.
+            You can read more about it in <a href='/guides/bg-autogiro/'
+            className='u-link-color-p u-text-underline'>our guide to Bg Autogiro</a>.
+          </p>
+        </IfLocale>
 
         <Translation locales='en-IE'>
           <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -90,6 +86,7 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
           </h3>
           <p className='para'>
             In Eurozone countries, we charge 1% per transaction, capped at €2. In the UK, we charge 1% per transaction (capped at £2).
+            In Sweden, we charge 1% per transaction (capped at 20kr).
           </p>
         </Translation>
         <Translation locales='en-GB'>
@@ -97,7 +94,7 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
             Will international payments cost the same as in the UK?
           </h3>
           <p className='para'>
-            International payments will cost 1% per transaction (capped at €2).
+            International payments will cost 1% per transaction (capped at €2 in the Eurozone and 20kr in Sweden).
           </p>
         </Translation>
 
@@ -105,8 +102,7 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
           When will GoCardless be available outside Europe?
         </h3>
         <p className='para'>
-          GoCardless will not be available outside Europe in 2015. We are working very hard to expand
-          to more countries soon.
+          We're working hard to expand our service to more countries soon.
         </p>
       </Translation>
     );

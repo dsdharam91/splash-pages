@@ -1,4 +1,5 @@
 import React from 'react';
+import Message from '../../../../components/message/message';
 import Translation from '../../../../components/translation/translation';
 
 export default class FaqMerchantsSecurityDe extends React.Component {
@@ -17,7 +18,7 @@ export default class FaqMerchantsSecurityDe extends React.Component {
           title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Zahlungsdienst</a> von
           der Financial Conduct Authority im Vereinigten Königreich autorisiert.
           Es ist uns erlaubt Zahlungen in der gesamten Europäischen Union
-          einzuziehen und zu verwalten und bedienen mehr als 10.000 Unternehmen in der EU.
+          einzuziehen und zu verwalten und bedienen mehr als <Message pointer='number_of_merchants' /> Unternehmen in der EU.
         </p>
         <p className='para'>
           Alle Zahlungen, die wir erhalten, werden in einem sicheren Konto unserer Partnerbank für Sie aufbewahrt.
