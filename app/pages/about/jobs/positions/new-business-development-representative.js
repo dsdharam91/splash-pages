@@ -2,13 +2,13 @@
 import React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class SalesDevelopmentRepresentativeOutbound extends React.Component {
-  displayName = 'SalesDevelopmentRepresentativeOutbound'
+export default class NewBusinessDevelopmentRepresentative extends React.Component {
+  displayName = 'NewBusinessDevelopmentRepresentative'
 
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Sales Development Representative: Outbound</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-heading'>New Business Development Representative: UK</h3>
         <p className='para'>
           Drive GoCardless’s global growth.
         </p>
@@ -18,30 +18,28 @@ export default class SalesDevelopmentRepresentativeOutbound extends React.Compon
           create a global payments network, making payments simpler on the internet no matter what country you're in.
         </p>
         <p className='para'>
-          We're looking for bright, ambitious people to join our talented sales development team and
+          We're looking for bright, ambitious people to join our talented New Business Development team and
           accelerate our growth in the UK market.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
-          The outbound sales development team at GoCardless combines deep product expertise, in depth knowledge
-        of the payments industry, and a consultative approach to help generate new opportunities for
-          the business. As an outbound SDR, you'll work with business and product leaders across the
+          The New Business Development team at GoCardless sits within our Sales function and combines deep product expertise, in depth knowledge
+          of the payments industry, and a consultative approach to help generate new opportunities for
+          the business. As an NBD rep, you'll work with business and product leaders across the
           company to uncover and define our best growth opportunities, including new customers, verticals and sales
           strategies. You'll implement outbound campaigns to reach new merchants and be the first point of contact
           before passing qualified opportunities on to our Account Executives.
         </p>
         <p className='para'>
-          We do outbound sales a little differently at GoCardless. There will be no cold calling and
-          instead a more consultative and targeted approach is taken. The outbound team is focussed on
-          developing large enterprise opportunities for GoCardless so a deep understanding of our target
-          markets and prospects is essential to succeed. We use a range of tools within the position
-          and there are a number of opportunities to attend industry focussed events.
+          We generate new opportunities a little differently at GoCardless. There will be no cold calling and instead a more
+          consultative and targeted approach is taken. The NBD team is focussed on developing large enterprise opportunities
+          for GoCardless so a deep understanding of our target markets and prospects is essential to succeed. We use a range
+          of tools within the position and there are a number of opportunities to attend industry focussed events.
         </p>
         <p className='para'>
-          Training for the position will involve a 4 week structured program split across both our inbound
-          and outbound SDR teams. The program will give you an in depth overview of the product,
-          how we do sales at GoCardless, and a detailed understanding of how we fit into
-          the wider payments industry.
+          Training for the position will involve a 4 week structured program split across both our NBD team and our
+          Sales Development team. The program will give you an in depth overview of the product, how we do sales at
+          GoCardless, and a detailed understanding of how we fit into the wider payments industry.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <ul className='list u-margin-Tm'>

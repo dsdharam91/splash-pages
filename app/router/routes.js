@@ -36,7 +36,7 @@ import ContentManager from '../pages/about/jobs/positions/content-manager';
 import CustomerSupportFrench from '../pages/about/jobs/positions/customer-support-french';
 import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
 import Recruiter from '../pages/about/jobs/positions/recruiter.js';
-import SalesDevelopmentRepresentativeOutbound from '../pages/about/jobs/positions/sales-development-representative-outbound.js';
+import NewBusinessDevelopmentRepresentative from '../pages/about/jobs/positions/new-business-development-representative.js';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 import CommunicationsDesigner from '../pages/about/jobs/positions/communications-designer.js';
@@ -468,9 +468,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [SalesDevelopmentRepresentativeOutbound, { name: 'jobs_sales_development_representative_outbound', category: 'jobs.sales' }, {
+  [NewBusinessDevelopmentRepresentative, { name: 'jobs_new_business_development_representative', category: 'jobs.sales' }, {
       en: {
-        path: '/about/jobs/sales-development-representative-outbound',
+        path: '/about/jobs/new-business-development-representative',
       },
     },
   ],
