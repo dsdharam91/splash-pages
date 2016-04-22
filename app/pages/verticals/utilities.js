@@ -18,7 +18,7 @@ export default class Utilities extends React.Component {
         <div className='page-hero u-padding-Bxxl'>
           <div className='site-container u-padding-Vxxl u-text-center'>
             <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
-              Direct Debit for the Digital Age
+              Direct Debit for the digital age
             </h1>
             <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
               GoCardless is a simpler and smarter way to collect payments in the utilities sector.
@@ -107,8 +107,8 @@ export default class Utilities extends React.Component {
         </div>
 
         <hr className='u-margin-An' />
-        <div className='site-container u-text-center u-padding-Vxxl'>
-          <div className='grid u-padding-Vxl'>
+        <div className='site-container u-text-center u-padding-Txxl'>
+          <div className='grid u-padding-Txl'>
             <div className='grid__cell u-size-1of2 u-text-center'>
               <img src='/images/partners/pay-via-mobile-illustration@2x.png' className='partners-page__mobile-image'/>
             </div>
@@ -165,7 +165,7 @@ export default class Utilities extends React.Component {
             <div className='grid__cell u-size-1of2 u-text-center u-padding-Rl'>
               <img src='/images/features/pro-dashboard-timeline.png' />
             </div>
-            <div className='grid__cell u-size-1of2 u-margin-Tl'>
+            <div className='grid__cell u-size-1of2 u-margin-Ts'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                 Connected to your business
               </h2>
@@ -225,7 +225,7 @@ export default class Utilities extends React.Component {
                   Simple migration
                 </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  It's quick and easy to move all of your existing customers over to GoCardless.</p>
+                  It's quick and easy to move all of your existing customers over <br/>to GoCardless.</p>
               </div>
             </div>
           </div>
