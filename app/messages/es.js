@@ -123,6 +123,10 @@ export default {
       title: 'Overview',
     },
   },
+  partners_billin: {
+    title: 'GoCardless para Billin',
+    description: 'Gestiona el proceso de facturación con Billin y garantiza el pago de tus facturas a tiempo con GoCardless',
+  },
   faq: {
     title: 'FAQ - Preguntas más comunes',
     sidebar: '¿No encuentras respuesta? Llama a nuestro equipo de soporte al',
