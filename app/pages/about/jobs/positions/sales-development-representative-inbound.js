@@ -35,7 +35,7 @@ export default class SalesDevelopmentRepresentativeInbound extends React.Compone
           business and product leaders across the company to help accelerate
           our growth.
         </p>
-        <p>
+        <p className='para'>
           Training for the position will involve a 4 week structured program split across both our NBD team as
           well as our Sales Development team. The program will give you an in depth overview of the product,
           how we do sales at GoCardless, and a detailed understanding of how we fit into the wider payments industry.
