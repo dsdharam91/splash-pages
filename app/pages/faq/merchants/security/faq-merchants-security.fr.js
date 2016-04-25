@@ -1,4 +1,5 @@
 import React from 'react';
+import Message from '../../../../components/message/message';
 import Translation from '../../../../components/translation/translation';
 import Link from '../../../../components/link/link';
 
@@ -13,10 +14,10 @@ export default class FaqMerchantsSecurityFr extends React.Component {
           Comment savoir si mon argent est en sécurité?
         </h3>
         <p className='para'>
-          GoCardless est un <a href='http://www.fsa.gov.uk/register/psdFirmBasicDetails.do?sid=315374'
+          GoCardless est un <a href='https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000000NMgMPAA1'
           title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Etablissement de Paiement
           Agréé</a>, autorisé par l’autorité britannique FCA (Financial Conduct Authority) et habilité à prendre des
-          paiements à travers l’Union Européenne. Nous servons plus de 10.000 entreprises en Europe.
+          paiements à travers l’Union Européenne. Nous servons plus de <Message pointer='number_of_merchants' /> entreprises en Europe.
         </p>
         <p className='para'>
           Votre argent transite dans un compte séquestre sécurisé, dans l’une de nos banques partenaires.

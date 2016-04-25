@@ -37,14 +37,12 @@ import ContentManager from '../pages/about/jobs/positions/content-manager';
 import CustomerSupportFrench from '../pages/about/jobs/positions/customer-support-french';
 import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
 import Recruiter from '../pages/about/jobs/positions/recruiter.js';
-import SalesDevelopmentRepresentativeOutbound from '../pages/about/jobs/positions/sales-development-representative-outbound.js';
+import NewBusinessDevelopmentRepresentative from '../pages/about/jobs/positions/new-business-development-representative.js';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 import CommunicationsDesigner from '../pages/about/jobs/positions/communications-designer.js';
-import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
-import CustomerSuccessManager from '../pages/about/jobs/positions/customer-success-manager.js';
 import CorporateAccountExecutive from '../pages/about/jobs/positions/corporate-account-executive.js';
 import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
 
@@ -101,6 +99,7 @@ import PartnersPitchero from '../pages/partners/pitchero/partners-pitchero';
 import PartnersSage from '../pages/partners/sage/partners-sage';
 import PartnersXero from '../pages/partners/xero/partners-xero';
 import PartnersQuickbooks from '../pages/partners/quickbooks/partners-quickbooks';
+import PartnersBillin from '../pages/partners/billin/partners-billin';
 
 import FaqCustomersHowItWorks from '../pages/faq/customers/how-it-works/faq-customers-how-it-works';
 import FaqCustomers from '../pages/faq/customers/overview/faq-customers-overview';
@@ -464,21 +463,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [CustomerSuccessManager, { name: 'jobs_customer_success_manager', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/customer-success-manager',
-      },
-    },
-  ],
   [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/sales-development-representative-inbound',
       },
     },
   ],
-  [SalesDevelopmentRepresentativeOutbound, { name: 'jobs_sales_development_representative_outbound', category: 'jobs.sales' }, {
+  [NewBusinessDevelopmentRepresentative, { name: 'jobs_new_business_development_representative', category: 'jobs.sales' }, {
       en: {
-        path: '/about/jobs/sales-development-representative-outbound',
+        path: '/about/jobs/new-business-development-representative',
       },
     },
   ],
@@ -512,12 +505,6 @@ export const config = Immutable.fromJS([
   [DigitalMarketer, { name: 'jobs_digital_marketer', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/digital-marketer',
-      },
-    },
-  ],
-  [AccountsAssistant, { name: 'jobs_accounts_assistant', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/accounts-assistant',
       },
     },
   ],
@@ -791,6 +778,12 @@ export const config = Immutable.fromJS([
   [PartnersQuickbooks, { name: 'partners_quickbooks' }, {
       'en-GB': {
         path: '/partners/quickbooks',
+      },
+    },
+  ],
+  [PartnersBillin, { name: 'partners_billin' }, {
+      es: {
+        path: '/asociados/billin',
       },
     },
   ],

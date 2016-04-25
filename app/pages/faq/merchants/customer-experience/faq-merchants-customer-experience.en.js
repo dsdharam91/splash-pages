@@ -21,9 +21,8 @@ export default class FaqMerchantsCustomerExperienceEn extends React.Component {
             Will my name appear on my customer's bank statement?
           </h3>
           <p className='para'>
-            This depends on which of our products you're using. With GoCardless, your business will
-            appear as the reference for the Direct Debit, with GoCardless as the recipient. However,
-            with GoCardless Basic only your name and reference will appear.
+            With GoCardless, your business name will normally appear on the bank statement as the reference for the Direct Debit with
+            GoCardless as the recipient. With GoCardless Pro, only your business name will appear on the bank statement.
           </p>
           <p className='para'>
             You can customise how we display your business name on customer bank statements from the

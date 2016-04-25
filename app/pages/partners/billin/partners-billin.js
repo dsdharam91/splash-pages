@@ -6,8 +6,8 @@ import OnlineManagementRedIcon from '../../../icons/svg/online-management-red';
 import SaveMoneyGreenIcon from '../../../icons/svg/save-money-green';
 import AutomatedYellowIcon from '../../../icons/svg/automated-yellow';
 
-export default class PartnersQuickbooks extends React.Component {
-  displayName = 'PartnersQuickbooks'
+export default class PartnersBillin extends React.Component {
+  displayName = 'PartnersBillin'
 
   render() {
     return (
@@ -18,30 +18,29 @@ export default class PartnersQuickbooks extends React.Component {
               <div className='grid u-margin-Vxxl u-padding-Vxl'>
                 <div className='grid__cell u-size-1of2 u-margin-Bl'>
                   <h1 className='u-text-heading u-color-primary u-text-xl u-text-light u-margin-Bm'>
-                    GoCardless<br/>
-                    for QuickBooks
+                    GoCardless para Billin
                   </h1>
 
                   <p className='u-text-heading u-color-dark-gray u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    Get paid on time and<br/>
-                    reconcile invoices automatically<br/>
-                    with GoCardless for QuickBooks
+                    Gestiona el proceso de facturación con Billin<br/>
+                    y garantiza el pago de tus facturas<br/>
+                    a tiempo con GoCardless
                   </p>
 
                   <div className='u-margin-Tl'>
-                    <a href='https://appcenter.intuit.com/gocardless?locale=en-GB'
+                    <a href='https://www.billin.net/programa-facturacion-domiciliacion-bancaria/?utm_source=Gocardless&utm_medium=web&utm_content=billin&utm_campaign=billin'
                     id='track-cta-pricing' className='btn u-pull-start'>
-                      Get started
+                      Empieza Ya
                     </a>
 
                     <div className='partners-page__button-divider u-pull-start'></div>
-                    <figure className='quickbooks-logo-gray partners-page__quickbooks-logo u-pull-start'/>
+                    <figure className='billin-logo-gray partners-page__billin-logo u-pull-start'/>
                   </div>
                 </div>
 
                 <div className='grid__cell u-size-1of2 u-text-center u-relative'>
-                  <img className='partners-page__hero-screenshot partners-page__hero-screenshot--quickbooks'
-                  src='/images/partners/quickbooks-screenshot@2x.png'/>
+                  <img className='partners-page__hero-screenshot partners-page__hero-screenshot--billin'
+                  src='/images/partners/billin-screenshot@2x.png'/>
                 </div>
               </div>
             </div>
@@ -57,11 +56,12 @@ export default class PartnersQuickbooks extends React.Component {
                 </figure>
 
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Get paid on time
+                  Rápido e intuitivo
                 </div>
 
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Collect payments automatically on your invoices as soon as<br/>they’re due.
+                  Crea tus facturas, envíalas y cobra a tus clientes directamente con Domiciliación Bancaria<br/>
+                  sin salir de Billin.
                 </p>
               </div>
 
@@ -71,11 +71,13 @@ export default class PartnersQuickbooks extends React.Component {
                 </figure>
 
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Reduce admin
+                  Ten el control
                 </div>
 
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Stop chasing customers and automatically reconcile invoices with payments.
+                  Controla el estado de cada una de tus facturas en tiempo real<br/>
+                  y resuelve cualquier<br/>
+                  incidencia al momento.
                 </p>
               </div>
 
@@ -85,11 +87,11 @@ export default class PartnersQuickbooks extends React.Component {
                 </figure>
 
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Low fees
+                  Cobra sin retrasos
                 </div>
 
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Pay just 1%, capped at £2 per transaction, with no set up costs or hidden fees.
+                  Ahorra tiempo, evita errores u olvidos y asegurate que tus clientes pagan a tiempo con la Domiciliación Bancaria.
                 </p>
               </div>
             </div>
@@ -104,17 +106,17 @@ export default class PartnersQuickbooks extends React.Component {
               <div className='numbered-step u-margin-Bm'>1</div>
 
               <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bm'>
-                Connect your account
+                Abre una cuenta con GoCardless desde Billin
               </h2>
 
               <p className='u-color-dark-gray u-margin-Bm'>
-                Get started in minutes by creating a GoCardless account and connecting it to your Quickbooks account.
+                Empieza a cobrar en minutos creando una cuenta en GoCardless y conectandola a tu cuenta Billin.
               </p>
             </div>
 
             <div className='grid__cell u-size-1of2 u-text-center'>
               <img className='partners-page__quickbooks-instruction-screenshot'
-              src='/images/partners/quickbooks-instruction-1.jpg' />
+              src='/images/partners/billin-instruction-1.jpg' />
             </div>
           </div>
         </div>
@@ -127,17 +129,17 @@ export default class PartnersQuickbooks extends React.Component {
               <div className='numbered-step u-margin-Bm'>2</div>
 
               <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bm'>
-                Set up your customers
+                Solicita un mandato SEPA a tu cliente en solo un click
               </h2>
 
               <p className='u-color-dark-gray u-margin-Bm'>
-                Select individual customers or select multiple customers to send a Direct Debit mandate request. Once they’ve filled in the simple online form, you’re ready to collect payments.
+                Selecciona a tus clientes uno a uno o en grupo para enviarles una Orden de Domiciliación SEPA. Una vez hayan rellenado un simple formulario online, estarás listo para cobrar.
               </p>
             </div>
 
             <div className='grid__cell u-size-1of2 u-text-center'>
               <img className='partners-page__quickbooks-instruction-screenshot'
-              src='/images/partners/quickbooks-instruction-2.jpg' />
+              src='/images/partners/billin-instruction-2.jpg' />
             </div>
           </div>
         </div>
@@ -150,17 +152,17 @@ export default class PartnersQuickbooks extends React.Component {
               <div className='numbered-step u-margin-Bm'>3</div>
 
               <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bm'>
-                Start collecting payments
+                Crea tus facturas y cóbralas con Domiciliación Bancaria
               </h2>
 
               <p className='u-color-dark-gray u-margin-Bm'>
-                Each time you create an invoice you can choose to schedule a payment to collect by Direct Debit on the invoice due date.
+                Cada vez que crees una factura, puedes elegir cobrar por Domiciliación Bancaria en la fecha de vencimiento.
               </p>
             </div>
 
             <div className='grid__cell u-size-1of2 u-text-center'>
               <img className='partners-page__quickbooks-instruction-screenshot'
-              src='/images/partners/quickbooks-instruction-3.jpg' />
+              src='/images/partners/billin-instruction-3.jpg' />
             </div>
           </div>
         </div>
@@ -173,17 +175,18 @@ export default class PartnersQuickbooks extends React.Component {
               <div className='numbered-step u-margin-Bm'>4</div>
 
               <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bm'>
-                Automatically reconcile invoices
+                Seguimiento de cada factura<br/>
+                y del pago
               </h2>
 
               <p className='u-color-dark-gray u-margin-Bm'>
-                Once you’ve received payment, the relevant invoices will be marked as paid and the GoCardless fees will also be posted as an expense automatically.
+                Una vez recibas el dinero, las facturas correspondientes se marcarán como pagadas, y si hay cualquier incidencia, te informaremos en tiempo real para que puedas gestionarlo fácilmente.
               </p>
             </div>
 
             <div className='grid__cell u-size-1of2 u-text-center'>
               <img className='partners-page__quickbooks-instruction-screenshot'
-              src='/images/partners/quickbooks-instruction-4.jpg' />
+              src='/images/partners/billin-instruction-4.jpg' />
             </div>
           </div>
         </div>
@@ -194,16 +197,17 @@ export default class PartnersQuickbooks extends React.Component {
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                Sign up today, take payments right away
+              Regístrate hoy y empieza<br/>
+              a cobrar inmediatamente
               </h2>
 
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-                Our QuickBooks integration is free - no set up costs,<br/>no monthly fees and no hidden charges
+                Billin y la integración con GoCardless son<br/>completamente gratuitos. Sin costes de setup,<br/>mensualidades ni comisiones ocultas.
               </p>
 
-              <a href='https://appcenter.intuit.com/gocardless?locale=en-GB'
+              <a href='https://www.billin.net/programa-facturacion-domiciliacion-bancaria/?utm_source=Gocardless&utm_medium=web&utm_content=billin&utm_campaign=billin'
               to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
-                Start using QuickBooks
+                Empieza a usar Billin
               </a>
             </div>
           </div>
