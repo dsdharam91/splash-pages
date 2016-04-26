@@ -10,8 +10,8 @@ export default class FaqProDashboardPaymentCreationFr extends React.Component {
       <Translation locales='fr'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Création de paiement</h2>
         <p className='para'>
-          Après la création de votre client, vous pourrez commencer à prendre des prélèvements automatique de
-          leur compte en banque. Choisissez le client que vous voulez facturer dans la <a href='https://manage.gocardless.com/customers'
+          Une fois un mandat validé, vous pourrez encaisser vos premiers prélèvements.
+          Choisissez le client que vous souhaitez prélever dans la <a href='https://manage.gocardless.com/customers'
           target='_blank' className='u-link-color-p u-text-underline'>section Customers</a>.
         </p>
         <ul className='list'>
@@ -27,30 +27,31 @@ export default class FaqProDashboardPaymentCreationFr extends React.Component {
         </ul>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Prendre un paiement de votre client
+          Encaisser un prélèvement ponctuel sur un client
         </h3>
         <p className='para'>
           Sélectionnez un de vos clients sur la <a href='https://manage.gocardless.com/customers'
-          target='_blank' className='u-link-color-p u-text-underline'>section Customers</a>, puis cliquez sur Create &gt; Payment.
+          target='_blank' className='u-link-color-p u-text-underline'>section Customers</a>, puis cliquez
+          sur Create &gt; Payment.
         </p>
 
         <img src='/images/faq/en/payment-create-buttons.png' />
 
         <p className='para'>
-          Vous verrez un écran sur lequel vous pouvez personaliser votre prélèvement :
+          Vous pouvez ensuite paramétrer le prélèvement :
         </p>
         <ul className='list'>
           <li>
-            Choisissez votre montant (max 5.000€)
+            Le montant
           </li>
           <li>
-            La description vous permet d’identifier la raison pour laquelle vous avez collecté ce paiement
+            Une description interne vous permettant d'organiser vos paiements
           </li>
           <li>
-            La référence apparaîtra sur le relevé bancaire de votre client (cela dépend de leur banque)
+            Une référence paramétrable qui apparaîtra sur le relevé de compte de votre client
           </li>
           <li>
-            Vous pouvez soit prendre le prélèvement dès que possible, soit indiquer une date spécifique
+            La date de prélèvement, soit au plus tôt, soit une date spécifique
           </li>
         </ul>
 
