@@ -31,28 +31,26 @@ export default class StoriesDe extends React.Component {
           <div className='u-padding-Vxxl u-relative u-margin-Bxxl'>
             <div className='u-padding-Bl'>
               <div className='stories-spotlight grid u-margin-Hn u-size-full'>
-                <Link to='stories_zenchef' className='grid__cell u-text-center u-size-1of2 u-link-clean u-padding-Rxs u-padding-Ln'>
+                <Link to='stories_picdrop' className='grid__cell u-text-center u-size-1of2 u-link-clean u-padding-Rxs u-padding-Ln'>
                   <div className='stories-spotlight__item stories-spotlight__item--picdrop
                   u-relative u-padding-Vl'>
                     <div className='stories-spotlight__item-text u-margin-Vl'>
                       <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
-                        “GoCardless a complètement fluidifié le prélèvement comparé aux prestataires historiques.
-                        L'automatisation a réduit le taux d'impayés de 50% et augmenté notre chiffre d'affaires de 90.000 €.”
+                        “Wir mussten früher täglich mit Rücklastschriften kämpfen. Das fällt jetzt komplett weg.”
                       </p>
                       <div className='u-color-invert u-margin-Tm'>
                         Andreas Chudowski, PicDrop
                       </div>
                     </div>
                   </div>
-                  <div className='stories-spotlight__btn btn u-size-full'>Voir la référence</div>
+                  <div className='stories-spotlight__btn btn u-size-full'>Zur Referenz</div>
                 </Link>
                 <Link to='stories_crossfit_oldenburg' className='grid__cell u-text-center u-size-1of2
                 u-link-clean u-padding-Lxs u-padding-Rn'>
                   <div className='stories-spotlight__item stories-spotlight__item--crossfit-oldenburg u-relative u-padding-Vl'>
                     <div className='stories-spotlight__item-text u-margin-Vl'>
                       <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
-                        “Réduire de 50% les retards de paiements a aidé à améliorer la trésorerie et
-                        a permis à nos équipes de se concenter sur des activités à plus forte valeur ajoutée.”
+                        “Der Vorteil für mich ist eine Zeitersparnis von ca 5 Stunden! Die neugewonnene Zeit wird effektiv im Laden genutzt!"
                       </p>
                       <div className='u-color-invert u-margin-Tm'>
                         Tino Petke, CrossFit Oldenburg
