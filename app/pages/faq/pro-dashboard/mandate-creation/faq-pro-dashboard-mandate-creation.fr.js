@@ -1,5 +1,6 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
+import Href from '../../../../components/href/href';
 
 export default class FaqProDashboardMandateCreationFr extends React.Component {
   displayName = 'FaqProDashboardMandateCreationFr'

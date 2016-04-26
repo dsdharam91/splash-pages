@@ -42,16 +42,16 @@ export default class FaqProDashboardPaymentCreationFr extends React.Component {
         </p>
         <ul className='list'>
           <li>
-            Le montant
+            Le <strong>montant</strong>
           </li>
           <li>
-            Une description interne vous permettant d'organiser vos paiements
+            Une <strong>description</strong> interne vous permettant d'organiser vos paiements
           </li>
           <li>
-            Une référence paramétrable qui apparaîtra sur le relevé de compte de votre client
+            Une <strong>référence</strong> paramétrable qui apparaîtra sur le relevé de compte de votre client
           </li>
           <li>
-            La date de prélèvement, soit au plus tôt, soit une date spécifique
+            La <strong>date de prélèvement</strong>, soit au plus tôt, soit une date spécifique
           </li>
         </ul>
 

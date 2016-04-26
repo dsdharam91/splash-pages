@@ -46,22 +46,22 @@ export default class FaqProDashboardSubscriptionCreationFr extends React.Compone
         </p>
         <ul className='list'>
           <li>
-            Une description interne vous permettant d'organiser vos paiements
+            Une <strong>description</strong> interne vous permettant d'organiser vos paiements
           </li>
           <li>
-            Le montant à encaisser à chaque occurence.
+            Le <strong>montant</strong> à encaisser à chaque occurence.
           </li>
           <li>
-            Une référence paramétrable qui apparaîtra sur le relevé de compte de votre client
+            Une <strong>référence</strong> paramétrable qui apparaîtra sur le relevé de compte de votre client
           </li>
           <li>
-            Une fréquence : hebdomadaire, mensuelle, annuelle ou autre (par exemple tous les 3 mois)
+            Une <strong>fréquence</strong> : hebdomadaire, mensuelle, annuelle ou autre (par exemple tous les 3 mois)
           </li>
           <li>
-            La date du premier prélèvement
+            La <strong>date du premier prélèvement</strong>
           </li>
           <li>
-            La durée de l’abonnement : tacite reconduction, une date spécifique ou un nombre de prélèvements
+            La <strong>durée de l’abonnement</strong> : tacite reconduction, une date spécifique ou un nombre de prélèvements
             définis (par exemple 12 paiements de 100€)
           </li>
         </ul>

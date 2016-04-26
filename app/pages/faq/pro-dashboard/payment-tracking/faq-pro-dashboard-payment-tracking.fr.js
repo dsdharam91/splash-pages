@@ -49,7 +49,7 @@ export default class FaqProDashboardPaymentTrackingFr extends React.Component {
           <tbody>
             <tr>
               <td>Created (Créé)</td>
-              <td>Vous avez créé un paiement et il n'a pas encore été envoyé aux banques.</td>
+              <td>Vous avez créé un ordre de prélèvement et l'ordre n'a pas encore été transmis aux banques.</td>
             </tr>
             <tr>
               <td>Submitted (Envoyé aux banques)</td>
@@ -57,8 +57,8 @@ export default class FaqProDashboardPaymentTrackingFr extends React.Component {
             </tr>
             <tr>
               <td>Confirmed (Confirmé)</td>
-              <td>Le prélèvement a été exécuté et GoCardless a reçu un rapport d'exécution des banques positifs.
-              GoCardless va donc procéder à l'envoi des fonds collectés.</td>
+              <td>Le prélèvement a été exécuté et GoCardless a reçu un rapport d/'exécution ne signalant aucun échec
+              sur ce paiement. GoCardless va donc procéder à l'envoi des fonds collectés.</td>
             </tr>
             <tr>
               <td>Paid out (Reversé)</td>
@@ -67,13 +67,13 @@ export default class FaqProDashboardPaymentTrackingFr extends React.Component {
             <tr>
               <td>Failed (Echoué)</td>
               <td>Le prélèvement a échoué. Ce statut peut arriver le jour du prélèvement ou jusqu'à cinq jours après
-              le prélèvement et peut donc intervenir après la reception d'un statut Confirmed ou Paid out.</td>
+              le prélèvement et peut donc intervenir avant ou après la réception du statut Confirmed ou Paid out.</td>
             </tr>
             <tr>
               <td>Late failure settled (Echec tardif compensé)</td>
               <td>Si l'échec est tardif et que les fonds collectés vont ont déjà été reversés (statut 'Paid out'),
-              GoCardless doit récupérer les fonds auprès de vous. Ce statut indique que GoCardless a réussi
-              à récuperer les fonds.</td>
+              GoCardless doit récupérer les fonds auprès de vous afin de rétablir une balance des paiements nulle.
+              Ce statut indique que GoCardless a bien reçu les fonds de votre part.</td>
             </tr>
             <tr>
               <td>Charged back (Opposition)</td>
@@ -89,35 +89,37 @@ export default class FaqProDashboardPaymentTrackingFr extends React.Component {
           </tbody>
         </table>
 
-        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Les séquences classiques</h3>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Les séquences usuelles</h3>
 
         <p className='para'>
-          Paiement réussi :
+          Paiement réussi (payé) :
         </p>
 
         <img src='/images/faq/en/payment-success.png' />
 
         <p className='para'>
-         Paiement échoué :
+         Paiement qui a échoué le jour de prélèvement :
         </p>
 
         <img src='/images/faq/en/payment-failed.png' />
 
         <p className='para'>
-         Paiement échoué tardivement :
+         Paiement qui a échoué en retard :
         </p>
 
-        <img src='/images/faq/en/payment-late-failure' />
+        <img src='/images/faq/en/payment-late-failure.png' />
 
         <p className='para'>
-         Paiement opposé :
+         Paiement opposé par le payeur :
         </p>
 
         <img src='/images/faq/en/payment-chargebacked.png' />
 
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Retentative</h3>
+
         <p className='para'>
           Il vous est possible de <strong>retenter gratuitement un paiement échoué</strong> directement en cliquant “Retry”.
-          Il n'y a pas de frais d'incident de paiement.
+          Il n'y a pas de frais d'incident de paiement. Il n'est pas possible de rententer un paiement opposé.
         </p>
 
         <img src='/images/faq/en/payment-retry.png' />
