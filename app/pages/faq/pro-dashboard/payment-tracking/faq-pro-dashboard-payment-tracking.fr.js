@@ -18,13 +18,13 @@ export default class FaqProDashboardPaymentTrackingFr extends React.Component {
             <strong>Dans la <a href='https://manage.gocardless.com/payments'
             target='_blank' className='u-link-color-p u-text-underline'>section Payments</a> du tableau de bord</strong> :
             vous pouvez voir la liste de tous les paiements que vous avez pris. Vous pouvez filtrer ces paiements soit par leur date
-            de création, soit par le status actuel du paiement. Une utilisation classique consiste à filtrer les résultats pour voir
+            de création, soit par le statut actuel du paiement. Une utilisation classique consiste à filtrer les résultats pour voir
             les paiements ayant échoué récemment.
           </li>
           <li>
             <strong>Dans la <a href='https://manage.gocardless.com/customers'
             target='_blank' className='u-link-color-p u-text-underline'>section Customers</a> du tableau de bord</strong> :
-            vous pouvez voir la liste de tous les paiements pris d'un client.
+            vous pouvez voir l'ensemble des paiements prélevés d'un client.
           </li>
         </ul>
 
@@ -115,11 +115,12 @@ export default class FaqProDashboardPaymentTrackingFr extends React.Component {
 
         <img src='/images/faq/en/payment-chargebacked.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Retentative</h3>
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Représentation</h3>
 
         <p className='para'>
-          Il vous est possible de <strong>retenter gratuitement un paiement échoué</strong> directement en cliquant “Retry”.
-          Il n'y a pas de frais d'incident de paiement. Il n'est pas possible de rententer un paiement opposé.
+          Il vous est possible de <strong>représenter sans frais un paiement échoué</strong> directement en cliquant “Retry”.
+          Il n'y a pas de frais d'incident de paiement. Il n'est pas possible de rententer un paiement pour lequel il
+          y a eu une opposition.
         </p>
 
         <img src='/images/faq/en/payment-retry.png' />
