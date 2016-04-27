@@ -582,6 +582,10 @@ export default {
     title: 'Developer Support',
     description: '',
   },
+  jobs_head_customer_support: {
+    title: 'Head of Customer Support',
+    description: '',
+  },
   jobs_corporate_account_executive: {
     title: 'Account Executive, Corporate Sales: UK',
     description: '',
