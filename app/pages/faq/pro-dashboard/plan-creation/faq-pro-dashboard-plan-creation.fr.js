@@ -96,7 +96,7 @@ export default class FaqProDashboardPlanCreationFr extends React.Component {
           La liste de tous vos Plans est visible dans la <a href='https://manage.gocardless.com/plans' target='_blank'
           className='u-link-color-p u-text-underline'>section éponyme</a>, et en cliquant sur le Plan, vous pouvez voir tous
           les clients qui sont en attente de validation (si vous avez utilisé l'email GoCardless)
-          et les clients qui ont donnés leur consentement au Plan.
+          et les clients qui ont donné leur consentement au Plan.
         </p>
 
       </Translation>
