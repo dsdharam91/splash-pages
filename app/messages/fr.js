@@ -152,9 +152,14 @@ export default {
     nav_title: 'Création de mandat',
     description: '',
   },
-  faq_pro_dashboard_mandate_export: {
-    title: 'FAQ - Exporter un mandat',
-    nav_title: 'Export de mandat',
+  faq_pro_dashboard_plan_creation: {
+    title: 'FAQ - Création de plan',
+    nav_title: 'Création de plan',
+    description: '',
+  },
+  faq_pro_dashboard_paylinks_creation: {
+    title: 'FAQ - Création de paylink',
+    nav_title: 'Création de paylink',
     description: '',
   },
   faq_pro_dashboard_payment_creation: {
@@ -185,6 +190,11 @@ export default {
   faq_pro_dashboard_payout_tracking: {
     title: 'FAQ - Suivi de vos encaissements',
     nav_title: 'Suivi de vos encaissements',
+    description: '',
+  },
+  faq_pro_dashboard_mandate_export: {
+    title: 'FAQ - Exporter un mandat',
+    nav_title: 'Export de mandat',
     description: '',
   },
   home: {

@@ -126,6 +126,8 @@ import FaqProDashboardPaymentRefund from '../pages/faq/pro-dashboard/payment-ref
 import FaqProDashboardPaymentTracking from '../pages/faq/pro-dashboard/payment-tracking/faq-pro-dashboard-payment-tracking';
 import FaqProDashboardPaymentRetry from '../pages/faq/pro-dashboard/payment-retry/faq-pro-dashboard-payment-retry';
 import FaqProDashboardPayoutTracking from '../pages/faq/pro-dashboard/payout-tracking/faq-pro-dashboard-payout-tracking';
+import FaqProDashboardPlanCreation from '../pages/faq/pro-dashboard/plan-creation/faq-pro-dashboard-plan-creation';
+import FaqProDashboardPaylinksCreation from '../pages/faq/pro-dashboard/paylinks-creation/faq-pro-dashboard-paylinks-creation';
 
 import Stories from '../pages/stories/stories';
 import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
@@ -1187,21 +1189,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [FaqProDashboardMandateExport, { name: 'faq_pro_dashboard_mandate_export', category: 'faq.pro_dashboard' }, {
-      'en-IE': {
-        path: '/faq/pro-dashboard/mandate-export',
-      },
-      'en-EU': {
-        path: '/faq/pro-dashboard/mandate-export',
-      },
-      'en-SE': {
-        path: '/faq/pro-dashboard/mandate-export',
-      },
+  [FaqProDashboardPlanCreation, { name: 'faq_pro_dashboard_plan_creation', category: 'faq.pro_dashboard' }, {
       fr: {
-        path: '/faq/tableau-de-bord-pro/export-mandat',
+        path: '/faq/tableau-de-bord-pro/creation-plan',
       },
-      de: {
-        path: '/faq/dashboard/mandate-exportieren',
+    },
+  ],
+  [FaqProDashboardPaylinksCreation, { name: 'faq_pro_dashboard_paylinks_creation', category: 'faq.pro_dashboard' }, {
+      fr: {
+        path: '/faq/tableau-de-bord-pro/creation-paylinks',
       },
     },
   ],
@@ -1310,6 +1306,24 @@ export const config = Immutable.fromJS([
       },
      de: {
         path: '/faq/dashboard/auszahlungen-verfolgen',
+      },
+    },
+  ],
+  [FaqProDashboardMandateExport, { name: 'faq_pro_dashboard_mandate_export', category: 'faq.pro_dashboard' }, {
+      'en-IE': {
+        path: '/faq/pro-dashboard/mandate-export',
+      },
+      'en-EU': {
+        path: '/faq/pro-dashboard/mandate-export',
+      },
+      'en-SE': {
+        path: '/faq/pro-dashboard/mandate-export',
+      },
+      fr: {
+        path: '/faq/tableau-de-bord-pro/export-mandat',
+      },
+      de: {
+        path: '/faq/dashboard/mandate-exportieren',
       },
     },
   ],
