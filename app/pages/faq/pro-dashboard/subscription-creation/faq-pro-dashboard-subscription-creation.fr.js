@@ -10,12 +10,12 @@ export default class FaqProDashboardSubscriptionCreationFr extends React.Compone
       <Translation locales='fr'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Création d'abonnement</h2>
         <p className='para'>
-          Un abonnement vous permet de créer une suite de paiements réguliers d’un montant fixe : cela vous
-          évite de devoir créer le même paiement tous les mois.
+          Un abonnement vous permet de créer une série de paiements récurrents au montant similaire.
+          Ainsi, vous évitez de devoir créer le même paiement tous les mois.
         </p>
         <p className='para'>
-          Après la création de votre client, vous pourrez définir un échéancier de prélèvements automatiques réguliers.
-          Choisissez le client que vous voulez facturer dans la <a href='https://manage.gocardless.com/customers'
+          Après la validation d'un mandat, vous pourrez définir un échéancier de prélèvements récurrents.
+          Choisissez le client que vous souhaitez prélever dans la <a href='https://manage.gocardless.com/customers'
           target='_blank' className='u-link-color-p u-text-underline'>section Customers</a>.
         </p>
         <ul className='list'>
@@ -31,7 +31,7 @@ export default class FaqProDashboardSubscriptionCreationFr extends React.Compone
         </ul>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Créer un abonnement avec votre client
+          Créer un abonnement pour votre client
         </h3>
 
 
@@ -42,26 +42,26 @@ export default class FaqProDashboardSubscriptionCreationFr extends React.Compone
         <img src='/images/faq/en/subscription-create-buttons.png' />
 
         <p className='para'>
-          Vous verrez un écran sur lequel vous pouvez personaliser votre abonnement :
+          Vous pouvez ensuite paramétrer l'abonnement :
         </p>
         <ul className='list'>
           <li>
-            Le nom de l'abonnement vous permet d'identifier les paiements (par exemple le nom d'un plan ou service)
+            Une <strong>description</strong> interne vous permettant d'organiser vos paiements
           </li>
           <li>
-            Choisissez votre montant (max 5.000€). Ce montant sera collecté à chaque fois.
+            Le <strong>montant</strong> à encaisser à chaque occurence.
           </li>
           <li>
-            La référence apparaîtra sur le relevé bancaire de votre client (cela dépend de leur banque)
+            Une <strong>référence</strong> paramétrable qui apparaîtra sur le relevé de compte de votre client
           </li>
           <li>
-            Choisissez la fréquence : hebdomadaire, mensuelle, annuelle ou personalisée (par exemple tous les 3 mois)
+            Une <strong>fréquence</strong> : hebdomadaire, mensuelle, annuelle ou autre (par exemple tous les 3 mois)
           </li>
           <li>
-            Choisissez la date du premier prélèvement
+            La <strong>date du premier prélèvement</strong>
           </li>
           <li>
-            Choisissez la durée de l’abonnement : jusqu’à annulation, une date spécifique ou un nombre de prélèvements
+            La <strong>durée de l’abonnement</strong> : tacite reconduction, une date spécifique ou un nombre de prélèvements
             définis (par exemple 12 paiements de 100€)
           </li>
         </ul>
