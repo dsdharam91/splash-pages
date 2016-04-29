@@ -542,8 +542,12 @@ export default {
     title: 'SDR: France',
     description: '',
   },
+  jobs_head_of_sales_france: {
+    title: 'Head of Sales: France',
+    description: '',
+  },
   jobs_head_of_sales_germany: {
-    title: 'Head of Sales Germany',
+    title: 'Head of Sales: Germany',
     description: '',
   },
   jobs_content_manager: {
