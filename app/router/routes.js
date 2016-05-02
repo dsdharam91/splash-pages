@@ -1411,8 +1411,8 @@ export const config = Immutable.fromJS([
         path: '/references/zenchef',
       },
       de: {
-        path: '/kundenstimmen/zenchef'
-      }
+        path: '/kundenstimmen/zenchef',
+      },
     },
   ],
    [StoriesPicDrop, { name: 'stories_picdrop', category: 'stories' }, {

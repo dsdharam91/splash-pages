@@ -2,7 +2,7 @@ import React from 'react';
 import Translation from '../../components/translation/translation';
 import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
 import Link from '../../components/link/link';
-import StoryLink from './story-link';
+// import StoryLink from './story-link';
 
 export default class StoriesDe extends React.Component {
   displayName = 'StoriesDe'
