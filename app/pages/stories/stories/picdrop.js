@@ -19,7 +19,7 @@ export default class StoriesPicDrop extends React.Component {
         bgimg='crowdcube-logo stories-item__logo--crowdcube'>
         <StoryQuote tag='Vorher gab es viele Rückläufer, und dadurch unerwartete zusätzliche Kosten im dreistelligen Bereich.'>
           <p className='para u-margin-Tn'><a href='https://www.picdrop.de/' className='u-link-color-p u-text-underline' target='_blank'>
-          PicDrop</a> ist eines der führenden Tools zur Bildübertragung. Gegründet in 2012 in Berlin, wird es heute von mehr als 12,000
+          PicDrop</a> ist eines der führenden Tools zur Bildübertragung. Gegründet in 2012 in Berlin, wird es heute von mehr als 12.000
           Fotografen genutzt, um einfach und sicher Bilder mit Kunden zu teilen.</p>
           <p className='para'>PicDrops Gründer, Andreas Chudowski und Tobias Friese, arbeiten stets daran, ihr Produkt weiter zu verbessern.
           Dabei war der tägliche Kampf mit ihren Lastschriften vor der Einbindung von GoCardless eine unwillkommene Ablenkung. Andreas musste
@@ -28,12 +28,12 @@ export default class StoriesPicDrop extends React.Component {
           <p className='para'>Insbesondere die hohen Gebühren bei Rücklastschriften haben sie und ihre Kunden verzweifeln lassen,
           und regelmäßig zu vollständigen Zahlungsausfällen geführt.</p>
         </StoryQuote>
-        <StoryBigQuote person='Tobias Friese' position='Mitgründer und Geschäftsführer'>
+        <StoryBigQuote heroClass='story-hero--picdrop' person='Tobias Friese' position='Mitgründer und Geschäftsführer' img='/images/stories/picdrop-avatar@2x.jpg'>
           Wir mussten früher täglich mit Rücklastschriften kämpfen. Das fällt jetzt komplett weg.
         </StoryBigQuote>
         <StoryQuote tag='Wir sparen mindestens 2 Stunden die Woche und konnten zudem unsere Kosten reduzieren.'>
           <p className='para u-margin-Tn'>GoCardless konnte PicDrop helfen viele nervenzehrenden Aufgaben aus dem Alltag zu verbannen.
-          Tobias bezeichnet den Start mit GoCardless als “den Moment, an dem wir vergaßen, dass wir einen Zahlungsanbieter haben”. PicDrop konnte
+          Tobias bezeichnet den Start mit GoCardless als "den Moment, an dem wir vergaßen, dass wir einen Zahlungsanbieter haben”. PicDrop konnte
           GoCardless so nahtlos in ihr eigenes Produkt einbauen, dass sämtliche früher manuellen Prozesse nun automatisch laufen, und dem kleinen
           Team so mehr als 2 Stunden pro Woche sparen. Die Integration hat Tobias dabei nicht länger als eine Woche gekostet.</p>
           <p className='para'>Mindestens genauso wichtig ist die Kostenersparnis: mit GoCardless fallen für PicDrop keine Gebühren für

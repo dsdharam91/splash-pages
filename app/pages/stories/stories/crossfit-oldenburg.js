@@ -18,7 +18,7 @@ export default class StoriesCrossfitOldenburg extends React.Component {
         ]}
         bgimg='crowdcube-logo stories-item__logo--crowdcube'>
         <StoryQuote tag='Vorher durfte ich mich zu jedem Monatsbeginn an den Computer setzen und jede Buchung einzeln eingeben. Das war tatsächlich unglaublich viel Arbeit.'>
-          <p className='para u-margin-Tn'><a href='https://crossfitoldenburg.com' className='u-link-color-p u-text-underline' target='_blank'>
+          <p className='para u-margin-Tn'><a href='http://crossfitoldenburg.com/' className='u-link-color-p u-text-underline' target='_blank'>
           Oldenburgs erstes CrossFit Affiliate</a> wurde 2013 von Tino Petke gegründet und hilft heute mehr als 100 Mitgliedern sportlich über ihre Grenzen hinauszuwachsen.
           Großen Wert legen Tino und sein Team dabei auf Coaching und die Community: am liebsten fokussieren sie sich zu 100% auf die Mitglieder.</p>
           <p className='para'>Von Anfang an hat Tino auf die online Kursverwaltungssoftware APPOINTMAN gesetzt, mit der sich Mitglieder und Buchungen ganz einfach verwalten
@@ -27,7 +27,7 @@ export default class StoriesCrossfitOldenburg extends React.Component {
           Coaching und die Community verloren gingen.</p>
         </StoryQuote>
         <StoryBigQuote person='Tino Petke' position='Gründer und Geschäftsführer'>
-          Der Vorteil für mich ist eine Zeitersparnis von ca 5 Stunden! 5 Stunden sind enorm. Jeder, der selbst ein Geschäft führt,
+          Der Vorteil für mich ist eine Zeitersparnis von ca. 5 Stunden! 5 Stunden sind enorm. Jeder, der selbst ein Geschäft führt,
           weiß wie gut das tut, wenn man sich diese 5 Stunden sparen kann!
         </StoryBigQuote>
         <StoryQuote tag='Die neugewonnene Zeit wird effektiv im Laden genutzt!'>

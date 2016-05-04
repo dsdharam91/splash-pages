@@ -39,7 +39,7 @@ export default class StoriesDe extends React.Component {
                         “Wir mussten früher täglich mit Rücklastschriften kämpfen. Das fällt jetzt komplett weg.”
                       </p>
                       <div className='u-color-invert u-margin-Tm'>
-                        Andreas Chudowski, PicDrop
+                        Tobias Friese, PicDrop
                       </div>
                     </div>
                   </div>
@@ -50,7 +50,7 @@ export default class StoriesDe extends React.Component {
                   <div className='stories-spotlight__item stories-spotlight__item--crossfit-oldenburg u-relative u-padding-Vl'>
                     <div className='stories-spotlight__item-text u-margin-Vl'>
                       <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
-                        “Der Vorteil für mich ist eine Zeitersparnis von ca 5 Stunden! Die neugewonnene Zeit wird effektiv im Laden genutzt!"
+                        “Der Vorteil für mich ist eine Zeitersparnis von ca. 5 Stunden! Die neugewonnene Zeit wird effektiv im Laden genutzt!"
                       </p>
                       <div className='u-color-invert u-margin-Tm'>
                         Tino Petke, CrossFit Oldenburg
