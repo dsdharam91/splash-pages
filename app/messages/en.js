@@ -570,6 +570,10 @@ export default {
     title: 'Digital Marketer',
     description: '',
   },
+  jobs_product_marketing_manager: {
+    title: 'Product Marketing Manager',
+    description: '',
+  },
   jobs_sales_operations_manager: {
     title: 'Sales Operations Manager',
     description: '',
