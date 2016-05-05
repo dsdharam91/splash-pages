@@ -27,6 +27,7 @@ import Team from '../pages/about/team/team';
 
 import Jobs from '../pages/about/jobs/jobs';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
+import SeniorSiteReliabilityEngineer from '../pages/about/jobs/positions/senior-site-reliability-engineer';
 import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
@@ -419,6 +420,12 @@ export const config = Immutable.fromJS([
   [DataEngineer, { name: 'jobs_data_engineer', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/data-engineer',
+      },
+    },
+  ],
+  [SeniorSiteReliabilityEngineer, { name: 'jobs_senior_site_reliability_engineer', category: 'jobs.engineering' }, {
+      en: {
+        path: '/about/jobs/senior-site-reliability-engineer',
       },
     },
   ],
