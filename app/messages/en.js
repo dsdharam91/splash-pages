@@ -534,10 +534,6 @@ export default {
     title: 'SDR Inbound: UK',
     description: '',
   },
-  jobs_new_business_development_representative: {
-    title: 'New Business Development Rep: UK',
-    description: '',
-  },
   jobs_sales_development_representative_french: {
     title: 'SDR: France',
     description: '',
