@@ -143,6 +143,8 @@ import StoriesGreaterAnglia from '../pages/stories/stories/greater-anglia';
 import StoriesZenchef from '../pages/stories/stories/zenchef';
 import StoriesTheFrenchTalents from '../pages/stories/stories/the-french-talents';
 import StoriesHabitat from '../pages/stories/stories/habitat';
+import StoriesPicDrop from '../pages/stories/stories/picdrop';
+import StoriesCrossfitOldenburg from '../pages/stories/stories/crossfit-oldenburg';
 
 export var homeRoute = 'home';
 
@@ -1348,6 +1350,9 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/references',
       },
+      de: {
+        path: '/kundenstimmen',
+      },
     },
   ],
   [StoriesHasBeanCoffee, { name: 'stories_has_bean_coffee', category: 'stories' }, {
@@ -1404,6 +1409,21 @@ export const config = Immutable.fromJS([
   [StoriesZenchef, { name: 'stories_zenchef', category: 'stories' }, {
       fr: {
         path: '/references/zenchef',
+      },
+      de: {
+        path: '/kundenstimmen/zenchef',
+      },
+    },
+  ],
+   [StoriesPicDrop, { name: 'stories_picdrop', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/picdrop',
+      },
+    },
+  ],
+  [StoriesCrossfitOldenburg, { name: 'stories_crossfit_oldenburg', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/crossfit-oldenburg',
       },
     },
   ],

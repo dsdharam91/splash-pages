@@ -396,6 +396,20 @@ export default {
     nav_title: 'Auszahlungen verfolgen',
     description: '',
   },
+  stories: {
+    title: 'Kundenstimmen',
+    nav_title: 'Kundenstimmen',
+    description: '',
+    link: 'Zur Referenz',
+  },
+  stories_picdrop: {
+    title: 'PicDrop',
+    description: '',
+  },
+  stories_crossfit_oldenburg: {
+    title: 'CrossFit Oldenburg',
+    description: '',
+  },
   legal: {
     title: 'Rechtliche Hinweise',
     nav_title: 'Impressum',
