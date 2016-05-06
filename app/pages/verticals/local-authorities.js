@@ -74,12 +74,19 @@ export default class LocalAuthorities extends React.Component {
             <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
               GoCardless powers Direct Debit payments for over <Message pointer='number_of_merchants' /> organisations
             </h2>
-            <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm u-center'>
+            <div className='grid__cell u-size-2of3 u-link-clean u-padding-Rxs u-padding-Vm u-center'>
               <div className='spotlight-grid__container u-text-center u-padding-Vl'>
-                <i role='img' className='funding-circle-logo stories-item__logo--funding-circle'></i>
+                <i role='img' className='south-kesteven-logo stories-item__logo--south-kesteven'></i>
                 <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
-                  "GoCardless is one of the best payments companies we've worked with. I'd highly recommend them to any company
-                  that cares about providing a good user experience and using the best available technology."
+                  "GoCardless helped us to set up an online Direct Debit solution in a matter of weeks. The API was really easy to work
+                  with and it saved us having to invest in a bespoke solution that would have taken a number of months to introduce."
+                </p>
+                <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txs'>
+                  "We’ve seen around 60% of our customers chose to pay by Direct Debit
+                  so next year, they won’t have to spend time renewing their subscription as it’ll all be taken care of for them."
+                </p>
+                <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txs'>
+                  Lee Sirdifield, Strategic Lead<br />Programme Delivery, South Kesteven District Council
                 </p>
               </div>
             </div>

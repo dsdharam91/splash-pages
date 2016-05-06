@@ -518,6 +518,10 @@ export default {
     title: 'Software Engineer',
     description: '',
   },
+  jobs_senior_site_reliability_engineer: {
+    title: 'Senior Site Reliability Engineer',
+    description: '',
+  },
   jobs_site_reliability_engineer: {
     title: 'Site Reliability Engineer',
     description: '',
@@ -532,10 +536,6 @@ export default {
   },
   jobs_sales_development_representative_inbound: {
     title: 'SDR Inbound: UK',
-    description: '',
-  },
-  jobs_new_business_development_representative: {
-    title: 'New Business Development Rep: UK',
     description: '',
   },
   jobs_sales_development_representative_french: {
