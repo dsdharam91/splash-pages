@@ -32,8 +32,6 @@ export default class FaqCustomersHowItWorks extends React.Component {
         </p>
         <p className='para'>
           Don't worry - if you have set-up a one-off payment, we will only take the funds once.
-          You can check payments made with GoCardless anytime by <a href='/users/sign_in'
-          className='u-link-color-p u-text-underline'>logging in</a>.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>

@@ -11,11 +11,12 @@ import PaymentsByDirectDebit from '../pages/payments-by-direct-debit/payments-by
 import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/payments-by-direct-debit-variation-b';
 import AuddisDirectDebit from '../pages/payments-by-direct-debit/auddis-direct-debit';
 import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-debit';
-import Accountants from '../pages/payments-by-direct-debit/accountants';
-import Agencies from '../pages/payments-by-direct-debit/agencies';
-import LocalAuthorities from '../pages/payments-by-direct-debit/local-authorities';
-import Telcos from '../pages/payments-by-direct-debit/telcos';
-import Utilities from '../pages/payments-by-direct-debit/utilities';
+
+import Accountants from '../pages/verticals/accountants';
+import Agencies from '../pages/verticals/agencies';
+import LocalAuthorities from '../pages/verticals/local-authorities';
+import Telcos from '../pages/verticals/telcos';
+import Utilities from '../pages/verticals/utilities';
 
 import Europe from '../pages/europe/europe';
 import ExampleCheckout from '../pages/example-checkout/example-checkout';
@@ -25,24 +26,25 @@ import Team from '../pages/about/team/team';
 
 import Jobs from '../pages/about/jobs/jobs';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
+import SeniorSiteReliabilityEngineer from '../pages/about/jobs/positions/senior-site-reliability-engineer';
 import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
 import SalesDevelopmentRepresentativeFrench from '../pages/about/jobs/positions/sales-development-representative-french';
+import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import HeadofSalesGermany from '../pages/about/jobs/positions/head-of-sales-germany';
 import ContentManager from '../pages/about/jobs/positions/content-manager';
 import CustomerSupportFrench from '../pages/about/jobs/positions/customer-support-french';
 import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
 import Recruiter from '../pages/about/jobs/positions/recruiter.js';
-import SalesDevelopmentRepresentativeOutbound from '../pages/about/jobs/positions/sales-development-representative-outbound.js';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
+import ProductMarketingManager from '../pages/about/jobs/positions/product-marketing-manager.js';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 import CommunicationsDesigner from '../pages/about/jobs/positions/communications-designer.js';
-import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
-import CustomerSuccessManager from '../pages/about/jobs/positions/customer-success-manager.js';
+import HeadCustomerSupport from '../pages/about/jobs/positions/head-customer-support.js';
 import CorporateAccountExecutive from '../pages/about/jobs/positions/corporate-account-executive.js';
 import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
 
@@ -99,6 +101,7 @@ import PartnersPitchero from '../pages/partners/pitchero/partners-pitchero';
 import PartnersSage from '../pages/partners/sage/partners-sage';
 import PartnersXero from '../pages/partners/xero/partners-xero';
 import PartnersQuickbooks from '../pages/partners/quickbooks/partners-quickbooks';
+import PartnersBillin from '../pages/partners/billin/partners-billin';
 
 import FaqCustomersHowItWorks from '../pages/faq/customers/how-it-works/faq-customers-how-it-works';
 import FaqCustomers from '../pages/faq/customers/overview/faq-customers-overview';
@@ -124,6 +127,8 @@ import FaqProDashboardPaymentRefund from '../pages/faq/pro-dashboard/payment-ref
 import FaqProDashboardPaymentTracking from '../pages/faq/pro-dashboard/payment-tracking/faq-pro-dashboard-payment-tracking';
 import FaqProDashboardPaymentRetry from '../pages/faq/pro-dashboard/payment-retry/faq-pro-dashboard-payment-retry';
 import FaqProDashboardPayoutTracking from '../pages/faq/pro-dashboard/payout-tracking/faq-pro-dashboard-payout-tracking';
+import FaqProDashboardPlanCreation from '../pages/faq/pro-dashboard/plan-creation/faq-pro-dashboard-plan-creation';
+import FaqProDashboardPaylinksCreation from '../pages/faq/pro-dashboard/paylinks-creation/faq-pro-dashboard-paylinks-creation';
 
 import Stories from '../pages/stories/stories';
 import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
@@ -137,6 +142,8 @@ import StoriesGreaterAnglia from '../pages/stories/stories/greater-anglia';
 import StoriesZenchef from '../pages/stories/stories/zenchef';
 import StoriesTheFrenchTalents from '../pages/stories/stories/the-french-talents';
 import StoriesHabitat from '../pages/stories/stories/habitat';
+import StoriesPicDrop from '../pages/stories/stories/picdrop';
+import StoriesCrossfitOldenburg from '../pages/stories/stories/crossfit-oldenburg';
 
 export var homeRoute = 'home';
 
@@ -411,6 +418,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [SeniorSiteReliabilityEngineer, { name: 'jobs_senior_site_reliability_engineer', category: 'jobs.engineering' }, {
+      en: {
+        path: '/about/jobs/senior-site-reliability-engineer',
+      },
+    },
+  ],
   [SiteReliabilityEngineer, { name: 'jobs_site_reliability_engineer', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/site-reliability-engineer',
@@ -447,6 +460,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [HeadofSalesFrance, { name: 'jobs_head_of_sales_france', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/head-of-sales-france',
+      },
+    },
+  ],
   [HeadofSalesGermany, { name: 'jobs_head_of_sales_germany', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/head-of-sales-germany',
@@ -456,21 +475,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [CustomerSuccessManager, { name: 'jobs_customer_success_manager', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/customer-success-manager',
-      },
-    },
-  ],
   [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/sales-development-representative-inbound',
-      },
-    },
-  ],
-  [SalesDevelopmentRepresentativeOutbound, { name: 'jobs_sales_development_representative_outbound', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/sales-development-representative-outbound',
       },
     },
   ],
@@ -507,9 +514,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [AccountsAssistant, { name: 'jobs_accounts_assistant', category: 'jobs.operations' }, {
+  [ProductMarketingManager, { name: 'jobs_product_marketing_manager', category: 'jobs.marketing' }, {
       en: {
-        path: '/about/jobs/accounts-assistant',
+        path: '/about/jobs/product-marketing-manager',
       },
     },
   ],
@@ -531,6 +538,12 @@ export const config = Immutable.fromJS([
   [DeveloperSupport, { name: 'jobs_developer_support', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/developer-support',
+      },
+    },
+  ],
+  [HeadCustomerSupport, { name: 'jobs_head_customer_support', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/head-customer-support',
       },
     },
   ],
@@ -783,6 +796,12 @@ export const config = Immutable.fromJS([
   [PartnersQuickbooks, { name: 'partners_quickbooks' }, {
       'en-GB': {
         path: '/partners/quickbooks',
+      },
+    },
+  ],
+  [PartnersBillin, { name: 'partners_billin' }, {
+      es: {
+        path: '/asociados/billin',
       },
     },
   ],
@@ -1179,21 +1198,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [FaqProDashboardMandateExport, { name: 'faq_pro_dashboard_mandate_export', category: 'faq.pro_dashboard' }, {
-      'en-IE': {
-        path: '/faq/pro-dashboard/mandate-export',
-      },
-      'en-EU': {
-        path: '/faq/pro-dashboard/mandate-export',
-      },
-      'en-SE': {
-        path: '/faq/pro-dashboard/mandate-export',
-      },
+  [FaqProDashboardPlanCreation, { name: 'faq_pro_dashboard_plan_creation', category: 'faq.pro_dashboard' }, {
       fr: {
-        path: '/faq/tableau-de-bord-pro/export-mandat',
+        path: '/faq/tableau-de-bord-pro/creation-plan',
       },
-      de: {
-        path: '/faq/dashboard/mandate-exportieren',
+    },
+  ],
+  [FaqProDashboardPaylinksCreation, { name: 'faq_pro_dashboard_paylinks_creation', category: 'faq.pro_dashboard' }, {
+      fr: {
+        path: '/faq/tableau-de-bord-pro/creation-paylinks',
       },
     },
   ],
@@ -1305,12 +1318,33 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [FaqProDashboardMandateExport, { name: 'faq_pro_dashboard_mandate_export', category: 'faq.pro_dashboard' }, {
+      'en-IE': {
+        path: '/faq/pro-dashboard/mandate-export',
+      },
+      'en-EU': {
+        path: '/faq/pro-dashboard/mandate-export',
+      },
+      'en-SE': {
+        path: '/faq/pro-dashboard/mandate-export',
+      },
+      fr: {
+        path: '/faq/tableau-de-bord-pro/export-mandat',
+      },
+      de: {
+        path: '/faq/dashboard/mandate-exportieren',
+      },
+    },
+  ],
   [Stories, { name: 'stories' }, {
       'en-GB': {
         path: '/stories',
       },
       fr: {
         path: '/references',
+      },
+      de: {
+        path: '/kundenstimmen',
       },
     },
   ],
@@ -1368,6 +1402,21 @@ export const config = Immutable.fromJS([
   [StoriesZenchef, { name: 'stories_zenchef', category: 'stories' }, {
       fr: {
         path: '/references/zenchef',
+      },
+      de: {
+        path: '/kundenstimmen/zenchef',
+      },
+    },
+  ],
+   [StoriesPicDrop, { name: 'stories_picdrop', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/picdrop',
+      },
+    },
+  ],
+  [StoriesCrossfitOldenburg, { name: 'stories_crossfit_oldenburg', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/crossfit-oldenburg',
       },
     },
   ],

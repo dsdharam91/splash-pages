@@ -9,7 +9,7 @@ export default class FaqProDashboardPaymentRetryFr extends React.Component {
       <Translation locales='fr'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Représentation de paiement</h2>
         <p className='para'>
-          Quand un paiement échoue, nous vous indiquerons lemotif ainsi qu'une brève description. Il y a 3 types principaux de rejets :
+          Quand un paiement échoue, nous vous indiquerons le motif ainsi qu'une brève description. Il y a 3 types principaux de rejets :
         </p>
         <ul className='list'>
           <li>
@@ -22,21 +22,23 @@ export default class FaqProDashboardPaymentRetryFr extends React.Component {
             mandat en place.
           </li>
           <li>
-            <strong>Le paiement a été contesté par le client</strong> : vous devez contacter votre client pour comprendre pourquoi ils
-            ont contesté. Vous ne devriez uniquement créer un nouveau paiement qu'une fois que la contestation a été réglée.
+            <strong>Le paiement a été opposé par le client</strong> : vous devez contacter votre client pour comprendre les raisons
+            de l'opposition. Vous ne devriez uniquement créer un nouveau paiement qu'une fois que l'opposition a été réglée.
           </li>
         </ul>
 
         <p className='para'>
           Quand il est possible de représenter le paiement, vous verrez un boutton "Retry" en haut à droite de la page d'historique
-          du paiement. Si vous cliquez sur ce bouton nous resoumettrons immédiatement votre paiement aux banques. Vous pouvez voir la
-          nouvelle date de prélèvement ainsi que suivre le statut du paiement dans le même historique que le paiement initial.
+          du paiement. Si vous cliquez sur ce bouton, nous re-exécuterons votre paiement. La
+          nouvelle date de prélèvement ainsi que le statut du paiement s'affichera dans le même historique que le paiement initial.
         </p>
 
         <img src='/images/faq/en/payment-retry.png' />
 
+        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Motifs de rejets</h3>
+
         <p className='para'>
-          Ce tableau énumére la liste complète des rejets de paiement possibles ainsi qu'une explication du message de rejet :
+          Ce tableau énumére la liste complète des rejets de paiement possibles ainsi qu'une explication du motif de rejet :
         </p>
 
         <table className='table table--faq u-color-dark-gray'>

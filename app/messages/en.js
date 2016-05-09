@@ -513,6 +513,10 @@ export default {
     title: 'Software Engineer',
     description: '',
   },
+  jobs_senior_site_reliability_engineer: {
+    title: 'Senior Site Reliability Engineer',
+    description: '',
+  },
   jobs_site_reliability_engineer: {
     title: 'Site Reliability Engineer',
     description: '',
@@ -529,16 +533,16 @@ export default {
     title: 'SDR Inbound: UK',
     description: '',
   },
-  jobs_sales_development_representative_outbound: {
-    title: 'SDR Outbound: UK',
-    description: '',
-  },
   jobs_sales_development_representative_french: {
     title: 'SDR: France',
     description: '',
   },
+  jobs_head_of_sales_france: {
+    title: 'Head of Sales: France',
+    description: '',
+  },
   jobs_head_of_sales_germany: {
-    title: 'Head of Sales Germany',
+    title: 'Head of Sales: Germany',
     description: '',
   },
   jobs_content_manager: {
@@ -561,16 +565,16 @@ export default {
     title: 'Digital Marketer',
     description: '',
   },
+  jobs_product_marketing_manager: {
+    title: 'Product Marketing Manager',
+    description: '',
+  },
   jobs_sales_operations_manager: {
     title: 'Sales Operations Manager',
     description: '',
   },
   jobs_communications_designer: {
     title: 'Communications Designer',
-    description: '',
-  },
-  jobs_accounts_assistant: {
-    title: 'Accounts Assistant',
     description: '',
   },
   jobs_customer_support: {
@@ -581,8 +585,8 @@ export default {
     title: 'Developer Support',
     description: '',
   },
-  jobs_customer_success_manager: {
-    title: 'Customer Success Manager',
+  jobs_head_customer_support: {
+    title: 'Head of Customer Support',
     description: '',
   },
   jobs_corporate_account_executive: {

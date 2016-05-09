@@ -1,4 +1,5 @@
 import React from 'react';
+import Message from '../../../../components/message/message';
 import Translation from '../../../../components/translation/translation';
 import IfLocale from '../../../../components/if-locale/if-locale';
 
@@ -14,10 +15,10 @@ export default class FaqMerchantsSecurityEn extends React.Component {
         </h3>
         <Translation locales={['en']} exclude={['en-GB']}>
           <p className='para'>
-            We are regulated as an <a href='http://www.fsa.gov.uk/register/psdFirmBasicDetails.do?sid=315374'
-            title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Authorised Payment Institution</a> by
-            the Financial Conduct Authority in the United Kingdom. We are authorised to collect payments
-            throughout the European Union and currently serve more 10,000 businesses.
+            We are authorised by the Financial Conduct Authority in the United Kingdom to provide payment services as
+            an <a href='https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000000NMgMPAA1'
+            title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Authorised Payment Institution</a> and
+            currently serve more <Message pointer='number_of_merchants' /> businesses.
           </p>
           <p className='para'>
             All money collected is held in a secure client monies account with one of our partner banks.
@@ -25,12 +26,13 @@ export default class FaqMerchantsSecurityEn extends React.Component {
         </Translation>
         <Translation locales='en-GB'>
           <p className='para'>
-            We are regulated as an <a href='http://www.fsa.gov.uk/register/psdFirmBasicDetails.do?sid=315374'
-            title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Authorised Payment Institution</a> by
-            the Financial Conduct Authority and serve more businesses than any other Direct Debit provider.
+            We are authorised by the Financial Conduct Authority to provide payment services as
+            an <a href='https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000000NMgMPAA1'
+            title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>Authorised Payment Institution</a>.
+            We serve more businesses than any other Direct Debit provider.
           </p>
           <p className='para'>
-            All money collected is held in a secure client monies account with the RBS.
+            All money collected is held in a secure client monies account with either the Royal Bank of Scotland, Barclays Bank or SEB.
           </p>
         </Translation>
 
@@ -43,8 +45,8 @@ export default class FaqMerchantsSecurityEn extends React.Component {
         </p>
 
         <ul className='list'>
-          <li>Our access to the Direct Debit system is provided by Europe's major banks, who have approved our systems.</li>
-          <li>All servers are hosted in secure datacentres located in Europe - data is never transmitted outside the EU.</li>
+          <li>Our access to the Direct Debit system is provided by some of Europe's major banks, who have approved our systems.</li>
+          <li>All customer data is treated in accordance with European data protection laws, including the Data Protection Act 1998.</li>
           <li>Our financial data server is separated from our application server by multiple firewalls.</li>
           <li>All client-server communication is 256-bit SSL encrypted. The banking system requires just 128-bit.</li>
         </ul>
