@@ -1,12 +1,15 @@
 import React from 'react';
 import Page from '../../components/page/page';
 import Message from '../../components/message/message';
-import ClockIcon from '../../icons/svg/clock';
+import IntegrationsIcon from '../../icons/svg/integrations';
 import ImproveCashflowIcon from '../../icons/svg/improve-cashflow';
-import MoneyFlowerIcon from '../../icons/svg/money-flower';
+import CustomerIcon from '../../icons/svg/customer';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
 import StoryBigQuote from '../stories/story-big-quote';
+import CheckListIcon from '../../icons/svg/checklist';
+import UsersIcon from '../../icons/svg/users';
+import MoneyFlowerIcon from '../../icons/svg/money-flower';
 
 export default class Accountants extends React.Component {
   displayName = 'Accountants'
@@ -20,7 +23,7 @@ export default class Accountants extends React.Component {
               GoCardless transforms cashflow for accountants
             </h1>
             <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
-              Over a thousand accountants use GoCardless to reduce late payments and admin overhead.
+              Reduce late payments and admin overhead for your practice and your clients.
             </p>
           </div>
         </div>
@@ -29,41 +32,41 @@ export default class Accountants extends React.Component {
             <div className='grid u-center u-text-center'>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <ImproveCashflowIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
-                  <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
+                  <IntegrationsIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
+                  <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Your invoices, paid automatically
                 </h3>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  GoCardless puts you in control and helps you to improve business cash flow. Take payments automatically on invoices
-                  when they’re due.
+                  GoCardless integrates seamlessly with your choice of accounting software. Transactions are pulled straight into your
+                  accounts, reducing time spent on admin.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <ClockIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                  <ClockIcon className='svg-icon__image u-fill-dark-gray' />
+                  <ImproveCashflowIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
+                  <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Reduced admin time
+                  Improve your finances
                 </h3>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Spend less time chasing late invoices and more time advising your clients. Automatically reconcile invoices with
-                  Direct Debit payments.
+                  Make it easy for clients to pay their monthly fees by Direct Debit. No more chasing late payments or time spent on bad
+                  debt. GoCardless is a positive boost for your cash flow.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
-                  <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
+                  <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
+                  <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  1% fees, capped at £2
+                  A solution for your clients
                 </h3>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Pay just 1%, capped at £2 per transaction. It’s cheaper than taking credit card and much easier than cheque and
-                  standing order.
+                  Direct Debit is a powerful tool for helping clients reduce their own late payments.
+                  With GoCardless, your clients reduce debtor days and improve their underlying cash flow.
                 </p>
               </div>
             </div>
@@ -83,29 +86,47 @@ export default class Accountants extends React.Component {
           </StoryBigQuote>
         </div>
 
+        <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
-              GoCardless makes getting paid easier than ever
+            <h2 className='u-color-dark-gray u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+              The smarter way to manage your firm's payment collections
             </h2>
             <div className='grid u-center u-text-center u-padding-Tl u-margin-Ts'>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>Really simple setup</h3>
-                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
-                  Create an account and start taking payments in only two minutes.</p>
-              </div>
-              <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>Integrates with your software</h3>
-                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
-                  GoCardless integrates with leading accountancy software packages.</p>
-              </div>
-              <div className='grid__cell u-size-1of3 u-text-center'>
-                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>
-                  Join <Message pointer='number_of_merchants' />+ businesses
+                <figure className='svg-icon u-center'>
+                  <CustomerIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
+                  <CustomerIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <h3 className='u-color-dark-gray u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Simple sign-up
                 </h3>
-                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
-                  We've collected more than <Message pointer='payments_processed_volume' /> for
-                  over <Message pointer='number_of_merchants' /> merchants.</p>
+                <p className='u-color-dark-gray u-color-p u-margin-Txs u-size-5of6 u-center'>
+                  Clients can securely authorise your payments in minutes, protected by military-grade encryption.
+                </p>
+              </div>
+              <div className='grid__cell u-size-1of3 u-text-center'>
+                <figure className='svg-icon u-center'>
+                  <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
+                  <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <h3 className='u-color-dark-gray u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Flexible payments
+                </h3>
+                <p className='u-color-dark-gray u-color-p u-margin-Txs u-size-5of6 u-center'>
+                  Vary the date, frequency and amount of payments based on your business and client requirements.
+                 </p>
+              </div>
+              <div className='grid__cell u-size-1of3 u-text-center'>
+                <figure className='svg-icon u-center'>
+                  <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
+                  <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
+                </figure>
+                <h3 className='u-color-dark-gray u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Transparent pricing
+                </h3>
+                <p className='u-color-dark-gray u-color-p u-margin-Txs u-size-5of6 u-center'>
+                  Pay just 1% of each transaction, capped at £2. No set up costs, hidden charges or commitments.</p>
               </div>
             </div>
           </div>
