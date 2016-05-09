@@ -599,7 +599,7 @@ export default {
   },
   api_docs: {
     title: 'API Documentation',
-    nav_title: 'API Documentation',
+    nav_title: 'Developers',
   },
   blog: {
     title: 'Blog',
