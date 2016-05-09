@@ -35,10 +35,6 @@ export default {
       success_message: 'Obrigado pelo seu interesse. Nós entraremos em contato assim que lançamos no Brasil. Para mais informação sobre GoCardless, visite nosso site Europeu.',
     },
   },
-  pro_docs: {
-    title: 'Pro API',
-    nav_title: 'Pro API',
-  },
   blog: {
     title: 'Blog',
     nav_title: 'Blog',

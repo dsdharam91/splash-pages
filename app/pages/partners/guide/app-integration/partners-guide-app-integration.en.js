@@ -88,7 +88,7 @@ export default class PartnersGuideAppIntegrationEn extends React.Component {
         <p>
           For more details on designing payment pages that comply with the
           Direct Debit guidelines,
-          click <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements'
+          click <a href='https://developer.gocardless.com/#appendix-compliance-requirements'
           target='_blank'>here</a>.
         </p>
 
@@ -137,7 +137,7 @@ export default class PartnersGuideAppIntegrationEn extends React.Component {
 
         <p>
           For examples of GoCardless customer notifications
-          click <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>here</a>. To
+          click <a href='https://developer.gocardless.com/#appendix-compliance-requirements' target='_blank'>here</a>. To
           complete an end to end payment, include
           notifications, <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>click
           here</a> and use Account Number 55779911 and Sort Code 200000.
@@ -175,8 +175,8 @@ export default class PartnersGuideAppIntegrationEn extends React.Component {
         <p>
           You can attach customer references on a per mandate basis (the first reference) and/or
           on a per payment basis (the second reference). Further details can be found&nbsp;
-          <a href='https://developer.gocardless.com/pro/#core-endpoints-mandates' target='_blank'>here</a> and&nbsp;
-          <a href='https://developer.gocardless.com/pro/#core-endpoints-payments' target='_blank'>here</a> in the documentation.
+          <a href='https://developer.gocardless.com/#core-endpoints-mandates' target='_blank'>here</a> and&nbsp;
+          <a href='https://developer.gocardless.com/#core-endpoints-payments' target='_blank'>here</a> in the documentation.
         </p>
 
         <p>

@@ -137,7 +137,7 @@ export default class PartnersGuideWhiteLabelEn extends React.Component {
 
         <p>
           For more details on designing payment pages that comply with the Direct Debit guidelines,
-          click <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>here</a>.
+          click <a href='https://developer.gocardless.com/#appendix-compliance-requirements' target='_blank'>here</a>.
         </p>
 
         <h3>Merchant hosted customised payment pages</h3>
@@ -166,7 +166,7 @@ export default class PartnersGuideWhiteLabelEn extends React.Component {
 
         <p>
           For examples of GoCardless customer notifications and a guide to designing your own,
-          click <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>here</a>. To complete an
+          click <a href='https://developer.gocardless.com/#appendix-compliance-requirements' target='_blank'>here</a>. To complete an
           end to end payment, include
           notifications, <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>click here</a> and use
           Account Number 55779911 and Sort Code 200000.
@@ -208,8 +208,8 @@ export default class PartnersGuideWhiteLabelEn extends React.Component {
         <p>
           You can attach customer references on a per mandate basis (the first reference) and/or on a per
           payment basis (the second reference). Further details can be
-          found <a href='https://developer.gocardless.com/pro/#core-endpoints-mandates' target='_blank'>here</a>
-          &nbsp;and <a href='https://developer.gocardless.com/pro/#core-endpoints-payments' target='_blank'>here</a> in
+          found <a href='https://developer.gocardless.com/#core-endpoints-mandates' target='_blank'>here</a>
+          &nbsp;and <a href='https://developer.gocardless.com/#core-endpoints-payments' target='_blank'>here</a> in
           the documentation.
         </p>
 
@@ -298,7 +298,7 @@ export default class PartnersGuideWhiteLabelEn extends React.Component {
           In a White label integration, as your clients will not be creating GoCardless accounts, they will
           not have access to a GoCardless dashboard, and so all reporting will need to be provided to them via
           the API. Details of our webhooks can be
-          found <a href='https://developer.gocardless.com/pro/#webhooks-overview' target='_blank'>here</a>.
+          found <a href='https://developer.gocardless.com/#webhooks-overview' target='_blank'>here</a>.
         </p>
 
         <h3>Required development resource</h3>

@@ -13,9 +13,9 @@ export default class PartnersGuideTestingEn extends React.Component {
         <h3>Where can I find your API documentation?</h3>
 
         <p>
-          Our API documentation can be found <a href='https://developer.gocardless.com/pro/' target='_blank'>here</a>. You
+          Our API documentation can be found <a href='https://developer.gocardless.com/' target='_blank'>here</a>. You
           can find specific guides to our App integration using
-          OAuth <a href='https://developer.gocardless.com/pro/#guides-oauth' target='_blank'>here</a>.
+          OAuth <a href='https://developer.gocardless.com/#guides-oauth' target='_blank'>here</a>.
         </p>
 
         <h3>Do you have a sandbox account so that I can test my integration?</h3>
@@ -30,7 +30,7 @@ export default class PartnersGuideTestingEn extends React.Component {
         <p>
           Our API is adherent to the RESTful style and published in the JSON schema. We also publish
           client libraries to help our integrators - those are
-          published <a href='https://developer.gocardless.com/pro/#overview-client-libraries' target='_blank'>here</a>.
+          published <a href='https://developer.gocardless.com/#overview-client-libraries' target='_blank'>here</a>.
         </p>
 
         <h3>Where can I get technical support?</h3>

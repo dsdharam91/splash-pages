@@ -85,7 +85,7 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
 
         <p>
           Mehr Informationen zur Gestaltung von Mandatsseiten, die mit den Lastschriftrichtlinien konform sind, finden
-          Sie <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>hier</a>.
+          Sie <a href='https://developer.gocardless.com/#appendix-compliance-requirements' target='_blank'>hier</a>.
         </p>
 
         <p>
@@ -134,7 +134,7 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
 
         <p>
           Beispiele zu GoCardless-Kundenbenachrichtigungen finden
-          Sie <a href='https://developer.gocardless.com/pro/#appendix-compliance-requirements' target='_blank'>hier</a>.
+          Sie <a href='https://developer.gocardless.com/#appendix-compliance-requirements' target='_blank'>hier</a>.
           Um eine Testzahlung abzuschließen und Testbenachrichtigungen einzufügen, klicken
           Sie <a href='https://pay-sandbox.gocardless.com/AL000000AKFPFF' target='_blank'>hier</a>.
           Verwenden Sie dabei die Kontonummer 55779911 und die Bankleitzahl 200000.
@@ -171,8 +171,8 @@ export default class PartnersGuideAppIntegrationDe extends React.Component {
         <p>
           Sie können Kundenreferenzen je Mandat (erste Referenz) und/oder je Zahlung (zweite Referenz) einfügen.
           Nähere Informationen finden Sie&nbsp;
-          <a href='https://developer.gocardless.com/pro/#core-endpoints-mandates' target='_blank'>hier</a> und&nbsp;
-          <a href='https://developer.gocardless.com/pro/#core-endpoints-payments' target='_blank'>hier</a> in der Dokumentation.
+          <a href='https://developer.gocardless.com/#core-endpoints-mandates' target='_blank'>hier</a> und&nbsp;
+          <a href='https://developer.gocardless.com/#core-endpoints-payments' target='_blank'>hier</a> in der Dokumentation.
         </p>
 
         <p>

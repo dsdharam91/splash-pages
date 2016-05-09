@@ -22,7 +22,7 @@ export default class FaqMerchantsFr extends React.Component {
           </li>
           <li>
             <strong>GoCardless Pro</strong> - Automatisez vos prélèvements en intégrant
-            notre <a href='https://developer.gocardless.com/pro' className='u-link-color-p u-text-underline'>REST
+            notre <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>REST
             API</a> dans votre site internet et vos systèmes informatiques.
           </li>
           <li>
@@ -68,7 +68,7 @@ export default class FaqMerchantsFr extends React.Component {
           </li>
           <li>
             <strong>Évoluez facilement</strong> - Notre tableau de bord est propulsé par
-            notre <a href='https://developer.gocardless.com/pro' className='u-link-color-p u-text-underline'>API REST</a>.
+            notre <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>API REST</a>.
             Ceci vous permet de facilement évoluer vers l'API afin d'automatiser plus en profondeur au fur et
             à mesure.
           </li>

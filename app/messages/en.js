@@ -41,7 +41,7 @@ export default {
   phone_local: '+44 20 7183 8674',
   email: 'help@gocardless.com',
   partners_email: 'partnerships@gocardless.com',
-  documentation_link: 'https://developer.gocardless.com/pro',
+  documentation_link: 'https://developer.gocardless.com/',
   prospect_form: {
     sales: {
       name_label: 'Your name',
@@ -245,11 +245,6 @@ export default {
     title: 'FAQ - Payout tracking',
     nav_title: 'Payout tracking',
     description: '',
-  },
-  features_api: {
-    title: 'GoCardless API: Integrate Direct Debit into your website & app',
-    nav_title: 'API',
-    description: 'With the GoCardless REST API, you can integrate Direct Debit payments into your website or app. Official libraries for Ruby, PHP, Java & more.',
   },
   security: {
     title: 'Security',
@@ -602,9 +597,9 @@ export default {
     title: 'SDR: Spain',
     description: '',
   },
-  pro_docs: {
-    title: 'Pro API',
-    nav_title: 'Pro API',
+  api_docs: {
+    title: 'API Documentation',
+    nav_title: 'API Documentation',
   },
   blog: {
     title: 'Blog',

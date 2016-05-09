@@ -40,7 +40,7 @@ export default class FeaturesAPI extends React.Component {
               <a href='https://github.com/gocardless/gocardless-ruby'>Ruby</a>,&nbsp;
               <a href='https://github.com/gocardless/gocardless-php'>PHP</a>,&nbsp;
               <a href='https://github.com/gocardless/gocardless-java'>Java</a> &amp;&nbsp;
-              <a href='https://developer.gocardless.com/pro/#overview-client-libraries'>more</a>
+              <a href='https://developer.gocardless.com/#overview-client-libraries'>more</a>
             </p>
             <div className='grid u-margin-Vl u-padding-Vl'>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -86,7 +86,7 @@ export default class FeaturesAPI extends React.Component {
                 </p>
               </div>
             </div>
-            <a href='https://developer.gocardless.com/pro'
+            <a href='https://developer.gocardless.com/'
             className={
               'u-color-primary u-text-upcase u-text-xxs ' +
               'u-text-heading u-text-semi u-block u-margin-Tm'
@@ -249,7 +249,7 @@ export default class FeaturesAPI extends React.Component {
               <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                 Get started today
               </h2>
-              <a href='https://developer.gocardless.com/pro' target='_blank' className='btn btn--hollow u-margin-Tm'>
+              <a href='https://developer.gocardless.com/' target='_blank' className='btn btn--hollow u-margin-Tm'>
                 Read our API documentation
               </a>
               <hr className='u-margin-Vxl horizontal-rule u-size-3of4 u-center' />

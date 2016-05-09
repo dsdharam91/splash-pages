@@ -14,11 +14,11 @@ export default class PartnersGuideGettingStartedEn extends React.Component {
 
         <p>
           If you’ve decided on either App integration or White label, you should get familiar with
-          our <a href='https://developer.gocardless.com/pro/#overview' target='_blank'>API documentation</a>. Specific
+          our <a href='https://developer.gocardless.com/#overview' target='_blank'>API documentation</a>. Specific
           sections on App integration (using OAuth) can be
-          found <a href='https://developer.gocardless.com/pro/#guides-oauth' target='_blank'>here</a>. Specific sections on
+          found <a href='https://developer.gocardless.com/#guides-oauth' target='_blank'>here</a>. Specific sections on
           White label integration can be found <a
-          href='https://developer.gocardless.com/pro/#whitelabel-partner-endpoints' target='_blank'>here</a>.
+          href='https://developer.gocardless.com/#whitelabel-partner-endpoints' target='_blank'>here</a>.
         </p>
 
         <p>

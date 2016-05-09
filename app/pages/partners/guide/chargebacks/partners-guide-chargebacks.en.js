@@ -57,14 +57,14 @@ export default class PartnersGuideChargebacksEn extends React.Component {
           Yes - merchants can process either full or partial refunds via GoCardless. We pay out the amount
           immediately via bank transfer to the customer and then deduct the amount from the next payout. We
           do not charge for refunds. See our API
-          docs <a href='https://developer.gocardless.com/pro/#core-endpoints-refunds' target='_blank'>here</a>.
+          docs <a href='https://developer.gocardless.com/#core-endpoints-refunds' target='_blank'>here</a>.
         </p>
 
         <h3>What happens if the customer has insufficient funds available on the day of payment?</h3>
 
         <p>
           In almost all instances the payment will fail and GoCardless will return a web hook explaining
-          their reason for the failure details. See <a href='https://developer.gocardless.com/pro/#webhooks-examples' target='_blank'>
+          their reason for the failure details. See <a href='https://developer.gocardless.com/#webhooks-examples' target='_blank'>
           here</a> for more details.
         </p>
       </Translation>

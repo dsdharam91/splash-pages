@@ -40,7 +40,7 @@ export default {
     address_country_iso: 'GB',
   },
   partners_email: 'partnerships@gocardless.com',
-  documentation_link: 'https://developer.gocardless.com/pro',
+  documentation_link: 'https://developer.gocardless.com/',
   prospect_form: {
     sales: {
       name_label: 'Nombre',
@@ -155,9 +155,9 @@ export default {
     description: '',
     nav_title: 'Equipo',
   },
-  pro_docs: {
-    title: 'Pro API',
-    nav_title: 'Pro API',
+  api_docs: {
+    title: 'API',
+    nav_title: 'API',
   },
   signin: {
     path: 'https://manage.gocardless.com',
