@@ -109,6 +109,15 @@ class Header extends React.Component {
                 </Link>
               </IfLinkExists>
 
+
+              <div className='nav__item u-relative'>
+                <a href='https://developer.gocardless.com/' className={linkClass}>
+                  <div className='nav__item-link'>
+                    <Message pointer='api_docs.nav_title' />
+                  </div>
+                </a>
+              </div>
+
               <div className='nav__item u-relative'>
                 <Popover toggle={
                   (<a href='' id='track-nav-more' className={linkClass}>
