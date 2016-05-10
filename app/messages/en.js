@@ -569,12 +569,20 @@ export default {
     title: 'Product Marketing Manager',
     description: '',
   },
+  jobs_new_business_representative_uk: {
+    title: 'New Business Representative: UK',
+    description: '',
+  },
   jobs_sales_operations_manager: {
     title: 'Sales Operations Manager',
     description: '',
   },
   jobs_communications_designer: {
     title: 'Communications Designer',
+    description: '',
+  },
+  jobs_product_designer: {
+    title: 'Product Designer',
     description: '',
   },
   jobs_customer_support: {

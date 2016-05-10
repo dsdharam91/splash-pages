@@ -37,11 +37,13 @@ import HeadofSalesGermany from '../pages/about/jobs/positions/head-of-sales-germ
 import ContentManager from '../pages/about/jobs/positions/content-manager';
 import CustomerSupportFrench from '../pages/about/jobs/positions/customer-support-french';
 import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
+import NewBusinessRepresentative from '../pages/about/jobs/positions/new-business-development-representative.js';
 import Recruiter from '../pages/about/jobs/positions/recruiter.js';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
 import ProductMarketingManager from '../pages/about/jobs/positions/product-marketing-manager.js';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 import CommunicationsDesigner from '../pages/about/jobs/positions/communications-designer.js';
+import ProductDesigner from '../pages/about/jobs/positions/product-designer.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
 import HeadCustomerSupport from '../pages/about/jobs/positions/head-customer-support.js';
@@ -442,6 +444,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [ProductDesigner, { name: 'jobs_product_designer', category: 'jobs.ux_design' }, {
+      en: {
+        path: '/about/jobs/product-designer',
+      },
+    },
+  ],
   [InsideAccountExecutive, { name: 'jobs_inside_account_executive_uk', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/inside-account-executive-uk',
@@ -472,6 +480,12 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/ueber-uns/jobs/head-of-sales-deutschland',
+      },
+    },
+  ],
+  [NewBusinessRepresentative, { name: 'jobs_new_business_representative_uk', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/new-business-representative-uk',
       },
     },
   ],
