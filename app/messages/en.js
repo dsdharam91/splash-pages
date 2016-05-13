@@ -605,6 +605,14 @@ export default {
     title: 'SDR: Spain',
     description: '',
   },
+  jobs_legal_assistant: {
+    title: 'Legal Assistant',
+    description: '',
+  },
+  jobs_compliance_manager: {
+    title: 'Compliance Manager',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
