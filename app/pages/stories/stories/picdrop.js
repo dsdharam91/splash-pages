@@ -19,7 +19,7 @@ export default class StoriesPicDrop extends React.Component {
         bgimg='crowdcube-logo stories-item__logo--crowdcube'>
         <StoryQuote tag='Vorher gab es viele Rückläufer, und dadurch unerwartete zusätzliche Kosten im dreistelligen Bereich.'>
           <p className='para u-margin-Tn'><a href='https://www.picdrop.de/' className='u-link-color-p u-text-underline' target='_blank'>
-          PicDrop</a> ist eines der führenden Tools zur Bildübertragung. Gegründet in 2012 in Berlin, wird es heute von mehr als 12.000
+          PicDrop</a> ist eines der führenden Tools zur Bildübertragung. Gegründet in 2012 in Berlin, wird es heute von mehr als 16.000
           Fotografen genutzt, um einfach und sicher Bilder mit Kunden zu teilen.</p>
           <p className='para'>PicDrops Gründer, Andreas Chudowski und Tobias Friese, arbeiten stets daran, ihr Produkt weiter zu verbessern.
           Dabei war der tägliche Kampf mit ihren Lastschriften vor der Einbindung von GoCardless eine unwillkommene Ablenkung. Andreas musste
