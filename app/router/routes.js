@@ -49,6 +49,8 @@ import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js
 import HeadCustomerSupport from '../pages/about/jobs/positions/head-customer-support.js';
 import CorporateAccountExecutive from '../pages/about/jobs/positions/corporate-account-executive.js';
 import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
+import LegalAssistant from '../pages/about/jobs/positions/legal-assistant.js';
+import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -564,6 +566,18 @@ export const config = Immutable.fromJS([
   [Recruiter, { name: 'jobs_recruiter', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/recruiter',
+      },
+    },
+  ],
+  [LegalAssistant, { name: 'jobs_legal_assistant', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/legal-assistant',
+      },
+    },
+  ],
+  [ComplianceManager, { name: 'jobs_compliance_manager', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/compliance-manager',
       },
     },
   ],

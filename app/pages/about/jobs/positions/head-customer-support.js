@@ -79,9 +79,9 @@ export default class HeadCustomerSupport extends React.Component {
           </li>
         </ul>
         <p className='para'>
-          This role would ideally suit someone with proven experience of best practice customer service operations
-          gained in a global operating environment. However, our team comes from a variety of backgrounds and we
-          welcome diversity &ndash; if you’re unsure, please apply.
+          This role would ideally suit someone with previous experience in a startup environment and proven experience
+          of best practice customer service operations gained in a global operating environment. However, our team comes
+          from a variety of backgrounds and we welcome diversity &ndash; if you’re unsure, please apply.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/206112' className='btn u-margin-Vs'>
           Apply now
