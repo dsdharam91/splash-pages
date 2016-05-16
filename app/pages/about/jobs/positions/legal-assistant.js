@@ -7,7 +7,7 @@ export default class LegalAssistant extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Legal Assistant</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-heading'>Legal Assistant/Paralegal</h3>
         <p className='para'>
           Provide class-leading legal advice on a wide range of topics and areas, in an exciting, dynamic and high-growth fintech company.
         </p>
@@ -38,7 +38,7 @@ export default class LegalAssistant extends React.Component {
           <li>Advising and leading on a range of sales contract issues and negotiations &ndash; from simplified online terms,
           through to complex agreements with some of the world’s largest brands.</li>
           <li>Supporting large legal projects such as venture capital fund raises, and other corporate work.</li>
-          <li>Implementing innovative solutions to and advising on escalated customer support issues, including official complaints.</li>
+          <li>Implementing innovative solutions to and advising on escalated customer support issues.</li>
           <li>Coordinating external counsel across multiple jurisdictions, for general advice, discrete projects or new country launches.</li>
           <li>Designing and implementing processes and practices to ensure that the legal team is as efficient and nimble as the wider business.</li>
           <li>Assisting with compliance reviews and audits.</li>
