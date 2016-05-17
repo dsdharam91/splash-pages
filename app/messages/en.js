@@ -589,10 +589,6 @@ export default {
     title: 'Customer Support',
     description: '',
   },
-  jobs_developer_support: {
-    title: 'Developer Support',
-    description: '',
-  },
   jobs_head_customer_support: {
     title: 'Head of Customer Support',
     description: '',
