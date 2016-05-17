@@ -64,7 +64,7 @@ export default class ComplianceManager extends React.Component {
         </ul>
         <p className='para'>
           This role would ideally suit someone with experience in a large compliance team, who is looking to implement a compliance
-          function at a younger, high-performing company.  However, we recognise that the most talented people can have the most
+          function at a younger, high-performing company. However, we recognise that the most talented people can have the most
           unusual backgrounds &ndash; if you’re unsure, please apply. The role will be based in London and we will consider both full time
           and part time applicants.
         </p>
