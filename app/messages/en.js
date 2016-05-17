@@ -609,6 +609,14 @@ export default {
     title: 'Compliance Manager',
     description: '',
   },
+  jobs_partnerships_manager_sme: {
+    title: 'Partnerships Manager, SME',
+    description: '',
+  },
+  jobs_partnerships_manager_enterprise: {
+    title: 'Partnerships Manager Enterprise',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
