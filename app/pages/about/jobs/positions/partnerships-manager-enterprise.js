@@ -63,7 +63,7 @@ export default class PartnershipsManagerEnterprise extends React.Component {
         </p>
         <ul className='list u-margin-Tm'>
           <li>You have business development, account management or partnerships experience; ideally in a B2B role.</li>
-          <li>You are self-motivated, driven, high energy and engaging.</li>
+          <li>You are self-motivated, driven, high-energy and engaging.</li>
           <li>You are commercially astute and data-driven with strong quantitative analytical skills.</li>
           <li>You have excellent communication and written skills.</li>
           <li>You are able to work across multiple teams and present to business leaders at senior levels.</li>

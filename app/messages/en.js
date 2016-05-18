@@ -614,7 +614,7 @@ export default {
     description: '',
   },
   jobs_partnerships_manager_enterprise: {
-    title: 'Partnerships Manager Enterprise',
+    title: 'Partnerships Manager, Enterprise',
     description: '',
   },
   api_docs: {
