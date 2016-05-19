@@ -17,7 +17,7 @@ export default class PartnershipsManagerSME extends React.Component {
           you're in.
         </p>
         <p className='para'>
-          Our strategic partnerships with market-leading platforms such as Xero, Sage and TeamUp have been critical to
+          Our strategic partnerships with market-leading platforms such as Xero, Sage and teamup have been critical to
           our success in reaching over 16,000 active SMEs.
         </p>
         <p className='para'>
