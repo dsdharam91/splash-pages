@@ -50,6 +50,8 @@ import CorporateAccountExecutive from '../pages/about/jobs/positions/corporate-a
 import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
 import LegalAssistant from '../pages/about/jobs/positions/legal-assistant.js';
 import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
+import PartnershipsManagerSME from '../pages/about/jobs/positions/partnerships-manager.js';
+import PartnershipsManagerEnterprise from '../pages/about/jobs/positions/partnerships-manager-enterprise.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -574,7 +576,18 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-
+  [PartnershipsManagerSME, { name: 'jobs_partnerships_manager_sme', category: 'jobs.marketing' }, {
+      en: {
+        path: '/about/jobs/partnerships-manager',
+      },
+    },
+  ],
+  [PartnershipsManagerEnterprise, { name: 'jobs_partnerships_manager_enterprise', category: 'jobs.marketing' }, {
+      en: {
+        path: '/about/jobs/partnerships-manager-enterprise',
+      },
+    },
+  ],
   [LegalIntroduction, { name: 'legal', category: 'legal' }, {
       'en-GB': {
         path: '/legal',
