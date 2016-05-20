@@ -42,7 +42,7 @@ export default class PartnershipsManagerEnterprise extends React.Component {
           <li>Creating a joint marketing plan with our Marketing team to help build awareness with our partners of their
             GoCardless integration and to support uptake and revenue growth.</li>
           <li>Finding new ways to create partnerships by identifying new commercial and technical arrangements to build out
-            our ecosystem, such as referral agreements and collaboration with with system integrators.</li>
+            our ecosystem, such as referral agreements and collaboration with system integrators.</li>
           <li>Defining processes to ensure partners are served effectively by GoCardless from the sell in to onboarding to customer
             signups and revenue growth.</li>
           <li>Being responsible for delivering against qualified opportunity and revenue targets.</li>
