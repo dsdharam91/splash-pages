@@ -46,7 +46,6 @@ import CommunicationsDesigner from '../pages/about/jobs/positions/communications
 import ProductDesigner from '../pages/about/jobs/positions/product-designer.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import HeadCustomerSupport from '../pages/about/jobs/positions/head-customer-support.js';
-import CorporateAccountExecutive from '../pages/about/jobs/positions/corporate-account-executive.js';
 import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
 import LegalAssistant from '../pages/about/jobs/positions/legal-assistant.js';
 import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
@@ -456,12 +455,6 @@ export const config = Immutable.fromJS([
   [InsideAccountExecutive, { name: 'jobs_inside_account_executive_uk', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/inside-account-executive-uk',
-      },
-    },
-  ],
-  [CorporateAccountExecutive, { name: 'jobs_corporate_account_executive', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/corporate-account-executive',
       },
     },
   ],

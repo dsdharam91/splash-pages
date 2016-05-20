@@ -593,10 +593,6 @@ export default {
     title: 'Head of Customer Support',
     description: '',
   },
-  jobs_corporate_account_executive: {
-    title: 'Account Executive, Corporate Sales: UK',
-    description: '',
-  },
   jobs_spanish_sales_development_representative: {
     title: 'SDR: Spain',
     description: '',
