@@ -627,6 +627,11 @@ export default {
     title: 'Support',
     nav_title: 'Support',
   },
+  'how-to': {
+    title: 'How to',
+    nav_title: 'How to',
+    description: 'How to use GoCardless',
+  },
   stories_has_bean_coffee: {
     title: 'Has Bean Coffee',
     description: 'Has Bean Coffee improved their cashflow by 30% using Direct Debit with GoCardless. See their testimonial of taking subscriptions using GoCardless.',

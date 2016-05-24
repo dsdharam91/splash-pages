@@ -6,7 +6,7 @@ import touch from 'touch';
 
 const devEnv = require('../config/dev-environment');
 
-const WEBPACK_HOST = process.env.HOST || 'localhost';
+const WEBPACK_HOST = process.env.HOST || '0.0.0.0';
 const WEBPACK_PORT = parseInt(process.env.PORT) || devEnv.webpackPort;
 
 const config = devConfig(WEBPACK_HOST, WEBPACK_PORT);
