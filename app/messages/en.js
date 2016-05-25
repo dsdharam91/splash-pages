@@ -549,10 +549,6 @@ export default {
     title: 'Content Manager',
     description: '',
   },
-  jobs_customer_support_french: {
-    title: 'French Customer Support',
-    description: '',
-  },
   jobs_inside_account_executive_uk: {
     title: 'Account Executive, Inside Sales: UK',
     description: '',

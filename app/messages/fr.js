@@ -263,10 +263,6 @@ export default {
     title: 'Chargé de développement commercial',
     description: '',
   },
-  jobs_customer_support_french: {
-    title: 'Customer Support',
-    description: '',
-  },
   pro: {
     title: 'Le contrôle total de vos prélèvements',
     nav_title: 'GoCardless Pro',
