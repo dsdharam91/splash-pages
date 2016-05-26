@@ -12,6 +12,10 @@ export default class PartnersQuickbooks extends React.Component {
   render() {
     return (
       <Page isInverted={false}>
+        { /* This is totally incorrect and we shouldn't be doing this as the meta tag is rendered in <body> not <head>. Just need a
+        temporary way to noindex this page from search engines until we launch. Please remove this when page goes live. */ }
+        <meta name='robots' content='noindex,follow' />
+
         <div className='page-hero page-hero--pricing page-hero--one-product-pricing u-size-full'>
           <div className='u-overflow-hidden u-relative u-size-full'>
             <div className='site-container page-hero__container'>
@@ -35,7 +39,7 @@ export default class PartnersQuickbooks extends React.Component {
                     </a>
 
                     <div className='partners-page__button-divider u-pull-start'></div>
-                    <figure className='quickbooks-logo-gray partners-page__quickbooks-logo u-pull-start'/>
+                    <figure className='quickbooks-logo partners-page__quickbooks-logo u-pull-start'/>
                   </div>
                 </div>
 
@@ -61,7 +65,7 @@ export default class PartnersQuickbooks extends React.Component {
                 </div>
 
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Collect payments automatically on your invoices as soon as<br/>they’re due.
+                  Collect payments automatically on your QuickBooks invoices as soon as they’re due.
                 </p>
               </div>
 
@@ -89,7 +93,7 @@ export default class PartnersQuickbooks extends React.Component {
                 </div>
 
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Pay just 1%, capped at £2 per transaction, with no set up costs or hidden fees.
+                  Free integration. Pay just 1%, capped at £2 per transaction, with no set up costs or hidden fees.
                 </p>
               </div>
             </div>
@@ -108,7 +112,7 @@ export default class PartnersQuickbooks extends React.Component {
               </h2>
 
               <p className='u-color-dark-gray u-margin-Bm'>
-                Get started in minutes by creating a GoCardless account and connecting it to your Quickbooks account.
+                Get started in minutes by creating a GoCardless account and connecting it to your QuickBooks account.
               </p>
             </div>
 
@@ -131,7 +135,8 @@ export default class PartnersQuickbooks extends React.Component {
               </h2>
 
               <p className='u-color-dark-gray u-margin-Bm'>
-                Select individual customers or select multiple customers to send a Direct Debit mandate request. Once they’ve filled in the simple online form, you’re ready to collect payments.
+                Select individual or multiple customers to send a Direct Debit mandate request to. Alternatively, you can import your
+                existing GoCardless mandates.
               </p>
             </div>
 
