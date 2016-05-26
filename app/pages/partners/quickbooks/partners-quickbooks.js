@@ -39,7 +39,7 @@ export default class PartnersQuickbooks extends React.Component {
                     </a>
 
                     <div className='partners-page__button-divider u-pull-start'></div>
-                    <figure className='quickbooks-logo-gray partners-page__quickbooks-logo u-pull-start'/>
+                    <figure className='quickbooks-logo partners-page__quickbooks-logo u-pull-start'/>
                   </div>
                 </div>
 
