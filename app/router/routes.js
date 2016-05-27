@@ -6,6 +6,7 @@ import Pro from '../pages/pro/pro';
 import Features from '../pages/features/features';
 import Security from '../pages/security/security';
 import ContactSales from '../pages/contact-sales/contact-sales';
+import HowTo from '../pages/how-to/how-to';
 
 import PaymentsByDirectDebit from '../pages/payments-by-direct-debit/payments-by-direct-debit';
 import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/payments-by-direct-debit-variation-b';
@@ -1443,6 +1444,12 @@ export const config = Immutable.fromJS([
   [StoriesHabitat, { name: 'stories_habitat', category: 'stories' }, {
       fr: {
         path: '/references/habitat',
+      },
+    },
+  ],
+  [HowTo, { name: 'how-to' }, {
+      'en-GB': {
+        path: '/how-to',
       },
     },
   ],
