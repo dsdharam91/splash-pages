@@ -47,7 +47,7 @@ export default class ComplianceManager extends React.Component {
          You should apply if:
        </p>
        <ul className='list u-margin-Tm'>
-         <li>You have experience in a compliance team at a regulated company or corporate.</li>
+         <li>You have experience in a compliance team at a FCA regulated company, in a compliance team of 10 people or fewer.</li>
          <li>You have experience in drafting, implementing and rolling out compliance plans, frameworks and policies across a company or department.</li>
          <li>Your risk radar is finely tuned.</li>
          <li>Your communication skills are first class, and you are able to distil complex and cumbersome regulation into understandable English.</li>
@@ -58,7 +58,6 @@ export default class ComplianceManager extends React.Component {
         </p>
         <ul className='list u-margin-Tm'>
           <li>You’ve helped to establish, or have seen a compliance function established.</li>
-          <li>You have knowledge of FCA requirements.</li>
           <li>You have experience of submitting updates to the FCA and/or HMRC.</li>
           <li>You have experience of an international compliance programme.</li>
         </ul>

@@ -541,16 +541,8 @@ export default {
     title: 'Head of Sales: France',
     description: '',
   },
-  jobs_head_of_sales_germany: {
-    title: 'Head of Sales: Germany',
-    description: '',
-  },
   jobs_content_manager: {
     title: 'Content Manager',
-    description: '',
-  },
-  jobs_inside_account_executive_uk: {
-    title: 'Account Executive, Inside Sales: UK',
     description: '',
   },
   jobs_recruiter: {
@@ -563,10 +555,6 @@ export default {
   },
   jobs_product_marketing_manager: {
     title: 'Product Marketing Manager',
-    description: '',
-  },
-  jobs_new_business_representative_uk: {
-    title: 'New Business Representative: UK',
     description: '',
   },
   jobs_sales_operations_manager: {

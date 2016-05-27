@@ -247,10 +247,6 @@ export default {
     title: 'Engineering Internships',
     description: '',
   },
-  jobs_data_infrastructure_engineer: {
-    title: 'Data Infrastructure Engineer',
-    description: '',
-  },
   jobs_designers: {
     title: 'Designers',
     description: '',
@@ -261,14 +257,6 @@ export default {
   },
   jobs_sales_development_representative: {
     title: 'Sales Development Representative',
-    description: '',
-  },
-  jobs_head_of_sales_germany: {
-    title: 'Head of Sales Deutschland',
-    description: '',
-  },
-  jobs_business_development_germany: {
-    title: 'Business Development: Germany',
     description: '',
   },
   jobs_content_manager: {
