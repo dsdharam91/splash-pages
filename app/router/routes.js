@@ -36,8 +36,6 @@ import SalesDevelopmentRepresentativeFrench from '../pages/about/jobs/positions/
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import HeadofSalesGermany from '../pages/about/jobs/positions/head-of-sales-germany';
 import ContentManager from '../pages/about/jobs/positions/content-manager';
-import InsideAccountExecutive from '../pages/about/jobs/positions/inside-account-executive-uk.js';
-import NewBusinessRepresentative from '../pages/about/jobs/positions/new-business-development-representative.js';
 import Recruiter from '../pages/about/jobs/positions/recruiter.js';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
 import ProductMarketingManager from '../pages/about/jobs/positions/product-marketing-manager.js';
@@ -452,12 +450,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [InsideAccountExecutive, { name: 'jobs_inside_account_executive_uk', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/inside-account-executive-uk',
-      },
-    },
-  ],
   [EnterpriseAccountExecutive, { name: 'jobs_enterprise_account_executive', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/enterprise-account-executive',
@@ -476,12 +468,6 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/ueber-uns/jobs/head-of-sales-deutschland',
-      },
-    },
-  ],
-  [NewBusinessRepresentative, { name: 'jobs_new_business_representative_uk', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/new-business-representative-uk',
       },
     },
   ],
