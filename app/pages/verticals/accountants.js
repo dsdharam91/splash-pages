@@ -87,6 +87,86 @@ export default class Accountants extends React.Component {
         </div>
 
         <hr className='u-margin-An' />
+        <div className='site-container u-text-center u-padding-Vxxl'>
+          <div className='grid u-padding-Vxl'>
+            <div className='grid__cell u-size-1of2'>
+              <img src='/images/features/pro-dashboard-timeline.png' className='u-padding-Rm' />
+            </div>
+            <div className='grid__cell u-size-1of2'>
+              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
+                Your invoices, paid automatically
+              </h2>
+              <h3 className='u-text-s'>A better client experience</h3>
+              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                Give clients the option to pay you quickly and automatically through Direct Debit.
+              </p>
+              <h3 className='u-text-s'>Connected to your cloud system</h3>
+              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                GoCardless integrates with online accounting and business systems including Xero, QuickBooks, Sage, Kashflow,
+                FreeAgent and others.
+              </p>
+              <h3 className='u-text-s'>More efficient financial management</h3>
+              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                Transactions are pulled straight into your accounts so you can spend less time dealing with financial admin and more
+                time working with your clients.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr className='u-margin-An' />
+        <div className='site-container u-text-center u-padding-Vxxl'>
+          <div className='grid u-padding-Vxl'>
+            <div className='grid__cell u-size-1of2'>
+              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
+                Transform your firm’s finances
+              </h2>
+              <h3 className='u-text-s'>Automate your cash collection</h3>
+              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                Collect fees straight from your client’s bank accounts using Direct Debit.
+              </p>
+              <h3 className='u-text-s'>Reduce your debtor chasing time</h3>
+              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                Take control of your payments, with no need to chase outstanding debts.
+              </p>
+              <h3 className='u-text-s'>Improve your firm’s cash flow</h3>
+              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                See the positive impact on your cash-flow situation with predictable client revenue.
+              </p>
+            </div>
+            <div className='grid__cell u-size-1of2 u-text-center'>
+              <img src='/images/why-dd/slide-3.png' className='auddis-page-illustration u-margin-Txxl u-padding-Ts' />
+            </div>
+          </div>
+        </div>
+
+        <hr className='u-margin-An' />
+        <div className='site-container u-text-center u-padding-Vxxl'>
+          <div className='grid u-padding-Vxl'>
+            <div className='grid__cell u-size-1of2 u-text-center u-padding-Rxxl'>
+              <img src='/images/why-dd/slide-1.png' className='auddis-page-illustration u-margin-Ts'/>
+            </div>
+            <div className='grid__cell u-size-1of2'>
+              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
+                A solution for your clients
+              </h2>
+              <h3 className='u-text-s'>Move clients to Direct Debit</h3>
+              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                Help resolve your clients’ late payment problems by getting them paid on time, every time.
+              </p>
+              <h3 className='u-text-s'>Streamline their credit control</h3>
+              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                Remove the need for time-consuming financial admin and credit control processes.
+              </p>
+              <h3 className='u-text-s'>A boost to their cash forecasts</h3>
+              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                Help clients to get a stable and predictable flow of cash into their business.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-color-dark-gray u-text-heading u-color-heading u-text-l u-text-light u-text-center'>

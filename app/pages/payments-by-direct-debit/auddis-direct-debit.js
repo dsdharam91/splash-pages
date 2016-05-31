@@ -73,7 +73,6 @@ export default class AuddisDirectDebit extends React.Component {
             </div>
           </div>
         </div>
-        <hr className='u-margin-An' />
 
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
