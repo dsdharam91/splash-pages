@@ -549,10 +549,6 @@ export default {
     title: 'Content Manager',
     description: '',
   },
-  jobs_inside_account_executive_uk: {
-    title: 'Account Executive, Inside Sales: UK',
-    description: '',
-  },
   jobs_recruiter: {
     title: 'Recruiter',
     description: '',
@@ -563,10 +559,6 @@ export default {
   },
   jobs_product_marketing_manager: {
     title: 'Product Marketing Manager',
-    description: '',
-  },
-  jobs_new_business_representative_uk: {
-    title: 'New Business Representative: UK',
     description: '',
   },
   jobs_sales_operations_manager: {
