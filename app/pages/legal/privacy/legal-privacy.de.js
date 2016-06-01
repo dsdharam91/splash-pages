@@ -177,28 +177,6 @@ export default class LegalPrivacyDe extends React.Component {
           indem Sie den Browser-Plug-In herunterladen und installieren,
           der unter <a href="https://tools.google.com/dlpage/gaoptout">diesem Link</a> verfügbar ist.
         </p>
-        <p className='para'>
-          Zudem verwendet diese Webseite Mixpanel, einen Webanalysedienst von Mixpanel Inc.,
-          405 Howard St, Floor 2, San Francisco, CA 94105, USA.
-        </p>
-        <p className='para'>
-          Dieser Dienst von Mixpanel wird verwendet, um allen unseren Kunden bessere Dienstleistungen bieten zu können.
-          Wenn Sie unsere Webseite besuchen, werden automatisch einige Informationen erfasst.
-          Hierzu können Informationen gehören, wie das Betriebssystem,
-          das auf Ihrem Gerät betrieben wird, Zugriffszeiten, Browserart und Sprache sowie die Webseite,
-          die Sie vor unseren Webseiten besucht haben.
-          Der Dienst von Mixpanel erfasst mithilfe von Cookies und Web Beacons automatisch Informationen.
-          Web Beacons sind elektronische Bilder, die auf unseren Webseiten oder in unseren E-Mails benutzt werden können.
-        </p>
-        <p className='para'>
-          Die meisten Internetbrowser sind so eingestellt, dass sie Cookies standardmäßig akzeptieren. Wenn Sie es vorziehen,
-          können Sie sich entscheiden, Ihren Browser so einzustellen, dass er Cookies entfernt und ablehnt.
-          Wenn Sie sich entscheiden, Cookies zu entfernen oder abzulehnen, könnte sich dies auf bestimmte Features oder Dienste
-          unserer Webseiten auswirken und könnte Cookies entfernen, die dazu dienen, die Nachverfolgung abzustellen,
-          einschließlich des Cookies zur Entfernung von Mixpanel.
-          Zur Entfernung des Mixpanel-Cookies, mit dem unsere Webseite verfolgt wird,
-          benutzen Sie bitte <a href="https://mixpanel.com/optout/">diesen Link</a>.
-        </p>
       </Translation>
     );
   }
