@@ -541,10 +541,6 @@ export default {
     title: 'Head of Sales: France',
     description: '',
   },
-  jobs_head_of_sales_germany: {
-    title: 'Head of Sales: Germany',
-    description: '',
-  },
   jobs_content_manager: {
     title: 'Content Manager',
     description: '',
