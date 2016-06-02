@@ -16,7 +16,7 @@ export default class FaqProDashboardPlanCreationEs extends React.Component {
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-            Definir el plan
+          Definir el plan
         </h3>
 
         <p className='para'>
@@ -57,7 +57,7 @@ export default class FaqProDashboardPlanCreationEs extends React.Component {
         <img src='/images/faq/fr/create-plan.png' />
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-            Compartir el Plan
+          Compartir el Plan
         </h3>
 
         <p className='para'>
@@ -65,17 +65,17 @@ export default class FaqProDashboardPlanCreationEs extends React.Component {
           a continuación, en "Invitar clientes".
         </p>
         <p className='para'>
-        Para validar el mandato del plan, es necesario obtener el consentimiento del pagador. GoCardless te
-        permite validar un Plan de dos maneras:
+          Para validar el mandato del plan, es necesario obtener el consentimiento del pagador. GoCardless te
+          permite validar un Plan de dos maneras:
         </p>
         <ul className='list'>
-         <li>
-         Compartiendo un enlace a un mandato electrónico seguro con tus clientes, que se puede enviar por correo
-         electrónico o insertar en tu sitio web.
-         </li>
-         <li>
-         Enviando un correo electrónico a tus clientes que contenga el mismo enlace a un mandato electrónico seguro.
-         </li>
+          <li>
+            Compartiendo un enlace a un mandato electrónico seguro con tus clientes, que se puede enviar por correo
+            electrónico o insertar en tu sitio web.
+          </li>
+          <li>
+            Enviando un correo electrónico a tus clientes que contenga el mismo enlace a un mandato electrónico seguro.
+          </li>
         </ul>
 
         <img src='/images/faq/en/add-to-plan.png' />
@@ -89,7 +89,7 @@ export default class FaqProDashboardPlanCreationEs extends React.Component {
         <img src='/images/faq/fr/sepa-plan-page.png' />
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-            Gestionar los planes
+          Gestionar los planes
         </h3>
 
         <p className='para'>

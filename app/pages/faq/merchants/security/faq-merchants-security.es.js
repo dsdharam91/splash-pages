@@ -1,7 +1,6 @@
 import React from 'react';
 import Message from '../../../../components/message/message';
 import Translation from '../../../../components/translation/translation';
-import IfLocale from '../../../../components/if-locale/if-locale';
 
 export default class FaqMerchantsSecurityEs extends React.Component {
   displayName = 'FaqMerchantsSecurityEs'
@@ -10,19 +9,20 @@ export default class FaqMerchantsSecurityEs extends React.Component {
     return (
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Seguridad</h2>
+
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cómo sé que mi dinero está seguro?
         </h3>
-          <p className='para'>
-            Estamos autorizados por la Autoridad de Conducta Financiera (FCA) en el Reino Unido a proporcionar servicios
-            de cobros como <a href='https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000000NMgMPAA1'
-            title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>una Institución de cobro autorizada
-            </a> y actualmente prestamos servicio a más de <Message pointer='number_of_merchants' /> empresas.
-          </p>
-          <p className='para'>
-            Todo el dinero recaudado se guarda en una cuenta Escrow (nosotros no podemos tocar el dinero de esta cuenta, no está en nuestro balance y
-            está supervisada por los reguladores comunitarios) en uno de nuestros bancos asociados.
-          </p>
+        <p className='para'>
+          Estamos autorizados por la Autoridad de Conducta Financiera (FCA) en el Reino Unido a proporcionar servicios
+          de cobros como <a href='https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000000NMgMPAA1'
+          title='FCA Registration' target='_blank' className='u-link-color-p u-text-underline'>una Institución de cobro autorizada
+          </a> y actualmente prestamos servicio a más de <Message pointer='number_of_merchants' /> empresas.
+        </p>
+        <p className='para'>
+          Todo el dinero recaudado se guarda en una cuenta Escrow (nosotros no podemos tocar el dinero de esta cuenta, no está en nuestro balance y
+          está supervisada por los reguladores comunitarios) en uno de nuestros bancos asociados.
+        </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cómo protege GoCardless mis datos?
@@ -33,10 +33,13 @@ export default class FaqMerchantsSecurityEs extends React.Component {
         </p>
 
         <ul className='list'>
-          <li>Nuestro acceso al sistema de Adeudo Directo nos lo proporciona uno de los principales bancos europeos, que ha aprobado nuestros sistemas.</li>
-          <li>Todos los datos del cliente se tratan conforme a las leyes europeas de protección de datos, incluida la Ley de Protección de Datos 1998.</li>
+          <li>Nuestro acceso al sistema de Adeudo Directo nos lo proporciona uno de los principales bancos europeos, que ha aprobado
+          nuestros sistemas.</li>
+          <li>Todos los datos del cliente se tratan conforme a las leyes europeas de protección de datos, incluida la Ley de Protección
+          de Datos 1998.</li>
           <li>Nuestro servidor de datos financieros está separado de nuestro servidor de aplicaciones por múltiples cortafuegos.</li>
-          <li>Toda la comunicación cliente-servidor está encriptada con tecnología de cifrado SSL de 256 bits. El sistema bancario requiere solo 128 bits.</li>
+          <li>Toda la comunicación cliente-servidor está encriptada con tecnología de cifrado SSL de 256 bits. El sistema bancario
+          requiere solo 128 bits.</li>
         </ul>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -52,22 +55,12 @@ export default class FaqMerchantsSecurityEs extends React.Component {
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Es seguro para mis clientes?
         </h3>
-        <IfLocale domesticScheme='sepa'>
-          <p className='para'>
-            Sí. Tus clientes están protegidos por <a href='/guides/sepa/protection/' className='u-link-color-p u-text-underline'>
-            la Protección al cliente en el Adeudo Directo SEPA</a> en la Eurozona y por <a href='/direct-debit/guarantee/'
-            className='u-link-color-p u-text-underline'>la Protección al consumidor de Adeudo Directo </a> en el Reino Unido.
-          </p>
-        </IfLocale>
-        <IfLocale domesticScheme='bacs'>
-          <p className='para'>
-            Yes. Your customers are fully protected by the <a href='/direct-debit/guarantee/'
-            className='u-link-color-p u-text-underline'>Direct Debit Guarantee</a>.
-          </p>
-          <p className='para'>
-            This entitles them to a full and immediate refund of any payments taken from their account in error.
-          </p>
-        </IfLocale>
+        <p className='para'>
+          Sí. Tus clientes están protegidos
+          por <a href='https://gocardless.com/es/guias/sepa/proteccion/' className='u-link-color-p u-text-underline'>
+          la Protección al cliente en el Adeudo Directo SEPA</a> en la Eurozona y por <a href='/direct-debit/guarantee/'
+          className='u-link-color-p u-text-underline'>la Protección al consumidor de Adeudo Directo</a> en el Reino Unido.
+        </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Revelación de vulnerabilidades

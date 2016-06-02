@@ -16,7 +16,7 @@ export default class FaqProDashboardPaylinksCreationEs extends React.Component {
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-            Definir el Paylink
+          Definir el Paylink
         </h3>
 
         <p className='para'>
@@ -49,7 +49,7 @@ export default class FaqProDashboardPaylinksCreationEs extends React.Component {
         <img src='/images/faq/fr/create-paylink.png' />
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-            Compartir el Paylink
+          Compartir el Paylink
         </h3>
 
         <p className='para'>
@@ -57,9 +57,9 @@ export default class FaqProDashboardPaylinksCreationEs extends React.Component {
           "Invitar clientes".
         </p>
         <p className='para'>
-        Para validar el mandato y el cobro puntual, es necesario obtener el consentimiento del pagador. GoCardless te permite
-        validar un Paylink compartiendo un enlace a un mandato electrónico seguro con tus clientes, que se puede enviar por
-        correo electrónico o insertar en tu sitio web.
+          Para validar el mandato y el cobro puntual, es necesario obtener el consentimiento del pagador. GoCardless te permite
+          validar un Paylink compartiendo un enlace a un mandato electrónico seguro con tus clientes, que se puede enviar por
+          correo electrónico o insertar en tu sitio web.
        </p>
 
         <img src='/images/faq/fr/add-to-paylink.png' />
@@ -73,7 +73,7 @@ export default class FaqProDashboardPaylinksCreationEs extends React.Component {
         <img src='/images/faq/fr/sepa-paylinks-page.png' />
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-            Gestionar los Paylinks
+          Gestionar los Paylinks
         </h3>
 
         <p className='para'>

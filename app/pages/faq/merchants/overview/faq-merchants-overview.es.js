@@ -11,28 +11,28 @@ export default class FaqMerchantsEs extends React.Component {
     return (
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Resumen</h2>
+
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cómo puedo usar GoCardless?
         </h3>
-          <p className='para'>
-            Hay tres maneras de utilizar GoCardless:
-          </p>
-          <ul className='list'>
-            <li>
-              <strong>Nuestro panel de control </strong> - genera y gestiona cobros de Adeudo Directo
-              con tus clientes utilizando nuestro sencillo panel de control online.
-            </li>
-            <li>
-              <strong>Nuestros software asociados</strong> - Trabajamos con una creciente lista de <Link to='partners'
-              className='u-link-color-p u-text-underline'>Partners / Asociados</Link>, para que puedas cobrar a tus clientes
-              desde los servicios online que ya utilizas.
-            </li>
-            <li>
-              <strong>Nuestra sencilla API REST</strong> - Integra GoCardless en tu sitio web usando
-              nuestra <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>API REST</a>.
-            </li>
-          </ul>
-        </Translation>
+        <p className='para'>
+          Hay tres maneras de utilizar GoCardless:
+        </p>
+        <ul className='list'>
+          <li>
+            <strong>Nuestro panel de control </strong> - genera y gestiona cobros de Adeudo Directo
+            con tus clientes utilizando nuestro sencillo panel de control online.
+          </li>
+          <li>
+            <strong>Nuestros software asociados</strong> - Trabajamos con una creciente lista de <Link to='partners'
+            className='u-link-color-p u-text-underline'>Partners / Asociados</Link>, para que puedas cobrar a tus clientes
+            desde los servicios online que ya utilizas.
+          </li>
+          <li>
+            <strong>Nuestra sencilla API REST</strong> - Integra GoCardless en tu sitio web usando
+            nuestra <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>API REST</a>.
+          </li>
+        </ul>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿A quién está dirigido GoCardless?
@@ -69,7 +69,7 @@ export default class FaqMerchantsEs extends React.Component {
           </li>
         </ul>
         <p className='para'>
-          Aceptamos todo tipo de clientes, pero hay algunas excepciones: para obtener más información, 
+          Aceptamos todo tipo de clientes, pero hay algunas excepciones: para obtener más información,
           consulta <Link to='legal_restrictions' className='u-link-color-p u-text-underline'>nuestra
           página de actividades restringidas.</Link>.
         </p>

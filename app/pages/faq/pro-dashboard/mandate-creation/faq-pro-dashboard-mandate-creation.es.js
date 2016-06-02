@@ -15,20 +15,20 @@ export default class FaqProDashboardMandateCreationEs extends React.Component {
         </p>
         <ul className='list'>
           <li>
-          Compartiendo un enlace a un mandato electrónico seguro con tus clientes
+            Compartiendo un enlace a un mandato electrónico seguro con tus clientes
           </li>
           <li>
-          Enviando un correo electrónico a tus clientes que contenga el mismo enlace a un mandato
-          electrónico seguro
+            Enviando un correo electrónico a tus clientes que contenga el mismo enlace a un mandato
+            electrónico seguro
           </li>
           <li>
-          Indicando directamente los datos de tus clientes, recopilados anteriormente a través de un
-          mandato por escrito o por teléfono (reservado a los clientes de GoCardless Pro y Enterprise)
+            Indicando directamente los datos de tus clientes, recopilados anteriormente a través de un
+            mandato por escrito o por teléfono (reservado a los clientes de GoCardless Pro y Enterprise)
           </li>
         </ul>
 
         <p className='para'>
-          APara comenzar, ve a la pestaña Cliente en el panel de control y haz clic en
+          Para comenzar, ve a la pestaña Cliente en el panel de control y haz clic en
           <a href='https://manage.gocardless.com/customers/create' target='_blank'
           className='u-link-color-p u-text-underline'>Añadir clientes</a>.
         </p>

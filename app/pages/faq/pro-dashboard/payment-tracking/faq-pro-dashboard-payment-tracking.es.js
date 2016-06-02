@@ -5,7 +5,7 @@ export default class FaqProDashboardPaymentTrackingEs extends React.Component {
   displayName = 'FaqProDashboardPaymentTrackingEs'
 
   render() {
-    return
+    return (
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Control de los cobros</h2>
 
@@ -96,19 +96,19 @@ export default class FaqProDashboardPaymentTrackingEs extends React.Component {
         <img src='/images/faq/en/payment-success.png' />
 
         <p className='para'>
-         Cobro fallado el día del Adeudo Directo:
+          Cobro fallado el día del Adeudo Directo:
         </p>
 
         <img src='/images/faq/en/payment-failed.png' />
 
         <p className='para'>
-         Cobro fallado posteriormente:
+          Cobro fallado posteriormente:
         </p>
 
         <img src='/images/faq/en/payment-late-failure.png' />
 
         <p className='para'>
-         Cobro rechazado por el pagador:
+          Cobro rechazado por el pagador:
         </p>
 
         <img src='/images/faq/en/payment-chargebacked.png' />
