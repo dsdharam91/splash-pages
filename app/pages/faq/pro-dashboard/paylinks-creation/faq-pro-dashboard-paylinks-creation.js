@@ -9,6 +9,7 @@ export default class FaqProDashboardPaylinksCreation extends React.Component {
     return (
       <FaqProDashboardPage>
         <FaqProDashboardPaylinksCreationFr />
+        <FaqProDashboardPaylinksCreationEs />
       </FaqProDashboardPage>
     );
   }

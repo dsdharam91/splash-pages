@@ -9,6 +9,7 @@ export default class FaqProDashboardPlanCreation extends React.Component {
     return (
       <FaqProDashboardPage>
         <FaqProDashboardPlanCreationFr />
+        <FaqProDashboardPlanCreationEs />
       </FaqProDashboardPage>
     );
   }
