@@ -107,8 +107,8 @@ export default {
     explainer: 'Simplificamos las Domiciliaciones Bancarias',
   },
   faq: {
-    title: 'Frequently asked questions',
-    sidebar: 'Got a question? Call our support team on',
+    title: 'FAQ - Preguntas más comunes',
+    sidebar: '¿No encuentras respuesta? Llama a nuestro equipo de soporte al',
   },
   faq_merchants: {
     title: 'FAQ for merchants',
@@ -155,6 +155,11 @@ export default {
     title: 'FAQ for merchants - Signing up',
     nav_title: 'Signing up',
     description: '',
+  },
+  faq_merchants_verification: {
+    title: 'FAQ para empresas - Verificación',
+    nav_title: 'Verifica tu cuenta',
+    description: 'Proceso de blanqueo de capitales para poder operar con tu cuenta GoCardless sin restricciones.',
   },
   faq_pro_dashboard: {
     faq_title: 'Tutorials',
@@ -238,15 +243,6 @@ export default {
   partners_billin: {
     title: 'GoCardless para Billin',
     description: 'Gestiona el proceso de facturación con Billin y garantiza el pago de tus facturas a tiempo con GoCardless',
-  },
-  faq: {
-    title: 'FAQ - Preguntas más comunes',
-    sidebar: '¿No encuentras respuesta? Llama a nuestro equipo de soporte al',
-  },
-  faq_merchants_verification: {
-    title: 'FAQ para empresas - Verificación',
-    nav_title: 'Verifica tu cuenta',
-    description: 'Proceso de blanqueo de capitales para poder operar con tu cuenta GoCardless sin restricciones.',
   },
   payments_by_direct_debit: {
     title: 'Cobros online con Domiciliación Bancaria SEPA',
