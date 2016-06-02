@@ -28,8 +28,8 @@ export default class FaqProDashboardMandateCreationEs extends React.Component {
         </ul>
 
         <p className='para'>
-          Para comenzar, ve a la pestaña Cliente en el panel de control y haz clic en
-          <a href='https://manage.gocardless.com/customers/create' target='_blank'
+          Para comenzar, ve a la pestaña Cliente en el panel de control y haz clic
+          en <a href='https://manage.gocardless.com/customers/create' target='_blank'
           className='u-link-color-p u-text-underline'>Añadir clientes</a>.
         </p>
 
@@ -51,13 +51,12 @@ export default class FaqProDashboardMandateCreationEs extends React.Component {
         </h3>
 
         <p className='para'>
-          Si tienes mandatos de Adeudo Directo existentes, puedes utilizar nuestra
-          <a href='https://bulk-changes.gocardless.io' target='_blank'
+          Si tienes mandatos de Adeudo Directo existentes, puedes utilizar
+          nuestra <a href='https://bulk-changes.gocardless.io' target='_blank'
           className='u-link-color-p u-text-underline'>Herramienta de migración</a>. Si tienes
           alguna duda, siempre puedes contactar con nosotros escribiendo un
-          correo electrónico a <Href to='email' className='u-link-color-p u-text-underline' />
-          y los importaremos. Si deseas utilizar mandatos en papel o telefónicos, tienes que actualizar
-          tu cuenta a GoCardless Pro o Enterprise.
+          correo electrónico a <Href to='email' className='u-link-color-p u-text-underline' /> y los importaremos. Si deseas
+          utilizar mandatos en papel o telefónicos, tienes que actualizar tu cuenta a GoCardless Pro o Enterprise.
         </p>
 
       </Translation>

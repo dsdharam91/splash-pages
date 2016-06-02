@@ -30,8 +30,8 @@ export default class FaqProDashboardEs extends React.Component {
         </h3>
         <IfLocale hasInstantSignup>
           <p className='para'>
-            Puedes crear una <Href to='signup.path' className='u-link-color-p u-text-underline'>cuenta GoCardless</Href>
-            y comenzar a realizar cobros de Adeudo Directo instantáneamente. Sigue la guía que encontrarás a continuación
+            Puedes crear una <Href to='signup.path' className='u-link-color-p u-text-underline'>cuenta GoCardless</Href> y comenzar
+            a realizar cobros de Adeudo Directo instantáneamente. Sigue la guía que encontrarás a continuación
             para verificar tu cuenta.
           </p>
         </IfLocale>

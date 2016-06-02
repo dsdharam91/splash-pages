@@ -20,8 +20,8 @@ export default class FaqProDashboardPaymentCreationEs extends React.Component {
             En esta página te mostramos cómo hacerlo.
           </li>
           <li>
-            <strong>Si deseas cobrar importes fijos a intervalos constantes</strong>, crea una suscripción. En nuestra
-            <Link to='faq_pro_dashboard_subscription_creation' className='u-link-color-p u-text-underline'>
+            <strong>Si deseas cobrar importes fijos a intervalos constantes</strong>, crea una suscripción. En
+            nuestra <Link to='faq_pro_dashboard_subscription_creation' className='u-link-color-p u-text-underline'>
             sección Suscripciones</Link> te explicamos cómo hacerlo.
           </li>
         </ul>

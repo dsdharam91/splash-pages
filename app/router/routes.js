@@ -1229,6 +1229,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/dashboard',
       },
+      es: {
+        path: '/faq/dashboard',
+      },
     },
   ],
   [FaqProDashboardMandateCreation, { name: 'faq_pro_dashboard_mandate_creation', category: 'faq.pro_dashboard' }, {
@@ -1247,17 +1250,26 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/dashboard/mandate-erstellen',
       },
+      es: {
+        path: '/faq/dashboard/mandate-creation',
+      },
     },
   ],
   [FaqProDashboardPlanCreation, { name: 'faq_pro_dashboard_plan_creation', category: 'faq.pro_dashboard' }, {
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-plan',
       },
+      es: {
+        path: '/faq/dashboard/plan-creation',
+      },
     },
   ],
   [FaqProDashboardPaylinksCreation, { name: 'faq_pro_dashboard_paylinks_creation', category: 'faq.pro_dashboard' }, {
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-paylinks',
+      },
+      es: {
+        path: '/faq/dashboard/paylinks',
       },
     },
   ],
@@ -1277,6 +1289,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/dashboard/zahlungen-erstellen',
       },
+      es: {
+        path: '/faq/dashboard/payment-creation',
+      },
     },
   ],
   [FaqProDashboardSubscriptionCreation, { name: 'faq_pro_dashboard_subscription_creation', category: 'faq.pro_dashboard' }, {
@@ -1292,8 +1307,11 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-abonnement',
       },
-     de: {
+      de: {
         path: '/faq/dashboard/abonnements-erstellen',
+      },
+      es: {
+        path: '/faq/dashboard/subscription-creation',
       },
     },
   ],
@@ -1310,8 +1328,11 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/tableau-de-bord-pro/suivi-paiements',
       },
-     de: {
+      de: {
         path: '/faq/dashboard/zahlungen-verfolgen',
+      },
+      es: {
+        path: '/faq/dashboard/payment-tracking',
       },
     },
   ],
@@ -1331,6 +1352,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/dashboard/zahlungen-erstatten',
       },
+      es: {
+        path: '/faq/dashboard/payment-refund',
+      },
     },
   ],
   [FaqProDashboardPaymentRetry, { name: 'faq_pro_dashboard_payment_retry', category: 'faq.pro_dashboard' }, {
@@ -1349,6 +1373,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/dashboard/zahlungen-wiederversuchen',
       },
+      es: {
+        path: '/faq/dashboard/payment-retry',
+      },
     },
   ],
   [FaqProDashboardPayoutTracking, { name: 'faq_pro_dashboard_payout_tracking', category: 'faq.pro_dashboard' }, {
@@ -1364,8 +1391,11 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/tableau-de-bord-pro/suivi-encaissements',
       },
-     de: {
+      de: {
         path: '/faq/dashboard/auszahlungen-verfolgen',
+      },
+      es: {
+        path: '/faq/dashboard/payout-tracking',
       },
     },
   ],
@@ -1384,6 +1414,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/faq/dashboard/mandate-exportieren',
+      },
+      es: {
+        path: '/faq/dashboard/mandate-export',
       },
     },
   ],
