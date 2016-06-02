@@ -549,14 +549,6 @@ export default {
     title: 'Content Manager',
     description: '',
   },
-  jobs_customer_support_french: {
-    title: 'French Customer Support',
-    description: '',
-  },
-  jobs_inside_account_executive_uk: {
-    title: 'Account Executive, Inside Sales: UK',
-    description: '',
-  },
   jobs_recruiter: {
     title: 'Recruiter',
     description: '',
@@ -567,10 +559,6 @@ export default {
   },
   jobs_product_marketing_manager: {
     title: 'Product Marketing Manager',
-    description: '',
-  },
-  jobs_new_business_representative_uk: {
-    title: 'New Business Representative: UK',
     description: '',
   },
   jobs_sales_operations_manager: {
@@ -630,6 +618,11 @@ export default {
   help: {
     title: 'Support',
     nav_title: 'Support',
+  },
+  'how-to': {
+    title: 'How to',
+    nav_title: 'How to',
+    description: 'How to use GoCardless',
   },
   stories_has_bean_coffee: {
     title: 'Has Bean Coffee',
