@@ -10,7 +10,7 @@ export default class FaqProDashboardPayoutTrackingEs extends React.Component {
        <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Control de los fondos transferidos</h2>
         <p className='para'>
-          GoCardless transferirá los fondos recaudados automáticamente cada día hábil. No hay importe mínimo ni de reserva. 
+          GoCardless transferirá los fondos recaudados automáticamente cada día hábil. No hay importe mínimo ni de reserva.
           Nuestros <Link to='pricing' className='u-link-color-p u-text-underline'>gastos</Link> se deducen automáticamente
           de la transferencia o se cobran a final de mes (sólo para cuentas Pro y Enterprise).
         </p>

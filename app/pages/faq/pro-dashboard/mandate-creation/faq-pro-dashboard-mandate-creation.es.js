@@ -7,7 +7,7 @@ export default class FaqProDashboardMandateCreationEs extends React.Component {
 
   render() {
     return (
-      <Translation locales='fr'>
+      <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Creación de un mandato</h2>
         <p className='para'>
           Para generar un mandato SEPA, es necesario obtener el consentimiento del pagador.

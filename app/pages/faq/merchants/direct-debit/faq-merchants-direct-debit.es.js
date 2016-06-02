@@ -125,7 +125,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
             Una vez que GoCardless haya realizado el cobro a tu cliente, recibirás los fondos en tu cuenta bancaria
             a los 4 días hábiles.
           </p>
-        </IfLocale> 
+        </IfLocale>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Puedo realizar cobros puntuales a través del Adeudo Directo?

@@ -37,7 +37,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           <li>Todos los datos del cliente se tratan conforme a las leyes europeas de protección de datos, incluida la Ley de Protección de Datos 1998.</li>
           <li>Nuestro servidor de datos financieros está separado de nuestro servidor de aplicaciones por múltiples cortafuegos.</li>
           <li>Toda la comunicación cliente-servidor está encriptada con tecnología de cifrado SSL de 256 bits. El sistema bancario requiere solo 128 bits.</li>
-        </ul>                    
+        </ul>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Qué hacéis con mi dinero antes de ingresármelo?
@@ -55,7 +55,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
         <IfLocale domesticScheme='sepa'>
           <p className='para'>
             Sí. Tus clientes están protegidos por <a href='/guides/sepa/protection/' className='u-link-color-p u-text-underline'>
-            la Protección al cliente en el Adeudo Directo SEPA</a> en la Eurozona y por <a href='/direct-debit/guarantee/' 
+            la Protección al cliente en el Adeudo Directo SEPA</a> en la Eurozona y por <a href='/direct-debit/guarantee/'
             className='u-link-color-p u-text-underline'>la Protección al consumidor de Adeudo Directo </a> en el Reino Unido.
           </p>
         </IfLocale>

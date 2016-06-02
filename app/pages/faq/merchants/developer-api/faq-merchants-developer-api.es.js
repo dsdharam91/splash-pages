@@ -52,7 +52,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
             un proceso Oauth y empezar a realizar cobros sin copiar y pegar usuarios API.
           </p>
           <p className='para'>
-            Para obtener más información sobre nuestro producto para asociados/Partners, por favor <Link to='contact_sales' 
+            Para obtener más información sobre nuestro producto para asociados/Partners, por favor <Link to='contact_sales'
             className='u-link-color-p u-text-underline'>contactanos</Link>.
           </p>
         </Translation>
