@@ -12,8 +12,8 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           ¿Cuándo recibo mi cobro?
         </h3>
         <p className='para'>
-          Ingresamos automáticamente tus fondos en la cuenta bancaria especificada
-          <strong>3 días hábiles</strong> después de haberlos cobrado al cliente.
+          Ingresamos automáticamente tus fondos en la cuenta bancaria
+          especificada <strong>3 días hábiles</strong> después de haberlos cobrado al cliente.
           Obtendrás más información <a href='https://help.gocardless.com/customer/portal/articles/1563666'
           className='u-link-color-p u-text-underline'>aquí</a>.
         </p>
@@ -67,7 +67,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
         <p className='para'>
           Sí - los clientes pueden autorizar el Mandato SEPA en tu propio flujo de venta, bien a través de una integración
           con nuestra <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>API</a> o
-          o generando un enlace para un plan de cobros e incrustándolo como botón en tu propio sitio web.
+          generando un enlace para un plan de cobros e incrustándolo como botón en tu propio sitio web.
         </p>
         <p className='para'>
           Al hacer clic en el botón, el cliente será reenviado a nuestra página segura de cobros online desde la que puede autorizar los pagos.

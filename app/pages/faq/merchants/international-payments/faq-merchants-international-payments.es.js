@@ -30,11 +30,11 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
           ¿Qué es el Adeudo Directo SEPA?
         </h3>
         <p className='para'>
-          El Adeudo Directo SEPA permite realizar cobros denominados en euros de una cuenta bancaria en el
-          <a href='https://gocardless.com/es/guias/sepa/que-es-sepa/' target='_blank'
+          El Adeudo Directo SEPA permite realizar cobros denominados en euros de una cuenta bancaria en
+          el <a href='https://gocardless.com/es/guias/sepa/que-es-sepa/' target='_blank'
           className='u-link-color-p u-text-underline'>la zona única de pagos en euros (SEPA)</a>.
           Encontrarás más información en <a href='https://gocardless.com/es/guias/sepa/'
-          className='u-link-color-p u-text-underline'>nuestra guía de Adeudo Directo SEPA.</a>.
+          className='u-link-color-p u-text-underline'>nuestra guía de Adeudo Directo SEPA</a>.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -43,7 +43,7 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
         <p className='para'>
           El Adeudo Directo Bacs es el equivalente en Reino Unido al Adeudo Directo SEPA. Permite recaudar cobros denominados en
           libras de cuentas bancarias de Reino Unido. Encontrarás más información en <a href='/direct-debit/'
-          className='u-link-color-p u-text-underline'>nuestra guía de Adeudo Directo bacs</a>.
+          className='u-link-color-p u-text-underline'>nuestra guía de Adeudo Directo Bacs</a>.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>

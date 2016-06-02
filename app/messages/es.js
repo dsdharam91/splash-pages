@@ -106,6 +106,56 @@ export default {
     description: 'GoCardless es la manera más sencilla de pagar online. Realiza tus cobros directamente desde la cuenta bancaria de tus clientes. Ahorra tiempo y mejora tu flujo de caja.',
     explainer: 'Simplificamos las Domiciliaciones Bancarias',
   },
+  faq: {
+    title: 'Frequently asked questions',
+    sidebar: 'Got a question? Call our support team on',
+  },
+  faq_merchants: {
+    title: 'FAQ for merchants',
+    nav_title: 'Overview',
+    link_title: 'FAQ',
+    description: '',
+  },
+  faq_merchants_customer_experience: {
+    title: 'FAQ for merchants - Customer experience',
+    nav_title: 'Customer experience',
+    description: '',
+  },
+  faq_merchants_developer_api: {
+    title: 'FAQ for merchants - Developer API',
+    nav_title: 'Developer API',
+    description: '',
+  },
+  faq_merchants_direct_debit: {
+    title: 'FAQ for merchants - Direct Debit',
+    nav_title: 'Direct Debit',
+    description: '',
+  },
+  faq_merchants_how_it_works: {
+    title: 'FAQ for merchants - How it works',
+    nav_title: 'How it works',
+    description: '',
+  },
+  faq_merchants_international_payments: {
+    title: 'FAQ for merchants - International payments',
+    nav_title: 'International payments',
+    description: '',
+  },
+  faq_merchants_partners: {
+    title: 'FAQ for merchants - Partners',
+    nav_title: 'Partners',
+    description: '',
+  },
+  faq_merchants_security: {
+    title: 'FAQ for merchants - Security',
+    nav_title: 'Security',
+    description: '',
+  },
+  faq_merchants_signing_up: {
+    title: 'FAQ for merchants - Signing up',
+    nav_title: 'Signing up',
+    description: '',
+  },
   pro: {
     title: 'Control Total de tus Domiciliaciones Bancarias',
     nav_title: 'GoCardless Pro',

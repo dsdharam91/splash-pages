@@ -48,8 +48,8 @@ export default class FaqMerchantsEs extends React.Component {
         </p>
         <p className='para'>
           En España, estamos integrados con algunos de los software de contabilidad más populares
-          para facilitar la facturación y la reconciliación de cobros. Descubre más
-          <Link to='features' className='u-link-color-p u-text-underline'>aquí</Link>.
+          para facilitar la facturación y la reconciliación de cobros. Descubre
+          más <Link to='features' className='u-link-color-p u-text-underline'>aquí</Link>.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -92,8 +92,8 @@ export default class FaqMerchantsEs extends React.Component {
           Los fondos recaudados llegarán directamente a tu cuenta bancaria.
         </p>
         <p className='para'>
-          Con GoCardless Pro y Enterprise, te enviaremos una factura con <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>
-          tus comisiones.</Link>.
+          Con GoCardless Pro y Enterprise, te enviaremos una factura
+          con <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>tus comisiones</Link>.
         </p>
         <p className='para'>
           Con GoCardless, te deduciremos directamente las <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>

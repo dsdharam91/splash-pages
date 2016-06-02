@@ -1016,6 +1016,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/haendler',
       },
+      es: {
+        path: '/faq/merchants',
+      },
     },
   ],
   [FaqMerchantsHowItWorks, { name: 'faq_merchants_how_it_works', category: 'faq.merchants' }, {
@@ -1036,6 +1039,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/faq/haendler/wie-es-funktioniert',
+      },
+      es: {
+        path: '/faq/merchants/how-it-works',
       },
     },
   ],
@@ -1058,6 +1064,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/haendler/anmelden',
       },
+      es: {
+        path: '/faq/merchants/signing-up',
+      },
     },
   ],
   [FaqMerchantsDirectDebit, { name: 'faq_merchants_direct_debit', category: 'faq.merchants' }, {
@@ -1078,6 +1087,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/faq/haendler/lastschriftverfahren',
+      },
+      es: {
+        path: '/faq/merchants/direct-debit',
       },
     },
   ],
@@ -1100,6 +1112,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/haendler/sicherheit',
       },
+      es: {
+        path: '/faq/merchants/security',
+      },
     },
   ],
   [FaqMerchantsCustomerExperience, { name: 'faq_merchants_customer_experience', category: 'faq.merchants' }, {
@@ -1120,6 +1135,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/faq/haendler/kunden-erlebnis',
+      },
+      es: {
+        path: '/faq/merchants/customer-experience',
       },
     },
   ],
@@ -1142,6 +1160,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/haendler/international',
       },
+      es: {
+        path: '/faq/merchants/international-payments',
+      },
     },
   ],
   [FaqMerchantsDeveloperApi, { name: 'faq_merchants_developer_api', category: 'faq.merchants' }, {
@@ -1162,6 +1183,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/faq/haendler/entwickler-api',
+      },
+      es: {
+        path: '/faq/merchants/developer-api',
       },
     },
   ],

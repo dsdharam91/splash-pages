@@ -16,8 +16,8 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
         </h3>
         <p className='para'>
           Nuestra API REST permite a los desarrolladores crear fácilmente integraciones potentes con GoCardless.
-          Consulta nuestra <Href to='documentation_link' className='u-link-color-p u-text-underline'>documentación</Href>
-          para obtener más información.
+          Consulta nuestra <Href to='documentation_link' className='u-link-color-p u-text-underline'>documentación</Href> para
+          obtener más información.
         </p>
         <p className='para'>
           Se puede integrar como comerciante para realizar cobros en su propio nombrenombre o como partner para generar y
@@ -40,8 +40,8 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           ¿Qué lenguajes de programación puedo utilizar?
         </h3>
         <p className='para'>
-          Disponemos de bibliotecas de clientes para
-          <a href='https://github.com/gocardless/gocardless-pro-ruby' target='_blank' className='u-link-color-p u-text-underline'>
+          Disponemos de bibliotecas de clientes
+          para <a href='https://github.com/gocardless/gocardless-pro-ruby' target='_blank' className='u-link-color-p u-text-underline'>
             Ruby
           </a>
           , <a href='https://github.com/gocardless/gocardless-pro-php' target='_blank' className='u-link-color-p u-text-underline'>
@@ -98,8 +98,9 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           Un ejemplo extremadamente útil es determinar cuándo se ha pagado una factura.
         </p>
         <p className='para'>
-          Podrás encontrar más información acerca de nuestros webhooks disponibles y cómo utilizarlos en nuestra
-          <a href='https://developer.gocardless.com/#webhooks-overview' className='u-link-color-p u-text-underline'>guía de webhooks</a>.
+          Podrás encontrar más información acerca de nuestros webhooks disponibles y cómo utilizarlos en
+          nuestra <a href='https://developer.gocardless.com/#webhooks-overview' className='u-link-color-p u-text-underline'>guía de
+          webhooks</a>.
         </p>
 
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>

@@ -14,9 +14,10 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
           ¿Cómo me registro en GoCardless?
         </h3>
         <p className='para'>
-          Puedes crear una cuenta de prueba o Sandbox desde <a href="https://manage-sandbox.gocardless.com/signup?lang=es">aquí</a>.
+          Puedes crear una cuenta de prueba o Sandbox
+          desde <a href='https://manage-sandbox.gocardless.com/signup?lang=es' className='u-link-color-p u-text-underline'>aquí</a>.
           Para crear una cuenta en producción y empezar a cobrar a tus clientes, necesitas
-          ir <a href="https://manage.gocardless.com/signup?lang=es">aquí</a>.
+          ir <a href='https://manage.gocardless.com/signup?lang=es' className='u-link-color-p u-text-underline'>aquí</a>.
         </p>
         <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Qué necesito para registrarme?
@@ -41,7 +42,7 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
         <p className='para'>
           Depende - GoCardless está disponible para entidades sin ánimo de lucro, Sociedades Anónimas,
           Sociedades limitas y para individuos. Si no eres ninguna de esto, contacta
-          con <Link to='contact_sales' className='btn btn--invert btn--move'>nuestro equipo de ventas.</Link>
+          con <Link to='contact_sales' className='u-link-color-p u-text-underline'>nuestro equipo de ventas</Link>.
         </p>
         <p className='para'>
           Si eres una empresa pero no estás registrado, deberás registrarte como autónomo.
