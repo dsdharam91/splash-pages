@@ -994,7 +994,7 @@ export const config = Immutable.fromJS([
         path: '/faq/haendler',
       },
       es: {
-        path: '/faq/merchants',
+        path: '/faq/negocios',
       },
     },
   ],
@@ -1018,7 +1018,7 @@ export const config = Immutable.fromJS([
         path: '/faq/haendler/wie-es-funktioniert',
       },
       es: {
-        path: '/faq/merchants/how-it-works',
+        path: '/faq/merchants/como-funciona',
       },
     },
   ],
@@ -1042,7 +1042,7 @@ export const config = Immutable.fromJS([
         path: '/faq/haendler/anmelden',
       },
       es: {
-        path: '/faq/merchants/signing-up',
+        path: '/faq/merchants/registro',
       },
     },
   ],
@@ -1066,7 +1066,7 @@ export const config = Immutable.fromJS([
         path: '/faq/haendler/lastschriftverfahren',
       },
       es: {
-        path: '/faq/merchants/direct-debit',
+        path: '/faq/merchants/domiciliacion-bancaria',
       },
     },
   ],
@@ -1090,7 +1090,7 @@ export const config = Immutable.fromJS([
         path: '/faq/haendler/sicherheit',
       },
       es: {
-        path: '/faq/merchants/security',
+        path: '/faq/merchants/seguridad',
       },
     },
   ],
@@ -1114,7 +1114,7 @@ export const config = Immutable.fromJS([
         path: '/faq/haendler/kunden-erlebnis',
       },
       es: {
-        path: '/faq/merchants/customer-experience',
+        path: '/faq/merchants/experiencia-usuario',
       },
     },
   ],
@@ -1138,7 +1138,7 @@ export const config = Immutable.fromJS([
         path: '/faq/haendler/international',
       },
       es: {
-        path: '/faq/merchants/international-payments',
+        path: '/faq/merchants/cobros-internationales',
       },
     },
   ],
@@ -1162,7 +1162,7 @@ export const config = Immutable.fromJS([
         path: '/faq/haendler/entwickler-api',
       },
       es: {
-        path: '/faq/merchants/developer-api',
+        path: '/faq/merchants/desarrollador-api',
       },
     },
   ],
@@ -1207,7 +1207,7 @@ export const config = Immutable.fromJS([
         path: '/faq/dashboard',
       },
       es: {
-        path: '/faq/dashboard',
+        path: '/faq/panel-control',
       },
     },
   ],
@@ -1228,7 +1228,7 @@ export const config = Immutable.fromJS([
         path: '/faq/dashboard/mandate-erstellen',
       },
       es: {
-        path: '/faq/dashboard/mandate-creation',
+        path: '/faq/dashboard/creacion-mandatos',
       },
     },
   ],
@@ -1237,7 +1237,7 @@ export const config = Immutable.fromJS([
         path: '/faq/tableau-de-bord-pro/creation-plan',
       },
       es: {
-        path: '/faq/dashboard/plan-creation',
+        path: '/faq/dashboard/creacion-planes',
       },
     },
   ],
@@ -1267,7 +1267,7 @@ export const config = Immutable.fromJS([
         path: '/faq/dashboard/zahlungen-erstellen',
       },
       es: {
-        path: '/faq/dashboard/payment-creation',
+        path: '/faq/dashboard/creación-cobros',
       },
     },
   ],
@@ -1288,7 +1288,7 @@ export const config = Immutable.fromJS([
         path: '/faq/dashboard/abonnements-erstellen',
       },
       es: {
-        path: '/faq/dashboard/subscription-creation',
+        path: '/faq/dashboard/suscripciones-creacion',
       },
     },
   ],
@@ -1309,7 +1309,7 @@ export const config = Immutable.fromJS([
         path: '/faq/dashboard/zahlungen-verfolgen',
       },
       es: {
-        path: '/faq/dashboard/payment-tracking',
+        path: '/faq/dashboard/seguimiento-cobros',
       },
     },
   ],
@@ -1330,7 +1330,7 @@ export const config = Immutable.fromJS([
         path: '/faq/dashboard/zahlungen-erstatten',
       },
       es: {
-        path: '/faq/dashboard/payment-refund',
+        path: '/faq/dashboard/devolucion-cobros',
       },
     },
   ],
@@ -1351,7 +1351,7 @@ export const config = Immutable.fromJS([
         path: '/faq/dashboard/zahlungen-wiederversuchen',
       },
       es: {
-        path: '/faq/dashboard/payment-retry',
+        path: '/faq/dashboard/reintento-cobros',
       },
     },
   ],
@@ -1372,7 +1372,7 @@ export const config = Immutable.fromJS([
         path: '/faq/dashboard/auszahlungen-verfolgen',
       },
       es: {
-        path: '/faq/dashboard/payout-tracking',
+        path: '/faq/dashboard/seguimiento-transferidos',
       },
     },
   ],
@@ -1393,7 +1393,7 @@ export const config = Immutable.fromJS([
         path: '/faq/dashboard/mandate-exportieren',
       },
       es: {
-        path: '/faq/dashboard/mandate-export',
+        path: '/faq/dashboard/exportar-mandatos',
       },
     },
   ],
