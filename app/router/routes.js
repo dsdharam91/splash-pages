@@ -34,7 +34,6 @@ import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
 import SalesDevelopmentRepresentativeFrench from '../pages/about/jobs/positions/sales-development-representative-french';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
-import HeadofSalesGermany from '../pages/about/jobs/positions/head-of-sales-germany';
 import ContentManager from '../pages/about/jobs/positions/content-manager';
 import Recruiter from '../pages/about/jobs/positions/recruiter.js';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
@@ -406,9 +405,6 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/jobs',
       },
-      de: {
-        path: '/ueber-uns/jobs',
-      },
       fr: {
         path: '/a-propos/offres',
       },
@@ -459,15 +455,6 @@ export const config = Immutable.fromJS([
   [HeadofSalesFrance, { name: 'jobs_head_of_sales_france', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/head-of-sales-france',
-      },
-    },
-  ],
-  [HeadofSalesGermany, { name: 'jobs_head_of_sales_germany', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/head-of-sales-germany',
-      },
-      de: {
-        path: '/ueber-uns/jobs/head-of-sales-deutschland',
       },
     },
   ],
