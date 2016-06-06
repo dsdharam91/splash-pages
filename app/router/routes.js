@@ -34,12 +34,11 @@ import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
 import SalesDevelopmentRepresentativeFrench from '../pages/about/jobs/positions/sales-development-representative-french';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
-import ContentManager from '../pages/about/jobs/positions/content-manager';
 import Recruiter from '../pages/about/jobs/positions/recruiter.js';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
 import ProductMarketingManager from '../pages/about/jobs/positions/product-marketing-manager.js';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
-import CommunicationsDesigner from '../pages/about/jobs/positions/communications-designer.js';
+import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
 import ProductDesigner from '../pages/about/jobs/positions/product-designer.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import HeadCustomerSupport from '../pages/about/jobs/positions/head-customer-support.js';
@@ -434,12 +433,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [CommunicationsDesigner, { name: 'jobs_communications_designer', category: 'jobs.ux_design' }, {
-      en: {
-        path: '/about/jobs/communications-designer',
-      },
-    },
-  ],
   [ProductDesigner, { name: 'jobs_product_designer', category: 'jobs.ux_design' }, {
       en: {
         path: '/about/jobs/product-designer',
@@ -485,9 +478,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [ContentManager, { name: 'jobs_content_manager', category: 'jobs.marketing' }, {
+  [EuropeanMarketingManager, { name: 'jobs_european_marketing_manager', category: 'jobs.marketing' }, {
       en: {
-        path: '/about/jobs/content-manager',
+        path: '/about/jobs/european-marketing-manager',
       },
     },
   ],

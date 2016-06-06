@@ -541,8 +541,8 @@ export default {
     title: 'Head of Sales: France',
     description: '',
   },
-  jobs_content_manager: {
-    title: 'Content Manager',
+  jobs_european_marketing_manager: {
+    title: 'European Marketing Manager',
     description: '',
   },
   jobs_recruiter: {
@@ -559,10 +559,6 @@ export default {
   },
   jobs_sales_operations_manager: {
     title: 'Sales Operations Manager',
-    description: '',
-  },
-  jobs_communications_designer: {
-    title: 'Communications Designer',
     description: '',
   },
   jobs_product_designer: {
