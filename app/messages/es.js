@@ -106,6 +106,118 @@ export default {
     description: 'GoCardless es la manera más sencilla de pagar online. Realiza tus cobros directamente desde la cuenta bancaria de tus clientes. Ahorra tiempo y mejora tu flujo de caja.',
     explainer: 'Simplificamos las Domiciliaciones Bancarias',
   },
+  faq: {
+    title: 'FAQ - Preguntas más comunes',
+    sidebar: '¿No encuentras respuesta? Llama a nuestro equipo de soporte al',
+  },
+  faq_merchants: {
+    title: 'Preguntas Frecuentes para negocios',
+    nav_title: 'General',
+    link_title: 'FAQ',
+    description: '',
+  },
+  faq_merchants_customer_experience: {
+    title: 'FAQ para negocios - Experiencia de Usuario',
+    nav_title: 'Experiencia de usuario',
+    description: '',
+  },
+  faq_merchants_developer_api: {
+    title: 'FAQ para negocios - Desarrolladores API',
+    nav_title: 'Desarrolladores API',
+    description: '',
+  },
+  faq_merchants_direct_debit: {
+    title: 'FAQ para negocios - Domiciliación Bancaria',
+    nav_title: 'Domiciliacion Bancaria',
+    description: '',
+  },
+  faq_merchants_how_it_works: {
+    title: 'FAQ para negocios - Cómo Funciona',
+    nav_title: 'Cómo funciona',
+    description: '',
+  },
+  faq_merchants_international_payments: {
+    title: 'FAQ para negocios - Cobros Internacionales',
+    nav_title: 'Cobros internacionales',
+    description: '',
+  },
+  faq_merchants_partners: {
+    title: 'FAQ para negocios - Partners / Asociados',
+    nav_title: 'Partners',
+    description: '',
+  },
+  faq_merchants_security: {
+    title: 'FAQ para negocios - Seguridad',
+    nav_title: 'Seguridad',
+    description: '',
+  },
+  faq_merchants_signing_up: {
+    title: 'FAQ para negocios - Registro',
+    nav_title: 'Registro',
+    description: '',
+  },
+  faq_merchants_verification: {
+    title: 'FAQ para empresas - Verificación',
+    nav_title: 'Verifica tu cuenta',
+    description: 'Proceso de blanqueo de capitales para poder operar con tu cuenta GoCardless sin restricciones.',
+  },
+  faq_pro_dashboard: {
+    faq_title: 'Tutoriales',
+    title: 'Una guía pasos a paso sobre como utilizar el Panel de GoCardless.',
+    nav_title: 'Setup',
+    link_title: 'Tutoriales',
+    description: '',
+  },
+  faq_pro_dashboard_mandate_creation: {
+    title: 'FAQ - Creación de Mandatos',
+    nav_title: 'Mandatos - Creación',
+    description: '',
+  },
+  faq_pro_dashboard_mandate_export: {
+    title: 'FAQ - Exportación de Mandatos',
+    nav_title: 'Mandatos - Exportación',
+    description: '',
+  },
+  faq_pro_dashboard_plan_creation: {
+    title: 'FAQ - Creación de Planes de Cobro',
+    nav_title: 'Planes de Cobro - Creación',
+    description: '',
+  },
+  faq_pro_dashboard_paylinks_creation: {
+    title: 'FAQ - Creación de Paylinks',
+    nav_title: 'Paylinks - Creación',
+    description: '',
+  },
+  faq_pro_dashboard_payment_creation: {
+    title: 'FAQ - Creación de Cobros',
+    nav_title: 'Cobros - Creación',
+    description: '',
+  },
+  faq_pro_dashboard_subscription_creation: {
+    title: 'FAQ - Creación de Suscripciones',
+    nav_title: 'Suscripciones - Creación',
+    description: '',
+  },
+  faq_pro_dashboard_payment_refund: {
+    title: 'FAQ - Devolución de cobros',
+    nav_title: 'Cobros - Devolución',
+    description: '',
+  },
+  faq_pro_dashboard_payment_tracking: {
+    title: 'FAQ - Seguimiento de Cobros',
+    nav_title: 'Cobros - Seguimiento / Status',
+    description: '',
+  },
+  faq_pro_dashboard_payment_retry: {
+    title: 'FAQ - Reintento de cobros',
+    nav_title: 'Cobros - Reintentos',
+    description: '',
+  },
+  faq_pro_dashboard_payout_tracking: {
+    title: 'FAQ - Seguimiento de fondos transferidos',
+    nav_title: 'Fondos transferidos - Seguimiento',
+    description: '',
+  },
   pro: {
     title: 'Control Total de tus Domiciliaciones Bancarias',
     nav_title: 'GoCardless Pro',
@@ -126,15 +238,6 @@ export default {
   partners_billin: {
     title: 'GoCardless para Billin',
     description: 'Gestiona el proceso de facturación con Billin y garantiza el pago de tus facturas a tiempo con GoCardless',
-  },
-  faq: {
-    title: 'FAQ - Preguntas más comunes',
-    sidebar: '¿No encuentras respuesta? Llama a nuestro equipo de soporte al',
-  },
-  faq_merchants_verification: {
-    title: 'FAQ para empresas - Verificación',
-    nav_title: 'Verifica tu cuenta',
-    description: 'Proceso de blanqueo de capitales para poder operar con tu cuenta GoCardless sin restricciones.',
   },
   payments_by_direct_debit: {
     title: 'Cobros online con Domiciliación Bancaria SEPA',

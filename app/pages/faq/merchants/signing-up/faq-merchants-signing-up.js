@@ -3,6 +3,7 @@ import FaqMerchantsPage from '../faq-merchants-page';
 import FaqMerchantsSigningUpEn from './faq-merchants-signing-up.en';
 import FaqMerchantsSigningUpFr from './faq-merchants-signing-up.fr';
 import FaqMerchantsSigningUpDe from './faq-merchants-signing-up.de';
+import FaqMerchantsSigningUpEs from './faq-merchants-signing-up.es';
 
 export default class FaqMerchantsSigningUp extends React.Component {
   displayName = 'FaqMerchantsSigningUp'
@@ -13,6 +14,7 @@ export default class FaqMerchantsSigningUp extends React.Component {
         <FaqMerchantsSigningUpEn />
         <FaqMerchantsSigningUpFr />
         <FaqMerchantsSigningUpDe />
+        <FaqMerchantsSigningUpEs />
       </FaqMerchantsPage>
     );
   }

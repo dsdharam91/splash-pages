@@ -993,6 +993,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/haendler',
       },
+      es: {
+        path: '/faq/empresas',
+      },
     },
   ],
   [FaqMerchantsHowItWorks, { name: 'faq_merchants_how_it_works', category: 'faq.merchants' }, {
@@ -1013,6 +1016,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/faq/haendler/wie-es-funktioniert',
+      },
+      es: {
+        path: '/faq/empresas/como-funciona',
       },
     },
   ],
@@ -1035,6 +1041,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/haendler/anmelden',
       },
+      es: {
+        path: '/faq/empresas/registro',
+      },
     },
   ],
   [FaqMerchantsDirectDebit, { name: 'faq_merchants_direct_debit', category: 'faq.merchants' }, {
@@ -1055,6 +1064,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/faq/haendler/lastschriftverfahren',
+      },
+      es: {
+        path: '/faq/empresas/domiciliacion-bancaria',
       },
     },
   ],
@@ -1077,6 +1089,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/haendler/sicherheit',
       },
+      es: {
+        path: '/faq/empresas/seguridad',
+      },
     },
   ],
   [FaqMerchantsCustomerExperience, { name: 'faq_merchants_customer_experience', category: 'faq.merchants' }, {
@@ -1097,6 +1112,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/faq/haendler/kunden-erlebnis',
+      },
+      es: {
+        path: '/faq/empresas/experiencia-usuario',
       },
     },
   ],
@@ -1119,6 +1137,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/haendler/international',
       },
+      es: {
+        path: '/faq/empresas/cobros-internationales',
+      },
     },
   ],
   [FaqMerchantsDeveloperApi, { name: 'faq_merchants_developer_api', category: 'faq.merchants' }, {
@@ -1139,6 +1160,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/faq/haendler/entwickler-api',
+      },
+      es: {
+        path: '/faq/empresas/desarrollador-api',
       },
     },
   ],
@@ -1182,6 +1206,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/dashboard',
       },
+      es: {
+        path: '/faq/panel-control',
+      },
     },
   ],
   [FaqProDashboardMandateCreation, { name: 'faq_pro_dashboard_mandate_creation', category: 'faq.pro_dashboard' }, {
@@ -1200,17 +1227,26 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/dashboard/mandate-erstellen',
       },
+      es: {
+        path: '/faq/panel-control/creacion-mandatos',
+      },
     },
   ],
   [FaqProDashboardPlanCreation, { name: 'faq_pro_dashboard_plan_creation', category: 'faq.pro_dashboard' }, {
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-plan',
       },
+      es: {
+        path: '/faq/panel-control/creacion-planes',
+      },
     },
   ],
   [FaqProDashboardPaylinksCreation, { name: 'faq_pro_dashboard_paylinks_creation', category: 'faq.pro_dashboard' }, {
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-paylinks',
+      },
+      es: {
+        path: '/faq/panel-control/paylinks',
       },
     },
   ],
@@ -1230,6 +1266,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/dashboard/zahlungen-erstellen',
       },
+      es: {
+        path: '/faq/panel-control/creación-cobros',
+      },
     },
   ],
   [FaqProDashboardSubscriptionCreation, { name: 'faq_pro_dashboard_subscription_creation', category: 'faq.pro_dashboard' }, {
@@ -1245,8 +1284,11 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/tableau-de-bord-pro/creation-abonnement',
       },
-     de: {
+      de: {
         path: '/faq/dashboard/abonnements-erstellen',
+      },
+      es: {
+        path: '/faq/panel-control/suscripciones-creacion',
       },
     },
   ],
@@ -1263,8 +1305,11 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/tableau-de-bord-pro/suivi-paiements',
       },
-     de: {
+      de: {
         path: '/faq/dashboard/zahlungen-verfolgen',
+      },
+      es: {
+        path: '/faq/panel-control/seguimiento-cobros',
       },
     },
   ],
@@ -1284,6 +1329,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/dashboard/zahlungen-erstatten',
       },
+      es: {
+        path: '/faq/panel-control/devolucion-cobros',
+      },
     },
   ],
   [FaqProDashboardPaymentRetry, { name: 'faq_pro_dashboard_payment_retry', category: 'faq.pro_dashboard' }, {
@@ -1302,6 +1350,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/faq/dashboard/zahlungen-wiederversuchen',
       },
+      es: {
+        path: '/faq/panel-control/reintento-cobros',
+      },
     },
   ],
   [FaqProDashboardPayoutTracking, { name: 'faq_pro_dashboard_payout_tracking', category: 'faq.pro_dashboard' }, {
@@ -1317,8 +1368,11 @@ export const config = Immutable.fromJS([
       fr: {
         path: '/faq/tableau-de-bord-pro/suivi-encaissements',
       },
-     de: {
+      de: {
         path: '/faq/dashboard/auszahlungen-verfolgen',
+      },
+      es: {
+        path: '/faq/panel-control/seguimiento-transferidos',
       },
     },
   ],
@@ -1337,6 +1391,9 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/faq/dashboard/mandate-exportieren',
+      },
+      es: {
+        path: '/faq/panel-control/exportar-mandatos',
       },
     },
   ],
