@@ -71,19 +71,17 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
         <Translation locales='en-GB'>
           <p className='para'>
             We have client libraries
-            for <a href='https://github.com/gocardless/gocardless-ruby' target='_blank' className='u-link-color-p u-text-underline'>
+            for <a href='https://github.com/gocardless/gocardless-pro-ruby' target='_blank' className='u-link-color-p u-text-underline'>
               Ruby
             </a>
-            , <a href='https://github.com/gocardless/gocardless-php' target='_blank' className='u-link-color-p u-text-underline'>
+            , <a href='https://github.com/gocardless/gocardless-pro-php' target='_blank' className='u-link-color-p u-text-underline'>
               PHP
             </a>
-            , <a href='https://github.com/gocardless/gocardless-java' target='_blank' className='u-link-color-p u-text-underline'>
+            , <a href='https://github.com/gocardless/gocardless-pro-java' target='_blank' className='u-link-color-p u-text-underline'>
               Java
             </a>
-            , <a href='https://github.com/gocardless/gocardless-python' target='_blank' className='u-link-color-p u-text-underline'>
+            and <a href='https://github.com/gocardless/gocardless-pro-python' target='_blank' className='u-link-color-p u-text-underline'>
               Python
-            </a> and <a href='https://github.com/gocardless/gocardless-dotnet' target='_blank' className='u-link-color-p u-text-underline'>
-              .NET
             </a>.
           </p>
         </Translation>
@@ -95,9 +93,12 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
             </a>
             , <a href='https://github.com/gocardless/gocardless-pro-php' target='_blank' className='u-link-color-p u-text-underline'>
               PHP
-            </a> and&nbsp;
-            <a href='https://github.com/gocardless/gocardless-pro-java' target='_blank' className='u-link-color-p u-text-underline'>
+            </a>
+            , <a href='https://github.com/gocardless/gocardless-pro-java' target='_blank' className='u-link-color-p u-text-underline'>
               Java
+            </a>
+            and <a href='https://github.com/gocardless/gocardless-pro-python' target='_blank' className='u-link-color-p u-text-underline'>
+              Python
             </a>.
           </p>
         </Translation>
