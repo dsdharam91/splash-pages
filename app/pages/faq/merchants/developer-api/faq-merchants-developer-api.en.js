@@ -79,8 +79,8 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
             </a>
             , <a href='https://github.com/gocardless/gocardless-pro-java' target='_blank' className='u-link-color-p u-text-underline'>
               Java
-            </a>
-            and <a href='https://github.com/gocardless/gocardless-pro-python' target='_blank' className='u-link-color-p u-text-underline'>
+            </a> and&nbsp;
+            <a href='https://github.com/gocardless/gocardless-pro-python' target='_blank' className='u-link-color-p u-text-underline'>
               Python
             </a>.
           </p>
@@ -96,8 +96,8 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
             </a>
             , <a href='https://github.com/gocardless/gocardless-pro-java' target='_blank' className='u-link-color-p u-text-underline'>
               Java
-            </a>
-            and <a href='https://github.com/gocardless/gocardless-pro-python' target='_blank' className='u-link-color-p u-text-underline'>
+            </a> and&nbsp;
+            <a href='https://github.com/gocardless/gocardless-pro-python' target='_blank' className='u-link-color-p u-text-underline'>
               Python
             </a>.
           </p>
