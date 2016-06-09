@@ -32,7 +32,6 @@ import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliabil
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
-import SalesDevelopmentRepresentativeFrench from '../pages/about/jobs/positions/sales-development-representative-french';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import Recruiter from '../pages/about/jobs/positions/recruiter.js';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
@@ -404,9 +403,6 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/jobs',
       },
-      fr: {
-        path: '/a-propos/offres',
-      },
     },
   ],
   [DataEngineer, { name: 'jobs_data_engineer', category: 'jobs.engineering' }, {
@@ -454,15 +450,6 @@ export const config = Immutable.fromJS([
   [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/sales-development-representative-inbound',
-      },
-    },
-  ],
-  [SalesDevelopmentRepresentativeFrench, { name: 'jobs_sales_development_representative_french', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/french-sales-development-representative',
-      },
-      fr: {
-        path: '/a-propos/offres/charge-de-compte',
       },
     },
   ],
