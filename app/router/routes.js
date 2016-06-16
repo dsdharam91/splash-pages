@@ -15,6 +15,7 @@ import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-d
 
 import Accountants from '../pages/verticals/accountants';
 import Agencies from '../pages/verticals/agencies';
+import Charities from '../pages/verticals/charities';
 import LocalAuthorities from '../pages/verticals/local-authorities';
 import Telcos from '../pages/verticals/telcos';
 import Utilities from '../pages/verticals/utilities';
@@ -330,6 +331,12 @@ export const config = Immutable.fromJS([
   [Agencies, { name: 'agencies' }, {
       'en-GB': {
         path: '/agencies',
+      },
+    },
+  ],
+  [Charities, { name: 'charities' }, {
+      'en-GB': {
+        path: '/charities',
       },
     },
   ],
