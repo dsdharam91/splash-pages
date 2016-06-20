@@ -6,7 +6,6 @@ import CheckListIcon from '../../icons/svg/checklist';
 import ImproveCashflowIcon from '../../icons/svg/improve-cashflow';
 import UsersIcon from '../../icons/svg/users';
 import AddPartnerIcon from '../../icons/svg/add-partner';
-import WhiteLabelIcon from '../../icons/svg/white-label';
 import CustomerIcon from '../../icons/svg/customer';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
 
@@ -22,7 +21,7 @@ export default class Charities extends React.Component {
               A simpler way to take Direct Debit payments
             </h1>
             <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
-              Join hundreds of charities who use GoCardless for their Direct Debit payments.
+              Join the hundreds of charities who use GoCardless to collect donations.
             </p>
           </div>
         </div>
@@ -50,7 +49,7 @@ export default class Charities extends React.Component {
                   Superior payment capabilities
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Reduce error rates with automated billing.
+                  Optimise your submissions to reduce errors and disruption.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -62,7 +61,7 @@ export default class Charities extends React.Component {
                   Stay connected
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Give your team the best tools to keep your donors happy by connecting Direct Debit to your billing and CRM systems.
+                  Give your team the best tools by connecting Direct Debit to your billing and CRM systems.
                 </p>
               </div>
             </div>
@@ -133,7 +132,7 @@ export default class Charities extends React.Component {
               </p>
               <h3 className='u-text-s'>Built to scale</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Manage intense donor acquisition and billing periods with our scalable cloud solution.
+                Prevent costly billing errors with automated submissions through our scalable cloud solution.
               </p>
               <h3 className='u-text-s'>Multi-territory</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
