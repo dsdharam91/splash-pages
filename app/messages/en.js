@@ -529,8 +529,20 @@ export default {
     title: 'Account Executive, Enterprise Sales: UK',
     description: '',
   },
+  jobs_market_analyst_internship: {
+    title: 'Market Analyst Internship',
+    description: '',
+  },
+  jobs_new_business_development_representative: {
+    title: 'New Business Development Rep: UK',
+    description: '',
+  },
   jobs_sales_development_representative_inbound: {
     title: 'SDR Inbound: UK',
+    description: '',
+  },
+  jobs_sales_development_representative_germany: {
+    title: 'SDR: Germany',
     description: '',
   },
   jobs_head_of_sales_france: {
@@ -563,6 +575,10 @@ export default {
   },
   jobs_customer_support: {
     title: 'Customer Support',
+    description: '',
+  },
+  jobs_customer_support_germany: {
+    title: 'Customer Support: Germany',
     description: '',
   },
   jobs_head_customer_support: {
