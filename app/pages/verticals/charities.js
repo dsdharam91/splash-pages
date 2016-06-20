@@ -37,7 +37,7 @@ export default class Charities extends React.Component {
                   Improved donor experience
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Ensure that your donors remain connected to your core mission.
+                  Offer multi-channel set-up and ensure that your donors remain connected to your core mission.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -49,7 +49,7 @@ export default class Charities extends React.Component {
                   Superior payment capabilities
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Optimise your submissions to reduce errors and disruption.
+                  Optimise your submissions to reduce error and disruption. A cloud solution that's built to scale.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -98,11 +98,11 @@ export default class Charities extends React.Component {
             <div className='grid__cell u-size-1of2 u-text-center'>
               <img src='/images/partners/pay-via-mobile-illustration@2x.png' className='partners-page__mobile-image'/>
             </div>
-            <div className='grid__cell u-size-1of2 u-margin-Tl'>
+            <div className='grid__cell u-size-1of2'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                 An improved donor experience
               </h2>
-              <h3 className='u-text-s'>Self-service</h3>
+              <h3 className='u-text-s'>Multi-channel</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
                 Set up Direct Debit payments by paper, telephone or online form. Your donors can enter their details
                 on desktop, tablet and mobile devices.
