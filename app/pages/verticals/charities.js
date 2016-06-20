@@ -76,7 +76,7 @@ export default class Charities extends React.Component {
             </h2>
             <div className='grid__cell u-size-2of3 u-link-clean u-padding-Vm u-padding-Hn'>
               <div className='spotlight-grid__container u-text-center u-padding-Tl u-padding-Bxxl'>
-                <i role='img' className='connexin-logo stories-item__logo--connexin'></i>
+                <i role='img' className='foundation-of-hearts-logo stories-item__logo--foundation-of-hearts'></i>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txxs'>
                   “We chose GoCardless for 3 reasons: it's easy for our team to use, easy for our supporters to use, and the fees
                   are brilliantly low. What's more, the quality of service we've received from the team has been fantastic.”
@@ -87,7 +87,7 @@ export default class Charities extends React.Component {
               </div>
             </div>
             <div className='u-text-center u-padding-Vs u-center u-margin-Tl'>
-              <img src='/images/logos/pro-logos@2x.png' className='u-size-2of3' />
+              <img src='/images/logos/charity-logos@2x.png' className='u-size-2of3' />
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default class Charities extends React.Component {
               <h3 className='u-text-s'>Self-service</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
                 Set up Direct Debit payments by paper, telephone or online form. Your donors can enter their details
-                on desktop, tablet and mobile devices
+                on desktop, tablet and mobile devices.
               </p>
               <h3 className='u-text-s'>Flexible submissions</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
