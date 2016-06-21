@@ -146,7 +146,7 @@ class Footer extends React.Component {
               <Message pointer='footer.currently_viewing'
               className='u-text-light u-text-no-smoothing u-inline-block' />
               <Popover className='popover--country-select' toggle={
-                  (<a href='' className='u-text-semi u-link-invert'>
+                  (<a className='u-text-semi u-link-invert'>
                     <Flag width="60" height="40" country={region} className='flag-icon u-margin-Hs' alt={ region } />
                     <span className='popover-link popover-link--invert'>
                       <Message pointer='country' />

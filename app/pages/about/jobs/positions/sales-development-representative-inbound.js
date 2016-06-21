@@ -20,8 +20,8 @@ export default class SalesDevelopmentRepresentativeInbound extends React.Compone
         </p>
         <p className='para'>
           Thousands of companies now use our services, from local authorities, energy suppliers and charities to household
-          names like Thomas Cook, The Guardian and The Financial Times. Following our recent $13m Series C funding round,
-          we’re moving into our next phase of growth.
+          names like Thomas Cook, The Guardian and The Financial Times. Following our recent <a href='https://gocardless.com/blog/gocardless-notion-funding/' target='_blank'>
+          $13m Series C funding round </a>, we’re moving into our next phase of growth.
         </p>
         <p className='para'>
           We're looking for bright, ambitious people to join our talented sales
@@ -31,9 +31,9 @@ export default class SalesDevelopmentRepresentativeInbound extends React.Compone
         <p className='para'>
           The sales team at GoCardless combines deep product expertise with a
           commitment to helping new and existing businesses succeed across a
-          range of industries. As a Sales Development Rep, you’re the first port of call for many of our prospective customers.
+          range of industries. As a Sales Development Rep, you’ll be the first port of call for many of our prospective customers.
           You’ll mix in-depth knowledge of the product and wider payments industry with a consultative sales approach to
-          help fit the product to the customer’s specific requirements. This is a high impact role. You’ll have the unique
+          help fit the product to the customer’s specific requirements. This is a high impact role and you’ll have the unique
           opportunity to work closely with Marketing, Product and Ops and shape the way our product is used.
         </p>
         <p className='para'>

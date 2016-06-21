@@ -37,29 +37,27 @@ export default class MarketAnalystInternship extends React.Component {
         <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <ul className='list u-margin-Tm'>
           <li>
-            Undergraduate students or recent graduates with commercial or technical backgrounds.
+            You're an undergraduate student or recent graduate with commercial or technical backgrounds.
           </li>
           <li>
-            Strong analytical skills and the ability to use a wide range of resources to come to clear conclusions and recommendations.
+            You have strong analytical skills and the ability to use a wide range of resources to come to clear conclusions and recommendations.
           </li>
           <li>
-            A numerate individual that relishes the process of analysing data to extract insights.
+            You are a numerate individual that relishes the process of analysing data to extract insights.
           </li>
           <li>
-            A passion for technology, the startup community, and supporting other businesses as they grow.
+            You have the motivation and flexibility to work well in a rapidly changing, high-growth environment.
           </li>
           <li>
-            The motivation and flexibility to work well in a rapidly changing, high-growth environment.
-          </li>
-          <li>
-            Superb verbal and written communication skills.
+            You have superb verbal and written communication skills.
           </li>
         </ul>
+        <p className='para'>
+          This role would ideally suit someone passionate for technology, the startup community, and supporting other businesses as they grow.
+          If you’re unsure, please apply &ndash; we’d love to hear from you. This role will be based in London.
+        </p>
         <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The perks</h4>
         <ul className='list u-margin-Tm'>
-          <li>
-            Competitive salary, commission and options package.
-          </li>
           <li>
             Macbook Air and 27" Thunderbolt display.
           </li>
@@ -70,9 +68,6 @@ export default class MarketAnalystInternship extends React.Component {
             Stocked kitchen and unlimited (great) coffee!
           </li>
         </ul>
-        <p className='para'>
-          If you’re unsure, please apply &ndash; we’d love to hear from you. This role will be based in London.
-        </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/235054' className='btn u-margin-Vs'>
           Apply now
         </a>

@@ -16,7 +16,7 @@ export default class SalesDevelopmentRepresentativeGermany extends React.Compone
           At GoCardless we are looking to scale from processing $1 billion a year to over $10 billion worldwide.
           Our <a href='https://gocardless.com/blog/a-new-payment-network-for-the-internet/' target='_blank'> vision </a>
           is to create a global payments network, making payments simpler on
-          the internet no matter what country you're in. We launched in Germany in 2015 and have added noteworthy customers and partners, such as
+          the internet no matter what country you're in. We launched in Germany in 2015 and have added several notable customers and partners, such as
           betahaus Hamburg, rankingCoach and Debitoor. We believe that this is only the start of our journey in Germany and around the world.
         </p>
         <p className='para'>
@@ -31,15 +31,14 @@ export default class SalesDevelopmentRepresentativeGermany extends React.Compone
           new merchants. Along the way, you'll work closely with business and product leaders across the company to help accelerate our growth.
         </p>
         <p className='para'>
-          Training for the position will involve a <a href='https://gocardless.com/blog/how-we-train-salespeople/' target='_blank'> 4 week structured program </a>
+          Training for the position will involve a <a href='https://gocardless.com/blog/how-we-train-salespeople/' target='_blank'> four week structured program </a>
           where you’ll develop a detailed understanding of the product and where we fit within the payments industry. We’ll also invest time in
           developing your sales skills through one-to-one sessions, mock calls and demos with the wider sales team.
         </p>
         <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <ul className='list u-margin-Tm'>
           <li>
-            You have experience within a sales environment, a top consultancy,
-            or are a recent graduate with commercial or technical background.
+            You are a recent graduate with a commercial or technical background.
           </li>
           <li>
             You are able to understand our API and build great relationships with highly technical customers.
@@ -80,7 +79,8 @@ export default class SalesDevelopmentRepresentativeGermany extends React.Compone
           </li>
         </ul>
         <p className='para'>
-          If you’re unsure, please apply &ndash; we’d love to hear from you. This role will be based in London.
+          However our team comes from a variety of backgrounds and
+          we welcome diversity &ndash; if you’re unsure, please apply. This role will be based in London.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/236794' className='btn u-margin-Vs'>
           Apply now
