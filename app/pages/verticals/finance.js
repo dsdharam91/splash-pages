@@ -155,7 +155,7 @@ export default class Finance extends React.Component {
             </div>
             <div className='grid__cell u-size-1of2 u-margin-Ts'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
-                Join <Message pointer='number_of_merchants' />+ businesses
+                Streamline the collection of pension contributions
               </h2>
               <h3 className='u-text-s'>Quick to get started</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
