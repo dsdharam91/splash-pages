@@ -12,15 +12,15 @@ describe('Swapping languages', function() {
     element(by.id('track-nav-more')).click();
     element(by.id('track-nav-security')).click();
 
-    var popoverLink = element(by.cssContainingText('.popover-link', 'United Kingdom'));
-    var frenchLink = element(by.css('a[href="/fr-fr/securite/"]'));
+     ec.waitForUrlChange(BASE_URL + '/security/').then(function() {
+       var popoverLink = element(by.cssContainingText('.popover-link', 'United Kingdom'));
+       var frenchLink = element(by.css('a[href="/fr-fr/securite/"]'));
 
-    expect(browser.getCurrentUrl()).toEqual(BASE_URL + '/security/');
-
-    ec.waitForClickableThenClick(popoverLink).
-      then(ec.waitForClickableThenClick.bind(null, frenchLink)).
-      then(function() {
-        expect(element(by.cssContainingText('body', 'Vous êtes protégé')).isPresent()).toBe(true);
-      });
+       ec.waitForClickableThenClick(popoverLink).
+       then(ec.waitForClickableThenClick.bind(null, frenchLink)).
+       then(function() {
+         expect(element(by.cssContainingText('body', 'Vous êtes protégé')).isPresent()).toBe(true);
+       });
+     });
   });
 });
