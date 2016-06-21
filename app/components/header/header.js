@@ -79,7 +79,7 @@ class Header extends React.Component {
 
               <Translation locales={availableLocales} exclude={['en-GB']} tagName='div' className='nav__item u-relative'>
                 <Popover className='popover--large' toggle={
-                   (<a href='' id='track-nav-products' className={linkClass}>
+                   (<a id='track-nav-products' className={linkClass}>
                       <div className={classNames('nav__item-link popover-link', {
                         'popover-link--invert': isInverted,
                       })}>
@@ -120,7 +120,7 @@ class Header extends React.Component {
 
               <div className='nav__item u-relative'>
                 <Popover toggle={
-                  (<a href='' id='track-nav-more' className={linkClass}>
+                  (<a id='track-nav-more' className={linkClass}>
                     <div className={classNames('nav__item-link popover-link', {
                       'popover-link--invert': isInverted,
                     })}>
