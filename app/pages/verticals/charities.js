@@ -37,7 +37,7 @@ export default class Charities extends React.Component {
                   Improved donor experience
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Offer multi-channel set-up and ensure that your donors remain connected to your core mission.
+                  Make it easy for donors to sign up and ensure they remain connected to your core mission.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -104,8 +104,8 @@ export default class Charities extends React.Component {
               </h2>
               <h3 className='u-text-s'>Multi-channel</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Set up Direct Debit payments by paper, telephone or online form. Your donors can enter their details
-                on desktop, tablet and mobile devices.
+                Allow donors to set up Direct Debit payments by paper, telephone or online form. With online, your donors can sign up from
+                both desktop and mobile.
               </p>
               <h3 className='u-text-s'>Flexible submissions</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
@@ -130,13 +130,13 @@ export default class Charities extends React.Component {
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
                 Easily retry failed payments and rectify chargebacks with immediate notifications via email and API.
               </p>
-              <h3 className='u-text-s'>Built to scale</h3>
+              <h3 className='u-text-s'>Reduce errors</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Prevent costly billing errors with automated submissions through our scalable cloud solution.
+                Automated submissions and built-in bank account validation help to prevent costly billing errors.
               </p>
               <h3 className='u-text-s'>Multi-territory</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Collect from donors in UK, Eurozone and Sweden, with more territories coming soon.
+                Collect from donors across the UK, Eurozone and Sweden, with more territories coming soon.
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-text-center'>
@@ -197,10 +197,11 @@ export default class Charities extends React.Component {
                   <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Collect in £ and €
+                  Suitable for everyone
                 </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  Collect money from donors in the UK and Europe. Take payments through Bacs &amp; SEPA Direct Debit.</p>
+                  Get started quickly with our easy-to-use dashboard or integrate our powerful API into your systems.
+                </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
