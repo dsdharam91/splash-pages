@@ -200,7 +200,7 @@ export default class Charities extends React.Component {
                   Suitable for everyone
                 </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  Get started quickly with our easy-to-use dashboard or integrate our powerful API into your systems.
+                  Get started quickly with our easy-to-use dashboard or integrate our powerful API into your system.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
