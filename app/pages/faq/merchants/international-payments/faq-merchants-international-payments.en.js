@@ -11,14 +11,14 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
       <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>International payments</h2>
         <IfLocale domesticScheme='bacs'>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Can only UK businesses use GoCardless?
           </h3>
           <p className='para'>
             No. You just need to have a GBP bank account so we can pay you. You do not need to be a UK registered business or individual.
           </p>
 
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             When can I collect from Europe?
           </h3>
           <p className='para'>
@@ -30,7 +30,7 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
           </p>
         </IfLocale>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Where in Europe can I collect from?
         </h3>
         <p className='para'>
@@ -39,14 +39,14 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
           Slovenia, Spain, Sweden and the United Kingdom.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Which currencies does GoCardless support?
         </h3>
         <p className='para'>
           We support payments in GBP, EUR and SEK.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What is SEPA Direct Debit?
         </h3>
         <p className='para'>
@@ -59,7 +59,7 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
 
         { /* Bacs is only an international scheme for SEPA countries */ }
         <IfLocale domesticScheme={['sepa','bg-autogiro']}>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             What is Bacs Direct Debit?
           </h3>
           <p className='para'>
@@ -70,7 +70,7 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
         </IfLocale>
 
         <IfLocale domesticScheme={['bacs','sepa']}>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             What is Bg Autogiro?
           </h3>
           <p className='para'>
@@ -81,7 +81,7 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
         </IfLocale>
 
         <Translation locales='en-IE'>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Will international payments cost the same as in <Message pointer='country' />?
           </h3>
           <p className='para'>
@@ -90,7 +90,7 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
           </p>
         </Translation>
         <Translation locales='en-GB'>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Will international payments cost the same as in the UK?
           </h3>
           <p className='para'>
@@ -98,7 +98,7 @@ export default class FaqMerchantsInternationalPayments extends React.Component {
           </p>
         </Translation>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           When will GoCardless be available outside Europe?
         </h3>
         <p className='para'>

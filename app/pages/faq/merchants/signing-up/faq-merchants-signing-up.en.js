@@ -11,7 +11,7 @@ export default class FaqMerchantsSigningUpEn extends React.Component {
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Signing up</h2>
 
         <Translation locales={['en']} exclude={['en-GB']}>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             How can I register for GoCardless?
           </h3>
           <p className='para'>
@@ -20,7 +20,7 @@ export default class FaqMerchantsSigningUpEn extends React.Component {
           </p>
         </Translation>
         <Translation locales='en-GB'>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             What do I need to sign up?
           </h3>
           <p className='para'>
@@ -28,7 +28,7 @@ export default class FaqMerchantsSigningUpEn extends React.Component {
             information on the company or organisation you are collecting for.
           </p>
 
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             How do I test out the product?
           </h3>
           <p className='para'>
@@ -36,7 +36,7 @@ export default class FaqMerchantsSigningUpEn extends React.Component {
             yourself. It takes less than 5 minutes and is completely risk-free.
           </p>
 
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Can I sign up if I'm not a registered company?
           </h3>
           <p className='para'>
@@ -47,7 +47,7 @@ export default class FaqMerchantsSigningUpEn extends React.Component {
             individual. This will not affect the operation of your account.
           </p>
 
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             What do I do if I'm a developer?
           </h3>
           <p className='para'>
@@ -56,7 +56,7 @@ export default class FaqMerchantsSigningUpEn extends React.Component {
           </p>
         </Translation>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Are there any commitments?
         </h3>
         <p className='para'>

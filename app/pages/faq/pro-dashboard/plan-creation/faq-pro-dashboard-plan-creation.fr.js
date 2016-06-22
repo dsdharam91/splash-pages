@@ -16,7 +16,7 @@ export default class FaqProDashboardPlanCreationFr extends React.Component {
           un échéancier de paiements.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Définir le Plan
         </h3>
 
@@ -57,7 +57,7 @@ export default class FaqProDashboardPlanCreationFr extends React.Component {
 
         <img src='/images/faq/fr/create-plan.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Partager le Plan
         </h3>
 
@@ -88,7 +88,7 @@ export default class FaqProDashboardPlanCreationFr extends React.Component {
 
         <img src='/images/faq/fr/sepa-plan-page.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Gérer les Plans
         </h3>
 

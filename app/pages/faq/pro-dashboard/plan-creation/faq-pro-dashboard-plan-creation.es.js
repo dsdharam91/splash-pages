@@ -15,7 +15,7 @@ export default class FaqProDashboardPlanCreationEs extends React.Component {
           de Adeudo Directo y un plan de cobros.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Definir el plan
         </h3>
 
@@ -56,7 +56,7 @@ export default class FaqProDashboardPlanCreationEs extends React.Component {
 
         <img src='/images/faq/fr/create-plan.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Compartir el Plan
         </h3>
 
@@ -88,7 +88,7 @@ export default class FaqProDashboardPlanCreationEs extends React.Component {
 
         <img src='/images/faq/fr/sepa-plan-page.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Gestionar los planes
         </h3>
 

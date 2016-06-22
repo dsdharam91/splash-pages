@@ -9,7 +9,7 @@ export default class FaqMerchantsSigningUpFr extends React.Component {
     return (
       <Translation locales='fr'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Inscription</h2>
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Comment m’inscrire sur GoCardless?
         </h3>
         <p className='para'>
@@ -22,7 +22,7 @@ export default class FaqMerchantsSigningUpFr extends React.Component {
           créer un compte sandbox</a> pour tester votre intégration.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Y a-t-il une période d’engagement?
         </h3>
         <p className='para'>

@@ -8,7 +8,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
     return (
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>¿Cómo funciona?</h2>
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cuándo recibo mi cobro?
         </h3>
         <p className='para'>
@@ -18,7 +18,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           className='u-link-color-p u-text-underline'>aquí</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Qué tipos de cobros puedo realizar?
         </h3>
         <p className='para'>
@@ -26,7 +26,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           panel de control online o la API.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cómo funciona el proceso de cobro?
         </h3>
         <ul className='list'>
@@ -48,7 +48,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cómo autoriza un cobro mi cliente?
         </h3>
         <p className='para'>
@@ -61,7 +61,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           online para realizar una Domociliación Bancaria o Adeudo Directo y autorizarte a realizar cobros futuros automáticamente.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Pueden los clientes registrarse en mi sitio web?
         </h3>
         <p className='para'>
@@ -73,14 +73,14 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           Al hacer clic en el botón, el cliente será reenviado a nuestra página segura de cobros online desde la que puede autorizar los pagos.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Puedo configurar los cobros para que empiecen y terminen en una fecha concreta?
         </h3>
         <p className='para'>
           Sí - puedes personalizar fácilmente el día, la fecha, la frecuencia y la duración de los cobros.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Puedo modificar un cobro o una suscripción una vez que se ha creado?
         </h3>
         <p className='para'>
@@ -89,7 +89,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           panel de control en cuestión de segundos.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cómo sé si me han pagado?
         </h3>
         <p className='para'>
@@ -97,7 +97,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           cobros y clientes, lo que te permite controlar el estado de un cobro en cualquier momento.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Pondréis algún límite a mi cuenta?
         </h3>
         <p className='para'>

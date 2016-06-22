@@ -10,7 +10,7 @@ export default class FaqCustomersSecurity extends React.Component {
     return (
       <FaqCustomersPage>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Security</h2>
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How does GoCardless keep my details safe?
         </h3>
         <p className='para'>
@@ -21,7 +21,7 @@ export default class FaqCustomersSecurity extends React.Component {
           <li>All sensitive communications use secure channels such as HTTP Secure</li>
           <li>All customer data is treated in accordance with European data protection laws, including the Data Protection Act 1998.</li>
         </ul>
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What do I do if I believe a payment has been taken from my account in error or fraudulently?
         </h3>
         <p className='para'>

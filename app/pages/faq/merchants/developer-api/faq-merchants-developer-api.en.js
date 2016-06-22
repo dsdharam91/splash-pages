@@ -11,7 +11,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
       <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Developer API</h2>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What can I use the API for?
         </h3>
         <p className='para'>
@@ -32,7 +32,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
         </Translation>
 
         <Translation locales='en-GB'>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             How does the Partner API work?
           </h3>
           <p className='para'>
@@ -51,7 +51,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
           </p>
         </Translation>
         <Translation locales='en-IE'>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             How does the Partner API work?
           </h3>
           <p className='para'>
@@ -64,7 +64,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
           </p>
         </Translation>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What programming languages can I use?
         </h3>
 
@@ -103,7 +103,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
           </p>
         </Translation>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can I host the payment pages on my site?
         </h3>
         <Translation locales='en-GB'>
@@ -129,7 +129,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
           </p>
         </Translation>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Do you offer iFrames?
         </h3>
         <p className='para'>
@@ -143,7 +143,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
           </p>
         </Translation>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can payments be made directly via the API?
         </h3>
         <p className='para'>
@@ -160,7 +160,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
           Once authorisation is in place, payment can be requested via the API.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What information do you make available via the API?
         </h3>
         <p className='para'>
@@ -181,7 +181,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
           </p>
         </Translation>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Where can I get technical support?
         </h3>
         <p className='para'>

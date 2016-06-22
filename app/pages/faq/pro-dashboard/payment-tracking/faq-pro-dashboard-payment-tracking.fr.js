@@ -33,7 +33,7 @@ export default class FaqProDashboardPaymentTrackingFr extends React.Component {
           ainsi que d’exporter vers Excel.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Les statuts</h3>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Les statuts</h3>
 
         <table className='table table--faq u-color-dark-gray'>
           <thead>
@@ -89,7 +89,7 @@ export default class FaqProDashboardPaymentTrackingFr extends React.Component {
           </tbody>
         </table>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Les séquences usuelles</h3>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Les séquences usuelles</h3>
 
         <p className='para'>
           Paiement réussi (payé) :
@@ -115,7 +115,7 @@ export default class FaqProDashboardPaymentTrackingFr extends React.Component {
 
         <img src='/images/faq/en/payment-chargebacked.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Représentation</h3>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Représentation</h3>
 
         <p className='para'>
           Il vous est possible de <strong>représenter sans frais un paiement échoué</strong> directement en cliquant “Retry”.

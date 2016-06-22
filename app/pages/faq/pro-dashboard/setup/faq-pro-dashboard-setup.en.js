@@ -22,7 +22,7 @@ export default class FaqProDashboardEn extends React.Component {
           </IfLocale>
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Getting started
         </h3>
         <IfLocale hasInstantSignup>
@@ -101,7 +101,7 @@ export default class FaqProDashboardEn extends React.Component {
           email us at <Href to='email' className='u-link-color-p u-text-underline' />.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Account preparation
         </h3>
         <p className='para'>

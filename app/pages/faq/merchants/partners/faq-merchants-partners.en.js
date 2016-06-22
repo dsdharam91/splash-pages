@@ -9,7 +9,7 @@ export default class FaqMerchantsPartnersEn extends React.Component {
     return (
       <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Partners</h2>
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What is a partner?
         </h3>
         <p className='para'>
@@ -21,7 +21,7 @@ export default class FaqMerchantsPartnersEn extends React.Component {
           className='u-link-color-p u-text-underline'>partner API docs</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Who are existing partners?
         </h3>
         <p className='para'>
@@ -205,14 +205,14 @@ export default class FaqMerchantsPartnersEn extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can I take a revenue share?
         </h3>
         <p className='para'>
           Yes - we offer partners a revenue share of 10% of transaction fees.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How can I become a partner?
         </h3>
         <p className='para'>
@@ -221,7 +221,7 @@ export default class FaqMerchantsPartnersEn extends React.Component {
           right back to you.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           How does it work for my users?
         </h3>
         <p className='para'>
@@ -233,7 +233,7 @@ export default class FaqMerchantsPartnersEn extends React.Component {
           process payment requests on their behalf.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can I display payment information in my application?
         </h3>
         <p className='para'>
@@ -245,7 +245,7 @@ export default class FaqMerchantsPartnersEn extends React.Component {
           className='u-link-color-p u-text-underline'>webhook guide</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can I host the payment pages on my site?
         </h3>
         <p className='para'>
@@ -260,7 +260,7 @@ export default class FaqMerchantsPartnersEn extends React.Component {
           the form.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Do you offer iFrames?
         </h3>
         <p className='para'>
@@ -268,7 +268,7 @@ export default class FaqMerchantsPartnersEn extends React.Component {
           security of iFrames.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Do you work with crowd-funding sites?
         </h3>
         <p className='para'>

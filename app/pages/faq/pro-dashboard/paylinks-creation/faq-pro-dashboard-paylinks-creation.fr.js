@@ -16,7 +16,7 @@ export default class FaqProDashboardPaylinksCreationFr extends React.Component {
           un paiement ponctuel.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Définir le Paylink
         </h3>
 
@@ -44,7 +44,7 @@ export default class FaqProDashboardPaylinksCreationFr extends React.Component {
 
         <img src='/images/faq/fr/create-paylink.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Partager le Paylink
         </h3>
 
@@ -68,7 +68,7 @@ export default class FaqProDashboardPaylinksCreationFr extends React.Component {
 
         <img src='/images/faq/fr/sepa-paylinks-page.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Gérer les Paylinks
         </h3>
 
