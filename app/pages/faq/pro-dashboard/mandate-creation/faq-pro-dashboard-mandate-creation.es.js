@@ -35,7 +35,7 @@ export default class FaqProDashboardMandateCreationEs extends React.Component {
 
         <img src='/images/faq/en/create-customer.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           La página de mandato electrónico
         </h3>
 
@@ -46,7 +46,7 @@ export default class FaqProDashboardMandateCreationEs extends React.Component {
 
         <img src='/images/faq/fr/sepa-mandate-page.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Mandatos existentes en papel o telefónicos
         </h3>
 

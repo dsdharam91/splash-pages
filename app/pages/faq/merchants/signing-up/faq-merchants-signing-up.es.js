@@ -10,7 +10,7 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Signing up</h2>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cómo me registro en GoCardless?
         </h3>
         <p className='para'>
@@ -19,7 +19,7 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
           Para crear una cuenta en producción y empezar a cobrar a tus clientes, necesitas
           ir <a href='https://manage.gocardless.com/signup?lang=es' className='u-link-color-p u-text-underline'>aquí</a>.
         </p>
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Qué necesito para registrarme?
         </h3>
         <p className='para'>
@@ -28,7 +28,7 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
           la empresa y una transferencia bancaria desde la cuenta en la que quieres recibir el dinero.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cómo puedo probar el producto?
         </h3>
         <p className='para'>
@@ -36,7 +36,7 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
           llevará más de 5 minutos y no tiene riesgo alguno.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Puedo registrarme si no soy una empresa registrada?
         </h3>
         <p className='para'>
@@ -49,7 +49,7 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
           Esto no afectará a la operativa de tu cuenta.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Que hago si soy un programador o desarrollador?
         </h3>
         <p className='para'>
@@ -57,7 +57,7 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
           puedes encontrar <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>aquí</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Si me registro ¿Hay algún compromiso o cuota que tenga que pagar?
         </h3>
         <p className='para'>

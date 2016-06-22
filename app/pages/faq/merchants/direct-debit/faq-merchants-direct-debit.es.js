@@ -9,7 +9,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Domiciliación Bancaria</h2>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Qué es el Adeudo Directo SEPA o Domiciliación Bancaria?
         </h3>
         <p className='para'>
@@ -19,7 +19,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           Zona Única de Pagos en Euros (SEPA)</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Qué es la protección al consumidor?
         </h3>
         <p className='para'>
@@ -37,7 +37,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           Corresponde al comerciante resolver su disputa comercial con el cliente.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Hay alguna comisión para el cliente?
         </h3>
         <p className='para'>
@@ -45,14 +45,14 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           Por tanto, es gratis para tus clientes.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Necesito un ID de Acreedor SEPA?
         </h3>
         <p className='para'>
           No. Podemos suministrarte uno a través de nuestro banco asociado.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Para qué tipo de cobros es beneficioso?
         </h3>
 
@@ -65,7 +65,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           <li>Facturación de servicios (p. ej., contabilidad, asesoramiento fiscal, etc.)</li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Para qué tipo de cobros no es beneficioso?
         </h3>
         <ul className='list'>
@@ -74,7 +74,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           <li>Transacciones que podrían experimentar devoluciones (p. ej., juegos de azar)</li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cuáles son los plazos de cobro para el Adeudo Directo SEPA?
         </h3>
         <p className='para'>
@@ -87,7 +87,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           a los 4 días hábiles.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Puedo realizar cobros puntuales a través del Adeudo Directo?
         </h3>
         <p className='para'>
@@ -95,7 +95,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           también se puede utilizar para cobros puntuales.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Puedo cambiar fácilmente de proveedor de Adeudo Directo?
         </h3>
         <p className='para'>

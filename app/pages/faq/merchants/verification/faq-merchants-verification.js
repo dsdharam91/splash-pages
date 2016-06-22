@@ -9,7 +9,7 @@ export default class FaqMerchantsVerification extends React.Component {
       <FaqMerchantsPage>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Verificación</h2>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Qué es la verificación y porque es importante?
         </h3>
         <p className='para'>
@@ -20,7 +20,7 @@ export default class FaqMerchantsVerification extends React.Component {
           como todo el resto de Entidades de Pago reguladas por el EPC y el Banco de España, tenemos que cumplir.
         </p>
         <p className='para'>&nbsp;</p>
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Que puedo y que no puedo hacer mientras mi cuenta esté en proceso de verificación?
         </h3>
         <p className='para'>
@@ -32,11 +32,11 @@ export default class FaqMerchantsVerification extends React.Component {
         </p>
         <p className='para'>&nbsp;</p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Proceso de verificación
         </h3>
 
-        <h4 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h4 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           <strong>Paso 1: </strong>Rellene los datos solicitados
         </h4>
         <p className='para'>
@@ -82,7 +82,7 @@ export default class FaqMerchantsVerification extends React.Component {
         </ul>
         <p className='para'>&nbsp;</p>
 
-        <h4 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h4 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           <strong>Paso 2:</strong> Verifica tu cuenta Bancaria
         </h4>
         <p className='para'>
@@ -95,7 +95,7 @@ export default class FaqMerchantsVerification extends React.Component {
         </p>
         <p className='para'>&nbsp;</p>
 
-        <h4 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h4 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           <strong>Paso 3: </strong>Envío de documentos de acreditación
         </h4>
         <p className='para'>
