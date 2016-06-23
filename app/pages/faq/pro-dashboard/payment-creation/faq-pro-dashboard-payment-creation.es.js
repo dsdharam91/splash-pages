@@ -26,7 +26,7 @@ export default class FaqProDashboardPaymentCreationEs extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Realizar un cobro de Adeudo Directo puntual a un cliente.
         </h3>
         <p className='para'>

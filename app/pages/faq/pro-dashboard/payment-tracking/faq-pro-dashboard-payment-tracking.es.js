@@ -32,7 +32,7 @@ export default class FaqProDashboardPaymentTrackingEs extends React.Component {
           además de exportarlos a un documento Excel.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Los estados</h3>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Los estados</h3>
 
         <table className='table table--faq u-color-dark-gray'>
           <thead>
@@ -87,7 +87,7 @@ export default class FaqProDashboardPaymentTrackingEs extends React.Component {
           </tbody>
         </table>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Las secuencias habituales</h3>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Las secuencias habituales</h3>
 
         <p className='para'>
           Cobro correcto (pagado) :
@@ -113,7 +113,7 @@ export default class FaqProDashboardPaymentTrackingEs extends React.Component {
 
         <img src='/images/faq/en/payment-chargebacked.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Representación</h3>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Representación</h3>
 
         <p className='para'>
           Puedes <strong>reintentar sin coste alguno cualquier cobro fallido</strong> directamente haciendo clic en “Retry”.

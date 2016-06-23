@@ -9,7 +9,7 @@ export default class FaqMerchantsDeveloperApiFr extends React.Component {
     return (
       <Translation locales='fr'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>API pour développeur</h2>
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           À quoi sert l'API?
         </h3>
         <p className='para'>
@@ -21,7 +21,7 @@ export default class FaqMerchantsDeveloperApiFr extends React.Component {
           à partir de vos systèmes informatique et votre site web.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Avec quels langages de programmation êtes-vous compatible?
         </h3>
         <p className='para'>
@@ -29,7 +29,7 @@ export default class FaqMerchantsDeveloperApiFr extends React.Component {
           Nous avons également plusieurs librairies comme Ruby, PHP et Java. Nous en développons régulièrement de nouvelles.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Puis-je héberger directement les pages de paiements ?
         </h3>
         <p className='para'>
@@ -38,7 +38,7 @@ export default class FaqMerchantsDeveloperApiFr extends React.Component {
           certaines règles à respecter, que nous vous aiderons à implémenter via notre guide des règles SEPA.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Autorisez-vous les iFrames ?
         </h3>
         <p className='para'>
@@ -49,7 +49,7 @@ export default class FaqMerchantsDeveloperApiFr extends React.Component {
           Nous offrons également un flow JS qui vous permet de n’avoir aucune donnée bancaire transitant sur vos serveurs.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Quelles informations sont disponibles sur votre API ?
         </h3>
         <p className='para'>
@@ -61,7 +61,7 @@ export default class FaqMerchantsDeveloperApiFr extends React.Component {
           className='u-link-color-p u-text-underline'>ici</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Comment recevoir de l’aide technique ?
         </h3>
         <p className='para'>

@@ -27,7 +27,7 @@ export default class FaqProDashboardSubscriptionCreationEn extends React.Compone
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Creating a Subscription for your Customer
         </h3>
         <p className='para'>

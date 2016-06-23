@@ -10,7 +10,7 @@ export default class FaqMerchantsPartnersDe extends React.Component {
       <Translation locales='de'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Partner</h2>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Was ist ein Partner?
         </h3>
         <p className='para'>
@@ -22,7 +22,7 @@ export default class FaqMerchantsPartnersDe extends React.Component {
           className='u-link-color-p u-text-underline'>Partner API Leitfaden</a>.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Welche Partner nutzen GoCardless bereits?
         </h3>
         <p className='para'>
@@ -46,14 +46,14 @@ export default class FaqMerchantsPartnersDe extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Kann ich einen Revenue Share erhalten?
         </h3>
         <p className='para'>
           Ja - wir bieten unseren Partnern einen Revenue Share von 10% der Zahlungsgebühren.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Wie werde ich Partner?
         </h3>
         <p className='para'>
@@ -62,7 +62,7 @@ export default class FaqMerchantsPartnersDe extends React.Component {
           wir werden uns so bald wie möglich bei Ihnen melden.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Wie funktioniert es für meine Nutzer?
         </h3>
         <p className='para'>
@@ -73,7 +73,7 @@ export default class FaqMerchantsPartnersDe extends React.Component {
           verwalten können und Zahlungen in deren Namen kreieren und verwalten.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Kann ich Zahlungsinformationen in meinem Service anzeigen?
         </h3>
         <p className='para'>
@@ -86,7 +86,7 @@ export default class FaqMerchantsPartnersDe extends React.Component {
           className='u-link-color-p u-text-underline'>Webhook Leitfaden</a> mehr über die Verwendung und die Art von Webhooks erfahren.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Kann ich die Zahlungsseiten auf meiner eigenen Seite hosten?
         </h3>
         <p className='para'>
@@ -103,7 +103,7 @@ export default class FaqMerchantsPartnersDe extends React.Component {
           sodass wir das Zahlungsformular mit den jeweiligen Daten füllen können.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Bietet GoCardless auch iFrames an?
         </h3>
         <p className='para'>

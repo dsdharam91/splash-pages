@@ -25,7 +25,7 @@ export default class FaqProDashboardEs extends React.Component {
           </IfLocale>
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Inicio
         </h3>
         <IfLocale hasInstantSignup>
@@ -65,7 +65,7 @@ export default class FaqProDashboardEs extends React.Component {
           ponte en contacto con nosotros escribiendo un correo electrónico a <Href to='email'
           className='u-link-color-p u-text-underline' />.
         </p>
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Verificación de cuenta
         </h3>
 
@@ -116,7 +116,7 @@ export default class FaqProDashboardEs extends React.Component {
 
         <img src='/images/faq/fr/verification-document.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Personaliza tu cuenta
         </h3>
         <p className='para'>

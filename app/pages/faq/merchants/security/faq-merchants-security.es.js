@@ -10,7 +10,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Seguridad</h2>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cómo sé que mi dinero está seguro?
         </h3>
         <p className='para'>
@@ -24,7 +24,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           está supervisada por los reguladores comunitarios) en uno de nuestros bancos asociados.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cómo protege GoCardless mis datos?
         </h3>
         <p className='para'>
@@ -42,7 +42,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           requiere solo 128 bits.</li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Qué hacéis con mi dinero antes de ingresármelo?
         </h3>
         <p className='para'>
@@ -52,7 +52,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           Los fondos se guardan de plena conformidad con las disposiciones de protección aceptadas por los reguladores Europeos.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Es seguro para mis clientes?
         </h3>
         <p className='para'>
@@ -62,7 +62,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           className='u-link-color-p u-text-underline'>la Protección al consumidor de Adeudo Directo</a> en el Reino Unido.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Revelación de vulnerabilidades
         </h3>
 
@@ -83,7 +83,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
         Las gratificaciones se determinan conforme a nuestro criterio, en función de la gravedad del problema.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Comunicar problemas
         </h3>
 
@@ -105,7 +105,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Requisitos para recibir la gratificación
         </h3>
 

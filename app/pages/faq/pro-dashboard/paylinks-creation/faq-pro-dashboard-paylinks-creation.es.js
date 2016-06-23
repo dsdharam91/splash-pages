@@ -15,7 +15,7 @@ export default class FaqProDashboardPaylinksCreationEs extends React.Component {
           Adeudo Directo y un plan puntual.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Definir el Paylink
         </h3>
 
@@ -48,7 +48,7 @@ export default class FaqProDashboardPaylinksCreationEs extends React.Component {
 
         <img src='/images/faq/fr/create-paylink.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Compartir el Paylink
         </h3>
 
@@ -72,7 +72,7 @@ export default class FaqProDashboardPaylinksCreationEs extends React.Component {
 
         <img src='/images/faq/fr/sepa-paylinks-page.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Gestionar los Paylinks
         </h3>
 
