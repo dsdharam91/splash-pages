@@ -383,6 +383,10 @@ export default {
     title: 'Direct Debit for Digital Agencies',
     description: '',
   },
+  charities: {
+    title: 'Direct Debit for Charities',
+    description: '',
+  },
   local_authorities: {
     title: 'Direct Debit for Local Government and Local Authorities',
     description: '',
