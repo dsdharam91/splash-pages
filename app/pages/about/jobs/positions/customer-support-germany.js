@@ -17,9 +17,8 @@ export default class CustomerSupportGermany extends React.Component {
           their payments in a way that was never possible before.
         </p>
         <p className='para'>
-          After launching in the UK and entering the German market in October 2015 - as covered by
-          <a href='http://www.it-finanzmagazin.de/banken-als-partner-gesucht-londoner-fintech-gocardless-startet-in-deutschland-20216/' target='_blank'>
-          IT Finanzmagazin </a> - we are rapidly gaining traction in Germany, serving hundreds of companies such as rankingCoach and betahaus Hamburg.
+          After launching in the UK and entering the German market in October 2015 - as covered by <a href='http://www.it-finanzmagazin.de/banken-als-partner-gesucht-londoner-fintech-gocardless-startet-in-deutschland-20216/' target='_blank'> IT Finanzmagazin </a>- we are rapidly gaining traction in Germany,
+          serving hundreds of companies such as rankingCoach and betahaus Hamburg.
         </p>
         <p className='para'>
           We’re looking for a bright, enthusiastic problem-solver to join our team, provide legendary

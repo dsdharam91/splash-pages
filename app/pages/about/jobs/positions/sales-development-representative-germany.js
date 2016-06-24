@@ -63,6 +63,9 @@ export default class SalesDevelopmentRepresentativeGermany extends React.Compone
           identified <a href='https://gocardless.com/blog/how-we-train-salespeople/' target='_blank'> five characteristics </a>
           that are vital to be a successful member of our sales team.
         </p>
+        <p className='para'>
+          This role will be based in London.
+        </p>
         <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The perks</h4>
         <ul className='list u-margin-Tm'>
           <li>
@@ -78,10 +81,6 @@ export default class SalesDevelopmentRepresentativeGermany extends React.Compone
             Stocked kitchen and unlimited (great) coffee!
           </li>
         </ul>
-        <p className='para'>
-          However our team comes from a variety of backgrounds and
-          we welcome diversity &ndash; if you’re unsure, please apply. This role will be based in London.
-        </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/236794' className='btn u-margin-Vs'>
           Apply now
         </a>

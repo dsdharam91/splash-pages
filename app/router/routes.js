@@ -44,7 +44,6 @@ import EuropeanMarketingManager from '../pages/about/jobs/positions/european-mar
 import ProductDesigner from '../pages/about/jobs/positions/product-designer.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
-import HeadCustomerSupport from '../pages/about/jobs/positions/head-customer-support.js';
 import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
 import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
 import LegalAssistant from '../pages/about/jobs/positions/legal-assistant.js';
@@ -521,12 +520,6 @@ export const config = Immutable.fromJS([
   [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support-germany',
-      },
-    },
-  ],
-  [HeadCustomerSupport, { name: 'jobs_head_customer_support', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/head-customer-support',
       },
     },
   ],

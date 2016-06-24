@@ -585,10 +585,6 @@ export default {
     title: 'Customer Support: Germany',
     description: '',
   },
-  jobs_head_customer_support: {
-    title: 'Head of Customer Support',
-    description: '',
-  },
   jobs_spanish_sales_development_representative: {
     title: 'SDR: Spain',
     description: '',
