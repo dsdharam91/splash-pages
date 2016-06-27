@@ -29,7 +29,7 @@ export default {
     global_headline: 'Our global payments network has processed over $1 billion',
     global_description: 'With GoCardless, you can currently take payments from 32 countries including the UK, the Eurozone and Sweden.',
     global_description2: 'We\'ll soon be allowing you to take Pre-Authorized Debit payments in Canada. Please leave your e-mail address above to receive updates.',
-    trusted_headline: 'You\'ll be in great company: 13,000+ businesses already use GoCardless',
+    trusted_headline: 'You\'ll be in great company: 20,000+ businesses already use GoCardless',
     learn_more_headline: 'Want to learn more about GoCardless?',
     learn_more_link: 'Visit our European web site',
   },
