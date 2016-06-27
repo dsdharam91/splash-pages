@@ -104,8 +104,8 @@ export default class Charities extends React.Component {
               </h2>
               <h3 className='u-text-s'>Works everywhere</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Allow donors to set up Direct Debit payments by paper, telephone or online form. With online, your donors can sign up from
-                both desktop and mobile.
+                Allow donors to set up Direct Debit payments by paper, telephone or online form. With online, your donors
+                can sign up from both desktop and mobile.
               </p>
               <h3 className='u-text-s'>Flexible submissions</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
