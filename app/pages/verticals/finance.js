@@ -18,10 +18,10 @@ export default class Finance extends React.Component {
         <div className='page-hero u-padding-Bxxl'>
           <div className='site-container u-padding-Vxxl u-text-center'>
             <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
-              Transforming the way that the financial services sector collect payments
+              Transform the collection of recurring payments
             </h1>
             <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
-              A simpler and smarter way to collect recurring payments from your customers.
+              A simpler and smarter way for financial services to collect customer payments.
             </p>
           </div>
         </div>
@@ -81,14 +81,22 @@ export default class Finance extends React.Component {
                   "GoCardless is one of the best payments companies we've worked with. I'd highly recommend them to any company
                   that cares about a providing good user experience and using the best available technology."
                 </p>
+                <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
+                  Elsa Ferreira<br />
+                  Payments Team Leader, Funding Circle
+                </p>
               </div>
             </div>
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
               <div className='spotlight-grid__container u-text-center u-padding-Tl u-padding-Bxxl'>
                 <i role='img' className='nutmeg-logo stories-item__logo--nutmeg'></i>
                 <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere justo lobortis tincidunt ultricies. Cras nisi
-                  ipsum, mattis in dolor eu, fringilla pulvinar nunc. Phasellus efficitur elit vel mauris tempor."
+                  "Since the introduction of GoCardless in September 2015, more than 4 out of 5 of our new customers have set up direct
+                  debits. It's a very automated service so we've not needed to add headcount to run this service."
+                </p>
+                <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
+                  Bill Packman<br />
+                  COO, Nutmeg Saving and Investment
                 </p>
               </div>
             </div>
@@ -106,16 +114,20 @@ export default class Finance extends React.Component {
             </div>
             <div className='grid__cell u-size-1of2'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
-                Simplifying the B2B lending experience
+                Automate your billing
               </h2>
-              <h3 className='u-text-s'>Increase Direct Debit usage</h3>
+              <h3 className='u-text-s'>Improve customer onboarding</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Increase the number of customers using Direct Debit to make repayments. Offer an online, mobile-friendly
-                payments experience.
+                Enable customers to set up their Direct Debit via a simple online form. Embed the link on your
+                website or in customer emails.
+              </p>
+              <h3 className='u-text-s'>Single payment collection</h3>
+              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+                Once the customer has set up their Direct Debit, your one-off or recurring payments are collected automatically.
               </p>
               <h3 className='u-text-s'>Flexible payments</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Support vulnerable customers by allowing them to pay on the date, frequency and number of instalments that suits them.
+                Allow your customers to pay on the date and at the frequency that suits them.
               </p>
             </div>
           </div>
@@ -126,19 +138,19 @@ export default class Finance extends React.Component {
           <div className='grid u-padding-Vxl'>
             <div className='grid__cell u-size-1of2 u-margin-Tl'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
-                Optimise the top-up of e-wallets and prepaid cards
+                Get real-time alerts
               </h2>
-              <h3 className='u-text-s'>Online self-service</h3>
+              <h3 className='u-text-s'>Increase insight</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Transform your self-serve options with a simple online set up - no paperwork required.
+                Provisioning teams can view real-time reports on customer payment status prior to confirming orders.
               </p>
-              <h3 className='u-text-s'>Automatic billing</h3>
+              <h3 className='u-text-s'>Reduce churn</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Automatic validation and submission of mandates and payments with clear reporting for simple reconciliation.
+                Instantly engage with your customers after failed or cancelled payments.
               </p>
-              <h3 className='u-text-s'>Consolidate your payment processing</h3>
+              <h3 className='u-text-s'>Limit fraud</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Enable your customers to pay for multiple services using one mandate with a single Service User Number.
+                Immediate notifications on customer chargebacks ensuring quick and effective management.
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-text-center'>
@@ -155,19 +167,21 @@ export default class Finance extends React.Component {
             </div>
             <div className='grid__cell u-size-1of2 u-margin-Ts'>
               <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
-                Streamline the collection of pension contributions
+                Connected to your business
               </h2>
-              <h3 className='u-text-s'>Quick to get started</h3>
+              <h3 className='u-text-s'>Customer service</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Our developer-friendly REST API makes it simple to set up and integrate with your existing systems.
+                GoCardless integrates with CRM systems to provide actionable account information, enabling faster resolution to
+                customer contacts.
               </p>
-              <h3 className='u-text-s'>Transfer existing mandates</h3>
+              <h3 className='u-text-s'>Reduce billing errors</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                It's easy to move your existing Direct Debit mandates across to GoCardless. Nothing is required from your customers.
+                Integrate into your billing system to reduce manual admin, payment errors and failures with automatic
+                reconciliation of payments against bills.
               </p>
-              <h3 className='u-text-s'>Connected to your systems</h3>
+              <h3 className='u-text-s'>Improved cashflow</h3>
               <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Integrate GoCardless with your billing, CRM and accounting systems.
+                Receive daily payouts from GoCardless to ensure customer payments are kept up-to-date.
               </p>
             </div>
           </div>
@@ -189,7 +203,8 @@ export default class Finance extends React.Component {
                   Automatic notifications
                 </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  Get real-time alerts on failed or cancelled payments.</p>
+                  Receive real-time alerts on failed payments and cancelled mandates so you can take action immediately.
+                </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
@@ -200,7 +215,7 @@ export default class Finance extends React.Component {
                   Completely white-labelled
                 </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  Your brand is at the forefront. Have complete control over payment pages and email notifications.</p>
+                  You'll have complete control over your payment pages and your email notifications.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
@@ -208,11 +223,12 @@ export default class Finance extends React.Component {
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Join <Message pointer='number_of_merchants' />+ businesses
+                  Join <Message pointer='number_of_merchants' />+ organisations
                 </h3>
                 <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  We've collected more than <Message pointer='payments_processed_volume' /> for
-                  over <Message pointer='number_of_merchants' /> merchants.</p>
+                  We collect more than <Message pointer='payments_processed_volume' /> per year for
+                  over <Message pointer='number_of_merchants' /> businesses and organisations across the UK.
+                </p>
               </div>
             </div>
           </div>
