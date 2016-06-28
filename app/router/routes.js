@@ -32,11 +32,9 @@ import SeniorSiteReliabilityEngineer from '../pages/about/jobs/positions/senior-
 import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
-import MarketAnalystInternship from '../pages/about/jobs/positions/market-analyst-internship';
 import NewBusinessDevelopmentRepresentative from '../pages/about/jobs/positions/new-business-development-representative';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
-import Recruiter from '../pages/about/jobs/positions/recruiter.js';
 import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
 import ProductMarketingManager from '../pages/about/jobs/positions/product-marketing-manager.js';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
@@ -457,12 +455,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [MarketAnalystInternship, { name: 'jobs_market_analyst_internship', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/market-analyst-internship',
-      },
-    },
-  ],
   [NewBusinessDevelopmentRepresentative, { name: 'jobs_new_business_development_representative', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/new-business-development-representative',
@@ -520,12 +512,6 @@ export const config = Immutable.fromJS([
   [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support-germany',
-      },
-    },
-  ],
-  [Recruiter, { name: 'jobs_recruiter', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/recruiter',
       },
     },
   ],
