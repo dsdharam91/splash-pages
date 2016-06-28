@@ -15,6 +15,7 @@ import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-d
 
 import Accountants from '../pages/verticals/accountants';
 import Agencies from '../pages/verticals/agencies';
+import Charities from '../pages/verticals/charities';
 import Finance from '../pages/verticals/finance';
 import LocalAuthorities from '../pages/verticals/local-authorities';
 import Telcos from '../pages/verticals/telcos';
@@ -32,6 +33,8 @@ import SeniorSiteReliabilityEngineer from '../pages/about/jobs/positions/senior-
 import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
+import MarketAnalystInternship from '../pages/about/jobs/positions/market-analyst-internship';
+import NewBusinessDevelopmentRepresentative from '../pages/about/jobs/positions/new-business-development-representative';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import Recruiter from '../pages/about/jobs/positions/recruiter.js';
@@ -41,7 +44,8 @@ import SalesOperationsManager from '../pages/about/jobs/positions/sales-operatio
 import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
 import ProductDesigner from '../pages/about/jobs/positions/product-designer.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
-import HeadCustomerSupport from '../pages/about/jobs/positions/head-customer-support.js';
+import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
+import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
 import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
 import LegalAssistant from '../pages/about/jobs/positions/legal-assistant.js';
 import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
@@ -334,6 +338,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [Charities, { name: 'charities' }, {
+      'en-GB': {
+        path: '/charities',
+      },
+    },
+  ],
   [Finance, { name: 'finance' }, {
       'en-GB': {
         path: '/finance',
@@ -454,9 +464,27 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [MarketAnalystInternship, { name: 'jobs_market_analyst_internship', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/market-analyst-internship',
+      },
+    },
+  ],
+  [NewBusinessDevelopmentRepresentative, { name: 'jobs_new_business_development_representative', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/new-business-development-representative',
+      },
+    },
+  ],
   [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/sales-development-representative-inbound',
+      },
+    },
+  ],
+  [SalesDevelopmentRepresentativeGermany, { name: 'jobs_sales_development_representative_germany', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/sales-development-representative-germany',
       },
     },
   ],
@@ -496,9 +524,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [HeadCustomerSupport, { name: 'jobs_head_customer_support', category: 'jobs.operations' }, {
+  [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
       en: {
-        path: '/about/jobs/head-customer-support',
+        path: '/about/jobs/customer-support-germany',
       },
     },
   ],

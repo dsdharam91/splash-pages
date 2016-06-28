@@ -15,7 +15,7 @@ export default class FaqProDashboardDe extends React.Component {
             einholen, diese managen und wiederkehrende Zahlungen einziehen – ganz ohne technische Integration.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Erste Schritte
         </h3>
         <p className='para'>
@@ -29,7 +29,7 @@ export default class FaqProDashboardDe extends React.Component {
           schreiben Sie uns an <Href to='email' className='u-link-color-p u-text-underline' />.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           So personalisieren Sie Ihren Account
         </h3>
         <p className='para'>

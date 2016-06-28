@@ -54,8 +54,7 @@ export default class EuropeanMarketingManager extends React.Component {
         </p>
         <ul className='list u-margin-Tm'>
           <li>
-            You have a strong track record in marketing in Europe, ideally with experience in the French market and
-            within a B2B business.
+            You have a strong track record in marketing in a B2B business in the French market, and ideally in other European markets.
           </li>
           <li>
             You have excellent knowledge of the applicable marketing channels to promote a B2B product including content,

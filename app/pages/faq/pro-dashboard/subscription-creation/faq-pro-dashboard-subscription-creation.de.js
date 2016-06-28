@@ -31,7 +31,7 @@ export default class FaqProDashboardSubscriptionCreationDe extends React.Compone
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           So erstellen Sie ein Abonnement für einen Kunden
         </h3>
 

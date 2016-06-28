@@ -1,26 +1,20 @@
 require('babel/register');
 
 var BASE_URL = require('../../helpers/e2e/config').BASE_URL;
-var expectedConditions = require('../../helpers/e2e/expected-conditions');
+var EC = protractor.ExpectedConditions;
 
 describe('Swapping languages', function() {
-  var ec = expectedConditions(browser);
-
   it('lets you navigate to a page and then swap languages', function() {
     browser.get(BASE_URL);
 
-    element(by.id('track-nav-more')).click();
-    element(by.id('track-nav-security')).click();
+    $('#track-nav-more').click();
+    $('#track-nav-security').click();
 
-    var popoverLink = element(by.cssContainingText('.popover-link', 'United Kingdom'));
-    var frenchLink = element(by.css('a[href="/fr-fr/securite/"]'));
+    browser.wait(EC.textToBePresentInElement($('body'), 'Built securely from the ground up'), 5000);
 
-    expect(browser.getCurrentUrl()).toEqual(BASE_URL + '/security/');
+    element(by.cssContainingText('.popover-link', 'United Kingdom')).click();
+    $('a[href="/fr-fr/securite/"]').click();
 
-    ec.waitForClickableThenClick(popoverLink).
-      then(ec.waitForClickableThenClick.bind(null, frenchLink)).
-      then(function() {
-        expect(element(by.cssContainingText('body', 'Vous êtes protégé')).isPresent()).toBe(true);
-      });
+    browser.wait(EC.textToBePresentInElement($('body'), 'Vous êtes protégé'), 5000);
   });
 });

@@ -56,7 +56,7 @@ export default {
     global_headline: 'Nossa plataforma global de pagamentos já processou mais de $1 bilhão',
     global_description: 'Com GoCardless, você pode receber pagamentos de 32 países incluindo a Grã-Bretanha, Zona do Euro e Suécia.',
     global_description2: 'Logo iremos possibilitar a cobrança de pagamentos via Débito Direto em território Brasileiro. Preencha o seu email acima para receber atualizações.',
-    trusted_headline: 'Você estará em ótima companhia: mais de 13,000 empresas já usam GoCardless',
+    trusted_headline: 'Você estará em ótima companhia: mais de 20,000 empresas já usam GoCardless',
     learn_more_headline: 'Saiba mais sobre GoCardless',
     learn_more_link: 'Visite o nosso site Europeu',
   },

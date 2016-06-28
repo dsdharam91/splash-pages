@@ -83,7 +83,7 @@ export default {
   home: {
     title: 'The easy way to collect recurring payments',
     nav_title: 'Home',
-    description: 'GoCardless is the easy way to collect Direct Debit. Already serving more than 16,000 businesses, perfect for recurring billing and B2B invoicing.',
+    description: 'GoCardless is the easy way to collect Direct Debit. Already serving more than 20,000 businesses, perfect for recurring billing and B2B invoicing.',
     link: 'home page',
     trusted_message_scale: 'We collects millions of pounds for our merchants every day.',
   },
@@ -383,6 +383,10 @@ export default {
     title: 'Direct Debit for Digital Agencies',
     description: '',
   },
+  charities: {
+    title: 'Direct Debit for Charities',
+    description: '',
+  },
   finance: {
     title: 'Direct Debit for Financial Services',
     description: '',
@@ -533,8 +537,20 @@ export default {
     title: 'Account Executive, Enterprise Sales: UK',
     description: '',
   },
+  jobs_market_analyst_internship: {
+    title: 'Market Analyst Internship',
+    description: '',
+  },
+  jobs_new_business_development_representative: {
+    title: 'New Business Development Rep: UK',
+    description: '',
+  },
   jobs_sales_development_representative_inbound: {
     title: 'SDR Inbound: UK',
+    description: '',
+  },
+  jobs_sales_development_representative_germany: {
+    title: 'SDR: Germany',
     description: '',
   },
   jobs_head_of_sales_france: {
@@ -569,8 +585,8 @@ export default {
     title: 'Customer Support',
     description: '',
   },
-  jobs_head_customer_support: {
-    title: 'Head of Customer Support',
+  jobs_customer_support_germany: {
+    title: 'Customer Support: Germany',
     description: '',
   },
   jobs_spanish_sales_development_representative: {

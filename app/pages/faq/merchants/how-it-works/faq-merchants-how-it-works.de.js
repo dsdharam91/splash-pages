@@ -9,7 +9,7 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
       <Translation locales='de'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Wie es funktioniert</h2>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Wann erhalte ich meine Zahlungen?
         </h3>
         <p className='para'>
@@ -17,7 +17,7 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
           Kunden das Geld auf das von Ihnen angegebene Bankkonto aus.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Welche Arten von Zahlungen kann ich von meinen Kunden einziehen?
         </h3>
         <p className='para'>
@@ -25,7 +25,7 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
           sowohl in der freundlichen Benutzeroberfläche als auch über die API.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Wie läuft der Zahlungsprozess ab?
         </h3>
         <ul className='list'>
@@ -46,7 +46,7 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
           </li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Wie können meine Kunden eine Zahlung autorisieren?
         </h3>
         <p className='para'>
@@ -56,7 +56,7 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
           oder im Falle von GoCardless Pro Ihre eigenen benutzen.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Kann ich Zahlungen ganz präzise für ein bestimmtes Datum ansetzen?
         </h3>
         <p className='para'>
@@ -64,7 +64,7 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
           Zahlungen entscheiden.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Kann ich eine Zahlung oder eine Reihe wiederkehrender Zahlungen ändern, nachdem sie bereits kreiert wurde?
         </h3>
         <p className='para'>
@@ -73,7 +73,7 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
           Hier können Sie auch die Änderungen innerhalb weniger Sekunden vornehmen.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Woher weiß ich, dass ich Zahlungen erhalten habe?
         </h3>
         <p className='para'>
@@ -81,7 +81,7 @@ export default class FaqMerchantsHowItWorksDe extends React.Component {
           So können Sie zu jeder Zeit den Status Ihrer Zahlungen überprüfen.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Kann GoCardless mein Konto limitieren?
         </h3>
         <p className='para'>

@@ -1,20 +1,9 @@
 var EC = protractor.ExpectedConditions;
 
-var urlHasChangedTo = function(browser, newUrl) {
-  return browser.getCurrentUrl().then(function(currentUrl) {
-    return currentUrl.match(newUrl);
-  });
-};
-
 var waitFor = function(browser, fn, timeout) {
   if (!timeout) { timeout = 1000; }
 
   return browser.wait(fn, timeout);
-};
-
-var waitForUrlChange = function(browser, newUrl, timeout) {
-  var fn = urlHasChangedTo(browser, newUrl);
-  return waitFor(browser, fn, timeout);
 };
 
 var waitForClickable = function(browser, elem, timeout) {
@@ -36,8 +25,6 @@ var waitForClickableThenClick = function(browser, elem, timeout) {
 
 module.exports = function(browser) {
   return {
-    urlHasChangedTo: urlHasChangedTo.bind(null, browser),
-    waitForUrlChange: waitForUrlChange.bind(null, browser),
     waitFor: waitFor.bind(null, browser),
     waitForClickable: waitForClickable.bind(null, browser),
     waitForVisibility: waitForVisibility.bind(null, browser),

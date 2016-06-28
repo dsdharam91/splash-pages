@@ -35,7 +35,7 @@ export default class FaqProDashboardPaymentRetryFr extends React.Component {
 
         <img src='/images/faq/en/payment-retry.png' />
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Motifs de rejets</h3>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Motifs de rejets</h3>
 
         <p className='para'>
           Ce tableau énumére la liste complète des rejets de paiement possibles ainsi qu'une explication du motif de rejet :

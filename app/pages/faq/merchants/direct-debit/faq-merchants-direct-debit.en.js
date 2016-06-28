@@ -10,7 +10,7 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
       <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Direct Debit</h2>
         <IfLocale domesticScheme='bacs'>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             What is the Direct Debit Guarantee?
           </h3>
           <p className='para'>
@@ -23,7 +23,7 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
             request. Dispute resolution takes place outside of the Direct Debit scheme.
           </p>
 
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Do I need a Service User Number (SUN) or permission from my bank?
           </h3>
           <p className='para'>
@@ -33,7 +33,7 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
         </IfLocale>
 
         <IfLocale domesticScheme='sepa'>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             What is SEPA Direct Debit?
           </h3>
           <p className='para'>
@@ -43,7 +43,7 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
             target='_blank' className='u-link-color-p u-text-underline'>Single Euro Payments Area (SEPA)</a>.
           </p>
 
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             What is the Consumer Protection?
           </h3>
           <p className='para'>
@@ -59,14 +59,14 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
             settle the commercial dispute between the customer and themselves.
           </p>
 
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Are there any fees for the customer?
           </h3>
           <p className='para'>
             No. With SEPA, banks are forced not to charge for Direct Debit transactions. It is therefore free for your customers.
           </p>
 
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             Do I require a SEPA Creditor ID?
           </h3>
           <p className='para'>
@@ -74,7 +74,7 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
           </p>
         </IfLocale>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What kind of payments is it good for?
         </h3>
 
@@ -87,7 +87,7 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
           <li>Invoicing for services (e.g., accountancy, tax advice, etc.)</li>
         </ul>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What kind of payments isn't it good for?
         </h3>
         <ul className='list'>
@@ -97,7 +97,7 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
         </ul>
 
         <IfLocale domesticScheme='bacs'>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             What are the payment timings for Direct Debit?
           </h3>
           <p className='para'>
@@ -110,7 +110,7 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
           </p>
         </IfLocale>
         <IfLocale domesticScheme='sepa'>
-          <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             What are the payment timings for SEPA Direct Debit?
           </h3>
           <p className='para'>
@@ -124,7 +124,7 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
           </p>
         </IfLocale>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can I collect one-off payments using Direct Debit?
         </h3>
         <p className='para'>
@@ -132,7 +132,7 @@ export default class FaqMerchantsDirectDebitEn extends React.Component {
           collect one-off payments.
         </p>
 
-        <h3 className='section-heading u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Can I easily change Direct Debit provider?
         </h3>
         <IfLocale domesticScheme='bacs'>
