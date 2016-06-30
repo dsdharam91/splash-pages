@@ -44,9 +44,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
             requests on their behalf.
           </p>
           <p className='para'>
-            For further information, see the <Link to='faq_merchants_partners'
-            className='u-link-color-p u-text-underline'>partner FAQ</Link> or
-            our <a href='https://developer.gocardless.com/#guides-oauth'
+            For further information, see our <a href='https://developer.gocardless.com/#guides-oauth'
             className='u-link-color-p u-text-underline'>partner API guide</a>.
           </p>
         </Translation>
