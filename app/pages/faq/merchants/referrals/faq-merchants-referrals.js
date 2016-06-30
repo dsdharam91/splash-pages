@@ -13,8 +13,8 @@ export default class FaqMerchantsReferrals extends React.Component {
           Does GoCardless have a referral scheme?
         </h3>
         <p className='para'>
-          Our referral scheme is currently unavailable. We’re in the process of reviewing it and aim to launch a new scheme later
-          in the year.
+          Our referral scheme is currently unavailable. We’re in the process of reviewing it and aim to launch a new scheme in the
+          near future.
         </p>
         <p className='para'>
           If you’re interested in other partnership opportunities with GoCardless, please contact our team by
@@ -79,14 +79,14 @@ export default class FaqMerchantsReferrals extends React.Component {
         </p>
 
         <p className='para'>
-          GoCardless will, for the GoCardless account to which this email relates, credit your account with the value of the
-          transaction fees for transactions processed through that GoCardless account from (and including) 1st July to 30th November 2016.
-          The rebate will be up to a maximum amount of £1,500 which we consider to be a fair cap on this offer.  Your account will be
-          credited with this amount no later than Friday 16th December. Payment will be made to the bank account we hold on file in
-          relation to that same GoCardless account on that date.  for You will remain liable for all other fees, charges, chargebacks etc.
-          as set out in our agreement with you, as referred to above. This includes any fixed monthly fee that you may be paying now or
-          agree to pay in the future. All other terms in the agreement between us remain in force, and we may not pay out the rebate to you
-          if you are otherwise in breach of that agreement.
+          GoCardless will, for the GoCardless account to which the notification email you have received relates, credit your account with
+          the value of the transaction fees for transactions processed through that GoCardless account from (and including)
+          1st July 2016 to 30th November 2016. The rebate will be up to a maximum amount of £1,500 which we consider to be a fair cap on
+          this offer. Your GoCardless account will be credited with this amount no later than Friday 16th December. Payment will be made
+          to the bank account we hold on file in relation to that same GoCardless account on that date. You will remain liable for all
+          other fees, charges, chargebacks etc. as set out in our agreement with you, as referred to above. This includes any fixed
+          monthly fee that you may be paying now or agree to pay in the future. All other terms in the agreement between us remain in
+          force, and we may not pay out the rebate to you if you are otherwise in breach of that agreement.
         </p>
 
         <p className='para'>
