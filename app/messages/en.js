@@ -537,10 +537,6 @@ export default {
     title: 'Account Executive, Enterprise Sales: UK',
     description: '',
   },
-  jobs_market_analyst_internship: {
-    title: 'Market Analyst Internship',
-    description: '',
-  },
   jobs_new_business_development_representative: {
     title: 'New Business Development Rep: UK',
     description: '',
@@ -559,10 +555,6 @@ export default {
   },
   jobs_european_marketing_manager: {
     title: 'European Marketing Manager',
-    description: '',
-  },
-  jobs_recruiter: {
-    title: 'Recruiter',
     description: '',
   },
   jobs_digital_marketer: {
