@@ -34,10 +34,10 @@ export default class Finance extends React.Component {
                   <CustomerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Increase revenue
+                  Improve customer experience
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Improve collection rates and reduce failures with a simple online sign-up form and flexible payment options.
+                  Transform the self-serve experience and enhance call centre channels to improve customer satisfaction.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -46,10 +46,10 @@ export default class Finance extends React.Component {
                   <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Reduce admin
+                  Superior payment capabilities
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Transform the self-service experience and reduce payment errors with our modern technology.
+                  Increase automation and get fewer payment errors with our cutting edge Direct Debit technology.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -58,10 +58,10 @@ export default class Finance extends React.Component {
                   <AddPartnerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Simple integration
+                  Connected to your business
                 </h3>
                 <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Our API makes it easy to integrate payments across your business and react quickly to new data.
+                  Turn payments into a competitive advantage by connecting Direct Debit to your internal systems.
                 </p>
               </div>
             </div>
