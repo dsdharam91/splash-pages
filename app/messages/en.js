@@ -387,6 +387,10 @@ export default {
     title: 'Direct Debit for Charities',
     description: '',
   },
+  finance: {
+    title: 'Direct Debit for Financial Services',
+    description: '',
+  },
   local_authorities: {
     title: 'Direct Debit for Local Government and Local Authorities',
     description: '',
