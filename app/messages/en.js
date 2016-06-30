@@ -1,6 +1,7 @@
 export default {
   header: {
     our_products: 'Our products',
+    industries: 'Industries',
     login_btn: 'Sign in',
     more: 'More',
   },
@@ -377,30 +378,37 @@ export default {
   },
   accountants: {
     title: 'GoCardless transforms cashflow for accountants',
-    description: '',
-  },
-  agencies: {
-    title: 'Direct Debit for Digital Agencies',
+    nav_title: 'Accountants',
     description: '',
   },
   charities: {
     title: 'Direct Debit for Charities',
+    nav_title: 'Charities',
+    description: '',
+  },
+  digital_agencies: {
+    title: 'Direct Debit for Digital Agencies',
+    nav_title: 'Digital Agencies',
     description: '',
   },
   finance: {
     title: 'Direct Debit for Financial Services',
+    nav_title: 'Financial Services',
     description: '',
   },
-  local_authorities: {
+  local_government: {
     title: 'Direct Debit for Local Government and Local Authorities',
+    nav_title: 'Local Government',
     description: '',
   },
   telcos: {
     title: 'Direct Debit for Telecommunication Companies',
+    nav_title: 'Telecoms',
     description: '',
   },
   utilities: {
     title: 'Direct Debit for Utility Companies',
+    nav_title: 'Utilities',
     description: '',
   },
   partners_guide: {

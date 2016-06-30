@@ -9,6 +9,7 @@ import Logo from '../../icons/logo/logo';
 import Popover from '../popover/popover';
 import classNames from 'classnames';
 import { PropTypes } from '../../helpers/prop-types/prop-types';
+import { filterRouteByCategory } from '../../router/route-helpers';
 
 class Header extends React.Component {
   displayName = 'Header'
@@ -22,11 +23,12 @@ class Header extends React.Component {
   };
 
   static contextTypes = {
+    currentLocale: PropTypes.locale,
     availableLocales: PropTypes.array.isRequired,
   };
 
   render() {
-    const { availableLocales } = this.context;
+    const { currentLocale, availableLocales } = this.context;
 
     const isInverted = this.props.isInverted;
     const linkClass = classNames('u-padding-Vl u-block', {
@@ -62,6 +64,18 @@ class Header extends React.Component {
         </IfLinkExists>
       </ul>
     );
+
+    const industryPages = filterRouteByCategory('industries', currentLocale, availableLocales);
+    const industries = (<ul className='u-text-xxs u-padding-Vxs'> {
+      industryPages.map((page) => {
+        return (
+          <li key={page.routeConfig.name} className='u-text-semi'>
+            <Link to={page.localeConfig.path} pointer={`${page.routeConfig.name}.nav_title`}
+              className='u-padding-Vxs u-padding-Hm u-block' />
+          </li>
+        );
+      })
+    } </ul>);
 
     return (
       <div className={classNames({'site-header-wrapper': isInverted})}>
@@ -109,6 +123,19 @@ class Header extends React.Component {
                 </Link>
               </IfLinkExists>
 
+              <Translation locales={['en-GB']} tagName='div' className='nav__item u-relative'>
+                <Popover toggle={
+                   (<a className={linkClass}>
+                      <div className={classNames('nav__item-link popover-link', {
+                        'popover-link--invert': isInverted,
+                      })}>
+                        <Message pointer='header.industries' />
+                      </div>
+                    </a>)
+                  }>
+                  {industries}
+                </Popover>
+              </Translation>
 
               <div className='nav__item u-relative'>
                 <a href='https://developer.gocardless.com/' className={linkClass}>

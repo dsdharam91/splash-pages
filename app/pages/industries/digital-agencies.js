@@ -8,8 +8,8 @@ import Link from '../../components/link/link';
 import Href from '../../components/href/href';
 import StoryBigQuote from '../stories/story-big-quote';
 
-export default class Agencies extends React.Component {
-  displayName = 'Agencies'
+export default class DigitalAgencies extends React.Component {
+  displayName = 'DigitalAgencies'
 
   render() {
     return (

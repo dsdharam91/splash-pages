@@ -33,10 +33,10 @@ export default class Telcos extends React.Component {
                   <ClockIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <ClockIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Automate your billing
                 </h3>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Reduce the amount of time spent on your bill runs with automated payment collections.
                 </p>
               </div>
@@ -45,10 +45,10 @@ export default class Telcos extends React.Component {
                   <ImproveCashflowIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Real-time alerts
                 </h3>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Receive immediate notifications about failed or cancelled payments. Increase insight and reduce churn.
                 </p>
               </div>
@@ -57,10 +57,10 @@ export default class Telcos extends React.Component {
                   <AddPartnerIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <AddPartnerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Connected to your business
                 </h3>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Turn payments into a competitive advantage. Connect Direct Debit to your billing and accounting systems.
                 </p>
               </div>
@@ -71,7 +71,7 @@ export default class Telcos extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl u-text-center'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-padding-Bl'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-padding-Bl'>
               GoCardless powers Direct Debit payments for over <Message pointer='number_of_merchants' /> merchants
             </h2>
             <div className='grid__cell u-size-2of3 u-link-clean u-padding-Vm u-padding-Hn'>
@@ -99,20 +99,20 @@ export default class Telcos extends React.Component {
               <img src='/images/partners/pay-via-mobile-illustration@2x.png' className='partners-page__mobile-image'/>
             </div>
             <div className='grid__cell u-size-1of2'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                 Automate your billing
               </h2>
-              <h3 className='u-text-s'>Improve customer onboarding</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Improve customer onboarding</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Enable customers to set up their Direct Debit via a simple online form. Embed the link on your
                 website or in customer emails.
               </p>
-              <h3 className='u-text-s'>Single payment collection</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Single payment collection</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Once the customer has set up their Direct Debit, your one-off or recurring payments are collected automatically.
               </p>
-              <h3 className='u-text-s'>Flexible payments</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Flexible payments</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Allow your customers to pay on the date and at the frequency that suits them.
               </p>
             </div>
@@ -123,19 +123,19 @@ export default class Telcos extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
             <div className='grid__cell u-size-1of2 u-margin-Tm'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                 Real-time alerts
               </h2>
-              <h3 className='u-text-s'>Increase insight</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Increase insight</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Provisioning teams can view real-time reports on customer payment status prior to confirming orders.
               </p>
-              <h3 className='u-text-s'>Reduce churn</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Reduce churn</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Instantly engage with your customers after failed or cancelled payments.
               </p>
-              <h3 className='u-text-s'>Limit fraud</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Limit fraud</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Immediate notifications on customer chargebacks ensuring quick and effective management.
               </p>
             </div>
@@ -152,21 +152,21 @@ export default class Telcos extends React.Component {
               <img src='/images/features/pro-dashboard-timeline.png' />
             </div>
             <div className='grid__cell u-size-1of2 u-margin-Ts'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                 Connected to your business
               </h2>
-              <h3 className='u-text-s'>Customer service</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Customer service</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 GoCardless integrates with CRM systems to provide actionable account information, enabling faster resolution to
                 customer contacts.
               </p>
-              <h3 className='u-text-s'>Reduce billing errors</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Reduce billing errors</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Integrate into your billing system to reduce manual admin, payment errors and failures with automatic
                 reconciliation of payments against bills.
               </p>
-              <h3 className='u-text-s'>Improved cashflow</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Improved cashflow</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Receive daily payouts from GoCardless to ensure customer payments are kept up-to-date.
               </p>
             </div>
@@ -176,7 +176,7 @@ export default class Telcos extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
               A smarter and easier way to take Direct Debit payments
             </h2>
             <div className='grid u-center u-text-center u-padding-Tl u-margin-Ts'>
@@ -185,10 +185,10 @@ export default class Telcos extends React.Component {
                   <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Simple migration
                 </h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                   It's quick and easy to move all of your existing customers over <br/>to GoCardless.
                 </p>
               </div>
@@ -197,10 +197,10 @@ export default class Telcos extends React.Component {
                   <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Clean, modern API
                 </h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                   Our API ensures integrating your systems with GoCardless is as painless as possible.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -208,10 +208,10 @@ export default class Telcos extends React.Component {
                   <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Transparent pricing
                 </h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
+                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                   Fees from 1p-60p per transaction. No set up costs, hidden charges or minimum commitments.</p>
               </div>
             </div>
@@ -221,7 +221,7 @@ export default class Telcos extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl u-text-center u-center' id='contact-us'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>
               Want to learn more? Speak with our Direct Debit experts
             </h2>
             <div className='grid__cell u-size-1of2'>

@@ -9,8 +9,8 @@ import AddPartnerIcon from '../../icons/svg/add-partner';
 import WhiteLabelIcon from '../../icons/svg/white-label';
 import CustomerIcon from '../../icons/svg/customer';
 
-export default class Finance extends React.Component {
-  displayName = 'Finance'
+export default class Utilities extends React.Component {
+  displayName = 'Utilities'
 
   render() {
     return (
@@ -18,10 +18,10 @@ export default class Finance extends React.Component {
         <div className='page-hero u-padding-Bxxl'>
           <div className='site-container u-padding-Vxxl u-text-center'>
             <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
-              Transform the collection of recurring payments
+              Direct Debit for the digital age
             </h1>
             <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
-              A simpler and smarter way for financial services to collect customer payments.
+              GoCardless is a simpler and smarter way to collect payments in the utilities sector.
             </p>
           </div>
         </div>
@@ -33,10 +33,10 @@ export default class Finance extends React.Component {
                   <CustomerIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <CustomerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Improve customer experience
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Better customer experience
                 </h3>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Transform the self-serve experience and enhance call centre channels to improve customer satisfaction.
                 </p>
               </div>
@@ -45,11 +45,11 @@ export default class Finance extends React.Component {
                   <ImproveCashflowIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Superior payment capabilities
                 </h3>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Increase automation and get fewer payment errors with our cutting edge Direct Debit technology.
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
+                  Reduce your admin and get fewer payment errors with our cutting-edge Direct Debit technology.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -57,11 +57,11 @@ export default class Finance extends React.Component {
                   <AddPartnerIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <AddPartnerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Connected to your business
                 </h3>
-                <p className='u-size-4of5 u-center u-color-p u-margin-Txs'>
-                  Turn payments into a competitive advantage by connecting Direct Debit to your internal systems.
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
+                  Turn payments into a competitive advantage by connecting Direct Debit to CRM and billing systems.
                 </p>
               </div>
             </div>
@@ -71,37 +71,37 @@ export default class Finance extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>
               GoCardless powers Direct Debit payments for over <Message pointer='number_of_merchants' /> merchants
             </h2>
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
               <div className='spotlight-grid__container u-text-center u-padding-Tl u-padding-Bxxl'>
-                <i role='img' className='funding-circle-logo stories-item__logo--funding-circle'></i>
+                <i role='img' className='so-energy-logo stories-item__logo--so-energy'></i>
                 <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
-                  "GoCardless is one of the best payments companies we've worked with. I'd highly recommend them to any company
-                  that cares about a providing good user experience and using the best available technology."
+                  "GoCardless allows us to automate our entire customer Direct Debit collection, meaning we only deal with the
+                  exceptions. What's more, the integration between Junifer and GoCardless ensures customer records are
+                  updated automatically, so we know why a payment has failed and can communicate this back to our customers."
                 </p>
                 <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
-                  Elsa Ferreira<br />
-                  Payments Team Leader, Funding Circle
+                  Simon Oscroft, So Energy
                 </p>
               </div>
             </div>
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
               <div className='spotlight-grid__container u-text-center u-padding-Tl u-padding-Bxxl'>
-                <i role='img' className='nutmeg-logo stories-item__logo--nutmeg'></i>
+                <i role='img' className='tempus-energy-logo stories-item__logo--tempus-energy'></i>
                 <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
-                  "Since the introduction of GoCardless in September 2015, more than 4 out of 5 of our new customers have set up direct
-                  debits. It's a very automated service so we've not needed to add headcount to run this service."
+                  "GoCardless has made our payment process much simpler to manage. It allows us to seamlessly set up and bill our
+                  customers by Direct Debit on a recurring basis. Their system is incredibly easy to use meaning our customers are
+                  happy and our team spend less time on administration and more time on growing the business."
                 </p>
                 <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
-                  Bill Packman<br />
-                  COO, Nutmeg Saving and Investment
+                  Loic Hares, Tempus Energy
                 </p>
               </div>
             </div>
             <div className='u-text-center u-padding-Vs u-center u-margin-Tl'>
-              <img src='/images/logos/financial-services-logos@2x.png' className='u-size-9of10' />
+              <img src='/images/logos/pro-logos@2x.png' className='u-size-2of3' />
             </div>
           </div>
         </div>
@@ -112,21 +112,20 @@ export default class Finance extends React.Component {
             <div className='grid__cell u-size-1of2 u-text-center'>
               <img src='/images/partners/pay-via-mobile-illustration@2x.png' className='partners-page__mobile-image'/>
             </div>
-            <div className='grid__cell u-size-1of2'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
-                Automate your billing
+            <div className='grid__cell u-size-1of2 u-margin-Tl'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl u-margin-Ts'>
+                Transform the customer experience
               </h2>
-              <h3 className='u-text-s'>Improve customer onboarding</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Enable customers to set up their Direct Debit via a simple online form. Embed the link on your
-                website or in customer emails.
+              <h3 className='u-text-s u-color-dark-gray'>Self-service</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
+                Enable customers to set up and manage their Direct Debit online via desktop or mobile.
               </p>
-              <h3 className='u-text-s'>Single payment collection</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Once the customer has set up their Direct Debit, your one-off or recurring payments are collected automatically.
+              <h3 className='u-text-s u-color-dark-gray'>Customer service</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
+                Provides real-time information on payment status to ensure support can resolve calls as quickly as possible.
               </p>
-              <h3 className='u-text-s'>Flexible payments</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Flexible payments</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Allow your customers to pay on the date and at the frequency that suits them.
               </p>
             </div>
@@ -137,20 +136,21 @@ export default class Finance extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
             <div className='grid__cell u-size-1of2 u-margin-Tl'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
-                Get real-time alerts
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl u-margin-Ts'>
+                Superior payment capabilities
               </h2>
-              <h3 className='u-text-s'>Increase insight</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Provisioning teams can view real-time reports on customer payment status prior to confirming orders.
+              <h3 className='u-text-s u-color-dark-gray'>Reduce admin</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
+                Payment files are automatically submitted to Bacs with reports available in real-time via your dashboard or API.
               </p>
-              <h3 className='u-text-s'>Reduce churn</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Instantly engage with your customers after failed or cancelled payments.
+              <h3 className='u-text-s u-color-dark-gray'>Reduce errors</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
+                Our real-time bank account validations and reachability checks significantly reduce mandate failure rates.
               </p>
-              <h3 className='u-text-s'>Limit fraud</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Immediate notifications on customer chargebacks ensuring quick and effective management.
+              <h3 className='u-text-s u-color-dark-gray'>Optimised timings</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
+                The shorter 3 working day notification period allows flexible payments and ensures smart meter billing
+                will be as accurate and timely as possible.
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-text-center'>
@@ -166,22 +166,22 @@ export default class Finance extends React.Component {
               <img src='/images/features/pro-dashboard-timeline.png' />
             </div>
             <div className='grid__cell u-size-1of2 u-margin-Ts'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl u-margin-Ts'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl u-margin-Ts'>
                 Connected to your business
               </h2>
-              <h3 className='u-text-s'>Customer service</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Customer service</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 GoCardless integrates with CRM systems to provide actionable account information, enabling faster resolution to
                 customer contacts.
               </p>
-              <h3 className='u-text-s'>Reduce billing errors</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Integrate into your billing system to reduce manual admin, payment errors and failures with automatic
-                reconciliation of payments against bills.
+              <h3 className='u-text-s u-color-dark-gray'>Marketing</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
+                Enables integrated lifecycle campaigns based on payment data and customer behaviour.
               </p>
-              <h3 className='u-text-s'>Improved cashflow</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
-                Receive daily payouts from GoCardless to ensure customer payments are kept up-to-date.
+              <h3 className='u-text-s u-color-dark-gray'>Finance</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
+                Integrates with your billing system to reduce manual admin, payment errors and failures. Automatic
+                reconciliation of payments against bills.
               </p>
             </div>
           </div>
@@ -190,7 +190,7 @@ export default class Finance extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
               A smarter and easier way to take Direct Debit payments
             </h2>
             <div className='grid u-center u-text-center u-padding-Tl u-margin-Ts'>
@@ -199,36 +199,33 @@ export default class Finance extends React.Component {
                   <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Automatic notifications
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Simple, modern API
                 </h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  Receive real-time alerts on failed payments and cancelled mandates so you can take action immediately.
-                </p>
+                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
+                  Our modern API ensures integrating your systems with GoCardless is easy and painless.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
                   <WhiteLabelIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Completely white-labelled
                 </h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  You'll have complete control over your payment pages and your email notifications.</p>
+                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
+                  Your brand is at the forefront. Have complete control over payment pages and email notifications.</p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
                   <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <UsersIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Join <Message pointer='number_of_merchants' />+ organisations
+                <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                  Simple migration
                 </h3>
-                <p className='u-color-p u-margin-Txs u-size-5of6 u-center'>
-                  We collect more than <Message pointer='payments_processed_volume' /> per year for
-                  over <Message pointer='number_of_merchants' /> businesses and organisations across the UK.
-                </p>
+                <p className='u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
+                  It's quick and easy to move all of your existing customers over <br/>to GoCardless.</p>
               </div>
             </div>
           </div>
@@ -237,7 +234,7 @@ export default class Finance extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl u-text-center u-center' id='contact-us'>
-            <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-text-center u-margin-Bl'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>
               Want to learn more? Speak with our Direct Debit experts
             </h2>
             <div className='grid__cell u-size-1of2'>

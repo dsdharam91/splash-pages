@@ -13,13 +13,13 @@ import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/p
 import AuddisDirectDebit from '../pages/payments-by-direct-debit/auddis-direct-debit';
 import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-debit';
 
-import Accountants from '../pages/verticals/accountants';
-import Agencies from '../pages/verticals/agencies';
-import Charities from '../pages/verticals/charities';
-import Finance from '../pages/verticals/finance';
-import LocalAuthorities from '../pages/verticals/local-authorities';
-import Telcos from '../pages/verticals/telcos';
-import Utilities from '../pages/verticals/utilities';
+import Accountants from '../pages/industries/accountants';
+import Charities from '../pages/industries/charities';
+import DigitalAgencies from '../pages/industries/digital-agencies';
+import Finance from '../pages/industries/finance';
+import LocalGovernment from '../pages/industries/local-government';
+import Telcos from '../pages/industries/telcos';
+import Utilities from '../pages/industries/utilities';
 
 import Europe from '../pages/europe/europe';
 import ExampleCheckout from '../pages/example-checkout/example-checkout';
@@ -324,43 +324,43 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [Accountants, { name: 'accountants' }, {
+  [Accountants, { name: 'accountants', category: 'industries' }, {
       'en-GB': {
         path: '/accountants',
       },
     },
   ],
-  [Agencies, { name: 'agencies' }, {
-      'en-GB': {
-        path: '/agencies',
-      },
-    },
-  ],
-  [Charities, { name: 'charities' }, {
+  [Charities, { name: 'charities', category: 'industries' }, {
       'en-GB': {
         path: '/charities',
       },
     },
   ],
-  [Finance, { name: 'finance' }, {
+  [DigitalAgencies, { name: 'digital_agencies', category: 'industries' }, {
+      'en-GB': {
+        path: '/agencies',
+      },
+    },
+  ],
+  [Finance, { name: 'finance', category: 'industries' }, {
       'en-GB': {
         path: '/finance',
       },
     },
   ],
-  [LocalAuthorities, { name: 'local_authorities' }, {
+  [LocalGovernment, { name: 'local_government', category: 'industries' }, {
       'en-GB': {
-        path: '/local-authorities',
+        path: '/local-government',
       },
     },
   ],
-  [Telcos, { name: 'telcos' }, {
+  [Telcos, { name: 'telcos', category: 'industries' }, {
       'en-GB': {
         path: '/telcos',
       },
     },
   ],
-  [Utilities, { name: 'utilities' }, {
+  [Utilities, { name: 'utilities', category: 'industries' }, {
       'en-GB': {
         path: '/utilities',
       },

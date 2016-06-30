@@ -93,20 +93,20 @@ export default class Accountants extends React.Component {
               <img src='/images/features/pro-dashboard-timeline.png' className='u-padding-Rm' />
             </div>
             <div className='grid__cell u-size-1of2'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl'>
                 Your invoices, paid automatically
               </h2>
-              <h3 className='u-text-s'>A better client experience</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>A better client experience</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Give clients the option to pay you quickly and automatically through Direct Debit.
               </p>
-              <h3 className='u-text-s'>Connected to your cloud system</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Connected to your cloud system</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 GoCardless integrates with online accounting and business systems including Xero, QuickBooks, Sage, Kashflow,
                 FreeAgent and others.
               </p>
-              <h3 className='u-text-s'>More efficient financial management</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>More efficient financial management</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Transactions are pulled straight into your accounts so you can spend less time dealing with financial admin and more
                 time working with your clients.
               </p>
@@ -118,19 +118,19 @@ export default class Accountants extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='grid u-padding-Vxl'>
             <div className='grid__cell u-size-1of2'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl'>
                 Transform your firm’s finances
               </h2>
-              <h3 className='u-text-s'>Automate your cash collection</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Automate your cash collection</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Collect fees straight from your client’s bank accounts using Direct Debit.
               </p>
-              <h3 className='u-text-s'>Reduce your debtor chasing time</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Reduce your debtor chasing time</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Take control of your payments, with no need to chase outstanding debts.
               </p>
-              <h3 className='u-text-s'>Improve your firm’s cash flow</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Improve your firm’s cash flow</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 See the positive impact on your cash-flow situation with predictable client revenue.
               </p>
             </div>
@@ -147,19 +147,19 @@ export default class Accountants extends React.Component {
               <img src='/images/why-dd/slide-1.png' className='auddis-page-illustration u-margin-Ts'/>
             </div>
             <div className='grid__cell u-size-1of2'>
-              <h2 className='u-text-heading u-color-heading u-text-l u-text-light u-margin-Bl'>
+              <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl'>
                 A solution for your clients
               </h2>
-              <h3 className='u-text-s'>Move clients to Direct Debit</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Move clients to Direct Debit</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Help resolve your clients’ late payment problems by getting them paid on time, every time.
               </p>
-              <h3 className='u-text-s'>Streamline their credit control</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>Streamline their credit control</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Remove the need for time-consuming financial admin and credit control processes.
               </p>
-              <h3 className='u-text-s'>A boost to their cash forecasts</h3>
-              <p className='u-size-5of6 u-color-p u-margin-Bm'>
+              <h3 className='u-text-s u-color-dark-gray'>A boost to their cash forecasts</h3>
+              <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                 Help clients to get a stable and predictable flow of cash into their business.
               </p>
             </div>
@@ -169,7 +169,7 @@ export default class Accountants extends React.Component {
         <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <h2 className='u-color-dark-gray u-text-heading u-color-heading u-text-l u-text-light u-text-center'>
+            <h2 className='u-color-dark-gray u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center'>
               The smarter way to manage your firm's payment collections
             </h2>
             <div className='grid u-center u-text-center u-padding-Tl u-margin-Ts'>
@@ -178,10 +178,10 @@ export default class Accountants extends React.Component {
                   <CustomerIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
                   <CustomerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-color-dark-gray u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-color-dark-gray u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Simple sign-up
                 </h3>
-                <p className='u-color-dark-gray u-color-p u-margin-Txs u-size-5of6 u-center'>
+                <p className='u-color-dark-gray u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                   Clients can securely authorise your payments in minutes, protected by military-grade encryption.
                 </p>
               </div>
@@ -190,10 +190,10 @@ export default class Accountants extends React.Component {
                   <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
                   <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-color-dark-gray u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-color-dark-gray u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Flexible payments
                 </h3>
-                <p className='u-color-dark-gray u-color-p u-margin-Txs u-size-5of6 u-center'>
+                <p className='u-color-dark-gray u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                   Vary the date, frequency and amount of payments based on your business and client requirements.
                  </p>
               </div>
@@ -202,10 +202,10 @@ export default class Accountants extends React.Component {
                   <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
                   <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
-                <h3 className='u-color-dark-gray u-text-heading u-color-heading u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
+                <h3 className='u-color-dark-gray u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Transparent pricing
                 </h3>
-                <p className='u-color-dark-gray u-color-p u-margin-Txs u-size-5of6 u-center'>
+                <p className='u-color-dark-gray u-color-dark-gray u-margin-Txs u-size-5of6 u-center'>
                   Pay just 1% of each transaction, capped at £2. No set up costs, hidden charges or commitments.</p>
               </div>
             </div>
