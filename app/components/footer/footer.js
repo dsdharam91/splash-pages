@@ -106,6 +106,9 @@ class Footer extends React.Component {
               <IfLinkExists to='jobs' tagName='li'>
                 <Link to='jobs' pointer='jobs.nav_title' className='page-footer__link u-link-invert' />
               </IfLinkExists>
+              <IfLinkExists to='press' tagName='li'>
+                <Link to='press' pointer='press.nav_title' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
             </ul>
           </div>
           <div className='grid__cell u-size-1of2'>

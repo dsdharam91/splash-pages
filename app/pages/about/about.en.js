@@ -53,7 +53,7 @@ export default class AboutEn extends React.Component {
               </p>
             </div>
             <div className='grid__cell u-size-1of3'>
-              <div className='u-margin-Txxl'>
+              <div className='u-margin-Tm'>
                 <img src='/images/press/publications-stacked.jpg' />
                 <p className='u-text-xs u-color-dark-gray u-margin-Txxl'>
                   For any press enquiries, please contact <a href='mailto:press@gocardless.com'>the GoCardless PR team</a>,

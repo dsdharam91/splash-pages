@@ -509,6 +509,11 @@ export default {
     description: '',
     nav_title: 'Team',
   },
+  press: {
+    title: 'Press',
+    description: '',
+    nav_title: 'Press',
+  },
   jobs: {
     title: 'Jobs',
     description: '',

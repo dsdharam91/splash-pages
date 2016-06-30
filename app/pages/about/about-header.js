@@ -41,6 +41,11 @@ export default class AboutHeader extends React.Component {
                   <Message pointer='jobs.nav_title' />
                 </Link>
               </IfLinkExists>
+              <IfLinkExists to='press' tagName='li' className='sticky-nav__item'>
+                <Link to='press' className='sticky-nav__link'>
+                  <Message pointer='press.nav_title' />
+                </Link>
+              </IfLinkExists>
             </ul>
             <a href='https://gocardless.com/blog'
               className={
