@@ -5,7 +5,6 @@ import ProspectForm from '../../components/prospect-form/prospect-form';
 import CustomerIcon from '../../icons/svg/customer';
 import ClockIcon from '../../icons/svg/clock';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
-import StoryBigQuote from '../stories/story-big-quote';
 
 export default class EducationDM extends React.Component {
   displayName = 'EducationDM'
