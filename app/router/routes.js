@@ -12,6 +12,8 @@ import PaymentsByDirectDebit from '../pages/payments-by-direct-debit/payments-by
 import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/payments-by-direct-debit-variation-b';
 import AuddisDirectDebit from '../pages/payments-by-direct-debit/auddis-direct-debit';
 import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-debit';
+import BusinessDM from '../pages/payments-by-direct-debit/business-dm';
+import EducationDM from '../pages/payments-by-direct-debit/education-dm';
 
 import Accountants from '../pages/industries/accountants';
 import Charities from '../pages/industries/charities';
@@ -321,6 +323,18 @@ export const config = Immutable.fromJS([
   [EasierDirectDebit, { name: 'easier_direct_debit' }, {
       'en-GB': {
         path: '/easier-direct-debit',
+      },
+    },
+  ],
+  [BusinessDM, { name: 'business_dm' }, {
+      'en-GB': {
+        path: '/business',
+      },
+    },
+  ],
+  [EducationDM, { name: 'education_dm' }, {
+      'en-GB': {
+        path: '/education',
       },
     },
   ],

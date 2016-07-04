@@ -134,6 +134,20 @@
   background-repeat: no-repeat;
 }
 
+.page-hero--business-dm {
+  background: $primary-color url('/images/hero/hero-business-dm.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.page-hero--education-dm {
+  background: $primary-color url('/images/hero/hero-education-dm.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 .page-hero--large {
   height: 585px;
 }
