@@ -81,7 +81,6 @@ import FaqMerchantsDirectDebit from '../pages/faq/merchants/direct-debit/faq-mer
 import FaqMerchantsHowItWorks from '../pages/faq/merchants/how-it-works/faq-merchants-how-it-works';
 import FaqMerchantsInternationalPayments from '../pages/faq/merchants/international-payments/faq-merchants-international-payments';
 import FaqMerchants from '../pages/faq/merchants/overview/faq-merchants-overview';
-import FaqMerchantsPartners from '../pages/faq/merchants/partners/faq-merchants-partners';
 import FaqMerchantsReferrals from '../pages/faq/merchants/referrals/faq-merchants-referrals';
 import FaqMerchantsSecurity from '../pages/faq/merchants/security/faq-merchants-security';
 import FaqMerchantsSigningUp from '../pages/faq/merchants/signing-up/faq-merchants-signing-up';
@@ -976,15 +975,6 @@ export const config = Immutable.fromJS([
       },
       es: {
         path: '/faq/empresas/desarrollador-api',
-      },
-    },
-  ],
-  [FaqMerchantsPartners, { name: 'faq_merchants_partners', category: 'faq.merchants' }, {
-      fr: {
-        path: '/faq/commercant/partenaires',
-      },
-      de: {
-        path: '/faq/haendler/partner',
       },
     },
   ],

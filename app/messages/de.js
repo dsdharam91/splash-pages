@@ -238,11 +238,6 @@ export default {
     nav_title: 'Internationale Zahlungen',
     description: '',
   },
-  faq_merchants_partners: {
-    title: 'FAQ für Händler - Partner',
-    nav_title: 'Partner',
-    description: '',
-  },
   faq_merchants_security: {
     title: 'FAQ für Händler - Sicherheit',
     nav_title: 'Sicherheit',

@@ -141,11 +141,6 @@ export default {
     nav_title: 'Cobros internacionales',
     description: '',
   },
-  faq_merchants_partners: {
-    title: 'FAQ para negocios - Partners / Asociados',
-    nav_title: 'Partners',
-    description: '',
-  },
   faq_merchants_security: {
     title: 'FAQ para negocios - Seguridad',
     nav_title: 'Seguridad',
