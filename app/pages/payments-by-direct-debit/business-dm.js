@@ -5,12 +5,6 @@ import ProspectForm from '../../components/prospect-form/prospect-form';
 import CustomerIcon from '../../icons/svg/customer';
 import ClockIcon from '../../icons/svg/clock';
 import AddPartnerIcon from '../../icons/svg/add-partner';
-import CheckListIcon from '../../icons/svg/checklist';
-import MoneyFlowerIcon from '../../icons/svg/money-flower';
-import UsersIcon from '../../icons/svg/users';
-import Link from '../../components/link/link';
-import Href from '../../components/href/href';
-import StoryBigQuote from '../stories/story-big-quote';
 
 export default class BusinessDM extends React.Component {
   displayName = 'BusinessDM'
