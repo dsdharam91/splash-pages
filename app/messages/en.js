@@ -376,6 +376,10 @@ export default {
     title: 'An easier way to take Direct Debit',
     description: 'GoCardless is an easier and smarter way to collect Direct Debit payments and to be AUDDIS-compliant.',
   },
+  business_dm: {
+    title: 'A better way to collect customer payments',
+    description: 'Join thousands of businesses who automate their Direct Debit collections with GoCardless.',
+  },
   accountants: {
     title: 'GoCardless transforms cashflow for accountants',
     nav_title: 'Accountants',
