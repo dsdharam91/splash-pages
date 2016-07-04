@@ -32,10 +32,10 @@ export default class EducationDM extends React.Component {
                   <ClockIcon className='svg-icon__image u-fill-dark-gray' />
                 </figure>
                 <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Reduced admin time
+                  Automated payments
                 </h3>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Spend less time chasing late payments with automated collections via GoCardless.
+                  Avoid those awkward conversations about money with automated collections by GoCardless.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
@@ -66,16 +66,32 @@ export default class EducationDM extends React.Component {
           </div>
         </div>
 
-        <StoryBigQuote heroClass='story-hero--education-dm-quote' person='Mark McDermott' position='Spencer Hockey Club'
-          readfullStoryLink='stories_spencer_hockey'>
-          Using GoCardless felt like a natural fit for a membership group, and now the black hole in our finances has disappeared
-        </StoryBigQuote>
-
+        <hr className='u-margin-An' />
         <div className='site-container u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>
-              You'll be in good company
+              GoCardless powers Direct Debit payments for over <Message pointer='number_of_merchants' /> organisations
             </h2>
+            <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
+              <div className='spotlight-grid__container u-text-center u-padding-Tl u-padding-Bxxl'>
+                <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
+                  "GoCardless provided a low cost solution that felt like an automation of what we were already doing."
+                </p>
+                <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
+                  Mark McDermott, Spencer Hockey Club
+                </p>
+              </div>
+            </div>
+            <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
+              <div className='spotlight-grid__container u-text-center u-padding-Tl u-padding-Bxxl'>
+                <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
+                  “Within a month our average debtor days had halved and 70% of our customers were paying on time.”
+                </p>
+                <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
+                  Emma Mills, Bluesky Business
+                </p>
+              </div>
+            </div>
             <div className='u-text-center u-padding-Vs u-center u-margin-Tl'>
               <img src='/images/logos/pro-logos@2x.png' className='u-size-9of10' />
             </div>
