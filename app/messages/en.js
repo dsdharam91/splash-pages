@@ -380,6 +380,10 @@ export default {
     title: 'A better way to collect customer payments',
     description: 'Join thousands of businesses who automate their Direct Debit collections with GoCardless.',
   },
+  education_dm: {
+    title: 'A simpler way for parents to pay',
+    description: 'Join the hundreds of schools and nurseries who use GoCardless to collect payments.',
+  },
   accountants: {
     title: 'GoCardless transforms cashflow for accountants',
     nav_title: 'Accountants',
