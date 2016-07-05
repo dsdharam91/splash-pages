@@ -28,6 +28,7 @@ import ExampleCheckout from '../pages/example-checkout/example-checkout';
 
 import About from '../pages/about/about';
 import Team from '../pages/about/team/team';
+import Press from '../pages/about/press/press';
 
 import Jobs from '../pages/about/jobs/jobs';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
@@ -425,6 +426,12 @@ export const config = Immutable.fromJS([
       },
       nl: {
         path: '/over-ons/team',
+      },
+    },
+  ],
+  [Press, { name: 'press' }, {
+      en: {
+        path: '/about/press',
       },
     },
   ],
