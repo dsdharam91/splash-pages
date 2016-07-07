@@ -44,35 +44,35 @@ export default class ExampleCheckout extends React.Component {
             </div>
             <div className='grid__cell u-size-1of3 u-text-center'>
               <div className='u-text-heading u-color-dark-gray u-text-center u-text-m u-text-light u-text-no-smoothing'>
-                One off example
+                Subscriptions
               </div>
               <p className='u-text-center u-color-dark-gray u-margin-Txxs u-size-3of5 u-center'>
-                Demo of a single, one-off payment of £2.99
+                Authorise payments and collect £9.99/month
               </p>
-              <form acceptCharset='UTF-8' action='/api/v1/example_checkout/one_off' method='post' className='ng-pristine ng-valid'>
-                <input className='btn btn--hollow u-margin-Tm' name='commit' type='submit' defaultValue='View Example' />
+              <form acceptCharset='UTF-8' action='https://pay-sandbox.gocardless.com/AL00002GSZ5XBA' method='get' className='ng-pristine ng-valid'>
+                <input className='btn btn--hollow u-margin-Tm' type='submit' formTarget='_blank' defaultValue='View Example' />
               </form>
             </div>
             <div className='grid__cell u-size-1of3 u-text-center'>
               <div className='u-text-heading u-color-dark-gray u-text-center u-text-m u-text-light u-text-no-smoothing'>
-                Recurring example
+                Variable payments
               </div>
               <p className='u-text-center u-color-dark-gray u-margin-Txxs u-size-3of5 u-center'>
-                Demo of £99 each month, with no end date
+                Authorise payments to be collected later
               </p>
-              <form acceptCharset='UTF-8' action='/api/v1/example_checkout/subscription' method='post' className='ng-pristine ng-valid'>
-                <input className='btn btn--hollow u-margin-Tm' name='commit' type='submit' defaultValue='View Example' />
+              <form acceptCharset='UTF-8' action='https://pay-sandbox.gocardless.com/AL00002GSXVVTN' method='get' className='ng-pristine ng-valid'>
+                <input className='btn btn--hollow u-margin-Tm' type='submit' formTarget='_blank' defaultValue='View Example' />
               </form>
             </div>
             <div className='grid__cell u-size-1of3 u-text-center'>
               <div className='u-text-heading u-color-dark-gray u-text-center u-text-m u-text-light u-text-no-smoothing'>
-                Variable example
+                One-off payments
               </div>
               <p className='u-text-center u-color-dark-gray u-margin-Txxs u-size-3of5 u-center'>
-                Pre-authorise future payments of any amount
+                Authorise payments and collect a one-off £2.99
               </p>
-              <form acceptCharset='UTF-8' action='/api/v1/example_checkout/pre_auth' method='post' className='ng-pristine ng-valid'>
-                <input className='btn btn--hollow u-margin-Tm' name='commit' type='submit' defaultValue='View Example' />
+              <form acceptCharset='UTF-8' action='https://pay-sandbox.gocardless.com/AL00002GSY7TAM' method='get' className='ng-pristine ng-valid'>
+                <input className='btn btn--hollow u-margin-Tm' type='submit' formTarget='_blank' defaultValue='View Example' />
               </form>
             </div>
           </div>
