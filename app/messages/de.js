@@ -122,86 +122,6 @@ export default {
       title: 'FAQ',
     },
   },
-  partners_guide: {
-    title: 'Werden Sie Partner von GoCardless',
-    description: '',
-    nav_title: 'Einführung',
-  },
-  partners_guide_options: {
-    title: 'Werden Sie Partner von GoCardless - Optionen',
-    description: '',
-    nav_title: 'Optionen',
-  },
-  partners_guide_getting_started: {
-    title: 'Werden Sie Partner von GoCardless - Erste Schritte',
-    description: '',
-    nav_title: 'Erste Schritte',
-  },
-  partners_guide_app_integration: {
-    title: 'Werden Sie Partner von GoCardless - App-Integration',
-    description: '',
-    nav_title: 'App-Integration',
-  },
-  partners_guide_white_label_integration: {
-    title: 'Werden Sie Partner von GoCardless - White-Label-Integration',
-    description: '',
-    nav_title: 'White-Label-Integration',
-  },
-  partners_guide_testing: {
-    title: 'Werden Sie Partner von GoCardless - Entwickeln und Testen',
-    description: '',
-    nav_title: 'Entwickeln und Testen',
-  },
-  partners_guide_chargebacks: {
-    title: 'Werden Sie Partner von GoCardless - Rücklastschriften',
-    description: '',
-    nav_title: 'Rückbuchungen und fehlgeschlagene Lastschriften',
-  },
-  partners_guide_getting_paid: {
-    title: 'Werden Sie Partner von GoCardless - Auszahlungen',
-    description: '',
-    nav_title: 'Auszahlungen',
-  },
-  partners_guide_legal: {
-    title: 'Werden Sie Partner von GoCardless - Rechtliches',
-    description: '',
-    nav_title: 'Rechtliche Hinweise',
-  },
-  partners_guide_mandates: {
-    title: 'Werden Sie Partner von GoCardless - Mandate',
-    description: '',
-    nav_title: 'Übertragen von Mandaten',
-  },
-  partners_guide_non_uk_payments: {
-    title: 'Werden Sie Partner von GoCardless',
-    description: '',
-    nav_title: 'Non-UK payments',
-  },
-  partners_guide_our_pricing: {
-    title: 'Werden Sie Partner von GoCardless - Unsere Preise',
-    description: '',
-    nav_title: 'Unsere Preise',
-  },
-  partners_guide_payment_pages: {
-    title: 'Werden Sie Partner von GoCardless - Mandatsseiten',
-    description: '',
-    nav_title: 'Mandatsseiten',
-  },
-  partners_guide_reporting: {
-    title: 'Werden Sie Partner von GoCardless - Zahlungsverfolgung',
-    description: '',
-    nav_title: 'Zahlungsverfolgung',
-  },
-  partners_guide_restrictions: {
-    title: 'Werden Sie Partner von GoCardless - Einschränkungen',
-    description: '',
-    nav_title: 'Einschränkungen',
-  },
-  partners_guide_security: {
-    title: 'Werden Sie Partner von GoCardless - Sicherheit',
-    description: '',
-    nav_title: 'Vorschriften und Sicherheit',
-  },
   team: {
     title: 'Team',
     description: '',
@@ -316,11 +236,6 @@ export default {
   faq_merchants_international_payments: {
     title: 'FAQ für Händler - Internationale Zahlungen',
     nav_title: 'Internationale Zahlungen',
-    description: '',
-  },
-  faq_merchants_partners: {
-    title: 'FAQ für Händler - Partner',
-    nav_title: 'Partner',
     description: '',
   },
   faq_merchants_security: {

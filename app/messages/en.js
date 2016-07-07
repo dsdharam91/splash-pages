@@ -180,11 +180,6 @@ export default {
     nav_title: 'International payments',
     description: '',
   },
-  faq_merchants_partners: {
-    title: 'FAQ for merchants - Partners',
-    nav_title: 'Partners',
-    description: '',
-  },
   faq_merchants_referrals: {
     title: 'FAQ for merchants - Referral scheme',
     nav_title: 'Referral scheme',
@@ -419,86 +414,6 @@ export default {
     title: 'Direct Debit for Utility Companies',
     nav_title: 'Utilities',
     description: '',
-  },
-  partners_guide: {
-    title: 'Partnering with GoCardless',
-    description: '',
-    nav_title: 'Introduction',
-  },
-  partners_guide_options: {
-    title: 'Partnering with GoCardless - Options',
-    description: '',
-    nav_title: 'Options',
-  },
-  partners_guide_app_integration: {
-    title: 'Partnering with GoCardless - App integration',
-    description: '',
-    nav_title: 'App integration',
-  },
-  partners_guide_white_label_integration: {
-    title: 'Partnering with GoCardless - White label integration',
-    description: '',
-    nav_title: 'White label integration',
-  },
-  partners_guide_getting_started: {
-    title: 'Partnering with GoCardless - Getting started',
-    description: '',
-    nav_title: 'Getting started',
-  },
-  partners_guide_testing: {
-    title: 'Partnering with GoCardless - Developing and testing',
-    description: '',
-    nav_title: 'Developing and testing',
-  },
-  partners_guide_chargebacks: {
-    title: 'Partnering with GoCardless - Chargebacks',
-    description: '',
-    nav_title: 'Chargebacks, refunds and failures',
-  },
-  partners_guide_getting_paid: {
-    title: 'Partnering with GoCardless - Getting paid',
-    description: '',
-    nav_title: 'Getting paid',
-  },
-  partners_guide_legal: {
-    title: 'Partnering with GoCardless - Legal',
-    description: '',
-    nav_title: 'Commercials and legal',
-  },
-  partners_guide_mandates: {
-    title: 'Partnering with GoCardless - Mandates',
-    description: '',
-    nav_title: 'Transferring mandates',
-  },
-  partners_guide_non_uk_payments: {
-    title: 'Partnering with GoCardless - Non-UK payments',
-    description: '',
-    nav_title: 'Non-UK payments',
-  },
-  partners_guide_our_pricing: {
-    title: 'Partnering with GoCardless - Our pricing',
-    description: '',
-    nav_title: 'Our pricing',
-  },
-  partners_guide_payment_pages: {
-    title: 'Partnering with GoCardless - Payment pages',
-    description: '',
-    nav_title: 'Payment pages',
-  },
-  partners_guide_reporting: {
-    title: 'Partnering with GoCardless - Reporting',
-    description: '',
-    nav_title: 'Reporting',
-  },
-  partners_guide_restrictions: {
-    title: 'Partnering with GoCardless - Restrictions',
-    description: '',
-    nav_title: 'Restrictions',
-  },
-  partners_guide_security: {
-    title: 'Partnering with GoCardless - Security',
-    description: '',
-    nav_title: 'Regulation and security',
   },
   europe: {
     title: 'SEPA Direct Debit: Collect Payments Across Europe',

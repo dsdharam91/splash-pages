@@ -125,11 +125,6 @@ export default {
     nav_title: 'Paiements à l\'étranger',
     description: '',
   },
-  faq_merchants_partners: {
-    title: 'FAQ Commerçants - Partenaires',
-    nav_title: 'Partenaires',
-    description: '',
-  },
   faq_merchants_security: {
     title: 'FAQ Commerçants - Sécurité',
     nav_title: 'Sécurité',
