@@ -371,6 +371,10 @@ export default {
     title: 'An easier way to take Direct Debit',
     description: 'GoCardless is an easier and smarter way to collect Direct Debit payments and to be AUDDIS-compliant.',
   },
+  business_dm: {
+    title: 'A better way to collect customer payments',
+    description: 'Join thousands of businesses who automate their Direct Debit collections with GoCardless.',
+  },
   accountants: {
     title: 'GoCardless transforms cashflow for accountants',
     nav_title: 'Accountants',
@@ -385,6 +389,11 @@ export default {
     title: 'Direct Debit for Digital Agencies',
     nav_title: 'Digital Agencies',
     description: '',
+  },
+  education_dm: {
+    title: 'A simpler way for parents to pay',
+    nav_title: 'Education',
+    description: 'Join the hundreds of schools and nurseries who use GoCardless to collect payments.',
   },
   finance: {
     title: 'Direct Debit for Financial Services',
@@ -415,6 +424,11 @@ export default {
     title: 'Team',
     description: '',
     nav_title: 'Team',
+  },
+  press: {
+    title: 'Press',
+    description: '',
+    nav_title: 'Press',
   },
   jobs: {
     title: 'Jobs',

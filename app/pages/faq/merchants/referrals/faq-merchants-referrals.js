@@ -81,16 +81,21 @@ export default class FaqMerchantsReferrals extends React.Component {
         <p className='para'>
           GoCardless will, for the GoCardless account to which the notification email you have received relates, credit your account with
           the value of the transaction fees for transactions processed through that GoCardless account from (and including)
-          1st July 2016 to 30th November 2016. The rebate will be up to a maximum amount of £1,500 which we consider to be a fair cap on
-          this offer. Your GoCardless account will be credited with this amount no later than Friday 16th December. Payment will be made
-          to the bank account we hold on file in relation to that same GoCardless account on that date. You will remain liable for all
-          other fees, charges, chargebacks etc. as set out in our agreement with you, as referred to above. This includes any fixed
-          monthly fee that you may be paying now or agree to pay in the future. All other terms in the agreement between us remain in
-          force, and we may not pay out the rebate to you if you are otherwise in breach of that agreement.
+          1st July 2016 to 30th November 2016. The rebate will be up to a maximum amount of £1,500/€1,500 (in aggregate) which we consider
+          to be a fair cap on this offer. Your GoCardless account will be credited with this amount no later than Friday 16th December.
+          Payment will be made to the bank account we hold on file in relation to that same GoCardless account on that date. You will
+          remain liable for all other fees, charges, chargebacks etc. as set out in our agreement with you, as referred to above. This
+          includes any fixed monthly fee that you may be paying now or agree to pay in the future. All other terms in the agreement between
+          us remain in force, and we may not pay out the rebate to you if you are otherwise in breach of that agreement.
         </p>
 
         <p className='para'>
           No cash alternative or other offer is available.
+        </p>
+
+        <p className='para'>
+          We may amend these terms to clarify them or add further detail. The latest version will be available on our website until at
+          least 30 November 2016.
         </p>
 
         <p className='para'>

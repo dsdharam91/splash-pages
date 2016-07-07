@@ -12,6 +12,8 @@ import PaymentsByDirectDebit from '../pages/payments-by-direct-debit/payments-by
 import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/payments-by-direct-debit-variation-b';
 import AuddisDirectDebit from '../pages/payments-by-direct-debit/auddis-direct-debit';
 import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-debit';
+import BusinessDM from '../pages/payments-by-direct-debit/business-dm';
+import EducationDM from '../pages/industries/education-dm';
 
 import Accountants from '../pages/industries/accountants';
 import Charities from '../pages/industries/charities';
@@ -26,6 +28,7 @@ import ExampleCheckout from '../pages/example-checkout/example-checkout';
 
 import About from '../pages/about/about';
 import Team from '../pages/about/team/team';
+import Press from '../pages/about/press/press';
 
 import Jobs from '../pages/about/jobs/jobs';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
@@ -289,6 +292,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [BusinessDM, { name: 'business_dm' }, {
+      'en-GB': {
+        path: '/business',
+      },
+    },
+  ],
   [Accountants, { name: 'accountants', category: 'industries' }, {
       'en-GB': {
         path: '/accountants',
@@ -304,6 +313,12 @@ export const config = Immutable.fromJS([
   [DigitalAgencies, { name: 'digital_agencies', category: 'industries' }, {
       'en-GB': {
         path: '/agencies',
+      },
+    },
+  ],
+  [EducationDM, { name: 'education_dm', category: 'industries' }, {
+      'en-GB': {
+        path: '/education',
       },
     },
   ],
@@ -376,6 +391,12 @@ export const config = Immutable.fromJS([
       },
       nl: {
         path: '/over-ons/team',
+      },
+    },
+  ],
+  [Press, { name: 'press' }, {
+      en: {
+        path: '/about/press',
       },
     },
   ],
