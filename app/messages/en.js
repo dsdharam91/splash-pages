@@ -474,6 +474,10 @@ export default {
     title: 'Account Executive, Enterprise Sales: UK',
     description: '',
   },
+  jobs_inside_account_executive_spain: {
+    title: 'Account Executive, Inside Sales: Spain',
+    description: '',
+  },
   jobs_new_business_development_representative: {
     title: 'New Business Development Rep: UK',
     description: '',
@@ -518,6 +522,10 @@ export default {
     title: 'Customer Support: Germany',
     description: '',
   },
+  jobs_customer_support_spain: {
+    title: 'Customer Support: Spain',
+    description: '',
+  },
   jobs_spanish_sales_development_representative: {
     title: 'SDR: Spain',
     description: '',
@@ -527,7 +535,7 @@ export default {
     description: '',
   },
   jobs_compliance_manager: {
-    title: 'Compliance Manager',
+    title: 'MLRO and Compliance Manager',
     description: '',
   },
   jobs_partnerships_manager_sme: {
