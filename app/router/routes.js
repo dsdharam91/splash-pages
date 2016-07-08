@@ -36,6 +36,7 @@ import SeniorSiteReliabilityEngineer from '../pages/about/jobs/positions/senior-
 import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
+import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
 import NewBusinessDevelopmentRepresentative from '../pages/about/jobs/positions/new-business-development-representative';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
@@ -47,6 +48,7 @@ import ProductDesigner from '../pages/about/jobs/positions/product-designer.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
+import CustomerSupportSpain from '../pages/about/jobs/positions/customer-support-spain.js';
 import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
 import LegalAssistant from '../pages/about/jobs/positions/legal-assistant.js';
 import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
@@ -442,6 +444,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [InsideAccountExecutiveSpain, { name: 'jobs_inside_account_executive_spain', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/inside-account-executive-spain',
+      },
+    },
+  ],
   [HeadofSalesFrance, { name: 'jobs_head_of_sales_france', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/head-of-sales-france',
@@ -505,6 +513,12 @@ export const config = Immutable.fromJS([
   [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support-germany',
+      },
+    },
+  ],
+  [CustomerSupportSpain, { name: 'jobs_customer_support_spain', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/customer-support-spain',
       },
     },
   ],
