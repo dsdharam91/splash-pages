@@ -18,7 +18,7 @@ let pressArticles = [
   {
     vendor: 'Business Insider',
     title: '16 hot UK fintech startups that could one day be worth $1 billion',
-    link: 'uk.businessinsider.com/uk-fintech-startups-1-billion-unicorns-2016-5',
+    link: 'http://uk.businessinsider.com/uk-fintech-startups-1-billion-unicorns-2016-5',
     date: '08.06.16',
   },
   {
@@ -36,7 +36,7 @@ let pressArticles = [
   {
     vendor: 'The Telegraph',
     title: 'Two-thirds of Europe’s young tech champions hail from UK',
-    link: 'www.telegraph.co.uk/finance/businessclub/technology/12107371/Two-thirds-of-Europes-young-tech-champions-hail-from-UK.html',
+    link: 'http://www.telegraph.co.uk/finance/businessclub/technology/12107371/Two-thirds-of-Europes-young-tech-champions-hail-from-UK.html',
     date: '19.01.16',
   },
   {
@@ -48,7 +48,7 @@ let pressArticles = [
   {
     vendor: 'Forbes',
     title: 'The Upward March Of Fin Tech - GoCardless Breaks The $1B Barrier',
-    link: 'www.forbes.com/sites/trevorclawson/2015/07/24/the-upward-march-of-fin-tech-gocardless-breaks-the-1bn-barrier/',
+    link: 'http://www.forbes.com/sites/trevorclawson/2015/07/24/the-upward-march-of-fin-tech-gocardless-breaks-the-1bn-barrier/',
     date: '24.07.15',
   },
   {
