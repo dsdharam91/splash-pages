@@ -24,16 +24,21 @@ export default class FeaturesFr extends React.Component {
     return (
       <Translation locales='fr'>
         <div>
-          <div className='page-hero page-hero--medium u-relative u-size-full'>
+          <div className='page-hero page-hero--medium page-hero--icon-background u-relative u-size-full'>
             <div className='site-container page-hero__container'>
-              <div className='page-hero__inner'>
-                <div className='page-hero__text'>
-                  <h1 className='u-text-heading u-margin-Tm u-color-invert u-text-center u-text-xl u-text-light'>
-                    Commencez à prélever aujourd'hui
+              <div className='grid u-margin-Vxxl'>
+                <div className='grid__cell u-size-1of2 u-margin-Txxl'>
+                  <h1 className='u-text-heading u-color-invert u-text-xl u-text-light u-margin-Bm'>
+                    Commencez à<br />prélever aujourd'hui
                   </h1>
-                  <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    GoCardless est le moyen le plus rapide et facile <br />pour prendre des prélèvements SEPA par internet
+                  <p className='u-text-heading u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
+                    GoCardless est le moyen le plus<br />rapide et facile pour prendre des<br /> prélèvements SEPA par internet.
                   </p>
+                </div>
+                <div className='grid__cell u-size-1of2 u-text-center'>
+                  <div className="videos-container--features">
+                    <iframe src="//player.vimeo.com/video/174203777?api=1&player_id=welcome-video" id="welcome-video" width="100%" height="310" frameBorder={0} webkitallowfullscreen mozallowfullscreen allowFullScreen />
+                  </div>
                 </div>
               </div>
             </div>

@@ -24,17 +24,22 @@ export default class FeaturesDe extends React.Component {
     return (
       <Translation locales='de'>
         <div>
-          <div className='page-hero page-hero--medium u-relative u-size-full'>
+          <div className='page-hero page-hero--medium page-hero--icon-background u-relative u-size-full'>
             <div className='site-container page-hero__container'>
-              <div className='page-hero__inner'>
-                <div className='page-hero__text'>
-                  <h1 className='u-text-heading u-margin-Tm u-color-invert u-text-center u-text-xl u-text-light'>
-                   Ziehen Sie heute die ersten Zahlungen ein
+              <div className='grid u-margin-Vxxl'>
+                <div className='grid__cell u-size-1of2 u-margin-Tl'>
+                  <h1 className='u-text-heading u-color-invert u-text-xl u-text-light u-margin-Bm'>
+                    Ziehen Sie heute die<br />ersten Zahlungen ein
                   </h1>
-                  <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    GoCardless ist der schnellste und einfachste Weg einmalige sowie <br />wiederkehrende online Zahlungen
-                    in Deutschland einzuziehen
+                  <p className='u-text-heading u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
+                    GoCardless ist der schnellste und<br />einfachste Weg einmalige sowie<br />wiederkehrende online Zahlungen<br />
+                    in Deutschland einzuziehen.
                   </p>
+                </div>
+                <div className='grid__cell u-size-1of2 u-text-center'>
+                  <div className="videos-container--features">
+                    <iframe src="//player.vimeo.com/video/174203776?api=1&player_id=welcome-video" id="welcome-video" width="100%" height="310" frameBorder={0} webkitallowfullscreen mozallowfullscreen allowFullScreen />
+                  </div>
                 </div>
               </div>
             </div>
