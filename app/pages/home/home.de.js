@@ -8,9 +8,6 @@ import IfLocale from '../../components/if-locale/if-locale';
 import IntegrateGreenIcon from '../../icons/svg/integrate-green';
 import ImproveCashflowRedIcon from '../../icons/svg/improve-cashflow-red';
 import AutomatedYellowIcon from '../../icons/svg/automated-yellow';
-import ProIcon from '../../icons/svg/pro';
-import ShopIcon from '../../icons/svg/shop';
-import IntegrationsIcon from '../../icons/svg/integrations';
 import SmallBusinessYellowIcon from '../../icons/svg/small-business-yellow';
 import EnterpriseGreenIcon from '../../icons/svg/enterprise-green';
 
