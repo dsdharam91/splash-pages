@@ -7,10 +7,6 @@ export default {
     show_holding_page: false,
   },
   phone_local: '030 568373022',
-  hero: {
-    header: 'Wiederkehrende Zahlungen einfach gemacht',
-    desc: 'GoCardless macht das Einziehen von Lastschriften innerhalb ganz Europa zum Kinderspiel, für den Kleinbetrieb sowie für internationale Großunternehmen.',
-  },
   pricing: {
     cost_cap: '2 €',
     description: 'Ziehen Sie Lastschriften online ein, und zahlen Sie nur 1% Gebühren, gedeckelt bei 2 €. Für große Unternehmen behalten wir es uns vor, Preisnachlässe anzubieten.',
