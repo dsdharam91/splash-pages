@@ -45,7 +45,6 @@ import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
 import ProductMarketingManager from '../pages/about/jobs/positions/product-marketing-manager.js';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
-import ProductDesigner from '../pages/about/jobs/positions/product-designer.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
@@ -437,12 +436,6 @@ export const config = Immutable.fromJS([
   [SoftwareEngineer, { name: 'jobs_software_engineer', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/software-engineer',
-      },
-    },
-  ],
-  [ProductDesigner, { name: 'jobs_product_designer', category: 'jobs.ux_design' }, {
-      en: {
-        path: '/about/jobs/product-designer',
       },
     },
   ],
