@@ -530,6 +530,10 @@ export default {
     title: 'Customer Support: Spain',
     description: '',
   },
+  jobs_finance_director: {
+    title: 'Finance Director',
+    description: '',
+  },
   jobs_spanish_sales_development_representative: {
     title: 'SDR: Spain',
     description: '',
