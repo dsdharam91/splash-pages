@@ -514,10 +514,6 @@ export default {
     title: 'Sales Operations Manager',
     description: '',
   },
-  jobs_product_designer: {
-    title: 'Product Designer',
-    description: '',
-  },
   jobs_customer_support: {
     title: 'Customer Support',
     description: '',
