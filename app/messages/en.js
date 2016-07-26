@@ -530,6 +530,10 @@ export default {
     title: 'Finance Director',
     description: '',
   },
+  jobs_head_of_operations: {
+    title: 'Head of Operations',
+    description: '',
+  },
   jobs_spanish_sales_development_representative: {
     title: 'SDR: Spain',
     description: '',
