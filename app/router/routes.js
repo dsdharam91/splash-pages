@@ -54,7 +54,7 @@ import LegalAssistant from '../pages/about/jobs/positions/legal-assistant.js';
 import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
 import PartnershipsManagerSME from '../pages/about/jobs/positions/partnerships-manager.js';
 import PartnershipsManagerEnterprise from '../pages/about/jobs/positions/partnerships-manager-enterprise.js';
-import FinanceDirector from '../pages/about/jobs/positions/finance-director.js';
+import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
@@ -524,9 +524,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [FinanceDirector, { name: 'jobs_finance_director', category: 'jobs.operations' }, {
+  [HeadofFinance, { name: 'jobs_head_of_finance', category: 'jobs.operations' }, {
       en: {
-        path: '/about/jobs/finance-director',
+        path: '/about/jobs/head-of-finance',
       },
     },
   ],
