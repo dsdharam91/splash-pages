@@ -1,4 +1,5 @@
 export default {
+  number_of_merchants: '20.000',
   header: {
     our_products: 'Produkte',
     login_btn: 'Einloggen',
@@ -27,8 +28,8 @@ export default {
     description: 'Keine Anschlussgebühr, keine versteckten Gebühren, keine Mindestlaufzeit',
   },
   hero: {
-    header: 'Wiederkehrende Zahlungen einfach gemacht',
-    desc: 'GoCardless macht das Einziehen von Lastschriften einfach für jedermann, von Einmannbetrieben bis zu multi-nationalen Unternehmen.',
+    header: 'Lastschriften für das digitale Zeitalter',
+    desc: 'Mit GoCardless können Sie Lastschriften europaweit online einziehen, für einmalige und wiederkehrende Zahlungen.',
   },
   contact_types: ['sales'],
   postal_address: {
