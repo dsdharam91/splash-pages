@@ -86,7 +86,7 @@ export default class HomeDe extends React.Component {
             <div className="">
               <img className="u-size-1of8 u-margin-Bxs" src='/images/testimonials/betahaus__avatar.png' />
               <div className="">
-                <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm' className='u-color-invert u-text-heading u-text-m u-text-semi'>
+                <p className='u-color-invert u-text-heading u-text-m u-text-semi'>
                   Mathias Zinke
                 </p>
                 <p className='u-color-invert u-text-heading u-text-xs'>
