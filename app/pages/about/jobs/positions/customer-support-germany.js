@@ -46,7 +46,7 @@ export default class CustomerSupportGermany extends React.Component {
         </p>
         <ul className='list u-margin-Tm'>
           <li>
-            Answering calls and emails from our customers.
+            Answering calls and emails from our UK and Germany-based customers.
           </li>
           <li>
             Using our sophisticated in-house fraud detection systems to protect
@@ -107,9 +107,7 @@ export default class CustomerSupportGermany extends React.Component {
           </li>
         </ul>
         <p className='para'>
-          This role would ideally suit an empathetic recent graduate with some
-          client-facing experience in a fast-changing environment. However our
-          team come from a variety of backgrounds and we welcome diversity &ndash;
+          Our team come from a variety of backgrounds and we welcome diversity &ndash;
           if you're unsure, please apply.
         </p>
         <p className='para'>

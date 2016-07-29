@@ -45,7 +45,6 @@ import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
 import ProductMarketingManager from '../pages/about/jobs/positions/product-marketing-manager.js';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
-import ProductDesigner from '../pages/about/jobs/positions/product-designer.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
@@ -55,7 +54,8 @@ import LegalAssistant from '../pages/about/jobs/positions/legal-assistant.js';
 import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
 import PartnershipsManagerSME from '../pages/about/jobs/positions/partnerships-manager.js';
 import PartnershipsManagerEnterprise from '../pages/about/jobs/positions/partnerships-manager-enterprise.js';
-import FinanceDirector from '../pages/about/jobs/positions/finance-director.js';
+import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
+import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -440,12 +440,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [ProductDesigner, { name: 'jobs_product_designer', category: 'jobs.ux_design' }, {
-      en: {
-        path: '/about/jobs/product-designer',
-      },
-    },
-  ],
   [EnterpriseAccountExecutive, { name: 'jobs_enterprise_account_executive', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/enterprise-account-executive',
@@ -530,9 +524,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [FinanceDirector, { name: 'jobs_finance_director', category: 'jobs.operations' }, {
+  [HeadofFinance, { name: 'jobs_head_of_finance', category: 'jobs.operations' }, {
       en: {
-        path: '/about/jobs/finance-director',
+        path: '/about/jobs/head-of-finance',
+      },
+    },
+  ],
+  [HeadofOperations, { name: 'jobs_head_of_operations', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/head-of-operations',
       },
     },
   ],

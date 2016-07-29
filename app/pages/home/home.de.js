@@ -80,15 +80,20 @@ export default class HomeDe extends React.Component {
         </div>
         <div className='site-container'>
           <div className='quote page-hero--icon-background u-text-center'>
-            <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm'>
+            <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm u-padding-Bl'>
               “Unsere Lastschriften laufen jetzt komplett automatisiert. Der Wechsel zu GoCardless war total einfach und das Team ist immer zur Stelle, wenn wir Fragen haben.”
             </p>
-            <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm' className='u-color-invert u-text-heading u-text-m u-text-semi'>
-              Mathias Zinke
-            </p>
-            <p className='u-color-invert u-text-heading u-text-xs'>
-              betahaus Hamburg
-            </p>
+            <div className="">
+              <img className="u-size-1of8 u-margin-Bxs" src='/images/testimonials/betahaus__avatar.png' />
+              <div className="">
+                <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm' className='u-color-invert u-text-heading u-text-m u-text-semi'>
+                  Mathias Zinke
+                </p>
+                <p className='u-color-invert u-text-heading u-text-xs'>
+                  betahaus Hamburg
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 

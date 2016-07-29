@@ -514,10 +514,6 @@ export default {
     title: 'Sales Operations Manager',
     description: '',
   },
-  jobs_product_designer: {
-    title: 'Product Designer',
-    description: '',
-  },
   jobs_customer_support: {
     title: 'Customer Support',
     description: '',
@@ -530,8 +526,12 @@ export default {
     title: 'Customer Support: Spain',
     description: '',
   },
-  jobs_finance_director: {
-    title: 'Finance Director',
+  jobs_head_of_finance: {
+    title: 'Head of Finance',
+    description: '',
+  },
+  jobs_head_of_operations: {
+    title: 'Head of Operations',
     description: '',
   },
   jobs_spanish_sales_development_representative: {
