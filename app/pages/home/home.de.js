@@ -43,7 +43,7 @@ export default class HomeDe extends React.Component {
                   Voll automatisiert
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Zeit sparen, menschliche Fehler eliminieren und fehlschlagende Zahlungen vermindern
+                  Sie sparen Zeit und vermeiden menschliche Fehler sowie fehlschlagende Zahlungen
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -54,12 +54,12 @@ export default class HomeDe extends React.Component {
                   Transparente Gebühren
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Sie zahlen die Gebühren nur für erfolgreiche Transaktionen und nicht für Rücklastschriften
+                  Sie zahlen die Gebühren nur für erfolgreiche Transaktionen und nie für Rücklastschriften
                 </p>
               </div>
             </div>
             <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
-              Sie möchten mehr über SEPA erfahren?
+              Sie möchten SEPA besser verstehen?
             </p>
             <Href to='guides.path' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
               Lesen Sie unser SEPA Handbuch
@@ -74,18 +74,20 @@ export default class HomeDe extends React.Component {
               Wir helfen bereits mehr als <Message pointer='number_of_merchants' /> Unternehmen
             </h2>
             <div className='u-text-center u-margin-Vl u-padding-Vs u-padding-Hxxl u-center'>
-              <img src='/images/logos/pro-logos@2x.png' />
+              <img src='/images/logos/German-logos-@2.png' />
             </div>
           </div>
         </div>
         <div className='site-container'>
           <div className='quote page-hero--icon-background u-text-center'>
             <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm'>
-              “Wir mussten früher täglich mit Rücklastschriften kämpfen. Das fällt jetzt komplett weg. An den Start mit GoCardless denken
-              wir gerne als den Moment zurück, an dem wir vergaßen, dass wir einen Zahlungsanbieter haben.”
+              “Unsere Lastschriften laufen jetzt komplett automatisiert. Der Wechsel zu GoCardless war total einfach und das Team ist immer zur Stelle, wenn wir Fragen haben.”
             </p>
-            <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm'>
-              Name, Position, PicDrop
+            <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm' className='u-color-invert u-text-heading u-text-m u-text-semi'>
+              Mathias Zinke
+            </p>
+            <p className='u-color-invert u-text-heading u-text-xs'>
+              betahaus Hamburg
             </p>
           </div>
         </div>
@@ -96,35 +98,32 @@ export default class HomeDe extends React.Component {
               GoCardless ist bekannt aus
             </h2>
             <div className='grid u-padding-Vxl'>
-              <a href='' className='grid__cell u-size-1of3 u-link-clean u-padding-Rxs u-padding-Bm'>
+              <a href='http://www.handelsblatt.com/unternehmen/banken-versicherungen/kreditech-auch-bei-anderen-sprudeln-die-investitionen/13363814-2.html' className='grid__cell u-size-1of3 u-link-clean u-padding-Rxs u-padding-Bm'>
                 <div className='spotlight-grid__container u-text-center u-padding-Vl'>
                   <i role='img' aria-label='Handelsblatt' className='handelsblatt-logo stories-item__logo--handelsblatt' />
                   <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis nunc vitae odio efficitur aliquam non in
-                    tortor. In molestie augue elit, vitae efficitur lacus maximus vitae'
+                    '[...] FinTech GoCardless [hat] einen weiteren Zufluss in Höhe von 13 Millionen Dollar vermeldet.'
                   </p>
                 </div>
-                <div className='stories-item__btn btn u-size-full'>Read the article</div>
+                <div className='stories-item__btn btn u-size-full'>Zum Artikel</div>
               </a>
-              <a href='' className='grid__cell u-size-1of3 u-link-clean u-padding-Bm'>
+              <a href='http://www.gruenderszene.de/allgemein/entwicklerin-code-girls-jutta-frieden-interview' className='grid__cell u-size-1of3 u-link-clean u-padding-Bm'>
                 <div className='spotlight-grid__container u-text-center u-padding-Vl'>
                   <i role='img' aria-label='Grunderszene' className='grunderszene-logo stories-item__logo--grunderszene' />
                   <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis nunc vitae odio efficitur aliquam non in
-                    tortor. In molestie augue elit, vitae efficitur lacus maximus vitae'
+                    '[...] das britische Fintech-Startup GoCardless, das Lastschriften automatisiert abwickelt.'
                   </p>
                 </div>
-                <div className='stories-item__btn btn u-size-full'>Read the article</div>
+                <div className='stories-item__btn btn u-size-full'>Zum Artikel</div>
               </a>
-              <a href='' className='grid__cell u-size-1of3 u-link-clean u-padding-Rxs'>
+              <a href='http://www.zeit.de/2016/28/brexit-unternehmen-europa' className='grid__cell u-size-1of3 u-link-clean u-padding-Rxs'>
                 <div className='spotlight-grid__container u-text-center u-padding-Vl'>
-                  <i role='img' aria-label='Deutsche Welle' className='deutsche-welle-logo stories-item__logo--deutsche-welle' />
+                  <i role='img' aria-label='Die Zeit' className='die-zeit-logo stories-item__logo--die-zeit' />
                   <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis nunc vitae odio efficitur aliquam non in
-                    tortor. In molestie augue elit, vitae efficitur lacus maximus vitae'
+                    '[...] Start-up GoCardless, das es Unternehmen europaweit ermöglicht, Lastschriften einzuziehen.'
                   </p>
                 </div>
-                <div className='stories-item__btn btn u-size-full'>Read the article</div>
+                <div className='stories-item__btn btn u-size-full'>Zum Artikel</div>
               </a>
             </div>
           </div>
@@ -148,7 +147,7 @@ export default class HomeDe extends React.Component {
                   <Message pointer='pricing.per_transaction_amount_normal' /> gedeckelt bei <Message pointer='pricing.cost_cap' />
                 </p>
                 <Link to='features' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
-                  Learn more
+                  Erfahren Sie mehr
                 </Link>
               </div>
               <div className='product-grid__section u-padding-Vl'>
@@ -159,14 +158,14 @@ export default class HomeDe extends React.Component {
                   Großunternehmen
                 </p>
                 <p className='u-color-dark-gray u-padding-Vm'>
-                  Verknüpfen Sie Ihren Service eng mit den eingehenden Zahlungen, um in Echtzeit auf Zahlungseingänge oder Fehler zu
+                  Verknüpfen Sie Ihren Service nahtlos mit Ihren eingehenden Zahlungen, um in Echtzeit auf Zahlungseingänge oder Fehler zu
                   reagieren.
                 </p>
                 <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
                   Von <Message pointer='pricing.pro_cost_per_transaction' />
                 </p>
                 <Link to='pro' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
-                  Learn more
+                  Erfahren Sie mehr
                 </Link>
               </div>
           </div>
@@ -180,7 +179,7 @@ export default class HomeDe extends React.Component {
                 Einfache transparente Preise für alle
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-                Wettbewerbsfähige Preise für jeden: von Einzelpersonen bis zu Großunternehmen.
+                Mit GoCardless zahlen Sie nie mehr Gebühren für Rücklastschriften
               </p>
               <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
                 Unsere Preise
@@ -194,7 +193,7 @@ export default class HomeDe extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <Href to='signup.path' id='track-cta-sign-up' className='btn'>Jetzt anmelden</Href>
-              <p className='u-color-dark-gray u-margin-Ts'>Keine Anschlussgebühr, keine versteckten Gebühren, keine Mindestlaufzeit</p>
+              <p className='u-color-dark-gray u-margin-Ts'>Keine Einrichtungsgebühr, keine versteckten Kosten, keine Mindestlaufzeit</p>
             </div>
           </div>
         </IfLocale>
