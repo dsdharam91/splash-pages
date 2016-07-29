@@ -1,31 +1,31 @@
 import React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class FinanceDirector extends React.Component {
-  displayName = 'FinanceDirector'
+export default class HeadofFinance extends React.Component {
+  displayName = 'HeadofFinance'
 
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Finance Director </h3>
+        <h3 className='u-text-heading-light u-text-m u-color-heading'>Head of Finance</h3>
         <p className='para'>
-          We’re looking for a Finance Director to help us build our finance capabilities as GoCardless scales.
+          We’re looking for a Head of Finance to help us build our finance capabilities as GoCardless scales.
         </p>
         <p className='para'>
           We are an ambitious high-growth company that is quickly evolving. In the last year, our revenue has
           increased twofold and our team has more than doubled in size. We are working with increasingly large customers
-          and will be expanding our international operations even further very soon.
+          and will be further expanding our international operations very soon.
         </p>
         <p className='para'>
-          As our Finance Director, you will report directly to our VP Operations and you will work closely with our management team to help
-          set the strategic direction of the company. You will play a critical role in developing the plan that will lead GoCardless
+          As our Head of Finance, you will report directly to our VP Operations and will work closely with our management team to help
+          set the strategic direction of the company. You will play a critical role in developing the plan that will enable GoCardless
           to become the best recurring payments provider in Europe within the next couple of years.
         </p>
+        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
           You will need to be hands-on and take charge of the day-to-day financial operations of our business. You will be proactive
           in optimising our existing processes, and implementing new ones to ensure that we have full oversight of our spending and
           revenue and can make well-informed decisions.</p>
-        <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
           Your responsibilities will include:
         </p>
@@ -57,9 +57,6 @@ export default class FinanceDirector extends React.Component {
           management accounts and annual statutory accounts; and optimising our treasury management.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
-        <p className='para'>
-          We're looking for someone who:
-        </p>
         <ul className='list'>
           <li>
             You are a fully qualified accountant.

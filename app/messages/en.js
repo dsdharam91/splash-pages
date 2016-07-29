@@ -526,8 +526,8 @@ export default {
     title: 'Customer Support: Spain',
     description: '',
   },
-  jobs_finance_director: {
-    title: 'Finance Director',
+  jobs_head_of_finance: {
+    title: 'Head of Finance',
     description: '',
   },
   jobs_head_of_operations: {
