@@ -19,18 +19,15 @@ export default class HeadofOperations extends React.Component {
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
-          You’ll be responsible for managing our banking relationships and our Banking Ops, and Fraud and Risk teams.
+          You’ll be responsible for managing our banking relationships and our Banking Ops, Fraud and Risk teams.
           You’ll maintain our collaborative culture, ensuring that the team can develop and reach their full potential.
           Every day, you’ll work closely with our VP Operations to improve and streamline our internal processes and
           allow us to scale.
         </p>
-        <p className='para'>Some of the main elements of the role will involve:</p>
+        <p className='para'>Some of the main elements of this role will involve:</p>
         <ul className='list'>
           <li>
             Managing and owning the budgets for our core systems and being the point of contact for those suppliers.
-          </li>
-          <li>
-            Being the central point of coordination for company-wide supplier management.
           </li>
           <li>
             Setting up new systems and services to assist our rapid growth, such as new customer communication channels and risk mitigation solutions.
@@ -56,7 +53,7 @@ export default class HeadofOperations extends React.Component {
             You have experience with business and operational analysis &ndash; you use data to decide what to eat for breakfast!
           </li>
           <li>
-            You are an expert in Excel &ndash; and knowledge of SQL is a bonus.
+            You are an expert in Excel &ndash; knowledge of SQL is a bonus.
           </li>
           <li>
             You have a proven record of improving internal processes, demonstrated by cost reduction and greater customer satisfaction.
@@ -70,11 +67,12 @@ export default class HeadofOperations extends React.Component {
           <li>
             You thrive on operational efficiency.
           </li>
+          <li>
+             You are passionate about helping a team develop their skills and grow together with the company.
+          </li>
         </ul>
         <p className='para'>
-          You are passionate about helping a team develop their skills and grow together with the company. This role would
-          ideally suit someone with an Engineering background. However, we recognise that the most talented people can have
-          the most unusual backgrounds &ndash; if you're unsure, please apply.
+          Our team come from a variety of backgrounds and we welcome diversity &ndash; if you're unsure, please apply.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/254313' className='btn u-margin-Vs'>
           Apply now
