@@ -33,7 +33,6 @@ import Press from '../pages/about/press/press';
 import Jobs from '../pages/about/jobs/jobs';
 import ITtechnician from '../pages/about/jobs/positions/IT-technician.js';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
-import SeniorSiteReliabilityEngineer from '../pages/about/jobs/positions/senior-site-reliability-engineer';
 import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
@@ -418,12 +417,6 @@ export const config = Immutable.fromJS([
   [ITtechnician, { name: 'jobs_it_technician', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/IT-technician',
-      },
-    },
-  ],
-  [SeniorSiteReliabilityEngineer, { name: 'jobs_senior_site_reliability_engineer', category: 'jobs.engineering' }, {
-      en: {
-        path: '/about/jobs/senior-site-reliability-engineer',
       },
     },
   ],
