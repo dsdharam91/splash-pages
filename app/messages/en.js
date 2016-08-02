@@ -522,6 +522,10 @@ export default {
     title: 'Customer Support: Spain',
     description: '',
   },
+  jobs_developer_support: {
+    title: 'Developer Support',
+    description: '',
+  },
   jobs_head_of_finance: {
     title: 'Head of Finance',
     description: '',
