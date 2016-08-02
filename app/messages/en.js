@@ -462,10 +462,6 @@ export default {
     title: 'Software Engineer',
     description: '',
   },
-  jobs_senior_site_reliability_engineer: {
-    title: 'Senior Site Reliability Engineer',
-    description: '',
-  },
   jobs_site_reliability_engineer: {
     title: 'Site Reliability Engineer',
     description: '',
