@@ -538,10 +538,6 @@ export default {
     title: 'SDR: Spain',
     description: '',
   },
-  jobs_legal_assistant: {
-    title: 'Legal Assistant',
-    description: '',
-  },
   jobs_compliance_manager: {
     title: 'MLRO and Compliance Manager',
     description: '',
