@@ -9,25 +9,22 @@ export default class DeveloperSupport extends React.Component {
       <JobsPage>
         <h3 className='u-text-heading-light u-text-m u-color-heading'>Developer Support</h3>
         <p className='para'>
-          Solve our users’ technical problems and help us build products people want.
+          Solve our users' technical problems and develop a deep understanding of our product.
         </p>
         <p className='para'>
-          We pride ourselves on giving all our users first-rate support. Our simple,
-          well-documented API is used by a growing number of our merchants, and we are
-          looking for someone versatile, capable and enthusiastic to join our support team
-          to go the extra mile for developers building integrations with GoCardless.
-        </p>
-        <p className='para'>
-          We’re looking for a bright, enthusiastic problem-solver to help us develop
-          and improve our support tools and processes to benefit the Operations
-          team as a whole.
+          We pride ourselves on giving all our users first-rate support. Our powerful,
+          well-documented API is used by a growing number of our merchants and partners, and we
+          are looking for someone versatile, capable and enthusiastic to join our Developer
+          Support team to go the extra mile for developers building integrations with GoCardless.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
-          As a developer support analyst, you will delve into the product on a technical
-          level and assist developers using GoCardless. You'll get to help the first users
-          of our incredible new API, answer more general questions about the service and
-          Direct Debit, and work on fraud detection and loss prevention processes.
+          As a Developer Support Engineer, you will delve into the product on a technical
+          level and assist developers using GoCardless. You'll guide integrators through
+          the capabilities of our service, and help them to get the most out of our API.
+          You'll also help the Operations team internally by being an expert in the inner
+          workings of our product, handling data requests, configuring accounts, and providing
+          guidance on complex support and risk prevention cases.
         </p>
         <p className='para'>Everyday you will be:</p>
         <ul className='list'>
@@ -38,13 +35,16 @@ export default class DeveloperSupport extends React.Component {
             Acting as the first line for technical enquiries across multiple channels.
           </li>
           <li>
-            Troubleshooting integration issues while supporting our products.
+            Troubleshooting and debugging integration issues.
           </li>
           <li>
-            Detecting risk and verifying accounts to protect customers from fraud.
+            Advising on best-practice solutions for our technical customers' requirements.
           </li>
           <li>
-            Working with the engineering team to ensure that our service meets the highest standards.
+            Working with the Product and Engineering teams to ensure that our service meets the highest standards.
+          </li>
+          <li>
+            Identifying creative ways to improve our tools and processes.
           </li>
         </ul>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
