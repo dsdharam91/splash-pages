@@ -467,7 +467,7 @@ export default {
     description: '',
   },
   jobs_data_engineer: {
-    title: 'Data Engineer',
+    title: 'Software Engineer, Data Systems',
     description: '',
   },
   jobs_enterprise_account_executive: {
