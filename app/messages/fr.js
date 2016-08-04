@@ -1,5 +1,6 @@
 export default {
   number_of_merchants: '20.000',
+  payments_processed_volume: '€1,6 milliard',
   header: {
     our_products: 'Nos produits',
     login_btn: 'Se connecter',
