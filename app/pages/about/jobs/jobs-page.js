@@ -3,6 +3,7 @@ import rest from 'lodash/array/rest';
 import { filterRouteByCategory } from '../../../router/route-helpers';
 import Message from '../../../components/message/message';
 import Link from '../../../components/link/link';
+import IfLinkExists from '../../../components/if-link-exists/if-link-exists';
 import AboutHeader from '../about-header';
 import Page from '../../../components/page/page';
 import { PropTypes } from '../../../helpers/prop-types/prop-types';
@@ -66,6 +67,25 @@ export default class JobsPage extends React.Component {
             </div>
           </div>
         </div>
+
+        <IfLinkExists to='team'>
+          <hr className='section-divider'/>
+
+          <div className='u-text-center u-padding-Vxxl'>
+            <div className='site-container u-padding-Vxl'>
+              <div className='u-size-2of3 u-center'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
+                  Find out more about working at GoCardless
+                </h2>
+
+                <Link to='team'
+                className='btn btn--hollow u-margin-Tm'>
+                  Visit our team page
+                </Link>
+              </div>
+            </div>
+          </div>
+        </IfLinkExists>
       </Page>
     );
   }

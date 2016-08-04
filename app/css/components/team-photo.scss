@@ -1,0 +1,42 @@
+.team-photo {
+  height: 313px;
+}
+
+.team-photo--tall {
+  height: 626px;
+}
+
+.team-photo--ross-playing-pool {
+  background: $primary-color url('/images/team/ross-playing-pool.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.team-photo--team-at-bleachers {
+  background: $primary-color url('/images/team/team-at-bleachers.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.team-photo--nicola-and-jess {
+  background: $primary-color url('/images/team/nicola-and-jess.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.team-photo--team-lunch {
+  background: $primary-color url('/images/team/team-lunch.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.team-photo--varsity-jacket {
+  background: $primary-color url('/images/team/varsity-jacket.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
