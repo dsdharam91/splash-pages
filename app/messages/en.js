@@ -498,14 +498,6 @@ export default {
     title: 'European Marketing Manager',
     description: '',
   },
-  jobs_digital_marketer: {
-    title: 'Digital Marketer',
-    description: '',
-  },
-  jobs_product_marketing_manager: {
-    title: 'Product Marketing Manager',
-    description: '',
-  },
   jobs_sales_operations_manager: {
     title: 'Sales Operations Manager',
     description: '',
@@ -540,10 +532,6 @@ export default {
   },
   jobs_compliance_manager: {
     title: 'MLRO and Compliance Manager',
-    description: '',
-  },
-  jobs_partnerships_manager_sme: {
-    title: 'Partnerships Manager, SME',
     description: '',
   },
   jobs_partnerships_manager_enterprise: {
