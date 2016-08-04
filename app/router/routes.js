@@ -40,8 +40,6 @@ import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-ac
 import NewBusinessDevelopmentRepresentative from '../pages/about/jobs/positions/new-business-development-representative';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
-import DigitalMarketer from '../pages/about/jobs/positions/digital-marketer.js';
-import ProductMarketingManager from '../pages/about/jobs/positions/product-marketing-manager.js';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
@@ -50,7 +48,6 @@ import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions
 import CustomerSupportSpain from '../pages/about/jobs/positions/customer-support-spain.js';
 import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
 import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
-import PartnershipsManagerSME from '../pages/about/jobs/positions/partnerships-manager.js';
 import PartnershipsManagerEnterprise from '../pages/about/jobs/positions/partnerships-manager-enterprise.js';
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
@@ -486,18 +483,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [DigitalMarketer, { name: 'jobs_digital_marketer', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/digital-marketer',
-      },
-    },
-  ],
-  [ProductMarketingManager, { name: 'jobs_product_marketing_manager', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/product-marketing-manager',
-      },
-    },
-  ],
   [CustomerSupport, { name: 'jobs_customer_support', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support',
@@ -537,12 +522,6 @@ export const config = Immutable.fromJS([
   [ComplianceManager, { name: 'jobs_compliance_manager', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/compliance-manager',
-      },
-    },
-  ],
-  [PartnershipsManagerSME, { name: 'jobs_partnerships_manager_sme', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/partnerships-manager',
       },
     },
   ],
