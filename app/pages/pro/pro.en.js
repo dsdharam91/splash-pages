@@ -16,7 +16,7 @@ export default class ProEn extends React.Component {
             <div className='site-container page-hero__container'>
               <div className='page-hero__inner'>
                 <div className='page-hero__text'>
-                  <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>Totally control Direct Debit</h1>
+                  <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>Direct Debit for the Digital Age</h1>
                   <p className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
                     A cutting edge platform for building your<br />recurring payments ecosystem
                   </p>
