@@ -4,12 +4,6 @@ import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
-import CheckListIcon from '../../icons/svg/checklist';
-import MoneyFlowerIcon from '../../icons/svg/money-flower';
-import UsersIcon from '../../icons/svg/users';
-import IntegrationsIcon from '../../icons/svg/integrations';
-import ShopIcon from '../../icons/svg/shop';
-import ProIcon from '../../icons/svg/pro';
 
 import ImproveCashflowRedIcon from '../../icons/svg/improve-cashflow-red';
 import CloudGreenIcon from '../../icons/svg/cloud-green';
