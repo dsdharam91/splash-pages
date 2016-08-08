@@ -11,6 +11,12 @@ import IntegrationsIcon from '../../icons/svg/integrations';
 import ShopIcon from '../../icons/svg/shop';
 import ProIcon from '../../icons/svg/pro';
 
+import ImproveCashflowRedIcon from '../../icons/svg/improve-cashflow-red';
+import CloudGreenIcon from '../../icons/svg/cloud-green';
+import OnlineManagementYellowIcon from '../../icons/svg/online-management-yellow';
+import SmallBusinessYellowIcon from '../../icons/svg/small-business-yellow';
+import EnterpriseGreenIcon from '../../icons/svg/enterprise-green';
+
 export default class HomeEs extends React.Component {
   displayName = 'HomeEs'
 
@@ -21,110 +27,126 @@ export default class HomeEs extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
-                Nuestra red global de pagos ha procesado más de 1.400.000.000€
+                Gestiona y realiza tus domiciliaciones bancarias automáticamente
               </h2>
             </div>
             <div className='grid u-margin-Tl u-padding-Tm'>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <CheckListIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
-                  <CheckListIcon className='svg-icon__image u-fill-dark-gray' />
+                  <ImproveCashflowRedIcon className='svg-icon__image' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Completamente Automatizado
+                  Cobros automatizados
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Ahorra tiempo, reduce el error humano y evita cobros fallidos.
+                  Reduce el tiempo empleado en crear y gestionar tus cobros con nuestra API o panel de control.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <MoneyFlowerIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                  <MoneyFlowerIcon className='svg-icon__image u-fill-dark-gray' />
+                  <CloudGreenIcon className='svg-icon__image' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Comisiones bájísimas
+                  Alertas en tiempo real
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Menos de la mitad de lo que cuesta PayPal, con tarifas fáciles de entender.
+                  Recibe el estado de tus cobros en tiempo real en tu email, o a través de nuestra API o panel de control.
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon u-center'>
-                  <UsersIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
-                  <UsersIcon className='svg-icon__image u-fill-dark-gray' />
+                  <OnlineManagementYellowIcon className='svg-icon__image' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  +<Message pointer='number_of_merchants' /> empresas
+                  Mandatos Online
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Facilitando cobros para compañías a lo largo de todo Europa, ya sean grandes o pequeñas.
+                  Genera los mandatos SEPA de forma totalmente online, intégralos en tu web y olvídate del papeleo.
                 </p>
               </div>
             </div>
+            <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
+              ¿Quieres saber más sobre SEPA?
+            </p>
+            <Href to='guides.path' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+              Lee nuestra guía
+            </Href>
           </div>
         </div>
 
-
-        <hr className='u-margin-An' />
-        <div className='site-container u-text-center u-padding-Vxxl'>
-          <h2 className='u-text-l u-text-heading u-colo-heading u-text-light u-margin-Tl'>
-            ¿Qué deseas hacer?
-          </h2>
-          <div className='spotlight-grid grid u-margin-Vxxl'>
-            <Link to='features' id='track-cta-features' className='u-link-clean u-text-center grid__cell u-size-1of3'>
-              <div className='spotlight-grid__container u-padding-Vl'>
-                <figure className='svg-icon u-center'>
-                  <ShopIcon className='svg-icon__image svg-icon__image--shadow u-fill-green' />
-                  <ShopIcon className='svg-icon__image u-fill-dark-gray' />
-                </figure>
-                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Realizar cobros<br />con total sencillez
-                </p>
-              </div>
-              <div className='spotlight-grid__btn btn u-size-full'>Descubre GoCardless</div>
-            </Link>
-            <Link to='pro' id='track-cta-pro' className='u-link-clean u-text-center grid__cell u-size-1of3'>
-              <div className='spotlight-grid__container u-padding-Vl'>
-                <figure className='svg-icon u-center'>
-                  <ProIcon className='svg-icon__image svg-icon__image--shadow u-fill-yellow' />
-                  <ProIcon className='svg-icon__image u-fill-dark-gray' />
-                </figure>
-                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Tener el control total de tus<br />Domiciliaciones Bancarias
-                </p>
-              </div>
-              <div className='spotlight-grid__btn btn u-size-full'>Descubre GoCardless Pro</div>
-            </Link>
-            <Link to='partners' id='track-cta-partners' className='u-link-clean u-text-center grid__cell u-size-1of3'>
-              <div className='spotlight-grid__container u-padding-Vl'>
-                <figure className='svg-icon u-center'>
-                  <IntegrationsIcon className='svg-icon__image svg-icon__image--shadow u-fill-blue' />
-                  <IntegrationsIcon className='svg-icon__image u-fill-dark-gray' />
-                </figure>
-                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Ayudar a tus clientes<br />a realizar sus cobros
-                </p>
-              </div>
-              <div className='spotlight-grid__btn btn u-size-full'>Descubre a nuestros Asociados</div>
-            </Link>
-          </div>
-        </div>
-
-        <hr className='u-margin-An' />
-        <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
+        <hr className='section-divider' />
+        <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Txl'>
-            <div className='u-size-1of2 u-center'>
-              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                Estarás en buena compañía
-              </h2>
-            </div>
-            <div className='u-text-center u-margin-Vl u-padding-Vs u-center'>
-              <img src='/images/logos/pro-logos@2x.png' />
+            <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
+              Procesamos más de 1.400 millones de euros para más de <Message pointer='number_of_merchants' /> clientes
+            </h2>
+            <div className='u-text-center u-margin-Vl u-padding-Vs u-padding-Hxxl u-center'>
+              <img src='/images/logos/German-logos-@2.png' />
             </div>
           </div>
         </div>
-        <hr className='u-margin-An' />
+        <div className='site-container'>
+          <div className='quote page-hero--icon-background u-text-center'>
+            <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm u-padding-Bl'>
+              "Integramos GoCardless con nuestro software de manera fácil y sencilla. Y gracias a ellos ahora ahorramos muchísimo tiempo en
+              tareas de administración que antes debíamos hacer manualmente."
+            </p>
+            <div className="">
+              <img className="u-size-1of8 u-margin-Bxs" src='/images/testimonials/betahaus__avatar.png' />
+              <div className="">
+                <p className='u-color-invert u-text-heading u-text-m u-text-semi'>
+                  Cristina Arnal
+                </p>
+                <p className='u-color-invert u-text-heading u-text-xs'>
+                  Impact Hub Madrid
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className='site-container u-text-center u-padding-Vxxl'>
+          <div className='product-grid__container'>
+              <div className='product-grid__section product-grid__section--first u-padding-Vl'>
+                <figure className='svg-icon u-center'>
+                  <SmallBusinessYellowIcon className='svg-icon__image' />
+                </figure>
+                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-l u-margin-Tm'>
+                  Autónomos y pequeños negocios
+                </p>
+                <p className='u-color-dark-gray u-padding-Vm'>
+                  Toma el control de tus cobros y asegúrate que tus clientes te pagan siempre a tiempo. Mejora tu flujo de caja, reduce
+                  el tiempo en tareas administrativas y comisiones bajísimas.
+                </p>
+                <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
+                  <Message pointer='pricing.per_transaction_amount_normal' />, máx de <Message pointer='pricing.cost_cap' />
+                </p>
+                <Link to='features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                  Descubre más
+                </Link>
+              </div>
+              <div className='product-grid__section u-padding-Vl'>
+                <figure className='svg-icon u-center'>
+                  <EnterpriseGreenIcon className='svg-icon__image' />
+                </figure>
+                <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-l u-margin-Tm'>
+                  Mediana y gran empresa
+                </p>
+                <p className='u-color-dark-gray u-padding-Vm'>
+                  Domiciliaciones Bancarias para el mundo digital. Conecta tu negocio a tus cobros con alertas en tiempo real,
+                  visibilidad de clientes y disminuye tus problemas.
+                </p>
+                <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
+                  Desde <Message pointer='pricing.pro_cost_per_transaction' />
+                </p>
+                <Link to='pro' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                  Descubre más
+                </Link>
+              </div>
+          </div>
+        </div>
+
+        <hr className='section-divider' />
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
@@ -140,8 +162,9 @@ export default class HomeEs extends React.Component {
             </div>
           </div>
         </div>
+
         <IfLocale hasInstantSignup>
-          <hr className='u-margin-An' />
+          <hr className='section-divider' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
               <Href to='signup.path' className='btn'>Empieza a cobrar a través de Domiciliación Bancaria</Href>
