@@ -42,6 +42,7 @@ import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
+import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
@@ -52,6 +53,7 @@ import PartnershipsManagerEnterprise from '../pages/about/jobs/positions/partner
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
+
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
 import LegalMerchants from '../pages/legal/merchants/legal-merchants';
@@ -487,6 +489,12 @@ export const config = Immutable.fromJS([
   [EuropeanMarketingManager, { name: 'jobs_european_marketing_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/european-marketing-manager',
+      },
+    },
+  ],
+  [AccountsAssistant, { name: 'jobs_accounts_assistant', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/accounts-assistant',
       },
     },
   ],

@@ -502,6 +502,10 @@ export default {
     title: 'Sales Operations Manager',
     description: '',
   },
+  jobs_accounts_assistant: {
+    title: 'Accounts Assistant - Contract',
+    description: '',
+  },
   jobs_customer_support: {
     title: 'Customer Support',
     description: '',
