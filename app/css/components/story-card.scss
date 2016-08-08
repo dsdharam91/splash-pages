@@ -1,0 +1,61 @@
+.story-card {
+  background-color: white;
+  flex-grow: 1;
+  border-radius: $border-radius-base;
+  padding: $space-small;
+  transition: box-shadow 0.15s;
+  margin-bottom: $space-medium;
+}
+
+.story-card__quote {
+  height: 78px;
+}
+
+.story-card:hover {
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.08);
+}
+
+.story-card__logo {
+  height: 70px;
+  margin-bottom: $space-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.story-card__detail {
+  display: flex;
+}
+
+.story-card__key {
+  flex-grow: 1;
+  text-align: left;
+  color: $dark-gray;
+  position: relative;
+  padding-left: 26px;
+}
+
+.story-card__key--size:before,
+.story-card__key--industry:before {
+  content: '';
+  width: 14px;
+  height: 16px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+
+.story-card__key--size:before {
+  background: url('/images/stories/icons/size-icon.png') no-repeat 0 0;
+  background-size: contain;
+}
+
+.story-card__key--industry:before {
+  background: url('/images/stories/icons/industry-icon.png') no-repeat 0 0;
+  background-size: contain;
+}
+
+.story-card__value {
+  flex-grow: 1;
+  text-align: right;
+}

@@ -100,6 +100,13 @@ import FaqProDashboardPlanCreation from '../pages/faq/pro-dashboard/plan-creatio
 import FaqProDashboardPaylinksCreation from '../pages/faq/pro-dashboard/paylinks-creation/faq-pro-dashboard-paylinks-creation';
 
 import Stories from '../pages/stories/stories';
+import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
+import StoriesBulbEnergy from '../pages/stories/stories/bulb-energy';
+import StoriesHotpodYoga from '../pages/stories/stories/hotpod-yoga';
+import StoriesNutmeg from '../pages/stories/stories/nutmeg';
+import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
+import StoriesSmartPension from '../pages/stories/stories/smart-pension';
+
 import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
 import StoriesBlueskyBusiness from '../pages/stories/stories/bluesky-business';
 import StoriesCrowdCube from '../pages/stories/stories/crowdcube';
@@ -1229,6 +1236,42 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [StoriesBoostCapital, { name: 'stories_boost_capital', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/boost-capital',
+      },
+    },
+  ],
+  [StoriesBulbEnergy, { name: 'stories_bulb_energy', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/bulb-energy',
+      },
+    },
+  ],
+  [StoriesHotpodYoga, { name: 'stories_hotpod_yoga', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/hotpod-yoga',
+      },
+    },
+  ],
+  [StoriesNutmeg, { name: 'stories_nutmeg', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/nutmeg',
+      },
+    },
+  ],
+  [StoriesLylesSutherland, { name: 'stories_lyles_sutherland', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/lyles-sutherland',
+      },
+    },
+  ],
+  [StoriesSmartPension, { name: 'stories_smart_pension', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/smart-pension',
+      },
+    },
+  ],
   [StoriesHasBeanCoffee, { name: 'stories_has_bean_coffee', category: 'stories' }, {
       'en-GB': {
         path: '/stories/has-bean-coffee',
@@ -1286,7 +1329,7 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-   [StoriesPicDrop, { name: 'stories_picdrop', category: 'stories' }, {
+  [StoriesPicDrop, { name: 'stories_picdrop', category: 'stories' }, {
       de: {
         path: '/kundenstimmen/picdrop',
       },

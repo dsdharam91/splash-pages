@@ -561,6 +561,30 @@ export default {
     nav_title: 'How to',
     description: 'How to use GoCardless',
   },
+  stories_boost_capital: {
+    title: 'Boost Capital - Customer Stories',
+    description: '',
+  },
+  stories_bulb_energy: {
+    title: 'Bulb Energy - Customer Stories',
+    description: '',
+  },
+  stories_hotpod_yoga: {
+    title: 'Hotpod Yoga - Customer Stories',
+    description: '',
+  },
+  stories_nutmeg: {
+    title: 'Nutmeg - Customer Stories',
+    description: '',
+  },
+  stories_lyles_sutherland: {
+    title: 'Lyles Sutherland - Customer Stories',
+    description: '',
+  },
+  stories_smart_pension: {
+    title: 'Smart Pension - Customer Stories',
+    description: '',
+  },
   stories_has_bean_coffee: {
     title: 'Has Bean Coffee',
     description: 'Has Bean Coffee improved their cashflow by 30% using Direct Debit with GoCardless. See their testimonial of taking subscriptions using GoCardless.',
