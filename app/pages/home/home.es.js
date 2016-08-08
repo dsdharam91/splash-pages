@@ -55,7 +55,7 @@ export default class HomeEs extends React.Component {
                   Mandatos Online
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Genera los mandatos SEPA de forma totalmente online, intégralos en tu web y olvídate del papeleo.
+                  Genera los mandatos SEPA de forma online, intégralos en tu web y olvídate del papeleo.
                 </p>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default class HomeEs extends React.Component {
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Txl'>
             <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-              Procesamos más de 1.400 millones de euros para más de <Message pointer='number_of_merchants' /> clientes
+              Procesamos más de 1.700 millones de euros para más de <Message pointer='number_of_merchants' /> clientes
             </h2>
             <div className='u-text-center u-margin-Vl u-padding-Vs u-padding-Hxxl u-center'>
               <img src='/images/logos/German-logos-@2.png' />
@@ -106,11 +106,11 @@ export default class HomeEs extends React.Component {
                   <SmallBusinessYellowIcon className='svg-icon__image' />
                 </figure>
                 <p className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-l u-margin-Tm'>
-                  Autónomos y pequeños negocios
+                  Autónomos y negocios
                 </p>
                 <p className='u-color-dark-gray u-padding-Vm'>
-                  Toma el control de tus cobros y asegúrate que tus clientes te pagan siempre a tiempo. Mejora tu flujo de caja, reduce
-                  el tiempo en tareas administrativas y comisiones bajísimas.
+                  Toma el control de tus cobros y asegúrate que te paguen siempre a tiempo. Mejora tu flujo de caja, reduce
+                  el tiempo en tareas administrativas y paga menos.
                 </p>
                 <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
                   <Message pointer='pricing.per_transaction_amount_normal' />, máx de <Message pointer='pricing.cost_cap' />
@@ -127,8 +127,8 @@ export default class HomeEs extends React.Component {
                   Mediana y gran empresa
                 </p>
                 <p className='u-color-dark-gray u-padding-Vm'>
-                  Domiciliaciones Bancarias para el mundo digital. Conecta tu negocio a tus cobros con alertas en tiempo real,
-                  visibilidad de clientes y disminuye tus problemas.
+                  Domiciliaciones Bancarias para el mundo digital. Conecta tus cobros a tu empresa, reduce tus problemas
+                  y aumenta tu productividad.
                 </p>
                 <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
                   Desde <Message pointer='pricing.pro_cost_per_transaction' />
@@ -145,10 +145,10 @@ export default class HomeEs extends React.Component {
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                Precios simples y transparentes para todo el mundo
+                Precios simples y transparentes para todos
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-                Tarifas competitivas para todos, desde individuos a grandes empresas
+                Tarifas competitivas para todo el mundo, desde individuos a grandes empresas
               </p>
               <Link to='pricing' className='btn btn--hollow u-margin-Tm'>
                 Descubre más sobre nuestras tarifas
