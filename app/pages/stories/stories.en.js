@@ -32,7 +32,7 @@ let caseStudies = {
       size: '16 employees',
       logoSrc: '/images/stories/story-logos/lyles-sutherland.png',
       logoWidth: '140',
-      industry: 'Digital services',
+      industry: 'Digital Services',
     },
     {
       link: 'stories_boost_capital',
