@@ -14,7 +14,7 @@ let caseStudies = {
       size: '2 employees',
       logoSrc: '/images/stories/story-logos/hotpod-yoga.png',
       logoWidth: '117',
-      industry: 'Accountancy',
+      industry: 'Health & Fitness',
     },
   ],
   SMEs: [
