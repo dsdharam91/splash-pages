@@ -7,7 +7,7 @@ export default class StoriesSmartPension extends React.Component {
   render() {
     return (
       <StoryPageNew
-        title='GoCardless ensures our transactions are 100% accurate, easy to setup and manage for our clients. It is also significantly cheaper compared to credit card.'
+        title='GoCardless ensures our transactions are accurate, easy to setup and manage. It is also significantly cheaper compared to credit card.'
         author='Will Wynne'
         position='Co-Founder'
         company='Smart Pension'
