@@ -478,6 +478,10 @@ export default {
     title: 'Account Executive, Inside Sales: Spain',
     description: '',
   },
+  jobs_launch_manager: {
+    title: 'Launch Manager',
+    description: '',
+  },
   jobs_new_business_development_representative: {
     title: 'New Business Development Rep: UK',
     description: '',
