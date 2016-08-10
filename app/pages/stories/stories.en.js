@@ -97,9 +97,7 @@ export default class StoriesEn extends React.Component {
             <div className='page-hero__inner'>
               <div className='page-hero__text u-text-center'>
                 <h1 className='u-text-heading u-color-invert u-text-xl u-text-light u-margin-Bm'>
-                  “GoCardless ensures our transactions are<br />
-                  100% accurate, easy to setup and manage<br />
-                  for our clients. It is also significantly<br />
+                  “GoCardless ensures our transactions are accurate, easy to setup and manage. It is also significantly
                   cheaper compared to credit card.”
                 </h1>
                 <div className='u-color-invert u-text-heading u-text-m u-text-semi'>

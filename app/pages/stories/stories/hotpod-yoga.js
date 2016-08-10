@@ -12,7 +12,7 @@ export default class StoriesHotpodYoga extends React.Component {
         position='Co-Founder'
         company='Hotpod Yoga'
         benefits='Seamless money transfers, reducing the risk in franchise payments and excellent customer support.'
-        bgimgUrl='url(/images/stories/stories-hero-image.jpg)'
+        bgimgUrl='url(/images/stories/story-images/hotpod-yoga/hero-hotpod-yoga.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/hotpod-yoga.png'
         sidebarServices='Providing hot yoga to the masses'
         sidebarEmployees='2 employees, 16 franchisees and 45 instructors.'
