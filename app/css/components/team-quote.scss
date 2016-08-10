@@ -1,0 +1,34 @@
+.team-quote {
+  height: 313px;
+  background: $primary-color;
+}
+
+.team-quote__credit {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.team-quote__photo {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.team-quote__photo--kushal {
+  background: url('/images/team/avatar-kushal.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.team-quote__photo--alina {
+  background: url('/images/team/avatar-alina.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.team-quote__photo--jutta {
+  background: url('/images/team/avatar-jutta.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
