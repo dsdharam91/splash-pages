@@ -50,6 +50,7 @@ import CustomerSupportSpain from '../pages/about/jobs/positions/customer-support
 import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
 import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
 import PartnershipsManagerEnterprise from '../pages/about/jobs/positions/partnerships-manager-enterprise.js';
+import PartnershipsManagerSME from '../pages/about/jobs/positions/partnerships-manager-sme.js';
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
@@ -543,6 +544,12 @@ export const config = Immutable.fromJS([
   [PartnershipsManagerEnterprise, { name: 'jobs_partnerships_manager_enterprise', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/partnerships-manager-enterprise',
+      },
+    },
+  ],
+  [PartnershipsManagerSME, { name: 'jobs_partnerships_manager_sme', category: 'jobs.marketing' }, {
+      en: {
+        path: '/about/jobs/partnerships-manager-sme',
       },
     },
   ],

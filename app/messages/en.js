@@ -542,6 +542,10 @@ export default {
     title: 'Partnerships Manager, Enterprise',
     description: '',
   },
+  jobs_partnerships_manager_sme: {
+    title: 'Partnerships Manager, SME',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
