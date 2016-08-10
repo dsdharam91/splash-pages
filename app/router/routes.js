@@ -37,6 +37,7 @@ import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliabil
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
 import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
+import LaunchManager from '../pages/about/jobs/positions/launch-manager.js';
 import NewBusinessDevelopmentRepresentative from '../pages/about/jobs/positions/new-business-development-representative';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
@@ -447,6 +448,12 @@ export const config = Immutable.fromJS([
   [InsideAccountExecutiveSpain, { name: 'jobs_inside_account_executive_spain', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/inside-account-executive-spain',
+      },
+    },
+  ],
+  [LaunchManager, { name: 'jobs_launch_manager', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/launch-manager',
       },
     },
   ],
