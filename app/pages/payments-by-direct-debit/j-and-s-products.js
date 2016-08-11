@@ -243,19 +243,13 @@ export default class LandingPageJAndSProducts extends React.Component {
             </h2>
             <Href to='signup.path' className='btn'>Start taking payments</Href>
             <p className='u-color-dark-gray u-margin-Ts'>There are no set up costs, no monthly fees and no hidden charges</p>
-            <hr className='u-size-1of2 u-center u-margin-Vxxl' />
-            <p className='u-color-dark-gray'><strong>Want to talk to someone first?</strong><br />
-              Call our payments experts on <Message pointer='phone_local' /><br />
-              We're available 9am - 6pm Monday to Friday<br />
-              You can also <Link to='contact_sales' className='u-link-color-p u-text-underline'>request a call back from our team</Link>.
-            </p>
           </div>
         </div>
         <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl u-text-center u-center' id='contact-us'>
             <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>
-              Want to learn more? Speak with our Direct Debit experts
+              Want to speak to someone first? Send a message to our team
             </h2>
             <div className='grid__cell u-size-1of2'>
               <ProspectForm prospectType='sales' showNumberOfPayments={false} />
