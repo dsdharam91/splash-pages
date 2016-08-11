@@ -1,7 +1,7 @@
 import React from 'react';
 import StoryPageNew from '../story-page-new';
 
-export default class StoriesRockChour extends React.Component {
+export default class StoriesRockChoir extends React.Component {
   displayName = 'StoriesRockChoir'
 
   render() {
