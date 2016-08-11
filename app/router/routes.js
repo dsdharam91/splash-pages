@@ -113,7 +113,6 @@ import StoriesSmartPension from '../pages/stories/stories/smart-pension';
 
 import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
 import StoriesBlueskyBusiness from '../pages/stories/stories/bluesky-business';
-import StoriesCrowdCube from '../pages/stories/stories/crowdcube';
 import StoriesMomentum from '../pages/stories/stories/momentum-training';
 import StoriesRockChoir from '../pages/stories/stories/rock-choir';
 import StoriesSpencerHockey from '../pages/stories/stories/spencer-hockey';
@@ -1303,12 +1302,6 @@ export const config = Immutable.fromJS([
   [StoriesBlueskyBusiness, { name: 'stories_bluesky_business', category: 'stories' }, {
       'en-GB': {
         path: '/stories/bluesky-business',
-      },
-    },
-  ],
-  [StoriesCrowdCube, { name: 'stories_crowdcube', category: 'stories' }, {
-      'en-GB': {
-        path: '/stories/crowdcube',
       },
     },
   ],
