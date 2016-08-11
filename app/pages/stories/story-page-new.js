@@ -2,6 +2,7 @@ import React from 'react';
 import Href from '../../components/href/href';
 import Page from '../../components/page/page';
 import Link from '../../components/link/link';
+import Message from '../../components/message/message';
 
 export default class StoryPageNew extends React.Component {
   displayName = 'StoryPageNew';
@@ -94,9 +95,10 @@ export default class StoryPageNew extends React.Component {
               Start your GoCardless story today
             </h2>
             <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-              Signing is real simple, just click the button below
+              Join the <Message pointer='number_of_merchants' />+ businesses already using GoCardless
             </p>
-            <Href to='signup.path' id='track-cta-sign-up' className='btn u-margin-Tm'>Sign up now</Href>
+            <Href to='signup.path' id='track-cta-sign-up' className='btn u-margin-Tm u-margin-Rm'>Sign up now</Href>
+            <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'><Message pointer='cta.pro' /></Link>
           </div>
         </div>
       </Page>
