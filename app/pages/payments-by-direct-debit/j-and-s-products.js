@@ -2,7 +2,6 @@ import React from 'react';
 import Page from '../../components/page/page';
 import Message from '../../components/message/message';
 import Href from '../../components/href/href';
-import Link from '../../components/link/link';
 import ProspectForm from '../../components/prospect-form/prospect-form';
 import CheckListIcon from '../../icons/svg/checklist';
 import ImproveCashflowIcon from '../../icons/svg/improve-cashflow';
