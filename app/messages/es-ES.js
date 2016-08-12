@@ -10,8 +10,8 @@ export default {
   phone_local: '+34 91 198 1220',
   email: 'spain@gocardless.com',
   hero: {
-    header: 'Simplificamos los cobros recurrentes',
-    desc: 'GoCardless te permite realizar Domiciliaciones Bancarias Online de forma sencilla y automática',
+    header: 'La manera más fácil de cobrar por Domiciliación Bancaria',
+    desc: 'Con GoCardless ahorrarás tiempo y dinero en tus cobros de forma sencilla y automática',
   },
   pricing: {
     description: 'Cobra a través de Domiciliación Bancaria por solo un 1% de cada transacción, con un máximo de 2€. Para grandes o medianas empresas, hay disponibilidad de precios.',
