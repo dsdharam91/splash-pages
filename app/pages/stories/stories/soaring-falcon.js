@@ -7,89 +7,76 @@ export default class StoriesSoaringFalcon extends React.Component {
   render() {
     return (
       <StoryPageNew
-        title='Title'
-        author='Author'
-        position='Position'
+        title='Cash flow is key for the growth of my business. GoCardless gives me a regular income so I can use the funds for my next growth plans.'
+        author='Alex Falcon Huerta'
+        position='Founder'
         company='Soaring Falcon Accountancy'
-        benefits='Benefits'
+        benefits='Saving time, saving money, growing faster'
         bgimgUrl='url(/images/stories/story-images/hotpod-yoga/hero-hotpod-yoga.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/soaring-falcon.png'
-        sidebarServices='Services'
-        sidebarEmployees='Employees'
-        sidebarPreviousProvider='Previous Provider'
-        sidebarTimeSaved='Time Saved'>
+        sidebarServices='Tech-focused cloud accounting services'
+        sidebarEmployees='Three'
+        sidebarPreviousProvider='Used GoCardless from the very beginning'
+        sidebarTimeSaved='Two days every month'>
         <div className='story-body'>
-          <p className='para u-margin-Tn'>
-            Hotpod Yoga was founded by Max Henderson and Nick Higgins in January 2007, it was born out of a mission to make the benefits
-            of hot yoga accessible to as many people, in as many places as possible.
-          </p>
+         <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
+            Soaring towards growth
+          </h2>
+
           <p className='para'>
-            “We were both really excited by yoga,” explains Max “yet, surprisingly neither of us were really ‘yoga people.’ We both found
-            the industry to be quite inaccessible; it felt otherworldly and full of ‘guru’ types. We were just two regular guys who were
-            into yoga and could see a huge gap in the market.”
+            Alex Falcon Huerta launched Soaring Falcon Accounting in April 2015. Prior to that she worked for a small accounting practice.
+            It was around the time that accountants were becoming more aware of tech. That encouraged Alex to start out on her own.
           </p>
           <div className='story-page__image'>
-            <img src='/images/stories/story-images/hotpod-yoga/founders@2x.jpg' alt='' />
+            <img src='/images/stories/story-images/soaring-falcon/alex@2x.jpg' alt='' />
           </div>
+          <p className='story-page__quote'>
+            “There were so many cool add-ons available, but my previous firm wasn’t really embracing them.
+            It was quite demoralising for me at the time because having the tech would have made life so much easier,” says Alex.
+          </p>
           <p className='para'>
-            Hotpod Yoga are making hot yoga accessible for the masses by creating low-cost, practical and portable hot yoga studios that
-            reduce the risks involved with setting up a studio.
+            At her previous job, Alex had her own internal systems set up for her clients while everyone else used their old ones.
+            Because of this she was working far more efficiently than the others, getting her tax returns done really quickly.
           </p>
           <p className='story-page__quote'>
-            Before our offering, opening a hot yoga studio was a pretty terrifying prospect, the costs and risks involved would make it
-            near impossible for a regular yoga instructor to undertake.
+            “Making sure the new business is 100% cloud has been my biggest achievement.
+            GoCardless has allowed me to grow further without having to spend lots of money on hiring staff. Now I can set up and make payments immediately.”
           </p>
           <p className='para'>
-            The Hotpod Yoga team are ambitious and growing quickly, with over twenty-two sites in five different countries in around
-            three years. But they see this as just the beginning of their journey.
+            GoCardless has saved Alex a lot of time. For example, she can use the system instead of doing standing orders by paper.
+            This could save a day, or even two days, because without it clients risk taking ages to send back the paperwork.
+
+            “I didn’t want something like PayPal, as it just wasn’t a good fit.
+            I have fixed fees for my clients on a monthly basis. Also, I wanted something user friendly with good interface and good support,"says Alex.
+
           </p>
 
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
-            Switching to GoCardless
+            Growing with GoCardless
           </h2>
           <p className='para'>
-            Hotpod Yoga switched to GoCardless two years ago when they moved their booking system from MindBody to TeamUp. Max felt it
-            was a great partnership from day one, GoCardless has enabled them to seamlessly send and receive money whilst TeamUp
-            understands and adapts to their business needs, both helping the organisation to run more smoothly.
+            “With my new venture I’ve used GoCardless from the very beginning.
+            Cash flow is key for the growth of my business and GoCardless gives me a regular income.
+            I can then use the funds to support my plans for growth.”
           </p>
           <div className='story-page__image'>
-            <img src='/images/stories/story-images/hotpod-yoga/benches@2x.jpg' alt='' />
+            <img src='/images/stories/story-images/soaring-falcon/office@2x.jpg' alt='' />
           </div>
 
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
-            The benefits
+            Future plans
           </h2>
           <p className='para'>
-            According to Max, moving to GoCardless has saved them both time and money, the transition from manual invoices has freed up
-            some of their valuable time, as the business grows, so will the time saved.
+            AAlex uses social media to make people aware that she runs a tech-savvy cloud business.
+            She also relies on client recommendations that highlight how she has made her business more efficient thanks to technology.
           </p>
           <p className='story-page__quote'>
-            Switching to GoCardless cuts out process, frees up time, and avoids the need to employ a dedicated member of staff.
+            “My future goals are to keep growing the business. I want to specialise so I need to make sure I’ve a good team to support me.
+            I’m looking at added value services and I also want to collaborate with bookkeeping companies and add-on partners.
           </p>
           <p className='para'>
-            “Our business is growing at a rapid rate,” explains Max “at some point, checking invoices would end up becoming a fulltime
-            job. Switching to GoCardless cuts out this process, freeing up time, and avoiding the need to employ a dedicated member of
-            staff.”
-          </p>
-          <p className='para'>
-            TeamUp and GoCardless have become important elements of the organisational infrastructure that Hotpod Yoga sells on to
-            franchisees; having seamless processes helps news franchises to feel confident and supported.
-          </p>
-          <p className='para'>
-            “Typically, one of main risks associated with operating a franchise is knowing that franchisees are transferring the
-            correct amounts in a secure way. GoCardless has enabled us to reduce the risks associated with franchise payments, which
-            is also great from our investor’s perspective”
-          </p>
-          <div className='story-page__image'>
-            <img src='/images/stories/story-images/hotpod-yoga/bendy@2x.jpg' alt='' />
-          </div>
-          <p className='para'>
-            As well as the functional elements of GoCardless, Max has been impressed by the level of customer support.
-          </p>
-          <p className='para'>
-            “You often imagine a payment provider to be a faceless institution but I’ve always been really amazed by the quick and
-            personal response to enquiries. It’s great to know there’s always someone on the other end that’s willing to help. It’s so
-            refreshing compared to the behaviour of big institutions that we’re used to.”
+            “I’ve got two staff at present and am aiming for another two or three.
+            I don’t need to go too crazy with hiring, as I have the tech to support me. But I’m still hiring a tax specialist - because tech can’t yet replace one of those!”
           </p>
         </div>
       </StoryPageNew>
