@@ -506,8 +506,8 @@ export default {
     title: 'Accounts Assistant - Contract',
     description: '',
   },
-  jobs_customer_support: {
-    title: 'Customer Support',
+  jobs_developer_support: {
+    title: 'Developer Support',
     description: '',
   },
   jobs_customer_support_germany: {
@@ -516,10 +516,6 @@ export default {
   },
   jobs_customer_support_spain: {
     title: 'Customer Support: Spain',
-    description: '',
-  },
-  jobs_developer_support: {
-    title: 'Developer Support',
     description: '',
   },
   jobs_head_of_finance: {
