@@ -39,8 +39,6 @@ import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
 import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
 import LaunchManager from '../pages/about/jobs/positions/launch-manager.js';
-import NewBusinessDevelopmentRepresentative from '../pages/about/jobs/positions/new-business-development-representative';
-import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
@@ -49,7 +47,6 @@ import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
 import CustomerSupportSpain from '../pages/about/jobs/positions/customer-support-spain.js';
-import SpanishSalesDevelopmentRepresentative from '../pages/about/jobs/positions/sales-development-representative-spanish.js';
 import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
 import PartnershipsManagerEnterprise from '../pages/about/jobs/positions/partnerships-manager-enterprise.js';
 import PartnershipsManagerSME from '../pages/about/jobs/positions/partnerships-manager-sme.js';
@@ -470,27 +467,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [NewBusinessDevelopmentRepresentative, { name: 'jobs_new_business_development_representative', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/new-business-development-representative',
-      },
-    },
-  ],
-  [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/sales-development-representative-inbound',
-      },
-    },
-  ],
   [SalesDevelopmentRepresentativeGermany, { name: 'jobs_sales_development_representative_germany', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/sales-development-representative-germany',
-      },
-    },
-  ],
-  [SpanishSalesDevelopmentRepresentative, { name: 'jobs_spanish_sales_development_representative', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/spanish-sales-development-representative',
       },
     },
   ],

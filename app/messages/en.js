@@ -486,14 +486,6 @@ export default {
     title: 'Launch Manager',
     description: '',
   },
-  jobs_new_business_development_representative: {
-    title: 'New Business Development Rep: UK',
-    description: '',
-  },
-  jobs_sales_development_representative_inbound: {
-    title: 'SDR Inbound: UK',
-    description: '',
-  },
   jobs_sales_development_representative_germany: {
     title: 'SDR: Germany',
     description: '',
@@ -536,10 +528,6 @@ export default {
   },
   jobs_head_of_operations: {
     title: 'Head of Operations',
-    description: '',
-  },
-  jobs_spanish_sales_development_representative: {
-    title: 'SDR: Spain',
     description: '',
   },
   jobs_compliance_manager: {
