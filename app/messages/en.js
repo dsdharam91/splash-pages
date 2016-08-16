@@ -534,6 +534,10 @@ export default {
     title: 'MLRO and Compliance Manager',
     description: '',
   },
+  jobs_personal_assistant: {
+    title: 'Personal Assistant',
+    description: '',
+  },
   jobs_partnerships_manager_enterprise: {
     title: 'Partnerships Manager, Enterprise',
     description: '',
