@@ -269,9 +269,9 @@ export default {
     cta: 'Visita nuestro Blog',
   },
   guides: {
-    title: 'Guía SEPA',
-    nav_title: 'Guía SEPA',
-    path: '/es/guias/sepa/',
+    title: 'Guías',
+    nav_title: 'Guías',
+    path: '/es/guias/',
   },
   help: {
     title: 'Soporte',
