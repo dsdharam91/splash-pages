@@ -40,7 +40,6 @@ import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise
 import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
 import LaunchManager from '../pages/about/jobs/positions/launch-manager.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
-import SalesOperationsManager from '../pages/about/jobs/positions/sales-operations-manager.js';
 import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
 import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
@@ -469,12 +468,6 @@ export const config = Immutable.fromJS([
   [SalesDevelopmentRepresentativeGermany, { name: 'jobs_sales_development_representative_germany', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/sales-development-representative-germany',
-      },
-    },
-  ],
-  [SalesOperationsManager, { name: 'jobs_sales_operations_manager', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/sales-operations-manager',
       },
     },
   ],
