@@ -34,7 +34,7 @@ import Press from '../pages/about/press/press';
 import Jobs from '../pages/about/jobs/jobs';
 import ITtechnician from '../pages/about/jobs/positions/IT-technician.js';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
-import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
+import DevopsEngineer from '../pages/about/jobs/positions/devops-engineer.js';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
 import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
@@ -424,15 +424,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [ITtechnician, { name: 'jobs_it_technician', category: 'jobs.engineering' }, {
+  [DevopsEngineer, { name: 'jobs_devops_engineer', category: 'jobs.engineering' }, {
       en: {
-        path: '/about/jobs/IT-technician',
+        path: '/about/jobs/devops-engineer',
       },
     },
   ],
-  [SiteReliabilityEngineer, { name: 'jobs_site_reliability_engineer', category: 'jobs.engineering' }, {
+  [ITtechnician, { name: 'jobs_it_technician', category: 'jobs.engineering' }, {
       en: {
-        path: '/about/jobs/site-reliability-engineer',
+        path: '/about/jobs/IT-technician',
       },
     },
   ],
