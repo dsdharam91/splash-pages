@@ -466,8 +466,8 @@ export default {
     title: 'Software Engineer',
     description: '',
   },
-  jobs_site_reliability_engineer: {
-    title: 'Site Reliability Engineer',
+  jobs_devops_engineer: {
+    title: 'DevOps Engineer',
     description: '',
   },
   jobs_data_engineer: {
