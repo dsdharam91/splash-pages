@@ -498,10 +498,6 @@ export default {
     title: 'European Marketing Manager',
     description: '',
   },
-  jobs_accounts_assistant: {
-    title: 'Accounts Assistant - Contract',
-    description: '',
-  },
   jobs_developer_support: {
     title: 'Developer Support',
     description: '',
