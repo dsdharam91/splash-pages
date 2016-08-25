@@ -45,7 +45,7 @@ export default class PartnershipsDevelopmentManager extends React.Component {
         </p>
         <p className='para'>
           You will work closely with our Product and Operations teams to ensure that we can close new partnerships
-          effectively. Once a new partnerships has been launched you will handover to our Partnerships Success
+          effectively. Once a new partnership has been launched you will handover to our Partnerships Success
           Manager to continue growing the partnership.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Who we're looking for</h4>
@@ -55,7 +55,7 @@ export default class PartnershipsDevelopmentManager extends React.Component {
           learn and always ready to adapt to new situations. You should thrive on working with different teams
           and personalities, and inspire new partners to want to work with us. You’ll be humble about your
           achievements but keenly aware of your strengths. You’ve got an eye for detail but can always see the
-          bigger picture. You’re reliable and never drop the ball, but you’ve also got flair, creativity and can
+          bigger picture. You’re reliable and never drop the ball, but you’ve also got flair, creativity and
           the ability to provide solutions for complex problems.
         </p>
         <p className='para'>
