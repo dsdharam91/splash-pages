@@ -526,6 +526,10 @@ export default {
     title: 'Personal Assistant',
     description: '',
   },
+  jobs_partnerships_development_manager: {
+    title: 'Partnerships Development Manager',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
