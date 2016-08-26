@@ -374,10 +374,10 @@ export default class PartnersEn extends React.Component {
                     <CustomerIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
-                    Affiliate programme
+                    Integration partner
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-size4of5 u-margin-Txs'>
-                    Earn commission when you refer new customers to GoCardless.
+                    Enable your customers to get paid<br />from within your software.
                   </p>
                 </div>
 
@@ -387,10 +387,10 @@ export default class PartnersEn extends React.Component {
                     <AddPartnerIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
-                    App integration
+                    Commercial partner
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-size4of5 u-margin-Txs'>
-                    Make it easy for your customers to collect recurring payments.
+                    Refer customers to GoCardless or run<br />joint marketing campaigns with us.
                   </p>
                 </div>
 
@@ -400,10 +400,10 @@ export default class PartnersEn extends React.Component {
                     <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
-                    White label partnerships
+                    Implementation partner
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-size4of5 u-margin-Txs'>
-                    Take full control of payments using our white label integration.
+                    Provide technical services to integrate GoCardless into customers' systems.
                   </p>
                 </div>
               </div>

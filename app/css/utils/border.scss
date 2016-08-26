@@ -2,6 +2,10 @@
   border-radius: 50%;
 }
 
+.u-border-radius {
+  border-radius: $border-radius-base;
+}
+
 .u-border-gray {
   border: 1px solid $gray;
 }

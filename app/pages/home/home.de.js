@@ -74,7 +74,7 @@ export default class HomeDe extends React.Component {
               Wir helfen bereits mehr als <Message pointer='number_of_merchants' /> Unternehmen
             </h2>
             <div className='u-text-center u-margin-Vl u-padding-Vs u-padding-Hxxl u-center'>
-              <img src='/images/logos/German-logos-@2.png' />
+              <img src='/images/logos/german-logos@2x.png' alt='Thomas Cook, Funding Circle, Gastrofix, Ranking Coach & The Guardian' />
             </div>
           </div>
         </div>

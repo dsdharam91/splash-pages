@@ -19,7 +19,7 @@ export default class DeveloperSupport extends React.Component {
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
-          As a Developer Support Engineer, you will delve into the product on a technical
+          As a member of the Developer Support team, you will delve into the product on a technical
           level and assist developers using GoCardless. You'll guide integrators through
           the capabilities of our service, and help them to get the most out of our API.
           You'll also help the Operations team internally by being an expert in the inner

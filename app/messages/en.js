@@ -371,6 +371,10 @@ export default {
     title: 'An easier way to take Direct Debit',
     description: 'GoCardless is an easier and smarter way to collect Direct Debit payments and to be AUDDIS-compliant.',
   },
+  jandsproducts: {
+    title: 'Direct Debit for J&S Product Distributors',
+    description: '',
+  },
   business_dm: {
     title: 'A better way to collect customer payments',
     description: 'Join thousands of businesses who automate their Direct Debit collections with GoCardless.',
@@ -462,8 +466,8 @@ export default {
     title: 'Software Engineer',
     description: '',
   },
-  jobs_site_reliability_engineer: {
-    title: 'Site Reliability Engineer',
+  jobs_devops_engineer: {
+    title: 'DevOps Engineer',
     description: '',
   },
   jobs_data_engineer: {
@@ -478,12 +482,8 @@ export default {
     title: 'Account Executive, Inside Sales: Spain',
     description: '',
   },
-  jobs_new_business_development_representative: {
-    title: 'New Business Development Rep: UK',
-    description: '',
-  },
-  jobs_sales_development_representative_inbound: {
-    title: 'SDR Inbound: UK',
+  jobs_launch_manager: {
+    title: 'Launch Manager',
     description: '',
   },
   jobs_sales_development_representative_germany: {
@@ -498,12 +498,8 @@ export default {
     title: 'European Marketing Manager',
     description: '',
   },
-  jobs_sales_operations_manager: {
-    title: 'Sales Operations Manager',
-    description: '',
-  },
-  jobs_customer_support: {
-    title: 'Customer Support',
+  jobs_developer_support: {
+    title: 'Developer Support',
     description: '',
   },
   jobs_customer_support_germany: {
@@ -514,10 +510,6 @@ export default {
     title: 'Customer Support: Spain',
     description: '',
   },
-  jobs_developer_support: {
-    title: 'Developer Support',
-    description: '',
-  },
   jobs_head_of_finance: {
     title: 'Head of Finance',
     description: '',
@@ -526,16 +518,20 @@ export default {
     title: 'Head of Operations',
     description: '',
   },
-  jobs_spanish_sales_development_representative: {
-    title: 'SDR: Spain',
-    description: '',
-  },
   jobs_compliance_manager: {
     title: 'MLRO and Compliance Manager',
     description: '',
   },
-  jobs_partnerships_manager_enterprise: {
-    title: 'Partnerships Manager, Enterprise',
+  jobs_personal_assistant: {
+    title: 'Personal Assistant',
+    description: '',
+  },
+  jobs_partnerships_development_manager: {
+    title: 'Partnerships Development Manager',
+    description: '',
+  },
+  jobs_front_end_designer: {
+    title: 'Front-end Designer',
     description: '',
   },
   api_docs: {
@@ -560,6 +556,30 @@ export default {
     title: 'How to',
     nav_title: 'How to',
     description: 'How to use GoCardless',
+  },
+  stories_boost_capital: {
+    title: 'Boost Capital - Customer Stories',
+    description: '',
+  },
+  stories_bulb_energy: {
+    title: 'Bulb Energy - Customer Stories',
+    description: '',
+  },
+  stories_hotpod_yoga: {
+    title: 'Hotpod Yoga - Customer Stories',
+    description: '',
+  },
+  stories_nutmeg: {
+    title: 'Nutmeg - Customer Stories',
+    description: '',
+  },
+  stories_lyles_sutherland: {
+    title: 'Lyles Sutherland - Customer Stories',
+    description: '',
+  },
+  stories_smart_pension: {
+    title: 'Smart Pension - Customer Stories',
+    description: '',
   },
   stories_has_bean_coffee: {
     title: 'Has Bean Coffee',

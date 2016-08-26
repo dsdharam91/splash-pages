@@ -1,0 +1,37 @@
+.story-page__quote {
+  position: relative;
+  font-size: $font-size-medium;
+  font-style: italic;
+  font-weight: $font-weight-light;
+  width: 90%;
+  color: $dark-gray;
+  padding-left: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.story-page__quote:before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 27px;
+  height: 19px;
+  background: url('/images/stories/icons/quote-mark.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+.story-page__image {
+  overflow: hidden;
+  border-radius: $border-radius-base;
+  max-height: 350px;
+  width: 90%;
+  box-shadow: $drop-shadow-small;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.story-page__logo {
+  max-width: 200px;
+  max-height: 60px;
+}

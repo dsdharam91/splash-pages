@@ -134,6 +134,17 @@
   background-repeat: no-repeat;
 }
 
+.page-hero--stories {
+  background: $primary-color;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.page-hero--stories-index {
+  background-image: url('/images/hero/hero-stories.jpg');
+}
+
 .page-hero--business-dm {
   background: $primary-color url('/images/hero/hero-business-dm.jpg');
   background-size: cover;

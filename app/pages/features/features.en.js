@@ -33,9 +33,7 @@ export default class FeaturesEn extends React.Component {
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center'>
-                    <div className="videos-container--features">
-                      <iframe src="//player.vimeo.com/video/158055034?api=1&player_id=welcome-video" id="welcome-video" width="100%" height="310" frameBorder={0} />
-                    </div>
+                    <iframe src="//player.vimeo.com/video/158055034?api=1&player_id=welcome-video" id="welcome-video" width="100%" height="310" frameBorder={0} />
                   </div>
                 </div>
               </div>

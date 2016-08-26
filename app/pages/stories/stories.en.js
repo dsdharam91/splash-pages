@@ -1,146 +1,180 @@
 import React from 'react';
 import Translation from '../../components/translation/translation';
-import Tabs from '../../components/tabs/tabs';
-import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
 import Link from '../../components/link/link';
-import StoryLink from './story-link';
+import Href from '../../components/href/href';
+import Message from '../../components/message/message';
+import _ from 'lodash';
+import classNames from 'classnames';
+
+let caseStudies = {
+  'Start ups': [
+    {
+      link: 'stories_hotpod_yoga',
+      quote: `We’ve reduced the risks associated with franchise payments`,
+      size: '2 employees',
+      logoSrc: '/images/stories/story-logos/hotpod-yoga.png',
+      logoWidth: '117',
+      industry: 'Health & Fitness',
+    },
+  ],
+  SMEs: [
+    {
+      link: 'stories_bulb_energy',
+      quote: `We wanted to give our members the payment options they most trusted`,
+      size: '11-50 employees',
+      logoSrc: '/images/stories/story-logos/bulb-energy.png',
+      logoWidth: '115',
+      industry: 'Energy',
+    },
+    {
+      link: 'stories_lyles_sutherland',
+      quote: `It's great knowing money will come in each month without having to chase it`,
+      size: '16 employees',
+      logoSrc: '/images/stories/story-logos/lyles-sutherland.png',
+      logoWidth: '140',
+      industry: 'Digital services',
+    },
+    {
+      link: 'stories_boost_capital',
+      quote: `Being able to offer truly paperless Direct Debit is a great selling point`,
+      size: '11-50 employees',
+      logoSrc: '/images/stories/story-logos/boost-capital.png',
+      logoWidth: '140',
+      industry: 'Loans',
+    },
+    {
+      link: 'stories_smart_pension',
+      quote: `GoCardless ensures our transactions are accurate, easy to setup and manage`,
+      size: '11-50 employees',
+      logoSrc: '/images/stories/story-logos/smart-pension.png',
+      logoWidth: '156',
+      industry: 'Pensions',
+    },
+  ],
+  Corporations: [
+    {
+      link: 'stories_nutmeg',
+      quote: `It's a very automated service so we've not needed to add headcount`,
+      size: '80 employees',
+      logoSrc: '/images/stories/story-logos/nutmeg.png',
+      logoWidth: '140',
+      industry: 'Investments',
+    },
+  ],
+};
+
+const allStories = _.values(caseStudies).reduce((fold, value) => fold.concat(value), []);
+
+const DEFAULT_STORY_CATEGORY = 'All';
+
+const groupedStories = _.merge({
+  [DEFAULT_STORY_CATEGORY]: allStories,
+}, caseStudies);
 
 export default class StoriesEn extends React.Component {
   displayName = 'StoriesEn'
 
+  constructor(props) {
+    super(props);
+    this.state = { activeCategory: DEFAULT_STORY_CATEGORY };
+  }
+
+  setActiveCategory(category) {
+    this.setState({ activeCategory: category });
+  }
+
   render() {
+    const tabClassesForCategory = (category) => {
+      return classNames('industry-filters__tab grid__cell u-size-1of4', {
+        active: this.state.activeCategory === category,
+      });
+    };
+
     return (
       <Translation locales='en'>
-        <div className='page-hero page-hero--large u-relative u-size-full'>
+        <div className='page-hero page-hero--large page-hero--stories page-hero--stories-index u-relative u-size-full'>
           <div className='site-container page-hero__container'>
-            <div className='page-hero__inner stories-hero-heading'>
-              <div className='page-hero__text'>
-                <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>
-                  Thousands of happy customers
+            <div className='page-hero__inner'>
+              <div className='page-hero__text u-text-center'>
+                <h1 className='u-text-heading u-color-invert u-text-xl u-text-light u-margin-Bm'>
+                  “GoCardless ensures our transactions are accurate, easy to setup and manage. It is also significantly
+                  cheaper compared to credit card.”
                 </h1>
-                <div className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                  From individuals to multi-national corporations, GoCardless<br />
-                  helps thousands of businesses with their payments everyday
+                <div className='u-color-invert u-text-heading u-text-m u-text-semi'>
+                  Will Wynne
+                </div>
+                <div className="u-color-invert u-text-heading u-text-xs">
+                  Co-Founder, Smart Pension
                 </div>
               </div>
             </div>
           </div>
         </div>
 
+        <div className="site-container u-text-center u-padding-Vxxl">
+          <p className="u-text-heading u-color-dark-gray u-text-l u-text-light u-padding-Vxl">
+            From individuals to multi-national corporations, GoCardless helps thousands of businesses with their payments everyday.
+          </p>
+        </div>
 
-        <div className='site-container u-padding-Vxxl u-margin-Bxxl'>
-          <div className='u-padding-Vxxl u-relative u-margin-Bxxl'>
-            <div className='u-padding-Bl'>
-              <div className='stories-spotlight grid u-margin-Hn u-size-full'>
-                <Link to='stories_has_bean_coffee' className='grid__cell u-text-center u-size-1of2
-                u-link-clean u-padding-Rxs u-padding-Ln'>
-                  <div className='stories-spotlight__item stories-spotlight__item--has-bean-coffee
-                  u-relative u-padding-Vl'>
-                    <div className='stories-spotlight__item-text u-margin-Vl'>
-                      <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
-                        “GoCardless gives us control over when<br />we get paid and takes away<br />
-                        the uncomfortable conversations<br />about money.”
-                      </p>
-                      <div className='u-color-invert u-margin-Tm'>
-                        Steve Leighton, Has Bean Coffee
+        <div className="stories-industries">
+          <div className="site-container">
+            <div className="industry-filters grid">
+              { _.map(groupedStories, (stories, category) => {
+                return (
+                  <div className={tabClassesForCategory(category)} onClick={this.setActiveCategory.bind(this, category)} key={category}>
+                    <span className="">{ category }</span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="stories-list u-padding-Vxxl">
+            <div className="site-container u-margin-Vxl grid">
+              { groupedStories[this.state.activeCategory].map((caseStudy) => {
+                return (
+                  <div className="grid__cell u-size-1of3 u-text-center" key={ caseStudy.link }>
+                    <div className="story-card">
+                      <div className={'story-card__logo story-card__' + caseStudy.tag}>
+                        <img src={ caseStudy.logoSrc } width={ caseStudy.logoWidth } className='u-block u-center' />
                       </div>
+
+                      <h2 className="story-card__quote u-text-light u-text-m u-color-dark-gray u-text-no-smoothing u-margin-Bm">“{ caseStudy.quote }”</h2>
+
+                    <div className="story-card__detail u-margin-Bs">
+                        <span className="story-card__key story-card__key--size">Size:</span>
+                      <span className="story-card__value">{ caseStudy.size }</span>
+                      </div>
+
+                      <div className="story-card__detail u-margin-Bm">
+                        <span className="story-card__key story-card__key--industry">Industry</span>
+                      <span className="story-card__value">{ caseStudy.industry }</span>
+                      </div>
+                      <Link to={ caseStudy.link } className='btn btn--small u-block'>
+                        Read more
+                      </Link>
                     </div>
                   </div>
-                  <div className='stories-spotlight__btn btn u-size-full'>Read the case study</div>
-                </Link>
-                <Link to='stories_momentum' className='grid__cell u-text-center u-size-1of2 u-link-clean u-padding-Lxs u-padding-Rn'>
-                  <div className='stories-spotlight__item stories-spotlight__item--crossfit-hackney u-relative u-padding-Vl'>
-                    <div className='stories-spotlight__item-text u-margin-Vl'>
-                      <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
-                        “Taking payments with GoCardless costs us less than half the price of using PayPal
-                        and the integration with TeamUp has definitely reduced our admin.”
-                      </p>
-                      <div className='u-color-invert u-margin-Tm'>
-                        Geoff Stewart, Momentum Training
-                      </div>
-                    </div>
-                  </div>
-                  <div className='stories-spotlight__btn btn u-size-full'>Read the case study</div>
-                </Link>
-              </div>
+                );
+              }) }
             </div>
           </div>
         </div>
 
-        <hr className='u-margin-An' />
-        <div className='site-container u-padding-Vxxl'>
-          <div className='grid u-padding-Vxl'>
-            <StoryLink imgClass='bluesky-logo stories-item__logo--bluesky' to='stories_bluesky_business'>
-              Bluesky Business, a book-keeping and accounting service provider,
-              reduced late payments by 62.5% in just one month with GoCardless.
-            </StoryLink>
-            <StoryLink imgClass='foundation-of-hearts-logo stories-item__logo--foundation-of-hearts' to='stories_foundation_of_hearts'>
-              The Foundation of Hearts, a not-for-profit organisation made up of Hearts FC fans,
-              can easily collect over 8000 donations each month with GoCardless.
-            </StoryLink>
-            <StoryLink imgClass='crowdcube-logo stories-item__logo--crowdcube' to='stories_crowdcube'>
-              Crowdcube, the world’s leading investment crowdfunding site, have saved more than
-              40 hours of admin time each month by switching to GoCardless.
-            </StoryLink>
-            <StoryLink imgClass='greater-anglia-logo stories-item__logo--greater-anglia' to='stories_greater_anglia'>
-              Greater Anglia, the East Anglia rail franchise, cut admin time and saved more than
-              £21,000 by switching to online Direct Debit with GoCardless.
-            </StoryLink>
-            <StoryLink imgClass='rock-choir-logo stories-item__logo--rock-choir' to='stories_rock_choir'>
-              Rock Choir, the UK’s leading contemporary choir group, cut failed payments to 1%
-              by switching to online Direct Debit with GoCardless.
-            </StoryLink>
-            <StoryLink imgClass='spencer-hockey-club-logo stories-item__logo--spencer-hockey-club' to='stories_spencer_hockey'>
-              Spencer Hockey Club slashed the time spent chasing their members for payments by
-              switching to Direct Debit with GoCardless.
-            </StoryLink>
-          </div>
-        </div>
-        <hr className='u-margin-An' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
-            <Tabs triggers={[
-              (<a className={'grid__cell u-padding-Hl stories-testimonials__link--guardian' +
-                 ' u-size-1of3 stories-testimonials__link u-link-clean'}>
-                <img src='/images/stories/guardian-logo@2x.jpg' />
-              </a>),
-              (<a className={'grid__cell u-padding-Hl stories-testimonials__link--funding-circle' +
-                 ' u-size-1of3 stories-testimonials__link u-link-clean'}>
-                <img className='stories-testimonials__link-image--funding-circle' src='/images/stories/funding-circle-logo@2x.jpg' />
-              </a>),
-              (<a className={'grid__cell u-padding-Hl stories-testimonials__link--lendable' +
-                 ' u-size-1of3 stories-testimonials__link u-link-clean'}>
-                <img className='stories-testimonials__link-image--lendable' src='/images/stories/lendable-logo@2x.jpg' />
-              </a>),
-            ]}>
-              <div className='stories-testimonials__quote stories-testimonials__quote--guardian u-relative u-margin-Txxl u-padding-Al'>
-                <p className="u-text-heading u-color-dark-gray u-text-light u-text-m">
-                  "The Guardian is always looking to give the best customer experience and has chosen
-                  GoCardless to make its recurring payment experience
-                  as seamless as possible."
-                </p>
-              </div>
-              <div className={'stories-testimonials__quote stories-testimonials__quote--funding-circle' +
-                ' u-relative u-margin-Txxl u-padding-Al'}>
-                <p className="u-text-heading u-color-dark-gray u-text-light u-text-m">
-                  "GoCardless is one of the best payments companies we've worked with.
-                  Their API was simple to integrate and allows us to use Direct Debit in a fully automated way.
-                  I'd highly recommend them to any company that cares about a providing good user experience and using the
-                  best available technology for their Direct Debit in the UK and Europe."
-                </p>
-              </div>
-              <div className='stories-testimonials__quote stories-testimonials__quote--lendable u-relative u-margin-Txxl u-padding-Al'>
-                <p className="u-text-heading u-color-dark-gray u-text-light u-text-m">
-                  "We moved to GoCardless as collections can be managed by one person instead of a whole department.
-                  It's great to work with another financial technology company who are committed to helping businesses."
-                </p>
-              </div>
-            </Tabs>
+            <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
+              Start your GoCardless story today
+            </h2>
+            <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
+              Join the <Message pointer='number_of_merchants' />+ businesses already using GoCardless
+            </p>
+            <Href to='signup.path' id='track-cta-sign-up' className='btn u-margin-Tm u-margin-Rm'>Sign up now</Href>
+            <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'><Message pointer='cta.pro' /></Link>
           </div>
         </div>
-        <hr className='u-margin-An' />
-        <StartTakingPaymentsCTA />
       </Translation>
-  );
+    );
   }
 }

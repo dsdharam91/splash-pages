@@ -33,6 +33,7 @@
 @import "components/highlight-text";
 @import "components/horizontal-rule";
 @import "components/image-grid";
+@import "components/industry-filters";
 @import "components/input";
 @import "components/integrations-grid";
 @import "components/label";
@@ -67,12 +68,17 @@
 @import "components/sticky-nav";
 @import "components/stories-hero-heading";
 @import "components/stories-item";
+@import "components/stories-list";
 @import "components/stories-spotlight";
 @import "components/stories-testimonials";
+@import "components/story-card";
 @import "components/story-hero";
+@import "components/story-page";
 @import "components/svg-icon";
 @import "components/tab-link";
 @import "components/table";
+@import "components/team-photo";
+@import "components/team-quote";
 @import "components/thumbnails";
 @import "components/vertical-page";
 @import "components/videos-container";
@@ -119,6 +125,7 @@
 @import "figures/the-guardian-logo";
 @import "figures/xero-header-logo";
 @import "figures/xero-logo";
+@import "figures/zenchef-logo";
 
 @import "utils/background";
 @import "utils/border";
