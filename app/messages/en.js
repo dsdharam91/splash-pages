@@ -458,10 +458,6 @@ export default {
       title: 'Operations',
     },
   },
-  jobs_it_technician: {
-    title: 'IT Technician',
-    description: '',
-  },
   jobs_software_engineer: {
     title: 'Software Engineer',
     description: '',
