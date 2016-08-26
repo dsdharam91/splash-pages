@@ -50,7 +50,7 @@ import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
 import PersonalAssistant from '../pages/about/jobs/positions/personal-assistant.js';
-import FEDesigner from '../pages/about/jobs/positions/front-end-designer.js';
+import FEDeveloper from '../pages/about/jobs/positions/front-end-developer.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -429,6 +429,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [FEDeveloper, { name: 'jobs_front_end_developer', category: 'jobs.engineering' }, {
+      en: {
+        path: '/about/jobs/front-end-developer',
+      },
+    },
+  ],
   [ITtechnician, { name: 'jobs_it_technician', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/IT-technician',
@@ -522,12 +528,6 @@ export const config = Immutable.fromJS([
   [PartnershipsDevelopmentManager, { name: 'jobs_partnerships_development_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/partnerships-development-manager',
-      },
-    },
-  ],
-  [FEDesigner, { name: 'jobs_front_end_designer', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/front-end-designer',
       },
     },
   ],

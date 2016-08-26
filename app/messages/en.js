@@ -530,8 +530,8 @@ export default {
     title: 'Partnerships Development Manager',
     description: '',
   },
-  jobs_front_end_designer: {
-    title: 'Front-end Designer',
+  jobs_front_end_developer: {
+    title: 'Front-end Developer',
     description: '',
   },
   api_docs: {

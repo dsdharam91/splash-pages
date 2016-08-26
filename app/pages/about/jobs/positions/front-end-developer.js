@@ -1,15 +1,15 @@
 import React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class FEDesigner extends React.Component {
-  displayName = 'FEDesigner'
+export default class FEDeveloper extends React.Component {
+  displayName = 'FEDeveloper'
 
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Front-end Designer</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-heading'>Front-end Developer</h3>
         <p className='para'>
-          GoCardless are looking for a Front-end Designer who is keen to join a young and
+          GoCardless are looking for a Front-end Developer who is keen to join a young and
           fast-paced technology business. You will be an extremely valuable addition to the
           expanding team who can create industry-leading solutions to help make our customers’
           lives easier.
