@@ -32,7 +32,6 @@ import Team from '../pages/about/team/team';
 import Press from '../pages/about/press/press';
 
 import Jobs from '../pages/about/jobs/jobs';
-import ITtechnician from '../pages/about/jobs/positions/IT-technician.js';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import DevopsEngineer from '../pages/about/jobs/positions/devops-engineer.js';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
@@ -433,12 +432,6 @@ export const config = Immutable.fromJS([
   [FEDeveloper, { name: 'jobs_front_end_developer', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/front-end-developer',
-      },
-    },
-  ],
-  [ITtechnician, { name: 'jobs_it_technician', category: 'jobs.engineering' }, {
-      en: {
-        path: '/about/jobs/IT-technician',
       },
     },
   ],
