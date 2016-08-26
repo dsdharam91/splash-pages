@@ -103,6 +103,7 @@ import Stories from '../pages/stories/stories';
 import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
 import StoriesBulbEnergy from '../pages/stories/stories/bulb-energy';
 import StoriesHotpodYoga from '../pages/stories/stories/hotpod-yoga';
+import StoriesImpactHub from '../pages/stories/stories/impact-hub';
 import StoriesNutmeg from '../pages/stories/stories/nutmeg';
 import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
 import StoriesSmartPension from '../pages/stories/stories/smart-pension';
@@ -1221,6 +1222,9 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/stories',
       },
+      es: {
+        path: '/referencias',
+      },
       fr: {
         path: '/references',
       },
@@ -1244,6 +1248,12 @@ export const config = Immutable.fromJS([
   [StoriesHotpodYoga, { name: 'stories_hotpod_yoga', category: 'stories' }, {
       'en-GB': {
         path: '/stories/hotpod-yoga',
+      },
+    },
+  ],
+  [StoriesImpactHub, { name: 'stories_impact_hub', category: 'stories' }, {
+      es: {
+        path: '/referencias/impact-hub',
       },
     },
   ],

@@ -3,6 +3,7 @@ import Href from '../../components/href/href';
 import Page from '../../components/page/page';
 import Link from '../../components/link/link';
 import Message from '../../components/message/message';
+import IfLocale from '../../components/if-locale/if-locale';
 
 export default class StoryPageNew extends React.Component {
   displayName = 'StoryPageNew';
@@ -57,11 +58,13 @@ export default class StoryPageNew extends React.Component {
           <div className='u-padding-Vxl grid'>
             <div className="grid__cell u-size-2of3">
               {this.props.children}
-              <div className="u-margin-Txl">
-                <Link to={'stories'} className="u-text-heavy">
+              <IfLocale domesticScheme='bacs'>
+                <div className="u-margin-Txl">
+                  <Link to={'stories'} className="u-text-heavy">
                   &larr; Read more stories like { this.props.company }’s
-                </Link>
-              </div>
+                  </Link>
+                </div>
+              </IfLocale>
             </div>
             <div className='story-sidebar grid__cell u-size-1of3 u-background-light-gray u-padding-Am u-border-radius'>
               <img src={ this.props.sidebarLogoSrc } className='u-block u-center u-margin-Vl u-center story-page__logo' />
