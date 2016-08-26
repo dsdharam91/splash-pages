@@ -530,6 +530,10 @@ export default {
     title: 'Front-end Developer',
     description: '',
   },
+  jobs_partnerships_success_manager: {
+    title: 'Partnerships Success Manager',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
