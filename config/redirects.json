@@ -219,5 +219,6 @@
   "/team/index.html": "/about/team",
   "/testimonials/index.html": "/",
   "/tour/index.html": "/features",
+  "/xero/index.html": "http://www.directli.co.uk/xero.html",
   "/watch-a-demo/index.html": "/features"
 }
