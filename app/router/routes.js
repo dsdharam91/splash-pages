@@ -1222,9 +1222,6 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/stories',
       },
-      es: {
-        path: '/referencias',
-      },
       fr: {
         path: '/references',
       },
