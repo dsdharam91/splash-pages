@@ -565,6 +565,10 @@ export default {
     title: 'Bulb Energy - Customer Stories',
     description: '',
   },
+  stories_connexin: {
+    title: 'Connexin - Customer Stories',
+    description: '',
+  },
   stories_hotpod_yoga: {
     title: 'Hotpod Yoga - Customer Stories',
     description: '',
@@ -573,12 +577,20 @@ export default {
     title: 'Nutmeg - Customer Stories',
     description: '',
   },
+  stories_rock_choir: {
+    title: 'Rock Choir - Customer Stories',
+    description: 'Rock Choir cut failed payments to 1% by switching to online Direct Debit with GoCardless. Read their customer story of using GoCardless.',
+  },
   stories_lyles_sutherland: {
     title: 'Lyles Sutherland - Customer Stories',
     description: '',
   },
   stories_smart_pension: {
     title: 'Smart Pension - Customer Stories',
+    description: '',
+  },
+  stories_soaring_falcon: {
+    title: 'Soaring Falcon Accountancy - Customer Stories',
     description: '',
   },
   stories_has_bean_coffee: {
@@ -596,10 +608,6 @@ export default {
   stories_spencer_hockey: {
     title: 'Spencer Hockey Club',
     description: 'Spencer Hockey Club slashed the time spent chasing payments by switching to Direct Debit with GoCardless. Find out how GoCardless is a \'natural fit\' for membership groups.',
-  },
-  stories_rock_choir: {
-    title: 'Rock Choir',
-    description: 'Rock Choir cut failed payments to 1% by switching to online Direct Debit with GoCardless. Read their customer story of using GoCardless.',
   },
   stories_momentum: {
     title: 'Momentum Training and CrossFit Hackney',

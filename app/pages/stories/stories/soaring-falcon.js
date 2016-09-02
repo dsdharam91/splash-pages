@@ -1,8 +1,8 @@
 import React from 'react';
 import StoryPageNew from '../story-page-new';
 
-export default class StoriesRockChour extends React.Component {
-  displayName = 'StoriesRockChoir'
+export default class StoriesSoaringFalcon extends React.Component {
+  displayName = 'StoriesSoaringFalcon'
 
   render() {
     return (
@@ -10,10 +10,10 @@ export default class StoriesRockChour extends React.Component {
         title='Title'
         author='Author'
         position='Position'
-        company='Rock Choir'
+        company='Soaring Falcon Accountancy'
         benefits='Benefits'
         bgimgUrl='url(/images/stories/story-images/hotpod-yoga/hero-hotpod-yoga.jpg)'
-        sidebarLogoSrc='/images/stories/story-logos/rock-choir.png'
+        sidebarLogoSrc='/images/stories/story-logos/soaring-falcon.png'
         sidebarServices='Services'
         sidebarEmployees='Employees'
         sidebarPreviousProvider='Previous Provider'

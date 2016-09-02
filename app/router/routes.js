@@ -102,16 +102,18 @@ import FaqProDashboardPaylinksCreation from '../pages/faq/pro-dashboard/paylinks
 import Stories from '../pages/stories/stories';
 import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
 import StoriesBulbEnergy from '../pages/stories/stories/bulb-energy';
+import StoriesConnexin from '../pages/stories/stories/connexin';
 import StoriesHotpodYoga from '../pages/stories/stories/hotpod-yoga';
 import StoriesImpactHub from '../pages/stories/stories/impact-hub';
 import StoriesNutmeg from '../pages/stories/stories/nutmeg';
+import StoriesRockChoir from '../pages/stories/stories/rock-choir';
 import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
 import StoriesSmartPension from '../pages/stories/stories/smart-pension';
+import StoriesSoaringFalcon from '../pages/stories/stories/soaring-falcon';
 
 import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
 import StoriesBlueskyBusiness from '../pages/stories/stories/bluesky-business';
 import StoriesMomentum from '../pages/stories/stories/momentum-training';
-import StoriesRockChoir from '../pages/stories/stories/rock-choir';
 import StoriesSpencerHockey from '../pages/stories/stories/spencer-hockey';
 import StoriesFoundationOfHearts from '../pages/stories/stories/foundation-of-hearts';
 import StoriesGreaterAnglia from '../pages/stories/stories/greater-anglia';
@@ -1242,6 +1244,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [StoriesConnexin, { name: 'stories_connexin', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/connexin',
+      },
+    },
+  ],
   [StoriesHotpodYoga, { name: 'stories_hotpod_yoga', category: 'stories' }, {
       'en-GB': {
         path: '/stories/hotpod-yoga',
@@ -1266,9 +1274,21 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [StoriesRockChoir, { name: 'stories_rock_choir', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/rock-choir',
+      },
+    },
+  ],
   [StoriesSmartPension, { name: 'stories_smart_pension', category: 'stories' }, {
       'en-GB': {
         path: '/stories/smart-pension',
+      },
+    },
+  ],
+  [StoriesSoaringFalcon, { name: 'stories_soaring_falcon', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/soaring-falcon',
       },
     },
   ],
@@ -1287,12 +1307,6 @@ export const config = Immutable.fromJS([
   [StoriesMomentum, { name: 'stories_momentum', category: 'stories' }, {
       'en-GB': {
         path: '/stories/momentum',
-      },
-    },
-  ],
-  [StoriesRockChoir, { name: 'stories_rock_choir', category: 'stories' }, {
-      'en-GB': {
-        path: '/stories/rock-choir',
       },
     },
   ],
