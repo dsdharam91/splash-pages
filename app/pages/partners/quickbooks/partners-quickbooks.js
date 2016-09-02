@@ -52,6 +52,15 @@ export default class PartnersQuickbooks extends React.Component {
           </div>
         </div>
 
+        <div className='site-container u-padding-Vxxl'>
+          <div className='u-margin-Vl u-text-center'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>See how it works</h2>
+            <iframe src="https://player.vimeo.com/video/180054033?title=0&byline=0&portrait=0" width="460" height="310" frameBorder="0"></iframe>
+          </div>
+        </div>
+
+        <hr className='section-divider' />
+
         <div className='section-scroll-target' id='overview'>
           <div className='site-container u-padding-Vxxl'>
             <div className='grid u-margin-Vl'>

@@ -32,26 +32,25 @@ import Team from '../pages/about/team/team';
 import Press from '../pages/about/press/press';
 
 import Jobs from '../pages/about/jobs/jobs';
-import ITtechnician from '../pages/about/jobs/positions/IT-technician.js';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
-import SiteReliabilityEngineer from '../pages/about/jobs/positions/site-reliability-engineer';
+import DevopsEngineer from '../pages/about/jobs/positions/devops-engineer.js';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
 import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
 import LaunchManager from '../pages/about/jobs/positions/launch-manager.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
-import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
 import CustomerSupportSpain from '../pages/about/jobs/positions/customer-support-spain.js';
 import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
-import PartnershipsManagerEnterprise from '../pages/about/jobs/positions/partnerships-manager-enterprise.js';
-import PartnershipsManagerSME from '../pages/about/jobs/positions/partnerships-manager-sme.js';
+import PartnershipsDevelopmentManager from '../pages/about/jobs/positions/partnerships-development-manager.js';
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
 import PersonalAssistant from '../pages/about/jobs/positions/personal-assistant.js';
+import FEDeveloper from '../pages/about/jobs/positions/front-end-developer.js';
+import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success-manager.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -104,6 +103,7 @@ import Stories from '../pages/stories/stories';
 import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
 import StoriesBulbEnergy from '../pages/stories/stories/bulb-energy';
 import StoriesHotpodYoga from '../pages/stories/stories/hotpod-yoga';
+import StoriesImpactHub from '../pages/stories/stories/impact-hub';
 import StoriesNutmeg from '../pages/stories/stories/nutmeg';
 import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
 import StoriesSmartPension from '../pages/stories/stories/smart-pension';
@@ -424,15 +424,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [ITtechnician, { name: 'jobs_it_technician', category: 'jobs.engineering' }, {
+  [DevopsEngineer, { name: 'jobs_devops_engineer', category: 'jobs.engineering' }, {
       en: {
-        path: '/about/jobs/IT-technician',
+        path: '/about/jobs/devops-engineer',
       },
     },
   ],
-  [SiteReliabilityEngineer, { name: 'jobs_site_reliability_engineer', category: 'jobs.engineering' }, {
+  [FEDeveloper, { name: 'jobs_front_end_developer', category: 'jobs.engineering' }, {
       en: {
-        path: '/about/jobs/site-reliability-engineer',
+        path: '/about/jobs/front-end-developer',
       },
     },
   ],
@@ -478,12 +478,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [AccountsAssistant, { name: 'jobs_accounts_assistant', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/accounts-assistant',
-      },
-    },
-  ],
   [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support-germany',
@@ -526,15 +520,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [PartnershipsManagerEnterprise, { name: 'jobs_partnerships_manager_enterprise', category: 'jobs.marketing' }, {
+  [PartnershipsDevelopmentManager, { name: 'jobs_partnerships_development_manager', category: 'jobs.marketing' }, {
       en: {
-        path: '/about/jobs/partnerships-manager-enterprise',
+        path: '/about/jobs/partnerships-development-manager',
       },
     },
   ],
-  [PartnershipsManagerSME, { name: 'jobs_partnerships_manager_sme', category: 'jobs.marketing' }, {
+  [PartnershipsSuccessManager, { name: 'jobs_partnerships_success_manager', category: 'jobs.marketing' }, {
       en: {
-        path: '/about/jobs/partnerships-manager-sme',
+        path: '/about/jobs/partnerships-success-manager',
       },
     },
   ],
@@ -1251,6 +1245,12 @@ export const config = Immutable.fromJS([
   [StoriesHotpodYoga, { name: 'stories_hotpod_yoga', category: 'stories' }, {
       'en-GB': {
         path: '/stories/hotpod-yoga',
+      },
+    },
+  ],
+  [StoriesImpactHub, { name: 'stories_impact_hub', category: 'stories' }, {
+      es: {
+        path: '/referencias/impact-hub',
       },
     },
   ],

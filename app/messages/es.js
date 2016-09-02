@@ -277,6 +277,16 @@ export default {
     title: 'Soporte',
     nav_title: 'Soporte',
   },
+  stories: {
+    title: 'Casos de éxito',
+    nav_title: 'casos',
+    description: '',
+    link: 'Lee nuestros casos de éxito',
+  },
+  stories_impact_hub: {
+    title: 'Impact Hub - Casos de éxito',
+    description: '',
+  },
   legal: {
     title: 'Nuestros Términos y Condiciones',
     nav_title: 'Introducción',
@@ -295,7 +305,7 @@ export default {
     description: '',
   },
   legal_partners: {
-    title: 'Our terms of service - Partners',
+    title: 'Términos y condiciones - Asociados',
     nav_title: 'Partner agreement',
     description: '',
   },

@@ -458,16 +458,12 @@ export default {
       title: 'Operations',
     },
   },
-  jobs_it_technician: {
-    title: 'IT Technician',
-    description: '',
-  },
   jobs_software_engineer: {
     title: 'Software Engineer',
     description: '',
   },
-  jobs_site_reliability_engineer: {
-    title: 'Site Reliability Engineer',
+  jobs_devops_engineer: {
+    title: 'DevOps Engineer',
     description: '',
   },
   jobs_data_engineer: {
@@ -498,10 +494,6 @@ export default {
     title: 'European Marketing Manager',
     description: '',
   },
-  jobs_accounts_assistant: {
-    title: 'Accounts Assistant - Contract',
-    description: '',
-  },
   jobs_developer_support: {
     title: 'Developer Support',
     description: '',
@@ -530,12 +522,16 @@ export default {
     title: 'Personal Assistant',
     description: '',
   },
-  jobs_partnerships_manager_enterprise: {
-    title: 'Partnerships Manager, Enterprise',
+  jobs_partnerships_development_manager: {
+    title: 'Partnerships Development Manager',
     description: '',
   },
-  jobs_partnerships_manager_sme: {
-    title: 'Partnerships Manager, SME',
+  jobs_front_end_developer: {
+    title: 'Front-end Developer',
+    description: '',
+  },
+  jobs_partnerships_success_manager: {
+    title: 'Partnerships Success Manager',
     description: '',
   },
   api_docs: {
