@@ -7,90 +7,63 @@ export default class StoriesRockChoir extends React.Component {
   render() {
     return (
       <StoryPageNew
-        title='Title'
-        author='Author'
-        position='Position'
+        title='Rather than chasing people to update their details, we can now retry failed payments at the click of a button'
+        author='Dave Lusher'
+        position='Director'
         company='Rock Choir'
-        benefits='Benefits'
-        bgimgUrl='url(/images/stories/story-images/hotpod-yoga/hero-hotpod-yoga.jpg)'
+        benefits='Keeping more customers on the platform and dramatically reducing the administrative burden.'
+        bgimgUrl='url(/images/stories/story-images/rock-choir/hero-rock-choir.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/rock-choir.png'
-        sidebarServices='Services'
-        sidebarEmployees='Employees'
-        sidebarPreviousProvider='Previous Provider'
-        sidebarTimeSaved='Time Saved'>
+        sidebarServices='Providing music, friendship and confidence'
+        sidebarEmployees='31 employees'
+        sidebarPreviousProvider='Used credit or debit cards to take recurring payments'
+        sidebarTimeSaved='Hours every month'>
         <div className='story-body'>
+       <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
+            Slashing failed payments and boosting growth
+          </h2>
           <p className='para u-margin-Tn'>
-            Hotpod Yoga was founded by Max Henderson and Nick Higgins in January 2007, it was born out of a mission to make the benefits
-            of hot yoga accessible to as many people, in as many places as possible.
+            Rock Choir is the UK’s leading contemporary choir group, founded in 2005.
+            The business now has over 20,000 members around the country and has plans to keep growing.
           </p>
           <p className='para'>
-            “We were both really excited by yoga,” explains Max “yet, surprisingly neither of us were really ‘yoga people.’ We both found
-            the industry to be quite inaccessible; it felt otherworldly and full of ‘guru’ types. We were just two regular guys who were
-            into yoga and could see a huge gap in the market.”
+           The founder, Caroline Redman Lusher, came up with the concept of creating a glamorous contemporary choir that welcomes everyone, with no auditions and no requirement to read music.
+           She wanted people from all walks of life to be able to come together in their local communities and enjoy the benefits of singing pop songs.
+           Caroline left her job as a teacher to set up Rock Choir – a name her mum came up with over a cup of tea!
           </p>
           <div className='story-page__image'>
-            <img src='/images/stories/story-images/hotpod-yoga/founders@2x.jpg' alt='' />
+            <img src='/images/stories/story-images/rock-choir/caroline@2x.jpg' alt='' />
           </div>
           <p className='para'>
-            Hotpod Yoga are making hot yoga accessible for the masses by creating low-cost, practical and portable hot yoga studios that
-            reduce the risks involved with setting up a studio.
+            In the early days, Rock Choir asked its members to pay with credit or debit card.
+            But the failure rates on these recurring payments approached 5% every month, largely due to card expiry & cancellation.
+            Collecting regular monthly payments had become a logistical nightmare.
           </p>
           <p className='story-page__quote'>
-            Before our offering, opening a hot yoga studio was a pretty terrifying prospect, the costs and risks involved would make it
-            near impossible for a regular yoga instructor to undertake.
+            I seemed to spend all of my time chasing people to update their card details.
+            There was no way of retrying these payments, explains David Lusher.
           </p>
-          <p className='para'>
-            The Hotpod Yoga team are ambitious and growing quickly, with over twenty-two sites in five different countries in around
-            three years. But they see this as just the beginning of their journey.
-          </p>
-
-          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
+        <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
             Switching to GoCardless
           </h2>
           <p className='para'>
-            Hotpod Yoga switched to GoCardless two years ago when they moved their booking system from MindBody to TeamUp. Max felt it
-            was a great partnership from day one, GoCardless has enabled them to seamlessly send and receive money whilst TeamUp
-            understands and adapts to their business needs, both helping the organisation to run more smoothly.
+            Rock Choir decided to integrate GoCardless into the company website, allowing members to set up a Direct Debit in seconds.
+            Recurring failure rates were slashed to around 1%.
+            This kept more customers on the platform and dramatically reduced the administrative burden.
           </p>
-          <div className='story-page__image'>
-            <img src='/images/stories/story-images/hotpod-yoga/benches@2x.jpg' alt='' />
-          </div>
-
-          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
+           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
             The benefits
           </h2>
-          <p className='para'>
-            According to Max, moving to GoCardless has saved them both time and money, the transition from manual invoices has freed up
-            some of their valuable time, as the business grows, so will the time saved.
-          </p>
-          <p className='story-page__quote'>
-            Switching to GoCardless cuts out process, frees up time, and avoids the need to employ a dedicated member of staff.
+            <p className='story-page__quote'>
+            Rather than chasing people to update their details, we can now retry failed payments at the click of a button.
           </p>
           <p className='para'>
-            “Our business is growing at a rapid rate,” explains Max “at some point, checking invoices would end up becoming a fulltime
-            job. Switching to GoCardless cuts out this process, freeing up time, and avoiding the need to employ a dedicated member of
-            staff.”
-          </p>
-          <p className='para'>
-            TeamUp and GoCardless have become important elements of the organisational infrastructure that Hotpod Yoga sells on to
-            franchisees; having seamless processes helps news franchises to feel confident and supported.
-          </p>
-          <p className='para'>
-            “Typically, one of main risks associated with operating a franchise is knowing that franchisees are transferring the
-            correct amounts in a secure way. GoCardless has enabled us to reduce the risks associated with franchise payments, which
-            is also great from our investor’s perspective”
+            With GoCardless, Rock Choir managed to slash failure rates from 5% (card) down to 1% (Direct Debit).
+            Every month, GoCardless saved hours of admin time for Rock Choir, and kept more customers paying every month - boosting cash flow and enabling the business to grow faster as a result.
           </p>
           <div className='story-page__image'>
-            <img src='/images/stories/story-images/hotpod-yoga/bendy@2x.jpg' alt='' />
+            <img src='/images/stories/story-images/rock-choir/rock-choir@2x.jpg' alt='' />
           </div>
-          <p className='para'>
-            As well as the functional elements of GoCardless, Max has been impressed by the level of customer support.
-          </p>
-          <p className='para'>
-            “You often imagine a payment provider to be a faceless institution but I’ve always been really amazed by the quick and
-            personal response to enquiries. It’s great to know there’s always someone on the other end that’s willing to help. It’s so
-            refreshing compared to the behaviour of big institutions that we’re used to.”
-          </p>
         </div>
       </StoryPageNew>
     );
