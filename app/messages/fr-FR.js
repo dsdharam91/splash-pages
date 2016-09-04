@@ -6,7 +6,7 @@ export default {
     has_percentage_pricing: true,
     show_holding_page: false,
   },
-  phone_full: '+33 9 75 18 42 95',
-  phone_local: '09 75 18 42 95',
+  phone_full: '+33 1 70 37 71 23',
+  phone_local: '01 70 37 71 23',
   email: 'france@gocardless.com',
 };

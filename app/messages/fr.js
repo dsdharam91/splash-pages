@@ -43,8 +43,8 @@ export default {
     address_country: 'Royaume-Uni',
     address_country_iso: 'GB',
   },
-  phone_full: '+33 9 75 18 42 95',
-  phone_local: '+33 9 75 18 42 95',
+  phone_full: '+33 1 70 37 71 23',
+  phone_local: '01 70 37 71 23',
   prospect_form: {
     sales: {
       name_label: 'Votre nom',
