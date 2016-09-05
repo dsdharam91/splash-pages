@@ -17,12 +17,12 @@ export default class StoriesRockChoir extends React.Component {
         sidebarServices='Providing music, friendship and confidence'
         sidebarEmployees='31 employees'
         sidebarPreviousProvider='Used credit or debit cards to take recurring payments'
-        sidebarTimeSaved='Hours every month'>
+        sidebarTimeSaved='Many hours every month'>
         <div className='story-body'>
-       <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
+          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
             Slashing failed payments and boosting growth
           </h2>
-          <p className='para u-margin-Tn'>
+          <p className='para'>
             Rock Choir is the UK’s leading contemporary choir group, founded in 2005.
             The business now has over 20,000 members around the country and has plans to keep growing.
           </p>
@@ -43,7 +43,7 @@ export default class StoriesRockChoir extends React.Component {
             I seemed to spend all of my time chasing people to update their card details.
             There was no way of retrying these payments, explains David Lusher.
           </p>
-        <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
+          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
             Switching to GoCardless
           </h2>
           <p className='para'>

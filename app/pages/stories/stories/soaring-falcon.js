@@ -15,11 +15,11 @@ export default class StoriesSoaringFalcon extends React.Component {
         bgimgUrl='url(/images/stories/story-images/hotpod-yoga/hero-hotpod-yoga.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/soaring-falcon.png'
         sidebarServices='Tech-focused cloud accounting services'
-        sidebarEmployees='Three'
+        sidebarEmployees='3 employees'
         sidebarPreviousProvider='Used GoCardless from the very beginning'
         sidebarTimeSaved='Two days every month'>
         <div className='story-body'>
-         <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
+         <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
             Soaring towards growth
           </h2>
 
@@ -67,7 +67,7 @@ export default class StoriesSoaringFalcon extends React.Component {
             Future plans
           </h2>
           <p className='para'>
-            AAlex uses social media to make people aware that she runs a tech-savvy cloud business.
+            Alex uses social media to make people aware that she runs a tech-savvy cloud business.
             She also relies on client recommendations that highlight how she has made her business more efficient thanks to technology.
           </p>
           <p className='story-page__quote'>
