@@ -8,7 +8,7 @@ export default class StoriesConnexin extends React.Component {
     return (
       <StoryPageNew
         title='Our monthly bill runs are quick and easy since switching to GoCardless'
-        author='Alex Yueng'
+        author='Alex Yeung'
         position='Co-founder'
         company='Connexin'
         benefits='Huge reduction in payment processing admin, increased flexibility in payment timings, better signup experience'
