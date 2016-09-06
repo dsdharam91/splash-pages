@@ -1,0 +1,31 @@
+.numeric-decimals {
+  counter-reset: firstLevel;
+  list-style-type: none;
+}
+
+.numeric-decimals li {
+  list-style-type:none;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.numeric-decimals li ul { counter-reset: secondLevel; }
+.numeric-decimals li ul li ul { counter-reset: thirdLevel; }
+
+.numeric-decimals li:before{
+    font-weight: $font-weight-heavy;
+    counter-increment: firstLevel;
+    content: counter(firstLevel) ". ";
+}
+
+.numeric-decimals li ul li:before {
+    font-weight: $font-weight-heavy;
+    counter-increment: secondLevel;
+    content: counter(firstLevel) "." counter(secondLevel) ". ";
+}
+
+.numeric-decimals li ul ul li:before {
+    font-weight: $font-weight-heavy;
+    counter-increment: thirdLevel;
+    content: counter(firstLevel) "." counter(secondLevel) "." counter(thirdLevel) ". ";
+}

@@ -20,7 +20,7 @@ ulimit -n 10240
 CWD="./dist/"
 
 rm -rf $CWD
-ANIMATIONS_DISABLED=$ANIMATIONS_DISABLED node_modules/.bin/webpack --stats --progress --config ./webpack/prod.config.js
+ANIMATIONS_DISABLED=$ANIMATIONS_DISABLED node_modules/.bin/webpack --stats --config ./webpack/prod.config.js
 
 PORT=$PORT node ./index.js &
 SERVER_PID=$!
