@@ -494,10 +494,6 @@ export default {
     title: 'European Marketing Manager',
     description: '',
   },
-  jobs_developer_support: {
-    title: 'Developer Support',
-    description: '',
-  },
   jobs_customer_support_germany: {
     title: 'Customer Support: Germany',
     description: '',
