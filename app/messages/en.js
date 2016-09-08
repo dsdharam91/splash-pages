@@ -409,6 +409,11 @@ export default {
     nav_title: 'Local Government',
     description: '',
   },
+  saas: {
+    title: 'Direct Debit for Software as a Service companies',
+    nav_title: 'SaaS',
+    description: 'Thousands of SaaS companies use GoCardless to collect payments. Fees start from 1% per transaction, capped at £2. Paper-free with branded online payment pages.',
+  },
   telcos: {
     title: 'Direct Debit for Telecommunication Companies',
     nav_title: 'Telecoms',

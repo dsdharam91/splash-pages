@@ -21,6 +21,7 @@ import Charities from '../pages/industries/charities';
 import DigitalAgencies from '../pages/industries/digital-agencies';
 import Finance from '../pages/industries/finance';
 import LocalGovernment from '../pages/industries/local-government';
+import SaaS from '../pages/industries/saas';
 import Telcos from '../pages/industries/telcos';
 import Utilities from '../pages/industries/utilities';
 
@@ -344,6 +345,12 @@ export const config = Immutable.fromJS([
   [LocalGovernment, { name: 'local_government', category: 'industries' }, {
       'en-GB': {
         path: '/local-government',
+      },
+    },
+  ],
+  [SaaS, { name: 'saas', category: 'industries' }, {
+      'en-GB': {
+        path: '/saas',
       },
     },
   ],
