@@ -675,7 +675,16 @@ export const config = Immutable.fromJS([
     },
   ],
   [LegalPrivacy, { name: 'legal_privacy', category: 'legal' }, {
-      en: {
+      'en-GB': {
+        path: '/legal/privacy',
+      },
+      'en-EU': {
+        path: '/legal/privacy',
+      },
+      'en-IE': {
+        path: '/legal/privacy',
+      },
+      'en-SE': {
         path: '/legal/privacy',
       },
       fr: {

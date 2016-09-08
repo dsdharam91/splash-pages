@@ -266,8 +266,8 @@ export default {
     sidebar_text: 'Got a question? Call our support team on',
   },
   legal_customers: {
-    title: 'Our terms of service - Customers',
-    nav_title: 'Customer agreement',
+    title: 'Website terms of use',
+    nav_title: 'Website terms of use',
     description: '',
   },
   legal_payment_timings: {
