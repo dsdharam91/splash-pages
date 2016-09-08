@@ -10,6 +10,11 @@ export default class LegalCustomers extends React.Component {
     return (
       <LegalPage>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Website terms of use</h2>
+        <p className='para'>
+          These terms and conditions became effective on 8 September 2016.
+          Please email <Href to='email' /> if you require a copy of any terms that were
+          applicable immediately prior to this date.
+        </p>
         <p className='para u-text-semi'>Please read these terms and conditions carefully before using this site</p>
         <ul className='numeric-decimals para'>
           <li>Terms of website use
