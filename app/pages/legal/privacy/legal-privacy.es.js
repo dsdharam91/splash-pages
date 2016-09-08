@@ -1,6 +1,7 @@
 import React from 'react';
 import Translation from '../../../components/translation/translation';
 import Link from '../../../components/link/link';
+import Href from '../../../components/href/href';
 
 export default class LegalPrivacyEs extends React.Component {
   displayName = 'LegalPrivacyEs'
@@ -11,7 +12,9 @@ export default class LegalPrivacyEs extends React.Component {
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Política de Privacidad</h2>
         <div className='well u-margin-Tm'>
           <p className='para'>
-            <strong>Last Updated:</strong> 8th September 2016
+            This Privacy Policy became effective on <strong>8 September 2016</strong>.
+            Please email <Href to='email' /> if you require a copy of any terms that were
+            applicable immediately prior to this date.
           </p>
           <p className='para'>
             We may update this policy from time to time. Please check this page
@@ -174,7 +177,7 @@ export default class LegalPrivacyEs extends React.Component {
         <p className='para'>
           We may disclose your personal information to third parties if we are under a duty to disclose or share
           your personal data in order to comply with any legal obligation, or in order to enforce or apply our <Link to='legal'>Terms and Conditions</Link> and/or other agreements entered into with you;
-          or to protect the rights, property, or safety of GoCardless Limited, our customers, or others.
+          or to protect the rights, property, or safety of GoCardless Limited, or others.
           This includes exchanging information with other companies and organisations for the purposes of
           fraud protection and credit risk reduction.
         </p>
