@@ -499,14 +499,6 @@ export default {
     title: 'European Marketing Manager',
     description: '',
   },
-  jobs_customer_support_germany: {
-    title: 'Customer Support: Germany',
-    description: '',
-  },
-  jobs_customer_support_spain: {
-    title: 'Customer Support: Spain',
-    description: '',
-  },
   jobs_head_of_finance: {
     title: 'Head of Finance',
     description: '',
