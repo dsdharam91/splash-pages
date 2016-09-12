@@ -26,10 +26,10 @@ export default class LegalIntroductionEn extends React.Component {
 
         <Link to='legal_customers' className='legal-contents__link u-link-clean'>
           <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-xs legal-contents__link-heading'>
-            Customer agreement
+            Wesbite terms of use
           </h3>
           <p className='para'>
-            The terms of use for paying via GoCardless
+            The terms on which you may make use of our website
           </p>
         </Link>
 

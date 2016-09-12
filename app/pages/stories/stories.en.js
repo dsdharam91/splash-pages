@@ -16,6 +16,14 @@ let caseStudies = {
       logoWidth: '117',
       industry: 'Health & Fitness',
     },
+    {
+      link: 'stories_soaring_falcon',
+      quote: `GoCardless gives me a regular income so I can use the funds for growth`,
+      size: '3 employees',
+      logoSrc: '/images/stories/story-logos/soaring-falcon.png',
+      logoWidth: '45',
+      industry: 'Accountancy',
+    },
   ],
   SMEs: [
     {
@@ -49,6 +57,22 @@ let caseStudies = {
       logoSrc: '/images/stories/story-logos/smart-pension.png',
       logoWidth: '156',
       industry: 'Pensions',
+    },
+    {
+      link: 'stories_connexin',
+      quote: `Our monthly bill runs are quick and easy since switching to GoCardless`,
+      size: '23 employees',
+      logoSrc: '/images/stories/story-logos/connexin.png',
+      logoWidth: '97',
+      industry: 'Telecoms',
+    },
+    {
+      link: 'stories_rock_choir',
+      quote: `With GoCardless, we can now retry failed payments at the click of a button`,
+      size: '31 employees',
+      logoSrc: '/images/stories/story-logos/rock-choir.png',
+      logoWidth: '50',
+      industry: 'Membership',
     },
   ],
   Corporations: [

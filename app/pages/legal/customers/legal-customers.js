@@ -9,312 +9,145 @@ export default class LegalCustomers extends React.Component {
   render() {
     return (
       <LegalPage>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Customer agreement</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Website terms of use</h2>
         <p className='para'>
-          GoCardless enables suppliers to let their customers pay securely by direct debit over the
-          internet. We also allow customers to monitor the payments they make through GoCardless. This
-          document sets out the terms between you and GoCardless, and applies to the account that you open
-          with GoCardless for these purposes.  These terms and conditions are available on our website and
-        you may ask for a copy of them at any time while you have an account with us.
+          These terms and conditions became effective on 8 September 2016.
+          Please email <Href to='email' /> if you require a copy of any terms that were
+          applicable immediately prior to this date.
         </p>
-        <p className='para'>
-          Your contract for goods and services is with a supplier which wants to let you use our payment
-          processing services. GoCardless is not involved in the actual supply of any goods and services
-          from the supplier. If there is a difficulty with the goods or services the supplier is providing,
-          or is going to provide, you must contact the supplier directly.
-        </p>
-        <p className='para u-text-heavy'>
-          The supplier you are buying from must initiate any refunds relating to their goods and
-          services – we cannot, and cancelling a payment with us does not cancel your obligation
-          to ensure the supplier is paid for any goods or services that have been provided to you.
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Opening a GoCardless Account
-        </h3>
-        <p className='para'>
-          When you sign up to GoCardless, you will need to provide us with certain information to create a
-          GoCardless account and to set up a direct debit connection to your bank account. We will have to
-          perform some identity checks on you before we can initiate a direct debit with you.
-        </p>
-        <p className='para'>
-          After you have signed up and your GoCardless account is active, we will provide you with a password
-          which you will need to access your account and make payments to suppliers who use GoCardless.  When
-          you first sign up to GoCardless, it takes 2-4 working days to set up the direct debit mandate.
-        </p>
-        <p className='para'>
-          Your GoCardless 'account' allows you to access information about your past, current and future payment
-          transactions linked to your account at the moment. It is not a bank account and there will not be any
-          cash held within your GoCardless account at any time as our role relates to the processing of payments.
-          Credit, or any other form of overdraft or loan, will also not be available on your GoCardless account.
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Processing payments through GoCardless
-        </h3>
-        <p className='para'>
-          The time of receipt of your payment order will be when it is received by us.  Where we receive your
-          payment order after 4.30pm on a working day, it will be deemed to have been received on the next business
-          day. We will then process the payment, by direct debit, for the amount that you have been asked to pay to
-          the supplier for the relevant goods and services.  We do not charge you a fee for processing payments through
-          GoCardless.  The amount the supplier has told you to pay is the amount which we will take from your bank account.
-        </p>
-        <p className='para'>
-          Once your GoCardless account and direct debit mandate have been set up (as set out under 'Opening a GoCardless
-            Account', above), we will transmit each payment order that you make through your GoCardless account to enable
-          the settlement of each direct debit to occur on the agreed due date. It usually takes a maximum of 2 working days
-          to take money from your bank account.  By providing your email address and password in relation to processing a
-          particular payment, you consent to us processing the relevant payment through the GoCardless payment system (which
-            can only be cancelled in the circumstances outlined in these terms and conditions under the heading <a href='#cancellation'
-            className='u-link-color-p u-text-underline'>Cancellation of a payment transaction</a>).  We may apply spending limits for
-          any payment transactions that take place through your GoCardless account.  We will notify you of any spending limits and
-          any changes that we make to them.
-        </p>
-        <p className='para'>
-          Any payments that we process are ultimately governed by the terms and conditions issued by your bank relating to your
-          relevant bank account.  Like any other payments that you make, other than in the circumstances outlined in these terms
-          and conditions you should contact the bank where your account is held if you have any questions relating to your bank
-          account and any payments that are made through the GoCardless system.
-        </p>
-        <p className='para'>
-          Each time we take a payment, an entry for 'gocardless.com' will appear on your bank statement. You can log in to your
-          account at any time on the GoCardless website to view a summary of the payments you have instructed us to make.
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Security of your GoCardless Account
-        </h3>
-        <p className='para'>
-          You must not disclose your account details to any other person (unless you have informed us in writing that you intend
-            to disclose your account details to a particular person e.g. under a power of attorney) and must take reasonable steps
-          to keep your account details safe and prevent fraudulent use of your account (and must ensure that any person to whom you
-            disclose your account details takes the same reasonable steps).
-        </p>
-        <p className='para'>
-          Such precautions should include keeping you account related paperwork in a safe place, not writing down your email
-          address and password and taking reasonable care to ensure that other people do not oversee or hear you using your
-          personal account details. You must inform us without undue delay on becoming aware of the loss, theft, misappropriation
-          or unauthorised use of your account details.
-        </p>
-        <p className='para'>
-          We are entitled to immediately suspend or withdraw your right to make payment transactions through your GoCardless account
-          where we have reasonable grounds to believe that there may be a breach in the security of your account details, we suspect
-          the unauthorised or fraudulent use of your account details or where we are required by law. Where we decide to take this action,
-          we will write to you in advance informing you that we intend to do so and the reasons for our actions other than where this is not
-          possible, in which case we will inform you at the earliest opportunity and in any event within the time that you would expect any
-          payments that are made through GoCardless to be processed. We will not inform you where this would compromise our reasonable
-          security measures or is otherwise unlawful. If the reasons for our actions then cease to exist, we will then either reinstate
-          your access to your GoCardless account or issue you with new account details as soon as practicable.
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s' id='cancellation'>
-          Cancellation of a payment transaction
-        </h3>
-        <p className='para'>
-          You can cancel your instruction to make a payment up to 6pm of the working day two working days before the day agreed to take
-          the payment from your bank account. You can cancel by logging in to your account, clicking 'view details' and clicking the
-          'cancel' link.
-        </p>
-        <p className='para'>
-          While you can ask us to cancel a payment, this may not automatically cancel your order with the supplier. If you wish
-          to cancel an order with a supplier, or there is a problem with any of the goods or services you have ordered, please
-          contact the supplier directly. GoCardless cannot initiate refunds for transactions that are processed through the
-          GoCardless system.
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Cancelling the direct debit mandate within the GoCardless Account
-        </h3>
-        <p className='para'>
-          Payments that take place through GoCardless are made under the UK Direct Debit Scheme.  Therefore, you can, of course,
-          cancel your direct debit mandate held by GoCardless under the terms of the Direct Debit Guarantee stated above. However,
-          you should be aware that doing so could have serious implications for you. If you do:
-        </p>
-        <ul className='list'>
-          <li>
-            we will be unable to process any payments from you to anyone that you have committed to pay through GoCardless;
+        <p className='para u-text-semi'>Please read these terms and conditions carefully before using this site</p>
+        <ul className='numeric-decimals para'>
+          <li>Terms of website use
+            <ul className='u-margin-Vm'>
+              <li>This terms of use (together with the documents referred to in it) tells you the terms of use on which you may make use of our website <Link to='home'>https://gocardess.com</Link> (our site), whether as a guest or a registered user. Use of our site includes accessing, browsing, or registering to use our site.</li>
+              <li>Please read these terms of use carefully before you start to use our site, as these will apply to your use of our site. We recommend that you print a copy of this for future reference. </li>
+              <li>By using our site, you confirm that you accept these terms of use and that you agree to comply with them.</li>
+              <li>If you do not agree to these terms of use, please do not register for or use this site.</li>
+            </ul>
           </li>
-          <li>
-            we will contact you to make sure you have not done it in mistake. If you have we will tell you what you need to do
-            to set up a replacement mandate;
+          <li>Other applicable terms
+            <ul className='u-margin-Vm'>
+              <li>Your use of our service is subject to these terms in their entirety and by using the service you agree to be bound by them.</li>
+              <li>You need to register with us to fully access the service and provide as a minimum your proper name, e-mail address, and a password. The details provided by you on registration or changed at any later time must be correct and complete.</li>
+              <li>Our use of your personal information submitted to us via the website or otherwise is governed by our Privacy Policy. Our Privacy Policy can be found at <Link to='home'>https://gocardess.com</Link>/legal/privacy/. Please see our Privacy Policy for more information on cookies and the data we collect. </li>
+              <li>You must inform us immediately of any changes to this information by updating your personal details via the website. The company may contact you periodically to confirm that your registration details are up-to-date.</li>
+              <li>You are the only person who is permitted to use your username and password; you must keep them confidential and not disclose or share them with anyone else.</li>
+              <li>If you know or suspect that someone else knows your username and password you should notify us by using the Contact Us form on the website.</li>
+              <li>If the company believes that there is a breach of security or misuse of the service, we may require you to change your password or we may terminate your account.</li>
+            </ul>
           </li>
-          <li>
-            we will have to inform any suppliers to whom you have committed to make payment, and any partner which was
-            enabling the payment that you have cancelled your payments; and
+          <li>Severability
+            <ul className='u-margin-Vm'>
+              <li>Each of the provisions of these terms and conditions is distinct and severable from the others. If at any time one or more of those provisions is or becomes invalid, unlawful or unenforceable (whether wholly or partly), the validity, lawfulness and enforceability of the remaining provisions (or the same provision to any other extent) will not be affected or impaired in any way.</li>
+              <li>We may agree to amend these terms and conditions in order to ensure the terms are valid, lawful and enforceable.</li>
+            </ul>
           </li>
-          <li>
-            you may still be contractually bound to pay those suppliers to whom you have committed to make payment and
-            they may be able to pursue you for their payment and for the cost of getting such payment from you;
+          <li>Information about us
+            <ul className='u-margin-Vm'>
+              <li><Link to='home'>https://gocardess.com</Link> is a site operated by GoCardless Limited ("We"). We are registered in England and Wales under company number 07495895 and have our registered office at 338-346 Goswell Road, London EC1V 7LQ.</li>
+            </ul>
           </li>
-          <li>
-            If, under the direct debit guarantee scheme, you have claimed back any payments which had already been made
-            to us which were not initiated as a result of fraud, you will owe us an amount equal to the money you have
-            claimed back. We may pursue you for those sums and for the cost of getting them from you.
+          <li>Changes to these terms
+            <ul className='u-margin-Vm'>
+              <li>We may revise these terms of use at any time by amending this page.</li>
+              <li>Please check this page from time to time to take notice of any changes we made, as they are binding on you.</li>
+              <li>Any changes to the terms and conditions to access the site will be uploaded to the site directly. By continuing to use the site, you agree to be bound by the updated terms and conditions.</li>
+            </ul>
+          </li>
+          <li>Changes to our site
+            <ul className='u-margin-Vm'>
+              <li>We may update our site from time to time, and may change the content at any time. However, please note that any of the content on our site may be out of date at any given time, and we are under no obligation to update it.</li>
+              <li>We do not guarantee that our site, or any content on it, will be free from errors or omissions.</li>
+            </ul>
+          </li>
+          <li>Accessing our site
+            <ul className='u-margin-Vm'>
+              <li>Our site is made available free of charge.</li>
+              <li>We do not guarantee that our site, or any content on it, will always be available or be uninterrupted. Access to our site is permitted on a temporary basis. We may suspend, withdraw, discontinue or change all or any part of our site without notice. We will not be liable to you if for any reason our site is unavailable at any time or for any period.</li>
+              <li>You are responsible for making all arrangements necessary for you to have access to our site.</li>
+              <li>You are also responsible for ensuring that all persons who access our site through your internet connection are aware of these terms of use and other applicable terms and conditions, and that they comply with them.</li>
+              <li>Our site is directed to people residing in the United Kingdom. We do not represent that content available on or through our site is appropriate or available in other locations. We may limit the availability of our site or any service or product described on our site to any person or geographic area at any time. If you choose to access our site from outside the United Kingdom, you do so at your own risk.</li>
+            </ul>
+          </li>
+          <li>Intellectual property rights
+            <ul className='u-margin-Vm'>
+              <li>All the Intellectual Property Rights (as defined below) in the website and the information on the website provided by us to you (excluding your account information) shall vest and remain vested in us or the third party owners. For the purposes of these terms & conditions, "Intellectual Property Rights" means all patents, rights to inventions, utility models, copyright and related rights, trade marks, service marks, trade, business and domain names, rights in trade dress or get-up, rights in goodwill or to sue for passing off, unfair competition rights, rights in designs, rights in computer software, database rights, semi-conductor topography rights, moral rights, rights in confidential information (including know-how and trade secrets) and any other intellectual property rights, in each case whether registered or unregistered and including all applications for and renewals or extensions of such rights, and all similar or equivalent rights or forms of protection in any part of the world</li>
+              <li>We are the owner or the licensee of all intellectual property rights in our site, and in the material published on it. Those works are protected by copyright laws and treaties around the world. All such rights are reserved.</li>
+              <li>You may print off one copy, and may download extracts, of any page(s) from our site for your personal use and you may draw the attention of others within your organisation to content posted on our site.</li>
+              <li>You must not modify the paper or digital copies of any materials you have printed off or downloaded in any way, and you must not use any illustrations, photographs, video or audio sequences or any graphics separately from any accompanying text.</li>
+              <li>Our status (and that of any identified contributors) as the authors of content on our site must always be acknowledged.</li>
+              <li>You must not use any part of the content on our site for commercial purposes without obtaining a licence to do so from us or our licensors.</li>
+              <li>If you print off, copy or download any part of our site in breach of these terms of use, your right to use our site will cease immediately and you must, at our option, return or destroy any copies of the materials you have made.</li>
+              <li>Subject to these terms and conditions, you hereby agree that any information, photos, material or drawings you upload to the site is uploaded on a nonexclusive basis. You hereby grant us a nonexclusive, irrevocable right to use such materials as we see fit without any royalty. </li>
+            </ul>
+          </li>
+          <li>No reliance on information
+            <ul className='u-margin-Vm'>
+              <li>The content on our site is provided for general information only. It is not intended to amount to advice on which you should rely. </li>
+              <li>Although we make reasonable efforts to update the information on our site, we make no representations, warranties or guarantees, whether express or implied, that the content on our site is accurate, complete or up-to-date.</li>
+            </ul>
+          </li>
+          <li>Limitation of our liability
+            <ul className='u-margin-Vm'>
+              <li>Nothing in these terms of use excludes or limits our liability for death or personal injury arising from our negligence, or our fraud or fraudulent misrepresentation, or any other liability that cannot be excluded or limited by English law.</li>
+              <li>To the extent permitted by law, we exclude all conditions, warranties, representations or other terms which may apply to our site or any content on it, whether express or implied. </li>
+              <li>We will not be liable to any user for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with:
+                <ul className='u-margin-Vm'>
+                  <li>use of, or inability to use, our site; or</li>
+                  <li>use of or reliance on any content displayed on our site. </li>
+                </ul>
+              </li>
+              <li>If you are a business user, please note that in particular, we will not be liable for:
+                <ul className='u-margin-Vm'>
+                  <li>loss of profits, sales, business, or revenue;</li>
+                  <li>business interruption;</li>
+                  <li>loss of anticipated savings;</li>
+                  <li>loss of business opportunity, goodwill or reputation; or</li>
+                  <li>any indirect or consequential loss or damage.</li>
+                </ul>
+              </li>
+              <li>If you are a consumer user, please note that we only provide our site for domestic and private use. You agree not to use our site for any commercial or business purposes, and we have no liability to you for any loss of profit, loss of business, business interruption, or loss of business opportunity.</li>
+              <li>We will not be liable for any loss or damage caused by a virus, distributed denial-of-service attack, or other technologically harmful material that may infect your computer equipment, computer programs, data or other proprietary material due to your use of our site or to your downloading of any content on it, or on any website linked to it.</li>
+              <li>We assume no responsibility for the content of websites linked on our site. Such links should not be interpreted as endorsement by us of those linked websites. We will not be liable for any loss or damage that may arise from your use of them.</li>
+            </ul>
+          </li>
+          <li>Viruses
+            <ul className='u-margin-Vm'>
+              <li>We do not guarantee that our site will be secure or free from bugs or viruses.</li>
+              <li>You are responsible for configuring your information technology, computer programmes and platform in order to access our site. You should use your own virus protection software.</li>
+              <li>You must not misuse our site by knowingly introducing viruses, trojans, worms, logic bombs or other material which is malicious or technologically harmful. You must not attempt to gain unauthorised access to our site, the server on which our site is stored or any server, computer or database connected to our site. You must not attack our site via a denial-of-service attack or a distributed denial-of service attack. By breaching this provision, you would commit a criminal offence under the Computer Misuse Act 1990. We will report any such breach to the relevant law enforcement authorities and we will co-operate with those authorities by disclosing your identity to them. In the event of such a breach, your right to use our site will cease immediately.</li>
+            </ul>
+          </li>
+          <li>Linking to our site
+            <ul className='u-margin-Vm'>
+              <li>You may link to our home page, provided you do so in a way that is fair and legal and does not damage our reputation or take advantage of it.</li>
+              <li>You must not establish a link in such a way as to suggest any form of association, approval or endorsement on our part where none exists.</li>
+              <li>You must not establish a link to our site in any website that is not owned by you.</li>
+              <li>Our site must not be framed on any other site, nor may you create a link to any part of our site other than the home page.</li>
+              <li>We reserve the right to withdraw linking permission without notice.</li>
+              <li>If you wish to make any use of content on our site other than that set out above, please contact help@gocardless.com.</li>
+            </ul>
+          </li>
+          <li>Third party links and resources in our site
+            <ul className='u-margin-Vm'>
+              <li>Where our site contains links to other sites and resources provided by third parties, these links are provided for your information only.</li>
+              <li>We have no control over the contents of those sites or resources.</li>
+            </ul>
+          </li>
+          <li>Applicable law
+            <ul className='u-margin-Vm'>
+              <li>If you are a consumer, please note that these terms of use, its subject matter and its formation, are governed by English law. You and we both agree to that the courts of England and Wales will have non-exclusive jurisdiction. However, if you are a resident of Northern Ireland you may also bring proceedings in Northern Ireland, and if you are resident of Scotland, you may also bring proceedings in Scotland.</li>
+              <li>If you are a business, these terms of use, its subject matter and its formation (and any non-contractual disputes or claims) are governed by English law. We both agree to the exclusive jurisdiction of the courts of England and Wales.</li>
+            </ul>
+          </li>
+          <li>Contact us
+            <ul className='u-margin-Vm'>
+              <li>To contact us, please email <Href to='email' />.</li>
+              <li>Thank you for visiting our site.</li>
+            </ul>
           </li>
         </ul>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Cancelling your order with the supplier
-        </h3>
-        <p className='para'>
-          GoCardless cannot initiate refunds for transactions that are processed through the GoCardless system.
-          Please contact the relevant supplier if you want to cancel an order or seek a refund.
-        </p>
-        <p className='para'>
-          If you cancel your order with a supplier, that supplier will either (i) tell us not to take payment if we
-          are not already processing the payment or (ii) arrange to refund you. If we are told by a supplier that an
-          order has been cancelled, we will tell you and any partner which was enabling the payment that the supplier
-          has cancelled your payments.
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Unauthorised payment transactions
-        </h3>
-        <p className='para'>
-          Upon becoming aware of any unauthorised or incorrectly executed payment transaction from your
-          GoCardless account, you must notify us by email to <Href to='email'
-          className='u-link-color-p u-text-underline' itemProp='email' /> or by phone
-          using the contact details provided on the GoCardless website.
-        </p>
-        <p className='para'>
-          In relation to unauthorised payment transactions, you must contact us without undue delay by email
-          to <Href to='email' className='u-link-color-p u-text-underline'
-          itemProp='email' /> or by phone using the contact details provided on
-          the GoCardless website and in any event no later than 13 months after the date of the relevant payment
-          transaction from your account. Following any investigations that we may undertake, where you have notified
-          us in the above circumstances we will immediately arrange for the refund of the amount of the unauthorised
-          payment transaction to you and any related interest and charges. We will not be liable to make or arrange
-          any further payments to you.
-        </p>
-        <p className='para'>
-          Where an unauthorised payment transaction is made using your GoCardless account you may be liable
-          (up to a maximum of £50.00 unless you have acted fraudulently, have not used your GoCardless account
-            in accordance with these terms and conditions either intentionally or otherwise through your fault, where
-            you may be liable for greater sums) for any losses incurred as a result of:
-        </p>
-        <ul className='list'>
-          <li>
-            unauthorised payment transactions arising from the use of your GoCardless account details when these
-            have been lost or stolen; or
-          </li>
-          <li>
-            where you have failed to keep your GoCardless account details safe (outlined in these terms and
-              conditions under <Link to='security' className='u-link-color-p u-text-underline'>Security of your
-              GoCardless account</Link>).
-          </li>
-        </ul>
-        <p className='para'>
-          However, except where you have acted fraudulently, you will not be liable for any losses incurred in
-          respect of unauthorised payment transactions:
-        </p>
-        <ul className='list'>
-          <li>
-            arising after you have notified us of the loss, theft, misuse, misappropriation or unauthorised
-            use of your GoCardless account details;
-          </li>
-          <li>
-            where we have failed to provide you with the appropriate means to notify us (unless this is due
-              to abnormal and unforeseen circumstances beyond our control or as a result of our compliance with
-              European or national law); or
-          </li>
-          <li>
-            where your account details have been used in connection with certain types of distance contract.
-          </li>
-        </ul>
-        <p className='para'>
-          In relation to incorrectly executed payment transactions, if you confirm to us that a payment from
-          your account was incorrectly executed we will make immediate efforts to trace the payment transaction
-          and notify you of the outcome.  Where we are liable, we will (i) without undue delay refund the amount
-          of the incorrectly executed transaction and restore the debited payment account to the state in which
-          it would have been had the incorrectly executed payment transactions not taken place, or (ii) in the
-          case of direct debit payment re-transmit the direct debit, unless in either case we can prove that the
-          recipient's payment service provider (e.g. the recipient's banks) received the amount of the payment transaction,
-          in which case the recipient's payment service provider is liable to the recipient for the correct execution of
-          the payment transaction.
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Restricted Activities
-        </h3>
-        <p className='para u-text-heavy'>
-          GoCardless does not condone the use of its system for certain purposes, as set out on our <Link to='legal_restrictions'
-          className='u-link-color-p u-text-underline'>Restricted Activities page</Link> from time to time. If you engage or attempt
-          to engage in those activities using GoCardless, we reserve the right to suspend or withdraw all or some of our services to you.
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Termination
-        </h3>
-        <p className='para'>
-          Your account with GoCardless will remain open unless it is terminated by you or us.  Unless there are exceptional circumstances,
-          we may close your account after giving you at least two months notice in writing. You may close your account at any time by
-          giving us notice by email to <Href to='email' className='u-link-color-p u-text-underline'
-          itemProp='email' />. You will remain liable for all transactions or obligations which are incurred
-          before and after termination of your account.
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Data Protection
-        </h3>
-        <p className='para'>
-          We will process information about you and other information which you give us in accordance with our Privacy Policy.  We will
-          have to perform some identity checks on you before we can initiate a direct debit with you.
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Resolving disputes
-        </h3>
-        <p className='para'>
-          Should you have any concerns or complaints about the service we provide, please contact us in the first instance using any
-          of the methods set out on the GoCardless website. We will work with you in order to understand your issue and work towards a
-          swift resolution. More information about how we handle complaints is available on our website and can be provided to
-          you on request.
-        </p>
-        <p className='para'>
-          If we are unable to resolve your issue to your satisfaction, you may be able to refer your complaint to the Financial Ombudsman
-          Service. The Financial Ombudsman Service is a free and independent service which seeks to settle disputes between certain parties.
-          You can find more information about the Financial Ombudsman Service on its
-          website: <a href='http://www.financial-ombudsman.org.uk/' target='_blank'
-          className='u-link-color-p u-text-underline'>http://www.financial-ombudsman.org.uk/</a>.
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Law
-        </h3>
-        <p className='para'>
-          Our relationship with you is governed by English law. For complaints that cannot be resolved between us, you may be
-          able to bring a claim in the English courts or any other court in the country in which you are resident.
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          General provisions
-        </h3>
-        <p className='para'>
-          These terms and conditions are in English and all correspondence will be in English.
-        </p>
-        <p className='para'>
-          Any changes to these terms and conditions will be advised to you in writing, either to the email address or postal
-          address that you have provided, no later than two months before the date on which they are to take effect. You will
-          be deemed to accept these changes unless you notify us in writing before the changes are proposed to enter into force.
-          In these circumstances you have the right to close your GoCardless account (without incurring any charges or
-            other penalties).
-        </p>
-
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Contact
-        </h3>
-        <p className='para'>
-          If you have any queries or wish to discuss our services, please contact us in writing or by telephone as set out
-          on the GoCardless website or by email at <Href to='email'
-          className='u-link-color-p u-text-underline' itemProp='email' />.
-        </p>
-        <p className='para'>
-          We will contact you using the contact details you provided when you signed up to this service, or any updated
-          details you have provided to us. It is your responsibility to update us with any new contact information, including
-          any change in address. We will send any correspondence to the most recent email address or postal address that you
-          have provided to us for your account and, therefore, you must advise us promptly of any change of your contact details
-          in the interests of security (including name or address) and provide appropriate supporting evidence as required by us.
-        </p>
+        <p className='para'>Thank you for visiting our site.</p>
       </LegalPage>
     );
   }

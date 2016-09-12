@@ -3,6 +3,12 @@ import Page from '../../../components/page/page';
 import AboutHeader from '../about-header';
 
 let pressArticles = [
+ {
+    vendor: 'Foreign and Commonwealth Office',
+    title: 'Why Global Britain is driving the fintech revolution',
+    link: 'http://blogs.fco.gov.uk/guestpost/2016/08/31/why-global-britain-is-driving-the-fintech-revolution/',
+    date: '31.08.16',
+  },
   {
     vendor: 'The Guardian',
     title: 'Should UK fintech startups get into bed with the banks?',

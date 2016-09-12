@@ -21,6 +21,7 @@ import Charities from '../pages/industries/charities';
 import DigitalAgencies from '../pages/industries/digital-agencies';
 import Finance from '../pages/industries/finance';
 import LocalGovernment from '../pages/industries/local-government';
+import SaaS from '../pages/industries/saas';
 import Telcos from '../pages/industries/telcos';
 import Utilities from '../pages/industries/utilities';
 
@@ -40,14 +41,11 @@ import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-ac
 import LaunchManager from '../pages/about/jobs/positions/launch-manager.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
-import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
-import CustomerSupportSpain from '../pages/about/jobs/positions/customer-support-spain.js';
 import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
 import PartnershipsDevelopmentManager from '../pages/about/jobs/positions/partnerships-development-manager.js';
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
-import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
 import PersonalAssistant from '../pages/about/jobs/positions/personal-assistant.js';
 import FEDeveloper from '../pages/about/jobs/positions/front-end-developer.js';
 import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success-manager.js';
@@ -102,16 +100,18 @@ import FaqProDashboardPaylinksCreation from '../pages/faq/pro-dashboard/paylinks
 import Stories from '../pages/stories/stories';
 import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
 import StoriesBulbEnergy from '../pages/stories/stories/bulb-energy';
+import StoriesConnexin from '../pages/stories/stories/connexin';
 import StoriesHotpodYoga from '../pages/stories/stories/hotpod-yoga';
 import StoriesImpactHub from '../pages/stories/stories/impact-hub';
 import StoriesNutmeg from '../pages/stories/stories/nutmeg';
+import StoriesRockChoir from '../pages/stories/stories/rock-choir';
 import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
 import StoriesSmartPension from '../pages/stories/stories/smart-pension';
+import StoriesSoaringFalcon from '../pages/stories/stories/soaring-falcon';
 
 import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
 import StoriesBlueskyBusiness from '../pages/stories/stories/bluesky-business';
 import StoriesMomentum from '../pages/stories/stories/momentum-training';
-import StoriesRockChoir from '../pages/stories/stories/rock-choir';
 import StoriesSpencerHockey from '../pages/stories/stories/spencer-hockey';
 import StoriesFoundationOfHearts from '../pages/stories/stories/foundation-of-hearts';
 import StoriesGreaterAnglia from '../pages/stories/stories/greater-anglia';
@@ -346,6 +346,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [SaaS, { name: 'saas', category: 'industries' }, {
+      'en-GB': {
+        path: '/saas',
+      },
+    },
+  ],
   [Telcos, { name: 'telcos', category: 'industries' }, {
       'en-GB': {
         path: '/telcos',
@@ -475,24 +481,6 @@ export const config = Immutable.fromJS([
   [EuropeanMarketingManager, { name: 'jobs_european_marketing_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/european-marketing-manager',
-      },
-    },
-  ],
-  [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/customer-support-germany',
-      },
-    },
-  ],
-  [CustomerSupportSpain, { name: 'jobs_customer_support_spain', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/customer-support-spain',
-      },
-    },
-  ],
-  [DeveloperSupport, { name: 'jobs_developer_support', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/developer-support',
       },
     },
   ],
@@ -680,7 +668,16 @@ export const config = Immutable.fromJS([
     },
   ],
   [LegalPrivacy, { name: 'legal_privacy', category: 'legal' }, {
-      en: {
+      'en-GB': {
+        path: '/legal/privacy',
+      },
+      'en-EU': {
+        path: '/legal/privacy',
+      },
+      'en-IE': {
+        path: '/legal/privacy',
+      },
+      'en-SE': {
         path: '/legal/privacy',
       },
       fr: {
@@ -1222,9 +1219,6 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/stories',
       },
-      es: {
-        path: '/referencias',
-      },
       fr: {
         path: '/references',
       },
@@ -1242,6 +1236,12 @@ export const config = Immutable.fromJS([
   [StoriesBulbEnergy, { name: 'stories_bulb_energy', category: 'stories' }, {
       'en-GB': {
         path: '/stories/bulb-energy',
+      },
+    },
+  ],
+  [StoriesConnexin, { name: 'stories_connexin', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/connexin',
       },
     },
   ],
@@ -1269,9 +1269,21 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [StoriesRockChoir, { name: 'stories_rock_choir', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/rock-choir',
+      },
+    },
+  ],
   [StoriesSmartPension, { name: 'stories_smart_pension', category: 'stories' }, {
       'en-GB': {
         path: '/stories/smart-pension',
+      },
+    },
+  ],
+  [StoriesSoaringFalcon, { name: 'stories_soaring_falcon', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/soaring-falcon',
       },
     },
   ],
@@ -1290,12 +1302,6 @@ export const config = Immutable.fromJS([
   [StoriesMomentum, { name: 'stories_momentum', category: 'stories' }, {
       'en-GB': {
         path: '/stories/momentum',
-      },
-    },
-  ],
-  [StoriesRockChoir, { name: 'stories_rock_choir', category: 'stories' }, {
-      'en-GB': {
-        path: '/stories/rock-choir',
       },
     },
   ],

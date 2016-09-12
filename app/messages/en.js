@@ -266,8 +266,8 @@ export default {
     sidebar_text: 'Got a question? Call our support team on',
   },
   legal_customers: {
-    title: 'Our terms of service - Customers',
-    nav_title: 'Customer agreement',
+    title: 'Website terms of use',
+    nav_title: 'Website terms of use',
     description: '',
   },
   legal_payment_timings: {
@@ -409,6 +409,11 @@ export default {
     nav_title: 'Local Government',
     description: '',
   },
+  saas: {
+    title: 'Direct Debit for Software as a Service companies',
+    nav_title: 'SaaS',
+    description: 'Thousands of SaaS companies use GoCardless to collect payments. Fees start from 1% per transaction, capped at £2. Paper-free with branded online payment pages.',
+  },
   telcos: {
     title: 'Direct Debit for Telecommunication Companies',
     nav_title: 'Telecoms',
@@ -494,18 +499,6 @@ export default {
     title: 'European Marketing Manager',
     description: '',
   },
-  jobs_developer_support: {
-    title: 'Developer Support',
-    description: '',
-  },
-  jobs_customer_support_germany: {
-    title: 'Customer Support: Germany',
-    description: '',
-  },
-  jobs_customer_support_spain: {
-    title: 'Customer Support: Spain',
-    description: '',
-  },
   jobs_head_of_finance: {
     title: 'Head of Finance',
     description: '',
@@ -565,6 +558,10 @@ export default {
     title: 'Bulb Energy - Customer Stories',
     description: '',
   },
+  stories_connexin: {
+    title: 'Connexin - Customer Stories',
+    description: '',
+  },
   stories_hotpod_yoga: {
     title: 'Hotpod Yoga - Customer Stories',
     description: '',
@@ -573,12 +570,20 @@ export default {
     title: 'Nutmeg - Customer Stories',
     description: '',
   },
+  stories_rock_choir: {
+    title: 'Rock Choir - Customer Stories',
+    description: 'Rock Choir cut failed payments to 1% by switching to online Direct Debit with GoCardless. Read their customer story of using GoCardless.',
+  },
   stories_lyles_sutherland: {
     title: 'Lyles Sutherland - Customer Stories',
     description: '',
   },
   stories_smart_pension: {
     title: 'Smart Pension - Customer Stories',
+    description: '',
+  },
+  stories_soaring_falcon: {
+    title: 'Soaring Falcon Accountancy - Customer Stories',
     description: '',
   },
   stories_has_bean_coffee: {
@@ -596,10 +601,6 @@ export default {
   stories_spencer_hockey: {
     title: 'Spencer Hockey Club',
     description: 'Spencer Hockey Club slashed the time spent chasing payments by switching to Direct Debit with GoCardless. Find out how GoCardless is a \'natural fit\' for membership groups.',
-  },
-  stories_rock_choir: {
-    title: 'Rock Choir',
-    description: 'Rock Choir cut failed payments to 1% by switching to online Direct Debit with GoCardless. Read their customer story of using GoCardless.',
   },
   stories_momentum: {
     title: 'Momentum Training and CrossFit Hackney',

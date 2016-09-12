@@ -4,8 +4,8 @@ import { PropTypes } from '../../helpers/prop-types/prop-types';
 import Message from '../message/message';
 import { getMessage } from '../../components/intl/intl';
 
-export default class Link extends Component {
-  displayName = 'Link'
+export default class Href extends Component {
+  displayName = 'Href'
 
   static propTypes = {
     pointer: PropTypes.string,
