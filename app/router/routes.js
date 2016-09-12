@@ -41,9 +41,7 @@ import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-ac
 import LaunchManager from '../pages/about/jobs/positions/launch-manager.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
-import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
-import CustomerSupportSpain from '../pages/about/jobs/positions/customer-support-spain.js';
 import ComplianceManager from '../pages/about/jobs/positions/compliance-manager.js';
 import PartnershipsDevelopmentManager from '../pages/about/jobs/positions/partnerships-development-manager.js';
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
@@ -483,18 +481,6 @@ export const config = Immutable.fromJS([
   [EuropeanMarketingManager, { name: 'jobs_european_marketing_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/european-marketing-manager',
-      },
-    },
-  ],
-  [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/customer-support-germany',
-      },
-    },
-  ],
-  [CustomerSupportSpain, { name: 'jobs_customer_support_spain', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/customer-support-spain',
       },
     },
   ],
