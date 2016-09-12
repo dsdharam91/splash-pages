@@ -471,8 +471,8 @@ export default {
     title: 'DevOps Engineer',
     description: '',
   },
-  jobs_data_engineer: {
-    title: 'Data Engineer',
+  jobs_data_team_lead: {
+    title: 'Data Team Lead',
     description: '',
   },
   jobs_enterprise_account_executive: {
