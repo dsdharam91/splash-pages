@@ -9,30 +9,30 @@ import classNames from 'classnames';
 let caseStudies = {
   'Start ups': [
     {
-      link: 'stories_gastrofix',
-      quote: 'Die Unterstützung seitens GoCardless ist hervorragend',
-      size: '80 Mitarbeiter',
-      logoSrc: '/images/stories/story-logos/gastrofix-logo.png',
-      logoWidth: '130',
+      link: 'stories_picdrop',
+      quote: 'Wir können einen viel besseren Service für unsere Kunden gewährleisten',
+      size: '3 Mitarbeiter',
+      logoSrc: '/images/stories/story-logos/picdrop-logo.png',
+      logoWidth: '230',
       industry: 'SaaS',
     },
     {
-      link: 'stories_picdrop',
-      quote: 'We’ve reduced the risks associated with franchise payments',
-      size: '3 Mitarbeiter',
-      logoSrc: '/images/stories/story-logos/hotpod-yoga.png',
-      logoWidth: '117',
+      link: 'stories_gastrofix',
+      quote: 'Die Unterstützung seitens GoCardless war hervorragend',
+      size: '100 Mitarbeiter',
+      logoSrc: '/images/stories/story-logos/gastrofix-logo.png',
+      logoWidth: '130',
       industry: 'SaaS',
     },
   ],
   KMUs: [
     {
       link: 'stories_crossfit_oldenburg',
-      quote: 'We wanted to give our members the payment options they most trusted',
+      quote: 'Der Vorteil für mich ist eine Zeitersparnis von ca. 5 Stunden!',
       size: '2 Mitarbeiter',
-      logoSrc: '/images/stories/story-logos/bulb-energy.png',
-      logoWidth: '115',
-      industry: 'Fitness',
+      logoSrc: '/images/stories/story-images/crossfit-oldenburg/CrossFit-Oldenburg-logo.png',
+      logoWidth: '60',
+      industry: 'CrossFit',
     },
   ],
 };
@@ -142,7 +142,7 @@ export default class StoriesDe extends React.Component {
               Vereinfachen auch Sie Ihre Lastschriften mit GoCardless
             </h2>
             <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-              Mehr als <Message pointer='number_of_merchants' />+ Unternehmen vertrauen bereits auf GoCardless
+              Mehr als <Message pointer='number_of_merchants' /> Unternehmen vertrauen bereits auf GoCardless
             </p>
             <Href to='signup.path' id='track-cta-sign-up' className='btn u-margin-Tm u-margin-Rm'>Jetzt anmelden</Href>
             <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'><Message pointer='cta.pro' /></Link>

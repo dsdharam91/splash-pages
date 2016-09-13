@@ -1,5 +1,5 @@
 import React from 'react';
-import StoryPageNew from '../story-page-new';
+import StoryPageNew from '../story-page-new.de';
 
 export default class StoriesGastrofix extends React.Component {
   displayName = 'StoriesGastrofix'

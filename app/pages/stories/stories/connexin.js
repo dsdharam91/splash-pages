@@ -1,5 +1,5 @@
 import React from 'react';
-import StoryPageNew from '../story-page-new';
+import StoryPageNew from '../story-page-new.en';
 
 export default class StoriesConnexin extends React.Component {
   displayName = 'StoriesConnexin'

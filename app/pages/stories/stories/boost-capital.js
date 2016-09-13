@@ -1,5 +1,5 @@
 import React from 'react';
-import StoryPageNew from '../story-page-new';
+import StoryPageNew from '../story-page-new.en';
 
 export default class StoriesBoostCapital extends React.Component {
   displayName = 'StoriesBoostCapital'

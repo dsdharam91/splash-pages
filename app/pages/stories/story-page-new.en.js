@@ -6,8 +6,8 @@ import Link from '../../components/link/link';
 import Message from '../../components/message/message';
 import IfLinkExists from '../../components/if-link-exists/if-link-exists';
 
-export default class StoryPageNew extends React.Component {
-  displayName = 'StoryPageNew';
+export default class StoryPageNewEn extends React.Component {
+  displayName = 'StoryPageNewEn';
 
   static propTypes = {
     title: React.PropTypes.string.isRequired,
@@ -27,6 +27,7 @@ export default class StoryPageNew extends React.Component {
 
   render() {
     return (
+      <Translation locales='en'>
       <Page>
         <div className='page-hero page-hero--large page-hero--stories u-relative u-size-full' style={{'background-image': this.props.bgimgUrl}}>
           <div className='site-container page-hero__container'>
@@ -106,6 +107,7 @@ export default class StoryPageNew extends React.Component {
           </div>
         </div>
       </Page>
+      </Translation>
     );
   }
 }
