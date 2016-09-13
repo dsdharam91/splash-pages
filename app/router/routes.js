@@ -35,6 +35,7 @@ import Press from '../pages/about/press/press';
 import Jobs from '../pages/about/jobs/jobs';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import DevopsEngineer from '../pages/about/jobs/positions/devops-engineer.js';
+import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import DataTeamLead from '../pages/about/jobs/positions/data-team-lead';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
 import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
@@ -421,6 +422,12 @@ export const config = Immutable.fromJS([
   [Jobs, { name: 'jobs' }, {
       en: {
         path: '/about/jobs',
+      },
+    },
+  ],
+  [DataEngineer, { name: 'jobs_data_engineer', category: 'jobs.engineering' }, {
+      en: {
+        path: '/about/jobs/data-engineer',
       },
     },
   ],
