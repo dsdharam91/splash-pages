@@ -68,23 +68,9 @@ export default class JobsPage extends React.Component {
           </div>
         </div>
 
-        <div className='u-text-center u-padding-Vxxl jobs-page__direct-applications'>
-          <div className='site-container u-padding-Vxl'>
-            <div className='u-size-3of5 u-center'>
-              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bm'>
-                Not sure which role is right for you?
-              </h2>
-              <p className='u-text-xs u-color-dark-gray'>
-                While we work with a small number of recruitment agencies, we
-                really love direct applications. If you're not sure whether a
-                role is a good fit for you, please email us
-                on <a href='mailto:jobs@gocardless.com'>jobs@gocardless.com</a> to find out more!
-              </p>
-            </div>
-          </div>
-        </div>
-
         <IfLinkExists to='team'>
+          <hr className='section-divider'/>
+
           <div className='u-text-center u-padding-Vxxl'>
             <div className='site-container u-padding-Vxl'>
               <div className='u-size-2of3 u-center'>
