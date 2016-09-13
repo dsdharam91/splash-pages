@@ -306,6 +306,10 @@ export default {
     title: 'PicDrop',
     description: '',
   },
+  stories_gastrofix: {
+    title: 'Gastrofix',
+    description: '',
+  },
   stories_crossfit_oldenburg: {
     title: 'CrossFit Oldenburg',
     description: '',

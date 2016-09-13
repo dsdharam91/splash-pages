@@ -120,6 +120,7 @@ import StoriesZenchef from '../pages/stories/stories/zenchef';
 import StoriesTheFrenchTalents from '../pages/stories/stories/the-french-talents';
 import StoriesHabitat from '../pages/stories/stories/habitat';
 import StoriesPicDrop from '../pages/stories/stories/picdrop';
+import StoriesGastrofix from '../pages/stories/stories/gastrofix';
 import StoriesCrossfitOldenburg from '../pages/stories/stories/crossfit-oldenburg';
 
 export var homeRoute = 'home';
@@ -1342,6 +1343,12 @@ export const config = Immutable.fromJS([
   [StoriesPicDrop, { name: 'stories_picdrop', category: 'stories' }, {
       de: {
         path: '/kundenstimmen/picdrop',
+      },
+    },
+  ],
+  [StoriesGastrofix, { name: 'stories_gastrofix', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/gastrofix',
       },
     },
   ],
