@@ -9,14 +9,6 @@ import classNames from 'classnames';
 let caseStudies = {
   'Start ups': [
     {
-      link: 'stories_picdrop',
-      quote: 'Wir können einen viel besseren Service für unsere Kunden gewährleisten',
-      size: '3 Mitarbeiter',
-      logoSrc: '/images/stories/story-logos/picdrop-logo.png',
-      logoWidth: '230',
-      industry: 'SaaS',
-    },
-    {
       link: 'stories_gastrofix',
       quote: 'Die Unterstützung seitens GoCardless war hervorragend',
       size: '100 Mitarbeiter',
@@ -27,9 +19,17 @@ let caseStudies = {
   ],
   KMUs: [
     {
+      link: 'stories_picdrop',
+      quote: 'Wir können einen viel besseren Service für unsere Kunden gewährleisten',
+      size: '3 Mitarbeiter',
+      logoSrc: '/images/stories/story-logos/picdrop-logo.png',
+      logoWidth: '200',
+      industry: 'SaaS',
+    },
+    {
       link: 'stories_crossfit_oldenburg',
       quote: 'Der Vorteil für mich ist eine Zeitersparnis von ca. 5 Stunden!',
-      size: '2 Mitarbeiter',
+      size: '1 Mitarbeiter',
       logoSrc: '/images/stories/story-images/crossfit-oldenburg/CrossFit-Oldenburg-logo.png',
       logoWidth: '60',
       industry: 'CrossFit',

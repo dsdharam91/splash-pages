@@ -16,7 +16,7 @@ export default class StoriesCrossfitOldenburg extends React.Component {
         bgimgUrl='url(/images/stories/story-images/crossfit-oldenburg/hero-crossfit.jpg)'
         sidebarLogoSrc='/images/stories/story-images/crossfit-oldenburg/CrossFit-Oldenburg-logo.png'
         sidebarServices='CrossFit-Box'
-        sidebarEmployees='3 Mitarbeiter'
+        sidebarEmployees='1 Mitarbeiter'
         sidebarPreviousProvider='Hausbank'
         sidebarTimeSaved='Etwa 5 Stunden im Monat'>
         <div className='story-body'>

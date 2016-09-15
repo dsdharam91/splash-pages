@@ -21,7 +21,7 @@ export default class StoriesPicDrop extends React.Component {
         <div className='story-body'>
           <p className='para u-margin-Tn'>
             <a href='https://www.picdrop.de/' className='u-link-color-p u-text-underline'>PicDrop</a> ist eines der führenden Tools zur
-            Bildübertragung. Gegründet in 2012 in Berlin, wird es heute von mehr als 16.000 Fotografen genutzt, um einfach und sicher
+            Bildübertragung. Gegründet in 2012 in Berlin, wird es heute von mehr als 20.000 Fotografen genutzt, um einfach und sicher
             Bilder mit Kunden zu teilen.
           </p>
           <p className='para'>PicDrops Gründer, Andreas Chudowski und Tobias Friese, arbeiten stets daran, ihr Produkt weiter zu verbessern.
