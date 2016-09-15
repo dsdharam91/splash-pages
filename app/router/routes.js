@@ -753,7 +753,7 @@ export const config = Immutable.fromJS([
   ],
   [PartnersKashflow, { name: 'partners_kashflow' }, {
       'en-GB': {
-        path: '/partners/kashflow',
+        path: '/kashflow',
       },
     },
   ],

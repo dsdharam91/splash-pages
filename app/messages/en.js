@@ -336,7 +336,7 @@ export default {
     description: 'FreeAgent is an online accounting software solution for freelancers & small businesses. With GoCardless, FreeAgent users can collect Direct Debit payments.',
   },
   partners_kashflow: {
-    title: 'Kashflow and GoCardless',
+    title: 'GoCardless: Direct Debit for KashFlow',
     description: 'GoCardless integrates with KashFlow accounting software so you can embed payment links in your invoices, or collect payments automatically.',
   },
   partners_pitchero: {

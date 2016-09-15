@@ -181,6 +181,7 @@
   "/partners/guide/security/index.html": "/partners/",
   "/partners/guide/testing/index.html": "/partners/",
   "/partners/guide/white-label-integration/index.html": "/partners/",
+  "/partners/kashflow/index.html": "/kashflow/",
   "/partners/whmch/index.html": "https://github.com/gocardless/gocardless-whmcs",
   "/partners/whmcs-details/index.html": "https://github.com/gocardless/gocardless-whmcs",
   "/paylinks/index.html": "/features/api",
