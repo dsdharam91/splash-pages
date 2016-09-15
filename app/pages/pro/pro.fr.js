@@ -1,7 +1,6 @@
 import React from 'react';
 import Translation from '../../components/translation/translation';
 import Message from '../../components/message/message';
-import ProductComparison from '../../components/product-comparison/product-comparison';
 import StickyNav from '../../components/sticky-nav/sticky-nav';
 import CheckListIcon from '../../icons/svg/checklist';
 import DeveloperIcon from '../../icons/svg/developer';
@@ -180,27 +179,6 @@ export default class ProFr extends React.Component {
             </div>
             <hr className='u-margin-An' />
         </div>
-        <div id='forOptimizely-Table'>
-          <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
-            <div className='site-container u-padding-Vxl'>
-              <ProductComparison />
-              <table className='u-size-full'><tfoot>
-                  <tr className='comparison-table__row'>
-                    <td />
-                    <td className='u-size-1of3 u-padding-As'>
-                      <Link to='features' id='track-comparison-table-features'
-                      className='u-color-primary'>
-                        Apprenez-en plus sur GoCardless
-                      </Link>
-                    </td>
-                    <td />
-                  </tr>
-                </tfoot>
-              </table>
-            </div>
-          </div>
-          <hr className='u-margin-An' />
-        </div>
         <div className='section-scroll-target' id='tarifs'>
           <div className='u-text-center u-padding-Vxxl'>
             <div className='site-container u-padding-Vxl'>
@@ -215,19 +193,6 @@ export default class ProFr extends React.Component {
                   En apprendre plus sur notre prix
                 </Link>
               </div>
-            </div>
-          </div>
-          <hr className='u-margin-An' />
-          <div className='site-container u-text-center u-padding-Vxxl'>
-            <div className='u-padding-Vxl'>
-              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bm'>
-                Prenez contact avec notre équipe
-              </h2>
-              <Link to='contact_sales' query={{ s: 'pro' }} className='btn u-margin-Rm'>
-                Contactez-nous
-              </Link>
-              <a href='https://manage-sandbox.gocardless.com/signup'
-              id='track-cta-try-pro-dash' className='btn btn--hollow'>Essayez Pro gratuitement</a>
             </div>
           </div>
         </div>

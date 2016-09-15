@@ -78,11 +78,6 @@ export default class FeaturesEn extends React.Component {
                     Partners
                   </a>
                 </li>
-                <li className='sticky-nav__item'>
-                  <a href='#pricing' id='track-sticky-nav-pricing' className='sticky-nav__link'>
-                    Pricing
-                  </a>
-                </li>
               </ul>
               <IfLocale hasInstantSignup>
                 <Href to='signup.path'
