@@ -14,7 +14,7 @@ export default class StoriesCrossfitOldenburg extends React.Component {
         company='CrossFit Oldenburg GmbH'
         benefits='Zeitersparnis von monatlich 5 Stunden, nahtlose Integration in Kursverwaltungssoftware APPOINTMAN, toller Support.'
         bgimgUrl='url(/images/stories/story-images/crossfit-oldenburg/hero-crossfit.jpg)'
-        sidebarLogoSrc='/images/stories/story-images/crossfit-oldenburg/CrossFit-Oldenburg-logo.png'
+        sidebarLogoSrc='/images/stories/story-images/crossfit-oldenburg/crossfit-oldenburg-logo.png'
         sidebarServices='CrossFit-Box'
         sidebarEmployees='1 Mitarbeiter'
         sidebarPreviousProvider='Hausbank'
@@ -35,7 +35,7 @@ export default class StoriesCrossfitOldenburg extends React.Component {
             Vorher durfte ich mich zu jedem Monatsbeginn an den Computer setzen und jede Buchung einzeln eingeben. Das war tatsächlich unglaublich viel Arbeit.
           </p>
           <div className='story-page__image'>
-            <img src='/images/stories/story-images/crossfit-oldenburg/CrossFit-Oldenburg-Tino-Petke.jpg' alt='' />
+            <img src='/images/stories/story-images/crossfit-oldenburg/crossfit-oldenburg-tino-petke.jpg' alt='' />
           </div>
 
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
@@ -66,7 +66,7 @@ export default class StoriesCrossfitOldenburg extends React.Component {
             Meine abschließenden Worte sind: Danke für die Hilfe!
           </p>
           <div className='story-page__image'>
-            <img src='/images/stories/story-images/crossFit-oldenburg/CrossFit-Oldenburg-banner.jpg' alt='' />
+            <img src='/images/stories/story-images/crossFit-oldenburg/crossfit-oldenburg-banner.jpg' alt='' />
           </div>
         </div>
       </StoryPageNew>

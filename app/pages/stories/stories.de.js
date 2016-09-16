@@ -29,7 +29,7 @@ let caseStudies = {
       link: 'stories_crossfit_oldenburg',
       quote: 'Der Vorteil für mich ist eine Zeitersparnis von ca. 5 Stunden!',
       size: '1 Mitarbeiter',
-      logoSrc: '/images/stories/story-images/crossfit-oldenburg/CrossFit-Oldenburg-logo.png',
+      logoSrc: '/images/stories/story-images/crossfit-oldenburg/crossfit-oldenburg-logo.png',
       logoWidth: '60',
       industry: 'CrossFit',
     },
