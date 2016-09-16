@@ -1,12 +1,12 @@
 import React from 'react';
-import StoryPageNew from '../story-page-new';
+import StoryPageNewEn from '../story-page-new.en';
 
 export default class StoriesConnexin extends React.Component {
   displayName = 'StoriesConnexin'
 
   render() {
     return (
-      <StoryPageNew
+      <StoryPageNewEn
         title='Our monthly bill runs are quick and easy since switching to GoCardless'
         author='Alex Yeung'
         position='Co-founder'
@@ -74,7 +74,7 @@ export default class StoriesConnexin extends React.Component {
           GoCardless is simple, easy to use and has reduced the time and money we spend on processing direct debits.”
           </p>
         </div>
-      </StoryPageNew>
+      </StoryPageNewEn>
     );
   }
 }

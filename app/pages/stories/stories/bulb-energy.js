@@ -1,12 +1,12 @@
 import React from 'react';
-import StoryPageNew from '../story-page-new';
+import StoryPageNewEn from '../story-page-new.en';
 
 export default class StoriesBulbEnergy extends React.Component {
   displayName = 'StoriesBulbEnergy'
 
   render() {
     return (
-      <StoryPageNew
+      <StoryPageNewEn
         title='GoCardless was the most simple, reliable and advanced Direct Debit system we found.'
         author='Hayden and Amit'
         position='Co-founders'
@@ -77,7 +77,7 @@ export default class StoriesBulbEnergy extends React.Component {
             GoCardless was the most simple, reliable and advanced Direct Debit system we found.
           </p>
         </div>
-      </StoryPageNew>
+      </StoryPageNewEn>
     );
   }
 }

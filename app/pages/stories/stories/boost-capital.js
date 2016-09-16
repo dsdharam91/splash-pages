@@ -1,12 +1,12 @@
 import React from 'react';
-import StoryPageNew from '../story-page-new';
+import StoryPageNewEn from '../story-page-new.en';
 
 export default class StoriesBoostCapital extends React.Component {
   displayName = 'StoriesBoostCapital'
 
   render() {
     return (
-      <StoryPageNew
+      <StoryPageNewEn
         title='Being able to offer our customers truly paperless Direct Debit is a great selling point. It also helps to speed up on-boarding of customers.'
         author='Alex Littner'
         position='Managing Director'
@@ -78,7 +78,7 @@ export default class StoriesBoostCapital extends React.Component {
             It's a massive help having access to a live dashboard showing at what stage each customer and each payment is at.
           </p>
         </div>
-      </StoryPageNew>
+      </StoryPageNewEn>
     );
   }
 }
