@@ -66,7 +66,7 @@ export default class StoriesCrossfitOldenburg extends React.Component {
             Meine abschließenden Worte sind: Danke für die Hilfe!
           </p>
           <div className='story-page__image'>
-            <img src='/images/stories/story-images/crossFit-oldenburg/crossfit-oldenburg-banner.jpg' alt='' />
+            <img src='/images/stories/story-images/crossfit-oldenburg/crossfit-oldenburg-banner.jpg' alt='' />
           </div>
         </div>
       </StoryPageNew>
