@@ -1,12 +1,12 @@
 import React from 'react';
-import StoryPageNewDe from '../story-page-new.de';
+import StoryPageNew from '../story-page-new';
 
 export default class StoriesPicDrop extends React.Component {
   displayName = 'StoriesPicDrop'
 
   render() {
     return (
-      <StoryPageNewDe
+      <StoryPageNew
         title='Wir mussten früher täglich mit Rücklastschriften kämpfen. Das fällt jetzt komplett weg.'
         author='Tobias Friese'
         position='Geschäftsführer'
@@ -69,7 +69,7 @@ export default class StoriesPicDrop extends React.Component {
             <img src='/images/stories/story-images/picdrop/picdrop-photos.jpg' alt='' />
           </div>
         </div>
-      </StoryPageNewDe>
+      </StoryPageNew>
     );
   }
 }

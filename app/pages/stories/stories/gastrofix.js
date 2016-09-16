@@ -1,12 +1,12 @@
 import React from 'react';
-import StoryPageNewDe from '../story-page-new.de';
+import StoryPageNew from '../story-page-new';
 
 export default class StoriesGastrofix extends React.Component {
   displayName = 'StoriesGastrofix'
 
   render() {
     return (
-      <StoryPageNewDe
+      <StoryPageNew
         title='Mit der Spezialisierung von GoCardless auf das SEPA Lastschriftverfahren erhalten wir ein Produkt, das ideal auf unsere Bedürfnisse abgestimmt ist.'
         author='Reinhard Martens'
         position='COO'
@@ -80,7 +80,7 @@ export default class StoriesGastrofix extends React.Component {
             <img src='/images/stories/story-images/gastrofix/gastrofix-produkt.jpg' alt='' />
           </div>
         </div>
-      </StoryPageNewDe>
+      </StoryPageNew>
     );
   }
 }
