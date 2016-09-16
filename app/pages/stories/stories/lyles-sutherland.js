@@ -1,5 +1,5 @@
 import React from 'react';
-import StoryPageNewEn from '../story-page-new.en';
+import StoryPageNew from '../story-page-new';
 import Link from '../../../components/link/link';
 
 export default class StoriesLylesSutherland extends React.Component {
@@ -7,7 +7,7 @@ export default class StoriesLylesSutherland extends React.Component {
 
   render() {
     return (
-      <StoryPageNewEn
+      <StoryPageNew
         title='GoCardless has been a real game-changer. It’s been fantastic knowing that money is coming in every month without us
           having to chase it.'
         author='Fraser Sutherland'
@@ -123,7 +123,7 @@ export default class StoriesLylesSutherland extends React.Component {
             Even though there’s a cost, it’s a way of knowing that their businesses will become scalable.”
           </p>
         </div>
-      </StoryPageNewEn>
+      </StoryPageNew>
     );
   }
 }

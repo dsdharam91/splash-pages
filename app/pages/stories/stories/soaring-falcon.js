@@ -1,12 +1,12 @@
 import React from 'react';
-import StoryPageNewEn from '../story-page-new.en';
+import StoryPageNew from '../story-page-new';
 
 export default class StoriesSoaringFalcon extends React.Component {
   displayName = 'StoriesSoaringFalcon'
 
   render() {
     return (
-      <StoryPageNewEn
+      <StoryPageNew
         title='Cash flow is key for the growth of my business. GoCardless gives me a regular income so I can use the funds for my next growth plans.'
         author='Alex Falcon Huerta'
         position='Founder'
@@ -79,7 +79,7 @@ export default class StoriesSoaringFalcon extends React.Component {
             I don’t need to go too crazy with hiring, as I have the tech to support me. But I’m still hiring a tax specialist - because tech can’t yet replace one of those!”
           </p>
         </div>
-      </StoryPageNewEn>
+      </StoryPageNew>
     );
   }
 }

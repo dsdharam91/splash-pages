@@ -301,6 +301,13 @@ export default {
     nav_title: 'Kundenstimmen',
     description: '',
     link: 'Zur Referenz',
+    key_benefits: 'Key benefits',
+    company_name: 'Unternehmen',
+    services: 'Service',
+    number_employees: 'Mitarbeiterzahl',
+    previous_provider: 'Früherer Lastschriftanbieter',
+    time_saved: 'Zeitersparnis mit GoCardless',
+    start_journey: 'Starten Sie heute mit GoCardless',
   },
   stories_picdrop: {
     title: 'PicDrop',

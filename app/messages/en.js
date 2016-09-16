@@ -257,6 +257,13 @@ export default {
     nav_title: 'Stories',
     description: '',
     link: 'Read the case study',
+    key_benefits: 'Key benefits',
+    company_name: 'Company name',
+    services: 'Services',
+    number_employees: 'Number of employees',
+    previous_provider: 'Previous Direct Debit provider',
+    time_saved: 'Time saved using GoCardless',
+    start_journey: 'Start your GoCardless story today',
   },
   legal: {
     title: 'Our terms of service',
