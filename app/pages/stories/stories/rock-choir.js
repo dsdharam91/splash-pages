@@ -1,12 +1,12 @@
 import React from 'react';
-import StoryPageNew from '../story-page-new.en';
+import StoryPageNewEn from '../story-page-new.en';
 
 export default class StoriesRockChoir extends React.Component {
   displayName = 'StoriesRockChoir'
 
   render() {
     return (
-      <StoryPageNew
+      <StoryPageNewEn
         title='Rather than chasing people to update their details, we can now retry failed payments at the click of a button'
         author='Dave Lusher'
         position='Director'
@@ -65,7 +65,7 @@ export default class StoriesRockChoir extends React.Component {
             <img src='/images/stories/story-images/rock-choir/rock-choir@2x.jpg' alt='' />
           </div>
         </div>
-      </StoryPageNew>
+      </StoryPageNewEn>
     );
   }
 }

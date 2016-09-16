@@ -1,12 +1,12 @@
 import React from 'react';
-import StoryPageNew from '../story-page-new.en';
+import StoryPageNewEn from '../story-page-new.en';
 
 export default class StoriesNutmeg extends React.Component {
   displayName = 'StoriesNutmeg'
 
   render() {
     return (
-      <StoryPageNew
+      <StoryPageNewEn
         title='More than 3 out of 5 of our new customers have set up direct debits.'
         author='Bill Packman'
         position='COO'
@@ -93,7 +93,7 @@ export default class StoriesNutmeg extends React.Component {
             <img src='/images/stories/story-images/nutmeg/world@2x.jpg' alt='' />
           </div>
         </div>
-      </StoryPageNew>
+      </StoryPageNewEn>
     );
   }
 }

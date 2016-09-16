@@ -1,12 +1,12 @@
 import React from 'react';
-import StoryPageNew from '../story-page-new.de';
+import StoryPageNewDe from '../story-page-new.de';
 
 export default class StoriesCrossfitOldenburg extends React.Component {
   displayName = 'StoriesCrossfitOldenburg'
 
   render() {
     return (
-      <StoryPageNew
+      <StoryPageNewDe
         title='Der Vorteil für mich ist eine Zeitersparnis von ca. 5 Stunden! 5 Stunden sind enorm. Jeder, der selbst ein Geschäft führt,
         weiß wie gut das tut, wenn man sich diese 5 Stunden sparen kann!'
         author='Tino Petke'
@@ -69,7 +69,7 @@ export default class StoriesCrossfitOldenburg extends React.Component {
             <img src='/images/stories/story-images/crossFit-oldenburg/CrossFit-Oldenburg-banner.jpg' alt='' />
           </div>
         </div>
-      </StoryPageNew>
+      </StoryPageNewDe>
     );
   }
 }

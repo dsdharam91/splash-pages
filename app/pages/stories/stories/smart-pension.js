@@ -1,12 +1,12 @@
 import React from 'react';
-import StoryPageNew from '../story-page-new.en';
+import StoryPageNewEn from '../story-page-new.en';
 
 export default class StoriesSmartPension extends React.Component {
   displayName = 'StoriesSmartPension'
 
   render() {
     return (
-      <StoryPageNew
+      <StoryPageNewEn
         title='GoCardless ensures our transactions are accurate, easy to setup and manage. It is also significantly cheaper compared to credit card.'
         author='Will Wynne'
         position='Co-Founder'
@@ -95,7 +95,7 @@ export default class StoriesSmartPension extends React.Component {
             Smart Pension product.
           </p>
           </div>
-      </StoryPageNew>
+      </StoryPageNewEn>
     );
   }
 }
