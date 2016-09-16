@@ -34,7 +34,7 @@ export default class StoriesGastrofix extends React.Component {
             automatisieren, hat Gastrofix das Subscription Management Tool Zuora zusammen mit GoCardless eingeführt.
           </p>
           <div className='story-page__image'>
-            <img src='/images/stories/story-images/gastrofix/Gastrofix-story-text.jpg' alt='' />
+            <img src='/images/stories/story-images/gastrofix/gastrofix-story-text.jpg' alt='' />
           </div>
 
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
