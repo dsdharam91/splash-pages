@@ -1,12 +1,12 @@
 import React from 'react';
-import StoryPageNewEn from '../story-page-new.en';
+import StoryPageNew from '../story-page-new';
 
 export default class StoriesHotpodYoga extends React.Component {
   displayName = 'StoriesHotpodYoga'
 
   render() {
     return (
-      <StoryPageNewEn
+      <StoryPageNew
         title='GoCardless has enabled us to reduce the risks associated with franchise payments.'
         author='Max Henderson'
         position='Co-Founder'
@@ -92,7 +92,7 @@ export default class StoriesHotpodYoga extends React.Component {
             refreshing compared to the behaviour of big institutions that we’re used to.”
           </p>
         </div>
-      </StoryPageNewEn>
+      </StoryPageNew>
     );
   }
 }
