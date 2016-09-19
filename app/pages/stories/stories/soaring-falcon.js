@@ -12,7 +12,7 @@ export default class StoriesSoaringFalcon extends React.Component {
         position='Founder'
         company='Soaring Falcon Accountancy'
         benefits='Saving time, saving money, growing faster'
-        bgimgUrl='url(/images/stories/story-images/hotpod-yoga/hero-hotpod-yoga.jpg)'
+        bgimgUrl='url(/images/stories/story-images/soaring-falcon/hero-soaring-falcon.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/soaring-falcon.png'
         sidebarServices='Tech-focused cloud accounting services'
         sidebarEmployees='3 employees'

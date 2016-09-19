@@ -102,6 +102,8 @@ import Stories from '../pages/stories/stories';
 import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
 import StoriesBulbEnergy from '../pages/stories/stories/bulb-energy';
 import StoriesConnexin from '../pages/stories/stories/connexin';
+import StoriesFdWorks from '../pages/stories/stories/fd-works';
+import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
 import StoriesHotpodYoga from '../pages/stories/stories/hotpod-yoga';
 import StoriesImpactHub from '../pages/stories/stories/impact-hub';
 import StoriesNutmeg from '../pages/stories/stories/nutmeg';
@@ -110,9 +112,7 @@ import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
 import StoriesSmartPension from '../pages/stories/stories/smart-pension';
 import StoriesSoaringFalcon from '../pages/stories/stories/soaring-falcon';
 
-import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
 import StoriesBlueskyBusiness from '../pages/stories/stories/bluesky-business';
-import StoriesMomentum from '../pages/stories/stories/momentum-training';
 import StoriesSpencerHockey from '../pages/stories/stories/spencer-hockey';
 import StoriesFoundationOfHearts from '../pages/stories/stories/foundation-of-hearts';
 import StoriesGreaterAnglia from '../pages/stories/stories/greater-anglia';
@@ -1253,6 +1253,18 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [StoriesFdWorks, { name: 'stories_fd_works', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/fd-works',
+      },
+    },
+  ],
+  [StoriesHasBeanCoffee, { name: 'stories_has_bean_coffee', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/has-bean-coffee',
+      },
+    },
+  ],
   [StoriesHotpodYoga, { name: 'stories_hotpod_yoga', category: 'stories' }, {
       'en-GB': {
         path: '/stories/hotpod-yoga',
@@ -1295,21 +1307,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [StoriesHasBeanCoffee, { name: 'stories_has_bean_coffee', category: 'stories' }, {
-      'en-GB': {
-        path: '/stories/has-bean-coffee',
-      },
-    },
-  ],
   [StoriesBlueskyBusiness, { name: 'stories_bluesky_business', category: 'stories' }, {
       'en-GB': {
         path: '/stories/bluesky-business',
-      },
-    },
-  ],
-  [StoriesMomentum, { name: 'stories_momentum', category: 'stories' }, {
-      'en-GB': {
-        path: '/stories/momentum',
       },
     },
   ],

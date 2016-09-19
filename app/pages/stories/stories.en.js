@@ -24,6 +24,22 @@ let caseStudies = {
       logoWidth: '45',
       industry: 'Accountancy',
     },
+    {
+      link: 'stories_fd_works',
+      quote: `When we heard about GoCardless, we knew it was a no-brainer to use it`,
+      size: '8 employees',
+      logoSrc: '/images/stories/story-logos/fd-works.png',
+      logoWidth: '100',
+      industry: 'Accountancy',
+    },
+    {
+      link: 'stories_has_bean_coffee',
+      quote: `GoCardless helps prevent uncomfortable conversations about money`,
+      size: '15 employees',
+      logoSrc: '/images/stories/story-logos/has-bean-coffee.png',
+      logoWidth: '115',
+      industry: 'Wholesale',
+    },
   ],
   SMEs: [
     {

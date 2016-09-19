@@ -573,8 +573,24 @@ export default {
     title: 'Connexin - Customer Stories',
     description: '',
   },
+  stories_fd_works: {
+    title: 'FD Works - Customer Stories',
+    description: '',
+  },
+  stories_funding_circle: {
+    title: 'Funding Circle - Customer Stories',
+    description: '',
+  },
+  stories_has_bean_coffee: {
+    title: 'Has Bean Coffee - Customer Stories',
+    description: 'Has Bean Coffee improved their cashflow by 30% using Direct Debit with GoCardless. See their testimonial of taking subscriptions using GoCardless.',
+  },
   stories_hotpod_yoga: {
     title: 'Hotpod Yoga - Customer Stories',
+    description: '',
+  },
+  stories_lyles_sutherland: {
+    title: 'Lyles Sutherland - Customer Stories',
     description: '',
   },
   stories_nutmeg: {
@@ -585,10 +601,6 @@ export default {
     title: 'Rock Choir - Customer Stories',
     description: 'Rock Choir cut failed payments to 1% by switching to online Direct Debit with GoCardless. Read their customer story of using GoCardless.',
   },
-  stories_lyles_sutherland: {
-    title: 'Lyles Sutherland - Customer Stories',
-    description: '',
-  },
   stories_smart_pension: {
     title: 'Smart Pension - Customer Stories',
     description: '',
@@ -596,10 +608,6 @@ export default {
   stories_soaring_falcon: {
     title: 'Soaring Falcon Accountancy - Customer Stories',
     description: '',
-  },
-  stories_has_bean_coffee: {
-    title: 'Has Bean Coffee',
-    description: 'Has Bean Coffee improved their cashflow by 30% using Direct Debit with GoCardless. See their testimonial of taking subscriptions using GoCardless.',
   },
   stories_greater_anglia: {
     title: 'Greater Anglia',
@@ -613,16 +621,8 @@ export default {
     title: 'Spencer Hockey Club',
     description: 'Spencer Hockey Club slashed the time spent chasing payments by switching to Direct Debit with GoCardless. Find out how GoCardless is a \'natural fit\' for membership groups.',
   },
-  stories_momentum: {
-    title: 'Momentum Training and CrossFit Hackney',
-    description: 'Momentum Training and CrossFit Hackney cut payment costs by over 50% by switching to GoCardless. Read the testimonial of how they reduced time spent chasing clients for payment.',
-  },
   stories_bluesky_business: {
     title: 'Bluesky Business',
     description: 'Bluesky Business reduced late payments by 62.5% in one month with GoCardless. Read the testimonial of how they reduced time spent chasing clients for payment.',
-  },
-  stories_crowdcube: {
-    title: 'Crowdcube',
-    description: 'Crowdcube saved admin time and kept the FCA happy by switching to GoCardless',
   },
 };

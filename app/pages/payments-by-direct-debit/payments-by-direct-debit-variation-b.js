@@ -79,7 +79,7 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
             <div className='u-text-center u-margin-Tl u-padding-Vs u-center'>
               <img src='/images/logos/pro-logos@2x.png' />
             </div>
-            <div className='grid u-margin-Hn u-size-full u-padding-Txl'>
+            <div className='grid u-margin-Hn u-size-full u-padding-Txl u-text-center'>
               <Link to='stories_has_bean_coffee' className='grid__cell u-text-center u-size-1of2
               u-link-clean u-padding-Rxs u-padding-Ln'>
                 <div className='stories-spotlight__item stories-spotlight__item--has-bean-coffee
@@ -91,20 +91,6 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
                     </p>
                     <div className='u-color-invert u-margin-Tm'>
                       Steve Leighton, Has Bean Coffee
-                    </div>
-                  </div>
-                </div>
-                <div className='stories-spotlight__btn btn u-size-full'>Read the case study</div>
-              </Link>
-              <Link to='stories_momentum' className='grid__cell u-text-center u-size-1of2 u-link-clean u-padding-Lxs u-padding-Rn'>
-                <div className='stories-spotlight__item stories-spotlight__item--crossfit-hackney u-relative u-padding-Vl'>
-                  <div className='stories-spotlight__item-text u-margin-Vl'>
-                    <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
-                      “Taking payments with GoCardless costs us less than half the price of using PayPal
-                      and the integration with TeamUp has definitely reduced our admin.”
-                    </p>
-                    <div className='u-color-invert u-margin-Tm'>
-                      Geoff Stewart, Momentum Training
                     </div>
                   </div>
                 </div>
