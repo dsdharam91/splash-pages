@@ -7,7 +7,7 @@ export default class StoriesImpactHub extends React.Component {
   render() {
     return (
       <StoryPageNew
-        title='“Con GoCardless integrado en nuestro software ahorramos muchísimo tiempo en la gestión de los mandatos y de los cobros'
+        title='Con GoCardless integrado en nuestro software ahorramos muchísimo tiempo en la gestión de los mandatos y de los cobros'
         author='Cristina Arnal'
         position='Finanzas y operaciones'
         company='Impact Hub'

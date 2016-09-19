@@ -135,16 +135,18 @@ export default class StoryPageNew extends React.Component {
             </h2>
 
             <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-              <Translation locales={['en', 'es']}>
+              <Translation locales='en'>
                 Join the <Message pointer='number_of_merchants' />+ businesses already using GoCardless
               </Translation>
-
+              <Translation locales='es'>
+                Únete a las más de <Message pointer='number_of_merchants' /> empresas que ya utilizan GoCardless
+              </Translation>
               <Translation locales='de'>
                 Mehr als <Message pointer='number_of_merchants' /> Unternehmen nutzen GoCardless bereits
               </Translation>
             </p>
 
-            <Href to='signup.path' id='track-cta-sign-up' className='btn u-margin-Tm u-margin-Rm'>
+            <Href to='signup.path' className='btn u-margin-Tm u-margin-Rm'>
               <Message pointer='cta.signup' />
             </Href>
 
