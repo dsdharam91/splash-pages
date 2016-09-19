@@ -10,3 +10,9 @@ deployment:
 machine:
   node:
     version: 6.1.0
+
+test:
+  override:
+    - ./script/lint
+    - ./script/test
+    - ./script/e2e
