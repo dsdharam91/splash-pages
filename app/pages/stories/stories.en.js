@@ -100,6 +100,14 @@ let caseStudies = {
       logoWidth: '140',
       industry: 'Investments',
     },
+    {
+      link: 'stories_funding_circle',
+      quote: `We needed a payments tool that could scale with a growing business`,
+      size: '500+ employees',
+      logoSrc: '/images/stories/story-logos/funding-circle.png',
+      logoWidth: '170',
+      industry: 'Loans',
+    },
   ],
 };
 

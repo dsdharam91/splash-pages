@@ -103,6 +103,7 @@ import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
 import StoriesBulbEnergy from '../pages/stories/stories/bulb-energy';
 import StoriesConnexin from '../pages/stories/stories/connexin';
 import StoriesFdWorks from '../pages/stories/stories/fd-works';
+import StoriesFundingCircle from '../pages/stories/stories/funding-circle';
 import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
 import StoriesHotpodYoga from '../pages/stories/stories/hotpod-yoga';
 import StoriesImpactHub from '../pages/stories/stories/impact-hub';
@@ -1256,6 +1257,12 @@ export const config = Immutable.fromJS([
   [StoriesFdWorks, { name: 'stories_fd_works', category: 'stories' }, {
       'en-GB': {
         path: '/stories/fd-works',
+      },
+    },
+  ],
+  [StoriesFundingCircle, { name: 'stories_funding_circle', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/funding-circle',
       },
     },
   ],
