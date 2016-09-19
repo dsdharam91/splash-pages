@@ -19,12 +19,13 @@ export default class StoriesSoaringFalcon extends React.Component {
         sidebarPreviousProvider='Used GoCardless from the very beginning'
         sidebarTimeSaved='Two days every month'>
         <div className='story-body'>
-         <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
+          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
             Soaring towards growth
           </h2>
-
           <p className='para'>
-            Alex Falcon Huerta launched Soaring Falcon Accounting in April 2015. Prior to that she worked for a small accounting practice.
+            Alex Falcon Huerta
+            launched <a href='http://www.soaring-falcon.co.uk/index.html' className='u-link-color-p u-text-underline'>Soaring Falcon
+            Accounting</a> in April 2015. Prior to that she worked for a small accounting practice.
             It was around the time that accountants were becoming more aware of tech. That encouraged Alex to start out on her own.
           </p>
           <div className='story-page__image'>
@@ -40,15 +41,15 @@ export default class StoriesSoaringFalcon extends React.Component {
           </p>
           <p className='story-page__quote'>
             “Making sure the new business is 100% cloud has been my biggest achievement.
-            GoCardless has allowed me to grow further without having to spend lots of money on hiring staff. Now I can set up and make payments immediately.”
+            GoCardless has allowed me to grow further without having to spend lots of money on hiring staff. Now I can
+            set up and make payments immediately.”
           </p>
           <p className='para'>
             GoCardless has saved Alex a lot of time. For example, she can use the system instead of doing standing orders by paper.
             This could save a day, or even two days, because without it clients risk taking ages to send back the paperwork.
-
             “I didn’t want something like PayPal, as it just wasn’t a good fit.
-            I have fixed fees for my clients on a monthly basis. Also, I wanted something user friendly with good interface and good support,"says Alex.
-
+            I have fixed fees for my clients on a monthly basis. Also, I wanted something user friendly with good interface
+            and good support,"says Alex.
           </p>
 
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
@@ -76,7 +77,8 @@ export default class StoriesSoaringFalcon extends React.Component {
           </p>
           <p className='para'>
             “I’ve got two staff at present and am aiming for another two or three.
-            I don’t need to go too crazy with hiring, as I have the tech to support me. But I’m still hiring a tax specialist - because tech can’t yet replace one of those!”
+            I don’t need to go too crazy with hiring, as I have the tech to support me. But I’m still hiring a tax
+            specialist - because tech can’t yet replace one of those!”
           </p>
         </div>
       </StoryPageNew>

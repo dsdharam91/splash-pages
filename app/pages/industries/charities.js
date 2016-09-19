@@ -1,5 +1,6 @@
 import React from 'react';
 import Page from '../../components/page/page';
+import Link from '../../components/link/link';
 import Message from '../../components/message/message';
 import ProspectForm from '../../components/prospect-form/prospect-form';
 import CheckListIcon from '../../icons/svg/checklist';
@@ -81,8 +82,13 @@ export default class Charities extends React.Component {
                   “We chose GoCardless for 3 reasons: it's easy for our team to use, easy for our supporters to use, and the fees
                   are brilliantly low. What's more, the quality of service we've received from the team has been fantastic.”
                 </p>
-                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txxs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Brian Cormack, Foundation of Hearts
+                </p>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
+                  <Link to='stories_foundation_of_hearts' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                    Read the full case study
+                  </Link>
                 </p>
               </div>
             </div>

@@ -23,13 +23,16 @@ export default class StoriesRockChoir extends React.Component {
             Slashing failed payments and boosting growth
           </h2>
           <p className='para'>
-            Rock Choir is the UK’s leading contemporary choir group, founded in 2005.
-            The business now has over 20,000 members around the country and has plans to keep growing.
+            <a href='http://www.rockchoir.com/' className='u-link-color-p u-text-underline'>Rock Choir</a> is the UK’s leading
+            contemporary choir group, founded in 2005. The business now has over 20,000 members around the country and has
+            plans to keep growing.
           </p>
           <p className='para'>
-           The founder, Caroline Redman Lusher, came up with the concept of creating a glamorous contemporary choir that welcomes everyone, with no auditions and no requirement to read music.
-           She wanted people from all walks of life to be able to come together in their local communities and enjoy the benefits of singing pop songs.
-           Caroline left her job as a teacher to set up Rock Choir – a name her mum came up with over a cup of tea!
+            The founder, Caroline Redman Lusher, came up with the concept of creating a glamorous contemporary choir that
+            welcomes everyone, with no auditions and no requirement to read music.
+            She wanted people from all walks of life to be able to come together in their local communities and enjoy the
+            benefits of singing pop songs.
+            Caroline left her job as a teacher to set up Rock Choir – a name her mum came up with over a cup of tea!
           </p>
           <div className='story-page__image'>
             <img src='/images/stories/story-images/rock-choir/caroline@2x.jpg' alt='' />
@@ -43,6 +46,7 @@ export default class StoriesRockChoir extends React.Component {
             I seemed to spend all of my time chasing people to update their card details.
             There was no way of retrying these payments, explains David Lusher.
           </p>
+
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
             Switching to GoCardless
           </h2>
@@ -51,10 +55,11 @@ export default class StoriesRockChoir extends React.Component {
             Recurring failure rates were slashed to around 1%.
             This kept more customers on the platform and dramatically reduced the administrative burden.
           </p>
-           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
+
+          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
             The benefits
           </h2>
-            <p className='story-page__quote'>
+          <p className='story-page__quote'>
             Rather than chasing people to update their details, we can now retry failed payments at the click of a button.
           </p>
           <p className='para'>

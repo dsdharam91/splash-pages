@@ -61,9 +61,10 @@ export default class StoriesGastrofix extends React.Component {
             Der Support seitens GoCardless war hervorragend.
           </p>
           <p className='para'>
-          Dass GoCardless keine Gebühren für Rücklastschriften oder fehlgeschlagene Zahlungen erhebt, hilft dem dynamischen Unternehmen,
-          seine Finanzplanung akkurat zu gestalten.
+            Dass GoCardless keine Gebühren für Rücklastschriften oder fehlgeschlagene Zahlungen erhebt, hilft dem dynamischen Unternehmen,
+            seine Finanzplanung akkurat zu gestalten.
           </p>
+
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
             Expansionspläne und Skalierbarkeit
           </h2>

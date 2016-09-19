@@ -20,7 +20,8 @@ export default class StoriesHotpodYoga extends React.Component {
         sidebarTimeSaved='Currently 1-2 hours per month but this time is growing rapidly as they scale up.'>
         <div className='story-body'>
           <p className='para u-margin-Tn'>
-            Hotpod Yoga was founded by Max Henderson and Nick Higgins in January 2007, it was born out of a mission to make the benefits
+            <a href='http://hotpodyoga.com/' className='u-link-color-p u-text-underline'>Hotpod Yoga</a> was founded by Max
+            Henderson and Nick Higgins in January 2007, it was born out of a mission to make the benefits
             of hot yoga accessible to as many people, in as many places as possible.
           </p>
           <p className='para'>

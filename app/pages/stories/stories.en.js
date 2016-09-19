@@ -34,7 +34,7 @@ let caseStudies = {
     },
     {
       link: 'stories_has_bean_coffee',
-      quote: `GoCardless helps prevent uncomfortable conversations about money`,
+      quote: `GoCardless helps to prevent uncomfortable conversations about money`,
       size: '15 employees',
       logoSrc: '/images/stories/story-logos/has-bean-coffee.png',
       logoWidth: '115',

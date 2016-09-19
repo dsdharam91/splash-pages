@@ -1,5 +1,6 @@
 import React from 'react';
 import Page from '../../components/page/page';
+import Link from '../../components/link/link';
 import Message from '../../components/message/message';
 import ProspectForm from '../../components/prospect-form/prospect-form';
 import CheckListIcon from '../../icons/svg/checklist';
@@ -81,8 +82,13 @@ export default class Telcos extends React.Component {
                   "GoCardless helped us improve both the speed and accuracy of our bill run without any of the complexity of traditional
                   providers. We can easily see who’s paid, and it automatically notifies us when payments fail."
                 </p>
-                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txxs'>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Alex Yeung, Co-Founder of Connexin
+                </p>
+                <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
+                  <Link to='stories_connexin' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                    Read the full case study
+                  </Link>
                 </p>
               </div>
             </div>

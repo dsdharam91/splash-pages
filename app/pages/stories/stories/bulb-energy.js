@@ -17,7 +17,7 @@ export default class StoriesBulbEnergy extends React.Component {
         sidebarServices='Providing low-cost, renewable energy and market-leading customer service.'
         sidebarEmployees='Growing too quickly to keep up!'>
         <div className='story-body'>
-         <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
+          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
             Finding better ways to provide the UK's energy
           </h2>
           <p className='para'>
