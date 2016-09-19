@@ -1,3 +1,23 @@
 .legal-contents__link:hover .legal-contents__link-heading {
   text-decoration: underline;
 }
+
+.simple-terms {
+  background-color: $primary-color-xlight;
+  border: 1px solid $primary-color-light;
+  border-radius: $border-radius-base;
+  padding: 9px 12px;
+  width: 90%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.simple-terms .para {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.simple-terms .para:last-child {
+  margin-bottom: 0;
+}

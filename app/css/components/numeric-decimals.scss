@@ -29,3 +29,9 @@
     counter-increment: thirdLevel;
     content: counter(firstLevel) "." counter(secondLevel) "." counter(thirdLevel) ". ";
 }
+
+.numeric-decimals.lower-alpha li ul li:before {
+    font-weight: $font-weight-heavy;
+    counter-increment: secondLevel;
+    content: counter(firstLevel) "." counter(secondLevel, lower-alpha) ". ";
+}

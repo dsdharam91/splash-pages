@@ -1,6 +1,6 @@
 import React from 'react';
-import LegalPage from '../../legal-page';
-import Link from '../../../../components/link/link';
+import LegalPage from '../../../legal-page';
+import Link from '../../../../../components/link/link';
 
 export default class LegalOldRestrictions20140731 extends React.Component {
   displayName = 'LegalOldRestrictions20140731'
