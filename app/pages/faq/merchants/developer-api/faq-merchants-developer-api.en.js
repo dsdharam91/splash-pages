@@ -188,8 +188,8 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
         </p>
         <Translation locales='en-GB'>
           <p className='para'>
-            A number of detailed product guides are also available in our <a href='https://help.gocardless.com/'
-            className='u-link-color-p u-text-underline'>Help Centre</a>.
+            A number of detailed product guides are also available in our <a href='https://support.gocardless.com/'
+            className='u-link-color-p u-text-underline'>Support Centre</a>.
           </p>
         </Translation>
       </Translation>

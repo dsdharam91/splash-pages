@@ -69,7 +69,7 @@ class Footer extends React.Component {
               </li>
               <Translation locales='en-GB'>
                 <li>
-                  <a href='https://help.gocardless.com' className='page-footer__link u-link-invert'>
+                  <a href='https://support.gocardless.com' className='page-footer__link u-link-invert'>
                     <Message pointer='help.nav_title' />
                   </a>
                 </li>

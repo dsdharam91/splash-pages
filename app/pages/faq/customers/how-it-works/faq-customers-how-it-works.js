@@ -39,7 +39,7 @@ export default class FaqCustomersHowItWorks extends React.Component {
         </h3>
         <p className='para'>
           GoCardless automatically pays out funds <strong>3 working days</strong> after they're collected.
-          You can see more details <a href='https://help.gocardless.com/customer/portal/articles/1563666'
+          You can see more details <a href='https://support.gocardless.com/hc/en-us/sections/202492985-Payment-Timings'
           className='u-link-color-p u-text-underline'>here</a>.
         </p>
 

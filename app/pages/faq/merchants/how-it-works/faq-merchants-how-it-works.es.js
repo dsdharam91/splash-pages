@@ -14,7 +14,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
         <p className='para'>
           Ingresamos automáticamente tus fondos en la cuenta bancaria
           especificada <strong>3 días hábiles</strong> después de haberlos cobrado al cliente.
-          Obtendrás más información <a href='https://help.gocardless.com/customer/portal/articles/1563666'
+          Obtendrás más información <a href='https://support.gocardless.com/hc/en-us/sections/202492985-Payment-Timings'
           className='u-link-color-p u-text-underline'>aquí</a>.
         </p>
 

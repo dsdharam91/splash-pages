@@ -172,7 +172,7 @@ class Header extends React.Component {
                       <Href to='guides_sv.path' className='u-padding-Vxs u-padding-Hm u-block' pointer='guides_sv.nav_title' />
                     </Translation>
                     <Translation locales='en-GB' tagName='li' className='u-text-semi'>
-                      <a href='http://help.gocardless.com' id='track-nav-help' className='u-padding-Vxs u-padding-Hm u-block'>
+                      <a href='https://support.gocardless.com' className='u-padding-Vxs u-padding-Hm u-block'>
                         <Message pointer='help.nav_title' />
                       </a>
                     </Translation>
