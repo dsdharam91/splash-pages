@@ -318,6 +318,13 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [Accountants, { name: 'bookkeepers' }, {
+      'en-GB': {
+        // The same React component is used on /accountants/ and /bookkeepers/
+        path: '/bookkeepers',
+      },
+    },
+  ],
   [Charities, { name: 'charities', category: 'industries' }, {
       'en-GB': {
         path: '/charities',

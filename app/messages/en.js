@@ -391,6 +391,11 @@ export default {
     nav_title: 'Accountants',
     description: '',
   },
+  bookkeepers: {
+    title: 'GoCardless transforms cashflow for bookkeepers',
+    nav_title: 'Bookkeepers',
+    description: '',
+  },
   charities: {
     title: 'Direct Debit for Charities',
     nav_title: 'Charities',

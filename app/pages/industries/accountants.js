@@ -1,4 +1,5 @@
 import React from 'react';
+import { PropTypes } from '../../helpers/prop-types/prop-types';
 import Page from '../../components/page/page';
 import Message from '../../components/message/message';
 import IntegrationsIcon from '../../icons/svg/integrations';
@@ -14,13 +15,17 @@ import MoneyFlowerIcon from '../../icons/svg/money-flower';
 export default class Accountants extends React.Component {
   displayName = 'Accountants'
 
+  static propTypes = {
+    routeName: PropTypes.string.isRequired,
+  }
+
   render() {
     return (
       <Page>
         <div className='page-hero u-padding-Bxxl'>
           <div className='site-container u-padding-Vxxl u-text-center'>
             <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
-              GoCardless transforms cashflow for accountants
+              GoCardless transforms cashflow for { (this.props.routeName == 'bookkeepers' ? 'bookkeepers' : 'accountants') }
             </h1>
             <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
               Reduce late payments and admin overhead for your practice and your clients.
