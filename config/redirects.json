@@ -183,6 +183,7 @@
   "/partners/guide/testing/index.html": "/partners/",
   "/partners/guide/white-label-integration/index.html": "/partners/",
   "/partners/kashflow/index.html": "/kashflow/",
+  "/partners/xero/index.html": "/xero/",
   "/partners/whmch/index.html": "https://github.com/gocardless/gocardless-whmcs",
   "/partners/whmcs-details/index.html": "https://github.com/gocardless/gocardless-whmcs",
   "/paylinks/index.html": "/features/api",
@@ -223,6 +224,5 @@
   "/team/index.html": "/about/team",
   "/testimonials/index.html": "/",
   "/tour/index.html": "/features",
-  "/xero/index.html": "http://www.directli.co.uk/xero.html",
   "/watch-a-demo/index.html": "/features"
 }
