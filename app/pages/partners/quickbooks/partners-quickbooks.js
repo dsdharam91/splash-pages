@@ -33,8 +33,7 @@ export default class PartnersQuickbooks extends React.Component {
                   </p>
 
                   <div className='u-margin-Tl'>
-                    <a href='https://appcenter.intuit.com/gocardless?locale=en-GB'
-                    id='track-cta-pricing' className='btn u-pull-start'>
+                    <a href='https://appcenter.intuit.com/gocardless?locale=en-GB' className='btn u-pull-start'>
                       Get started
                     </a>
 
@@ -68,11 +67,9 @@ export default class PartnersQuickbooks extends React.Component {
                 <figure className='svg-icon u-center'>
                   <AutomatedYellowIcon className='svg-icon__image' />
                 </figure>
-
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Get paid on time
                 </div>
-
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Collect payments automatically on your QuickBooks invoices as soon as they’re due.
                 </p>
@@ -82,11 +79,9 @@ export default class PartnersQuickbooks extends React.Component {
                 <figure className='svg-icon u-center'>
                   <OnlineManagementRedIcon className='svg-icon__image' />
                 </figure>
-
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Reduce admin
                 </div>
-
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Stop chasing customers and automatically reconcile invoices with payments.
                 </p>
@@ -96,11 +91,9 @@ export default class PartnersQuickbooks extends React.Component {
                 <figure className='svg-icon u-center'>
                   <SaveMoneyGreenIcon className='svg-icon__image' />
                 </figure>
-
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
                   Low fees
                 </div>
-
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                   Free integration. Pay just 1%, capped at £2 per transaction, with no set up costs or hidden fees.
                 </p>
@@ -215,8 +208,7 @@ export default class PartnersQuickbooks extends React.Component {
                 Our QuickBooks integration is free - no set up costs,<br/>no monthly fees and no hidden charges
               </p>
 
-              <a href='https://appcenter.intuit.com/gocardless?locale=en-GB'
-              to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
+              <a href='https://appcenter.intuit.com/gocardless?locale=en-GB' className='btn btn--hollow u-margin-Tm'>
                 Start using QuickBooks
               </a>
             </div>

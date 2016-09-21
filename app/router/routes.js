@@ -772,7 +772,7 @@ export const config = Immutable.fromJS([
   ],
   [PartnersXero, { name: 'partners_xero' }, {
       'en-GB': {
-        path: '/partners/xero',
+        path: '/xero',
       },
     },
   ],
