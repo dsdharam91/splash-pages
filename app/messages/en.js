@@ -499,10 +499,6 @@ export default {
     title: 'Account Executive, Inside Sales: Spain',
     description: '',
   },
-  jobs_launch_manager: {
-    title: 'Launch Manager',
-    description: '',
-  },
   jobs_sales_development_representative_germany: {
     title: 'SDR: Germany',
     description: '',
