@@ -535,6 +535,10 @@ export default {
     title: 'Partnerships Success Manager',
     description: '',
   },
+  jobs_customer_support_france: {
+    title: 'Customer Support: France',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
