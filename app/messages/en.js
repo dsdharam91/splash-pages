@@ -519,10 +519,6 @@ export default {
     title: 'Head of Operations',
     description: '',
   },
-  jobs_compliance_manager: {
-    title: 'MLRO and Compliance Manager',
-    description: '',
-  },
   jobs_personal_assistant: {
     title: 'Personal Assistant',
     description: '',
