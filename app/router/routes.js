@@ -49,6 +49,7 @@ import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 import PersonalAssistant from '../pages/about/jobs/positions/personal-assistant.js';
 import FEDesigner from '../pages/about/jobs/positions/front-end-designer.js';
 import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success-manager.js';
+import CustomerSupportFrance from '../pages/about/jobs/positions/customer-support-france.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -525,6 +526,12 @@ export const config = Immutable.fromJS([
   [PartnershipsSuccessManager, { name: 'jobs_partnerships_success_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/partnerships-success-manager',
+      },
+    },
+  ],
+  [CustomerSupportFrance, { name: 'jobs_customer_support_france', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/customer-support-france',
       },
     },
   ],
