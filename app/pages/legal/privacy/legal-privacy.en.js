@@ -1,7 +1,6 @@
 import React from 'react';
 import Translation from '../../../components/translation/translation';
 import Link from '../../../components/link/link';
-import Href from '../../../components/href/href';
 
 export default class LegalPrivacyEn extends React.Component {
   displayName = 'LegalPrivacyEn'
@@ -12,9 +11,8 @@ export default class LegalPrivacyEn extends React.Component {
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Privacy policy</h2>
         <div className='well u-margin-Tm'>
           <p className='para'>
-            This Privacy Policy became effective on <strong>8 September 2016</strong>.
-            Please email <Href to='email' /> if you require a copy of any terms that were
-            applicable immediately prior to this date.
+            <strong>This Privacy Policy became effective on 8 September 2016.
+            You can find the most recent prior version of the Privacy Policy <Link to='legal_old_terms' className='u-link-color-p u-text-underline'>here</Link>.</strong>
           </p>
           <p className='para'>
             We may update this policy from time to time. Please check this page

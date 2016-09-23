@@ -287,7 +287,7 @@ export default {
     nav_title: 'Merchant agreement',
     description: '',
   },
-  legal_old_restrictions: {
+  legal_old_terms: {
     title: 'Our terms of service - Restrictions',
     description: '',
   },
@@ -297,6 +297,22 @@ export default {
   },
   legal_old_restrictions_2014_09_19: {
     title: 'Our terms of service - Restrictions',
+    description: '',
+  },
+  legal_old_restrictions_2016_09_20: {
+    title: 'Our terms of service - Restrictions',
+    description: '',
+  },
+  legal_old_merchant_agreements_2016_09_20: {
+    title: 'Our terms of service - Merchant agreement',
+    description: '',
+  },
+  legal_old_partner_agreements_2016_09_20: {
+    title: 'Our terms of service - Partner agreement',
+    description: '',
+  },
+  legal_old_privacy_policies_2016_09_23: {
+    title: 'Our terms of service - Privacy policy',
     description: '',
   },
   legal_partners: {

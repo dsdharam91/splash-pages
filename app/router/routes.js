@@ -53,9 +53,13 @@ import CustomerSupportFrance from '../pages/about/jobs/positions/customer-suppor
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
 import LegalMerchants from '../pages/legal/merchants/legal-merchants';
-import LegalOldRestrictionsIndex from '../pages/legal/old-restrictions/index/legal-old-restrictions-index';
-import LegalOldRestrictions20140731 from '../pages/legal/old-restrictions/2014-07-31/legal-old-restrictions-2014-07-31';
-import LegalOldRestrictions20140919 from '../pages/legal/old-restrictions/2014-09-19/legal-old-restrictions-2014-09-19';
+import LegalOldTermsIndex from '../pages/legal/old-terms/index/legal-old-terms-index';
+import LegalOldRestrictions20140731 from '../pages/legal/old-terms/old-restrictions/2014-07-31/legal-old-restrictions-2014-07-31';
+import LegalOldRestrictions20140919 from '../pages/legal/old-terms/old-restrictions/2014-09-19/legal-old-restrictions-2014-09-19';
+import LegalOldRestrictions20160920 from '../pages/legal/old-terms/old-restrictions/2016-09-20/legal-old-restrictions-2016-09-20';
+import LegalOldMerchantAgreements20160920 from '../pages/legal/old-terms/old-merchant-agreements/2016-09-20/legal-old-merchant-agreements-2016-09-20';
+import LegalOldPartnerAgreements20160920 from '../pages/legal/old-terms/old-partner-agreements/2016-09-20/legal-old-partner-agreements-2016-09-20';
+import LegalOldPrivacyPolicies20160923 from '../pages/legal/old-terms/old-privacy-policies/2016-09-23/legal-old-privacy-policy-2016-09-23';
 import LegalPartners from '../pages/legal/partners/legal-partners';
 import LegalPrivacy from '../pages/legal/privacy/legal-privacy';
 import LegalRestrictions from '../pages/legal/restrictions/legal-restrictions';
@@ -591,48 +595,108 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [LegalOldRestrictionsIndex, { name: 'legal_old_restrictions' }, {
+  [LegalOldTermsIndex, { name: 'legal_old_terms' }, {
       'en-GB': {
-        path: '/legal/old-restrictions',
+        path: '/legal/old-terms',
       },
       'en-EU': {
-        path: '/legal/old-restrictions',
+        path: '/legal/old-terms',
       },
       'en-IE': {
-        path: '/legal/old-restrictions',
+        path: '/legal/old-terms',
       },
       'en-SE': {
-        path: '/legal/old-restrictions',
+        path: '/legal/old-terms',
       },
     },
   ],
   [LegalOldRestrictions20140731, { name: 'legal_old_restrictions_2014_07_31' }, {
       'en-GB': {
-        path: '/legal/old-restrictions/2014-07-31',
+        path: '/legal/old-terms/old-restrictions/2014-07-31',
       },
       'en-EU': {
-        path: '/legal/old-restrictions/2014-07-31',
+        path: '/legal/old-terms/old-restrictions/2014-07-31',
       },
       'en-IE': {
-        path: '/legal/old-restrictions/2014-07-31',
+        path: '/legal/old-terms/old-restrictions/2014-07-31',
       },
       'en-SE': {
-        path: '/legal/old-restrictions/2014-07-31',
+        path: '/legal/old-terms/old-restrictions/2014-07-31',
       },
     },
   ],
   [LegalOldRestrictions20140919, { name: 'legal_old_restrictions_2014_09_19' }, {
       'en-GB': {
-        path: '/legal/old-restrictions/2014-09-19',
+        path: '/legal/old-terms/old-restrictions/2014-09-19',
       },
       'en-EU': {
-        path: '/legal/old-restrictions/2014-09-19',
+        path: '/legal/old-terms/old-restrictions/2014-09-19',
       },
       'en-IE': {
-        path: '/legal/old-restrictions/2014-09-19',
+        path: '/legal/old-terms/old-restrictions/2014-09-19',
       },
       'en-SE': {
-        path: '/legal/old-restrictions/2014-09-19',
+        path: '/legal/old-terms/old-restrictions/2014-09-19',
+      },
+    },
+  ],
+  [LegalOldRestrictions20160920, { name: 'legal_old_restrictions_2016_09_20' }, {
+      'en-GB': {
+        path: '/legal/old-terms/old-restrictions/2016-09-20',
+      },
+      'en-EU': {
+        path: '/legal/old-terms/old-restrictions/2016-09-20',
+      },
+      'en-IE': {
+        path: '/legal/old-terms/old-restrictions/2016-09-20',
+      },
+      'en-SE': {
+        path: '/legal/old-terms/old-restrictions/2016-09-20',
+      },
+    },
+  ],
+  [LegalOldMerchantAgreements20160920, { name: 'legal_old_merchant_agreements_2016_09_20' }, {
+      'en-GB': {
+        path: '/legal/old-terms/old-merchant-agreements/2016-09-20',
+      },
+      'en-EU': {
+        path: '/legal/old-terms/old-merchant-agreements/2016-09-20',
+      },
+      'en-IE': {
+        path: '/legal/old-terms/old-merchant-agreements/2016-09-20',
+      },
+      'en-SE': {
+        path: '/legal/old-terms/old-merchant-agreements/2016-09-20',
+      },
+    },
+  ],
+  [LegalOldPartnerAgreements20160920, { name: 'legal_old_partner_agreements_2016_09_20' }, {
+      'en-GB': {
+        path: '/legal/old-terms/old-partner-agreements/2016-09-20',
+      },
+      'en-EU': {
+        path: '/legal/old-terms/old-partner-agreements/2016-09-20',
+      },
+      'en-IE': {
+        path: '/legal/old-terms/old-partner-agreements/2016-09-20',
+      },
+      'en-SE': {
+        path: '/legal/old-terms/old-partner-agreements/2016-09-20',
+      },
+    },
+  ],
+  [LegalOldPrivacyPolicies20160923, { name: 'legal_old_privacy_policies_2016_09_23' }, {
+      'en-GB': {
+        path: '/legal/old-terms/old-privacy-policies/2016-09-23',
+      },
+      'en-EU': {
+        path: '/legal/old-terms/old-privacy-policies/2016-09-23',
+      },
+      'en-IE': {
+        path: '/legal/old-terms/old-privacy-policies/2016-09-23',
+      },
+      'en-SE': {
+        path: '/legal/old-terms/old-privacy-policies/2016-09-23',
       },
     },
   ],

@@ -9,168 +9,157 @@ export default class LegalRestrictionsEn extends React.Component {
     return (
       <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Restricted activities</h2>
+
         <p className='para'>
-          This is the list of restricted activities referred to in Merchant Agreement and
-          Customer Agreement.  This list was last updated on 19th September 2014 - you can read
-          our previous lists of restricted activities <Link to='legal_old_restrictions'
-          className='u-link-color-p u-text-underline'>here</Link>.
+          <strong>This list was last updated on 23rd September 2016 — you can read our previous lists of restricted activities <Link to='legal_old_terms' className='u-link-color-p u-text-underline'>here</Link>.</strong>
         </p>
+
         <p className='para'>
-          If you undertake any of these activities, you will be in breach of the Merchant
-          Agreement or the Customer Agreement (as the case may be) and we may suspend your
-          access to your GoCardless Account and you will not be able to use the GoCardless
-          service.  This may lead to you being unable to make payments to the intended recipients.
+          If you undertake any of these activities, you will be in breach of your agreement with GoCardless, whether that is the Merchant Agreement, the Partner Agreement or any other agreement with GoCardless that references this list, and we may suspend your access to your GoCardless Account and you will not be able to use the GoCardless service. This may lead to you being unable to receive payments, or make payments to the intended recipients. In no circumstance are you allowed to use the GoCardless service if you are under the age of eighteen (18) years old.
         </p>
-        <p className='para'>The restricted activities are:</p>
-        <ul className='list'>
+
+        <p className='para'>
+          <strong>Restricted activities that apply to all users of the GoCardless service — whether Customers, Merchants or Partners are:</strong>
+        </p>
+
+        <p className='para'>
+          Using or attempting to use (or if you are a Partner, permitting any other person to use) GoCardless in any way or in connection with any activity which:
+        </p>
+
+        <ul className='numeric-decimals para'>
           <li>
-            Using the GoCardless service in any way or in connection with any activity which:
-            <ul className='list u-margin-Tn'>
-              <li>
-                is fraudulent or unlawful;
-              </li>
-              <li>
-                misrepresents your identity or gives the impression that you are associated or
-                affiliated with a third party if this is not the case;
-              </li>
-              <li>
-                breaches any applicable local, national or international law or regulation
-                (including, but not limited to, using GoCardless in connection with the supply
-                  of goods or services that breach any such law or regulation);
-              </li>
-              <li>
-                could reasonably be considered harmful, false, misleading, unlawful,
-                obscene, defamatory, libelous, threatening, pornographic, harassing or hateful;
-              </li>
-              <li>
-                promotes discrimination based on race, sex, religion, nationality,
-                disability, sexual orientation or age;
-              </li>
-              <li>
-                promotes violence, illegal drugs or any other illegal activity;
-              </li>
-              <li>
-                infringes any third party's intellectual property or other proprietary
-                rights under any jurisdiction;
-              </li>
-              <li>
-                breaches an obligation or duty of confidentiality;
-              </li>
-              <li>
-                involves gambling, betting tips, prize draws or any form of lottery; or
-              </li>
-              <li>
-                invades any person's privacy.
-              </li>
-            </ul>
+            is fraudulent or unlawful;
           </li>
           <li>
-            Using GoCardless to sell or provide or take or make payment for:
-            <ul className='list u-margin-Tn'>
-              <li>
-                items that require a licence or permission from any third party
-                unless you have such licence;
-              </li>
-              <li>
-                drugs or drugs paraphernalia;
-              </li>
-              <li>
-                pay day loans;
-              </li>
-              <li>
-                betting tips or unregulated financial advice;
-              </li>
-              <li>
-                currency conversion services;
-              </li>
-              <li>
-                money remittance services;
-              </li>
-              <li>
-                counterfeit goods including but not limited to designer handbags,
-                clothing, accessories and consumer electricals;
-              </li>
-              <li>
-                extended warranties;
-              </li>
-              <li>
-                debt recovery services;
-              </li>
-              <li>
-                business opportunities, investment opportunities, mortgage
-                consulting or reduction services or credit counselling;
-              </li>
-              <li>
-                prepaid phone cards;
-              </li>
-              <li>
-                timeshares; or
-              </li>
-              <li>
-                media activity such as the provision of Twitter followers, Facebook
-                likes or Youtube views.
-              </li>
-            </ul>
+            misrepresents your identity or gives the impression that you are associated or affiliated with a third party if this is not the case;
           </li>
           <li>
-            Accessing or attempting to access any software underlying the GoCardless service.
+            breaches any applicable local, national or international law or regulation (including, but not limited to, using GoCardless in connection with the supply of goods or services that breach any such law or regulation);
           </li>
           <li>
-            Any attempt to harm any minor.
+            could reasonably be considered harmful, false, misleading, unlawful, obscene, defamatory, libelous, threatening, pornographic, harassing or hateful;
           </li>
           <li>
-            Knowingly or negligently transmitting any data or material that contains
-            viruses, Trojan horses, adware, spyware, worms, or other malicious code or
-            program designed to adversely affect the operation of software or hardware.
+            promotes discrimination based on race, sex, religion, nationality, disability, sexual orientation or age;
           </li>
           <li>
-            Transmitting, sending or uploading any unsolicited or unauthorised advertising
-            or promotional material.
+            promotes violence, illegal drugs or any other illegal activity;
           </li>
           <li>
-            Using the GoCardless service to collect, or attempt to collect, or transmit
-            personal information about any person without their consent.
+            infringes any third party&#39;s intellectual property or other proprietary rights under any jurisdiction;
           </li>
           <li>
-            Using the GoCardless service if you are under the age of eighteen (18).
+            breaches an obligation or duty of confidentiality;
           </li>
           <li>
-            Using the GoCardless service in order to act as a private banking institution.
+            involves gambling, betting tips, prize draws or any form of lottery;
           </li>
           <li>
-            Using the GoCardless service to take advance payments for goods or services that
-            will not be provided until a significantly later date.
+            invades any person&#39;s privacy;
           </li>
           <li>
-            Using the GoCardless service in any manner that could reasonably be expected to
-            damage, disable, overburden, or impair it, including, without limitation, using
-            the GoCardless Service in an automated manner.
+            knowingly or negligently transmits or attempts to transmit any data or material that contains viruses, Trojan horses, adware, spyware, worms, or other malicious code or program designed to adversely affect the operation of software or hardware;
           </li>
           <li>
-            Using the GoCardless service in a manner that GoCardless reasonably believe to
-            be an abuse of the system. This includes the GoCardless referral scheme.
+            collects, or to collect, or transmit personal information about any person without their consent;
           </li>
           <li>
-            Using the GoCardless service in a manner likely to result in liability on the
-            party of GoCardless or any third party, including in any manner likely to
-            result in complaints, disputes, reversals, chargebacks, fees, fines or penalties.
+            transmits, sends or uploads any unsolicited or unauthorised advertising or promotional material;
           </li>
           <li>
-            Using the GoCardless service to control an account that is linked to another
-            account the users of which have engaged in any of the foregoing activities.
+            could reasonably be expected to damage, disable, overburden, or impair it, including, without limitation, using the GoCardless Service in an automated manner other than as permitted by the GoCardless API and the relevant documentation;
           </li>
           <li>
-            Using the GoCardless service to collect payments that support pyramid or ponzi
-            schemes, matrix programs, other 'get rich quick' schemes or certain
-            multi-level marketing programs.
+            GoCardless might reasonably believe to be an abuse of the GoCardless system or service - this includes the GoCardless referral scheme;
           </li>
           <li>
-            Using the GoCardless service to transfer payments to and from the same account
-            or between multiple accounts held by or for the same beneficial owner.
+            is likely to result in liability on the party of GoCardless or any third party, including in any manner likely to result in complaints, disputes, reversals, chargebacks, fees, fines or penalties;
           </li>
           <li>
-            Using the GoCardless service to complete Direct Debit mandates on behalf of
-            another party.
+            might be seen as acting as a private banking or other payment institution
+          </li>
+          <li>
+            relates to the control of an account that is linked to another account, the users of which have engaged in any of the foregoing activities;
+          </li>
+          <li>
+            support pyramid or ponzi schemes, matrix programs, other &#39;get rich quick&#39; schemes or certain multi-level marketing programs, including the collecting of payments for such schemes;
+          </li>
+          <li>
+            deals in any way with payments to and from the same account or between multiple accounts held by or for the same beneficial owner;
+          </li>
+          <li>
+            results in the completion of Direct Debit mandates on behalf of another party;
+          </li>
+          <li>
+            might result in the harm of, or attempts to harm, any minor; or
+          </li>
+          <li>
+            accesses or attempts to access any software underlying the GoCardless service.
+          </li>
+        </ul>
+
+        <p className='para'>
+          <strong>In addition, restricted activities that apply to users of the GoCardless service who determine what to take and accept payments for (that&#39;s Merchants) or are responsible for what others take and accept payments for (that&#39;s Partners both in respect of themselves and Merchants signing up to the Partner&#39;s service) include the following, unless otherwise agreed in a contractual amendment with GoCardless:</strong>
+        </p>
+
+        <p className='para'>
+          Using or attempting to use (or if you are a Partner, permitting any other person to use) GoCardless in any way or in connection with selling or providing or taking or making payment for any of the following, or activities connected with:
+        </p>
+
+        <ul className='numeric-decimals para'>
+          <li>
+            items that require a licence or permission from any third party unless you have such licence;
+          </li>
+          <li>
+            drugs or drugs paraphernalia;
+          </li>
+          <li>
+            pay day loans;
+          </li>
+          <li>
+            pension or saving schemes;
+          </li>
+          <li>
+            betting tips or unregulated financial advice;
+          </li>
+          <li>
+            betting and related services;
+          </li>
+          <li>
+            financial-products including or similar to foreign-exchange derivatives, spread betting or contracts for difference;
+          </li>
+          <li>
+            currency conversion services;
+          </li>
+          <li>
+            money remittance services;
+          </li>
+          <li>
+            counterfeit goods including but not limited to designer handbags, clothing, accessories and consumer electricals;
+          </li>
+          <li>
+            extended warranties;
+          </li>
+          <li>
+            debt recovery services;
+          </li>
+          <li>
+            business opportunities or investment opportunities, including crowdfunding or crowd, and advice or arrangement services relating to any such opportunities;
+          </li>
+          <li>
+            mortgage consulting or reduction services or credit counselling;
+          </li>
+          <li>
+            any service or item that stores value in cash or cash-like form, including e-wallets, pre-paid cards (including pre-paid phone cards), or any other form of stored value, whether or not that value may be exchanged back for cash;
+          </li>
+          <li>
+            timeshares;
+          </li>
+          <li>
+            goods or services that will not be provided until a significantly later date; or
+          </li>
+          <li>
+            media activity such as the provision of Twitter followers, Facebook likes or YouTube views.
           </li>
         </ul>
       </Translation>
