@@ -555,6 +555,10 @@ export default {
     title: 'Customer Support: France',
     description: '',
   },
+  jobs_risk_compliance_analyst: {
+    title: 'Risk and Compliance Analyst',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
