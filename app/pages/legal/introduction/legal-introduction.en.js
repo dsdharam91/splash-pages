@@ -21,7 +21,7 @@ export default class LegalIntroductionEn extends React.Component {
           itemProp='email' /> or calling <Message pointer='phone_local' />.
           { /* FCA requirement. Do not remove. */ }
           &nbsp;Customers can also find more details about our transaction structure
-          in our <Link to='faq_customers' className='u-link-color-p u-text-underline'>FAQ</Link>.
+          in our <Href to='customer_queries_link' className='u-link-color-p u-text-underline'>FAQ</Href>.
         </p>
 
         <Link to='legal_customers' className='legal-contents__link u-link-clean'>

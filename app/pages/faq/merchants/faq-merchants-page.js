@@ -1,8 +1,7 @@
 import React from 'react';
 import Page from '../../../components/page/page';
 import Message from '../../../components/message/message';
-import Link from '../../../components/link/link';
-import IfLinkExists from '../../../components/if-link-exists/if-link-exists';
+import Href from '../../../components/href/href';
 import FaqPage from '../faq-page';
 import { PropTypes } from '../../../helpers/prop-types/prop-types';
 
@@ -19,14 +18,14 @@ export default class FaqMerchantsPage extends React.Component {
         <FaqPage
         category='faq.merchants'
         title={(<Message pointer='faq.title' />)}
-        subtitle={(<IfLinkExists to='faq_customers'>
+        subtitle={(
           <p className='u-text-heading-light u-text-m u-color-invert u-padding-Vs'>
             Paid with GoCardless?&nbsp;
-            <Link to='faq_customers' className='u-text-underline u-link-invert'>
+            <Href to='customer_queries_link' className='u-text-underline u-link-invert'>
               Read our FAQ for customers
-            </Link>
-          </p>
-        </IfLinkExists>)}>
+            </Href>
+          </p>)
+        }>
           {this.props.children}
         </FaqPage>
       </Page>

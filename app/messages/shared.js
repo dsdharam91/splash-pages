@@ -8,4 +8,5 @@ export default {
       success_message: 'Thank you for your interest. We\'ll let you know as soon as we\'ve launched. In the mean time, please visit our European website to learn more about GoCardless.',
     },
   },
+  customer_queries_link: 'https://support.gocardless.com/hc/en-us/sections/202581129-Customer-Queries',
 };
