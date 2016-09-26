@@ -76,10 +76,6 @@ import PartnersXero from '../pages/partners/xero/partners-xero';
 import PartnersQuickbooks from '../pages/partners/quickbooks/partners-quickbooks';
 import PartnersBillin from '../pages/partners/billin/partners-billin';
 
-import FaqCustomersHowItWorks from '../pages/faq/customers/how-it-works/faq-customers-how-it-works';
-import FaqCustomers from '../pages/faq/customers/overview/faq-customers-overview';
-import FaqCustomersRefunds from '../pages/faq/customers/refunds/faq-customers-refunds';
-import FaqCustomersSecurity from '../pages/faq/customers/security/faq-customers-security';
 import FaqMerchantsCustomerExperience from '../pages/faq/merchants/customer-experience/faq-merchants-customer-experience';
 import FaqMerchantsDeveloperApi from '../pages/faq/merchants/developer-api/faq-merchants-developer-api';
 import FaqMerchantsDirectDebit from '../pages/faq/merchants/direct-debit/faq-merchants-direct-debit';
@@ -856,30 +852,6 @@ export const config = Immutable.fromJS([
   [PartnersBillin, { name: 'partners_billin' }, {
       es: {
         path: '/asociados/billin',
-      },
-    },
-  ],
-  [FaqCustomers, { name: 'faq_customers', category: 'faq.customers' }, {
-      en: {
-        path: '/faq/customers',
-      },
-    },
-  ],
-  [FaqCustomersHowItWorks, { name: 'faq_customers_how_it_works', category: 'faq.customers' }, {
-      en: {
-        path: '/faq/customers/how-it-works',
-      },
-    },
-  ],
-  [FaqCustomersRefunds, { name: 'faq_customers_refunds', category: 'faq.customers' }, {
-      en: {
-        path: '/faq/customers/refunds',
-      },
-    },
-  ],
-  [FaqCustomersSecurity, { name: 'faq_customers_security', category: 'faq.customers' }, {
-      en: {
-        path: '/faq/customers/security',
       },
     },
   ],

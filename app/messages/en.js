@@ -129,26 +129,6 @@ export default {
     title: 'Frequently asked questions',
     sidebar: 'Got a question? Call our support team on',
   },
-  faq_customers: {
-    title: 'FAQ for customers',
-    nav_title: 'Overview',
-    description: '',
-  },
-  faq_customers_how_it_works: {
-    title: 'FAQ for customers - How it works',
-    nav_title: 'How it works',
-    description: '',
-  },
-  faq_customers_refunds: {
-    title: 'FAQ for customers - Refunds',
-    nav_title: 'Refunds',
-    description: '',
-  },
-  faq_customers_security: {
-    title: 'FAQ for customers - Security',
-    nav_title: 'Security',
-    description: '',
-  },
   faq_merchants: {
     title: 'FAQ for merchants',
     nav_title: 'Overview',
