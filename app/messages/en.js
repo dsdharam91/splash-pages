@@ -447,6 +447,11 @@ export default {
     description: '',
     nav_title: 'Press',
   },
+  press_hiroki: {
+    title: 'Press',
+    description: '',
+    nav_title: 'Press',
+  },
   jobs: {
     title: 'Jobs',
     description: '',

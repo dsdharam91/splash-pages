@@ -31,6 +31,7 @@ import ExampleCheckout from '../pages/example-checkout/example-checkout';
 import About from '../pages/about/about';
 import Team from '../pages/about/team/team';
 import Press from '../pages/about/press/press';
+import PressHiroki from '../pages/about/press/press-hiroki';
 
 import Jobs from '../pages/about/jobs/jobs';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
@@ -424,6 +425,12 @@ export const config = Immutable.fromJS([
   [Press, { name: 'press' }, {
       en: {
         path: '/about/press',
+      },
+    },
+  ],
+  [PressHiroki, { name: 'press_hiroki' }, {
+      en: {
+        path: '/about/press/hiroki',
       },
     },
   ],
