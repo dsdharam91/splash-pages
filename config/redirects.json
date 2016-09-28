@@ -142,6 +142,7 @@
   "/faq/customers/security/index.html": "https://support.gocardless.com/hc/en-us/sections/202581129-Customer-Queries",
   "/faq/merchants/partners/index.html": "/partners/",
   "/features/api/index.html": "https://developer.gocardless.com/",
+  "/en-ie/features/api/index.html": "https://developer.gocardless.com/",
   "/features/dashboard/index.html": "/features",
   "/features/integrations/index.html": "/partners",
   "/fr-be/faq/index.html": "/fr-be/faq/commercant",
