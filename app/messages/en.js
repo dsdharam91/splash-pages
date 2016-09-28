@@ -317,6 +317,10 @@ export default {
     title: 'Our terms of service - Restrictions',
     description: '',
   },
+  legal_old_restrictions_2017_01_03: {
+    title: 'Our terms of service - Restrictions',
+    description: '',
+  },
   legal_old_merchant_agreements_2016_09_20: {
     title: 'Our terms of service - Merchant agreement',
     description: '',

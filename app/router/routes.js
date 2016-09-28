@@ -67,6 +67,7 @@ import LegalOldTermsIndex from '../pages/legal/old-terms/index/legal-old-terms-i
 import LegalOldRestrictions20140731 from '../pages/legal/old-terms/old-restrictions/2014-07-31/legal-old-restrictions-2014-07-31';
 import LegalOldRestrictions20140919 from '../pages/legal/old-terms/old-restrictions/2014-09-19/legal-old-restrictions-2014-09-19';
 import LegalOldRestrictions20160920 from '../pages/legal/old-terms/old-restrictions/2016-09-20/legal-old-restrictions-2016-09-20';
+import LegalOldRestrictions20170103 from '../pages/legal/old-terms/old-restrictions/2017-01-03/legal-old-restrictions-2017-01-03';
 import LegalOldMerchantAgreements20160920 from '../pages/legal/old-terms/old-merchant-agreements/2016-09-20/legal-old-merchant-agreements-2016-09-20';
 import LegalOldPartnerAgreements20160920 from '../pages/legal/old-terms/old-partner-agreements/2016-09-20/legal-old-partner-agreements-2016-09-20';
 import LegalOldPrivacyPolicies20160923 from '../pages/legal/old-terms/old-privacy-policies/2016-09-23/legal-old-privacy-policy-2016-09-23';
@@ -789,6 +790,21 @@ export const config = Immutable.fromJS([
       },
       'en-SE': {
         path: '/legal/old-terms/old-restrictions/2016-09-20',
+      },
+    },
+  ],
+  [LegalOldRestrictions20170103, { name: 'legal_old_restrictions_2017_01_03' }, {
+      'en-GB': {
+        path: '/legal/old-terms/old-restrictions/2017-01-03',
+      },
+      'en-EU': {
+        path: '/legal/old-terms/old-restrictions/2017-01-03',
+      },
+      'en-IE': {
+        path: '/legal/old-terms/old-restrictions/2017-01-03',
+      },
+      'en-SE': {
+        path: '/legal/old-terms/old-restrictions/2017-01-03',
       },
     },
   ],
