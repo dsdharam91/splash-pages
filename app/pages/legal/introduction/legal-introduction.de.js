@@ -30,7 +30,7 @@ export default class LegalIntroductionDe extends React.Component {
           <p className='para'>
             GoCardless ist registriert im britischen Handelsregister Companies House mit der Nummer 07495895.
             GoCardless ist von der Financial Conduct Authority im Vereinigten Königreich als Zahlungsdienst in der Europäischen Union
-            authorisiert, und eingetragen im Register der Financial Conduct Authority unter der Registrierungsnummer 597190.
+            autorisiert, und eingetragen im Register der Financial Conduct Authority unter der Registrierungsnummer 597190.
             GoCardless ist in der britischen Steuerbehörde HMRC mit der Registrierungsnummer 12642480 eingetragen.
           </p>
       </Translation>

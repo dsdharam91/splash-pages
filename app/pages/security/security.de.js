@@ -14,7 +14,7 @@ export default class SecurityDe extends React.Component {
           <div className='grid u-center u-padding-Vxm'>
             <div className='grid__cell u-text-center u-size-1of2 u-padding-Vxl'>
               <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>
-                Authorisiert von der FCA
+                Autorisiert von der FCA
               </h2>
               <p className='u-size-2of3 u-center u-color-dark-gray u-margin-Txs'>
                 <Message pointer='security.fca_authorised_byline' />
