@@ -210,13 +210,13 @@ export default class FeaturesDe extends React.Component {
                     Ihre Kunden werden es lieben
                   </h2>
                   <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    GoCardless ist ein authorisierter Zahlungsdienst, der Zahlungen für Sie
+                    GoCardless ist ein autorisierter Zahlungsdienst, der Zahlungen für Sie
                     und Ihre Kunden zum Kinderspiel macht.
                   </p>
                   <h3 className='u-text-xs'>Einfache online Einrichtung</h3>
                   <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
                     Der gesamte Prozess findet online statt. Ihre Kunden können Zahlungen innerhalb von Minuten in unserem
-                    online Formular authorisieren — auch mobil.
+                    online Formular autorisieren — auch mobil.
                   </p>
                   <h3 className='u-text-xs'>Ihr Logo und Ihr Name</h3>
                   <p className='u-color-dark-gray u-margin-Bm'>

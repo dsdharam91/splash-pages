@@ -348,10 +348,10 @@ export default {
   security: {
     title: 'Sicherheit',
     nav_title: 'Sicherheit',
-    description: 'GoCardless ist vom ersten bis zum letzten Stein sicher gebaut und benutzt Verschlüsselung auf dem gleichen Level wie das Militär, um Ihre Daten stets sicher zu halten. Wir sind authorisiert von der Financial Conduct Authority.',
+    description: 'GoCardless ist vom ersten bis zum letzten Stein sicher gebaut und benutzt Verschlüsselung auf dem gleichen Level wie das Militär, um Ihre Daten stets sicher zu halten. Wir sind von der Financial Conduct Authority autorisiert.',
     header1: 'Von Anfang an sicher gebaut',
-    header2: 'GoCardless nutzt Verschlüsselung, die dem Level des Militärs entspricht, um Ihre Daten stets sicher zu bewahren. Wir sind authorisiert von den wichtigsten Namen in der Zahlungsbranche.',
-    fca_authorised_byline: 'GoCardless ist von der Financial Conduct Authority im Vereinigten Königreich als Zahlungsdienst authorisiert und kann Zahlungen in ganz Europa einziehen.',
+    header2: 'GoCardless nutzt Verschlüsselung, die dem Level des Militärs entspricht, um Ihre Daten stets sicher zu bewahren. Wir sind von den wichtigsten Namen in der Zahlungsbranche autorisiert.',
+    fca_authorised_byline: 'GoCardless ist von der Financial Conduct Authority im Vereinigten Königreich als Zahlungsdienst autorisiert und kann Zahlungen in ganz Europa einziehen.',
     consumer_protection_title: 'Kundenschutz wird großgeschrieben',
     trusted_by_thousands_byline: 'GoCardless bietet tausenden von Unternehmen in ganz Europa Zugang zum Lastschriftverfahren.',
   },
