@@ -17,9 +17,12 @@ export default class PartnersXero extends React.Component {
             <div className='site-container page-hero__container'>
               <div className='grid u-margin-Vxxl u-padding-Vxl'>
                 <div className='grid__cell u-size-1of2 u-margin-Bl'>
-                  <h1 className='u-text-heading u-color-primary u-text-xl u-text-light u-margin-Bm'>
+                  <h1 className='u-text-heading u-color-primary u-text-xl u-text-light u-margin-Bn'>
                     GoCardless for Xero
                   </h1>
+                  <p className='u-text-heading u-color-primary u-text-m u-text-light u-margin-Bm u-text-no-smoothing'>
+                    powered by Directli
+                  </p>
 
                   <p className='u-text-heading u-color-dark-gray u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
                     Get paid on time and reconcile<br />

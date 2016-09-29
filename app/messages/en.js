@@ -351,7 +351,7 @@ export default {
     description: 'GoCardless for Sage 50 allows you to collect and manage Direct Debit payments directly from within Sage. Sign up and start collecting payments in 60 seconds.',
   },
   partners_xero: {
-    title: 'GoCardless for Xero',
+    title: 'GoCardless for Xero: Powered by Directli',
     description: 'GoCardless integrates with the Xero online accounting software and allows you to collect payments with Direct Debit.',
   },
   partners_quickbooks: {
