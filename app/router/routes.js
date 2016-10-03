@@ -859,7 +859,7 @@ export const config = Immutable.fromJS([
   ],
   [PartnersQuickbooks, { name: 'partners_quickbooks' }, {
       'en-GB': {
-        path: '/partners/quickbooks',
+        path: '/quickbooks',
       },
     },
   ],

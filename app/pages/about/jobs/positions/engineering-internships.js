@@ -47,7 +47,7 @@ export default class EngineeringInternships extends React.Component {
           awareness of the full stack.
         </p>
         <p className='para'>
-            Read more about the projects <a href="https://gocardless.com/blog/interning-at-gocardless/" target="_blank"> Iain </a>
+            Read more about the projects <a href="https://gocardless.com/blog/interning-at-gocardless/" target="_blank">Iain </a>
             and <a href="https://gocardless.com/blog/A-summer-internship-with-GoCardless/">Henri</a>, some of our previous interns,
             worked on at GoCardless.
         </p>
