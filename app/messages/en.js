@@ -492,6 +492,10 @@ export default {
     title: 'Data Team Lead',
     description: '',
   },
+  jobs_engineering_internships: {
+    title: 'Engineering Internships',
+    description: '',
+  },
   jobs_enterprise_account_executive: {
     title: 'Account Executive, Enterprise Sales: UK',
     description: '',

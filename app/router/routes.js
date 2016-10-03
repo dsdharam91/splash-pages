@@ -51,6 +51,7 @@ import FEDesigner from '../pages/about/jobs/positions/front-end-designer.js';
 import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success-manager.js';
 import CustomerSupportFrance from '../pages/about/jobs/positions/customer-support-france.js';
 import RiskComplianceAnalyst from '../pages/about/jobs/positions/risk-compliance-analyst.js';
+import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -455,6 +456,12 @@ export const config = Immutable.fromJS([
   [DevopsEngineer, { name: 'jobs_devops_engineer', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/devops-engineer',
+      },
+    },
+  ],
+  [EngineeringInternships, { name: 'jobs_engineering_internships', category: 'jobs.engineering' }, {
+      en: {
+        path: '/about/jobs/engineering-internships',
       },
     },
   ],
