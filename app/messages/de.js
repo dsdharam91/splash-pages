@@ -129,9 +129,9 @@ export default {
     nav_title: 'Team',
   },
   jobs: {
-    title: 'Jobs',
+    title: 'Karrieren',
     description: '',
-    nav_title: 'Jobs',
+    nav_title: 'Karrieren',
     open_positions: 'Offene Stellen',
     engineering: {
       title: 'Software Engineering & Data Science',
@@ -182,6 +182,10 @@ export default {
   },
   jobs_customer_support: {
     title: 'Customer Support',
+    description: '',
+  },
+  jobs_sales_development_representative_germany: {
+    title: 'SDR: Germany',
     description: '',
   },
   api_docs: {

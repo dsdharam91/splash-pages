@@ -2,6 +2,7 @@ import React from 'react';
 import rest from 'lodash/array/rest';
 import { filterRouteByCategory } from '../../../router/route-helpers';
 import Message from '../../../components/message/message';
+import Translation from '../../../components/translation/translation';
 import Link from '../../../components/link/link';
 import IfLinkExists from '../../../components/if-link-exists/if-link-exists';
 import AboutHeader from '../about-header';
@@ -60,6 +61,14 @@ export default class JobsPage extends React.Component {
                 <ul className='nav nav-tabs u-margin-Ts'>
                   { jobsNav }
                 </ul>
+
+                <Translation locales={['es', 'de', 'fr']}>
+                  <a href='https://gocardless.com/about/jobs'
+                  className='u-margin-Tl u-inline-block u-text-upcase
+                  u-text-xxs u-text-semi'>
+                    View all our open positions
+                  </a>
+                </Translation>
               </div>
               <div className='grid__cell u-size-2of3 u-padding-Tl u-padding-Ll'>
                 {this.props.children}
@@ -84,22 +93,24 @@ export default class JobsPage extends React.Component {
           </div>
         </div>
 
-        <IfLinkExists to='team'>
-          <div className='u-text-center u-padding-Vxxl'>
-            <div className='site-container u-padding-Vxl'>
-              <div className='u-size-2of3 u-center'>
-                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                  Find out more about working at GoCardless
-                </h2>
+        <Translation locales='en'>
+          <IfLinkExists to='team'>
+            <div className='u-text-center u-padding-Vxxl'>
+              <div className='site-container u-padding-Vxl'>
+                <div className='u-size-2of3 u-center'>
+                  <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
+                    Find out more about working at GoCardless
+                  </h2>
 
-                <Link to='team'
-                className='btn btn--hollow u-margin-Tm'>
-                  Visit our team page
-                </Link>
+                  <Link to='team'
+                  className='btn btn--hollow u-margin-Tm'>
+                    Visit our team page
+                  </Link>
+                </div>
               </div>
             </div>
-          </div>
-        </IfLinkExists>
+          </IfLinkExists>
+        </Translation>
       </Page>
     );
   }
