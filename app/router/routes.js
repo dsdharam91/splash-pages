@@ -439,7 +439,7 @@ export const config = Immutable.fromJS([
         path: '/about/jobs',
       },
       de: {
-        path: '/ueber-uns/karrieren',
+        path: '/ueber-uns/jobs',
       },
       es: {
         path: '/sobre-nosotros/empleo',
@@ -514,7 +514,7 @@ export const config = Immutable.fromJS([
         path: '/about/jobs/sales-development-representative-germany',
       },
       de: {
-        path: '/ueber-uns/karrieren/sales-development-representative-germany',
+        path: '/ueber-uns/jobs/sales-development-representative-germany',
       },
     },
   ],

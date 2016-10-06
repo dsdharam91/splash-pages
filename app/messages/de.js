@@ -129,9 +129,9 @@ export default {
     nav_title: 'Team',
   },
   jobs: {
-    title: 'Karrieren',
+    title: 'Jobs',
     description: '',
-    nav_title: 'Karrieren',
+    nav_title: 'Jobs',
     open_positions: 'Offene Stellen',
     engineering: {
       title: 'Software Engineering & Data Science',
