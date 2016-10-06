@@ -12,10 +12,6 @@ export default class PartnersQuickbooks extends React.Component {
   render() {
     return (
       <Page isInverted={false}>
-        { /* This is totally incorrect and we shouldn't be doing this as the meta tag is rendered in <body> not <head>. Just need a
-        temporary way to noindex this page from search engines until we launch. Please remove this when page goes live. */ }
-        <meta name='robots' content='noindex,follow' />
-
         <div className='page-hero page-hero--pricing page-hero--one-product-pricing u-size-full'>
           <div className='u-overflow-hidden u-relative u-size-full'>
             <div className='site-container page-hero__container'>
