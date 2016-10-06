@@ -3,6 +3,12 @@ import Page from '../../../components/page/page';
 import AboutHeader from '../about-header';
 
 let pressArticles = [
+  {
+    vendor: 'CardRates',
+    title: '$2B+ Direct Debit Payments Processed: How GoCardless is Building a Global Payments Platform',
+    link: 'http://www.cardrates.com/news/gocardless-direct-debit-payments-platform/',
+    date: '27.09.16',
+  },
  {
     vendor: 'Foreign and Commonwealth Office',
     title: 'Why Global Britain is driving the fintech revolution',
@@ -17,7 +23,7 @@ let pressArticles = [
   },
   {
     vendor: 'VentureBeat',
-    title: 'U.K.entrepreneurs react to Brexit vote',
+    title: 'UK entrepreneurs react to Brexit vote',
     link: 'http://venturebeat.com/2016/06/24/u-k-entrepreneurs-react-to-brexit-vote/',
     date: '24.06.16',
   },
