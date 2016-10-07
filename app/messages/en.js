@@ -528,10 +528,6 @@ export default {
     title: 'Personal Assistant',
     description: '',
   },
-  jobs_partnerships_development_manager: {
-    title: 'Partnerships Development Manager',
-    description: '',
-  },
   jobs_front_end_designer: {
     title: 'Front End Designer',
     description: '',
