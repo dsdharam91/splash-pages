@@ -184,6 +184,10 @@ export default {
     title: 'Customer Support',
     description: '',
   },
+  jobs_sales_development_representative_germany: {
+    title: 'SDR: Germany',
+    description: '',
+  },
   api_docs: {
     title: 'API-Dokumentation',
     nav_title: 'API-Dokumentation',

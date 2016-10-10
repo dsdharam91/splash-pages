@@ -255,6 +255,14 @@ export default {
       title: 'Opérations',
     },
   },
+  jobs_head_of_sales_france: {
+    title: 'Head of Sales: France',
+    description: '',
+  },
+  jobs_customer_support_france: {
+    title: 'Customer Support: France',
+    description: '',
+  },
   pro: {
     title: 'Le contrôle total de vos prélèvements',
     nav_title: 'GoCardless Pro',
