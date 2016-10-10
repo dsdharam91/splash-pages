@@ -603,6 +603,10 @@ export default {
     title: 'Nutmeg - Customer Stories',
     description: '',
   },
+  stories_peterborough_council: {
+    title: 'Peterborough Council - Customer Stories',
+    description: '',
+  },
   stories_rock_choir: {
     title: 'Rock Choir - Customer Stories',
     description: 'Rock Choir cut failed payments to 1% by switching to online Direct Debit with GoCardless. Read their customer story of using GoCardless.',

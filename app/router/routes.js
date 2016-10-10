@@ -108,6 +108,7 @@ import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
 import StoriesHotpodYoga from '../pages/stories/stories/hotpod-yoga';
 import StoriesImpactHub from '../pages/stories/stories/impact-hub';
 import StoriesNutmeg from '../pages/stories/stories/nutmeg';
+import StoriesPeterboroughCouncil from '../pages/stories/stories/peterborough-council';
 import StoriesRockChoir from '../pages/stories/stories/rock-choir';
 import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
 import StoriesSmartPension from '../pages/stories/stories/smart-pension';
@@ -1330,6 +1331,12 @@ export const config = Immutable.fromJS([
   [StoriesNutmeg, { name: 'stories_nutmeg', category: 'stories' }, {
       'en-GB': {
         path: '/stories/nutmeg',
+      },
+    },
+  ],
+  [StoriesPeterboroughCouncil, { name: 'stories_peterborough_council', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/peterborough-council',
       },
     },
   ],
