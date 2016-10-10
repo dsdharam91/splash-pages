@@ -105,9 +105,9 @@ export default {
     learn_more_link: 'Visit our UK site',
   },
   contact_sales: {
-    title: 'Get a Quote',
+    title: 'Contact Sales',
     nav_title: 'Contact Sales',
-    description: 'Find out how much you can save using GoCardless to collect Direct Debit payments online. Enter your details and we\'ll e-mail you a quote within 24 hours.',
+    description: 'Find out how you can use GoCardless to collect Direct Debit payments. Enter your details and one of our Direct Debit experts will call you back.',
     page_title: 'Contact Sales',
     page_description: 'To find out more about how GoCardless can help you, please enter your details below. A member of our team will call you back as soon as possible.',
     talk_to_us: 'Want to talk to an expert now?',

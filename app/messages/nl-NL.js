@@ -50,7 +50,7 @@ export default {
   },
   contact_sales: {
     title: 'Vraag een offerte aan',
-    nav_title: 'Neem contact met ons op',
+    nav_title: 'Neem contact op',
     description: 'Ontdek hoeveel je met GoCardless kunt besparen. Vul je gegevens in en we sturen je binnen 24 uur een offerte.',
     page_title: 'Neem contact op',
     page_description: 'Ontdek hoe GoCardless jouw bedrijf kan helpen. Vul je gegevens in en we nemen zo snel mogelijk contact met je op.',
