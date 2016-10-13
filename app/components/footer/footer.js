@@ -127,27 +127,10 @@ class Footer extends React.Component {
                     <Message pointer='postal_address.address_country' />
                   </SchemaItemProp>.
                 </SchemaItemProp><br />
-
-                <Translation locales={availableLocales} exclude={['en-GB']}>
-                  <SchemaItemProp itemProp='telephone' pointer='phone_full'>
-                    <Message pointer='phone_local' />
-                  </SchemaItemProp>,&nbsp;
-
-                  <Href to='email' className='u-link-invert' itemProp='email' />
-                </Translation>
-
-                <Translation locales='en-GB'
-                className='u-padding-Tm u-inline-block'>
-                  <Link to='contact_sales'
-                  className='u-link-invert u-text-heavy u-margin-Rs'>
-                    Contact Sales
-                  </Link>
-
-                  <a href='https://support.gocardless.com/hc/en-us'
-                  className='u-link-invert u-text-heavy'>
-                    Visit our Support Centre
-                  </a>
-                </Translation>
+                <SchemaItemProp itemProp='telephone' pointer='phone_full'>
+                  <Message pointer='phone_local' />
+                </SchemaItemProp>,&nbsp;
+                <Href to='email' className='u-link-invert' itemProp='email' />
               </p>
               <p className='u-text-heading u-text-xxs u-color-invert u-margin-Bm'>
                 <Message pointer='footer.description' />
