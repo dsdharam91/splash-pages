@@ -98,6 +98,22 @@ export default class PartnersQuickbooks extends React.Component {
           </div>
         </div>
 
+        <div className='site-container'>
+          <div className='quote page-hero--icon-background u-text-center'>
+            <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm'>
+              "GoCardless has simply revolutionised the way UK accountants and bookkeepers get paid and eliminated debtors.
+              And now it works inside the world’s most advanced cloud accounting system, QuickBooks Online,
+              it is going to make the collection and recording of income a breeze."
+            </p>
+            <p className='u-color-invert u-text-heading u-text-m u-text-semi'>
+              Mark Wickersham FCA
+            </p>
+            <p className='u-color-invert u-text-heading u-text-xs'>
+              #1 best-selling author
+            </p>
+          </div>
+        </div>
+
         <hr className='section-divider' />
 
         <div className='site-container u-text-center u-padding-Vxxl'>
