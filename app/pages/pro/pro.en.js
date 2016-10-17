@@ -43,8 +43,7 @@ export default class ProEn extends React.Component {
                   </a>
                 </li>
               </ul>
-              <Link to='contact_sales' query={{ s: 'pro' }}
-              id='track-sticky-nav-contact-sales'
+              <Link to='contact_sales'
               className={
                 'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                 'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
@@ -194,8 +193,7 @@ export default class ProEn extends React.Component {
                       Speak with one of our payments experts to learn how GoCardless can help your business.
                     </p>
                   </div>
-                  <Link to='contact_sales' query={{ s: 'pro' }} id='track-cta-contact-sales'
-                  className='btn btn--hollow u-margin-Tm'>
+                  <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'>
                     <Message pointer='cta.pro' />
                   </Link>
                 </div>
@@ -273,8 +271,7 @@ export default class ProEn extends React.Component {
                 <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bm'>
                   Get in touch for a free quote
                 </h2>
-                <Link to='contact_sales' query={{ s: 'pro' }}
-                id='track-cta-contact-sales' className='btn u-margin-Rm'>
+                <Link to='contact_sales' className='btn u-margin-Rm'>
                   <Message pointer='cta.pro' />
                 </Link>
                 <a href='https://manage-sandbox.gocardless.com/signup'

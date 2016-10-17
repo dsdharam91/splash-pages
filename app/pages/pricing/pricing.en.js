@@ -77,7 +77,7 @@ export default class PricingEn extends React.Component {
                           <Href to='signup.path' className='btn u-size-full'>Sign up today</Href>
                         </IfLocale>
                         <IfLocale hasInstantSignup={false}>
-                          <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contact sales</Link>
+                          <Link to='contact_sales' className='btn u-size-full'>Contact sales</Link>
                         </IfLocale>
                       </div>
                     </div>
@@ -122,7 +122,7 @@ export default class PricingEn extends React.Component {
                           Per transaction, plus <Message pointer='pricing.pro_monthly_fee' /> a month
                         </p>
                       </div>
-                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
+                      <Link to='contact_sales' className='btn btn--hollow u-size-full'>Contact sales</Link>
                     </div>
                   </div>
                 </div>
@@ -177,7 +177,7 @@ export default class PricingEn extends React.Component {
                         <Href to='signup.path' className='btn u-size-full'>Sign up today</Href>
                       </IfLocale>
                       <IfLocale hasInstantSignup={false}>
-                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Contact sales</Link>
+                        <Link to='contact_sales' className='btn u-size-full'>Contact sales</Link>
                       </IfLocale>
                     </div>
                   </div>
@@ -213,7 +213,7 @@ export default class PricingEn extends React.Component {
                           Per transaction, plus <strong>100 €</strong> a month
                         </p>
                       </div>
-                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
+                      <Link to='contact_sales' className='btn btn--hollow u-size-full'>Contact sales</Link>
                     </div>
                   </div>
                 </div>
@@ -248,7 +248,7 @@ export default class PricingEn extends React.Component {
                           Per transaction, plus <strong>250 €</strong> a month
                         </p>
                       </div>
-                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
+                      <Link to='contact_sales' className='btn btn--hollow u-size-full'>Contact sales</Link>
                     </div>
                   </div>
                 </div>
@@ -338,7 +338,7 @@ export default class PricingEn extends React.Component {
               <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>Start taking payments</Href>
             </IfLocale>
             <IfLocale hasInstantSignup={false}>
-              <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Contact sales</Link>
+              <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'>Contact sales</Link>
             </IfLocale>
           </div>
         </div>

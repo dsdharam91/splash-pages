@@ -81,7 +81,7 @@ export default class SecurityDe extends React.Component {
             <div className='u-padding-Vxl'>
               <h2 className='u-text-heading u-text-l u-color-dark-gray u-text-light'>Haben Sie Fragen?</h2>
               <p className='u-color-dark-gray u-margin-Ts'>Sprechen Sie mit einem unserer Experten unter <Message pointer='phone_local' /></p>
-              <Link to='contact_sales' query={{ s: 'security' }} className='btn btn--hollow u-margin-Tm'>Fragen Sie uns</Link>
+              <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'>Fragen Sie uns</Link>
             </div>
           </div>
         </IfLocale>

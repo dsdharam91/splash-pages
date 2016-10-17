@@ -52,7 +52,7 @@ export default class PricingNl extends React.Component {
                         <Href to='signup.path' className='btn u-size-full'>Registreer nu</Href>
                       </IfLocale>
                       <IfLocale hasInstantSignup={false}>
-                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn u-size-full'>Neem contact op</Link>
+                        <Link to='contact_sales' className='btn u-size-full'>Neem contact op</Link>
                       </IfLocale>
                     </li>
                   </ul>
@@ -83,7 +83,7 @@ export default class PricingNl extends React.Component {
                     <Link to='pro'>Meer over GoCardless Pro</Link>
                   </li>
                   <li className='pricing-options__list-button'>
-                    <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Neem contact op</Link>
+                    <Link to='contact_sales' className='btn btn--hollow u-size-full'>Neem contact op</Link>
                   </li>
                 </ul>
               </div>
@@ -172,7 +172,7 @@ export default class PricingNl extends React.Component {
               <Href to='signup.path' className='btn btn--hollow u-margin-Tm'>Registreer nu</Href>
             </IfLocale>
             <IfLocale hasInstantSignup={false}>
-              <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Neem contact op</Link>
+              <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'>Neem contact op</Link>
             </IfLocale>
           </div>
         </div>

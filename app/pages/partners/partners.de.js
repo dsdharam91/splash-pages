@@ -58,8 +58,7 @@ export default class PartnersDe extends React.Component {
                 </a>
               </li>
             </ul>
-            <Link to='contact_sales' query={{ s: 'partners' }}
-            id='track-partners-sticky-nav-contact-sales'
+            <Link to='contact_sales'
             className={
               'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
               'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
@@ -149,8 +148,6 @@ export default class PartnersDe extends React.Component {
                   <br/> Nur 1 % pro erfolgreicher Transaktion und höchstens <Message pointer="pricing.cost_cap" />.
                 </p>
                 <Link to='contact_sales'
-                query={{ s: 'partners' }}
-                id='track-partners-find-out-more'
                 className='btn btn--hollow u-margin-Ts'>
                   Erfahren Sie mehr
                 </Link>
@@ -418,8 +415,6 @@ export default class PartnersDe extends React.Component {
                 kontaktieren Sie uns – wir beraten Sie gerne.
               </p>
               <Link to='contact_sales'
-              query={{ s: 'partners' }}
-              id='track-partners-contact-sales'
               className='btn btn--hollow u-margin-Ts'>
                 <Message pointer='cta.pro' />
               </Link>

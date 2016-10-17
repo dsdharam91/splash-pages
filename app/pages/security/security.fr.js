@@ -76,7 +76,7 @@ export default class SecurityFr extends React.Component {
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bm'>
                 Prenez contact avec notre équipe
               </h2>
-              <Link to='contact_sales' query={{ s: 'pro' }} className='btn'>
+              <Link to='contact_sales' className='btn'>
                 Contactez-nous
               </Link>
             </IfLocale>

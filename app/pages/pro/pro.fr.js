@@ -43,7 +43,7 @@ export default class ProFr extends React.Component {
                 </a>
               </li>
             </ul>
-            <Link to='contact_sales' query={{ s: 'pro' }}
+            <Link to='contact_sales'
               className={
                 'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                 'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
@@ -170,7 +170,7 @@ export default class ProFr extends React.Component {
                       Parlez avec nos experts de vos problématiques paiements.
                     </p>
                   </div>
-                  <Link to='contact_sales' query={{ s: 'pro' }} id='track-cta-contact-sales'
+                  <Link to='contact_sales'
                   className='btn btn--hollow u-margin-Tm'>
                     <Message pointer='cta.pro' />
                   </Link>

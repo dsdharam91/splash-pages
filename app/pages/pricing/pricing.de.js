@@ -67,7 +67,7 @@ export default class PricingDe extends React.Component {
                       </IfLocale>
 
                       <IfLocale hasInstantSignup={false}>
-                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Fragen Sie uns</Link>
+                        <Link to='contact_sales' className='btn btn--hollow u-size-full'>Fragen Sie uns</Link>
                       </IfLocale>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ export default class PricingDe extends React.Component {
                         </p>
                       </div>
 
-                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Fragen Sie uns</Link>
+                      <Link to='contact_sales' className='btn btn--hollow u-size-full'>Fragen Sie uns</Link>
                     </div>
                   </div>
               </div>
@@ -148,7 +148,7 @@ export default class PricingDe extends React.Component {
                         </p>
                       </div>
 
-                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Fragen Sie uns</Link>
+                      <Link to='contact_sales' className='btn btn--hollow u-size-full'>Fragen Sie uns</Link>
                     </div>
                   </div>
               </div>
@@ -210,7 +210,7 @@ export default class PricingDe extends React.Component {
           <div className='u-padding-Vxl'>
             <h2 className='u-text-heading u-text-l u-color-dark-gray u-text-light'>Haben Sie Fragen?</h2>
             <p className='u-color-dark-gray u-margin-Ts'>Sprechen Sie mit einem unserer Zahlungsexperten: <Message pointer='phone_local' /></p>
-            <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Kontakt</Link>
+            <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'>Kontakt</Link>
           </div>
         </div>
       </Translation>

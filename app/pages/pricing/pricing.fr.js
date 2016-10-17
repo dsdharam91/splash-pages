@@ -67,7 +67,7 @@ export default class PricingFr extends React.Component {
                       </IfLocale>
 
                       <IfLocale hasInstantSignup={false}>
-                        <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contactez-nous</Link>
+                        <Link to='contact_sales' className='btn btn--hollow u-size-full'>Contactez-nous</Link>
                       </IfLocale>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ export default class PricingFr extends React.Component {
                         </p>
                       </div>
 
-                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contactez-nous</Link>
+                      <Link to='contact_sales' className='btn btn--hollow u-size-full'>Contactez-nous</Link>
                     </div>
                   </div>
               </div>
@@ -148,7 +148,7 @@ export default class PricingFr extends React.Component {
                         </p>
                       </div>
 
-                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contactez-nous</Link>
+                      <Link to='contact_sales' className='btn btn--hollow u-size-full'>Contactez-nous</Link>
                     </div>
                   </div>
               </div>
@@ -220,7 +220,7 @@ export default class PricingFr extends React.Component {
                   </Href>
                 </IfLocale>
                 <IfLocale hasInstantSignup={false}>
-                  <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-margin-Tm'>Contactez-nous</Link>
+                  <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'>Contactez-nous</Link>
                 </IfLocale>
               </div>
             </div>

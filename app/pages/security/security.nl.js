@@ -79,7 +79,7 @@ export default class SecurityNl extends React.Component {
             <div className='u-padding-Vxl'>
               <h2 className='u-text-heading u-text-l u-color-dark-gray u-text-light'>Vragen?</h2>
               <p className='u-color-dark-gray u-margin-Ts'>Neem contact met ons op via <Message pointer='phone_local' /></p>
-              <Link to='contact_sales' query={{ s: 'security' }} className='btn btn--hollow u-margin-Tm'>Neem contact op</Link>
+              <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'>Neem contact op</Link>
             </div>
           </div>
         </IfLocale>

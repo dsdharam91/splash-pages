@@ -57,8 +57,7 @@ export default class PartnersNl extends React.Component {
                 </a>
               </li>
             </ul>
-            <Link to='contact_sales' query={{ s: 'partners' }}
-            id='track-partners-sticky-nav-contact-sales'
+            <Link to='contact_sales'
             className={
               'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
               'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
@@ -149,10 +148,7 @@ export default class PartnersNl extends React.Component {
                   Geen opstartkosten of verborgen kosten.
                   <br/> Slechts 1% per succesvolle transactie met een maximum van <Message pointer="pricing.cost_cap" />.
                 </p>
-                <Link to='contact_sales'
-                query={{ s: 'partners' }}
-                id='track-partners-find-out-more'
-                className='btn btn--hollow u-margin-Ts'>
+                <Link to='contact_sales' className='btn btn--hollow u-margin-Ts'>
                   Meer weten
                 </Link>
               </div>
@@ -426,10 +422,7 @@ export default class PartnersNl extends React.Component {
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 Kan jouw bedrijf profiteren van een samenwerking met GoCardless? Neem dan contact met ons op. We helpen je graag verder.
               </p>
-              <Link to='contact_sales'
-              query={{ s: 'partners' }}
-              id='track-partners-contact-sales'
-              className='btn btn--hollow u-margin-Ts'>
+              <Link to='contact_sales' className='btn btn--hollow u-margin-Ts'>
                 <Message pointer='cta.pro' />
               </Link>
             </div>

@@ -57,8 +57,7 @@ export default class PartnersEs extends React.Component {
                 </a>
               </li>
             </ul>
-            <Link to='contact_sales' query={{ s: 'partners' }}
-            id='track-partners-sticky-nav-contact-sales'
+            <Link to='contact_sales'
             className={
               'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
               'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
@@ -148,8 +147,6 @@ export default class PartnersEs extends React.Component {
                   de <Message pointer="pricing.cost_cap" />.
                 </p>
                 <Link to='contact_sales'
-                query={{ s: 'partners' }}
-                id='track-partners-find-out-more'
                 className='btn btn--hollow u-margin-Ts'>
                   Saber más
                 </Link>
@@ -417,8 +414,6 @@ export default class PartnersEs extends React.Component {
                 <br />por favor ponte en contacto con nosotros – estaremos encantados de ayudar.
               </p>
               <Link to='contact_sales'
-              query={{ s: 'partners' }}
-              id='track-partners-contact-sales'
               className='btn btn--hollow u-margin-Ts'>
                 <Message pointer='cta.pro' />
               </Link>

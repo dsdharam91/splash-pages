@@ -57,8 +57,7 @@ export default class PartnersFr extends React.Component {
                 </a>
               </li>
             </ul>
-            <Link to='contact_sales' query={{ s: 'partners' }}
-            id='track-partners-sticky-nav-contact-sales'
+            <Link to='contact_sales'
             className={
               'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
               'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
@@ -146,10 +145,7 @@ export default class PartnersFr extends React.Component {
                   Pas de frais de mise en place, mensuels, de mandat, de rejet... <br/>Seulement 1% par transaction réussie,
                   plafonné à <Message pointer="pricing.cost_cap" /> par transaction.
                 </p>
-                <Link to='contact_sales'
-                query={{ s: 'partners' }}
-                id='track-partners-find-out-more'
-                className='btn btn--hollow u-margin-Ts'>
+                <Link to='contact_sales' className='btn btn--hollow u-margin-Ts'>
                   Apprenez-en plus
                 </Link>
               </div>
@@ -416,10 +412,7 @@ export default class PartnersFr extends React.Component {
                 Si vous pensez que votre entreprise peut bénéficier d'un partenariat avec GoCardless,
                 <br />contactez-nous - nous serons ravis de vous aider.
               </p>
-              <Link to='contact_sales'
-              query={{ s: 'partners' }}
-              id='track-partners-contact-sales'
-              className='btn btn--hollow u-margin-Ts'>
+              <Link to='contact_sales' className='btn btn--hollow u-margin-Ts'>
                 <Message pointer='cta.pro' />
               </Link>
             </div>

@@ -57,8 +57,7 @@ export default class ProNl extends React.Component {
                   </a>
                 </li>
               </ul>
-              <Link to='contact_sales' query={{ s: 'pro' }}
-              id='track-sticky-nav-contact-sales'
+              <Link to='contact_sales'
               className={
                 'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                 'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
@@ -223,8 +222,7 @@ export default class ProNl extends React.Component {
                       Neem contact met ons op en ontdek hoe GoCardless jouw bedrijf kan helpen.
                     </p>
                   </div>
-                  <Link to='contact_sales' query={{ s: 'pro' }} id='track-cta-contact-sales'
-                  className='btn btn--hollow u-margin-Tm'>
+                  <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'>
                     <Message pointer='cta.pro' />
                   </Link>
                 </div>
@@ -301,8 +299,7 @@ export default class ProNl extends React.Component {
                 <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bm'>
                   Neem contact met ons op voor een vrijblijvende offerte
                 </h2>
-                <Link to='contact_sales' query={{ s: 'pro' }}
-                id='track-cta-contact-sales' className='btn u-margin-Rm'>
+                <Link to='contact_sales' className='btn u-margin-Rm'>
                   <Message pointer='cta.pro' />
                 </Link>
                 <a href='https://manage-sandbox.gocardless.com/signup'

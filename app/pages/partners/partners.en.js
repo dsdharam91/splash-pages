@@ -64,8 +64,7 @@ export default class PartnersEn extends React.Component {
                 </a>
               </li>
             </ul>
-            <Link to='contact_sales' query={{ s: 'partners' }}
-            id='track-partners-sticky-nav-contact-sales'
+            <Link to='contact_sales'
             className={
               'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
               'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
@@ -159,8 +158,6 @@ export default class PartnersEn extends React.Component {
                   </p>
                 </Translation>
                 <Link to='contact_sales'
-                query={{ s: 'partners' }}
-                id='track-partners-find-out-more'
                 className='btn btn--hollow u-margin-Ts'>
                   Find out more
                 </Link>
@@ -421,10 +418,7 @@ export default class PartnersEn extends React.Component {
                 If you think that your business can benefit from partnering with GoCardless,
                 <br />please get in touch – we’ll be happy to help.
               </p>
-              <Link to='contact_sales'
-              query={{ s: 'partners' }}
-              id='track-partners-contact-sales'
-              className='btn btn--hollow u-margin-Ts'>
+              <Link to='contact_sales' className='btn btn--hollow u-margin-Ts'>
                 <Message pointer='cta.pro' />
               </Link>
             </div>
