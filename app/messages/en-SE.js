@@ -1,7 +1,5 @@
 export default {
   country: 'Sweden',
-  phone_full: '+46 844 682 377',
-  phone_local: '+46 844 682 377',
   email: 'sweden@gocardless.com',
   country_properties: {
     local_scheme: 'bg-autogiro',
