@@ -10,7 +10,7 @@ export default class StoriesPeterboroughCouncil extends React.Component {
         title='GoCardless was easy to integrate into our online subscription service, and offered value for money for taking multiple payments.'
         author='James Collingridge'
         position='Partnership Manager'
-        company='Peterborough Council'
+        company='Peterborough City Council'
         benefits='Quick to set up and integrate with existing systems, plus lower processing costs.'
         bgimgUrl='url(/images/stories/story-images/hotpod-yoga/hero-hotpod-yoga.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/peterborough-council.png'
@@ -20,11 +20,11 @@ export default class StoriesPeterboroughCouncil extends React.Component {
         <div className='story-body'>
           <p className='para u-margin-Tn'>
             Peterborough is one of the fastest growing cities in the UK and has a diverse
-            population. <a href='https://www.peterborough.gov.uk/' className='u-link-color-p u-text-underline'>Peterborough Council</a> aims
+            population. <a href='https://www.peterborough.gov.uk/' className='u-link-color-p u-text-underline'>Peterborough City Council</a> aims
             to offer excellent customer service and stay at the forefront of digital solutions.
           </p>
           <p className='para'>
-            The council provides services for around 84,000 households, including social care for children and adults,
+            The city council provides services for around 84,000 households, including social care for children and adults,
             waste and recycling services and street cleaning. It is also accredited as a zero to landfill authority,
             with an Energy Recovery Facility that went online in late 2015.
           </p>
@@ -32,9 +32,9 @@ export default class StoriesPeterboroughCouncil extends React.Component {
             <img src='/images/stories/story-images/peterborough-council/peterborough-city@2x.jpg' alt='' />
           </div>
           <p className='para'>
-            Peterborough Council already has a digital strategy in place that incorporates the ethos of ‘Digital by Default’.
-            The council is working with the private sector to bring in new technology to both benefit residents and also
-            improve the way officers work. For example, Peterborough Council has now moved to Google's cloud-based applications
+            Peterborough City Council already has a digital strategy in place that incorporates the ethos of ‘Digital by Default’.
+            The city council is working with the private sector to bring in new technology to both benefit residents and also
+            improve the way officers work. For example, Peterborough City Council has now moved to Google's cloud-based applications
             and has become much more agile by adopting Chromebooks.
           </p>
           <p className='para'>
@@ -43,12 +43,12 @@ export default class StoriesPeterboroughCouncil extends React.Component {
             more accessible to residents.
           </p>
           <p className='para'>
-            As with all local authorities, the biggest challenge Peterborough Council faces is current budgetary pressures.
+            As with all local authorities, the biggest challenge Peterborough City Council faces is current budgetary pressures.
             With reduced grants from central government, it is important to look at how to maintain high standards of
             services for residents while at the same time driving down costs.
           </p>
           <p className='para'>
-            Recently, Peterborough Council started charging for its garden waste collection service. This had previously
+            Recently, Peterborough City Council started charging for its garden waste collection service. This had previously
             been a discretionary service. But it became necessary to introduce an annual charge due to year-on-year
             reductions to the government grant plus rising demand for statutory council services.
           </p>
@@ -56,19 +56,19 @@ export default class StoriesPeterboroughCouncil extends React.Component {
             In addition, Peterborough was paying for garden waste collection out of council taxes when only 30% of
             residents actually used the
             service. <a href='http://www.itpro.co.uk/public-sector/27311/peterborough-council-rolls-out-gocardless-to-save-800k'
-            className='u-link-color-p u-text-underline'>To make matters fairer</a> for the other 70%, the council made
+            className='u-link-color-p u-text-underline'>To make matters fairer</a> for everyone, the council made
             garden waste collections a separate charge. This now covers the £800,000 annual cost of the service.
           </p>
           <p className='para'>
             But the challenge was collecting payments for this new charge in a way that was painless for both
-            the council and its constituents. Peterborough needed a reliable, accessible and easy-to-manage
+            the city council and its constituents. Peterborough needed a reliable, accessible and easy-to-manage
             way to collect these payments.
           </p>
           <div className='story-page__image'>
             <img src='/images/stories/story-images/peterborough-council/green-bin-1@2x.jpg' alt='' />
           </div>
           <p className='para'>
-            Once regular Direct Debit was identified as the most efficient solution, Peterborough discovered
+            Once regular Direct Debit was identified as the most efficient solution, Peterborough City Council discovered
             it was too complicated and costly to integrate within its existing payment services provider.
             This is where GoCardless came in to offer a quick and easy solution.
           </p>
