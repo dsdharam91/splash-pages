@@ -439,6 +439,15 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/jobs',
       },
+      de: {
+        path: '/ueber-uns/jobs',
+      },
+      es: {
+        path: '/sobre-nosotros/empleo',
+      },
+      fr: {
+        path: '/a-propos/recrutement',
+      },
     },
   ],
   [DataEngineer, { name: 'jobs_data_engineer', category: 'jobs.engineering' }, {
@@ -487,17 +496,26 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/jobs/inside-account-executive-spain',
       },
+      es: {
+        path: '/sobre-nosotros/empleo/inside-account-executive-spain',
+      },
     },
   ],
   [HeadofSalesFrance, { name: 'jobs_head_of_sales_france', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/head-of-sales-france',
       },
+      fr: {
+        path: '/a-propos/recrutement/head-of-sales-france',
+      },
     },
   ],
   [SalesDevelopmentRepresentativeGermany, { name: 'jobs_sales_development_representative_germany', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/sales-development-representative-germany',
+      },
+      de: {
+        path: '/ueber-uns/jobs/sales-development-representative-germany',
       },
     },
   ],
@@ -534,6 +552,9 @@ export const config = Immutable.fromJS([
   [CustomerSupportFrance, { name: 'jobs_customer_support_france', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support-france',
+      },
+      fr: {
+        path: '/a-propos/recrutement/customer-support-france',
       },
     },
   ],

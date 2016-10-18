@@ -62,7 +62,10 @@ class Footer extends React.Component {
                 <Link to='pricing' pointer='pricing.nav_title' className='page-footer__link u-link-invert' />
               </IfLinkExists>
               <IfLinkExists to='stories' tagName='li'>
-                <Link to='stories' pointer='stories.title' className='page-footer__link u-link-invert' />
+                <Link to='stories' pointer='stories.nav_title' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
+              <IfLinkExists to='contact_sales' tagName='li'>
+                <Link to='contact_sales' pointer='contact_sales.nav_title' className='page-footer__link u-link-invert' />
               </IfLinkExists>
               <li>
                 <Href to='guides.path' pointer='guides.nav_title' className='page-footer__link u-link-invert' />

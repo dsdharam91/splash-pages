@@ -290,6 +290,30 @@ export default {
     time_saved: 'Tiempo ahorrado usando GoCardless',
     start_journey: 'Comienza ahora tu historia con GoCardless',
   },
+  jobs: {
+    title: 'Empleo',
+    description: '',
+    nav_title: 'Empleo',
+    open_positions: 'Open positions',
+    engineering: {
+      title: 'Software Engineering & Data Science',
+    },
+    ux_design: {
+      title: 'UX & Design',
+    },
+    sales: {
+      title: 'Sales',
+    },
+    business_development: {
+      title: 'Business Development',
+    },
+    marketing: {
+      title: 'Marketing',
+    },
+    operations: {
+      title: 'Operations',
+    },
+  },
   stories_impact_hub: {
     title: 'Impact Hub - Casos de éxito',
     description: '',
@@ -324,6 +348,10 @@ export default {
   legal_restrictions: {
     title: 'Términos y Condiciones - Restricciones',
     nav_title: 'Actividades Restringidas',
+    description: '',
+  },
+  jobs_inside_account_executive_spain: {
+    title: 'Account Executive, Inside Sales: Spain',
     description: '',
   },
 };
