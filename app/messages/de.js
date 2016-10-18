@@ -18,14 +18,14 @@ export default {
     more: 'Erfahren Sie mehr',
   },
   basic_pricing_cta: {
-    main: 'Zahlen Sie 1 %',
-    description: 'Nur 1 % pro Transaktion, begrenzt bei 2 €.',
+    main: 'Sie zahlen 1 %',
+    description: 'Nur 1 % pro Transaktion, höchstens 2 €.',
     learn_more: 'Erfahren Sie mehr über unsere Preise',
   },
   signup_cta: {
-    main: 'Mit der online Anmeldung können Sie schon heute die ersten Zahlungen akzeptieren.',
+    main: 'Melden Sie sich innerhalb weniger Minuten an und ziehen Sie schon heute die ersten Zahlungen ein',
     button_text: 'Jetzt anmelden',
-    description: 'Keine Anschlussgebühr, keine versteckten Gebühren, keine Mindestlaufzeit',
+    description: 'Keine Einrichtungsgebühr, keine versteckten Kosten, keine Mindestlaufzeit',
   },
   hero: {
     header: 'Lastschriften für das digitale Zeitalter',
@@ -198,8 +198,8 @@ export default {
     cta: 'Besuchen Sie unseren Blog',
   },
   guides: {
-    title: 'SEPA Handbuch',
-    nav_title: 'SEPA Handbuch',
+    title: 'SEPA-Handbuch',
+    nav_title: 'SEPA-Handbuch',
     path: '/de/handbuch/sepa/',
   },
   signin: {

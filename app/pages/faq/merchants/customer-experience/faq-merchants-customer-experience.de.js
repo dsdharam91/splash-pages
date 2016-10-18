@@ -18,7 +18,7 @@ export default class FaqMerchantsCustomerExperienceDe extends React.Component {
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Bleiben meine Kunden auf meiner Webseite?
+          Bleiben meine Kunden auf meiner Website?
         </h3>
         <p className='para'>
           Das hängt von dem jeweiligen Produkt ab, das Sie wählen. Mit GoCardless sind die Zahlungsseiten auf

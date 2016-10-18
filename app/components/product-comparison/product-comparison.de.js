@@ -35,7 +35,7 @@ export default class ProductComparisonDe extends React.Component {
                   <td className='comparison-table__cell'>Unternehmen, die volle Kontrolle wünschen</td>
                 </tr>
                 <tr className='comparison-table__row'>
-                  <td className='comparison-table__cell u-text-end'>Online Dashboard</td>
+                  <td className='comparison-table__cell u-text-end'>Online-Dashboard</td>
                   <td className='comparison-table__cell'>
                     <CheckMarkIcon className='u-fill-dark-gray' alt='✓' />
                   </td>
@@ -62,7 +62,7 @@ export default class ProductComparisonDe extends React.Component {
                   </td>
                 </tr>
                 <tr className='comparison-table__row'>
-                  <td className='comparison-table__cell u-text-end'>Ihre eigene Gläubiger-ID</td>
+                  <td className='comparison-table__cell u-text-end'>Erhalt Ihrer eigenen Gläubiger-ID</td>
                   <td className='comparison-table__cell'>
                     <XIcon className='u-fill-dark-gray' alt='✘' />
                   </td>
@@ -71,7 +71,7 @@ export default class ProductComparisonDe extends React.Component {
                   </td>
                 </tr>
                 <tr className='comparison-table__row'>
-                  <td className='comparison-table__cell u-text-end'>Ihre eigenen Zahlungsformulare</td>
+                  <td className='comparison-table__cell u-text-end'>Erstellen Ihrer eigenen Zahlungsformulare</td>
                   <td className='comparison-table__cell'>
                     <XIcon className='u-fill-dark-gray' alt='✘' />
                   </td>
@@ -81,7 +81,7 @@ export default class ProductComparisonDe extends React.Component {
                 </tr>
                 <IfLocale hasInstantSignup>
                   <tr className='comparison-table__row'>
-                    <td className='comparison-table__cell u-text-end'>Sofortige online Einrichtung und Genehmigung</td>
+                    <td className='comparison-table__cell u-text-end'>Sofortige Online-Einrichtung und Genehmigung</td>
                     <td className='comparison-table__cell'>
                       <CheckMarkIcon className='u-fill-dark-gray' alt='✓' />
                     </td>
@@ -96,14 +96,14 @@ export default class ProductComparisonDe extends React.Component {
                   <td className='comparison-table__cell'>Weltweit</td>
                 </tr>
                 <tr className='comparison-table__row'>
-                  <td className='comparison-table__cell u-text-end'>Zahlungen akzeptieren aus...</td>
+                  <td className='comparison-table__cell u-text-end'>Zahlungen einziehen in...</td>
                   <td className='comparison-table__cell'>22 Ländern (Eurozone + UK)</td>
                   <td className='comparison-table__cell'>22 Ländern (Eurozone + UK)</td>
                 </tr>
                 <tr className='comparison-table__row'>
-                  <td className='comparison-table__cell u-text-end'>Mandate akzeptieren</td>
+                  <td className='comparison-table__cell u-text-end'>Mandate einholen</td>
                   <td className='comparison-table__cell'>Online</td>
-                  <td className='comparison-table__cell'>Online, Papier, Telefon</td>
+                  <td className='comparison-table__cell'>Online, schriftlich, telefonisch</td>
                 </tr>
                 <tr className='comparison-table__row'>
                   <td className='comparison-table__cell u-text-end'>Zahl der Transaktionen pro Monat</td>
@@ -116,10 +116,10 @@ export default class ProductComparisonDe extends React.Component {
                   <td className='comparison-table__cell'><Message pointer='pricing.pro_monthly_fee' /></td>
                 </tr>
                 <tr className='comparison-table__row'>
-                  <td className='comparison-table__cell u-text-end'>Gebühren pro Zahlung</td>
-                  <td className='comparison-table__cell'><Message pointer='pricing.per_transaction_amount_normal' /> up
-                  bis maximal <Message pointer="pricing.cost_cap" /></td>
-                  <td className='comparison-table__cell'><Message pointer='pricing.pro_cost_per_transaction' /> je nach Volumen</td>
+                  <td className='comparison-table__cell u-text-end'>Gebühren pro Transaktion</td>
+                  <td className='comparison-table__cell'><Message pointer='pricing.per_transaction_amount_normal' />
+                  bis höchstens <Message pointer="pricing.cost_cap" /></td>
+                  <td className='comparison-table__cell'><Message pointer='pricing.pro_cost_per_transaction' /> je nach Anzahl der Transaktionen</td>
                 </tr>
               </tbody>
             </table>
