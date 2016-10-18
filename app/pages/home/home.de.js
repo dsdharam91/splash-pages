@@ -54,7 +54,7 @@ export default class HomeDe extends React.Component {
                   Transparente Gebühren
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Sie zahlen die Gebühren nur für erfolgreiche Transaktionen und nie für Rücklastschriften
+                  Sie zahlen nur Gebühren für erfolgreiche Transaktionen und nie für Rücklastschriften
                 </p>
               </div>
             </div>

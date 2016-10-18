@@ -142,8 +142,8 @@ export default class FeaturesDe extends React.Component {
                       Schaffen Sie langfristige Kundenbeziehungen
                     </div>
                     <p className='u-color-dark-gray u-margin-Txs'>
-                      Dank der Verwendung des Lastschriftverfahrens können Sie mit GoCardless keine Kunden durch
-                      abgelaufene oder gesperrte Kreditkarten verlieren.
+                      Dank der Verwendung des Lastschriftverfahrens verlieren Sie mit GoCardless keine Kunden durch
+                      abgelaufene oder gesperrte Kreditkarten.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
@@ -193,7 +193,7 @@ export default class FeaturesDe extends React.Component {
                   </p>
                   <h3 className='u-text-xs'>Exportieren Sie Ihre Daten</h3>
                   <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    Managen Sie Ihre Daten genau nach Ihren Vorstellungen. GoCardless ist mit den meisten Verwaltungssoftwares kompatibel.
+                    Managen Sie Ihre Daten genau nach Ihren Vorstellungen. GoCardless ist mit den meisten Verwaltungsprogrammen kompatibel.
                   </p>
                   <h3 className='u-text-xs'>Ziehen Sie täglich Zahlungen ein</h3>
                   <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
