@@ -100,6 +100,14 @@ let caseStudies = {
       logoWidth: '140',
       industry: 'Investments',
     },
+    {
+      link: 'stories_peterborough_council',
+      quote: `GoCardless was easy to integrate and offered value for money`,
+      size: '1,400 employees',
+      logoSrc: '/images/stories/story-logos/peterborough-council.png',
+      logoWidth: '130',
+      industry: 'Local Authority',
+    },
   ],
 };
 
