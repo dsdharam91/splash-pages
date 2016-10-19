@@ -46,7 +46,7 @@ import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 import PersonalAssistant from '../pages/about/jobs/positions/personal-assistant.js';
-import FEDesigner from '../pages/about/jobs/positions/front-end-designer.js';
+import FEDeveloper from '../pages/about/jobs/positions/front-end-developer.js';
 import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success-manager.js';
 import CustomerSupportFrance from '../pages/about/jobs/positions/customer-support-france.js';
 import RiskComplianceAnalyst from '../pages/about/jobs/positions/risk-compliance-analyst.js';
@@ -474,9 +474,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [FEDesigner, { name: 'jobs_front_end_designer', category: 'jobs.ux_design' }, {
+  [FEDeveloper, { name: 'jobs_front_end_developer', category: 'jobs.ux_design' }, {
       en: {
-        path: '/about/jobs/front-end-designer',
+        path: '/about/jobs/front-end-developer',
       },
     },
   ],
