@@ -24,7 +24,7 @@ export default class FaqMerchantsDe extends React.Component {
             von Ihren Kunden manuell eintragen und transparent verfolgen.
           </li>
           <li>
-            <strong>Über unsere REST API</strong> - Integrieren Sie GoCardless nahtlos in Ihre Webseite mit
+            <strong>Über unsere REST API</strong> - Integrieren Sie GoCardless nahtlos in Ihre Website mit
             unserer <Href to='documentation_link' className='u-link-color-p u-text-underline'>REST API</Href>.
           </li>
         </ul>

@@ -32,8 +32,8 @@ export default class FeaturesDe extends React.Component {
                     Ziehen Sie heute die<br />ersten Zahlungen ein
                   </h1>
                   <p className='u-text-heading u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    GoCardless ist der schnellste und<br />einfachste Weg einmalige sowie<br />wiederkehrende online Zahlungen<br />
-                    in Deutschland einzuziehen.
+                    GoCardless bietet die schnellste<br />und einfachste Methode, einmalige sowie<br />wiederkehrende
+                    Zahlungen online einzuziehen.
                   </p>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center'>
@@ -97,11 +97,11 @@ export default class FeaturesDe extends React.Component {
                       <ClockIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Starten Sie in 24 Stunden
+                      Starten Sie in nur wenigen Minuten
                     </div>
                     <p className='u-color-dark-gray u-margin-Txs'>
-                      Sie brauchen nur ein Bankkonto in <Message pointer='country' />.&nbsp;
-                      <Link to='contact_sales'>Kontaktieren Sie uns</Link> um zu beginnen.
+                      Alles, was Sie brauchen, ist ein Bankkonto in <Message pointer='country' />.&nbsp;Richten
+                      Sie Ihren Account ein und legen Sie sofort los.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
@@ -110,12 +110,12 @@ export default class FeaturesDe extends React.Component {
                       <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Keine Anschlussgebühr
+                      Keine Einrichtungsgebühr
                     </div>
                     <p className='u-color-dark-gray u-margin-Txs'>
-                      GoCardless kostet <Message pointer='pricing.per_transaction_amount_normal' /> pro Zahlung
-                      (gedeckelt bei <Message pointer="pricing.cost_cap" />) ohne monatliche oder Anschlussgebühr.
-                      Mit wachsendem Volumen sinken die Preise.
+                      Sie zahlen nur <Message pointer='pricing.per_transaction_amount_normal' /> pro erfolgreicher Transaktion
+                      (höchstens <Message pointer="pricing.cost_cap" />), weder monatliche
+                      Gebühren noch Einrichtungsgebühren. Mit zunehmender Transaktionsanzahl sinken die Preise.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
@@ -127,8 +127,8 @@ export default class FeaturesDe extends React.Component {
                       Automatieren Sie alles
                     </div>
                     <p className='u-color-dark-gray u-margin-Txs'>
-                      GoCardless automatisiert für Sie das Einziehen, Verfolgen und die Schlichtung von Zahlungen. Wir übernehmen die
-                      anstrengende Arbeit für Sie.
+                      GoCardless automatisiert für Sie das Einziehen, Verfolgen und den Abgleich von Zahlungen.
+                      Wir übernehmen die aufwendige Arbeit für Sie.
                     </p>
                   </div>
                 </div>
@@ -139,11 +139,11 @@ export default class FeaturesDe extends React.Component {
                       <CustomerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Starke Verbleibquote
+                      Schaffen Sie langfristige Kundenbeziehungen
                     </div>
                     <p className='u-color-dark-gray u-margin-Txs'>
-                      Da GoCardless auf dem Lastschriftverfahren aufbaut,
-                      verlieren Sie weniger Kunden durch Kreditkartenablauf oder Kündigungen.
+                      Dank der Verwendung des Lastschriftverfahrens verlieren Sie mit GoCardless keine Kunden durch
+                      abgelaufene oder gesperrte Kreditkarten.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
@@ -152,10 +152,10 @@ export default class FeaturesDe extends React.Component {
                       <SecurityIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                     </figure>
                     <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-s u-margin-Tm'>
-                      Robuste Sicherheit
+                      Absolute Sicherheit
                     </div>
                     <p className='u-color-dark-gray u-margin-Txs'>
-                      Wir speichern alle Bankdetails mit RSA Verschlüsselung und kommunizieren ausschließlich über sichere Verbindungen.
+                      Wir speichern alle Bankdaten mittels RSA-Verschlüsselung und übertragen diese ausschließlich über sichere Verbindungen.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of3'>
@@ -167,8 +167,8 @@ export default class FeaturesDe extends React.Component {
                       Moderne, RESTful API
                     </div>
                     <p className='u-color-dark-gray u-margin-Txs'>
-                      Integrieren Sie GoCardless innerhalb von Minuten in Ihre Webseite oder App mit Hilfe
-                      unserer API Leitfäden. <a href='https://developer.gocardless.com/'>Mehr hierzu</a>.
+                      Integrieren Sie GoCardless innerhalb von Minuten in Ihre Website oder App über unsere benutzerfreundlichen
+                      API-Bibliotheken. <a href='https://developer.gocardless.com/'>Mehr dazu</a>.
                     </p>
                   </div>
                 </div>
@@ -184,20 +184,20 @@ export default class FeaturesDe extends React.Component {
                 </div>
                 <div className='grid__cell u-size-1of2 u-margin-Tl'>
                   <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Bl u-margin-Ts'>
-                    Halten Sie die Kontrolle über Ihren Cashflow
+                    Behalten Sie die Kontrolle über Ihren Cashflow
                   </h2>
-                  <h3 className='u-text-xs'>Sehen Sie sofortige Status Reports</h3>
+                  <h3 className='u-text-xs'>Unmittelbare Statusberichte</h3>
                   <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    Unser übersichtliches Online Dashboard sowie unsere Email Benachrichtigungen halten Sie jederzeit
-                    auf dem Laufenden über Ihre Kunden und deren Zahlungen.
+                    Unser übersichtliches Online-Dashboard sowie unsere E-Mail-Benachrichtigungen halten
+                    Sie jederzeit über Ihre Kunden und deren Zahlungen auf dem Laufenden.
                   </p>
                   <h3 className='u-text-xs'>Exportieren Sie Ihre Daten</h3>
                   <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    Sehen Sie Ihre Daten genau so, wie Sie das möchten. GoCardless ist mit den meisten Verwaltungssoftwares kompatibel.
+                    Managen Sie Ihre Daten genau nach Ihren Vorstellungen. GoCardless ist mit den meisten Verwaltungsprogrammen kompatibel.
                   </p>
                   <h3 className='u-text-xs'>Ziehen Sie täglich Zahlungen ein</h3>
                   <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    Mit GoCardless können Sie so oft Sie möchten Zahlungen kreieren — ohne extra Aufwand oder Kosten.
+                    Mit GoCardless können Sie Zahlungen erstellen so oft Sie möchten — ohne zusätzlichen Aufwand oder Kosten.
                   </p>
                 </div>
               </div>
@@ -213,20 +213,20 @@ export default class FeaturesDe extends React.Component {
                     GoCardless ist ein autorisierter Zahlungsdienst, der Zahlungen für Sie
                     und Ihre Kunden zum Kinderspiel macht.
                   </p>
-                  <h3 className='u-text-xs'>Einfache online Einrichtung</h3>
+                  <h3 className='u-text-xs'>Einfache Online-Einrichtung</h3>
                   <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    Der gesamte Prozess findet online statt. Ihre Kunden können Zahlungen innerhalb von Minuten in unserem
-                    online Formular autorisieren — auch mobil.
+                    Die gesamte Einrichtung erfolgt online. Ihre Kunden können Zahlungen innerhalb von
+                    Minuten mittels unseres Online-Mandats autorisieren — und das selbst über Smartphone oder Tablet.
                   </p>
                   <h3 className='u-text-xs'>Ihr Logo und Ihr Name</h3>
                   <p className='u-color-dark-gray u-margin-Bm'>
-                    Generieren Sie eine tolle User Experience für Ihre Kunden,<br />indem Sie unsere Zahlungsformulare mit
-                    Ihrem Logo ausstatten, und Ihre Kunden nach der Zahlung automatisch auf Ihre Seite leiten.
+                    Bleiben Sie stets präsent für Ihre Kunden, indem Sie unsere Zahlungsformulare mit Ihrem Logo versehen
+                    und Ihre Kunden nach der Zahlung automatisch auf Ihre Seite leiten.
                   </p>
-                  <h3 className='u-text-xs'>Ein sicherer und einfacher Weg zu zahlen</h3>
+                  <h3 className='u-text-xs'>Eine sichere und einfache Zahlungsweise</h3>
                   <p className='u-size-5of6 u-color-dark-gray u-margin-Bm'>
-                    Mit Lastschriften gibt es für Ihre Kunden keinen Grund mehr sich über Zahlungsverzögerungen zu sorgen.
-                    Ihre Kunden sind außerdem geschützt durch das SEPA Lastschriftabkommen.
+                    Dank des Lastschriftverfahrens müssen Ihre Kunden sich keine Sorgen mehr machen, Zahlungen nicht
+                    rechtzeitig zu begleichen. Zudem sind sie durch das SEPA-Lastschriftabkommen abgesichert.
                   </p>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center'>
@@ -247,7 +247,7 @@ export default class FeaturesDe extends React.Component {
                   </h2>
                   <div className='u-center'>
                     <p className='u-text-xs u-color-dark-gray u-margin-Ts'>
-                      Sprechen Sie heute mit einem unserer Lastschriftexperten, um zu erfahren, wie GoCardless Ihnen helfen könnte.
+                      Sprechen Sie noch heute mit einem unserer Experten und erfahren Sie, wie GoCardless Ihnen helfen könnte.
                     </p>
                   </div>
                   <Link to='contact_sales' id='track-cta-contact-sales' className='btn btn--hollow u-margin-Tm'>
@@ -282,10 +282,10 @@ export default class FeaturesDe extends React.Component {
               <div className='u-padding-Vxl'>
                 <div className='u-size-2of3 u-center'>
                   <h2 className='u-text-heading u-color-dark-gray u-text-xl u-text-light u-margin-Bs'>
-                    Ihr Online Dashboard
+                    Ihr Online-Dashboard
                   </h2>
                   <div className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
-                    Alles, was Sie benötigen, um Zahlungen zu empfangen. Ganz ohne Installation.
+                    Alles, was Sie benötigen, um Zahlungen einzuziehen. Zu 100 % online, ganz ohne Installation.
                   </div>
                   <hr className='u-margin-Vxxl' />
                 </div>

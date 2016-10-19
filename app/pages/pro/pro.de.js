@@ -114,7 +114,7 @@ export default class ProDe extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Wir machen es unglaublich einfach auf der Basis von GoCardless Pro zu entwickeln,
-                      sodass Sie die nächste Generation Ihrer Webseite oder App kreieren können.
+                      sodass Sie die nächste Generation Ihrer Website oder App kreieren können.
                     </p>
                   </div>
                   <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>

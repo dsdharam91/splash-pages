@@ -19,7 +19,7 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
         </p>
         <p className='para'>
           Sie können GoCardless integrieren, um Lastschriften von Ihren Kunden bequem über Ihr CRM Tool oder
-          Ihre Webseite einzuziehen.
+          Ihre Website einzuziehen.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -32,16 +32,16 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Kann ich die Zahlungsseiten auch auf meiner Webseite hosten?
+          Kann ich die Zahlungsseiten auch auf meiner Website hosten?
         </h3>
         <p className='para'>
           Ja, allerdings nur mit GoCardless Pro. Dann können Sie Ihr eigenes Design anwenden und sie direkt
-          auf Ihrer eigenen Webseite hosten. Beachten Sie allerdings, dass es hier gewisse SEPA Regeln gibt, die
+          auf Ihrer eigenen Website hosten. Beachten Sie allerdings, dass es hier gewisse SEPA Regeln gibt, die
           Sie bei der Erstellung Ihrer eigenen Zahlungsseiten einhalten müssen.
         </p>
         <p className='para'>
           Im Falle unseres Standard GoCardless Produktes, hosten wir Ihre Zahlungsseiten sicher auf unserer
-          Webseite. Natürlich sind diese Seiten konform mit den SEPA Regelwerken.
+          Website. Natürlich sind diese Seiten konform mit den SEPA Regelwerken.
         </p>
         <p className='para'>
           In diesem Fall können Sie Ihre Kunden zu der von uns gehosteten Zahlungsseite leiten und nach erfolgreichem

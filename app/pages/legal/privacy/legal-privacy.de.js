@@ -26,7 +26,7 @@ export default class LegalPrivacyDe extends React.Component {
           beziehen sie sich alle auf GoCardless Ltd., 338-346 Goswell Road, London, EC1V 7LQ, Vereinigtes Königreich.
         </p>
         <p className='para'>
-          Bitte lesen Sie sich diese Richtlinie aufmerksam durch, bevor Sie diese Webseite benutzen.
+          Bitte lesen Sie sich diese Richtlinie aufmerksam durch, bevor Sie diese Website benutzen.
           Ihre Privatsphäre ist uns sehr wichtig. Wir haben daher Maßnahmen ergriffen, um sicherzustellen,
           dass persönliche Informationen oder Daten, die wir von Ihnen erhalten,
           im Einklang mit den geltenden gesetzlichen Vorschriften erfasst und bearbeitet werden.
@@ -44,7 +44,7 @@ export default class LegalPrivacyDe extends React.Component {
         </h3>
         <p className='para'>
           In dieser Richtlinie erhalten Sie Informationen darüber, wie wir personenbezogene Daten,
-          die wir von den Besuchern unserer Webseite und von Kunden erfassen und erhalten, behandeln.
+          die wir von den Besuchern unserer Website und von Kunden erfassen und erhalten, behandeln.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -60,9 +60,9 @@ export default class LegalPrivacyDe extends React.Component {
           Erfassung und Verwendung von Informationen
         </h3>
         <p className='para'>
-          Wenn Sie unsere Webseite besuchen, können wir automatisch bestimmte systembezogene Informationen über
+          Wenn Sie unsere Website besuchen, können wir automatisch bestimmte systembezogene Informationen über
           Ihren Besuch erfassen und auch Cookies verwenden, um Ihnen den Zugang zu bestimmten privaten Bereichen
-          der Webseite zu ermöglichen. Weitere Informationen erhalten Sie unten im Abschnitt <em>Cookies</em>.
+          der Website zu ermöglichen. Weitere Informationen erhalten Sie unten im Abschnitt <em>Cookies</em>.
         </p>
         <p className='para'>
           Telefongespräche können aus Sicherheits- und aufsichtsbehördlichen Gründen aufgezeichnet werden und
@@ -101,7 +101,7 @@ export default class LegalPrivacyDe extends React.Component {
         </p>
         <p className='para'>
           Sie sind berechtigt, Ihre personenbezogenen Daten zu korrigieren, ihre Verwendung zu beschränken
-          oder ihre Löschung von uns zu verlangen. Verwenden Sie die Kontaktangaben am Ende dieser Webseite,
+          oder ihre Löschung von uns zu verlangen. Verwenden Sie die Kontaktangaben am Ende dieser Website,
           um Fragen zu stellen oder die Korrektur, Beschränkung oder Löschung Ihrer personenbezogenen Daten zu verlangen.
         </p>
 
@@ -109,18 +109,18 @@ export default class LegalPrivacyDe extends React.Component {
           Cookies
         </h3>
         <p className='para'>
-          Ein Cookie ist eine kleine Textdatei, die eine Webseite auf Ihre Festplatte oder Ihren Internetbrowser überträgt,
-          um die Nutzung der Webseite zu verfolgen. Cookies werden auf vielen Webseiten benutzt, um Besuchern den Zugriff
+          Ein Cookie ist eine kleine Textdatei, die eine Website auf Ihre Festplatte oder Ihren Internetbrowser überträgt,
+          um die Nutzung der Website zu verfolgen. Cookies werden auf vielen Websites benutzt, um Besuchern den Zugriff
           auf verschiedene Funktionen zu ermöglichen. Durch die in einem Cookie enthaltenen Informationen kann beobachtet werden,
-          wie Sie die Webseite benutzen.
+          wie Sie die Website benutzen.
         </p>
         <p className='para'>
-          Unsere Webseite verwendet Cookies auf zwei Arten:
+          Unsere Website verwendet Cookies auf zwei Arten:
         </p>
         <p className='para'>
           Die erste Art besteht darin, systemrelevante Informationen zu erfassen, wie die Art des von Ihnen
-          benutzten Internetbrowsers und Betriebssystems, die Webseite, von der Sie auf unsere Webseite weitergeleitet wurden,
-          die Dauer der einzelnen Seitenaufrufe, Pfade, die von Besuchern auf der Webseite gewählt wurden,
+          benutzten Internetbrowsers und Betriebssystems, die Website, von der Sie auf unsere Website weitergeleitet wurden,
+          die Dauer der einzelnen Seitenaufrufe, Pfade, die von Besuchern auf der Website gewählt wurden,
           und sonstige allgemeine Informationen, die automatisch von unserem Webserver erkannt werden.
           Diese Informationen werden zur Systemverwaltung erfasst und um aggregierte Informationen an
           unsere Unterauftragnehmer und Partner weiterzugeben, damit sie Dienstleistungen für uns erbringen können.
@@ -132,39 +132,39 @@ export default class LegalPrivacyDe extends React.Component {
         </p>
         <p className='para'>
           Die zweite Art besteht darin, dass Cookies auch verwendet werden, wenn registrierte Nutzer auf private
-          Bereiche unserer Webseite zugreifen.
+          Bereiche unserer Website zugreifen.
           Cookies werden verwendet, um das Anmeldeverfahren zu erleichtern.
           In diesem Fall können wir möglicherweise feststellen, dass Ihre Anmeldedaten verwendet wurden.
         </p>
         <p className='para'>
           Die meisten Internetbrowser bieten Nutzern die Möglichkeit, Cookies zu löschen oder zu deaktivieren.
           Sie können in der Regel herausfinden, wie dies getan werden kann, indem Sie in der Menüleiste Ihres
-          Browsers die Option "Hilfe" aufrufen oder indem Sie die Webseite des Browserentwicklers besuchen.
+          Browsers die Option "Hilfe" aufrufen oder indem Sie die Website des Browserentwicklers besuchen.
           So erfahren Sie in der Regel, wie Sie verhindern können, dass Ihr Browser Cookies akzeptiert,
           wie Sie benachrichtigt werden, wenn neue Cookies eingestellt werden, und wie Sie
           Cookies allgemein deaktivieren können. Bitte beachten Sie, dass Sie, wenn Sie Cookies deaktivieren,
-          nicht mehr auf private Bereiche der Webseite zugreifen können.
+          nicht mehr auf private Bereiche der Website zugreifen können.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           Cookies Dritter
         </h3>
         <p className='para'>
-          Diese Webseite verwendet Google Analytics, einen Webanalysedienst von Google Inc., 1600 Amphitheatre Parkway, Mountain View,
-          CA 94043, USA ("Google"), um Ihre Nutzung dieser Webseite zu analysieren.
+          Diese Website verwendet Google Analytics, einen Webanalysedienst von Google Inc., 1600 Amphitheatre Parkway, Mountain View,
+          CA 94043, USA ("Google"), um Ihre Nutzung dieser Website zu analysieren.
         </p>
         <p className='para'>
           Google Analytics verwendet Cookies, die Textdateien sind, die auf Ihrem Computer eingestellt werden,
-          um bei der Analyse darüber, wie Sie die Webseite benutzen, zu helfen. Die Informationen, die vom Cookie über
-          Ihre Nutzung der Webseite generiert werden, werden von Google an Server in den Vereinigten Staaten übermittelt
+          um bei der Analyse darüber, wie Sie die Website benutzen, zu helfen. Die Informationen, die vom Cookie über
+          Ihre Nutzung der Website generiert werden, werden von Google an Server in den Vereinigten Staaten übermittelt
           und dort gespeichert. Ihre IP-Adresse wird von Google in den Mitgliedsstaaten der
           Europäischen Union oder in sonstigen Ländern,
           die Parteien im Vertrag über den Europäischen Wirtschaftsraum sind, gekürzt werden.
         </p>
         <p className='para'>
-          In Bezug auf GoCardless verwendet Google diese Informationen, um Ihre Nutzung der Webseite zu beurteilen,
-          Berichte über die Webseitenaktivität für Webseitenbetreiber zu erstellen und sonstige Dienste in
-          Bezug auf Webseiten- und Internetnutzung zu erbringen. Google wird Ihre IP-Adresse,
+          In Bezug auf GoCardless verwendet Google diese Informationen, um Ihre Nutzung der Website zu beurteilen,
+          Berichte über die Website-Aktivität für Website-Betreiber zu erstellen und sonstige Dienste in
+          Bezug auf Website- und Internetnutzung zu erbringen. Google wird Ihre IP-Adresse,
           die während der Nutzung von Google Analytics von Ihrem Browser übermittelt wird,
           nicht mit anderen von Google geführten Daten verbinden.
         </p>
@@ -173,7 +173,7 @@ export default class LegalPrivacyDe extends React.Component {
         </p>
         <p className='para'>
           Des Weiteren können Sie die Erfassung von Daten, die von Google Cookies generiert werden und sich auf
-          die Nutzung der Webseite beziehen, und die Bearbeitung dieser Daten durch Google verhindern,
+          die Nutzung der Website beziehen, und die Bearbeitung dieser Daten durch Google verhindern,
           indem Sie den Browser-Plug-In herunterladen und installieren,
           der unter <a href="https://tools.google.com/dlpage/gaoptout">diesem Link</a> verfügbar ist.
         </p>

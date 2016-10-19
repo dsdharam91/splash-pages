@@ -43,7 +43,7 @@ export default class HomeDe extends React.Component {
                   Voll automatisiert
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Sie sparen Zeit und vermeiden menschliche Fehler sowie fehlschlagende Zahlungen
+                  Sparen Sie Zeit, eliminieren Sie menschliche Fehler und vermeiden Sie fehlgeschlagene Lastschriften
                 </p>
               </div>
               <div className='grid__cell u-size-1of3 u-text-center'>
@@ -54,15 +54,15 @@ export default class HomeDe extends React.Component {
                   Transparente Gebühren
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Sie zahlen die Gebühren nur für erfolgreiche Transaktionen und nie für Rücklastschriften
+                  Sie zahlen nur Gebühren für erfolgreiche Transaktionen und nie für Rücklastschriften
                 </p>
               </div>
             </div>
             <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
-              Sie möchten SEPA besser verstehen?
+              Sie möchten mehr über das SEPA-Lastschriftverfahren erfahren?
             </p>
             <Href to='guides.path' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
-              Lesen Sie unser SEPA Handbuch
+              Lesen Sie unser SEPA-Handbuch
             </Href>
           </div>
         </div>
@@ -181,7 +181,7 @@ export default class HomeDe extends React.Component {
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                Einfache transparente Preise für alle
+                Einfach Preiskalkulation — transparent für alle
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 Mit GoCardless zahlen Sie nie mehr Gebühren für Rücklastschriften
