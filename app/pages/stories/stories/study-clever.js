@@ -12,7 +12,7 @@ export default class StoriesStudyClever extends React.Component {
         position='Gründer & Geschäftsführer'
         company='study clever GmbH'
         benefits='Automatisierung durch Rest-API, "study clever" auf dem Kontoauszug der Kunden, Verwendung in mehreren Portalen gleichzeitig.'
-        bgimgUrl='url(/images/stories/story-images/gastrofix/hero-gastrofix.jpg)'
+        bgimgUrl='url(/images/stories/story-images/study-clever/hero-study-clever-GoCardless.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/study-clever-logo.png'
         sidebarServices='Online-Steuererklärung'
         sidebarEmployees='10 Mitarbeiter'
@@ -31,10 +31,10 @@ export default class StoriesStudyClever extends React.Component {
           </div>
           <p className='para'>
             Die Idee zur Entwicklung eines spezialisierten Steuer-Tools für Studenten hatten die Gründer bereits während der eigenen
-            Studienzeit. “Als ich meine erste Steuererklärung machen wollte, bereitete mir die Flut an unverständlichen Steuerformularen so
-            manche Probleme”, erinnert sich Geschäftsführer David Czaniecki. Eine abgabefertige Steuererklärung brachte der gebürtige
+            Studienzeit. „Als ich meine erste Steuererklärung machen wollte, bereitete mir die Flut an unverständlichen Steuerformularen so
+            manche Probleme“, erinnert sich Geschäftsführer David Czaniecki. Eine abgabefertige Steuererklärung brachte der gebürtige
             Hamburger zwar schließlich zustande. Neben einer erfreulichen Steuererstattung brachte der erste Ausflug ins deutsche Steuersystem
-            aber vor allem die Erkenntnis: “Das muss doch auch einfacher gehen!” Mit der Entwicklung von mittlerweile acht Steuer-Tools haben
+            aber vor allem die Erkenntnis: „Das muss doch auch einfacher gehen!“ Mit der Entwicklung von mittlerweile acht Steuer-Tools haben
             die Gründer längst bewiesen, dass eine Steuererklärung keine komplizierte Angelegenheit sein muss.
           </p>
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
@@ -42,7 +42,7 @@ export default class StoriesStudyClever extends React.Component {
           </h2>
           <p className='para'>
             Nach einer kostenlosen Testphase musste für studentensteuererklärung.de eine Zahlungsmethode gefunden werden, die die
-            Nutzererfahrung nicht verschlechtert. Da die Datensicherheit bei dem hochsensiblen Thema “Steuern” im Fokus steht, sollten die
+            Nutzererfahrung nicht verschlechtert. Da die Datensicherheit bei dem hochsensiblen Thema „Steuern“ im Fokus steht, sollten die
             Nutzer auf keinen Fall auf eine externe Website weitergeleitet werden. Die Einbindung von GoCardless stellte hierfür eine
             tolle und sichere Lösung dar.
           </p>
@@ -69,7 +69,7 @@ export default class StoriesStudyClever extends React.Component {
           </p>
           <p className='para'>
             Das Automatisieren von Rechnungserstellung und Zahlungseinzug sowie die Einbindung ihres eigenen Mahnverfahrens bedeutet für
-            study clever, dass sie sich viel besser auf ihr eigentliches Produkt fokussieren können. Sollte ein Kunde sein Sepa-Mandat
+            study clever, dass sie sich viel besser auf ihr eigentliches Produkt fokussieren können. Sollte ein Kunde sein SEPA-Mandat
             zurückziehen, wird study clever umgehend darüber informiert und kann in Einzelfällen auch individualisierte
             Zahlungsaufforderungen verschicken. Falls einem Kunde eine Rückzahlung zusteht, kann das leicht in GoCardless ausgeführt werden.
           </p>

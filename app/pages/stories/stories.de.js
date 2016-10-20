@@ -40,7 +40,7 @@ let caseStudies = {
       logoSrc: '/images/stories/story-logos/picdrop-logo.png',
       logoWidth: '200',
       industry: 'SaaS',
-    }
+    },
   ],
 };
 
