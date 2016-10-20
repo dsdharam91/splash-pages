@@ -12,7 +12,7 @@ export default class StoriesPeterboroughCouncil extends React.Component {
         position='Partnership Manager'
         company='Peterborough City Council'
         benefits='Quick to set up and integrate with existing systems, plus lower processing costs.'
-        bgimgUrl='url(/images/stories/story-images/hotpod-yoga/hero-hotpod-yoga.jpg)'
+        bgimgUrl='url(/images/stories/story-images/peterborough-council/hero-peterborough.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/peterborough-council.png'
         sidebarServices='Providing local government services to residents in Peterborough.'
         sidebarEmployees='1,400 employees'
