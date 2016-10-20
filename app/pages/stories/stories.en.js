@@ -33,6 +33,14 @@ let caseStudies = {
       industry: 'Accountancy',
     },
     {
+      link: 'stories_your_parking_space',
+      quote: `Affordable fees, seamless integration, and an easy-to-use customer experience`,
+      size: '10 employees',
+      logoSrc: '/images/stories/story-logos/your-parking-space.png',
+      logoWidth: '190',
+      industry: 'Online Marketplace',
+    },
+    {
       link: 'stories_has_bean_coffee',
       quote: `GoCardless helps to prevent uncomfortable conversations about money`,
       size: '15 employees',

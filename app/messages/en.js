@@ -619,6 +619,10 @@ export default {
     title: 'Soaring Falcon Accountancy - Customer Stories',
     description: '',
   },
+  stories_your_parking_space: {
+    title: 'Your Parking Space - Customer Stories',
+    description: '',
+  },
   stories_greater_anglia: {
     title: 'Greater Anglia',
     description: 'Greater Anglia saved £21,000 by switching to online Direct Debit with GoCardless. Read their testimonial of GoCardless.',
