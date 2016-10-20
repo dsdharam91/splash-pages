@@ -34,7 +34,7 @@ let caseStudies = {
     },
     {
       link: 'stories_your_parking_space',
-      quote: `Affordable fees, seamless integration, and an easy-to-use customer experience`,
+      quote: `You don’t suffer from failed payments caused by expired credit or debit cards.`,
       size: '10 employees',
       logoSrc: '/images/stories/story-logos/your-parking-space.png',
       logoWidth: '190',

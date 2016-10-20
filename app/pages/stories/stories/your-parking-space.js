@@ -7,12 +7,12 @@ export default class StoriesYourParkingSpace extends React.Component {
   render() {
     return (
       <StoryPageNew
-        title='With affordable fees, seamless integration, and easy-to-use customer experience, switching to GoCardless was an easy decision.'
+        title='For ongoing monthly payments it’s perfect. You can easily adjust the subscription amounts and don’t suffer from the problem of expired cards'
         author='Charles Cridland'
         position='Technical Director'
-        company='YourParkingSpace.co.uk'
-        benefits='TBC'
-        bgimgUrl=''
+        company='YourParkingSpace'
+        benefits='Affordable fees, seamless integration, an easy-to-use customer experience and countless hours saved'
+        bgimgUrl='url(/images/stories/story-images/your-parking-space/hero-your-parking-space.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/your-parking-space.png'
         sidebarServices='An online marketplace designed to make parking your car easier'
         sidebarEmployees='10 employees'
