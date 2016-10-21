@@ -15,8 +15,24 @@ let caseStudies = {
       logoWidth: '130',
       industry: 'SaaS',
     },
+    {
+      link: 'stories_study_clever',
+      quote: 'Unsere IT-Abteilung war noch nie so begeistert von einem Zahlungsanbieter',
+      size: '10 Mitarbeiter',
+      logoSrc: '/images/stories/story-logos/study-clever-logo.png',
+      logoWidth: '180',
+      industry: 'SaaS / TaxTech',
+    },
   ],
   KMUs: [
+    {
+      link: 'stories_crossfit_oldenburg',
+      quote: 'Der Vorteil für mich ist eine Zeitersparnis von ca. 5 Stunden!',
+      size: '1 Mitarbeiter',
+      logoSrc: '/images/stories/story-logos/crossfit-oldenburg-logo.png',
+      logoWidth: '60',
+      industry: 'CrossFit',
+    },
     {
       link: 'stories_picdrop',
       quote: 'Wir können einen viel besseren Service für unsere Kunden gewährleisten',
@@ -24,14 +40,6 @@ let caseStudies = {
       logoSrc: '/images/stories/story-logos/picdrop-logo.png',
       logoWidth: '200',
       industry: 'SaaS',
-    },
-    {
-      link: 'stories_crossfit_oldenburg',
-      quote: 'Der Vorteil für mich ist eine Zeitersparnis von ca. 5 Stunden!',
-      size: '1 Mitarbeiter',
-      logoSrc: '/images/stories/story-images/crossfit-oldenburg/crossfit-oldenburg-logo.png',
-      logoWidth: '60',
-      industry: 'CrossFit',
     },
   ],
 };
