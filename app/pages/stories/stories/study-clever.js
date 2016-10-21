@@ -12,7 +12,7 @@ export default class StoriesStudyClever extends React.Component {
         position='Gründer & Geschäftsführer'
         company='study clever GmbH'
         benefits='Automatisierung durch Rest-API, "study clever" auf dem Kontoauszug der Kunden, Verwendung in mehreren Portalen gleichzeitig.'
-        bgimgUrl='url(/images/stories/story-images/study-clever/hero-study-clever-GoCardless.jpg)'
+        bgimgUrl='url(/images/stories/story-images/study-clever/hero-study-clever-gocardless.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/study-clever-logo.png'
         sidebarServices='Online-Steuererklärung'
         sidebarEmployees='10 Mitarbeiter'
@@ -27,7 +27,7 @@ export default class StoriesStudyClever extends React.Component {
             Unternehmen auch für weitere Zielgruppen spezialisierte Online-Tools zur Erstellung von Steuererklärungen entwickelt.
           </p>
           <div className='story-page__image'>
-            <img src='/images/stories/story-images/study-clever/Gründer-study-clever-GoCardless.jpg' alt='Gründer-study-clever-GoCardless' />
+            <img src='/images/stories/story-images/study-clever/gruender-study-clever-gocardless.jpg' alt='gruuender-study-clever-gocardless' />
           </div>
           <p className='para'>
             Die Idee zur Entwicklung eines spezialisierten Steuer-Tools für Studenten hatten die Gründer bereits während der eigenen
@@ -74,7 +74,7 @@ export default class StoriesStudyClever extends React.Component {
             Zahlungsaufforderungen verschicken. Falls einem Kunde eine Rückzahlung zusteht, kann das leicht in GoCardless ausgeführt werden.
           </p>
           <div className='story-page__image'>
-            <img src='/images/stories/story-images/study-clever/study-clever-GoCardless.jpg' alt='study-clever-GoCardless' />
+            <img src='/images/stories/story-images/study-clever/study-clever-gocardless.jpg' alt='study-clever-gocardless' />
           </div>
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
             Maximum an Flexibilität
