@@ -119,6 +119,11 @@ export default {
     title: 'Example Checkout Page: Paying with GoCardless & Direct Debit',
     description: '',
   },
+  customer_offers: {
+    title: 'Exclusive Customer Offers',
+    nav_title: 'Customer Offers',
+    description: '',
+  },
   features: {
     title: 'Quick & Simple Online Payments',
     nav_title: 'Features',

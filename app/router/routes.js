@@ -27,6 +27,7 @@ import Utilities from '../pages/industries/utilities';
 
 import Europe from '../pages/europe/europe';
 import ExampleCheckout from '../pages/example-checkout/example-checkout';
+import CustomerOffers from '../pages/customer-offers/customer-offers';
 
 import About from '../pages/about/about';
 import Team from '../pages/about/team/team';
@@ -386,6 +387,12 @@ export const config = Immutable.fromJS([
   [ExampleCheckout, { name: 'example_checkout' }, {
       'en-GB': {
         path: '/example-checkout',
+      },
+    },
+  ],
+  [CustomerOffers, { name: 'customer_offers' }, {
+      'en-GB': {
+        path: '/customer-offers',
       },
     },
   ],

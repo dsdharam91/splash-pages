@@ -94,6 +94,9 @@ class Footer extends React.Component {
               <IfLinkExists to='europe' tagName='li'>
                 <Link to='europe' pointer='europe.nav_title' className='page-footer__link u-link-invert' />
               </IfLinkExists>
+              <IfLinkExists to='customer_offers' tagName='li'>
+                <Link to='customer_offers' pointer='customer_offers.nav_title' className='page-footer__link u-link-invert' />
+              </IfLinkExists>
               <IfLinkExists to='legal' tagName='li'>
                 { /** We special case legal's footer link text, since it appears in the legal page's nav with another name  */ }
                 <Link to='legal' pointer='legal.footer_nav_title' className='page-footer__link u-link-invert' />
