@@ -125,6 +125,7 @@ import StoriesHabitat from '../pages/stories/stories/habitat';
 import StoriesPicDrop from '../pages/stories/stories/picdrop';
 import StoriesGastrofix from '../pages/stories/stories/gastrofix';
 import StoriesCrossfitOldenburg from '../pages/stories/stories/crossfit-oldenburg';
+import StoriesStudyClever from '../pages/stories/stories/study-clever';
 
 export var homeRoute = 'home';
 
@@ -1434,6 +1435,12 @@ export const config = Immutable.fromJS([
   [StoriesGastrofix, { name: 'stories_gastrofix', category: 'stories' }, {
       de: {
         path: '/kundenstimmen/gastrofix',
+      },
+    },
+  ],
+  [StoriesStudyClever, { name: 'stories_study_clever', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/study-clever',
       },
     },
   ],

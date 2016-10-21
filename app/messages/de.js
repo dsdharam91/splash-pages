@@ -317,6 +317,10 @@ export default {
     title: 'PicDrop',
     description: '',
   },
+  stories_study_clever: {
+    title: 'study clever',
+    description: '',
+  },
   stories_gastrofix: {
     title: 'Gastrofix',
     description: '',
