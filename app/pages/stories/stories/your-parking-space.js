@@ -16,7 +16,6 @@ export default class StoriesYourParkingSpace extends React.Component {
         sidebarLogoSrc='/images/stories/story-logos/your-parking-space.png'
         sidebarServices='An online marketplace designed to make parking your car easier'
         sidebarEmployees='10 employees'
-        sidebarPreviousProvider='TBC'
         sidebarTimeSaved='Countless hours!'>
         <div className='story-body'>
           <p className='para u-margin-Tn'>
@@ -25,12 +24,11 @@ export default class StoriesYourParkingSpace extends React.Component {
             capitalise on their underutilised parking inventory.
           </p>
           <p className='para'>
-            Since launching in 2006, YourParkingSpace has experienced huge growth and now has over 250,000 parking spaces
+            Since launching, YourParkingSpace has experienced huge growth and now has over 250,000 parking spaces
             available to book online.
           </p>
           <p className='para'>
-            In October 2014, YourParkingSpace celebrated £250,000 in funding thanks to a partnership deal with leading UK car parking
-            business NCP (National Car Parks). YourParkingSpace needed a Direct Debit payment provider to keep up with its success.
+            After securing seed funding in 2014, YourParkingSpace needed a Direct Debit payment provider that could keep up with its growth.
           </p>
           <div className='story-page__image'>
             <img src='/images/stories/story-images/your-parking-space/website@2x.jpg' alt='' />
