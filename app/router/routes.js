@@ -113,6 +113,7 @@ import StoriesRockChoir from '../pages/stories/stories/rock-choir';
 import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
 import StoriesSmartPension from '../pages/stories/stories/smart-pension';
 import StoriesSoaringFalcon from '../pages/stories/stories/soaring-falcon';
+import StoriesYourParkingSpace from '../pages/stories/stories/your-parking-space';
 
 import StoriesBlueskyBusiness from '../pages/stories/stories/bluesky-business';
 import StoriesSpencerHockey from '../pages/stories/stories/spencer-hockey';
@@ -1383,6 +1384,12 @@ export const config = Immutable.fromJS([
   [StoriesSoaringFalcon, { name: 'stories_soaring_falcon', category: 'stories' }, {
       'en-GB': {
         path: '/stories/soaring-falcon',
+      },
+    },
+  ],
+  [StoriesYourParkingSpace, { name: 'stories_your_parking_space', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/your-parking-space',
       },
     },
   ],

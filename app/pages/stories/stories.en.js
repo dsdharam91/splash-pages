@@ -33,6 +33,14 @@ let caseStudies = {
       industry: 'Accountancy',
     },
     {
+      link: 'stories_your_parking_space',
+      quote: `You don’t suffer from failed payments caused by expired credit or debit cards.`,
+      size: '10 employees',
+      logoSrc: '/images/stories/story-logos/your-parking-space.png',
+      logoWidth: '190',
+      industry: 'Online Marketplace',
+    },
+    {
       link: 'stories_has_bean_coffee',
       quote: `GoCardless helps to prevent uncomfortable conversations about money`,
       size: '15 employees',
