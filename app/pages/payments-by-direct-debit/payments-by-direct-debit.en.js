@@ -37,7 +37,7 @@ export default class PaymentsByDirectDebitEn extends React.Component {
                     No more cashflow issues
                   </h3>
                   <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                    Make late payments a thing of the past. With Direct Debit, you control when you get paid.
+                    TEST
                   </p>
                 </div>
                 <div className='grid__cell u-size-1of3 u-padding-Hn u-text-center'>
