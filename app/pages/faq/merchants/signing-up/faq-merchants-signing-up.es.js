@@ -54,7 +54,7 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
         </h3>
         <p className='para'>
           Los desarrolladores deberán registrarse normalmente. Nuestra documentación de la API la
-          puedes encontrar <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>aquí</a>.
+          puedes encontrar <Href to='api_reference_link' className='u-link-color-p u-text-underline'>aquí</Href>.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>

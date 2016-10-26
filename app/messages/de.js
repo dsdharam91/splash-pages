@@ -43,7 +43,8 @@ export default {
   phone_local: '+49 30 568373022',
   email: 'deutschland@gocardless.com',
   partners_email: 'partnerships@gocardless.com',
-  documentation_link: 'https://developer.gocardless.com/',
+  api_reference_link: 'https://developer.gocardless.com/api-reference',
+  developer_link: 'https://developer.gocardless.com',
   prospect_form: {
     sales: {
       name_label: 'Ihr Name',

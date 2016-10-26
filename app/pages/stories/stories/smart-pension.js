@@ -79,7 +79,7 @@ export default class StoriesSmartPension extends React.Component {
             The benefits
           </h2>
           <p className='para'>
-            The simple <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>GoCardless API</a> was easy
+            The simple <Href to='developer_link' className='u-link-color-p u-text-underline'>GoCardless API</Href> was easy
             for Smart Pension to integrate into the existing system, via plug and play integration into the Ruby on Rails platform.
             Smart Pension were up and running with GoCardless in under a week, with help from GoCardless support, which ensured existing
             clients were unaffected by the transition.

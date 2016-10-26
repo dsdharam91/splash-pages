@@ -334,4 +334,6 @@ export default {
     title: 'Foundation of Hearts',
     description: '',
   },
+  api_reference_link: 'https://developer.gocardless.com/api-reference',
+  developer_link: 'https://developer.gocardless.com/fr',
 };

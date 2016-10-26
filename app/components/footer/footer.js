@@ -84,9 +84,9 @@ class Footer extends React.Component {
                 <Link to='faq_pro_dashboard' pointer='faq_pro_dashboard.link_title' className='page-footer__link u-link-invert' />
               </IfLinkExists>
               <li>
-                <a href='https://developer.gocardless.com/' id='track-footer-api-docs' className='page-footer__link u-link-invert'>
+                <Href to='developer_link' id='track-footer-api-docs' className='page-footer__link u-link-invert'>
                   <Message pointer='api_docs.nav_title' />
-                </a>
+                </Href>
               </li>
               <IfLinkExists to='security' tagName='li'>
                 <Link to='security' pointer='security.nav_title' className='page-footer__link u-link-invert' />

@@ -138,11 +138,11 @@ class Header extends React.Component {
               </Translation>
 
               <div className='nav__item u-relative'>
-                <a href='https://developer.gocardless.com/' className={linkClass}>
+                <Href to='developer_link' className={linkClass}>
                   <div className='nav__item-link'>
                     <Message pointer='api_docs.nav_title' />
                   </div>
-                </a>
+                </Href>
               </div>
 
               <div className='nav__item u-relative'>

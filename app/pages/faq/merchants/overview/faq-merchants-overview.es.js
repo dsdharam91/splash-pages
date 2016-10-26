@@ -30,7 +30,7 @@ export default class FaqMerchantsEs extends React.Component {
           </li>
           <li>
             <strong>Nuestra sencilla API REST</strong> - Integra GoCardless en tu sitio web usando
-            nuestra <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>API REST</a>.
+            nuestra <Href to='developer_link' className='u-link-color-p u-text-underline'>API REST</Href>.
           </li>
         </ul>
 
@@ -139,8 +139,8 @@ export default class FaqMerchantsEs extends React.Component {
           </IfLocale>
           <li>
             <strong>Potentes herramientas que se adaptan a tus necesidades</strong> - Tienes todo lo que necesitas para realizar,
-            recaudar y gestionar cobros de Adeudo Directo con nuestro sencillo panel de control o <a href='https://developer.gocardless.com/'
-            className='u-link-color-p u-text-underline'> nuestra API REST</a>.
+            recaudar y gestionar cobros de Adeudo Directo con nuestro sencillo panel de control o <Href to='developer_link'
+            className='u-link-color-p u-text-underline'>nuestra API REST</Href>.
           </li>
           <li>
             <strong>El toque personal</strong> - Nuestro equipo de asistencia se enorgullece de estar ahí siempre que nos necesites.

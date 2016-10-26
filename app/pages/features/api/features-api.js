@@ -5,6 +5,7 @@ import CheckListIcon from '../../../icons/svg/checklist';
 import SecurityIcon from '../../../icons/svg/security';
 import AddPartnerIcon from '../../../icons/svg/add-partner';
 import Link from '../../../components/link/link';
+import Href from '../../../components/href/href';
 
 export default class FeaturesAPI extends React.Component {
   displayName = 'FeaturesAPI'
@@ -86,13 +87,13 @@ export default class FeaturesAPI extends React.Component {
                 </p>
               </div>
             </div>
-            <a href='https://developer.gocardless.com/'
+            <Href link='api_reference_link'
             className={
               'u-color-primary u-text-upcase u-text-xxs ' +
               'u-text-heading u-text-semi u-block u-margin-Tm'
             }>
               Read our API documentation
-            </a>
+            </Href>
           </div>
         </div>
         <hr className='u-margin-An' />
@@ -249,9 +250,9 @@ export default class FeaturesAPI extends React.Component {
               <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
                 Get started today
               </h2>
-              <a href='https://developer.gocardless.com/' target='_blank' className='btn btn--hollow u-margin-Tm'>
+              <Href link='api_reference_link' target='_blank' className='btn btn--hollow u-margin-Tm'>
                 Read our API documentation
-              </a>
+              </Href>
               <hr className='u-margin-Vxl horizontal-rule u-size-3of4 u-center' />
               <p className='u-color-dark-gray u-margin-Bxxs'>
                 <strong>Looking complete control, like custom payment pages?</strong>

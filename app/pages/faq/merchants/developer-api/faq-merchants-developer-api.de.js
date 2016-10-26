@@ -15,7 +15,7 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
         </h3>
         <p className='para'>
           Unsere REST API erlaubt es Entwicklern auf einfachstem Weg mit GoCardless zu integrieren. Lernen Sie dazu
-          mehr in unserer <Href to='documentation_link' className='u-link-color-p u-text-underline'>Dokumentation</Href>.
+          mehr in unserer <Href to='api_reference_link' className='u-link-color-p u-text-underline'>Dokumentation</Href>.
         </p>
         <p className='para'>
           Sie können GoCardless integrieren, um Lastschriften von Ihren Kunden bequem über Ihr CRM Tool oder
