@@ -99,7 +99,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
         </p>
         <p className='para'>
           Podrás encontrar más información acerca de nuestros webhooks disponibles y cómo utilizarlos en
-          nuestra <a href='https://developer.gocardless.com/#webhooks-overview' className='u-link-color-p u-text-underline'>guía de
+          nuestra <a href='https://developer.gocardless.com/api-reference/#webhooks-overview' className='u-link-color-p u-text-underline'>guía de
           webhooks</a>.
         </p>
 

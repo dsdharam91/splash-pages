@@ -41,7 +41,7 @@ export default class FeaturesAPI extends React.Component {
               <a href='https://github.com/gocardless/gocardless-ruby'>Ruby</a>,&nbsp;
               <a href='https://github.com/gocardless/gocardless-php'>PHP</a>,&nbsp;
               <a href='https://github.com/gocardless/gocardless-java'>Java</a> &amp;&nbsp;
-              <a href='https://developer.gocardless.com/#overview-client-libraries'>more</a>
+              <a href='https://developer.gocardless.com/api-reference/#overview-client-libraries'>more</a>
             </p>
             <div className='grid u-margin-Vl u-padding-Vl'>
               <div className='grid__cell u-size-1of3 u-text-center'>

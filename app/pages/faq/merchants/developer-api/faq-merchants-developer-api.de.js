@@ -66,7 +66,7 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
           Z.B. werden Sie in Echtzeit darüber informiert, wenn sich der Status einer Zahlung oder eines Mandats ändert.
         </p>
         <p className='para'>
-          Sie können in unserer <a href='https://developer.gocardless.com/#webhooks-overview'
+          Sie können in unserer <a href='https://developer.gocardless.com/api-reference/#webhooks-overview'
           className='u-link-color-p u-text-underline'>Webhook Dokumentation</a> mehr über die Verwendung von Webhooks erfahren.
         </p>
 

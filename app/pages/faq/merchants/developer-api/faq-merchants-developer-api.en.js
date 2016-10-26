@@ -44,7 +44,7 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
             requests on their behalf.
           </p>
           <p className='para'>
-            For further information, see our <a href='https://developer.gocardless.com/#guides-oauth'
+            For further information, see our <a href='https://developer.gocardless.com/getting-started/partners/introduction/'
             className='u-link-color-p u-text-underline'>partner API guide</a>.
           </p>
         </Translation>
@@ -167,14 +167,14 @@ export default class FaqMerchantsDeveloperApiEn extends React.Component {
         </p>
         <Translation locales='en-GB'>
           <p className='para'>
-            You can find out more about available webhooks and how to use them in our <a href='https://developer.gocardless.com/#webhooks-overview'
+            You can find out more about available webhooks and how to use them in our <a href='https://developer.gocardless.com/api-reference/#webhooks-overview'
             className='u-link-color-p u-text-underline'>webhook guide</a>.
           </p>
         </Translation>
         <Translation locales={['en']} exclude={['en-GB']}>
           <p className='para'>
             You can find out more about available webhooks and how to use them in
-            our <a href='https://developer.gocardless.com/#webhooks-overview'
+            our <a href='https://developer.gocardless.com/api-reference/#webhooks-overview'
             className='u-link-color-p u-text-underline'>webhook guide</a>.
           </p>
         </Translation>

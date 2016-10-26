@@ -57,7 +57,7 @@ export default class FaqMerchantsDeveloperApiFr extends React.Component {
           objet. Par exemple, vous êtes informé en temps réel sur le statut de tous vos paiements et mandats.
         </p>
         <p className='para'>
-          Vous pouvez en apprendre plus sur nos webhooks dans notre API <a href='https://developer.gocardless.com/#webhooks-overview'
+          Vous pouvez en apprendre plus sur nos webhooks dans notre API <a href='https://developer.gocardless.com/api-reference/#webhooks-overview'
           className='u-link-color-p u-text-underline'>ici</a>.
         </p>
 
