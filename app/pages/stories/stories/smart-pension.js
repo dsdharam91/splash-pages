@@ -1,5 +1,6 @@
 import React from 'react';
 import StoryPageNew from '../story-page-new';
+import Href from '../../../components/href/href';
 
 export default class StoriesSmartPension extends React.Component {
   displayName = 'StoriesSmartPension'

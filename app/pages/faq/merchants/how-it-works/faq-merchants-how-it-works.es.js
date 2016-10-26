@@ -1,5 +1,6 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
+import Href from '../../../../components/href/href';
 
 export default class FaqMerchantsHowItWorksEs extends React.Component {
   displayName = 'FaqMerchantsHowItWorksEs'

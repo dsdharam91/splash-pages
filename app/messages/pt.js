@@ -74,4 +74,6 @@ export default {
     nav_title: 'Guias',
     path: '/guides',
   },
+  api_reference_link: 'https://developer.gocardless.com/api-reference',
+  developer_link: 'https://developer.gocardless.com',
 };

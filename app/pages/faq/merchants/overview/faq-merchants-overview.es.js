@@ -2,6 +2,7 @@ import React from 'react';
 import Translation from '../../../../components/translation/translation';
 import IfLocale from '../../../../components/if-locale/if-locale';
 import Link from '../../../../components/link/link';
+import Href from '../../../../components/href/href';
 import Message from '../../../../components/message/message';
 
 export default class FaqMerchantsEs extends React.Component {
