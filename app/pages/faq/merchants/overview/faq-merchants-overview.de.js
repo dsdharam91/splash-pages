@@ -25,7 +25,7 @@ export default class FaqMerchantsDe extends React.Component {
           </li>
           <li>
             <strong>Über unsere REST API</strong> - Integrieren Sie GoCardless nahtlos in Ihre Website mit
-            unserer <Href to='documentation_link' className='u-link-color-p u-text-underline'>REST API</Href>.
+            unserer <Href to='api_reference_link' className='u-link-color-p u-text-underline'>REST API</Href>.
           </li>
         </ul>
 
@@ -125,7 +125,7 @@ export default class FaqMerchantsDe extends React.Component {
           <li>
             <strong>Clevere Technik</strong> - Wir bieten Ihnen eine hochklassige Lösung, um Zahlungen zu kreieren, zu bearbeiten
             und zu verwalten. Das funktioniert über unser einfaches Online Dashboard und
-            die <Href to='documentation_link' className='u-link-color-p u-text-underline'>REST API</Href>.
+            die <Href to='api_reference_link' className='u-link-color-p u-text-underline'>REST API</Href>.
           </li>
           <li>
             <strong>Der persönliche Bezug</strong> - Unser Team ist immer bemüht Sie bestens zu unterstützen und geht dabei regelmäßig

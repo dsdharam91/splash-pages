@@ -16,7 +16,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
         </h3>
         <p className='para'>
           Nuestra API REST permite a los desarrolladores crear fácilmente integraciones potentes con GoCardless.
-          Consulta nuestra <Href to='documentation_link' className='u-link-color-p u-text-underline'>documentación</Href> para
+          Consulta nuestra <Href to='api_reference_link' className='u-link-color-p u-text-underline'>documentación</Href> para
           obtener más información.
         </p>
         <p className='para'>
@@ -99,7 +99,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
         </p>
         <p className='para'>
           Podrás encontrar más información acerca de nuestros webhooks disponibles y cómo utilizarlos en
-          nuestra <a href='https://developer.gocardless.com/#webhooks-overview' className='u-link-color-p u-text-underline'>guía de
+          nuestra <a href='https://developer.gocardless.com/api-reference/#webhooks-overview' className='u-link-color-p u-text-underline'>guía de
           webhooks</a>.
         </p>
 

@@ -23,7 +23,8 @@ export default {
   phone_full: '+31 85 208 0520',
   phone_local: '085 208 0520',
   partners_email: 'netherlands@gocardless.com',
-  documentation_link: 'https://developer.gocardless.com/',
+  api_reference_link: 'https://developer.gocardless.com/api-reference',
+  developer_link: 'https://developer.gocardless.com',
   prospect_form: {
     sales: {
       name_label: 'Naam',

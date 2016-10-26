@@ -1,6 +1,7 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
 import Link from '../../../../components/link/link';
+import Href from '../../../../components/href/href';
 
 export default class FaqMerchantsSigningUpEn extends React.Component {
   displayName = 'FaqMerchantsSigningUpEn'
@@ -52,7 +53,7 @@ export default class FaqMerchantsSigningUpEn extends React.Component {
           </h3>
           <p className='para'>
             Developers should sign up as normal. Our API documentation can be viewed
-            <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>here</a>.
+            <Href to='api_reference_link' className='u-link-color-p u-text-underline'>here</Href>.
           </p>
         </Translation>
 

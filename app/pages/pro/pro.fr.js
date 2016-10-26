@@ -8,6 +8,7 @@ import MobileIcon from '../../icons/svg/mobile';
 import WhiteLabelIcon from '../../icons/svg/white-label';
 import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 
 export default class ProFr extends React.Component {
   displayName = 'ProFr'
@@ -50,9 +51,9 @@ export default class ProFr extends React.Component {
               }>
               Contactez-nous
             </Link>
-            <a href='https://developer.gocardless.com/' className='u-pull-end u-margin-Txxs u-margin-Rm'>
+            <Href to='api_reference_link' className='u-pull-end u-margin-Txxs u-margin-Rm'>
               Documentation API
-            </a>
+            </Href>
           </div>
         </StickyNav>
         <div className='section-scroll-target' id='en-bref'>
@@ -94,7 +95,7 @@ export default class ProFr extends React.Component {
                   <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Intégrez l'API REST de GoCardless rapidement dans votre site web et vos systèmes
                     d'information. Découvrez notre
-                    <a href='https://developer.gocardless.com/'> documentation</a>.
+                    <Href to='api_reference_link'> documentation</Href>.
                   </p>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>

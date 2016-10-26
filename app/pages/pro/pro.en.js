@@ -4,6 +4,7 @@ import Message from '../../components/message/message';
 import StickyNav from '../../components/sticky-nav/sticky-nav';
 import Tabs from '../../components/tabs/tabs';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 
 export default class ProEn extends React.Component {
   displayName = 'ProEn'
@@ -51,10 +52,10 @@ export default class ProEn extends React.Component {
               }>
                 <Message pointer='cta.pro' />
               </Link>
-              <a href='https://developer.gocardless.com/' id='track-sticky-nav-docs'
+              <Href to='api_reference_link' id='track-sticky-nav-docs'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
                 API Documentation
-              </a>
+              </Href>
             </div>
           </StickyNav>
           <div className='section-scroll-target' id='overview'>
@@ -89,7 +90,7 @@ export default class ProEn extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       All documentation for our Pro product is freely available in
-                      our <a href='https://developer.gocardless.com/' id='track-overview-docs'>API docs</a>.
+                      our <Href to='api_reference_link' id='track-overview-docs'>API docs</Href>.
                       We’ve worked hard to make integrating your systems as painless as possible.
                     </p>
                   </div>
