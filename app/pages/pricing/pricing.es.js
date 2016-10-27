@@ -101,7 +101,7 @@ export default class PricingEs extends React.Component {
 
                       <div className='u-padding-Vs'>
                         <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
-                          0,20 - 0,60 €
+                          0,10 - 0,60 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
                           Por transacción,<br/>más <strong>100€</strong> al mes
@@ -141,11 +141,9 @@ export default class PricingEs extends React.Component {
                       <hr />
 
                       <div className='u-padding-Vs'>
-                        <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
-                          0,01 - 0,60 €
-                        </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Por transacción,<br/>más <strong>250€</strong> al mes
+                          Contacte con nosotros para<br />
+                          obtener su cotización
                         </p>
                       </div>
 
