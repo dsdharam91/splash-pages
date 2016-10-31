@@ -494,8 +494,8 @@ export default {
     title: 'Data Engineer',
     description: '',
   },
-  jobs_data_team_lead: {
-    title: 'Data Team Lead',
+  jobs_lead_data_engineer: {
+    title: 'Lead Data Engineer',
     description: '',
   },
   jobs_engineering_internships: {
