@@ -530,10 +530,6 @@ export default {
     title: 'Head of Operations',
     description: '',
   },
-  jobs_personal_assistant: {
-    title: 'Personal Assistant',
-    description: '',
-  },
   jobs_front_end_developer: {
     title: 'Front End Developer',
     description: '',
