@@ -408,7 +408,7 @@ export default {
     nav_title: 'Digital Agencies',
     description: '',
   },
-  education_dm: {
+  education: {
     title: 'A simpler way for parents to pay',
     nav_title: 'Education',
     description: 'Join the hundreds of schools and nurseries who use GoCardless to collect payments.',

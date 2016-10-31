@@ -6,13 +6,13 @@ import CustomerIcon from '../../icons/svg/customer';
 import ClockIcon from '../../icons/svg/clock';
 import MoneyFlowerIcon from '../../icons/svg/money-flower';
 
-export default class EducationDM extends React.Component {
-  displayName = 'EducationDM'
+export default class Education extends React.Component {
+  displayName = 'Education'
 
   render() {
     return (
       <Page>
-        <div className='page-hero page-hero--education-dm u-padding-Bxxl'>
+        <div className='page-hero page-hero--education u-padding-Bxxl'>
           <div className='site-container u-padding-Vxxl u-text-center'>
             <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
               A simpler way for parents to pay

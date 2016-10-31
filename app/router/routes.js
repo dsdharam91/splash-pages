@@ -13,12 +13,12 @@ import PaymentsByDirectDebitVariationB from '../pages/payments-by-direct-debit/p
 import AuddisDirectDebit from '../pages/payments-by-direct-debit/auddis-direct-debit';
 import EasierDirectDebit from '../pages/payments-by-direct-debit/easier-direct-debit';
 import BusinessDM from '../pages/payments-by-direct-debit/business-dm';
-import EducationDM from '../pages/industries/education-dm';
 import LandingPageJAndSProducts from '../pages/payments-by-direct-debit/j-and-s-products';
 
 import Accountants from '../pages/industries/accountants';
 import Charities from '../pages/industries/charities';
 import DigitalAgencies from '../pages/industries/digital-agencies';
+import Education from '../pages/industries/education';
 import Finance from '../pages/industries/finance';
 import LocalGovernment from '../pages/industries/local-government';
 import SaaS from '../pages/industries/saas';
@@ -343,7 +343,7 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [EducationDM, { name: 'education_dm', category: 'industries' }, {
+  [Education, { name: 'education', category: 'industries' }, {
       'en-GB': {
         path: '/education',
       },
