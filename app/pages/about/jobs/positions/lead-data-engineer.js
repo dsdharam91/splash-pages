@@ -1,13 +1,13 @@
 import React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class DataTeamLead extends React.Component {
-  displayName = 'DataTeamLead'
+export default class LeadDataEngineer extends React.Component {
+  displayName = 'LeadDataEngineer'
 
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Data Team Lead</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-heading'>Lead Data Engineer</h3>
         <p className='para'>
           Help us build scalable, robust data systems.
         </p>
