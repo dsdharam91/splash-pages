@@ -10,7 +10,6 @@ import MobileIcon from '../../icons/svg/mobile';
 import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
-import ProductComparison from '../../components/product-comparison/product-comparison';
 
 export default class ProEs extends React.Component {
   displayName = 'ProEs'
@@ -174,28 +173,7 @@ export default class ProEs extends React.Component {
               </div>
               <hr className='u-margin-An' />
             </div>
-            <div id='forOptimizely-Table'>
-              <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
-                <div className='site-container u-padding-Vxl'>
-                  <ProductComparison />
-                  <table className='u-size-full'>
-                    <tfoot>
-                      <tr className='comparison-table__row'>
-                        <td />
-                        <td className='u-size-1of3 u-padding-As'>
-                          <Link to='features' id='track-comparison-table-features'
-                          className='u-color-primary'>
-                            Descubre más sobre GoCardless
-                          </Link>
-                        </td>
-                        <td />
-                      </tr>
-                    </tfoot>
-                  </table>
-                </div>
-              </div>
-              <hr className='u-margin-An' />
-            </div>
+
             <hr className='u-margin-An' />
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-padding-Vxl'>
@@ -251,15 +229,15 @@ export default class ProEs extends React.Component {
                       </a>
                     ),]}>
                     <div>
-                      <img src='/images/pro/customer.jpg'
+                      <img src='/images/pro/customer.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                     <div>
-                      <img src='/images/pro/payment.jpg'
+                      <img src='/images/pro/payment.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                     <div>
-                      <img src='/images/pro/payments-list.jpg'
+                      <img src='/images/pro/payments-list.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                   </Tabs>
