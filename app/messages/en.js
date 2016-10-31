@@ -514,6 +514,10 @@ export default {
     title: 'SDR: Germany',
     description: '',
   },
+  jobs_sales_development_representative_inbound: {
+    title: 'SDR: UK',
+    description: '',
+  },
   jobs_head_of_sales_france: {
     title: 'Head of Sales: France',
     description: '',
