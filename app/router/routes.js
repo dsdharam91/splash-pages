@@ -44,6 +44,7 @@ import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-ac
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
 import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
+import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 import FEDeveloper from '../pages/about/jobs/positions/front-end-developer.js';
@@ -525,6 +526,12 @@ export const config = Immutable.fromJS([
       },
       de: {
         path: '/ueber-uns/jobs/sales-development-representative-germany',
+      },
+    },
+  ],
+  [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/sales-development-representative-inbound',
       },
     },
   ],
