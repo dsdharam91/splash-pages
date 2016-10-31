@@ -9,6 +9,14 @@ import classNames from 'classnames';
 let caseStudies = {
   'Start ups': [
     {
+      link: 'stories_teamup',
+      quote: `GoCardless was a big leap forward with a technological solution to payments`,
+      size: 'X employees',
+      logoSrc: '/images/stories/story-logos/teamup.png',
+      logoWidth: '60',
+      industry: 'Health & Fitness',
+    },
+    {
       link: 'stories_hotpod_yoga',
       quote: `We’ve reduced the risks associated with franchise payments`,
       size: '2 employees',
