@@ -42,7 +42,6 @@ import LeadDataEngineer from '../pages/about/jobs/positions/lead-data-engineer.j
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
 import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
-import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
 import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
@@ -532,12 +531,6 @@ export const config = Immutable.fromJS([
   [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/sales-development-representative-inbound',
-      },
-    },
-  ],
-  [EuropeanMarketingManager, { name: 'jobs_european_marketing_manager', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/european-marketing-manager',
       },
     },
   ],
