@@ -112,6 +112,7 @@ import StoriesNutmeg from '../pages/stories/stories/nutmeg';
 import StoriesPeterboroughCouncil from '../pages/stories/stories/peterborough-council';
 import StoriesRockChoir from '../pages/stories/stories/rock-choir';
 import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
+import StoriesSlmConnect from '../pages/stories/stories/slm-connect';
 import StoriesSmartPension from '../pages/stories/stories/smart-pension';
 import StoriesSoaringFalcon from '../pages/stories/stories/soaring-falcon';
 import StoriesYourParkingSpace from '../pages/stories/stories/your-parking-space';
@@ -1379,6 +1380,12 @@ export const config = Immutable.fromJS([
   [StoriesRockChoir, { name: 'stories_rock_choir', category: 'stories' }, {
       'en-GB': {
         path: '/stories/rock-choir',
+      },
+    },
+  ],
+  [StoriesSlmConnect, { name: 'stories_slm_connect', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/slm-connect',
       },
     },
   ],

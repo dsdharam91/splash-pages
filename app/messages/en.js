@@ -617,6 +617,10 @@ export default {
     title: 'Rock Choir - Customer Stories',
     description: 'Rock Choir cut failed payments to 1% by switching to online Direct Debit with GoCardless. Read their customer story of using GoCardless.',
   },
+  stories_slm_connect: {
+    title: 'SLM Connect - Customer Stories',
+    description: '',
+  },
   stories_smart_pension: {
     title: 'Smart Pension - Customer Stories',
     description: '',

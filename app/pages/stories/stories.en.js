@@ -109,6 +109,14 @@ let caseStudies = {
       industry: 'Investments',
     },
     {
+      link: 'stories_slm_connect',
+      quote: `Up-to-date payment status information allows us to improve our credit control`,
+      size: '120 employees',
+      logoSrc: '/images/stories/story-logos/slm-connect.png',
+      logoWidth: '140',
+      industry: 'Telemarketing',
+    },
+    {
       link: 'stories_peterborough_council',
       quote: `GoCardless was easy to integrate and offered value for money`,
       size: '1,400 employees',
