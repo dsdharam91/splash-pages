@@ -447,9 +447,6 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/jobs',
       },
-      de: {
-        path: '/ueber-uns/jobs',
-      },
       es: {
         path: '/sobre-nosotros/empleo',
       },
