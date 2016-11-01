@@ -510,10 +510,6 @@ export default {
     title: 'Account Executive, Inside Sales: Spain',
     description: '',
   },
-  jobs_sales_development_representative_germany: {
-    title: 'SDR: Germany',
-    description: '',
-  },
   jobs_sales_development_representative_inbound: {
     title: 'SDR: UK',
     description: '',
