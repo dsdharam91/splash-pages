@@ -522,10 +522,6 @@ export default {
     title: 'Head of Sales: France',
     description: '',
   },
-  jobs_european_marketing_manager: {
-    title: 'European Marketing Manager',
-    description: '',
-  },
   jobs_head_of_finance: {
     title: 'Head of Finance',
     description: '',
