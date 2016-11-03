@@ -65,7 +65,7 @@ export default class SalesDevelopmentRepresentativeInbound extends React.Compone
         </ul>
         <p className='para'>
           Our team comes from a variety of different background and includes entrepreneurs, consultants and fresh graduates.
-          To help you, we've written a <a href='https://gocardless.com/blog/the-account-executive-interview-process/' target='_blank'>
+          To help you, we've written a <a href='https://gocardless.com/blog/how-we-hire-inbound-sales-development-reps/' target='_blank'>
           blog post </a>which takes you through our interview process and gives you some tips on what to expect. We've also
           identified <a href='https://gocardless.com/blog/how-we-train-salespeople/' target='_blank'>five characteristics </a>
           that are vital to be a successful member of our sales team.
