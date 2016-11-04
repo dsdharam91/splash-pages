@@ -71,8 +71,7 @@ export default class StoriesWowCompany extends React.Component {
             and up popped the GoCardless site,” Peter said.
           </p>
           <p className='para'>
-            Within less than 20 minutes he was set up, had collected an amount on his personal credit card and had completed the
-            payment process.
+          Within less than 20 mins he was set up and had completed a test payment.
           </p>
           <p className='story-page__quote'>
             “I was just amazed and in awe. I couldn’t quite believe that a system had been created that solved almost a decade of
