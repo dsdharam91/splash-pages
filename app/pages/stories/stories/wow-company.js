@@ -40,6 +40,9 @@ export default class StoriesWowCompany extends React.Component {
             This prompted Peter and his co-founder, Paul Bulpitt, to set up The Wow Company in 2004, with a team that’s at one with
             technology, has a real focus on amazing customer service and strives to make a genuine difference for clients.
           </p>
+          <div className='story-page__image'>
+            <img src='/images/stories/story-images/wow-company/team@2x.jpg' alt='' />
+          </div>
 
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
             Seek out the best tech
@@ -71,12 +74,15 @@ export default class StoriesWowCompany extends React.Component {
             and up popped the GoCardless site,” Peter said.
           </p>
           <p className='para'>
-          Within less than 20 mins he was set up and had completed a test payment.
+            Within less than 20 mins he was set up and had completed a test payment.
           </p>
           <p className='story-page__quote'>
             “I was just amazed and in awe. I couldn’t quite believe that a system had been created that solved almost a decade of
             billing and payment headaches for us. Ever since that day, we’ve never looked back.”
           </p>
+          <div className='story-page__image'>
+            <img src='/images/stories/story-images/wow-company/website@2x.jpg' alt='' />
+          </div>
 
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
             How GoCardless transformed the business
