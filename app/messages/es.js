@@ -315,8 +315,16 @@ export default {
       title: 'Operations',
     },
   },
+  stories_acumbamail: {
+    title: 'Acumbamail - Casos de éxito',
+    description: '',
+  },
   stories_impact_hub: {
     title: 'Impact Hub - Casos de éxito',
+    description: '',
+  },
+  stories_monras: {
+    title: 'Monras - Casos de éxito',
     description: '',
   },
   legal: {
