@@ -526,10 +526,6 @@ export default {
     title: 'Head of Operations',
     description: '',
   },
-  jobs_front_end_developer: {
-    title: 'Front End Developer',
-    description: '',
-  },
   jobs_partnerships_success_manager: {
     title: 'Partnerships Success Manager',
     description: '',
