@@ -534,10 +534,6 @@ export default {
     title: 'Partnerships Success Manager',
     description: '',
   },
-  jobs_customer_support_france: {
-    title: 'Customer Support: France',
-    description: '',
-  },
   jobs_risk_compliance_analyst: {
     title: 'Risk and Compliance Analyst',
     description: '',
