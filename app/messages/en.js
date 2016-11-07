@@ -526,6 +526,10 @@ export default {
     title: 'Head of Operations',
     description: '',
   },
+  jobs_accounts_assistant: {
+    title: 'Accounts Assistant',
+    description: '',
+  },
   jobs_partnerships_success_manager: {
     title: 'Partnerships Success Manager',
     description: '',
