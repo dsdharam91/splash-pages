@@ -538,6 +538,10 @@ export default {
     title: 'Risk and Compliance Analyst',
     description: '',
   },
+  jobs_customer_support_germany: {
+    title: 'Customer Support: Germany',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
