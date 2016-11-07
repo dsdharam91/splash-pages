@@ -38,15 +38,13 @@ import Jobs from '../pages/about/jobs/jobs';
 import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import DevopsEngineer from '../pages/about/jobs/positions/devops-engineer.js';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
-import DataTeamLead from '../pages/about/jobs/positions/data-team-lead';
+import LeadDataEngineer from '../pages/about/jobs/positions/lead-data-engineer.js';
 import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
 import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
-import EuropeanMarketingManager from '../pages/about/jobs/positions/european-marketing-manager.js';
-import SalesDevelopmentRepresentativeGermany from '../pages/about/jobs/positions/sales-development-representative-germany.js';
+import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
-import PersonalAssistant from '../pages/about/jobs/positions/personal-assistant.js';
 import FEDeveloper from '../pages/about/jobs/positions/front-end-developer.js';
 import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success-manager.js';
 import CustomerSupportFrance from '../pages/about/jobs/positions/customer-support-france.js';
@@ -450,9 +448,6 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/jobs',
       },
-      de: {
-        path: '/ueber-uns/jobs',
-      },
       es: {
         path: '/sobre-nosotros/empleo',
       },
@@ -467,9 +462,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [DataTeamLead, { name: 'jobs_data_team_lead', category: 'jobs.engineering' }, {
+  [LeadDataEngineer, { name: 'jobs_lead_data_engineer', category: 'jobs.engineering' }, {
       en: {
-        path: '/about/jobs/data-team-lead',
+        path: '/about/jobs/lead_data_engineer',
       },
     },
   ],
@@ -521,18 +516,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [SalesDevelopmentRepresentativeGermany, { name: 'jobs_sales_development_representative_germany', category: 'jobs.sales' }, {
+  [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
       en: {
-        path: '/about/jobs/sales-development-representative-germany',
-      },
-      de: {
-        path: '/ueber-uns/jobs/sales-development-representative-germany',
-      },
-    },
-  ],
-  [EuropeanMarketingManager, { name: 'jobs_european_marketing_manager', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/european-marketing-manager',
+        path: '/about/jobs/sales-development-representative-inbound',
       },
     },
   ],
@@ -545,12 +531,6 @@ export const config = Immutable.fromJS([
   [HeadofOperations, { name: 'jobs_head_of_operations', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/head-of-operations',
-      },
-    },
-  ],
-  [PersonalAssistant, { name: 'jobs_personal_assistant', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/personal-assistant',
       },
     },
   ],

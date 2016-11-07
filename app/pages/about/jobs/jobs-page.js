@@ -62,7 +62,7 @@ export default class JobsPage extends React.Component {
                   { jobsNav }
                 </ul>
 
-                <Translation locales={['es', 'de', 'fr']}>
+                <Translation locales={['es', 'fr']}>
                   <a href='https://gocardless.com/about/jobs'
                   className='u-margin-Tl u-inline-block u-text-upcase
                   u-text-xxs u-text-semi'>

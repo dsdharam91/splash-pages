@@ -494,8 +494,8 @@ export default {
     title: 'Data Engineer',
     description: '',
   },
-  jobs_data_team_lead: {
-    title: 'Data Team Lead',
+  jobs_lead_data_engineer: {
+    title: 'Lead Data Engineer',
     description: '',
   },
   jobs_engineering_internships: {
@@ -510,16 +510,12 @@ export default {
     title: 'Account Executive, Inside Sales: Spain',
     description: '',
   },
-  jobs_sales_development_representative_germany: {
-    title: 'SDR: Germany',
+  jobs_sales_development_representative_inbound: {
+    title: 'SDR: UK',
     description: '',
   },
   jobs_head_of_sales_france: {
     title: 'Head of Sales: France',
-    description: '',
-  },
-  jobs_european_marketing_manager: {
-    title: 'European Marketing Manager',
     description: '',
   },
   jobs_head_of_finance: {
@@ -528,10 +524,6 @@ export default {
   },
   jobs_head_of_operations: {
     title: 'Head of Operations',
-    description: '',
-  },
-  jobs_personal_assistant: {
-    title: 'Personal Assistant',
     description: '',
   },
   jobs_front_end_developer: {
