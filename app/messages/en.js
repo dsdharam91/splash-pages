@@ -526,20 +526,20 @@ export default {
     title: 'Head of Operations',
     description: '',
   },
-  jobs_front_end_developer: {
-    title: 'Front End Developer',
+  jobs_accounts_assistant: {
+    title: 'Accounts Assistant',
     description: '',
   },
   jobs_partnerships_success_manager: {
     title: 'Partnerships Success Manager',
     description: '',
   },
-  jobs_customer_support_france: {
-    title: 'Customer Support: France',
-    description: '',
-  },
   jobs_risk_compliance_analyst: {
     title: 'Risk and Compliance Analyst',
+    description: '',
+  },
+  jobs_customer_support_germany: {
+    title: 'Customer Support: Germany',
     description: '',
   },
   api_docs: {

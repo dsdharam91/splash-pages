@@ -45,11 +45,11 @@ import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-franc
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
-import FEDeveloper from '../pages/about/jobs/positions/front-end-developer.js';
+import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
 import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success-manager.js';
-import CustomerSupportFrance from '../pages/about/jobs/positions/customer-support-france.js';
 import RiskComplianceAnalyst from '../pages/about/jobs/positions/risk-compliance-analyst.js';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships.js';
+import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -480,12 +480,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [FEDeveloper, { name: 'jobs_front_end_developer', category: 'jobs.ux_design' }, {
-      en: {
-        path: '/about/jobs/front-end-developer',
-      },
-    },
-  ],
   [SoftwareEngineer, { name: 'jobs_software_engineer', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/software-engineer',
@@ -534,24 +528,27 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [AccountsAssistant, { name: 'jobs_accounts_assistant', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/accounts-assistant',
+      },
+    },
+  ],
   [PartnershipsSuccessManager, { name: 'jobs_partnerships_success_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/partnerships-success-manager',
       },
     },
   ],
-  [CustomerSupportFrance, { name: 'jobs_customer_support_france', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/customer-support-france',
-      },
-      fr: {
-        path: '/a-propos/recrutement/customer-support-france',
-      },
-    },
-  ],
   [RiskComplianceAnalyst, { name: 'jobs_risk_compliance_analyst', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/risk-compliance-analyst',
+      },
+    },
+  ],
+  [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/customer-support-germany',
       },
     },
   ],

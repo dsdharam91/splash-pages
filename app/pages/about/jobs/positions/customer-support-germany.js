@@ -1,28 +1,28 @@
 import React from 'react';
 import JobsPage from '../jobs-page';
 
-export default class CustomerSupportFrance extends React.Component {
-  displayName = 'CustomerSupportFrance'
+export default class CustomerSupportGermany extends React.Component {
+  displayName = 'CustomerSupportGermany'
 
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Customer Support: France</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-dark-gray'>Customer Support: Germany</h3>
         <p className='para'>
           Go the extra mile to delight our customers.
         </p>
         <p className='para'>
-          GoCardless is growing fast. We’ve built a world-class product that makes it simple
-          for small and medium businesses to take recurring payments, and allows startups
-          and large corporations to automate their payments in a way that was never possible before.
+          GoCardless is growing fast. We’ve built a world-class product that makes it simple for small
+          and medium businesses to take recurring payments, and allows startups and large corporations to automate
+          their payments in a way that was never possible before.
         </p>
         <p className='para'>
-          After launching in the UK and entering the French market in early 2015 - as covered by Le Figaro and Les Echos &ndash;
-          we are rapidly gaining traction in France, serving hundreds of companies such as Habitat, Mangopay and Zenchef.
+          After launching in the UK and entering the German market in October 2015 - as covered by <a href='http://www.it-finanzmagazin.de/banken-als-partner-gesucht-londoner-fintech-gocardless-startet-in-deutschland-20216/' target='_blank'> IT Finanzmagazin </a>- we are rapidly gaining traction in Germany,
+          serving hundreds of companies such as rankingCoach and betahaus Hamburg.
         </p>
         <p className='para'>
           We’re looking for a bright, enthusiastic problem-solver to join our team, provide legendary
-          customer service and support our growth in France.
+          customer service and support our growth in Germany.
         </p>
         <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
@@ -46,7 +46,7 @@ export default class CustomerSupportFrance extends React.Component {
         </p>
         <ul className='list u-margin-Tm'>
           <li>
-            Answering calls and emails from our UK and French customers.
+            Answering calls and emails from our UK and Germany-based customers.
           </li>
           <li>
             Using our sophisticated in-house fraud detection systems to protect
@@ -81,13 +81,13 @@ export default class CustomerSupportFrance extends React.Component {
           team to get bugs fixed, to helping our sales team understand what
           our current users love.
         </p>
-        < p className='para'>
+        <p className='para'>
           We've built a friendly, collaborative culture, where we hire and
           develop motivated people that share our desire to do work we can be
           proud of. We value learning and feedback, and are devoted to encouraging
           and supporting each other's continual professional growth.
         </p>
-        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Who we're looking for</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
         <ul className='list u-margin-Tm'>
           <li>
             You love helping people, and you are interested in technology.
@@ -103,18 +103,17 @@ export default class CustomerSupportFrance extends React.Component {
             You thrive in small teams and love collaborating.
           </li>
           <li>
-            You are a native-level French speaker and have a flawless
-            command of both French and English.
+            You are a native-level German speaker and have a flawless command of both German and English.
           </li>
         </ul>
         <p className='para'>
-          This role will be based in London.
+          Our team come from a variety of backgrounds and we welcome diversity &ndash;
+          if you're unsure, please apply.
         </p>
         <p className='para'>
-         Our team come from a variety of backgrounds and we welcome diversity &ndash;
-         if you're unsure, please apply.
+          This role will be based in London.
         </p>
-        <a href='http://boards.greenhouse.io/gocardless/jobs/159393' className='btn u-margin-Vs'>
+        <a href='http://boards.greenhouse.io/gocardless/jobs/236824' className='btn u-margin-Vs'>
           Apply now
         </a>
       </JobsPage>
