@@ -98,6 +98,10 @@ import FaqProDashboardPayoutTracking from '../pages/faq/pro-dashboard/payout-tra
 import FaqProDashboardPlanCreation from '../pages/faq/pro-dashboard/plan-creation/faq-pro-dashboard-plan-creation';
 import FaqProDashboardPaylinksCreation from '../pages/faq/pro-dashboard/paylinks-creation/faq-pro-dashboard-paylinks-creation';
 
+import NonDDFunnelEn from '../pages/funnels/non-dd-funnel/non-dd-funnel';
+// import DDFunnelEn from '../pages/funnels/dd-funnel/dd-funnel';
+// import SMBFunnelEn from '../pages/funnels/smb-funnel/smb-funnel';
+
 import Stories from '../pages/stories/stories';
 import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
 import StoriesBulbEnergy from '../pages/stories/stories/bulb-energy';
@@ -353,6 +357,24 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [NonDDFunnelEn, { name: 'non_dd_funnel'}, {
+      'en-GB': {
+        path: '/non-dd-funnel',
+      },
+    },
+  ],
+  // [DDFunnelEn, { name: 'non_dd_funnel'}, {
+  //     'en-GB': {
+  //       path: '/non-dd-funnel',
+  //     },
+  //   },
+  // ],
+  // [SMBFunnelEn, { name: 'non_dd_funnel'}, {
+  //     'en-GB': {
+  //       path: '/non-dd-funnel',
+  //     },
+  //   },
+  // ],
   [LocalGovernment, { name: 'local_government', category: 'industries' }, {
       'en-GB': {
         path: '/local-government',

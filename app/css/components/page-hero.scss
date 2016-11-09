@@ -34,6 +34,13 @@
   background-repeat: no-repeat;
 }
 
+.page-hero--non-dd-funnel {
+  background: $primary-color url('/images/hero/hero-non-dd-funnel.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 .page-hero--icon-background {
   background: $primary-color url('/images/hero/hero-icons.jpg');
   background-size: cover;
