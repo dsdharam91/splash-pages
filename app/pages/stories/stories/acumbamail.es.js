@@ -1,120 +1,112 @@
 import React from 'react';
 import StoryPageNew from '../story-page-new';
 
-export default class StoriesImpactHub extends React.Component {
-  displayName = 'StoriesImpactHub'
+export default class StoriesAcumbamail extends React.Component {
+  displayName = 'StoriesAcumbamail'
 
   render() {
     return (
       <StoryPageNew
-        title='TBC'
+        title='Con GoCardless hemos multiplicado por 3 nuestros clientes por domiciliación bancaria y reducido su administración a cero'
         author='Rafael Cabanillas'
         position='Fundador'
         company='Acumbamail'
-        benefits='TBC'
-        bgimgUrl='url(/images/stories/story-images/impact-hub/hero-impact-hub.jpg)'
+        benefits='Procesos más eficientes y mayores opciones de pago a los clientes totalmente integradas'
+        bgimgUrl=''
         sidebarLogoSrc='/images/stories/story-logos/acumbamail.png'
-        sidebarServices='tbc'
-        sidebarEmployees='7 empleados'>
+        sidebarServices='Email marketing'
+        sidebarEmployees='7 empleados'
+        sidebarPreviousProvider='Envío de XMLs a través del Banco'
+        sidebarTimeSaved='20 horas al mes (y no volver a pensar en ello)'>
         <div className='story-body'>
           <p className='para u-margin-Tn'>
-            Hay un lugar en la capital madrileña que reúne a <strong>emprendedores, profesionales, empresas y organizaciones</strong> que quieren generar un impacto en la sociedad. Desde que abriera sus puertas hace seis años, <strong>Impact Hub Madrid</strong> no es solo un centro de trabajo y <em>coworking</em>, sino un auténtico hervidero de ideas en el que se ha forjado una comunidad de innovación.
+            Siete meses atrás, tan solo 80 clientes
+            de <a href='https://acumbamail.com/' className='u-link-color-p u-text-underline'>Acumbamail</a> se decantaban por la opción de
+            la domiciliación bancaria. Actualmente, ese número ronda los 280. Hasta no hace mucho, tan solo el 10% de los nuevos
+            usuarios que contrataban este servicio de email marketing se decidían por este método de pago. Ahora los recién llegados
+            que apuestan por esta opción representan el 40%.
           </p>
-
           <p className='para'>
-            Cerca de <strong>400 miembros</strong> avanzan en sus proyectos, se forman y hacen <em>networking</em> en este espacio dentro de la <strong>red global Impact Hub</strong> ,presente en más de 80 ciudades de todo el mundo con un total de 11.000 miembros.
+            “Antes, un nuevo cliente que no tenía tarjeta de crédito quizá optaba por otro servicio de la competencia”, reconoce sin
+            tapujos <a href='https://www.crunchbase.com/person/rafael-cabanillas#/entity'
+            className='u-link-color-p u-text-underline'>Rafael Cabanillas</a>, cofundador de Acumbamail.
+            “Ofrecer los dos métodos de pago ha hecho que crezcamos. Más allá de todo el crecimiento gracias al marketing
+            o a las mejoras de nuestra plataforma, este ha sido un punto bastante positivo”,
           </p>
-
           <p className='para'>
-            Los responsables de Impact Hub Madrid también pretenden que las herramientas innovadoras les ayuden a <strong>mejorar la propia gestión</strong> de este laboratorio de ideas, incubadora de negocios y oficina al mismo tiempo. Por eso, hace unos meses decidieron automatizar el tedioso proceso de gestión de los cobros a sus clientes uniéndose a la red global de GoCardless.
+            Este servicio, que nació en 2011 de la mano de Ignacio Arriaga, Rafael Cabanillas y Miguel Gómez,
+            ha decidido dar un paso al frente para intentar salvar uno de los grandes escollos a los que han tenido que
+            enfrentarse durante seis años. “Lo que primero ofrecíamos a los usuarios era la tarjeta de crédito”, recuerda Cabanillas.
+            “Pensábamos que nuestros clientes estaban más habituados al mundo digital y, por lo tanto, a utilizar este método de pago”.
           </p>
-
           <p className='para'>
-            "Se adaptaba a lo que estábamos buscando: <strong>implementar una pasarela de pagos</strong> que fuera automática y que se pudiera integrar con el <em>software</em> con el que trabajamos", señala <strong>Cristina Arnal</strong> , responsable de Finanzas y Operaciones en Impact Hub Madrid. En base a su experiencia, resumimos en <strong>cinco claves cómo GoCardless</strong> ha contribuido a mejorar la administración de este centro de innovación social.
+            Pronto descubrieron que la realidad era otra. “A los pocos meses de lanzar Acumbamail nos dimos cuenta de que había muchas empresas en España, más tradicionales, que preferían la domiciliación bancaria”. Por este motivo tuvieron que incorporar una plataforma para este método de pago.
           </p>
 
-          <div className='story-page__image'>
-            <img src='/images/stories/story-images/impact-hub/office-space.jpg' alt='' />
-          </div>
-
-          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
-            1. La completa integración con Nexudus Spaces
+          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
+            Un continuo quebradero de cabeza
           </h2>
-
           <p className='para'>
-            Impact Hub Madrid utiliza para la gestión del día a día el <em>software</em> <a href="http://coworking.nexudus.es/es">Nexudus Spaces</a>, una plataforma especializada en espacios de <em>coworking</em>. Sin embargo, el proceso y control del cobro se realizaba de forma manual.
+            En un principio, el proceso resultaba lento y tedioso. Con el primer sistema que incorporaron, tenían que realizar
+            cada cobro de forma manual, por lo que se perdía mucho tiempo y dinero en esta tarea que, además,
+            presentaba un inconveniente añadido. “Nosotros tenemos la problemática de que no cobramos a todos los
+            clientes el mismo día”, explica Cabanillas. “A cada usuario se le activa la cuenta el día que se registra y
+            a los treinta días se le cobra. Entonces era una tarea diaria, de acceder diariamente y cobrar las tres o cuatro
+            domiciliaciones que había”.
+          </p>
+          <p className='para'>
+            El sistema no estaba automatizado. “Era bastante rudimentario. En Google Calendar estaban apuntadas las domiciliaciones
+            que había que hacer cada día, con una plataforma que ni siquiera tenía un buscador”, recuerda.
+            “No quedaba más remedio que buscar a mano las domiciliaciones y realizarlas”.
+            A esto había que añadir que aquellos clientes que optaban por la domiciliación tenían que mandar el número de sus
+            cuentas bancarias a través de un correo electrónico. Es decir, tras completar todo el registro,
+            debían salir de la plataforma para realizar este último trámite.
+          </p>
+          <p className='para'>
+            Por otra parte, aquel sistema no les avisaba si algún cliente se retrasaba en el pago o si se producía alguna cancelación.
+            &nbsp;<strong>Debían revisar y solventar individual y manualmente cada incidencia.</strong> “Cuando nos encontrábamos una
+            devolución, había que buscar en el sistema quién había devuelto el pago y comprobar qué había ocurrido. Una tarea que llevaba
+            aproximadamente media hora. Luego, claro está, había que ponerse en contacto con ese usuario.
+            No había opción de reintentarlo”, detalla Cabanillas.
+          </p>
+          <p className='para'>
+            “La solución que reunía todos los requisitos que buscábamos era GoCardless, sobre todo en lo relativo a la automatización
+            total y a la integración con la plataforma”, añade. Al integrar GoCardless, todos los cobros y las altas de los clientes
+            ocurren automáticamente, sin que nadie tenga que verificarlo. Y cuando hay un impago o un error en el cobro,
+            GoCardless nos avisa inmediatamente y lo resolvemos en horas, en vez de en días.”
+            Así, no solo consiguieron reducir el tiempo invertido en gestionar las domiciliaciones, sino que desbloquearon
+            el elemento menos escalable de su empresa, los cobros.
           </p>
 
-          <p className='para'>
-            Desde que <strong>Nexudus ha integrado GoCardless en su <em>software</em></strong> , en Impact Hub Madrid pueden evitar por fin las duplicidades. "Antes de implementar GoCardless no podíamos integrar el <em>software</em> con los cobros, lo que hacía que el trabajo fuera lento", recuerda Arnal. Ahora, pueden solicitar el cobro de las facturas emitidas sin salir de Nexudus Spaces y ver qué facturas están pendientes gracias a GoCardless.
-          </p>
-
-          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
-            2. El importante ahorro de tiempo
+          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
+            La experiencia, un grado
           </h2>
-
           <p className='para'>
-            Anteriormente en Impact Hub Madrid gestionaban los cobros manualmente, al igual que la mayor parte de las PYMES de España: creaban un fichero en su banco y tenían que introducir el importe de las facturas una a una. Una vez que recibían toda la remesa, <strong>tenían que marcar</strong> todas y cada una de las <strong>facturas como pagadas a golpe de clic</strong>. Además, debían revisarlas para comprobar que no se había producido ningún fallo durante el cobro, una tarea ardua cuando menos.
+            Su objetivo era claro: “Que ningún usuario tenga que abandonar la web de Acumbamail para finalizar el registro
+            y que el proceso de pago sea totalmente transparente para el usuario”. Con esta idea en mente, pusieron en marcha
+            la integración. Desde que adoptaron GoCardless han logrado reducir notablemente la carga de trabajo que suponía
+            realizar los cobros. Además, “una ventaja de GoCardless es que permite controlar y saber estadísticamente
+            qué está pasando con los pagos. Por ejemplo, tener constancia de cuántos pagos tenemos de cada usuario”, destaca.
           </p>
-
           <p className='para'>
-            "El <strong>principal problema era el tiempo</strong> , había que meter los importes uno a uno con máximo cuidado, modificar clientes y revisar que estaba todo correcto. Posteriormente, había que marcar todas las facturas como pagadas", señala Arnal. Teniendo en cuenta que en el caso de Impact Hub había que repetir la secuencia para cobrar a sus casi 400 miembros, <strong>se invertía día y medio de trabajo en esta tarea</strong>.
+            Para quienes ofrezcan un servicio a otras empresas y tengan que establecer distintos métodos de pago,
+            Rafael Cabanillas aconseja, en base a su propia experiencia, hacerlo al mismo tiempo que construyen su plataforma.
+            “Yo integraría desde el principio una solución de pago automática como GoCardless para las domiciliaciones”,
+            afirma el cofundador de Acumbamail. “No sirve de nada incorporar al principio un sistema manual para luego
+            tener que cambiarlo. El canal de venta es una de las partes más importantes y hay que darle, como mínimo,
+            estas dos opciones a los clientes. Sobre todo en modelos de negocio en los que estás vendiendo a empresas”.
           </p>
-
           <p className='para'>
-            Desde que han comenzado a utilizar GoCardless, el tiempo de gestión se ha reducido considerablemente, ya que se ha automatizado el cobro, el seguimiento y la conciliación. Una vez se han cobrado las facturas, se marcan automáticamente. "Basta con comprobar que todo está correcto y ver qué facturas quedan pendientes de cobro", detalla Arnal.
+            Cuando decidieron vender su anterior proyecto, Lánzanos, para crear Acumbamail, tenían claro que uno de sus
+            puntos fuertes debía ser facilitarle las cosas a los usuarios. No solo a la hora de crear sus campañas de mailing
+            o de importar los suscriptores, sino también en el momento de pagar por el servicio.
+            Al cabo de los años, lo han conseguido gracias a GoCardless.
           </p>
-
-          <div className='story-page__image'>
-            <img src='/images/stories/story-images/impact-hub/shared-space.jpg' alt='' />
-          </div>
-
-          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
-            3. Adiós a los errores
-          </h2>
-
           <p className='para'>
-            Por mucha atención que se ponga durante el control de cobros, cuando la labor se realiza a mano siempre es posible cometer un error que cueste tiempo y dinero. "Había que tener especial cuidado debido a que había que dar de alta a los <strong>clientes nuevos y eliminar a los clientes que no continuaban</strong>, para no cobrar por error o tener facturas sin cobrar", recuerda Arnal.
-          </p>
-
-          <p className='para'>
-            Ahora, gracias a GoCardless, ya no tiene por qué preocuparse: la plataforma realiza el proceso por ella sin ninguna posibilidad de equivocación. "<strong>No se cobran importes erróneos</strong>, no hay posibilidad de cobrar a un cliente que ya no trabaja aquí", destaca la responsable de Finanzas y Operaciones de Impact Hub Madrid.
-          </p>
-
-          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
-            4. La facilidad para realizar cobros (y recobros)
-          </h2>
-
-          <p className='para'>
-            Cualquier empresa se puede enfrentar cada mes al problema de que algunos clientes no estén al corriente de sus pagos, lo que obliga a iniciar de nuevo el proceso de cobro. Sin embargo, GoCardless incluye una opción que facilita la tarea: <strong>permite reintentar los cobros que han fallado.</strong> Esta es una de las principales ventajas de la que se ha beneficiado Impact Hub Madrid.
-          </p>
-
-          <p className='para'>
-            Desde este centro de innovación social también destacan la comodidad de gestionar los cobros en cualquier momento, ya que antes solo podían emitir los ficheros una vez al mes para llevar un mejor control.
-          </p>
-
-          <p className='para'>
-            Con GoCardless, "tenemos la opción de poder hacer cobros no solo los primeros días de mes, que era el periodo en el que los solíamos hacer, <strong>sino durante todo el mes</strong>", asegura Arnal. Además, si alguna factura se había cobrado mal, antes tenían que esperar a la fecha en la que se realizaban los pagos para realizar la devolución, mientras que ahora pueden hacerlas directamente y en cualquier momento.
-          </p>
-
-          <div className='story-page__image'>
-            <img src='/images/stories/story-images/impact-hub/communal-area.jpg' alt='' />
-          </div>
-
-          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Txl'>
-            5. La rápida adaptaci ón a la plataforma
-          </h2>
-
-          <p className='para'>
-            Pese a los aspectos positivos de GoCardless, una de las reticencias que puede tener una empresa a la hora de realizar un cambio en su forma de administrarse es el propio periodo de transición. Desde Impact Hub Madrid alaban la rapidez de ese proceso. "<strong>La adaptación ha sido sencilla</strong> debido a las pruebas que hicimos antes de implementarla definitivamente ", señala Arnal.
-          </p>
-
-          <p className='para'>
-            Eso sí, el primer mes han tenido que ayudar a los clientes a que se adaptaran a la nueva plataforma, y aún les quedan por "pulir pequeños detalles". Un esfuerzo inicial que <strong>se compensa con los resultados de la automatización del cobro</strong>.
-          </p>
-
-          <p className='para'>
-            De hecho, la responsable de Finanzas y Operaciones del centro madrileño está pensando en recomendar GoCardless a otros centros de la red de espacios de <em>coworking</em>. Al fin y al cabo, si fusionar la red de innovación que ha tejido Impact Hub en la capital madrileña y la red global de pagos por internet de GoCardless ha sido beneficioso, el éxito podría replicarse en cualquier lugar.
+            Ahora, de los clientes que pagan automáticamente, <strong>el porcentaje de los que lo hacen mediante domiciliación
+            se ha incrementado del 10 al 30%</strong>. Y si bien pueden encontrar algunas dificultades a la hora de
+            pagar con la tarjeta de crédito, eso ya no ocurre con este otro método de pago.
+            “La domiciliación, una vez que el cliente apunta el número de su cuenta bancaria, nunca va a fallar”, sentencia Cabanillas.
           </p>
         </div>
       </StoryPageNew>
