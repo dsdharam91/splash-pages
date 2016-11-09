@@ -210,6 +210,18 @@ export default {
     nav_title: 'Payout tracking',
     description: '',
   },
+  non_dd_funnel: {
+    title: 'TEST',
+    description: 'WAT',
+  },
+  // dd_funnel: {
+  //   title: 'TEST',
+  //   description: 'WAT',
+  // },
+  // smb_funnel: {
+  //   title: 'TEST',
+  //   description: 'WAT',
+  // },
   security: {
     title: 'Security',
     nav_title: 'Security',
