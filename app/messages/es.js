@@ -280,7 +280,7 @@ export default {
   },
   stories: {
     title: 'Casos de éxito',
-    nav_title: 'casos',
+    nav_title: 'Casos de éxito',
     description: '',
     link: 'Lee nuestros casos de éxito',
     key_benefits: 'Beneficios clave',

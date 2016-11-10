@@ -10,7 +10,7 @@ let caseStudies = {
   'Start ups': [
     {
       link: 'stories_impact_hub',
-      quote: `We’ve reduced the risks associated with franchise payments`,
+      quote: `Ahorramos muchísimo tiempo en la gestión de los mandatos y de los cobros`,
       size: '19 empleados',
       logoSrc: '/images/stories/story-logos/impact-hub.png',
       logoWidth: '120',
@@ -18,19 +18,19 @@ let caseStudies = {
     },
     {
       link: 'stories_acumbamail',
-      quote: `We’ve reduced the risks associated with franchise payments`,
+      quote: `Con GoCardless hemos reducido a cero la administración de clientes`,
       size: '7 empleados',
       logoSrc: '/images/stories/story-logos/acumbamail.png',
       logoWidth: '150',
-      industry: '[xxx]',
+      industry: 'Email marketing',
     },
     {
       link: 'stories_monras',
-      quote: `We’ve reduced the risks associated with franchise payments`,
+      quote: `Nuestros cobros están totalmente automatizados gracias a GoCardless`,
       size: '50 empleados',
       logoSrc: '/images/stories/story-logos/monras.png',
       logoWidth: '130',
-      industry: '[xxx]',
+      industry: 'Servicios de limpieza',
     },
   ],
 };
@@ -69,14 +69,13 @@ export default class StoriesEs extends React.Component {
             <div className='page-hero__inner'>
               <div className='page-hero__text u-text-center'>
                 <h1 className='u-text-heading u-color-invert u-text-xl u-text-light u-margin-Bm'>
-                  “GoCardless ensures our transactions are accurate, easy to setup and manage. It is also significantly
-                  cheaper compared to credit card.”
+                  “Ahora nuestros cobros están totalmente automatizados gracias a GoCardless y nos enteramos de cualquier problema al momento”
                 </h1>
                 <div className='u-color-invert u-text-heading u-text-m u-text-semi'>
-                  Will Wynne
+                  Alfredo Monrabal
                 </div>
                 <div className="u-color-invert u-text-heading u-text-xs">
-                  Co-Founder, Smart Pension
+                  Fundador, Monras
                 </div>
               </div>
             </div>
@@ -85,7 +84,8 @@ export default class StoriesEs extends React.Component {
 
         <div className="site-container u-text-center u-padding-Vxxl">
           <p className="u-text-heading u-color-dark-gray u-text-l u-text-light u-padding-Vxl">
-            From individuals to multi-national corporations, GoCardless helps thousands of businesses with their payments everyday.
+            Desde autónomos a multinacionales, GoCardless ayuda<br />a miles
+            de negocios a tramitar sus cobros cada día.
           </p>
         </div>
 
@@ -114,17 +114,17 @@ export default class StoriesEs extends React.Component {
 
                       <h2 className="story-card__quote u-text-light u-text-m u-color-dark-gray u-text-no-smoothing u-margin-Bm">“{ caseStudy.quote }”</h2>
 
-                    <div className="story-card__detail u-margin-Bs">
-                        <span className="story-card__key story-card__key--size">Size:</span>
-                      <span className="story-card__value">{ caseStudy.size }</span>
+                      <div className="story-card__detail u-margin-Bs">
+                        <span className="story-card__key story-card__key--size">Tamaño:</span>
+                        <span className="story-card__value">{ caseStudy.size }</span>
                       </div>
 
                       <div className="story-card__detail u-margin-Bm">
-                        <span className="story-card__key story-card__key--industry">Industry</span>
+                        <span className="story-card__key story-card__key--industry">Industria:</span>
                       <span className="story-card__value">{ caseStudy.industry }</span>
                       </div>
                       <Link to={ caseStudy.link } className='btn btn--small u-block'>
-                        Read more
+                        Descubre más
                       </Link>
                     </div>
                   </div>

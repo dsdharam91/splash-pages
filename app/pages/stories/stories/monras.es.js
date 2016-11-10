@@ -7,7 +7,7 @@ export default class StoriesMonras extends React.Component {
   render() {
     return (
       <StoryPageNew
-        title='Ahora el 70% de nuestros cobros son totalmente automatizados gracias a GoCardless y nos enteramos de cualquier problema al momento'
+        title='Ahora nuestros cobros están totalmente automatizados gracias a GoCardless y nos enteramos de cualquier problema al momento'
         author='Alfredo Monrabal'
         position='Fundador'
         company='Monras'
