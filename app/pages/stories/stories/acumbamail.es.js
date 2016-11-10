@@ -12,7 +12,7 @@ export default class StoriesAcumbamail extends React.Component {
         position='Fundador'
         company='Acumbamail'
         benefits='Procesos más eficientes y mayores opciones de pago a los clientes totalmente integradas'
-        bgimgUrl=''
+        bgimgUrl='url(/images/stories/story-images/acumbamail/hero-acumbamail.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/acumbamail.png'
         sidebarServices='Email marketing'
         sidebarEmployees='7 empleados'
@@ -40,8 +40,13 @@ export default class StoriesAcumbamail extends React.Component {
             “Pensábamos que nuestros clientes estaban más habituados al mundo digital y, por lo tanto, a utilizar este método de pago”.
           </p>
           <p className='para'>
-            Pronto descubrieron que la realidad era otra. “A los pocos meses de lanzar Acumbamail nos dimos cuenta de que había muchas empresas en España, más tradicionales, que preferían la domiciliación bancaria”. Por este motivo tuvieron que incorporar una plataforma para este método de pago.
+            Pronto descubrieron que la realidad era otra. “A los pocos meses de lanzar Acumbamail nos dimos cuenta de que había muchas
+            empresas en España, más tradicionales, que preferían la domiciliación bancaria”. Por este motivo tuvieron que incorporar
+            una plataforma para este método de pago.
           </p>
+          <div className='story-page__image'>
+            <img src='/images/stories/story-images/acumbamail/team.jpg' alt='' />
+          </div>
 
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
             Un continuo quebradero de cabeza
@@ -77,6 +82,9 @@ export default class StoriesAcumbamail extends React.Component {
             Así, no solo consiguieron reducir el tiempo invertido en gestionar las domiciliaciones, sino que desbloquearon
             el elemento menos escalable de su empresa, los cobros.
           </p>
+          <div className='story-page__image'>
+            <img src='/images/stories/story-images/acumbamail/website@2x.jpg' alt='' />
+          </div>
 
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
             La experiencia, un grado
