@@ -355,6 +355,10 @@ export default {
     title: 'GoCardless for Xero: Powered by Directli',
     description: 'GoCardless integrates with the Xero online accounting software and allows you to collect payments with Direct Debit.',
   },
+  partners_zuora: {
+    title: 'GoCardless for Zuora',
+    description: '',
+  },
   partners_quickbooks: {
     title: 'GoCardless for Quickbooks',
     description: 'Get paid on time and reconcile invoices automatically with GoCardless for QuickBooks',
