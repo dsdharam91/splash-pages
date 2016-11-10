@@ -126,7 +126,6 @@ export default class ProspectForm extends React.Component {
     const { messages } = this.context;
     const { prospectType } = this.props;
     const { endpoint } = prospectTypes[prospectType];
-    const size = this.state.responseData && this.state.responseData.size || 'default';
 
     let salesForm = (
       <div>
@@ -198,7 +197,7 @@ export default class ProspectForm extends React.Component {
         <div className={classNames({
         'u-is-hidden notice notice--success u-margin-Bm': true,
         'u-is-visible': this.state.isSuccess})}>
-          <Message pointer={`prospect_form.sales.success_messages.${size}`} />
+          <Message pointer={`prospect_form.sales.success_message`} />
         </div>
       </div>
     );

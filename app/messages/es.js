@@ -54,12 +54,7 @@ export default {
       number_of_payments_placeholder: 'Selecciona el número de cobros que hiciste el mes pasado',
       specific_needs_label: '¿Hay alguna necesidad concreta en la que quieres que te ayudemos?',
       submit: 'Contacta',
-      success_messages: {
-        '0-100': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
-        '100-500': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
-        '500+': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
-        default: 'Gracias, alguien se pondrá en contacto contigo en 24 horas.',
-      },
+      success_message: 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
     },
     holding: {
       submit: '',

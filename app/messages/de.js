@@ -54,12 +54,7 @@ export default {
       phone_label: 'Geschäftliche Telefonnummer',
       phone_placeholder: '030 12345678',
       submit: 'Senden',
-      success_messages: {
-        '0-100': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
-        '100-500': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
-        '500+': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
-        default: 'Vielen Dank, ein GoCardless Mitarbeiter wird sich in den nächsten 24 Stunden mit Ihnen in Verbindung setzen.',
-      },
+      success_message: 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
     },
   },
   not_found: {
