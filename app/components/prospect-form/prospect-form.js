@@ -173,9 +173,11 @@ export default class ProspectForm extends React.Component {
                       <option value=''>
                         <Message pointer='prospect_form.sales.number_of_payments_placeholder' />
                       </option>
-                      <option value='0-100'>0-100</option>
-                      <option value='100-500'>100-500</option>
-                      <option value='500+'>500+</option>
+                      <option value='0-99'>0-99</option>
+                      <option value='100-999'>100-999</option>
+                      <option value='1000-9999'>1000-9999</option>
+                      <option value='10000-99999'>10000-99999</option>
+                      <option value='100000+'>100000+</option>
                     </select>
                   </div>
               }
