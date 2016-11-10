@@ -57,12 +57,7 @@ export default {
       number_of_payments_placeholder: 'Choisissez un nombre de paiements',
       specific_needs_label: 'Quels sont les besoins de votre entreprise?',
       submit: 'Contactez Nous',
-      success_messages: {
-        '0-100': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
-        '100-500': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
-        '500+': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
-        default: 'Merci, nous vous contacterons sous 24 heures.',
-      },
+      success_message: 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
     },
     holding: {
       submit: '',

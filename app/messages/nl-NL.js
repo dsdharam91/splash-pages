@@ -34,12 +34,7 @@ export default {
       phone_label: 'Telefoon',
       phone_placeholder: '020 123 4567',
       submit: 'Verstuur',
-      success_messages: {
-        '0-100': 'Bedankt! We nemen snel contact met je op.',
-        '100-500': 'Bedankt! We nemen snel contact met je op.',
-        '500+': 'Bedankt! We nemen snel contact met je op.',
-        default: 'Bedankt! We nemen binnen 24 uur contact met je op.',
-      },
+      success_message: 'Bedankt! We nemen snel contact met je op.',
     },
   },
   home: {
