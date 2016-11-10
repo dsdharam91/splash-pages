@@ -90,18 +90,6 @@ export default class StoriesEs extends React.Component {
         </div>
 
         <div className="stories-industries">
-          <div className="site-container">
-            <div className="industry-filters grid">
-              { _.map(groupedStories, (stories, category) => {
-                return (
-                  <div className={tabClassesForCategory(category)} onClick={this.setActiveCategory.bind(this, category)} key={category}>
-                    <span className="">{ category }</span>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-
           <div className="stories-list u-padding-Vxxl">
             <div className="site-container u-margin-Vxl grid">
               { groupedStories[this.state.activeCategory].map((caseStudy) => {
