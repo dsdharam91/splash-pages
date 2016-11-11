@@ -9,8 +9,8 @@ import OnlineManagementYellowIcon from '../../../icons/svg/online-management-yel
 import SaveMoneyGreenIcon from '../../../icons/svg/save-money-green';
 import ImproveCashflowRedIcon from '../../../icons/svg/improve-cashflow-red';
 
-export default class NonDDFunnelEn extends React.Component {
-  displayName = 'NonDDFunnelEn'
+export default class SMBFunnelEn extends React.Component {
+  displayName = 'SMBFunnelEn'
 
   render() {
     return (
@@ -36,54 +36,78 @@ export default class NonDDFunnelEn extends React.Component {
           </div>
         </div>
 
-        <div className='site-container u-padding-Vxxl'>
-          <div className='grid u-margin-Vl'>
-            <div className='grid__cell u-size-1of3 u-text-center'>
-              <figure className='svg-icon u-center'>
-                <ImproveCashflowRedIcon className='svg-icon__image' />
-              </figure>
+        <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
+          <div className='u-padding-Vxxl site-container'>
+            <div className='grid'>
+              <div className='grid__cell u-size-1of2'>
+                <figure className='svg-icon u-pull-start u-inline-block'>
+                  <TickIcon className='svg-icon__image' />
+                </figure>
 
-              <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                Increase conversion
+                <div className='u-inline-block u-pull-start u-size-3of4 u-margin-Lm'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>
+                    Direct Debit for the digital age
+                  </h3>
+
+                  <p className='u-color-dark-gray u-margin-Txs'>
+                    A cutting-edge online Direct Debit solution that's simple to setup, manage and use.
+                  </p>
+                </div>
               </div>
 
-              <p className='u-center u-color-dark-gray u-margin-Txs'>
-                Direct Debit is the preferred payment method for many customers.
-              </p>
-            </div>
+              <div className='grid__cell u-size-1of2'>
+                <figure className='svg-icon u-pull-start u-inline-block'>
+                  <TickIcon className='svg-icon__image' />
+                </figure>
 
-            <div className='grid__cell u-size-1of3 u-text-center'>
-              <figure className='svg-icon u-center'>
-                <SaveMoneyGreenIcon className='svg-icon__image' />
-              </figure>
+                <div className='u-inline-block u-pull-start u-size-3of4 u-margin-Lm'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>
+                    Keep a step ahead of churn
+                  </h3>
 
-              <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                Low, transparent costs
+                  <p className='u-color-dark-gray u-margin-Txs'>
+                    Real-time notifications of failed or cancelled payments enable swift issue resolution.
+                  </p>
+                </div>
               </div>
 
-              <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                Reduce the high fees of other payment solutions.
-              </p>
-            </div>
+              <div className='grid__cell u-size-1of2 u-margin-Txxl u-padding-Txxl'>
+                <figure className='svg-icon u-pull-start u-inline-block'>
+                  <TickIcon className='svg-icon__image' />
+                </figure>
 
-            <div className='grid__cell u-size-1of3 u-text-center'>
-              <figure className='svg-icon u-center'>
-                <OnlineManagementYellowIcon className='svg-icon__image' />
-              </figure>
+                <div className='u-inline-block u-pull-start u-size-3of4 u-margin-Lm'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>
+                    Collect payments across Europe
+                  </h3>
 
-              <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                Reduce churn
+                  <p className='u-color-dark-gray u-margin-Txs'>
+                    We process Direct Debit payments for Bacs, SEPA and Autogiro through a single integration.
+                  </p>
+                </div>
               </div>
 
-              <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                Bank to bank payments prevent card expiry issues.
-              </p>
+              <div className='grid__cell u-size-1of2 u-margin-Txxl u-padding-Txxl'>
+                <figure className='svg-icon u-pull-start u-inline-block'>
+                  <TickIcon className='svg-icon__image' />
+                </figure>
+
+                <div className='u-inline-block u-pull-start u-size-3of4 u-margin-Lm'>
+                  <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>
+                    Create advanced payment flows
+                  </h3>
+
+                  <p className='u-color-dark-gray u-margin-Txs'>
+                    Re-tries, refunds and subscriptions: automate processes and configure logic around your needs.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
         <div className='site-container u-padding-Vxxl'>
-          <div className='product-grid__container'>
+          <div className='product-grid__container u-padding-Vxxl'>
             <div className='product-grid__section u-text-center product-grid__section--first u-padding-Vl'>
               <img src='/images/funnels/partner-logos.jpg' />
 
@@ -133,8 +157,8 @@ export default class NonDDFunnelEn extends React.Component {
           </div>
         </div>
 
-        <div className='u-text-center u-padding-Vxl u-background-light-gray'>
-          <div className='u-padding-Vxl site-container'>
+        <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
+          <div className='u-padding-Vxxl site-container'>
             <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
               Turn payments into a competitive advantage
             </h2>
@@ -207,8 +231,8 @@ export default class NonDDFunnelEn extends React.Component {
           </div>
         </div>
 
-        <div className='u-margin-Vxxl'>
-          <div className='site-container u-text-center u-padding-Vxl'>
+        <div className='u-padding-Vxxl'>
+          <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-size-1of2 u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
                 You'll be in great company
@@ -257,7 +281,7 @@ export default class NonDDFunnelEn extends React.Component {
         </div>
 
         <div className='u-padding-Vxxl u-text-center u-background-light-gray'>
-          <div className='site-container u-padding-Vxl'>
+          <div className='site-container u-padding-Vxxl'>
             <h2 className='u-text-heading u-color-dark-gray u-text-light u-padding-Bxl'>
               More industries that can partner with GoCardless
             </h2>
@@ -302,11 +326,11 @@ export default class NonDDFunnelEn extends React.Component {
         </div>
 
         <div className='u-padding-Vxxl u-text-center'>
-          <div className='site-container u-padding-Vxl'>
-            <h2 className='u-text-heading u-color-dark-gray u-text-light u-padding-Bxl'>
+          <div className='site-container u-padding-Vxxl'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-light u-padding-Bxxl'>
               Our pricing
             </h2>
-            <div className='grid u-margin-Tl u-padding-Tm'>
+            <div className='grid'>
               <div className='grid__cell u-size-1of2'>
                 <figure className='svg-icon u-pull-start u-inline-block'>
                   <TickIcon className='svg-icon__image svg-icon--small' />

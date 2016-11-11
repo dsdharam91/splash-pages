@@ -211,17 +211,17 @@ export default {
     description: '',
   },
   non_dd_funnel: {
-    title: 'TEST',
-    description: 'WAT',
+    title: 'non-dd-funnel',
+    description: '',
   },
-  // dd_funnel: {
-  //   title: 'TEST',
-  //   description: 'WAT',
-  // },
-  // smb_funnel: {
-  //   title: 'TEST',
-  //   description: 'WAT',
-  // },
+  dd_funnel: {
+    title: 'dd-funnel',
+    description: '',
+  },
+  smb_funnel: {
+    title: 'smb-funnel',
+    description: '',
+  },
   security: {
     title: 'Security',
     nav_title: 'Security',

@@ -109,8 +109,8 @@ import FaqProDashboardPlanCreation from '../pages/faq/pro-dashboard/plan-creatio
 import FaqProDashboardPaylinksCreation from '../pages/faq/pro-dashboard/paylinks-creation/faq-pro-dashboard-paylinks-creation';
 
 import NonDDFunnelEn from '../pages/funnels/non-dd-funnel/non-dd-funnel';
-// import DDFunnelEn from '../pages/funnels/dd-funnel/dd-funnel';
-// import SMBFunnelEn from '../pages/funnels/smb-funnel/smb-funnel';
+import DDFunnelEn from '../pages/funnels/dd-funnel/dd-funnel';
+import SMBFunnelEn from '../pages/funnels/smb-funnel/smb-funnel';
 
 import Stories from '../pages/stories/stories';
 import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
@@ -378,18 +378,18 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  // [DDFunnelEn, { name: 'non_dd_funnel'}, {
-  //     'en-GB': {
-  //       path: '/non-dd-funnel',
-  //     },
-  //   },
-  // ],
-  // [SMBFunnelEn, { name: 'non_dd_funnel'}, {
-  //     'en-GB': {
-  //       path: '/non-dd-funnel',
-  //     },
-  //   },
-  // ],
+  [DDFunnelEn, { name: 'dd_funnel'}, {
+      'en-GB': {
+        path: '/dd-funnel',
+      },
+    },
+  ],
+  [SMBFunnelEn, { name: 'smb_funnel'}, {
+      'en-GB': {
+        path: '/smb-funnel',
+      },
+    },
+  ],
   [LocalGovernment, { name: 'local_government', category: 'industries' }, {
       'en-GB': {
         path: '/local-government',

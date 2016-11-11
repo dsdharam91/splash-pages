@@ -9,8 +9,8 @@ import OnlineManagementYellowIcon from '../../../icons/svg/online-management-yel
 import SaveMoneyGreenIcon from '../../../icons/svg/save-money-green';
 import ImproveCashflowRedIcon from '../../../icons/svg/improve-cashflow-red';
 
-export default class NonDDFunnelEn extends React.Component {
-  displayName = 'NonDDFunnelEn'
+export default class DDFunnelEn extends React.Component {
+  displayName = 'DDFunnelEn'
 
   render() {
     return (
@@ -20,11 +20,11 @@ export default class NonDDFunnelEn extends React.Component {
             <div className='page-hero__inner'>
               <div className='page-hero__text'>
                 <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
-                  Reduce churn through Direct Debit
+                   Direct Debit for the digital age
                 </h1>
 
                 <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
-                  Keep customers happy with hassle-free payments
+                   A cutting edge platform for managing recurring payments
                 </p>
 
                 <Link to='contact_sales' id='track-sticky-nav-contact-sales'
@@ -44,11 +44,11 @@ export default class NonDDFunnelEn extends React.Component {
               </figure>
 
               <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                Increase conversion
+                Simple setup and migration
               </div>
 
               <p className='u-center u-color-dark-gray u-margin-Txs'>
-                Direct Debit is the preferred payment method for many customers.
+                It's quick and easy to move existing customers to GoCardless.
               </p>
             </div>
 
@@ -58,11 +58,11 @@ export default class NonDDFunnelEn extends React.Component {
               </figure>
 
               <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                Low, transparent costs
+                Transparent fees
               </div>
 
               <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                Reduce the high fees of other payment solutions.
+                No set up fees or bond requirements - only pay for successful transactions.
               </p>
             </div>
 
@@ -72,11 +72,11 @@ export default class NonDDFunnelEn extends React.Component {
               </figure>
 
               <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                Reduce churn
+                Reduce admin
               </div>
 
               <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                Bank to bank payments prevent card expiry issues.
+                Manage customers and payments online, automate reconciliation.
               </p>
             </div>
           </div>
@@ -147,11 +147,11 @@ export default class NonDDFunnelEn extends React.Component {
 
                 <div className='u-inline-block u-pull-start u-size-3of4 u-margin-Lm'>
                   <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>
-                    Direct Debit for the digital age
+                     Use data to connect & power teams
                   </h3>
 
                   <p className='u-color-dark-gray u-margin-Txs'>
-                    A cutting-edge online Direct Debit solution that's simple to setup, manage and use.
+                    Feed real-time payments data to internal teams for smarter customer interactions.
                   </p>
                 </div>
               </div>
@@ -163,11 +163,11 @@ export default class NonDDFunnelEn extends React.Component {
 
                 <div className='u-inline-block u-pull-start u-size-3of4 u-margin-Lm'>
                   <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>
-                    Keep a step ahead of churn
+                    Transform your customer experience
                   </h3>
 
                   <p className='u-color-dark-gray u-margin-Txs'>
-                    Real-time notifications of failed or cancelled payments enable swift issue resolution.
+                    Allow customers to pay on the date and time that suits them
                   </p>
                 </div>
               </div>
@@ -195,11 +195,11 @@ export default class NonDDFunnelEn extends React.Component {
 
                 <div className='u-inline-block u-pull-start u-size-3of4 u-margin-Lm'>
                   <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>
-                    Create advanced payment flows
+                     Future proof your payments
                   </h3>
 
                   <p className='u-color-dark-gray u-margin-Txs'>
-                    Re-tries, refunds and subscriptions: automate processes and configure logic around your needs.
+                    We work hard to ensure our best-in-class technology is continuously improving and always industry compliant.
                   </p>
                 </div>
               </div>
