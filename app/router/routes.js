@@ -67,14 +67,15 @@ import LegalRestrictions from '../pages/legal/restrictions/legal-restrictions';
 import LegalPaymentTimings from '../pages/legal/payment-timings/legal-payment-timings';
 
 import Partners from '../pages/partners/partners';
+import PartnersBillin from '../pages/partners/billin/partners-billin';
 import PartnersClearBooks from '../pages/partners/clearbooks/partners-clearbooks';
 import PartnersFreeagent from '../pages/partners/freeagent/partners-freeagent';
 import PartnersKashflow from '../pages/partners/kashflow/partners-kashflow';
 import PartnersPitchero from '../pages/partners/pitchero/partners-pitchero';
+import PartnersQuickbooks from '../pages/partners/quickbooks/partners-quickbooks';
 import PartnersSage from '../pages/partners/sage/partners-sage';
 import PartnersXero from '../pages/partners/xero/partners-xero';
-import PartnersQuickbooks from '../pages/partners/quickbooks/partners-quickbooks';
-import PartnersBillin from '../pages/partners/billin/partners-billin';
+import PartnersZuora from '../pages/partners/zuora/partners-zuora';
 
 import FaqMerchantsCustomerExperience from '../pages/faq/merchants/customer-experience/faq-merchants-customer-experience';
 import FaqMerchantsDeveloperApi from '../pages/faq/merchants/developer-api/faq-merchants-developer-api';
@@ -857,6 +858,12 @@ export const config = Immutable.fromJS([
   [PartnersXero, { name: 'partners_xero' }, {
       'en-GB': {
         path: '/xero',
+      },
+    },
+  ],
+  [PartnersZuora, { name: 'partners_zuora' }, {
+      'en-GB': {
+        path: '/zuora',
       },
     },
   ],
