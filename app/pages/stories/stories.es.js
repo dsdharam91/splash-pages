@@ -4,7 +4,6 @@ import Link from '../../components/link/link';
 import Href from '../../components/href/href';
 import Message from '../../components/message/message';
 import _ from 'lodash';
-import classNames from 'classnames';
 
 let caseStudies = {
   'Start ups': [
@@ -56,12 +55,6 @@ export default class StoriesEs extends React.Component {
   }
 
   render() {
-    const tabClassesForCategory = (category) => {
-      return classNames('industry-filters__tab grid__cell u-size-1of4', {
-        active: this.state.activeCategory === category,
-      });
-    };
-
     return (
       <Translation locales='es'>
         <div className='page-hero page-hero--large page-hero--stories page-hero--stories-index u-relative u-size-full'>
