@@ -12,12 +12,12 @@ export default class StoriesWowCompany extends React.Component {
         author='Peter Czapp'
         position='Co-Founder and Director'
         company='The Wow Company'
-        benefits='TBC'
+        benefits='Improved cashflow, integration with Xero, flexible payments'
         bgimgUrl='url(/images/stories/story-images/wow-company/hero-wow-company.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/the-wow-company.png'
-        sidebarServices='TBC'
-        sidebarEmployees='TBC employees'
-        sidebarTimeSaved='TBC'>
+        sidebarServices='Accountancy and business advice'
+        sidebarEmployees='35 employees'
+        sidebarTimeSaved='4 days per month'>
         <div className='story-body'>
           <p className='para u-margin-Tn'>
             <a href='http://www.thewowcompany.com/' className='u-link-color-p u-text-underline'>The Wow Company</a> is a firm of

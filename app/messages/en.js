@@ -621,7 +621,7 @@ export default {
     description: '',
   },
   stories_wow_company: {
-    title: 'Wow Company - Customer Stories',
+    title: 'The Wow Company - Customer Stories',
     description: '',
   },
   stories_your_parking_space: {
