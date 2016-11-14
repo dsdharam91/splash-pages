@@ -624,6 +624,10 @@ export default {
     title: 'Soaring Falcon Accountancy - Customer Stories',
     description: '',
   },
+  stories_wow_company: {
+    title: 'The Wow Company - Customer Stories',
+    description: '',
+  },
   stories_your_parking_space: {
     title: 'Your Parking Space - Customer Stories',
     description: '',
