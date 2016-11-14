@@ -50,6 +50,7 @@ import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnershi
 import RiskComplianceAnalyst from '../pages/about/jobs/positions/risk-compliance-analyst.js';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships.js';
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
+import DeveloperSupportLead from '../pages/about/jobs/positions/developer-support-lead.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -114,6 +115,7 @@ import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
 import StoriesSlmConnect from '../pages/stories/stories/slm-connect';
 import StoriesSmartPension from '../pages/stories/stories/smart-pension';
 import StoriesSoaringFalcon from '../pages/stories/stories/soaring-falcon';
+import StoriesWowCompany from '../pages/stories/stories/wow-company';
 import StoriesYourParkingSpace from '../pages/stories/stories/your-parking-space';
 
 import StoriesBlueskyBusiness from '../pages/stories/stories/bluesky-business';
@@ -549,6 +551,12 @@ export const config = Immutable.fromJS([
   [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support-germany',
+      },
+    },
+  ],
+  [DeveloperSupportLead, { name: 'jobs_developer_support_lead', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/developer-support-lead',
       },
     },
   ],
@@ -1382,6 +1390,12 @@ export const config = Immutable.fromJS([
   [StoriesSoaringFalcon, { name: 'stories_soaring_falcon', category: 'stories' }, {
       'en-GB': {
         path: '/stories/soaring-falcon',
+      },
+    },
+  ],
+  [StoriesWowCompany, { name: 'stories_wow_company', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/wow-company',
       },
     },
   ],
