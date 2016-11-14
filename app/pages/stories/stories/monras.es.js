@@ -12,7 +12,7 @@ export default class StoriesMonras extends React.Component {
         position='Fundador'
         company='Monras'
         benefits='Automatización de los cobros, sin necesidad de avales bancarios y cobro inmediato'
-        bgimgUrl=''
+        bgimgUrl='url(/images/stories/story-images/monras/hero-monras.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/monras.png'
         sidebarServices='Limpieza de Edificios y Comunidades de Vecinos'
         sidebarEmployees='50 empleados'
