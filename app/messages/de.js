@@ -60,7 +60,7 @@ export default {
       more_than_one_hundred_thousand_payments: '100.000+',
       number_of_payments_label: 'Bei wie vielen Zahlungen hätten wir Sie letzten Monat unterstützen können?',
       number_of_payments_placeholder: 'Anzahl Ihrer durchgeführten Zahlungen im letzten Monat',
-      specific_needs_label: 'What are your business\'s specific needs?',
+      specific_needs_label: 'Welche bestimmten Bedürfnisse hat Ihr Betrieb?',
       submit: 'Senden',
       success_message: 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
     },
