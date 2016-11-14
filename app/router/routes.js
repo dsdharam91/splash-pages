@@ -107,7 +107,6 @@ import StoriesConnexin from '../pages/stories/stories/connexin';
 import StoriesFdWorks from '../pages/stories/stories/fd-works';
 import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
 import StoriesHotpodYoga from '../pages/stories/stories/hotpod-yoga';
-import StoriesImpactHub from '../pages/stories/stories/impact-hub';
 import StoriesNutmeg from '../pages/stories/stories/nutmeg';
 import StoriesPeterboroughCouncil from '../pages/stories/stories/peterborough-council';
 import StoriesRockChoir from '../pages/stories/stories/rock-choir';
@@ -117,6 +116,10 @@ import StoriesSmartPension from '../pages/stories/stories/smart-pension';
 import StoriesSoaringFalcon from '../pages/stories/stories/soaring-falcon';
 import StoriesWowCompany from '../pages/stories/stories/wow-company';
 import StoriesYourParkingSpace from '../pages/stories/stories/your-parking-space';
+
+import StoriesAcumbamail from '../pages/stories/stories/acumbamail.es';
+import StoriesImpactHub from '../pages/stories/stories/impact-hub.es';
+import StoriesMonras from '../pages/stories/stories/monras.es';
 
 import StoriesBlueskyBusiness from '../pages/stories/stories/bluesky-business';
 import StoriesSpencerHockey from '../pages/stories/stories/spencer-hockey';
@@ -1307,6 +1310,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/kundenstimmen',
       },
+      es: {
+        path: '/referencias',
+      },
     },
   ],
   [StoriesBoostCapital, { name: 'stories_boost_capital', category: 'stories' }, {
@@ -1342,12 +1348,6 @@ export const config = Immutable.fromJS([
   [StoriesHotpodYoga, { name: 'stories_hotpod_yoga', category: 'stories' }, {
       'en-GB': {
         path: '/stories/hotpod-yoga',
-      },
-    },
-  ],
-  [StoriesImpactHub, { name: 'stories_impact_hub', category: 'stories' }, {
-      es: {
-        path: '/referencias/impact-hub',
       },
     },
   ],
@@ -1405,6 +1405,28 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+
+  // Spanish Case Studies
+  [StoriesAcumbamail, { name: 'stories_acumbamail', category: 'stories' }, {
+      es: {
+        path: '/referencias/acumbamail',
+      },
+    },
+  ],
+  [StoriesImpactHub, { name: 'stories_impact_hub', category: 'stories' }, {
+      es: {
+        path: '/referencias/impact-hub',
+      },
+    },
+  ],
+  [StoriesMonras, { name: 'stories_monras', category: 'stories' }, {
+      es: {
+        path: '/referencias/monras',
+      },
+    },
+  ],
+
+  // Legacy Case Studies
   [StoriesBlueskyBusiness, { name: 'stories_bluesky_business', category: 'stories' }, {
       'en-GB': {
         path: '/stories/bluesky-business',
