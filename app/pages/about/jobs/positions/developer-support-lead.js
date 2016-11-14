@@ -19,7 +19,7 @@ export default class DeveloperSupportLead extends React.Component {
         <p className='para'>
           We’re looking for an experienced, enthusiastic problem-solver to lead our Developer Support team,
           to help us develop and improve our support tools and processes, and to empower the Operations
-          team as a whole. 
+          team as a whole.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
@@ -68,7 +68,7 @@ export default class DeveloperSupportLead extends React.Component {
             You’re comfortable with code, scripting, or SQL.
           </li>
           <li>
-            You have a flawless command of English. 
+            You have a flawless command of English.
           </li>
         </ul>
         <p className='para'>
