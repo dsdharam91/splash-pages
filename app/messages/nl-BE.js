@@ -25,18 +25,6 @@ export default {
   partners_email: 'belgium@gocardless.com',
   api_reference_link: 'https://developer.gocardless.com/api-reference',
   developer_link: 'https://developer.gocardless.com',
-  prospect_form: {
-    sales: {
-      name_label: 'Naam',
-      name_placeholder: 'Tom Peeters',
-      email_label: 'Email',
-      email_placeholder: 'voorbeeld@bedrijfsnaam.com',
-      phone_label: 'Telefoon',
-      phone_placeholder: '020 123 4567',
-      submit: 'Verstuur',
-      success_message: 'Bedankt! We nemen snel contact met je op.',
-    },
-  },
   home: {
     title: 'De eenvoudige manier om terugkerende betalingen te incasseren',
     nav_title: 'Start',
