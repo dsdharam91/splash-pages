@@ -25,12 +25,7 @@ export default {
       phone_label: 'Telefone',
       phone_placeholder: '02071838674',
       submit: 'Contato',
-      success_messages: {
-        '0-100': 'Obrigado, um membro do GoCardless entrara em contato em breve.',
-        '100-500': 'Obrigado, um membro do GoCardless entrara em contato em breve.',
-        '500+': 'Obrigado, um membro do GoCardless entrará em contato em breve.',
-        default: 'Obrigado, um membro do nosso time entrará em contato dentro de 24h',
-      },
+      success_message: 'Obrigado, um membro do GoCardless entrara em contato em breve.',
     },
     holding: {
       submit: 'Avise-me',

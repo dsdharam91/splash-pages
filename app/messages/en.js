@@ -56,12 +56,7 @@ export default {
       number_of_payments_placeholder: 'Select number of payments taken last month',
       specific_needs_label: 'What are your business\'s specific needs?',
       submit: 'Contact',
-      success_messages: {
-        '0-100': 'Thank you, a member of the GoCardless team will be in touch soon.',
-        '100-500': 'Thank you, a member of the GoCardless team will be in touch soon.',
-        '500+': 'Thank you, a member of the GoCardless team will be in touch soon.',
-        default: 'Thank you, someone will be in touch within 24 hours.',
-      },
+      success_message: 'Thank you, a member of the GoCardless team will be in touch soon.',
     },
   },
   not_found: {
@@ -360,6 +355,10 @@ export default {
     title: 'GoCardless for Xero: Powered by Directli',
     description: 'GoCardless integrates with the Xero online accounting software and allows you to collect payments with Direct Debit.',
   },
+  partners_zuora: {
+    title: 'GoCardless for Zuora',
+    description: '',
+  },
   partners_quickbooks: {
     title: 'GoCardless for Quickbooks',
     description: 'Get paid on time and reconcile invoices automatically with GoCardless for QuickBooks',
@@ -526,20 +525,24 @@ export default {
     title: 'Head of Operations',
     description: '',
   },
-  jobs_front_end_developer: {
-    title: 'Front End Developer',
+  jobs_accounts_assistant: {
+    title: 'Accounts Assistant',
     description: '',
   },
   jobs_partnerships_success_manager: {
     title: 'Partnerships Success Manager',
     description: '',
   },
-  jobs_customer_support_france: {
-    title: 'Customer Support: France',
-    description: '',
-  },
   jobs_risk_compliance_analyst: {
     title: 'Risk and Compliance Analyst',
+    description: '',
+  },
+  jobs_customer_support_germany: {
+    title: 'Customer Support: Germany',
+    description: '',
+  },
+  jobs_developer_support_lead: {
+    title: 'Developer Support Lead',
     description: '',
   },
   api_docs: {
@@ -619,6 +622,10 @@ export default {
   },
   stories_soaring_falcon: {
     title: 'Soaring Falcon Accountancy - Customer Stories',
+    description: '',
+  },
+  stories_wow_company: {
+    title: 'The Wow Company - Customer Stories',
     description: '',
   },
   stories_your_parking_space: {
