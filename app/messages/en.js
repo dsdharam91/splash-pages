@@ -541,6 +541,10 @@ export default {
     title: 'Customer Support: Germany',
     description: '',
   },
+  jobs_developer_support_lead: {
+    title: 'Developer Support Lead',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',

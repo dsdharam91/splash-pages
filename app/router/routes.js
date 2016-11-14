@@ -50,6 +50,7 @@ import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnershi
 import RiskComplianceAnalyst from '../pages/about/jobs/positions/risk-compliance-analyst.js';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships.js';
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
+import DeveloperSupportLead from '../pages/about/jobs/positions/developer-support-lead.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -550,6 +551,12 @@ export const config = Immutable.fromJS([
   [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support-germany',
+      },
+    },
+  ],
+  [DeveloperSupportLead, { name: 'jobs_developer_support_lead', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/developer-support-lead',
       },
     },
   ],
