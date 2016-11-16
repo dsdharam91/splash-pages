@@ -11,8 +11,7 @@ export default class FaqMerchantsEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Resumen</h2>
-
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Resumen<br></br></h2>
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cómo puedo usar GoCardless?
         </h3>
@@ -25,16 +24,15 @@ export default class FaqMerchantsEs extends React.Component {
             con tus clientes utilizando nuestro sencillo panel de control online.
           </li>
           <li>
-            <strong>Nuestros software asociados</strong> - Trabajamos con una creciente lista de <Link to='partners'
+            <strong>Nuestros softwares asociados</strong> - Trabajamos con una creciente lista de <Link to='partners'
             className='u-link-color-p u-text-underline'>Partners / Asociados</Link>, para que puedas cobrar a tus clientes
             desde los servicios online que ya utilizas.
           </li>
           <li>
             <strong>Nuestra sencilla API REST</strong> - Integra GoCardless en tu sitio web usando
-            nuestra <Href to='developer_link' className='u-link-color-p u-text-underline'>API REST</Href>.
+            nuestra <Href to='developer_link' className='u-link-color-p u-text-underline'>API REST</Href>.<br></br>
           </li>
         </ul>
-
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿A quién está dirigido GoCardless?
         </h3>
@@ -50,7 +48,7 @@ export default class FaqMerchantsEs extends React.Component {
         <p className='para'>
           En España, estamos integrados con algunos de los software de contabilidad más populares
           para facilitar la facturación y la reconciliación de cobros. Descubre
-          más <Link to='features' className='u-link-color-p u-text-underline'>aquí</Link>.
+          más <Link to='features' className='u-link-color-p u-text-underline'>aquí</Link>.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -72,7 +70,7 @@ export default class FaqMerchantsEs extends React.Component {
         <p className='para'>
           Aceptamos todo tipo de clientes, pero hay algunas excepciones: para obtener más información,
           consulta <Link to='legal_restrictions' className='u-link-color-p u-text-underline'>nuestra
-          página de actividades restringidas.</Link>.
+          página de actividades restringidas.</Link>.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -83,7 +81,7 @@ export default class FaqMerchantsEs extends React.Component {
         </p>
         <p className='para'>
           En cuanto a la cantidad de dinero que puedes cobrar, el importe mínimo es de 1 euro, y el máximo de 5000 euros.
-          Este límite so podría ampliar realizando controles de verificación adicionales
+          Este límite se podría ampliar realizando controles de verificación adicionales<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -98,7 +96,7 @@ export default class FaqMerchantsEs extends React.Component {
         </p>
         <p className='para'>
           Con GoCardless, te deduciremos directamente las <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>
-          comisiones</Link>.
+          comisiones</Link>.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -108,14 +106,14 @@ export default class FaqMerchantsEs extends React.Component {
           Todos los cobros se pagan en un plazo de 3-4 días hábiles desde el momento de la recaudación.
         </p>
         <p className='para'>
-          No mantenemos ninguno de tus fondos en reserva.
+          No mantenemos ninguno de tus fondos en reserva.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Se aceptan tarjetas de crédito o de débito?
         </h3>
         <p className='para'>
-          No, GoCardless es una compañía de Adeudo Directo y Domiciliación Bancaria.
+          No, GoCardless es una compañía de Adeudo Directo y Domiciliación Bancaria.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -128,7 +126,7 @@ export default class FaqMerchantsEs extends React.Component {
         <ul className='list'>
           <li>
             <strong>Administración reducida</strong> - Recauda automáticamente tus cobros recurrentes y
-            puntuales, o haciendo clic en un botón. Gestionamos todo lo demás por ti.
+            puntuales, haciendo clic en un botón. Gestionamos todo lo demás por ti.
           </li>
           <IfLocale hasPercentagePricing>
             <li>

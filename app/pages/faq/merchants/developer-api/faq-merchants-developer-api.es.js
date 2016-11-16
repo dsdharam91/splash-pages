@@ -9,7 +9,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Developer API</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Developer API<br></br></h2>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Para qué puedo utilizar la API?
@@ -20,8 +20,8 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           obtener más información.
         </p>
         <p className='para'>
-          Se puede integrar como comerciante para realizar cobros en su propio nombrenombre o como partner para generar y
-          gestionar múltiples comerciantes.
+          Se puede integrar como comerciante para realizar cobros en su propio nombre o como partner para generar y
+          gestionar múltiples comerciantes.<br></br>
          </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -33,7 +33,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
         </p>
         <p className='para'>
           Para obtener más información sobre nuestro producto para asociados/Partners, por favor <Link to='contact_sales'
-          className='u-link-color-p u-text-underline'>contactanos</Link>.
+          className='u-link-color-p u-text-underline'>contactanos</Link>.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -50,6 +50,9 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           <a href='https://github.com/gocardless/gocardless-pro-java' target='_blank' className='u-link-color-p u-text-underline'>
             Java
           </a>.
+           <a href='https://github.com/gocardless/gocardless-pro-python' target='_blank' className='u-link-color-p u-text-underline'>
+            Python
+          </a>.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -65,7 +68,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
         </p>
         <p className='para'>
           Puedes redireccionar al cliente a nuestras páginas de cobro y luego nosotros le redirigiremos a tu sitio web. Alternativamente,
-          puedes permitir que tus clientes vayan a las páginas de cobro a través de un Pop-up en tu web.
+          puedes permitir que tus clientes vayan a las páginas de cobro a través de un Pop-up en tu web.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -76,7 +79,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
         </p>
         <p className='para'>
           Algunos de nuestros socios, como Zuora, pueden ofrecer un iFrame para tus páginas de cobros. También proporcionamos un
-          Flow JS que evita que tengas que almacenar datos bancarios en tus servidores.
+          Flow JS que evita que tengas que almacenar datos bancarios en tus servidores.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -87,7 +90,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           seguraa de cobros para realizar la autorización inicial del Adeudo Directo.
         </p>
         <p className='para'>
-          Una vez que la autorización se haya realizado, se puede solicitar el cobro a través de la API.
+          Una vez que la autorización se haya realizado, se puede solicitar el cobro a través de la API.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -100,7 +103,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
         <p className='para'>
           Podrás encontrar más información acerca de nuestros webhooks disponibles y cómo utilizarlos en
           nuestra <a href='https://developer.gocardless.com/api-reference/#webhooks-overview' className='u-link-color-p u-text-underline'>guía de
-          webhooks</a>.
+          webhooks</a>.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>

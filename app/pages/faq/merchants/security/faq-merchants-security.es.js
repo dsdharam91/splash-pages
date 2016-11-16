@@ -8,7 +8,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Seguridad</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Seguridad<br></br></h2>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cómo sé que mi dinero está seguro?
@@ -21,7 +21,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
         </p>
         <p className='para'>
           Todo el dinero recaudado se guarda en una cuenta Escrow (nosotros no podemos tocar el dinero de esta cuenta, no está en nuestro balance y
-          está supervisada por los reguladores comunitarios) en uno de nuestros bancos asociados.
+          está supervisada por los reguladores comunitarios) en uno de nuestros bancos asociados.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -39,7 +39,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           de Datos 1998.</li>
           <li>Nuestro servidor de datos financieros está separado de nuestro servidor de aplicaciones por múltiples cortafuegos.</li>
           <li>Toda la comunicación cliente-servidor está encriptada con tecnología de cifrado SSL de 256 bits. El sistema bancario
-          requiere solo 128 bits.</li>
+          requiere solo 128 bits.</li><br></br>
         </ul>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -49,7 +49,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           Todo el dinero recaudado se guarda en una cuenta Escrow del cliente en uno de nuestros bancos asociados.
         </p>
         <p className='para'>
-          Los fondos se guardan de plena conformidad con las disposiciones de protección aceptadas por los reguladores Europeos.
+          Los fondos se guardan de plena conformidad con las disposiciones de protección aceptadas por los reguladores Europeos.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -59,7 +59,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           Sí. Tus clientes están protegidos
           por <a href='https://gocardless.com/es/guias/sepa/proteccion/' className='u-link-color-p u-text-underline'>
           la Protección al cliente en el Adeudo Directo SEPA</a> en la Eurozona y por <a href='/direct-debit/guarantee/'
-          className='u-link-color-p u-text-underline'>la Protección al consumidor de Adeudo Directo</a> en el Reino Unido.
+          className='u-link-color-p u-text-underline'>la Protección al consumidor de Adeudo Directo</a> en el Reino Unido.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -73,14 +73,13 @@ export default class FaqMerchantsSecurityEs extends React.Component {
         </p>
 
         <p className='para'>Si estás interesado en probar si nuestro servicio presenta alguna vulnerabilidad,
-        agradeceríamos cualquier informe en relación a nuestro panel de control y nuestra API, ya que pronto
-        sustituiremos los paneles de control actuales. Puedes <a href="https://manage-sandbox.gocardless.com/signup"
+        agradeceríamos cualquier informe en relación a nuestro panel de control y nuestra API. Puedes <a href="https://manage-sandbox.gocardless.com/signup"
         className="u-link-color-p u-text-underline">registrarte en una cuenta de sandbox/prueba</a> para empezar.
         </p>
 
         <p className='para'>En reconocimiento a tus esfuerzos, y para agradecerte la colaboración por mantener la
         seguridad de GoCardless, ofrecemos gratificaciones económicas por descubrir vulnerabilidades responsables.
-        Las gratificaciones se determinan conforme a nuestro criterio, en función de la gravedad del problema.
+        Las gratificaciones se determinan conforme a nuestro criterio, en función de la gravedad del problema.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -101,7 +100,7 @@ export default class FaqMerchantsSecurityEs extends React.Component {
             No abuses de la vulnerabilidad, excepto para demostrar el problema al personal de GoCardless.
           </li>
           <li>
-            No informes a nadie del problema hasta que lo hayamos solucionado
+            No informes a nadie del problema hasta que lo hayamos solucionado<br></br>
           </li>
         </ul>
 

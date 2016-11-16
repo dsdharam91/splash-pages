@@ -7,13 +7,13 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Experiencia de Usuario</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Experiencia de Usuario<br></br></h2>
           <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
             ¿Puedo rellenar el mandato SEPA online en nombre de mi cliente?
           </h3>
           <p className='para'>
             No - debido a las estrictas restricciones en la Domiciliación Bancaria SEPA, los pagadores deben
-            rellenar sus datos de cobro personalmente.
+            rellenar sus datos de cobro personalmente.<br></br>
           </p>
 
           <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -25,7 +25,7 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
           </p>
           <p className='para'>
             Puedes personalizar como mostramos el nombre de tu negocio en los extractos bancarios de tus clientes
-            en los "Settings" de tu panel de control.
+            en los "Settings" de tu panel de control.<br></br>
           </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -33,7 +33,7 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
         </h3>
         <p className='para'>
           Tu cliente puede introducir sus datos bancarios online a través de GoCardless; si utilizas GoCardless Pro
-          también puede hacerlo por teléfono o por escrito.
+          también puede hacerlo por teléfono o por escrito.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -46,7 +46,7 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
           acceder a través de una ventana emergente desde tu sitio.
         </p>
         <p className='para'>
-          Con GoCardless Pro, puedes albergar las páginas de pago en tu propio sitio y no tendrás que redirigir a tus clientes.
+          Con GoCardless Pro, puedes albergar las páginas de pago en tu propio sitio y no tendrás que redirigir a tus clientes.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -54,7 +54,7 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
         </h3>
         <p className='para'>
           No - no ofrecemos iFraming de nuestras páginas de cobros. Si utilizas GoCardless Pro, ofrecemos un Flow JS
-          que te permite no tener ningún dato bancario en tu servidor.
+          que te permite no tener ningún dato bancario en tu servidor.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -65,7 +65,7 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
           seguras de cobros para realizar la autorización inicial del Adeudo Directo.
         </p>
         <p className='para'>
-          Una vez que la autorización se haya realizado, se puede solicitar el cobro a través de la API.
+          Una vez que la autorización se haya realizado, se puede solicitar el cobro a través de la API.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>

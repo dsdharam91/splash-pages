@@ -8,7 +8,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>¿Cómo funciona?</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>¿Cómo funciona?<br></br></h2>
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Cuándo recibo mi cobro?
         </h3>
@@ -16,7 +16,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           Ingresamos automáticamente tus fondos en la cuenta bancaria
           especificada <strong>3 días hábiles</strong> después de haberlos cobrado al cliente.
           Obtendrás más información <a href='https://support.gocardless.com/hc/en-us/sections/202492985-Payment-Timings'
-          className='u-link-color-p u-text-underline'>aquí</a>.
+          className='u-link-color-p u-text-underline'>aquí</a>.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -24,7 +24,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
         </h3>
         <p className='para'>
           Puedes realizar cobros puntuales, recurrentes o variables a través de Domiciliación Bancaria on nuestro
-          panel de control online o la API.
+          panel de control online o la API.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -45,7 +45,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
             API.
           </li>
           <li>
-            Los clientes recibirán una notificación cada vez que se realice un nuevo cobro.
+            Los clientes recibirán una notificación cada vez que se realice un nuevo cobro.<br></br>
           </li>
         </ul>
 
@@ -59,7 +59,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
         </p>
         <p className='para'>
           Tu cliente solo tendrá que hacer clic en el enlace e introducir sus datos en nuestra página segura de cobros
-          online para realizar una Domociliación Bancaria o Adeudo Directo y autorizarte a realizar cobros futuros automáticamente.
+          online para realizar una Domociliación Bancaria o Adeudo Directo y autorizarte a realizar cobros futuros automáticamente.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -71,14 +71,14 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           generando un enlace para un plan de cobros e incrustándolo como botón en tu propio sitio web.
         </p>
         <p className='para'>
-          Al hacer clic en el botón, el cliente será reenviado a nuestra página segura de cobros online desde la que puede autorizar los pagos.
+          Al hacer clic en el botón, el cliente será reenviado a nuestra página segura de cobros online desde la que puede autorizar los pagos.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Puedo configurar los cobros para que empiecen y terminen en una fecha concreta?
         </h3>
         <p className='para'>
-          Sí - puedes personalizar fácilmente el día, la fecha, la frecuencia y la duración de los cobros.
+          Sí - puedes personalizar fácilmente el día, la fecha, la frecuencia y la duración de los cobros.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -87,7 +87,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
         <p className='para'>
           Siempre y cuando el cobro no se haya enviado aún al banco, podrás cancelar fácilmente un pago
           existente o quitar a un cliente del plan y añadir a otro nuevo. Todo esto se puede hacer desde el
-          panel de control en cuestión de segundos.
+          panel de control en cuestión de segundos.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -95,7 +95,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
         </h3>
         <p className='para'>
           Nuestro panel de control ofrece información en tiempo real de todos tus
-          cobros y clientes, lo que te permite controlar el estado de un cobro en cualquier momento.
+          cobros y clientes, lo que te permite controlar el estado de un cobro en cualquier momento.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>

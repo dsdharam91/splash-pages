@@ -7,7 +7,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Domiciliación Bancaria</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Domiciliación Bancaria<br></br></h2>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Qué es el Adeudo Directo SEPA o Domiciliación Bancaria?
@@ -16,7 +16,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           El Adeudo Directo SEPA es un nuevo instrumento de pago introducido por la Unión Europea en agosto de 2014. Sustituye al
           esquema nacional de Adeudo Directo que operaba previamente. Permite a las empresas recaudar fondos denominados en euros
           de la <a href='https://gocardless.com/es/guias/sepa/que-es-sepa/' target='_blank' className='u-link-color-p u-text-underline'>
-          Zona Única de Pagos en Euros (SEPA)</a>.
+          Zona Única de Pagos en Euros (SEPA)</a>.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -34,7 +34,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
         </p>
         <p className='para'>
           Un reembolso del banco no implica que la reclamación contra la factura subyacente esté justificada.
-          Corresponde al comerciante resolver su disputa comercial con el cliente.
+          Corresponde al comerciante resolver su disputa comercial con el cliente.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -42,14 +42,14 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
         </h3>
         <p className='para'>
           No. Con SEPA, los bancos están obligados a no cobrar por las transacciones de Adeudo Directo.
-          Por tanto, es gratis para tus clientes.
+          Por tanto, es gratis para tus clientes.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           ¿Necesito un ID de Acreedor SEPA?
         </h3>
         <p className='para'>
-          No. Podemos suministrarte uno a través de nuestro banco asociado.
+          No. Podemos suministrarte uno a través de nuestro banco asociado.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -62,7 +62,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
         <ul className='list'>
           <li>Cobros recurrentes (p. ej. suscripciones o donativos regulares)</li>
           <li>Clientes con una relación habitual (p. ej., suministradores)</li>
-          <li>Facturación de servicios (p. ej., contabilidad, asesoramiento fiscal, etc.)</li>
+          <li>Facturación de servicios (p. ej., contabilidad, asesoramiento fiscal, etc.)</li><br></br>
         </ul>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -71,7 +71,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
         <ul className='list'>
           <li>Transacciones que requieren una liquidación instantánea (p. ej., tiendas de comercio electrónico)</li>
           <li>Pagos puntuales de alto valor para bienes líquidos (p. ej., lingote de oro)</li>
-          <li>Transacciones que podrían experimentar devoluciones (p. ej., juegos de azar)</li>
+          <li>Transacciones que podrían experimentar devoluciones (p. ej., juegos de azar)</li><br></br>
         </ul>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -84,7 +84,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
         </p>
         <p className='para'>
           Una vez que GoCardless haya realizado el cobro a tu cliente, recibirás los fondos en tu cuenta bancaria
-          a los 4 días hábiles.
+          a los 4 días hábiles.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -92,7 +92,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
         </h3>
         <p className='para'>
           Sí - aunque el Adeudo Directo se utiliza habitualmente para cobros recurrentes,
-          también se puede utilizar para cobros puntuales.
+          también se puede utilizar para cobros puntuales.<br></br>
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
