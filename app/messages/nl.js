@@ -46,7 +46,7 @@ export default {
       phone_placeholder: '020 123 4567',
       number_of_payments_label: 'Met de incassering van hoeveel betalingen hadden wij je afgelopen maand kunnen helpen?',
       number_of_payments_placeholder: 'Selecteer het aantal betalingen dat je afgelopen maand hebt geïncasseerd',
-      specific_needs_label: 'What are your business\'s specific needs?',
+      specific_needs_label: 'Wat zijn de specifieke behoeftes van jouw bedrijf?',
       zero_to_ninety_nine_payments: '0 - 99',
       one_hundred_to_nine_hundred_and_ninety_nine_payments: '100 - 999',
       one_thousand_to_nine_thousand_nine_hundred_and_ninety_nine_payments: '1.000 - 9.999',
