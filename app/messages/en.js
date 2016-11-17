@@ -525,10 +525,6 @@ export default {
     title: 'Accounts Assistant',
     description: '',
   },
-  jobs_partnerships_success_manager: {
-    title: 'Partnerships Success Manager',
-    description: '',
-  },
   jobs_risk_compliance_analyst: {
     title: 'Risk and Compliance Analyst',
     description: '',
