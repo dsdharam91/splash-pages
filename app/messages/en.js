@@ -501,10 +501,6 @@ export default {
     title: 'Engineering Internships',
     description: '',
   },
-  jobs_enterprise_account_executive: {
-    title: 'Account Executive, Enterprise Sales: UK',
-    description: '',
-  },
   jobs_inside_account_executive_spain: {
     title: 'Account Executive, Inside Sales: Spain',
     description: '',
@@ -527,10 +523,6 @@ export default {
   },
   jobs_accounts_assistant: {
     title: 'Accounts Assistant',
-    description: '',
-  },
-  jobs_partnerships_success_manager: {
-    title: 'Partnerships Success Manager',
     description: '',
   },
   jobs_risk_compliance_analyst: {

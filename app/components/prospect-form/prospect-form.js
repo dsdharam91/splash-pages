@@ -2,7 +2,6 @@ import includes from 'lodash/collection/includes';
 import assign from 'lodash/object/assign';
 import request from 'superagent';
 import React from 'react';
-import Translation from '../../components/translation/translation';
 import Message from '../../components/message/message';
 import {getMessage} from '../../components/intl/intl';
 import {PropTypes} from '../../helpers/prop-types/prop-types';
@@ -158,35 +157,43 @@ export default class ProspectForm extends React.Component {
             <input className='input input--stacked' id='prospect_phone_number' name='prospect[phone_number]'
               placeholder={getMessage(messages, 'prospect_form.sales.phone_placeholder')} required type='text' />
 
-            <Translation locales={['en', 'fr', 'es']}>
-              {
-                this.props.showNumberOfPayments &&
-                  <div>
-                    <label className='label label--stacked' htmlFor='prospect_metadata_number_of_payments'>
-                      <Message pointer='prospect_form.sales.number_of_payments_label' />
-                    </label>
-                    <select className='input--stacked'
-                    id='prospect_metadata_number_of_payments'
-                    name='prospect[metadata][number_of_payments]'
-                    defaultValue=''>
-                      <option value=''>
-                        <Message pointer='prospect_form.sales.number_of_payments_placeholder' />
-                      </option>
-                      <option value='0-99'>0-99</option>
-                      <option value='100-999'>100-999</option>
-                      <option value='1000-9999'>1000-9999</option>
-                      <option value='10000-99999'>10000-99999</option>
-                      <option value='100000+'>100000+</option>
-                    </select>
-                  </div>
-              }
+            {
+              this.props.showNumberOfPayments &&
+                <div>
+                  <label className='label label--stacked' htmlFor='prospect_metadata_number_of_payments'>
+                    <Message pointer='prospect_form.sales.number_of_payments_label' />
+                  </label>
+                  <select className='input--stacked'
+                  id='prospect_metadata_number_of_payments'
+                  name='prospect[metadata][number_of_payments]'
+                  defaultValue=''>
+                    <option value=''>
+                      <Message pointer='prospect_form.sales.number_of_payments_placeholder' />
+                    </option>
+                    <option value='0-99'>
+                      <Message pointer='prospect_form.sales.zero_to_ninety_nine_payments' />
+                    </option>
+                    <option value='100-999'>
+                      <Message pointer='prospect_form.sales.one_hundred_to_nine_hundred_and_ninety_nine_payments' />
+                    </option>
+                    <option value='1000-9999'>
+                      <Message pointer='prospect_form.sales.one_thousand_to_nine_thousand_nine_hundred_and_ninety_nine_payments' />
+                    </option>
+                    <option value='10000-99999'>
+                      <Message pointer='prospect_form.sales.ten_thousand_to_ninety_nine_thousand_nine_hundred_and_ninety_nine_payments' />
+                    </option>
+                    <option value='100000+'>
+                      <Message pointer='prospect_form.sales.more_than_one_hundred_thousand_payments' />
+                    </option>
+                  </select>
+                </div>
+            }
 
-              <label className='label label--stacked' htmlFor='prospect_metadata_message'>
-                <Message pointer='prospect_form.sales.specific_needs_label' />
-              </label>
-              <textarea className='input input--stacked input--textarea'
-                id='prospect_metadata_message' name='prospect[metadata][message]' rows='3' />
-            </Translation>
+            <label className='label label--stacked' htmlFor='prospect_metadata_message'>
+              <Message pointer='prospect_form.sales.specific_needs_label' />
+            </label>
+            <textarea className='input input--stacked input--textarea'
+              id='prospect_metadata_message' name='prospect[metadata][message]' rows='3' />
 
             <button type='submit' className='btn btn--block u-margin-Tl contact-sales'>
               <Message pointer='prospect_form.sales.submit' />

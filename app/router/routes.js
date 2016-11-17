@@ -39,14 +39,12 @@ import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import DevopsEngineer from '../pages/about/jobs/positions/devops-engineer.js';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import LeadDataEngineer from '../pages/about/jobs/positions/lead-data-engineer.js';
-import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
 import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
-import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success-manager.js';
 import RiskComplianceAnalyst from '../pages/about/jobs/positions/risk-compliance-analyst.js';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships.js';
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
@@ -107,7 +105,6 @@ import StoriesConnexin from '../pages/stories/stories/connexin';
 import StoriesFdWorks from '../pages/stories/stories/fd-works';
 import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
 import StoriesHotpodYoga from '../pages/stories/stories/hotpod-yoga';
-import StoriesImpactHub from '../pages/stories/stories/impact-hub';
 import StoriesNutmeg from '../pages/stories/stories/nutmeg';
 import StoriesPeterboroughCouncil from '../pages/stories/stories/peterborough-council';
 import StoriesRockChoir from '../pages/stories/stories/rock-choir';
@@ -117,6 +114,10 @@ import StoriesSmartPension from '../pages/stories/stories/smart-pension';
 import StoriesSoaringFalcon from '../pages/stories/stories/soaring-falcon';
 import StoriesWowCompany from '../pages/stories/stories/wow-company';
 import StoriesYourParkingSpace from '../pages/stories/stories/your-parking-space';
+
+import StoriesAcumbamail from '../pages/stories/stories/acumbamail.es';
+import StoriesImpactHub from '../pages/stories/stories/impact-hub.es';
+import StoriesMonras from '../pages/stories/stories/monras.es';
 
 import StoriesBlueskyBusiness from '../pages/stories/stories/bluesky-business';
 import StoriesSpencerHockey from '../pages/stories/stories/spencer-hockey';
@@ -488,12 +489,6 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [EnterpriseAccountExecutive, { name: 'jobs_enterprise_account_executive', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/enterprise-account-executive',
-      },
-    },
-  ],
   [InsideAccountExecutiveSpain, { name: 'jobs_inside_account_executive_spain', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/inside-account-executive-spain',
@@ -533,12 +528,6 @@ export const config = Immutable.fromJS([
   [AccountsAssistant, { name: 'jobs_accounts_assistant', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/accounts-assistant',
-      },
-    },
-  ],
-  [PartnershipsSuccessManager, { name: 'jobs_partnerships_success_manager', category: 'jobs.marketing' }, {
-      en: {
-        path: '/about/jobs/partnerships-success-manager',
       },
     },
   ],
@@ -1307,6 +1296,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/kundenstimmen',
       },
+      es: {
+        path: '/referencias',
+      },
     },
   ],
   [StoriesBoostCapital, { name: 'stories_boost_capital', category: 'stories' }, {
@@ -1342,12 +1334,6 @@ export const config = Immutable.fromJS([
   [StoriesHotpodYoga, { name: 'stories_hotpod_yoga', category: 'stories' }, {
       'en-GB': {
         path: '/stories/hotpod-yoga',
-      },
-    },
-  ],
-  [StoriesImpactHub, { name: 'stories_impact_hub', category: 'stories' }, {
-      es: {
-        path: '/referencias/impact-hub',
       },
     },
   ],
@@ -1405,6 +1391,28 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+
+  // Spanish Case Studies
+  [StoriesAcumbamail, { name: 'stories_acumbamail', category: 'stories' }, {
+      es: {
+        path: '/referencias/acumbamail',
+      },
+    },
+  ],
+  [StoriesImpactHub, { name: 'stories_impact_hub', category: 'stories' }, {
+      es: {
+        path: '/referencias/impact-hub',
+      },
+    },
+  ],
+  [StoriesMonras, { name: 'stories_monras', category: 'stories' }, {
+      es: {
+        path: '/referencias/monras',
+      },
+    },
+  ],
+
+  // Legacy Case Studies
   [StoriesBlueskyBusiness, { name: 'stories_bluesky_business', category: 'stories' }, {
       'en-GB': {
         path: '/stories/bluesky-business',

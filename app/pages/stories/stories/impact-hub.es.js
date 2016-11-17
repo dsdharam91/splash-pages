@@ -15,7 +15,7 @@ export default class StoriesImpactHub extends React.Component {
         bgimgUrl='url(/images/stories/story-images/impact-hub/hero-impact-hub.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/impact-hub.png'
         sidebarServices='Espacio de Coworking para emprendedores y empresas con un fin social'
-        sidebarEmployees='19'>
+        sidebarEmployees='19 empleados'>
         <div className='story-body'>
           <p className='para u-margin-Tn  '>
             Hay un lugar en la capital madrileña que reúne a <strong>emprendedores, profesionales, empresas y organizaciones</strong> que quieren generar un impacto en la sociedad. Desde que abriera sus puertas hace seis años, <strong>Impact Hub Madrid</strong> no es solo un centro de trabajo y <em>coworking</em>, sino un auténtico hervidero de ideas en el que se ha forjado una comunidad de innovación.

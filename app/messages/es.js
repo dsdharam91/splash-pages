@@ -53,6 +53,11 @@ export default {
       number_of_payments_label: '¿Cuántas transacciones podrías haber hecho a través de nosotros el mes pasado?',
       number_of_payments_placeholder: 'Selecciona el número de cobros que hiciste el mes pasado',
       specific_needs_label: '¿Hay alguna necesidad concreta en la que quieres que te ayudemos?',
+      zero_to_ninety_nine_payments: '0 - 99',
+      one_hundred_to_nine_hundred_and_ninety_nine_payments: '100 - 999',
+      one_thousand_to_nine_thousand_nine_hundred_and_ninety_nine_payments: '1.000 - 9.999',
+      ten_thousand_to_ninety_nine_thousand_nine_hundred_and_ninety_nine_payments: '10.000 - 99.999',
+      more_than_one_hundred_thousand_payments: '100.000+',
       submit: 'Contacta',
       success_message: 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
     },
@@ -275,7 +280,7 @@ export default {
   },
   stories: {
     title: 'Casos de éxito',
-    nav_title: 'casos',
+    nav_title: 'Casos de éxito',
     description: '',
     link: 'Lee nuestros casos de éxito',
     key_benefits: 'Beneficios clave',
@@ -310,8 +315,16 @@ export default {
       title: 'Operations',
     },
   },
+  stories_acumbamail: {
+    title: 'Acumbamail - Casos de éxito',
+    description: '',
+  },
   stories_impact_hub: {
     title: 'Impact Hub - Casos de éxito',
+    description: '',
+  },
+  stories_monras: {
+    title: 'Monras - Casos de éxito',
     description: '',
   },
   legal: {
