@@ -501,10 +501,6 @@ export default {
     title: 'Engineering Internships',
     description: '',
   },
-  jobs_enterprise_account_executive: {
-    title: 'Account Executive, Enterprise Sales: UK',
-    description: '',
-  },
   jobs_inside_account_executive_spain: {
     title: 'Account Executive, Inside Sales: Spain',
     description: '',
