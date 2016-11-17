@@ -39,7 +39,6 @@ import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import DevopsEngineer from '../pages/about/jobs/positions/devops-engineer.js';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import LeadDataEngineer from '../pages/about/jobs/positions/lead-data-engineer.js';
-import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
 import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
@@ -487,12 +486,6 @@ export const config = Immutable.fromJS([
   [SoftwareEngineer, { name: 'jobs_software_engineer', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/software-engineer',
-      },
-    },
-  ],
-  [EnterpriseAccountExecutive, { name: 'jobs_enterprise_account_executive', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/enterprise-account-executive',
       },
     },
   ],
