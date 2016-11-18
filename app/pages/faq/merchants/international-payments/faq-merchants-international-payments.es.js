@@ -8,10 +8,12 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>International payments<br></br></h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>International payments</strong><br></br></h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Desde qué países de Europa puedo cobrar?
+        </strong>
         </h3>
         <p className='para'>
           Puedes realizar cobros de Adeudo Directo desde los siguientes países: Austria, Bélgica, Chipre, Estonia, Finlandia,
@@ -19,15 +21,19 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
           Eslovaquia, Eslovenia, España, Suecia y Reino Unido.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Qué divisas admite GoCardless?
+        </strong>
         </h3>
         <p className='para'>
           Admitimos cobros en GBP, EUR y SEK.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Qué es el Adeudo Directo SEPA?
+        </strong>
         </h3>
         <p className='para'>
           El Adeudo Directo SEPA permite realizar cobros denominados en euros de una cuenta bancaria en
@@ -37,8 +43,10 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
           className='u-link-color-p u-text-underline'>nuestra guía de Adeudo Directo SEPA</a>.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Qué es el Adeudo Directo Bacs?
+        </strong>
         </h3>
         <p className='para'>
           El Adeudo Directo Bacs es el equivalente en Reino Unido al Adeudo Directo SEPA. Permite recaudar cobros denominados en
@@ -46,8 +54,10 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
           className='u-link-color-p u-text-underline'>nuestra guía de Adeudo Directo Bacs</a>.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Qué es Autogiro Bg?
+        </strong>
         </h3>
         <p className='para'>
           Autogiro Bg te permite realizar cobros denominados en coronas de cuentas bancarias de Suecia.
@@ -56,7 +66,9 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <strong>
           ¿Costarán los cobros internacionales lo mismo que en <Message pointer='country' />?
+        </strong>
         </h3>
         <p className='para'>
           En los países de la Eurozona, cobraremos un 1 % por transacción, con un límite de 2 euros.
@@ -64,8 +76,10 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
           cobraremos un 1 % por transacción (con un límite de 20 coronas).<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Cuándo estará disponible GoCardless fuera de Europa?
+        </strong>
         </h3>
         <p className='para'>
           Estamos trabajando duro para expandir pronto nuestro servicio a más países.

@@ -8,10 +8,12 @@ export default class FaqMerchantsSecurityEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Seguridad<br></br></h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>Seguridad</strong><br></br></h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Cómo sé que mi dinero está seguro?
+        </strong>
         </h3>
         <p className='para'>
           Estamos autorizados por la Autoridad de Conducta Financiera (FCA) en el Reino Unido a proporcionar servicios
@@ -24,8 +26,10 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           está supervisada por los reguladores comunitarios) en uno de nuestros bancos asociados.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Cómo protege GoCardless mis datos?
+        </strong>
         </h3>
         <p className='para'>
           La seguridad es de vital importancia en GoCardless. Tomamos una serie de medidas
@@ -42,8 +46,10 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           requiere solo 128 bits.</li><br></br>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Qué hacéis con mi dinero antes de ingresármelo?
+        </strong>
         </h3>
         <p className='para'>
           Todo el dinero recaudado se guarda en una cuenta Escrow del cliente en uno de nuestros bancos asociados.
@@ -52,8 +58,10 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           Los fondos se guardan de plena conformidad con las disposiciones de protección aceptadas por los reguladores Europeos.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Es seguro para mis clientes?
+        </strong>
         </h3>
         <p className='para'>
           Sí. Tus clientes están protegidos
@@ -62,8 +70,10 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           className='u-link-color-p u-text-underline'>la Protección al consumidor de Adeudo Directo</a> en el Reino Unido.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           Revelación de vulnerabilidades
+        </strong>
         </h3>
 
         <p className='para'>Nos preocupamos enormemente por la seguridad de nuestros clientes. Si consideras que
@@ -82,8 +92,10 @@ export default class FaqMerchantsSecurityEs extends React.Component {
         Las gratificaciones se determinan conforme a nuestro criterio, en función de la gravedad del problema.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           Comunicar problemas
+        </strong>
         </h3>
 
         <ul className='list'>
@@ -104,8 +116,10 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           </li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           Requisitos para recibir la gratificación
+        </strong>
         </h3>
 
         <p className='para'>

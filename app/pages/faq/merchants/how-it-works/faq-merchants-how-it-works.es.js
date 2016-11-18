@@ -8,9 +8,11 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>¿Cómo funciona?<br></br></h2>
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>¿Cómo funciona?</strong><br></br></h2>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Cuándo recibo mi cobro?
+        </strong>
         </h3>
         <p className='para'>
           Ingresamos automáticamente tus fondos en la cuenta bancaria
@@ -19,16 +21,20 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           className='u-link-color-p u-text-underline'>aquí</a>.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Qué tipos de cobros puedo realizar?
+        </strong>
         </h3>
         <p className='para'>
           Puedes realizar cobros puntuales, recurrentes o variables a través de Domiciliación Bancaria on nuestro
           panel de control online o la API.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Cómo funciona el proceso de cobro?
+        </strong>
         </h3>
         <ul className='list'>
           <li>
@@ -49,8 +55,10 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           </li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Cómo autoriza un cobro mi cliente?
+        </strong>
         </h3>
         <p className='para'>
           Puedes generar una solicitud de autorización de GoCardless (Mandato SEPA) añadiendo directamente a un cliente
@@ -62,8 +70,10 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           online para realizar una Domociliación Bancaria o Adeudo Directo y autorizarte a realizar cobros futuros automáticamente.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Pueden los clientes registrarse en mi sitio web?
+        </strong>
         </h3>
         <p className='para'>
           Sí - los clientes pueden autorizar el Mandato SEPA en tu propio flujo de venta, bien a través de una integración
@@ -74,15 +84,19 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           Al hacer clic en el botón, el cliente será reenviado a nuestra página segura de cobros online desde la que puede autorizar los pagos.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Puedo configurar los cobros para que empiecen y terminen en una fecha concreta?
+        </strong>
         </h3>
         <p className='para'>
           Sí - puedes personalizar fácilmente el día, la fecha, la frecuencia y la duración de los cobros.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Puedo modificar un cobro o una suscripción una vez que se ha creado?
+        </strong>
         </h3>
         <p className='para'>
           Siempre y cuando el cobro no se haya enviado aún al banco, podrás cancelar fácilmente un pago
@@ -90,16 +104,20 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
           panel de control en cuestión de segundos.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Cómo sé si me han pagado?
+        </strong>
         </h3>
         <p className='para'>
           Nuestro panel de control ofrece información en tiempo real de todos tus
           cobros y clientes, lo que te permite controlar el estado de un cobro en cualquier momento.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Pondréis algún límite a mi cuenta?
+        </strong>
         </h3>
         <p className='para'>
           Hay ciertas situaciones en las que podría ser necesario imponer restricciones en tu cuenta:

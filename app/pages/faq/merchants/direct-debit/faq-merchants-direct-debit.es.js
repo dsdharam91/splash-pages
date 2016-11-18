@@ -7,10 +7,12 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Domiciliación Bancaria<br></br></h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>Domiciliación Bancaria</strong><br></br></h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Qué es el Adeudo Directo SEPA o Domiciliación Bancaria?
+        </strong>
         </h3>
         <p className='para'>
           El Adeudo Directo SEPA es un nuevo instrumento de pago introducido por la Unión Europea en agosto de 2014. Sustituye al
@@ -19,8 +21,10 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           Zona Única de Pagos en Euros (SEPA)</a>.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Qué es la protección al consumidor?
+        </strong>
         </h3>
         <p className='para'>
           Los consumidores tienen derecho a que se les reembolse un cobro de Adeudo Directo SEPA autorizado.
@@ -37,23 +41,29 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           Corresponde al comerciante resolver su disputa comercial con el cliente.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Hay alguna comisión para el cliente?
+        </strong>
         </h3>
         <p className='para'>
           No. Con SEPA, los bancos están obligados a no cobrar por las transacciones de Adeudo Directo.
           Por tanto, es gratis para tus clientes.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Necesito un ID de Acreedor SEPA?
+        </strong>
         </h3>
         <p className='para'>
           No. Podemos suministrarte uno a través de nuestro banco asociado.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Para qué tipo de cobros es beneficioso?
+        </strong>
         </h3>
 
         <p className='para'>
@@ -65,8 +75,10 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           <li>Facturación de servicios (p. ej., contabilidad, asesoramiento fiscal, etc.)</li><br></br>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Para qué tipo de cobros no es beneficioso?
+        </strong>
         </h3>
         <ul className='list'>
           <li>Transacciones que requieren una liquidación instantánea (p. ej., tiendas de comercio electrónico)</li>
@@ -74,8 +86,10 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           <li>Transacciones que podrían experimentar devoluciones (p. ej., juegos de azar)</li><br></br>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Cuáles son los plazos de cobro para el Adeudo Directo SEPA?
+        </strong>
         </h3>
         <p className='para'>
           Al contrario que los pagos con tarjeta, las transacciones de Adeudo Directo SEPA no se liquidan instantáneamente.
@@ -87,16 +101,20 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           a los 4 días hábiles.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Puedo realizar cobros puntuales a través del Adeudo Directo?
+        </strong>
         </h3>
         <p className='para'>
           Sí - aunque el Adeudo Directo se utiliza habitualmente para cobros recurrentes,
           también se puede utilizar para cobros puntuales.<br></br>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <strong>
           ¿Puedo cambiar fácilmente de proveedor de Adeudo Directo?
+        </strong>
         </h3>
         <p className='para'>
           Sí, solo hay que modificar el mandato SEPA para añadir el nombre y el Identificador de Acreedor del nuevo proveedor.
