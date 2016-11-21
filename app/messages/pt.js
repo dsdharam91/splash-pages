@@ -13,9 +13,6 @@ export default {
     address_country: 'United Kingdom',
     address_country_iso: 'GB',
   },
-  phone_full: '+44 20 7183 8674',
-  phone_local: '+44 20 7183 8674',
-  email: 'help@gocardless.com',
   prospect_form: {
     sales: {
       name_label: 'Seu Nome',
@@ -69,6 +66,4 @@ export default {
     nav_title: 'Guias',
     path: '/guides',
   },
-  api_reference_link: 'https://developer.gocardless.com/api-reference',
-  developer_link: 'https://developer.gocardless.com',
 };

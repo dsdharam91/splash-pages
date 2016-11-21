@@ -45,6 +45,7 @@ export default {
   },
   phone_full: '+33 1 70 37 71 23',
   phone_local: '01 70 37 71 23',
+  developer_link: 'https://developer.gocardless.com/fr/',
   prospect_form: {
     sales: {
       name_label: 'Votre nom',
@@ -334,6 +335,4 @@ export default {
     title: 'Foundation of Hearts',
     description: '',
   },
-  api_reference_link: 'https://developer.gocardless.com/api-reference',
-  developer_link: 'https://developer.gocardless.com/fr',
 };

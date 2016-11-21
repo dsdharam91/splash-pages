@@ -68,6 +68,7 @@ import LegalPaymentTimings from '../pages/legal/payment-timings/legal-payment-ti
 import Partners from '../pages/partners/partners';
 import PartnersBillin from '../pages/partners/billin/partners-billin';
 import PartnersClearBooks from '../pages/partners/clearbooks/partners-clearbooks';
+import PartnersDebitoor from '../pages/partners/debitoor/partners-debitoor';
 import PartnersFreeagent from '../pages/partners/freeagent/partners-freeagent';
 import PartnersKashflow from '../pages/partners/kashflow/partners-kashflow';
 import PartnersPitchero from '../pages/partners/pitchero/partners-pitchero';
@@ -824,6 +825,15 @@ export const config = Immutable.fromJS([
   [PartnersClearBooks, { name: 'partners_clearbooks' }, {
       'en-GB': {
         path: '/partners/clearbooks',
+      },
+    },
+  ],
+  [PartnersDebitoor, { name: 'partners_debitoor' }, {
+      de: {
+        path: '/partner/debitoor',
+      },
+      es: {
+        path: '/asociados/debitoor',
       },
     },
   ],
