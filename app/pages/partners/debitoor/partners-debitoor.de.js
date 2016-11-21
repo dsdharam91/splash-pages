@@ -96,9 +96,10 @@ export default class PartnersDebitoorDe extends React.Component {
                 Erstellen Sie einen Debitoor-Account
               </h2>
               <p className='u-color-dark-gray u-margin-Bm'>
-                Registrieren Sie sich bei Debitoor unter https://debitoor.de/sign-up.
+                Registrieren Sie sich <a href="https://debitoor.de/sign-up">bei Debitoor</a>. 
 
-                Die Anmeldung ist kostenlos, für erweiterte Funktionen können Sie sich für ein bezahltes Abo entscheiden. Eine Übersicht finden Sie hier: https://debitoor.de/funktionsueberblick
+                Die Anmeldung ist kostenlos, für erweiterte Funktionen können Sie sich für ein bezahltes Abo entscheiden. Eine Übersicht 
+                finden Sie <a href="https://debitoor.de/funktionsueberblick">hier.</a>
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-text-center'>
@@ -117,11 +118,13 @@ export default class PartnersDebitoorDe extends React.Component {
                 Verknüpfen Sie Debitoor und Gocardless
               </h2>
               <p className='u-color-dark-gray u-margin-Bm'>
-                Loggen Sie sich in Ihren Debitoor-Account ein. 
-
+                Loggen Sie sich in Ihren Debitoor-Account ein.
+              </p> 
+              <p className='u-color-dark-gray u-margin-Bm'>
                 Unter Einstellungen > Zahlungen akzeptieren finden Sie GoCardless. 
-                Klicken Sie auf Setup. Sie gelangen zu einem Formular, in dem Sie einen GoCardless-Account neu erstellen können. 
-
+                Klicken Sie auf Setup. Sie gelangen zu einem Formular, in dem Sie einen GoCardless-Account neu erstellen können.
+              </p>
+              <p className='u-color-dark-gray u-margin-Bm'>
                 Haben Sie bereits einen GoCardless-Account, können Sie sich einfach unten rechts einloggen.
               </p>
             </div>
@@ -141,16 +144,20 @@ export default class PartnersDebitoorDe extends React.Component {
                 Per Lastschrift bezahlt werden
               </h2>
               <p className='u-color-dark-gray u-margin-Bm'>
-                Sie können nun sofort in Debitoor Ihre Rechnungen mit Lastschrift bezahlen lassen. 
-
-
-                Erstellen und senden Sie eine neue Rechnung in Debitoor. Ihr Kunde kann Ihnen nun per Klick auf den Bezahl-Button ein Lastschriftmandat erteilen, und zukünftige Rechnungsbeträge werden automatisch eingezogen.
-
-
+                Sie können nun sofort in Debitoor Ihre Rechnungen mit Lastschrift bezahlen lassen.
+              </p>
+              <p className='u-color-dark-gray u-margin-Bm'>
+                Erstellen und senden Sie eine neue Rechnung in Debitoor. Ihr Kunde kann Ihnen nun per Klick auf den Bezahl-Button ein 
+                Lastschriftmandat erteilen, und zukünftige Rechnungsbeträge werden automatisch eingezogen.
+              </p>
+              <p className='u-color-dark-gray u-margin-Bm'>
                 Ist Ihr GoCardless-Account bereits verifiziert, müssen Sie nichts weiter tun, um die Zahlung zu empfangen.
-
-
-                Haben Sie einen neuen GoCardless-Account angelegt, müssen Sie ihn, um die eingezogenen Beträge auch ausbezahlt zu bekommen, zunächst durch die Angabe weiterer Daten verifizieren. Dies ist rechtlich erforderlich. Eine Beschreibung des Verifizierungsprozesses finden Sie hier: https://debitoor.de/tutorial/apps-und-partner/so-verbindest-du-debitoor-mit-gocardless
+              </p>
+              <p className='u-color-dark-gray u-margin-Bm'>
+                Haben Sie einen neuen GoCardless-Account angelegt, müssen Sie ihn, um die eingezogenen Beträge auch ausbezahlt zu bekommen, 
+                zunächst durch die Angabe weiterer Daten verifizieren. Dies ist rechtlich erforderlich. Eine Beschreibung des 
+                Verifizierungsprozesses finden 
+                Sie <a href="https://debitoor.de/tutorial/apps-und-partner/so-verbindest-du-debitoor-mit-gocardless">hier.</a>
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-text-center'>
