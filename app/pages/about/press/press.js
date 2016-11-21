@@ -1,6 +1,5 @@
 import React from 'react';
 import Href from '../../../components/href/href';
-import Message from '../../../components/message/message';
 import InlineMessage from '../../../components/inline-message/inline-message';
 import Page from '../../../components/page/page';
 import Translation from '../../../components/translation/translation';
