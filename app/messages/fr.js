@@ -243,6 +243,24 @@ export default {
     description: '',
     nav_title: 'Notre équipe',
   },
+  press: {
+    title: 'Presse',
+    description: '',
+    nav_title: 'Presse',
+    contact: {
+      header: 'Contact',
+      text: 'Pour toute demande, merci de contacter',
+      gocardless_pr_team: 'notre équipe Relation Presse',
+    },
+    resources: {
+      header: 'Ressources',
+      text: 'Téléchargement de logos, photos et autres ressources',
+      here: 'ici',
+    },
+    articles: {
+      header: 'Articles',
+    },
+  },
   jobs: {
     title: 'Recrutement',
     description: '',

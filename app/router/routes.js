@@ -439,6 +439,15 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/press',
       },
+      fr: {
+        path: '/a-propos/presse',
+      },
+      de: {
+        path: '/ueber-uns/presse',
+      },
+      es: {
+        path: '/sobre-nosotros/prensa',
+      },
     },
   ],
   [PressHiroki, { name: 'press_hiroki' }, {

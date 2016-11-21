@@ -451,6 +451,9 @@ export default {
     title: 'Press',
     description: '',
     nav_title: 'Press',
+    contact: {
+      gocardless_pr_team: 'GoCardless PR team',
+    },
   },
   press_hiroki: {
     title: 'Press',
