@@ -121,7 +121,10 @@ export default class Press extends React.Component {
                     &nbsp;<a href='https://www.dropbox.com/sh/4i9h27y8oaa3hcq/AABWlVX0T44UBFb4bh78Y5HVa?dl=0' target='_blank'>
                       <InlineMessage pointer='press.resources.here' locale='en'>here</InlineMessage>
                     </a>
-                    &nbsp;<InlineMessage pointer='press.resources.end_sentence' locale='en'></InlineMessage>
+                    <Translation locales='de'>
+                       &nbsp;herunter
+                     </Translation>
+                    .
                   </p>
                 </div>
               </div>

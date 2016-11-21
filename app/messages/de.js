@@ -145,7 +145,6 @@ export default {
       header: 'Resourcen',
       text: 'Laden Sie Logos, Fotos und mehr',
       here: 'hier',
-      end_sentence: ' herunter.',
     },
     articles: {
       header: 'Artikel',
