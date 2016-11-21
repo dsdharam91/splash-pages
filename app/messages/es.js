@@ -259,17 +259,17 @@ export default {
     description: '',
     nav_title: 'Prensa',
     contact: {
-      header: 'Contact',
-      text: 'For any press enquiries, please contact the',
-      gocardless_pr_team: 'GoCardless PR Team',
+      header: 'Contacto',
+      text: 'Para cualquier consulta vinculada con Prensa, por favor, ponte en contacto con',
+      gocardless_pr_team: 'el Equipo de PR',
     },
     resources: {
-      header: 'Resources',
-      text: 'Download logos, photos and other resources',
-      here: 'here',
+      header: 'Recursos',
+      text: 'Descárgate logos, fotos y otros recursos',
+      here: 'aquí',
     },
     articles: {
-      header: 'Articles',
+      header: 'Artículos',
     },
   },
   api_docs: {
