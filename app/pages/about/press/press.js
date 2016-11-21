@@ -84,26 +84,31 @@ export default class Press extends React.Component {
     return (
       <Page>
         <AboutHeader />
-          <div className="site-container u-padding-Vxxl">
+          <div className='site-container u-padding-Vxxl'>
             <div className='grid u-padding-Vxl'>
               <div className='grid__cell u-size-1of4 u-padding-Rl'>
-                <div className="u-margin-Bxl">
-                  <h3 className="u-text-heading-light u-text-m u-color-dark-gray u-margin-Bs">Contact</h3>
-                  <p className="u-color-dark-gray">For any press enquiries, please contact the <a href="mailto:press@gocardless.com">GoCardless PR team</a>.</p>
+                <div className='u-margin-Bxl'>
+                  <h3 className='u-text-heading-light u-text-m u-color-dark-gray u-margin-Bs'>Contact</h3>
+                  <p className='u-color-dark-gray'>
+                    For any press enquiries, please contact the <a href='mailto:press@gocardless.com'>GoCardless PR team</a>.
+                  </p>
                 </div>
                 <div>
-                  <h3 className="u-text-heading-light u-text-m u-color-dark-gray u-margin-Bs">Resources</h3>
-                  <p className="u-color-dark-gray">Download logos, photos and other resources <a href="https://www.dropbox.com/sh/4i9h27y8oaa3hcq/AABWlVX0T44UBFb4bh78Y5HVa?dl=0" target="_blank">here</a>.</p>
+                  <h3 className='u-text-heading-light u-text-m u-color-dark-gray u-margin-Bs'>Resources</h3>
+                  <p className='u-color-dark-gray'>
+                    Download logos, photos and other resources
+                    &nbsp;<a href='https://www.dropbox.com/sh/4i9h27y8oaa3hcq/AABWlVX0T44UBFb4bh78Y5HVa?dl=0' target='_blank'>here</a>.
+                  </p>
                 </div>
               </div>
               <div className='grid__cell u-size-3of4'>
-                <h2 className="u-text-heading u-color-dark-gray u-text-light u-margin-Bm">Articles</h2>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-margin-Bm'>Articles</h2>
                 { pressArticles.map((pressArticle) => {
                   return (
-                    <div className="press-article grid u-margin-Bm">
-                      <span className="grid__cell u-size-2of8 u-color-dark-gray">{ pressArticle.vendor }</span>
-                      <a href={ pressArticle.link } className="grid__cell u-size-5of8">{ pressArticle.title }</a>
-                      <span className="grid__cell u-size-1of8 u-color-medium-gray u-text-end">{ pressArticle.date }</span>
+                    <div className='press-article grid u-margin-Bm'>
+                      <span className='grid__cell u-size-2of8 u-color-dark-gray'>{ pressArticle.vendor }</span>
+                      <a href={ pressArticle.link } className='grid__cell u-size-5of8'>{ pressArticle.title }</a>
+                      <span className='grid__cell u-size-1of8 u-color-medium-gray u-text-end'>{ pressArticle.date }</span>
                     </div>
                   );
                 }) }
