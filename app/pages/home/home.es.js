@@ -140,6 +140,50 @@ export default class HomeEs extends React.Component {
           </div>
         </div>
 
+
+        <hr className='section-divider' />
+        <div className='site-container u-text-center u-padding-Vxxl'>
+          <div className='u-padding-Vxl'>
+            <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light'>
+              GoCardless in the press
+            </h2>
+            <div className='grid u-padding-Txl'>
+              <a href=''
+                target='_blank' className='grid__cell u-size-1of3 u-link-clean u-padding-Rxs u-padding-Bm'>
+                <div className='spotlight-grid__container u-text-center u-padding-Vl'>
+                  <i role='img' aria-label='La Razón' className='la-razon-logo stories-item__logo--la-razon' />
+                  <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
+                    "La start-up británica de domiciliación bancaria on-line, GoCardless, presente en nuestro país desde
+                    diciembre de 2015, ha duplicado su cartera de clientes, hasta superar el centenar."
+                  </p>
+                </div>
+                <div className='stories-item__btn btn u-size-full'>Read article</div>
+              </a>
+              <a href='http://cincodias.com/cincodias/2016/10/05/empresas/1475672955_890779.html'
+                target='_blank' className='grid__cell u-size-1of3 u-link-clean u-padding-Bm'>
+                <div className='spotlight-grid__container u-text-center u-padding-Vl'>
+                  <i role='img' aria-label='Cinco Días' className='cinco-dias-logo stories-item__logo--cinco-dias' />
+                  <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
+                    "Están surgiendo nuevas empresas en el sector como GoCardless, una plataforma de medios de pago que
+                    gestiona y realiza tus domiciliaciones bancarias de las empresas automáticamente."
+                  </p>
+                </div>
+                <div className='stories-item__btn btn u-size-full'>Read article</div>
+              </a>
+              <a href='http://www.innovaspain.com/gocardless-la-alternativa-online-la-tarjeta-credito/'
+                target='_blank' className='grid__cell u-size-1of3 u-link-clean u-padding-Rxs'>
+                <div className='spotlight-grid__container u-text-center u-padding-Vl'>
+                  <i role='img' aria-label='InnovaSpain' className='innovaspain-logo stories-item__logo--innovaspain' />
+                  <p className='u-size-3of4 u-center u-color-dark-gray u-margin-Txxs'>
+                    "GoCardless, la alternativa online a la tarjeta de crédito"
+                  </p>
+                </div>
+                <div className='stories-item__btn btn u-size-full'>Read article</div>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <hr className='section-divider' />
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Vxl'>
