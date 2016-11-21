@@ -256,6 +256,7 @@ export default {
       header: 'Resources',
       text: 'Download logos, photos and other resources',
       here: 'here',
+      end_sentence: '.',
     },
     articles: {
       header: 'Articles',
