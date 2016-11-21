@@ -249,14 +249,14 @@ export default {
     nav_title: 'Presse',
     contact: {
       header: 'Contact',
-      text: 'For any press enquiries, please contact the',
-      gocardless_pr_team: 'GoCardless PR Team',
+      text: 'Pour toute demande, merci de contacter',
+      gocardless_pr_team: 'notre équipe Relation Presse',
     },
     resources: {
-      header: 'Resources',
-      text: 'Download logos, photos and other resources',
-      here: 'here',
-      end_sentence: '.',
+      header: 'Ressources',
+      text: 'Téléchargement de logos, photos et autres ressources',
+      here: 'ici',
+      end_sentence: '',
     },
     articles: {
       header: 'Articles',
