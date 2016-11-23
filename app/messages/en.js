@@ -504,6 +504,10 @@ export default {
     title: 'Engineering Internships',
     description: '',
   },
+  jobs_product_manager: {
+    title: 'Product Manager',
+    description: '',
+  },
   jobs_sales_development_representative_inbound: {
     title: 'SDR: UK',
     description: '',
