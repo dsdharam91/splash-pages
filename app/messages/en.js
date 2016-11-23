@@ -468,6 +468,9 @@ export default {
     engineering: {
       title: 'Engineering & Data',
     },
+    product: {
+      title: 'Product',
+    },
     ux_design: {
       title: 'UX & Design',
     },

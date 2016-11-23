@@ -40,13 +40,13 @@ export default class ProductManager extends React.Component {
           </li>
           <li>
             Communicating with everyone: Product is a key part of the glue that binds together teams at GoCardless. We communicate the
-            who, what, why and when” to the company. We also work closely with Marketing, Sales and Support on how best to communicate
+            who, what, why and when to the company. We also work closely with Marketing, Sales and Support on how best to communicate
             what’s happening to our customers.
           </li>
         </ul>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
-          As a Product Manager you will work closely with one of our  Engineering Managers to lead one of the development teams at GoCardless.
+          As a Product Manager you will work closely with one of our Engineering Managers to lead one of the development teams at GoCardless.
         </p>
         <p className='para'>
           We believe in autonomous teams, so you should expect a challenging and highly cross-functional role with tasks spanning the commercial
@@ -99,6 +99,10 @@ export default class ProductManager extends React.Component {
         <p className='para'>
             In your application, please include your CV and a cover letter
             explaining why you are a great candidate for this position.
+        </p>
+        <p className='para'>
+          Our team come from a variety of backgrounds and we welcome diversity &ndash;
+          if you’re unsure, please apply. We offer a competitive salary and options package, commensurate with your experience.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/515205' className='btn u-margin-Vs'>
           Apply now

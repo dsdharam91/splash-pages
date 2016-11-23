@@ -496,16 +496,7 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [ProductManager, { name: 'jobs_product_manager', category: 'jobs.engineering' }, {
-<<<<<<< ad8960ae2f94c7f1aa708da984aa23e99faecdce
-=======
-      en: {
-        path: '/about/jobs/product-manager',
-      },
-    },
-  ],
-  [InsideAccountExecutiveSpain, { name: 'jobs_inside_account_executive_spain', category: 'jobs.sales' }, {
->>>>>>> Add Product Manager job ad
+  [ProductManager, { name: 'jobs_product_manager', category: 'jobs.product' }, {
       en: {
         path: '/about/jobs/product-manager',
       },
