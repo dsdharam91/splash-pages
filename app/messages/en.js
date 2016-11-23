@@ -508,6 +508,10 @@ export default {
     title: 'Product Manager',
     description: '',
   },
+  jobs_inside_account_executive_spain: {
+    title: 'Account Executive, Inside Sales: Spain',
+    description: '',
+  },
   jobs_sales_development_representative_inbound: {
     title: 'SDR: UK',
     description: '',

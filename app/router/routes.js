@@ -40,6 +40,7 @@ import DevopsEngineer from '../pages/about/jobs/positions/devops-engineer.js';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import LeadDataEngineer from '../pages/about/jobs/positions/lead-data-engineer.js';
 import ProductManager from '../pages/about/jobs/positions/product-manager.js';
+import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
@@ -496,6 +497,15 @@ export const config = Immutable.fromJS([
     },
   ],
   [ProductManager, { name: 'jobs_product_manager', category: 'jobs.engineering' }, {
+<<<<<<< ad8960ae2f94c7f1aa708da984aa23e99faecdce
+=======
+      en: {
+        path: '/about/jobs/product-manager',
+      },
+    },
+  ],
+  [InsideAccountExecutiveSpain, { name: 'jobs_inside_account_executive_spain', category: 'jobs.sales' }, {
+>>>>>>> Add Product Manager job ad
       en: {
         path: '/about/jobs/product-manager',
       },
