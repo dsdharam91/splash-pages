@@ -27,28 +27,28 @@ let pressArticles = [
     date: '12.07.16',
     locales: ['de'],
   },
-    {
+  {
     vendor: 'FINTECHINSIDER',
     title: 'Wird Deutschland der nächste Fintech-Hub? 5 FinTech-Experten antworten',
     link: 'http://fintechinsider.de/deutschland-fintech-hub',
     date: '05.07.16',
     locales: ['de'],
   },
-      {
+  {
     vendor: 't3n',
     title: 'Millionen für DoorDash, GoCardless und BigBasket',
     link: 'http://t3n.de/news/doordash-startup-news-691699/',
     date: '23.03.16',
     locales: ['de'],
   },
-        {
+  {
     vendor: 'FinanzNachrichten.de',
     title: 'GoCardless: 13 Mio Dollar für Fintech Start-up in Serie-C',
     link: 'http://www.finanznachrichten.de/nachrichten-2016-03/36855943-gocardless-13-mio-dollar-fuer-fintech-start-up-in-serie-c-095.htm',
     date: '23.03.16',
     locales: ['de'],
   },
- {
+  {
     vendor: 'Foreign and Commonwealth Office',
     title: 'Why Global Britain is driving the fintech revolution',
     link: 'http://blogs.fco.gov.uk/guestpost/2016/08/31/why-global-britain-is-driving-the-fintech-revolution/',
