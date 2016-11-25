@@ -468,6 +468,9 @@ export default {
     engineering: {
       title: 'Engineering & Data',
     },
+    product: {
+      title: 'Product',
+    },
     ux_design: {
       title: 'UX & Design',
     },
@@ -502,6 +505,10 @@ export default {
   },
   jobs_engineering_internships: {
     title: 'Engineering Internships',
+    description: '',
+  },
+  jobs_product_manager: {
+    title: 'Product Manager',
     description: '',
   },
   jobs_sales_development_representative_inbound: {
