@@ -543,6 +543,10 @@ export default {
     title: 'Developer Support Lead',
     description: '',
   },
+  jobs_customer_support: {
+    title: 'Customer Support',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
