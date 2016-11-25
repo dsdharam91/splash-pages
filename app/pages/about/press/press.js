@@ -14,17 +14,17 @@ let pressArticles = [
     locales: ['es'],
   },
   {
+    vendor: 'Gründerfreunde.de',
+    title: 'GoCardless - Bezahlen geht auch ohne Karte',
+    link: 'http://gruenderfreunde.de/2016/10/17/gocardless/',
+    date: '17.10.16',
+    locales: ['de'],
+  },
+  {
     vendor: 'CincoDías',
     title: 'El mercado europeo de ‘start-ups’ está que arde',
     link: 'http://cincodias.com/cincodias/2016/10/05/empresas/1475672955_890779.html',
     date: '05.10.16',
-    locales: ['es'],
-  },
-  {
-    vendor: 'Innovaspain',
-    title: 'GoCardless, la alternativa online a la tarjeta de crédito',
-    link: 'http://www.innovaspain.com/gocardless-la-alternativa-online-la-tarjeta-credito/',
-    date: '19.09.16',
     locales: ['es'],
   },
   {
@@ -34,7 +34,42 @@ let pressArticles = [
     date: '27.09.16',
     locales: ['en','fr','de'],
   },
- {
+  {
+    vendor: 'Innovaspain',
+    title: 'GoCardless, la alternativa online a la tarjeta de crédito',
+    link: 'http://www.innovaspain.com/gocardless-la-alternativa-online-la-tarjeta-credito/',
+    date: '19.09.16',
+    locales: ['es'],
+  },
+  {
+    vendor: 'Gründerszene',
+    title: 'Europäische Fintech-Initiative gegründet',
+    link: 'http://www.gruenderszene.de/allgemein/efa-european-fintech-alliance-berlin-gruendung',
+    date: '12.07.16',
+    locales: ['de'],
+  },
+  {
+    vendor: 'FINTECHINSIDER',
+    title: 'Wird Deutschland der nächste Fintech-Hub? 5 FinTech-Experten antworten',
+    link: 'http://fintechinsider.de/deutschland-fintech-hub',
+    date: '05.07.16',
+    locales: ['de'],
+  },
+  {
+    vendor: 't3n',
+    title: 'Millionen für DoorDash, GoCardless und BigBasket',
+    link: 'http://t3n.de/news/doordash-startup-news-691699/',
+    date: '23.03.16',
+    locales: ['de'],
+  },
+  {
+    vendor: 'FinanzNachrichten.de',
+    title: 'GoCardless: 13 Mio Dollar für Fintech Start-up in Serie-C',
+    link: 'http://www.finanznachrichten.de/nachrichten-2016-03/36855943-gocardless-13-mio-dollar-fuer-fintech-start-up-in-serie-c-095.htm',
+    date: '23.03.16',
+    locales: ['de'],
+  },
+  {
     vendor: 'Foreign and Commonwealth Office',
     title: 'Why Global Britain is driving the fintech revolution',
     link: 'http://blogs.fco.gov.uk/guestpost/2016/08/31/why-global-britain-is-driving-the-fintech-revolution/',
