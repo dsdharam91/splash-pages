@@ -11,11 +11,11 @@ export default class FaqMerchantsEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>Resumen</strong><br></br></h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>Resumen</strong></h2>
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Cómo puedo usar GoCardless?
-        </strong>
+          <strong>
+            ¿Cómo puedo usar GoCardless?
+          </strong>
         </h3>
         <p className='para'>
           Hay tres maneras de utilizar GoCardless:
@@ -32,13 +32,13 @@ export default class FaqMerchantsEs extends React.Component {
           </li>
           <li>
             <strong>Nuestra sencilla API REST</strong> - Integra GoCardless en tu sitio web usando
-            nuestra <Href to='developer_link' className='u-link-color-p u-text-underline'>API REST</Href>.<br></br>
+            nuestra <Href to='developer_link' className='u-link-color-p u-text-underline'>API REST</Href>.
           </li>
         </ul>
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿A quién está dirigido GoCardless?
-        </strong>
+          <strong>
+            ¿A quién está dirigido GoCardless?
+          </strong>
         </h3>
         <p className='para'>
           GoCardless está dirigido a cualquiera que quiera realizar cobros directamente de la cuenta bancaria de los
@@ -52,13 +52,13 @@ export default class FaqMerchantsEs extends React.Component {
         <p className='para'>
           En España, estamos integrados con algunos de los software de contabilidad más populares
           para facilitar la facturación y la reconciliación de cobros. Descubre
-          más <Link to='features' className='u-link-color-p u-text-underline'>aquí</Link>.<br></br>
+          más <Link to='features' className='u-link-color-p u-text-underline'>aquí</Link>.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Para qué no puedo usar GoCardless?
-        </strong>
+          <strong>
+            ¿Para qué no puedo usar GoCardless?
+          </strong>
         </h3>
         <p className='para'>
           GoCardless es ideal para muchos usos. No obstante nuestro servicio presenta algunas limitaciones. No podrás:
@@ -76,26 +76,26 @@ export default class FaqMerchantsEs extends React.Component {
         <p className='para'>
           Aceptamos todo tipo de clientes, pero hay algunas excepciones: para obtener más información,
           consulta <Link to='legal_restrictions' className='u-link-color-p u-text-underline'>nuestra
-          página de actividades restringidas.</Link>.<br></br>
+          página de actividades restringidas.</Link>.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Hay algún límite en cuanto a la cantidad que puedo cobrar?
-        </strong>
+          <strong>
+            ¿Hay algún límite en cuanto a la cantidad que puedo cobrar?
+          </strong>
         </h3>
         <p className='para'>
           No hay ningún límite en cuanto al número de transacciones que puedes realizar.
         </p>
         <p className='para'>
           En cuanto a la cantidad de dinero que puedes cobrar, el importe mínimo es de 1 euro, y el máximo de 5000 euros.
-          Este límite se podría ampliar realizando controles de verificación adicionales<br></br>
+          Este límite se podría ampliar realizando controles de verificación adicionales
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Cómo recibo los fondos que he recaudado con GoCardless?
-        </strong>
+          <strong>
+            ¿Cómo recibo los fondos que he recaudado con GoCardless?
+          </strong>
         </h3>
         <p className='para'>
           Los fondos recaudados llegarán directamente a tu cuenta bancaria.
@@ -106,34 +106,34 @@ export default class FaqMerchantsEs extends React.Component {
         </p>
         <p className='para'>
           Con GoCardless, te deduciremos directamente las <Link to='pricing' title='Pricing' className='u-link-color-p u-text-underline'>
-          comisiones</Link>.<br></br>
+          comisiones</Link>.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Cuándo recibo mi cobro?
-        </strong>
+          <strong>
+            ¿Cuándo recibo mi cobro?
+          </strong>
         </h3>
         <p className='para'>
           Todos los cobros se pagan en un plazo de 3-4 días hábiles desde el momento de la recaudación.
         </p>
         <p className='para'>
-          No mantenemos ninguno de tus fondos en reserva.<br></br>
+          No mantenemos ninguno de tus fondos en reserva.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Se aceptan tarjetas de crédito o de débito?
-        </strong>
+          <strong>
+            ¿Se aceptan tarjetas de crédito o de débito?
+          </strong>
         </h3>
         <p className='para'>
-          No, GoCardless es una compañía de Adeudo Directo y Domiciliación Bancaria.<br></br>
+          No, GoCardless es una compañía de Adeudo Directo y Domiciliación Bancaria.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Por qué GoCardless es mejor que cualquier otra de las opciones que estoy considerando?
-        </strong>
+          <strong>
+            ¿Por qué GoCardless es mejor que cualquier otra de las opciones que estoy considerando?
+          </strong>
         </h3>
         <p className='para'>
           A continuación, detallamos algunos de los motivos por los que nos eligen:

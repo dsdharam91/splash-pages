@@ -9,12 +9,12 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>Developer API</strong><br></br></h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>Developer API</strong></h2>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Para qué puedo utilizar la API?
-        </strong>
+          <strong>
+            ¿Para qué puedo utilizar la API?
+          </strong>
         </h3>
         <p className='para'>
           Nuestra API REST permite a los desarrolladores crear fácilmente integraciones potentes con GoCardless.
@@ -23,13 +23,13 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
         </p>
         <p className='para'>
           Se puede integrar como comerciante para realizar cobros en su propio nombre o como partner para generar y
-          gestionar múltiples comerciantes.<br></br>
-         </p>
+          gestionar múltiples comerciantes.
+        </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Cómo funciona la API Partner?
-        </strong>
+          <strong>
+            ¿Cómo funciona la API Partner?
+          </strong>
         </h3>
         <p className='para'>
           Una integración Partner permite a tus clientes generar rápida y fácilmente una cuenta GoCardless a través de
@@ -37,13 +37,13 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
         </p>
         <p className='para'>
           Para obtener más información sobre nuestro producto para asociados/Partners, por favor <Link to='contact_sales'
-          className='u-link-color-p u-text-underline'>contactanos</Link>.<br></br>
+          className='u-link-color-p u-text-underline'>contactanos</Link>.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Qué lenguajes de programación puedo utilizar?
-        </strong>
+          <strong>
+            ¿Qué lenguajes de programación puedo utilizar?
+          </strong>
         </h3>
         <p className='para'>
           Disponemos de bibliotecas de clientes
@@ -58,13 +58,13 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           </a>.
            <a href='https://github.com/gocardless/gocardless-pro-python' target='_blank' className='u-link-color-p u-text-underline'>
             Python
-          </a>.<br></br>
+          </a>.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Puedo alojar las páginas de cobro en mi sitio?
-        </strong>
+          <strong>
+            ¿Puedo alojar las páginas de cobro en mi sitio?
+          </strong>
         </h3>
         <p className='para'>
           Sí, pero solo con GoCardless Pro. Con Pro, podrás diseñar tus propias páginas de cobro y alojarlas directamente en tu sitio web.
@@ -76,39 +76,39 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
         </p>
         <p className='para'>
           Puedes redireccionar al cliente a nuestras páginas de cobro y luego nosotros le redirigiremos a tu sitio web. Alternativamente,
-          puedes permitir que tus clientes vayan a las páginas de cobro a través de un Pop-up en tu web.<br></br>
+          puedes permitir que tus clientes vayan a las páginas de cobro a través de un Pop-up en tu web.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Ofrecéis iFrames?
-        </strong>
+          <strong>
+            ¿Ofrecéis iFrames?
+          </strong>
         </h3>
         <p className='para'>
           No - no ofrecemos iFraming de nuestras páginas de cobro ya que no nos convence lo suficiente la fiabilidad y seguridad de iFrames.
         </p>
         <p className='para'>
           Algunos de nuestros socios, como Zuora, pueden ofrecer un iFrame para tus páginas de cobros. También proporcionamos un
-          Flow JS que evita que tengas que almacenar datos bancarios en tus servidores.<br></br>
+          Flow JS que evita que tengas que almacenar datos bancarios en tus servidores.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Se pueden hacer los pagos directamente a través de la API?
-        </strong>
+          <strong>
+            ¿Se pueden hacer los pagos directamente a través de la API?
+          </strong>
         </h3>
         <p className='para'>
           Solo una vez que la autorización (el mandato de Adeudo Directo) se haya realizado. Hay que enviar a los clientes a la páginaa
           seguraa de cobros para realizar la autorización inicial del Adeudo Directo.
         </p>
         <p className='para'>
-          Una vez que la autorización se haya realizado, se puede solicitar el cobro a través de la API.<br></br>
+          Una vez que la autorización se haya realizado, se puede solicitar el cobro a través de la API.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Qué información está disponible a través de la API?
-        </strong>
+          <strong>
+            ¿Qué información está disponible a través de la API?
+          </strong>
         </h3>
         <p className='para'>
           GoCardless proporciona webhooks para notificar a los comerciantes cualquier modificación en el estado de sus cobros.
@@ -116,14 +116,14 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
         </p>
         <p className='para'>
           Podrás encontrar más información acerca de nuestros webhooks disponibles y cómo utilizarlos en
-          nuestra <a href='https://developer.gocardless.com/api-reference/#webhooks-overview' className='u-link-color-p u-text-underline'>guía de
-          webhooks</a>.<br></br>
+          nuestra <a href='https://developer.gocardless.com/api-reference/#webhooks-overview'
+          className='u-link-color-p u-text-underline'>guía de webhooks</a>.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Dónde puedo obtener soporte técnico?
-        </strong>
+          <strong>
+            ¿Dónde puedo obtener soporte técnico?
+          </strong>
         </h3>
         <p className='para'>
           Puedes enviarnos un correo electrónico a <Href to='email' className='u-link-color-p u-text-underline'

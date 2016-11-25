@@ -8,12 +8,12 @@ export default class FaqMerchantsSecurityEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>Seguridad</strong><br></br></h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>Seguridad</strong></h2>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Cómo sé que mi dinero está seguro?
-        </strong>
+          <strong>
+            ¿Cómo sé que mi dinero está seguro?
+          </strong>
         </h3>
         <p className='para'>
           Estamos autorizados por la Autoridad de Conducta Financiera (FCA) en el Reino Unido a proporcionar servicios
@@ -23,13 +23,13 @@ export default class FaqMerchantsSecurityEs extends React.Component {
         </p>
         <p className='para'>
           Todo el dinero recaudado se guarda en una cuenta Escrow (nosotros no podemos tocar el dinero de esta cuenta, no está en nuestro balance y
-          está supervisada por los reguladores comunitarios) en uno de nuestros bancos asociados.<br></br>
+          está supervisada por los reguladores comunitarios) en uno de nuestros bancos asociados.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Cómo protege GoCardless mis datos?
-        </strong>
+          <strong>
+            ¿Cómo protege GoCardless mis datos?
+          </strong>
         </h3>
         <p className='para'>
           La seguridad es de vital importancia en GoCardless. Tomamos una serie de medidas
@@ -43,61 +43,61 @@ export default class FaqMerchantsSecurityEs extends React.Component {
           de Datos 1998.</li>
           <li>Nuestro servidor de datos financieros está separado de nuestro servidor de aplicaciones por múltiples cortafuegos.</li>
           <li>Toda la comunicación cliente-servidor está encriptada con tecnología de cifrado SSL de 256 bits. El sistema bancario
-          requiere solo 128 bits.</li><br></br>
+          requiere solo 128 bits.</li>
         </ul>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Qué hacéis con mi dinero antes de ingresármelo?
-        </strong>
+          <strong>
+            ¿Qué hacéis con mi dinero antes de ingresármelo?
+          </strong>
         </h3>
         <p className='para'>
           Todo el dinero recaudado se guarda en una cuenta Escrow del cliente en uno de nuestros bancos asociados.
         </p>
         <p className='para'>
-          Los fondos se guardan de plena conformidad con las disposiciones de protección aceptadas por los reguladores Europeos.<br></br>
+          Los fondos se guardan de plena conformidad con las disposiciones de protección aceptadas por los reguladores Europeos.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          ¿Es seguro para mis clientes?
-        </strong>
+          <strong>
+            ¿Es seguro para mis clientes?
+          </strong>
         </h3>
         <p className='para'>
           Sí. Tus clientes están protegidos
           por <a href='https://gocardless.com/es/guias/sepa/proteccion/' className='u-link-color-p u-text-underline'>
           la Protección al cliente en el Adeudo Directo SEPA</a> en la Eurozona y por <a href='/direct-debit/guarantee/'
-          className='u-link-color-p u-text-underline'>la Protección al consumidor de Adeudo Directo</a> en el Reino Unido.<br></br>
+          className='u-link-color-p u-text-underline'>la Protección al consumidor de Adeudo Directo</a> en el Reino Unido.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          Revelación de vulnerabilidades
-        </strong>
+          <strong>
+            Revelación de vulnerabilidades
+          </strong>
         </h3>
-
-        <p className='para'>Nos preocupamos enormemente por la seguridad de nuestros clientes. Si consideras que
-        has descubierto una vulnerabilidad, te rogamos que la comuniques de manera responsable. Compartir las
-        vulnerabilidades públicamente pone en riesgo a toda nuestra base usuarios, por lo que te rogamos que estos
-        asuntos se mantengan en privado hasta que tengamos la oportunidad de corregirlos.
+        <p className='para'>
+          Nos preocupamos enormemente por la seguridad de nuestros clientes. Si consideras que
+          has descubierto una vulnerabilidad, te rogamos que la comuniques de manera responsable. Compartir las
+          vulnerabilidades públicamente pone en riesgo a toda nuestra base usuarios, por lo que te rogamos que estos
+          asuntos se mantengan en privado hasta que tengamos la oportunidad de corregirlos.
         </p>
-
-        <p className='para'>Si estás interesado en probar si nuestro servicio presenta alguna vulnerabilidad,
-        agradeceríamos cualquier informe en relación a nuestro panel de control y nuestra API. Puedes <a href="https://manage-sandbox.gocardless.com/signup"
-        className="u-link-color-p u-text-underline">registrarte en una cuenta de sandbox/prueba</a> para empezar.
+        <p className='para'>
+          Si estás interesado en probar si nuestro servicio presenta alguna vulnerabilidad,
+          agradeceríamos cualquier informe en relación a nuestro panel de control y nuestra API.
+          Puedes <a href="https://manage-sandbox.gocardless.com/signup"
+          className="u-link-color-p u-text-underline">registrarte en una cuenta de sandbox/prueba</a> para empezar.
         </p>
-
-        <p className='para'>En reconocimiento a tus esfuerzos, y para agradecerte la colaboración por mantener la
-        seguridad de GoCardless, ofrecemos gratificaciones económicas por descubrir vulnerabilidades responsables.
-        Las gratificaciones se determinan conforme a nuestro criterio, en función de la gravedad del problema.<br></br>
+        <p className='para'>
+          En reconocimiento a tus esfuerzos, y para agradecerte la colaboración por mantener la
+          seguridad de GoCardless, ofrecemos gratificaciones económicas por descubrir vulnerabilidades responsables.
+          Las gratificaciones se determinan conforme a nuestro criterio, en función de la gravedad del problema.
         </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          Comunicar problemas
-        </strong>
+          <strong>
+            Comunicar problemas
+          </strong>
         </h3>
-
         <ul className='list'>
           <li>
             Envíanos un correo electrónico a <a href='mailto:security@gocardless.com'
@@ -112,16 +112,15 @@ export default class FaqMerchantsSecurityEs extends React.Component {
             No abuses de la vulnerabilidad, excepto para demostrar el problema al personal de GoCardless.
           </li>
           <li>
-            No informes a nadie del problema hasta que lo hayamos solucionado<br></br>
+            No informes a nadie del problema hasta que lo hayamos solucionado
           </li>
         </ul>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
-        <strong>
-          Requisitos para recibir la gratificación
-        </strong>
+          <strong>
+            Requisitos para recibir la gratificación
+          </strong>
         </h3>
-
         <p className='para'>
           Agradecemos los esfuerzos de quienes descubran problemas que afecten a la seguridad de la web,
           y estamos dispuestos a recompensar su trabajo. Sin embargo, no premiaremos ningún comportamiento
