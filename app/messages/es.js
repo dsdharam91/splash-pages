@@ -254,6 +254,24 @@ export default {
     description: '',
     nav_title: 'Equipo',
   },
+  press: {
+    title: 'Prensa',
+    description: '',
+    nav_title: 'Prensa',
+    contact: {
+      header: 'Contacto',
+      text: 'Para cualquier consulta vinculada con Prensa, por favor, ponte en contacto con',
+      gocardless_pr_team: 'el Equipo de PR',
+    },
+    resources: {
+      header: 'Recursos',
+      text: 'Descárgate logos, fotos y otros recursos',
+      here: 'aquí',
+    },
+    articles: {
+      header: 'Artículos',
+    },
+  },
   api_docs: {
     title: 'API',
     nav_title: 'API',

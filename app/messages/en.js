@@ -451,6 +451,9 @@ export default {
     title: 'Press',
     description: '',
     nav_title: 'Press',
+    contact: {
+      gocardless_pr_team: 'GoCardless PR team',
+    },
   },
   press_hiroki: {
     title: 'Press',
@@ -499,10 +502,6 @@ export default {
   },
   jobs_engineering_internships: {
     title: 'Engineering Internships',
-    description: '',
-  },
-  jobs_inside_account_executive_spain: {
-    title: 'Account Executive, Inside Sales: Spain',
     description: '',
   },
   jobs_sales_development_representative_inbound: {
