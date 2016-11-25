@@ -7,6 +7,13 @@ import AboutHeader from '../about-header';
 
 let pressArticles = [
   {
+    vendor: 'TechCrunch',
+    title: 'GoCardless spies a glimmer of hope for UK fintech amid the Brexit gloom',
+    link: 'https://techcrunch.com/2016/11/24/gocardless-spies-a-glimmer-of-hope-for-uk-fintech-amid-the-brexit-gloom/',
+    date: '25.11.16',
+    locales: ['en'],
+  },
+  {
     vendor: 'La Razón',
     title: 'La solución para que las empresas cobren a su clientes de manera rápida y sencilla',
     link: 'http://www.larazon.es/economia/la-solucion-para-que-las-empresas-cobren-a-su-clientes-de-manera-rapida-y-sencilla-AI13931010#.Ttt1QtBuNkEFPnm',
