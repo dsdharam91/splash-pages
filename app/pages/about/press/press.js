@@ -7,11 +7,32 @@ import AboutHeader from '../about-header';
 
 let pressArticles = [
   {
+    vendor: 'La Razón',
+    title: 'La solución para que las empresas cobren a su clientes de manera rápida y sencilla',
+    link: 'http://www.larazon.es/economia/la-solucion-para-que-las-empresas-cobren-a-su-clientes-de-manera-rapida-y-sencilla-AI13931010#.Ttt1QtBuNkEFPnm',
+    date: '14.11.16',
+    locales: ['es'],
+  },
+  {
+    vendor: 'CincoDías',
+    title: 'El mercado europeo de ‘start-ups’ está que arde',
+    link: 'http://cincodias.com/cincodias/2016/10/05/empresas/1475672955_890779.html',
+    date: '05.10.16',
+    locales: ['es'],
+  },
+  {
+    vendor: 'Innovaspain',
+    title: 'GoCardless, la alternativa online a la tarjeta de crédito',
+    link: 'http://www.innovaspain.com/gocardless-la-alternativa-online-la-tarjeta-credito/',
+    date: '19.09.16',
+    locales: ['es'],
+  },
+  {
     vendor: 'CardRates',
     title: '$2B+ Direct Debit Payments Processed: How GoCardless is Building a Global Payments Platform',
     link: 'http://www.cardrates.com/news/gocardless-direct-debit-payments-platform/',
     date: '27.09.16',
-    locales: ['en','fr','de','es'],
+    locales: ['en','fr','de'],
   },
  {
     vendor: 'Foreign and Commonwealth Office',
@@ -53,7 +74,7 @@ let pressArticles = [
     title: 'How to get clients to pay you faster',
     link: 'http://www.thedrum.com/opinion/2016/03/09/how-get-clients-pay-you-faster',
     date: '09.03.16',
-    locales: ['en','fr','de','es'],
+    locales: ['en','fr','de'],
   },
   {
     vendor: 'The Telegraph',
@@ -88,7 +109,7 @@ let pressArticles = [
     title: 'Inside GoCardless: Meet the quiet Londoners who want to help you get paid faster (and more)',
     link: 'http://tech.eu/features/2699/gocardless-profile/',
     date: '16.09.14',
-    locales: ['en','fr','de','es'],
+    locales: ['en','fr','de'],
   },
 ];
 
