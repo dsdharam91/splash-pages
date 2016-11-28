@@ -93,8 +93,8 @@ export default class Utilities extends React.Component {
                 <i role='img' className='bulb-energy-logo stories-item__logo--bulb-energy'></i>
                 <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
                   "We wanted to give our members whatever payment options they most trusted and were the most convenient.
-                  GoCardless was the most simple, reliable and advanced Direct Debit system we found."
-                  <br /><br />
+                  GoCardless was the most simple, reliable and advanced Direct Debit system we found. The simplicity and ease of use and
+                  it's ability to be integrated into our other systems have been a real positive."
                 </p>
                 <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
                   Hayden Wood & Amit Gudka<br />
