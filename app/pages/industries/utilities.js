@@ -83,20 +83,22 @@ export default class Utilities extends React.Component {
                   updated automatically, so we know why a payment has failed and can communicate this back to our customers."
                 </p>
                 <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
-                  Simon Oscroft, So Energy
+                  Simon Oscroft<br />
+                  Director, So Energy
                 </p>
               </div>
             </div>
             <div className='grid__cell u-size-1of2 u-link-clean u-padding-Rxs u-padding-Vm'>
               <div className='spotlight-grid__container u-text-center u-padding-Tl u-padding-Bxxl'>
-                <i role='img' className='tempus-energy-logo stories-item__logo--tempus-energy'></i>
+                <i role='img' className='bulb-energy-logo stories-item__logo--bulb-energy'></i>
                 <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
-                  "GoCardless has made our payment process much simpler to manage. It allows us to seamlessly set up and bill our
-                  customers by Direct Debit on a recurring basis. Their system is incredibly easy to use meaning our customers are
-                  happy and our team spend less time on administration and more time on growing the business."
+                  "We wanted to give our members whatever payment options they most trusted and were the most convenient.
+                  GoCardless was the most simple, reliable and advanced Direct Debit system we found."
+                  <br /><br />
                 </p>
                 <p className='u-size-9of10 u-center u-color-dark-gray u-margin-Txxs'>
-                  Loic Hares, Tempus Energy
+                  Hayden Wood & Amit Gudka<br />
+                  Co-Founders, Bulb Energy
                 </p>
               </div>
             </div>
