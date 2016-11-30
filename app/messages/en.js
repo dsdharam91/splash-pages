@@ -507,6 +507,10 @@ export default {
     title: 'Engineering Internships',
     description: '',
   },
+  jobs_engineering_manager: {
+    title: 'Engineering Manager',
+    description: '',
+  },
   jobs_product_manager: {
     title: 'Product Manager',
     description: '',
