@@ -319,7 +319,7 @@ export default {
   },
   partners: {
     title: 'Connect to our partners',
-    nav_title: 'Connect to our partnersr',
+    nav_title: 'Connect to our partners',
     description: 'Use your GoCardless account with a pre-built integration',
   },
   partner_with_us: {
