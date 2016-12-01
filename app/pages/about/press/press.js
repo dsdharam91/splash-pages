@@ -7,6 +7,13 @@ import AboutHeader from '../about-header';
 
 let pressArticles = [
   {
+    vendor: 'Startup Valley News',
+    title: '5 Tipps für mehr Kundenzufriedenheit durch intelligentes Churnmanagement',
+    link: 'http://www.startupvalley.news/de/kundenzufriedenheit-durch-intelligentes-churnmanagement/',
+    date: '29.11.16',
+    locales: ['de'],
+  },
+  {
     vendor: 'TechCrunch',
     title: 'GoCardless spies a glimmer of hope for UK fintech amid the Brexit gloom',
     link: 'https://techcrunch.com/2016/11/24/gocardless-spies-a-glimmer-of-hope-for-uk-fintech-amid-the-brexit-gloom/',
