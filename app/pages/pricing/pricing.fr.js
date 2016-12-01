@@ -104,7 +104,7 @@ export default class PricingFr extends React.Component {
                           0,60 - 0,10 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Par transaction réussie,<br/>plus <strong>€100</strong> par mois
+                          Par transaction réussie,<br/>plus <strong>100€</strong> par mois
                         </p>
                       </div>
 
@@ -140,11 +140,9 @@ export default class PricingFr extends React.Component {
                       <hr />
 
                       <div className='u-padding-Vs'>
-                        <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
-                          0,60 - 0,01 €
-                        </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Par transaction réussie,<br/>plus <strong>€250</strong> par mois
+                          Contactez-nous pour un<br />
+                          devis personnalisé
                         </p>
                       </div>
 

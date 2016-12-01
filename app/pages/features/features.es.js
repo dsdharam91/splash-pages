@@ -1,7 +1,6 @@
 import React from 'react';
 import Message from '../../components/message/message';
 import StickyNav from '../../components/sticky-nav/sticky-nav';
-import ProductComparison from '../../components/product-comparison/product-comparison';
 import Tabs from '../../components/tabs/tabs';
 import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
 import PayOnePercentCTA from '../../components/pay-one-percent/pay-one-percent';
@@ -184,7 +183,7 @@ export default class FeaturesEs extends React.Component {
                     </div>
                       <p className='u-color-dark-gray u-margin-Txs'>
                         Añade GoCardless a tu web o app en minutos con nuestras librerias API.&nbsp;
-                        <a href='https://developer.gocardless.com/'>Descubre más</a>.
+                        <Href to='developer_link'>Descubre más</Href>.
                       </p>
                   </div>
                 </div>
@@ -323,25 +322,6 @@ export default class FeaturesEs extends React.Component {
                     <Message pointer='cta.pro' />
                   </Link>
                 </div>
-              </div>
-            </div>
-            <hr className='u-margin-An' />
-            <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
-              <div className='site-container u-padding-Vxl'>
-                <ProductComparison />
-                <table className='u-size-full'>
-                  <tfoot>
-                    <tr className='comparison-table__row'>
-                      <td />
-                      <td />
-                      <td className='u-padding-As u-size-1of3'>
-                        <Link to='pro' id='track-comparison-table-pro' className='u-color-primary'>
-                          Descubre más sobre GoCardless Pro
-                        </Link>
-                      </td>
-                    </tr>
-                  </tfoot>
-                </table>
               </div>
             </div>
             <hr className='u-margin-An' />

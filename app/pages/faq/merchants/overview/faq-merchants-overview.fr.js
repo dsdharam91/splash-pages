@@ -1,6 +1,7 @@
 import React from 'react';
 import Translation from '../../../../components/translation/translation';
 import Link from '../../../../components/link/link';
+import Href from '../../../../components/href/href';
 
 export default class FaqMerchantsFr extends React.Component {
   displayName = 'FaqMerchantsFr'
@@ -22,11 +23,11 @@ export default class FaqMerchantsFr extends React.Component {
           </li>
           <li>
             <strong>GoCardless Pro</strong> - Automatisez vos prélèvements en intégrant
-            notre <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>REST
-            API</a> dans votre site internet et vos systèmes informatiques.
+            notre <Href to='developer_link' className='u-link-color-p u-text-underline'>REST
+            API</Href> dans votre site internet et vos systèmes informatiques.
           </li>
           <li>
-            <strong>Nos partenaires</strong> - Nous travaillons avec de multiples <Link to='partners'
+            <strong>Nos partenaires</strong> - Nous travaillons avec de multiples <Link to='partner_with_us'
             className='u-link-color-p u-text-underline'>partenaires</Link>, afin que vous puissiez prendre des paiements
             dans les logiciels que vous utilisez déjà.
           </li>
@@ -68,7 +69,7 @@ export default class FaqMerchantsFr extends React.Component {
           </li>
           <li>
             <strong>Évoluez facilement</strong> - Notre tableau de bord est propulsé par
-            notre <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>API REST</a>.
+            notre <Href to='developer_link' className='u-link-color-p u-text-underline'>API REST</Href>.
             Ceci vous permet de facilement évoluer vers l'API afin d'automatiser plus en profondeur au fur et
             à mesure.
           </li>

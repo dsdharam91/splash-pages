@@ -43,7 +43,8 @@ export default {
   phone_local: '+49 30 568373022',
   email: 'deutschland@gocardless.com',
   partners_email: 'partnerships@gocardless.com',
-  documentation_link: 'https://developer.gocardless.com/',
+  api_reference_link: 'https://developer.gocardless.com/api-reference',
+  developer_link: 'https://developer.gocardless.com',
   prospect_form: {
     sales: {
       name_label: 'Ihr Name',
@@ -52,13 +53,16 @@ export default {
       email_placeholder: 'beispiel@firmenname.de',
       phone_label: 'Geschäftliche Telefonnummer',
       phone_placeholder: '030 12345678',
+      zero_to_ninety_nine_payments: '0 - 99',
+      one_hundred_to_nine_hundred_and_ninety_nine_payments: '100 - 999',
+      one_thousand_to_nine_thousand_nine_hundred_and_ninety_nine_payments: '1.000 - 9.999',
+      ten_thousand_to_ninety_nine_thousand_nine_hundred_and_ninety_nine_payments: '10.000 - 99.999',
+      more_than_one_hundred_thousand_payments: '100.000+',
+      number_of_payments_label: 'Bei wie vielen Zahlungen hätten wir Sie letzten Monat unterstützen können?',
+      number_of_payments_placeholder: 'Anzahl Ihrer durchgeführten Zahlungen im letzten Monat',
+      specific_needs_label: 'Welche bestimmten Bedürfnisse hat Ihr Betrieb?',
       submit: 'Senden',
-      success_messages: {
-        '0-100': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
-        '100-500': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
-        '500+': 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
-        default: 'Vielen Dank, ein GoCardless Mitarbeiter wird sich in den nächsten 24 Stunden mit Ihnen in Verbindung setzen.',
-      },
+      success_message: 'Vielen Dank, ein GoCardless Mitarbeiter wird sich bald mit Ihnen in Verbindung setzen.',
     },
   },
   not_found: {
@@ -109,7 +113,7 @@ export default {
     description: 'GoCardless Pro lässt Sie Lastschriften einziehen und ermöglicht Ihnen komplette Kontrolle über den Prozess. 100% werbefrei und mit einer sehr einfach zu integrierenden API.',
     explainer: 'Volle Kontrolle über Lastschriften',
   },
-  partners: {
+  partner_with_us: {
     title: 'Partner werden',
     nav_title: 'Werden Sie Partner',
     link_title: 'Partner',
@@ -127,6 +131,24 @@ export default {
     title: 'Team',
     description: '',
     nav_title: 'Team',
+  },
+  press: {
+    title: 'Presse',
+    description: '',
+    nav_title: 'Presse',
+    contact: {
+      header: 'Kontakt',
+      text: 'Für Presseanfragen kontaktieren Sie bitte das',
+      gocardless_pr_team: 'GoCardless PR-Team',
+    },
+    resources: {
+      header: 'Resourcen',
+      text: 'Laden Sie Logos, Fotos und mehr',
+      here: 'hier',
+    },
+    articles: {
+      header: 'Artikel',
+    },
   },
   jobs: {
     title: 'Jobs',

@@ -42,7 +42,8 @@ export default {
   phone_local: '+44 20 7183 8674',
   email: 'help@gocardless.com',
   partners_email: 'partnerships@gocardless.com',
-  documentation_link: 'https://developer.gocardless.com/',
+  api_reference_link: 'https://developer.gocardless.com/api-reference',
+  developer_link: 'https://developer.gocardless.com',
   prospect_form: {
     sales: {
       name_label: 'Your name',
@@ -55,12 +56,7 @@ export default {
       number_of_payments_placeholder: 'Select number of payments taken last month',
       specific_needs_label: 'What are your business\'s specific needs?',
       submit: 'Contact',
-      success_messages: {
-        '0-100': 'Thank you, a member of the GoCardless team will be in touch soon.',
-        '100-500': 'Thank you, a member of the GoCardless team will be in touch soon.',
-        '500+': 'Thank you, a member of the GoCardless team will be in touch soon.',
-        default: 'Thank you, someone will be in touch within 24 hours.',
-      },
+      success_message: 'Thank you, a member of the GoCardless team will be in touch soon.',
     },
   },
   not_found: {
@@ -322,9 +318,14 @@ export default {
     explainer: 'Total control over Direct Debit',
   },
   partners: {
+    title: 'Connect to our partners',
+    nav_title: 'Connect to our partners',
+    description: 'Use your GoCardless account with a pre-built integration',
+  },
+  partner_with_us: {
     title: 'Partner Apps & Software Integration',
     nav_title: 'Partner with us',
-    link_title: 'Partners',
+    link_title: 'Partner with us',
     description: 'Partner up with GoCardless and let people take payments through your software. We work with FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube and more.',
     explainer: 'Offer GoCardless to your users',
     sidebar: 'Got a question? Get in touch with our Partnerships team at',
@@ -358,6 +359,10 @@ export default {
   partners_xero: {
     title: 'GoCardless for Xero: Powered by Directli',
     description: 'GoCardless integrates with the Xero online accounting software and allows you to collect payments with Direct Debit.',
+  },
+  partners_zuora: {
+    title: 'GoCardless for Zuora',
+    description: '',
   },
   partners_quickbooks: {
     title: 'GoCardless for Quickbooks',
@@ -407,7 +412,7 @@ export default {
     nav_title: 'Digital Agencies',
     description: '',
   },
-  education_dm: {
+  education: {
     title: 'A simpler way for parents to pay',
     nav_title: 'Education',
     description: 'Join the hundreds of schools and nurseries who use GoCardless to collect payments.',
@@ -451,6 +456,9 @@ export default {
     title: 'Press',
     description: '',
     nav_title: 'Press',
+    contact: {
+      gocardless_pr_team: 'GoCardless PR team',
+    },
   },
   press_hiroki: {
     title: 'Press',
@@ -464,6 +472,9 @@ export default {
     open_positions: 'Open positions',
     engineering: {
       title: 'Engineering & Data',
+    },
+    product: {
+      title: 'Product',
     },
     ux_design: {
       title: 'UX & Design',
@@ -493,32 +504,28 @@ export default {
     title: 'Data Engineer',
     description: '',
   },
-  jobs_data_team_lead: {
-    title: 'Data Team Lead',
+  jobs_lead_data_engineer: {
+    title: 'Lead Data Engineer',
     description: '',
   },
   jobs_engineering_internships: {
     title: 'Engineering Internships',
     description: '',
   },
-  jobs_enterprise_account_executive: {
-    title: 'Account Executive, Enterprise Sales: UK',
+  jobs_engineering_manager: {
+    title: 'Engineering Manager',
     description: '',
   },
-  jobs_inside_account_executive_spain: {
-    title: 'Account Executive, Inside Sales: Spain',
+  jobs_product_manager: {
+    title: 'Product Manager',
     description: '',
   },
-  jobs_sales_development_representative_germany: {
-    title: 'SDR: Germany',
+  jobs_sales_development_representative_inbound: {
+    title: 'SDR: UK',
     description: '',
   },
   jobs_head_of_sales_france: {
     title: 'Head of Sales: France',
-    description: '',
-  },
-  jobs_european_marketing_manager: {
-    title: 'European Marketing Manager',
     description: '',
   },
   jobs_head_of_finance: {
@@ -529,24 +536,24 @@ export default {
     title: 'Head of Operations',
     description: '',
   },
-  jobs_personal_assistant: {
-    title: 'Personal Assistant',
-    description: '',
-  },
-  jobs_front_end_developer: {
-    title: 'Front End Developer',
-    description: '',
-  },
-  jobs_partnerships_success_manager: {
-    title: 'Partnerships Success Manager',
-    description: '',
-  },
-  jobs_customer_support_france: {
-    title: 'Customer Support: France',
+  jobs_accounts_assistant: {
+    title: 'Accounts Assistant',
     description: '',
   },
   jobs_risk_compliance_analyst: {
     title: 'Risk and Compliance Analyst',
+    description: '',
+  },
+  jobs_customer_support_germany: {
+    title: 'Customer Support: Germany',
+    description: '',
+  },
+  jobs_developer_support_lead: {
+    title: 'Developer Support Lead',
+    description: '',
+  },
+  jobs_customer_support: {
+    title: 'Customer Support',
     description: '',
   },
   api_docs: {
@@ -616,12 +623,20 @@ export default {
     title: 'Rock Choir - Customer Stories',
     description: 'Rock Choir cut failed payments to 1% by switching to online Direct Debit with GoCardless. Read their customer story of using GoCardless.',
   },
+  stories_slm_connect: {
+    title: 'SLM Connect - Customer Stories',
+    description: '',
+  },
   stories_smart_pension: {
     title: 'Smart Pension - Customer Stories',
     description: '',
   },
   stories_soaring_falcon: {
     title: 'Soaring Falcon Accountancy - Customer Stories',
+    description: '',
+  },
+  stories_wow_company: {
+    title: 'The Wow Company - Customer Stories',
     description: '',
   },
   stories_your_parking_space: {

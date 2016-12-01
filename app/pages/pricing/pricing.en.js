@@ -241,11 +241,8 @@ export default class PricingEn extends React.Component {
                       </ul>
                       <hr />
                       <div className='u-padding-Vs'>
-                        <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
-                          0,01 - 0,60 €
-                        </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Per transaction, plus <strong>250 €</strong> a month
+                          Please contact us for your<br />individual price quote
                         </p>
                       </div>
                       <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>

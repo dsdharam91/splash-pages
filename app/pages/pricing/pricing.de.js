@@ -140,11 +140,8 @@ export default class PricingDe extends React.Component {
                       <hr />
 
                       <div className='u-padding-Vs'>
-                        <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
-                          0,01 - 0,60 €
-                        </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          pro erfolgreicher Transaktion,<br/>plus <strong>250 €</strong> im Monat
+                          Kontaktieren Sie uns für Ihr individuelles Angebot
                         </p>
                       </div>
 

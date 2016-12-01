@@ -98,6 +98,14 @@ let caseStudies = {
       logoWidth: '50',
       industry: 'Membership',
     },
+    {
+      link: 'stories_wow_company',
+      quote: `GoCardless solved almost a decade of billing and payment headaches for us`,
+      size: '35 employees',
+      logoSrc: '/images/stories/story-logos/the-wow-company.png',
+      logoWidth: '50',
+      industry: 'Accountancy',
+    },
   ],
   Corporations: [
     {
@@ -107,6 +115,14 @@ let caseStudies = {
       logoSrc: '/images/stories/story-logos/nutmeg.png',
       logoWidth: '140',
       industry: 'Investments',
+    },
+    {
+      link: 'stories_slm_connect',
+      quote: `Up-to-date payment status information allows us to improve our credit control`,
+      size: '120 employees',
+      logoSrc: '/images/stories/story-logos/slm-connect.png',
+      logoWidth: '140',
+      industry: 'Telemarketing',
     },
     {
       link: 'stories_peterborough_council',

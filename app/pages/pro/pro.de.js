@@ -9,6 +9,7 @@ import WhiteLabelIcon from '../../icons/svg/white-label';
 import MobileIcon from '../../icons/svg/mobile';
 import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 
 export default class ProDe extends React.Component {
   displayName = 'ProDe'
@@ -57,10 +58,10 @@ export default class ProDe extends React.Component {
               }>
                 <Message pointer='cta.pro' />
               </Link>
-              <a href='https://developer.gocardless.com/' id='track-sticky-nav-docs'
+              <Href to='api_reference_link' id='track-sticky-nav-docs'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
                 API Dokumentation
-              </a>
+              </Href>
             </div>
           </StickyNav>
           <div className='section-scroll-target' id='overview'>
@@ -100,7 +101,7 @@ export default class ProDe extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Die komplette Dokumentation zu GoCardless Pro ist kostenlos in
-                      unseren <a href='https://developer.gocardless.com/' id='track-overview-docs'>API docs</a> verfügbar.
+                      unseren <Href to='api_reference_link' id='track-overview-docs'>API docs</Href> verfügbar.
                       Wir haben hart daran gearbeitet, die Integration für Sie so einfach wie möglich zu gestalten.
                     </p>
                   </div>
@@ -241,15 +242,15 @@ export default class ProDe extends React.Component {
                       </a>
                     ),]}>
                     <div>
-                      <img src='/images/pro/customer.jpg'
+                      <img src='/images/pro/customer.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                     <div>
-                      <img src='/images/pro/payment.jpg'
+                      <img src='/images/pro/payment.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                     <div>
-                      <img src='/images/pro/payments-list.jpg'
+                      <img src='/images/pro/payments-list.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                   </Tabs>

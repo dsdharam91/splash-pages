@@ -9,6 +9,7 @@ import WhiteLabelIcon from '../../icons/svg/white-label';
 import MobileIcon from '../../icons/svg/mobile';
 import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
+import Href from '../../components/href/href';
 
 export default class ProNl extends React.Component {
   displayName = 'ProNl'
@@ -65,10 +66,10 @@ export default class ProNl extends React.Component {
               }>
                 <Message pointer='cta.pro' />
               </Link>
-              <a href='https://developer.gocardless.com/' id='track-sticky-nav-docs'
+              <Href to='api_reference_link' id='track-sticky-nav-docs'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
                 API documentatie
-              </a>
+              </Href>
             </div>
           </StickyNav>
           <div className='section-scroll-target' id='overview'>
@@ -116,7 +117,7 @@ export default class ProNl extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Alle documentatie voor GoCardless Pro is gratis beschikbaar in onze
-                      <a href='https://developer.gocardless.com/' id='track-overview-docs'> API docs</a>.
+                      <Href to='api_reference_link' id='track-overview-docs'> API docs</Href>.
                       We hebben ons best gedaan om de integratie met jouw systemen zo eenvoudig mogelijk te maken.
                     </p>
                   </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Translation from '../../../components/translation/translation';
 import Link from '../../../components/link/link';
+import Href from '../../../components/href/href';
 
 export default class LegalMerchantsEn extends React.Component {
   displayName = 'LegalMerchantsEn'
@@ -334,7 +335,7 @@ export default class LegalMerchantsEn extends React.Component {
 
         <div className='simple-terms'>
           <p className='para'>
-            You can use our API in line with the <a href="https://developer.gocardless.com/" className='u-link-color-p u-text-underline'>documentation we provide for it</a>, but not in any other way. We might require you to update certain software to work with the service.
+            You can use our API in line with the <Href to='api_reference_link' className='u-link-color-p u-text-underline'>documentation we provide for it</Href>, but not in any other way. We might require you to update certain software to work with the service.
           </p>
         </div>
 

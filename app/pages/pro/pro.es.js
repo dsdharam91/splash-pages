@@ -9,7 +9,7 @@ import WhiteLabelIcon from '../../icons/svg/white-label';
 import MobileIcon from '../../icons/svg/mobile';
 import PhoneIcon from '../../icons/svg/phone';
 import Link from '../../components/link/link';
-import ProductComparison from '../../components/product-comparison/product-comparison';
+import Href from '../../components/href/href';
 
 export default class ProEs extends React.Component {
   displayName = 'ProEs'
@@ -59,10 +59,10 @@ export default class ProEs extends React.Component {
               }>
                 <Message pointer='cta.pro' />
               </Link>
-              <a href='https://developer.gocardless.com/' id='track-sticky-nav-docs'
+              <Href to='api_reference_link' id='track-sticky-nav-docs'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
                 Documentación API
-              </a>
+              </Href>
             </div>
           </StickyNav>
           <div className='section-scroll-target' id='overview'>
@@ -103,7 +103,7 @@ export default class ProEs extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Toda la documentación de Pro está disponible gratuitamente en
-                      nuestra <a href='https://developer.gocardless.com/' id='track-overview-docs'>documentación de la API</a>.
+                      nuestra <Href to='api_reference_link' id='track-overview-docs'>documentación de la API</Href>.
                       Hemos trabajado muy duro para que la integración de tu empresa sea tan sencilla como sea posible.
                     </p>
                   </div>
@@ -173,28 +173,7 @@ export default class ProEs extends React.Component {
               </div>
               <hr className='u-margin-An' />
             </div>
-            <div id='forOptimizely-Table'>
-              <div className='u-text-center u-padding-Vxxl u-background-light-gray'>
-                <div className='site-container u-padding-Vxl'>
-                  <ProductComparison />
-                  <table className='u-size-full'>
-                    <tfoot>
-                      <tr className='comparison-table__row'>
-                        <td />
-                        <td className='u-size-1of3 u-padding-As'>
-                          <Link to='features' id='track-comparison-table-features'
-                          className='u-color-primary'>
-                            Descubre más sobre GoCardless
-                          </Link>
-                        </td>
-                        <td />
-                      </tr>
-                    </tfoot>
-                  </table>
-                </div>
-              </div>
-              <hr className='u-margin-An' />
-            </div>
+
             <hr className='u-margin-An' />
             <div className='site-container u-text-center u-padding-Vxxl'>
               <div className='u-padding-Vxl'>
@@ -250,15 +229,15 @@ export default class ProEs extends React.Component {
                       </a>
                     ),]}>
                     <div>
-                      <img src='/images/pro/customer.jpg'
+                      <img src='/images/pro/customer.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                     <div>
-                      <img src='/images/pro/payment.jpg'
+                      <img src='/images/pro/payment.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                     <div>
-                      <img src='/images/pro/payments-list.jpg'
+                      <img src='/images/pro/payments-list.png'
                       className='pro-page__dashboard-image u-shadow-medium' />
                     </div>
                   </Tabs>

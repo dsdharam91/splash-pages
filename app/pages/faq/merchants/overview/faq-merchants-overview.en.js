@@ -2,6 +2,7 @@ import React from 'react';
 import Translation from '../../../../components/translation/translation';
 import IfLocale from '../../../../components/if-locale/if-locale';
 import Link from '../../../../components/link/link';
+import Href from '../../../../components/href/href';
 import Message from '../../../../components/message/message';
 
 export default class FaqMerchantsEn extends React.Component {
@@ -25,7 +26,7 @@ export default class FaqMerchantsEn extends React.Component {
             </li>
             <li>
               <strong>Our clean, RESTful API</strong> - Integrate GoCardless into your website using
-              our <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>REST API</a>.
+              our <Href to='developer_link' className='u-link-color-p u-text-underline'>REST API</Href>.
             </li>
           </ul>
         </Translation>
@@ -39,13 +40,13 @@ export default class FaqMerchantsEn extends React.Component {
               with your customers using our simple online dashboard.
             </li>
             <li>
-              <strong>Our account software partnerships</strong> - We work with a growing list of <Link to='partners'
+              <strong>Our account software partnerships</strong> - We work with a growing list of <Link to='partner_with_us'
               className='u-link-color-p u-text-underline'>partners</Link>, so you can take payments within the online
               services you already use.
             </li>
             <li>
               <strong>Our clean, RESTful API</strong> - Integrate GoCardless into your website using
-              our <a href='https://developer.gocardless.com/' className='u-link-color-p u-text-underline'>REST API</a>.
+              our <Href to='developer_link' className='u-link-color-p u-text-underline'>REST API</Href>.
             </li>
           </ul>
         </Translation>
@@ -160,8 +161,8 @@ export default class FaqMerchantsEn extends React.Component {
           </IfLocale>
           <li>
             <strong>Powerful tools that suit you</strong> - Everything you need to set up, collect
-            and manage Direct Debit payments with our simple online tool or <a href='https://developer.gocardless.com/'
-            className='u-link-color-p u-text-underline'>REST API</a>.
+            and manage Direct Debit payments with our simple online tool or <Href to='developer_link'
+            className='u-link-color-p u-text-underline'>REST API</Href>.
           </li>
           <li>
             <strong>The personal touch</strong> - Our support team prides itself on being there to help whenever you need us.

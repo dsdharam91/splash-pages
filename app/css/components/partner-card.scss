@@ -1,0 +1,23 @@
+.partner-card {
+  background-color: white;
+  flex-grow: 1;
+  border-radius: $border-radius-base;
+  padding: $space-small 0;
+  transition: box-shadow 0.15s;
+  margin-bottom: $space-medium;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.05);
+  transition: box-shadow 0.2s ease;
+}
+
+.partner-card:hover {
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.1);
+}
+
+.partner-card__logo {
+  height: 100px;
+  display: flex;
+  margin-bottom: $space-small;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

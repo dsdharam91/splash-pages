@@ -40,7 +40,8 @@ export default {
     address_country_iso: 'GB',
   },
   partners_email: 'partnerships@gocardless.com',
-  documentation_link: 'https://developer.gocardless.com/',
+  api_reference_link: 'https://developer.gocardless.com/api-reference',
+  developer_link: 'https://developer.gocardless.com',
   prospect_form: {
     sales: {
       name_label: 'Nombre',
@@ -52,13 +53,13 @@ export default {
       number_of_payments_label: '¿Cuántas transacciones podrías haber hecho a través de nosotros el mes pasado?',
       number_of_payments_placeholder: 'Selecciona el número de cobros que hiciste el mes pasado',
       specific_needs_label: '¿Hay alguna necesidad concreta en la que quieres que te ayudemos?',
+      zero_to_ninety_nine_payments: '0 - 99',
+      one_hundred_to_nine_hundred_and_ninety_nine_payments: '100 - 999',
+      one_thousand_to_nine_thousand_nine_hundred_and_ninety_nine_payments: '1.000 - 9.999',
+      ten_thousand_to_ninety_nine_thousand_nine_hundred_and_ninety_nine_payments: '10.000 - 99.999',
+      more_than_one_hundred_thousand_payments: '100.000+',
       submit: 'Contacta',
-      success_messages: {
-        '0-100': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
-        '100-500': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
-        '500+': 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
-        default: 'Gracias, alguien se pondrá en contacto contigo en 24 horas.',
-      },
+      success_message: 'Gracias, un empleado de Gocardless se pondrá pronto en contacto contigo.',
     },
     holding: {
       submit: '',
@@ -219,7 +220,7 @@ export default {
     description: 'GoCardless Pro te permite controlar totalmente tus cobros a través de Domiciliación Bancaria. Personalizable a tu empresa y con una sencilla API.',
     explainer: 'Control Total sobre tus Domiciliaciones Bancarias',
   },
-  partners: {
+  partner_with_us: {
     title: 'Asociados e Integraciones',
     nav_title: 'Asociate con nosotros',
     link_title: 'Asociados',
@@ -253,6 +254,24 @@ export default {
     description: '',
     nav_title: 'Equipo',
   },
+  press: {
+    title: 'Prensa',
+    description: '',
+    nav_title: 'Prensa',
+    contact: {
+      header: 'Contacto',
+      text: 'Para cualquier consulta vinculada con Prensa, por favor, ponte en contacto con',
+      gocardless_pr_team: 'el Equipo de PR',
+    },
+    resources: {
+      header: 'Recursos',
+      text: 'Descárgate logos, fotos y otros recursos',
+      here: 'aquí',
+    },
+    articles: {
+      header: 'Artículos',
+    },
+  },
   api_docs: {
     title: 'API',
     nav_title: 'API',
@@ -279,7 +298,7 @@ export default {
   },
   stories: {
     title: 'Casos de éxito',
-    nav_title: 'casos',
+    nav_title: 'Casos de éxito',
     description: '',
     link: 'Lee nuestros casos de éxito',
     key_benefits: 'Beneficios clave',
@@ -314,8 +333,16 @@ export default {
       title: 'Operations',
     },
   },
+  stories_acumbamail: {
+    title: 'Acumbamail - Casos de éxito',
+    description: '',
+  },
   stories_impact_hub: {
     title: 'Impact Hub - Casos de éxito',
+    description: '',
+  },
+  stories_monras: {
+    title: 'Monras - Casos de éxito',
     description: '',
   },
   legal: {
