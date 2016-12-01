@@ -27,7 +27,7 @@ export default class FaqMerchantsFr extends React.Component {
             API</Href> dans votre site internet et vos systèmes informatiques.
           </li>
           <li>
-            <strong>Nos partenaires</strong> - Nous travaillons avec de multiples <Link to='partners'
+            <strong>Nos partenaires</strong> - Nous travaillons avec de multiples <Link to='partner_with_us'
             className='u-link-color-p u-text-underline'>partenaires</Link>, afin que vous puissiez prendre des paiements
             dans les logiciels que vous utilisez déjà.
           </li>

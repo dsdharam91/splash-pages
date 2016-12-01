@@ -56,13 +56,13 @@ export default {
       number_of_payments_label: 'Combien de paiements réalisez-vous chaque mois?',
       number_of_payments_placeholder: 'Choisissez un nombre de paiements',
       specific_needs_label: 'Quels sont les besoins de votre entreprise?',
+      zero_to_ninety_nine_payments: '0 - 99',
+      one_hundred_to_nine_hundred_and_ninety_nine_payments: '100 - 999',
+      one_thousand_to_nine_thousand_nine_hundred_and_ninety_nine_payments: '1.000 - 9.999',
+      ten_thousand_to_ninety_nine_thousand_nine_hundred_and_ninety_nine_payments: '10.000 - 99.999',
+      more_than_one_hundred_thousand_payments: '100.000+',
       submit: 'Contactez Nous',
-      success_messages: {
-        '0-100': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
-        '100-500': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
-        '500+': 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
-        default: 'Merci, nous vous contacterons sous 24 heures.',
-      },
+      success_message: 'Merci, un membre de l\'équipe GoCardless vous contactera sous peu.',
     },
     holding: {
       submit: '',
@@ -243,6 +243,24 @@ export default {
     description: '',
     nav_title: 'Notre équipe',
   },
+  press: {
+    title: 'Presse',
+    description: '',
+    nav_title: 'Presse',
+    contact: {
+      header: 'Contact',
+      text: 'Pour toute demande, merci de contacter',
+      gocardless_pr_team: 'notre équipe Relation Presse',
+    },
+    resources: {
+      header: 'Ressources',
+      text: 'Téléchargement de logos, photos et autres ressources',
+      here: 'ici',
+    },
+    articles: {
+      header: 'Articles',
+    },
+  },
   jobs: {
     title: 'Recrutement',
     description: '',
@@ -269,7 +287,7 @@ export default {
     description: 'GoCardless combine simplicité d\'utilisation et contrôle complet du paiement et de l\'expérience client afin de prélever vos clients partout en Europe.',
     explainer: 'Automatisez vos prélèvements',
   },
-  partners: {
+  partner_with_us: {
     title: 'Applications partenaires et intégrations logiciels',
     nav_title: 'Devenez nos partenaires',
     link_title: 'Partenaires',

@@ -68,10 +68,12 @@ export default class StoryPageNew extends React.Component {
               <IfLinkExists to='stories'>
                 <div className="u-margin-Txl">
                   <Link to='stories' className="u-text-heavy">
-                    <Translation locales={['en', 'es']}>
+                    <Translation locales='en'>
                       &larr; Read more stories like { this.props.company }’s
                     </Translation>
-
+                    <Translation locales='es'>
+                      &larr; Lee más historias como la de { this.props.company }
+                    </Translation>
                     <Translation locales='de'>
                       &larr; Lesen Sie weitere Kundenstimmen
                     </Translation>

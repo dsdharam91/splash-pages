@@ -40,7 +40,7 @@ export default class FaqMerchantsEn extends React.Component {
               with your customers using our simple online dashboard.
             </li>
             <li>
-              <strong>Our account software partnerships</strong> - We work with a growing list of <Link to='partners'
+              <strong>Our account software partnerships</strong> - We work with a growing list of <Link to='partner_with_us'
               className='u-link-color-p u-text-underline'>partners</Link>, so you can take payments within the online
               services you already use.
             </li>

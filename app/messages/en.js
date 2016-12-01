@@ -56,12 +56,7 @@ export default {
       number_of_payments_placeholder: 'Select number of payments taken last month',
       specific_needs_label: 'What are your business\'s specific needs?',
       submit: 'Contact',
-      success_messages: {
-        '0-100': 'Thank you, a member of the GoCardless team will be in touch soon.',
-        '100-500': 'Thank you, a member of the GoCardless team will be in touch soon.',
-        '500+': 'Thank you, a member of the GoCardless team will be in touch soon.',
-        default: 'Thank you, someone will be in touch within 24 hours.',
-      },
+      success_message: 'Thank you, a member of the GoCardless team will be in touch soon.',
     },
   },
   not_found: {
@@ -323,9 +318,14 @@ export default {
     explainer: 'Total control over Direct Debit',
   },
   partners: {
+    title: 'Connect to our partners',
+    nav_title: 'Connect to our partnersr',
+    description: 'Use your GoCardless account with a pre-built integration',
+  },
+  partner_with_us: {
     title: 'Partner Apps & Software Integration',
     nav_title: 'Partner with us',
-    link_title: 'Partners',
+    link_title: 'Partner with us',
     description: 'Partner up with GoCardless and let people take payments through your software. We work with FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube and more.',
     explainer: 'Offer GoCardless to your users',
     sidebar: 'Got a question? Get in touch with our Partnerships team at',
@@ -359,6 +359,10 @@ export default {
   partners_xero: {
     title: 'GoCardless for Xero: Powered by Directli',
     description: 'GoCardless integrates with the Xero online accounting software and allows you to collect payments with Direct Debit.',
+  },
+  partners_zuora: {
+    title: 'GoCardless for Zuora',
+    description: '',
   },
   partners_quickbooks: {
     title: 'GoCardless for Quickbooks',
@@ -452,6 +456,9 @@ export default {
     title: 'Press',
     description: '',
     nav_title: 'Press',
+    contact: {
+      gocardless_pr_team: 'GoCardless PR team',
+    },
   },
   press_hiroki: {
     title: 'Press',
@@ -465,6 +472,9 @@ export default {
     open_positions: 'Open positions',
     engineering: {
       title: 'Engineering & Data',
+    },
+    product: {
+      title: 'Product',
     },
     ux_design: {
       title: 'UX & Design',
@@ -502,12 +512,8 @@ export default {
     title: 'Engineering Internships',
     description: '',
   },
-  jobs_enterprise_account_executive: {
-    title: 'Account Executive, Enterprise Sales: UK',
-    description: '',
-  },
-  jobs_inside_account_executive_spain: {
-    title: 'Account Executive, Inside Sales: Spain',
+  jobs_product_manager: {
+    title: 'Product Manager',
     description: '',
   },
   jobs_sales_development_representative_inbound: {
@@ -526,20 +532,24 @@ export default {
     title: 'Head of Operations',
     description: '',
   },
-  jobs_front_end_developer: {
-    title: 'Front End Developer',
-    description: '',
-  },
-  jobs_partnerships_success_manager: {
-    title: 'Partnerships Success Manager',
-    description: '',
-  },
-  jobs_customer_support_france: {
-    title: 'Customer Support: France',
+  jobs_accounts_assistant: {
+    title: 'Accounts Assistant',
     description: '',
   },
   jobs_risk_compliance_analyst: {
     title: 'Risk and Compliance Analyst',
+    description: '',
+  },
+  jobs_customer_support_germany: {
+    title: 'Customer Support: Germany',
+    description: '',
+  },
+  jobs_developer_support_lead: {
+    title: 'Developer Support Lead',
+    description: '',
+  },
+  jobs_customer_support: {
+    title: 'Customer Support',
     description: '',
   },
   api_docs: {
@@ -623,6 +633,10 @@ export default {
   },
   stories_teamup: {
     title: 'TeamUp - Gym Management Software - Customer Stories',
+    description: '',
+  },
+  stories_wow_company: {
+    title: 'The Wow Company - Customer Stories',
     description: '',
   },
   stories_your_parking_space: {

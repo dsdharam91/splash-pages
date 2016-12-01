@@ -54,12 +54,12 @@ class Header extends React.Component {
           </Link>
         </IfLinkExists>
 
-        <IfLinkExists to='partners' tagName='li'>
+        <IfLinkExists to='partner_with_us' tagName='li'>
           <hr className='u-margin-Vxs' />
 
-          <Link to='partners' id='track-nav-partners' className='site-header__product-link u-link-clean'>
-            <span className='site-header__product-link-title u-text-semi'><Message pointer='partners.nav_title' /></span>
-            <p className='u-color-dark-gray'><Message pointer='partners.explainer' /></p>
+          <Link to='partner_with_us' id='track-nav-partner-with-us' className='site-header__product-link u-link-clean'>
+            <span className='site-header__product-link-title u-text-semi'><Message pointer='partner_with_us.nav_title' /></span>
+            <p className='u-color-dark-gray'><Message pointer='partner_with_us.explainer' /></p>
           </Link>
         </IfLinkExists>
       </ul>
@@ -160,39 +160,54 @@ class Header extends React.Component {
                       <Link to='stories' pointer='stories.nav_title'
                       id='track-nav-stories' className='u-padding-Vxs u-padding-Hm u-block' />
                     </IfLinkExists>
+
                     <IfLinkExists to='security' tagName='li' className='u-text-semi'>
                       <Link to='security' id='track-nav-security' className='u-padding-Vxs u-padding-Hm u-block'
                         pointer='security.nav_title' />
                     </IfLinkExists>
+
                     <li className='u-text-semi'>
                       <Href to='guides.path' id='track-nav-guides' className='u-padding-Vxs u-padding-Hm u-block'
                         pointer='guides.nav_title' />
                     </li>
+
                     <Translation locales='en-SE' tagName='li' className='u-text-semi'>
                       <Href to='guides_sv.path' className='u-padding-Vxs u-padding-Hm u-block' pointer='guides_sv.nav_title' />
                     </Translation>
+
                     <Translation locales='en-GB' tagName='li' className='u-text-semi'>
                       <a href='https://support.gocardless.com' className='u-padding-Vxs u-padding-Hm u-block'>
                         <Message pointer='help.nav_title' />
                       </a>
                     </Translation>
+
                     <IfLinkExists to='faq_merchants' tagName='li' className='u-text-semi'>
                       <Link to='faq_merchants' pointer='faq_merchants.link_title'
                       id='track-nav-faq' className='u-padding-Vxs u-padding-Hm u-block' />
                     </IfLinkExists>
+
                     <IfLinkExists to='faq_pro_dashboard' tagName='li' className='u-text-semi'>
                       <Link to='faq_pro_dashboard' pointer='faq_pro_dashboard.link_title'
                       id='track-nav-faq-pro-dashboard' className='u-padding-Vxs u-padding-Hm u-block' />
                     </IfLinkExists>
+
                     <IfLinkExists to='partners' tagName='li' className='u-text-semi'>
                       <Link to='partners' id='track-nav-partners' className='u-padding-Vxs u-padding-Hm u-block'
-                        pointer='partners.nav_title' />
+                      pointer='partners.nav_title' />
                     </IfLinkExists>
+
+                    <IfLinkExists to='partner_with_us' tagName='li' className='u-text-semi'>
+                      <Link to='partner_with_us' id='track-nav-partner-with-us' className='u-padding-Vxs u-padding-Hm u-block'
+                        pointer='partner_with_us.nav_title' />
+                    </IfLinkExists>
+
                     <hr className='u-margin-Vs' />
+
                     <IfLinkExists to='about' tagName='li'>
                       <Link to='about' pointer='about.nav_title'
                         id='track-nav-about' className='u-padding-Vxs u-padding-Hm u-block' />
                     </IfLinkExists>
+
                     <IfLinkExists to='jobs' tagName='li'>
                       <Link to='jobs' pointer='jobs.nav_title'
                         id='track-nav-jobs' className='u-padding-Vxs u-padding-Hm u-block' />

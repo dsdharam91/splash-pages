@@ -39,17 +39,17 @@ import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import DevopsEngineer from '../pages/about/jobs/positions/devops-engineer.js';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import LeadDataEngineer from '../pages/about/jobs/positions/lead-data-engineer.js';
-import EnterpriseAccountExecutive from '../pages/about/jobs/positions/enterprise-account-executive';
-import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
+import ProductManager from '../pages/about/jobs/positions/product-manager.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
 import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
-import FEDeveloper from '../pages/about/jobs/positions/front-end-developer.js';
-import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success-manager.js';
-import CustomerSupportFrance from '../pages/about/jobs/positions/customer-support-france.js';
+import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
 import RiskComplianceAnalyst from '../pages/about/jobs/positions/risk-compliance-analyst.js';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships.js';
+import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
+import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
+import DeveloperSupportLead from '../pages/about/jobs/positions/developer-support-lead.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -66,15 +66,18 @@ import LegalPrivacy from '../pages/legal/privacy/legal-privacy';
 import LegalRestrictions from '../pages/legal/restrictions/legal-restrictions';
 import LegalPaymentTimings from '../pages/legal/payment-timings/legal-payment-timings';
 
-import Partners from '../pages/partners/partners';
+import PartnerWithUs from '../pages/partner-with-us/partner-with-us';
+
+import Partners from '../pages/partners/partners.en';
+import PartnersBillin from '../pages/partners/billin/partners-billin';
 import PartnersClearBooks from '../pages/partners/clearbooks/partners-clearbooks';
 import PartnersFreeagent from '../pages/partners/freeagent/partners-freeagent';
 import PartnersKashflow from '../pages/partners/kashflow/partners-kashflow';
 import PartnersPitchero from '../pages/partners/pitchero/partners-pitchero';
+import PartnersQuickbooks from '../pages/partners/quickbooks/partners-quickbooks';
 import PartnersSage from '../pages/partners/sage/partners-sage';
 import PartnersXero from '../pages/partners/xero/partners-xero';
-import PartnersQuickbooks from '../pages/partners/quickbooks/partners-quickbooks';
-import PartnersBillin from '../pages/partners/billin/partners-billin';
+import PartnersZuora from '../pages/partners/zuora/partners-zuora';
 
 import FaqMerchantsCustomerExperience from '../pages/faq/merchants/customer-experience/faq-merchants-customer-experience';
 import FaqMerchantsDeveloperApi from '../pages/faq/merchants/developer-api/faq-merchants-developer-api';
@@ -105,7 +108,6 @@ import StoriesConnexin from '../pages/stories/stories/connexin';
 import StoriesFdWorks from '../pages/stories/stories/fd-works';
 import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
 import StoriesHotpodYoga from '../pages/stories/stories/hotpod-yoga';
-import StoriesImpactHub from '../pages/stories/stories/impact-hub';
 import StoriesNutmeg from '../pages/stories/stories/nutmeg';
 import StoriesPeterboroughCouncil from '../pages/stories/stories/peterborough-council';
 import StoriesRockChoir from '../pages/stories/stories/rock-choir';
@@ -114,7 +116,12 @@ import StoriesSlmConnect from '../pages/stories/stories/slm-connect';
 import StoriesSmartPension from '../pages/stories/stories/smart-pension';
 import StoriesSoaringFalcon from '../pages/stories/stories/soaring-falcon';
 import StoriesTeamUp from '../pages/stories/stories/team-up';
+import StoriesWowCompany from '../pages/stories/stories/wow-company';
 import StoriesYourParkingSpace from '../pages/stories/stories/your-parking-space';
+
+import StoriesAcumbamail from '../pages/stories/stories/acumbamail.es';
+import StoriesImpactHub from '../pages/stories/stories/impact-hub.es';
+import StoriesMonras from '../pages/stories/stories/monras.es';
 
 import StoriesBlueskyBusiness from '../pages/stories/stories/bluesky-business';
 import StoriesSpencerHockey from '../pages/stories/stories/spencer-hockey';
@@ -436,6 +443,15 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/press',
       },
+      fr: {
+        path: '/a-propos/presse',
+      },
+      de: {
+        path: '/ueber-uns/presse',
+      },
+      es: {
+        path: '/sobre-nosotros/prensa',
+      },
     },
   ],
   [PressHiroki, { name: 'press_hiroki' }, {
@@ -447,9 +463,6 @@ export const config = Immutable.fromJS([
   [Jobs, { name: 'jobs' }, {
       en: {
         path: '/about/jobs',
-      },
-      es: {
-        path: '/sobre-nosotros/empleo',
       },
       fr: {
         path: '/a-propos/recrutement',
@@ -480,30 +493,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [FEDeveloper, { name: 'jobs_front_end_developer', category: 'jobs.ux_design' }, {
-      en: {
-        path: '/about/jobs/front-end-developer',
-      },
-    },
-  ],
   [SoftwareEngineer, { name: 'jobs_software_engineer', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/software-engineer',
       },
     },
   ],
-  [EnterpriseAccountExecutive, { name: 'jobs_enterprise_account_executive', category: 'jobs.sales' }, {
+  [ProductManager, { name: 'jobs_product_manager', category: 'jobs.product' }, {
       en: {
-        path: '/about/jobs/enterprise-account-executive',
-      },
-    },
-  ],
-  [InsideAccountExecutiveSpain, { name: 'jobs_inside_account_executive_spain', category: 'jobs.sales' }, {
-      en: {
-        path: '/about/jobs/inside-account-executive-spain',
-      },
-      es: {
-        path: '/sobre-nosotros/empleo/inside-account-executive-spain',
+        path: '/about/jobs/product-manager',
       },
     },
   ],
@@ -534,24 +532,33 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [PartnershipsSuccessManager, { name: 'jobs_partnerships_success_manager', category: 'jobs.marketing' }, {
+  [AccountsAssistant, { name: 'jobs_accounts_assistant', category: 'jobs.operations' }, {
       en: {
-        path: '/about/jobs/partnerships-success-manager',
-      },
-    },
-  ],
-  [CustomerSupportFrance, { name: 'jobs_customer_support_france', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/customer-support-france',
-      },
-      fr: {
-        path: '/a-propos/recrutement/customer-support-france',
+        path: '/about/jobs/accounts-assistant',
       },
     },
   ],
   [RiskComplianceAnalyst, { name: 'jobs_risk_compliance_analyst', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/risk-compliance-analyst',
+      },
+    },
+  ],
+  [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/customer-support-germany',
+      },
+    },
+  ],
+  [CustomerSupport, { name: 'jobs_customer_support', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/customer-support',
+      },
+    },
+  ],
+  [DeveloperSupportLead, { name: 'jobs_developer_support_lead', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/developer-support-lead',
       },
     },
   ],
@@ -803,9 +810,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [Partners, { name: 'partners' }, {
+  [PartnerWithUs, { name: 'partner_with_us' }, {
       'en-GB': {
-        path: '/partners',
+        path: '/partner-with-us',
       },
       'en-IE': {
         path: '/partners',
@@ -824,6 +831,12 @@ export const config = Immutable.fromJS([
       },
       nl: {
         path: '/partners',
+      },
+    },
+  ],
+  [Partners, { name: 'partners' }, {
+      'en-GB': {
+        path: '/partners/?:category?', // Takes optional `category` param
       },
     },
   ],
@@ -860,6 +873,12 @@ export const config = Immutable.fromJS([
   [PartnersXero, { name: 'partners_xero' }, {
       'en-GB': {
         path: '/xero',
+      },
+    },
+  ],
+  [PartnersZuora, { name: 'partners_zuora' }, {
+      'en-GB': {
+        path: '/zuora',
       },
     },
   ],
@@ -1296,6 +1315,9 @@ export const config = Immutable.fromJS([
       de: {
         path: '/kundenstimmen',
       },
+      es: {
+        path: '/referencias',
+      },
     },
   ],
   [StoriesBoostCapital, { name: 'stories_boost_capital', category: 'stories' }, {
@@ -1331,12 +1353,6 @@ export const config = Immutable.fromJS([
   [StoriesHotpodYoga, { name: 'stories_hotpod_yoga', category: 'stories' }, {
       'en-GB': {
         path: '/stories/hotpod-yoga',
-      },
-    },
-  ],
-  [StoriesImpactHub, { name: 'stories_impact_hub', category: 'stories' }, {
-      es: {
-        path: '/referencias/impact-hub',
       },
     },
   ],
@@ -1388,12 +1404,41 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [StoriesWowCompany, { name: 'stories_wow_company', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/wow-company',
+
+      },
+    },
+  ],
   [StoriesYourParkingSpace, { name: 'stories_your_parking_space', category: 'stories' }, {
       'en-GB': {
         path: '/stories/your-parking-space',
       },
     },
   ],
+
+  // Spanish Case Studies
+  [StoriesAcumbamail, { name: 'stories_acumbamail', category: 'stories' }, {
+      es: {
+        path: '/referencias/acumbamail',
+      },
+    },
+  ],
+  [StoriesImpactHub, { name: 'stories_impact_hub', category: 'stories' }, {
+      es: {
+        path: '/referencias/impact-hub',
+      },
+    },
+  ],
+  [StoriesMonras, { name: 'stories_monras', category: 'stories' }, {
+      es: {
+        path: '/referencias/monras',
+      },
+    },
+  ],
+
+  // Legacy Case Studies
   [StoriesBlueskyBusiness, { name: 'stories_bluesky_business', category: 'stories' }, {
       'en-GB': {
         path: '/stories/bluesky-business',
