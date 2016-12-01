@@ -66,7 +66,9 @@ import LegalPrivacy from '../pages/legal/privacy/legal-privacy';
 import LegalRestrictions from '../pages/legal/restrictions/legal-restrictions';
 import LegalPaymentTimings from '../pages/legal/payment-timings/legal-payment-timings';
 
-import Partners from '../pages/partners/partners';
+import PartnerWithUs from '../pages/partner-with-us/partner-with-us';
+
+import Partners from '../pages/partners/partners.en';
 import PartnersBillin from '../pages/partners/billin/partners-billin';
 import PartnersClearBooks from '../pages/partners/clearbooks/partners-clearbooks';
 import PartnersFreeagent from '../pages/partners/freeagent/partners-freeagent';
@@ -807,9 +809,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [Partners, { name: 'partners' }, {
+  [PartnerWithUs, { name: 'partner_with_us' }, {
       'en-GB': {
-        path: '/partners',
+        path: '/partner-with-us',
       },
       'en-IE': {
         path: '/partners',
@@ -828,6 +830,12 @@ export const config = Immutable.fromJS([
       },
       nl: {
         path: '/partners',
+      },
+    },
+  ],
+  [Partners, { name: 'partners' }, {
+      'en-GB': {
+        path: '/partners/?:category?', // Takes optional `category` param
       },
     },
   ],

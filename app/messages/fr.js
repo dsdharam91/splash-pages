@@ -287,7 +287,7 @@ export default {
     description: 'GoCardless combine simplicité d\'utilisation et contrôle complet du paiement et de l\'expérience client afin de prélever vos clients partout en Europe.',
     explainer: 'Automatisez vos prélèvements',
   },
-  partners: {
+  partner_with_us: {
     title: 'Applications partenaires et intégrations logiciels',
     nav_title: 'Devenez nos partenaires',
     link_title: 'Partenaires',

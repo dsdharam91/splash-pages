@@ -83,7 +83,7 @@ export default {
     description: 'GoCardless is de eenvoudigste manier om online betalingen te ontvangen. Incasseer betalingen direct van de bankrekening van je klanten. Bespaar tijd en verbeter je cashflow.',
     explainer: 'Eenvoudige terugkerende betalingen',
   },
-  partners: {
+  partner_with_us: {
     title: 'Partner worden',
     nav_title: 'Word Partner',
     link_title: 'Partner',
