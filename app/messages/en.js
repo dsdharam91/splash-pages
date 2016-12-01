@@ -318,9 +318,14 @@ export default {
     explainer: 'Total control over Direct Debit',
   },
   partners: {
+    title: 'Connect to our partners',
+    nav_title: 'Connect to our partnersr',
+    description: 'Use your GoCardless account with a pre-built integration',
+  },
+  partner_with_us: {
     title: 'Partner Apps & Software Integration',
     nav_title: 'Partner with us',
-    link_title: 'Partners',
+    link_title: 'Partner with us',
     description: 'Partner up with GoCardless and let people take payments through your software. We work with FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube and more.',
     explainer: 'Offer GoCardless to your users',
     sidebar: 'Got a question? Get in touch with our Partnerships team at',

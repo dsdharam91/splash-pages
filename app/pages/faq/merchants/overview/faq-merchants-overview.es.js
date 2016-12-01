@@ -26,7 +26,7 @@ export default class FaqMerchantsEs extends React.Component {
             con tus clientes utilizando nuestro sencillo panel de control online.
           </li>
           <li>
-            <strong>Nuestros softwares asociados</strong> - Trabajamos con una creciente lista de <Link to='partners'
+            <strong>Nuestros softwares asociados</strong> - Trabajamos con una creciente lista de <Link to='partner_with_us'
             className='u-link-color-p u-text-underline'>Partners / Asociados</Link>, para que puedas cobrar a tus clientes
             desde los servicios online que ya utilizas.
           </li>
