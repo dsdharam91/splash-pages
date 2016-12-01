@@ -14,14 +14,14 @@ export default class StoriesTeamUp extends React.Component {
         benefits='TBC'
         bgimgUrl='url(/images/stories/story-images/hotpod-yoga/hero-hotpod-yoga.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/teamup.png'
-        sidebarServices='TBC'
-        sidebarEmployees='TBC'
-        sidebarPreviousProvider='TBC'>
+        sidebarServices='Fitness Business Management Software'
+        sidebarEmployees='10+'
+        sidebarPreviousProvider='None'>
         <div className='story-body'>
           <p className='para u-margin-Tn'>
             <a href='https://goteamup.com/en-us/' className='u-link-color-p u-text-underline'>Teamup</a> started as a consumer
-            facing business tool, which grew into one of the leading fitness industry focused business platforms. The company has
-            grown through listening to customers and implementing feature upgrades that have made the customers more successful.
+            facing business tool, which has grown into one of the leading fitness industry focused business platforms. The company has
+            developed through listening to customers and implementing feature upgrades that have made their customers more successful.
           </p>
           <p className='para'>
             Five years later, thousands of fitness professionals now rely on Teamup to make sure their customers have a friction-free
