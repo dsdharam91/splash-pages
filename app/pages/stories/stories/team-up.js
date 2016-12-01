@@ -7,7 +7,7 @@ export default class StoriesTeamUp extends React.Component {
   render() {
     return (
       <StoryPageNew
-        title='We thought GoCardless was an incredible leap forward with a technological solution to a traditional method of payment.'
+        title='We thought GoCardless was an incredible leap forward, with a technological solution to a traditional method of payment.'
         author='Tim Green'
         position='Director'
         company='Teamup'
@@ -45,7 +45,7 @@ export default class StoriesTeamUp extends React.Component {
             market that relies on the revenue from subscriptions.”
           </p>
           <div className='story-page__image'>
-            <img src='/images/stories/story-images/teamup/website@2x.jpg' alt='' />
+            <img src='/images/stories/story-images/teamup/teamup1@2x.jpg' alt='' />
           </div>
           <p className='para'>
             According to Teamup, the main benefits for any business of working with GoCardless is the incredibly stable and reliable
@@ -80,6 +80,7 @@ export default class StoriesTeamUp extends React.Component {
           <p className='story-page__quote'>
             “Customers love GoCardless, and have found it reliable and great value for the benefits they get from it.”
           </p>
+          <img src='/images/stories/story-images/teamup/teamup2@2x.jpg' alt='' />
           <p className='para'>
             According to Tim, the fitness industry is micro-niching at some pace. This development is an exciting one for Teamup
             not just because the company helps small to medium businesses grow, but also because it’s full of fitness enthusiasts.
