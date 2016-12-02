@@ -528,10 +528,6 @@ export default {
     title: 'Head of Sales: France',
     description: '',
   },
-  jobs_head_of_finance: {
-    title: 'Head of Finance',
-    description: '',
-  },
   jobs_head_of_operations: {
     title: 'Head of Operations',
     description: '',
