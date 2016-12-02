@@ -319,7 +319,7 @@ export default {
   },
   partners: {
     title: 'Connect to our partners',
-    nav_title: 'Connect to our partnersr',
+    nav_title: 'Connect to our partners',
     description: 'Use your GoCardless account with a pre-built integration',
   },
   partner_with_us: {
@@ -510,6 +510,10 @@ export default {
   },
   jobs_engineering_internships: {
     title: 'Engineering Internships',
+    description: '',
+  },
+  jobs_engineering_manager: {
+    title: 'Engineering Manager',
     description: '',
   },
   jobs_product_manager: {

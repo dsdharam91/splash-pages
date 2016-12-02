@@ -40,24 +40,39 @@ export default class FaqMerchantsSecurityEn extends React.Component {
           How does GoCardless protect my data?
         </h3>
         <p className='para'>
-          Security is of utmost importance at GoCardless. We take a number of steps to ensure
-          our customers' data remains safe at all times:
+          At GoCardless we know security is important, especially when it comes to payments. Our merchants rely on us to invest in
+          security and maintain robust data protection for them and their customers.
         </p>
-
         <ul className='list'>
           <li>Our access to the Direct Debit system is provided by some of Europe's major banks, who have approved our systems.</li>
           <li>All customer data is treated in accordance with European data protection laws, including the Data Protection Act 1998.</li>
           <li>Our financial data server is separated from our application server by multiple firewalls.</li>
           <li>All client-server communication is 256-bit SSL encrypted. The banking system requires just 128-bit.</li>
+          <li>We have received ISO 27001 certification for information security.</li>
         </ul>
+
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          What is ISO 27001 certification?
+        </h3>
+        <p className='para'>
+          GoCardless has been awarded ISO 27001 certification. ISO 27001 is a widely recognised, internationally accepted standard
+          for information security and we have attained it across all GoCardless services and products.
+        </p>
+        <p className='para'>
+          An accredited independent auditor has assessed our processes and controls, and confirmed they align with the certification
+          standard. Certification Europe, an ISO accredited certification body, has certified our compliance with the ISO standard.
+        </p>
+        <p className='para'>
+          Having ISO 27001 certification helps assure our merchants and their customers that we take information security
+          management seriously. GoCardless will ensure that an independent auditor will reassess our Information Security
+          Management System on an annual basis.
+        </p>
 
         <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           What do you do with my money before it is paid out?
         </h3>
         <p className='para'>
           All money collected is held in a secure client monies account held with one of our partner banks.
-        </p>
-        <p className='para'>
           Funds are held fully in accordance with safeguarding provisions.
         </p>
 
@@ -74,10 +89,8 @@ export default class FaqMerchantsSecurityEn extends React.Component {
         <IfLocale domesticScheme='bacs'>
           <p className='para'>
             Yes. Your customers are fully protected by the <a href='/direct-debit/guarantee/'
-            className='u-link-color-p u-text-underline'>Direct Debit Guarantee</a>.
-          </p>
-          <p className='para'>
-            This entitles them to a full and immediate refund of any payments taken from their account in error.
+            className='u-link-color-p u-text-underline'>Direct Debit Guarantee</a>. This entitles them to a full and immediate
+            refund of any payments taken from their account in error.
           </p>
         </IfLocale>
 

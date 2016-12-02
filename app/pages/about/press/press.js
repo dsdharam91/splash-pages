@@ -7,6 +7,13 @@ import AboutHeader from '../about-header';
 
 let pressArticles = [
   {
+    vendor: 'Startup Valley News',
+    title: '5 Tipps für mehr Kundenzufriedenheit durch intelligentes Churnmanagement',
+    link: 'http://www.startupvalley.news/de/kundenzufriedenheit-durch-intelligentes-churnmanagement/',
+    date: '29.11.16',
+    locales: ['de'],
+  },
+  {
     vendor: 'TechCrunch',
     title: 'GoCardless spies a glimmer of hope for UK fintech amid the Brexit gloom',
     link: 'https://techcrunch.com/2016/11/24/gocardless-spies-a-glimmer-of-hope-for-uk-fintech-amid-the-brexit-gloom/',
@@ -145,6 +152,27 @@ let pressArticles = [
     link: 'http://www.wired.co.uk/article/gocardless-hiroki-takeuchi-wired-money-2015',
     date: '08.07.15',
     locales: ['en','fr','de','es'],
+  },
+  {
+    vendor: 'La Tribune',
+    title: 'GoCardless, ou quand la fintech londonienne débarque en France',
+    link: 'http://www.latribune.fr/entreprises-finance/banques-finance/gocardless-ou-quand-la-fintech-londonienne-debarque-en-france-469023.html',
+    date: '16.04.15',
+    locales: ['fr'],
+  },
+  {
+    vendor: 'Les Echos',
+    title: 'Le prélèvement bancaire séduit de nouveaux acteurs',
+    link: 'http://www.lesechos.fr/13/04/2015/lesechos.fr/0213743712_le-prelevement-bancaire-seduit-de-nouveaux-acteurs.htm',
+    date: '13.04.15',
+    locales: ['fr'],
+  },
+  {
+    vendor: 'Le Figaro',
+    title: 'GoCardless prêt à bousculer les banques françaises',
+    link: 'http://www.lefigaro.fr/societes/2015/04/12/20005-20150412ARTFIG00171-gocardless-pret-a-bousculer-les-banques-francaises.php',
+    date: '12.04.15',
+    locales: ['fr'],
   },
   {
     vendor: 'Tech.eu',
