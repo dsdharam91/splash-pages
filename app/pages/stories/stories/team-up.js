@@ -7,16 +7,16 @@ export default class StoriesTeamUp extends React.Component {
   render() {
     return (
       <StoryPageNew
-        title='We thought GoCardless was an incredible leap forward, with a technological solution to a traditional method of payment.'
+        title='We thought GoCardless was an incredible leap forward, offering a high-tech solution to a traditional method of payment.'
         author='Tim Green'
         position='Director'
         company='Teamup'
-        benefits='TBC'
-        bgimgUrl='url(/images/stories/story-images/hotpod-yoga/hero-hotpod-yoga.jpg)'
+        benefits='Simple to integrate API into existing payment flows, adding an extra revenue stream and making life easier for customers'
+        bgimgUrl='url(/images/stories/story-images/teamup/hero-teamup.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/teamup.png'
         sidebarServices='Fitness Business Management Software'
-        sidebarEmployees='10+'
-        sidebarPreviousProvider='None'>
+        sidebarEmployees='10+ employees'
+        sidebarPreviousProvider='New to Direct Debit'>
         <div className='story-body'>
           <p className='para u-margin-Tn'>
             <a href='https://goteamup.com/en-us/' className='u-link-color-p u-text-underline'>Teamup</a> started as a consumer
