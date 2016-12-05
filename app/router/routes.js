@@ -115,6 +115,7 @@ import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
 import StoriesSlmConnect from '../pages/stories/stories/slm-connect';
 import StoriesSmartPension from '../pages/stories/stories/smart-pension';
 import StoriesSoaringFalcon from '../pages/stories/stories/soaring-falcon';
+import StoriesTeamUp from '../pages/stories/stories/team-up';
 import StoriesWowCompany from '../pages/stories/stories/wow-company';
 import StoriesYourParkingSpace from '../pages/stories/stories/your-parking-space';
 
@@ -1397,9 +1398,16 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [StoriesTeamUp, { name: 'stories_teamup', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/teamup',
+      },
+    },
+  ],
   [StoriesWowCompany, { name: 'stories_wow_company', category: 'stories' }, {
       'en-GB': {
         path: '/stories/wow-company',
+
       },
     },
   ],

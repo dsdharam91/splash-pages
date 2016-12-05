@@ -631,6 +631,10 @@ export default {
     title: 'Soaring Falcon Accountancy - Customer Stories',
     description: '',
   },
+  stories_teamup: {
+    title: 'TeamUp - Gym Management Software - Customer Stories',
+    description: '',
+  },
   stories_wow_company: {
     title: 'The Wow Company - Customer Stories',
     description: '',

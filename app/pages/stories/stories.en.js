@@ -33,6 +33,14 @@ let caseStudies = {
       industry: 'Accountancy',
     },
     {
+      link: 'stories_teamup',
+      quote: `GoCardless was a big leap forward with a high-tech solution to payments`,
+      size: '10+ employees',
+      logoSrc: '/images/stories/story-logos/teamup.png',
+      logoWidth: '60',
+      industry: 'Health & Fitness',
+    },
+    {
       link: 'stories_your_parking_space',
       quote: `You don’t suffer from failed payments caused by expired credit or debit cards.`,
       size: '10 employees',
