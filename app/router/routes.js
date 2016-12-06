@@ -50,7 +50,9 @@ import EngineeringInternships from '../pages/about/jobs/positions/engineering-in
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import DeveloperSupportLead from '../pages/about/jobs/positions/developer-support-lead.js';
-import PartnershipDevelopmentManager from '../pages/about/jobs/positions/partnershipdev.js';
+import PartnershipsDevelopmentManager from '../pages/about/jobs/positions/partnerships-development.js';
+import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success.js';
+import MarketAnalystInternship from '../pages/about/jobs/positions/market-analyst.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -563,9 +565,21 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [PartnershipDevelopmentManager, { name: 'jobs_partnership_development_manager', category: 'jobs.sales' }, {
+  [PartnershipsDevelopmentManager, { name: 'jobs_partnerships_development_manager', category: 'jobs.sales' }, {
       en: {
-        path: '/about/jobs/parternship-development-manager',
+        path: '/about/jobs/parternships-development-manager',
+      },
+    },
+  ],
+  [PartnershipsSuccessManager, { name: 'jobs_partnerships_success_manager', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/parternships-success-manager',
+      },
+    },
+  ],
+  [MarketAnalystInternship, { name: 'jobs_market_analyst_internship', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/market-analyst-internship',
       },
     },
   ],
