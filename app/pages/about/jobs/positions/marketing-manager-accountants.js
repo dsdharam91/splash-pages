@@ -83,7 +83,7 @@ export default class MarketingManagerAccountants extends React.Component {
         </ul>
         <p className='para'>
             In your application, please include your CV and a cover letter
-            explaining why you are a great candidate for this position. Our team come from a variety of backgrounds and we 
+            explaining why you are a great candidate for this position. Our team come from a variety of backgrounds and we
             welcome diversity &ndash; if you're unsure, please apply.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/525783' className='btn u-margin-Vs'>
