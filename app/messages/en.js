@@ -528,6 +528,10 @@ export default {
     title: 'Head of Sales: France',
     description: '',
   },
+  jobs_partnership_development_manager: {
+    title: 'Partnership Development Manager',
+    description: '',
+  },
   jobs_head_of_operations: {
     title: 'Head of Operations',
     description: '',
