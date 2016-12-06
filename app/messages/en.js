@@ -560,6 +560,10 @@ export default {
     title: 'Marketing Manager Accountants',
     description: '',
   },
+  jobs_solution_engineer: {
+    title: 'Solution Engineer',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
