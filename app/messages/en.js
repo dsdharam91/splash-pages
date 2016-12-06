@@ -556,6 +556,10 @@ export default {
     title: 'Partnership Marketing Manager',
     description: '',
   },
+  jobs_marketing_manager_accountants: {
+    title: 'Marketing Manager Accountants',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
