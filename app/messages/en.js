@@ -552,6 +552,10 @@ export default {
     title: 'Customer Support',
     description: '',
   },
+  jobs_partnership_marketing_manager: {
+    title: 'Partnership Marketing Manager',
+    description: '',
+  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
