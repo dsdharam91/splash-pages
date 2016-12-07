@@ -27,21 +27,17 @@ export default class Partners extends React.Component {
     super(props, context);
 
     this.state = {
-      activeCategory: getCategory(this.getCategoryName(this.props.params.category)),
+      activeCategory: getCategory(this.getCategoryName(this.props.params.category, this.context.pathname)),
     };
   }
 
-  getCategoryFromUrl() {
-    return this.context.pathname.replace(/\/|partners/g, '');
+  getCategoryName(category, pathname) {
+    return category || pathname.replace(/\/|partners/g, '');
   }
 
-  getCategoryName() {
-    return this.props.params.category ? this.props.params.category : this.getCategoryFromUrl();
-  }
-
-  componentWillReceiveProps(props) {
+  componentWillReceiveProps(nextProps, nextContext) {
     this.setState({
-      activeCategory: getCategory(this.getCategoryName(props.params.category)),
+      activeCategory: getCategory(this.getCategoryName(nextProps.params.category, nextContext.pathname)),
     });
   }
 
