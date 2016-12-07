@@ -14,19 +14,34 @@ import {
 
 export default class Partners extends React.Component {
   displayName = 'Partners'
-  static propTypes = { params: PropTypes.object }
 
-  constructor(props) {
-    super(props);
+  static propTypes = {
+    params: PropTypes.object,
+  }
+
+  static contextTypes = {
+    pathname: PropTypes.string.isRequired,
+  }
+
+  constructor(props, context) {
+    super(props, context);
 
     this.state = {
-      activeCategory: getCategory(this.props.params.category),
+      activeCategory: getCategory(this.getCategoryName(this.props.params.category)),
     };
+  }
+
+  getCategoryFromUrl() {
+    return this.context.pathname.replace(/\/|partners/g, '');
+  }
+
+  getCategoryName() {
+    return this.props.params.category ? this.props.params.category : this.getCategoryFromUrl();
   }
 
   componentWillReceiveProps(props) {
     this.setState({
-      activeCategory: getCategory(props.params.category),
+      activeCategory: getCategory(this.getCategoryName(props.params.category)),
     });
   }
 

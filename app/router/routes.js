@@ -855,6 +855,78 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [Partners, { name: 'partners_accounting' }, {
+      'en-GB': {
+        path: '/partners/accounting',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_charities' }, {
+      'en-GB': {
+        path: '/partners/charities',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_crm' }, {
+      'en-GB': {
+        path: '/partners/crm',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_ecommerce' }, {
+      'en-GB': {
+        path: '/partners/ecommerce',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_education' }, {
+      'en-GB': {
+        path: '/partners/education',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_health' }, {
+      'en-GB': {
+        path: '/partners/health',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_media' }, {
+      'en-GB': {
+        path: '/partners/media',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_membership' }, {
+      'en-GB': {
+        path: '/partners/membership',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_new' }, {
+      'en-GB': {
+        path: '/partners/new',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_other' }, {
+      'en-GB': {
+        path: '/partners/other',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_subscription' }, {
+      'en-GB': {
+        path: '/partners/subscription',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_utilities' }, {
+      'en-GB': {
+        path: '/partners/utilities',
+      },
+    },
+  ],
   [Partners, { name: 'partners' }, {
       'en-GB': {
         path: '/partners/?:category?', // Takes optional `category` param
