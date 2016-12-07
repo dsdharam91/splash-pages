@@ -123,7 +123,7 @@ export default class Partners extends React.Component {
   renderFrontPage() {
     return _.map(this.presentPartnersFeaturedOnHome(), (featuredCategory) => {
       return (
-        <div>
+        <div key={featuredCategory.name}>
           <div>
             <h2 className='u-text-heading u-color-dark-gray
               u-text-l u-text-light u-inline-block'>
@@ -227,7 +227,7 @@ export default class Partners extends React.Component {
 
     return _.map(allowedNavCategories, (category) => {
       return (
-        <li>
+        <li key={category.name}>
           <Link to='partners' params={{ category: category.name }}
           className='nav-tabs__link u-text-no-smoothing'>
             { category.label }
