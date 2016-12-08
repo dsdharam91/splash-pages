@@ -133,7 +133,7 @@ export default class StoriesDe extends React.Component {
             <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
               Mehr als <Message pointer='number_of_merchants' /> Unternehmen vertrauen bereits auf GoCardless
             </p>
-            <Href to='signup.path' id='track-cta-sign-up' className='btn u-margin-Tm u-margin-Rm'>Jetzt anmelden</Href>
+            <Href to='signup.path' className='btn u-margin-Tm u-margin-Rm'>Jetzt anmelden</Href>
             <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'><Message pointer='cta.pro' /></Link>
           </div>
         </div>

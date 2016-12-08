@@ -49,23 +49,23 @@ export default class PartnerWithUsEn extends React.Component {
           <div className='site-container u-padding-Vm'>
             <ul className='u-pull-start u-margin-Txxs'>
               <li className='sticky-nav__item'>
-                <a href='#features' id='track-sticky-nav-overview' className='sticky-nav__link'>
+                <a href='#features' className='sticky-nav__link'>
                   Features
                 </a>
               </li>
               <li className='sticky-nav__item'>
-                <a href='#pricing' id='track-sticky-nav-pricing' className='sticky-nav__link'>
+                <a href='#pricing' className='sticky-nav__link'>
                   Pricing
                 </a>
               </li>
               <li className='sticky-nav__item'>
-                <a href='#examples' id='track-sticky-nav-features' className='sticky-nav__link'>
+                <a href='#examples' className='sticky-nav__link'>
                   Examples
                 </a>
               </li>
             </ul>
             <Link to='contact_sales' query={{ s: 'partners' }}
-            id='track-partners-sticky-nav-contact-sales'
+           
             className={
               'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
               'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
@@ -160,7 +160,7 @@ export default class PartnerWithUsEn extends React.Component {
                 </Translation>
                 <Link to='contact_sales'
                 query={{ s: 'partners' }}
-                id='track-partners-find-out-more'
+               
                 className='btn btn--hollow u-margin-Ts'>
                   Find out more
                 </Link>
@@ -423,7 +423,7 @@ export default class PartnerWithUsEn extends React.Component {
               </p>
               <Link to='contact_sales'
               query={{ s: 'partners' }}
-              id='track-partners-contact-sales'
+             
               className='btn btn--hollow u-margin-Ts'>
                 <Message pointer='cta.pro' />
               </Link>

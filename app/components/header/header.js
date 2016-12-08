@@ -39,7 +39,7 @@ class Header extends React.Component {
     const products = (
       <ul className='u-text-xxs u-padding-Vxs'>
         <IfLinkExists to='features' tagName='li'>
-          <Link to='features' id='track-nav-features' className='site-header__product-link u-link-clean'>
+          <Link to='features' className='site-header__product-link u-link-clean'>
             <span className='site-header__product-link-title u-text-semi'><Message pointer='features.nav_title' /></span>
             <p className='u-color-dark-gray'><Message pointer='features.explainer' /></p>
           </Link>
@@ -48,7 +48,7 @@ class Header extends React.Component {
         </IfLinkExists>
 
         <IfLinkExists to='pro' tagName='li'>
-          <Link to='pro' id='track-nav-pro' className='site-header__product-link u-link-clean'>
+          <Link to='pro' className='site-header__product-link u-link-clean'>
             <span className='site-header__product-link-title u-text-semi'><Message pointer='pro.nav_title' /></span>
             <p className='u-color-dark-gray'><Message pointer='pro.explainer' /></p>
           </Link>
@@ -57,7 +57,7 @@ class Header extends React.Component {
         <IfLinkExists to='partner_with_us' tagName='li'>
           <hr className='u-margin-Vxs' />
 
-          <Link to='partner_with_us' id='track-nav-partner-with-us' className='site-header__product-link u-link-clean'>
+          <Link to='partner_with_us' className='site-header__product-link u-link-clean'>
             <span className='site-header__product-link-title u-text-semi'><Message pointer='partner_with_us.nav_title' /></span>
             <p className='u-color-dark-gray'><Message pointer='partner_with_us.explainer' /></p>
           </Link>
@@ -81,7 +81,7 @@ class Header extends React.Component {
       <div className={classNames({'site-header-wrapper': isInverted})}>
         <div className='site-header u-relative u-cf'>
           <div className='u-pull-start'>
-            <Link to='home' id='track-nav-home' className='header-logo u-relative u-block u-padding-Vl'>
+            <Link to='home' className='header-logo u-relative u-block u-padding-Vl'>
               <Logo className={classNames('site-logo__image', {
                 'u-fill-invert': isInverted,
                 'u-fill-primary': !isInverted,
@@ -93,7 +93,7 @@ class Header extends React.Component {
 
               <Translation locales={availableLocales} exclude={['en-GB']} tagName='div' className='nav__item u-relative'>
                 <Popover className='popover--large' toggle={
-                   (<a id='track-nav-products' className={linkClass}>
+                   (<a className={linkClass}>
                       <div className={classNames('nav__item-link popover-link', {
                         'popover-link--invert': isInverted,
                       })}>
@@ -107,7 +107,7 @@ class Header extends React.Component {
 
               <Translation locales='en-GB' tagName='div' className='nav__item u-relative'>
                 <IfLinkExists to='features'>
-                  <Link to='features' id='track-nav-features' className={linkClass}>
+                  <Link to='features' className={linkClass}>
                     <div className='nav__item-link'>
                       <Message pointer='features.nav_title' />
                     </div>
@@ -116,7 +116,7 @@ class Header extends React.Component {
               </Translation>
 
               <IfLinkExists to='pricing' tagName='div' className='nav__item u-relative'>
-                <Link to='pricing' id='track-nav-pricing' className={linkClass}>
+                <Link to='pricing' className={linkClass}>
                   <div className='nav__item-link'>
                     <Message pointer='pricing.nav_title' />
                   </div>
@@ -147,7 +147,8 @@ class Header extends React.Component {
 
               <div className='nav__item u-relative'>
                 <Popover toggle={
-                  (<a id='track-nav-more' className={linkClass}>
+                  (<a id='nav-more'
+                  className={linkClass}>{/* id on this element for e2e tests */}
                     <div className={classNames('nav__item-link popover-link', {
                       'popover-link--invert': isInverted,
                     })}>
@@ -158,16 +159,18 @@ class Header extends React.Component {
                   <ul className='u-text-xxs u-padding-Vxs'>
                     <IfLinkExists to='stories' tagName='li' className='u-text-semi'>
                       <Link to='stories' pointer='stories.nav_title'
-                      id='track-nav-stories' className='u-padding-Vxs u-padding-Hm u-block' />
+                      className='u-padding-Vxs u-padding-Hm u-block' />
                     </IfLinkExists>
 
                     <IfLinkExists to='security' tagName='li' className='u-text-semi'>
-                      <Link to='security' id='track-nav-security' className='u-padding-Vxs u-padding-Hm u-block'
-                        pointer='security.nav_title' />
-                    </IfLinkExists>
+                      <Link to='security'
+                      id='nav-security'
+                      className='u-padding-Vxs u-padding-Hm u-block'
+                      pointer='security.nav_title' />
+                    </IfLinkExists>{/* id on this element for e2e tests */}
 
                     <li className='u-text-semi'>
-                      <Href to='guides.path' id='track-nav-guides' className='u-padding-Vxs u-padding-Hm u-block'
+                      <Href to='guides.path' className='u-padding-Vxs u-padding-Hm u-block'
                         pointer='guides.nav_title' />
                     </li>
 
@@ -183,21 +186,21 @@ class Header extends React.Component {
 
                     <IfLinkExists to='faq_merchants' tagName='li' className='u-text-semi'>
                       <Link to='faq_merchants' pointer='faq_merchants.link_title'
-                      id='track-nav-faq' className='u-padding-Vxs u-padding-Hm u-block' />
+                      className='u-padding-Vxs u-padding-Hm u-block' />
                     </IfLinkExists>
 
                     <IfLinkExists to='faq_pro_dashboard' tagName='li' className='u-text-semi'>
                       <Link to='faq_pro_dashboard' pointer='faq_pro_dashboard.link_title'
-                      id='track-nav-faq-pro-dashboard' className='u-padding-Vxs u-padding-Hm u-block' />
+                      className='u-padding-Vxs u-padding-Hm u-block' />
                     </IfLinkExists>
 
                     <IfLinkExists to='partners' tagName='li' className='u-text-semi'>
-                      <Link to='partners' id='track-nav-partners' className='u-padding-Vxs u-padding-Hm u-block'
+                      <Link to='partners' className='u-padding-Vxs u-padding-Hm u-block'
                       pointer='partners.nav_title' />
                     </IfLinkExists>
 
                     <IfLinkExists to='partner_with_us' tagName='li' className='u-text-semi'>
-                      <Link to='partner_with_us' id='track-nav-partner-with-us' className='u-padding-Vxs u-padding-Hm u-block'
+                      <Link to='partner_with_us' className='u-padding-Vxs u-padding-Hm u-block'
                         pointer='partner_with_us.nav_title' />
                     </IfLinkExists>
 
@@ -205,12 +208,12 @@ class Header extends React.Component {
 
                     <IfLinkExists to='about' tagName='li'>
                       <Link to='about' pointer='about.nav_title'
-                        id='track-nav-about' className='u-padding-Vxs u-padding-Hm u-block' />
+                        className='u-padding-Vxs u-padding-Hm u-block' />
                     </IfLinkExists>
 
                     <IfLinkExists to='jobs' tagName='li'>
                       <Link to='jobs' pointer='jobs.nav_title'
-                        id='track-nav-jobs' className='u-padding-Vxs u-padding-Hm u-block' />
+                        className='u-padding-Vxs u-padding-Hm u-block' />
                     </IfLinkExists>
                   </ul>
                 </Popover>
@@ -218,7 +221,7 @@ class Header extends React.Component {
             </nav>
             <IfLocale hasInstantSignup tagName='ul' className='u-pull-start u-cf'>
               <li className='u-pull-start'>
-                <Href to='signin.path' id='track-nav-sign-in'
+                <Href to='signin.path'
                 className={classNames('nav-btn btn btn--small u-text-light u-text-xxs u-relative',
                   'u-text-transform-none u-text-no-smoothing', {
                   'btn--invert-hollow': isInverted,

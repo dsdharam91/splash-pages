@@ -43,30 +43,30 @@ export default class ProNl extends React.Component {
             <div className='site-container u-padding-Vm'>
               <ul className='u-pull-start u-margin-Txxs'>
                 <li className='sticky-nav__item'>
-                  <a href='#overview' id='track-sticky-nav-overview' className='sticky-nav__link'>
+                  <a href='#overview' className='sticky-nav__link'>
                     Overzicht
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#features' id='track-sticky-nav-features' className='sticky-nav__link'>
+                  <a href='#features' className='sticky-nav__link'>
                     Kenmerken
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#pricing' id='track-sticky-nav-pricing' className='sticky-nav__link'>
+                  <a href='#pricing' className='sticky-nav__link'>
                     Tarieven
                   </a>
                 </li>
               </ul>
               <Link to='contact_sales' query={{ s: 'pro' }}
-              id='track-sticky-nav-contact-sales'
+             
               className={
                 'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                 'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
               }>
                 <Message pointer='cta.pro' />
               </Link>
-              <Href to='api_reference_link' id='track-sticky-nav-docs'
+              <Href to='api_reference_link'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
                 API documentatie
               </Href>
@@ -117,7 +117,7 @@ export default class ProNl extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Alle documentatie voor GoCardless Pro is gratis beschikbaar in onze
-                      <Href to='api_reference_link' id='track-overview-docs'> API docs</Href>.
+                      <Href to='api_reference_link'> API docs</Href>.
                       We hebben ons best gedaan om de integratie met jouw systemen zo eenvoudig mogelijk te maken.
                     </p>
                   </div>
@@ -224,7 +224,7 @@ export default class ProNl extends React.Component {
                       Neem contact met ons op en ontdek hoe GoCardless jouw bedrijf kan helpen.
                     </p>
                   </div>
-                  <Link to='contact_sales' query={{ s: 'pro' }} id='track-cta-contact-sales'
+                  <Link to='contact_sales' query={{ s: 'pro' }}
                   className='btn btn--hollow u-margin-Tm'>
                     <Message pointer='cta.pro' />
                   </Link>
@@ -247,17 +247,17 @@ export default class ProNl extends React.Component {
                 </div>
                 <div className='u-text-center u-text-heading u-text-upcase u-text-xxs u-text-semi'>
                   <Tabs triggers={[(
-                      <a href='#customer-info' id='track-dashboard-customer'
+                      <a href='#customer-info'
                       className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
                         Klanten
                       </a>
                     ), (
-                      <a href='#payment-history' id='track-dashboard-payment'
+                      <a href='#payment-history'
                       className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
                         Betalingen
                       </a>
                     ), (
-                      <a href='#filtering' id='track-dashboard-admin'
+                      <a href='#filtering'
                       className='tab-link u-padding-Vxxs u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
                         Filter
                       </a>
@@ -290,7 +290,7 @@ export default class ProNl extends React.Component {
                   <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                     Scherpe tarieven voor alle bedrijven: van 10 tot 10.000.000 klanten.<br />
                   </p>
-                  <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
+                  <Link to='pricing' className='btn btn--hollow u-margin-Tm'>
                     Meer over onze tarieven
                   </Link>
                 </div>
@@ -303,11 +303,11 @@ export default class ProNl extends React.Component {
                   Neem contact met ons op voor een vrijblijvende offerte
                 </h2>
                 <Link to='contact_sales' query={{ s: 'pro' }}
-                id='track-cta-contact-sales' className='btn u-margin-Rm'>
+                className='btn u-margin-Rm'>
                   <Message pointer='cta.pro' />
                 </Link>
                 <a href='https://manage-sandbox.gocardless.com/signup'
-                id='track-cta-try-pro-dash' className='btn btn--hollow'>Test Pro gratis en vrijblijvend</a>
+                className='btn btn--hollow'>Test Pro gratis en vrijblijvend</a>
                 <hr className='u-margin-Vxxl' />
                 <p className='u-color-dark-gray'>
                   <strong>De mogelijkheden bespreken?</strong><br />
