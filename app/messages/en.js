@@ -524,7 +524,7 @@ export default {
     product: {
       title: 'Product',
     },
-    ux_design: {
+    design: {
       title: 'UX & Design',
     },
     sales: {
@@ -610,6 +610,10 @@ export default {
   },
   jobs_solution_engineer: {
     title: 'Solution Engineer',
+    description: '',
+  },
+  jobs_senior_designer: {
+    title: 'Senior Designer',
     description: '',
   },
   api_docs: {

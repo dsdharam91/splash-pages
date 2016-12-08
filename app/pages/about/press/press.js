@@ -7,6 +7,20 @@ import AboutHeader from '../about-header';
 
 let pressArticles = [
   {
+    vendor: 'FinTech Mag',
+    title: 'GoCardless facilite le paiement par prélèvement automatique',
+    link: 'http://fintech-mag.com/gocardless/',
+    date: '06.12.16',
+    locales: ['fr'],
+  },
+  {
+    vendor: 'cBanque',
+    title: 'Paiements récurrents : la carte bleue rattrape le prélèvement dans le cœur des Français',
+    link: 'http://www.cbanque.com/actu/60901/paiements-recurrents-la-carte-bleue-rattrape-le-prelevement-dans-le-coeur-des-francais',
+    date: '01.12.16',
+    locales: ['fr'],
+  },
+  {
     vendor: 'Startup Valley News',
     title: '5 Tipps für mehr Kundenzufriedenheit durch intelligentes Churnmanagement',
     link: 'http://www.startupvalley.news/de/kundenzufriedenheit-durch-intelligentes-churnmanagement/',
@@ -112,6 +126,20 @@ let pressArticles = [
     locales: ['en'],
   },
   {
+    vendor: 'L\'Usine Digitale',
+    title: 'GoCardLess, la fintech experte du prélèvement en ligne',
+    link: 'http://www.usine-digitale.fr/article/gocardless-la-fintech-experte-du-prelevement-en-ligne.N385451',
+    date: '30.03.16',
+    locales: ['fr'],
+  },
+  {
+    vendor: 'Les Echos',
+    title: 'GoCardless lève 13 millions de dollars',
+    link: 'http://business.lesechos.fr/entrepreneurs/actu/021790409797-gocardless-leve-13-millions-de-dollars-208775.php',
+    date: '24.03.16',
+    locales: ['fr'],
+  },
+  {
     vendor: 'TechCrunch',
     title: 'London fintech startup GoCardless raises $13M to bring recurring payments platform to more countries',
     link: 'http://techcrunch.com/2016/03/23/go-get-funding/',
@@ -123,7 +151,7 @@ let pressArticles = [
     title: 'How to get clients to pay you faster',
     link: 'http://www.thedrum.com/opinion/2016/03/09/how-get-clients-pay-you-faster',
     date: '09.03.16',
-    locales: ['en','fr','de'],
+    locales: ['en','de'],
   },
   {
     vendor: 'The Telegraph',
@@ -164,6 +192,13 @@ let pressArticles = [
     vendor: 'Les Echos',
     title: 'Le prélèvement bancaire séduit de nouveaux acteurs',
     link: 'http://www.lesechos.fr/13/04/2015/lesechos.fr/0213743712_le-prelevement-bancaire-seduit-de-nouveaux-acteurs.htm',
+    date: '13.04.15',
+    locales: ['fr'],
+  },
+  {
+    vendor: 'JDN',
+    title: 'Fintech : Gocardless se lance en France pour simplifier le prélèvement bancaire',
+    link: 'http://www.journaldunet.com/web-tech/start-up/fintech-gocardless-lancement-france.shtml',
     date: '13.04.15',
     locales: ['fr'],
   },
