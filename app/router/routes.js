@@ -50,6 +50,9 @@ import EngineeringInternships from '../pages/about/jobs/positions/engineering-in
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import DeveloperSupportLead from '../pages/about/jobs/positions/developer-support-lead.js';
+import PartnershipMarketingManager from '../pages/about/jobs/positions/partnership-marketing-manager.js';
+import MarketingManagerAccountants from '../pages/about/jobs/positions/marketing-manager-accountants.js';
+import SolutionEngineer from '../pages/about/jobs/positions/solution-engineer.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -562,6 +565,24 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [PartnershipMarketingManager, { name: 'jobs_partnership_marketing_manager', category: 'jobs.marketing' }, {
+      en: {
+        path: '/about/jobs/partnership-marketing-manager',
+      },
+    },
+  ],
+  [MarketingManagerAccountants, { name: 'jobs_marketing_manager_accountants', category: 'jobs.marketing' }, {
+      en: {
+        path: '/about/jobs/marketing-manager-accountants',
+      },
+    },
+  ],
+  [SolutionEngineer, { name: 'jobs_solution_engineer', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/solution-engineer',
+      },
+    },
+  ],
   [LegalIntroduction, { name: 'legal', category: 'legal' }, {
       'en-GB': {
         path: '/legal',
@@ -831,6 +852,78 @@ export const config = Immutable.fromJS([
       },
       nl: {
         path: '/partners',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_accounting' }, {
+      'en-GB': {
+        path: '/partners/accounting',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_charities' }, {
+      'en-GB': {
+        path: '/partners/charities',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_crm' }, {
+      'en-GB': {
+        path: '/partners/crm',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_ecommerce' }, {
+      'en-GB': {
+        path: '/partners/ecommerce',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_education' }, {
+      'en-GB': {
+        path: '/partners/education',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_health' }, {
+      'en-GB': {
+        path: '/partners/health',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_media' }, {
+      'en-GB': {
+        path: '/partners/media',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_membership' }, {
+      'en-GB': {
+        path: '/partners/membership',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_new' }, {
+      'en-GB': {
+        path: '/partners/new',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_other' }, {
+      'en-GB': {
+        path: '/partners/other',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_subscription' }, {
+      'en-GB': {
+        path: '/partners/subscription',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_utilities' }, {
+      'en-GB': {
+        path: '/partners/utilities',
       },
     },
   ],

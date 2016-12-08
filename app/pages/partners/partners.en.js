@@ -14,19 +14,30 @@ import {
 
 export default class Partners extends React.Component {
   displayName = 'Partners'
-  static propTypes = { params: PropTypes.object }
 
-  constructor(props) {
-    super(props);
+  static propTypes = {
+    params: PropTypes.object,
+  }
+
+  static contextTypes = {
+    pathname: PropTypes.string.isRequired,
+  }
+
+  constructor(props, context) {
+    super(props, context);
 
     this.state = {
-      activeCategory: getCategory(this.props.params.category),
+      activeCategory: getCategory(this.getCategoryName(this.props.params.category, this.context.pathname)),
     };
   }
 
-  componentWillReceiveProps(props) {
+  getCategoryName(category, pathname) {
+    return category || pathname.replace(/\/|partners/g, '');
+  }
+
+  componentWillReceiveProps(nextProps, nextContext) {
     this.setState({
-      activeCategory: getCategory(props.params.category),
+      activeCategory: getCategory(this.getCategoryName(nextProps.params.category, nextContext.pathname)),
     });
   }
 
@@ -112,7 +123,7 @@ export default class Partners extends React.Component {
   renderFrontPage() {
     return _.map(this.presentPartnersFeaturedOnHome(), (featuredCategory) => {
       return (
-        <div>
+        <div key={featuredCategory.name}>
           <div>
             <h2 className='u-text-heading u-color-dark-gray
               u-text-l u-text-light u-inline-block'>
@@ -216,7 +227,7 @@ export default class Partners extends React.Component {
 
     return _.map(allowedNavCategories, (category) => {
       return (
-        <li>
+        <li key={category.name}>
           <Link to='partners' params={{ category: category.name }}
           className='nav-tabs__link u-text-no-smoothing'>
             { category.label }
