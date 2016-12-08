@@ -171,7 +171,7 @@ export default class ProFr extends React.Component {
                       Parlez avec nos experts de vos problématiques paiements.
                     </p>
                   </div>
-                  <Link to='contact_sales' query={{ s: 'pro' }} id='track-cta-contact-sales'
+                  <Link to='contact_sales' query={{ s: 'pro' }}
                   className='btn btn--hollow u-margin-Tm'>
                     <Message pointer='cta.pro' />
                   </Link>
@@ -190,7 +190,7 @@ export default class ProFr extends React.Component {
                 <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                   Conçu pour les grandes entreprises et les start-ups en forte croissance
                 </p>
-                <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
+                <Link to='pricing' className='btn btn--hollow u-margin-Tm'>
                   En apprendre plus sur notre prix
                 </Link>
               </div>

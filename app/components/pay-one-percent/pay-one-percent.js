@@ -16,7 +16,7 @@ export default class PayOnePercentCTA extends React.Component {
             <p className='u-color-dark-gray u-margin-Txxs'>
               <Message pointer='basic_pricing_cta.description' />
             </p>
-            <Link to='pricing' id="track-cta-pricing"
+            <Link to='pricing'
             className='btn btn--hollow u-margin-Tm'>
               <Message pointer='basic_pricing_cta.learn_more' />
             </Link>

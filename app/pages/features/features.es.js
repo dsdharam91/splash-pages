@@ -50,37 +50,36 @@ export default class FeaturesEs extends React.Component {
             <div className='site-container u-padding-Vm'>
               <ul className='u-pull-start u-margin-Txxs'>
                 <li className='sticky-nav__item'>
-                  <a href='#overview' id='track-sticky-nav-overview' className='sticky-nav__link'>
+                  <a href='#overview' className='sticky-nav__link'>
                     Descripción
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#features' id='track-sticky-nav-features' className='sticky-nav__link'>
+                  <a href='#features' className='sticky-nav__link'>
                     Funcionalidades
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#dashboard' id='track-sticky-nav-dashboard' className='sticky-nav__link'>
+                  <a href='#dashboard' className='sticky-nav__link'>
                     Panel de Control
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#pricing' id='track-sticky-nav-pricing' className='sticky-nav__link'>
+                  <a href='#pricing' className='sticky-nav__link'>
                     Tarifas
                   </a>
                 </li>
               </ul>
               <IfLocale hasInstantSignup>
                 <Href to='signup.path'
-                  id='track-sticky-nav-merchants-new'
-                  className={
+                className={
                     'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                     'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
                   }>
                   <Message pointer='cta.basic' />
                 </Href>
               </IfLocale>
-              <Link to='contact_sales' id='track-sticky-nav-contact-sales'
+              <Link to='contact_sales'
                 className={
                   'btn btn--small btn--hollow u-pull-end u-text-transform-none ' +
                   'u-text-light u-text-xxs u-text-no-smoothing u-margin-Rs'
@@ -318,7 +317,7 @@ export default class FeaturesEs extends React.Component {
                       Habla con uno de nuestros expertos en Pagos para descubrir como GoCardless puede ayudar a tu negocio.
                     </p>
                   </div>
-                  <Link to='contact_sales' id='track-cta-contact-sales' className='btn btn--hollow u-margin-Tm'>
+                  <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'>
                     <Message pointer='cta.pro' />
                   </Link>
                 </div>
@@ -340,17 +339,17 @@ export default class FeaturesEs extends React.Component {
                 </div>
                 <div className='u-text-center u-text-heading u-text-upcase u-text-xxs u-text-semi'>
                     <Tabs triggers={[(
-                      <a href='#dashboard-home' id='track-dashboard-home'
+                      <a href='#dashboard-home'
                         className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
                         Panel de Control
                       </a>
                     ), (
-                      <a href='#add-customers' id='track-dashboard-customers'
+                      <a href='#add-customers'
                         className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
                         Añade Clientes
                       </a>
                     ), (
-                      <a href='#take-payments' id='track-dashboard-payments'
+                      <a href='#take-payments'
                         className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
                         Realiza Cobros
                       </a>

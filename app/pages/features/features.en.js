@@ -64,32 +64,31 @@ export default class FeaturesEn extends React.Component {
             <div className='site-container u-padding-Vm'>
               <ul className='u-pull-start u-margin-Txxs'>
                 <li className='sticky-nav__item'>
-                  <a href='#overview' id='track-sticky-nav-overview' className='sticky-nav__link'>
+                  <a href='#overview' className='sticky-nav__link'>
                     Overview
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#features' id='track-sticky-nav-features' className='sticky-nav__link'>
+                  <a href='#features' className='sticky-nav__link'>
                     Features
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#partners' id='track-sticky-nav-partners' className='sticky-nav__link'>
+                  <a href='#partners' className='sticky-nav__link'>
                     Partners
                   </a>
                 </li>
               </ul>
               <IfLocale hasInstantSignup>
                 <Href to='signup.path'
-                  id='track-sticky-nav-merchants-new'
-                  className={
+                className={
                     'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                     'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
                   }>
                   <Message pointer='cta.basic' />
                 </Href>
               </IfLocale>
-              <Link to='contact_sales' id='track-sticky-nav-contact-sales'
+              <Link to='contact_sales'
                 className={
                   'btn btn--small btn--hollow u-pull-end u-text-transform-none ' +
                   'u-text-light u-text-xxs u-text-no-smoothing u-margin-Rs'
@@ -296,7 +295,7 @@ export default class FeaturesEn extends React.Component {
                   <p className='u-color-dark-gray u-padding-Vm'>
                     Direct Debit for the digital age. Connected to your business with real-time alerts, increased customer insight and reduced churn.
                   </p>
-                  <Link to='pro' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                  <Link to='pro' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                     Learn more
                   </Link>
                 </div>
@@ -315,7 +314,7 @@ export default class FeaturesEn extends React.Component {
                 <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                   Competitive rates for everyone from individuals through to large corporations
                 </p>
-                <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
+                <Link to='pricing' className='btn btn--hollow u-margin-Tm'>
                   Learn about our pricing
                 </Link>
               </div>

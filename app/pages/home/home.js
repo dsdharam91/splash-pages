@@ -33,7 +33,7 @@ export default class Home extends React.Component {
                     </div>
                     <div className='u-text-center u-margin-Tl'>
                       <IfLocale hasInstantSignup={false}>
-                        <a href='#learn-more' id='track-hero-learn-more' className='btn btn--invert btn--move u-size-3of12'>
+                        <a href='#learn-more' className='btn btn--invert btn--move u-size-3of12'>
                           <Message pointer='cta.more' />
                         </a>
                         <Link to='contact_sales' className='btn btn--invert-hollow btn-move u-size-2of9 u-margin-Lm'>

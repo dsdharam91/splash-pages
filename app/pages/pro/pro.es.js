@@ -36,30 +36,29 @@ export default class ProEs extends React.Component {
             <div className='site-container u-padding-Vm'>
               <ul className='u-pull-start u-margin-Txxs'>
                 <li className='sticky-nav__item'>
-                  <a href='#overview' id='track-sticky-nav-overview' className='sticky-nav__link'>
+                  <a href='#overview' className='sticky-nav__link'>
                     Descripción
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#features' id='track-sticky-nav-features' className='sticky-nav__link'>
+                  <a href='#features' className='sticky-nav__link'>
                     Funcionalidades
                   </a>
                 </li>
                 <li className='sticky-nav__item'>
-                  <a href='#pricing' id='track-sticky-nav-pricing' className='sticky-nav__link'>
+                  <a href='#pricing' className='sticky-nav__link'>
                     Tarifas
                   </a>
                 </li>
               </ul>
               <Link to='contact_sales' query={{ s: 'pro' }}
-              id='track-sticky-nav-contact-sales'
               className={
                 'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                 'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
               }>
                 <Message pointer='cta.pro' />
               </Link>
-              <Href to='api_reference_link' id='track-sticky-nav-docs'
+              <Href to='api_reference_link'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
                 Documentación API
               </Href>
@@ -103,7 +102,7 @@ export default class ProEs extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Toda la documentación de Pro está disponible gratuitamente en
-                      nuestra <Href to='api_reference_link' id='track-overview-docs'>documentación de la API</Href>.
+                      nuestra <Href to='api_reference_link'>documentación de la API</Href>.
                       Hemos trabajado muy duro para que la integración de tu empresa sea tan sencilla como sea posible.
                     </p>
                   </div>
@@ -190,7 +189,7 @@ export default class ProEs extends React.Component {
                       Habla con uno de nuestros expertos en Cobros y descubre como GoCardless puede ayudar a tu negocio.
                     </p>
                   </div>
-                  <Link to='contact_sales' query={{ s: 'pro' }} id='track-cta-contact-sales'
+                  <Link to='contact_sales' query={{ s: 'pro' }}
                   className='btn btn--hollow u-margin-Tm'>
                     <Message pointer='cta.pro' />
                   </Link>
@@ -213,17 +212,17 @@ export default class ProEs extends React.Component {
                 </div>
                 <div className='u-text-center u-text-heading u-text-upcase u-text-xxs u-text-semi'>
                   <Tabs triggers={[(
-                      <a href='#customer-info' id='track-dashboard-customer'
+                      <a href='#customer-info'
                       className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
                         Información de los Clientes
                       </a>
                     ), (
-                      <a href='#payment-history' id='track-dashboard-payment'
+                      <a href='#payment-history'
                       className='tab-link u-padding-Vxxs u-margin-Bxl u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
                         Historial de Cobros
                       </a>
                     ), (
-                      <a href='#filtering' id='track-dashboard-admin'
+                      <a href='#filtering'
                       className='tab-link u-padding-Vxxs u-margin-Hs u-inline-block u-padding-Hs u-link-clean'>
                         Filtros
                       </a>
@@ -256,7 +255,7 @@ export default class ProEs extends React.Component {
                   <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                     Precios competitivos para empresas de cualquier tamaño.<br />
                   </p>
-                  <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
+                  <Link to='pricing' className='btn btn--hollow u-margin-Tm'>
                     Descubre más sobre nuestras tarifas
                   </Link>
                 </div>
@@ -269,11 +268,11 @@ export default class ProEs extends React.Component {
                   Ponte en contacto para una cotización gratuita
                 </h2>
                 <Link to='contact_sales' query={{ s: 'pro' }}
-                id='track-cta-contact-sales' className='btn u-margin-Rm'>
+                className='btn u-margin-Rm'>
                   <Message pointer='cta.pro' />
                 </Link>
                 <a href='https://manage-sandbox.gocardless.com/signup'
-                id='track-cta-try-pro-dash' className='btn btn--hollow'>Prueba Pro gratis</a>
+                className='btn btn--hollow'>Prueba Pro gratis</a>
                 <hr className='u-margin-Vxxl' />
                 <p className='u-color-dark-gray'>
                   <strong>¿Quieres hablar con alguien primero?</strong><br />
