@@ -166,8 +166,8 @@ class Header extends React.Component {
                       <Link to='security'
                       id='nav-security'
                       className='u-padding-Vxs u-padding-Hm u-block'
-                      pointer='security.nav_title' />
-                    </IfLinkExists>{/* id on this element for e2e tests */}
+                      pointer='security.nav_title' />{/* id on this element for e2e tests */}
+                    </IfLinkExists>
 
                     <li className='u-text-semi'>
                       <Href to='guides.path' className='u-padding-Vxs u-padding-Hm u-block'
@@ -201,14 +201,14 @@ class Header extends React.Component {
 
                     <IfLinkExists to='partner_with_us' tagName='li' className='u-text-semi'>
                       <Link to='partner_with_us' className='u-padding-Vxs u-padding-Hm u-block'
-                        pointer='partner_with_us.nav_title' />
+                      pointer='partner_with_us.nav_title' />
                     </IfLinkExists>
 
                     <hr className='u-margin-Vs' />
 
                     <IfLinkExists to='about' tagName='li'>
                       <Link to='about' pointer='about.nav_title'
-                        className='u-padding-Vxs u-padding-Hm u-block' />
+                      className='u-padding-Vxs u-padding-Hm u-block' />
                     </IfLinkExists>
 
                     <IfLinkExists to='jobs' tagName='li'>
