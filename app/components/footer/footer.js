@@ -147,9 +147,7 @@ class Footer extends React.Component {
             </div>
           </div>
         </div>
-        <div
-          className='page-footer__end u-text-center u-text-heading u-text-xxs u-color-invert u-padding-Vl u-margin-Tl'
-         >
+        <div className='page-footer__end u-text-center u-text-heading u-text-xxs u-color-invert u-padding-Vl u-margin-Tl'>
           <div className='u-padding-Vl'>
             <span className='u-relative'>
               <Message pointer='footer.currently_viewing'

@@ -45,7 +45,6 @@ export default class ProEn extends React.Component {
                 </li>
               </ul>
               <Link to='contact_sales' query={{ s: 'pro' }}
-             
               className={
                 'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                 'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'

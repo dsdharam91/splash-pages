@@ -58,7 +58,6 @@ export default class PartnerWithUsFr extends React.Component {
               </li>
             </ul>
             <Link to='contact_sales' query={{ s: 'partners' }}
-           
             className={
               'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
               'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
@@ -148,7 +147,6 @@ export default class PartnerWithUsFr extends React.Component {
                 </p>
                 <Link to='contact_sales'
                 query={{ s: 'partners' }}
-               
                 className='btn btn--hollow u-margin-Ts'>
                   Apprenez-en plus
                 </Link>
@@ -418,7 +416,6 @@ export default class PartnerWithUsFr extends React.Component {
               </p>
               <Link to='contact_sales'
               query={{ s: 'partners' }}
-             
               className='btn btn--hollow u-margin-Ts'>
                 <Message pointer='cta.pro' />
               </Link>

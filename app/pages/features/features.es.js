@@ -72,8 +72,7 @@ export default class FeaturesEs extends React.Component {
               </ul>
               <IfLocale hasInstantSignup>
                 <Href to='signup.path'
-                 
-                  className={
+                className={
                     'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
                     'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
                   }>
