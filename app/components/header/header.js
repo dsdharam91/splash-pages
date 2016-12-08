@@ -213,7 +213,7 @@ class Header extends React.Component {
 
                     <IfLinkExists to='jobs' tagName='li'>
                       <Link to='jobs' pointer='jobs.nav_title'
-                        className='u-padding-Vxs u-padding-Hm u-block' />
+                      className='u-padding-Vxs u-padding-Hm u-block' />
                     </IfLinkExists>
                   </ul>
                 </Popover>
