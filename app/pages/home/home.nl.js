@@ -91,7 +91,7 @@ export default class HomeNl extends React.Component {
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 Scherpe tarieven voor iedereen: van eenmanszaak tot multinational
               </p>
-              <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
+              <Link to='pricing' className='btn btn--hollow u-margin-Tm'>
                 Meer over onze tarieven
               </Link>
             </div>
@@ -101,7 +101,7 @@ export default class HomeNl extends React.Component {
           <hr className='u-margin-An' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Registreer nu</Href>
+              <Href to='signup.path' className='btn'>Registreer nu</Href>
               <p className='u-color-dark-gray u-margin-Ts'>Geen opstartkosten, verborgen kosten of verplichtingen</p>
             </div>
           </div>

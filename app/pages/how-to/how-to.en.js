@@ -86,7 +86,7 @@ export default class HowToEn extends React.Component {
 
           <div className="site-container u-text-center u-padding-Vxxl">
             <div className="u-padding-Vxl">
-              <Href to='signup.path' id='track-how-to-merchants-new' className={ 'btn' }>
+              <Href to='signup.path' className={ 'btn' }>
                 <Message pointer='cta.basic' />
               </Href>
 

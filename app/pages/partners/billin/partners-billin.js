@@ -29,7 +29,7 @@ export default class PartnersBillin extends React.Component {
 
                   <div className='u-margin-Tl'>
                     <a href='https://www.billin.net/programa-facturacion-domiciliacion-bancaria/?utm_source=Gocardless&utm_medium=web&utm_content=billin&utm_campaign=billin'
-                    id='track-cta-pricing' className='btn u-pull-start'>
+                    className='btn u-pull-start'>
                       Empieza Ya
                     </a>
 
@@ -206,7 +206,7 @@ export default class PartnersBillin extends React.Component {
               </p>
 
               <a href='https://www.billin.net/programa-facturacion-domiciliacion-bancaria/?utm_source=Gocardless&utm_medium=web&utm_content=billin&utm_campaign=billin'
-              to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
+              to='pricing' className='btn btn--hollow u-margin-Tm'>
                 Empieza a usar Billin
               </a>
             </div>

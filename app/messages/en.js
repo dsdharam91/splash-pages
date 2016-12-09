@@ -322,6 +322,54 @@ export default {
     nav_title: 'Connect to our partners',
     description: 'Use your GoCardless account with a pre-built integration',
   },
+  partners_accounting: {
+    title: 'Connect to our accounting partners',
+    description: '',
+  },
+  partners_charities: {
+    title: 'Connect to our charity & not-for-profit partners',
+    description: '',
+  },
+  partners_crm: {
+    title: 'Connect to our CRM partners',
+    description: '',
+  },
+  partners_ecommerce: {
+    title: 'Connect to our e-commerce partners',
+    description: '',
+  },
+  partners_education: {
+    title: 'Connect to our education partners',
+    description: '',
+  },
+  partners_health: {
+    title: 'Connect to our health partners',
+    description: '',
+  },
+  partners_media: {
+    title: 'Connect to our media partners',
+    description: '',
+  },
+  partners_membership: {
+    title: 'Connect to our membership partners',
+    description: '',
+  },
+  partners_new: {
+    title: 'Connect to our partners',
+    description: '',
+  },
+  partners_other: {
+    title: 'Connect to our partners',
+    description: '',
+  },
+  partners_subscription: {
+    title: 'Connect to our subscription billing partners',
+    description: '',
+  },
+  partners_utilities: {
+    title: 'Connect to our utilities partners',
+    description: '',
+  },
   partner_with_us: {
     title: 'Partner Apps & Software Integration',
     nav_title: 'Partner with us',
@@ -476,7 +524,7 @@ export default {
     product: {
       title: 'Product',
     },
-    ux_design: {
+    design: {
       title: 'UX & Design',
     },
     sales: {
@@ -562,6 +610,22 @@ export default {
   },
   jobs_customer_support: {
     title: 'Customer Support',
+    description: '',
+  },
+  jobs_partnership_marketing_manager: {
+    title: 'Partnership Marketing Manager',
+    description: '',
+  },
+  jobs_marketing_manager_accountants: {
+    title: 'Marketing Manager Accountants',
+    description: '',
+  },
+  jobs_solution_engineer: {
+    title: 'Solution Engineer',
+    description: '',
+  },
+  jobs_senior_designer: {
+    title: 'Senior Designer',
     description: '',
   },
   api_docs: {
