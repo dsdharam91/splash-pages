@@ -199,7 +199,7 @@ export default class HomeFr extends React.Component {
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 Des tarifs concurrentiels adaptés aux grandes entreprises comme aux start-ups
               </p>
-              <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
+              <Link to='pricing' className='btn btn--hollow u-margin-Tm'>
                 En apprendre plus sur notre prix
               </Link>
             </div>
@@ -209,7 +209,7 @@ export default class HomeFr extends React.Component {
           <hr className='section-divider' />
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='u-padding-Vxl'>
-              <Href to='signup.path' id='track-cta-sign-up' className='btn'>Commencez à prendre des paiements</Href>
+              <Href to='signup.path' className='btn'>Commencez à prendre des paiements</Href>
               <p className='u-color-dark-gray u-margin-Ts'>Offre sans engagement, aucun coût d'installation ni de frais caché</p>
             </div>
           </div>

@@ -137,7 +137,7 @@ export default class HowDdWorks extends React.Component {
               anyone wanting to collect recurring payments; we’ve made Direct Debit available to anyone.
             </p>
             <hr />
-            <Link to='features' className='btn btn--block' id='track-modal-cta-features'>See how it works</Link>
+            <Link to='features' className='btn btn--block'>See how it works</Link>
           </div>
         </div>
       </Slider>
