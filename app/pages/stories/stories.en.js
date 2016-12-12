@@ -11,49 +11,49 @@ let caseStudies = {
     {
       link: 'stories_hotpod_yoga',
       quote: `We’ve reduced the risks associated with franchise payments`,
-      size: '2 employees',
       logoSrc: '/images/stories/story-logos/hotpod-yoga.png',
       logoWidth: '117',
+      using: 'Using GoCardless with Xero',
       industry: 'Health & Fitness',
     },
     {
       link: 'stories_soaring_falcon',
       quote: `GoCardless gives me a regular income so I can use the funds for growth`,
-      size: '3 employees',
       logoSrc: '/images/stories/story-logos/soaring-falcon.png',
       logoWidth: '45',
+      using: 'Using GoCardless with Xero',
       industry: 'Accountancy',
     },
     {
       link: 'stories_fd_works',
       quote: `When we heard about GoCardless, we knew it was a no-brainer to use it`,
-      size: '8 employees',
       logoSrc: '/images/stories/story-logos/fd-works.png',
       logoWidth: '100',
+      using: 'Using GoCardless with Xero',
       industry: 'Accountancy',
     },
     {
       link: 'stories_teamup',
       quote: `GoCardless was a big leap forward with a high-tech solution to payments`,
-      size: '10+ employees',
       logoSrc: '/images/stories/story-logos/teamup.png',
       logoWidth: '60',
+      using: 'GoCardless Partner App',
       industry: 'Health & Fitness',
     },
     {
       link: 'stories_your_parking_space',
       quote: `You don’t suffer from failed payments caused by expired credit or debit cards.`,
-      size: '10 employees',
       logoSrc: '/images/stories/story-logos/your-parking-space.png',
       logoWidth: '190',
+      using: 'Using GoCardless with Xero',
       industry: 'Online Marketplace',
     },
     {
       link: 'stories_has_bean_coffee',
       quote: `GoCardless helps to prevent uncomfortable conversations about money`,
-      size: '15 employees',
       logoSrc: '/images/stories/story-logos/has-bean-coffee.png',
       logoWidth: '115',
+      using: 'Using GoCardless with Xero',
       industry: 'Wholesale',
     },
   ],
@@ -61,57 +61,57 @@ let caseStudies = {
     {
       link: 'stories_bulb_energy',
       quote: `We wanted to give our members the payment options they most trusted`,
-      size: '11-50 employees',
       logoSrc: '/images/stories/story-logos/bulb-energy.png',
       logoWidth: '115',
+      using: 'Using GoCardless with Xero',
       industry: 'Energy',
     },
     {
       link: 'stories_lyles_sutherland',
       quote: `It's great knowing money will come in each month without having to chase it`,
-      size: '16 employees',
       logoSrc: '/images/stories/story-logos/lyles-sutherland.png',
       logoWidth: '140',
+      using: 'Using GoCardless with Xero',
       industry: 'Digital services',
     },
     {
       link: 'stories_boost_capital',
       quote: `Being able to offer truly paperless Direct Debit is a great selling point`,
-      size: '11-50 employees',
       logoSrc: '/images/stories/story-logos/boost-capital.png',
       logoWidth: '140',
+      using: 'Using GoCardless with Xero',
       industry: 'Loans',
     },
     {
       link: 'stories_smart_pension',
       quote: `GoCardless ensures our transactions are accurate, easy to setup and manage`,
-      size: '11-50 employees',
       logoSrc: '/images/stories/story-logos/smart-pension.png',
       logoWidth: '156',
+      using: 'Using GoCardless with Xero',
       industry: 'Pensions',
     },
     {
       link: 'stories_connexin',
       quote: `Our monthly bill runs are quick and easy since switching to GoCardless`,
-      size: '23 employees',
       logoSrc: '/images/stories/story-logos/connexin.png',
       logoWidth: '97',
+      using: 'Using GoCardless with Xero',
       industry: 'Telecoms',
     },
     {
       link: 'stories_rock_choir',
       quote: `With GoCardless, we can now retry failed payments at the click of a button`,
-      size: '31 employees',
       logoSrc: '/images/stories/story-logos/rock-choir.png',
       logoWidth: '50',
+      using: 'Using GoCardless with Xero',
       industry: 'Membership',
     },
     {
       link: 'stories_wow_company',
       quote: `GoCardless solved almost a decade of billing and payment headaches for us`,
-      size: '35 employees',
       logoSrc: '/images/stories/story-logos/the-wow-company.png',
       logoWidth: '50',
+      using: 'Using GoCardless with Xero',
       industry: 'Accountancy',
     },
   ],
@@ -119,25 +119,25 @@ let caseStudies = {
     {
       link: 'stories_nutmeg',
       quote: `It's a very automated service so we've not needed to add headcount`,
-      size: '80 employees',
       logoSrc: '/images/stories/story-logos/nutmeg.png',
       logoWidth: '140',
+      using: 'Using GoCardless with Xero',
       industry: 'Investments',
     },
     {
       link: 'stories_slm_connect',
       quote: `Up-to-date payment status information allows us to improve our credit control`,
-      size: '120 employees',
       logoSrc: '/images/stories/story-logos/slm-connect.png',
       logoWidth: '140',
+      using: 'Using GoCardless with Xero',
       industry: 'Telemarketing',
     },
     {
       link: 'stories_peterborough_council',
       quote: `GoCardless was easy to integrate and offered value for money`,
-      size: '1,400 employees',
       logoSrc: '/images/stories/story-logos/peterborough-council.png',
       logoWidth: '130',
+      using: 'Using GoCardless with Xero',
       industry: 'Local Authority',
     },
   ],
@@ -222,14 +222,14 @@ export default class StoriesEn extends React.Component {
 
                       <h2 className="story-card__quote u-text-light u-text-m u-color-dark-gray u-text-no-smoothing u-margin-Bm">“{ caseStudy.quote }”</h2>
 
-                    <div className="story-card__detail u-margin-Bs">
-                        <span className="story-card__key story-card__key--size">Size:</span>
-                      <span className="story-card__value">{ caseStudy.size }</span>
+                      <div className="story-card__detail u-margin-Bs">
+                        <span className="story-card__key story-card__key--size">{ caseStudy.using }</span>
+                        { /*<span className="story-card__value">{ caseStudy.size }</span> */ }
                       </div>
 
                       <div className="story-card__detail u-margin-Bm">
-                        <span className="story-card__key story-card__key--industry">Industry</span>
-                      <span className="story-card__value">{ caseStudy.industry }</span>
+                        <span className="story-card__key story-card__key--industry">{ caseStudy.industry }</span>
+                        { /*<span className="story-card__value">{ caseStudy.industry }</span> */ }
                       </div>
                       <Link to={ caseStudy.link } className='btn btn--small u-block'>
                         Read more
