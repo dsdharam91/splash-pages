@@ -49,7 +49,7 @@ class FooterEn extends React.Component {
     const region = localeToRegion(currentLocale);
 
     return (
-      <div className='u-padding-Tl'>
+      <div className='page-footer'>
         <div className='u-background-light-gray'>
           <div className='site-container u-padding-Vl u-text-center page-footer__start'>
             <div className='grid__cell u-size-4of4'>
@@ -238,38 +238,40 @@ class FooterEn extends React.Component {
             </div>
           </div>
         </div>
-        <div className='site-container u-padding-Bl u-padding-Txl u-text-center page-footer__middle'>
-          <div className='grid__cell u-size-3of4'>
-            <div className='u-size-8of9'>
-              <p className='u-text-heading u-text-xs u-margin-Bm' itemScope itemType='http://schema.org/Organization'>
-                <SchemaItemProp itemProp='name' content='GoCardless Ltd.' />&nbsp;
-                <SchemaItemProp itemProp='url' tagName='meta' content={config.siteRoot} />
-                <SchemaItemProp itemProp='address' itemScope='itemScope' itemType='http://schema.org/PostalAddress'>
-                  <SchemaItemProp itemProp='streetAddress' pointer='postal_address.street_address' />,&nbsp;
-                  <SchemaItemProp itemProp='addressLocality' pointer='postal_address.address_locality' />,&nbsp;
-                  <SchemaItemProp itemProp='postalCode' pointer='postal_address.postal_code' />,&nbsp;
-                  <SchemaItemProp itemProp='addressCountry' pointer='postal_address.address_country_iso'>
-                    <Message pointer='postal_address.address_country' />
+        <div className='u-background-white u-padding-Bl'>
+          <div className='site-container u-padding-Bl u-padding-Txl u-text-center page-footer__middle'>
+            <div className='grid__cell u-size-3of4'>
+              <div className='u-size-8of9'>
+                <p className='u-text-heading u-text-xs u-margin-Bm' itemScope itemType='http://schema.org/Organization'>
+                  <SchemaItemProp itemProp='name' content='GoCardless Ltd.' />&nbsp;
+                  <SchemaItemProp itemProp='url' tagName='meta' content={config.siteRoot} />
+                  <SchemaItemProp itemProp='address' itemScope='itemScope' itemType='http://schema.org/PostalAddress'>
+                    <SchemaItemProp itemProp='streetAddress' pointer='postal_address.street_address' />,&nbsp;
+                    <SchemaItemProp itemProp='addressLocality' pointer='postal_address.address_locality' />,&nbsp;
+                    <SchemaItemProp itemProp='postalCode' pointer='postal_address.postal_code' />,&nbsp;
+                    <SchemaItemProp itemProp='addressCountry' pointer='postal_address.address_country_iso'>
+                      <Message pointer='postal_address.address_country' />
+                    </SchemaItemProp>
                   </SchemaItemProp>
-                </SchemaItemProp>
-              </p>
-              <p className='u-text-heading u-margin-Bm page-footer__legal'>
-                <Message pointer='footer.description' />
-              </p>
-              <IfLinkExists to='legal_privacy'>
-                <p className='u-text-heading page-footer__legal'>
-                  <Message pointer='footer.cookies_message' />&nbsp;
-                  <Link to='legal_privacy' className='u-link-clean u-text-heavy' pointer='footer.cookies_link_text' />
                 </p>
-              </IfLinkExists>
+                <p className='u-text-heading u-margin-Bm page-footer__legal'>
+                  <Message pointer='footer.description' />
+                </p>
+                <IfLinkExists to='legal_privacy'>
+                  <p className='u-text-heading page-footer__legal'>
+                    <Message pointer='footer.cookies_message' />&nbsp;
+                    <Link to='legal_privacy' className='u-link-clean u-text-heavy' pointer='footer.cookies_link_text' />
+                  </p>
+                </IfLinkExists>
+              </div>
+            </div>
+            <div className='grid__cell u-size-1of4'>
+              <img src='/images/footer/deloitte-technology-2016-winner.png'
+                   className='page-footer__logo' />
             </div>
           </div>
-          <div className='grid__cell u-size-1of4'>
-            <img src='/images/footer/deloitte-technology-2016-winner.png'
-                 className='page-footer__logo' />
-          </div>
         </div>
-        <div className='page-footer__end u-text-center u-text-heading u-text-xxs u-margin-Tl'>
+        <div className='page-footer__end u-text-center u-text-heading u-text-xxs'>
           <div className='u-padding-Vm'>
             <span className='u-relative'>
               <Message pointer='footer.currently_viewing'
