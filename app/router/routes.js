@@ -862,6 +862,61 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+
+  [PartnersClearBooks, { name: 'partners_clearbooks' }, {
+      'en-GB': {
+        path: '/partners/clearbooks',
+      },
+    },
+  ],
+  [PartnersFreeagent, { name: 'partners_freeagent' }, {
+      'en-GB': {
+        path: '/partners/freeagent',
+      },
+    },
+  ],
+  [PartnersKashflow, { name: 'partners_kashflow' }, {
+      'en-GB': {
+        path: '/kashflow',
+      },
+    },
+  ],
+  [PartnersPitchero, { name: 'partners_pitchero' }, {
+      'en-GB': {
+        path: '/partners/pitchero',
+      },
+    },
+  ],
+  [PartnersSage, { name: 'partners_sage' }, {
+      'en-GB': {
+        path: '/partners/sage',
+      },
+    },
+  ],
+  [PartnersXero, { name: 'partners_xero' }, {
+      'en-GB': {
+        path: '/xero',
+      },
+    },
+  ],
+  [PartnersZuora, { name: 'partners_zuora' }, {
+      'en-GB': {
+        path: '/zuora',
+      },
+    },
+  ],
+  [PartnersQuickbooks, { name: 'partners_quickbooks' }, {
+      'en-GB': {
+        path: '/quickbooks',
+      },
+    },
+  ],
+  [PartnersBillin, { name: 'partners_billin' }, {
+      es: {
+        path: '/asociados/billin',
+      },
+    },
+  ],
   [Partners, { name: 'partners_accounting' }, {
       'en-GB': {
         path: '/partners/accounting',
@@ -937,60 +992,6 @@ export const config = Immutable.fromJS([
   [Partners, { name: 'partners' }, {
       'en-GB': {
         path: '/partners/?:category?', // Takes optional `category` param
-      },
-    },
-  ],
-  [PartnersClearBooks, { name: 'partners_clearbooks' }, {
-      'en-GB': {
-        path: '/partners/clearbooks',
-      },
-    },
-  ],
-  [PartnersFreeagent, { name: 'partners_freeagent' }, {
-      'en-GB': {
-        path: '/partners/freeagent',
-      },
-    },
-  ],
-  [PartnersKashflow, { name: 'partners_kashflow' }, {
-      'en-GB': {
-        path: '/kashflow',
-      },
-    },
-  ],
-  [PartnersPitchero, { name: 'partners_pitchero' }, {
-      'en-GB': {
-        path: '/partners/pitchero',
-      },
-    },
-  ],
-  [PartnersSage, { name: 'partners_sage' }, {
-      'en-GB': {
-        path: '/partners/sage',
-      },
-    },
-  ],
-  [PartnersXero, { name: 'partners_xero' }, {
-      'en-GB': {
-        path: '/xero',
-      },
-    },
-  ],
-  [PartnersZuora, { name: 'partners_zuora' }, {
-      'en-GB': {
-        path: '/zuora',
-      },
-    },
-  ],
-  [PartnersQuickbooks, { name: 'partners_quickbooks' }, {
-      'en-GB': {
-        path: '/quickbooks',
-      },
-    },
-  ],
-  [PartnersBillin, { name: 'partners_billin' }, {
-      es: {
-        path: '/asociados/billin',
       },
     },
   ],
