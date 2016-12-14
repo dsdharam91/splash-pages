@@ -556,6 +556,10 @@ export default {
     title: 'Lead Data Engineer',
     description: '',
   },
+  jobs_developer_support: {
+    title: 'Developer Support',
+    description: '',
+  },
   jobs_engineering_internships: {
     title: 'Engineering Internships',
     description: '',
