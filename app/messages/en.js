@@ -568,6 +568,10 @@ export default {
     title: 'Product Manager',
     description: '',
   },
+  jobs_customer_success_manager: {
+    title: 'Customer Success Manager',
+    description: '',
+  },
   jobs_sales_development_representative_inbound: {
     title: 'SDR: UK',
     description: '',
