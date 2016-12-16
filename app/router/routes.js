@@ -54,6 +54,7 @@ import PartnershipMarketingManager from '../pages/about/jobs/positions/partnersh
 import MarketingManagerAccountants from '../pages/about/jobs/positions/marketing-manager-accountants.js';
 import SolutionEngineer from '../pages/about/jobs/positions/solution-engineer.js';
 import SeniorDesigner from '../pages/about/jobs/positions/senior-designer.js';
+import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -560,6 +561,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [DeveloperSupport, { name: 'jobs_developer_support', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/developer-support',
+      },
+    },
+  ],
   [DeveloperSupportLead, { name: 'jobs_developer_support_lead', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/developer-support-lead',
@@ -862,6 +869,61 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+
+  [PartnersClearBooks, { name: 'partners_clearbooks' }, {
+      'en-GB': {
+        path: '/partners/clearbooks',
+      },
+    },
+  ],
+  [PartnersFreeagent, { name: 'partners_freeagent' }, {
+      'en-GB': {
+        path: '/partners/freeagent',
+      },
+    },
+  ],
+  [PartnersKashflow, { name: 'partners_kashflow' }, {
+      'en-GB': {
+        path: '/kashflow',
+      },
+    },
+  ],
+  [PartnersPitchero, { name: 'partners_pitchero' }, {
+      'en-GB': {
+        path: '/partners/pitchero',
+      },
+    },
+  ],
+  [PartnersSage, { name: 'partners_sage' }, {
+      'en-GB': {
+        path: '/partners/sage',
+      },
+    },
+  ],
+  [PartnersXero, { name: 'partners_xero' }, {
+      'en-GB': {
+        path: '/xero',
+      },
+    },
+  ],
+  [PartnersZuora, { name: 'partners_zuora' }, {
+      'en-GB': {
+        path: '/zuora',
+      },
+    },
+  ],
+  [PartnersQuickbooks, { name: 'partners_quickbooks' }, {
+      'en-GB': {
+        path: '/quickbooks',
+      },
+    },
+  ],
+  [PartnersBillin, { name: 'partners_billin' }, {
+      es: {
+        path: '/asociados/billin',
+      },
+    },
+  ],
   [Partners, { name: 'partners_accounting' }, {
       'en-GB': {
         path: '/partners/accounting',
@@ -937,60 +999,6 @@ export const config = Immutable.fromJS([
   [Partners, { name: 'partners' }, {
       'en-GB': {
         path: '/partners/?:category?', // Takes optional `category` param
-      },
-    },
-  ],
-  [PartnersClearBooks, { name: 'partners_clearbooks' }, {
-      'en-GB': {
-        path: '/partners/clearbooks',
-      },
-    },
-  ],
-  [PartnersFreeagent, { name: 'partners_freeagent' }, {
-      'en-GB': {
-        path: '/partners/freeagent',
-      },
-    },
-  ],
-  [PartnersKashflow, { name: 'partners_kashflow' }, {
-      'en-GB': {
-        path: '/kashflow',
-      },
-    },
-  ],
-  [PartnersPitchero, { name: 'partners_pitchero' }, {
-      'en-GB': {
-        path: '/partners/pitchero',
-      },
-    },
-  ],
-  [PartnersSage, { name: 'partners_sage' }, {
-      'en-GB': {
-        path: '/partners/sage',
-      },
-    },
-  ],
-  [PartnersXero, { name: 'partners_xero' }, {
-      'en-GB': {
-        path: '/xero',
-      },
-    },
-  ],
-  [PartnersZuora, { name: 'partners_zuora' }, {
-      'en-GB': {
-        path: '/zuora',
-      },
-    },
-  ],
-  [PartnersQuickbooks, { name: 'partners_quickbooks' }, {
-      'en-GB': {
-        path: '/quickbooks',
-      },
-    },
-  ],
-  [PartnersBillin, { name: 'partners_billin' }, {
-      es: {
-        path: '/asociados/billin',
       },
     },
   ],

@@ -10,17 +10,17 @@ const CATEGORY_NAMES = {
   MEDIA: 'media',
   MEMBERSHIP: 'membership',
   NEW: 'new',
-  OTHER: 'other',
   SUBSCRIPTION: 'subscription',
   UTILITIES: 'utilities',
+  OTHER: 'other',
 };
 
-export const CATEGORIES = _.sortBy([
+export const CATEGORIES = [
   {
     name: CATEGORY_NAMES.ACCOUNTING,
     label: 'Accounting',
     isFeaturedOnHome: true,
-    hasFeaturedSection: true,
+    hasFeaturedSection: false,
   },
   {
     name: CATEGORY_NAMES.CHARITIES,
@@ -47,13 +47,6 @@ export const CATEGORIES = _.sortBy([
     hasFeaturedSection: false,
   },
   {
-    name: CATEGORY_NAMES.NEW,
-    label: 'Featured',
-    isFeaturedOnHome: true,
-    hasFeaturedSection: false,
-    isHiddenFromNav: true,
-  },
-  {
     name: CATEGORY_NAMES.HEALTH,
     label: 'Heath & fitness',
     isFeaturedOnHome: false,
@@ -69,7 +62,19 @@ export const CATEGORIES = _.sortBy([
     name: CATEGORY_NAMES.MEMBERSHIP,
     label: 'Membership',
     isFeaturedOnHome: true,
-    hasFeaturedSection: true,
+    hasFeaturedSection: false,
+  },
+  {
+    name: CATEGORY_NAMES.SUBSCRIPTION,
+    label: 'Subscription billing',
+    isFeaturedOnHome: true,
+    hasFeaturedSection: false,
+  },
+  {
+    name: CATEGORY_NAMES.UTILITIES,
+    label: 'Utilities',
+    isFeaturedOnHome: false,
+    hasFeaturedSection: false,
   },
   {
     name: CATEGORY_NAMES.OTHER,
@@ -78,20 +83,13 @@ export const CATEGORIES = _.sortBy([
     hasFeaturedSection: false,
   },
   {
-    name: CATEGORY_NAMES.SUBSCRIPTION,
-    label: 'Subscription billing',
+    name: CATEGORY_NAMES.NEW,
+    label: 'Featured',
     isFeaturedOnHome: true,
-    hasFeaturedSection: true,
+    hasFeaturedSection: false,
+    isHiddenFromNav: true,
   },
-  {
-    name: CATEGORY_NAMES.UTILITIES,
-    label: 'Utilities',
-    isFeaturedOnHome: false,
-    hasFeaturedSection: true,
-  },
-], (category) => {
-  return category.label.toLowerCase();
-});
+];
 
 export const PARTNERS = [
   {
@@ -108,7 +106,7 @@ export const PARTNERS = [
       width: 140,
       marginTop: 2,
     },
-    link: 'partners_quickbooks',
+    link: 'https://apps.intuit.com/gocardless?locale=en-gb',
   },
   {
     name: 'Xero',
@@ -574,6 +572,21 @@ export const PARTNERS = [
     link: 'https://www.zengage.co/zendebit',
   },
   {
+    name: 'Total Giving',
+    categories: [
+      {
+        name: CATEGORY_NAMES.CHARITIES,
+        isFeaturedOnCategory: false,
+        isFeaturedOnHome: false,
+      },
+    ],
+    logo: {
+      source: '/images/partners/logos/totalgiving-logo.jpg',
+      width: 105,
+    },
+    link: 'http://www.totalgiving.co.uk/',
+  },
+  {
     name: 'Magento',
     categories: [
       {
@@ -593,6 +606,11 @@ export const PARTNERS = [
     categories: [
       {
         name: CATEGORY_NAMES.ECOMMERCE,
+        isFeaturedOnCategory: false,
+        isFeaturedOnHome: false,
+      },
+      {
+        name: CATEGORY_NAMES.SUBSCRIPTION,
         isFeaturedOnCategory: false,
         isFeaturedOnHome: false,
       },
