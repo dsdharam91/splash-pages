@@ -17,7 +17,7 @@ export default class PartnersDebitoorEs extends React.Component {
                 <div className='grid__cell u-size-1of2 u-margin-Bl'>
                   <h1 className='u-text-heading u-color-primary u-text-xl u-text-light u-margin-Bm'>
                     GoCardless<br />
-                    for Debitoor
+                    para Debitoor
                   </h1>
 
                   <p className='u-text-heading u-color-dark-gray u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
