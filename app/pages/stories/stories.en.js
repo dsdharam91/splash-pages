@@ -223,7 +223,7 @@ export default class StoriesEn extends React.Component {
                       <h2 className="story-card__quote u-text-light u-text-m u-color-dark-gray u-text-no-smoothing u-margin-Bm">“{ caseStudy.quote }”</h2>
 
                       <div className="story-card__detail u-margin-Bs">
-                        <span className="story-card__key story-card__key--size">{ caseStudy.using }</span>
+                        <span className="story-card__key story-card__key--link">{ caseStudy.using }</span>
                       </div>
 
                       <div className="story-card__detail u-margin-Bm">
