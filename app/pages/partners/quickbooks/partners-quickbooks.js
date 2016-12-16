@@ -29,7 +29,8 @@ export default class PartnersQuickbooks extends React.Component {
                   </p>
 
                   <div className='u-margin-Tl'>
-                    <a href='https://appcenter.intuit.com/gocardless?locale=en-GB' className='btn u-pull-start'>
+                    <a href='https://appcenter.intuit.com/gocardless?locale=en-GB&src=ref&cid_gc_part_page_1216'
+                      className='btn u-pull-start'>
                       Get started
                     </a>
 
@@ -220,7 +221,8 @@ export default class PartnersQuickbooks extends React.Component {
                 Our QuickBooks integration is free - no set up costs,<br/>no monthly fees and no hidden charges
               </p>
 
-              <a href='https://appcenter.intuit.com/gocardless?locale=en-GB' className='btn btn--hollow u-margin-Tm'>
+              <a href='https://appcenter.intuit.com/gocardless?locale=en-GB&src=ref&cid_gc_part_page_1216'
+                className='btn btn--hollow u-margin-Tm'>
                 Start using QuickBooks
               </a>
             </div>

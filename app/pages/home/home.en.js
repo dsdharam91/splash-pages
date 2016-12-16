@@ -145,7 +145,7 @@ export default class HomeEn extends React.Component {
                   <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
                     <Message pointer='pricing.per_transaction_amount_normal' /> capped at <Message pointer='pricing.cost_cap' />
                   </p>
-                  <Link to='features' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                  <Link to='features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                     Learn more
                   </Link>
                 </div>
@@ -163,7 +163,7 @@ export default class HomeEn extends React.Component {
                   <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
                     From <Message pointer='pricing.pro_cost_per_transaction' />
                   </p>
-                  <Link to='pro' id='track-cta-features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                  <Link to='pro' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                     Learn more
                   </Link>
                 </div>
@@ -183,7 +183,7 @@ export default class HomeEn extends React.Component {
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
                 Competitive rates for everyone from individuals through to large corporations
               </p>
-              <Link to='pricing' id='track-cta-pricing' className='btn btn--hollow u-margin-Tm'>
+              <Link to='pricing' className='btn btn--hollow u-margin-Tm'>
                 Learn about our pricing
               </Link>
             </div>

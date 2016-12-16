@@ -110,7 +110,7 @@ export default {
     description: 'GoCardless Pro lässt Sie Lastschriften einziehen und ermöglicht Ihnen komplette Kontrolle über den Prozess. 100% werbefrei und mit einer sehr einfach zu integrierenden API.',
     explainer: 'Volle Kontrolle über Lastschriften',
   },
-  partners: {
+  partner_with_us: {
     title: 'Partner werden',
     nav_title: 'Werden Sie Partner',
     link_title: 'Partner',
@@ -132,6 +132,24 @@ export default {
     title: 'Team',
     description: '',
     nav_title: 'Team',
+  },
+  press: {
+    title: 'Presse',
+    description: '',
+    nav_title: 'Presse',
+    contact: {
+      header: 'Kontakt',
+      text: 'Für Presseanfragen kontaktieren Sie bitte das',
+      gocardless_pr_team: 'GoCardless PR-Team',
+    },
+    resources: {
+      header: 'Resourcen',
+      text: 'Laden Sie Logos, Fotos und mehr',
+      here: 'hier',
+    },
+    articles: {
+      header: 'Artikel',
+    },
   },
   jobs: {
     title: 'Jobs',

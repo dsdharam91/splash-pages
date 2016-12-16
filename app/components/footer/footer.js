@@ -46,7 +46,7 @@ class Footer extends React.Component {
 
     return (
       <div className='page-footer u-color-invert u-padding-Tl'>
-        <div className='grid site-container u-padding-Vl u-text-center page-footer__start' id='track-footer-links'>
+        <div className='grid site-container u-padding-Vl u-text-center page-footer__start'>
           <div className='grid__cell u-size-1of2'>
             <ul className='u-text-heading u-text-semi u-text-xxs page-footer__link-list'>
               <IfLinkExists to='features' tagName='li'>
@@ -55,8 +55,8 @@ class Footer extends React.Component {
               <IfLinkExists to='pro' tagName='li'>
                 <Link to='pro' pointer='pro.nav_title' className='page-footer__link u-link-invert' />
               </IfLinkExists>
-              <IfLinkExists to='partners' tagName='li'>
-                <Link to='partners' pointer='partners.link_title' className='page-footer__link u-link-invert' />
+              <IfLinkExists to='partner_with_us' tagName='li'>
+                <Link to='partner_with_us' pointer='partner_with_us.link_title' className='page-footer__link u-link-invert' />
               </IfLinkExists>
               <IfLinkExists to='pricing' tagName='li'>
                 <Link to='pricing' pointer='pricing.nav_title' className='page-footer__link u-link-invert' />
@@ -84,7 +84,7 @@ class Footer extends React.Component {
                 <Link to='faq_pro_dashboard' pointer='faq_pro_dashboard.link_title' className='page-footer__link u-link-invert' />
               </IfLinkExists>
               <li>
-                <Href to='developer_link' id='track-footer-api-docs' className='page-footer__link u-link-invert'>
+                <Href to='developer_link' className='page-footer__link u-link-invert'>
                   <Message pointer='api_docs.nav_title' />
                 </Href>
               </li>
@@ -147,9 +147,7 @@ class Footer extends React.Component {
             </div>
           </div>
         </div>
-        <div
-          className='page-footer__end u-text-center u-text-heading u-text-xxs u-color-invert u-padding-Vl u-margin-Tl'
-          id='track-footer-end-links'>
+        <div className='page-footer__end u-text-center u-text-heading u-text-xxs u-color-invert u-padding-Vl u-margin-Tl'>
           <div className='u-padding-Vl'>
             <span className='u-relative'>
               <Message pointer='footer.currently_viewing'

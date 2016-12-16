@@ -305,9 +305,62 @@ export default {
     explainer: 'Total control over Direct Debit',
   },
   partners: {
+    title: 'Connect to our partners',
+    nav_title: 'Connect to our partners',
+    description: 'Use your GoCardless account with a pre-built integration',
+  },
+  partners_accounting: {
+    title: 'Connect to our accounting partners',
+    description: '',
+  },
+  partners_charities: {
+    title: 'Connect to our charity & not-for-profit partners',
+    description: '',
+  },
+  partners_crm: {
+    title: 'Connect to our CRM partners',
+    description: '',
+  },
+  partners_ecommerce: {
+    title: 'Connect to our e-commerce partners',
+    description: '',
+  },
+  partners_education: {
+    title: 'Connect to our education partners',
+    description: '',
+  },
+  partners_health: {
+    title: 'Connect to our health partners',
+    description: '',
+  },
+  partners_media: {
+    title: 'Connect to our media partners',
+    description: '',
+  },
+  partners_membership: {
+    title: 'Connect to our membership partners',
+    description: '',
+  },
+  partners_new: {
+    title: 'Connect to our partners',
+    description: '',
+  },
+  partners_other: {
+    title: 'Connect to our partners',
+    description: '',
+  },
+  partners_subscription: {
+    title: 'Connect to our subscription billing partners',
+    description: '',
+  },
+  partners_utilities: {
+    title: 'Connect to our utilities partners',
+    description: '',
+  },
+  partner_with_us: {
     title: 'Partner Apps & Software Integration',
     nav_title: 'Partner with us',
-    link_title: 'Partners',
+    link_title: 'Partner with us',
     description: 'Partner up with GoCardless and let people take payments through your software. We work with FreeAgent, Xero, Sage, Kashflow, Pitchero, ClearBooks, CrowdCube and more.',
     explainer: 'Offer GoCardless to your users',
     sidebar: 'Got a question? Get in touch with our Partnerships team at',
@@ -438,6 +491,9 @@ export default {
     title: 'Press',
     description: '',
     nav_title: 'Press',
+    contact: {
+      gocardless_pr_team: 'GoCardless PR team',
+    },
   },
   press_hiroki: {
     title: 'Press',
@@ -452,7 +508,10 @@ export default {
     engineering: {
       title: 'Engineering & Data',
     },
-    ux_design: {
+    product: {
+      title: 'Product',
+    },
+    design: {
       title: 'UX & Design',
     },
     sales: {
@@ -484,12 +543,20 @@ export default {
     title: 'Lead Data Engineer',
     description: '',
   },
+  jobs_developer_support: {
+    title: 'Developer Support',
+    description: '',
+  },
   jobs_engineering_internships: {
     title: 'Engineering Internships',
     description: '',
   },
-  jobs_inside_account_executive_spain: {
-    title: 'Account Executive, Inside Sales: Spain',
+  jobs_engineering_manager: {
+    title: 'Engineering Manager',
+    description: '',
+  },
+  jobs_product_manager: {
+    title: 'Product Manager',
     description: '',
   },
   jobs_sales_development_representative_inbound: {
@@ -498,10 +565,6 @@ export default {
   },
   jobs_head_of_sales_france: {
     title: 'Head of Sales: France',
-    description: '',
-  },
-  jobs_head_of_finance: {
-    title: 'Head of Finance',
     description: '',
   },
   jobs_head_of_operations: {
@@ -522,6 +585,26 @@ export default {
   },
   jobs_developer_support_lead: {
     title: 'Developer Support Lead',
+    description: '',
+  },
+  jobs_customer_support: {
+    title: 'Customer Support',
+    description: '',
+  },
+  jobs_partnership_marketing_manager: {
+    title: 'Partnership Marketing Manager',
+    description: '',
+  },
+  jobs_marketing_manager_accountants: {
+    title: 'Marketing Manager Accountants',
+    description: '',
+  },
+  jobs_solution_engineer: {
+    title: 'Solution Engineer',
+    description: '',
+  },
+  jobs_senior_designer: {
+    title: 'Senior Designer',
     description: '',
   },
   api_docs: {
@@ -601,6 +684,10 @@ export default {
   },
   stories_soaring_falcon: {
     title: 'Soaring Falcon Accountancy - Customer Stories',
+    description: '',
+  },
+  stories_teamup: {
+    title: 'TeamUp - Gym Management Software - Customer Stories',
     description: '',
   },
   stories_wow_company: {

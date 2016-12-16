@@ -217,7 +217,7 @@ export default {
     description: 'GoCardless Pro te permite controlar totalmente tus cobros a través de Domiciliación Bancaria. Personalizable a tu empresa y con una sencilla API.',
     explainer: 'Control Total sobre tus Domiciliaciones Bancarias',
   },
-  partners: {
+  partner_with_us: {
     title: 'Asociados e Integraciones',
     nav_title: 'Asociate con nosotros',
     link_title: 'Asociados',
@@ -254,6 +254,24 @@ export default {
     title: 'Equipo',
     description: '',
     nav_title: 'Equipo',
+  },
+  press: {
+    title: 'Prensa',
+    description: '',
+    nav_title: 'Prensa',
+    contact: {
+      header: 'Contacto',
+      text: 'Para cualquier consulta vinculada con Prensa, por favor, ponte en contacto con',
+      gocardless_pr_team: 'el Equipo de PR',
+    },
+    resources: {
+      header: 'Recursos',
+      text: 'Descárgate logos, fotos y otros recursos',
+      here: 'aquí',
+    },
+    articles: {
+      header: 'Artículos',
+    },
   },
   api_docs: {
     title: 'API',

@@ -33,6 +33,14 @@ let caseStudies = {
       industry: 'Accountancy',
     },
     {
+      link: 'stories_teamup',
+      quote: `GoCardless was a big leap forward with a high-tech solution to payments`,
+      size: '10+ employees',
+      logoSrc: '/images/stories/story-logos/teamup.png',
+      logoWidth: '60',
+      industry: 'Health & Fitness',
+    },
+    {
       link: 'stories_your_parking_space',
       quote: `You don’t suffer from failed payments caused by expired credit or debit cards.`,
       size: '10 employees',
@@ -242,7 +250,7 @@ export default class StoriesEn extends React.Component {
             <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
               Join the <Message pointer='number_of_merchants' />+ businesses already using GoCardless
             </p>
-            <Href to='signup.path' id='track-cta-sign-up' className='btn u-margin-Tm u-margin-Rm'>Sign up now</Href>
+            <Href to='signup.path' className='btn u-margin-Tm u-margin-Rm'>Sign up now</Href>
             <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'><Message pointer='cta.pro' /></Link>
           </div>
         </div>

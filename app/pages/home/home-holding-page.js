@@ -16,7 +16,7 @@ export default class HomeHoldingPage extends React.Component {
       <div className='site-wrapper'>
         <div className='site-header-wrapper'>
           <div className='site-header u-relative u-text-center'>
-            <Link to='home' id='track-nav-home' className='header-logo u-relative u-block u-padding-Vl'>
+            <Link to='home' className='header-logo u-relative u-block u-padding-Vl'>
               <Logo className='site-logo__image u-fill-invert' />
             </Link>
           </div>

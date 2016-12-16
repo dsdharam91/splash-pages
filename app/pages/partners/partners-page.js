@@ -50,7 +50,7 @@ export default class PartnersPage extends React.Component {
             <div className='u-margin-Vm u-padding-Vl u-size-5of6 u-center'>
               <img src='/images/partners/software-logo-group@2x.jpg' alt='FreeAgent, Xero, Sage, KashFlow, Pitchero and ClearBooks' />
             </div>
-            <Link to='partners' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi u-margin-Bxl'>
+            <Link to='partner_with_us' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi u-margin-Bxl'>
               View all our partners
             </Link>
           </div>

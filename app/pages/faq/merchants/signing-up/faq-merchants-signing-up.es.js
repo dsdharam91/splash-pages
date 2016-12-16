@@ -9,10 +9,12 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
   render() {
     return (
       <Translation locales='es'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Signing up</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>Registro</strong></h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          ¿Cómo me registro en GoCardless?
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+          <strong>
+            ¿Cómo me registro en GoCardless?
+          </strong>
         </h3>
         <p className='para'>
           Puedes crear una cuenta de prueba o Sandbox
@@ -20,8 +22,11 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
           Para crear una cuenta en producción y empezar a cobrar a tus clientes, necesitas
           ir <a href='https://manage.gocardless.com/signup?lang=es' className='u-link-color-p u-text-underline'>aquí</a>.
         </p>
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          ¿Qué necesito para registrarme?
+
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+          <strong>
+            ¿Qué necesito para registrarme?
+          </strong>
         </h3>
         <p className='para'>
           Necesitarás pasar el análisis de Blanqueo de Capitales, tal como nos exige Banco de España. Para ello
@@ -29,16 +34,20 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
           la empresa y una transferencia bancaria desde la cuenta en la que quieres recibir el dinero.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          ¿Cómo puedo probar el producto?
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+          <strong>
+            ¿Cómo puedo probar el producto?
+          </strong>
         </h3>
         <p className='para'>
-          Después de registrarte online, recomendamos que hagas un cobro de prueba a tí mismo. No te
+          Después de registrarte online, recomendamos que hagas un cobro de prueba a tí mismo (de un importe pequeño, 1€ por ejemplo). No te
           llevará más de 5 minutos y no tiene riesgo alguno.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          ¿Puedo registrarme si no soy una empresa registrada?
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+          <strong>
+            ¿Puedo registrarme si no soy una empresa registrada?
+          </strong>
         </h3>
         <p className='para'>
           Depende - GoCardless está disponible para entidades sin ánimo de lucro, Sociedades Anónimas,
@@ -50,16 +59,20 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
           Esto no afectará a la operativa de tu cuenta.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          ¿Que hago si soy un programador o desarrollador?
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+          <strong>
+            ¿Que hago si soy un programador o desarrollador?
+          </strong>
         </h3>
         <p className='para'>
           Los desarrolladores deberán registrarse normalmente. Nuestra documentación de la API la
           puedes encontrar <Href to='api_reference_link' className='u-link-color-p u-text-underline'>aquí</Href>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Si me registro ¿Hay algún compromiso o cuota que tenga que pagar?
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+          <strong>
+            Si me registro ¿Hay algún compromiso o cuota que tenga que pagar?
+          </strong>
         </h3>
         <p className='para'>
           No, ninguno. Registrarse solo implica que has creado una cuenta desde la que puedes

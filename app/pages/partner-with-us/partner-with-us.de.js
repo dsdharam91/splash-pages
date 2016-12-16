@@ -19,20 +19,21 @@ import MembershipIcon from '../../icons/svg/membership';
 import Link from '../../components/link/link';
 import StickyNav from '../../components/sticky-nav/sticky-nav';
 
-export default class PartnersNl extends React.Component {
-  displayName = 'PartnersNl'
+export default class PartnerWithUsDe extends React.Component {
+  displayName = 'PartnerWithUsDe'
 
   render() {
     return (
-      <Translation locales='nl'>
+      <Translation locales='de'>
         <div className='page-hero page-hero--medium page-hero--partners u-size-full u-relative'>
           <div className='site-container page-hero__container u-text-center'>
             <div className='page-hero__inner'>
               <div className='page-hero__text'>
-                <h1 className='u-text-heading u-color-invert u-text-light u-padding-Tm'>Help je klanten om betaald te krijgen</h1>
+                <h1 className='u-text-heading u-color-invert u-text-light u-padding-Tm'>Helfen Sie Ihren
+                Kunden, Zahlungen einzuziehen</h1>
                   <p className='u-text-heading-light u-text-m u-color-invert u-padding-Vs'>
-                    Word GoCardless partner en help je klanten om terugkerende betalingen te incasseren
-                    <br />uit binnen- en buitenland
+                    Werden Sie Partner von GoCardless und erleichtern Sie Ihren Kunden, wiederkehrende Zahlungen in
+                    Deutschland und anderen Ländern einzuziehen
                   </p>
                </div>
             </div>
@@ -42,23 +43,22 @@ export default class PartnersNl extends React.Component {
           <div className='site-container u-padding-Vm'>
             <ul className='u-pull-start u-margin-Txxs'>
               <li className='sticky-nav__item'>
-                <a href='#features' id='track-sticky-nav-overview' className='sticky-nav__link'>
-                  Kenmerken
+                <a href='#features' className='sticky-nav__link'>
+                  Funktionen
                 </a>
               </li>
               <li className='sticky-nav__item'>
-                <a href='#pricing' id='track-sticky-nav-pricing' className='sticky-nav__link'>
-                  Tarieven
+                <a href='#pricing' className='sticky-nav__link'>
+                  Preise
                 </a>
               </li>
               <li className='sticky-nav__item'>
-                <a href='#examples' id='track-sticky-nav-features' className='sticky-nav__link'>
-                  Voorbeelden
+                <a href='#examples' className='sticky-nav__link'>
+                  Beispiele
                 </a>
               </li>
             </ul>
             <Link to='contact_sales' query={{ s: 'partners' }}
-            id='track-partners-sticky-nav-contact-sales'
             className={
               'sticky-nav__cta btn btn--small btn--hollow u-pull-end ' +
               'u-text-transform-none u-text-light u-text-xxs u-text-no-smoothing'
@@ -71,15 +71,12 @@ export default class PartnersNl extends React.Component {
           <div className='site-container u-padding-Vxxl u-text-center'>
             <div className='u-padding-Vxl'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light'>
-                Waarom samenwerken met GoCardless?
+                Warum sollten Sie Partner werden?
               </h2>
               <p className='u-size-2of3 u-center u-color-dark-gray u-padding-Ts'>
-                <Translation locales='nl-NL'>
-                  Met GoCardless profiteer je van alle voordelen van automatische incasso. En dat zonder het gedoe van traditionele aanbieders.
-                </Translation>
-                <Translation locales='nl-BE'>
-                  Met GoCardless profiteer je van alle voordelen van domiciliëringen. En dat zonder het gedoe van traditionele aanbieders.
-                </Translation>
+                Mit GoCardless profitieren Sie von den niedrigen Gebühren und geringen Fehlerquoten des
+                Lastschriftverfahrens und sparen sich gleichzeitig den operativen Mehraufwand,
+                der bei der Arbeit mit herkömmlichen Anbietern entsteht.
               </p>
               <div className='site-container u-padding-Txxl'>
                 <div className='grid u-padding-Txl'>
@@ -89,10 +86,10 @@ export default class PartnersNl extends React.Component {
                       <MembershipIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
-                      Breid je klantenbestand uit
+                      Gewinnen Sie noch mehr Kunden
                     </h2>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                      Haal meer leads binnen en zet meer free trials om in betalende klanten.
+                      Steigern Sie die Nachfrage und die Anzahl zahlender Kunden.
                     </p>
                   </div>
                   <div className='grid__cell u-text-center u-size-1of3'>
@@ -101,10 +98,10 @@ export default class PartnersNl extends React.Component {
                       <TickIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
-                      Betere klantenbinding
+                      Stärken Sie Ihre Kundenbindung
                     </h2>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                      Verbeter klantrelaties door je klanten meer bij je oplossingen te betrekken.
+                      Bauen Sie langfristige Beziehungen zu Ihren Kunden auf, indem Sie sie mit Ihrer Lösung begeistern.
                     </p>
                   </div>
                   <div className='grid__cell u-text-center u-size-1of3'>
@@ -113,10 +110,10 @@ export default class PartnersNl extends React.Component {
                       <ImproveCashflowIcon className='svg-icon__image u-fill-dark-gray' />
                     </figure>
                     <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
-                      Ontwikkel nieuwe inkomstenbronnen
+                      Schaffen Sie neue Einnahmequellen
                     </h2>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                      Vertel je klanten over ons en ontvang commissie op transactiekosten.
+                      Empfehlen Sie uns an Ihre Kunden weiter und erhalten Sie eine Provision auf unsere Transaktionsgebühren.
                     </p>
                   </div>
                 </div>
@@ -128,10 +125,11 @@ export default class PartnersNl extends React.Component {
               </div>
               <div className='grid__cell u-size-1of3 u-text-center partners-page__global-text'>
                 <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing'>
-                  Wereldwijd bereik
+                  Globale Reichweite für Ihre Kunden
                 </h2>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Vxs'>
-                  Je klanten kunnen terugkerende betalingen incasseren uit steeds meer landen, zonder er iets voor te hoeven doen.
+                  Ermöglichen Sie Ihren Kunden, Zahlungen aus immer mehr Ländern einzuziehen,
+                  und das völlig ohne Mehraufwand.
                 </p>
               </div>
             </div>
@@ -143,17 +141,16 @@ export default class PartnersNl extends React.Component {
             <div className='u-padding-Vxl'>
               <div className='u-size-2of3 u-center'>
                 <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                  Je klanten betalen slechts <Message pointer='pricing.per_transaction_amount_normal' />
+                  Ihre Kunden zahlen nur <Message pointer='pricing.per_transaction_amount_normal' />
                 </h2>
                 <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-                  Geen opstartkosten of verborgen kosten.
-                  <br/> Slechts 1% per succesvolle transactie met een maximum van <Message pointer="pricing.cost_cap" />.
+                  Keine Gebühren für Einrichtung oder fehlgeschlagene Lastschriften, keine monatlichen Gebühren.
+                  <br/> Nur 1 % pro erfolgreicher Transaktion und höchstens <Message pointer="pricing.cost_cap" />.
                 </p>
                 <Link to='contact_sales'
                 query={{ s: 'partners' }}
-                id='track-partners-find-out-more'
                 className='btn btn--hollow u-margin-Ts'>
-                  Meer weten
+                  Erfahren Sie mehr
                 </Link>
               </div>
             </div>
@@ -164,20 +161,25 @@ export default class PartnersNl extends React.Component {
           <div className='u-padding-Vxxl'>
             <div className='site-container u-padding-Vxl'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-center u-padding-Bxxl u-margin-Bxl'>
-                Sectoren die al met GoCardless werken
+                Branchen, die bereits auf GoCardless setzen
               </h2>
               <div className='grid__cell u-size-1of2 partners-page__accountancy-text'>
                 <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bl'>
-                  Boekhouding &amp; Accountancy
+                  Rechnungsstellung und Buchhaltung
                 </h2>
                 <p className='u-text-xs u-color-dark-gray u-margin-Bm'>
-                  KashFlow werkt samen met GoCardless zodat hun klanten snel en eenvoudig betalingen kunnen incasseren vanuit hun KashFlow account.
+                  Mit der Integration von Debitoor und GoCardless können Debitoor Nutzer ihre Kunden per
+                  Lastschrifteinzug sicher und einfach bezahlen lassen. Gleichzeitig sind alle relevanten
+                  Daten bereits in der Buchhaltung hinterlegt.
                 </p>
-                <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
-                  “GoCardless gebruikers zijn loyaler en halen meer voordelen uit hun abonnement.”
-                </p>
-                <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Duane Jackson, oprichter</p>
-                <img src='/images/partners/kashflow-logo@2x.png' className='partners-page__partner-logo' />
+                <div className="">
+                  <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
+                    “Mit GoCardless lösen wir gleich zwei Probleme unserer Nutzer – schnell und sicher
+                    bezahlt werden und die Transaktionen direkt in der Buchhaltung abbilden zu können.”
+                  </p>
+                  <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Hannah Lindstedt, Regional Manager DACH</p>
+                  <img src='/images/partners/debitoor-logo@2x.png' className='partners-page__partner-logo' />
+                </div>
               </div>
               <div className='grid__cell u-size-1of2 partners-page__illustration'>
                 <img src='/images/partners/oauth-illustration@2x.png'
@@ -195,16 +197,17 @@ export default class PartnersNl extends React.Component {
             </div>
             <div className='grid__cell u-size-1of2 partners-page__clubs-text'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bl'>
-                Clubs &amp; Ledenadministratie
+                Clubs &amp; Vereine
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Bm'>
-                GoCardless partner Teamup helpt sportscholen en clubs om terugkerende betalingen van hun leden te incasseren.
+                teamup wurde Partner von GoCardless, um Fitnessstudios und Clubs das Management
+                von Mitgliedern und Abo-Zahlungen zu erleichtern.
               </p>
               <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
-                “Onze klanten waarderen de gebruiksvriendelijkheid van GoCardless. Als partner waren ze cruciaal
-                om onze groei te versnellen in Verenigd Koninkrijk en Europa.”
+                “Unsere Kunden schätzen die Benutzerfreundlichkeit von GoCardless sehr. Als Partner haben sie uns
+                in Großbritannien und Europa entscheidend zu mehr Wachstum verholfen.”
               </p>
-              <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Matt Pegler, medeoprichter</p>
+              <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Matt Pegler, Mitgründer</p>
               <img src='/images/partners/teamup-logo@2x.png' className='partners-page__partner-logo' />
             </div>
           </div>
@@ -214,27 +217,16 @@ export default class PartnersNl extends React.Component {
           <div className='site-container u-padding-Txl'>
             <div className='grid__cell u-size-1of2 partners-page__billing-text u-margin-Txs'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l u-margin-Bl'>
-                Facturatie &amp; Abonnementsdiensten
+                Finanz- und Rechnungswesen
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Bl'>
-              <Translation locales='nl-NL'>
-                Zuora koos voor GoCardless als automatische incasso provider. Klanten kunnen nu wereldwijd betalingen incasseren.
-              </Translation>
-              <Translation locales='nl-BE'>
-                Zuora koos voor GoCardless als domiciliëringsprovider. Klanten kunnen nu wereldwijd betalingen incasseren.
-              </Translation>
+                In Sachen Lastschriftverfahren vertraut Zuora auf das Know-how von GoCardless und macht seinen Kunden
+                so das Einziehen von Zahlungen auf der ganzen Welt möglich.
               </p>
               <p className='u-text-xs u-text-italic u-margin-Bxs partners-page__quote'>
-              <Translation locales='nl-NL'>
-                "GoCardless is een belangrijke Zuora partner die onze klanten voorziet van een ongeëvenaarde automatische
-                incasso ervaring. Dankzij de Zuora-GoCardless integratie kunnen abonnementsdiensten in Europa en Verenigd Koninkrijk
-                hun klanten een naadloze betalingservaring te bieden.”
-              </Translation>
-              <Translation locales='nl-BE'>
-                "GoCardless is een belangrijke Zuora partner die onze klanten voorziet van een ongeëvenaarde domiciliëringservaring.
-                Dankzij de Zuora-GoCardless integratie kunnen abonnementsdiensten in Europa en Verenigd Koninkrijk
-                hun klanten een naadloze betalingservaring te bieden.”
-              </Translation>
+                “Als einer der wichtigsten Partner von Zuora bietet GoCardless unseren Kunden ein unvergleichlich
+                einfaches Lastschriftverfahren. Die Zuora-GoCardless-Lösung ermöglicht Abo-Anbietern in ganz Europa,
+                ihren Kunden eine nahtlose Zahlungsabwicklung anzubieten.”
               </p>
               <p className='u-text-xs u-margin-Bm u-color-dark-gray'>Tamsyn Attiwell, VP Global Services EMEA</p>
               <img src='/images/partners/zuora-logo@2x.png' className='partners-page__partner-logo' />
@@ -250,7 +242,7 @@ export default class PartnersNl extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l  u-padding-Bxl'>
-                Je bent in goed gezelschap
+                Bei uns sind Sie in bester Gesellschaft
               </h2>
               <img src='/images/partners/partner-logos@2x.png' className='partners-page__partner-logo-group' />
             </div>
@@ -260,7 +252,7 @@ export default class PartnersNl extends React.Component {
         <div className='u-padding-Vxxl u-text-center u-background-light-gray'>
           <div className='site-container u-padding-Vxl'>
             <h2 className='u-text-heading u-color-dark-gray u-text-light u-padding-Bxl'>
-              GoCardless: partner voor de meest uiteenlopende sectoren
+              GoCardless – der ideale Partner für zahlreiche weitere Branchen
             </h2>
             <div className='grid integrations-grid'>
               <div className='grid__cell u-size-1of3 u-margin-Bm'>
@@ -271,10 +263,10 @@ export default class PartnersNl extends React.Component {
                     <PropertyIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Ts'>
-                    Vastgoed
+                    Immobilien
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
-                    Help je makelaars, verhuurders en aanbieders van werkplekken om huur te ontvangen.
+                    Helfen Sie Ihren Maklern, Vermietern und Coworking Spaces beim Kassieren ihrer Mieten und Gebühren.
                   </p>
                 </div>
               </div>
@@ -287,10 +279,10 @@ export default class PartnersNl extends React.Component {
                     <ManageSoftwareIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Ts'>
-                    Software ontwikkelaars
+                    Softwareanbieter
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
-                    Help je klanten om te groeien door automatische incasso te verwerken in je product.
+                    Verhelfen Sie Ihren Kunden zu Wachstum, indem Sie auch die Zahlungsabwicklung anbieten.
                   </p>
                 </div>
               </div>
@@ -303,10 +295,10 @@ export default class PartnersNl extends React.Component {
                     <CharityIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Ts'>
-                    Goede doelen
+                    Wohltätige Organisationen
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
-                    Help stichtingen en goede doelen om donaties te ontvangen via automatische incasso.
+                    Helfen Sie wohltätigen Einrichtungen und Hilfsorganisationen beim Sammeln von Spenden.
                   </p>
                 </div>
               </div>
@@ -322,7 +314,7 @@ export default class PartnersNl extends React.Component {
                     Banken
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
-                    Stuur je klanten naar ons door of gebruik onze whitelabel service.
+                    Empfehlen Sie uns an Ihre Kunden weiter oder nutzen Sie direkt unsere White-Label-Lösung.
                   </p>
                 </div>
               </div>
@@ -335,15 +327,11 @@ export default class PartnersNl extends React.Component {
                     <MoneyFlowerIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Ts'>
-                    Betaaldiensten
+                    Zahlungsdienstleister
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
-                  <Translation locales='nl-NL'>
-                    Bied via GoCardless automatische incasso aan in Nederland en Europa.
-                  </Translation>
-                  <Translation locales='nl-BE'>
-                    Bied via ons domiciliëringen in België, Verenigd Koninkrijk en Europa aan.
-                  </Translation>
+                    Nutzen Sie unseren Service und bieten Sie das Lastschriftverfahren in
+                    Deutschland und Europa an.
                   </p>
                 </div>
               </div>
@@ -356,10 +344,10 @@ export default class PartnersNl extends React.Component {
                     <NewIndustryIcon className='svg-icon__image svg-icon__image--small u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Ts'>
-                    En nog veel meer...
+                    Und noch viele mehr...
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-margin-Txs'>
-                    GoCardless is de partner voor de meest uiteenlopende sectoren.
+                    GoCardless kann zahlreichen Branchen auf der ganzen Welt Vorteile verschaffen.
                   </p>
                 </div>
               </div>
@@ -371,7 +359,7 @@ export default class PartnersNl extends React.Component {
           <div className='u-padding-Vxxl u-text-center'>
             <div className='site-container u-padding-Vxl'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light'>
-                Welke partner ben jij?
+                Welcher Typ Partner sind Sie?
               </h2>
               <div className='grid integrations-grid u-padding-Txl'>
                 <div className='grid__cell u-text-center u-size-1of3'>
@@ -380,10 +368,10 @@ export default class PartnersNl extends React.Component {
                     <CustomerIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
-                    Affiliate programma
+                    Affiliate-Programm
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-size4of5 u-margin-Txs'>
-                    Verwijs nieuwe klanten door naar GoCardless en verdien commissie.
+                    Werben Sie neue GoCardless-Kunden und erhalten Sie Provisionen.
                   </p>
                 </div>
 
@@ -393,10 +381,10 @@ export default class PartnersNl extends React.Component {
                     <AddPartnerIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
-                    App integratie
+                    Integration in Ihre Lösung
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-size4of5 u-margin-Txs'>
-                    Help je klanten om eenvoudig terugkerende betalingen te incasseren.
+                    Machen Sie das Einziehen von wiederkehrenden Zahlungen für Ihre Kunden zum Kinderspiel.
                   </p>
                 </div>
 
@@ -406,10 +394,10 @@ export default class PartnersNl extends React.Component {
                     <WhiteLabelIcon className='svg-icon__image u-fill-dark-gray' />
                   </figure>
                   <h2 className='u-text-heading u-text-m u-color-dark-gray u-text-light u-text-no-smoothing u-margin-Tm'>
-                    Whitelabel partnerships
+                    White-Label-Partnerschaft
                   </h2>
                   <p className='u-text-xs u-color-dark-gray u-size4of5 u-margin-Txs'>
-                    Behoud volledige controle over betalingen met onze whitelabel oplossing.
+                    Behalten Sie die volle Kontrolle über Zahlungen durch Integration unserer White-Label-Lösung.
                   </p>
                 </div>
               </div>
@@ -421,23 +409,23 @@ export default class PartnersNl extends React.Component {
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                Werk vandaag nog met ons samen
+                Werden Sie noch heute Partner
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-                Kan jouw bedrijf profiteren van een samenwerking met GoCardless? Neem dan contact met ons op. We helpen je graag verder.
+                Wenn Sie der Meinung sind, dass Ihr Unternehmen von einer Partnerschaft mit GoCardless profitieren könnte,
+                kontaktieren Sie uns – wir beraten Sie gerne.
               </p>
               <Link to='contact_sales'
               query={{ s: 'partners' }}
-              id='track-partners-contact-sales'
               className='btn btn--hollow u-margin-Ts'>
                 <Message pointer='cta.pro' />
               </Link>
             </div>
             <hr className='u-size-1of2 u-center u-margin-Vxxl' />
-            <p className='u-color-dark-gray'><strong>De mogelijkheden bespreken?</strong><br />
-              Neem contact met ons op via&thinsp;
+            <p className='u-color-dark-gray'><strong>Möchten Sie uns lieber persönlich sprechen?</strong><br />
+              Dann lassen Sie sich von einem unserer Experten beraten unter&thinsp;
               <Message pointer='phone_local' />.<br />
-              We zijn bereikbaar van maandag tot vrijdag tussen 9 en 19 uur.
+              Wir sind montags bis freitags von 10 bis 19 Uhr für Sie da.
             </p>
           </div>
         </div>

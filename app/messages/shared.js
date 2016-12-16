@@ -29,4 +29,5 @@ export default {
   customer_queries_link: 'https://support.gocardless.com/hc/en-us/sections/202581129-Customer-Queries',
   api_reference_link: 'https://developer.gocardless.com/api-reference',
   developer_link: 'https://developer.gocardless.com',
+  press_email: 'press@gocardless.com',
 };

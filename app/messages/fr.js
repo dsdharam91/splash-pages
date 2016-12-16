@@ -1,6 +1,6 @@
 export default {
   number_of_merchants: '20.000',
-  payments_processed_volume: '€1,6 milliard',
+  payments_processed_volume: '1,6€ milliard',
   header: {
     our_products: 'Nos produits',
     login_btn: 'Se connecter',
@@ -244,6 +244,24 @@ export default {
     description: '',
     nav_title: 'Notre équipe',
   },
+  press: {
+    title: 'Presse',
+    description: '',
+    nav_title: 'Presse',
+    contact: {
+      header: 'Contact',
+      text: 'Pour toute demande, merci de contacter',
+      gocardless_pr_team: 'notre équipe Relation Presse',
+    },
+    resources: {
+      header: 'Ressources',
+      text: 'Téléchargement de logos, photos et autres ressources',
+      here: 'ici',
+    },
+    articles: {
+      header: 'Articles',
+    },
+  },
   jobs: {
     title: 'Recrutement',
     description: '',
@@ -270,7 +288,7 @@ export default {
     description: 'GoCardless combine simplicité d\'utilisation et contrôle complet du paiement et de l\'expérience client afin de prélever vos clients partout en Europe.',
     explainer: 'Automatisez vos prélèvements',
   },
-  partners: {
+  partner_with_us: {
     title: 'Applications partenaires et intégrations logiciels',
     nav_title: 'Devenez nos partenaires',
     link_title: 'Partenaires',

@@ -39,16 +39,22 @@ import SoftwareEngineer from '../pages/about/jobs/positions/software-engineer';
 import DevopsEngineer from '../pages/about/jobs/positions/devops-engineer.js';
 import DataEngineer from '../pages/about/jobs/positions/data-engineer';
 import LeadDataEngineer from '../pages/about/jobs/positions/lead-data-engineer.js';
-import InsideAccountExecutiveSpain from '../pages/about/jobs/positions/inside-account-executive-spain.js';
+import EngineeringManager from '../pages/about/jobs/positions/engineering-manager.js';
+import ProductManager from '../pages/about/jobs/positions/product-manager.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
-import HeadofFinance from '../pages/about/jobs/positions/head-of-finance.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
 import RiskComplianceAnalyst from '../pages/about/jobs/positions/risk-compliance-analyst.js';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships.js';
 import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
+import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import DeveloperSupportLead from '../pages/about/jobs/positions/developer-support-lead.js';
+import PartnershipMarketingManager from '../pages/about/jobs/positions/partnership-marketing-manager.js';
+import MarketingManagerAccountants from '../pages/about/jobs/positions/marketing-manager-accountants.js';
+import SolutionEngineer from '../pages/about/jobs/positions/solution-engineer.js';
+import SeniorDesigner from '../pages/about/jobs/positions/senior-designer.js';
+import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -65,7 +71,9 @@ import LegalPrivacy from '../pages/legal/privacy/legal-privacy';
 import LegalRestrictions from '../pages/legal/restrictions/legal-restrictions';
 import LegalPaymentTimings from '../pages/legal/payment-timings/legal-payment-timings';
 
-import Partners from '../pages/partners/partners';
+import PartnerWithUs from '../pages/partner-with-us/partner-with-us';
+
+import Partners from '../pages/partners/partners.en';
 import PartnersBillin from '../pages/partners/billin/partners-billin';
 import PartnersClearBooks from '../pages/partners/clearbooks/partners-clearbooks';
 import PartnersDebitoor from '../pages/partners/debitoor/partners-debitoor';
@@ -113,6 +121,7 @@ import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
 import StoriesSlmConnect from '../pages/stories/stories/slm-connect';
 import StoriesSmartPension from '../pages/stories/stories/smart-pension';
 import StoriesSoaringFalcon from '../pages/stories/stories/soaring-falcon';
+import StoriesTeamUp from '../pages/stories/stories/team-up';
 import StoriesWowCompany from '../pages/stories/stories/wow-company';
 import StoriesYourParkingSpace from '../pages/stories/stories/your-parking-space';
 
@@ -440,6 +449,15 @@ export const config = Immutable.fromJS([
       en: {
         path: '/about/press',
       },
+      fr: {
+        path: '/a-propos/presse',
+      },
+      de: {
+        path: '/ueber-uns/presse',
+      },
+      es: {
+        path: '/sobre-nosotros/prensa',
+      },
     },
   ],
   [PressHiroki, { name: 'press_hiroki' }, {
@@ -451,9 +469,6 @@ export const config = Immutable.fromJS([
   [Jobs, { name: 'jobs' }, {
       en: {
         path: '/about/jobs',
-      },
-      es: {
-        path: '/sobre-nosotros/empleo',
       },
       fr: {
         path: '/a-propos/recrutement',
@@ -478,6 +493,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [EngineeringManager, { name: 'jobs_engineering_manager', category: 'jobs.engineering' }, {
+      en: {
+        path: '/about/jobs/engineering-manager',
+      },
+    },
+  ],
   [EngineeringInternships, { name: 'jobs_engineering_internships', category: 'jobs.engineering' }, {
       en: {
         path: '/about/jobs/engineering-internships',
@@ -490,12 +511,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [InsideAccountExecutiveSpain, { name: 'jobs_inside_account_executive_spain', category: 'jobs.sales' }, {
+  [ProductManager, { name: 'jobs_product_manager', category: 'jobs.product' }, {
       en: {
-        path: '/about/jobs/inside-account-executive-spain',
-      },
-      es: {
-        path: '/sobre-nosotros/empleo/inside-account-executive-spain',
+        path: '/about/jobs/product-manager',
       },
     },
   ],
@@ -511,12 +529,6 @@ export const config = Immutable.fromJS([
   [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/sales-development-representative-inbound',
-      },
-    },
-  ],
-  [HeadofFinance, { name: 'jobs_head_of_finance', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/head-of-finance',
       },
     },
   ],
@@ -544,9 +556,45 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [CustomerSupport, { name: 'jobs_customer_support', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/customer-support',
+      },
+    },
+  ],
+  [DeveloperSupport, { name: 'jobs_developer_support', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/developer-support',
+      },
+    },
+  ],
   [DeveloperSupportLead, { name: 'jobs_developer_support_lead', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/developer-support-lead',
+      },
+    },
+  ],
+  [PartnershipMarketingManager, { name: 'jobs_partnership_marketing_manager', category: 'jobs.marketing' }, {
+      en: {
+        path: '/about/jobs/partnership-marketing-manager',
+      },
+    },
+  ],
+  [MarketingManagerAccountants, { name: 'jobs_marketing_manager_accountants', category: 'jobs.marketing' }, {
+      en: {
+        path: '/about/jobs/marketing-manager-accountants',
+      },
+    },
+  ],
+  [SolutionEngineer, { name: 'jobs_solution_engineer', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/solution-engineer',
+      },
+    },
+  ],
+  [SeniorDesigner, { name: 'jobs_senior_designer', category: 'jobs.design' }, {
+      en: {
+        path: '/about/jobs/senior-designer',
       },
     },
   ],
@@ -798,9 +846,9 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [Partners, { name: 'partners' }, {
+  [PartnerWithUs, { name: 'partner_with_us' }, {
       'en-GB': {
-        path: '/partners',
+        path: '/partner-with-us',
       },
       'en-IE': {
         path: '/partners',
@@ -822,6 +870,7 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+
   [PartnersClearBooks, { name: 'partners_clearbooks' }, {
       'en-GB': {
         path: '/partners/clearbooks',
@@ -882,6 +931,84 @@ export const config = Immutable.fromJS([
   [PartnersBillin, { name: 'partners_billin' }, {
       es: {
         path: '/asociados/billin',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_accounting' }, {
+      'en-GB': {
+        path: '/partners/accounting',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_charities' }, {
+      'en-GB': {
+        path: '/partners/charities',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_crm' }, {
+      'en-GB': {
+        path: '/partners/crm',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_ecommerce' }, {
+      'en-GB': {
+        path: '/partners/ecommerce',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_education' }, {
+      'en-GB': {
+        path: '/partners/education',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_health' }, {
+      'en-GB': {
+        path: '/partners/health',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_media' }, {
+      'en-GB': {
+        path: '/partners/media',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_membership' }, {
+      'en-GB': {
+        path: '/partners/membership',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_new' }, {
+      'en-GB': {
+        path: '/partners/new',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_other' }, {
+      'en-GB': {
+        path: '/partners/other',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_subscription' }, {
+      'en-GB': {
+        path: '/partners/subscription',
+      },
+    },
+  ],
+  [Partners, { name: 'partners_utilities' }, {
+      'en-GB': {
+        path: '/partners/utilities',
+      },
+    },
+  ],
+  [Partners, { name: 'partners' }, {
+      'en-GB': {
+        path: '/partners/?:category?', // Takes optional `category` param
       },
     },
   ],
@@ -1389,9 +1516,16 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [StoriesTeamUp, { name: 'stories_teamup', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/teamup',
+      },
+    },
+  ],
   [StoriesWowCompany, { name: 'stories_wow_company', category: 'stories' }, {
       'en-GB': {
         path: '/stories/wow-company',
+
       },
     },
   ],

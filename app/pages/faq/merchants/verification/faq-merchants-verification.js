@@ -7,10 +7,14 @@ export default class FaqMerchantsVerification extends React.Component {
   render() {
     return (
       <FaqMerchantsPage>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Verificación</h2>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>
+          <strong>Verificación</strong>
+        </h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          ¿Qué es la verificación y porque es importante?
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+          <strong>
+            ¿Qué es la verificación y porque es importante?
+          </strong>
         </h3>
         <p className='para'>
           Nada más crear tu cuenta de GoCardless, te pedimos que verifiques unos datos. Esto no es un capricho nuestro,
@@ -19,9 +23,11 @@ export default class FaqMerchantsVerification extends React.Component {
           className='u-link-color-p u-text-underline'>la Ley 10/2010 de Blanqueo de Capitales</a> y que nosotros,
           como todo el resto de Entidades de Pago reguladas por el EPC y el Banco de España, tenemos que cumplir.
         </p>
-        <p className='para'>&nbsp;</p>
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          ¿Que puedo y que no puedo hacer mientras mi cuenta esté en proceso de verificación?
+
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+          <strong>
+            ¿Que puedo y que no puedo hacer mientras mi cuenta esté en proceso de verificación?
+          </strong>
         </h3>
         <p className='para'>
           Aunque tu cuenta esté en verificación, tu cuenta de GoCardless está totalmente operativa.
@@ -30,10 +36,11 @@ export default class FaqMerchantsVerification extends React.Component {
           tu cuenta esté totalmente verificada. Afortunadamente, si rellenas los datos correctamente
           y <strong>sigues los siguientes pasos,</strong> tu verificación estará lista en 2-3 días.
         </p>
-        <p className='para'>&nbsp;</p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
-          Proceso de verificación
+        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+          <strong>
+            Proceso de verificación
+          </strong>
         </h3>
 
         <h4 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
@@ -43,7 +50,7 @@ export default class FaqMerchantsVerification extends React.Component {
           Los datos son los siguientes:
         </p>
         <p className='para'>
-          <u> > Información de la compañía:</u>
+          <u> &gt; Información de la compañía:</u>
         </p>
         <ul className='list'>
           <li>Country (País): España</li>
@@ -53,7 +60,7 @@ export default class FaqMerchantsVerification extends React.Component {
         </ul>
 
         <p className='para'>
-          <u> > Director/Individual details (Detalles del Administrador de la empresa o, si eres autónomo, tu nombre):</u>
+          <u> &gt; Director/Individual details (Detalles del Administrador de la empresa o, si eres autónomo, tu nombre):</u>
         </p>
         <ul className='list'>
           <li>Given Name (Nombre)</li>
@@ -65,7 +72,7 @@ export default class FaqMerchantsVerification extends React.Component {
         </ul>
 
         <p className='para'>
-          <u> > Shareholders info (Información de los accionistas que tengan más de un 25% de la empresa):</u>
+          <u> &gt; Shareholders info (Información de los accionistas que tengan más de un 25% de la empresa):</u>
         </p>
         <ul className='list'>
           <li>Given and Family Name (Nombre y apellidos)</li>
@@ -73,14 +80,13 @@ export default class FaqMerchantsVerification extends React.Component {
         </ul>
 
         <p className='para'>
-          <u> > Bank Account details (Cuenta Bancaria donde quieres recibir el dinero de tus clientes)</u>
+          <u> &gt; Bank Account details (Cuenta Bancaria donde quieres recibir el dinero de tus clientes)</u>
         </p>
         <ul className='list'>
           <li>Account holder name (Titular de la cuenta bancaria)</li>
           <li>Country (País)</li>
           <li>Account Number (Número de cuenta)</li>
         </ul>
-        <p className='para'>&nbsp;</p>
 
         <h4 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           <strong>Paso 2:</strong> Verifica tu cuenta Bancaria
@@ -93,7 +99,6 @@ export default class FaqMerchantsVerification extends React.Component {
         <p className='para'>
           En la Referencia de la transferencia, pon el nombre de tu empresa.
         </p>
-        <p className='para'>&nbsp;</p>
 
         <h4 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
           <strong>Paso 3: </strong>Envío de documentos de acreditación
