@@ -4,12 +4,12 @@ import OnlineManagementRedIcon from '../../../icons/svg/online-management-red';
 import SaveMoneyGreenIcon from '../../../icons/svg/save-money-green';
 import AutomatedYellowIcon from '../../../icons/svg/automated-yellow';
 
-export default class PartnersDebitoorDe extends React.Component {
-  displayName = 'PartnersDebitoorDe'
+export default class PartnersDebitoorEs extends React.Component {
+  displayName = 'PartnersDebitoorEs'
 
   render() {
     return (
-      <Translation locales='de'>
+      <Translation locales='es'>
         <div className='page-hero page-hero--pricing page-hero--one-product-pricing u-size-full'>
           <div className='u-overflow-hidden u-relative u-size-full'>
             <div className='site-container page-hero__container'>
@@ -21,13 +21,13 @@ export default class PartnersDebitoorDe extends React.Component {
                   </h1>
 
                   <p className='u-text-heading u-color-dark-gray u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                    Erstellen und senden Sie Rechnungen<br />
-                    an Ihre Kunden und werden Sie via<br />
-                    Lastschrift mit GoCardless schneller bezahlt.
+                    Crea y envía facturas a tus clientes<br />
+                    y ofréceles el pago por<br />
+                    domiciliación bancaria con GoCardless.
                   </p>
 
                   <div className='u-margin-Tl'>
-                    <a href='https://debitoor.de/funktionen/add-ons/zahlungsanbieter/gocardless' className='btn u-pull-start'>
+                    <a href='https://debitoor.es/funciones/facturacion/pagos-online/gocardless' className='btn u-pull-start'>
                       Get started
                     </a>
 
@@ -38,7 +38,7 @@ export default class PartnersDebitoorDe extends React.Component {
 
                 <div className='grid__cell u-size-1of2 u-text-center u-relative'>
                   <img className='partners-page__hero-screenshot partners-page__hero-screenshot--debitoor'
-                  src='/images/partners/debitoor-de-screenshot@2x.png'/>
+                  src='/images/partners/debitoor-es-screenshot@2x.png'/>
                 </div>
               </div>
             </div>
@@ -53,10 +53,10 @@ export default class PartnersDebitoorDe extends React.Component {
                   <AutomatedYellowIcon className='svg-icon__image' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Schneller bezahlt werden
+                  Te pagarán más rápido
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Senden Sie Rechnungen mit direkter online Zahlungsoption.
+                  Envía facturas a tu clientes y dales la opción de que te paguen directamente por internet.
                 </p>
               </div>
 
@@ -65,10 +65,10 @@ export default class PartnersDebitoorDe extends React.Component {
                   <OnlineManagementRedIcon className='svg-icon__image' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Guten Service bieten
+                  Ofreces un mejor servicio
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Bequem für Sie und Ihre Kunden: Zahlung per Lastschrift.
+                  El pago por domiciliación bancaria es cómodo para ti y para tu cliente.
                 </p>
               </div>
 
@@ -77,24 +77,13 @@ export default class PartnersDebitoorDe extends React.Component {
                   <SaveMoneyGreenIcon className='svg-icon__image' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Zeit sparen
+                  Ahorras tiempo
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Rechnungen online erstellen und Zahlungen automatisieren.
+                  Crea facturas online y automatiza los pagos.
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-
-        <hr className='section-divider' />
-        <div className='site-container u-padding-Vxxl'>
-          <div className='u-margin-Vl u-text-center'>
-            <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>
-              So verbindest du GoCardless mit Debitoor
-            </h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/OuQuOOfbN4I?rel=0&amp;showinfo=0" frameborder="0"
-              allowfullscreen></iframe>
           </div>
         </div>
 
@@ -104,18 +93,19 @@ export default class PartnersDebitoorDe extends React.Component {
             <div className='grid__cell u-size-1of2 u-padding-Rm'>
               <div className='numbered-step u-margin-Bm'>1</div>
               <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bm'>
-                Erstellen Sie einen Debitoor-Account
+                Crea una cuenta con Debitoor
               </h2>
               <p className='u-color-dark-gray u-margin-Bm'>
-                Registrieren Sie sich <a href='https://debitoor.de/sign-up' className='u-link-color-p u-text-underline'>bei Debitoor</a>.
+                Suscríbete a Debitoor en <a href='https://debitoor.es/sign-up' className='u-link-color-p u-text-underline'>Debitoor.es</a>.
 
-                Die Anmeldung ist kostenlos, für erweiterte Funktionen können Sie sich für ein bezahltes Abo entscheiden. Eine Übersicht
-                finden Sie <a href='https://debitoor.de/funktionsueberblick' className='u-link-color-p u-text-underline'>hier</a>.
+                Al suscribirte puedes crear hasta tres facturas gratuitas. Para seguir facturando y disfrutar de las
+                diferentes funciones, tendrás que elegir un plan de suscripción. Puedes consultarlos en
+                el <a href='https://debitoor.es/lista-de-funciones' className='u-link-color-p u-text-underline'>siguiente enlace</a>.
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-text-center'>
               <img className='partners-page__debitoor-instruction-screenshot'
-              src='/images/partners/debitoor-de-instruction-1.jpg' />
+              src='/images/partners/debitoor-es-instruction-1.jpg' />
             </div>
           </div>
         </div>
@@ -126,22 +116,22 @@ export default class PartnersDebitoorDe extends React.Component {
             <div className='grid__cell u-size-1of2 u-padding-Rm'>
               <div className='numbered-step u-margin-Bm'>2</div>
               <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bm'>
-                Verknüpfen Sie Debitoor und Gocardless
+                Conecta Debitoor con Gocardless
               </h2>
               <p className='u-color-dark-gray u-margin-Bm'>
-                Loggen Sie sich in Ihren Debitoor-Account ein.
+                Inicia sesión en tu cuenta de Debitoor.
               </p>
               <p className='u-color-dark-gray u-margin-Bm'>
-                Unter <em>Einstellungen > Zahlungen akzeptieren</em> finden Sie GoCardless.
-                Klicken Sie auf Setup. Sie gelangen zu einem Formular, in dem Sie einen GoCardless-Account neu erstellen können.
+                En <em>Configuración --> Recibir pago</em> encontrarás GoCardless.
+                Haz clic en Configuración. Se te remitirá a un formulario en el que te tendrás que abrir una cuenta con GoCardless.
               </p>
               <p className='u-color-dark-gray u-margin-Bm'>
-                Haben Sie bereits einen GoCardless-Account, können Sie sich einfach unten rechts einloggen.
+                En caso de que ya tengas una cuenta con GoCardless, puedes iniciar sesión en la parte inferior derecha.
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-text-center'>
               <img className='partners-page__debitoor-instruction-screenshot'
-              src='/images/partners/debitoor-de-instruction-2.jpg' />
+              src='/images/partners/debitoor-es-instruction-2.jpg' />
             </div>
           </div>
         </div>
@@ -152,29 +142,29 @@ export default class PartnersDebitoorDe extends React.Component {
             <div className='grid__cell u-size-1of2 u-padding-Rm'>
               <div className='numbered-step u-margin-Bm'>3</div>
               <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light u-margin-Bm'>
-                Per Lastschrift bezahlt werden
+                Cobro por domiciliación bancaria
               </h2>
               <p className='u-color-dark-gray u-margin-Bm'>
-                Sie können nun sofort in Debitoor Ihre Rechnungen mit Lastschrift bezahlen lassen.
+                Ahora ya puedes cobrar tus facturas en Debitoor por domiciliación bancaria.
               </p>
               <p className='u-color-dark-gray u-margin-Bm'>
-                Erstellen und senden Sie eine neue Rechnung in Debitoor. Ihr Kunde kann Ihnen nun per Klick auf den Bezahl-Button ein
-                Lastschriftmandat erteilen, und zukünftige Rechnungsbeträge werden automatisch eingezogen.
+                Crea y envía una nueva factura en Debitoor. Tu cliente puede ordenar el pago por domiciliación bancaria haciendo clic
+                sobre el botón de pago. Las facturas que envíes en el futuro se pagarán automáticamente por este método de pago.
               </p>
               <p className='u-color-dark-gray u-margin-Bm'>
-                Ist Ihr GoCardless-Account bereits verifiziert, müssen Sie nichts weiter tun, um die Zahlung zu empfangen.
+                Si tu cuenta con GoCardless ya ha sido verificada, no tienes que hacer nada más para recibir el pago.
               </p>
               <p className='u-color-dark-gray u-margin-Bm'>
-                Haben Sie einen neuen GoCardless-Account angelegt, müssen Sie ihn, um die eingezogenen Beträge auch ausbezahlt zu bekommen,
-                zunächst durch die Angabe weiterer Daten verifizieren. Dies ist rechtlich erforderlich. Eine Beschreibung des
-                Verifizierungsprozesses finden
-                Sie <a href='https://debitoor.de/tutorial/apps-und-partner/so-verbindest-du-debitoor-mit-gocardless'
-                className='u-link-color-p u-text-underline'>hier</a>.
+                En caso de que hayas añadido una nueva cuenta de GoCardless, tendrás que verificar de nuevo tus datos para poder
+                recibir los importes transferidos. Este paso es imprescindible desde un punto de vista legal. Encontrarás una
+                descripción del proceso de
+                verificación <a href='https://debitoor.es/tutorial/socios/conecta-tu-cuenta-de-gocardless'
+                className='u-link-color-p u-text-underline'>en el siguiente tutorial</a>.
               </p>
             </div>
             <div className='grid__cell u-size-1of2 u-text-center'>
               <img className='partners-page__debitoor-instruction-screenshot'
-              src='/images/partners/debitoor-de-instruction-3.jpg' />
+              src='/images/partners/debitoor-es-instruction-3.jpg' />
             </div>
           </div>
         </div>
@@ -184,12 +174,12 @@ export default class PartnersDebitoorDe extends React.Component {
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                Jetzt schneller bezahlt werden
+                Empieza a cobrar rápido ahora
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-                Rechnungen einfach online erstellen, senden und bezahlen lassen.
+                Crea y envía facturas con rapidez y cóbralas online con facilidad.
               </p>
-              <a href='https://debitoor.de/funktionen/add-ons/zahlungsanbieter/gocardless' className='btn btn--hollow u-margin-Vm'>
+              <a href='https://debitoor.es/funciones/facturacion/pagos-online/gocardless' className='btn btn--hollow u-margin-Vm'>
                 Rechnung schreiben mit Debitoor
               </a>
             </div>

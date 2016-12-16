@@ -1,7 +1,7 @@
 import React from 'react';
 import Page from '../../../components/page/page';
 import PartnersDebitoorDe from './partners-debitoor.de';
-//import PartnersDebitoorEs from './partners-debitoor.es';
+import PartnersDebitoorEs from './partners-debitoor.es';
 
 export default class PartnersDebitoor extends React.Component {
   displayName = 'PartnersDebitoor'
@@ -10,6 +10,7 @@ export default class PartnersDebitoor extends React.Component {
     return (
       <Page isInverted={false}>
         <PartnersDebitoorDe />
+        <PartnersDebitoorEs />
       </Page>
     );
   }
