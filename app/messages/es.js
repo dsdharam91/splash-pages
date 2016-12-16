@@ -39,9 +39,6 @@ export default {
     address_country: 'Reino Unido',
     address_country_iso: 'GB',
   },
-  partners_email: 'partnerships@gocardless.com',
-  api_reference_link: 'https://developer.gocardless.com/api-reference',
-  developer_link: 'https://developer.gocardless.com',
   prospect_form: {
     sales: {
       name_label: 'Nombre',
@@ -234,6 +231,10 @@ export default {
   partners_billin: {
     title: 'GoCardless para Billin',
     description: 'Gestiona el proceso de facturación con Billin y garantiza el pago de tus facturas a tiempo con GoCardless',
+  },
+  partners_debitoor: {
+    title: 'GoCardless para Debitoor',
+    description: '',
   },
   payments_by_direct_debit: {
     title: 'Cobros online con Domiciliación Bancaria SEPA',
