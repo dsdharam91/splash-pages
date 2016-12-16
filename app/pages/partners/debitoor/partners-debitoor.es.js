@@ -28,7 +28,7 @@ export default class PartnersDebitoorEs extends React.Component {
 
                   <div className='u-margin-Tl'>
                     <a href='https://debitoor.es/funciones/facturacion/pagos-online/gocardless' className='btn u-pull-start'>
-                      Get started
+                      Empieza ahora
                     </a>
 
                     <div className='partners-page__button-divider u-pull-start'></div>
@@ -180,7 +180,7 @@ export default class PartnersDebitoorEs extends React.Component {
                 Crea y envía facturas con rapidez y cóbralas online con facilidad.
               </p>
               <a href='https://debitoor.es/funciones/facturacion/pagos-online/gocardless' className='btn btn--hollow u-margin-Vm'>
-                Rechnung schreiben mit Debitoor
+                Crea tu factura con Debitoor
               </a>
             </div>
           </div>

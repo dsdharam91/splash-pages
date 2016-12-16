@@ -17,7 +17,7 @@ export default class PartnersDebitoorDe extends React.Component {
                 <div className='grid__cell u-size-1of2 u-margin-Bl'>
                   <h1 className='u-text-heading u-color-primary u-text-xl u-text-light u-margin-Bm'>
                     GoCardless<br />
-                    for Debitoor
+                    für Debitoor
                   </h1>
 
                   <p className='u-text-heading u-color-dark-gray u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
@@ -28,7 +28,7 @@ export default class PartnersDebitoorDe extends React.Component {
 
                   <div className='u-margin-Tl'>
                     <a href='https://debitoor.de/funktionen/add-ons/zahlungsanbieter/gocardless' className='btn u-pull-start'>
-                      Get started
+                      Jetzt anmelden
                     </a>
 
                     <div className='partners-page__button-divider u-pull-start'></div>

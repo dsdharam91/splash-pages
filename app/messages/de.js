@@ -125,7 +125,7 @@ export default {
     },
   },
   partners_debitoor: {
-    title: 'GoCardless and Debitoor',
+    title: 'GoCardless und Debitoor',
     description: '',
   },
   team: {
