@@ -224,12 +224,10 @@ export default class StoriesEn extends React.Component {
 
                       <div className="story-card__detail u-margin-Bs">
                         <span className="story-card__key story-card__key--size">{ caseStudy.using }</span>
-                        { /*<span className="story-card__value">{ caseStudy.size }</span> */ }
                       </div>
 
                       <div className="story-card__detail u-margin-Bm">
                         <span className="story-card__key story-card__key--industry">{ caseStudy.industry }</span>
-                        { /*<span className="story-card__value">{ caseStudy.industry }</span> */ }
                       </div>
                       <Link to={ caseStudy.link } className='btn btn--small u-block'>
                         Read more
