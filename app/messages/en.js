@@ -579,10 +579,6 @@ export default {
     title: 'Risk and Compliance Analyst',
     description: '',
   },
-  jobs_customer_support_germany: {
-    title: 'Customer Support: Germany',
-    description: '',
-  },
   jobs_developer_support_lead: {
     title: 'Developer Support Lead',
     description: '',
