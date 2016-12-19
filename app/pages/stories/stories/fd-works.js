@@ -62,7 +62,7 @@ export default class StoriesFdWorks extends React.Component {
             “We’ve been using GoCardless pretty much from the start of the business in 2013. It was Jonathan’s idea
             in the first instance – he’s always looking at new ways to streamline our processes and software tools
             that can improve our efficiency. I run most of the back-office finance work, so when we heard about how
-            easy <Link to='partners_xero' className='u-link-color-p u-text-underline'>GoCardless and Directli</Link> made
+            easy <Link to='partners_xero' className='u-link-color-p u-text-underline'>GoCardless for Xero</Link> made
             the Direct Debit process we knew it was a no-brainer to start using it.
           </p>
           <div className='story-page__image'>
@@ -81,7 +81,7 @@ export default class StoriesFdWorks extends React.Component {
             to stop you being efficient.”
           </p>
           <p className='para'>
-            But once FD Works had GoCardless set up alongside Directli and our internal Xero online accounting software, it
+            But once FD Works had GoCardless set up alongside their internal Xero online accounting software, it
             really cut back on that chasing time. Once a client has filled out
             the <Link to='example_checkout' className='u-link-color-p u-text-underline'>online e-mandate</Link>, they could just collect
             their payment at the same time every month.

@@ -35,7 +35,7 @@
   padding-left: 26px;
 }
 
-.story-card__key--size:before,
+.story-card__key--link:before,
 .story-card__key--industry:before {
   content: '';
   width: 14px;
@@ -45,8 +45,8 @@
   top: 3px;
 }
 
-.story-card__key--size:before {
-  background: url('/images/stories/icons/size-icon.png') no-repeat 0 0;
+.story-card__key--link:before {
+  background: url('/images/stories/icons/link-icon.png') no-repeat 0 0;
   background-size: contain;
 }
 
