@@ -52,7 +52,6 @@ import DeveloperSupportLead from '../pages/about/jobs/positions/developer-suppor
 import PartnershipMarketingManager from '../pages/about/jobs/positions/partnership-marketing-manager.js';
 import MarketingManagerAccountants from '../pages/about/jobs/positions/marketing-manager-accountants.js';
 import SolutionEngineer from '../pages/about/jobs/positions/solution-engineer.js';
-import SeniorDesigner from '../pages/about/jobs/positions/senior-designer.js';
 import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
@@ -582,12 +581,6 @@ export const config = Immutable.fromJS([
   [SolutionEngineer, { name: 'jobs_solution_engineer', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/solution-engineer',
-      },
-    },
-  ],
-  [SeniorDesigner, { name: 'jobs_senior_designer', category: 'jobs.design' }, {
-      en: {
-        path: '/about/jobs/senior-designer',
       },
     },
   ],

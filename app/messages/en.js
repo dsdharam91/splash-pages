@@ -599,10 +599,6 @@ export default {
     title: 'Solution Engineer',
     description: '',
   },
-  jobs_senior_designer: {
-    title: 'Senior Designer',
-    description: '',
-  },
   api_docs: {
     title: 'API Documentation',
     nav_title: 'Developers',
