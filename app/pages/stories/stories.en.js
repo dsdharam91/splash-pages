@@ -18,7 +18,7 @@ let allStories = [
     quote: `GoCardless solved almost a decade of billing and payment headaches for us`,
     logoSrc: '/images/stories/story-logos/the-wow-company.png',
     logoWidth: '50',
-    using: 'Uses GoCardless with Xero',
+    using: 'Uses GoCardless for Xero',
     industry: 'Accountancy Practice',
   },
   {
@@ -34,7 +34,7 @@ let allStories = [
     quote: `GoCardless was a big leap forward with a high-tech solution to payments`,
     logoSrc: '/images/stories/story-logos/teamup.png',
     logoWidth: '60',
-    using: 'GoCardless Partner App',
+    using: 'GoCardless Partner',
     industry: 'Health & Fitness Software',
   },
   {
@@ -42,7 +42,7 @@ let allStories = [
     quote: `GoCardless helps to prevent uncomfortable conversations about money`,
     logoSrc: '/images/stories/story-logos/has-bean-coffee.png',
     logoWidth: '115',
-    using: 'Uses GoCardless with Kashflow',
+    using: 'Uses GoCardless for Kashflow',
     industry: 'Wholesale Invoicing',
   },
   {
@@ -50,7 +50,7 @@ let allStories = [
     quote: `GoCardless frees up time and avoids the need to employ dedicated staff`,
     logoSrc: '/images/stories/story-logos/hotpod-yoga.png',
     logoWidth: '117',
-    using: 'Uses GoCardless with Teamup',
+    using: 'Uses GoCardless for Teamup',
     industry: 'Health & Fitness Franchise',
   },
 
@@ -59,7 +59,7 @@ let allStories = [
     quote: `GoCardless gives me a regular income so I can use the funds for growth`,
     logoSrc: '/images/stories/story-logos/soaring-falcon.png',
     logoWidth: '45',
-    using: 'Uses GoCardless with Xero',
+    using: 'Uses GoCardless for Xero',
     industry: 'Accountancy Practice',
   },
   {
@@ -100,7 +100,7 @@ let allStories = [
     quote: `When we heard about GoCardless, we knew it was a no-brainer to use it`,
     logoSrc: '/images/stories/story-logos/fd-works.png',
     logoWidth: '100',
-    using: 'Uses GoCardless with Xero',
+    using: 'Uses GoCardless for Xero',
     industry: 'Accountancy Practice',
   },
   {
@@ -108,7 +108,7 @@ let allStories = [
     quote: `It's great knowing money will come in each month without having to chase it`,
     logoSrc: '/images/stories/story-logos/lyles-sutherland.png',
     logoWidth: '140',
-    using: 'Uses GoCardless with FreeAgent',
+    using: 'Uses GoCardless for FreeAgent',
     industry: 'Digital Agency & Software',
   },
   {
