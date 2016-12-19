@@ -43,11 +43,10 @@ import EngineeringManager from '../pages/about/jobs/positions/engineering-manage
 import ProductManager from '../pages/about/jobs/positions/product-manager.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
+import CustomerSuccessManager from '../pages/about/jobs/positions/customer-success-manager.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
-import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
 import RiskComplianceAnalyst from '../pages/about/jobs/positions/risk-compliance-analyst.js';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships.js';
-import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import DeveloperSupportLead from '../pages/about/jobs/positions/developer-support-lead.js';
 import PartnershipsDevelopmentManager from '../pages/about/jobs/positions/partnerships-development.js';
@@ -56,7 +55,7 @@ import MarketAnalystInternship from '../pages/about/jobs/positions/market-analys
 import PartnershipMarketingManager from '../pages/about/jobs/positions/partnership-marketing-manager.js';
 import MarketingManagerAccountants from '../pages/about/jobs/positions/marketing-manager-accountants.js';
 import SolutionEngineer from '../pages/about/jobs/positions/solution-engineer.js';
-import SeniorDesigner from '../pages/about/jobs/positions/senior-designer.js';
+import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
 import LegalCustomers from '../pages/legal/customers/legal-customers';
@@ -78,6 +77,7 @@ import PartnerWithUs from '../pages/partner-with-us/partner-with-us';
 import Partners from '../pages/partners/partners.en';
 import PartnersBillin from '../pages/partners/billin/partners-billin';
 import PartnersClearBooks from '../pages/partners/clearbooks/partners-clearbooks';
+import PartnersDebitoor from '../pages/partners/debitoor/partners-debitoor';
 import PartnersFreeagent from '../pages/partners/freeagent/partners-freeagent';
 import PartnersKashflow from '../pages/partners/kashflow/partners-kashflow';
 import PartnersPitchero from '../pages/partners/pitchero/partners-pitchero';
@@ -533,15 +533,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [HeadofOperations, { name: 'jobs_head_of_operations', category: 'jobs.operations' }, {
+  [CustomerSuccessManager, { name: 'jobs_customer_success_manager', category: 'jobs.sales' }, {
       en: {
-        path: '/about/jobs/head-of-operations',
+        path: '/about/jobs/customer-success-manager',
       },
     },
   ],
-  [AccountsAssistant, { name: 'jobs_accounts_assistant', category: 'jobs.operations' }, {
+  [HeadofOperations, { name: 'jobs_head_of_operations', category: 'jobs.operations' }, {
       en: {
-        path: '/about/jobs/accounts-assistant',
+        path: '/about/jobs/head-of-operations',
       },
     },
   ],
@@ -551,15 +551,15 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/customer-support-germany',
-      },
-    },
-  ],
   [CustomerSupport, { name: 'jobs_customer_support', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/customer-support',
+      },
+    },
+  ],
+  [DeveloperSupport, { name: 'jobs_developer_support', category: 'jobs.operations' }, {
+      en: {
+        path: '/about/jobs/developer-support',
       },
     },
   ],
@@ -602,12 +602,6 @@ export const config = Immutable.fromJS([
   [SolutionEngineer, { name: 'jobs_solution_engineer', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/solution-engineer',
-      },
-    },
-  ],
-  [SeniorDesigner, { name: 'jobs_senior_designer', category: 'jobs.design' }, {
-      en: {
-        path: '/about/jobs/senior-designer',
       },
     },
   ],
@@ -883,6 +877,70 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+
+  [PartnersClearBooks, { name: 'partners_clearbooks' }, {
+      'en-GB': {
+        path: '/partners/clearbooks',
+      },
+    },
+  ],
+  [PartnersDebitoor, { name: 'partners_debitoor' }, {
+      de: {
+        path: '/partner/debitoor',
+      },
+      es: {
+        path: '/asociados/debitoor',
+      },
+    },
+  ],
+  [PartnersFreeagent, { name: 'partners_freeagent' }, {
+      'en-GB': {
+        path: '/partners/freeagent',
+      },
+    },
+  ],
+  [PartnersKashflow, { name: 'partners_kashflow' }, {
+      'en-GB': {
+        path: '/kashflow',
+      },
+    },
+  ],
+  [PartnersPitchero, { name: 'partners_pitchero' }, {
+      'en-GB': {
+        path: '/partners/pitchero',
+      },
+    },
+  ],
+  [PartnersSage, { name: 'partners_sage' }, {
+      'en-GB': {
+        path: '/partners/sage',
+      },
+    },
+  ],
+  [PartnersXero, { name: 'partners_xero' }, {
+      'en-GB': {
+        path: '/xero',
+      },
+    },
+  ],
+  [PartnersZuora, { name: 'partners_zuora' }, {
+      'en-GB': {
+        path: '/zuora',
+      },
+    },
+  ],
+  [PartnersQuickbooks, { name: 'partners_quickbooks' }, {
+      'en-GB': {
+        path: '/quickbooks',
+      },
+    },
+  ],
+  [PartnersBillin, { name: 'partners_billin' }, {
+      es: {
+        path: '/asociados/billin',
+      },
+    },
+  ],
   [Partners, { name: 'partners_accounting' }, {
       'en-GB': {
         path: '/partners/accounting',
@@ -958,60 +1016,6 @@ export const config = Immutable.fromJS([
   [Partners, { name: 'partners' }, {
       'en-GB': {
         path: '/partners/?:category?', // Takes optional `category` param
-      },
-    },
-  ],
-  [PartnersClearBooks, { name: 'partners_clearbooks' }, {
-      'en-GB': {
-        path: '/partners/clearbooks',
-      },
-    },
-  ],
-  [PartnersFreeagent, { name: 'partners_freeagent' }, {
-      'en-GB': {
-        path: '/partners/freeagent',
-      },
-    },
-  ],
-  [PartnersKashflow, { name: 'partners_kashflow' }, {
-      'en-GB': {
-        path: '/kashflow',
-      },
-    },
-  ],
-  [PartnersPitchero, { name: 'partners_pitchero' }, {
-      'en-GB': {
-        path: '/partners/pitchero',
-      },
-    },
-  ],
-  [PartnersSage, { name: 'partners_sage' }, {
-      'en-GB': {
-        path: '/partners/sage',
-      },
-    },
-  ],
-  [PartnersXero, { name: 'partners_xero' }, {
-      'en-GB': {
-        path: '/xero',
-      },
-    },
-  ],
-  [PartnersZuora, { name: 'partners_zuora' }, {
-      'en-GB': {
-        path: '/zuora',
-      },
-    },
-  ],
-  [PartnersQuickbooks, { name: 'partners_quickbooks' }, {
-      'en-GB': {
-        path: '/quickbooks',
-      },
-    },
-  ],
-  [PartnersBillin, { name: 'partners_billin' }, {
-      es: {
-        path: '/asociados/billin',
       },
     },
   ],
