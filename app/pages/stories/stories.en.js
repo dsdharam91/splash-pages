@@ -143,29 +143,16 @@ export default class StoriesEn extends React.Component {
   render() {
     return (
       <Translation locales='en'>
-        <div className='page-hero page-hero--large page-hero--stories page-hero--stories-index u-relative u-size-full'>
-          <div className='site-container page-hero__container'>
-            <div className='page-hero__inner'>
-              <div className='page-hero__text u-text-center'>
-                <h1 className='u-text-heading u-color-invert u-text-xl u-text-light u-margin-Bm'>
-                  “GoCardless ensures our transactions are accurate, easy to setup and manage. It is also significantly
-                  cheaper compared to credit card.”
-                </h1>
-                <div className='u-color-invert u-text-heading u-text-m u-text-semi'>
-                  Will Wynne
-                </div>
-                <div className="u-color-invert u-text-heading u-text-xs">
-                  Co-Founder, Smart Pension
-                </div>
-              </div>
-            </div>
+        <div className='page-hero page-hero--stories-index u-padding-Bxxl'>
+          <div className='site-container u-padding-Vxxl u-text-center'>
+            <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
+              Customer Stories
+            </h1>
+            <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
+              From individuals to multi-national corporations, GoCardless helps<br />
+              thousands of businesses with their payments everyday.
+            </p>
           </div>
-        </div>
-
-        <div className="site-container u-text-center u-padding-Vxxl">
-          <p className="u-text-heading u-color-dark-gray u-text-l u-text-light u-padding-Vs">
-            From individuals to multi-national corporations, GoCardless helps thousands of businesses with their payments everyday.
-          </p>
         </div>
 
         <div className="stories-industries">
