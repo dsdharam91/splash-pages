@@ -13,7 +13,7 @@ let caseStudies = {
       quote: `We’ve reduced the risks associated with franchise payments`,
       logoSrc: '/images/stories/story-logos/hotpod-yoga.png',
       logoWidth: '117',
-      using: 'Using GoCardless with Xero',
+      using: 'Using GoCardless with Teamup',
       industry: 'Health & Fitness',
     },
     {
@@ -45,7 +45,7 @@ let caseStudies = {
       quote: `You don’t suffer from failed payments caused by expired credit or debit cards.`,
       logoSrc: '/images/stories/story-logos/your-parking-space.png',
       logoWidth: '190',
-      using: 'Using GoCardless with Xero',
+      using: 'Using GoCardless Dashboard',
       industry: 'Online Marketplace',
     },
     {
@@ -53,7 +53,7 @@ let caseStudies = {
       quote: `GoCardless helps to prevent uncomfortable conversations about money`,
       logoSrc: '/images/stories/story-logos/has-bean-coffee.png',
       logoWidth: '115',
-      using: 'Using GoCardless with Xero',
+      using: 'Using GoCardless with Kashflow',
       industry: 'Wholesale',
     },
   ],
@@ -63,7 +63,7 @@ let caseStudies = {
       quote: `We wanted to give our members the payment options they most trusted`,
       logoSrc: '/images/stories/story-logos/bulb-energy.png',
       logoWidth: '115',
-      using: 'Using GoCardless with Xero',
+      using: 'Using GoCardless API',
       industry: 'Energy',
     },
     {
@@ -71,7 +71,7 @@ let caseStudies = {
       quote: `It's great knowing money will come in each month without having to chase it`,
       logoSrc: '/images/stories/story-logos/lyles-sutherland.png',
       logoWidth: '140',
-      using: 'Using GoCardless with Xero',
+      using: 'Using GoCardless with FreeAgent',
       industry: 'Digital services',
     },
     {
@@ -79,7 +79,7 @@ let caseStudies = {
       quote: `Being able to offer truly paperless Direct Debit is a great selling point`,
       logoSrc: '/images/stories/story-logos/boost-capital.png',
       logoWidth: '140',
-      using: 'Using GoCardless with Xero',
+      using: 'Using GoCardless API',
       industry: 'Loans',
     },
     {
@@ -87,7 +87,7 @@ let caseStudies = {
       quote: `GoCardless ensures our transactions are accurate, easy to setup and manage`,
       logoSrc: '/images/stories/story-logos/smart-pension.png',
       logoWidth: '156',
-      using: 'Using GoCardless with Xero',
+      using: 'Using GoCardless API',
       industry: 'Pensions',
     },
     {
@@ -95,7 +95,7 @@ let caseStudies = {
       quote: `Our monthly bill runs are quick and easy since switching to GoCardless`,
       logoSrc: '/images/stories/story-logos/connexin.png',
       logoWidth: '97',
-      using: 'Using GoCardless with Xero',
+      using: 'Using GoCardless API',
       industry: 'Telecoms',
     },
     {
@@ -103,7 +103,7 @@ let caseStudies = {
       quote: `With GoCardless, we can now retry failed payments at the click of a button`,
       logoSrc: '/images/stories/story-logos/rock-choir.png',
       logoWidth: '50',
-      using: 'Using GoCardless with Xero',
+      using: 'Using GoCardless Dashboard',
       industry: 'Membership',
     },
     {
@@ -121,7 +121,7 @@ let caseStudies = {
       quote: `It's a very automated service so we've not needed to add headcount`,
       logoSrc: '/images/stories/story-logos/nutmeg.png',
       logoWidth: '140',
-      using: 'Using GoCardless with Xero',
+      using: 'Using GoCardless API',
       industry: 'Investments',
     },
     {
@@ -129,7 +129,7 @@ let caseStudies = {
       quote: `Up-to-date payment status information allows us to improve our credit control`,
       logoSrc: '/images/stories/story-logos/slm-connect.png',
       logoWidth: '140',
-      using: 'Using GoCardless with Xero',
+      using: 'Using GoCardless API',
       industry: 'Telemarketing',
     },
     {
@@ -137,7 +137,7 @@ let caseStudies = {
       quote: `GoCardless was easy to integrate and offered value for money`,
       logoSrc: '/images/stories/story-logos/peterborough-council.png',
       logoWidth: '130',
-      using: 'Using GoCardless with Xero',
+      using: 'Using GoCardless API',
       industry: 'Local Authority',
     },
   ],
