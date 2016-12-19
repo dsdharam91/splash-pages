@@ -9,28 +9,28 @@ import classNames from 'classnames';
 let caseStudies = {
   'Start ups': [
     {
-      link: 'stories_hotpod_yoga',
-      quote: `We’ve reduced the risks associated with franchise payments`,
-      logoSrc: '/images/stories/story-logos/hotpod-yoga.png',
-      logoWidth: '117',
-      using: 'Using GoCardless with Teamup',
-      industry: 'Health & Fitness',
+      link: 'stories_peterborough_council',
+      quote: `GoCardless was easy to integrate and offered value for money taking payments`,
+      logoSrc: '/images/stories/story-logos/peterborough-council.png',
+      logoWidth: '130',
+      using: 'Uses GoCardless API',
+      industry: 'Local Authority',
     },
     {
-      link: 'stories_soaring_falcon',
-      quote: `GoCardless gives me a regular income so I can use the funds for growth`,
-      logoSrc: '/images/stories/story-logos/soaring-falcon.png',
-      logoWidth: '45',
-      using: 'Using GoCardless with Xero',
-      industry: 'Accountancy',
+      link: 'stories_wow_company',
+      quote: `GoCardless solved almost a decade of billing and payment headaches for us`,
+      logoSrc: '/images/stories/story-logos/the-wow-company.png',
+      logoWidth: '50',
+      using: 'Uses GoCardless with Xero',
+      industry: 'Accountancy Practice',
     },
     {
-      link: 'stories_fd_works',
-      quote: `When we heard about GoCardless, we knew it was a no-brainer to use it`,
-      logoSrc: '/images/stories/story-logos/fd-works.png',
-      logoWidth: '100',
-      using: 'Using GoCardless with Xero',
-      industry: 'Accountancy',
+      link: 'stories_nutmeg',
+      quote: `It's a very automated service so we've not needed to add headcount`,
+      logoSrc: '/images/stories/story-logos/nutmeg.png',
+      logoWidth: '140',
+      using: 'Uses GoCardless API',
+      industry: 'Investment Management',
     },
     {
       link: 'stories_teamup',
@@ -38,108 +38,118 @@ let caseStudies = {
       logoSrc: '/images/stories/story-logos/teamup.png',
       logoWidth: '60',
       using: 'GoCardless Partner App',
-      industry: 'Health & Fitness',
-    },
-    {
-      link: 'stories_your_parking_space',
-      quote: `You don’t suffer from failed payments caused by expired credit or debit cards.`,
-      logoSrc: '/images/stories/story-logos/your-parking-space.png',
-      logoWidth: '190',
-      using: 'Using GoCardless Dashboard',
-      industry: 'Online Marketplace',
+      industry: 'Health & Fitness Software',
     },
     {
       link: 'stories_has_bean_coffee',
       quote: `GoCardless helps to prevent uncomfortable conversations about money`,
       logoSrc: '/images/stories/story-logos/has-bean-coffee.png',
       logoWidth: '115',
-      using: 'Using GoCardless with Kashflow',
-      industry: 'Wholesale',
+      using: 'Uses GoCardless with Kashflow',
+      industry: 'Wholesale Invoicing',
     },
-  ],
-  SMEs: [
+    {
+      link: 'stories_hotpod_yoga',
+      quote: `GoCardless frees up time and avoids the need to employ dedicated staff`,
+      logoSrc: '/images/stories/story-logos/hotpod-yoga.png',
+      logoWidth: '117',
+      using: 'Uses GoCardless with Teamup',
+      industry: 'Health & Fitness Franchise',
+    },
+
+
+
+    {
+      link: 'stories_soaring_falcon',
+      quote: `GoCardless gives me a regular income so I can use the funds for growth`,
+      logoSrc: '/images/stories/story-logos/soaring-falcon.png',
+      logoWidth: '45',
+      using: 'Uses GoCardless with Xero',
+      industry: 'Accountancy Practice',
+    },
+    {
+      link: 'stories_your_parking_space',
+      quote: `You don’t suffer from failed payments caused by expired credit or debit cards.`,
+      logoSrc: '/images/stories/story-logos/your-parking-space.png',
+      logoWidth: '190',
+      using: 'Uses GoCardless Dashboard',
+      industry: 'Online Marketplace',
+    },
     {
       link: 'stories_bulb_energy',
       quote: `We wanted to give our members the payment options they most trusted`,
       logoSrc: '/images/stories/story-logos/bulb-energy.png',
       logoWidth: '115',
-      using: 'Using GoCardless API',
-      industry: 'Energy',
-    },
-    {
-      link: 'stories_lyles_sutherland',
-      quote: `It's great knowing money will come in each month without having to chase it`,
-      logoSrc: '/images/stories/story-logos/lyles-sutherland.png',
-      logoWidth: '140',
-      using: 'Using GoCardless with FreeAgent',
-      industry: 'Digital services',
+      using: 'Uses GoCardless API',
+      industry: 'Energy Supplier',
     },
     {
       link: 'stories_boost_capital',
       quote: `Being able to offer truly paperless Direct Debit is a great selling point`,
       logoSrc: '/images/stories/story-logos/boost-capital.png',
       logoWidth: '140',
-      using: 'Using GoCardless API',
-      industry: 'Loans',
+      using: 'Uses GoCardless API',
+      industry: 'Business Loans',
     },
     {
       link: 'stories_smart_pension',
       quote: `GoCardless ensures our transactions are accurate, easy to setup and manage`,
       logoSrc: '/images/stories/story-logos/smart-pension.png',
       logoWidth: '156',
-      using: 'Using GoCardless API',
-      industry: 'Pensions',
+      using: 'Uses GoCardless API',
+      industry: 'Pensions Provider',
+    },
+
+
+
+    {
+      link: 'stories_fd_works',
+      quote: `When we heard about GoCardless, we knew it was a no-brainer to use it`,
+      logoSrc: '/images/stories/story-logos/fd-works.png',
+      logoWidth: '100',
+      using: 'Uses GoCardless with Xero',
+      industry: 'Accountancy Practice',
+    },
+    {
+      link: 'stories_lyles_sutherland',
+      quote: `It's great knowing money will come in each month without having to chase it`,
+      logoSrc: '/images/stories/story-logos/lyles-sutherland.png',
+      logoWidth: '140',
+      using: 'Uses GoCardless with FreeAgent',
+      industry: 'Digital Agency & Software',
     },
     {
       link: 'stories_connexin',
       quote: `Our monthly bill runs are quick and easy since switching to GoCardless`,
       logoSrc: '/images/stories/story-logos/connexin.png',
       logoWidth: '97',
-      using: 'Using GoCardless API',
-      industry: 'Telecoms',
+      using: 'Uses GoCardless API',
+      industry: 'Telecoms Services',
     },
     {
       link: 'stories_rock_choir',
       quote: `With GoCardless, we can now retry failed payments at the click of a button`,
       logoSrc: '/images/stories/story-logos/rock-choir.png',
       logoWidth: '50',
-      using: 'Using GoCardless Dashboard',
-      industry: 'Membership',
-    },
-    {
-      link: 'stories_wow_company',
-      quote: `GoCardless solved almost a decade of billing and payment headaches for us`,
-      logoSrc: '/images/stories/story-logos/the-wow-company.png',
-      logoWidth: '50',
-      using: 'Using GoCardless with Xero',
-      industry: 'Accountancy',
-    },
-  ],
-  Corporations: [
-    {
-      link: 'stories_nutmeg',
-      quote: `It's a very automated service so we've not needed to add headcount`,
-      logoSrc: '/images/stories/story-logos/nutmeg.png',
-      logoWidth: '140',
-      using: 'Using GoCardless API',
-      industry: 'Investments',
+      using: 'Uses GoCardless Dashboard',
+      industry: 'Membership Group',
     },
     {
       link: 'stories_slm_connect',
       quote: `Up-to-date payment status information allows us to improve our credit control`,
       logoSrc: '/images/stories/story-logos/slm-connect.png',
       logoWidth: '140',
-      using: 'Using GoCardless API',
-      industry: 'Telemarketing',
+      using: 'Uses GoCardless API',
+      industry: 'Marketing Agency',
     },
-    {
-      link: 'stories_peterborough_council',
-      quote: `GoCardless was easy to integrate and offered value for money`,
-      logoSrc: '/images/stories/story-logos/peterborough-council.png',
-      logoWidth: '130',
-      using: 'Using GoCardless API',
-      industry: 'Local Authority',
-    },
+  ],
+  SMEs: [
+
+
+  ],
+  Corporations: [
+
+
   ],
 };
 
@@ -223,11 +233,10 @@ export default class StoriesEn extends React.Component {
                       <h2 className="story-card__quote u-text-light u-text-m u-color-dark-gray u-text-no-smoothing u-margin-Bm">“{ caseStudy.quote }”</h2>
 
                       <div className="story-card__detail u-margin-Bs">
-                        <span className="story-card__key story-card__key--link">{ caseStudy.using }</span>
-                      </div>
-
-                      <div className="story-card__detail u-margin-Bm">
                         <span className="story-card__key story-card__key--industry">{ caseStudy.industry }</span>
+                      </div>
+                      <div className="story-card__detail u-margin-Bm">
+                        <span className="story-card__key story-card__key--link">{ caseStudy.using }</span>
                       </div>
                       <Link to={ caseStudy.link } className='btn btn--small u-block'>
                         Read more
@@ -246,7 +255,7 @@ export default class StoriesEn extends React.Component {
               Start your GoCardless story today
             </h2>
             <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-              Join the <Message pointer='number_of_merchants' />+ businesses already using GoCardless
+              Join the <Message pointer='number_of_merchants' />+ businesses already Uses GoCardless
             </p>
             <Href to='signup.path' className='btn u-margin-Tm u-margin-Rm'>Sign up now</Href>
             <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'><Message pointer='cta.pro' /></Link>
