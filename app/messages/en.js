@@ -31,19 +31,6 @@ export default {
     desc: 'GoCardless makes collecting by Direct Debit easy for everyone from individuals to multi-national corporations',
   },
   contact_types: ['customer support', 'sales'],
-  postal_address: {
-    street_address: '338-346 Goswell Road',
-    address_locality: 'London',
-    postal_code: 'EC1V 7LQ',
-    address_country: 'United Kingdom',
-    address_country_iso: 'GB',
-  },
-  phone_full: '+44 20 7183 8674',
-  phone_local: '+44 20 7183 8674',
-  email: 'help@gocardless.com',
-  partners_email: 'partnerships@gocardless.com',
-  api_reference_link: 'https://developer.gocardless.com/api-reference',
-  developer_link: 'https://developer.gocardless.com',
   prospect_form: {
     sales: {
       name_label: 'Your name',
@@ -572,6 +559,10 @@ export default {
     title: 'Product Manager',
     description: '',
   },
+  jobs_customer_success_manager: {
+    title: 'Customer Success Manager',
+    description: '',
+  },
   jobs_sales_development_representative_inbound: {
     title: 'SDR: UK',
     description: '',
@@ -584,16 +575,8 @@ export default {
     title: 'Head of Operations',
     description: '',
   },
-  jobs_accounts_assistant: {
-    title: 'Accounts Assistant',
-    description: '',
-  },
   jobs_risk_compliance_analyst: {
     title: 'Risk and Compliance Analyst',
-    description: '',
-  },
-  jobs_customer_support_germany: {
-    title: 'Customer Support: Germany',
     description: '',
   },
   jobs_developer_support_lead: {
@@ -614,10 +597,6 @@ export default {
   },
   jobs_solution_engineer: {
     title: 'Solution Engineer',
-    description: '',
-  },
-  jobs_senior_designer: {
-    title: 'Senior Designer',
     description: '',
   },
   api_docs: {

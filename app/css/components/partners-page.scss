@@ -43,6 +43,10 @@
   margin: 0 $space-large;
 }
 
+.partners-page__debitoor-logo {
+  margin-left: -5px;
+}
+
 .partners-page__kashflow-logo {
   margin-top: 11px;
   margin-left: -5px;
@@ -71,6 +75,10 @@
   position: absolute;
   left: 0;
   max-width: 2000px;
+}
+
+.partners-page__hero-screenshot--debitoor {
+  height: 385px;
 }
 
 .partners-page__hero-screenshot--kashflow {

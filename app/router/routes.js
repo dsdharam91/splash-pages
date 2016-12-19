@@ -43,17 +43,15 @@ import EngineeringManager from '../pages/about/jobs/positions/engineering-manage
 import ProductManager from '../pages/about/jobs/positions/product-manager.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
+import CustomerSuccessManager from '../pages/about/jobs/positions/customer-success-manager.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
-import AccountsAssistant from '../pages/about/jobs/positions/accounts-assistant.js';
 import RiskComplianceAnalyst from '../pages/about/jobs/positions/risk-compliance-analyst.js';
 import EngineeringInternships from '../pages/about/jobs/positions/engineering-internships.js';
-import CustomerSupportGermany from '../pages/about/jobs/positions/customer-support-germany.js';
 import CustomerSupport from '../pages/about/jobs/positions/customer-support.js';
 import DeveloperSupportLead from '../pages/about/jobs/positions/developer-support-lead.js';
 import PartnershipMarketingManager from '../pages/about/jobs/positions/partnership-marketing-manager.js';
 import MarketingManagerAccountants from '../pages/about/jobs/positions/marketing-manager-accountants.js';
 import SolutionEngineer from '../pages/about/jobs/positions/solution-engineer.js';
-import SeniorDesigner from '../pages/about/jobs/positions/senior-designer.js';
 import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
 
 import LegalIntroduction from '../pages/legal/introduction/legal-introduction';
@@ -76,6 +74,7 @@ import PartnerWithUs from '../pages/partner-with-us/partner-with-us';
 import Partners from '../pages/partners/partners.en';
 import PartnersBillin from '../pages/partners/billin/partners-billin';
 import PartnersClearBooks from '../pages/partners/clearbooks/partners-clearbooks';
+import PartnersDebitoor from '../pages/partners/debitoor/partners-debitoor';
 import PartnersFreeagent from '../pages/partners/freeagent/partners-freeagent';
 import PartnersKashflow from '../pages/partners/kashflow/partners-kashflow';
 import PartnersPitchero from '../pages/partners/pitchero/partners-pitchero';
@@ -531,27 +530,21 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [CustomerSuccessManager, { name: 'jobs_customer_success_manager', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/customer-success-manager',
+      },
+    },
+  ],
   [HeadofOperations, { name: 'jobs_head_of_operations', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/head-of-operations',
       },
     },
   ],
-  [AccountsAssistant, { name: 'jobs_accounts_assistant', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/accounts-assistant',
-      },
-    },
-  ],
   [RiskComplianceAnalyst, { name: 'jobs_risk_compliance_analyst', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/risk-compliance-analyst',
-      },
-    },
-  ],
-  [CustomerSupportGermany, { name: 'jobs_customer_support_germany', category: 'jobs.operations' }, {
-      en: {
-        path: '/about/jobs/customer-support-germany',
       },
     },
   ],
@@ -588,12 +581,6 @@ export const config = Immutable.fromJS([
   [SolutionEngineer, { name: 'jobs_solution_engineer', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/solution-engineer',
-      },
-    },
-  ],
-  [SeniorDesigner, { name: 'jobs_senior_designer', category: 'jobs.design' }, {
-      en: {
-        path: '/about/jobs/senior-designer',
       },
     },
   ],
@@ -873,6 +860,15 @@ export const config = Immutable.fromJS([
   [PartnersClearBooks, { name: 'partners_clearbooks' }, {
       'en-GB': {
         path: '/partners/clearbooks',
+      },
+    },
+  ],
+  [PartnersDebitoor, { name: 'partners_debitoor' }, {
+      de: {
+        path: '/partner/debitoor',
+      },
+      es: {
+        path: '/asociados/debitoor',
       },
     },
   ],
