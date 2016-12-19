@@ -88,7 +88,7 @@ export default class CustomerSupport extends React.Component {
           proud of. We value learning and feedback, and are devoted to encouraging
           and supporting each other's continual professional growth.
         </p>
-        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
+        <h4 className='u-text-xs u-margin-Bxs u-margin-Tm'>Who we're looking for</h4>
         <ul className='list u-margin-Tm'>
           <li>
             You love helping people, and you are interested in technology.
@@ -105,6 +105,14 @@ export default class CustomerSupport extends React.Component {
           </li>
           <li>
             You have a flawless command of English.
+          </li>
+        </ul>
+        <p className='para'>
+          Not essential, but nice to have:
+        </p>
+        <ul className='list u-margin-Tm'>
+          <li>
+            You know additional languages (e.g., French, Spanish, German).
           </li>
         </ul>
         <p className='para'>
