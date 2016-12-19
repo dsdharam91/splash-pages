@@ -40,49 +40,49 @@ export default class PartnershipsDevelopmentManager extends React.Component {
         </p>
 
         <p className='para'>
-        We are moving into our next phase of expansion and are looking for an
-        ambitious, smart and versatile candidate to develop new strategic partnerships
-        with forward-thinking organisations.
+          We are moving into our next phase of expansion and are looking for an
+          ambitious, smart and versatile candidate to develop new strategic partnerships
+          with forward-thinking organisations.
         </p>
 
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
 
         <p className='para'>
-        You’ll be responsible for finding and launching new strategic partnerships
-        to help us sign up more customers and grow our revenue. You will work
-        closely with the Head of Partnerships, our Sales Development and Marketing
-        teams to identify new partnerships to target. This will include integrating
-        with software platforms to give us access to potential clients, and finding
-        new commercial and implementation partners to refer us new customers.
+          You’ll be responsible for finding and launching new strategic partnerships
+          to help us sign up more customers and grow our revenue. You will work
+          closely with the Head of Partnerships, our Sales Development and Marketing
+          teams to identify new partnerships to target. This will include integrating
+          with software platforms to give us access to potential clients, and finding
+          new commercial and implementation partners to refer us new customers.
         </p>
 
         <p className='para'>
-        You will work closely with our Product and Operations teams to ensure
-        that we can close new partnerships effectively. Once a new partnerships
-        has been launched you will handover to our Partnerships Success Manager
-        to continue growing the partnership.
+          You will work closely with our Product and Operations teams to ensure
+          that we can close new partnerships effectively. Once a new partnerships
+          has been launched you will handover to our Partnerships Success Manager
+          to continue growing the partnership.
         </p>
 
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>What we're looking for</h4>
 
         <p className='para'>
-        We’re looking for people with star potential who want to have a major
-        impact immediately. You’ll be excited to build new and innovative
-        partnerships that transform our business. You’ll be hungry to learn and
-        always ready to adapt to new situations. You should thrive on working
-        with different teams and personalities, and inspire new partners to want
-        to work with us.
+          We’re looking for people with star potential who want to have a major
+          impact immediately. You’ll be excited to build new and innovative
+          partnerships that transform our business. You’ll be hungry to learn and
+          always ready to adapt to new situations. You should thrive on working
+          with different teams and personalities, and inspire new partners to want
+          to work with us.
         </p>
 
         <p className='para'>
-        You’ll be humble about your achievements but keenly aware of your strengths.
-        You’ve got an eye for detail but can always see the bigger picture. You’re
-        reliable and never drop the ball, but you’ve also got flair, creativity
-        and can the ability to provide solutions for complex problems.
+          You’ll be humble about your achievements but keenly aware of your strengths.
+          You’ve got an eye for detail but can always see the bigger picture. You’re
+          reliable and never drop the ball, but you’ve also got flair, creativity
+          and can the ability to provide solutions for complex problems.
         </p>
 
         <p className='para'>
-        You should apply if:
+          You should apply if:
         </p>
 
         <ul className='list u-margin-Tm'>
@@ -119,8 +119,8 @@ export default class PartnershipsDevelopmentManager extends React.Component {
         </ul>
 
         <p className="para">
-        Our team comes from a variety of backgrounds and we welcome
-        diversity – if you’re unsure, please apply.
+          Our team comes from a variety of backgrounds and we welcome
+          diversity – if you’re unsure, please apply.
         </p>
 
         <a href='https://boards.greenhouse.io/gocardless/jobs/269019' className='btn u-margin-Vs'>
