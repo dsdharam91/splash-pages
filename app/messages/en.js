@@ -575,10 +575,6 @@ export default {
     title: 'Head of Operations',
     description: '',
   },
-  jobs_accounts_assistant: {
-    title: 'Accounts Assistant',
-    description: '',
-  },
   jobs_risk_compliance_analyst: {
     title: 'Risk and Compliance Analyst',
     description: '',
