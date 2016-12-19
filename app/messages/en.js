@@ -559,6 +559,10 @@ export default {
     title: 'Product Manager',
     description: '',
   },
+  jobs_customer_success_manager: {
+    title: 'Customer Success Manager',
+    description: '',
+  },
   jobs_sales_development_representative_inbound: {
     title: 'SDR: UK',
     description: '',
@@ -573,10 +577,6 @@ export default {
   },
   jobs_risk_compliance_analyst: {
     title: 'Risk and Compliance Analyst',
-    description: '',
-  },
-  jobs_customer_support_germany: {
-    title: 'Customer Support: Germany',
     description: '',
   },
   jobs_developer_support_lead: {
