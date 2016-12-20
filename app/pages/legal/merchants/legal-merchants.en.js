@@ -27,7 +27,7 @@ export default class LegalMerchantsEn extends React.Component {
           In a nutshell, we promise to provide you with payment processing services, and you promise to be nice, pay amounts due to us and provide us with information we need. The relationship between us is also totally separate from the relationship you have with your customers to provide goods or services – we’re not involved in the actual supply of any goods and services to your customer and any disputes about those should be resolved directly between you and that customer. We have no involvement in or liability for the contractual arrangements between you and your customers.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Applicability of this Agreement</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Applicability of this Agreement</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -55,7 +55,7 @@ export default class LegalMerchantsEn extends React.Component {
           94 – which relates to the period of notice GoCardless is required to give you if it changes or adds to the terms of this Agreement.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Setting up a GoCardless Account</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Setting up a GoCardless Account</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -134,7 +134,7 @@ export default class LegalMerchantsEn extends React.Component {
             </ul>
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Verification of your GoCardless Account</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Verification of your GoCardless Account</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -223,7 +223,7 @@ export default class LegalMerchantsEn extends React.Component {
             Before providing you with the GoCardless Service, we may, at our absolute discretion, require a personal guarantee from a director or other principal of a business, or from another entity, for Fees, Authorised Deductions and all other funds owed under this Agreement. If this is the case, we’ll get in touch with you.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Use of your GoCardless Account</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Use of your GoCardless Account</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -277,7 +277,7 @@ export default class LegalMerchantsEn extends React.Component {
             You will be responsible for all acts and omissions of the Authorised Users in relation to the GoCardless Service and acknowledge that GoCardless cannot monitor which individual is using the GoCardless Account and as such cannot restrict access on a per-user basis.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Keeping your GoCardless Account secure</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Keeping your GoCardless Account secure</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -331,7 +331,7 @@ export default class LegalMerchantsEn extends React.Component {
             You agree that GoCardless is entitled to assume that any party using the Account Details to access the GoCardless Account is an Authorised User, unless you inform GoCardless that the security of the Account Details have been breached as required by clause 16.g.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>The API</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>The API</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -347,7 +347,7 @@ export default class LegalMerchantsEn extends React.Component {
             You must not use the API in any way which breaches the requirements and restrictions contained in the Documentation, or which constitutes a Restricted Activity, and we may ask you to install or update certain software in order to ensure the proper functioning of the API.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Our Trade Marks and Intellectual Property</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Our Trade Marks and Intellectual Property</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -363,7 +363,7 @@ export default class LegalMerchantsEn extends React.Component {
             You may only use the GoCardless Service in a manner consistent with this Agreement. All intellectual property in the GoCardless Service including that protected by, without limitation, copyright, design right, patents, trade secret and other laws, is and remains the property of GoCardless. Should you make or suggest improvements or changes to the GoCardless Service, you agree that any intellectual property in such suggestion is the property of GoCardless and that GoCardless may exploit such intellectual property as it sees fit.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Processing Payments</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Processing Payments</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -431,7 +431,7 @@ export default class LegalMerchantsEn extends React.Component {
             You acknowledge that you are not due and will not be entitled to receive any interest on funds that are held by GoCardless on your behalf.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Cancellations and Refunds</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Cancellations and Refunds</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -501,7 +501,7 @@ export default class LegalMerchantsEn extends React.Component {
             You shall indemnify GoCardless in respect of any amounts and costs incurred as a result of any Chargeback, claim or refund (fraudulent or otherwise) initiated by a Customer and that GoCardless is obliged to make under the relevant Payment Scheme Rules. For the avoidance of doubt, GoCardless may not claim under this indemnity where any amounts or costs incurred arise as a result of GoCardless’ negligence, default, mismanagement or mistake.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Deductions, Payments and Invoicing</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Deductions, Payments and Invoicing</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -526,7 +526,7 @@ export default class LegalMerchantsEn extends React.Component {
             If the amount of any Authorised Deductions and/or Fees (including, without limitation, following the termination of this Agreement) exceeds the amount of any sums payable by GoCardless to you, GoCardless may invoice you for the difference. The amounts set out in any such invoice are due and payable immediately.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Unauthorised Payments</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Unauthorised Payments</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -597,7 +597,7 @@ export default class LegalMerchantsEn extends React.Component {
             </ul>
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Incorrectly Executed Payments</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Incorrectly Executed Payments</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -647,7 +647,7 @@ export default class LegalMerchantsEn extends React.Component {
             </ul>
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Suspected Fraud</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Suspected Fraud</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -671,7 +671,7 @@ export default class LegalMerchantsEn extends React.Component {
             If we suspect that any Transaction is fraudulent, is in violation of this Agreement, law or regulation, or the relevant Payment Scheme, or is likely to expose either GoCardless, or any other party to harm, we reserve the right not to process that Transaction, and if the Transaction has already been processed, to reverse it if possible to do so, and/or to advise your Customer to claim such funds back resulting in a Chargeback that you would be liable for. In addition, you grant us permission to provide any law enforcement, government or similar agency or body with information about you, your Transactions and any other information we hold about you if we suspect that your account has been used or is likely to be used in the manner set out above. We may do all of these things even following termination of your GoCardless Account and this Agreement.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Law enforcement and other demands</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Law enforcement and other demands</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -687,7 +687,7 @@ export default class LegalMerchantsEn extends React.Component {
             We may deliver funds relating to or deriving from your use of the GoCardless Service and/or information where required to do so by or in connection with a Legal Process Request. Where we are permitted to do so, and unless to do so would, in our sole and absolute discretion, put the security of the GoCardless Service or any individual at risk, we will use reasonable endeavours to provide you with notice of any such Legal Process Request.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Warranties</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Warranties</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -737,7 +737,7 @@ export default class LegalMerchantsEn extends React.Component {
             </ul>
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Liability</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Liability</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -771,7 +771,7 @@ export default class LegalMerchantsEn extends React.Component {
             </ul>
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Third party services</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Third party services</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -783,7 +783,7 @@ export default class LegalMerchantsEn extends React.Component {
             You may utilise third party services that connect directly to your GoCardless Account via the API or other mechanisms. GoCardless is not responsible for any aspect of such service, including security, availability, support or functionality. You use such services at your own risk, and are responsible for all Transactions initiated or otherwise affected by such service.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Suspension of your Account and the Services</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Suspension of your Account and the Services</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -841,7 +841,7 @@ export default class LegalMerchantsEn extends React.Component {
             Where any of the factors for suspension referred to above cease to exist then, unless GoCardless exercises its rights to terminate this Agreement in light of such factors, GoCardless will, as soon as reasonably practicable, reinstate your access to the GoCardless Service and the API but may require you to change the Account Details.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Monitoring Programme</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Monitoring Programme</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -939,7 +939,7 @@ export default class LegalMerchantsEn extends React.Component {
             It is not possible for you to reduce the Level of the Monitoring Programme applicable to you until the Acceptable Claim Percentage has been met as detailed above.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Termination</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Termination</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1061,7 +1061,7 @@ export default class LegalMerchantsEn extends React.Component {
             </ul>
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Consequences of Termination</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Consequences of Termination</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1115,7 +1115,7 @@ export default class LegalMerchantsEn extends React.Component {
             </ul>
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Law</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Law</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1135,7 +1135,7 @@ export default class LegalMerchantsEn extends React.Component {
             The Parties agree that English courts shall have exclusive jurisdiction over any disputes relating or connected to it.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Disputes and complaints</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Disputes and complaints</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1163,7 +1163,7 @@ export default class LegalMerchantsEn extends React.Component {
             If GoCardless is unable to resolve a complaint to your satisfaction, you may be able to refer the complaint to the Financial Ombudsman Service. The Financial Ombudsman Service is a free and independent service which seeks to settle disputes between certain parties. You can find more information about the Financial Ombudsman Service on its website: <a href="http://www.financial-ombudsman.org.uk/">financial-ombudsman.org.uk</a>.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Data Protection</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Data Protection</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1243,7 +1243,7 @@ export default class LegalMerchantsEn extends React.Component {
             You may utilise third party services that connect directly to your GoCardless Account, either by providing them with your account details, via the API or other mechanisms. When you provide your account details to those third parties, you remain liable for all activity under your GoCardless Account, and take full responsibility for ensuring that you have appropriate agreements in place with that third party in relation to transfer of data including personal data.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Maintenance</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Maintenance</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1263,7 +1263,7 @@ export default class LegalMerchantsEn extends React.Component {
             You may sign up for notifications of both Scheduled Maintenance and Emergency Maintenance via the online reporting tool made available by GoCardless at http://www.gocardless-status.com/ or its replacement.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Force Majeure/Acts of God
         </h3>
 
@@ -1285,7 +1285,7 @@ export default class LegalMerchantsEn extends React.Component {
             Neither Party shall be liable to the ther as a result of any delay or failure to perform its obligations under this Agreement as a result of a Force Majeure Event.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Assignment and subcontractors</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Assignment and subcontractors</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1305,7 +1305,7 @@ export default class LegalMerchantsEn extends React.Component {
             GoCardless may assign its rights under this Agreement or subcontract its obligations under it to a third party. You shall not assign this Agreement or any rights under this Agreement without GoCardless’ prior written consent, and you shall not grant any security over this contract. Should GoCardless agree to any assignment of this Agreement by you, any assignee must first satisfy GoCardless’ know-your-customer, anti-money laundering requirements and Verification; and shall provide reasonable information and assistance to GoCardless in order to set up the GoCardless Account, including the Account Information.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Getting in touch</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Getting in touch</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1325,7 +1325,7 @@ export default class LegalMerchantsEn extends React.Component {
             Any notice or other communication shall be deemed to have been duly received the next Business Day following the notice being communicated.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>General</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>General</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1350,7 +1350,7 @@ export default class LegalMerchantsEn extends React.Component {
             Each Party acknowledges that it has not entered into this Agreement in reliance on, and shall have no remedies in respect of, any representation or warranty that is not expressly set out in this Agreement, except in the case of fraudulent misrepresentation. No Party shall have any claim for innocent or negligent misrepresentation on the basis of any statement in this Agreement.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Waiver</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Waiver</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1374,7 +1374,7 @@ export default class LegalMerchantsEn extends React.Component {
             Unless specifically provided otherwise, rights arising under this Agreement are cumulative and do not exclude rights provided by law.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Severance</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Severance</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1386,7 +1386,7 @@ export default class LegalMerchantsEn extends React.Component {
             If a court or any other competent authority finds that any provision of this Agreement (or part of any provision) to be invalid, illegal or unenforceable, that provision or part provision shall, to the extent required, be deemed deleted, and the validity and enforceability of the other provisions of this Agreement shall not be affected. If any invalid, unenforceable or illegal provision of this Agreement would be valid, enforceable and legal if some part of it were deleted, the provision shall apply with the minimum modification necessary to make it legal, valid and enforceable.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>No Partnership and referring to our relationship</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>No Partnership and referring to our relationship</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1406,7 +1406,7 @@ export default class LegalMerchantsEn extends React.Component {
             You agree that during the term of this Agreement, we may refer to you publicly as a customer of GoCardless.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Third Party Rights</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Third Party Rights</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1418,7 +1418,7 @@ export default class LegalMerchantsEn extends React.Component {
             A person who is not a Party to this Agreement has no right under the Contracts (Rights of Third Parties) Act 1999 to enforce any term of it but this does not affect any right or remedy of a third party which exists or is available apart from under that Act.
           </li>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Change of circumstances</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Change of circumstances</h3>
 
         <div className='simple-terms'>
           <p className='para'>
@@ -1458,7 +1458,7 @@ export default class LegalMerchantsEn extends React.Component {
         </ul>
 
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>Definitions</h3>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>Definitions</h3>
 
         <p className='para'>
           What follows are the definitions used in the above terms and conditions – you can easily identify them, as they’re capitalised when used in the Agreement:

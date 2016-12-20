@@ -8,7 +8,7 @@ export default class FaqMerchantsHowItWorksFr extends React.Component {
     return (
       <Translation locales='fr'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Fonctionnement</h2>
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Quand vais-je recevoir mes paiements?
         </h3>
         <p className='para'>
@@ -16,7 +16,7 @@ export default class FaqMerchantsHowItWorksFr extends React.Component {
           sur le compte de votre client.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Quels types de paiement sont acceptés?
         </h3>
         <p className='para'>
@@ -25,7 +25,7 @@ export default class FaqMerchantsHowItWorksFr extends React.Component {
           récurrents ou variables.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Quel est le processus de paiement?
         </h3>
         <ul className='list u-margin-Tm'>
@@ -49,7 +49,7 @@ export default class FaqMerchantsHowItWorksFr extends React.Component {
           </li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Comment mes clients autorisent-ils les paiements?
         </h3>
         <p className='para'>
@@ -57,14 +57,14 @@ export default class FaqMerchantsHowItWorksFr extends React.Component {
           vous pouvez soit utiliser les pages de paiements GoCardless ou vos propres pages de paiements.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Est il possible de planifier mes paiements pour des dates précises?
         </h3>
         <p className='para'>
           Oui – vous pouvez facilement adapter le jour, la date, la fréquence et la durée de tous vos paiements.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Est il possible de modifier un paiement une fois créé?
         </h3>
         <p className='para'>
@@ -73,7 +73,7 @@ export default class FaqMerchantsHowItWorksFr extends React.Component {
           fait facilement via notre tableau de bord ou notre API.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Comment savoir quand j’ai été payé?
         </h3>
         <p className='para'>
@@ -81,7 +81,7 @@ export default class FaqMerchantsHowItWorksFr extends React.Component {
           tableau de bord en ligne ou une simple requête API.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Est-il possible que vous mettiez des limites sur mon compte?
         </h3>
         <p className='para'>

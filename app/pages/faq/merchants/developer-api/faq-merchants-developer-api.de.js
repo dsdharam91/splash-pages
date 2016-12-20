@@ -10,7 +10,7 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
       <Translation locales='de'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Entwickler API</h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Wozu kann ich die API verwenden?
         </h3>
         <p className='para'>
@@ -22,7 +22,7 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
           Ihre Website einzuziehen.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Welche Programmiersprachen unterstützt GoCardless für die Integration?
         </h3>
         <p className='para'>
@@ -31,7 +31,7 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
           Integration an, darunter Ruby, PHP und Java. Wir fügen regelmäßig neue Libraries hinzu.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Kann ich die Zahlungsseiten auch auf meiner Website hosten?
         </h3>
         <p className='para'>
@@ -48,7 +48,7 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
           Ausfüllen des Formulars leiten wir Ihre Kunden wieder zurück auf Ihre Seite.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Sind auch iFrames möglich?
         </h3>
         <p className='para'>
@@ -58,7 +58,7 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
           Bankdetails Ihrer Kunden auf Ihrem eigenen Server zu speichern.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Welche Informationen sind über die API verfügbar?
         </h3>
         <p className='para'>
@@ -70,7 +70,7 @@ export default class FaqMerchantsDeveloperApiDe extends React.Component {
           className='u-link-color-p u-text-underline'>Webhook Dokumentation</a> mehr über die Verwendung von Webhooks erfahren.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Ich brauche Unterstützung, wie kann ich technische Hilfe bekommen?
         </h3>
         <p className='para'>

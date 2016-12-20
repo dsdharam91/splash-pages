@@ -25,7 +25,7 @@ export default class LegalIntroductionEs extends React.Component {
         </p>
 
         <Link to='legal_merchants' className='legal-contents__link u-link-clean'>
-          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-xs legal-contents__link-heading'>
+          <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-xs legal-contents__link-heading'>
             Acuerdo para Empresas
           </h3>
           <p className='para'>
@@ -34,7 +34,7 @@ export default class LegalIntroductionEs extends React.Component {
         </Link>
 
         <Link to='legal_restrictions' className='legal-contents__link u-link-clean'>
-          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-xs legal-contents__link-heading'>
+          <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-xs legal-contents__link-heading'>
             Actividades Restringidas
           </h3>
           <p className='para'>
@@ -43,7 +43,7 @@ export default class LegalIntroductionEs extends React.Component {
         </Link>
 
         <Link to='legal_privacy' className='legal-contents__link u-link-clean'>
-          <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-xs legal-contents__link-heading'>
+          <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-xs legal-contents__link-heading'>
             Política de Privacidad
           </h3>
           <p className='para'>

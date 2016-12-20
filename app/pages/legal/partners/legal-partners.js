@@ -23,7 +23,7 @@ export default class LegalPartners extends React.Component {
         </p>
 
         <ol className='list list--numbered u-margin-Tn'>
-          <li className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <li className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
             The GoCardless API and Partner API
           </li>
 
@@ -39,7 +39,7 @@ export default class LegalPartners extends React.Component {
             For the avoidance of doubt, as a partner you do not own any of the transaction or other details related to any Merchant's GoCardless account. Your role is only as a facilitator.
           </p>
 
-          <li className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <li className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
             Your GoCardless partner account
           </li>
 
@@ -64,7 +64,7 @@ export default class LegalPartners extends React.Component {
             </li>
           </ul>
 
-          <li className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <li className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
             Charging fees to Merchants
           </li>
 
@@ -89,7 +89,7 @@ export default class LegalPartners extends React.Component {
             If we cannot deduct the above from future payments to you, we may require you to repay them to us.
           </p>
 
-          <li className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <li className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
             The GoCardless brand
           </li>
 
@@ -97,7 +97,7 @@ export default class LegalPartners extends React.Component {
             From time to time, GoCardless may set out restrictions about how its name, logo and services should be presented. Your use of the brand is at all times subject to these restrictions.
           </p>
 
-          <li className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <li className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
             Restricted Activities
           </li>
 
@@ -109,7 +109,7 @@ export default class LegalPartners extends React.Component {
             <strong>In the event that you fail to comply with the terms of the Contract, or any instructions for use provided by GoCardless, we shall have no responsibility or liability to you for the performance of payment services.</strong>
           </p>
 
-          <li className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <li className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
             Suspected Fraud/Illegal Activity by Merchants using your services or their customers
           </li>
 
@@ -121,7 +121,7 @@ export default class LegalPartners extends React.Component {
             You must use your best efforts to assist us in identifying any suspicious or potentially fraudulent use of GoCardless, including making information relating to merchants using your services available to us. To do this, you must retain records and make them available to us relating to each merchant using your services for a minimum of 1 month after they cease using your services.
           </p>
 
-          <li className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <li className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
             Termination
           </li>
 
@@ -133,7 +133,7 @@ export default class LegalPartners extends React.Component {
             You or GoCardless may terminate this Contract in the same circumstances and on the same notice periods as set out in the <Link to='legal_merchants' className='u-link-color-p u-text-underline'>Merchant Terms</Link>.
           </p>
 
-          <li className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <li className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
             Consequences of termination
           </li>
 
@@ -141,7 +141,7 @@ export default class LegalPartners extends React.Component {
             On termination of this partner contract with you for any reason, the clause headed Termination' and 'Consequences of Termination' in the <Link to='legal_merchants' className='u-link-color-p u-text-underline'>Merchant Terms</Link> shall apply, but we may also charge you for or deduct fees relating to transactions which have been reversed, as set out under 'Deductions, Payments and Invoicing', 'Processing Payments', and 'Cancellations and Payments' as further set out in the <Link to='legal_merchants' className='u-link-color-p u-text-underline'>Merchant Terms</Link>.
           </p>
 
-          <li className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <li className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
             Data Protection
           </li>
 
@@ -174,7 +174,7 @@ export default class LegalPartners extends React.Component {
             You are responsible for capturing and securing any Personal Data you need prior to submitting it to us for processing. GoCardless will use the Personal Data for processing the payment transactions requested by your customers. For the purposes of the Contract, 'Personal Data' shall have the meaning given to it by the Data Protection Act 1998.
           </p>
 
-          <li className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+          <li className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
             General
           </li>
 

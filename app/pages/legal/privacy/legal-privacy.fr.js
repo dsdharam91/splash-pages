@@ -37,14 +37,14 @@ export default class LegalPrivacyFr extends React.Component {
           clients par prélèvement bancaire via GoCardless.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           1.  Que couvre notre politique de confidentialité ?
         </h3>
         <p className='para'>
           Notre politique vous informe sur la façon dont nous traitons vos données personnelles.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           2.  Quelles sont les données personnelles collectées ?
         </h3>
         <p className='para'>
@@ -64,7 +64,7 @@ export default class LegalPrivacyFr extends React.Component {
           </ul>
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           3.  Collecte et utilisation de vos données
         </h3>
         <p className='para'>
@@ -132,7 +132,7 @@ export default class LegalPrivacyFr extends React.Component {
           personnelles avec des tiers ou des entreprises non-affiliées sans recevoir explicitement votre autorisation.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s' id='cookies'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s' id='cookies'>
           4.  Cookies
         </h3>
         <p className='para'>
@@ -176,7 +176,7 @@ export default class LegalPrivacyFr extends React.Component {
             de trafic web) peuvent également utiliser des cookies sur lesquels nous n'avons aucun contrôle.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           5.  Informations divulguées
         </h3>
         <p className='para'>
@@ -204,7 +204,7 @@ export default class LegalPrivacyFr extends React.Component {
           fournirons pas vos informations à des tiers.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           6.  Les transferts de données internationaux
         </h3>
         <p className='para'>
@@ -216,7 +216,7 @@ export default class LegalPrivacyFr extends React.Component {
           Les informations que vous fournissez ne seront pas transférées en dehors de l’Union Européenne.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           7.  La sécurité de vos données personnelles
         </h3>
         <p className='para'>
@@ -231,7 +231,7 @@ export default class LegalPrivacyFr extends React.Component {
           garantir la sécurité des données transmises sur Internet.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           8.  Vos droits
         </h3>
         <p className='para'>
@@ -250,7 +250,7 @@ export default class LegalPrivacyFr extends React.Component {
             de décider que vos données personnelles ne fassent plus l’objet d’une utilisation à des fins de marketing.)
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           9.  Mise à jour des informations
         </h3>
         <p className='para'>
@@ -258,7 +258,7 @@ export default class LegalPrivacyFr extends React.Component {
           être corrigées ou mises à jour.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           10. Contact
         </h3>
         <p className='para'>
@@ -268,7 +268,7 @@ export default class LegalPrivacyFr extends React.Component {
           className='u-link-color-p u-text-underline' itemProp='email' />.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           11. Loi applicable et Tribunal compétent
         </h3>
         <p className='para'>

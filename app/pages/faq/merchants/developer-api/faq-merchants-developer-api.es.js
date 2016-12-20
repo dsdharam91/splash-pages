@@ -11,7 +11,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>Developer API</strong></h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Para qué puedo utilizar la API?
           </strong>
@@ -26,7 +26,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           gestionar múltiples comerciantes.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Cómo funciona la API Partner?
           </strong>
@@ -40,7 +40,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           className='u-link-color-p u-text-underline'>contactanos</Link>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Qué lenguajes de programación puedo utilizar?
           </strong>
@@ -61,7 +61,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           </a>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Puedo alojar las páginas de cobro en mi sitio?
           </strong>
@@ -79,7 +79,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           puedes permitir que tus clientes vayan a las páginas de cobro a través de un Pop-up en tu web.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Ofrecéis iFrames?
           </strong>
@@ -92,7 +92,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           Flow JS que evita que tengas que almacenar datos bancarios en tus servidores.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Se pueden hacer los pagos directamente a través de la API?
           </strong>
@@ -105,7 +105,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           Una vez que la autorización se haya realizado, se puede solicitar el cobro a través de la API.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Qué información está disponible a través de la API?
           </strong>
@@ -120,7 +120,7 @@ export default class FaqMerchantsDeveloperApiEs extends React.Component {
           className='u-link-color-p u-text-underline'>guía de webhooks</a>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Dónde puedo obtener soporte técnico?
           </strong>

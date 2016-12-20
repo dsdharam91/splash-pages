@@ -9,7 +9,7 @@ export default class FaqMerchantsReferrals extends React.Component {
     return (
       <FaqMerchantsPage>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Referral scheme</h2>
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Does GoCardless have a referral scheme?
         </h3>
         <p className='para'>
@@ -21,7 +21,7 @@ export default class FaqMerchantsReferrals extends React.Component {
           emailing <Href to='partners_email' className='u-link-color-p u-text-underline' itemProp='email' />.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           What happened to the old referral scheme?
         </h3>
         <p className='para'>
@@ -29,7 +29,7 @@ export default class FaqMerchantsReferrals extends React.Component {
           for the referral incentive.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           I’ve referred a friend to GoCardless. What happens to my GoCardless credit?
         </h3>
         <p className='para'>
@@ -41,7 +41,7 @@ export default class FaqMerchantsReferrals extends React.Component {
           automatically and paid out to the bank account we hold on file for you on the payment date.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           I’ve joined GoCardless through a referral link. What happens to my fee rebate?
         </h3>
         <p className='para'>
@@ -52,7 +52,7 @@ export default class FaqMerchantsReferrals extends React.Component {
           please note this will be processed automatically and paid out to the bank account we hold on file for you on the payment date.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           What happens to my old referral links?
         </h3>
         <p className='para'>

@@ -12,7 +12,7 @@ export default class FaqMerchantsEs extends React.Component {
     return (
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>Resumen</strong></h2>
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Cómo puedo usar GoCardless?
           </strong>
@@ -35,7 +35,7 @@ export default class FaqMerchantsEs extends React.Component {
             nuestra <Href to='developer_link' className='u-link-color-p u-text-underline'>API REST</Href>.
           </li>
         </ul>
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿A quién está dirigido GoCardless?
           </strong>
@@ -55,7 +55,7 @@ export default class FaqMerchantsEs extends React.Component {
           más <Link to='features' className='u-link-color-p u-text-underline'>aquí</Link>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Para qué no puedo usar GoCardless?
           </strong>
@@ -79,7 +79,7 @@ export default class FaqMerchantsEs extends React.Component {
           página de actividades restringidas.</Link>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Hay algún límite en cuanto a la cantidad que puedo cobrar?
           </strong>
@@ -92,7 +92,7 @@ export default class FaqMerchantsEs extends React.Component {
           Este límite se podría ampliar realizando controles de verificación adicionales
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Cómo recibo los fondos que he recaudado con GoCardless?
           </strong>
@@ -109,7 +109,7 @@ export default class FaqMerchantsEs extends React.Component {
           comisiones</Link>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Cuándo recibo mi cobro?
           </strong>
@@ -121,7 +121,7 @@ export default class FaqMerchantsEs extends React.Component {
           No mantenemos ninguno de tus fondos en reserva.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Se aceptan tarjetas de crédito o de débito?
           </strong>
@@ -130,7 +130,7 @@ export default class FaqMerchantsEs extends React.Component {
           No, GoCardless es una compañía de Adeudo Directo y Domiciliación Bancaria.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Por qué GoCardless es mejor que cualquier otra de las opciones que estoy considerando?
           </strong>

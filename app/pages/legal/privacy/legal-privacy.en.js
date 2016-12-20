@@ -42,7 +42,7 @@ export default class LegalPrivacyEn extends React.Component {
           Some of those suppliers are parties to agreements with us which may change some of their rights.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           What this privacy policy covers
         </h3>
         <p className='para'>
@@ -50,7 +50,7 @@ export default class LegalPrivacyEn extends React.Component {
           our website visitors.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           What is personal information?
         </h3>
         <p className='para'>
@@ -58,7 +58,7 @@ export default class LegalPrivacyEn extends React.Component {
           living individual, such as their title, name, address, email address and phone number.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Information collection and use
         </h3>
         <p className='para'>
@@ -142,7 +142,7 @@ export default class LegalPrivacyEn extends React.Component {
             or share personal information about you with other people or non-affiliated companies without your express permission.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Where we store your personal data
         </h3>
 
@@ -168,7 +168,7 @@ export default class LegalPrivacyEn extends React.Component {
           prevent unauthorised access.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Disclosure of your information
         </h3>
 
@@ -180,7 +180,7 @@ export default class LegalPrivacyEn extends React.Component {
           fraud protection and credit risk reduction.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Cookies
         </h3>
 

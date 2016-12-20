@@ -10,7 +10,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
       <Translation locales='de'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Lastschriften</h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Was ist das SEPA Lastschriftverfahren?
         </h3>
         <p className='para'>
@@ -25,7 +25,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           className='u-link-color-p u-text-underline'>SEPA Handbuch</Href> mehr zum SEPA Lastschriftverfahren erfahren.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Wie steht es um Kundenschutz?
         </h3>
         <p className='para'>
@@ -43,7 +43,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           Es liegt dann am Händler den Disput oder das Missverständnis mit seinem Kunden zu klären.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Zahlt der Kunde Gebühren?
         </h3>
         <p className='para'>
@@ -51,14 +51,14 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           Es ist daher kostenlos für Ihre Kunden das Lastschriftverfahren zu nutzen.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Benötige ich eine SEPA Gläubiger ID?
         </h3>
         <p className='para'>
           Nein, wir können Ihnen eine SEPA Gläubiger ID über unsere Partnerbank zur Verfügung stellen.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Für welche Art von Zahlungen ist das Lastschriftverfahren besonders geeignet?
         </h3>
 
@@ -71,7 +71,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           <li>Dienstleistungen, die in Rechnung gestellt werden (z.B. Rechts- oder Steuerberatung)</li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Für welche Arten von Zahlungen kommt es weniger in Frage?
         </h3>
         <ul className='list'>
@@ -80,7 +80,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           <li>Zahlungen, die mit hoher Wahrscheinlichkeit zurückgefordert werden (z.B. Glücksspiele)</li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Wie lange braucht eine Lastschriftzahlung?
         </h3>
         <p className='para'>
@@ -96,7 +96,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           dienen nur zu Ihrer Information.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Ist es auch möglich einzelne Zahlungen per Lastschrift einzuziehen?
         </h3>
         <p className='para'>
@@ -104,7 +104,7 @@ export default class FaqMerchantsDirectDebitDe extends React.Component {
           damit einzelne Zahlungen einziehen.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Ist es einfach den Lastschriftanbieter zu wechseln?
         </h3>
         <p className='para'>

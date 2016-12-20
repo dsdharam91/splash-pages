@@ -39,7 +39,7 @@ export default class LegalPrivacyDe extends React.Component {
           Mit einzelnen Geschäftskunden wurden von uns Verträge abgeschlossen, durch die einige ihrer Rechte modifiziert werden könnten.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Was regelt diese Datenschutzrichtlinie?
         </h3>
         <p className='para'>
@@ -47,7 +47,7 @@ export default class LegalPrivacyDe extends React.Component {
           die wir von den Besuchern unserer Website und von Kunden erfassen und erhalten, behandeln.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Was sind personenbezogene Daten?
         </h3>
         <p className='para'>
@@ -56,7 +56,7 @@ export default class LegalPrivacyDe extends React.Component {
           bestimmte Arten von Serverprotokollen von Ihrem Browser, Ihre IP-Adresse und bestimmte Arten von Cookie-Informationen.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Erfassung und Verwendung von Informationen
         </h3>
         <p className='para'>
@@ -88,7 +88,7 @@ export default class LegalPrivacyDe extends React.Component {
           Informationen über Sie an andere Personen oder nicht mit uns verbundene Unternehmen vermieten, verkaufen oder weitergeben.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Erfassung und Verwendung von Informationen
         </h3>
         <p className='para'>
@@ -105,7 +105,7 @@ export default class LegalPrivacyDe extends React.Component {
           um Fragen zu stellen oder die Korrektur, Beschränkung oder Löschung Ihrer personenbezogenen Daten zu verlangen.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Cookies
         </h3>
         <p className='para'>
@@ -146,7 +146,7 @@ export default class LegalPrivacyDe extends React.Component {
           nicht mehr auf private Bereiche der Website zugreifen können.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Cookies Dritter
         </h3>
         <p className='para'>
