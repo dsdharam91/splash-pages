@@ -52,6 +52,7 @@ import DeveloperSupportLead from '../pages/about/jobs/positions/developer-suppor
 import PartnershipsDevelopmentManager from '../pages/about/jobs/positions/partnerships-development.js';
 import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success.js';
 import MarketAnalystInternship from '../pages/about/jobs/positions/market-analyst.js';
+import HeadofEnterpriseSales from '../pages/about/jobs/positions/head-enterprise-sales.js';
 import PartnershipMarketingManager from '../pages/about/jobs/positions/partnership-marketing-manager.js';
 import MarketingManagerAccountants from '../pages/about/jobs/positions/marketing-manager-accountants.js';
 import SolutionEngineer from '../pages/about/jobs/positions/solution-engineer.js';
@@ -620,6 +621,12 @@ export const config = Immutable.fromJS([
   [MarketAnalystInternship, { name: 'jobs_market_analyst_internship', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/market-analyst-internship',
+      },
+    },
+  ],
+  [HeadofEnterpriseSales, { name: 'jobs_head_of_enterprise_sales', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/head-of-enterprise-sales',
       },
     },
   ],

@@ -604,6 +604,10 @@ export default {
     title: 'Market Analyst Internship',
     description: '',
   },
+  jobs_head_of_enterprise_sales: {
+    title: 'Head of Enterprise Sales',
+    description: '',
+  },
   jobs_head_of_operations: {
     title: 'Head of Operations',
     description: '',
