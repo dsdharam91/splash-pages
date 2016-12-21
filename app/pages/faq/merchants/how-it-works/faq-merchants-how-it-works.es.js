@@ -77,7 +77,7 @@ export default class FaqMerchantsHowItWorksEs extends React.Component {
         </h3>
         <p className='para'>
           Sí - los clientes pueden autorizar el Mandato SEPA en tu propio flujo de venta, bien a través de una integración
-          con nuestra <Href to='developer_link' className='u-link-color-p u-text-underline'>API</Href> o
+          con nuestra <Href to='developers.path' className='u-link-color-p u-text-underline'>API</Href> o
           generando un enlace para un plan de cobros e incrustándolo como botón en tu propio sitio web.
         </p>
         <p className='para'>

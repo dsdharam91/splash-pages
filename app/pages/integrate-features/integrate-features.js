@@ -84,7 +84,7 @@ export default class IntegrateFeatures extends React.Component {
           </div>
 
           <p className='u-text-s u-text-center u-color-dark-gray u-padding-Vxl'>See our&nbsp;
-            <Href to='developer_link'>
+            <Href to='api_docs.path'>
               API reference docs
             </Href></p>
         </div>

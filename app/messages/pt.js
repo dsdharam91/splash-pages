@@ -55,6 +55,7 @@ export default {
   api_docs: {
     title: 'Documentação da API',
     nav_title: 'API',
+    path: 'https://developer.gocardless.com/api-reference',
   },
   blog: {
     title: 'Blog',
@@ -65,5 +66,9 @@ export default {
     title: 'Guias',
     nav_title: 'Guias',
     path: '/guides',
+  },
+  developers: {
+    nav_title: 'API',
+    path: 'https://developer.gocardless.com',
   },
 };

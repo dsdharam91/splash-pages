@@ -167,7 +167,7 @@ export default class FeaturesDe extends React.Component {
                     </div>
                     <p className='u-color-dark-gray u-margin-Txs'>
                       Integrieren Sie GoCardless innerhalb von Minuten in Ihre Website oder App über unsere benutzerfreundlichen
-                      API-Bibliotheken. <Href to='developer_link'>Mehr dazu</Href>.
+                      API-Bibliotheken. <Href to='developers.path'>Mehr dazu</Href>.
                     </p>
                   </div>
                 </div>

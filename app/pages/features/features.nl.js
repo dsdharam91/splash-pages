@@ -166,7 +166,7 @@ export default class FeaturesNl extends React.Component {
                       Gebruiksvriendelijke, RESTful API
                     </div>
                     <p className='u-color-dark-gray u-margin-Txs'>
-                      Voeg GoCardless in enkele minuten toe aan je website of app met onze gebruiksvriendelijke API. <Href to='developer_link'>Lees meer</Href>.
+                      Voeg GoCardless in enkele minuten toe aan je website of app met onze gebruiksvriendelijke API. <Href to='developers.path'>Lees meer</Href>.
                     </p>
                   </div>
                 </div>
