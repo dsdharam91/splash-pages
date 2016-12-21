@@ -584,6 +584,10 @@ export default {
     title: 'Customer Success Manager',
     description: '',
   },
+  jobs_customer_success_manager_france: {
+    title: 'Customer Success Manager: France',
+    description: '',
+  },
   jobs_sales_development_representative_inbound: {
     title: 'SDR: UK',
     description: '',
@@ -594,6 +598,10 @@ export default {
   },
   jobs_partnerships_development_manager: {
     title: 'Partnerships Development Manager',
+    description: '',
+  },
+  jobs_partnerships_success_manager: {
+    title: 'Partnerships Success Manager',
     description: '',
   },
   jobs_partnerships_success_manager: {

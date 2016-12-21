@@ -102,7 +102,7 @@ export default class HeadofEnterpriseSales extends React.Component {
           This role would ideally suit someone with experience in a fast-growing SaaS business, with previous manager experience.
           However our team come from a variety of backgrounds and we welcome diversity &ndash; if you're unsure, please apply.
         </p>
-        <a href='http://boards.greenhouse.io/gocardless/jobs/207657' className='btn u-margin-Vs'>
+        <a href='boards.greenhouse.io/gocardless/jobs/543274' className='btn u-margin-Vs'>
           Apply now
         </a>
       </JobsPage>
