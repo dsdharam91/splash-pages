@@ -10,8 +10,17 @@
   background: $xdark-gray;
 }
 
+.page-footer__end--light {
+  background: $xdark-gray;
+}
+
 .page-footer__link.is-active {
   text-decoration: none;
+}
+
+.page-footer__logo {
+  width: 199px;
+  height: 45px;
 }
 
 .page-footer__link-list {
@@ -21,4 +30,13 @@
   column-gap: 20px;
   -webkit-column-gap: 20px;
   -moz-column-gap: 20px;
+}
+
+.page-footer__social-icon {
+  position: relative;
+  top: 2px;
+}
+
+.page-footer__legal {
+  font-size: 10px;
 }

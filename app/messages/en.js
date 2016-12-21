@@ -249,6 +249,7 @@ export default {
   },
   existing_direct_debit_user: {
     title: 'Existing Direct Debit user',
+    nav_title: 'Existing Direct Debit user',
     description: '',
   },
   small_medium_businesses: {
@@ -257,6 +258,7 @@ export default {
   },
   developer_features: {
     title: 'GoCardless for Developers',
+    nav_title: 'Learn about our API',
     description: '',
   },
   security: {
