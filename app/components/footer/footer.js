@@ -84,8 +84,8 @@ class Footer extends React.Component {
                 <Link to='faq_pro_dashboard' pointer='faq_pro_dashboard.link_title' className='page-footer__link u-link-invert' />
               </IfLinkExists>
               <li>
-                <Href to='developer_link' className='page-footer__link u-link-invert'>
-                  <Message pointer='api_docs.nav_title' />
+                <Href to='developers.path' id='track-footer-api-docs' className='page-footer__link u-link-invert'>
+                  <Message pointer='developers.nav_title' />
                 </Href>
               </li>
               <IfLinkExists to='security' tagName='li'>

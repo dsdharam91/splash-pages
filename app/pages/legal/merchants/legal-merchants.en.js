@@ -335,7 +335,7 @@ export default class LegalMerchantsEn extends React.Component {
 
         <div className='simple-terms'>
           <p className='para'>
-            You can use our API in line with the <Href to='api_reference_link' className='u-link-color-p u-text-underline'>documentation we provide for it</Href>, but not in any other way. We might require you to update certain software to work with the service.
+            You can use our API in line with the <Href to='api_docs.path' className='u-link-color-p u-text-underline'>documentation we provide for it</Href>, but not in any other way. We might require you to update certain software to work with the service.
           </p>
         </div>
 

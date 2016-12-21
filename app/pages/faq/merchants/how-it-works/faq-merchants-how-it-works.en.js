@@ -59,7 +59,7 @@ export default class FaqMerchantsHowItWorksEn extends React.Component {
           Can customers sign up on my website?
         </h3>
         <p className='para'>
-          Yes - you can either do this by integrating with our <Href to="developer_link" className='u-link-color-p u-text-underline'>API</Href> or by generating a link for a payment
+          Yes - you can either do this by integrating with our <Href to="developers.path" className='u-link-color-p u-text-underline'>API</Href> or by generating a link for a payment
           plan and embedding this as a button on your website.
         </p>
         <p className='para'>

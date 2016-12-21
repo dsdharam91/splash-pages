@@ -42,6 +42,7 @@ export default {
   phone_full: '+49 30 568373022',
   phone_local: '+49 30 568373022',
   email: 'deutschland@gocardless.com',
+  partners_email: 'partnerships@gocardless.com',
   prospect_form: {
     sales: {
       name_label: 'Ihr Name',
@@ -214,6 +215,11 @@ export default {
   api_docs: {
     title: 'API-Dokumentation',
     nav_title: 'API-Dokumentation',
+    path: 'https://developer.gocardless.com/api-reference',
+  },
+  developers: {
+    nav_title: 'API-Dokumentation',
+    path: 'https://developer.gocardless.com',
   },
   blog: {
     title: 'Blog',

@@ -51,7 +51,7 @@ export default class ProFr extends React.Component {
               }>
               Contactez-nous
             </Link>
-            <Href to='api_reference_link' className='u-pull-end u-margin-Txxs u-margin-Rm'>
+            <Href to='api_docs.path' className='u-pull-end u-margin-Txxs u-margin-Rm'>
               Documentation API
             </Href>
           </div>
@@ -95,7 +95,7 @@ export default class ProFr extends React.Component {
                   <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                     Intégrez l'API REST de GoCardless rapidement dans votre site web et vos systèmes
                     d'information. Découvrez notre
-                    <Href to='api_reference_link'> documentation</Href>.
+                    <Href to='api_docs.path'> documentation</Href>.
                   </p>
                 </div>
                 <div className='grid__cell u-size-1of2 u-text-center u-margin-Txxl u-padding-Txxl'>

@@ -26,7 +26,7 @@ export default class FaqMerchantsEn extends React.Component {
             </li>
             <li>
               <strong>Our clean, RESTful API</strong> - Integrate GoCardless into your website using
-              our <Href to='developer_link' className='u-link-color-p u-text-underline'>REST API</Href>.
+              our <Href to='developers.path' className='u-link-color-p u-text-underline'>REST API</Href>.
             </li>
           </ul>
         </Translation>
@@ -46,7 +46,7 @@ export default class FaqMerchantsEn extends React.Component {
             </li>
             <li>
               <strong>Our clean, RESTful API</strong> - Integrate GoCardless into your website using
-              our <Href to='developer_link' className='u-link-color-p u-text-underline'>REST API</Href>.
+              our <Href to='developers.path' className='u-link-color-p u-text-underline'>REST API</Href>.
             </li>
           </ul>
         </Translation>
@@ -161,7 +161,7 @@ export default class FaqMerchantsEn extends React.Component {
           </IfLocale>
           <li>
             <strong>Powerful tools that suit you</strong> - Everything you need to set up, collect
-            and manage Direct Debit payments with our simple online tool or <Href to='developer_link'
+            and manage Direct Debit payments with our simple online tool or <Href to='developers.path'
             className='u-link-color-p u-text-underline'>REST API</Href>.
           </li>
           <li>

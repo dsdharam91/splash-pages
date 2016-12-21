@@ -57,7 +57,8 @@ export default class ProDe extends React.Component {
               }>
                 <Message pointer='cta.pro' />
               </Link>
-              <Href to='api_reference_link'
+
+              <Href to='api_docs.path'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
                 API Dokumentation
               </Href>
@@ -100,7 +101,7 @@ export default class ProDe extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Die komplette Dokumentation zu GoCardless Pro ist kostenlos in
-                      unseren <Href to='api_reference_link'>API docs</Href> verfügbar.
+                      unseren <Href to='api_docs.path'>API docs</Href> verfügbar.
                       Wir haben hart daran gearbeitet, die Integration für Sie so einfach wie möglich zu gestalten.
                     </p>
                   </div>

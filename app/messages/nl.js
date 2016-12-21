@@ -95,9 +95,14 @@ export default {
     description: '',
     nav_title: 'Team',
   },
+  developers: {
+    nav_title: 'API Documentatie',
+    path: 'https://developer.gocardless.com',
+  },
   api_docs: {
     title: 'API Documentatie',
     nav_title: 'API Documentatie',
+    path: 'https://developer.gocardless.com/api-reference',
   },
   blog: {
     title: 'Blog',

@@ -7,8 +7,8 @@ describe('Swapping languages', function() {
   it('lets you navigate to a page and then swap languages', function() {
     browser.get(BASE_URL);
 
-    $('#nav-more').click();
-    $('#nav-security').click();
+    $('#help-resources-dropdown').click();
+    $('#security-link').click();
 
     browser.wait(EC.textToBePresentInElement($('body'), 'Built securely from the ground up'), 5000);
 

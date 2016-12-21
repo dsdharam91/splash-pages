@@ -11,6 +11,11 @@
 .site-header-wrapper {
   position: absolute;
   width: 100%;
+  min-width: 900px;
+}
+
+.site-header__product:last-of-type .site-header__product-link-hr {
+  display: none;
 }
 
 .site-header__product-link {

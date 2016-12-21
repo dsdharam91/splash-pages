@@ -65,7 +65,8 @@ export default class ProNl extends React.Component {
               }>
                 <Message pointer='cta.pro' />
               </Link>
-              <Href to='api_reference_link'
+
+              <Href to='api_docs.path'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
                 API documentatie
               </Href>
@@ -116,7 +117,8 @@ export default class ProNl extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Alle documentatie voor GoCardless Pro is gratis beschikbaar in onze
-                      <Href to='api_reference_link'> API docs</Href>.
+
+                      <Href to='api_docs.path'> API docs</Href>.
                       We hebben ons best gedaan om de integratie met jouw systemen zo eenvoudig mogelijk te maken.
                     </p>
                   </div>
