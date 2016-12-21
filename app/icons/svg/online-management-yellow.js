@@ -35,3 +35,4 @@ export default class OnlineManagementYellowIcon extends React.Component {
     );
   }
 }
+

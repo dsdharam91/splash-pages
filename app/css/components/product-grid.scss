@@ -9,6 +9,10 @@
   padding: 0 60px;
 }
 
-.product-grid__section--first {
+.product-grid__section--right-border {
   border-right: 1px solid $gray;
+}
+
+.product-grid__section--left-border {
+  border-left: 1px solid $gray;
 }

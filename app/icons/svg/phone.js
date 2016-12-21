@@ -22,3 +22,4 @@ export default class PhoneIcon extends React.Component {
     );
   }
 }
+

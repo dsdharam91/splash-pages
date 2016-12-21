@@ -108,9 +108,11 @@ import FaqProDashboardPayoutTracking from '../pages/faq/pro-dashboard/payout-tra
 import FaqProDashboardPlanCreation from '../pages/faq/pro-dashboard/plan-creation/faq-pro-dashboard-plan-creation';
 import FaqProDashboardPaylinksCreation from '../pages/faq/pro-dashboard/paylinks-creation/faq-pro-dashboard-paylinks-creation';
 
-import NonDDFunnelEn from '../pages/funnels/non-dd-funnel/non-dd-funnel';
-import DDFunnelEn from '../pages/funnels/dd-funnel/dd-funnel';
-import SMBFunnelEn from '../pages/funnels/smb-funnel/smb-funnel';
+import NewToDirectDebit from '../pages/new-to-direct-debit/new-to-direct-debit';
+import ExistingDirectDebitUser from '../pages/existing-direct-debit-user/existing-direct-debit-user';
+import SmallMediumBusinesses from '../pages/small-medium-businesses/small-medium-businesses';
+import DeveloperFeatures from '../pages/developer-features/developer-features';
+import IntegrateFeatures from '../pages/integrate-features/integrate-features';
 
 import Stories from '../pages/stories/stories';
 import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
@@ -372,21 +374,33 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [NonDDFunnelEn, { name: 'non_dd_funnel'}, {
+  [NewToDirectDebit, { name: 'new_to_direct_debit'}, {
       'en-GB': {
-        path: '/non-dd-funnel',
+        path: '/new-to-direct-debit',
       },
     },
   ],
-  [DDFunnelEn, { name: 'dd_funnel'}, {
+  [ExistingDirectDebitUser, { name: 'existing_direct_debit_user'}, {
       'en-GB': {
-        path: '/dd-funnel',
+        path: '/existing-direct-debit-user',
       },
     },
   ],
-  [SMBFunnelEn, { name: 'smb_funnel'}, {
+  [SmallMediumBusinesses, { name: 'small_medium_businesses'}, {
       'en-GB': {
-        path: '/smb-funnel',
+        path: '/small-medium-businesses',
+      },
+    },
+  ],
+  [DeveloperFeatures, { name: 'developer_features'}, {
+      'en-GB': {
+        path: '/developer-features',
+      },
+    },
+  ],
+  [IntegrateFeatures, { name: 'integrate_features'}, {
+      'en-GB': {
+        path: '/integrate-features',
       },
     },
   ],
