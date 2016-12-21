@@ -10,7 +10,7 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>International payments</strong></h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Desde qué países de Europa puedo cobrar?
           </strong>
@@ -21,7 +21,7 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
           Eslovaquia, Eslovenia, España, Suecia y Reino Unido.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Qué divisas admite GoCardless?
           </strong>
@@ -30,7 +30,7 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
           Admitimos cobros en GBP, EUR y SEK.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Qué es el Adeudo Directo SEPA?
           </strong>
@@ -43,7 +43,7 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
           className='u-link-color-p u-text-underline'>nuestra guía de Adeudo Directo SEPA</a>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Qué es el Adeudo Directo Bacs?
           </strong>
@@ -54,7 +54,7 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
           className='u-link-color-p u-text-underline'>nuestra guía de Adeudo Directo Bacs</a>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Qué es Autogiro Bg?
           </strong>
@@ -65,7 +65,7 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
           className='u-link-color-p u-text-underline'>nuestra guía de Autogiro Bg</a>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Costarán los cobros internacionales lo mismo que en <Message pointer='country' />?
           </strong>
@@ -76,7 +76,7 @@ export default class FaqMerchantsInternationalPaymentsEs extends React.Component
           cobraremos un 1 % por transacción (con un límite de 20 coronas).
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Cuándo estará disponible GoCardless fuera de Europa?
           </strong>

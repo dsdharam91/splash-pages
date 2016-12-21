@@ -9,7 +9,7 @@ export default class FaqMerchantsInternationalPaymentsEn extends React.Component
       <Translation locales='en'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>International payments</h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Where does my business need to be based?
         </h3>
         <p className='para'>
@@ -30,14 +30,14 @@ export default class FaqMerchantsInternationalPaymentsEn extends React.Component
           <li>United Kingdom</li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Which currencies does GoCardless support?
         </h3>
         <p className='para'>
           We currently support payments in GBP, EUR and SEK.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Where can my customers be based?
         </h3>
         <p className='para'>
@@ -46,7 +46,7 @@ export default class FaqMerchantsInternationalPaymentsEn extends React.Component
           Slovenia, Spain, Sweden and the United Kingdom.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           What is Bacs Direct Debit?
         </h3>
         <p className='para'>
@@ -54,7 +54,7 @@ export default class FaqMerchantsInternationalPaymentsEn extends React.Component
           read more about it in <a href='/direct-debit/' className='u-link-color-p u-text-underline'>our guide to Bacs Direct Debit</a>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           What is SEPA Direct Debit?
         </h3>
         <p className='para'>
@@ -65,7 +65,7 @@ export default class FaqMerchantsInternationalPaymentsEn extends React.Component
           className='u-link-color-p u-text-underline'>our guide to SEPA Direct Debit</a>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           What is Bg Autogiro?
         </h3>
         <p className='para'>
@@ -73,7 +73,7 @@ export default class FaqMerchantsInternationalPaymentsEn extends React.Component
           about it in <a href='/guides/bg-autogiro/' className='u-link-color-p u-text-underline'>our guide to Bg Autogiro</a>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           When will GoCardless be available outside Europe?
         </h3>
         <p className='para'>

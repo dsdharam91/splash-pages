@@ -9,7 +9,7 @@ export default class FaqMerchantsDirectDebitFr extends React.Component {
     return (
       <Translation locales='fr'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Prélèvement bancaire</h2>
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Qu'est ce que le prélèvement SEPA?
         </h3>
         <p className='para'>
@@ -23,7 +23,7 @@ export default class FaqMerchantsDirectDebitFr extends React.Component {
           className='u-link-color-p u-text-underline'>notre guide SEPA.</Href>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Quelles sont les protections des consommateurs?
         </h3>
         <p className='para'>
@@ -43,7 +43,7 @@ export default class FaqMerchantsDirectDebitFr extends React.Component {
           cette créance sous-jacente, et il vous appartient de régler le différend entre vous et votre client.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Y a-t-il des frais pour le consommateur?
         </h3>
         <p className='para'>
@@ -51,14 +51,14 @@ export default class FaqMerchantsDirectDebitFr extends React.Component {
           C’est donc gratuit pour vos clients.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Ai-je besoin d’un Identifiant Créancier SEPA (ICS)?
         </h3>
         <p className='para'>
           Nous pouvons vous fournir un ICS avec notre banque partenaire.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Quelles sont les opérations les mieux adaptées aux prélèvements bancaires?
         </h3>
 
@@ -71,7 +71,7 @@ export default class FaqMerchantsDirectDebitFr extends React.Component {
           <li>Facturation de services (par exemple, facture téléphonique)</li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Quelles sont les opérations qui ne sont pas adaptées aux prélèvements bancaires?
         </h3>
         <ul className='list u-margin-Tm'>
@@ -80,7 +80,7 @@ export default class FaqMerchantsDirectDebitFr extends React.Component {
           <li>Les opérations à haut risque de fraude au remboursement (par exemple, jeux d’argent)</li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Quels sont les délais de paiements?
         </h3>
         <p className='para'>
@@ -96,14 +96,14 @@ export default class FaqMerchantsDirectDebitFr extends React.Component {
           votre information.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Puis-je prendre des paiements ponctuels avec le prélèvement bancaire?
         </h3>
         <p className='para'>
           Oui, c’est possible, même si le prélèvement bancaire est surtout avantageux pour les paiements récurrents.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Est-il facile de changer de prestataire de prélèvement bancaire?
         </h3>
         <p className='para'>

@@ -9,7 +9,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
       <Translation locales='es'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'><strong>Domiciliación Bancaria</strong></h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Qué es el Adeudo Directo SEPA o Domiciliación Bancaria?
           </strong>
@@ -21,7 +21,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           Zona Única de Pagos en Euros (SEPA)</a>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Qué es la protección al consumidor?
           </strong>
@@ -41,7 +41,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           Corresponde al comerciante resolver su disputa comercial con el cliente.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Hay alguna comisión para el cliente?
           </strong>
@@ -51,7 +51,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           Por tanto, es gratis para tus clientes.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Necesito un ID de Acreedor SEPA?
           </strong>
@@ -60,7 +60,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           No. Podemos suministrarte uno a través de nuestro banco asociado.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
           ¿Para qué tipo de cobros es beneficioso?
           </strong>
@@ -75,7 +75,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           <li>Facturación de servicios (p. ej., contabilidad, asesoramiento fiscal, etc.)</li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Para qué tipo de cobros no es beneficioso?
           </strong>
@@ -86,7 +86,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           <li>Transacciones que podrían experimentar devoluciones (p. ej., juegos de azar)</li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Cuáles son los plazos de cobro para el Adeudo Directo SEPA?
           </strong>
@@ -101,7 +101,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           a los 4 días hábiles.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Puedo realizar cobros puntuales a través del Adeudo Directo?
           </strong>
@@ -111,7 +111,7 @@ export default class FaqMerchantsDirectDebitEs extends React.Component {
           también se puede utilizar para cobros puntuales.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Puedo cambiar fácilmente de proveedor de Adeudo Directo?
           </strong>

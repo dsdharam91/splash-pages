@@ -10,7 +10,7 @@ export default class FaqMerchantsFr extends React.Component {
     return (
       <Translation locales='fr'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>En bref</h2>
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Comment utiliser GoCardless?
         </h3>
         <p className='para'>
@@ -33,7 +33,7 @@ export default class FaqMerchantsFr extends React.Component {
           </li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           À qui s'adresse GoCardless?
         </h3>
         <p className='para'>
@@ -49,7 +49,7 @@ export default class FaqMerchantsFr extends React.Component {
           font de GoCardless une platforme puissante pour tous, des start-ups innovantes aux grandes enterprises.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Quels sont les avantages de GoCardless vis-à-vis d'autres prestataires?
         </h3>
         <p className='para'>
@@ -79,7 +79,7 @@ export default class FaqMerchantsFr extends React.Component {
           </li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Pour quels usages GoCardless n'est-il pas adapté?
         </h3>
         <p className='para'>
@@ -100,7 +100,7 @@ export default class FaqMerchantsFr extends React.Component {
           voir nos <Link to='legal_restrictions' className='u-link-color-p u-text-underline'>activités restreintes</Link>.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Y a-t-il des limites sur les montants d'encaissement?
         </h3>
         <p className='para'>
@@ -110,7 +110,7 @@ export default class FaqMerchantsFr extends React.Component {
           Pour une transaction unitaire, le montant maximum est de 5.000€.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Comment vais-je recevoir les fonds collectés?
         </h3>
         <p className='para'>
@@ -119,7 +119,7 @@ export default class FaqMerchantsFr extends React.Component {
           automatiquement. Avec GoCardless Pro, nous pouvons facturer les frais transactionnels séparément.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Quand vais-je recevoir mes paiements?
         </h3>
         <p className='para'>
@@ -129,14 +129,14 @@ export default class FaqMerchantsFr extends React.Component {
           Nous ne conservons aucun paiement en réserve.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Acceptez-vous les cartes bancaires ou cartes bleues?
         </h3>
         <p className='para'>
           Non, GoCardless est uniquement un prestataire de prélèvement bancaire.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Comment est régulé GoCardless ?
         </h3>
         <p className='para'>

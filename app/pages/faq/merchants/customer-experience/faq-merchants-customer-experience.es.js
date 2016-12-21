@@ -10,7 +10,7 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>
           <strong>Experiencia de Usuario</strong>
         </h2>
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Puedo rellenar el mandato SEPA online en nombre de mi cliente?
           </strong>
@@ -20,7 +20,7 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
           rellenar sus datos de cobro personalmente.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Aparecerá el nombre de mi empresa en el extracto bancario del cliente?
           </strong>
@@ -34,7 +34,7 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
           en los "Settings" de tu panel de control.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Cómo me puede pagar el usuario?
           </strong>
@@ -44,7 +44,7 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
           también puede hacerlo por teléfono o por escrito.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Puedo alojar las páginas de cobro en mi sitio web?
           </strong>
@@ -59,7 +59,7 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
           Con GoCardless Pro, puedes albergar las páginas de pago en tu propio sitio y no tendrás que redirigir a tus clientes.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Ofrecéis iFrames?
           </strong>
@@ -69,7 +69,7 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
           que te permite no tener ningún dato bancario en tu servidor.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Se pueden hacer los pagos directamente a través de la API?
           </strong>
@@ -82,7 +82,7 @@ export default class FaqMerchantsCustomerExperienceEs extends React.Component {
           Una vez que la autorización se haya realizado, se puede solicitar el cobro a través de la API.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           <strong>
             ¿Pueden los clientes pagar desde su móvil?
           </strong>

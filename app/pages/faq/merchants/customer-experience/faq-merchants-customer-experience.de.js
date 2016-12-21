@@ -9,7 +9,7 @@ export default class FaqMerchantsCustomerExperienceDe extends React.Component {
       <Translation locales='de'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Kundenerlebnis</h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Wie können meine Kunden mich bezahlen?
         </h3>
         <p className='para'>
@@ -17,7 +17,7 @@ export default class FaqMerchantsCustomerExperienceDe extends React.Component {
           Pro benutzen, können Ihre Kunden Ihnen diese auch über ein Papiermandat oder am Telefon nennen.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Bleiben meine Kunden auf meiner Website?
         </h3>
         <p className='para'>
@@ -27,7 +27,7 @@ export default class FaqMerchantsCustomerExperienceDe extends React.Component {
           zu speichern. In letzterem Fall haben Sie volle Kontrolle über das Design dieser Seiten.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Sind auch iFrames möglich?
         </h3>
         <p className='para'>
@@ -37,7 +37,7 @@ export default class FaqMerchantsCustomerExperienceDe extends React.Component {
           Bankdaten Ihrer Kunden auf Ihrem eigenen Server zu speichern.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Können Kunden auch mobil mit ihrem Handy zahlen?
         </h3>
         <p className='para'>

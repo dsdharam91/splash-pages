@@ -10,7 +10,7 @@ export default class FaqMerchantsSecurityDe extends React.Component {
       <Translation locales='de'>
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Sicherheit</h2>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Woher weiß ich, dass mein Geld sicher ist?
         </h3>
         <p className='para'>
@@ -23,7 +23,7 @@ export default class FaqMerchantsSecurityDe extends React.Component {
         <p className='para'>
           Alle Zahlungen, die wir erhalten, werden in einem sicheren Konto unserer Partnerbank für Sie aufbewahrt.
         </p>
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Wie schützt GoCardless meine Daten?
         </h3>
         <p className='para'>
@@ -37,7 +37,7 @@ export default class FaqMerchantsSecurityDe extends React.Component {
           <li>Die Kommunikation mit dem Kundendaten Server ist 256-bit SSL verschlüsselt. Das Minimum für Banken liegt bei 128-bit.</li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Was passiert mit meinem Geld, bevor es auf mein Konto ausgezahlt wird?
         </h3>
         <p className='para'>
@@ -45,7 +45,7 @@ export default class FaqMerchantsSecurityDe extends React.Component {
           finanziellen Sicherheitsmaßnahmen.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Sind meine Kunden abgesichert?
         </h3>
         <p className='para'>
@@ -53,7 +53,7 @@ export default class FaqMerchantsSecurityDe extends React.Component {
           className='u-link-color-p u-text-underline'>SEPA Lastschriftabkommen</a> abgesichert.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Aufdecken von Sicherheitslücken
         </h3>
 
@@ -75,7 +75,7 @@ export default class FaqMerchantsSecurityDe extends React.Component {
           Die Höhe einer solchen Entlohnung hängt von der Bedeutung des aufgedeckten Problems ab.
         </p>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Probleme melden
         </h3>
 
@@ -99,7 +99,7 @@ export default class FaqMerchantsSecurityDe extends React.Component {
           </li>
         </ul>
 
-        <h3 className='u-text-heading-light u-color-dark-gray u-margin-Vm u-text-s'>
+        <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
           Entlohnungen
         </h3>
 
