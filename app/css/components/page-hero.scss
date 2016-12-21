@@ -34,6 +34,10 @@
   background-repeat: no-repeat;
 }
 
+.page-hero--funnels {
+  background-image: linear-gradient(-45deg, #2B7AD0 0%, #589EEA 100%);
+}
+
 .page-hero--icon-background {
   background: $primary-color url('/images/hero/hero-icons.jpg');
   background-size: cover;

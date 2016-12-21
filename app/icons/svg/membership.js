@@ -22,3 +22,4 @@ export default class MembershipIcon extends React.Component {
     );
   }
 }
+

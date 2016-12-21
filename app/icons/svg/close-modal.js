@@ -25,3 +25,4 @@ export default class CloseModalIcon extends React.Component {
     );
   }
 }
+

@@ -1,0 +1,38 @@
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  height: 30px;
+  margin-top: -15px;
+  opacity: 0.08;
+  transition: 0.2s opacity;
+}
+
+.slider-nav__next:hover,
+.slider-nav__prev:hover {
+  opacity: 0.2;
+}
+
+.slider-nav__prev {
+  left: -36px;
+  transform: rotate(180deg);
+}
+
+.slider-nav__next {
+  right: -36px;
+}
+
+.slider-nav__counter {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: white;
+  margin: 0 6px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.slider-nav__counter.is-active {
+  opacity: 1;
+}

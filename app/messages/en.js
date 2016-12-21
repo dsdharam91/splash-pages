@@ -16,6 +16,7 @@ export default {
     pro: 'Contact sales',
     signup: 'Sign Up Now',
     more: 'Learn More',
+    get_in_touch: 'Get in touch',
   },
   basic_pricing_cta: {
     main: 'Pay 1%',
@@ -208,6 +209,26 @@ export default {
   faq_pro_dashboard_payout_tracking: {
     title: 'FAQ - Payout tracking',
     nav_title: 'Payout tracking',
+    description: '',
+  },
+  new_to_direct_debit: {
+    title: 'New to Direct Debit',
+    description: '',
+  },
+  existing_direct_debit_user: {
+    title: 'Existing Direct Debit user',
+    description: '',
+  },
+  small_medium_businesses: {
+    title: 'Take control of your payments',
+    description: '',
+  },
+  developer_features: {
+    title: 'GoCardless for Developers',
+    description: '',
+  },
+  integrate_features: {
+    title: 'Integrate with us',
     description: '',
   },
   security: {

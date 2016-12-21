@@ -103,7 +103,7 @@ export default class HomeFr extends React.Component {
         <hr className='section-divider' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='product-grid__container'>
-              <div className='product-grid__section product-grid__section--first u-padding-Vl u-padding-Hxl'>
+              <div className='product-grid__section product-grid__section--right-border u-padding-Vl u-padding-Hxl'>
                 <figure className='svg-icon u-center'>
                   <SmallBusinessYellowIcon className='svg-icon__image' />
                 </figure>

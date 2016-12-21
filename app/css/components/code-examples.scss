@@ -1,0 +1,48 @@
+.code-examples {
+  position: relative;
+  border-radius: $border-radius-base;
+  border: solid 1px #d5d4d4;
+  position: relative;
+  height: 300px;
+  position: relative;
+  overflow: scroll;
+  background-color: #fbfbfb;
+}
+
+.code-examples__tabs {
+  overflow: scroll;
+  height: inherit;
+  background: linear-gradient(to top, rgba(0,0,0,0.06) 0%, rgba(0,0,0,0) 10%);
+}
+
+.code-examples__tabs-label {
+  padding: 15px 15px 15px 0;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  color: #898989
+}
+
+.code-examples__tabs-label.is-active {
+  font-weight: bold;
+  color: $xdark-gray;
+}
+
+.code-examples__tabs-label:first-child {
+  padding-left: 15px
+}
+
+.code-examples__tabs-pre {
+  margin-top: 0
+}
+
+.code-examples__tabs-code {
+  background-color: inherit;
+  display: block;
+  padding: 0 15px 0 0;
+  border: none
+}
+
+.code-examples__tabs-code:first-child {
+  padding: 0 15px
+}

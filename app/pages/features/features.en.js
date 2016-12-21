@@ -270,7 +270,7 @@ export default class FeaturesEn extends React.Component {
           <div className='site-container u-text-center u-padding-Vxxl'>
             <div className='product-grid__container'>
 
-                <div className='product-grid__section product-grid__section--first u-padding-Vl'>
+                <div className='product-grid__section product-grid__section--right-border u-padding-Vl'>
                   <figure className='svg-icon u-center'>
                     <IntegrateGreenIcon className='svg-icon__image' />
                   </figure>
