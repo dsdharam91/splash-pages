@@ -156,7 +156,7 @@ class FooterEn extends React.Component {
               <ul className='u-text-heading u-text-semi u-text-xxs'>
                 <li className='u-margin-Bxxs'>
                   <p className='u-color-dark-gray'>
-                    About
+                    About GoCardless
                   </p>
                 </li>
                 <IfLinkExists to='about' tagName='li'>
