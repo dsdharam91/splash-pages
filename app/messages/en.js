@@ -62,7 +62,7 @@ export default {
     },
   },
   new_to_direct_debit: {
-    title: 'New to Direct Debit',
+    title: 'Reduce churn & increase LTV with Direct Debit',
     nav_title: 'New to Direct Debit',
     description: '',
   },
@@ -245,7 +245,7 @@ export default {
     description: '',
   },
   small_medium_businesses: {
-    title: 'Take control of your payments',
+    title: 'Take control of your payments - Get paid on time, every time',
     nav_title: 'Small Businesses',
     description: '',
   },
