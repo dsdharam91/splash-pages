@@ -21,7 +21,7 @@ export default class Home extends React.Component {
     return (
       <div>
         <IfLocale showHoldingPage={false}>
-          <Translation locales={['fr', 'de', 'es', 'nl', 'en']} exclude={'en-GB'}>
+          <Translation locales={['fr', 'de', 'es', 'nl', 'en']} exclude={['en-GB']}>
             <Page>
               <div className='page-hero page-hero--global page-hero--large u-relative u-size-full'>
                 <div className='site-container page-hero__container'>
