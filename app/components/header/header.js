@@ -397,14 +397,16 @@ export default class Header extends React.Component {
                 </Popover>
               </Translation>
 
-              <div className='nav__item u-relative'>
-                <Href to='developers.path'
+              <IfLinkExists to='developers'
+              tagName='div'
+              className='nav__item u-relative'>
+                <Link to='developers'
                 className={ this.getLinkClassName() }>
                   <div className='nav__item-link'>
                     <Message pointer='developers.nav_title' />
                   </div>
-                </Href>
-              </div>
+                </Link>
+              </IfLinkExists>
             </nav>
           </div>
 
