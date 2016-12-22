@@ -116,8 +116,8 @@ export default class SmallMediumBusinesses extends React.Component {
             </h2>
 
             <div className='grid'>
-              <div className='grid__cell u-size-1of2'>
-                <img src='/images/funnels/smb-integrations.png' width='344px' />
+              <div className='grid__cell u-size-1of2 u-text-center u-margin-Vxl'>
+                <img src='/images/funnels/smb-integrations.png' width='344' />
               </div>
 
               <div className='grid__cell u-size-1of2'>
