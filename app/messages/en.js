@@ -258,8 +258,9 @@ export default {
   },
   developers: {
     title: 'GoCardless for Developers',
-    nav_title: 'Learn about our API',
+    nav_title: 'Developers',
     description: '',
+    path: 'https://developer.gocardless.com',
   },
   security: {
     title: 'Security',
@@ -666,11 +667,6 @@ export default {
     title: 'API Documentation',
     nav_title: 'API Documentation',
     path: 'https://developer.gocardless.com/api-reference',
-  },
-  developers: {
-    title: 'Developers',
-    nav_title: 'Developers',
-    path: 'https://developer.gocardless.com',
   },
   blog: {
     title: 'Blog',
