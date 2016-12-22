@@ -56,28 +56,28 @@ class FooterEn extends React.Component {
               Connect with us
               <ul className='u-inline-block u-margin-Lxl'>
                 <li className='u-inline-block u-margin-Rm'>
-                  <a href='https://www.linkedin.com/company/2808012'>
+                  <Href to='social_links.linkedin'>
                     <LinkedinIcon alt='LinkedIn'
                     className='page-footer__social-icon' />
-                  </a>
+                  </Href>
                 </li>
                 <li className='u-inline-block u-margin-Rm'>
-                  <a href='https://twitter.com/GoCardless'>
+                  <Href to='social_links.twitter'>
                     <TwitterIcon alt='Twitter'
                     className='page-footer__social-icon' />
-                  </a>
+                  </Href>
                 </li>
                 <li className='u-inline-block u-margin-Rm'>
-                  <a href='https://www.facebook.com/GoCardless/'>
+                  <Href to='social_links.facebook'>
                     <FacebookIcon alt='Facebook'
                     className='page-footer__social-icon' />
-                  </a>
+                  </Href>
                 </li>
                 <li className='u-inline-block'>
-                  <a href='https://www.youtube.com/channel/UCG50AFe8KqhouUczByXDXCg'>
+                  <Href to='social_links.youtube'>
                     <YoutubeIcon alt='YouTube'
                     className='page-footer__social-icon' />
-                  </a>
+                  </Href>
                 </li>
               </ul>
               <hr className='section-divider u-margin-Vm' />
