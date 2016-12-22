@@ -200,9 +200,6 @@ export const config = Immutable.fromJS([
     },
   ],
   [Pro, { name: 'pro' }, {
-      'en-GB': {
-        path: '/pro',
-      },
       'en-EU': {
         path: '/pro',
       },

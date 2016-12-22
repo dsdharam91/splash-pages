@@ -27,6 +27,14 @@ export default {
   email: 'help@gocardless.com',
   partners_email: 'partnerships@gocardless.com',
   customer_queries_link: 'https://support.gocardless.com/hc/en-us/sections/202581129-Customer-Queries',
+  social_links: {
+    facebook: 'https://www.facebook.com/GoCardless',
+    github: 'http://github.com/gocardless',
+    google: 'https://plus.google.com/+Gocardless',
+    linkedin: 'https://www.linkedin.com/company/gocardless',
+    twitter: 'https://twitter.com/gocardless',
+    youtube: 'https://www.youtube.com/gocardless',
+  },
   developers: {
     path: 'https://developer.gocardless.com',
   },
