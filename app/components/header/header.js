@@ -285,7 +285,7 @@ export default class Header extends React.Component {
             <Link to='faq_merchants'
             tagName='li'
             className='u-padding-Vxs u-padding-Hm u-block'
-            pointer='faq_merchants.nav_title'/>
+            pointer='faq_merchants.link_title'/>
           </li>
 
           <li className='u-text-semi'>
