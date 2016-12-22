@@ -42,7 +42,8 @@ export default class Header extends React.Component {
           { _.map(['features', 'pro', 'partner_with_us'], (link) =>
             <IfLinkExists to={link}
             tagName='li'
-            className='site-header__product'>
+            className='site-header__product'
+            key={link}>
               <Link to={link}
               className='site-header__product-link u-link-clean'>
                 <span className='site-header__product-link-title u-text-semi'>
