@@ -218,9 +218,11 @@ export default class HomeEn extends React.Component {
               <div className='u-text-center u-margin-Vm u-padding-Vs u-padding-Hxxl u-center'>
                 <img src='/images/logos/partner-logos@2x.png' />
               </div>
-              <Link to='partners' className='btn btn--hollow u-margin-Ts u-margin-Bxxl'>
-                See more
-              </Link>
+              <IfLinkExists to='partners'>
+                <Link to='partners' className='btn btn--hollow u-margin-Ts u-margin-Bxxl'>
+                  See more
+                </Link>
+              </IfLinkExists>
             </div>
           </div>
         </div>
