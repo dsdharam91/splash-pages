@@ -58,7 +58,7 @@ export default class SmallMediumBusinesses extends React.Component {
 
               <div className='grid__cell u-size-1of2'>
                 <figure className='svg-icon svg-icon--medium u-pull-start u-inline-block'>
-                  <LessAdmin className='svg-icon__image svg-icon__image--medium' />
+                  <TransparentCosts className='svg-icon__image svg-icon__image--medium' />
                 </figure>
 
                 <div className='u-pull-start u-inline-block u-size-2of3 u-margin-Lm'>
@@ -74,7 +74,7 @@ export default class SmallMediumBusinesses extends React.Component {
 
               <div className='grid__cell u-size-1of2 u-margin-Txxl u-padding-Txxl'>
                 <figure className='svg-icon svg-icon--medium u-pull-start u-inline-block'>
-                  <PlugIn className='svg-icon__image svg-icon__image--medium' />
+                  <LessAdmin className='svg-icon__image svg-icon__image--medium' />
                 </figure>
 
                 <div className='u-pull-start u-inline-block u-size-2of3 u-margin-Lm'>
@@ -90,7 +90,7 @@ export default class SmallMediumBusinesses extends React.Component {
 
               <div className='grid__cell u-size-1of2 u-margin-Txxl u-padding-Txxl'>
                 <figure className='svg-icon svg-icon--medium u-pull-start u-inline-block'>
-                  <TransparentCosts className='svg-icon__image svg-icon__image--medium' />
+                  <PlugIn className='svg-icon__image svg-icon__image--medium' />
                 </figure>
 
                 <div className='u-pull-start u-inline-block u-size-2of3 u-margin-Lm'>
