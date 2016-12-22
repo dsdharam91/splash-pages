@@ -329,9 +329,9 @@ export default class Header extends React.Component {
           pointer='partner_integrations.nav_title'
           className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
 
-          <Link to='integrate_features'
+          <Link to='direct_debit_api'
           tagName='li'
-          pointer='integrate_features.nav_title'
+          pointer='direct_debit_api.nav_title'
           className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
         </ul>
       </Popover>

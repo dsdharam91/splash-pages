@@ -15,8 +15,8 @@ import EuropeIcon from '../../icons/svg/globe-europe';
 import FutureProof from '../../icons/svg/FutureProof';
 import TransformCustomer from '../../icons/svg/TransformCustomer';
 
-export default class IntegrateFeatures extends React.Component {
-  displayName = 'IntegrateFeatures'
+export default class DirectDebitApi extends React.Component {
+  displayName = 'DirectDebitApi'
 
   render() {
     return (
