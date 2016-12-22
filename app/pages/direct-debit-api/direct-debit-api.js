@@ -85,8 +85,9 @@ export default class DirectDebitApi extends React.Component {
 
           <p className='u-text-s u-text-center u-color-dark-gray u-padding-Vxl'>See our&nbsp;
             <Href to='api_docs.path'>
-              API reference docs
-            </Href></p>
+              API reference documentation
+            </Href>
+          </p>
         </div>
 
         <hr className='section-divider' />
@@ -98,7 +99,8 @@ export default class DirectDebitApi extends React.Component {
             </h2>
 
             <p className='u-color-dark-gray u-margin-Txs u-size-3of4 u-center'>
-              We've created an API optimised for Direct Debit, so that you can craft powerful integrations with less development time. Integrate as much or as little as you need, at once or over time.
+              We've created an API optimised for Direct Debit, so that you can craft powerful integrations with less development time.
+              Integrate as much or as little as you need, at once or over time.
             </p>
 
             <div className='u-margin-Tl u-padding-Tm u-center u-size-2of4 u-text-start'>
@@ -145,7 +147,7 @@ export default class DirectDebitApi extends React.Component {
                   </h3>
                   <ul className='list u-margin-An'>
                     <li className='u-margin-Bs'>Pre-built notification templates for clear, compliant, ready to use emails</li>
-                    <li>Pdf mandates generated automatically and pre-filled with customer details</li>
+                    <li>PDF mandates generated automatically and pre-filled with customer details</li>
                   </ul>
                 </div>
               </div>
@@ -203,11 +205,6 @@ export default class DirectDebitApi extends React.Component {
                 </p>
               </div>
             </div>
-
-            <Link to='contact_sales'
-            className='btn btn--hollow u-margin-Tl u-margin-Rs'>
-              Get in touch
-            </Link>
           </div>
         </div>
 
@@ -288,7 +285,7 @@ export default class DirectDebitApi extends React.Component {
 
                   <hr className='u-margin-Vxl'/>
 
-                  <a href='https://www.gocardless.com/direct-debit/'>
+                  <a href='https://gocardless.com/direct-debit/'>
                     <ReadPdf className='u-inline-block useful-resource__icon' />
                     Read
                   </a>
@@ -298,15 +295,16 @@ export default class DirectDebitApi extends React.Component {
               <div className='grid__cell u-size-1of3 u-margin-Bm'>
                 <div className='u-border-radius u-shadow-medium u-padding-Axl u-background-white'>
                   <h2 className='u-text-heading u-color-dark-gray u-text-light useful-resource__title'>
-                    API <br/>Reference Docs
+                    Developer<br />
+                    Documentation
                   </h2>
 
                   <hr className='u-margin-Vxl'/>
 
-                  <a href='https://developer.gocardless.com/'>
+                  <Link to='developers'>
                     <ReadPdf className='u-inline-block useful-resource__icon' />
                     Read
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
