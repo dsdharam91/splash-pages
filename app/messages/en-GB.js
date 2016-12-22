@@ -14,7 +14,7 @@ export default {
     path: '/merchants/new',
   },
   footer: {
-    description: 'GoCardless is authorised by the Financial Conduct Authority under the Payment Services Regulations 2009, registration number 597190, for the provision of payment services.',
+    description: 'GoCardless (company registration number 07495895) is authorised by the Financial Conduct Authority under the Payment Services Regulations 2009, registration number 597190, for the provision of payment services.',
   },
   basic_pricing_cta: {
     description: 'Just 1% per transaction, capped at £2.',
