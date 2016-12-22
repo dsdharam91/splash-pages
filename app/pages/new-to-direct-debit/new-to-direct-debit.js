@@ -9,7 +9,7 @@ import ReadPdf from '../../icons/svg/ReadPdf';
 import TransparentCosts from '../../icons/svg/TransparentCosts';
 import SecurityCompliance from '../../icons/svg/SecurityCompliance';
 import AheadOfChurn from '../../icons/svg/AheadOfChurn';
-import Europe from '../../icons/svg/Europe';
+import EuropeIcon from '../../icons/svg/globe-europe';
 import DigitalAge from '../../icons/svg/DigitalAge';
 import PaymentFlows from '../../icons/svg/PaymentFlows';
 import NoSetUpFees from '../../icons/svg/NoSetUpFees';
@@ -133,7 +133,7 @@ export default class NewToDirectDebit extends React.Component {
                 </li>
               </ul>
 
-              <Link to='integrate_features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+              <Link to='direct_debit_api' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                 Learn about our API
               </Link>
             </div>
@@ -183,7 +183,7 @@ export default class NewToDirectDebit extends React.Component {
 
               <div className='grid__cell u-size-1of2 u-margin-Txxl u-padding-Txxl'>
                 <figure className='svg-icon svg-icon--medium u-pull-start u-inline-block'>
-                  <Europe className='svg-icon__image svg-icon__image--medium' />
+                  <EuropeIcon className='svg-icon__image svg-icon__image--medium' />
                 </figure>
 
                 <div className='u-inline-block u-pull-start u-size-3of4 u-margin-Lm'>
