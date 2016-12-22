@@ -1,0 +1,32 @@
+<svg width="50px" height="53px" viewBox="0 0 50 53" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page---Final" transform="translate(-202.000000, -1490.000000)">
+            <g id="Module---Turn-Payments" transform="translate(197.000000, 1284.000000)">
+                <g id="icon" transform="translate(5.000000, 207.000000)">
+                    <polygon id="Fill-1" fill="#F2F8FD" points="19 36.1153793 35.6208 36.1153793 35.6208 30 19 30"></polygon>
+                    <polygon id="Fill-2" fill="#F2F8FD" points="0 2 0 50.4137931 16.0363636 50.4137931 16.0363636 45.0353793 6.23636364 45.0353793 6.23636364 19.931931 14.2545455 19.931931 14.2545455 9.17241379 16.9272727 9.17241379 16.9272727 2"></polygon>
+                    <polygon id="Fill-3" fill="#F2F8FD" points="38.9090909 2 38.9090909 11.8629655 33.5636364 11.8629655 33.5636364 22.6206897 30 22.6206897 30 50.4137931 48.0596182 50.4137931 48.8917273 2"></polygon>
+                    <g id="Group-14" transform="translate(1.000000, 0.448276)" stroke="#5092DA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline id="Stroke-4" points="38.0614364 1 47.1228727 1 47.1228727 49.5106207 29 49.5106207"></polyline>
+                        <polyline id="Stroke-6" points="22.0614364 50.2068966 22.0614364 39.5442069 13 39.5442069 13 26.5047586 19.7958545 26.5047586 19.7958545 15.1068966 26.5917091 15.1068966 26.5917091 0"></polyline>
+                        <polyline id="Stroke-8" points="22 5.16324138 27.1307455 0 32.1911091 5.16324138"></polyline>
+                        <path d="M6,1 L6,12.3978621" id="Stroke-10"></path>
+                        <polyline id="Stroke-12" points="0 19.1188276 13.5917091 19.1188276 13.5917091 10"></polyline>
+                    </g>
+                    <polyline id="Stroke-15" stroke="#5092DA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="19 33 30.3261273 33 30.3261273 42.7571724"></polyline>
+                    <g id="Group-26" transform="translate(1.000000, 1.344828)" stroke="#5092DA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline id="Stroke-16" points="6.79585455 25.0756552 6.79585455 43.3124138 15.8572909 43.3124138 15.8572909 48.5106207 0 48.5106207 0 0 15.8572909 0"></polyline>
+                        <polyline id="Stroke-18" points="36 48.1550345 36 27 40.5302727 27"></polyline>
+                        <path d="M47.5302727,41 L43,41" id="Stroke-20"></path>
+                        <path d="M47.5302727,34 L43,34" id="Stroke-22"></path>
+                        <polyline id="Stroke-24" points="47.3875636 21 27 21 27 25.5589655"></polyline>
+                    </g>
+                    <polyline id="Stroke-27" stroke="#5092DA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="35 22.3978621 35 11 41.7958545 11 41.7958545 15.5589655"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
