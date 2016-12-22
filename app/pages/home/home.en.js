@@ -11,7 +11,7 @@ import NewToDdIcon from '../../icons/svg/new-to-dd';
 import SmallBusinessIcon from '../../icons/svg/small-business';
 import UpdateDdIcon from '../../icons/svg/update-dd';
 import ConnectTeamsIcon from '../../icons/svg/connect-teams';
-import EuropeIcon from '../../icons/svg/Europe';
+import EuropeIcon from '../../icons/svg/globe-europe';
 import MazeFlowIcon from '../../icons/svg/maze-flow';
 import PoundRealTimeIcon from '../../icons/svg/pound-real-time';
 
