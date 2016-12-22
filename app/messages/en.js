@@ -66,10 +66,6 @@ export default {
     nav_title: 'New to Direct Debit',
     description: '',
   },
-  optimise_your_direct_debit: {
-    title: 'Optimise your Direct Debit',
-    nav_title: 'Optimise your Direct Debit',
-  },
   partner_integrations: {
     title: 'Partner integrations',
     nav_title: 'Partner integrations',
@@ -244,8 +240,8 @@ export default {
     description: '',
   },
   existing_direct_debit_user: {
-    title: 'Existing Direct Debit user',
-    nav_title: 'Existing Direct Debit user',
+    title: 'Direct Debit for the Digital Age',
+    nav_title: 'Optimise your Direct Debit',
     description: '',
   },
   small_medium_businesses: {
