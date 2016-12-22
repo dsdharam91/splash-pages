@@ -58,7 +58,8 @@ export default class ProEs extends React.Component {
               }>
                 <Message pointer='cta.pro' />
               </Link>
-              <Href to='api_reference_link'
+
+              <Href to='api_docs.path'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
                 Documentación API
               </Href>
@@ -102,7 +103,7 @@ export default class ProEs extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       Toda la documentación de Pro está disponible gratuitamente en
-                      nuestra <Href to='api_reference_link'>documentación de la API</Href>.
+                      nuestra <Href to='api_docs.path'>documentación de la API</Href>.
                       Hemos trabajado muy duro para que la integración de tu empresa sea tan sencilla como sea posible.
                     </p>
                   </div>

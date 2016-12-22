@@ -27,7 +27,11 @@ export default {
   email: 'help@gocardless.com',
   partners_email: 'partnerships@gocardless.com',
   customer_queries_link: 'https://support.gocardless.com/hc/en-us/sections/202581129-Customer-Queries',
-  api_reference_link: 'https://developer.gocardless.com/api-reference',
-  developer_link: 'https://developer.gocardless.com',
+  developers: {
+    path: 'https://developer.gocardless.com',
+  },
+  api_docs: {
+    path: 'https://developer.gocardless.com/api-reference',
+  },
   press_email: 'press@gocardless.com',
 };

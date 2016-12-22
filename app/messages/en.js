@@ -1,9 +1,12 @@
 export default {
   header: {
     our_products: 'Our products',
-    industries: 'Industries',
+    who_uses_us: 'Who uses us?',
     login_btn: 'Sign in',
     more: 'More',
+    help_resources: 'Help & resources',
+    about_us: 'About us',
+    solutions: 'Solutions',
   },
   footer: {
     description: 'GoCardless is regulated by the Financial Conduct Authority in the United Kingdom as an Authorised Payment Institution to collect payments across Europe.',
@@ -32,6 +35,17 @@ export default {
     desc: 'GoCardless makes collecting by Direct Debit easy for everyone from individuals to multi-national corporations',
   },
   contact_types: ['customer support', 'sales'],
+  postal_address: {
+    street_address: '338-346 Goswell Road',
+    address_locality: 'London',
+    postal_code: 'EC1V 7LQ',
+    address_country: 'United Kingdom',
+    address_country_iso: 'GB',
+  },
+  phone_full: '+44 20 7183 8674',
+  phone_local: '+44 20 7183 8674',
+  email: 'help@gocardless.com',
+  partners_email: 'partnerships@gocardless.com',
   prospect_form: {
     sales: {
       name_label: 'Your name',
@@ -46,6 +60,28 @@ export default {
       submit: 'Contact',
       success_message: 'Thank you, a member of the GoCardless team will be in touch soon.',
     },
+  },
+  a_simple_direct_debit_solution: {
+    title: 'A Simple Direct Debit Solution',
+    nav_title: 'A Simple Direct Debit Solution',
+  },
+  new_to_direct_debit: {
+    title: 'New to Direct Debit',
+    nav_title: 'New to Direct Debit',
+    description: '',
+  },
+  optimise_your_direct_debit: {
+    title: 'Optimise your Direct Debit',
+    nav_title: 'Optimise your Direct Debit',
+  },
+  partner_integrations: {
+    title: 'Partner integrations',
+    nav_title: 'Partner integrations',
+  },
+  integrate_features: {
+    title: 'Integrate with our API',
+    nav_title: 'Integrate with our API',
+    description: '',
   },
   not_found: {
     title: 'Not Found',
@@ -211,12 +247,9 @@ export default {
     nav_title: 'Payout tracking',
     description: '',
   },
-  new_to_direct_debit: {
-    title: 'New to Direct Debit',
-    description: '',
-  },
   existing_direct_debit_user: {
     title: 'Existing Direct Debit user',
+    nav_title: 'Existing Direct Debit user',
     description: '',
   },
   small_medium_businesses: {
@@ -225,10 +258,7 @@ export default {
   },
   developer_features: {
     title: 'GoCardless for Developers',
-    description: '',
-  },
-  integrate_features: {
-    title: 'Integrate with us',
+    nav_title: 'Learn about our API',
     description: '',
   },
   security: {
@@ -243,7 +273,7 @@ export default {
   },
   stories: {
     title: 'Stories',
-    nav_title: 'Stories',
+    nav_title: 'Customer stories',
     description: '',
     link: 'Read the case study',
     key_benefits: 'Key benefits',
@@ -642,11 +672,18 @@ export default {
   },
   api_docs: {
     title: 'API Documentation',
+    nav_title: 'API Documentation',
+    path: 'https://developer.gocardless.com/api-reference',
+  },
+  developers: {
+    title: 'Developers',
     nav_title: 'Developers',
+    path: 'https://developer.gocardless.com',
   },
   blog: {
     title: 'Blog',
     nav_title: 'Blog',
+    path: '/blog',
     cta: 'Visit our Blog',
   },
   guides: {
@@ -655,8 +692,9 @@ export default {
     path: '/guides',
   },
   help: {
-    title: 'Support',
-    nav_title: 'Support',
+    title: 'Support Centre',
+    nav_title: 'Support Centre',
+    path: 'https://support.gocardless.com',
   },
   'how-to': {
     title: 'How to',

@@ -115,7 +115,7 @@ export default class DeveloperFeatures extends React.Component {
                   Get a sandbox account
                 </a>
 
-                <Href to='developer_link'
+                <Href to='api_docs.path'
                 className='btn btn--invert-hollow u-margin-Tl'>
                   View our developer docs
                 </Href>
@@ -264,7 +264,7 @@ export default class DeveloperFeatures extends React.Component {
 
               <p className='u-color-dark-gray u-margin-Tm'>
                 Want to learn more about getting started?&nbsp;
-                <Href to='developer_link'>
+                <Href to='api_docs.path'>
                   Read our reference docs
                 </Href>
               </p>

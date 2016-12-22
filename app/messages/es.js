@@ -39,6 +39,7 @@ export default {
     address_country: 'Reino Unido',
     address_country_iso: 'GB',
   },
+  partners_email: 'partnerships@gocardless.com',
   prospect_form: {
     sales: {
       name_label: 'Nombre',
@@ -276,6 +277,11 @@ export default {
   api_docs: {
     title: 'API',
     nav_title: 'API',
+    path: 'https://developer.gocardless.com/api-reference',
+  },
+  developers: {
+    nav_title: 'API',
+    path: 'https://developer.gocardless.com',
   },
   signin: {
     path: 'https://manage.gocardless.com',

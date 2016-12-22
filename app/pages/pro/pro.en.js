@@ -51,7 +51,8 @@ export default class ProEn extends React.Component {
               }>
                 <Message pointer='cta.pro' />
               </Link>
-              <Href to='api_reference_link'
+
+              <Href to='api_docs.path'
               className='u-pull-end u-margin-Txxs u-margin-Rm'>
                 API Documentation
               </Href>
@@ -89,7 +90,7 @@ export default class ProEn extends React.Component {
                     </div>
                     <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
                       All documentation for our Pro product is freely available in
-                      our <Href to='api_reference_link'>API docs</Href>.
+                      our <Href to='api_docs.path'>API docs</Href>.
                       We’ve worked hard to make integrating your systems as painless as possible.
                     </p>
                   </div>

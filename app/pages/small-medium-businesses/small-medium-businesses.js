@@ -147,11 +147,9 @@ export default class SmallMediumBusinesses extends React.Component {
             </div>
 
             <div className='u-margin-Tm'>
-              <a href='https://manage-sandbox.gocardless.com/signup'
-              id=''
-              className='btn btn--hollow u-margin-Tl u-margin-Rs'>
+              <Link to='partners' className='btn btn--hollow u-margin-Tl u-margin-Rs'>
                 Explore all integrations
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -289,9 +287,9 @@ export default class SmallMediumBusinesses extends React.Component {
                 Signup to start taking payments today
               </p>
 
-              <Link to='pricing' id='track-cta-pricing' className='btn u-margin-Tm'>
-                Try it now
-              </Link>
+              <Href to='signup.path' className='btn u-margin-Tm'>
+                Sign up today
+              </Href>
             </div>
           </div>
         </div>

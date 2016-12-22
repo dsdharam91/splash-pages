@@ -48,7 +48,7 @@ export default class FaqMerchantsSigningUpDe extends React.Component {
         <p className='para'>
           Entwickler sollten sich ganz normal <Href to='signup.path' className='u-link-color-p u-text-underline'>anmelden</Href>. Sobald
           Sie angemeldet sind, können Sie Ihren Entwickler Account freischalten. Unsere API Dokumentation
-          ist <Href to='api_reference_link' className='u-link-color-p u-text-underline'>hier</Href> verfügbar.
+          ist <Href to='api_docs.path' className='u-link-color-p u-text-underline'>hier</Href> verfügbar.
         </p>
 
         <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>

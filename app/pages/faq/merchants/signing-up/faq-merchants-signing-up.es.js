@@ -66,7 +66,7 @@ export default class FaqMerchantsSigningUpEs extends React.Component {
         </h3>
         <p className='para'>
           Los desarrolladores deberán registrarse normalmente. Nuestra documentación de la API la
-          puedes encontrar <Href to='api_reference_link' className='u-link-color-p u-text-underline'>aquí</Href>.
+          puedes encontrar <Href to='api_docs.path' className='u-link-color-p u-text-underline'>aquí</Href>.
         </p>
 
         <h3 className='u-color-dark-gray u-margin-Txl u-margin-Bm u-text-s'>
