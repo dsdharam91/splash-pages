@@ -124,24 +124,6 @@ export default class HomeEn extends React.Component {
           </div>
         </div>
 
-        <IfLocale hasInstantSignup>
-          <div className='u-background-light-primary u-text-center'>
-            <div className='site-container u-padding-Vxxl'>
-              <div className='u-padding-Vxl'>
-                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                  Ready to get started?
-                </h2>
-                <Href to='signup.path' className='btn u-margin-Tm u-margin-Rm u-margin-Bxxs'>
-                  Sign up
-                </Href>
-                <Link to='contact_sales' className='btn btn--hollow u-margin-Tm u-margin-Bxxs'>
-                  <Message pointer='cta.pro' />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </IfLocale>
-
         <div className='site-container u-text-center u-padding-Vxxl' id='learn-more'>
           <div className='u-padding-Vxl'>
             <div className='u-center'>
@@ -226,6 +208,24 @@ export default class HomeEn extends React.Component {
             </div>
           </div>
         </div>
+
+        <IfLocale hasInstantSignup>
+          <div className='u-background-light-primary u-text-center'>
+            <div className='site-container u-padding-Vxxl'>
+              <div className='u-padding-Vxl'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
+                  Ready to get started?
+                </h2>
+                <Href to='signup.path' className='btn u-margin-Tm u-margin-Rm u-margin-Bxxs'>
+                  <Message pointer='cta.signup' />
+                </Href>
+                <Link to='contact_sales' className='btn btn--hollow u-margin-Tm u-margin-Bxxs'>
+                  <Message pointer='cta.pro' />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </IfLocale>
 
       </Translation>
     );
