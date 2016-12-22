@@ -98,22 +98,11 @@ class FooterEn extends React.Component {
                 <IfLinkExists to='existing_direct_debit_user' tagName='li'>
                   <Link to='existing_direct_debit_user' pointer='existing_direct_debit_user.nav_title' className='page-footer__link'/>
                 </IfLinkExists>
-                <IfLinkExists to='developer_features' tagName='li'>
-                  <p className='page-footer__link'>
-                    <Link to='developer_features' pointer='developer_features.nav_title' className='page-footer__link'/>
-                  </p>
-                </IfLinkExists>
-                <li>
-                  <Href to='api_docs.path' className='page-footer__link'>
-                    <Message pointer='api_docs.nav_title' />
-                  </Href>
-                </li>
                 <IfLinkExists to='partners' tagName='li'>
-                  <p className='page-footer__link'>
-                    <Link to='partners'>
-                      Partner integrations
-                    </Link>
-                  </p>
+                  <Link to='partners' pointer='partners.nav_title' className='page-footer__link' />
+                </IfLinkExists>
+                <IfLinkExists to='integrate_features' tagName='li'>
+                  <Link to='integrate_features' pointer='partners.nav_title' className='page-footer__link' />
                 </IfLinkExists>
                 <IfLinkExists to='pricing' tagName='li'>
                   <Link to='pricing' pointer='pricing.nav_title' className='page-footer__link' />
