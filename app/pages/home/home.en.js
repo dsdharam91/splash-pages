@@ -92,14 +92,14 @@ export default class HomeEn extends React.Component {
                       );
                     }) }
                   </div>
-                  <p className='u-color-invert u-text-center u-text-s'>
-                    Developer looking to integrate with our API?&nbsp;
-                    <IfLinkExists to='developer_features'>
-                      <Link to='developer_features' className='hero-card__note-link u-text-underline u-color-invert u-text-semi'>
+                  <IfLinkExists to='developers'>
+                    <p className='u-color-invert u-text-center u-text-s'>
+                      Developer looking to integrate with our API?&nbsp;
+                      <Link to='developers' className='hero-card__note-link u-text-underline u-color-invert u-text-semi'>
                         Find out more
                       </Link>
-                    </IfLinkExists>
-                  </p>
+                    </p>
+                  </IfLinkExists>
                 </div>
               </div>
             </div>

@@ -91,7 +91,7 @@ export default class PaymentsByDirectDebitEn extends React.Component {
                 </div>
               </div>
               <div className='u-padding-Vm u-margin-Vm u-text-center'>
-                <Link to='features' className='btn u-padding-Hl'>Learn more</Link>
+                <Link to='small_medium_businesses' className='btn u-padding-Hl'>Learn more</Link>
                 <Link to='pricing' className='btn u-padding-Hl btn--hollow u-margin-Lm'>View our pricing</Link>
               </div>
               <div className='u-padding-Txxl u-size-5of6 u-center'>

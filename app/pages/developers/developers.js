@@ -11,8 +11,8 @@ import FutureProof from '../../icons/svg/FutureProof';
 import PlugIn from '../../icons/svg/PlugIn';
 import ReadPdf from '../../icons/svg/ReadPdf';
 
-export default class DeveloperFeatures extends React.Component {
-  displayName = 'DeveloperFeatures'
+export default class Developers extends React.Component {
+  displayName = 'Developers'
 
   render() {
     const phpCodeBlock = `<code class="code-examples__tabs-code language-php hljs">$subscription = $client-&gt;subscriptions()-&gt;create([

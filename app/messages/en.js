@@ -74,9 +74,9 @@ export default {
     title: 'Partner integrations',
     nav_title: 'Partner integrations',
   },
-  integrate_features: {
-    title: 'Integrate with our API',
-    nav_title: 'Integrate with our API',
+  direct_debit_api: {
+    title: 'Direct Debit API',
+    nav_title: 'Direct Debit API',
     description: '',
   },
   not_found: {
@@ -253,10 +253,11 @@ export default {
     nav_title: 'Small Businesses',
     description: '',
   },
-  developer_features: {
+  developers: {
     title: 'GoCardless for Developers',
-    nav_title: 'Learn about our API',
+    nav_title: 'Developers',
     description: '',
+    path: 'https://developer.gocardless.com',
   },
   security: {
     title: 'Security',
@@ -663,11 +664,6 @@ export default {
     title: 'API Documentation',
     nav_title: 'API Documentation',
     path: 'https://developer.gocardless.com/api-reference',
-  },
-  developers: {
-    title: 'Developers',
-    nav_title: 'Developers',
-    path: 'https://developer.gocardless.com',
   },
   blog: {
     title: 'Blog',
