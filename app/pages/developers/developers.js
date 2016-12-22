@@ -6,7 +6,7 @@ import Tabs from '../../components/tabs/tabs';
 import CustomisableIntegration from '../../icons/svg/CustomisableIntegration';
 import DeveloperAPI from '../../icons/svg/DeveloperAPI';
 import DevelopTestIterate from '../../icons/svg/DevelopTestIterate';
-import Europe from '../../icons/svg/Europe';
+import EuropeIcon from '../../icons/svg/globe-europe';
 import FutureProof from '../../icons/svg/FutureProof';
 import PlugIn from '../../icons/svg/PlugIn';
 import ReadPdf from '../../icons/svg/ReadPdf';
@@ -310,7 +310,7 @@ export default class Developers extends React.Component {
 
               <div className='grid__cell u-size-1of3 u-text-center'>
                 <figure className='svg-icon svg-icon--medium u-center'>
-                  <Europe className='svg-icon__image svg-icon__image--medium' />
+                  <EuropeIcon className='svg-icon__image svg-icon__image--medium' />
                 </figure>
 
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
