@@ -89,6 +89,12 @@ class FooterEn extends React.Component {
                     Solutions
                   </p>
                 </li>
+                <IfLinkExists to='features' tagName='li'>
+                  <Link to='features' pointer='features.nav_title' className='page-footer__link'/>
+                </IfLinkExists>
+                <IfLinkExists to='pro' tagName='li'>
+                  <Link to='pro' pointer='pro.nav_title' className='page-footer__link'/>
+                </IfLinkExists>
                 <IfLinkExists to='small_medium_businesses' tagName='li'>
                   <Link to='small_medium_businesses' pointer='small_medium_businesses.nav_title' className='page-footer__link'/>
                 </IfLinkExists>
