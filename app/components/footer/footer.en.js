@@ -145,11 +145,7 @@ class FooterEn extends React.Component {
                   <Link to='faq_merchants' pointer='faq_merchants.link_title' className='page-footer__link' />
                 </IfLinkExists>
                 <li>
-                  <p className='page-footer__link'>
-                    <Href to='api_docs.path'>
-                      Developer Docs
-                    </Href>
-                  </p>
+                  <Href to='api_docs.path' pointer='api_docs.nav_title' className='page-footer__link' />
                 </li>
                 <IfLinkExists to='customer_offers' tagName='li'>
                   <Link to='customer_offers' pointer='customer_offers.nav_title' className='page-footer__link' />
