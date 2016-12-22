@@ -4,6 +4,7 @@ import Message from '../../components/message/message';
 import InlineMessage from '../../components/inline-message/inline-message';
 import Translation from '../../components/translation/translation';
 import HomeEn from './home.en';
+import HomeEnGlobal from './home.en.global';
 import HomeFr from './home.fr';
 import HomeDe from './home.de';
 import HomeEs from './home.es';
@@ -20,9 +21,9 @@ export default class Home extends React.Component {
     return (
       <div>
         <IfLocale showHoldingPage={false}>
-          <Translation locales={['fr', 'de', 'es', 'nl']}>
+          <Translation locales={['fr', 'de', 'es', 'nl', 'en']} exclude={'en-GB'}>
             <Page>
-              <div className='page-hero page-hero--home page-hero--large u-relative u-size-full'>
+              <div className='page-hero page-hero--global page-hero--large u-relative u-size-full'>
                 <div className='site-container page-hero__container'>
                   <div className='page-hero__inner'>
                     <div className='page-hero__text'>
@@ -60,10 +61,11 @@ export default class Home extends React.Component {
               <HomeDe />
               <HomeEs />
               <HomeNl />
+              <HomeEnGlobal />
             </Page>
           </Translation>
 
-          <Translation locales='en'>
+          <Translation locales='en-GB'>
             <Page isInverted={false}>
               <HomeEn />
             </Page>
