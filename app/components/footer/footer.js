@@ -47,11 +47,11 @@ class Footer extends React.Component {
 
     return (
       <div>
-        <Translation locales='en'>
+        <Translation locales={['en-GB']}>
           <FooterEn/>
         </Translation>
 
-        <Translation locales={availableLocales} exclude={['en-GB', 'en-EU', 'en-IE', 'en-SE']}>
+        <Translation locales={availableLocales} exclude={['en-GB']}>
           <div className='page-footer u-color-invert u-padding-Tl'>
             <div className='grid site-container u-padding-Vl u-text-center page-footer__start'>
               <div className='grid__cell u-size-1of2'>
