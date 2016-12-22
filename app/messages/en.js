@@ -604,10 +604,6 @@ export default {
     title: 'Partnerships Success Manager',
     description: '',
   },
-  jobs_partnerships_success_manager: {
-    title: 'Partnerships Success Manager',
-    description: '',
-  },
   jobs_market_analyst_internship: {
     title: 'Market Analyst Internship',
     description: '',
