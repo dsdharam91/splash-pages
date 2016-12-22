@@ -32,7 +32,7 @@ export default {
     description: 'No set up costs, no hidden charges, no commitments',
   },
   hero: {
-    desc: 'GoCardless makes collecting by Direct Debit easy for everyone from individuals to multi-national corporations',
+    desc: 'We enable organisations to take recurring payments however and whenever they want to.',
   },
   contact_types: ['customer support', 'sales'],
   postal_address: {

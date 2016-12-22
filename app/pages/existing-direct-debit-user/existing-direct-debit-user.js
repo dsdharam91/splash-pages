@@ -11,7 +11,7 @@ import SimpleSetup from '../../icons/svg/SimpleSetup';
 import LessAdmin2 from '../../icons/svg/LessAdmin2';
 import Transparentfees from '../../icons/svg/Transparentfees';
 import ConnectTeams from '../../icons/svg/ConnectTeams';
-import Europe from '../../icons/svg/Europe';
+import EuropeIcon from '../../icons/svg/globe-europe';
 import FutureProof from '../../icons/svg/FutureProof';
 import TransformExperience from '../../icons/svg/TransformExperience';
 import NoSetUpFees from '../../icons/svg/NoSetUpFees';
@@ -187,7 +187,7 @@ export default class ExistingDirectDebitUser extends React.Component {
 
               <div className='grid__cell u-size-1of2 u-margin-Txxl u-padding-Txxl'>
                 <figure className='svg-icon svg-icon--medium u-pull-start u-inline-block'>
-                  <Europe className='svg-icon__image svg-icon__image--medium' />
+                  <EuropeIcon className='svg-icon__image svg-icon__image--medium' />
                 </figure>
 
                 <div className='u-inline-block u-pull-start u-size-3of4 u-margin-Lm'>
