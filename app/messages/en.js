@@ -61,10 +61,6 @@ export default {
       success_message: 'Thank you, a member of the GoCardless team will be in touch soon.',
     },
   },
-  a_simple_direct_debit_solution: {
-    title: 'A Simple Direct Debit Solution',
-    nav_title: 'A Simple Direct Debit Solution',
-  },
   new_to_direct_debit: {
     title: 'New to Direct Debit',
     nav_title: 'New to Direct Debit',
@@ -254,6 +250,7 @@ export default {
   },
   small_medium_businesses: {
     title: 'Take control of your payments',
+    nav_title: 'Small Businesses',
     description: '',
   },
   developer_features: {

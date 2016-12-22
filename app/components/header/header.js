@@ -311,7 +311,7 @@ export default class Header extends React.Component {
         <ul className='u-text-xxs u-padding-Vxs'>
           <Link to='small_medium_businesses'
           tagName='li'
-          pointer='a_simple_direct_debit_solution.nav_title'
+          pointer='small_medium_businesses.nav_title'
           className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
 
           <Link to='new_to_direct_debit'

@@ -90,7 +90,7 @@ class FooterEn extends React.Component {
                   </p>
                 </li>
                 <IfLinkExists to='small_medium_businesses' tagName='li'>
-                  <Link to='small_medium_businesses' pointer='a_simple_direct_debit_solution.nav_title' className='page-footer__link'/>
+                  <Link to='small_medium_businesses' pointer='small_medium_businesses.nav_title' className='page-footer__link'/>
                 </IfLinkExists>
                 <IfLinkExists to='new_to_direct_debit' tagName='li'>
                   <Link to='new_to_direct_debit' pointer='new_to_direct_debit.nav_title' className='page-footer__link'/>
