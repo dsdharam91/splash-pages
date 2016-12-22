@@ -44,7 +44,7 @@ export default class HomeEn extends React.Component {
 
   render() {
     return (
-      <Translation locales='en'>
+      <Translation locales='en-GB'>
         <div className='page-hero--home u-relative u-size-full'>
           <div className='site-container page-hero__container'>
             <div className='page-hero__inner page-hero__inner--lowered'>
@@ -113,7 +113,7 @@ export default class HomeEn extends React.Component {
                 You'll be in good company
               </h2>
               <div className='u-text-center u-margin-Vl u-padding-Vs u-padding-Hxxl u-center'>
-                <img src='/images/logos/pro-logos@2x.png' />
+                <img src='/images/logos/pro-logos-colour@2x.png' />
               </div>
               <IfLinkExists to='stories'>
                 <Link to='stories' className='btn btn--hollow u-margin-Ts u-margin-Bxxl'>
