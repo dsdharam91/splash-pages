@@ -2,6 +2,7 @@ import React from 'react';
 import Translation from '../../components/translation/translation';
 import IfLocale from '../../components/if-locale/if-locale';
 import Link from '../../components/link/link';
+import IfLinkExists from '../../components/if-link-exists/if-link-exists';
 import Href from '../../components/href/href';
 import Message from '../../components/message/message';
 
@@ -145,9 +146,11 @@ export default class HomeEn extends React.Component {
                   <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
                     <Message pointer='pricing.per_transaction_amount_normal' /> capped at <Message pointer='pricing.cost_cap' />
                   </p>
-                  <Link to='features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
-                    Learn more
-                  </Link>
+                  <IfLinkExists to='features'>
+                    <Link to='features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                      Learn more
+                    </Link>
+                  </IfLinkExists>
                 </div>
 
                 <div className='product-grid__section u-padding-Vl'>
@@ -163,9 +166,11 @@ export default class HomeEn extends React.Component {
                   <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
                     From <Message pointer='pricing.pro_cost_per_transaction' />
                   </p>
-                  <Link to='pro' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
-                    Learn more
-                  </Link>
+                  <IfLinkExists to='pro'>
+                    <Link to='pro' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+                      Learn more
+                    </Link>
+                  </IfLinkExists>
                 </div>
 
             </div>

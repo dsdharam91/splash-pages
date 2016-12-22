@@ -78,9 +78,9 @@ export default {
     title: 'Partner integrations',
     nav_title: 'Partner integrations',
   },
-  integrate_features: {
-    title: 'Integrate with our API',
-    nav_title: 'Integrate with our API',
+  direct_debit_api: {
+    title: 'Direct Debit API',
+    nav_title: 'Direct Debit API',
     description: '',
   },
   not_found: {
@@ -256,7 +256,7 @@ export default {
     title: 'Take control of your payments',
     description: '',
   },
-  developer_features: {
+  developers: {
     title: 'GoCardless for Developers',
     nav_title: 'Learn about our API',
     description: '',

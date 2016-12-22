@@ -133,7 +133,7 @@ export default class NewToDirectDebit extends React.Component {
                 </li>
               </ul>
 
-              <Link to='integrate_features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
+              <Link to='direct_debit_api' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                 Learn about our API
               </Link>
             </div>

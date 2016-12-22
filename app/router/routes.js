@@ -111,8 +111,8 @@ import FaqProDashboardPaylinksCreation from '../pages/faq/pro-dashboard/paylinks
 import NewToDirectDebit from '../pages/new-to-direct-debit/new-to-direct-debit';
 import ExistingDirectDebitUser from '../pages/existing-direct-debit-user/existing-direct-debit-user';
 import SmallMediumBusinesses from '../pages/small-medium-businesses/small-medium-businesses';
-import DeveloperFeatures from '../pages/developer-features/developer-features';
-import IntegrateFeatures from '../pages/integrate-features/integrate-features';
+import Developers from '../pages/developers/developers';
+import DirectDebitApi from '../pages/direct-debit-api/direct-debit-api';
 
 import Stories from '../pages/stories/stories';
 import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
@@ -254,9 +254,6 @@ export const config = Immutable.fromJS([
     },
   ],
   [Features, { name: 'features' }, {
-      'en-GB': {
-        path: '/features',
-      },
       'en-IE': {
         path: '/features',
       },
@@ -382,25 +379,25 @@ export const config = Immutable.fromJS([
   ],
   [ExistingDirectDebitUser, { name: 'existing_direct_debit_user'}, {
       'en-GB': {
-        path: '/existing-direct-debit-user',
+        path: '/better-direct-debit',
       },
     },
   ],
   [SmallMediumBusinesses, { name: 'small_medium_businesses'}, {
       'en-GB': {
-        path: '/small-medium-businesses',
+        path: '/features',
       },
     },
   ],
-  [DeveloperFeatures, { name: 'developer_features'}, {
+  [Developers, { name: 'developers'}, {
       'en-GB': {
-        path: '/developer-features',
+        path: '/developers',
       },
     },
   ],
-  [IntegrateFeatures, { name: 'integrate_features'}, {
+  [DirectDebitApi, { name: 'direct_debit_api'}, {
       'en-GB': {
-        path: '/integrate-features',
+        path: '/direct-debit-api',
       },
     },
   ],

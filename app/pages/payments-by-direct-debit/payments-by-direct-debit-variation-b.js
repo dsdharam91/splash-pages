@@ -65,7 +65,7 @@ export default class PaymentsByDirectDebitVariationB extends React.Component {
             </div>
             <div className='u-padding-Tm u-margin-Tm u-text-center'>
               <Href to='signup.path' className='btn u-padding-Hl'>Sign up now</Href>
-              <Link to='features' className='btn u-padding-Hl btn--hollow u-margin-Lm'>Find out more</Link>
+              <Link to='small_medium_businesses' className='btn u-padding-Hl btn--hollow u-margin-Lm'>Find out more</Link>
             </div>
           </div>
         </div>
