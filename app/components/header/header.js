@@ -42,7 +42,8 @@ export default class Header extends React.Component {
           { _.map(['features', 'pro', 'partner_with_us'], (link) =>
             <IfLinkExists to={link}
             tagName='li'
-            className='site-header__product'>
+            className='site-header__product'
+            key={link}>
               <Link to={link}
               className='site-header__product-link u-link-clean'>
                 <span className='site-header__product-link-title u-text-semi'>
@@ -284,7 +285,7 @@ export default class Header extends React.Component {
             <Link to='faq_merchants'
             tagName='li'
             className='u-padding-Vxs u-padding-Hm u-block'
-            pointer='faq_merchants.nav_title'/>
+            pointer='faq_merchants.link_title'/>
           </li>
 
           <li className='u-text-semi'>
@@ -311,7 +312,7 @@ export default class Header extends React.Component {
         <ul className='u-text-xxs u-padding-Vxs'>
           <Link to='small_medium_businesses'
           tagName='li'
-          pointer='a_simple_direct_debit_solution.nav_title'
+          pointer='small_medium_businesses.nav_title'
           className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
 
           <Link to='new_to_direct_debit'
@@ -321,7 +322,7 @@ export default class Header extends React.Component {
 
           <Link to='existing_direct_debit_user'
           tagName='li'
-          pointer='optimise_your_direct_debit.nav_title'
+          pointer='existing_direct_debit_user.nav_title'
           className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
 
           <Link to='partners'
@@ -396,14 +397,16 @@ export default class Header extends React.Component {
                 </Popover>
               </Translation>
 
-              <div className='nav__item u-relative'>
-                <Href to='developers.path'
+              <IfLinkExists to='developers'
+              tagName='div'
+              className='nav__item u-relative'>
+                <Link to='developers'
                 className={ this.getLinkClassName() }>
                   <div className='nav__item-link'>
                     <Message pointer='developers.nav_title' />
                   </div>
-                </Href>
-              </div>
+                </Link>
+              </IfLinkExists>
             </nav>
           </div>
 

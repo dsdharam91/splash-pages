@@ -61,18 +61,10 @@ export default {
       success_message: 'Thank you, a member of the GoCardless team will be in touch soon.',
     },
   },
-  a_simple_direct_debit_solution: {
-    title: 'A Simple Direct Debit Solution',
-    nav_title: 'A Simple Direct Debit Solution',
-  },
   new_to_direct_debit: {
-    title: 'New to Direct Debit',
+    title: 'Reduce churn & increase LTV with Direct Debit',
     nav_title: 'New to Direct Debit',
     description: '',
-  },
-  optimise_your_direct_debit: {
-    title: 'Optimise your Direct Debit',
-    nav_title: 'Optimise your Direct Debit',
   },
   partner_integrations: {
     title: 'Partner integrations',
@@ -248,12 +240,13 @@ export default {
     description: '',
   },
   existing_direct_debit_user: {
-    title: 'Existing Direct Debit user',
-    nav_title: 'Existing Direct Debit user',
+    title: 'Direct Debit for the Digital Age',
+    nav_title: 'Optimise your Direct Debit',
     description: '',
   },
   small_medium_businesses: {
-    title: 'Take control of your payments',
+    title: 'Take control of your payments - Get paid on time, every time',
+    nav_title: 'Small Businesses',
     description: '',
   },
   developers: {
