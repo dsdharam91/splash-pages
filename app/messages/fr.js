@@ -211,9 +211,9 @@ export default {
   pricing: {
     title: 'Tarifs',
     nav_title: 'Tarifs',
-    description: 'Prenez vos prélèvements automatiques SEPA à partir de 0,60€ par transaction réussie, avec tarifs dégressifs pour les grandes entreprises.',
+    description: 'Prenez vos prélèvements automatiques SEPA à partir de 0,60 € par transaction réussie, avec tarifs dégressifs pour les grandes entreprises.',
     cost_cap: '2€',
-    pro_cost_per_transaction: '0,01-0,60€',
+    pro_cost_per_transaction: '0,01 — 0,60 €',
     per_transaction_amount_normal: '1%',
     pro_monthly_fee: '250€',
   },
