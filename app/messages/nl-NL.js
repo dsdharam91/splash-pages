@@ -14,7 +14,7 @@ export default {
   pricing: {
     cost_cap: '€ 2',
     description: 'Slechts 1% per transactie, met een maximum van € 2. Speciale tarieven voor grote organisaties.',
-    pro_cost_per_transaction: '€ 0,01 — 0,60',
+    pro_cost_per_transaction: '0,01 — 0,60 €',
     per_transaction_amount_normal: '1%',
     pro_monthly_fee: '€ 250',
     normal_capped_at_amount: '€ 200',
