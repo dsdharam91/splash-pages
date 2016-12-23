@@ -390,6 +390,9 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/developers',
       },
+      fr: {
+        path: '/developpeurs',
+      },
     },
   ],
   [DirectDebitApi, { name: 'direct_debit_api'}, {
