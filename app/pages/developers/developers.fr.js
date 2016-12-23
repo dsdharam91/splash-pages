@@ -103,7 +103,7 @@ export default class DevelopersFr extends React.Component {
         <div className='page-hero u-padding-Bxxl page-hero--funnels'>
           <div className='site-container u-padding-Bxl u-text-center'>
                 <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
-                   Construisez mieux, plus intelligemment, plus rapidement avec notre API
+                   Construisez mieux, plus intelligemment, <br/>plus rapidement avec notre API
                 </h1>
 
                 <p className='u-text-heading-light u-text-m u-color-invert'>
@@ -130,7 +130,7 @@ export default class DevelopersFr extends React.Component {
               </figure>
 
               <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                Nous parlons votre langue
+                Nous parlons <br/>votre langue
               </div>
 
               <p className='u-center u-color-dark-gray u-margin-Txs'>
@@ -144,11 +144,11 @@ export default class DevelopersFr extends React.Component {
               </figure>
 
               <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                Simple à développer, à tester et réitérer
+                Simple à développer, <br/>à tester et réitérer
               </div>
 
               <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                Test dans notre environnement sandbox
+                Test dans notre <br/>environnement sandbox
               </p>
             </div>
 
@@ -158,7 +158,7 @@ export default class DevelopersFr extends React.Component {
               </figure>
 
               <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                Technologie API First
+                Technologie <br/>API First
               </div>
 
               <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
@@ -300,7 +300,7 @@ export default class DevelopersFr extends React.Component {
                 </figure>
 
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Technologie de paiements <br/>future proof
+                  Technologie de <br/>paiements future proof
                 </div>
 
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
@@ -314,7 +314,7 @@ export default class DevelopersFr extends React.Component {
                 </figure>
 
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Une intégration pour le Royaume-Uni, la Zone Euro et la Suède
+                  Une intégration pour le Royaume-Uni, la Zone <br/>Euro et la Suède
                 </div>
 
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
@@ -341,7 +341,7 @@ export default class DevelopersFr extends React.Component {
               <div className='grid__cell u-size-1of2'>
                 <div className='u-size-3of4 u-margin-Bl'>
                   <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>
-                    Copiez-collez des échantillons de code
+                    Copiez-collez des échantillons <br/>de code
                   </h3>
 
                   <p className='u-color-dark-gray u-margin-Txs'>
@@ -351,7 +351,7 @@ export default class DevelopersFr extends React.Component {
 
                 <div className='u-size-3of4 u-margin-Bl'>
                   <h3 className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m'>
-                    Documentation claire et accessible
+                    Documentation claire <br/>et accessible
                   </h3>
 
                   <p className='u-color-dark-gray u-margin-Txs'>
