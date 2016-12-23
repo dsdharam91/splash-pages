@@ -355,7 +355,7 @@ export default class DevelopersFr extends React.Component {
                   </h3>
 
                   <p className='u-color-dark-gray u-margin-Txs'>
-                    La <a href="http://developer.gocardless.com">documentation</a> complète incluant le guide "pas à pas" .
+                    La <Href to='api_docs.path'>documentation</Href> complète incluant le guide "pas à pas" .
                   </p>
                 </div>
 
@@ -372,7 +372,7 @@ export default class DevelopersFr extends React.Component {
             </div>
 
             <div className='u-margin-Tm'>
-              <a href='https://developer.gocardless.com/getting-started/api/introduction/'
+              <a href='https://developer.gocardless.com/fr/commencez-maintenant/api/introduction/'
               className='btn btn--hollow u-margin-Tl u-margin-Rs'>
                 Parcourez nos guides pour demarrer
               </a>
