@@ -107,12 +107,12 @@ export default class DevelopersFr extends React.Component {
                 </h1>
 
                 <p className='u-text-heading-light u-text-m u-color-invert'>
-                   Focus sur une intégration incroyable du prélèvement automatique, pas sur une intégration de 0.
+                   Une expérience inégalée pour intégrer le prélèvement automatique, sans partir de zèro.
                 </p>
 
                 <a href='https://manage-sandbox.gocardless.com/signup' className='u-link-color-p u-text-underline'
                 className='btn btn--invert u-margin-Tl u-margin-Rs'>
-                  Creez un compte sandbox
+                  Créez un compte sandbox
                 </a>
 
                 <Href to='api_docs.path'
@@ -259,7 +259,7 @@ export default class DevelopersFr extends React.Component {
               <a href='https://manage-sandbox.gocardless.com/signup'
               id=''
               className='btn btn--hollow u-margin-Tl u-margin-Rs'>
-                Creez un compte sandbox
+                Créez un compte sandbox
               </a>
 
               <p className='u-color-dark-gray u-margin-Tm'>
@@ -304,7 +304,7 @@ export default class DevelopersFr extends React.Component {
                 </div>
 
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  En constante amélioration, une solution de prélèvement automatique en ligne de pointe.
+                  Une solution de prélèvement automatique de pointe, en constante amélioration.
                 </p>
               </div>
 
@@ -345,7 +345,7 @@ export default class DevelopersFr extends React.Component {
                   </h3>
 
                   <p className='u-color-dark-gray u-margin-Txs'>
-                    Nous avons travaillé dur pour rendre l'intégration de notre API aussi facile que possible.
+                    Notre API a été conçue pour rendre son intégration aussi facile que possible.
                   </p>
                 </div>
 
@@ -374,7 +374,7 @@ export default class DevelopersFr extends React.Component {
             <div className='u-margin-Tm'>
               <a href='https://developer.gocardless.com/fr/commencez-maintenant/api/introduction/'
               className='btn btn--hollow u-margin-Tl u-margin-Rs'>
-                Parcourez nos guides pour demarrer
+                Parcourez nos guides pour démarrer
               </a>
             </div>
           </div>
@@ -397,7 +397,7 @@ export default class DevelopersFr extends React.Component {
             </h2>
 
             <a href='https://manage-sandbox.gocardless.com/signup' className='btn btn--hollow u-margin-Txxl'>
-              Creez un compte sandbox
+              Créez un compte sandbox
             </a>
           </div>
         </div>
