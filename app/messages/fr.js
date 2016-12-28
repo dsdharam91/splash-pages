@@ -360,4 +360,9 @@ export default {
     title: 'Foundation of Hearts',
     description: '',
   },
+  direct_debit_api: {
+    title: 'API Prélèvement Automatique',
+    nav_title: 'API Prélèvement Automatique',
+    description: '',
+  },
 };

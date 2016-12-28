@@ -399,6 +399,9 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/direct-debit-api',
       },
+      fr: {
+        path: '/api-prelevement-automatique',
+      },
     },
   ],
   [LocalGovernment, { name: 'local_government', category: 'industries' }, {
