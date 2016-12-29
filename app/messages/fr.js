@@ -305,8 +305,8 @@ export default {
     path: 'https://developer.gocardless.com/api-reference',
   },
   developers: {
-    title: 'Documentation API',
-    nav_title: 'Documentation API',
+    title: 'Développeurs',
+    nav_title: 'Développeurs',
     description: '',
     path: 'https://developer.gocardless.com/fr',
   },

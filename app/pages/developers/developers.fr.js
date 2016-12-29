@@ -117,7 +117,7 @@ export default class DevelopersFr extends React.Component {
 
                 <Href to='api_docs.path'
                 className='btn btn--invert-hollow u-margin-Tl'>
-                  Consultez notre documentation pour les developpeurs
+                  Consultez notre documentation pour les développeurs
                 </Href>
           </div>
         </div>
