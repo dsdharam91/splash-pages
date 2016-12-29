@@ -57,7 +57,7 @@ export default class PricingFr extends React.Component {
                           <Message pointer='pricing.per_transaction_amount_normal' />
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Par transaction réussie,<br/>plafonné à 2 €
+                          Par transaction réussie,<br/>plafonné à 2€
                         </p>
                       </div>
                       <IfLocale hasInstantSignup>
@@ -101,10 +101,10 @@ export default class PricingFr extends React.Component {
 
                       <div className='u-padding-Vs'>
                         <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
-                          0,10 - 0,60 €
+                          0,10 - 0,60€
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Par transaction réussie,<br/>plus <strong>250 €</strong> par mois
+                          Par transaction réussie,<br/>plus <strong>250€</strong> par mois
                         </p>
                       </div>
 

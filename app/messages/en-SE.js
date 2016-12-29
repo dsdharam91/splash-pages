@@ -19,7 +19,7 @@ export default {
   pricing: {
     cost_cap: '20kr',
     description: 'Collect Direct Debit payments online with fees of just 1%, capped at 20kr. Scale pricing is available for larger organisations.',
-    pro_cost_per_transaction: '0,50 — 5 kr',
+    pro_cost_per_transaction: '0,50 — 5kr',
     per_transaction_amount_normal: '1%',
     pro_monthly_fee: '2500kr',
     normal_capped_at_amount: '2000kr',
