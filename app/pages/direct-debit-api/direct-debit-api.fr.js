@@ -285,7 +285,7 @@ export default class DirectDebitApiFr extends React.Component {
           </div>
 
           <p className='u-text-center u-color-dark-gray u-margin-Bs u-text-s'>
-            Prenez contact avec nous: <Message pointer='phone_full' />
+            Prenez contact avec nous: <Message pointer='phone_local' />
           </p>
         </div>
 
