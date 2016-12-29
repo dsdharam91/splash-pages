@@ -304,7 +304,7 @@ export default class DirectDebitApiFr extends React.Component {
 
                   <hr className='u-margin-Vxl'/>
 
-                  <a href='https://gocardless.com/direct-debit/'>
+                  <a href='https://gocardless.com/fr/guides/sepa/'>
                     <ReadPdf className='u-inline-block useful-resource__icon' />
                     Lire
                   </a>
