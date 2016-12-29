@@ -266,7 +266,7 @@ export default class DirectDebitApiEn extends React.Component {
           </div>
 
           <p className='u-text-center u-color-dark-gray u-margin-Bs u-text-s'>
-            To speak to us immediately call: <Message pointer='phone_full' />
+            To speak to us immediately call: <Message pointer='phone_local' />
           </p>
         </div>
 
