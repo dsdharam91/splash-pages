@@ -55,9 +55,6 @@ export default class PricingEn extends React.Component {
                             <span className='u-color-accent'>&#10004;</span> REST API
                           </li>
                           <li className='u-margin-Bxs'>
-                            <span className='u-color-accent'>&#10004;</span> Migrate existing Direct Debit customers
-                          </li>
-                          <li className='u-margin-Bxs'>
                             <span className='u-color-accent'>&#10004;</span> Secure payment pages with your logo
                           </li>
                           <li className='u-margin-Bxs'>
@@ -95,6 +92,9 @@ export default class PricingEn extends React.Component {
                         Everything in Standard, plus:
                       </p>
                       <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
+                        <li className='u-margin-Bxs'>
+                          <span className='u-color-accent'>&#10004;</span> Migrate existing Direct Debit customers
+                        </li>
                         <li className='u-margin-Bxs'>
                           <span className='u-color-accent'>&#10004;</span> White-label payment pages
                         </li>
@@ -152,9 +152,6 @@ export default class PricingEn extends React.Component {
                           <span className='u-color-accent'>&#10004;</span> REST API
                         </li>
                         <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Migrate existing Direct Debit customers
-                        </li>
-                        <li className='u-margin-Bxs'>
                           <span className='u-color-accent'>&#10004;</span> Secure payment pages with your logo
                         </li>
                         <li className='u-margin-Bxs'>
@@ -207,10 +204,10 @@ export default class PricingEn extends React.Component {
                       <hr />
                       <div className='u-padding-Vs'>
                         <h2 className='u-text-heading u-text-light u-color-dark-gray u-text-center u-text-xl'>
-                          0,10 - 0,60 €
+                          €0.10 - €0.60
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Per transaction, plus <strong>250 €</strong> a month
+                          Per transaction, plus <strong>€250</strong> a month
                         </p>
                       </div>
                       <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contact sales</Link>
