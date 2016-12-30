@@ -1,6 +1,6 @@
 export default {
-  number_of_merchants: '20.000',
-  payments_processed_volume: '1,6€ milliard',
+  number_of_merchants: '20 000',
+  payments_processed_volume: '1 milliard d\'€',
   header: {
     our_products: 'Nos produits',
     login_btn: 'Se connecter',
@@ -16,14 +16,14 @@ export default {
     cookies_link_text: 'Apprenez-en plus',
   },
   hero: {
-    header: 'Simplifions les paiements récurrents',
-    desc: 'GoCardless rend le prélèvement bancaire européen simple pour tous, des start-ups aux grandes entreprises.',
+    header: 'La solution pour vos paiements récurrents',
+    desc: 'GoCardless offre un outil en ligne pour la gestion de vos prélèvements automatiques.',
   },
   cta: {
     basic: 'Commencez à prendre des paiements',
     pro: 'Contactez-nous',
     signup: 'Créez votre compte',
-    more: 'En apprendre plus',
+    more: 'En savoir plus',
   },
   basic_pricing_cta: {
     main: 'Payez 1%',
@@ -213,7 +213,7 @@ export default {
     nav_title: 'Tarifs',
     description: 'Prenez vos prélèvements automatiques SEPA à partir de 0,60 € par transaction réussie, avec tarifs dégressifs pour les grandes entreprises.',
     cost_cap: '2€',
-    pro_cost_per_transaction: '0,01 — 0,60 €',
+    pro_cost_per_transaction: '0,10 — 0,60 €',
     per_transaction_amount_normal: '1%',
     pro_monthly_fee: '250€',
   },
