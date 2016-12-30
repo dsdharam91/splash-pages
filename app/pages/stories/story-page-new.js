@@ -71,11 +71,14 @@ export default class StoryPageNew extends React.Component {
                     <Translation locales='en'>
                       &larr; Read more stories like { this.props.company }’s
                     </Translation>
-                    <Translation locales='es'>
-                      &larr; Lee más historias como la de { this.props.company }
+                    <Translation locales='fr'>
+                      &larr; Plus de témoignages
                     </Translation>
                     <Translation locales='de'>
                       &larr; Lesen Sie weitere Kundenstimmen
+                    </Translation>
+                    <Translation locales='es'>
+                      &larr; Lee más historias como la de { this.props.company }
                     </Translation>
                   </Link>
                 </div>
@@ -140,11 +143,14 @@ export default class StoryPageNew extends React.Component {
               <Translation locales='en'>
                 Join the <Message pointer='number_of_merchants' />+ businesses already using GoCardless
               </Translation>
-              <Translation locales='es'>
-                Únete a las más de <Message pointer='number_of_merchants' /> empresas que ya utilizan GoCardless
+              <Translation locales='fr'>
+                Plus de <Message pointer='number_of_merchants' /> sociétés sont déjà clientes
               </Translation>
               <Translation locales='de'>
                 Mehr als <Message pointer='number_of_merchants' /> Unternehmen nutzen GoCardless bereits
+              </Translation>
+              <Translation locales='es'>
+                Únete a las más de <Message pointer='number_of_merchants' /> empresas que ya utilizan GoCardless
               </Translation>
             </p>
 

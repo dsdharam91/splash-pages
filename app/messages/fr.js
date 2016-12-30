@@ -341,25 +341,28 @@ export default {
     path: 'https://manage.gocardless.com/signup?lang=fr',
   },
   stories: {
-    title: 'Références',
-    nav_title: 'Références',
+    title: 'Témoignages',
+    nav_title: 'Témoignages',
     description: '',
     link: 'Voir la référence',
+    key_benefits: 'Principaux bénéfices',
+    company_name: 'Société',
+    services: 'Service',
+    number_employees: 'Taille de l\'entreprise',
+    previous_provider: 'Solution de prélèvement utilisée avant GoCardless',
+    time_saved: 'Gain de temps depuis GoCardless',
+    start_journey: 'Rejoignez l\'aventure GoCardless aujourd\'hui',
   },
-  stories_zenchef: {
-    title: 'Zenchef',
-    description: '',
-  },
-  stories_the_french_talents: {
-    title: 'The French Talents',
+  stories_digidom: {
+    title: 'Digidom Témoignage',
     description: '',
   },
   stories_habitat: {
-    title: 'Habitat',
+    title: 'Habitat Témoignage',
     description: '',
   },
-  stories_foundation_of_hearts: {
-    title: 'Foundation of Hearts',
+  stories_zenchef: {
+    title: 'Zenchef Témoignage',
     description: '',
   },
   direct_debit_api: {
