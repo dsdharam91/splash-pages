@@ -80,7 +80,7 @@ class FooterEn extends React.Component {
                   </Href>
                 </li>
               </ul>
-              <hr className='section-divider u-margin-Vm' />
+              <hr className='u-margin-Vm' />
             </div>
             <div className='grid__cell u-size-1of4'>
               <ul className='u-text-heading u-text-semi u-text-xxs'>
