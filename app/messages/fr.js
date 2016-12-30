@@ -5,6 +5,8 @@ export default {
     our_products: 'Nos produits',
     login_btn: 'Se connecter',
     more: 'Plus',
+    help_resources: 'Aide & ressources',
+    about_us: 'A propos',
   },
   footer: {
     description: 'GoCardless est un Etablissement de Paiement Agréé, autorisé par l’autorité britannique FCA (Financial Conduct Authority) et habilité à prélever des paiements à travers l’Union Européenne.',
