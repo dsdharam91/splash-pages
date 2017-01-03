@@ -44,6 +44,7 @@ class Footer extends React.Component {
     const { routeName, currentLocale, config, availableLocales, availableCountryNames } = this.context;
     const availableLocalePages = buildAvailableLocalePages(currentLocale, routeName, availableLocales, availableCountryNames);
     const region = localeToRegion(currentLocale);
+    const hiddenLocales = ['en-AU', 'en-US', 'pt-BR', 'en-NZ'];
 
     return (
       <div>
@@ -170,26 +171,28 @@ class Footer extends React.Component {
                     <ul className='u-text-xxs u-text-start u-padding-Vxs'>
                       {
                         availableLocalePages.map(function(localePage) {
-                          return (
-                            <li className='u-text-semi' key={localePage.name}>
-                              {
-                                localePage.isActive && (
-                                  <span className='u-padding-Vxs u-padding-Hm u-block'>
-                                    <Flag country={localeToRegion(localePage.locale)}
-                                    className='flag-icon--popover u-margin-Rs u-align-baseline' alt={ localePage.name } />
-                                    <span className='country-select-label u-color-dark-gray'>{ localePage.name }</span>
-                                    <CheckmarkIcon className='u-fill-dark-green u-margin-Ls u-pull-end u-inline checkmark-icon' alt='✓' />
-                                  </span>
-                                ) || (
-                                  <a className='u-padding-Vxs u-padding-Hm u-block' href={ localePage.path }>
-                                    <Flag country={localeToRegion(localePage.locale)}
-                                    className='flag-icon--popover u-margin-Rs u-align-baseline' alt={ localePage.name } />
-                                    <span className='country-select-label'>{ localePage.name }</span>
-                                  </a>
-                                )
-                              }
-                            </li>
-                          );
+                          if (hiddenLocales.indexOf(localePage.locale) < 0) {
+                            return (
+                              <li className='u-text-semi' key={localePage.name}>
+                                {
+                                  localePage.isActive && (
+                                    <span className='u-padding-Vxs u-padding-Hm u-block'>
+                                      <Flag country={localeToRegion(localePage.locale)}
+                                      className='flag-icon--popover u-margin-Rs u-align-baseline' alt={ localePage.name } />
+                                      <span className='country-select-label u-color-dark-gray'>{ localePage.name }</span>
+                                      <CheckmarkIcon className='u-fill-dark-green u-margin-Ls u-pull-end u-inline checkmark-icon' alt='✓' />
+                                    </span>
+                                  ) || (
+                                    <a className='u-padding-Vxs u-padding-Hm u-block' href={ localePage.path }>
+                                      <Flag country={localeToRegion(localePage.locale)}
+                                      className='flag-icon--popover u-margin-Rs u-align-baseline' alt={ localePage.name } />
+                                      <span className='country-select-label'>{ localePage.name }</span>
+                                    </a>
+                                  )
+                                }
+                              </li>
+                            );
+                          }
                         })
                       }
                     </ul>

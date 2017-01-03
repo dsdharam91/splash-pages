@@ -1,14 +1,13 @@
 import React from 'react';
 import Message from '../../components/message/message';
 import Translation from '../../components/translation/translation';
-import IfLocale from '../../components/if-locale/if-locale';
 import Link from '../../components/link/link';
 import Href from '../../components/href/href';
 import StoryLink from '../stories/story-link';
 
-import IntegrateGreenIcon from '../../icons/svg/integrate-green';
-import OwnExperienceYellowIcon from '../../icons/svg/own-experience-yellow';
-import CustomersRedIcon from '../../icons/svg/customers-red';
+import DeveloperAPI from '../../icons/svg/DeveloperAPI';
+import TransparentfeesEuro from '../../icons/svg/Transparentfees-euro';
+import FutureProof from '../../icons/svg/FutureProof';
 import SmallBusinessYellowIcon from '../../icons/svg/small-business-yellow';
 import EnterpriseGreenIcon from '../../icons/svg/enterprise-green';
 
@@ -23,48 +22,49 @@ export default class HomeFr extends React.Component {
           <div className='u-padding-Vxl'>
             <div className='u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light'>
-                Plus de <Message pointer='payments_processed_volume' /> d’Euros passe par GoCardless chaque année
+                GoCardless traite un volume de transactions de plus d'<Message pointer='payments_processed_volume' /> par an.
               </h2>
             </div>
             <div className='grid u-margin-Tl u-padding-Tm'>
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <figure className='svg-icon u-center'>
-                  <IntegrateGreenIcon className='svg-icon__image' />
+                <figure className='svg-icon svg-icon--medium u-center'>
+                  <DeveloperAPI className='svg-icon__image svg-icon__image--medium' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  API Simple et moderne
+                  API simple et flexible
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  Requêtes détaillées dans notre documentation API. Plusieurs librairies sont disponibles.
+                  Intégration rapide. Automatisation du flux de paiement. Diminution des tâches administratives.
                 </p>
               </div>
 
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <figure className='svg-icon u-center'>
-                  <OwnExperienceYellowIcon className='svg-icon__image' />
+                <figure className='svg-icon svg-icon--medium u-center'>
+                  <TransparentfeesEuro className='svg-icon__image svg-icon__image--medium' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  Marque blanche
+                  Tarifs transparents
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  GoCardless Pro vous permet de créer vos propres pages de paiements, hébergées chez vous.
+                  Aucun frais de mise en place. Pas de frais de rejet. Aucun dépôt de garantie.
                 </p>
               </div>
 
               <div className='grid__cell u-size-1of3 u-text-center'>
-                <figure className='svg-icon u-center'>
-                  <CustomersRedIcon className='svg-icon__image' />
+                <figure className='svg-icon svg-icon--medium u-center'>
+                  <FutureProof className='svg-icon__image svg-icon__image--medium' />
                 </figure>
                 <div className='u-text-heading u-color-dark-gray u-text-light u-text-no-smoothing u-text-m u-margin-Tm'>
-                  <Message pointer='number_of_merchants' />+ marchands
+                  Augmentation des revenus
                 </div>
                 <p className='u-size-4of5 u-center u-color-dark-gray u-margin-Txs'>
-                  De plus en plus d'entreprises nous font confiance pour la gestion de leurs paiements en Europe.
+                  Amélioration du taux de conversion. Meilleure gestion des rejets. Réduction du churn.
                 </p>
               </div>
             </div>
             <p className='u-color-dark-gray u-margin-Txxl u-padding-Tm'>
-              Vous voulez en apprendre plus sur le prélèvement SEPA ?<br />
+              Vous souhaitez en savoir plus sur le prélèvement SEPA ?
+              <br />
               <Href to='guides.path' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
                 Lisez notre guide
               </Href>
@@ -77,14 +77,14 @@ export default class HomeFr extends React.Component {
         <div className='u-text-center u-padding-Vxxl'>
           <div className='site-container u-padding-Txl'>
             <div className='u-size-1of2 u-center'>
-              <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                Entre de bonnes mains
-              </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Txs u-margin-Bl'>
-                Nous collectons des millions pour plus de <Message pointer='number_of_merchants' /> clients chaque jour,
-                en conformité avec les règles SEPA et sous la supervision de la FCA.
-                Nous aidons les start-ups comme les multinationales.
+                GoCardless est régulé par la FCA et certifié ISO27001.
+                Nous traitons un volume de transactions de plus d'<Message pointer='payments_processed_volume' /> par
+                an pour le compte de plus de <Message pointer='number_of_merchants' /> clients.
               </p>
+            </div>
+            <div className='u-text-center u-margin-Bl u-padding-Vs u-padding-Hxxl u-center'>
+              <img src='/images/fr/logos/pro-logos-colour-fr@2x.png' />
             </div>
             <StoryLink cssSizeClass='u-size-1of2'
               imgClass='habitat-logo stories-item__logo--habitat' to='stories_habitat'>
@@ -94,9 +94,6 @@ export default class HomeFr extends React.Component {
               imgClass='zenchef-logo stories-item__logo--zenchef' to='stories_zenchef'>
               Zenchef a réussi à augmenter la valeur vie client (LTV) tout en minimisant les coûts d’acquisition (CAC) grace au prélèvement.
             </StoryLink>
-            <div className='u-text-center u-margin-Bl u-padding-Vs u-padding-Hxxl u-center'>
-              <img src='/images/fr/logos/pro-logos-fr@2x.jpg' />
-            </div>
           </div>
         </div>
 
@@ -111,14 +108,14 @@ export default class HomeFr extends React.Component {
                   TPE et PME
                 </p>
                 <p className='u-color-dark-gray u-padding-Vm'>
-                  Prenez le controle de vos paiements et soyez payé aux échéances convenues : trésorerie saine et plus de travail
-                  administratif lié aux retards de paiements.
+                  Réduisez les tâches administratives liées aux retards de paiement. Soyez payé à temps en prenant
+                  le contrôle de vos paiements. Améliorez votre trésorerie.
                 </p>
                 <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
                   <Message pointer='pricing.per_transaction_amount_normal' /> plafonné à <Message pointer='pricing.cost_cap' />
                 </p>
                 <Link to='features' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
-                  En apprendre plus
+                  En savoir plus
                 </Link>
               </div>
               <div className='product-grid__section u-padding-Vl u-padding-Hxl'>
@@ -129,14 +126,14 @@ export default class HomeFr extends React.Component {
                   Grandes entreprises
                 </p>
                 <p className='u-color-dark-gray u-padding-Vm'>
-                  Le prélèvement à l'ère du numérique, connecté à vos outils métiers avec des notifications en temps réel. Meilleure
-                  experience client et réduction du churn garantis.
+                  Automatisez votre flux de paiement. Connectez GoCardless à vos outils métiers.
+                  Réduisez le churn grâce aux notifications de paiement en temps réel.
                 </p>
                 <p className='u-color-dark-gray u-text-m u-text-light u-text-no-smoothing u-margin-Bm'>
                   De <Message pointer='pricing.pro_cost_per_transaction' />
                 </p>
                 <Link to='pro' className='u-color-primary u-text-upcase u-text-xxs u-text-heading u-text-semi'>
-                  En apprendre plus
+                  En savoir plus
                 </Link>
               </div>
           </div>
@@ -146,7 +143,7 @@ export default class HomeFr extends React.Component {
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='u-padding-Vxl'>
             <h2 className='u-text-l u-text-heading u-color-dark-gray u-text-light'>
-              Ils parlent de GoCardless
+              Dans la presse
             </h2>
             <div className='grid u-padding-Txl'>
               <a href={'http://www.lefigaro.fr/societes/2015/04/12/20005-20150412ARTFIG00171' +
@@ -194,26 +191,24 @@ export default class HomeFr extends React.Component {
           <div className='site-container u-padding-Vxl'>
             <div className='u-size-2of3 u-center'>
               <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                Un prix simple, transparent pour tous
+                Des tarifs simples et transparents
               </h2>
               <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-                Des tarifs concurrentiels adaptés aux grandes entreprises comme aux start-ups
+                Adaptés aux startups comme aux grandes entreprises.
               </p>
               <Link to='pricing' className='btn btn--hollow u-margin-Tm'>
-                En apprendre plus sur notre prix
+                En savoir plus sur nos tarifs
               </Link>
             </div>
           </div>
         </div>
-        <IfLocale hasInstantSignup>
-          <hr className='section-divider' />
-          <div className='site-container u-text-center u-padding-Vxxl'>
-            <div className='u-padding-Vxl'>
-              <Href to='signup.path' className='btn'>Commencez à prendre des paiements</Href>
-              <p className='u-color-dark-gray u-margin-Ts'>Offre sans engagement, aucun coût d'installation ni de frais caché</p>
-            </div>
-          </div>
-        </IfLocale>
+      <hr className='section-divider' />
+      <div className='site-container u-text-center u-padding-Vxxl'>
+        <div className='u-padding-Vxl'>
+          <Link to='contact_sales' className='btn'>Contactez-nous</Link>
+          <p className='u-color-dark-gray u-margin-Ts'>Offre sans engagement, aucun frais de mise en place.</p>
+        </div>
+      </div>
       </Translation>
     );
   }
