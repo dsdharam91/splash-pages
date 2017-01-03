@@ -616,6 +616,10 @@ export default {
     title: 'SDR: UK',
     description: '',
   },
+  jobs_sales_development_representative_outbound: {
+    title: 'NBD: UK',
+    description: '',
+  },
   jobs_head_of_sales_france: {
     title: 'Head of Sales: France',
     description: '',

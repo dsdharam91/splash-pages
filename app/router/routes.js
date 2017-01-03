@@ -43,6 +43,7 @@ import EngineeringManager from '../pages/about/jobs/positions/engineering-manage
 import ProductManager from '../pages/about/jobs/positions/product-manager.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
+import SalesDevelopmentRepresentativeOutbound from '../pages/about/jobs/positions/sales-development-representative-outbound.js';
 import CustomerSuccessManagerFrance from '../pages/about/jobs/positions/customer-success-france.js';
 import CustomerSuccessManager from '../pages/about/jobs/positions/customer-success-manager.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
@@ -574,6 +575,12 @@ export const config = Immutable.fromJS([
   [SalesDevelopmentRepresentativeInbound, { name: 'jobs_sales_development_representative_inbound', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/sales-development-representative-inbound',
+      },
+    },
+  ],
+  [SalesDevelopmentRepresentativeOutbound, { name: 'jobs_sales_development_representative_outbound', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/sales-development-representative-outbound',
       },
     },
   ],
