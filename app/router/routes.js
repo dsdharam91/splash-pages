@@ -43,6 +43,7 @@ import EngineeringManager from '../pages/about/jobs/positions/engineering-manage
 import ProductManager from '../pages/about/jobs/positions/product-manager.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
+import CustomerSuccessManagerFrance from '../pages/about/jobs/positions/customer-success-france.js';
 import CustomerSuccessManager from '../pages/about/jobs/positions/customer-success-manager.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 import RiskComplianceAnalyst from '../pages/about/jobs/positions/risk-compliance-analyst.js';
@@ -52,6 +53,7 @@ import DeveloperSupportLead from '../pages/about/jobs/positions/developer-suppor
 import PartnershipsDevelopmentManager from '../pages/about/jobs/positions/partnerships-development.js';
 import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success.js';
 import MarketAnalystInternship from '../pages/about/jobs/positions/market-analyst.js';
+import HeadofEnterpriseSales from '../pages/about/jobs/positions/head-enterprise-sales.js';
 import PartnershipMarketingManager from '../pages/about/jobs/positions/partnership-marketing-manager.js';
 import MarketingManagerAccountants from '../pages/about/jobs/positions/marketing-manager-accountants.js';
 import SolutionEngineer from '../pages/about/jobs/positions/solution-engineer.js';
@@ -578,6 +580,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+      [CustomerSuccessManagerFrance, { name: 'jobs_customer_success_manager_france', category: 'jobs.sales' }, {
+          en: {
+            path: '/about/jobs/customer-success-manager-france',
+          },
+        },
+  ],
   [HeadofOperations, { name: 'jobs_head_of_operations', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/head-of-operations',
@@ -623,6 +631,12 @@ export const config = Immutable.fromJS([
   [MarketAnalystInternship, { name: 'jobs_market_analyst_internship', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/market-analyst-internship',
+      },
+    },
+  ],
+  [HeadofEnterpriseSales, { name: 'jobs_head_of_enterprise_sales', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/head-of-enterprise-sales',
       },
     },
   ],
