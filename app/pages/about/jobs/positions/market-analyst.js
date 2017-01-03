@@ -83,7 +83,7 @@ export default class MarketAnalystInternship extends React.Component {
         </p>
 
 
-        <a href='https://https://boards.greenhouse.io/gocardless/jobs/235054' className='btn u-margin-Vs'>
+        <a href='https://boards.greenhouse.io/gocardless/jobs/235054' className='btn u-margin-Vs'>
           Apply now
         </a>
 

@@ -1,8 +1,35 @@
 import React from 'react';
 import Translation from '../../components/translation/translation';
-import StartTakingPaymentsCTA from '../../components/start-taking-payments/start-taking-payments';
 import Link from '../../components/link/link';
-import StoryLink from './story-link';
+import Href from '../../components/href/href';
+import Message from '../../components/message/message';
+
+let allStories = [
+  {
+    link: 'stories_habitat',
+    quote: `Nous avons lancé de nouvelles offres d'abonnement`,
+    logoSrc: '/images/stories/story-logos/habitat.png',
+    logoWidth: '140',
+    using: 'Utilise l\'API GoCardless',
+    industry: 'Ameublement',
+  },
+  {
+    link: 'stories_zenchef',
+    quote: `Nous avons réussi à diminuer le taux d'impayés de 50%`,
+    logoSrc: '/images/stories/story-logos/zenchef.png',
+    logoWidth: '170',
+    using: 'Utilise GoCardless pour Zuora',
+    industry: 'SaaS',
+  },
+  {
+    link: 'stories_digidom',
+    quote: `Nous avons gagné une demie-journée de travail administratif par mois`,
+    logoSrc: '/images/stories/story-logos/digidom.png',
+    logoWidth: '170',
+    using: 'Utilise l\'API GoCardless',
+    industry: 'Service aux entreprises',
+  },
+];
 
 export default class StoriesFr extends React.Component {
   displayName = 'StoriesFr'
@@ -10,80 +37,61 @@ export default class StoriesFr extends React.Component {
   render() {
     return (
       <Translation locales='fr'>
-        <div className='page-hero page-hero--large u-relative u-size-full'>
-          <div className='site-container page-hero__container'>
-            <div className='page-hero__inner stories-hero-heading'>
-              <div className='page-hero__text'>
-                <h1 className='u-text-heading u-color-invert u-text-center u-text-xl u-text-light'>
-                  Des milliers de clients satisfaits
-                </h1>
-                <div className='u-text-heading u-text-center u-color-invert u-text-m u-text-light u-margin-Txxs u-text-no-smoothing'>
-                  Des startups aux multi-nationales, GoCardless<br />
-                  aide des milliers d'entreprises chaque jour.
-                </div>
-              </div>
+        <div className='page-hero page-hero--stories-index u-padding-Bxxl'>
+          <div className='site-container u-padding-Vxxl u-text-center'>
+            <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
+              Témoignages
+            </h1>
+            <p className='u-text-heading-light u-text-m u-color-invert u-padding-Ts'>
+              Startups ou multi-nationales, GoCardless facilite le prélèvement<br />
+              automatique pour des milliers d'entreprises chaque jour.
+            </p>
+          </div>
+        </div>
+
+        <div className="stories-industries">
+          <div className="stories-list u-padding-Vxxl">
+            <div className="site-container u-margin-Vxl grid">
+              { allStories.map((caseStudy) => {
+                return (
+                  <div className="grid__cell u-size-1of3 u-text-center" key={ caseStudy.link }>
+                    <div className="story-card">
+                      <div className={'story-card__logo story-card__' + caseStudy.tag}>
+                        <img src={ caseStudy.logoSrc } width={ caseStudy.logoWidth } className='u-block u-center' />
+                      </div>
+
+                      <h2 className="story-card__quote u-text-light u-text-m u-color-dark-gray u-text-no-smoothing u-margin-Bm">“{ caseStudy.quote }”</h2>
+
+                      <div className="story-card__detail u-margin-Bs">
+                        <span className="story-card__key story-card__key--industry">{ caseStudy.industry }</span>
+                      </div>
+                      <div className="story-card__detail u-margin-Bm">
+                        <span className="story-card__key story-card__key--link">{ caseStudy.using }</span>
+                      </div>
+                      <Link to={ caseStudy.link } className='btn btn--small u-block'>
+                        En savoir plus
+                      </Link>
+                    </div>
+                  </div>
+                );
+              }) }
             </div>
           </div>
         </div>
 
-
-        <div className='site-container u-padding-Vxxl u-margin-Bxxl'>
-          <div className='u-padding-Vxxl u-relative u-margin-Bxxl'>
-            <div className='u-padding-Bl'>
-              <div className='stories-spotlight grid u-margin-Hn u-size-full'>
-                <Link to='stories_zenchef' className='grid__cell u-text-center u-size-1of2 u-link-clean u-padding-Rxs u-padding-Ln'>
-                  <div className='stories-spotlight__item stories-spotlight__item--zenchef
-                  u-relative u-padding-Vl'>
-                    <div className='stories-spotlight__item-text u-margin-Vl'>
-                      <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
-                        “GoCardless a complètement fluidifié le prélèvement comparé aux prestataires historiques.
-                        L'automatisation a réduit le taux d'impayés de 50% et augmenté notre chiffre d'affaires de 90.000 €.”
-                      </p>
-                      <div className='u-color-invert u-margin-Tm'>
-                        Julien Balmont, Zenchef
-                      </div>
-                    </div>
-                  </div>
-                  <div className='stories-spotlight__btn btn u-size-full'>Voir la référence</div>
-                </Link>
-                <Link to='stories_the_french_talents' className='grid__cell u-text-center u-size-1of2
-                u-link-clean u-padding-Lxs u-padding-Rn'>
-                  <div className='stories-spotlight__item stories-spotlight__item--french-talents u-relative u-padding-Vl'>
-                    <div className='stories-spotlight__item-text u-margin-Vl'>
-                      <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
-                        “Réduire de 50% les retards de paiements a aidé à améliorer la trésorerie et
-                        a permis à nos équipes de se concenter sur des activités à plus forte valeur ajoutée.”
-                      </p>
-                      <div className='u-color-invert u-margin-Tm'>
-                        Martin Gentil, The French Talents
-                      </div>
-                    </div>
-                  </div>
-                  <div className='stories-spotlight__btn btn u-size-full'>Voir la référence</div>
-                </Link>
-              </div>
-            </div>
+        <div className='site-container u-text-center u-padding-Vxxl'>
+          <div className='u-padding-Vxl'>
+            <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
+              Rejoignez l'aventure GoCardless aujourd'hui
+            </h2>
+            <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
+              Plus de <Message pointer='number_of_merchants' /> sociétés sont déjà clientes
+            </p>
+            <Href to='signup.path' className='btn u-margin-Tm u-margin-Rm'><Message pointer='cta.signup' /></Href>
+            <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'><Message pointer='cta.pro' /></Link>
           </div>
         </div>
-
-        <hr className='u-margin-An' />
-        <div className='site-container u-padding-Vxxl'>
-          <div className='grid u-padding-Vxl'>
-            <StoryLink cssSizeClass='u-size-1of2'
-              imgClass='habitat-logo stories-item__logo--habitat' to='stories_habitat'>
-              Habitat, la chaîne de design et d’ameublement, a pu lancer une offre innovante d’abonnement en moins de deux mois.
-            </StoryLink>
-            <StoryLink cssSizeClass='u-size-1of2'
-              imgClass='foundation-of-hearts-logo stories-item__logo--foundation-of-hearts' to='stories_foundation_of_hearts'>
-              La Foundation of Hearts, une ONG des supporteurs du Hearts FC,
-              peut prendre plus de 8.000 donations par mois facilement.
-            </StoryLink>
-          </div>
-        </div>
-
-        <hr className='u-margin-An' />
-        <StartTakingPaymentsCTA />
       </Translation>
-  );
+    );
   }
 }

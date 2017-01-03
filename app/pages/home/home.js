@@ -44,12 +44,22 @@ export default class Home extends React.Component {
                           </Link>
                         </IfLocale>
                         <IfLocale hasInstantSignup>
-                          <Href to='signup.path'
-                          className='btn btn--invert btn-move u-size-1of4 u-margin-Lm'
-                          pointer='cta.signup' />
-                          <Link to='contact_sales' className='btn btn--invert-hollow btn-move u-size-1of4 u-margin-Lm'>
-                            <Message pointer='cta.pro' />
-                          </Link>
+                          <Translation locales='fr'>
+                            <Link to='contact_sales' className='btn btn--invert btn-move u-size-1of4'>
+                              <Message pointer='cta.pro' />
+                            </Link>
+                            <Link to='features' className='btn btn--invert-hollow btn--move u-size-3of12 u-margin-Lm'>
+                              <Message pointer='cta.more' />
+                            </Link>
+                          </Translation>
+                          <Translation locales={['de', 'es', 'nl', 'en']}>
+                            <Href to='signup.path'
+                            className='btn btn--invert btn-move u-size-1of4 u-margin-Lm'
+                            pointer='cta.signup' />
+                            <Link to='contact_sales' className='btn btn--invert-hollow btn-move u-size-1of4 u-margin-Lm'>
+                              <Message pointer='cta.pro' />
+                            </Link>
+                          </Translation>
                         </IfLocale>
                       </div>
                     </div>

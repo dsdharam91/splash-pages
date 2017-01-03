@@ -13,16 +13,16 @@ export default class PricingEs extends React.Component {
       <Translation locales='es'>
         <div className='page-hero page-hero--pricing page-hero--one-product-pricing'>
           <div className='site-container'>
-            <div className='grid pricing-options pricing-options--three-tiers u-center u-padding-Bxl'>
+            <div className='grid pricing-options pricing-options--new u-center u-padding-Bxl'>
               <h1 className='u-text-heading u-text-light u-text-center u-color-dark-gray u-margin-Vl'>
                 Encuentra el plan perfecto para tí
               </h1>
 
-              <div className='grid__cell u-size-1of3 u-padding-Vxl u-padding-Rxs'>
+              <div className='grid__cell u-size-1of2 u-padding-Vxl u-padding-Rxs'>
                   <div className='u-shadow-large'>
-                    <div className='u-relative u-background-primary u-padding-Vxl'>
+                    <div className='u-relative u-background-primary u-padding-Vxl u-padding-Hxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>Perfecto para pequeñas y medianas empresas</p>
+                      <p className='u-color-invert u-text-xs u-text-center'>Perfecto para pequeñas <br/>y medianas empresas</p>
                     </div>
 
                     <div className='u-padding-Am u-text-center u-background-white'>
@@ -57,7 +57,7 @@ export default class PricingEs extends React.Component {
                           <Message pointer='pricing.per_transaction_amount_normal' />
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Por transacción, máximo de 2€
+                          Por transacción, máximo de 2 €
                         </p>
                       </div>
                       <IfLocale hasInstantSignup>
@@ -73,9 +73,9 @@ export default class PricingEs extends React.Component {
                   </div>
               </div>
 
-              <div className='grid__cell u-size-1of3 u-padding-Vxl u-padding-Hxs'>
+              <div className='grid__cell u-size-1of2 u-padding-Vxl u-padding-Hxs'>
                   <div className='u-shadow-large'>
-                    <div className='u-relative u-background-dark-gray u-padding-Vxl'>
+                    <div className='u-relative u-background-dark-gray u-padding-Vxl u-padding-Hxl'>
                       <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Pro</h2>
                       <p className='u-color-invert u-text-xs u-text-center'>Para empresas de mucho crecimiento <br/>que quieren control total</p>
                     </div>
@@ -104,46 +104,7 @@ export default class PricingEs extends React.Component {
                           0,10 - 0,60 €
                         </h2>
                         <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Por transacción,<br/>más <strong>100€</strong> al mes
-                        </p>
-                      </div>
-
-                      <Link to='contact_sales' query={{ s: 'pricing' }} className='btn btn--hollow u-size-full'>Contacta con nosotros</Link>
-                    </div>
-                  </div>
-              </div>
-
-              <div className='grid__cell u-size-1of3 u-padding-Vxl u-padding-Hxs'>
-                  <div className='u-shadow-large'>
-                    <div className='u-relative u-background-xdark-gray u-padding-Vxl'>
-                      <h2 className='u-text-heading-light u-text-center u-color-invert u-text-m'>GoCardless Enterprise</h2>
-                      <p className='u-color-invert u-text-xs u-text-center'>Para compañías internacionales <br/>con grandes equipos
-                      </p>
-                    </div>
-
-                    <div className='u-padding-Am u-text-center u-background-white'>
-                      <p className='u-padding-Hm u-text-heavy u-color-dark-gray u-text-start u-margin-Bxs'>
-                        Todo lo de Pro, más:
-                      </p>
-
-                      <ul className='u-padding-Hm u-color-dark-gray u-text-start u-margin-Bl'>
-                        <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Añade y administra múltiples entidades y países
-                        </li>
-                        <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Persona dedicada para formación e integración
-                        </li>
-                        <li className='u-margin-Bxs'>
-                          <span className='u-color-accent'>&#10004;</span> Manager de cuenta exclusivo
-                        </li>
-                      </ul>
-
-                      <hr />
-
-                      <div className='u-padding-Vs'>
-                        <p className='u-text-heading u-color-dark-gray u-text-center u-text-xs u-margin-Tn u-margin-Vm'>
-                          Contacte con nosotros para<br />
-                          obtener su cotización
+                          Por transacción,<br/>más <strong>250 €</strong> al mes
                         </p>
                       </div>
 
