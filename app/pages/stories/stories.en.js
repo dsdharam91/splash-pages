@@ -135,6 +135,14 @@ let allStories = [
     using: 'Uses GoCardless API',
     industry: 'Marketing Agency',
   },
+  {
+    link: 'stories_randw_media',
+    quote: `We were amazed at how easy it was, compared to traditional Direct Debit`,
+    logoSrc: '/images/stories/story-logos/randw-media.png',
+    logoWidth: '70',
+    using: 'Uses GoCardless for Xero',
+    industry: 'Digital & Print Agency',
+  },
 ];
 
 export default class StoriesEn extends React.Component {

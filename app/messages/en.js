@@ -274,6 +274,7 @@ export default {
     company_name: 'Company name',
     services: 'Services',
     number_employees: 'Number of employees',
+    partner_integration: 'Partner integration',
     previous_provider: 'Previous Direct Debit provider',
     time_saved: 'Time saved using GoCardless',
     start_journey: 'Start your GoCardless story today',
@@ -732,6 +733,10 @@ export default {
   },
   stories_peterborough_council: {
     title: 'Peterborough Council - Customer Stories',
+    description: '',
+  },
+  stories_randw_media: {
+    title: 'R & W Media - Customer Stories',
     description: '',
   },
   stories_rock_choir: {

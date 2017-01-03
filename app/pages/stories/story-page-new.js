@@ -23,6 +23,7 @@ export default class StoryPageNew extends React.Component {
     sidebarEmployees: React.PropTypes.string,
     sidebarPreviousProvider: React.PropTypes.string,
     sidebarTimeSaved: React.PropTypes.string,
+    sidebarPartnerIntegration: React.PropTypes.string,
   };
 
   render() {
@@ -92,7 +93,6 @@ export default class StoryPageNew extends React.Component {
                 <p className="u-text-xxs u-color-dark-gray u-margin-Bxxs">
                   <Message pointer='stories.company_name' />
                 </p>
-
                 <p className="u-text-xs">{this.props.company}</p>
               </div>
 
@@ -100,7 +100,6 @@ export default class StoryPageNew extends React.Component {
                 <p className="u-text-xxs u-color-dark-gray u-margin-Bxxs">
                   <Message pointer='stories.services' />
                 </p>
-
                 <p className="u-text-xs">{this.props.sidebarServices}</p>
               </div>
 
@@ -108,15 +107,20 @@ export default class StoryPageNew extends React.Component {
                 <p className="u-text-xxs u-color-dark-gray u-margin-Bxxs">
                   <Message pointer='stories.number_employees' />
                 </p>
-
                 <p className="u-text-xs">{this.props.sidebarEmployees}</p>
               </div>
+
+              { this.props.sidebarPartnerIntegration && (<div>
+                <p className="u-text-xxs u-color-dark-gray u-margin-Bxxs">
+                  <Message pointer='stories.partner_integration' />
+                </p>
+                <p className="u-text-xs">{this.props.sidebarPartnerIntegration}</p>
+              </div>) }
 
               { this.props.sidebarPreviousProvider && (<div className="u-margin-Bm">
                 <p className="u-text-xxs u-color-dark-gray u-margin-Bxxs">
                   <Message pointer='stories.previous_provider' />
                 </p>
-
                 <p className="u-text-xs">{this.props.sidebarPreviousProvider}</p>
               </div>) }
 
@@ -124,7 +128,6 @@ export default class StoryPageNew extends React.Component {
                 <p className="u-text-xxs u-color-dark-gray u-margin-Bxxs">
                   <Message pointer='stories.time_saved' />
                 </p>
-
                 <p className="u-text-xs">{this.props.sidebarTimeSaved}</p>
               </div>) }
             </div>

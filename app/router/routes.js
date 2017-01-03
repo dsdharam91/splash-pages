@@ -127,6 +127,7 @@ import StoriesHasBeanCoffee from '../pages/stories/stories/has-bean-coffee';
 import StoriesHotpodYoga from '../pages/stories/stories/hotpod-yoga';
 import StoriesNutmeg from '../pages/stories/stories/nutmeg';
 import StoriesPeterboroughCouncil from '../pages/stories/stories/peterborough-council';
+import StoriesRAndWMedia from '../pages/stories/stories/randw-media';
 import StoriesRockChoir from '../pages/stories/stories/rock-choir';
 import StoriesLylesSutherland from '../pages/stories/stories/lyles-sutherland';
 import StoriesSlmConnect from '../pages/stories/stories/slm-connect';
@@ -1550,15 +1551,21 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [StoriesLylesSutherland, { name: 'stories_lyles_sutherland', category: 'stories' }, {
+      'en-GB': {
+        path: '/stories/lyles-sutherland',
+      },
+    },
+  ],
   [StoriesPeterboroughCouncil, { name: 'stories_peterborough_council', category: 'stories' }, {
       'en-GB': {
         path: '/stories/peterborough-council',
       },
     },
   ],
-  [StoriesLylesSutherland, { name: 'stories_lyles_sutherland', category: 'stories' }, {
+  [StoriesRAndWMedia, { name: 'stories_randw_media', category: 'stories' }, {
       'en-GB': {
-        path: '/stories/lyles-sutherland',
+        path: '/stories/randw-media',
       },
     },
   ],
