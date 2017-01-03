@@ -629,7 +629,7 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [SolutionEngineer, { name: 'jobs_solution_engineer', category: 'jobs.sales' }, {
+  [SolutionEngineer, { name: 'jobs_solutions_engineer', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/solution-engineer',
       },
