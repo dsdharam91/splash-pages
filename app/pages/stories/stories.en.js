@@ -199,7 +199,7 @@ export default class StoriesEn extends React.Component {
               Start your GoCardless story today
             </h2>
             <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-              Join the <Message pointer='number_of_merchants' />+ businesses already Uses GoCardless
+              Join the <Message pointer='number_of_merchants' />+ businesses already using GoCardless
             </p>
             <Href to='signup.path' className='btn u-margin-Tm u-margin-Rm'>Sign up now</Href>
             <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'><Message pointer='cta.pro' /></Link>
