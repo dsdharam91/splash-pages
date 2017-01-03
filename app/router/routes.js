@@ -310,6 +310,9 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/payments-by-direct-debit-b',
       },
+      'fr-FR': {
+        path: '/paiements-recurrents',
+      },
     },
   ],
   [AuddisDirectDebit, { name: 'auddis_direct_debit' }, {
