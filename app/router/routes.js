@@ -87,6 +87,7 @@ import PartnersKashflow from '../pages/partners/kashflow/partners-kashflow';
 import PartnersPitchero from '../pages/partners/pitchero/partners-pitchero';
 import PartnersQuickbooks from '../pages/partners/quickbooks/partners-quickbooks';
 import PartnersSage from '../pages/partners/sage/partners-sage';
+import PartnersTeamup from '../pages/partners/teamup/partners-teamup';
 import PartnersXero from '../pages/partners/xero/partners-xero';
 import PartnersZuora from '../pages/partners/zuora/partners-zuora';
 
@@ -994,6 +995,12 @@ export const config = Immutable.fromJS([
   [PartnersSage, { name: 'partners_sage' }, {
       'en-GB': {
         path: '/partners/sage',
+      },
+    },
+  ],
+  [PartnersTeamup, { name: 'partners_teamup' }, {
+      'en-GB': {
+        path: '/teamup',
       },
     },
   ],
