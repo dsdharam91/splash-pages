@@ -75,7 +75,7 @@ let allStories = [
     quote: `We wanted to give our members the payment options they most trusted`,
     logoSrc: '/images/stories/story-logos/bulb-energy.png',
     logoWidth: '115',
-    using: 'Uses GoCardless API',
+    using: 'Uses GoCardless for Junifer',
     industry: 'Energy Supplier',
   },
   {

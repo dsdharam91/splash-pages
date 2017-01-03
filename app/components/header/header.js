@@ -42,7 +42,8 @@ export default class Header extends React.Component {
           { _.map(['features', 'pro', 'partner_with_us'], (link) =>
             <IfLinkExists to={link}
             tagName='li'
-            className='site-header__product'>
+            className='site-header__product'
+            key={link}>
               <Link to={link}
               className='site-header__product-link u-link-clean'>
                 <span className='site-header__product-link-title u-text-semi'>
@@ -129,14 +130,6 @@ export default class Header extends React.Component {
         </a>
       )}>
         <ul className='u-text-xxs u-padding-Vxs'>
-          <IfLinkExists to='stories'
-          tagName='li'
-          className='u-text-semi'>
-            <Link to='stories'
-            pointer='stories.nav_title'
-            className='u-padding-Vxs u-padding-Hm u-block'/>
-          </IfLinkExists>
-
           <IfLinkExists to='security'
           tagName='li'
           className='u-text-semi'>
@@ -220,25 +213,31 @@ export default class Header extends React.Component {
             pointer='about.nav_title'/>
           </li>
 
-          <li className='u-text-semi'>
+          <IfLinkExists to='jobs'
+          tagName='li'
+          className='u-text-semi'>
             <Link to='jobs'
             tagName='li'
             className='u-padding-Vxs u-padding-Hm u-block'
             pointer='jobs.nav_title'/>
-          </li>
+          </IfLinkExists>
 
-          <li className='u-text-semi'>
+          <Translation locales={['en-GB']}
+          tagName='li'
+          className='u-text-semi'>
             <Href to='blog.path'
             className='u-padding-Vxs u-padding-Hm u-block'
             pointer='blog.nav_title' />
-          </li>
+          </Translation>
 
-          <li className='u-text-semi'>
+          <IfLinkExists to='partner_with_us'
+          tagName='li'
+          className='u-text-semi'>
             <Link to='partner_with_us'
             tagName='li'
             className='u-padding-Vxs u-padding-Hm u-block'
             pointer='partner_with_us.nav_title'/>
-          </li>
+          </IfLinkExists>
 
           <li className='u-text-semi'>
             <Link to='contact_sales'
@@ -262,11 +261,13 @@ export default class Header extends React.Component {
         </a>
       )}>
         <ul className='u-text-xxs u-padding-Vxs'>
-          <li className='u-text-semi'>
+          <Translation locales={['en-GB']}
+          tagName='li'
+          className='u-text-semi'>
             <Href to='help.path'
             className='u-padding-Vxs u-padding-Hm u-block'
             pointer='help.nav_title' />
-          </li>
+          </Translation>
 
           <li className='u-text-semi'>
             <Href to='guides.path'
@@ -280,20 +281,24 @@ export default class Header extends React.Component {
             pointer='api_docs.nav_title' />
           </li>
 
-          <li className='u-text-semi'>
+          <IfLinkExists to='faq_merchants'
+          tagName='li'
+          className='u-text-semi'>
             <Link to='faq_merchants'
             tagName='li'
             className='u-padding-Vxs u-padding-Hm u-block'
-            pointer='faq_merchants.nav_title'/>
-          </li>
+            pointer='faq_merchants.link_title' />
+          </IfLinkExists>
 
-          <li className='u-text-semi'>
+          <IfLinkExists to='security'
+          tagName='li'
+          className='u-text-semi'>
             <Link to='security'
             id="security-link" // For e2e test
             tagName='li'
             className='u-padding-Vxs u-padding-Hm u-block'
             pointer='security.nav_title'/>
-          </li>
+          </IfLinkExists>
         </ul>
       </Popover>
     );
@@ -311,7 +316,7 @@ export default class Header extends React.Component {
         <ul className='u-text-xxs u-padding-Vxs'>
           <Link to='small_medium_businesses'
           tagName='li'
-          pointer='a_simple_direct_debit_solution.nav_title'
+          pointer='small_medium_businesses.nav_title'
           className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
 
           <Link to='new_to_direct_debit'
@@ -321,7 +326,7 @@ export default class Header extends React.Component {
 
           <Link to='existing_direct_debit_user'
           tagName='li'
-          pointer='optimise_your_direct_debit.nav_title'
+          pointer='existing_direct_debit_user.nav_title'
           className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
 
           <Link to='partners'
@@ -329,9 +334,9 @@ export default class Header extends React.Component {
           pointer='partner_integrations.nav_title'
           className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
 
-          <Link to='integrate_features'
+          <Link to='direct_debit_api'
           tagName='li'
-          pointer='integrate_features.nav_title'
+          pointer='direct_debit_api.nav_title'
           className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
         </ul>
       </Popover>
@@ -355,7 +360,6 @@ export default class Header extends React.Component {
               className='nav__item u-relative'>
                 { this.renderProductPopover() }
               </Translation>
-
               <Translation locales='en-GB'
               tagName='div'
               className='nav__item u-relative'>
@@ -373,6 +377,17 @@ export default class Header extends React.Component {
                 </Link>
               </IfLinkExists>
 
+              <Translation locales={this.context.availableLocales}
+              exclude={['en-GB']}
+              tagName='div'
+              className='nav__item u-relative'>
+                <IfLinkExists to='stories'
+                tagName='div'>
+                  <Link to='stories'
+                  pointer='stories.nav_title'
+                  className={ this.getLinkClassName() } />
+                </IfLinkExists>
+              </Translation>
               <Translation locales={['en-GB']}
               tagName='div'
               className='nav__item u-relative'>
@@ -396,33 +411,35 @@ export default class Header extends React.Component {
                 </Popover>
               </Translation>
 
-              <div className='nav__item u-relative'>
-                <Href to='developers.path'
+              <IfLinkExists to='developers'
+              tagName='div'
+              className='nav__item u-relative'>
+                <Link to='developers'
                 className={ this.getLinkClassName() }>
                   <div className='nav__item-link'>
                     <Message pointer='developers.nav_title' />
                   </div>
-                </Href>
-              </div>
+                </Link>
+              </IfLinkExists>
             </nav>
           </div>
 
           <div className='u-pull-end align-btn-small'>
             <nav className='nav u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
-              <Translation locales={['en-GB']}
+              <Translation locales={['en-GB', 'fr-FR']}
               tagName='div'
               className='nav__item u-relative'>
                 { this.renderHelpResourcesPopover() }
               </Translation>
 
-              <Translation locales={['en-GB']}
+              <Translation locales={['en-GB', 'fr-FR']}
               tagName='div'
               className='nav__item u-relative'>
                 { this.renderAboutUsPopover() }
               </Translation>
 
               <Translation locales={this.context.availableLocales}
-              exclude={['en-GB']}
+              exclude={['en-GB', 'fr-FR']}
               tagName='div'
               className='nav__item u-relative'>
                 { this.renderMorePopover() }

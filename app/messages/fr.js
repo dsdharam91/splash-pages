@@ -1,10 +1,12 @@
 export default {
-  number_of_merchants: '20.000',
-  payments_processed_volume: '1,6€ milliard',
+  number_of_merchants: '20 000',
+  payments_processed_volume: '1 milliard d\'€',
   header: {
     our_products: 'Nos produits',
     login_btn: 'Se connecter',
     more: 'Plus',
+    help_resources: 'Aide & ressources',
+    about_us: 'A propos',
   },
   footer: {
     description: 'GoCardless est un Etablissement de Paiement Agréé, autorisé par l’autorité britannique FCA (Financial Conduct Authority) et habilité à prélever des paiements à travers l’Union Européenne.',
@@ -16,14 +18,14 @@ export default {
     cookies_link_text: 'Apprenez-en plus',
   },
   hero: {
-    header: 'Simplifions les paiements récurrents',
-    desc: 'GoCardless rend le prélèvement bancaire européen simple pour tous, des start-ups aux grandes entreprises.',
+    header: 'La solution pour vos paiements récurrents',
+    desc: 'GoCardless offre un outil en ligne pour la gestion de vos prélèvements automatiques.',
   },
   cta: {
     basic: 'Commencez à prendre des paiements',
     pro: 'Contactez-nous',
     signup: 'Créez votre compte',
-    more: 'En apprendre plus',
+    more: 'En savoir plus',
   },
   basic_pricing_cta: {
     main: 'Payez 1%',
@@ -211,9 +213,9 @@ export default {
   pricing: {
     title: 'Tarifs',
     nav_title: 'Tarifs',
-    description: 'Prenez vos prélèvements automatiques SEPA à partir de 0,60€ par transaction réussie, avec tarifs dégressifs pour les grandes entreprises.',
+    description: 'Prenez vos prélèvements automatiques SEPA à partir de 0,60 € par transaction réussie, avec tarifs dégressifs pour les grandes entreprises.',
     cost_cap: '2€',
-    pro_cost_per_transaction: '0,01-0,60€',
+    pro_cost_per_transaction: '0,10 — 0,60 €',
     per_transaction_amount_normal: '1%',
     pro_monthly_fee: '250€',
   },
@@ -305,7 +307,9 @@ export default {
     path: 'https://developer.gocardless.com/api-reference',
   },
   developers: {
-    nav_title: 'Documentation API',
+    title: 'Développeurs',
+    nav_title: 'Développeurs',
+    description: '',
     path: 'https://developer.gocardless.com/fr',
   },
   security: {
@@ -337,25 +341,33 @@ export default {
     path: 'https://manage.gocardless.com/signup?lang=fr',
   },
   stories: {
-    title: 'Références',
-    nav_title: 'Références',
+    title: 'Témoignages',
+    nav_title: 'Témoignages',
     description: '',
     link: 'Voir la référence',
+    key_benefits: 'Principaux bénéfices',
+    company_name: 'Société',
+    services: 'Service',
+    number_employees: 'Taille de l\'entreprise',
+    previous_provider: 'Solution de prélèvement utilisée avant GoCardless',
+    time_saved: 'Gain de temps depuis GoCardless',
+    start_journey: 'Rejoignez l\'aventure GoCardless aujourd\'hui',
   },
-  stories_zenchef: {
-    title: 'Zenchef',
-    description: '',
-  },
-  stories_the_french_talents: {
-    title: 'The French Talents',
+  stories_digidom: {
+    title: 'Digidom Témoignage',
     description: '',
   },
   stories_habitat: {
-    title: 'Habitat',
+    title: 'Habitat Témoignage',
     description: '',
   },
-  stories_foundation_of_hearts: {
-    title: 'Foundation of Hearts',
+  stories_zenchef: {
+    title: 'Zenchef Témoignage',
+    description: '',
+  },
+  direct_debit_api: {
+    title: 'API Prélèvement Automatique',
+    nav_title: 'API Prélèvement Automatique',
     description: '',
   },
 };

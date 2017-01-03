@@ -44,7 +44,7 @@ export default class HomeEn extends React.Component {
 
   render() {
     return (
-      <Translation locales='en'>
+      <Translation locales='en-GB'>
         <div className='page-hero--home u-relative u-size-full'>
           <div className='site-container page-hero__container'>
             <div className='page-hero__inner page-hero__inner--lowered'>
@@ -92,14 +92,14 @@ export default class HomeEn extends React.Component {
                       );
                     }) }
                   </div>
-                  <p className='u-color-invert u-text-center u-text-s'>
-                    Developer looking to integrate with our API?&nbsp;
-                    <IfLinkExists to='developer_features'>
-                      <Link to='developer_features' className='hero-card__note-link u-text-underline u-color-invert u-text-semi'>
+                  <IfLinkExists to='developers'>
+                    <p className='u-color-invert u-text-center u-text-s'>
+                      Developer looking to integrate with our API?&nbsp;
+                      <Link to='developers' className='hero-card__note-link u-text-underline u-color-invert u-text-semi'>
                         Find out more
                       </Link>
-                    </IfLinkExists>
-                  </p>
+                    </p>
+                  </IfLinkExists>
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default class HomeEn extends React.Component {
                 You'll be in good company
               </h2>
               <div className='u-text-center u-margin-Vl u-padding-Vs u-padding-Hxxl u-center'>
-                <img src='/images/logos/pro-logos@2x.png' />
+                <img src='/images/logos/pro-logos-colour@2x.png' />
               </div>
               <IfLinkExists to='stories'>
                 <Link to='stories' className='btn btn--hollow u-margin-Ts u-margin-Bxxl'>
@@ -123,24 +123,6 @@ export default class HomeEn extends React.Component {
             </div>
           </div>
         </div>
-
-        <IfLocale hasInstantSignup>
-          <div className='u-background-light-primary u-text-center'>
-            <div className='site-container u-padding-Vxxl'>
-              <div className='u-padding-Vxl'>
-                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
-                  Ready to get started?
-                </h2>
-                <Href to='signup.path' className='btn u-margin-Tm u-margin-Rm u-margin-Bxxs'>
-                  Sign up
-                </Href>
-                <Link to='contact_sales' className='btn btn--hollow u-margin-Tm u-margin-Bxxs'>
-                  <Message pointer='cta.pro' />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </IfLocale>
 
         <div className='site-container u-text-center u-padding-Vxxl' id='learn-more'>
           <div className='u-padding-Vxl'>
@@ -226,6 +208,24 @@ export default class HomeEn extends React.Component {
             </div>
           </div>
         </div>
+
+        <IfLocale hasInstantSignup>
+          <div className='u-background-light-primary u-text-center'>
+            <div className='site-container u-padding-Vxxl'>
+              <div className='u-padding-Vxl'>
+                <h2 className='u-text-heading u-color-dark-gray u-text-light u-text-l'>
+                  Ready to get started?
+                </h2>
+                <Href to='signup.path' className='btn u-margin-Tm u-margin-Rm u-margin-Bxxs'>
+                  <Message pointer='cta.signup' />
+                </Href>
+                <Link to='contact_sales' className='btn btn--hollow u-margin-Tm u-margin-Bxxs'>
+                  <Message pointer='cta.pro' />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </IfLocale>
 
       </Translation>
     );

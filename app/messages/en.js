@@ -61,26 +61,18 @@ export default {
       success_message: 'Thank you, a member of the GoCardless team will be in touch soon.',
     },
   },
-  a_simple_direct_debit_solution: {
-    title: 'A Simple Direct Debit Solution',
-    nav_title: 'A Simple Direct Debit Solution',
-  },
   new_to_direct_debit: {
-    title: 'New to Direct Debit',
+    title: 'Reduce churn & increase LTV with Direct Debit',
     nav_title: 'New to Direct Debit',
     description: '',
-  },
-  optimise_your_direct_debit: {
-    title: 'Optimise your Direct Debit',
-    nav_title: 'Optimise your Direct Debit',
   },
   partner_integrations: {
     title: 'Partner integrations',
     nav_title: 'Partner integrations',
   },
-  integrate_features: {
-    title: 'Integrate with our API',
-    nav_title: 'Integrate with our API',
+  direct_debit_api: {
+    title: 'Direct Debit API',
+    nav_title: 'Direct Debit API',
     description: '',
   },
   not_found: {
@@ -248,18 +240,20 @@ export default {
     description: '',
   },
   existing_direct_debit_user: {
-    title: 'Existing Direct Debit user',
-    nav_title: 'Existing Direct Debit user',
+    title: 'Direct Debit for the Digital Age',
+    nav_title: 'Optimise your Direct Debit',
     description: '',
   },
   small_medium_businesses: {
-    title: 'Take control of your payments',
+    title: 'Take control of your payments - Get paid on time, every time',
+    nav_title: 'Small Businesses',
     description: '',
   },
-  developer_features: {
+  developers: {
     title: 'GoCardless for Developers',
-    nav_title: 'Learn about our API',
+    nav_title: 'Developers',
     description: '',
+    path: 'https://developer.gocardless.com',
   },
   security: {
     title: 'Security',
@@ -674,11 +668,6 @@ export default {
     title: 'API Documentation',
     nav_title: 'API Documentation',
     path: 'https://developer.gocardless.com/api-reference',
-  },
-  developers: {
-    title: 'Developers',
-    nav_title: 'Developers',
-    path: 'https://developer.gocardless.com',
   },
   blog: {
     title: 'Blog',

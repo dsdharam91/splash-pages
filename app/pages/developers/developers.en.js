@@ -1,7 +1,7 @@
 import React from 'react';
-import Page from '../../components/page/page';
 import Href from '../../components/href/href';
 import Tabs from '../../components/tabs/tabs';
+import Translation from '../../components/translation/translation';
 
 import CustomisableIntegration from '../../icons/svg/CustomisableIntegration';
 import DeveloperAPI from '../../icons/svg/DeveloperAPI';
@@ -11,8 +11,8 @@ import FutureProof from '../../icons/svg/FutureProof';
 import PlugIn from '../../icons/svg/PlugIn';
 import ReadPdf from '../../icons/svg/ReadPdf';
 
-export default class DeveloperFeatures extends React.Component {
-  displayName = 'DeveloperFeatures'
+export default class DevelopersEn extends React.Component {
+  displayName = 'DevelopersEn'
 
   render() {
     const phpCodeBlock = `<code class="code-examples__tabs-code language-php hljs">$subscription = $client-&gt;subscriptions()-&gt;create([
@@ -99,7 +99,7 @@ export default class DeveloperFeatures extends React.Component {
     </code>`;
 
     return (
-      <Page isInverted>
+      <Translation locales='en'>
         <div className='page-hero u-padding-Bxxl page-hero--funnels'>
           <div className='site-container u-padding-Bxl u-text-center'>
                 <h1 className='u-text-heading u-color-invert u-text-xl u-text-light'>
@@ -228,7 +228,7 @@ export default class DeveloperFeatures extends React.Component {
                         </pre>
                       </div>
 
-                      <div onClick="this.select();">
+                      <div>
                         <pre className='code-examples__tabs-pre'>
                           <span dangerouslySetInnerHTML={{__html: pythonCodeBlock}}>
                           </span>
@@ -426,7 +426,7 @@ export default class DeveloperFeatures extends React.Component {
             </div>
           </div>
         </div>
-      </Page>
+      </Translation>
     );
   }
 }

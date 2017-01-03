@@ -66,7 +66,7 @@ export default class FaqMerchantsEn extends React.Component {
         <Translation locales='en-GB'>
           <p className='para'>
             In the UK, we've integrated with many of the most popular accounting packages to enable easy invoicing
-            and payment reconciliation. Find out more <Link to='features' className='u-link-color-p u-text-underline'>here</Link>.
+            and payment reconciliation. Find out more <Link to='partners' className='u-link-color-p u-text-underline'>here</Link>.
           </p>
         </Translation>
 

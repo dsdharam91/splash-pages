@@ -47,6 +47,7 @@ class FooterEn extends React.Component {
     const { routeName, currentLocale, config, availableLocales, availableCountryNames } = this.context;
     const availableLocalePages = buildAvailableLocalePages(currentLocale, routeName, availableLocales, availableCountryNames);
     const region = localeToRegion(currentLocale);
+    const hiddenLocales = ['en-AU', 'en-US', 'pt-BR', 'en-NZ'];
 
     return (
       <div className='page-footer'>
@@ -56,31 +57,31 @@ class FooterEn extends React.Component {
               Connect with us
               <ul className='u-inline-block u-margin-Lxl'>
                 <li className='u-inline-block u-margin-Rm'>
-                  <a href='https://www.linkedin.com/company/2808012'>
+                  <Href to='social_links.linkedin'>
                     <LinkedinIcon alt='LinkedIn'
                     className='page-footer__social-icon' />
-                  </a>
+                  </Href>
                 </li>
                 <li className='u-inline-block u-margin-Rm'>
-                  <a href='https://twitter.com/GoCardless'>
+                  <Href to='social_links.twitter'>
                     <TwitterIcon alt='Twitter'
                     className='page-footer__social-icon' />
-                  </a>
+                  </Href>
                 </li>
                 <li className='u-inline-block u-margin-Rm'>
-                  <a href='https://www.facebook.com/GoCardless/'>
+                  <Href to='social_links.facebook'>
                     <FacebookIcon alt='Facebook'
                     className='page-footer__social-icon' />
-                  </a>
+                  </Href>
                 </li>
                 <li className='u-inline-block'>
-                  <a href='https://www.youtube.com/channel/UCG50AFe8KqhouUczByXDXCg'>
+                  <Href to='social_links.youtube'>
                     <YoutubeIcon alt='YouTube'
                     className='page-footer__social-icon' />
-                  </a>
+                  </Href>
                 </li>
               </ul>
-              <hr className='section-divider u-margin-Vm' />
+              <hr className='u-margin-Vm' />
             </div>
             <div className='grid__cell u-size-1of4'>
               <ul className='u-text-heading u-text-semi u-text-xxs'>
@@ -89,8 +90,14 @@ class FooterEn extends React.Component {
                     Solutions
                   </p>
                 </li>
+                <IfLinkExists to='features' tagName='li'>
+                  <Link to='features' pointer='features.nav_title' className='page-footer__link'/>
+                </IfLinkExists>
+                <IfLinkExists to='pro' tagName='li'>
+                  <Link to='pro' pointer='pro.nav_title' className='page-footer__link'/>
+                </IfLinkExists>
                 <IfLinkExists to='small_medium_businesses' tagName='li'>
-                  <Link to='small_medium_businesses' pointer='a_simple_direct_debit_solution.nav_title' className='page-footer__link'/>
+                  <Link to='small_medium_businesses' pointer='small_medium_businesses.nav_title' className='page-footer__link'/>
                 </IfLinkExists>
                 <IfLinkExists to='new_to_direct_debit' tagName='li'>
                   <Link to='new_to_direct_debit' pointer='new_to_direct_debit.nav_title' className='page-footer__link'/>
@@ -98,22 +105,11 @@ class FooterEn extends React.Component {
                 <IfLinkExists to='existing_direct_debit_user' tagName='li'>
                   <Link to='existing_direct_debit_user' pointer='existing_direct_debit_user.nav_title' className='page-footer__link'/>
                 </IfLinkExists>
-                <IfLinkExists to='developer_features' tagName='li'>
-                  <p className='page-footer__link'>
-                    <Link to='developer_features' pointer='developer_features.nav_title' className='page-footer__link'/>
-                  </p>
-                </IfLinkExists>
-                <li>
-                  <Href to='api_docs.path' className='page-footer__link'>
-                    <Message pointer='api_docs.nav_title' />
-                  </Href>
-                </li>
                 <IfLinkExists to='partners' tagName='li'>
-                  <p className='page-footer__link'>
-                    <Link to='partners'>
-                      Partner integrations
-                    </Link>
-                  </p>
+                  <Link to='partners' pointer='partners.nav_title' className='page-footer__link' />
+                </IfLinkExists>
+                <IfLinkExists to='direct_debit_api' tagName='li'>
+                  <Link to='direct_debit_api' pointer='direct_debit_api.nav_title' className='page-footer__link' />
                 </IfLinkExists>
                 <IfLinkExists to='pricing' tagName='li'>
                   <Link to='pricing' pointer='pricing.nav_title' className='page-footer__link' />
@@ -150,11 +146,7 @@ class FooterEn extends React.Component {
                   <Link to='faq_merchants' pointer='faq_merchants.link_title' className='page-footer__link' />
                 </IfLinkExists>
                 <li>
-                  <p className='page-footer__link'>
-                    <Href to='api_docs.path'>
-                      Developer Docs
-                    </Href>
-                  </p>
+                  <Href to='api_docs.path' pointer='api_docs.nav_title' className='page-footer__link' />
                 </li>
                 <IfLinkExists to='customer_offers' tagName='li'>
                   <Link to='customer_offers' pointer='customer_offers.nav_title' className='page-footer__link' />
@@ -165,7 +157,7 @@ class FooterEn extends React.Component {
               <ul className='u-text-heading u-text-semi u-text-xxs'>
                 <li className='u-margin-Bxxs'>
                   <p className='u-color-dark-gray'>
-                    About
+                    About GoCardless
                   </p>
                 </li>
                 <IfLinkExists to='about' tagName='li'>
@@ -287,26 +279,28 @@ class FooterEn extends React.Component {
                 <ul className='u-text-xxs u-text-start u-padding-Vxs'>
                   {
                     availableLocalePages.map(function(localePage) {
-                      return (
-                        <li className='u-text-semi' key={localePage.name}>
-                          {
-                            localePage.isActive && (
-                              <span className='u-padding-Vxs u-padding-Hm u-block'>
-                                <Flag country={localeToRegion(localePage.locale)}
-                                className='flag-icon--popover u-margin-Rs u-align-baseline' alt={ localePage.name } />
-                                <span className='country-select-label u-color-dark-gray'>{ localePage.name }</span>
-                                <CheckmarkIcon className='u-fill-dark-green u-margin-Ls u-pull-end u-inline checkmark-icon' alt='✓' />
-                              </span>
-                            ) || (
-                              <a className='u-padding-Vxs u-padding-Hm u-block' href={ localePage.path }>
-                                <Flag country={localeToRegion(localePage.locale)}
-                                className='flag-icon--popover u-margin-Rs u-align-baseline' alt={ localePage.name } />
-                                <span className='country-select-label'>{ localePage.name }</span>
-                              </a>
-                            )
-                          }
-                        </li>
-                      );
+                      if (hiddenLocales.indexOf(localePage.locale) < 0) {
+                        return (
+                          <li className='u-text-semi' key={localePage.name}>
+                            {
+                              localePage.isActive && (
+                                <span className='u-padding-Vxs u-padding-Hm u-block'>
+                                  <Flag country={localeToRegion(localePage.locale)}
+                                  className='flag-icon--popover u-margin-Rs u-align-baseline' alt={ localePage.name } />
+                                  <span className='country-select-label u-color-dark-gray'>{ localePage.name }</span>
+                                  <CheckmarkIcon className='u-fill-dark-green u-margin-Ls u-pull-end u-inline checkmark-icon' alt='✓' />
+                                </span>
+                              ) || (
+                                <a className='u-padding-Vxs u-padding-Hm u-block' href={ localePage.path }>
+                                  <Flag country={localeToRegion(localePage.locale)}
+                                  className='flag-icon--popover u-margin-Rs u-align-baseline' alt={ localePage.name } />
+                                  <span className='country-select-label'>{ localePage.name }</span>
+                                </a>
+                              )
+                            }
+                          </li>
+                        );
+                      }
                     })
                   }
                 </ul>

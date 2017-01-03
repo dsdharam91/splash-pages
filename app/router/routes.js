@@ -113,10 +113,11 @@ import FaqProDashboardPaylinksCreation from '../pages/faq/pro-dashboard/paylinks
 import NewToDirectDebit from '../pages/new-to-direct-debit/new-to-direct-debit';
 import ExistingDirectDebitUser from '../pages/existing-direct-debit-user/existing-direct-debit-user';
 import SmallMediumBusinesses from '../pages/small-medium-businesses/small-medium-businesses';
-import DeveloperFeatures from '../pages/developer-features/developer-features';
-import IntegrateFeatures from '../pages/integrate-features/integrate-features';
+import Developers from '../pages/developers/developers';
+import DirectDebitApi from '../pages/direct-debit-api/direct-debit-api';
 
 import Stories from '../pages/stories/stories';
+
 import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
 import StoriesBulbEnergy from '../pages/stories/stories/bulb-energy';
 import StoriesConnexin from '../pages/stories/stories/connexin';
@@ -134,6 +135,15 @@ import StoriesTeamUp from '../pages/stories/stories/team-up';
 import StoriesWowCompany from '../pages/stories/stories/wow-company';
 import StoriesYourParkingSpace from '../pages/stories/stories/your-parking-space';
 
+import StoriesDigidom from '../pages/stories/stories/digidom.fr';
+import StoriesHabitat from '../pages/stories/stories/habitat.fr';
+import StoriesZenchef from '../pages/stories/stories/zenchef.fr';
+
+import StoriesCrossfitOldenburg from '../pages/stories/stories/crossfit-oldenburg';
+import StoriesGastrofix from '../pages/stories/stories/gastrofix';
+import StoriesPicDrop from '../pages/stories/stories/picdrop';
+import StoriesStudyClever from '../pages/stories/stories/study-clever';
+
 import StoriesAcumbamail from '../pages/stories/stories/acumbamail.es';
 import StoriesImpactHub from '../pages/stories/stories/impact-hub.es';
 import StoriesMonras from '../pages/stories/stories/monras.es';
@@ -142,13 +152,6 @@ import StoriesBlueskyBusiness from '../pages/stories/stories/bluesky-business';
 import StoriesSpencerHockey from '../pages/stories/stories/spencer-hockey';
 import StoriesFoundationOfHearts from '../pages/stories/stories/foundation-of-hearts';
 import StoriesGreaterAnglia from '../pages/stories/stories/greater-anglia';
-import StoriesZenchef from '../pages/stories/stories/zenchef';
-import StoriesTheFrenchTalents from '../pages/stories/stories/the-french-talents';
-import StoriesHabitat from '../pages/stories/stories/habitat';
-import StoriesPicDrop from '../pages/stories/stories/picdrop';
-import StoriesGastrofix from '../pages/stories/stories/gastrofix';
-import StoriesCrossfitOldenburg from '../pages/stories/stories/crossfit-oldenburg';
-import StoriesStudyClever from '../pages/stories/stories/study-clever';
 
 export var homeRoute = 'home';
 
@@ -202,9 +205,6 @@ export const config = Immutable.fromJS([
     },
   ],
   [Pro, { name: 'pro' }, {
-      'en-GB': {
-        path: '/pro',
-      },
       'en-EU': {
         path: '/pro',
       },
@@ -256,9 +256,6 @@ export const config = Immutable.fromJS([
     },
   ],
   [Features, { name: 'features' }, {
-      'en-GB': {
-        path: '/features',
-      },
       'en-IE': {
         path: '/features',
       },
@@ -384,25 +381,31 @@ export const config = Immutable.fromJS([
   ],
   [ExistingDirectDebitUser, { name: 'existing_direct_debit_user'}, {
       'en-GB': {
-        path: '/existing-direct-debit-user',
+        path: '/better-direct-debit',
       },
     },
   ],
   [SmallMediumBusinesses, { name: 'small_medium_businesses'}, {
       'en-GB': {
-        path: '/small-medium-businesses',
+        path: '/features',
       },
     },
   ],
-  [DeveloperFeatures, { name: 'developer_features'}, {
+  [Developers, { name: 'developers'}, {
       'en-GB': {
-        path: '/developer-features',
+        path: '/developers',
+      },
+      fr: {
+        path: '/developpeurs',
       },
     },
   ],
-  [IntegrateFeatures, { name: 'integrate_features'}, {
+  [DirectDebitApi, { name: 'direct_debit_api'}, {
       'en-GB': {
-        path: '/integrate-features',
+        path: '/direct-debit-api',
+      },
+      fr: {
+        path: '/api-prelevement-automatique',
       },
     },
   ],
@@ -1485,7 +1488,7 @@ export const config = Immutable.fromJS([
         path: '/stories',
       },
       fr: {
-        path: '/references',
+        path: '/temoignages',
       },
       de: {
         path: '/kundenstimmen',
@@ -1593,6 +1596,52 @@ export const config = Immutable.fromJS([
     },
   ],
 
+  // French Case Studies
+  [StoriesDigidom, { name: 'stories_digidom', category: 'stories' }, {
+      fr: {
+        path: '/temoignages/digidom',
+      },
+    },
+  ],
+  [StoriesHabitat, { name: 'stories_habitat', category: 'stories' }, {
+      fr: {
+        path: '/temoignages/habitat',
+      },
+    },
+  ],
+  [StoriesZenchef, { name: 'stories_zenchef', category: 'stories' }, {
+      fr: {
+        path: '/temoignages/zenchef',
+      },
+    },
+  ],
+
+  // German Case Studies
+  [StoriesCrossfitOldenburg, { name: 'stories_crossfit_oldenburg', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/crossfit-oldenburg',
+      },
+    },
+  ],
+  [StoriesGastrofix, { name: 'stories_gastrofix', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/gastrofix',
+      },
+    },
+  ],
+  [StoriesPicDrop, { name: 'stories_picdrop', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/picdrop',
+      },
+    },
+  ],
+  [StoriesStudyClever, { name: 'stories_study_clever', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/study-clever',
+      },
+    },
+  ],
+
   // Spanish Case Studies
   [StoriesAcumbamail, { name: 'stories_acumbamail', category: 'stories' }, {
       es: {
@@ -1630,9 +1679,6 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/stories/foundation-of-hearts',
       },
-      fr: {
-        path: '/references/foundation-of-hearts',
-      },
     },
   ],
   [StoriesGreaterAnglia, { name: 'stories_greater_anglia', category: 'stories' }, {
@@ -1641,48 +1687,7 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [StoriesZenchef, { name: 'stories_zenchef', category: 'stories' }, {
-      fr: {
-        path: '/references/zenchef',
-      },
-    },
-  ],
-  [StoriesPicDrop, { name: 'stories_picdrop', category: 'stories' }, {
-      de: {
-        path: '/kundenstimmen/picdrop',
-      },
-    },
-  ],
-  [StoriesGastrofix, { name: 'stories_gastrofix', category: 'stories' }, {
-      de: {
-        path: '/kundenstimmen/gastrofix',
-      },
-    },
-  ],
-  [StoriesStudyClever, { name: 'stories_study_clever', category: 'stories' }, {
-      de: {
-        path: '/kundenstimmen/study-clever',
-      },
-    },
-  ],
-  [StoriesCrossfitOldenburg, { name: 'stories_crossfit_oldenburg', category: 'stories' }, {
-      de: {
-        path: '/kundenstimmen/crossfit-oldenburg',
-      },
-    },
-  ],
-  [StoriesTheFrenchTalents, { name: 'stories_the_french_talents', category: 'stories' }, {
-      fr: {
-        path: '/references/the-french-talents',
-      },
-    },
-  ],
-  [StoriesHabitat, { name: 'stories_habitat', category: 'stories' }, {
-      fr: {
-        path: '/references/habitat',
-      },
-    },
-  ],
+
   [HowTo, { name: 'how-to' }, {
       'en-GB': {
         path: '/how-to',

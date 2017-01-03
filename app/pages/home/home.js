@@ -4,6 +4,7 @@ import Message from '../../components/message/message';
 import InlineMessage from '../../components/inline-message/inline-message';
 import Translation from '../../components/translation/translation';
 import HomeEn from './home.en';
+import HomeEnGlobal from './home.en.global';
 import HomeFr from './home.fr';
 import HomeDe from './home.de';
 import HomeEs from './home.es';
@@ -20,9 +21,9 @@ export default class Home extends React.Component {
     return (
       <div>
         <IfLocale showHoldingPage={false}>
-          <Translation locales={['fr', 'de', 'es', 'nl']}>
+          <Translation locales={['fr', 'de', 'es', 'nl', 'en']} exclude={['en-GB']}>
             <Page>
-              <div className='page-hero page-hero--home page-hero--large u-relative u-size-full'>
+              <div className='page-hero page-hero--global page-hero--large u-relative u-size-full'>
                 <div className='site-container page-hero__container'>
                   <div className='page-hero__inner'>
                     <div className='page-hero__text'>
@@ -43,12 +44,22 @@ export default class Home extends React.Component {
                           </Link>
                         </IfLocale>
                         <IfLocale hasInstantSignup>
-                          <Href to='signup.path'
-                          className='btn btn--invert btn-move u-size-1of4 u-margin-Lm'
-                          pointer='cta.signup' />
-                          <Link to='contact_sales' className='btn btn--invert-hollow btn-move u-size-1of4 u-margin-Lm'>
-                            <Message pointer='cta.pro' />
-                          </Link>
+                          <Translation locales='fr'>
+                            <Link to='contact_sales' className='btn btn--invert btn-move u-size-1of4'>
+                              <Message pointer='cta.pro' />
+                            </Link>
+                            <Link to='features' className='btn btn--invert-hollow btn--move u-size-3of12 u-margin-Lm'>
+                              <Message pointer='cta.more' />
+                            </Link>
+                          </Translation>
+                          <Translation locales={['de', 'es', 'nl', 'en']}>
+                            <Href to='signup.path'
+                            className='btn btn--invert btn-move u-size-1of4 u-margin-Lm'
+                            pointer='cta.signup' />
+                            <Link to='contact_sales' className='btn btn--invert-hollow btn-move u-size-1of4 u-margin-Lm'>
+                              <Message pointer='cta.pro' />
+                            </Link>
+                          </Translation>
                         </IfLocale>
                       </div>
                     </div>
@@ -60,10 +71,11 @@ export default class Home extends React.Component {
               <HomeDe />
               <HomeEs />
               <HomeNl />
+              <HomeEnGlobal />
             </Page>
           </Translation>
 
-          <Translation locales='en'>
+          <Translation locales='en-GB'>
             <Page isInverted={false}>
               <HomeEn />
             </Page>
