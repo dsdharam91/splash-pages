@@ -7,7 +7,7 @@ export default class SolutionEngineer extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Solution Engineer</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-heading'>Solutions Engineer</h3>
         <p className='para'>
           GoCardless is having fun and growing fast. Thousands of businesses in the UK already trust us with their payments,
           and hundreds more are joining us every week. We are moving into our next phase of expansion and we are looking to

@@ -608,6 +608,10 @@ export default {
     title: 'Customer Success Manager',
     description: '',
   },
+  jobs_customer_success_manager_france: {
+    title: 'Customer Success Manager: France',
+    description: '',
+  },
   jobs_sales_development_representative_inbound: {
     title: 'SDR: UK',
     description: '',
@@ -630,6 +634,10 @@ export default {
   },
   jobs_market_analyst_internship: {
     title: 'Market Analyst Internship',
+    description: '',
+  },
+  jobs_head_of_enterprise_sales: {
+    title: 'Head of Enterprise Sales',
     description: '',
   },
   jobs_head_of_operations: {
@@ -656,8 +664,8 @@ export default {
     title: 'Marketing Manager Accountants',
     description: '',
   },
-  jobs_solution_engineer: {
-    title: 'Solution Engineer',
+  jobs_solutions_engineer: {
+    title: 'Solutions Engineer',
     description: '',
   },
   api_docs: {

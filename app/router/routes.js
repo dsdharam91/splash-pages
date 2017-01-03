@@ -44,6 +44,7 @@ import ProductManager from '../pages/about/jobs/positions/product-manager.js';
 import HeadofSalesFrance from '../pages/about/jobs/positions/head-of-sales-france';
 import SalesDevelopmentRepresentativeInbound from '../pages/about/jobs/positions/sales-development-representative-inbound.js';
 import SalesDevelopmentRepresentativeOutbound from '../pages/about/jobs/positions/sales-development-representative-outbound.js';
+import CustomerSuccessManagerFrance from '../pages/about/jobs/positions/customer-success-france.js';
 import CustomerSuccessManager from '../pages/about/jobs/positions/customer-success-manager.js';
 import HeadofOperations from '../pages/about/jobs/positions/head-of-operations';
 import RiskComplianceAnalyst from '../pages/about/jobs/positions/risk-compliance-analyst.js';
@@ -53,6 +54,7 @@ import DeveloperSupportLead from '../pages/about/jobs/positions/developer-suppor
 import PartnershipsDevelopmentManager from '../pages/about/jobs/positions/partnerships-development.js';
 import PartnershipsSuccessManager from '../pages/about/jobs/positions/partnerships-success.js';
 import MarketAnalystInternship from '../pages/about/jobs/positions/market-analyst.js';
+import HeadofEnterpriseSales from '../pages/about/jobs/positions/head-enterprise-sales.js';
 import PartnershipMarketingManager from '../pages/about/jobs/positions/partnership-marketing-manager.js';
 import MarketingManagerAccountants from '../pages/about/jobs/positions/marketing-manager-accountants.js';
 import SolutionEngineer from '../pages/about/jobs/positions/solution-engineer.js';
@@ -116,6 +118,7 @@ import Developers from '../pages/developers/developers';
 import DirectDebitApi from '../pages/direct-debit-api/direct-debit-api';
 
 import Stories from '../pages/stories/stories';
+
 import StoriesBoostCapital from '../pages/stories/stories/boost-capital';
 import StoriesBulbEnergy from '../pages/stories/stories/bulb-energy';
 import StoriesConnexin from '../pages/stories/stories/connexin';
@@ -133,6 +136,15 @@ import StoriesTeamUp from '../pages/stories/stories/team-up';
 import StoriesWowCompany from '../pages/stories/stories/wow-company';
 import StoriesYourParkingSpace from '../pages/stories/stories/your-parking-space';
 
+import StoriesDigidom from '../pages/stories/stories/digidom.fr';
+import StoriesHabitat from '../pages/stories/stories/habitat.fr';
+import StoriesZenchef from '../pages/stories/stories/zenchef.fr';
+
+import StoriesCrossfitOldenburg from '../pages/stories/stories/crossfit-oldenburg';
+import StoriesGastrofix from '../pages/stories/stories/gastrofix';
+import StoriesPicDrop from '../pages/stories/stories/picdrop';
+import StoriesStudyClever from '../pages/stories/stories/study-clever';
+
 import StoriesAcumbamail from '../pages/stories/stories/acumbamail.es';
 import StoriesImpactHub from '../pages/stories/stories/impact-hub.es';
 import StoriesMonras from '../pages/stories/stories/monras.es';
@@ -141,13 +153,6 @@ import StoriesBlueskyBusiness from '../pages/stories/stories/bluesky-business';
 import StoriesSpencerHockey from '../pages/stories/stories/spencer-hockey';
 import StoriesFoundationOfHearts from '../pages/stories/stories/foundation-of-hearts';
 import StoriesGreaterAnglia from '../pages/stories/stories/greater-anglia';
-import StoriesZenchef from '../pages/stories/stories/zenchef';
-import StoriesTheFrenchTalents from '../pages/stories/stories/the-french-talents';
-import StoriesHabitat from '../pages/stories/stories/habitat';
-import StoriesPicDrop from '../pages/stories/stories/picdrop';
-import StoriesGastrofix from '../pages/stories/stories/gastrofix';
-import StoriesCrossfitOldenburg from '../pages/stories/stories/crossfit-oldenburg';
-import StoriesStudyClever from '../pages/stories/stories/study-clever';
 
 export var homeRoute = 'home';
 
@@ -305,6 +310,9 @@ export const config = Immutable.fromJS([
   [PaymentsByDirectDebitVariationB, { name: 'payments_by_direct_debit_variation_b' }, {
       'en-GB': {
         path: '/payments-by-direct-debit-b',
+      },
+      'fr-FR': {
+        path: '/paiements-recurrents',
       },
     },
   ],
@@ -582,6 +590,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+      [CustomerSuccessManagerFrance, { name: 'jobs_customer_success_manager_france', category: 'jobs.sales' }, {
+          en: {
+            path: '/about/jobs/customer-success-manager-france',
+          },
+        },
+  ],
   [HeadofOperations, { name: 'jobs_head_of_operations', category: 'jobs.operations' }, {
       en: {
         path: '/about/jobs/head-of-operations',
@@ -630,6 +644,12 @@ export const config = Immutable.fromJS([
       },
     },
   ],
+  [HeadofEnterpriseSales, { name: 'jobs_head_of_enterprise_sales', category: 'jobs.sales' }, {
+      en: {
+        path: '/about/jobs/head-of-enterprise-sales',
+      },
+    },
+  ],
   [PartnershipMarketingManager, { name: 'jobs_partnership_marketing_manager', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/partnership-marketing-manager',
@@ -642,7 +662,7 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [SolutionEngineer, { name: 'jobs_solution_engineer', category: 'jobs.sales' }, {
+  [SolutionEngineer, { name: 'jobs_solutions_engineer', category: 'jobs.sales' }, {
       en: {
         path: '/about/jobs/solution-engineer',
       },
@@ -1478,7 +1498,7 @@ export const config = Immutable.fromJS([
         path: '/stories',
       },
       fr: {
-        path: '/references',
+        path: '/temoignages',
       },
       de: {
         path: '/kundenstimmen',
@@ -1586,6 +1606,52 @@ export const config = Immutable.fromJS([
     },
   ],
 
+  // French Case Studies
+  [StoriesDigidom, { name: 'stories_digidom', category: 'stories' }, {
+      fr: {
+        path: '/temoignages/digidom',
+      },
+    },
+  ],
+  [StoriesHabitat, { name: 'stories_habitat', category: 'stories' }, {
+      fr: {
+        path: '/temoignages/habitat',
+      },
+    },
+  ],
+  [StoriesZenchef, { name: 'stories_zenchef', category: 'stories' }, {
+      fr: {
+        path: '/temoignages/zenchef',
+      },
+    },
+  ],
+
+  // German Case Studies
+  [StoriesCrossfitOldenburg, { name: 'stories_crossfit_oldenburg', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/crossfit-oldenburg',
+      },
+    },
+  ],
+  [StoriesGastrofix, { name: 'stories_gastrofix', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/gastrofix',
+      },
+    },
+  ],
+  [StoriesPicDrop, { name: 'stories_picdrop', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/picdrop',
+      },
+    },
+  ],
+  [StoriesStudyClever, { name: 'stories_study_clever', category: 'stories' }, {
+      de: {
+        path: '/kundenstimmen/study-clever',
+      },
+    },
+  ],
+
   // Spanish Case Studies
   [StoriesAcumbamail, { name: 'stories_acumbamail', category: 'stories' }, {
       es: {
@@ -1623,9 +1689,6 @@ export const config = Immutable.fromJS([
       'en-GB': {
         path: '/stories/foundation-of-hearts',
       },
-      fr: {
-        path: '/references/foundation-of-hearts',
-      },
     },
   ],
   [StoriesGreaterAnglia, { name: 'stories_greater_anglia', category: 'stories' }, {
@@ -1634,48 +1697,7 @@ export const config = Immutable.fromJS([
       },
     },
   ],
-  [StoriesZenchef, { name: 'stories_zenchef', category: 'stories' }, {
-      fr: {
-        path: '/references/zenchef',
-      },
-    },
-  ],
-  [StoriesPicDrop, { name: 'stories_picdrop', category: 'stories' }, {
-      de: {
-        path: '/kundenstimmen/picdrop',
-      },
-    },
-  ],
-  [StoriesGastrofix, { name: 'stories_gastrofix', category: 'stories' }, {
-      de: {
-        path: '/kundenstimmen/gastrofix',
-      },
-    },
-  ],
-  [StoriesStudyClever, { name: 'stories_study_clever', category: 'stories' }, {
-      de: {
-        path: '/kundenstimmen/study-clever',
-      },
-    },
-  ],
-  [StoriesCrossfitOldenburg, { name: 'stories_crossfit_oldenburg', category: 'stories' }, {
-      de: {
-        path: '/kundenstimmen/crossfit-oldenburg',
-      },
-    },
-  ],
-  [StoriesTheFrenchTalents, { name: 'stories_the_french_talents', category: 'stories' }, {
-      fr: {
-        path: '/references/the-french-talents',
-      },
-    },
-  ],
-  [StoriesHabitat, { name: 'stories_habitat', category: 'stories' }, {
-      fr: {
-        path: '/references/habitat',
-      },
-    },
-  ],
+
   [HowTo, { name: 'how-to' }, {
       'en-GB': {
         path: '/how-to',
