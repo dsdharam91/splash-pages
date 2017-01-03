@@ -19,7 +19,8 @@ export default class StoriesLylesSutherland extends React.Component {
         sidebarServices='Digital agency and software developer'
         sidebarEmployees='16 employees'
         sidebarPreviousProvider='New to Direct Debit'
-        sidebarTimeSaved='A couple of hours a week'>
+        sidebarTimeSaved='A couple of hours a week'
+        sidebarPartnerIntegration='GoCardless for FreeAgent'>
         <div className='story-body'>
           <p className='para u-margin-Tn'>
             <a href='http://www.lyles-sutherland.co.uk/' className='u-link-color-p u-text-underline'>Lyles Sutherland</a> knows all about

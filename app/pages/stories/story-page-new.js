@@ -110,7 +110,7 @@ export default class StoryPageNew extends React.Component {
                 <p className="u-text-xs">{this.props.sidebarEmployees}</p>
               </div>
 
-              { this.props.sidebarPartnerIntegration && (<div>
+              { this.props.sidebarPartnerIntegration && (<div className="u-margin-Bm">
                 <p className="u-text-xxs u-color-dark-gray u-margin-Bxxs">
                   <Message pointer='stories.partner_integration' />
                 </p>

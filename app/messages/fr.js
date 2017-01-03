@@ -354,6 +354,7 @@ export default {
     company_name: 'Société',
     services: 'Service',
     number_employees: 'Taille de l\'entreprise',
+    partner_integration: 'Intégration avec un partenaire',
     previous_provider: 'Solution de prélèvement utilisée avant GoCardless',
     time_saved: 'Gain de temps depuis GoCardless',
     start_journey: 'Rejoignez l\'aventure GoCardless aujourd\'hui',

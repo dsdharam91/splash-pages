@@ -17,7 +17,8 @@ export default class StoriesSoaringFalcon extends React.Component {
         sidebarServices='Tech-focused cloud accounting services'
         sidebarEmployees='3 employees'
         sidebarPreviousProvider='Used GoCardless from the very beginning'
-        sidebarTimeSaved='Two days every month'>
+        sidebarTimeSaved='Two days every month'
+        sidebarPartnerIntegration='GoCardless for Xero'>
         <div className='story-body'>
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
             Soaring towards growth

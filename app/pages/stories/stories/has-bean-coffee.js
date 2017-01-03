@@ -17,7 +17,8 @@ export default class StoriesHasBeanCoffee extends React.Component {
         sidebarLogoSrc='/images/stories/story-logos/has-bean-coffee.png'
         sidebarServices='Supplying high quality coffee'
         sidebarEmployees=' 15 employees'
-        sidebarTimeSaved='Reduced average payment period from 62 days to 41'>
+        sidebarTimeSaved='Reduced average payment period from 62 days to 41'
+        sidebarPartnerIntegration='GoCardless for KashFlow'>
         <div className='story-body'>
          <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
             Bringing the world's finest coffee to the UK

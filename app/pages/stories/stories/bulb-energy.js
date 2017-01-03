@@ -15,7 +15,8 @@ export default class StoriesBulbEnergy extends React.Component {
         bgimgUrl='url(/images/stories/story-images/bulb-energy/hero-bulb.jpg)'
         sidebarLogoSrc='/images/stories/story-logos/bulb-energy.png'
         sidebarServices='Providing low-cost, renewable energy and market-leading customer service.'
-        sidebarEmployees='Growing too quickly to keep up!'>
+        sidebarEmployees='Growing too quickly to keep up!'
+        sidebarPartnerIntegration='GoCardless for Junifer'>
         <div className='story-body'>
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
             Finding better ways to provide the UK's energy

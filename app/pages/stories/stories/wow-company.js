@@ -17,7 +17,8 @@ export default class StoriesWowCompany extends React.Component {
         sidebarLogoSrc='/images/stories/story-logos/the-wow-company.png'
         sidebarServices='Accountancy and business advice'
         sidebarEmployees='35 employees'
-        sidebarTimeSaved='4 days per month'>
+        sidebarTimeSaved='4 days per month'
+        sidebarPartnerIntegration='GoCardless for Xero'>
         <div className='story-body'>
           <p className='para u-margin-Tn'>
             <a href='http://www.thewowcompany.com/' className='u-link-color-p u-text-underline'>The Wow Company</a> is a firm of

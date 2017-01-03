@@ -17,7 +17,8 @@ export default class StoriesZenchef extends React.Component {
         sidebarServices='Outil clef-en-main pour gérer la communication de restaurants'
         sidebarEmployees='43 employés'
         sidebarPreviousProvider='Autre prestataire spécialisé'
-        sidebarTimeSaved='20 heures par mois'>
+        sidebarTimeSaved='20 heures par mois'
+        sidebarPartnerIntegration='GoCardless pour Zuora'>
         <div className='story-body'>
           <p className='para u-margin-Tn'>
             <a href='http://zenchef.com/' className='u-link-color-p u-text-underline'>Zenchef</a>, un outil clef-en-main
