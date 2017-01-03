@@ -51,6 +51,11 @@ export default class LegalOldTermsIndex extends React.Component {
               Restricted activities [prior to 23rd September 2016]
             </Link>
           </li>
+          <li>
+            <Link to='legal_old_restrictions_2017_01_03' className='u-link-color-p u-text-underline'>
+              Restricted activities [prior to 3rd January 2017]
+            </Link>
+          </li>
         </ul>
 
         <p className='para'><strong>Privacy policies</strong></p>

@@ -1,17 +1,18 @@
 import React from 'react';
-import Translation from '../../../components/translation/translation';
-import Link from '../../../components/link/link';
+import LegalPage from '../../../legal-page';
+import Link from '../../../../../components/link/link';
 
-export default class LegalRestrictionsEn extends React.Component {
-  displayName = 'LegalRestrictionsEn'
+export default class LegalOldRestrictions20170103 extends React.Component {
+  displayName = 'LegalOldRestrictions20170103'
 
   render() {
     return (
-      <Translation locales='en'>
-        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Restricted activities</h2>
+      <LegalPage>
+        <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Restricted activities [prior to 3rd January 2017]</h2>
 
         <p className='para'>
-          <strong>This list was last updated on 3rd January 2017 — you can read our previous lists of restricted activities <Link to='legal_old_terms' className='u-link-color-p u-text-underline'>here</Link>.</strong>
+          <strong>This is an outdated list of restricted activities for which you may not use the services GoCardless offers. You can read an up-to-date list of our Restricted Activities <Link to='legal_restrictions'
+          className='u-link-color-p u-text-underline'>here</Link>.</strong>
         </p>
 
         <p className='para'>
@@ -79,6 +80,9 @@ export default class LegalRestrictionsEn extends React.Component {
             might be seen as acting as a private banking or other payment institution
           </li>
           <li>
+            relates to the control of an account that is linked to another account, the users of which have engaged in any of the foregoing activities;
+          </li>
+          <li>
             support pyramid or ponzi schemes, matrix programs, other &#39;get rich quick&#39; schemes or certain multi-level marketing programs, including the collecting of payments for such schemes;
           </li>
           <li>
@@ -88,13 +92,10 @@ export default class LegalRestrictionsEn extends React.Component {
             results in the completion of Direct Debit mandates on behalf of another party;
           </li>
           <li>
-            might result in the harm of, or attempts to harm, any minor;
+            might result in the harm of, or attempts to harm, any minor; or
           </li>
           <li>
-            accesses or attempts to access any software underlying the GoCardless service; or
-          </li>
-          <li>
-            relates to the control of an account that is linked to another account, the users of which have engaged in any of the foregoing activities.
+            accesses or attempts to access any software underlying the GoCardless service.
           </li>
         </ul>
 
@@ -162,7 +163,7 @@ export default class LegalRestrictionsEn extends React.Component {
             media activity such as the provision of Twitter followers, Facebook likes or YouTube views.
           </li>
         </ul>
-      </Translation>
+      </LegalPage>
     );
   }
 }
