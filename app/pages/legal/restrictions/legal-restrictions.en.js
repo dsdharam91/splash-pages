@@ -11,7 +11,7 @@ export default class LegalRestrictionsEn extends React.Component {
         <h2 className='u-text-heading-light u-text-m u-color-dark-gray'>Restricted activities</h2>
 
         <p className='para'>
-          <strong>This list was last updated on 23rd September 2016 — you can read our previous lists of restricted activities <Link to='legal_old_terms' className='u-link-color-p u-text-underline'>here</Link>.</strong>
+          <strong>This list was last updated on 3rd January 2017 — you can read our previous lists of restricted activities <Link to='legal_old_terms' className='u-link-color-p u-text-underline'>here</Link>.</strong>
         </p>
 
         <p className='para'>
@@ -79,9 +79,6 @@ export default class LegalRestrictionsEn extends React.Component {
             might be seen as acting as a private banking or other payment institution
           </li>
           <li>
-            relates to the control of an account that is linked to another account, the users of which have engaged in any of the foregoing activities;
-          </li>
-          <li>
             support pyramid or ponzi schemes, matrix programs, other &#39;get rich quick&#39; schemes or certain multi-level marketing programs, including the collecting of payments for such schemes;
           </li>
           <li>
@@ -91,10 +88,13 @@ export default class LegalRestrictionsEn extends React.Component {
             results in the completion of Direct Debit mandates on behalf of another party;
           </li>
           <li>
-            might result in the harm of, or attempts to harm, any minor; or
+            might result in the harm of, or attempts to harm, any minor;
           </li>
           <li>
-            accesses or attempts to access any software underlying the GoCardless service.
+            accesses or attempts to access any software underlying the GoCardless service; or
+          </li>
+          <li>
+            relates to the control of an account that is linked to another account, the users of which have engaged in any of the foregoing activities.
           </li>
         </ul>
 

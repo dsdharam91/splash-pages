@@ -17,7 +17,8 @@ export default class StoriesFdWorks extends React.Component {
         sidebarLogoSrc='/images/stories/story-logos/fd-works.png'
         sidebarServices='Management accountancy and business advisors'
         sidebarEmployees='8 employees'
-        sidebarTimeSaved='2 hours every week'>
+        sidebarTimeSaved='2 hours every week'
+        sidebarPartnerIntegration='GoCardless for Xero'>
         <div className='story-body'>
           <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-margin-Tn'>
             A best friend in finance

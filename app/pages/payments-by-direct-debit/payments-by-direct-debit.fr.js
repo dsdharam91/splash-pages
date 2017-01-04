@@ -81,7 +81,7 @@ export default class PaymentsByDirectDebitFr extends React.Component {
               <div className='u-text-center u-margin-Tl u-padding-Vs u-center'>
                 <img src='/images/fr/logos/pro-logos-fr@2x.jpg' />
               </div>
-              <div className='grid u-margin-Hn u-size-full u-padding-Txl'>
+              <div className='grid u-margin-Hn u-size-full u-padding-Txl u-text-center'>
                 <Link to='stories_zenchef' className='grid__cell u-text-center u-size-1of2 u-link-clean u-padding-Rxs u-padding-Ln'>
                   <div className='stories-spotlight__item stories-spotlight__item--zenchef
                   u-relative u-padding-Vl'>
@@ -92,21 +92,6 @@ export default class PaymentsByDirectDebitFr extends React.Component {
                       </p>
                       <div className='u-color-invert u-margin-Tm'>
                         Julien Balmont, Zenchef
-                      </div>
-                    </div>
-                  </div>
-                  <div className='stories-spotlight__btn btn u-size-full'>Voir la référence</div>
-                </Link>
-                <Link to='stories_the_french_talents' className='grid__cell u-text-center u-size-1of2
-                u-link-clean u-padding-Lxs u-padding-Rn'>
-                  <div className='stories-spotlight__item stories-spotlight__item--french-talents u-relative u-padding-Vl'>
-                    <div className='stories-spotlight__item-text u-margin-Vl'>
-                      <p className='u-padding-Al u-padding-Bn u-text-heading u-color-invert u-text-m'>
-                        “Réduire de 50% les retards de paiements a aidé à améliorer la trésorerie et
-                        a permis à nos équipes de se concenter sur des activités à plus forte valeur ajoutée.”
-                      </p>
-                      <div className='u-color-invert u-margin-Tm'>
-                        Martin Gentil, Directeur commercial
                       </div>
                     </div>
                   </div>

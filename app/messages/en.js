@@ -274,6 +274,7 @@ export default {
     company_name: 'Company name',
     services: 'Services',
     number_employees: 'Number of employees',
+    partner_integration: 'Partner integration',
     previous_provider: 'Previous Direct Debit provider',
     time_saved: 'Time saved using GoCardless',
     start_journey: 'Start your GoCardless story today',
@@ -313,6 +314,10 @@ export default {
     description: '',
   },
   legal_old_restrictions_2016_09_20: {
+    title: 'Our terms of service - Restrictions',
+    description: '',
+  },
+  legal_old_restrictions_2017_01_03: {
     title: 'Our terms of service - Restrictions',
     description: '',
   },
@@ -608,8 +613,16 @@ export default {
     title: 'Customer Success Manager',
     description: '',
   },
+  jobs_customer_success_manager_france: {
+    title: 'Customer Success Manager: France',
+    description: '',
+  },
   jobs_sales_development_representative_inbound: {
     title: 'SDR: UK',
+    description: '',
+  },
+  jobs_sales_development_representative_outbound: {
+    title: 'NBD: UK',
     description: '',
   },
   jobs_head_of_sales_france: {
@@ -626,6 +639,10 @@ export default {
   },
   jobs_market_analyst_internship: {
     title: 'Market Analyst Internship',
+    description: '',
+  },
+  jobs_head_of_enterprise_sales: {
+    title: 'Head of Enterprise Sales',
     description: '',
   },
   jobs_head_of_operations: {
@@ -652,8 +669,8 @@ export default {
     title: 'Marketing Manager Accountants',
     description: '',
   },
-  jobs_solution_engineer: {
-    title: 'Solution Engineer',
+  jobs_solutions_engineer: {
+    title: 'Solutions Engineer',
     description: '',
   },
   api_docs: {
@@ -720,6 +737,10 @@ export default {
   },
   stories_peterborough_council: {
     title: 'Peterborough Council - Customer Stories',
+    description: '',
+  },
+  stories_randw_media: {
+    title: 'R & W Media - Customer Stories',
     description: '',
   },
   stories_rock_choir: {

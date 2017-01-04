@@ -75,7 +75,7 @@ let allStories = [
     quote: `We wanted to give our members the payment options they most trusted`,
     logoSrc: '/images/stories/story-logos/bulb-energy.png',
     logoWidth: '115',
-    using: 'Uses GoCardless API',
+    using: 'Uses GoCardless for Junifer',
     industry: 'Energy Supplier',
   },
   {
@@ -135,6 +135,14 @@ let allStories = [
     using: 'Uses GoCardless API',
     industry: 'Marketing Agency',
   },
+  {
+    link: 'stories_randw_media',
+    quote: `We were amazed at how easy it was, compared to traditional Direct Debit`,
+    logoSrc: '/images/stories/story-logos/randw-media.png',
+    logoWidth: '70',
+    using: 'Uses GoCardless for Xero',
+    industry: 'Digital & Print Agency',
+  },
 ];
 
 export default class StoriesEn extends React.Component {
@@ -191,7 +199,7 @@ export default class StoriesEn extends React.Component {
               Start your GoCardless story today
             </h2>
             <p className='u-text-xs u-color-dark-gray u-margin-Vxs'>
-              Join the <Message pointer='number_of_merchants' />+ businesses already Uses GoCardless
+              Join the <Message pointer='number_of_merchants' />+ businesses already using GoCardless
             </p>
             <Href to='signup.path' className='btn u-margin-Tm u-margin-Rm'>Sign up now</Href>
             <Link to='contact_sales' className='btn btn--hollow u-margin-Tm'><Message pointer='cta.pro' /></Link>

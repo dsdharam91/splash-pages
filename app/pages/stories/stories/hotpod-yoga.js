@@ -17,7 +17,8 @@ export default class StoriesHotpodYoga extends React.Component {
         sidebarServices='Providing hot yoga to the masses'
         sidebarEmployees='2 employees, 16 franchisees and 45 instructors.'
         sidebarPreviousProvider='Manual invoices'
-        sidebarTimeSaved='Currently 1-2 hours per month but this time is growing rapidly as they scale up.'>
+        sidebarTimeSaved='Currently 1-2 hours per month but this time is growing rapidly as they scale up.'
+        sidebarPartnerIntegration='GoCardless for Teamup'>
         <div className='story-body'>
           <p className='para u-margin-Tn'>
             <a href='http://hotpodyoga.com/' className='u-link-color-p u-text-underline'>Hotpod Yoga</a> was founded by Max
