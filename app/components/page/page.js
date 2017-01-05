@@ -18,8 +18,8 @@ class Page extends React.Component {
     return (
       <div className="site-wrapper">
         <Header isInverted={this.props.isInverted} />
-        {this.props.children}
-        <Footer />
+        {/* {this.props.children} */}
+        {/* <Footer /> */}
       </div>
     );
   }

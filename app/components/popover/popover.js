@@ -9,6 +9,7 @@ export default class Popover extends React.Component {
     children: React.PropTypes.node.isRequired,
     toggle: React.PropTypes.node.isRequired,
     className: React.PropTypes.string,
+    smHidden: React.PropTypes.string,
   }
 
   static keyCodes = {
@@ -71,9 +72,13 @@ export default class Popover extends React.Component {
   }
 
   render() {
-    const classes = {
+    const popoverClasses = {
       popover: true,
       'u-is-visible': this.state.isActive,
+    };
+
+    const popoverWrapperClasses = {
+      'u-sm-hidden': this.props.smHidden,
     };
 
     const style = {
@@ -81,20 +86,22 @@ export default class Popover extends React.Component {
     };
 
     return (
-      <span className='u-inline-block'>
-        <span onClick={this.handleClick}>
-          {this.props.toggle}
+      <span className={classNames(popoverWrapperClasses)}>
+        <span className='u-inline-block'>
+          <span onClick={this.handleClick}>
+            {this.props.toggle}
+          </span>
+          <CSSTransitionGroup transitionName='popover-show'>
+            <div {...this.props} key={'active-' + this.state.isActive}
+            className={classNames(this.props.className, popoverClasses)}
+            onKeyDown={this.handleKeyDown}
+            style={style}
+            tabIndex='-1'
+            ref='popoverContent'>
+              {this.props.children}
+            </div>
+          </CSSTransitionGroup>
         </span>
-        <CSSTransitionGroup transitionName='popover-show'>
-          <div {...this.props} key={'active-' + this.state.isActive}
-          className={classNames(this.props.className, classes)}
-          onKeyDown={this.handleKeyDown}
-          style={style}
-          tabIndex='-1'
-          ref='popoverContent'>
-            {this.props.children}
-          </div>
-        </CSSTransitionGroup>
       </span>
     );
   }

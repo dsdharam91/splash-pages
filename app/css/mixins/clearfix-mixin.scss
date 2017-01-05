@@ -1,5 +1,5 @@
 /**
- * Clearifx mixin
+ * Clearfix mixin
  *
  * Compatible in IE9+
  */
@@ -12,5 +12,6 @@
   &:after {
     clear: both;
   }
+
   *zoom: 1;
 }

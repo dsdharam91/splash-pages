@@ -3,9 +3,10 @@
 .site-header {
   margin: 0 auto;
   max-width: $site-max-width;
-  min-width: $site-min-width;
+  // min-width: $site-min-width;
   z-index: 1;
   padding: 0 $space-medium;
+  background-color: aliceblue;
 }
 
 .site-header-wrapper {

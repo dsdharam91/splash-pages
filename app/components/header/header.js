@@ -7,10 +7,11 @@ import Translation from '../translation/translation';
 import IfLinkExists from '../if-link-exists/if-link-exists';
 import IfLocale from '../if-locale/if-locale';
 import Logo from '../../icons/logo/logo';
-import Popover from '../popover/popover';
+// import Popover from '../popover/popover';
 import classNames from 'classnames';
 import { PropTypes } from '../../helpers/prop-types/prop-types';
 import { filterRouteByCategory } from '../../router/route-helpers';
+import HeaderNavGroup from '../header-nav-group/header-nav-group';
 
 export default class Header extends React.Component {
   displayName = 'Header'
@@ -30,7 +31,7 @@ export default class Header extends React.Component {
 
   renderProductPopover() {
     return (
-      <Popover className='popover--large'
+      <HeaderNavGroup className='popover--large'
       toggle={(
         <a className={ this.getLinkClassName() }>
           <div className={ this.getPopoverLinkClassName() }>
@@ -59,7 +60,7 @@ export default class Header extends React.Component {
             </IfLinkExists>
         ) }
         </ul>
-      </Popover>
+      </HeaderNavGroup>
     );
   }
 
@@ -122,7 +123,7 @@ export default class Header extends React.Component {
 
   renderMorePopover() {
     return (
-      <Popover toggle={(
+      <HeaderNavGroup toggle={(
         <a className={ this.getLinkClassName() }>
           <div className={ this.getPopoverLinkClassName() }>
             <Message pointer='header.more' />
@@ -192,13 +193,13 @@ export default class Header extends React.Component {
             className='u-padding-Vxs u-padding-Hm u-block'/>
           </IfLinkExists>
         </ul>
-      </Popover>
+      </HeaderNavGroup>
     );
   }
 
   renderAboutUsPopover() {
     return (
-      <Popover toggle={(
+      <HeaderNavGroup toggle={(
         <a className={ this.getLinkClassName() }>
           <div className={ this.getPopoverLinkClassName() }>
             <Message pointer='header.about_us' />
@@ -246,13 +247,13 @@ export default class Header extends React.Component {
             pointer='contact_sales.nav_title'/>
           </li>
         </ul>
-      </Popover>
+      </HeaderNavGroup>
     );
   }
 
   renderHelpResourcesPopover() {
     return (
-      <Popover toggle={(
+      <HeaderNavGroup toggle={(
         <a id="help-resources-dropdown"  // For e2e test
         className={ this.getLinkClassName() }>
           <div className={ this.getPopoverLinkClassName() }>
@@ -300,13 +301,13 @@ export default class Header extends React.Component {
             pointer='security.nav_title'/>
           </IfLinkExists>
         </ul>
-      </Popover>
+      </HeaderNavGroup>
     );
   }
 
   renderSolutionsPopover() {
     return (
-      <Popover toggle={(
+      <HeaderNavGroup toggle={(
         <a className={ this.getLinkClassName() }>
           <div className={ this.getPopoverLinkClassName() }>
             <Message pointer='header.solutions' />
@@ -339,7 +340,7 @@ export default class Header extends React.Component {
           pointer='direct_debit_api.nav_title'
           className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
         </ul>
-      </Popover>
+      </HeaderNavGroup>
     );
   }
 
@@ -353,7 +354,7 @@ export default class Header extends React.Component {
               <Logo className={ this.getLogoClassName() }/>
             </Link>
 
-            <nav className='nav u-pull-start u-margin-Ll u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
+            <nav className='nav u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
               <Translation locales={this.context.availableLocales}
               exclude={['en-GB']}
               tagName='div'
@@ -391,7 +392,7 @@ export default class Header extends React.Component {
               <Translation locales={['en-GB']}
               tagName='div'
               className='nav__item u-relative'>
-                <Popover toggle={(
+                <HeaderNavGroup toggle={(
                   <a className={ this.getLinkClassName() }>
                     <div className={ this.getPopoverLinkClassName() }>
                       <Message pointer='header.who_uses_us' />
@@ -408,7 +409,7 @@ export default class Header extends React.Component {
 
                     { this.renderIndustriesLinks() }
                   </ul>
-                </Popover>
+                </HeaderNavGroup>
               </Translation>
 
               <IfLinkExists to='developers'
@@ -424,7 +425,7 @@ export default class Header extends React.Component {
             </nav>
           </div>
 
-          <div className='u-pull-end align-btn-small'>
+          <div className='nav__secondary-wrapper u-pull-end align-btn-small'>
             <nav className='nav u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
               <Translation locales={['en-GB', 'fr-FR']}
               tagName='div'
