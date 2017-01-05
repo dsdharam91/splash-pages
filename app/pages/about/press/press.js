@@ -6,6 +6,14 @@ import Translation from '../../../components/translation/translation';
 import AboutHeader from '../about-header';
 
 let pressArticles = [
+
+  {
+    vendor: 'BBC London',
+    title: 'London businesses and Brexit',
+    link: 'https://www.youtube.com/watch?v=5gTLcqBiX_c',
+    date: '04.01.17',
+    locales: ['en'],
+  },
   {
     vendor: 'FinTech Mag',
     title: 'GoCardless facilite le paiement par prélèvement automatique',
