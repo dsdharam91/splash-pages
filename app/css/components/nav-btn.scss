@@ -1,3 +1,5 @@
 .nav-btn {
-  top: 19px;
+  @include breakpoint-medium {
+    top: 19px;
+  }
 }

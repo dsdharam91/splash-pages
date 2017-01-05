@@ -64,12 +64,8 @@ export default class Accordion extends React.Component {
       'u-hidden': !this.state.isActive,
     };
 
-    const accordionStyle = {
-      backgroundColor: 'antiquewhite',
-    };
-
     return (
-      <div style={accordionStyle} className='u-md-hidden'>
+      <div className='u-md-hidden'>
         <span onClick={this.handleClick}>
           {this.props.toggle}
         </span>

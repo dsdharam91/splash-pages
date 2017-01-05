@@ -106,11 +106,19 @@ h6, .u-text-xxs {
   .u-md-text-center {
     text-align: center;
   }
+
+  .u-md-text-semi {
+    font-weight: $font-weight-semi;
+  }
 }
 
 @include breakpoint-small {
   .u-sm-text-center {
     text-align: center;
+  }
+
+  .u-sm-text-semi {
+    font-weight: $font-weight-semi;
   }
 }
 

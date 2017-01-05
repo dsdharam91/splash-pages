@@ -78,7 +78,7 @@ export default class Header extends React.Component {
         <li key={page.routeConfig.name}>
           <Link to={page.localeConfig.path}
           pointer={`${page.routeConfig.name}.nav_title`}
-          className='u-padding-Vxs u-padding-Hm u-block' />
+          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block' />
         </li>
       );
     });
@@ -94,7 +94,7 @@ export default class Header extends React.Component {
 
   getLinkClassName() {
     return classNames(
-      'u-padding-Vl u-block',
+      'u-sm-padding-Vxxs u-md-padding-Vl u-block u-sm-text-semi',
       {
         'u-link-invert': this.props.isInverted,
         'u-link-default': !this.props.isInverted,
@@ -114,7 +114,7 @@ export default class Header extends React.Component {
 
   getPopoverLinkClassName() {
     return classNames(
-      'nav__item-link popover-link',
+      'nav__item-link u-relative popover-link',
       {
         'popover-link--invert': this.props.isInverted,
       },
@@ -133,64 +133,64 @@ export default class Header extends React.Component {
         <ul className='u-text-xxs u-padding-Vxs'>
           <IfLinkExists to='security'
           tagName='li'
-          className='u-text-semi'>
+          className='u-md-text-semi'>
             <Link to='security'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='security.nav_title' />
           </IfLinkExists>
 
-          <li className='u-text-semi'>
+          <li className='u-md-text-semi'>
             <Href to='guides.path'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='guides.nav_title' />
           </li>
 
           <Translation locales='en-SE'
           tagName='li'
-          className='u-text-semi'>
+          className='u-md-text-semi'>
             <Href to='guides_sv.path'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='guides_sv.nav_title' />
           </Translation>
 
           <IfLinkExists to='faq_merchants'
           tagName='li'
-          className='u-text-semi'>
+          className='u-md-text-semi'>
             <Link to='faq_merchants'
             pointer='faq_merchants.link_title'
-            className='u-padding-Vxs u-padding-Hm u-block'/>
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'/>
           </IfLinkExists>
 
           <IfLinkExists to='faq_pro_dashboard'
           tagName='li'
-          className='u-text-semi'>
+          className='u-md-text-semi'>
             <Link to='faq_pro_dashboard'
             pointer='faq_pro_dashboard.link_title'
-            className='u-padding-Vxs u-padding-Hm u-block'/>
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'/>
           </IfLinkExists>
 
           <IfLinkExists to='partners'
           tagName='li'
-          className='u-text-semi'>
+          className='u-md-text-semi'>
             <Link to='partners'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='partners.nav_title' />
           </IfLinkExists>
 
-          <hr className='u-margin-Vs' />
+          <hr className='u-sm-margin-Vxxs u-md-margin-Vs' />
 
           <IfLinkExists to='about'
           tagName='li'>
             <Link to='about'
             pointer='about.nav_title'
-            className='u-padding-Vxs u-padding-Hm u-block'/>
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'/>
           </IfLinkExists>
 
           <IfLinkExists to='jobs'
           tagName='li'>
             <Link to='jobs'
             pointer='jobs.nav_title'
-            className='u-padding-Vxs u-padding-Hm u-block'/>
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'/>
           </IfLinkExists>
         </ul>
       </HeaderNavGroup>
@@ -207,43 +207,43 @@ export default class Header extends React.Component {
         </a>
       )}>
         <ul className='u-text-xxs u-padding-Vxs'>
-          <li className='u-text-semi'>
+          <li className='u-md-text-semi'>
             <Link to='about'
             tagName='li'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='about.nav_title'/>
           </li>
 
           <IfLinkExists to='jobs'
           tagName='li'
-          className='u-text-semi'>
+          className='u-md-text-semi'>
             <Link to='jobs'
             tagName='li'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='jobs.nav_title'/>
           </IfLinkExists>
 
           <Translation locales={['en-GB']}
           tagName='li'
-          className='u-text-semi'>
+          className='u-md-text-semi'>
             <Href to='blog.path'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='blog.nav_title' />
           </Translation>
 
           <IfLinkExists to='partner_with_us'
           tagName='li'
-          className='u-text-semi'>
+          className='u-md-text-semi'>
             <Link to='partner_with_us'
             tagName='li'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='partner_with_us.nav_title'/>
           </IfLinkExists>
 
-          <li className='u-text-semi'>
+          <li className='u-md-text-semi'>
             <Link to='contact_sales'
             tagName='li'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='contact_sales.nav_title'/>
           </li>
         </ul>
@@ -264,40 +264,40 @@ export default class Header extends React.Component {
         <ul className='u-text-xxs u-padding-Vxs'>
           <Translation locales={['en-GB']}
           tagName='li'
-          className='u-text-semi'>
+          className='u-md-text-semi'>
             <Href to='help.path'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='help.nav_title' />
           </Translation>
 
-          <li className='u-text-semi'>
+          <li className='u-md-text-semi'>
             <Href to='guides.path'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='guides.nav_title' />
           </li>
 
-          <li className='u-text-semi'>
+          <li className='u-md-text-semi'>
             <Href to='api_docs.path'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='api_docs.nav_title' />
           </li>
 
           <IfLinkExists to='faq_merchants'
           tagName='li'
-          className='u-text-semi'>
+          className='u-md-text-semi'>
             <Link to='faq_merchants'
             tagName='li'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='faq_merchants.link_title' />
           </IfLinkExists>
 
           <IfLinkExists to='security'
           tagName='li'
-          className='u-text-semi'>
+          className='u-md-text-semi'>
             <Link to='security'
             id="security-link" // For e2e test
             tagName='li'
-            className='u-padding-Vxs u-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
             pointer='security.nav_title'/>
           </IfLinkExists>
         </ul>
@@ -318,27 +318,27 @@ export default class Header extends React.Component {
           <Link to='small_medium_businesses'
           tagName='li'
           pointer='small_medium_businesses.nav_title'
-          className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
+          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
 
           <Link to='new_to_direct_debit'
           tagName='li'
           pointer='new_to_direct_debit.nav_title'
-          className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
+          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
 
           <Link to='existing_direct_debit_user'
           tagName='li'
           pointer='existing_direct_debit_user.nav_title'
-          className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
+          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
 
           <Link to='partners'
           tagName='li'
           pointer='partner_integrations.nav_title'
-          className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
+          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
 
           <Link to='direct_debit_api'
           tagName='li'
           pointer='direct_debit_api.nav_title'
-          className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
+          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
         </ul>
       </HeaderNavGroup>
     );
@@ -354,25 +354,25 @@ export default class Header extends React.Component {
               <Logo className={ this.getLogoClassName() }/>
             </Link>
 
-            <nav className='nav u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
+            <nav className='nav u-sm-size-full u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
               <Translation locales={this.context.availableLocales}
               exclude={['en-GB']}
               tagName='div'
-              className='nav__item u-relative'>
+              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
                 { this.renderProductPopover() }
               </Translation>
               <Translation locales='en-GB'
               tagName='div'
-              className='nav__item u-relative'>
+              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
                 { this.renderSolutionsPopover() }
               </Translation>
 
               <IfLinkExists to='pricing'
               tagName='div'
-              className='nav__item u-relative'>
+              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
                 <Link to='pricing'
                 className={ this.getLinkClassName() }>
-                  <div className='nav__item-link'>
+                  <div className='nav__item-link u-relative'>
                     <Message pointer='pricing.nav_title' />
                   </div>
                 </Link>
@@ -381,7 +381,7 @@ export default class Header extends React.Component {
               <Translation locales={this.context.availableLocales}
               exclude={['en-GB']}
               tagName='div'
-              className='nav__item u-relative'>
+              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
                 <IfLinkExists to='stories'
                 tagName='div'>
                   <Link to='stories'
@@ -391,7 +391,7 @@ export default class Header extends React.Component {
               </Translation>
               <Translation locales={['en-GB']}
               tagName='div'
-              className='nav__item u-relative'>
+              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
                 <HeaderNavGroup toggle={(
                   <a className={ this.getLinkClassName() }>
                     <div className={ this.getPopoverLinkClassName() }>
@@ -403,9 +403,9 @@ export default class Header extends React.Component {
                     <Link to='stories'
                     tagName='li'
                     pointer='stories.nav_title'
-                    className='u-padding-Vxs u-padding-Hm u-block u-text-semi'/>
+                    className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
 
-                    <hr className='u-margin-Vs'/>
+                    <hr className='u-sm-margin-Vxxs u-md-margin-Vs'/>
 
                     { this.renderIndustriesLinks() }
                   </ul>
@@ -414,46 +414,45 @@ export default class Header extends React.Component {
 
               <IfLinkExists to='developers'
               tagName='div'
-              className='nav__item u-relative'>
+              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
                 <Link to='developers'
                 className={ this.getLinkClassName() }>
-                  <div className='nav__item-link'>
+                  <div className='nav__item-link u-relative'>
                     <Message pointer='developers.nav_title' />
                   </div>
                 </Link>
               </IfLinkExists>
             </nav>
           </div>
-
-          <div className='nav__secondary-wrapper u-pull-end align-btn-small'>
-            <nav className='nav u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
+          <div className='u-sm-size-full u-pull-end align-btn-small'>
+            <nav className='nav u-sm-size-full u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
               <Translation locales={['en-GB', 'fr-FR']}
               tagName='div'
-              className='nav__item u-relative'>
+              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
                 { this.renderHelpResourcesPopover() }
               </Translation>
 
               <Translation locales={['en-GB', 'fr-FR']}
               tagName='div'
-              className='nav__item u-relative'>
+              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
                 { this.renderAboutUsPopover() }
               </Translation>
 
               <Translation locales={this.context.availableLocales}
               exclude={['en-GB', 'fr-FR']}
               tagName='div'
-              className='nav__item u-relative'>
+              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
                 { this.renderMorePopover() }
               </Translation>
             </nav>
 
             <IfLocale hasInstantSignup
             tagName='ul'
-            className='u-pull-start u-cf'>
-              <li className='u-pull-start'>
+            className='u-pull-start u-cf u-sm-size-full'>
+              <li className='u-pull-start u-sm-size-full'>
                 <Href to='signin.path'
                 className={ classNames(
-                    'nav-btn btn btn--small u-text-light u-text-xxs u-relative',
+                    'nav-btn btn btn--small u-sm-margin-Vm u-md-margin-Vl u-text-light u-text-xxs u-relative u-md-display-inline-block u-sm-display-block',
                     'u-text-transform-none u-text-no-smoothing',
                     {
                       'btn--invert-hollow': this.props.isInverted,

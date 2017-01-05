@@ -1,36 +1,14 @@
 .nav {
-  width: 100%;
   font-family: $font-family-base;
   color: $xdark-gray;
 
   @include breakpoint-medium {
-    width: auto;
     padding-left: $space-large;
-  }
-
-  &__secondary-wrapper {
-    width: 100%;
-
-    @include breakpoint-medium {
-      width: auto;
-    }
-  }
-
-  &__item {
-    width: 100%;
-    margin-right: $space-medium;
-    float: left;
-    display: block;
-
-    @include breakpoint-medium {
-      width: auto;
-    }
   }
 
   &__item-link {
     height: 17px; // matching logo height
     line-height: 17px; //matches above
-    position: relative;
 
     &:hover {
       text-decoration: underline;

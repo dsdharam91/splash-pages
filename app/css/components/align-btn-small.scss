@@ -1,3 +1,5 @@
 .align-btn-small {
-  line-height: 32px;
+  @include breakpoint-medium {
+    line-height: 32px;
+  }
 }
