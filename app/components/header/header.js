@@ -7,7 +7,6 @@ import Translation from '../translation/translation';
 import IfLinkExists from '../if-link-exists/if-link-exists';
 import IfLocale from '../if-locale/if-locale';
 import Logo from '../../icons/logo/logo';
-// import Popover from '../popover/popover';
 import classNames from 'classnames';
 import { PropTypes } from '../../helpers/prop-types/prop-types';
 import { filterRouteByCategory } from '../../router/route-helpers';
@@ -139,7 +138,7 @@ export default class Header extends React.Component {
       'nav__toggle',
       'u-block',
       {
-        'nav__toggle--active': !this.state.isActive,
+        'nav__toggle--active': this.state.isActive,
       }
     );
   }
@@ -388,9 +387,9 @@ export default class Header extends React.Component {
           <button type="button"
             className={ this.getNavToggleClassName() }
             onClick={ this.handleClick }>
-            <span className="nav__toggle-slice u-block"></span>
-            <span className="nav__toggle-slice u-block"></span>
-            <span className="nav__toggle-slice u-block"></span>
+            <span className="nav__toggle-slice nav__toggle-slice--top u-block"></span>
+            <span className="nav__toggle-slice nav__toggle-slice--middle u-block"></span>
+            <span className="nav__toggle-slice nav__toggle-slice--bottom u-block"></span>
           </button>
           <div className={ this.getNavClassName() }>
             <div className='u-pull-start u-sm-size-full'>
