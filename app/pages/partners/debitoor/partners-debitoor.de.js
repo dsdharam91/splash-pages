@@ -91,7 +91,7 @@ export default class PartnersDebitoorDe extends React.Component {
         <div className='site-container u-padding-Vxxl'>
           <div className='u-margin-Vl u-text-center'>
             <h2 className='u-text-heading u-color-dark-gray u-text-l u-text-light u-text-center u-margin-Bl'>
-              So verbindest du GoCardless mit Debitoor
+              So verbinden Sie GoCardless mit Debitoor
             </h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/OuQuOOfbN4I?rel=0&amp;showinfo=0" frameBorder="0"
               allowFullScreen></iframe>
