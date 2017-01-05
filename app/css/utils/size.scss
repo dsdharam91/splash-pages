@@ -121,10 +121,6 @@
 }
 
 @include breakpoint-medium {
-  .u-md-size-reset {
-    width: auto;
-  }
-
   .u-md-size-full {
     width: 100%;
   }
@@ -247,10 +243,6 @@
 }
 
 @include breakpoint-small {
-  .u-sm-size-reset {
-    width: auto;
-  }
-
   .u-sm-size-full {
     width: 100%;
   }

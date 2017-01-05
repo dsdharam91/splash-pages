@@ -29,6 +29,20 @@ export default class Header extends React.Component {
     availableLocales: PropTypes.array.isRequired,
   };
 
+  constructor(props) {
+    super(props);
+    this.state = { isActive: false };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    if (this.state.isActive) {
+      this.setState({ isActive: false });
+    } else {
+      this.setState({ isActive: true });
+    }
+  }
+
   renderProductPopover() {
     return (
       <HeaderNavGroup className='popover--large'
@@ -111,6 +125,25 @@ export default class Header extends React.Component {
       }
     );
   }
+
+  getNavClassName() {
+    return classNames(
+      {
+        'u-sm-hidden': !this.state.isActive,
+      }
+    );
+  }
+
+  getNavToggleClassName() {
+    return classNames(
+      'nav__toggle',
+      'u-block',
+      {
+        'nav__toggle--active': !this.state.isActive,
+      }
+    );
+  }
+
 
   getPopoverLinkClassName() {
     return classNames(
@@ -348,121 +381,129 @@ export default class Header extends React.Component {
     return (
       <div className={ this.getHeaderClassName() }>
         <div className='site-header u-relative u-cf'>
-          <div className='u-pull-start'>
-            <Link to='home'
-            className='header-logo u-relative u-block u-padding-Vl u-pull-start'>
-              <Logo className={ this.getLogoClassName() }/>
-            </Link>
+          <Link to='home'
+          className='header-logo u-relative u-block u-padding-Vl u-pull-start'>
+            <Logo className={ this.getLogoClassName() }/>
+          </Link>
+          <button type="button"
+            className={ this.getNavToggleClassName() }
+            onClick={ this.handleClick }>
+            <span className="nav__toggle-slice u-block"></span>
+            <span className="nav__toggle-slice u-block"></span>
+            <span className="nav__toggle-slice u-block"></span>
+          </button>
+          <div className={ this.getNavClassName() }>
+            <div className='u-pull-start u-sm-size-full'>
+              <nav className='nav u-sm-size-full u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
+                <Translation locales={this.context.availableLocales}
+                exclude={['en-GB']}
+                tagName='div'
+                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                  { this.renderProductPopover() }
+                </Translation>
+                <Translation locales='en-GB'
+                tagName='div'
+                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                  { this.renderSolutionsPopover() }
+                </Translation>
 
-            <nav className='nav u-sm-size-full u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
-              <Translation locales={this.context.availableLocales}
-              exclude={['en-GB']}
-              tagName='div'
-              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
-                { this.renderProductPopover() }
-              </Translation>
-              <Translation locales='en-GB'
-              tagName='div'
-              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
-                { this.renderSolutionsPopover() }
-              </Translation>
-
-              <IfLinkExists to='pricing'
-              tagName='div'
-              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
-                <Link to='pricing'
-                className={ this.getLinkClassName() }>
-                  <div className='nav__item-link u-relative'>
-                    <Message pointer='pricing.nav_title' />
-                  </div>
-                </Link>
-              </IfLinkExists>
-
-              <Translation locales={this.context.availableLocales}
-              exclude={['en-GB']}
-              tagName='div'
-              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
-                <IfLinkExists to='stories'
-                tagName='div'>
-                  <Link to='stories'
-                  pointer='stories.nav_title'
-                  className={ this.getLinkClassName() } />
-                </IfLinkExists>
-              </Translation>
-              <Translation locales={['en-GB']}
-              tagName='div'
-              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
-                <HeaderNavGroup toggle={(
-                  <a className={ this.getLinkClassName() }>
-                    <div className={ this.getPopoverLinkClassName() }>
-                      <Message pointer='header.who_uses_us' />
+                <IfLinkExists to='pricing'
+                tagName='div'
+                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                  <Link to='pricing'
+                  className={ this.getLinkClassName() }>
+                    <div className='nav__item-link u-relative'>
+                      <Message pointer='pricing.nav_title' />
                     </div>
-                  </a>
-                )}>
-                  <ul className='u-text-xxs u-padding-Vxs'>
+                  </Link>
+                </IfLinkExists>
+
+                <Translation locales={this.context.availableLocales}
+                exclude={['en-GB']}
+                tagName='div'
+                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                  <IfLinkExists to='stories'
+                  tagName='div'>
                     <Link to='stories'
-                    tagName='li'
                     pointer='stories.nav_title'
-                    className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
+                    className={ this.getLinkClassName() } />
+                  </IfLinkExists>
+                </Translation>
+                <Translation locales={['en-GB']}
+                tagName='div'
+                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                  <HeaderNavGroup toggle={(
+                    <a className={ this.getLinkClassName() }>
+                      <div className={ this.getPopoverLinkClassName() }>
+                        <Message pointer='header.who_uses_us' />
+                      </div>
+                    </a>
+                  )}>
+                    <ul className='u-text-xxs u-padding-Vxs'>
+                      <Link to='stories'
+                      tagName='li'
+                      pointer='stories.nav_title'
+                      className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
 
-                    <hr className='u-sm-margin-Vxxs u-md-margin-Vs'/>
+                      <hr className='u-sm-margin-Vxxs u-md-margin-Vs'/>
 
-                    { this.renderIndustriesLinks() }
-                  </ul>
-                </HeaderNavGroup>
-              </Translation>
+                      { this.renderIndustriesLinks() }
+                    </ul>
+                  </HeaderNavGroup>
+                </Translation>
 
-              <IfLinkExists to='developers'
-              tagName='div'
-              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
-                <Link to='developers'
-                className={ this.getLinkClassName() }>
-                  <div className='nav__item-link u-relative'>
-                    <Message pointer='developers.nav_title' />
-                  </div>
-                </Link>
-              </IfLinkExists>
-            </nav>
-          </div>
-          <div className='u-sm-size-full u-pull-end align-btn-small'>
-            <nav className='nav u-sm-size-full u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
-              <Translation locales={['en-GB', 'fr-FR']}
-              tagName='div'
-              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
-                { this.renderHelpResourcesPopover() }
-              </Translation>
+                <IfLinkExists to='developers'
+                tagName='div'
+                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                  <Link to='developers'
+                  className={ this.getLinkClassName() }>
+                    <div className='nav__item-link u-relative'>
+                      <Message pointer='developers.nav_title' />
+                    </div>
+                  </Link>
+                </IfLinkExists>
+              </nav>
+            </div>
+            <div className='u-sm-size-full u-pull-end align-btn-small'>
+              <nav className='nav u-sm-size-full u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
+                <Translation locales={['en-GB', 'fr-FR']}
+                tagName='div'
+                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                  { this.renderHelpResourcesPopover() }
+                </Translation>
 
-              <Translation locales={['en-GB', 'fr-FR']}
-              tagName='div'
-              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
-                { this.renderAboutUsPopover() }
-              </Translation>
+                <Translation locales={['en-GB', 'fr-FR']}
+                tagName='div'
+                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                  { this.renderAboutUsPopover() }
+                </Translation>
 
-              <Translation locales={this.context.availableLocales}
-              exclude={['en-GB', 'fr-FR']}
-              tagName='div'
-              className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
-                { this.renderMorePopover() }
-              </Translation>
-            </nav>
+                <Translation locales={this.context.availableLocales}
+                exclude={['en-GB', 'fr-FR']}
+                tagName='div'
+                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                  { this.renderMorePopover() }
+                </Translation>
+              </nav>
 
-            <IfLocale hasInstantSignup
-            tagName='ul'
-            className='u-pull-start u-cf u-sm-size-full'>
-              <li className='u-pull-start u-sm-size-full'>
-                <Href to='signin.path'
-                className={ classNames(
-                    'nav-btn btn btn--small u-sm-margin-Vm u-md-margin-Vl u-text-light u-text-xxs u-relative u-md-display-inline-block u-sm-display-block',
-                    'u-text-transform-none u-text-no-smoothing',
-                    {
-                      'btn--invert-hollow': this.props.isInverted,
-                      'btn--hollow': !this.props.isInverted,
-                    }
-                  )
-                }
-                pointer='header.login_btn'/>
-              </li>
-            </IfLocale>
+              <IfLocale hasInstantSignup
+              tagName='ul'
+              className='u-pull-start u-cf u-sm-size-full'>
+                <li className='u-pull-start u-sm-size-full'>
+                  <Href to='signin.path'
+                  className={ classNames(
+                      'nav-btn btn btn--small u-sm-margin-Vm u-text-light u-text-xxs u-relative u-md-display-inline-block u-sm-display-block',
+                      'u-text-transform-none u-text-no-smoothing',
+                      {
+                        'btn--invert-hollow': this.props.isInverted,
+                        'btn--hollow': !this.props.isInverted,
+                      }
+                    )
+                  }
+                  pointer='header.login_btn'/>
+                </li>
+              </IfLocale>
+            </div>
           </div>
         </div>
       </div>

@@ -6,6 +6,28 @@
     padding-left: $space-large;
   }
 
+  &__toggle {
+    @include button-reset;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 48px;
+    height: 48px;
+    padding: 17px 10px;
+    cursor: pointer;
+  }
+
+  &__toggle-slice {
+    width: 28px;
+    height: 2px;
+    background-color: $primary-color;
+    margin-bottom: 4px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   &__item-link {
     height: 17px; // matching logo height
     line-height: 17px; //matches above
