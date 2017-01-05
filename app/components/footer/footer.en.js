@@ -47,7 +47,7 @@ class FooterEn extends React.Component {
     const { routeName, currentLocale, config, availableLocales, availableCountryNames } = this.context;
     const availableLocalePages = buildAvailableLocalePages(currentLocale, routeName, availableLocales, availableCountryNames);
     const region = localeToRegion(currentLocale);
-    const hiddenLocales = ['en-AU', 'en-US', 'pt-BR', 'en-NZ'];
+    const hiddenLocales = ['en-AU', 'en-CA', 'en-US', 'pt-BR', 'en-NZ'];
 
     return (
       <div className='page-footer'>
