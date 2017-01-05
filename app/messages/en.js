@@ -589,10 +589,6 @@ export default {
     title: 'Data Engineer',
     description: '',
   },
-  jobs_lead_data_engineer: {
-    title: 'Lead Data Engineer',
-    description: '',
-  },
   jobs_developer_support: {
     title: 'Developer Support',
     description: '',
