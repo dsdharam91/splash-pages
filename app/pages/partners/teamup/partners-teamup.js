@@ -89,6 +89,22 @@ export default class PartnersTeamup extends React.Component {
           </div>
         </div>
 
+        <div className='site-container'>
+          <div className='quote page-hero--icon-background u-text-center'>
+            <p className='u-text-heading u-color-invert u-text-light u-text-l u-margin-Bm'>
+              "Switching to GoCardless cuts out process,<br />
+              frees up time, and avoids the need to employ<br />
+              a dedicated member of staff."
+            </p>
+            <p className='u-color-invert u-text-heading u-text-m u-text-semi'>
+              Max Henderson
+            </p>
+            <p className='u-color-invert u-text-heading u-text-xs'>
+              Co-Founder, Hotpod Yoga
+            </p>
+          </div>
+        </div>
+
         <hr className='section-divider' />
         <div className='site-container u-text-center u-padding-Vxxl'>
           <div className='grid u-padding-Txl u-padding-Bm'>
