@@ -15,12 +15,12 @@ export default class Accordion extends React.Component {
     this.state = { isActive: false };
 
     this.handleClick = this.handleClick.bind(this);
-    // this.handleDocumentClick = this.handleDocumentClick.bind(this);
+    this.handleDocumentClick = this.handleDocumentClick.bind(this);
   }
 
-  // componentWillUnmount() {
-  //   window.removeEventListener('click', this.handleDocumentClick);
-  // }
+  componentWillUnmount() {
+    window.removeEventListener('click', this.handleDocumentClick);
+  }
 
   handleClick(event) {
     event.preventDefault();
@@ -31,32 +31,32 @@ export default class Accordion extends React.Component {
     }
   }
 
-  // handleDocumentClick(event) {
-  //   const node = this.findContentNode();
-  //   if (node && !node.contains(event.target)) {
-  //     this.hide();
-  //   }
-  // }
+  handleDocumentClick(event) {
+    const node = this.findContentNode();
+    if (node && !node.contains(event.target)) {
+      this.hide();
+    }
+  }
 
   show() {
     this.setState({ isActive: true });
-    // window.addEventListener('click', this.handleDocumentClick);
+
     // Wait until the element is focusable and prevent the opening click
     // closing when it bubbles to the window
-    // setTimeout(() => {
-    //   window.addEventListener('click', this.handleDocumentClick);
-    //   this.findContentNode().focus();
-    // }, 0);
+    setTimeout(() => {
+      window.addEventListener('click', this.handleDocumentClick);
+      this.findContentNode().focus();
+    }, 0);
   }
 
   hide() {
     this.setState({ isActive: false });
-    // window.removeEventListener('click', this.handleDocumentClick);
+    window.removeEventListener('click', this.handleDocumentClick);
   }
 
-  // findContentNode() {
-  //   return React.findDOMNode(this.refs.popoverContent);
-  // }
+  findContentNode() {
+    return React.findDOMNode(this.refs.accordionContent);
+  }
 
   render() {
     const classes = {
@@ -71,7 +71,8 @@ export default class Accordion extends React.Component {
         </span>
         <div>
           <div {...this.props}
-          className={classNames(this.props.className, classes)}>
+          className={classNames(this.props.className, classes)}
+          ref='accordionContent'>
             {this.props.children}
           </div>
         </div>
