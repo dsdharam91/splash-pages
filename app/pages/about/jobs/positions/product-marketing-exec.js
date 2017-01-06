@@ -23,30 +23,29 @@ export default class ProductMarketingExecuitve extends React.Component {
           and positioning for each audience both internally and externally.
         </p>
         <p className='para'>
-          We’re looking for an ambitious, smart and versatile person to join our
-          Product Marketing team. You’ll be working with our marketing team and
-          across the business to ensure we optimise our marketing for each of our
-          customer personas.
+          We're looking for an ambitious, smart and versatile person to ensure
+          that we optimise our marketing for each of our customer personas. You’ll
+          be working with our marketing team and across the business to ensure we
+          optimise our marketing for each of our customer personas.
         </p>
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>The role</h4>
         <p className='para'>
-          As a member of our Product Marketing team you’ll be working closely
-          with our Product, Sales and Marketing teams.  You’ll be part of the team
-          responsible for developing our product positioning and messaging to
+          As a member of our Product Marketing team, you'll be working not only with Marketing, but with Product
+          and Sales as well. You’ll be part of the team responsible for developing our product positioning and messaging to
           differentiate GoCardless from direct competitors and other payment methods
           in each market. You’ll need to be able to adapt these to resonate with
           the specific needs and roles of our main audiences.
         </p>
         <p className='para'>
-          You’ll be an expert on our existing and potential buyers, understanding
+          You’ll become an expert on our existing and potential buyers, understanding
           their current payment methods, pain points, buying cycle, the key
           influencers and decision makers, and their criteria. Most importantly
-          you’ll be the expert on how to solve these problems and why GoCardless
+          you’ll become the go-to person on how to solve these problems and why GoCardless
           does this better than the competition.
         </p>
         <p className='para'>
-          You’ll use this your knowledge to build out tools and collateral to
-          support our sales team in their selling process – from creating case
+          You’ll use knowledge to build out tools and collateral to
+          support our sales team in their selling process &ndash; from creating case
           studies, landing pages and short feature videos to running webinars and
           conducting competitive research. You’ll also share the insight you gain
           from the market, data analysis and product performance with our Product
@@ -60,14 +59,14 @@ export default class ProductMarketingExecuitve extends React.Component {
         <h4 className='u-text-s u-margin-Bxs u-margin-Tm'>Who we're looking for</h4>
         <p className='para'>
           We’re looking for a product marketing rock star who is creative, driven
-          and excited about working in a fast growing FinTech startup!  With 1-2
-          years of experience in marketing or product management you’re looking
-          for your next challenge in a fast growing environment.
+          and excited about working in a fast growing FinTech startup!  You'll
+          already have some experience in marketing or product management, and
+          you're looking for your next challenge.
         </p>
         <p className='para'> You should apply if:</p>
         <ul className='list u-margin-Tm'>
           <li>
-            You have experience in marketing or product management, ideally in a B2B environment.
+            You have a passion for gaining insights and translating them into powerful marketing programs.
           </li>
           <li>
             You have excellent written and communication skills, with the ability
@@ -77,10 +76,7 @@ export default class ProductMarketingExecuitve extends React.Component {
             You are self-motivated, driven, and engaging.
           </li>
           <li>
-            Team player - able to work across multiple teams and drive consensus.
-          </li>
-          <li>
-            You have a passion for gaining insights and translating them into powerful marketing programs.
+            You are a team player &ndash; you are able to work across multiple teams and drive consensus.
           </li>
           <li>
             You are curious and a rigorous thinker, always probing beyond a simple answer and assuming nothing.
@@ -89,7 +85,7 @@ export default class ProductMarketingExecuitve extends React.Component {
         <p className='para'>
             This role would ideally suit someone with B2B experience in a technology
             company. However our team come from a variety of backgrounds and we
-            welcome diversity – if you’re unsure, please apply.
+            welcome diversity &ndash; if you’re unsure, please apply.
         </p>
         <a href='http://boards.greenhouse.io/gocardless/jobs/553364' className='btn u-margin-Vs'>
           Apply now
