@@ -16,7 +16,8 @@
     padding: 17px 10px;
     cursor: pointer;
 
-    &:hover:not(.nav__toggle--active) {
+    &:hover:not(.nav__toggle--active),
+    &:focus:not(.nav__toggle--active), {
       .nav__toggle-slice--top {
         transform: translateY(-2px);
       }

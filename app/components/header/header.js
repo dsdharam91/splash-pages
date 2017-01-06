@@ -107,7 +107,7 @@ export default class Header extends React.Component {
 
   getLinkClassName() {
     return classNames(
-      'u-sm-padding-Vxxs u-md-padding-Vl u-block u-sm-text-semi',
+      'u-sm-padding-Vxs u-md-padding-Vl u-block u-sm-text-semi',
       {
         'u-link-invert': this.props.isInverted,
         'u-link-default': !this.props.isInverted,
@@ -137,6 +137,7 @@ export default class Header extends React.Component {
     return classNames(
       'nav__toggle',
       'u-block',
+      'u-md-hidden',
       {
         'nav__toggle--active': this.state.isActive,
       }
