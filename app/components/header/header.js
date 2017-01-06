@@ -166,64 +166,64 @@ export default class Header extends React.Component {
         <ul className='u-text-xxs u-padding-Vxs'>
           <IfLinkExists to='security'
           tagName='li'
-          className='u-md-text-semi'>
+          className='u-lg-text-semi'>
             <Link to='security'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='security.nav_title' />
           </IfLinkExists>
 
-          <li className='u-md-text-semi'>
+          <li className='u-lg-text-semi'>
             <Href to='guides.path'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='guides.nav_title' />
           </li>
 
           <Translation locales='en-SE'
           tagName='li'
-          className='u-md-text-semi'>
+          className='u-lg-text-semi'>
             <Href to='guides_sv.path'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='guides_sv.nav_title' />
           </Translation>
 
           <IfLinkExists to='faq_merchants'
           tagName='li'
-          className='u-md-text-semi'>
+          className='u-lg-text-semi'>
             <Link to='faq_merchants'
             pointer='faq_merchants.link_title'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'/>
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'/>
           </IfLinkExists>
 
           <IfLinkExists to='faq_pro_dashboard'
           tagName='li'
-          className='u-md-text-semi'>
+          className='u-lg-text-semi'>
             <Link to='faq_pro_dashboard'
             pointer='faq_pro_dashboard.link_title'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'/>
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'/>
           </IfLinkExists>
 
           <IfLinkExists to='partners'
           tagName='li'
-          className='u-md-text-semi'>
+          className='u-lg-text-semi'>
             <Link to='partners'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='partners.nav_title' />
           </IfLinkExists>
 
-          <hr className='u-sm-margin-Vxxs u-md-margin-Vs' />
+          <hr className='u-sm-margin-Vxxs u-margin-Vs' />
 
           <IfLinkExists to='about'
           tagName='li'>
             <Link to='about'
             pointer='about.nav_title'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'/>
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'/>
           </IfLinkExists>
 
           <IfLinkExists to='jobs'
           tagName='li'>
             <Link to='jobs'
             pointer='jobs.nav_title'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'/>
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'/>
           </IfLinkExists>
         </ul>
       </HeaderNavGroup>
@@ -240,43 +240,43 @@ export default class Header extends React.Component {
         </a>
       )}>
         <ul className='u-text-xxs u-padding-Vxs'>
-          <li className='u-md-text-semi'>
+          <li className='u-lg-text-semi'>
             <Link to='about'
             tagName='li'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='about.nav_title'/>
           </li>
 
           <IfLinkExists to='jobs'
           tagName='li'
-          className='u-md-text-semi'>
+          className='u-lg-text-semi'>
             <Link to='jobs'
             tagName='li'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='jobs.nav_title'/>
           </IfLinkExists>
 
           <Translation locales={['en-GB']}
           tagName='li'
-          className='u-md-text-semi'>
+          className='u-lg-text-semi'>
             <Href to='blog.path'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='blog.nav_title' />
           </Translation>
 
           <IfLinkExists to='partner_with_us'
           tagName='li'
-          className='u-md-text-semi'>
+          className='u-lg-text-semi'>
             <Link to='partner_with_us'
             tagName='li'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='partner_with_us.nav_title'/>
           </IfLinkExists>
 
-          <li className='u-md-text-semi'>
+          <li className='u-lg-text-semi'>
             <Link to='contact_sales'
             tagName='li'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='contact_sales.nav_title'/>
           </li>
         </ul>
@@ -297,40 +297,40 @@ export default class Header extends React.Component {
         <ul className='u-text-xxs u-padding-Vxs'>
           <Translation locales={['en-GB']}
           tagName='li'
-          className='u-md-text-semi'>
+          className='u-lg-text-semi'>
             <Href to='help.path'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='help.nav_title' />
           </Translation>
 
-          <li className='u-md-text-semi'>
+          <li className='u-lg-text-semi'>
             <Href to='guides.path'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='guides.nav_title' />
           </li>
 
-          <li className='u-md-text-semi'>
+          <li className='u-lg-text-semi'>
             <Href to='api_docs.path'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='api_docs.nav_title' />
           </li>
 
           <IfLinkExists to='faq_merchants'
           tagName='li'
-          className='u-md-text-semi'>
+          className='u-lg-text-semi'>
             <Link to='faq_merchants'
             tagName='li'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='faq_merchants.link_title' />
           </IfLinkExists>
 
           <IfLinkExists to='security'
           tagName='li'
-          className='u-md-text-semi'>
+          className='u-lg-text-semi'>
             <Link to='security'
             id="security-link" // For e2e test
             tagName='li'
-            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block'
+            className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block'
             pointer='security.nav_title'/>
           </IfLinkExists>
         </ul>
@@ -351,27 +351,27 @@ export default class Header extends React.Component {
           <Link to='small_medium_businesses'
           tagName='li'
           pointer='small_medium_businesses.nav_title'
-          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
+          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block u-lg-text-semi'/>
 
           <Link to='new_to_direct_debit'
           tagName='li'
           pointer='new_to_direct_debit.nav_title'
-          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
+          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block u-lg-text-semi'/>
 
           <Link to='existing_direct_debit_user'
           tagName='li'
           pointer='existing_direct_debit_user.nav_title'
-          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
+          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block u-lg-text-semi'/>
 
           <Link to='partners'
           tagName='li'
           pointer='partner_integrations.nav_title'
-          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
+          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block u-lg-text-semi'/>
 
           <Link to='direct_debit_api'
           tagName='li'
           pointer='direct_debit_api.nav_title'
-          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
+          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block u-lg-text-semi'/>
         </ul>
       </HeaderNavGroup>
     );
@@ -443,9 +443,9 @@ export default class Header extends React.Component {
                       <Link to='stories'
                       tagName='li'
                       pointer='stories.nav_title'
-                      className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block u-md-text-semi'/>
+                      className='u-sm-padding-Hxs u-sm-padding-Vxxs u-padding-Vxs u-padding-Hm u-block u-lg-text-semi'/>
 
-                      <hr className='u-sm-margin-Vxxs u-md-margin-Vs'/>
+                      <hr className='u-sm-margin-Vxxs u-margin-Vs'/>
 
                       { this.renderIndustriesLinks() }
                     </ul>
