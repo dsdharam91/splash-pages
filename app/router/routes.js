@@ -57,6 +57,7 @@ import MarketAnalystInternship from '../pages/about/jobs/positions/market-analys
 import HeadofEnterpriseSales from '../pages/about/jobs/positions/head-enterprise-sales.js';
 import PartnershipMarketingManager from '../pages/about/jobs/positions/partnership-marketing-manager.js';
 import MarketingManagerAccountants from '../pages/about/jobs/positions/marketing-manager-accountants.js';
+import ProductMarketingExecuitve from '../pages/about/jobs/positions/product-marketing-exec.js';
 import SolutionEngineer from '../pages/about/jobs/positions/solution-engineer.js';
 import DeveloperSupport from '../pages/about/jobs/positions/developer-support.js';
 
@@ -661,6 +662,12 @@ export const config = Immutable.fromJS([
   [MarketingManagerAccountants, { name: 'jobs_marketing_manager_accountants', category: 'jobs.marketing' }, {
       en: {
         path: '/about/jobs/marketing-manager-accountants',
+      },
+    },
+  ],
+  [ProductMarketingExecuitve, { name: 'jobs_product_marketing_executive', category: 'jobs.marketing' }, {
+      en: {
+        path: '/about/jobs/product-marketing-exectuive',
       },
     },
   ],
