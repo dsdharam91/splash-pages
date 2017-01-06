@@ -66,11 +66,7 @@ class App extends React.Component {
 
   componentDidMount() {
     /*eslint-disable camelcase*/
-    const { r: referral_code, gclid: google_ppc_click } = this.context.router.getCurrentQuery();
-
-    if (referral_code) {
-      cookies.set('referral_code', referral_code);
-    }
+    const { gclid: google_ppc_click } = this.context.router.getCurrentQuery();
 
     if (google_ppc_click) {
       cookies.set('google_ppc_click', google_ppc_click);
