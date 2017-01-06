@@ -65,7 +65,7 @@ export default class Accordion extends React.Component {
     };
 
     return (
-      <div className='u-md-hidden'>
+      <div className='u-lg-hidden'>
         <span onClick={this.handleClick}>
           {this.props.toggle}
         </span>

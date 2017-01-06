@@ -621,6 +621,44 @@
 //////////////
 // All margin
 
+@include breakpoint-large {
+  .u-lg-margin-Axxl {
+    margin: $space-xxlarge;
+  }
+
+  .u-lg-margin-Axl {
+    margin: $space-xlarge;
+  }
+
+  .u-lg-margin-Al {
+    margin: $space-large;
+  }
+
+  .u-lg-margin-Axm {
+    margin: $space-xmedium;
+  }
+
+  .u-lg-margin-Am {
+    margin: $space-medium;
+  }
+
+  .u-lg-margin-As {
+    margin: $space-small;
+  }
+
+  .u-lg-margin-Axs {
+    margin: $space-xsmall;
+  }
+
+  .u-lg-margin-Axxs {
+    margin: $space-xxsmall;
+  }
+
+  .u-lg-margin-An {
+    margin: 0;
+  }
+}
+
 @include breakpoint-medium {
   .u-md-margin-Axxl {
     margin: $space-xxlarge;
@@ -698,6 +736,44 @@
 }
 
 // All padding
+
+@include breakpoint-large {
+  .u-lg-padding-Axxl {
+    padding: $space-xxlarge;
+  }
+
+  .u-lg-padding-Axl {
+    padding: $space-xlarge;
+  }
+
+  .u-lg-padding-Al {
+    padding: $space-large;
+  }
+
+  .u-lg-padding-Axm {
+    padding: $space-xmedium;
+  }
+
+  .u-lg-padding-Am {
+    padding: $space-medium;
+  }
+
+  .u-lg-padding-As {
+    padding: $space-small;
+  }
+
+  .u-lg-padding-Axs {
+    padding: $space-xsmall;
+  }
+
+  .u-lg-padding-Axxs {
+    padding: $space-xxsmall;
+  }
+
+  .u-lg-padding-An {
+    padding: 0;
+  }
+}
 
 @include breakpoint-medium {
   .u-md-padding-Axxl {
@@ -777,6 +853,53 @@
 
 /////////////////
 // Vertical margin
+
+@include breakpoint-large {
+  .u-lg-margin-Vxxl {
+    margin-top: $space-xxlarge;
+    margin-bottom: $space-xxlarge;
+  }
+
+  .u-lg-margin-Vxl {
+    margin-top: $space-xlarge;
+    margin-bottom: $space-xlarge;
+  }
+
+  .u-lg-margin-Vl {
+    margin-top: $space-large;
+    margin-bottom: $space-large;
+  }
+
+  .u-lg-margin-Vxm {
+    margin-top: $space-xmedium;
+    margin-bottom: $space-xmedium;
+  }
+
+  .u-lg-margin-Vm {
+    margin-top: $space-medium;
+    margin-bottom: $space-medium;
+  }
+
+  .u-lg-margin-Vs {
+    margin-top: $space-small;
+    margin-bottom: $space-small;
+  }
+
+  .u-lg-margin-Vxs {
+    margin-top: $space-xsmall;
+    margin-bottom: $space-xsmall;
+  }
+
+  .u-lg-margin-Vxxs {
+    margin-top: $space-xxsmall;
+    margin-bottom: $space-xxsmall;
+  }
+
+  .u-lg-margin-Vn {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
 
 @include breakpoint-medium {
   .u-md-margin-Vxxl {
@@ -873,6 +996,53 @@
 }
 
 // Vertical padding
+@include breakpoint-large {
+  .u-lg-padding-Vxxl {
+    padding-top: $space-xxlarge;
+    padding-bottom: $space-xxlarge;
+  }
+
+  .u-lg-padding-Vxl {
+    padding-top: $space-xlarge;
+    padding-bottom: $space-xlarge;
+  }
+
+  .u-lg-padding-Vl {
+    padding-top: $space-large;
+    padding-bottom: $space-large;
+  }
+
+  .u-lg-padding-Vxm {
+    padding-top: $space-xmedium;
+    padding-bottom: $space-xmedium;
+  }
+
+  .u-lg-padding-Vm {
+    padding-top: $space-medium;
+    padding-bottom: $space-medium;
+  }
+
+  .u-lg-padding-Vs {
+    padding-top: $space-small;
+    padding-bottom: $space-small;
+  }
+
+  .u-lg-padding-Vxs {
+    padding-top: $space-xsmall;
+    padding-bottom: $space-xsmall;
+  }
+
+  .u-lg-padding-Vxxs {
+    padding-top: $space-xxsmall;
+    padding-bottom: $space-xxsmall;
+  }
+
+  .u-lg-padding-Vn {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
 
 @include breakpoint-medium {
   .u-md-padding-Vxxl {
@@ -971,6 +1141,53 @@
 //////////////////
 // Horizontal margin
 
+@include breakpoint-large {
+  .u-lg-margin-Hxxl {
+    margin-left: $space-xxlarge;
+    margin-right: $space-xxlarge;
+  }
+
+  .u-lg-margin-Hxl {
+    margin-left: $space-xlarge;
+    margin-right: $space-xlarge;
+  }
+
+  .u-lg-margin-Hl {
+    margin-left: $space-large;
+    margin-right: $space-large;
+  }
+
+  .u-lg-margin-Hxm {
+    margin-left: $space-xmedium;
+    margin-right: $space-xmedium;
+  }
+
+  .u-lg-margin-Hm {
+    margin-left: $space-medium;
+    margin-right: $space-medium;
+  }
+
+  .u-lg-margin-Hs {
+    margin-left: $space-small;
+    margin-right: $space-small;
+  }
+
+  .u-lg-margin-Hxs {
+    margin-left: $space-xsmall;
+    margin-right: $space-xsmall;
+  }
+
+  .u-lg-margin-Hxxs {
+    margin-left: $space-xxsmall;
+    margin-right: $space-xxsmall;
+  }
+
+  .u-lg-margin-Hn {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 @include breakpoint-medium {
   .u-md-margin-Hxxl {
     margin-left: $space-xxlarge;
@@ -1062,6 +1279,53 @@
   .u-sm-margin-Hn {
     margin-left: 0;
     margin-right: 0;
+  }
+}
+
+@include breakpoint-large {
+  .u-lg-padding-Hxxl {
+    padding-left: $space-xxlarge;
+    padding-right: $space-xxlarge;
+  }
+
+  .u-lg-padding-Hxl {
+    padding-left: $space-xlarge;
+    padding-right: $space-xlarge;
+  }
+
+  .u-lg-padding-Hl {
+    padding-left: $space-large;
+    padding-right: $space-large;
+  }
+
+  .u-lg-padding-Hxm {
+    padding-left: $space-xmedium;
+    padding-right: $space-xmedium;
+  }
+
+  .u-lg-padding-Hm {
+    padding-left: $space-medium;
+    padding-right: $space-medium;
+  }
+
+  .u-lg-padding-Hs {
+    padding-left: $space-small;
+    padding-right: $space-small;
+  }
+
+  .u-lg-padding-Hxs {
+    padding-left: $space-xsmall;
+    padding-right: $space-xsmall;
+  }
+
+  .u-lg-padding-Hxxs {
+    padding-left: $space-xxsmall;
+    padding-right: $space-xxsmall;
+  }
+
+  .u-lg-padding-Hn {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -1162,6 +1426,44 @@
 /////////////
 // Top margin
 
+@include breakpoint-large {
+  .u-lg-margin-Txxl {
+    margin-top: $space-xxlarge;
+  }
+
+  .u-lg-margin-Txl {
+    margin-top: $space-xlarge;
+  }
+
+  .u-lg-margin-Tl {
+    margin-top: $space-large;
+  }
+
+  .u-lg-margin-Txm {
+    margin-top: $space-xmedium;
+  }
+
+  .u-lg-margin-Tm {
+    margin-top: $space-medium;
+  }
+
+  .u-lg-margin-Ts {
+    margin-top: $space-small;
+  }
+
+  .u-lg-margin-Txs {
+    margin-top: $space-xsmall;
+  }
+
+  .u-lg-margin-Txxs {
+    margin-top: $space-xxsmall;
+  }
+
+  .u-lg-margin-Tn {
+    margin-top: 0;
+  }
+}
+
 @include breakpoint-medium {
   .u-md-margin-Txxl {
     margin-top: $space-xxlarge;
@@ -1239,6 +1541,44 @@
 }
 
 // Top padding
+
+@include breakpoint-large {
+  .u-lg-padding-Txxl {
+    padding-top: $space-xxlarge;
+  }
+
+  .u-lg-padding-Txl {
+    padding-top: $space-xlarge;
+  }
+
+  .u-lg-padding-Tl {
+    padding-top: $space-large;
+  }
+
+  .u-lg-padding-Txm {
+    padding-top: $space-xmedium;
+  }
+
+  .u-lg-padding-Tm {
+    padding-top: $space-medium;
+  }
+
+  .u-lg-padding-Ts {
+    padding-top: $space-small;
+  }
+
+  .u-lg-padding-Txs {
+    padding-top: $space-xsmall;
+  }
+
+  .u-lg-padding-Txxs {
+    padding-top: $space-xxsmall;
+  }
+
+  .u-lg-padding-Tn {
+    padding-top: 0;
+  }
+}
 
 @include breakpoint-medium {
   .u-md-padding-Txxl {
@@ -1319,6 +1659,44 @@
 ////////////////
 // Bottom margin
 
+@include breakpoint-large {
+  .u-lg-margin-Bxxl {
+    margin-bottom: $space-xxlarge;
+  }
+
+  .u-lg-margin-Bxl {
+    margin-bottom: $space-xlarge;
+  }
+
+  .u-lg-margin-Bl {
+    margin-bottom: $space-large;
+  }
+
+  .u-lg-margin-Bxm {
+    margin-bottom: $space-xmedium;
+  }
+
+  .u-lg-margin-Bm {
+    margin-bottom: $space-medium;
+  }
+
+  .u-lg-margin-Bs {
+    margin-bottom: $space-small;
+  }
+
+  .u-lg-margin-Bxs {
+    margin-bottom: $space-xsmall;
+  }
+
+  .u-lg-margin-Bxxs {
+    margin-bottom: $space-xxsmall;
+  }
+
+  .u-lg-margin-Bn {
+    margin-bottom: 0;
+  }
+}
+
 @include breakpoint-medium {
   .u-md-margin-Bxxl {
     margin-bottom: $space-xxlarge;
@@ -1396,6 +1774,44 @@
 }
 
 // Bottom padding
+
+@include breakpoint-large {
+  .u-lg-padding-Bxxl {
+    padding-bottom: $space-xxlarge;
+  }
+
+  .u-lg-padding-Bxl {
+    padding-bottom: $space-xlarge;
+  }
+
+  .u-lg-padding-Bl {
+    padding-bottom: $space-large;
+  }
+
+  .u-lg-padding-Bxm {
+    padding-bottom: $space-xmedium;
+  }
+
+  .u-lg-padding-Bm {
+    padding-bottom: $space-medium;
+  }
+
+  .u-lg-padding-Bs {
+    padding-bottom: $space-small;
+  }
+
+  .u-lg-padding-Bxs {
+    padding-bottom: $space-xsmall;
+  }
+
+  .u-lg-padding-Bxxs {
+    padding-bottom: $space-xxsmall;
+  }
+
+  .u-lg-padding-Bn {
+    padding-bottom: 0;
+  }
+}
 
 @include breakpoint-medium {
   .u-md-padding-Bxxl {
@@ -1476,6 +1892,44 @@
 ///////////////
 // Right margin
 
+@include breakpoint-large {
+  .u-lg-margin-Rxxl {
+    margin-right: $space-xxlarge;
+  }
+
+  .u-lg-margin-Rxl {
+    margin-right: $space-xlarge;
+  }
+
+  .u-lg-margin-Rl {
+    margin-right: $space-large;
+  }
+
+  .u-lg-margin-Rxm {
+    margin-right: $space-xmedium;
+  }
+
+  .u-lg-margin-Rm {
+    margin-right: $space-medium;
+  }
+
+  .u-lg-margin-Rs {
+    margin-right: $space-small;
+  }
+
+  .u-lg-margin-Rxs {
+    margin-right: $space-xsmall;
+  }
+
+  .u-lg-margin-Rxxs {
+    margin-right: $space-xxsmall;
+  }
+
+  .u-lg-margin-Rn {
+    margin-right: 0;
+  }
+}
+
 @include breakpoint-medium {
   .u-md-margin-Rxxl {
     margin-right: $space-xxlarge;
@@ -1553,6 +2007,44 @@
 }
 
 // Right padding
+
+@include breakpoint-large {
+  .u-lg-padding-Rxxl {
+    padding-right: $space-xxlarge;
+  }
+
+  .u-lg-padding-Rxl {
+    padding-right: $space-xlarge;
+  }
+
+  .u-lg-padding-Rl {
+    padding-right: $space-large;
+  }
+
+  .u-lg-padding-Rxm {
+    padding-right: $space-xmedium;
+  }
+
+  .u-lg-padding-Rm {
+    padding-right: $space-medium;
+  }
+
+  .u-lg-padding-Rs {
+    padding-right: $space-small;
+  }
+
+  .u-lg-padding-Rxs {
+    padding-right: $space-xsmall;
+  }
+
+  .u-lg-padding-Rxxs {
+    padding-right: $space-xxsmall;
+  }
+
+  .u-lg-padding-Rn {
+    padding-right: 0;
+  }
+}
 
 @include breakpoint-medium {
   .u-md-padding-Rxxl {
@@ -1633,6 +2125,44 @@
 //////////////
 // Left margin
 
+@include breakpoint-large {
+  .u-lg-margin-Lxxl {
+    margin-left: $space-xxlarge;
+  }
+
+  .u-lg-margin-Lxl {
+    margin-left: $space-xlarge;
+  }
+
+  .u-lg-margin-Ll {
+    margin-left: $space-large;
+  }
+
+  .u-lg-margin-Lxm {
+    margin-left: $space-xmedium;
+  }
+
+  .u-lg-margin-Lm {
+    margin-left: $space-medium;
+  }
+
+  .u-lg-margin-Ls {
+    margin-left: $space-small;
+  }
+
+  .u-lg-margin-Lxs {
+    margin-left: $space-xsmall;
+  }
+
+  .u-lg-margin-Lxxs {
+    margin-left: $space-xxsmall;
+  }
+
+  .u-lg-margin-Ln {
+    margin-left: 0;
+  }
+}
+
 @include breakpoint-medium {
   .u-md-margin-Lxxl {
     margin-left: $space-xxlarge;
@@ -1710,6 +2240,44 @@
 }
 
 // Left padding
+
+@include breakpoint-large {
+  .u-lg-padding-Lxxl {
+    padding-left: $space-xxlarge;
+  }
+
+  .u-lg-padding-Lxl {
+    padding-left: $space-xlarge;
+  }
+
+  .u-lg-padding-Ll {
+    padding-left: $space-large;
+  }
+
+  .u-lg-padding-Lxm {
+    padding-left: $space-xmedium;
+  }
+
+  .u-lg-padding-Lm {
+    padding-left: $space-medium;
+  }
+
+  .u-lg-padding-Ls {
+    padding-left: $space-small;
+  }
+
+  .u-lg-padding-Lxs {
+    padding-left: $space-xsmall;
+  }
+
+  .u-lg-padding-Lxxs {
+    padding-left: $space-xxsmall;
+  }
+
+  .u-lg-padding-Ln {
+    padding-left: 0;
+  }
+}
 
 @include breakpoint-medium {
   .u-md-padding-Lxxl {

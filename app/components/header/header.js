@@ -91,7 +91,7 @@ export default class Header extends React.Component {
         <li key={page.routeConfig.name}>
           <Link to={page.localeConfig.path}
           pointer={`${page.routeConfig.name}.nav_title`}
-          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-md-padding-Vxs u-md-padding-Hm u-block' />
+          className='u-sm-padding-Hxs u-sm-padding-Vxxs u-lg-padding-Vxs u-lg-padding-Hm u-block' />
         </li>
       );
     });
@@ -107,7 +107,7 @@ export default class Header extends React.Component {
 
   getLinkClassName() {
     return classNames(
-      'u-sm-padding-Vxs u-md-padding-Vl u-block u-sm-text-semi',
+      'u-sm-padding-Vxs u-md-padding-Vxs u-lg-padding-Vl u-block u-sm-text-semi u-md-text-semi',
       {
         'u-link-invert': this.props.isInverted,
         'u-link-default': !this.props.isInverted,
@@ -128,7 +128,7 @@ export default class Header extends React.Component {
   getNavClassName() {
     return classNames(
       {
-        'u-sm-hidden': !this.state.isActive,
+        'u-sm-hidden u-md-hidden': !this.state.isActive,
       }
     );
   }
@@ -137,7 +137,7 @@ export default class Header extends React.Component {
     return classNames(
       'nav__toggle',
       'u-block',
-      'u-md-hidden',
+      'u-lg-hidden',
       {
         'nav__toggle--active': this.state.isActive,
       }
@@ -393,23 +393,23 @@ export default class Header extends React.Component {
             <span className="nav__toggle-slice nav__toggle-slice--bottom u-block"></span>
           </button>
           <div className={ this.getNavClassName() }>
-            <div className='u-pull-start u-sm-size-full'>
-              <nav className='nav u-sm-size-full u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
+            <div className='u-pull-start u-sm-size-full u-md-size-full'>
+              <nav className='nav u-sm-size-full u-md-size-full u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
                 <Translation locales={this.context.availableLocales}
                 exclude={['en-GB']}
                 tagName='div'
-                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                className='nav__item u-pull-start u-display-block u-sm-size-full u-md-size-full u-relative'>
                   { this.renderProductPopover() }
                 </Translation>
                 <Translation locales='en-GB'
                 tagName='div'
-                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                className='nav__item u-pull-start u-display-block u-sm-size-full u-md-size-full u-relative'>
                   { this.renderSolutionsPopover() }
                 </Translation>
 
                 <IfLinkExists to='pricing'
                 tagName='div'
-                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                className='nav__item u-pull-start u-display-block u-sm-size-full u-md-size-full u-relative'>
                   <Link to='pricing'
                   className={ this.getLinkClassName() }>
                     <div className='nav__item-link u-relative'>
@@ -421,7 +421,7 @@ export default class Header extends React.Component {
                 <Translation locales={this.context.availableLocales}
                 exclude={['en-GB']}
                 tagName='div'
-                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                className='nav__item u-pull-start u-display-block u-sm-size-full u-md-size-full u-relative'>
                   <IfLinkExists to='stories'
                   tagName='div'>
                     <Link to='stories'
@@ -431,7 +431,7 @@ export default class Header extends React.Component {
                 </Translation>
                 <Translation locales={['en-GB']}
                 tagName='div'
-                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                className='nav__item u-pull-start u-display-block u-sm-size-full u-md-size-full u-relative'>
                   <HeaderNavGroup toggle={(
                     <a className={ this.getLinkClassName() }>
                       <div className={ this.getPopoverLinkClassName() }>
@@ -454,7 +454,7 @@ export default class Header extends React.Component {
 
                 <IfLinkExists to='developers'
                 tagName='div'
-                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                className='nav__item u-pull-start u-display-block u-sm-size-full u-md-size-full u-relative'>
                   <Link to='developers'
                   className={ this.getLinkClassName() }>
                     <div className='nav__item-link u-relative'>
@@ -464,35 +464,35 @@ export default class Header extends React.Component {
                 </IfLinkExists>
               </nav>
             </div>
-            <div className='u-sm-size-full u-pull-end align-btn-small'>
-              <nav className='nav u-sm-size-full u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
+            <div className='u-sm-size-full u-md-size-full u-pull-end align-btn-small'>
+              <nav className='nav u-sm-size-full u-md-size-full u-pull-start u-color-primary u-text-xxs u-text-light u-text-no-smoothing'>
                 <Translation locales={['en-GB', 'fr-FR']}
                 tagName='div'
-                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                className='nav__item u-pull-start u-display-block u-sm-size-full u-md-size-full u-relative'>
                   { this.renderHelpResourcesPopover() }
                 </Translation>
 
                 <Translation locales={['en-GB', 'fr-FR']}
                 tagName='div'
-                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                className='nav__item u-pull-start u-display-block u-sm-size-full u-md-size-full u-relative'>
                   { this.renderAboutUsPopover() }
                 </Translation>
 
                 <Translation locales={this.context.availableLocales}
                 exclude={['en-GB', 'fr-FR']}
                 tagName='div'
-                className='nav__item u-md-margin-Rm u-pull-start u-display-block u-sm-size-full u-relative'>
+                className='nav__item u-pull-start u-display-block u-sm-size-full u-md-size-full u-relative'>
                   { this.renderMorePopover() }
                 </Translation>
               </nav>
 
               <IfLocale hasInstantSignup
               tagName='ul'
-              className='u-pull-start u-cf u-sm-size-full'>
-                <li className='u-pull-start u-sm-size-full'>
+              className='u-pull-start u-cf u-sm-size-full u-md-size-full'>
+                <li className='u-pull-start u-sm-size-full u-md-size-full'>
                   <Href to='signin.path'
                   className={ classNames(
-                      'nav-btn btn btn--small u-sm-margin-Vm u-text-light u-text-xxs u-relative u-md-display-inline-block u-sm-display-block',
+                      'nav-btn btn btn--small u-margin-Vm u-text-light u-text-xxs u-relative u-lg-display-inline-block u-block',
                       'u-text-transform-none u-text-no-smoothing',
                       {
                         'btn--invert-hollow': this.props.isInverted,

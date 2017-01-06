@@ -14,7 +14,7 @@ export default class HeaderNavGroup extends React.Component {
     return (
       <div>
         <Accordion children={this.props.children} toggle={this.props.toggle} />
-        <Popover children={this.props.children} toggle={this.props.toggle} smHidden="true" />
+        <Popover children={this.props.children} toggle={this.props.toggle} styles="u-sm-hidden u-md-hidden" />
       </div>
     );
   }

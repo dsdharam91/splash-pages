@@ -2,7 +2,7 @@
   font-family: $font-family-base;
   color: $xdark-gray;
 
-  @include breakpoint-medium {
+  @include breakpoint-large {
     padding-left: $space-large;
   }
 
@@ -59,6 +59,16 @@
         top: -6px;
         transform: rotate(45deg);
       }
+    }
+  }
+
+  &__item {
+    @include breakpoint-large {
+      margin-right: $space-medium;
+    }
+
+    &:last-child {
+      margin-right: 0;
     }
   }
 

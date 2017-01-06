@@ -102,6 +102,16 @@ h6, .u-text-xxs {
   text-align: right;
 }
 
+@include breakpoint-large {
+  .u-lg-text-center {
+    text-align: center;
+  }
+
+  .u-lg-text-semi {
+    font-weight: $font-weight-semi;
+  }
+}
+
 @include breakpoint-medium {
   .u-md-text-center {
     text-align: center;
@@ -167,6 +177,40 @@ h6, .u-text-xxs {
   word-break: break-all;
   word-break: break-word;
   word-wrap: break-word;
+}
+
+@include breakpoint-large {
+  .u-lg-text-xxl {
+    font-size: $font-size-xxlarge;
+  }
+
+  .u-lg-text-xl {
+    font-size: $font-size-xlarge;
+  }
+
+  .u-lg-text-l {
+    font-size: $font-size-large;
+  }
+
+  .u-lg-text-m {
+    font-size: $font-size-medium;
+  }
+
+  .u-lg-text-s {
+    font-size: $font-size-small;
+  }
+
+  .u-lg-text-xs {
+    font-size: $font-size-xsmall;
+  }
+
+  .u-lg-text-xxs {
+    font-size: $font-size-xxsmall;
+  }
+
+  .u-lg-text-xxxs {
+    font-size: $font-size-xxxsmall;
+  }
 }
 
 @include breakpoint-medium {

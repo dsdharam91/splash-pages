@@ -1,5 +1,11 @@
+@mixin breakpoint-large {
+  @media (min-width: #{$breakpoint-medium}) {
+    @content;
+  }
+}
+
 @mixin breakpoint-medium {
-  @media (min-width: #{$breakpoint-small}) {
+  @media (min-width: #{$breakpoint-small}) and (max-width: #{$breakpoint-medium - 1}) {
     @content;
   }
 }

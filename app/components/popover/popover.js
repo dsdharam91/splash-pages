@@ -9,7 +9,7 @@ export default class Popover extends React.Component {
     children: React.PropTypes.node.isRequired,
     toggle: React.PropTypes.node.isRequired,
     className: React.PropTypes.string,
-    smHidden: React.PropTypes.string,
+    styles: React.PropTypes.string,
   }
 
   static keyCodes = {
@@ -77,16 +77,12 @@ export default class Popover extends React.Component {
       'u-is-visible': this.state.isActive,
     };
 
-    const popoverWrapperClasses = {
-      'u-sm-hidden': this.props.smHidden,
-    };
-
     const style = {
       outline: 'none',
     };
 
     return (
-      <span className={classNames(popoverWrapperClasses)}>
+      <span className={this.props.styles}>
         <span className='u-inline-block'>
           <span onClick={this.handleClick}>
             {this.props.toggle}
