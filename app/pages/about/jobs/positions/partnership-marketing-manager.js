@@ -7,7 +7,7 @@ export default class PartnershipMarketingManager extends React.Component {
   render() {
     return (
       <JobsPage>
-        <h3 className='u-text-heading-light u-text-m u-color-heading'>Partnership Marketing Manager</h3>
+        <h3 className='u-text-heading-light u-text-m u-color-heading'>Marketing Manager - Partnerships</h3>
         <p className='para'>
           At GoCardless we are looking to scale from processing $1 billion a year to over $10 billion. Our vision
           is to create a global payments network, making payments simpler on the internet no matter what country you're in.

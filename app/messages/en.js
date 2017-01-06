@@ -662,11 +662,15 @@ export default {
     description: '',
   },
   jobs_partnership_marketing_manager: {
-    title: 'Partnership Marketing Manager',
+    title: 'Marketing Manager - Partnerships',
     description: '',
   },
   jobs_marketing_manager_accountants: {
-    title: 'Marketing Manager Accountants',
+    title: 'Marketing Manager - Accountants',
+    description: '',
+  },
+  jobs_product_marketing_executive: {
+    title: 'Product Marketing Executive',
     description: '',
   },
   jobs_solutions_engineer: {
