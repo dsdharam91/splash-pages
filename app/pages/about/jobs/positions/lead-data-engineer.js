@@ -15,33 +15,33 @@ export default class LeadDataEngineer extends React.Component {
         <p className="para">You will lead the Data team, making sure it can fulfil its objectives in four main areas: BI and reporting infrastructure, internal data products, customer-facing data products, and internal consultancy for other teams.</p>
 
         <p className="para">Your main responsibilities will be:</p>
-        <ul>
-          <li className="list">Defining long-term strategy and managing the data roadmap by gathering requirements from other teams, and working with Product to guide proactive data projects.</li>
-          <li className="list">Coaching and mentoring our team of two Data Scientists.</li>
-          <li className="list">Contributing directly to data projects. Past projects include building a fraud detection system, and rebuilding our BI &amp; reporting system to make it easier for everyone at GoCardless to access data.</li>
-          <li className="list">Ensuring operational responsibilities are being fulfilled, and driving the adoption of best practices in testing, security, and monitoring for availability and correctness of data.</li>
-          <li className="list">Hiring to build out the Data team.</li>
+        <ul className="list u-margin-Tm">
+          <li>Defining long-term strategy and managing the data roadmap by gathering requirements from other teams, and working with Product to guide proactive data projects.</li>
+          <li>Coaching and mentoring our team of two Data Scientists.</li>
+          <li>Contributing directly to data projects. Past projects include building a fraud detection system, and rebuilding our BI &amp; reporting system to make it easier for everyone at GoCardless to access data.</li>
+          <li>Ensuring operational responsibilities are being fulfilled, and driving the adoption of best practices in testing, security, and monitoring for availability and correctness of data.</li>
+          <li>Hiring to build out the Data team.</li>
         </ul>
         <h4 className="u-text-s u-margin-Bxs u-margin-Tm">Who we're looking for</h4>
 
         <p className="para">We want to work with collaborative leaders, who have a strong background in software engineering and data systems. We’re looking for someone who learns fast, communicates clearly, enjoys working with others, and is a pragmatic decision-maker.</p>
 
         <p className="para">You may be a good fit if:</p>
-        <ul>
-          <li className="list">You have strong Python skills.</li>
-          <li className="list">You have managed and shipped technical projects. </li>
-          <li className="list">You’ve been involved in setting long-term strategy.</li>
-          <li className="list">You’ve built and maintained performant data systems.</li>
-          <li className="list">You’re an advocate for innovation and engineering best practice.</li>
-          <li className="list">You’re passionate about coaching, mentoring, and helping teammates advance in their careers.</li>
+        <ul className="list u-margin-Tm">
+          <li>You have strong Python skills.</li>
+          <li>You have managed and shipped technical projects. </li>
+          <li>You’ve been involved in setting long-term strategy.</li>
+          <li>You’ve built and maintained performant data systems.</li>
+          <li>You’re an advocate for innovation and engineering best practice.</li>
+          <li>You’re passionate about coaching, mentoring, and helping teammates advance in their careers.</li>
         </ul>
 
         <p className="para">Bonus points for:</p>
-        <ul>
-          <li className="list">Experience designing data warehouses and assembling data pipelines, including familiarity with tools such as Amazon RedShift and Google BigQuery.</li>
-          <li className="list">Computer Science degree, or equivalent experience.</li>
-          <li className="list">Experience with Python's core data science libraries, e.g. pandas, scikit-learn etc.</li>
-          <li className="list">Proven experience in hiring &amp; building out awesome teams.</li>
+        <ul className="list u-margin-Tm">
+          <li>Experience designing data warehouses and assembling data pipelines, including familiarity with tools such as Amazon RedShift and Google BigQuery.</li>
+          <li>Computer Science degree, or equivalent experience.</li>
+          <li>Experience with Python's core data science libraries, e.g. pandas, scikit-learn etc.</li>
+          <li>Proven experience in hiring &amp; building out awesome teams.</li>
         </ul>
 
       <p className="para">Our team come from a variety of backgrounds and we welcome persity – if you’re unsure, please apply. We offer a competitive salary and options package, commensurate with your experience.</p>
