@@ -673,6 +673,10 @@ export default {
     title: 'Product Marketing Executive',
     description: '',
   },
+  jobs_product_marketing_executive: {
+    title: 'Product Marketing Executive',
+    description: '',
+  },
   jobs_solutions_engineer: {
     title: 'Solutions Engineer',
     description: '',
